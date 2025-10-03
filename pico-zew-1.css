@@ -1,0 +1,84 @@
+/* pico-zew.css
+   Palette sampled from screenshots:
+   - Accent lime: #C8D400 (also #CBD800, #BABB2A near it)
+   - Aqua card bg: #D5ECF0 (with #BDD0D3 accents)
+   - Greys: #161518, #56555B, #676663, #444042
+*/
+
+/* Light scheme (default) */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  /* Brand / action */
+  --primary: #C8D400;                 /* lime accent from CTAs/cards */
+  --primary-hover: #BABB2A;           /* a touch darker lime */
+  --primary-focus: rgba(200, 212, 0, 0.30);
+  --primary-inverse: #1A1C1E;         /* legible on lime */
+
+  /* Surface & content */
+  --background-color: #ffffff;        /* page background */
+  --card-background-color: #D5ECF0;   /* aqua info tiles */
+  --border-color: #BDD0D3;            /* subtle aqua border */
+  --muted-color: #56555B;             /* body text grey */
+
+  /* Pico hooks */
+  --form-element-active-border-color: var(--primary);
+  --form-element-focus-color: var(--primary-focus);
+  --switch-color: var(--primary-inverse);
+  --switch-checked-background-color: var(--primary);
+}
+
+/* Dark scheme (auto when user prefers dark) */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --primary: #C8D400;
+    --primary-hover: #BABB2A;
+    --primary-focus: rgba(200, 212, 0, 0.35);
+    --primary-inverse: #0E0F11;
+
+    --background-color: #161518;      /* site’s deep charcoal */
+    --card-background-color: #444042; /* elevated card on dark */
+    --border-color: #56555B;          /* neutral grey stroke */
+    --muted-color: #95A1A3;           /* light grey for text */
+
+    --form-element-active-border-color: var(--primary);
+    --form-element-focus-color: var(--primary-focus);
+    --switch-color: var(--primary-inverse);
+    --switch-checked-background-color: var(--primary);
+  }
+}
+
+/* Dark scheme (forced) */
+[data-theme="dark"] {
+  --primary: #C8D400;
+  --primary-hover: #BABB2A;
+  --primary-focus: rgba(200, 212, 0, 0.35);
+  --primary-inverse: #0E0F11;
+
+  --background-color: #161518;
+  --card-background-color: #444042;
+  --border-color: #56555B;
+  --muted-color: #95A1A3;
+
+  --form-element-active-border-color: var(--primary);
+  --form-element-focus-color: var(--primary-focus);
+  --switch-color: var(--primary-inverse);
+  --switch-checked-background-color: var(--primary);
+}
+
+/* Optional helpers that mirror the captured hues */
+:root {
+  --zew-lime: #C8D400;
+  --zew-lime-2: #CBD800;
+  --zew-olive: #BABB2A;
+  --zew-gold-olive: #9C8B4F;
+
+  --zew-aqua: #D5ECF0;
+  --zew-aqua-2: #BDD0D3;
+
+  --zew-charcoal: #161518;
+  --zew-grey-1: #56555B;
+  --zew-grey-2: #676663;
+  --zew-grey-3: #444042;
+}
+
+/* Example components align with Pico variables; no extra rules required */

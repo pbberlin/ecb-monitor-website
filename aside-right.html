@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UTF-8 Arrow Demo</title>
+
+    <link rel="stylesheet" href="./css/main-fonts.css" />
+
+    <style>
+        :root {
+            --text:  #4a4f52;
+            --muted: #6a6f73;
+            --icon-font-size: 1.6rem;
+        }
+
+        body {
+            color: var(--text);
+            margin: 24px;
+        }
+
+
+        .aside h2 {
+            font-weight: 700;
+            line-height: 1.15;
+            font-size: 1.8rem;
+            margin: 0 0 22px;
+        }
+
+        .aside h4 {
+            letter-spacing: 0.16em;
+            font-size: 0.85rem;
+            margin: 0 0 10px;
+            color: var(--muted);
+        }
+
+
+        .section-download {
+            display:               grid;
+            grid-template-columns: 32px 1fr;
+            gap:                   12px;
+            align-items:           start;
+            margin-bottom:         48px;
+        }
+
+
+        .section-download a {
+            color: var(--muted);
+            text-decoration: none;
+            border-bottom: 2px solid var(--muted);
+        }
+
+
+        .section-download .icon {
+            font-size:   28px;
+            line-height: 1;
+            width:       32px;
+            height:      32px;
+            display:     grid;
+            place-items: center;
+            border-radius: 2px;
+        }
+
+
+
+        .section-download .icon1::before {
+            /* simple UTF-8 icon: box with arrow ↗ (U+2197) */
+            content: "\1F86E";
+            transform: translate(5px, 6px);
+            border: 2px  solid var(--muted);
+        }
+
+
+        .section-download .icon2::before {
+            content: "\1F86A";
+            transform: translate(5px, 6px);
+        }
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <aside class="section-download">
+        <div class="icon icon1" aria-hidden="true"></div>
+        <div>
+            <a href="#" download>Da&shy;tei herunter&shy;laden</a>
+            <div style="color: var(--muted); font-size: 0.95rem;">(PDF, 58&nbsp;KB, nicht barrierefrei)</div>
+        </div>
+    </aside>
+
+
+    <aside class="section-download">
+        <div class="icon icon2" aria-hidden="true"></div>
+        <div>
+            <a href="#">Institutsleitung</a>
+            <div style="color: var(--muted); font-size: 0.95rem;">(PDF, 58&nbsp;KB, nicht barrierefrei)</div>
+        </div>
+        <div class="icon icon2" aria-hidden="true"></div>
+        <div>
+            <a href="#">Stabsstelle</a>
+            <div style="color: var(--muted); font-size: 0.95rem;">(PDF, 58&nbsp;KB, nicht barrierefrei)</div>
+        </div>
+        <div class="icon icon2" aria-hidden="true"></div>
+        <div>
+            <a href="#">Gremien</a>
+            <div style="color: var(--muted); font-size: 0.95rem;">(PDF, 58&nbsp;KB, nicht barrierefrei)</div>
+        </div>
+    </aside>
+
+
+
+</body>
+
+</html>

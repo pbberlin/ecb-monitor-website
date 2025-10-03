@@ -1,0 +1,250 @@
+[
+  {
+    "data": {
+      "id": "st101",
+      "label": "Search\nGoogle",
+      "parent": "parent1"
+    },
+    "position": {
+      "x": -73.84951205194608,
+      "y": -0.3590635345489055
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": false,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "clean",
+      "label": "Clean",
+      "parent": "parent1"
+    },
+    "position": {
+      "x": 35.51015953821763,
+      "y": -0.3590635345489055
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": false,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "analyze",
+      "label": "Analyze"
+    },
+    "position": {
+      "x": 144.87589806211187,
+      "y": -0.3590635345489055
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": false,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "publish",
+      "label": "Publish"
+    },
+    "position": {
+      "x": 254.2928373496226,
+      "y": -0.3590635345489055
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": false,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "storeBox",
+      "label": "Storage"
+    },
+    "position": {
+      "x": -230.29283734962257,
+      "y": -14.000000000000014
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": false,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "raw",
+      "label": "Raw",
+      "parent": "storeBox"
+    },
+    "position": {
+      "x": -230.29283734962257,
+      "y": -84.18274695002611
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": false,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "curated",
+      "label": "Curated",
+      "parent": "storeBox"
+    },
+    "position": {
+      "x": -230.29283734962257,
+      "y": 70.18274695002609
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": false,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "edg1",
+      "source": "st101",
+      "target": "clean",
+      "label": "ETL"
+    },
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "edg2",
+      "source": "clean",
+      "target": "analyze",
+      "label": "features"
+    },
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "edg3",
+      "source": "analyze",
+      "target": "publish",
+      "label": "reports"
+    },
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "edg4",
+      "source": "st101",
+      "target": "raw",
+      "label": "archive"
+    },
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "edg5",
+      "source": "st101",
+      "target": "curated",
+      "label": "some-label"
+    },
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "id": "parent1",
+      "label": "first two"
+    },
+    "position": {
+      "x": -19.16967625686422,
+      "y": -14.359063534548907
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbable": true,
+    "pannable": false,
+    "classes": ""
+  }
+]

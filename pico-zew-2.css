@@ -1,0 +1,53 @@
+/* ZEW → Pico CSS theme override
+   Source for brand mark: ZEW press/logo downloads (SVG/EPS). Primary blue ≈ #0067B1. */
+
+/* Light scheme (default) */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --primary: #0067B1;                 /* ZEW blue */
+  --primary-hover: #005a9d;           /* ~10% darker */
+  --primary-focus: rgba(0, 103, 177, 0.25);
+  --primary-inverse: #ffffff;
+
+  /* Optional neutrals tuned to zew.de look */
+  --background-color: #ffffff;
+  --muted-color: #556070;
+  --card-background-color: #f6f8fb;
+  --border-color: #e2e7ee;
+}
+
+/* Dark scheme (auto if user prefers dark) */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --primary: #4db0e6;               /* lighter for contrast on dark */
+    --primary-hover: #77c3ee;
+    --primary-focus: rgba(77, 176, 230, 0.35);
+    --primary-inverse: #051018;
+
+    --background-color: #0b121a;
+    --muted-color: #a8b3c2;
+    --card-background-color: #111a24;
+    --border-color: #243140;
+  }
+}
+
+/* Dark scheme (forced) */
+[data-theme="dark"] {
+  --primary: #4db0e6;
+  --primary-hover: #77c3ee;
+  --primary-focus: rgba(77, 176, 230, 0.35);
+  --primary-inverse: #051018;
+
+  --background-color: #0b121a;
+  --muted-color: #a8b3c2;
+  --card-background-color: #111a24;
+  --border-color: #243140;
+}
+
+/* Wire up a few Pico hooks explicitly */
+:root {
+  --form-element-active-border-color: var(--primary);
+  --form-element-focus-color: var(--primary-focus);
+  --switch-color: var(--primary-inverse);
+  --switch-checked-background-color: var(--primary);
+}

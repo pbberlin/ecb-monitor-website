@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZEW Major Hues</title>
+  <style>
+    :root {
+      --gap:  14px;
+      --chip: 68px;
+      --font: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font);
+      background: #fff;
+      color:      #222;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 18px 60px;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin: 0 0 8px;
+    }
+
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: var(--gap);
+    }
+
+    @media (max-width: 720px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card {
+      border: 1px solid #e6e6e6;
+      border-radius: 12px;
+      padding: 14px;
+      background: #fafafa;
+    }
+
+    .title {
+      font-weight: 700;
+      margin: 0 0 10px;
+      font-size: 14px;
+      letter-spacing: 0.02em;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: var(--chip) 1fr;
+      gap: 12px;
+      align-items: center;
+      padding: 8px;
+      border-radius: 10px;
+      background: #fff;
+      border: 1px solid #eee;
+    }
+
+    .row+.row {
+      margin-top: 10px;
+    }
+
+    .swatch {
+      width: var(--chip);
+      height: var(--chip);
+      border-radius: 8px;
+      /* border: 1px solid rgba(0, 0, 0, 0.08); */
+    }
+
+    .meta {
+      display: flex;
+      flex-direction: column;
+      border-radius: 0.3rem;
+    }
+
+    .hex {
+      font-weight: 700;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+    }
+
+    .rgb {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+      font-size: 12px;
+      color: #333;
+    }
+
+    .area {
+      color: #666;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>ZEW Major Hues</h1>
+    <div class="grid">
+      <div class="card">
+        <div class="title">Colors</div>
+
+        <div class="row">
+          <img class="swatch"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAYUlEQVR4nO3PMQ0AIADAMMAt/hCICI6GZFWwzbHP+NnSAa8a0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0C74YQGdbTvy+AAAAABJRU5ErkJggg=="
+            alt="#0069B4">
+          <div class="meta">
+            <div class="hex">#0069B4</div>
+            <div class="rgb">rgb(0, 105, 180)</div>
+          </div>
+        </div>
+        <div class="row">
+          <img class="swatch"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAZElEQVR4nO3PQQ3AIADAQMC/PVzwQMJE8Lgs6Slo5z53/NnSAa8a0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0D4fVQMx+b+R2QAAAABJRU5ErkJggg=="
+            alt="#D5ECF0">
+          <div class="meta">
+            <div class="hex">#D5ECF0</div>
+            <div class="rgb">rgb(213, 236, 240)</div>
+          </div>
+        </div>
+        <div class="row">
+          <img class="swatch"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAYklEQVR4nO3PMQ0AIADAMMC/MAQgCBEcDcmqYJv7jK8tHfCqAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAe0C6gcCHFP7Ze4AAAAASUVORK5CYII="
+            alt="#C8D400">
+          <div class="meta">
+            <div class="hex">#C8D400</div>
+            <div class="rgb">rgb(200, 212, 0)</div>
+          </div>
+        </div>
+        <div class="row">
+          <img class="swatch"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAY0lEQVR4nO3PQQ3AIADAQEAh2vnjZSJ4XJb0FLTz3D3+bOmAVw1oDWgNaA1oDWgNaA1oDWgNaA1oDWgNaA1oDWgNaA1oDWgNaA1oDWgNaA1oDWgNaA1oDWgNaA1oDWgNaA1oH5LYAn/5xNYPAAAAAElFTkSuQmCC"
+            alt="#D2DD50">
+          <div class="meta">
+            <div class="hex">#D2DD50</div>
+            <div class="rgb">rgb(210, 221, 80)</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <img class="swatch" style="background-color: rgb(122, 123, 98);">
+          <div class="meta">
+            <div class="hex">#7A7B62</div>
+            <div class="rgb">rgb(122, 123, 98)</div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <img class="swatch"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAYklEQVR4nO3PQQ3AIADAQEA5MsDtRPC4LOkpaOe5e/zZ0gGvGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtA+3qkCMX9cIMAAAAAASUVORK5CYII="
+            alt="#989980">
+          <div class="meta">
+            <div class="hex">#989980</div>
+            <div class="rgb">rgb(152, 153, 128)</div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="card">
+        <div class="title">Greys</div>
+        <div class="row">
+          <img class="swatch"  style="border: 1px solid black" >
+          <div class="meta" >
+            <div class="hex">#FFFFFF</div>
+            <div class="rgb">rgb(255, 255, 255)</div>
+          </div>
+        </div>
+        <div class="row">
+          <img class="swatch"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAY0lEQVR4nO3PsQ3AIADAMOBzJgae7hEMVqX4gmTuc8efLR3wqgGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQHtAzb4AhMEEg+uAAAAAElFTkSuQmCC"
+            alt="#81878B">
+          <div class="meta">
+            <div class="hex">#81878B</div>
+            <div class="rgb">rgb(129, 135, 139)</div>
+          </div>
+        </div>
+        <div class="row">
+          <img class="swatch"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAYUlEQVR4nO3PQQkAIADAQDWl2D+IIXwcwi7BNs/e42dLB7xqQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQGtAa0BrQLtkUAGK3PrZigAAAABJRU5ErkJggg=="
+            alt="#5A5858">
+          <div class="meta">
+            <div class="hex">#5A5858</div>
+            <div class="rgb">rgb(90, 88, 88)</div>
+          </div>
+        </div>
+        <div class="row">
+          <img class="swatch" style="background-color:#2B2B2B ;">
+          <div class="meta" astyle="background-color:#2B2B2B ;">
+            <div class="hex">#2B2B2B</div>
+            <div class="rgb">rgb(43, 43, 43)</div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="card">
+        <div class="title">Optional</div>
+        <div class="row">
+          <img class="swatch" style="background-color: rgb(134, 118, 90);">
+          <div class="meta">
+            <div class="hex">#86765A</div>
+            <div class="rgb">rgb(134, 118, 90)</div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Text Flow Around Irregular Shape — ECB</title>
+
+  <!-- Pico (optional) -->
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@2/css/pico.min.css" />
+  <link rel="stylesheet" href="./css/main-fonts.css" />
+
+  <style>
+    :root {
+      --blueLight: oklch(0.92 0.06 225);
+      --blueDeep:  oklch(0.72 0.09 225);
+
+      --blueDeepA1:  oklch(0.72 0.09 225 / 0.11);
+      --blueDeepA2:  oklch(0.72 0.09 225 / 0.13);
+
+      --col2A1:  oklch(0.72 0.09 351 / 0.3);
+      --col2A2:  oklch(0.72 0.09 351 / 0.7);
+
+      --shapeWidth:  min(42vw, 520px);
+      --shapeHeight: clamp(280px, 50vh, 640px);
+    }
+
+    .wrap {
+      max-width: 1000px;
+      margin-inline: auto;
+      padding: 1rem;
+    }
+
+    /* The floating “ECB” shape that text flows around */
+    .shapeEcb {
+      float: left;
+      width:  var(--shapeWidth);
+      height: var(--shapeHeight);
+      margin: 0 2rem 1rem 0;
+      border-radius: 12px;
+
+
+
+
+      /* Background: real photo over a blue gradient.
+         Swap the URL for your file or comment this out to keep the pure polygon. */
+      background:
+        linear-gradient(
+            217deg, 
+            var(--blueDeepA1) 50%,
+            var(--blueDeepA2) 90%,
+             transparent  99%
+        ),
+        url("img/ecb/ecb.jpg") center / cover no-repeat ;
+
+      /* The visual clipping (what you *see*). */
+      clip-path: polygon(
+          0%    0%,
+         38%    0%,
+         65%   50%,
+         46%  100%,
+          0%  100%
+      );
+
+      /* The *text wrap* outline (what paragraphs flow around).
+         Keep this roughly in sync with clip-path. */
+      shape-outside: polygon(
+         0%     0%,
+        38%     0%,
+        65%    50%,
+        46%   100%,
+         0%   100%
+      );
+      shape-margin: 12px;
+    }
+
+    /* Pure polygon (no image) variant; use <div class="shapePoly"> instead of .shapeEcb */
+    .shapePoly {
+      float: left;
+      width:  var(--shapeWidth);
+      height: var(--shapeHeight);
+      margin: 0 2rem 1rem 0;
+      background:    linear-gradient(180deg, var(--blueLight), var(--blueDeep));
+      border-radius: 12px;
+      clip-path:     polygon(0% 0%, 66% 0%, 54% 50%, 66% 100%, 0% 100%);
+      shape-outside: polygon(0% 0%, 66% 0%, 54% 50%, 66% 100%, 0% 100%);
+      shape-margin: 12px;
+    }
+
+    /* Mobile: stack image on top; disable float/shape for readability */
+    @media (max-width: 720px) {
+      .shapeEcb,
+      .shapePoly {
+        float: none;
+        width: 100%;
+        height: clamp(220px, 40vh, 420px);
+        margin: 0 0 1rem 0;
+        clip-path: none;
+        shape-outside: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <!-- Use ONE of the following:
+         1) Real/photo silhouette with gradient (edit URL)
+         2) Pure polygon (no image) by switching to class="shapePoly" -->
+
+    <figure class="shapeEcb" role="img" aria-label="ECB-inspired silhouette"></figure>
+    <!-- <figure class="shapePoly" role="img" aria-label="Irregular polygon silhouette"></figure> -->
+
+    <p style="font-size: 130%;">Text flow along a non-rectangular shape</p>
+    <p>
+      Non-rectangular vignettes - illustrating the subject matter from a certain perspective. 
+      Just using the ECB main building is too trivial - there is no good real connection to the gist of the text.
+
+      Several pictures and elements need to be combined to a meaningful way - better examples follow.
+      
+      Upload color map picture below to Chat-GPT. Then upload another picture of your subject matter.
+      
+      Then instruct to "stylize" the picture and use the colors from the color map. 
+
+      The picture can be cut to any shape - with text flowing around it.
+
+      The animation is just for demonstration - to assess various colors and effects.  
+      <br> 
+
+      
+    </p>
+    <p>
+        
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere, mi sed ultrices interdum,
+      nibh nulla lacinia arcu, eget malesuada augue lorem id nulla. Suspendisse potenti. Etiam gravida
+      malesuada mi, eu luctus ante egestas et. Donec pharetra, nibh vitae accumsan fermentum, lorem urna
+      sodales dolor, sed ultrices eros ligula sed arcu.
+    </p>
+
+    <img src="./img/colors-source-minimal.png" alt="" width="200px">
+
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam
+      aliquet, sapien quis cursus commodo, nibh metus hendrerit neque, vitae feugiat nibh lacus non neque.
+      Nullam tristique, risus quis facilisis posuere, felis ante luctus orci, at dapibus risus lorem vitae
+      lacus. Morbi sit amet eros vel augue congue congue.
+    </p>
+    <p>
+      Cras varius, justo sed convallis convallis, lectus dolor rhoncus mi, eget auctor tortor nisi nec nunc.
+      Curabitur at turpis in urna dictum blandit. Fusce sagittis, dui sed convallis faucibus, velit massa
+      sagittis neque, nec finibus nulla massa sed augue. Aenean viverra, metus in semper consequat, mauris
+      quam volutpat erat, quis rutrum neque erat sed tortor.
+    </p>
+    <p>
+      In hac habitasse platea dictumst. Integer fringilla, mi ut aliquet cursus, lorem odio lacinia odio,
+      a viverra tortor ipsum vitae velit. Curabitur porttitor, libero a eleifend condimentum, turpis urna
+      luctus sapien, non sollicitudin dolor massa quis lacus.
+    </p>
+  </main>
+
+
+
+<script>
+  (function () {
+    const files = [
+      // "ecb-frame-none.jpg",
+      // "ecb-narrow.jpg",
+      // "ecb-schema.jpg",
+      // "ecb-stylized-2.jpg",
+      "ecb-wide-2.jpg",
+      // "ecb-x1.jpg",
+      // "ecb_blue.jpg",
+      "ecb_gradient_full.jpg",
+      "ecb_grayOlive.jpg",
+      "ecb.jpg",
+      "ecb_lightBlue.jpg",
+      // "ecb_lime.jpg",
+      // "ecb_olive.jpg",
+      // "ecb_two_booms_gradients.jpg",
+      // "ecb_yellowGreen.jpg",
+    ];
+
+
+    const cycleMs = 3000;   // time each image stays visible
+    const fadeMs  = 300;    // crossfade duration
+
+    // ---- helpers ----
+    function makeLayer(z) {
+      const el = document.createElement("div");
+      el.style.position = "absolute";
+      el.style.inset = "0";
+      el.style.backgroundPosition = "center";
+      el.style.backgroundSize = "cover";
+      el.style.backgroundRepeat = "no-repeat";
+      el.style.opacity = z === 1 ? "1" : "0";
+      el.style.transition = "opacity " + fadeMs + "ms ease-in-out";
+      el.style.pointerEvents = "none";
+      return el;
+    }
+
+    function bg(url) {
+      return [
+        "linear-gradient(",
+          "217deg, ",
+          "var(--blueDeepA1) 50%, ",
+          "var(--blueDeepA2) 90%, ",
+          "transparent 99%",
+        "), ",
+        "url('", url, "')"
+      ].join("");
+    }
+
+    // ---- setup ----
+    const host = document.querySelector(".shapeEcb");
+    if (!host) return;
+
+    host.style.position = host.style.position || "relative";
+    host.style.overflow = host.style.overflow || "hidden";
+
+    const a = makeLayer(1);
+    const b = makeLayer(0);
+
+    host.appendChild(a);
+    host.appendChild(b);
+
+    let index = 0;
+    let topIsA = true;
+
+    function setImage(el, fileName) {
+      console.log(`${fileName}`)
+      el.style.backgroundImage = bg("img/ecb/" + fileName);
+    }
+
+    // initial images
+    setImage(a, files[index % files.length]);
+    index = index + 1;
+    setImage(b, files[index % files.length]);
+
+    function tick() {
+      // prepare the hidden layer with next image
+      index = index + 1;
+      const nextFile = files[index % files.length];
+
+      if (topIsA) {
+        setImage(b, nextFile);
+        // crossfade: b over a
+        b.style.opacity = "1";
+        a.style.opacity = "0";
+      } else {
+        setImage(a, nextFile);
+        // crossfade: a over b
+        a.style.opacity = "1";
+        b.style.opacity = "0";
+      }
+
+      topIsA = !topIsA;
+    }
+
+    // start cycling
+    setInterval(tick, cycleMs);
+  })();
+</script>
+
+</body>
+</html>

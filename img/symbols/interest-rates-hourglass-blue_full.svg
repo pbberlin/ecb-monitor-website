@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 231 237" width="231" height="237">
+  <path d="M55 27 L78 120 L53 209 L178 211 L154 120 L180 29 Z" fill="black" />
+  <path d="M55 27 L78 120 L53 209 L178 211 L154 120 L180 29 Z" fill="none" stroke="magenta" stroke-width="2" vector-effect="non-scaling-stroke"/>
+  <rect x="0" y="0" width="231" height="237" fill="none" stroke="orange" stroke-dasharray="6 6" opacity="0.5" vector-effect="non-scaling-stroke"/>
+</svg>
