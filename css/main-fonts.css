@@ -2,7 +2,7 @@
   font-family: "meta pro";
   src:
     url("/fonts/MetaProOTF/MetaPro-Normal.otf") format("opentype"),
-    url("/fonts/MetaProOTF/MtNoLFRo.ttf") format("truetype");
+    url("/fonts/MetaProOTF/MtNoLFRo.ttf")       format("truetype");
   font-weight:  400;
   font-style:   normal;
   font-display: swap;
@@ -63,7 +63,7 @@
 html {
   /* font-family: "meta pro", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; */
   /* font-family: "meta pro", Arial, sans-serif; */
-  font-family: "meta pro", Arial;
+  font-family: "meta pro", Arial, sans-serif;
   /* font-family: Arial; */
   line-height: 1.6;
   font-variant-ligatures: none;
@@ -76,4 +76,9 @@ button,
 select,
 textarea {
   font: inherit;
+}
+
+h3, p, li {
+      color: #575756;
+
 }

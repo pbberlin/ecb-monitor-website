@@ -1735,7 +1735,8 @@ body.no-scroll {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 100px
+    /* width: 100px; */
+    /* width: auto; */
 }
 
 .c-menu-main #c-menu-main__list {

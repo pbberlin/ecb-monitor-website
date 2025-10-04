@@ -921,25 +921,38 @@
             -->
 
 
-            <!-- xxxx  logo -->
-            <a class="c-menu-main__logo" href="/" target="_self">
-                <img
-                    class="u-d:n u-d:b@sm"
-                    src="./img/logo-zew-ezb-transparenzmonitor.png"
-                    alt="logo"
-                    style="height: 52px;  border: 0px solid blue
-                    "
-                >
 
-                <img
-                    class="u-d:n@sm u-d:b"
-                    src="./img/logo-zew-ezb-transparenzmonitor.png"
-                    alt="logo"
-                    style="height: 32px;  border: 0px solid red
-                    "
-                >
+
+
+            <!-- xxxx  zew logo -->
+
+            <a class="c-menu-main__logo" href="https://www.zew.de/" target="_self">
+                <div class="c-logo c-menu-main__logo">
+                    <svg class="u-d:n u-d:b@sm" height="34" role="img" viewBox="0 0 100 34" width="100" xmlns="http://www.w3.org/2000/svg">
+                        <title id="logoTitleHeaderSmall">Logo ZEW</title>
+                        <path
+                            d="M88.615,205.921h-1.6L78.155,182.8l-8.275,23.125h-1.6l-11.729-34h5.278l7.466,23.422,8.176-23.422h1.777L87.321,195.3l7.591-23.377h5.281Z"
+                            fill="#0069b4" transform="translate(-0.193 -171.921)"></path>
+                        <path d="M52.675,176.068v9.319H65.931v3.891H52.675v12.091H69.532v4.12H47.6v-33.54H69.813v4.12Z"
+                            fill="#0069b4" transform="translate(-16.275 -171.87)"></path>
+                        <path d="M36.472,205.49l16.712-29.42H37.443v-4.123h23.35L44.12,201.368h16.6v4.123Z"
+                            fill="#0069b4" transform="translate(-36.472 -171.872)"></path>
+                    </svg>
+                    <svg class="u-d:n@sm u-d:b" height="20" role="img" viewBox="0 0 100 34" width="60" xmlns="http://www.w3.org/2000/svg">
+                        <title id="logoTitleHeaderSmall">Logo ZEW</title>
+                        <path
+                            d="M88.615,205.921h-1.6L78.155,182.8l-8.275,23.125h-1.6l-11.729-34h5.278l7.466,23.422,8.176-23.422h1.777L87.321,195.3l7.591-23.377h5.281Z"
+                            fill="#0069b4" transform="translate(-0.193 -171.921)"></path>
+                        <path d="M52.675,176.068v9.319H65.931v3.891H52.675v12.091H69.532v4.12H47.6v-33.54H69.813v4.12Z"
+                            fill="#0069b4" transform="translate(-16.275 -171.87)"></path>
+                        <path d="M36.472,205.49l16.712-29.42H37.443v-4.123h23.35L44.12,201.368h16.6v4.123Z"
+                            fill="#0069b4" transform="translate(-36.472 -171.872)"></path>
+                    </svg>
+                    <!-- <div class="ac-menu-main__logo">
+                        EZB-Transparenzmonitor 
+                    </div> -->
+                </div>
             </a>
-
             <ul class="c-menu-main__list u-d:f u-d:n@lg">
                 <li class="c-menu-main__list-item">
                     <button class="c-menu-main__searchbtn c-menu-main__btn">
@@ -1062,15 +1075,12 @@
                 </style>
 
                 <main class="wrap">
-
-
-                      <p style="font-size: 150%; font-weight: 700; margin-top: 1.2rem; margin-bottom: 1.2rem"
-                      >Text flow along a non-rectangular shape</p>
-
                     <figure class="shapeEcb" role="img"
                     ></figure>
 
+                    <!-- <figure class="shapePoly" role="img" aria-label="Irregular polygon silhouette"></figure> -->
 
+                    <p style="font-size: 130%;margin-bottom: 0.5rem">Text flow along a non-rectangular shape</p>
                     <p>
                         Non-rectangular vignettes - illustrating the subject matter from a certain perspective.
                         Just using the ECB main building is too trivial - there is no good real connection to the gist of the text.
@@ -1096,6 +1106,14 @@
                         lacus. Morbi sit amet eros vel augue congue congue.
                     </p>
 
+                    <img 
+                        asrc="./img/colors-source-minimal.png"
+                        src="./img/colors-source-zew.png"
+                        style="margin: 0.4rem; height: 90px; max-width: calc(100% - 0.8rem); width: calc(100% - 0.8rem); "
+                    >
+
+
+
                     <p>
                         Cras varius, justo sed convallis convallis, lectus dolor rhoncus mi, eget auctor tortor nisi nec nunc.
                         Curabitur at turpis in urna dictum blandit. Fusce sagittis, dui sed convallis faucibus, velit massa
@@ -1105,16 +1123,6 @@
                         a viverra tortor ipsum vitae velit. Curabitur porttitor, libero a eleifend condimentum, turpis urna
                         luctus sapien, non sollicitudin dolor massa quis lacus.
                     </p>
-                    
-
-                    <img
-                        asrc="./img/colors-source-minimal.png"
-                        src="./img/colors-source-zew.png"
-                        style="margin: 0.4rem; aaheight: 90px; max-width: calc(100% - 0.8rem); width: calc(100% - 0.8rem); "
-                    >
-
-
-
                 </main>
 
 
@@ -1519,7 +1527,7 @@ function normalizeList(ul) {
       continue;
     }
 
-    //
+    // xxxxx
     if (tag === "p") {
       if (node.parentNode === ul) {
 
