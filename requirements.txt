@@ -1,0 +1,4 @@
+Flask
+
+# not possible under windows
+wsgiref
