@@ -1,25 +1,19 @@
-# inside your project
+# Flask web application
+
+```sh
+pip install -r requirements.txt
+# wsgiref fails under windows
+
+# Flask server
+python app.py
+
+# Web Server Gateway Interface (WSGI) 
+python app-wsgiref.py
 
 
-
-
-we need a stinking vite http server to run modules
-
-```bash
-# install npm
-winget install OpenJS.NodeJS.LTS
-
-
-npm init -y
-
-npm i -D vite
-npm install cytoscape cytoscape-fcose cytoscape-html
-
-npm install cytoscape cytoscape-node-html-label
-
-
-
-npm run dev
-# open the http://localhost:5173 URL Vite prints
 
 ```
+
+Open your browser http://localhost:8000
+
+

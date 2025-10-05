@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "meta pro";
+  src:
+    url("/static/fonts/MetaProOTF/MetaPro-Normal.otf") format("opentype"),
+    url("/static/fonts/MetaProOTF/MtNoLFRo.ttf")       format("truetype");
+  font-weight:  400;
+  font-style:   normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-NormalItalic.otf") format("opentype");
+  font-weight:  400;
+  font-style:   italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-Book.otf") format("opentype");
+  font-weight:  300;
+  font-style:   normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-Medium.otf") format("opentype");
+  font-weight:  500;
+  font-style:   normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-MediumItalic.otf") format("opentype");
+  font-weight:  500;
+  font-style:   italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-Bold.otf") format("opentype");
+  font-weight:  700;
+  font-style:   normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-Black.otf") format("opentype");
+  font-weight:  900;
+  font-style:   normal;
+  font-display: swap;
+}
+
+
+
+
+/* every element use meta pro */
+html {
+  /* font-family: "meta pro", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; */
+  /* font-family: "meta pro", Arial, sans-serif; */
+  font-family: "meta pro", Arial, sans-serif;
+  /* font-family: Arial; */
+  line-height: 1.6;
+  font-variant-ligatures: none;
+}
+
+/* Ensure form controls inherit the font as well */
+body,
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+
+h3, p, li {
+      color: #575756;
+
+}
