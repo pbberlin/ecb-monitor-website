@@ -1,4 +1,6 @@
-Flask
+flask
+pandas
+matplotlib
 
 # not possible under windows
 wsgiref
