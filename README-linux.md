@@ -69,6 +69,7 @@ sudo systemctl reload apache2
 
 
 ```bash
+# following dirs are shared between 
 
 sudo mkdir -p /var/www/ecb-app/tmp
 # Set group ownership to www-data
@@ -81,10 +82,18 @@ sudo chmod 2775 /var/www/ecb-app/tmp
 sudo chown -R pbu:www-data /var/www/ecb-app/data/dl
 sudo chmod 2775            /var/www/ecb-app/data/dl
 
+
 # some libraries write stuff - we need to give them temp dirs
 sudo vim /etc/apache2/envvars
 export TMPDIR=/var/www/ecb-app/tmp
 export MPLCONFIGDIR=/var/www/ecb-app/tmp
 
 
+# upload
+*    copy contents of tmp/, not the tmp/ directory itself
+cp -r -f /ecb-watch/var/www/ecb-app/tmp/* /ecb-watch/var/www/ecb-app/
+
+
 ```
+
+

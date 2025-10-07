@@ -85,12 +85,16 @@ def nameIsEgal():
 
 
 
-@app.route('/ecb-speeches')
+@app.route('/download-speeches')
 def fetch():
 
+    yr = 2025
 
-    fPth = dirDl / "speeches.pkl"
-    reload  = False
+    fPth = dirDl / f"speeches-{yr}.pkl"
+
+    # print(f"file name {fPth}")
+
+    reload   = False
     speeches = None
 
     if fPth.exists():
@@ -102,11 +106,10 @@ def fetch():
 
     if reload:
         # https://bis-med-it.github.io/gingado/datasets.html
-        speeches = load_CB_speeches(2020, cache=False)
+        speeches = load_CB_speeches(yr, cache=False)
         speeches.to_pickle(fPth)
     else:
         speeches = pd.read_pickle(fPth)
-
 
 
 
@@ -122,10 +125,19 @@ def fetch():
         hd.at[i, "description"] = truncateUtf8(desc, 128)
 
 
+    # hd      = speeches.tail(n=4)
+
+
+    cnt  = ""
+    cnt += f"Reloaded {reload} <br>"
+    cnt += hd.to_html()
+    # cnt += f"<pre>  {hd} </pre>"
+    cnt += f"<pre>  {fPth} </pre>"
+
     return render_template(
             "index.html",
             title   =  "EZB Transparenzmonitor",
-            content = f"Reloaded {reload} <br>  {hd.to_html()}  <pre>  {hd} </pre>",
+            content = cnt,
         )
 
 

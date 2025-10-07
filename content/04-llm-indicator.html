@@ -1,0 +1,119 @@
+<!-- xxxx content start  -->
+<main id="main">
+
+    <br>
+<!-- 
+    <ul class="o-grid o-grid-1-1@sm o-grid-1-1-1@lg">
+        <li class="ce-link-box__item ce-link-box__item--external">
+            <div class="ce-link-box__category">
+                Fakten EZB-Geldpolitik
+            </div>
+            <a class="ce-link-box__link" href="/pg/04-llm-indicator.html">
+                <i class="u-icon--icon-tag-arrow-default"></i>
+                <i class="u-icon--icon-tag-arrow-hover"></i>
+                Termine – Reden – <b>Indikator</b>
+            </a>
+        </li>
+    </ul>
+ -->
+
+
+    <h3 class="c-heading--h3">
+        Termine – Reden – Indikator
+    </h3>
+
+
+    <a href="/download-speeches">
+        Download speeches
+    </a>
+
+    <!-- Timeline - items injected by JS below -->
+    <section id="timeline" class="reveal">
+        <h2 id="tl-title">Timeline</h2>
+        <ol class="timeline" id="timelineList">
+
+        </ol>
+    </section>
+
+    <style>
+
+        :root:not([data-theme="dark"]) {
+            --primary: #C8D400;
+            --primary-hover: #BABB2A;
+            --primary-focus: rgba(200, 212, 0, 0.30);
+            --border-color: #BDD0D3;
+        }        
+
+        /* Timeline */
+        .timeline {
+            list-style: none;
+            margin:   0;
+            padding:  0;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            top:      .25rem;
+            bottom:   .25rem;
+            left: 12px;
+            width: 2px;
+            background: var(--border-color);
+            background: var(--primary);
+        }
+
+        .timeline li {
+            position: relative;
+            padding-left: 2.5rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .timeline li::marker {
+            content: "";
+        }
+
+        .timeline li::before {
+            content: "";
+            position: absolute;
+            left: 6px;
+            top: .4rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--primary);
+            box-shadow: 0 0 0 4px color-mix(in oklab, var(--primary), transparent 75%);
+        }
+    </style>
+
+    <script>
+        const qsRoot = (sel, root = document) => root.querySelector(sel);
+        const tlItems = [
+            { date: "2020-01-07", title: "Journey towards inclusive growth in India",     body: "Opening remarks by Mr Shaktikanta Das, Governor of the Reserve Bank of India, at the Third Suresh Tendulkar Memorial Lecture." },
+            { date: "2020-01-08", title: "Europe's role in the global financial system",  body: "Keynote speech by Mr Luis de Guindos, Vice-President of the European Central Bank, at the SUERF/Netherlands Bank Conference ." },
+            { date: "2020-01-08", title: "Interests and alliances",                       body: "Opening remarks by Mr Klaas Knot, President of the Netherlands Bank, at the SUERF/Netherlands Bank Conference" },
+        ]
+
+        function mountTimeline() {
+            const list = qsRoot("#timelineList");
+            list.innerHTML = "";
+            for (let i = 0; i < tlItems.length; i += 1) {
+                const item = tlItems[i];
+                const li = document.createElement("li");
+                li.className = "card";
+                li.innerHTML = `
+            <time datetime="${item.date}">${new Date(item.date).toLocaleDateString()}</time>
+            <strong>${item.title}</strong>
+            <p>${item.body}</p>
+          `;
+                list.appendChild(li);
+            }
+        }
+        mountTimeline();
+
+
+    </script>
+
+
+
+    </div>
