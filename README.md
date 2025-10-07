@@ -14,19 +14,13 @@ python app-wsgiref.py
 
 ```
 
-Open your browser http://localhost:5000
+Open in browser http://localhost:5000
 
 
 ## Todo
 
 
-Alle links auf ZEW.de entfernen
-
-Homepage mit dem fünf hauptseiten
-
-
-Fünf Hauptseiten
-
+siehe  [hier](doc/README.md)
 
 
 

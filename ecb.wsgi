@@ -20,3 +20,5 @@ import os
 
 PROJECT_ROOT = "/var/www/ecb-app"
 os.chdir(PROJECT_ROOT)
+
+
