@@ -78,7 +78,42 @@ textarea {
   font: inherit;
 }
 
-h3, p, li {
-      color: #575756;
+/* 
+*/
 
+:root {
+  --color-white:        rgb(255, 255, 255);
+  --color-black:        rgb(  0,   0,   0);
+
+  --color-logo:         rgb( 0,  105,  180);
+
+  
+  --color-green:        rgb(194, 211,   0);
+  --color-primary:      rgb(194, 211,   0);
+  --color-green-1:      rgb(200, 212,   0);
+
+
+  --color-secondary:    rgb(174, 215, 217);
+  --color-iceblue:      rgb(174, 215, 217);
+  --color-iceblue-2:    rgb(198, 219, 223);
+  --color-iceblue-3:    rgb(213, 236, 240);
+  --color-iceblue-4:    rgb(245, 245, 246);
+
+  --color-grey:         rgb( 74,  74,  73);
+  --color-font:         rgb( 74,  74,  73);
+  --color-grey-2:       rgb(112, 111, 111);
+
+  --color-grey-lt:      rgb(135, 135, 134);
+  --color-grey-lt-2:    rgb(157, 157, 156);
+
+
+
+
+
+
+}
+
+
+h3, p, li {
+    color:  var(--color-font);
 }

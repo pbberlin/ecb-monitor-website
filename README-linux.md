@@ -49,7 +49,7 @@ python /var/www/ecb-app/app.py
 
 
 sudo less /var/log/apache2/ecb_error.log
-sudo less /var/log/apache2/ecb_error.log
+sudo less /var/log/apache2/ecb_access.log
 
 # refresh
 
@@ -90,8 +90,10 @@ export MPLCONFIGDIR=/var/www/ecb-app/tmp
 
 
 # upload
-*    copy contents of tmp/, not the tmp/ directory itself
-cp -r -f /ecb-watch/var/www/ecb-app/tmp/* /ecb-watch/var/www/ecb-app/
+# *    copy contents of tmp/, not the tmp/ directory itself
+sudo cp -r -f /var/www/ecb-app/tmp/* /var/www/ecb-app/
+sudo chown -R pbu:www-data /var/www/ecb-app
+sudo chmod 2775            /var/www/ecb-app
 
 
 ```

@@ -1000,15 +1000,15 @@ button.swiper-pagination-bullet {
     --font-size_-3: calc(var(--font-size_-2)/var(--type-scale-ratio));
     --font-size_-2: calc(var(--font-size_-1)/var(--type-scale-ratio));
     --font-size_-1: calc(var(--font-size_0)/var(--type-scale-ratio));
-    --font-size_0: var(--type-scale-base);
-    --font-size_1: calc(var(--font-size_0)*var(--type-scale-ratio));
-    --font-size_2: calc(var(--font-size_1)*var(--type-scale-ratio));
-    --font-size_3: calc(var(--font-size_2)*var(--type-scale-ratio));
-    --font-size_4: calc(var(--font-size_3)*var(--type-scale-ratio));
-    --font-size_5: calc(var(--font-size_4)*var(--type-scale-ratio));
-    --font-size_6: calc(var(--font-size_5)*var(--type-scale-ratio));
-    --font-size_7: calc(var(--font-size_6)*var(--type-scale-ratio));
-    --font-size_8: calc(var(--font-size_7)*var(--type-scale-ratio))
+    --font-size_0:  var(--type-scale-base);
+    --font-size_1:  calc(var(--font-size_0)*var(--type-scale-ratio));
+    --font-size_2:  calc(var(--font-size_1)*var(--type-scale-ratio));
+    --font-size_3:  calc(var(--font-size_2)*var(--type-scale-ratio));
+    --font-size_4:  calc(var(--font-size_3)*var(--type-scale-ratio));
+    --font-size_5:  calc(var(--font-size_4)*var(--type-scale-ratio));
+    --font-size_6:  calc(var(--font-size_5)*var(--type-scale-ratio));
+    --font-size_7:  calc(var(--font-size_6)*var(--type-scale-ratio));
+    --font-size_8:  calc(var(--font-size_7)*var(--type-scale-ratio))
 }
 
 :root .u-font-size\:-7 {
@@ -1105,7 +1105,7 @@ button.swiper-pagination-bullet {
         --element-space-8: 64px;
         --element-space-9: 96px;
         --type-scale-ratio: 1.2;
-        --max-page-width: 94vw
+        --max-page-width:  94vw
     }
 }
 
@@ -1121,7 +1121,7 @@ button.swiper-pagination-bullet {
         --element-space-7: 48px;
         --element-space-8: 64px;
         --element-space-9: 96px;
-        --max-page-width: 94vw
+        --max-page-width:  94vw
     }
 }
 
@@ -1138,23 +1138,23 @@ button.swiper-pagination-bullet {
         --element-space-8: 96px;
         --element-space-9: 128px;
         --type-scale-ratio: 1.2;
-        --max-page-width: 90vw
+        --max-page-width:  90vw
     }
 }
 
 @media screen and (min-width:1366px) {
     :root {
-        --type-scale-base: 16px;
-        --element-space-1: 8px;
-        --element-space-2: 16px;
-        --element-space-3: 24px;
-        --element-space-4: 32px;
-        --element-space-5: 48px;
-        --element-space-6: 64px;
-        --element-space-7: 96px;
-        --element-space-8: 128px;
-        --element-space-9: 192px;
-        --max-page-width: 1318px
+        --type-scale-base:   16px;
+        --element-space-1:    8px;
+        --element-space-2:   16px;
+        --element-space-3:   24px;
+        --element-space-4:   32px;
+        --element-space-5:   48px;
+        --element-space-6:   64px;
+        --element-space-7:   96px;
+        --element-space-8:  128px;
+        --element-space-9:  192px;
+        --max-page-width:  1318px;
     }
 }
 
