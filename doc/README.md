@@ -59,3 +59,12 @@ Daten von Behörden von Thomas Wirth geprüft
     * https://www.bis.org/cbspeeches/index.htm?cbspeeches_page_length=25&authors=4247
         * https://www.bis.org/review/r251002b.htm
         * https://www.bis.org/review/r250929g.htm
+
+
+
+## EU map
+
+https://geojson.org/
+https://github.com/echarts-maps
+https://github.com/echarts-maps/echarts-countries-js
+https://github.com/echarts-maps/echarts-countries-js

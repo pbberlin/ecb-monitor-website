@@ -179,7 +179,6 @@ html, body, body * {
 }
 
 .swiper-virtual .swiper-slide {
-    -webkit-backface-visibility: hidden;
     transform: translateZ(0)
 }
 
@@ -13672,6 +13671,5 @@ header#header>div.o-grid {
 }
 
 .tobii__btn--close {
-    outline-border: #000;
     opacity: 1
 }

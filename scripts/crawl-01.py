@@ -224,7 +224,7 @@ def main():
                 url  = row.get("url",  "").strip()
 
                 if len(url) > 30:
-                    print(f"\t  {idx:2}  skipping existing url  {name} - {url}")
+                    print(f"\t  {idx:2}  skipping existing url  {name} \n\t      {url}")
                     results.append({"name": name, "url": url, "status": "ok", "error": ""})
                     continue
 
