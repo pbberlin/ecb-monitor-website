@@ -15,14 +15,15 @@ import json
 import sys
 import time
 import random
-from pathlib import Path
-from typing import Dict, Any, Optional
+from   pathlib import Path
+from   typing  import Dict, Any, Optional
 
 import httpx
-from bs4 import BeautifulSoup
+from   bs4     import BeautifulSoup
 
 # add parent directory of scripts/ (i.e., appdir/) to import path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
+sys.path.append(str(Path(__file__).resolve().parents[2]))
 from lib.slugify_wrapper import tlsl
 
 
