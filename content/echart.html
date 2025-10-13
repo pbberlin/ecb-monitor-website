@@ -83,8 +83,14 @@
     }
 
     var app = {};
-    var ROOT_PATH = 'http://localhost:5000';
     var option;
+
+
+    // var ROOT_PATH = 'http://localhost:5000';
+    // Automatically determine the root path based on current host
+    var ROOT_PATH = window.location.origin;
+    // If you're serving files under a subdirectory (e.g., /myapp/), adjust here:
+    // ROOT_PATH = window.location.origin + '/myapp';
 
 
     // $.get(ROOT_PATH + '/static/echart/HK.json',        function (geoJSON) {  console.log("fine hk") })
