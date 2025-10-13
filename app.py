@@ -6,11 +6,12 @@ from   pathlib    import Path
 
 import pandas as pd
 import matplotlib
+from   ipaddress import ip_address, ip_network
 
 
 
-
-from   flask import Flask, request, render_template, send_from_directory, Response
+from   flask import Flask, request, Response, abort 
+from   flask import render_template, send_from_directory 
 app  = Flask(__name__)
 
 
@@ -20,8 +21,50 @@ from lib.util    import truncateUtf8
 from lib.gingado import load_CB_speeches
 
 
+
+
 wd = os.getcwd()
 dirDl = Path(".") / "data" / "dl"
+
+
+
+
+
+# allowed IPs or CIDR ranges
+allowedIps = [
+    "127.0.0.1",          # localhost
+    "192.168.1.0/24",     # local network
+    "193.196.11.188"      # ZEW internal
+    "193.196.11.0/24"     # ZEW internal network (covers 193.196.11.1–193.196.11.255)
+]
+
+allowedNetworks = []
+for ip in allowedIps:
+    network = ip_network(ip, strict=False)
+    allowedNetworks.append(network)
+
+
+@app.before_request
+def limitRemoteAddr():
+    clientIp = request.remote_addr
+
+    try:
+        clientAddress = ip_address(clientIp)
+        isAllowed = False
+
+        for network in allowedNetworks:
+            if clientAddress in network:
+                isAllowed = True
+                break
+
+        if not isAllowed:
+            print(f"Denied access for IP: {clientIp}")
+            abort(403, description="Access denied")
+
+    except Exception as exc:
+        print(f"Error checking IP {clientIp}: {exc}")
+        abort(403, description="Invalid IP address")
+
 
 
 @app.route("/favicon.ico")
