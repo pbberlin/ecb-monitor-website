@@ -61,7 +61,36 @@ sudo systemctl reload apache2
 
 ```
 
-#  tmp rights for libraries
+
+## lets encrypt - let's encrypt - certbot
+
+```bash
+sudo apt update
+sudo apt install -y certbot python3-certbot-apache
+
+sudo a2ensite ecb.conf
+sudo systemctl reload apache2
+
+
+sudo certbot --apache \
+-d ecb-monitor.zew.de  \
+-d ezb-monitor.zew.de  \
+-d ezb-transparenz-monitor.zew.de  \
+-d ecb-transparency-monitor.zew.de  \
+-d ecb-watch.zew.de  \
+-d ezb-watch.zew.de  \
+-d ecbwatch.zew.de  \
+-d ezbwatch.zew.de
+
+
+sudo a2enmod rewrite
+sudo a2enmod http2
+
+
+```
+
+
+##  tmp rights for libraries
 
 [wsgi:error]  File "/var/www/ecb-app/.venv/lib/python3.11/site-packages/gingado/internals.py", line 153, in download_csv
 [wsgi:error]   Path(timestamped_file_path).parent.mkdir(exist_ok=True)  
