@@ -38,18 +38,29 @@ pip install pip install matplotlib
 
 
 sudo vim  /etc/apache2/sites-available/ecb.conf
-# paste file ecb.conf
+sudo vim  /etc/apache2/sites-available/ecb-le-ssl.conf
+
 
 sudo /var/www/ecb-app/.venv/bin/mod_wsgi-express module-config  | sudo tee /etc/apache2/mods-available/wsgi_express.load
 sudo a2enmod wsgi_express
 sudo systemctl reload apache2
 
+sudo apache2ctl -S
+sudo apache2ctl configtest
+
+
 python /var/www/ecb-app/app.py
 # then http://127.0.0.1:5000 testen; mit Ctrl+C stoppen
 
 
-sudo less /var/log/apache2/ecb_error.log
-sudo less /var/log/apache2/ecb_access.log
+sudo less /var/log/apache2/error.log
+sudo less /var/log/apache2/ecb_error_ssl.log
+
+sudo less /var/log/apache2/ecb-watch-access.log
+
+sudo less /var/log/apache2/ecb-watch-error.log
+sudo less /var/log/apache2/ecb-watch-error.log
+
 
 # refresh
 
