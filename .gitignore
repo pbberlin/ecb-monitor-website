@@ -5,3 +5,4 @@ tmp/**
 .venv/**
 data/**
 scripts/**/out/**
+static/goaccess.html
