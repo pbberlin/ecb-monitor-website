@@ -54,12 +54,11 @@ python /var/www/ecb-app/app.py
 
 
 sudo less /var/log/apache2/error.log
+sudo less /var/log/apache2/ecb_access_ssl.log
 sudo less /var/log/apache2/ecb_error_ssl.log
 
-sudo less /var/log/apache2/ecb-watch-access.log
+sudo less /var/log/apache2/other_vhosts_access.log
 
-sudo less /var/log/apache2/ecb-watch-error.log
-sudo less /var/log/apache2/ecb-watch-error.log
 
 
 # refresh
