@@ -16,7 +16,7 @@ sudo goaccess /var/log/apache2/ecb_access_ssl.log \
   -o /var/www/ecb-app/static/goaccess.html
 
 
-# edit 
+# edit
 sudo vim /etc/cron.d/goaccess
 */5 * * * * root goaccess /var/log/apache2/ecb_access_ssl.log --log-format=COMBINED --persist --db-path=/var/lib/goaccess -o /var/www/ecb-app/static/goaccess.html
 
@@ -30,14 +30,14 @@ https://ecb-watch.zew.de/static/goaccess.html#requestsl
 
 What you get: simple, privacy-friendly metrics; no users/funnels fluff.
 Storage: Postgres (not file-only).
-Why pick it: cookie-less + straightforward dashboards. 
+Why pick it: cookie-less + straightforward dashboards.
 
 
 ### GoatCounter
 
-* Instructions by chatGPT 
+* Instructions by chatGPT
 
-* Same domain, sub-path, SQLite 
+* Same domain, sub-path, SQLite
 
 ```bash
 # install binary release
@@ -59,7 +59,7 @@ mkdir -p /opt/goatcounter/goatcounter-data
 chown -R goat:goat /opt/goatcounter
 chmod 750 /opt/goatcounter
 
-cp /home/pbu/goatcounter   /usr/local/bin/goatcounter 
+cp /home/pbu/goatcounter   /usr/local/bin/goatcounter
 chmod 0755 /usr/local/bin/goatcounter
 
 
@@ -92,11 +92,11 @@ journalctl -u goatcounter.service -f
 
 
 # create a db
-# password is for goatkeeper user 'admin' HTML frontent
+# password is for goatkeeper admin user 'peter.buchmann@zew.de' HTML frontent
 sudo -u goat /usr/local/bin/goatcounter db create site \
   -vhost=ecb-monitor.zew.de \
   -user.email=peter.buchmann@zew.de \
-  -password 'Pb165025.' \
+  -password 'Pb165205.' \
   -createdb \
   -db 'sqlite3+/opt/goatcounter/ecb-monitor.zew.de.sqlite'
 
@@ -116,8 +116,7 @@ we need to request a sub-sub domain  stats.ecb-monitor.zew.de
 
 http://192.168.2.142:8811
 http://192.168.2.142:8811
-
-
+http://193.196.11.142:8811
 
 
 
@@ -125,10 +124,26 @@ http://192.168.2.142:8811
 
 Add the pixel (no JS) to your pages (loads fast, cookie-less):
 
-<img src="/stats/count?p=/current-page" alt="" referrerpolicy="no-referrer-when-downgrade" />
+  <!-- GoatCounter pixel: placed at the END of <body> -->
+  <img
+    src="/gc?p={{ request.path | urlencode }}"
+    alt="" width="1" height="1"
+    referrerpolicy="no-referrer-when-downgrade"
+    style="position:absolute;left:-9999px;top:-9999px;"
+  />
 
+
+
+  <img 
+    src="/gc?p={{ request.path | urlencode }}"
+    alt="" width="1" height="1"
+    referrerpolicy="no-referrer-when-downgrade"
+    style="position:absolute;left:-9999px;top:-9999px;"
+  />
 
 Or use the 3.5 KB script:
 
-<script data-goatcounter="/stats/count" async src="/stats/count.js"></script>
+
+<script data-goatcounter="/gc" async src="/static/goatcounter.js"></script>
+
 
