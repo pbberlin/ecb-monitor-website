@@ -110,12 +110,14 @@ sudo -u goat ls -l /opt/goatcounter/ecb-monitor.zew.de.sqlite
 
 ### Apache
 
-no way ro run goatcounter as a subdirectory.
 
-we need to request a sub-sub domain  stats.ecb-monitor.zew.de
+see the two vhost files
 
+
+VPN
 http://192.168.2.142:8811
-http://192.168.2.142:8811
+
+From internal
 http://193.196.11.142:8811
 
 
@@ -125,25 +127,43 @@ http://193.196.11.142:8811
 Add the pixel (no JS) to your pages (loads fast, cookie-less):
 
   <!-- GoatCounter pixel: placed at the END of <body> -->
-  <img
-    src="/gc?p={{ request.path | urlencode }}"
-    alt="" width="1" height="1"
-    referrerpolicy="no-referrer-when-downgrade"
-    style="position:absolute;left:-9999px;top:-9999px;"
-  />
 
 
 
   <img 
-    src="/gc?p={{ request.path | urlencode }}"
+    src="/gc-stats?p={{ request.path | urlencode }}"
     alt="" width="1" height="1"
     referrerpolicy="no-referrer-when-downgrade"
     style="position:absolute;left:-9999px;top:-9999px;"
   />
 
+
 Or use the 3.5 KB script:
 
 
-<script data-goatcounter="/gc" async src="/static/goatcounter.js"></script>
+<script data-goatcounter="/gc-stats" async src="/static/goatcounter.js"></script>
 
 
+
+
+## rewrite for access 
+
+```bash
+a2enmod  proxy proxy_http proxy_html headers rewrite
+systemctl reload apache2
+
+```
+
+```conf
+    # ---- GoatCounter ADMIN under /gc-admin (best-effort; relies on rewriting) ----
+    ###
+```
+
+
+```bash
+
+apachectl configtest && systemctl reload apache2
+
+
+
+```
