@@ -90,7 +90,8 @@ sudo certbot --apache \
 -d ecb-watch.zew.de  \
 -d ezb-watch.zew.de  \
 -d ecbwatch.zew.de  \
--d ezbwatch.zew.de
+-d ezbwatch.zew.de  \
+-d stats3.zew.de
 
 
 sudo a2enmod rewrite
@@ -108,18 +109,31 @@ sudo a2enmod http2
 
 
 ```bash
+
 # following dirs are shared between 
 
 sudo mkdir -p /var/www/ecb-app/tmp
-# Set group ownership to www-data
+# group ownership to www-data
 sudo chown -R pbu:www-data /var/www/ecb-app/tmp
 # both users read/write/execute
 #    The 2 in 2775 sets the setgid bit, meaning any files created inside inherit the www-data group automatically.
 #    That ensures new files made by the app (www-data) or by you (pbu) remain group-accessible.
 sudo chmod 2775 /var/www/ecb-app/tmp
 
+
+# application files - unreachable via URL
 sudo chown -R pbu:www-data /var/www/ecb-app/data/dl
 sudo chmod 2775            /var/www/ecb-app/data/dl
+
+
+# application files - with URL - images, charts ...
+sudo mkdir -p /var/www/ecb-app/static/tmp
+sudo chown -R pbu:www-data /var/www/ecb-app/static/tmp
+sudo chmod 2775            /var/www/ecb-app/static/tmp
+
+
+
+
 
 
 # some libraries write stuff - we need to give them temp dirs

@@ -167,3 +167,16 @@ apachectl configtest && systemctl reload apache2
 
 
 ```
+
+
+
+##  separate vhost
+
+```bash
+a2ensite  stats3.conf
+a2ensite  stats3-ssl.conf
+apachectl configtest
+systemctl reload apache2
+
+
+```
