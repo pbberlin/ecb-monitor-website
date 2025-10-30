@@ -23,6 +23,7 @@
                 style="background-color: #D5ECF0;
                     grid-template-columns: 1fr 1fr;
                     gap: 10px;
+                    gap: 0;
                     xx: center-content-horizontally-inside-each-cell;
                     justify-items: center;   
                     xx: center-content-vertically-inside-each-cell;
@@ -30,7 +31,7 @@
                     "
         >
 
-            <p id="claim"  style="grid-column: 1 / -1; font-size: 130%; margin-bottom: 0;">
+            <p id="claim"  style="grid-column: 1 / -1; font-size: 130%; margin-bottom: 0; margin-bottom: 0.7rem;">
                 Ein Forschungsprojekt des ZEW - Leibniz-Zentrums für Europäische Wirtschaftsforschung
                 mit Unterstützung der Stiftung Geld und Währung
             </p>
@@ -38,19 +39,92 @@
             <img  src="./static/img/logos/guw.png" style="width: 90%;  width: 50%;" alt="">
             <img  src="./static/img/logos/zew.svg" style="width: 80%;  width: 50%;" alt="">
 
-            <p>
-            </p>
-
-
-            <p style="border: 1px solid red;">
-
-            </p>
-
-
 
         </div>
     </div>
 
+
+<div class="o-grid">
+    <div class="component @ce-accordion">
+        <div class="c-accordion" data-accordion="" id="publications">
+            <h3 class="c-accordion__header">
+                <button class="c-accordion__tab" data-acc="tab" id="publications-tab-0" type="button">
+                    <span class="c-accordion__toggle-icon">
+                        <span class="u-icon--icon-arrow-search-dropdown"> </span>
+                    </span>
+                    <span class="c-category-label">
+                        Informationen zum Forschungsprojekt 
+                    </span>
+                </button>
+            </h3>
+            <div class="c-accordion__panel " data-acc="tabpanel" id="publications-panel-0" astyle="height: 0">
+                <div class="c-accordion__panel-inner">
+
+                    
+                    <div class="c-multi-teaser" >
+                        <!-- 
+                        <div class="c-multi-teaser__header">
+                            header
+                        </div>
+                        -->
+                        <div class="c-multi-teaser__body" >
+                        
+                            Der "EZB-Transparenz-Monitor" informiert aus der unabhängigen wissenschaftlichen Perspektive 
+                            des ZEW – Leibniz-Zentrums für Europäische Wirtschaftspolitik 
+                            über die EZB und ihre geldpolitischen Entscheidungen. 
+
+                            <!-- <br> -->
+
+                            Der Monitor bietet einen leichten Zugriff auf wichtige ökonomische und 
+                            fiskalische Daten zum aktuellen Umfeld der Geldpolitik. 
+                            
+                            <br>
+                            In jedem Quartal erfolgt die Publikation des EZB-Momentum-Indikators. 
+                            Dieser KI-gestützte Indikator gibt Auskunft über die Botschaft 
+                            aus den jüngsten Redebeiträgen von Mitgliedern des EZB-Rats. 
+                            Er dient als Frühindikator, ob die EZB eher in eine 
+                            expansive oder kontraktive Richtung in ihren geldpolitischen Entscheidungen neigt. 
+                            Der EZB-Transparenz-Monitor richtet sich an Akteure in den Medien, 
+                            der Finanzindustrie, der Politik und der interessierten Fachöffentlichkeit.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+
+
+<div class="component @ce-cross-teaser" id="c19168">
+    <div class="ce-cross-teaser ce-cross-teaser--2-column" style="background-color: #D5ECF0">
+        <div class="c-multi-teaser">
+            <div class="c-multi-teaser__header"></div>
+            <div class="c-multi-teaser__body">
+                <span class="c-category-label"></span>
+                <h3 class="c-heading c-heading--h3">
+                    EZB-ZEW-Momentum-Indikator – der aktuelle Quartals-Bericht
+                </h3>
+            </div>
+            <div class="c-multi-teaser__footer">
+                So hat sich das geldpolitische Momentum in den Reden des EZB-Rats über die letzten Monate verändert.
+            </div>
+        </div>
+        <div class="c-multi-teaser">
+            <div class="c-multi-teaser__header"></div>
+            <div class="c-multi-teaser__body">
+                <span class="c-category-label"></span>
+                <h3 class="c-heading c-heading--h3">
+                    ECB-Watching – der aktuelle Kommentar
+                </h3>
+            <div class="c-multi-teaser__footer">
+                Hier nehmen Forschende und ECB-Watcher, die nicht für Notenbanken arbeiten, Stellung zu aktuellen geldpolitischen Fragestellungen.
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
 
 
     <ul class="o-grid o-grid-1-1@sm o-grid-1-1-1@lg">
