@@ -13,7 +13,13 @@ from   ipaddress import ip_address, ip_network
 from   flask import Flask, request, Response, abort 
 from   flask import render_template, send_from_directory 
 app  = Flask(__name__)
-
+# Flask automatically sets this when FLASK_ENV=development
+# or when you run app.run(debug=True)
+debugMode = app.debug or os.environ.get("FLASK_DEBUG") == "1"
+if debugMode:
+    app.config["TEMPLATES_AUTO_RELOAD"] = True
+    app.jinja_env.auto_reload = True
+    app.jinja_env.cache = {}
 
 
 from lib.page1   import getAllPredictions
