@@ -1,0 +1,304 @@
+# requirements:
+#   pip install shapely
+#
+#
+# notes:
+#   - The script identifies country by name
+#   - It then shifts longitude by -2.0 degrees, scales by 1.25× about centroid,
+#     and appends a rectangle feature around the transformed country shape (with padding).
+#   - Additionally, it supports asymmetric padding (more top padding) and adds a label Point
+#     at the rectangle's top-left corner for use in renderers (e.g., Apache ECharts).
+#   - Output is written as <input stem>_countryName.geojson next to the input.
+
+from pathlib import Path
+import json
+
+from shapely.geometry import shape, mapping, box, Point
+from shapely.affinity import translate, scale
+
+
+
+def writeGeoJsonPretty(outputPath, data):
+    try:
+        # Ensure predictable key order at the top level: "type", then "features"
+        topType = data.get("type", "FeatureCollection")
+        features = data.get("features", [])
+        if not isinstance(features, list):
+            print("writeGeoJsonPretty(): 'features' must be a list")
+            return
+
+        # Build lines
+        lines = []
+        lines.append("{")
+        lines.append(f"\"type\": \"{topType}\",")
+        lines.append("\"features\": [")
+
+        for idx1, feat in enumerate(features):
+            try:
+                oneLine = json.dumps(
+                    feat,
+                    ensure_ascii=False,
+                    separators=(", ", ": ")
+                )
+                if idx1 < len(features) - 1:
+                    lines.append(f"{oneLine},")
+                else:
+                    lines.append(f"{oneLine}")
+            except Exception as ex:
+                print(f"writeGeoJsonPretty() failed to serialize feature {idx1}: {ex}")
+
+        lines.append("]")
+        lines.append("}")
+
+        # Join with newline to keep exactly one feature per line
+        textOut = "\n".join(lines)
+        Path(outputPath).write_text(textOut, encoding="utf-8")
+        print(f"Wrote: {outputPath}")
+    except Exception as ex:
+        print(f"writeGeoJsonPretty() failed: {ex}")
+
+
+def findCountryFeature( searchedCountry, feature):
+
+    nameCandidates = []
+    props = feature.get("properties", {})
+
+    for key in props:
+        # print(f"\tfindCountry({searchedCountry}) {key}")
+        if key == "name":
+            print(f"\tfindCountry({searchedCountry}) - found {key} -{props[key]}-")
+            if props[key] == searchedCountry:
+                nameCandidates.append(str(props.get(key, "")).strip())
+
+
+    matchedByName = False
+    for idx1, candidate in enumerate(nameCandidates):
+        if searchedCountry in candidate:
+            matchedByName = True
+
+    geomDict = feature.get("geometry", None)
+    if geomDict is None:
+        return False
+    else:
+        pass
+        # print(f"findCountry({searchedCountry}) geometry found")
+
+    try:
+        geom = shape(geomDict)
+    except Exception as ex:
+        print(f"findCountry({searchedCountry}) failed to parse geometry: {ex}")
+        return False
+
+    centroid = geom.centroid
+    lonOk = centroid.x >= 30.0 and centroid.x <= 35.0
+    latOk = centroid.y >= 34.0 and centroid.y <= 36.0
+    matchedByHeuristic = lonOk and latOk
+
+    # print(f"findCountry({searchedCountry}) {matchedByHeuristic=}")
+
+    return matchedByName
+
+
+def moveAndScale(geom, lonShiftDeg, latShiftDeg, scaleFactor):
+    # translate by longitude shift, then scale about centroid
+    moved       = translate(geom, xoff=lonShiftDeg, yoff=latShiftDeg)
+    enlarged    = scale(moved, xfact=scaleFactor, yfact=scaleFactor, origin="centroid")
+    return enlarged
+
+
+def buildInsetRectangleAsym(geom, padLeftDeg, padRightDeg, padTopDeg, padBottomDeg):
+    minx, miny, maxx, maxy = geom.bounds
+    rect = box(minx - padLeftDeg, miny - padBottomDeg, maxx + padRightDeg, maxy + padTopDeg)
+    return rect
+
+
+def topLeftOfRectangle(rectGeom):
+    minx, miny, maxx, maxy = rectGeom.bounds
+    pt = Point(minx, maxy)
+    return pt
+
+
+def load(inputPath):
+    features = []
+    if not inputPath.exists():
+        print(f"Input file not found: {inputPath}")
+        return features
+
+    try:
+        text = inputPath.read_text(encoding="utf-8")
+    except Exception as ex:
+        print(f"Failed reading input: {ex}")
+        return features
+
+    try:
+        data = json.loads(text)
+    except Exception as ex:
+        print(f"Failed parsing JSON: {ex}")
+        return features
+
+    if data.get("type") != "FeatureCollection":
+        print("GeoJSON root must be a FeatureCollection.")
+        return features
+
+    features = data.get("features", [])
+    if not isinstance(features, list):
+        print("GeoJSON 'features' must be a list.")
+        return features
+
+    return features
+
+
+def enhance(
+        features, 
+        countryName,
+        lonShiftDeg     ,
+        latShiftDeg     ,
+        scaleFactor     ,
+        padLeftDeg      ,
+        padRightDeg     ,
+        padTopDeg       ,
+        padBottomDeg    ,
+    ):
+
+    insetLabelText  =   f"{countryName} (Inset)"
+
+
+    countryFound =     False
+    geomTransformed   = None
+    countryFeatureIdx = None
+
+    # Identify country feature
+    for idx1, feat in enumerate(features):
+        try:
+            if findCountryFeature(countryName , feat):
+                countryFound = True
+                countryFeatureIdx = idx1
+                break
+        except Exception as ex:
+            print(f"Error during {countryName} detection at feature {idx1}: {ex}")
+
+    if not countryFound:
+        print("Did not find a feature that looks like {countryName}. No changes written.")
+        return
+
+
+    # Transform {countryName} geometry
+    try:
+        originalGeom    = shape(features[countryFeatureIdx]["geometry"])
+        geomTransformed = moveAndScale(originalGeom, lonShiftDeg, latShiftDeg, scaleFactor)
+        features[countryFeatureIdx]["geometry"] = mapping(geomTransformed)
+
+        # Annotate properties so downstream users know this was modified
+        if "properties" not in features[countryFeatureIdx]:
+            features[countryFeatureIdx]["properties"] = {}
+        features[countryFeatureIdx]["properties"]["_modified_{countryName}"] = True
+        features[countryFeatureIdx]["properties"]["_lon_shift_deg"] = lonShiftDeg
+        features[countryFeatureIdx]["properties"]["_scale_factor"] = scaleFactor
+        print(f"transformed {countryName} geometry")
+    except Exception as ex:
+        print(f"Failed to transform {countryName} geometry: {ex}")
+        return
+
+
+    # Build and append inset rectangle (with asymmetric padding)
+    try:
+        insetRectGeom = buildInsetRectangleAsym(geomTransformed, padLeftDeg, padRightDeg, padTopDeg, padBottomDeg)
+        insetFeature = {
+            "type": "Feature",
+            "properties": {
+                "name": f"{countryName} Inset Rectangle",
+                "role": "inset_box",
+                "padding_left_deg": padLeftDeg,
+                "padding_right_deg": padRightDeg,
+                "padding_top_deg": padTopDeg,
+                "padding_bottom_deg": padBottomDeg
+            },
+            "geometry": mapping(insetRectGeom),
+        }
+        features.append(insetFeature)
+        print(f"rectangle around {countryName} with asymmetric padding")
+    except Exception as ex:
+        print(f"Failed to create inset rectangle: {ex}")
+        return
+
+
+    # Add a label point at the rectangle's top-left corner
+    try:
+        tlPoint = topLeftOfRectangle(insetRectGeom)
+        labelFeature = {
+            "type": "Feature",
+            "properties": {
+                "name": f"{countryName} Inset Label",
+                "role": "inset_label",
+                "label": insetLabelText,
+                "anchor":    "top-left",
+                # pixels; to be interpreted by the renderer (e.g., ECharts)
+                "offset_px": [-10, -8],   #  first -10 -  move to the left - why is not already left ---       second  -8 to move vertically up
+            },
+            "geometry": mapping(tlPoint),
+        }
+        features.append(labelFeature)
+        print("added inset label point at top-left")
+    except Exception as ex:
+        print(f"Failed to add label point: {ex}")
+        return
+
+
+def main():
+
+    inputPath       = Path("./europe-reduced-orig.geojson")
+    features = load(inputPath)
+    if len(features) < 1:
+        return
+
+
+    countryName = "Cyprus"
+
+
+    # ----- configuration -----
+    lonShiftDeg     =  -1.0
+    lonShiftDeg     =   4.1
+    lonShiftDeg     =   1.1
+
+    latShiftDeg     =   1.8
+
+    scaleFactor     =   1.25
+    scaleFactor     =   1.0
+
+    padLeftDeg      =   0.30
+    padRightDeg     =   0.30
+    padTopDeg       =   0.35    # <- increase top padding here
+    padBottomDeg    =   0.30
+
+    # -------------------------
+
+    enhance(
+        features, 
+        countryName,
+            
+        lonShiftDeg     ,
+        latShiftDeg     ,
+        scaleFactor     ,
+
+        padLeftDeg      ,
+        padRightDeg     ,
+        padTopDeg       ,
+        padBottomDeg    ,
+
+    )
+
+    # Write output (top-level lines + one-line features)
+    try:
+        outputPath = inputPath.with_name(f"{inputPath.stem}_{countryName.lower()}.geojson")
+        outputPath = Path("europe-reduced.geojson")  # keep your override
+        dataOut = {
+            "type": "FeatureCollection",
+            "features": features
+        }
+        writeGeoJsonPretty(outputPath, dataOut)
+    except Exception as ex:
+        print(f"Failed writing output: {ex}")
+        return
+
+if __name__ == "__main__":
+    main()

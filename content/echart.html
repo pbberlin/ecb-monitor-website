@@ -1,46 +1,50 @@
+<style>
+  html,
+  body,
+  #echart_container {
+    height: 100%;
+  }
+
+  #echart_container {
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+    height: 70%;
+  }
+</style>
+
+<div id="echart_container"></div>
 
 
-  <style>
-      html, body, #echart_container {
-        height: 100%;
-      }
-      #echart_container {
-        /* border: 1px solid red; */
-        padding: 0;
-        margin:  0;
-        height: 70%;
-      }
-  </style>
-
-  <div id="echart_container" ></div>
-
-  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/jquery@3.7.1/dist/jquery.min.js"></script>
-
-  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
 
 
-  <!-- Uncomment this line if you want to dataTool extension -->
-  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@6/dist/extension/dataTool.min.js"></script>
+<!-- Uncomment this line if you want to dataTool extension -->
+<!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@6/dist/extension/dataTool.min.js"></script> -->
 
-  <!-- Uncomment this line if you want to use gl extension -->
-  <!-- <script type="text/javascript"  src="https://echarts.apache.org/en/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script> -->
+<!-- Uncomment this line if you want to use gl extension -->
+<!-- <script type="text/javascript"  src="https://echarts.apache.org/en/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script> -->
 
-  <!-- Uncomment this line if you want to echarts-stat extension -->
-  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+<!-- Uncomment this line if you want to echarts-stat extension -->
+<!-- <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-stat/dist/ecStat.min.js"></script> -->
 
-  <!-- Uncomment this line if you want to echarts-graph-modularity extension -->
-  <script type="text/javascript"  src="https://echarts.apache.org/en/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
-
-
-  <!-- Uncomment this line if you want to use map -->
-  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+<!-- Uncomment this line if you want to echarts-graph-modularity extension -->
+<!-- <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script> -->
 
 
-  <!-- Uncomment these two lines if you want to use bmap extension -->
-  <!-- <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script> -->
-  <!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@6/dist/extension/bmap.min.js"></script> -->
+<!-- Uncomment this line if you want to use map -->
+<!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script> -->
 
-  <script type="text/javascript">
+
+<!-- Uncomment these two lines if you want to use bmap extension -->
+<!-- <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script> -->
+<!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@6/dist/extension/bmap.min.js"></script> -->
+
+<!-- <script type="text/javascript"> -->
+<script type="module">
+
+  // wrap everything in an async IIFE so we can use await at top level
+  (async () => {
 
     const dom = document.getElementById('echart_container');
 
@@ -50,10 +54,10 @@
     });
 
     const root = document.documentElement;
-    const colPri = getComputedStyle(root).getPropertyValue('--color-primary'  ).trim();
+    const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
     const colSec = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
-    const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt'  ).trim();
-    const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3'  ).trim();
+    const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
+    const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
 
     function randomPieSeries1(center, radius) {
       const data = ['A', 'B', 'C', 'D'].map((t) => {
@@ -78,19 +82,17 @@
         animationDuration: 0,
         radius,
         center,
-        data
+        data,
       };
     }
 
-    var app = {};
-    var option;
-
-
-    // var ROOT_PATH = 'http://localhost:5000';
-    // Automatically determine the root path based on current host
-    var ROOT_PATH = window.location.origin;
-    // If you're serving files under a subdirectory (e.g., /myapp/), adjust here:
-    // ROOT_PATH = window.location.origin + '/myapp';
+    //  determine the root path based on current host
+    const ROOT_PATH = window.location.origin;
+    let url;
+    url = ROOT_PATH + '/static/echart/usa.json';
+    url = ROOT_PATH + '/static/echart/europe.geojson';
+    url = ROOT_PATH + '/static/echart/europe-reduced-orig.geojson';
+    url = ROOT_PATH + '/static/echart/europe-reduced.geojson';
 
 
     // $.get(ROOT_PATH + '/static/echart/HK.json',        function (geoJSON) {  console.log("fine hk") })
@@ -102,124 +104,185 @@
     myChart.showLoading();
 
 
-    // https://en.wikipedia.org/wiki/Member_state_of_the_European_Union
-    $.get(ROOT_PATH + '/static/echart/europe-reduced.geojson', function (geoJSON) {
-
-      echarts.registerMap('europe-reduced', geoJSON);
-
-
-      console.log("europe json loaded")
-
-      option = {
-        geo: {
-          map: 'europe-reduced',
-          roam: true,
-          aspectScale: Math.cos((55 * Math.PI) / 180),
-          aspectScale: Math.cos((35 * Math.PI) / 180),
-          aspectScale: Math.cos((30 * Math.PI) / 180),  // vertical compression of map projection
-
-          // projection: {
-          //     project: function (point) {
-          //         return [point[0], Math.log(Math.tan((Math.PI / 4) + (point[1] * Math.PI / 360)))];
-          //     },
-          //     unproject: function (point) {
-          //         return [point[0], (2 * Math.atan(Math.exp(point[1])) - Math.PI / 2) * 180 / Math.PI];
-          //     }
-          // },
-
-          zoom:      0.75,
-
-          top:    -140,     // margin top
-          top:    -240,     // margin top
-          bottom: -130,     // margin bottom
-          // left:   0,
-          // right:  0,
-
-          center: [14.6, 51.95],  // geo center - longitute - latitude
-          layoutCenter: ['50%', '50%'], // where to place the geo center
-          // layoutSize: '200%',
+    let res;
+    // res = await fetch(url, { cache: 'no-cache' });
+    // res = await fetch(url, { cache: 'force-cache' });
+    res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) { throw new Error(`HTTP ${res.status}`); }
+    const geoJSON = await res.json();   // works even if server sends text/plain
+    echarts.registerMap('europe-reduced', geoJSON);
 
 
-          // boundingCoords: [
-          //     [minLon, minLat],
-          //     [maxLon, maxLat]
-          // ],
+    console.log("europe geo json loaded and registered")
 
-          nameProperty: 'name', //  name_en - for using en name.
-          itemStyle: {
-            // https://echarts.apache.org/en/option.html#legend.itemStyle
-            areaColor:     colIB3,
-            borderColor:   '#999999',
-            inactiveColor: '#f11',
-            inactiveBorderColor: '#ccc',
+
+
+
+
+
+    const insetLabelPoints = [];
+    for (let idx1 = 0; idx1 < geoJSON.features.length; idx1 += 1) {
+      // break;
+      const f = geoJSON.features[idx1];
+      if (f.properties && f.properties.role === 'inset_label' && f.geometry && f.geometry.type === 'Point') {
+        console.log(`   found inset_label with geometry.type point`)
+        const coord = f.geometry.coordinates; // [lon, lat]
+        const text = f.properties.label || f.properties.name || 'Inset';
+        let offset = [0, 0];
+        if (Array.isArray(f.properties.offset_px)) {
+          offset = f.properties.offset_px;
+        }
+        console.log(`   found label point ${offset}`)
+        insetLabelPoints.push({
+          name:  text,
+          value: coord,
+          label: {
+            show:      true,
+            formatter: text,
+            position: 'right',
+            offset:    offset,
           },
-          // extra colors
-          regions: [
-              { name: 'Norway',         itemStyle: { areaColor: '#eee' , borderWidth: 0} },
-              { name: 'Switzerland',    itemStyle: { areaColor: '#eee' , borderWidth: 0} },
-              { name: 'United Kingdom', itemStyle: { areaColor: '#eee' , borderWidth: 0} },
-              { name: 'Andorra',        itemStyle: { areaColor: '#eee' , borderWidth: 0} },
-              { name: 'Ukraine',        itemStyle: { areaColor: '#eee' , borderWidth: 0} },
-              { name: 'Moldova',        itemStyle: { areaColor: '#eee' , borderWidth: 0} },
-              { name: 'Belarus',        itemStyle: { areaColor: '#eee' , borderColor:   '#ccc'} },
-              { name: 'Bosnia and Herzegovina',        itemStyle: { areaColor: '#eee' , borderColor:   '#ccc'} },
-              { name: 'Albania',        itemStyle: { areaColor: '#eee' , borderColor:   '#ccc'} },
-              { name: 'Montenegro',     itemStyle: { areaColor: '#eee' , borderColor:   '#ccc'} },
-              { name: 'Macedonia',      itemStyle: { areaColor: '#eee' , borderColor:   '#ccc'} },
-              { name: 'Serbia',         itemStyle: { areaColor: '#eee' , borderColor:   '#ccc'} },
-            ],
-
-          // color when hovered
-          emphasis: {
-            itemStyle: {
-              // color on hover
-              areaColor: colPri
-            },
-            label: { show: false }
-          },
-        },   // end geo
+          emphasis: { disabled: true },
+          silent: true
+        });
+      }
+    }
 
 
 
-        tooltip: {},
-        legend:  {
-          show: false,
-        },
+    const option = {
+      geo: {
+        map: 'europe-reduced',
+        roam: true,
+        aspectScale: Math.cos((55 * Math.PI) / 180),
+        aspectScale: Math.cos((35 * Math.PI) / 180),
+        aspectScale: Math.cos((30 * Math.PI) / 180),  // vertical compression of map projection
 
-        // global colors for series - taken from main-fonts.css
-        color: [
-            'rgb(194, 211,   0)', 
-            'rgb( 0,  105, 180)', 
-            'rgb(245, 245, 246)',
-            'rgb(112, 111, 111)', 
-            'rgb(157, 157, 156)',
-            'rgb(174, 215, 217)', 
+        // projection: {
+        //     project: function (point) {
+        //         return [point[0], Math.log(Math.tan((Math.PI / 4) + (point[1] * Math.PI / 360)))];
+        //     },
+        //     unproject: function (point) {
+        //         return [point[0], (2 * Math.atan(Math.exp(point[1])) - Math.PI / 2) * 180 / Math.PI];
+        //     }
+        // },
+
+        // zoom: 0.75,
+
+        // top:    -240,     // margin top
+        // bottom: -130,     
+        // left:   0,
+        // right:  0,
+
+        center:       [ 16  ,  48.5  ],  // geo center - longitute - latitude
+        layoutCenter: ['50%', '50%'], // where to place the geo center
+        // layoutSize:    '250%',
+
+
+        boundingCoords: [
+            // [minLon, minLat],
+            //  north of finland -  west of ireland
+                [16 - 9.2   , 48.5 - 11.6],
+            // [maxLon, maxLat],
+                [16 + 9.2   , 48.5 + 11.6],
         ],
 
-        series: [
+        nameProperty: 'name', //  name_en - for using en name.
+        itemStyle: {
+          // https://echarts.apache.org/en/option.html#legend.itemStyle
+          areaColor: colIB3,
+          borderColor: '#999999',
+          inactiveColor: '#f11',
+          inactiveBorderColor: '#ccc',
+        },
+        // extra colors for non-members
+        regions: [
+          { name: 'Norway', itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'Switzerland', itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'United Kingdom', itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'Andorra', itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'Ukraine', itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'Moldova', itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'Belarus', itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
+          { name: 'Bosnia and Herzegovina', itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
+          { name: 'Albania', itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
+          { name: 'Montenegro', itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
+          { name: 'Macedonia', itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
+          { name: 'Serbia', itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
 
-          // randomPieSeries1([-19.007740346534653, 64.17802815851280], 45),
-          // randomPieSeries1([-17.204666089108912, 65.44804833928391], 25),
-          // randomPieSeries1([-20, 65.8],30),
+          {
+            name: 'Cyprus Inset Rectangle',
+            itemStyle: {
+              areaColor: 'none',
+              borderColor: '#222',
+            },
+            emphasis: { disabled: true },
+            tooltip:  { show: false },
 
-          // greenwich  longitude, latitude
-          randomPieSeries1([  -1.6, 52.5], 25),
-
-          // use geo region name as center
-          // randomPieSeries1('Höfuðborgarsvæði',30),
-          randomPieSeries1('France' , 25),
-          randomPieSeries1('Germany', 35),
+          },
+        ],
 
 
-        ]
-      };
+        // color when hovered
+        emphasis: {
+          itemStyle: {
+            // color on hover
+            areaColor: colPri
+          },
+          label: { show: false }
+        },
 
-      myChart.hideLoading();
-      myChart.setOption(option);
-      console.log("echart options set 1")
+      },   // end geo
 
-    });
 
+
+      tooltip: {},
+      legend: {
+        show: false,
+      },
+
+      // global colors for series - taken from main-fonts.css
+      color: [
+        'rgb(194, 211,   0)',
+        'rgb( 0,  105, 180)',
+        'rgb(245, 245, 246)',
+        'rgb(112, 111, 111)',
+        'rgb(157, 157, 156)',
+        'rgb(174, 215, 217)',
+      ],
+
+      series: [
+
+        // randomPieSeries1([-19.007740346534653, 64.17802815851280], 45),
+        // randomPieSeries1([-17.204666089108912, 65.44804833928391], 25),
+        // randomPieSeries1([-20, 65.8],30),
+
+        // greenwich  longitude, latitude
+        randomPieSeries1([-1.6, 52.5], 25),
+
+        // use geo region name as center
+        // randomPieSeries1('Höfuðborgarsvæði',30),
+        randomPieSeries1('France', 25),
+        randomPieSeries1('Germany', 35),
+
+        // the label point series
+        {
+          type: 'scatter',
+          coordinateSystem: 'geo',
+          symbolSize:  1,
+          // symbolSize: 10,
+          data:     insetLabelPoints,
+          encode: { lng: 0, lat: 1 }
+        },
+
+
+
+      ]
+    };
+
+    myChart.hideLoading();
+    myChart.setOption(option);
+    console.log("echart options set 1")
 
 
     // if (option && typeof option === 'object') {
@@ -229,6 +292,9 @@
     window.addEventListener('resize', myChart.resize);
 
 
-  </script>
+  })();   // end of outmost aync func - so we can you fetch inside
 
 
+
+
+</script>
