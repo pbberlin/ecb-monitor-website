@@ -244,6 +244,40 @@ def enhance(
         return
 
 
+def roundCoords(features, decimals=3):
+    """
+    Rounds all coordinate values in all features' geometries
+    to the specified number of decimal places.
+    """
+
+    def roundCoordList(coordList):
+        if isinstance(coordList[0], (float, int)):
+            # Single coordinate pair
+            return [round(coordList[0], decimals), round(coordList[1], decimals)]
+        else:
+            # Nested list of coordinates
+            newList = []
+            for idx1, sub in enumerate(coordList):
+                newList.append(roundCoordList(sub))
+            return newList
+
+    for idx1, feat in enumerate(features):
+        try:
+            geom = feat.get("geometry", None)
+            if geom is None:
+                continue
+
+            coords = geom.get("coordinates", None)
+            if coords is None:
+                continue
+
+            geom["coordinates"] = roundCoordList(coords)
+            feat["geometry"] = geom
+        except Exception as ex:
+            print(f"roundCoords() failed on feature {idx1}: {ex}")
+
+
+
 def main():
 
     inputPath       = Path("./europe-reduced-orig.geojson")
@@ -258,17 +292,18 @@ def main():
     # ----- configuration -----
     lonShiftDeg     =  -1.0
     lonShiftDeg     =   4.1
-    lonShiftDeg     =   1.1
+    lonShiftDeg     =   1.8
 
-    latShiftDeg     =   1.8
+    latShiftDeg     =   2.4
+    latShiftDeg     =   0.5
 
-    scaleFactor     =   1.25
     scaleFactor     =   1.0
+    scaleFactor     =   1.25
 
-    padLeftDeg      =   0.30
-    padRightDeg     =   0.30
-    padTopDeg       =   0.35    # <- increase top padding here
-    padBottomDeg    =   0.30
+    padLeftDeg      =   0.60
+    padRightDeg     =   0.60
+    padTopDeg       =   0.65    # <- increase top padding here
+    padBottomDeg    =   0.60
 
     # -------------------------
 
@@ -286,6 +321,29 @@ def main():
         padBottomDeg    ,
 
     )
+
+    enhance(
+        features, 
+        "Malta",
+            
+        lonShiftDeg    =  -2.5 ,
+        latShiftDeg    =  -0.7  ,
+        scaleFactor    =   3.5  ,
+
+        padLeftDeg     = 0.9 ,
+        padRightDeg    = 0.9 ,
+        padTopDeg      = 0.4 ,
+        padBottomDeg   = 0.6 ,
+
+    )
+
+    # Round all coordinates to 3 decimals
+    try:
+        roundCoords(features, decimals=3)
+        print("Rounded all coordinates to 3 decimals")
+    except Exception as ex:
+        print(f"Failed rounding coordinates: {ex}")
+
 
     # Write output (top-level lines + one-line features)
     try:

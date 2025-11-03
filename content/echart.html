@@ -95,12 +95,6 @@
     url = ROOT_PATH + '/static/echart/europe-reduced.geojson';
 
 
-    // $.get(ROOT_PATH + '/static/echart/HK.json',        function (geoJSON) {  console.log("fine hk") })
-    // $.get(ROOT_PATH + '/static/echart/USA.json',       function (geoJSON) {  console.log("fine us") })
-    // $.get(ROOT_PATH + '/static/echart/europe.geojson', function (geoJSON) {  console.log("fine eu") })
-    // $.get(ROOT_PATH + '/static/echart/europe-reduced.geojson', function (geoJSON) {})
-    // $.get(ROOT_PATH + '/static/echart/europe-reduced-simplified.geojson', function (geoJSON) {})
-
     myChart.showLoading();
 
 
@@ -138,12 +132,18 @@
           value: coord,
           label: {
             show:      true,
-            formatter: text,
+            // magnifier optional
+            // formatter: text + '🔍',
+            // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
+            formatter: '  ' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
             position: 'right',
             offset:    offset,
           },
           emphasis: { disabled: true },
-          silent: true
+          silent: true,
+          // xxxx
+            tooltip:  { show: false },
+
         });
       }
     }
@@ -174,7 +174,7 @@
         // left:   0,
         // right:  0,
 
-        center:       [ 16  ,  48.5  ],  // geo center - longitute - latitude
+        center:       [ 16  ,  48.8  ],  // geo center - longitute - latitude
         layoutCenter: ['50%', '50%'], // where to place the geo center
         // layoutSize:    '250%',
 
@@ -182,9 +182,9 @@
         boundingCoords: [
             // [minLon, minLat],
             //  north of finland -  west of ireland
-                [16 - 9.2   , 48.5 - 11.6],
+                [16 - 9.2         , 48.5 - 11.6],
             // [maxLon, maxLat],
-                [16 + 9.2   , 48.5 + 11.6],
+                [16 + 9.2 - 0.2   , 48.5 + 11.6],
         ],
 
         nameProperty: 'name', //  name_en - for using en name.
@@ -213,8 +213,22 @@
           {
             name: 'Cyprus Inset Rectangle',
             itemStyle: {
-              areaColor: 'none',
-              borderColor: '#222',
+              areaColor:   'none',
+              areaColor:   'rgba(217,233,236,0.15)',
+              borderColor: '#aaa',
+              borderWidth: 0.5,   // <— thinner border (default is 1)
+            },
+            emphasis: { disabled: true },
+            tooltip:  { show: false },
+
+          },
+          {
+            name: 'Malta Inset Rectangle',
+            itemStyle: {
+              areaColor:   'none',
+              areaColor:   'rgba(217,233,236,0.15)',
+              borderColor: '#aaa',
+              borderWidth: 0.5,   // <— thinner border (default is 1)
             },
             emphasis: { disabled: true },
             tooltip:  { show: false },
