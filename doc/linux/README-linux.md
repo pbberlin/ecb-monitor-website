@@ -154,9 +154,13 @@ sudo touch /var/www/ecb-app/ecb.wsgi
 
 ## git auto deploy
 
-
-incomplete
-
+```bash
+# on the destination host
+git config --global credential.helper store
+echo  'https://pbu:L!btardQ2@git.zew.de' > ~/.git-credentials
+chmod 600 ~/.git-credentials
+cat       ~/.git-credentials
+```
 
 ```bash
 ssh pbu@192.168.2.142 'echo ok'
@@ -177,7 +181,7 @@ while read oldRev newRev refName; do
 done
 
 remoteUser="pbu"
-remoteHost="ecb-monitor.zew.de"
+# remoteHost="ecb-monitor.zew.de"
 remoteHost="192.168.2.142"
 remoteRepoPath="/var/www/ecb-app"
 
@@ -189,4 +193,43 @@ ssh -o BatchMode=yes -o StrictHostKeyChecking=accept-new "${remoteUser}@${remote
 }
 
 
+```
+
+
+
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Read the 3 fields from stdin (oldrev newrev ref)
+# Not strictly needed if you always deploy on any push, but harmless:
+if ! read -r oldrev newrev refname; then
+  refname=""
+fi
+
+# Deploy only on main branch updates; change if you need a different branch.
+TARGET_REF="refs/heads/main"
+if [[ -n "$refname" && "$refname" != "$TARGET_REF" ]]; then
+  exit 0
+fi
+
+# ---- EDIT THESE ----
+REMOTE_HOST="pbu@192.168.2.142"
+REMOTE_DIR="/var/www/ecb-app"
+BRANCH="main"
+# --------------------
+
+SSH_OPTS=" -o BatchMode=yes -o StrictHostKeyChecking=accept-new"
+
+# Option A (recommended): the remote repo uses SSH auth and has access via a deploy key.
+ssh ${SSH_OPTS} "${REMOTE_HOST}" bash -lc "
+  set -euo pipefail
+  cd \"${REMOTE_DIR}\"
+
+  # Set identity for commits/merges created on this machine (unrelated to auth):
+  git config user.name 'pbu'
+  git config user.email 'peter.buchmann@zew.de'
+  git pull --ff-only origin main
+"
 ```
