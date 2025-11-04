@@ -22,11 +22,21 @@
 
   }
 
+  #controls { margin-bottom: 12px; display: flex; gap: 8px; align-items: center; }
 </style>
 
-<h3 class="header-centered"> Fiskaldaten - Öffentliche Schulden in % BIP: </h3>
+<h3 class="header-centered"> Fiskaldaten - Öffentliche Schulden in % BIP: 
 
 
+  
+  <div id="controls">
+    <label for="yearSlider">Year:</label>
+    <input id="yearSlider" type="range" min="1960" step="1"  autofocus />
+    <span id="yearLabel"></span>
+  </div>
+
+
+</h3>
 
 
 <div id="echart_container"></div>
@@ -58,7 +68,10 @@
 <!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@6/dist/extension/bmap.min.js"></script> -->
 
 <!-- <script type="text/javascript"> -->
+
+<script src="/static/echart/ameco18_eu_percentage_of_gdp.js"></script>
 <script type="module">
+
 
   // wrap everything in an async IIFE so we can use await at top level
   (async () => {
@@ -135,6 +148,42 @@
       };
     }
 
+    function manySingleNumbers() {
+      let results = [];
+      
+      const base = debtPercentOfGDP[2025];
+      for (let country in base) {
+        let numberValue = base[country];
+        console.log(country, numberValue);
+
+        let item = {
+          type: 'scatter',
+          coordinateSystem: 'geo',
+          symbol: 'circle',
+          symbolSize: 0,
+          animationDuration: 0,
+          label: {
+            show: true,
+            formatter:  Math.round(numberValue).toString() + ' %',
+            fontSize:    14,
+            fontSize:    12,
+            fontWeight: 300,
+            color: '#000',
+            align: 'center',
+            verticalAlign: 'middle'
+          },
+                  
+          data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], numberValue] }],
+          tooltip: { show: true, formatter: `${numberValue}` },
+          z: 10,
+        };
+
+        results.push(item);
+
+
+      }
+      return results;
+    }
 
 
 
@@ -420,9 +469,10 @@ function getRegionCoords(mapName, regionName) {
 
         
         // singleNumberByCoords([2.21, 46.23], 99),
-        singleNumberByCoords(  centroids['France'] , 22),
-        singleNumberByCoords(  centroids['Spain']  , 19),
-        
+        // singleNumberByCoords(  centroids['France'] , 22),
+        // singleNumberByCoords(  centroids['Spain']  , 19),
+
+        ...manySingleNumbers(),
         
       ]
     };
@@ -437,6 +487,49 @@ function getRegionCoords(mapName, regionName) {
     // }
 
     window.addEventListener('resize', myChart.resize);
+
+
+
+
+    // --- slider setup: 1960 .. (current year + 1) ---
+    const nextYear = new Date().getFullYear() + 1;
+    const sliderEl = document.getElementById('yearSlider');
+    const labelEl  = document.getElementById('yearLabel');
+
+    sliderEl.max        = String(nextYear);
+    sliderEl.value      = String(nextYear);
+    labelEl.textContent = sliderEl.value;
+
+    function buildSeries(year) {
+      const data = [];
+      return data;
+    }
+
+    // const option3 = {
+    //   title: { text: 'Selected year: ' + sliderEl.value },
+    //   series: [
+    //     ...buildSeries(),
+    //   ]
+    // };
+
+
+    // initial render
+    // option3.series[0].data = buildSeries(parseInt(sliderEl.value, 10));
+    // chart.setOption(option3, true);
+
+    // --- onChange handler: update the chart option (stub) ---
+    sliderEl.addEventListener('change', function () {
+
+      const yr = parseInt(sliderEl.value, 10);
+      labelEl.textContent = String(yr);
+
+      // mutate option and re-apply
+      option3.title.text = 'Selected year: ' + yr;
+      option3.series = buildSeries(yr);
+      myChart.setOption(option3, true);
+    });
+
+
 
 
   })();   // end of outmost aync func - so we can you fetch inside

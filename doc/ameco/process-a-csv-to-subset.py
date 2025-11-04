@@ -1,5 +1,6 @@
 from pathlib import Path
 import csv
+from datetime import datetime
 
 # input and output paths
 inputPath = Path("AMECO18.CSV")
@@ -41,6 +42,10 @@ euCountries = [
 filteredRows = []
 headerFields = None
 
+
+currentYear = datetime.now().year
+
+
 try:
     with inputPath.open(mode="r", encoding="latin-1", newline="") as inFile:
         csvReader = csv.DictReader(inFile, delimiter=",")
@@ -48,8 +53,9 @@ try:
 
         # keep only COUNTRY, UNIT, and years 1960–2026
         keepFields = ["COUNTRY", "UNIT"]
-        for year in range(1960, 2027):
+        for year in range(1960, currentYear+1):
             keepFields.append(str(year))
+
 
         for idx1, row in enumerate(csvReader):
             try:
@@ -57,11 +63,18 @@ try:
                 unitVal  = unitVal.strip()
                 country  = row.get("COUNTRY", "")
 
+                # 
+
                 # your debug print preserved
                 print(f" {country:16}  {unitVal} ")
 
                 if unitVal == targetUnit:
                     if country in euCountries:
+
+                        # todo
+                        if country == "Czechia":
+                            country == "Czech Republic"
+
                         filteredRow = {k: row[k] for k in keepFields if k in row}
                         filteredRows.append(filteredRow)
             except Exception as rowExc:

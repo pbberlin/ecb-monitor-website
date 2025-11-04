@@ -154,6 +154,8 @@ sudo touch /var/www/ecb-app/ecb.wsgi
 
 ## git auto deploy
 
+
+
 ```bash
 # on the destination host
 git config --global credential.helper store
@@ -161,6 +163,8 @@ echo  'https://pbu:L!btardQ2@git.zew.de' > ~/.git-credentials
 chmod 600 ~/.git-credentials
 cat       ~/.git-credentials
 ```
+
+
 
 ```bash
 ssh pbu@192.168.2.142 'echo ok'
@@ -170,28 +174,6 @@ ssh pbu@192.168.2.142 'echo ok'
 # -p to preserve date
 scp  -p /home/git/workdir/README.md   pbu@192.168.2.142:/var/www/ecb-app/
 ssh pbu@192.168.2.142 'touch /var/www/ecb-app/ecb.wsgi'
-
-
-#!/bin/bash
-# Gitea post-receive: after push to git.zew.de/ecb-flask -> pull on ecb-monitor.zew.de
-
-# read stdin so hook is "post-receive" correct
-while read oldRev newRev refName; do
-    :
-done
-
-remoteUser="pbu"
-# remoteHost="ecb-monitor.zew.de"
-remoteHost="192.168.2.142"
-remoteRepoPath="/var/www/ecb-app"
-
-# run the pull on the remote host
-ssh -o BatchMode=yes -o StrictHostKeyChecking=accept-new "${remoteUser}@${remoteHost}" \
-    "cd ${remoteRepoPath} && git pull --ff-only" || {
-    echo "post-receive: remote pull failed" >&2
-    exit 1
-}
-
 
 ```
 
@@ -222,6 +204,8 @@ BRANCH="main"
 
 SSH_OPTS=" -o BatchMode=yes -o StrictHostKeyChecking=accept-new"
 
+ssh pbu@192.168.2.142 'touch /var/www/ecb-app/ecb.wsgi'
+
 # Option A (recommended): the remote repo uses SSH auth and has access via a deploy key.
 ssh ${SSH_OPTS} "${REMOTE_HOST}" bash -lc "
   set -euo pipefail
@@ -231,5 +215,6 @@ ssh ${SSH_OPTS} "${REMOTE_HOST}" bash -lc "
   git config user.name 'pbu'
   git config user.email 'peter.buchmann@zew.de'
   git pull --ff-only origin main
+  echo 'git pull on remote machine - stop'
 "
 ```
