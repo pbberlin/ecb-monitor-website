@@ -1,23 +1,432 @@
+<style>
+  html,
+  body,
+  #echart_container {
+    height: 100%;
+  }
 
-<!-- xxxx content start  -->
-<main id="main">
+  #echart_container {
+    height: 75%;
+    padding: 0;
+    margin:  0;
+    width:  820px;
+    margin: 0 auto;
+    border-top:  1px solid lightgray;
+  }
 
-    <br>
+  .header-centered {
+    width: 333px;
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+    float: left;
 
-    <ul class="o-grid o-grid-1-1@sm o-grid-1-1-1@lg">
+  }
 
-        <li class="ce-link-box__item ce-link-box__item--external">
-            <div class="ce-link-box__category">
-                Fiskaldaten
-            </div>
-            <a class="ce-link-box__link"
-                href="/pg/02-gdp-debt.html">
-                <i class="u-icon--icon-tag-arrow-default"></i>
-                <i class="u-icon--icon-tag-arrow-hover"></i>
-                Schuldenstand und BIP der Mitgliedstaaten
-            </a>
-        </li>
-    </ul>
+</style>
 
-</div>
+<h3 class="header-centered"> Fiskaldaten - Öffentliche Schulden in % BIP: </h3>
 
+
+
+
+<div id="echart_container"></div>
+
+
+<!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script> -->
+<script type="text/javascript" src="/static/js/echarts.min.js"></script>
+
+
+<!-- Uncomment this line if you want to dataTool extension -->
+<!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@6/dist/extension/dataTool.min.js"></script> -->
+
+<!-- Uncomment this line if you want to use gl extension -->
+<!-- <script type="text/javascript"  src="https://echarts.apache.org/en/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script> -->
+
+<!-- Uncomment this line if you want to echarts-stat extension -->
+<!-- <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-stat/dist/ecStat.min.js"></script> -->
+
+<!-- Uncomment this line if you want to echarts-graph-modularity extension -->
+<!-- <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script> -->
+
+
+<!-- Uncomment this line if you want to use map -->
+<!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script> -->
+
+
+<!-- Uncomment these two lines if you want to use bmap extension -->
+<!-- <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script> -->
+<!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@6/dist/extension/bmap.min.js"></script> -->
+
+<!-- <script type="text/javascript"> -->
+<script type="module">
+
+  // wrap everything in an async IIFE so we can use await at top level
+  (async () => {
+
+    const dom = document.getElementById('echart_container');
+
+    const myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+
+    const root = document.documentElement;
+    const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
+    const colSec = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
+    const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
+    const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
+
+
+    function randomPieSeries1(centerLabelOrCoords, radius) {
+      
+      const data = ['A', 'B', 'C', 'D'].map((t) => {
+        return {
+          value: Math.round(Math.random() * 100),
+          name: 'Category ' + t
+        };
+      });
+
+      // map
+      return {
+        type: 'pie',
+        coordinateSystem: 'geo',
+        tooltip: {
+          formatter: '{b}: {c} ({d}%)'
+        },
+        label: {
+          show: false
+        },
+        labelLine: {
+          show: false
+        },
+        animationDuration: 0,
+        radius: radius,
+        center: centerLabelOrCoords,
+        data: data,
+      };
+    }
+
+
+
+
+
+
+
+    function singleNumberByCoords(lonLat, numberValue) {
+      return {
+        type: 'scatter',
+        coordinateSystem: 'geo',
+        symbol: 'circle',
+        symbolSize: 0,   // hide the marker
+        label: {
+          show: true,
+          formatter: numberValue.toString(),
+          fontSize: 14,
+          fontWeight: 'bold',
+          fontWeight: 300,
+          color: '#000',
+          align: 'center',
+          verticalAlign: 'middle'
+        },
+        data: [{ name: 'value', value: [lonLat[0], lonLat[1], numberValue] }],
+        tooltip: { show: true, formatter: `${numberValue}` },
+        z: 10,
+      };
+    }
+
+
+
+
+    //  determine the root path based on current host
+    const ROOT_PATH = window.location.origin;
+    let url;
+    url = ROOT_PATH + '/static/echart/usa.json';
+    url = ROOT_PATH + '/static/echart/europe.geojson';
+    url = ROOT_PATH + '/static/echart/europe-reduced-orig.geojson';
+    url = ROOT_PATH + '/static/echart/europe-reduced.geojson';
+
+    myChart.showLoading();
+
+    let res;
+    // res = await fetch(url, { cache: 'no-cache' });
+    // res = await fetch(url, { cache: 'force-cache' });
+    res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) { throw new Error(`HTTP ${res.status}`); }
+    const geoJSON = await res.json();   // works even if server sends text/plain
+    echarts.registerMap('europe-reduced', geoJSON);
+    console.log("europe geo json loaded and registered")
+
+
+function getRegionCoords(mapName, regionName) {
+
+  const mapData = echarts.getMap(mapName);
+
+  if (!mapData) {
+    console.error(`Map "${mapName}" not found — must be registered before setOption.`);
+    return null;
+  }
+
+  const features = mapData.geoJson.features;
+
+  for (let [idx1, feature] of features.entries()) {
+
+    const name = feature.properties && feature.properties.name;
+
+    if (name === regionName) {
+
+      // Use predefined center point if available
+      if (feature.properties && feature.properties.cp) {
+        return feature.properties.cp;
+      }
+
+      const geometry = feature.geometry;
+
+      let lonSum = 0;
+      let latSum = 0;
+      let count = 0;
+
+      // Flatten nested coordinate arrays manually
+      const processCoords = coords => {
+        for (let [idx2, val] of coords.entries()) {
+          if (Array.isArray(val[0])) {
+            processCoords(val); // recurse deeper
+          } else if (Array.isArray(val) && val.length === 2) {
+            lonSum += val[0];
+            latSum += val[1];
+            count += 1;
+          }
+        }
+      };
+
+      processCoords(geometry.coordinates);
+
+      if (count === 0) {
+        console.error(`No coordinates found for region "${regionName}".`);
+        return null;
+      }
+
+      return [lonSum / count, latSum / count];
+    }
+  }
+
+  console.warn(`Region "${regionName}" not found in map "${mapName}".`);
+  return null;
+}
+
+    console.log(` geo coords for centroid of France ${getRegionCoords('europe-reduced', 'France')}`)
+
+
+
+
+
+    const option2 = {
+
+      tooltip: {},
+      legend: {
+        show: false,
+      },
+
+      // global colors for series - taken from main-fonts.css
+      color: [
+        'rgb(194, 211,   0)',
+        'rgb( 0,  105, 180)',
+        'rgb(245, 245, 246)',
+        'rgb(112, 111, 111)',
+        'rgb(157, 157, 156)',
+        'rgb(174, 215, 217)',
+      ],
+
+
+      geo: {
+        map: 'europe-reduced',
+        roam: true,
+        aspectScale: Math.cos((55 * Math.PI) / 180),
+        aspectScale: Math.cos((35 * Math.PI) / 180),
+        aspectScale: Math.cos((30 * Math.PI) / 180),  // vertical compression of map projection
+
+        // projection: {
+        //     project: function (point) {
+        //         return [point[0], Math.log(Math.tan((Math.PI / 4) + (point[1] * Math.PI / 360)))];
+        //     },
+        //     unproject: function (point) {
+        //         return [point[0], (2 * Math.atan(Math.exp(point[1])) - Math.PI / 2) * 180 / Math.PI];
+        //     }
+        // },
+
+        // zoom: 0.75,
+
+        // top:    -240,     // margin top
+        // bottom: -130,     
+        // left:   0,
+        // right:  0,
+
+        center:       [ 16  ,  48.8  ],  // geo center - longitute - latitude
+        center:       [ 14  ,  48.8  ],  // geo center - longitute - latitude
+        layoutCenter: ['50%', '50%'],    // where to place the geo center
+        // layoutSize:    '250%',
+
+
+        boundingCoords: [
+            // [minLon, minLat],
+            //  north of finland -  west of ireland
+                [16 - 9.2         , 48.5 - 11.6],
+            // [maxLon, maxLat],
+                [16 + 9.2 - 0.2   , 48.5 + 11.6],
+        ],
+
+        nameProperty: 'name', //  name_en - for using en name.
+        itemStyle: {
+          // https://echarts.apache.org/en/option.html#legend.itemStyle
+          areaColor: colIB3,
+          borderColor: '#999999',
+          inactiveColor: '#f11',
+          inactiveBorderColor: '#ccc',
+        },
+        // extra colors for non-members
+        regions: [
+          { name: 'Norway',         itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'Switzerland',    itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'United Kingdom', itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'Andorra',        itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'Ukraine',        itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'Moldova',        itemStyle: { areaColor: '#eee', borderWidth: 0 } },
+          { name: 'Belarus',        itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
+          { name: 'Bosnia and Herzegovina', itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
+          { name: 'Albania',       itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
+          { name: 'Montenegro',    itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
+          { name: 'Macedonia',     itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
+          { name: 'Serbia',        itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
+
+          {
+            name: 'Cyprus Inset Rectangle',
+            itemStyle: {
+              areaColor:   'none',
+              areaColor:   'rgba(217,233,236,0.15)',
+              borderColor: '#aaa',
+              borderWidth: 0.5,   // <— thinner border (default is 1)
+            },
+            emphasis: { disabled: true },
+            tooltip:  { show: false },
+            label: {
+              show:      true,
+              // magnifier optional
+              // formatter: text + '🔍',
+              // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
+              formatter: 'Cyprus',
+              fontSize:   11,
+              fontWeight: 300,
+
+              // position: 'top-right',  // unsupported
+              position: 'top',      
+              align:    'left',     
+              offset:    [-14,-34],
+            },
+          },
+
+          {
+
+            name: 'Malta Inset Rectangle',
+            itemStyle: {
+              areaColor:   'none',
+              areaColor:   'rgba(217,233,236,0.15)',
+              borderColor: '#aaa',
+              borderWidth: 0.5,   // <— thinner border (default is 1)
+            },
+            emphasis: { disabled: true },
+            tooltip:  { show: false },
+            label: {
+              show:      true,
+              // magnifier optional
+              // formatter: text + '🔍',
+              // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
+              formatter: 'Malta',
+              fontSize:   11,
+              fontWeight: 300,
+
+              // position: 'top-right',  // unsupported
+              position: 'top',      
+              align:    'left',     
+              offset:    [-6,-24],
+            },
+
+          },
+
+
+          {
+            name: 'Luxembourg Inset Rectangle',
+            itemStyle: {
+              areaColor:   'none',
+              areaColor:   'rgba(217,233,236,0.15)',
+              borderColor: '#aaa',
+              borderWidth: 0.5,   // <— thinner border (default is 1)
+            },
+            emphasis: { disabled: true },
+            tooltip:  { show: false },
+            label: {
+              show:      true,
+              // magnifier optional
+              // formatter: text + '🔍',
+              // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
+              formatter: 'Luxembourg',
+              formatter: '',
+
+              // position: 'top-right',  // unsupported
+              position: 'top',      
+              align:    'left',     
+              offset:    [-6,-24],
+            },
+
+          },
+
+
+
+        ],
+
+
+        // color when hovered
+        emphasis: {
+          itemStyle: {
+            // color on hover
+            areaColor: colPri
+          },
+          label: { show: false }
+        },
+
+      },   // end geo
+
+
+
+      series: [
+
+        // greenwich  longitude, latitude
+        // randomPieSeries1([-1.6, 52.5], 25),
+
+        // randomPieSeries1('France',  25),
+        // randomPieSeries1('Germany', 35),
+
+
+        
+        singleNumberByCoords([2.21, 46.23], 99),
+        // singleNumberByCoords(  getRegionCoords('France') , 19),
+        
+      ]
+    };
+
+    myChart.hideLoading();
+    myChart.setOption(option2);
+    console.log("echart options set 1")
+
+
+    // if (option && typeof option === 'object') {
+    //   console.log("echart options set 2")
+    // }
+
+    window.addEventListener('resize', myChart.resize);
+
+
+  })();   // end of outmost aync func - so we can you fetch inside
+
+
+
+
+</script>

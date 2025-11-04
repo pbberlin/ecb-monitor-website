@@ -16,7 +16,8 @@
 <div id="echart_container"></div>
 
 
-<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script> -->
+<script type="text/javascript" src="/static/js/echarts.min.js"></script>
 
 
 <!-- Uncomment this line if you want to dataTool extension -->
@@ -121,21 +122,21 @@
       if (f.properties && f.properties.role === 'inset_label' && f.geometry && f.geometry.type === 'Point') {
         console.log(`   found inset_label with geometry.type point`)
         const coord = f.geometry.coordinates; // [lon, lat]
-        const text = f.properties.label || f.properties.name || 'Inset';
+        // const textAA = f.properties.label || f.properties.name || 'Inset';
         let offset = [0, 0];
         if (Array.isArray(f.properties.offset_px)) {
           offset = f.properties.offset_px;
         }
         console.log(`   found label point ${offset}`)
         insetLabelPoints.push({
-          name:  text,
+          name:  f.properties.name,
           value: coord,
           label: {
             show:      true,
             // magnifier optional
             // formatter: text + '🔍',
             // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
-            formatter: '  ' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
+            formatter: '  ' + f.properties.label.replace(/\s*\(Inset\)\s*$/i, '')  ,
             position: 'right',
             offset:    offset,
           },
@@ -220,9 +221,24 @@
             },
             emphasis: { disabled: true },
             tooltip:  { show: false },
+            label: {
+              show:      true,
+              // magnifier optional
+              // formatter: text + '🔍',
+              // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
+              formatter: 'Cyprus',
+              fontSize:   11,
+              fontWeight: 300,
 
+              // position: 'top-right',  // unsupported
+              position: 'top',      
+              align:    'left',     
+              offset:    [-14,-34],
+            },
           },
+
           {
+
             name: 'Malta Inset Rectangle',
             itemStyle: {
               areaColor:   'none',
@@ -232,8 +248,52 @@
             },
             emphasis: { disabled: true },
             tooltip:  { show: false },
+            label: {
+              show:      true,
+              // magnifier optional
+              // formatter: text + '🔍',
+              // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
+              formatter: 'Malta',
+              fontSize:   11,
+              fontWeight: 300,
+
+              // position: 'top-right',  // unsupported
+              position: 'top',      
+              align:    'left',     
+              offset:    [-6,-24],
+            },
 
           },
+
+
+          {
+            name: 'Luxembourg Inset Rectangle',
+            itemStyle: {
+              areaColor:   'none',
+              areaColor:   'rgba(217,233,236,0.15)',
+              borderColor: '#aaa',
+              borderWidth: 0.5,   // <— thinner border (default is 1)
+            },
+            emphasis: { disabled: true },
+            tooltip:  { show: false },
+            label: {
+              show:      true,
+              // magnifier optional
+              // formatter: text + '🔍',
+              // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
+              formatter: 'Luxembourg',
+              formatter: '',
+
+              // position: 'top-right',  // unsupported
+              position: 'top',      
+              align:    'left',     
+              offset:    [-6,-24],
+            },
+
+          },
+
+
+
         ],
 
 
@@ -280,14 +340,14 @@
         randomPieSeries1('Germany', 35),
 
         // the label point series
-        {
-          type: 'scatter',
-          coordinateSystem: 'geo',
-          symbolSize:  1,
-          // symbolSize: 10,
-          data:     insetLabelPoints,
-          encode: { lng: 0, lat: 1 }
-        },
+        // {
+        //   type: 'scatter',
+        //   coordinateSystem: 'geo',
+        //   symbolSize:  1,
+        //   // symbolSize: 10,
+        //   data:     insetLabelPoints,
+        //   encode: { lng: 0, lat: 1 }
+        // },
 
 
 

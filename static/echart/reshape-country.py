@@ -154,13 +154,19 @@ def enhance(
         lonShiftDeg     ,
         latShiftDeg     ,
         scaleFactor     ,
+        
         padLeftDeg      ,
         padRightDeg     ,
         padTopDeg       ,
         padBottomDeg    ,
+
+        onTopOfCountry=False,
     ):
 
-    insetLabelText  =   f"{countryName} (Inset)"
+    nameRect     =   f"{countryName} Inset Rectangle"
+
+    namePoint    =   f"{countryName} Inset Label"
+    labelPoint   =   f"{countryName} (Inset)"
 
 
     countryFound =     False
@@ -206,7 +212,7 @@ def enhance(
         insetFeature = {
             "type": "Feature",
             "properties": {
-                "name": f"{countryName} Inset Rectangle",
+                "name": nameRect,
                 "role": "inset_box",
                 "padding_left_deg": padLeftDeg,
                 "padding_right_deg": padRightDeg,
@@ -215,33 +221,40 @@ def enhance(
             },
             "geometry": mapping(insetRectGeom),
         }
-        features.append(insetFeature)
+
+        if onTopOfCountry:
+            features.append(insetFeature)     #                     on top of 
+        else:
+            features.insert(0, insetFeature)  # prepend - rectangle under country
         print(f"rectangle around {countryName} with asymmetric padding")
+    
     except Exception as ex:
         print(f"Failed to create inset rectangle: {ex}")
         return
 
 
-    # Add a label point at the rectangle's top-left corner
-    try:
-        tlPoint = topLeftOfRectangle(insetRectGeom)
-        labelFeature = {
-            "type": "Feature",
-            "properties": {
-                "name": f"{countryName} Inset Label",
-                "role": "inset_label",
-                "label": insetLabelText,
-                "anchor":    "top-left",
-                # pixels; to be interpreted by the renderer (e.g., ECharts)
-                "offset_px": [-10, -8],   #  first -10 -  move to the left - why is not already left ---       second  -8 to move vertically up
-            },
-            "geometry": mapping(tlPoint),
-        }
-        features.append(labelFeature)
-        print("added inset label point at top-left")
-    except Exception as ex:
-        print(f"Failed to add label point: {ex}")
-        return
+
+    if False:
+        # Add a label point at the rectangle's top-left corner
+        try:
+            tlPoint = topLeftOfRectangle(insetRectGeom)
+            labelFeature = {
+                "type": "Feature",
+                "properties": {
+                    "name":     namePoint,
+                    "role":     "inset_label",
+                    "label":    labelPoint,
+                    "anchor":   "top-left",
+                    # pixels; to be interpreted by the renderer (e.g., ECharts)
+                    "offset_px": [-10, -8],   #  first -10 -  move to the left - why is not already left ---       second  -8 to move vertically up
+                },
+                "geometry": mapping(tlPoint),
+            }
+            features.append(labelFeature)
+            print("added inset label point at top-left")
+        except Exception as ex:
+            print(f"Failed to add label point: {ex}")
+            return
 
 
 def roundCoords(features, decimals=3):
@@ -278,6 +291,77 @@ def roundCoords(features, decimals=3):
 
 
 
+def dropClosePoints(features, minDistance=0.005):
+    """
+    Removes redundant coordinate points from geometries:
+    if a point is not farther than 'minDistance' from the
+    previous kept point (in degrees), it is dropped.
+
+    Works recursively for all geometry coordinate structures.
+    """
+
+    import math
+
+    def distance(p1, p2):
+        dx = p1[0] - p2[0]
+        dy = p1[1] - p2[1]
+        return math.sqrt(dx * dx + dy * dy)
+
+    def filterCoords(coordList):
+        # Single coordinate pair?
+        if isinstance(coordList[0], (float, int)):
+            return coordList
+
+        # Nested: list of coordinates
+        newList = []
+
+        # Determine if this is a list of coordinate pairs or deeper nesting
+        if isinstance(coordList[0][0], (float, int)):
+            # List of coordinate pairs → apply distance filter
+            if len(coordList) == 0:
+                return coordList
+
+            # Always keep first point
+            newList.append(coordList[0])
+
+            for idx1 in range(1, len(coordList)):
+                prev = newList[-1]
+                curr = coordList[idx1]
+                dist = distance(prev, curr)
+                if dist > minDistance:
+                    newList.append(curr)
+                else:
+                    print(f"\tdropped close point {curr[0]:6.3f}:{curr[1]:6.3f} -  dist={dist:.4f}")
+
+            return newList
+
+        else:
+            # Deeper nesting (Polygon rings, MultiPolygons, etc.)
+            nested = []
+            for idx1, sub in enumerate(coordList):
+                nested.append(filterCoords(sub))
+            return nested
+
+    # ---- feature iteration ----
+    for idx1, feat in enumerate(features):
+        try:
+            geom = feat.get("geometry", None)
+            if geom is None:
+                print(f"dropClosePoints(): feature {idx1} has no geometry")
+                continue
+
+            coords = geom.get("coordinates", None)
+            if coords is None:
+                print(f"dropClosePoints(): feature {idx1} has no coordinates")
+                continue
+
+            geom["coordinates"] = filterCoords(coords)
+            feat["geometry"] = geom
+
+        except Exception as ex:
+            print(f"dropClosePoints() failed on feature {idx1}: {ex}")
+
+
 def main():
 
     inputPath       = Path("./europe-reduced-orig.geojson")
@@ -290,14 +374,8 @@ def main():
 
 
     # ----- configuration -----
-    lonShiftDeg     =  -1.0
-    lonShiftDeg     =   4.1
     lonShiftDeg     =   1.8
-
-    latShiftDeg     =   2.4
     latShiftDeg     =   0.5
-
-    scaleFactor     =   1.0
     scaleFactor     =   1.25
 
     padLeftDeg      =   0.60
@@ -337,6 +415,25 @@ def main():
 
     )
 
+
+    enhance(
+        features, 
+        "Luxembourg",
+            
+        lonShiftDeg    =   0.0 ,
+        latShiftDeg    =  -0.0  ,
+        scaleFactor    =   1.3  ,
+
+        padLeftDeg     = 0.4 ,
+        padRightDeg    = 0.4 ,
+        padTopDeg      = 0.4 ,
+        padBottomDeg   = 0.4 ,
+
+        # onTopOfCountry=True,
+
+    )
+
+
     # Round all coordinates to 3 decimals
     try:
         roundCoords(features, decimals=3)
@@ -344,6 +441,10 @@ def main():
     except Exception as ex:
         print(f"Failed rounding coordinates: {ex}")
 
+
+    # Then drop redundant points
+    # dropClosePoints(features, minDistance=0.005)
+    dropClosePoints(features, minDistance=0.080)
 
     # Write output (top-level lines + one-line features)
     try:
