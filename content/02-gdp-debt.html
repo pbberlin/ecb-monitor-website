@@ -118,6 +118,7 @@
         coordinateSystem: 'geo',
         symbol: 'circle',
         symbolSize: 0,   // hide the marker
+        animationDuration: 0,
         label: {
           show: true,
           formatter: numberValue.toString(),
@@ -155,6 +156,18 @@
     const geoJSON = await res.json();   // works even if server sends text/plain
     echarts.registerMap('europe-reduced', geoJSON);
     console.log("europe geo json loaded and registered")
+
+    // Extract lon/lat data
+    let centroids = {};
+    for (let feature of geoJSON.features.entries()) {
+      // console.log(feature[1].properties);
+      let name = feature[1].properties.name;
+      let lon = feature[1].properties.LON;
+      let lat = feature[1].properties.LAT;
+      centroids[name] = [lon, lat];
+    }
+    // You can now use `centroids` later for scatter data, tooltips, etc.
+    // console.log(centroids);
 
 
 function getRegionCoords(mapName, regionName) {
@@ -406,8 +419,10 @@ function getRegionCoords(mapName, regionName) {
 
 
         
-        singleNumberByCoords([2.21, 46.23], 99),
-        // singleNumberByCoords(  getRegionCoords('France') , 19),
+        // singleNumberByCoords([2.21, 46.23], 99),
+        singleNumberByCoords(  centroids['France'] , 22),
+        singleNumberByCoords(  centroids['Spain']  , 19),
+        
         
       ]
     };
