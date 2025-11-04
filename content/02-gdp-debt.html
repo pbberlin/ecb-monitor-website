@@ -1,8 +1,31 @@
 <style>
   html,
   body,
-  #echart_container {
+  dummy {
     height: 100%;
+  }
+
+  .left-col-controls {
+    position: relative;   /*  z-index  */    
+    z-index: 10;
+    width: calc(  max(19.5rem, 20%)  );
+    /* margin: 0 auto; */
+    margin: 0.4rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1.1rem;
+    float: left;
+
+    background-color: rgba(217,233,236,0.25)
+  }
+
+  #slider-group { 
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    align-items: center;
+    height: auto;
+
   }
 
   #echart_container {
@@ -11,32 +34,27 @@
     margin:  0;
     width:  820px;
     margin: 0 auto;
-    border-top:  1px solid lightgray;
+    /* border-top:  1px solid lightgray; */
   }
 
-  .header-centered {
-    width: 333px;
-    margin: 0 auto;
-    padding: 0.5rem 2rem;
-    float: left;
 
-  }
-
-  #controls { margin-bottom: 12px; display: flex; gap: 8px; align-items: center; }
 </style>
 
-<h3 class="header-centered"> Fiskaldaten - Öffentliche Schulden in % BIP: 
+<div class="left-col-controls">
 
+
+
+  <h3 > Fiskaldaten - Öffentliche Schulden in % BIP: </h3>
 
   
-  <div id="controls">
-    <label for="yearSlider">Year:</label>
-    <input id="yearSlider" type="range" min="1960" step="1"  autofocus />
+  <!-- <label for="yearSlider">Year:</label> -->
+  <!-- <input id="yearSlider" type="range" min="1970" step="1"  autofocus /> -->
+  <div id="slider-group">
+    <input id="yearSlider" type="range" min="1997" step="1"  autofocus />
     <span id="yearLabel"></span>
   </div>
 
-
-</h3>
+</div  >
 
 
 <div id="echart_container"></div>
@@ -148,13 +166,13 @@
       };
     }
 
-    function manySingleNumbers() {
+    function manySingleNumbers(yr=2025) {
       let results = [];
       
-      const base = debtPercentOfGDP[2025];
+      const base = debtPercentOfGDP[yr];
       for (let country in base) {
         let numberValue = base[country];
-        console.log(country, numberValue);
+        // console.log(country, numberValue);
 
         let item = {
           type: 'scatter',
@@ -497,20 +515,10 @@ function getRegionCoords(mapName, regionName) {
     const labelEl  = document.getElementById('yearLabel');
 
     sliderEl.max        = String(nextYear);
-    sliderEl.value      = String(nextYear);
+    sliderEl.value      = String(nextYear-1);
     labelEl.textContent = sliderEl.value;
 
-    function buildSeries(year) {
-      const data = [];
-      return data;
-    }
 
-    // const option3 = {
-    //   title: { text: 'Selected year: ' + sliderEl.value },
-    //   series: [
-    //     ...buildSeries(),
-    //   ]
-    // };
 
 
     // initial render
@@ -524,9 +532,20 @@ function getRegionCoords(mapName, regionName) {
       labelEl.textContent = String(yr);
 
       // mutate option and re-apply
-      option3.title.text = 'Selected year: ' + yr;
-      option3.series = buildSeries(yr);
-      myChart.setOption(option3, true);
+      let option3;
+      option3 = {
+        // title: { text: 'Selected year: ' + sliderEl.value },
+        series: []
+      };
+      option3.series = manySingleNumbers(yr);
+      console.log(` changing year to ${yr} `);
+      myChart.setOption(
+          option3, 
+          {
+            notMerge :   false,  // do merge
+            lazyUpdate : true,
+          },
+        );
     });
 
 
