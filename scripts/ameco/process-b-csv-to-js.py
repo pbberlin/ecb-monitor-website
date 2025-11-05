@@ -85,9 +85,8 @@ def makeJsFromCsv(inputCsvPath: Path, outputJsPath: Path) -> None:
 
 if __name__ == "__main__":
 
-    inputPath = Path("AMECO18_eu_percentage_of_gdp.csv")
-
-    outputPath = Path("tmp-ameco18_eu_percentage_of_gdp.js")
+    inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_debt_to_gdp.csv"
+    outputPath = Path.cwd() / "static"  / "dl" /  "ameco_debt_to_gdp.js"
 
     makeJsFromCsv(inputPath, outputPath)
     print(f"Wrote: {outputPath}")

@@ -2,10 +2,6 @@ from pathlib import Path
 import csv
 from datetime import datetime
 
-# input and output paths
-inputPath = Path("AMECO18.CSV")
-outputPath = inputPath.with_name(f"{inputPath.stem}_eu_percentage_of_gdp.csv")
-
 # filter settings
 targetUnit = "(Percentage of GDP at current prices (excessive deficit procedure))"
 
@@ -44,6 +40,10 @@ headerFields = None
 
 
 currentYear = datetime.now().year
+
+# input and output paths
+inputPath  = Path("AMECO18.CSV")
+outputPath = Path.cwd() / "static"  / "dl" /  "ameco_debt_to_gdp.csv"
 
 
 try:
@@ -85,6 +85,8 @@ except FileNotFoundError as fnfExc:
 except Exception as readExc:
     print(f"Error reading input file: {readExc}")
 
+
+
 if headerFields is None:
     print("No headers detected; nothing written.")
 else:
@@ -102,3 +104,5 @@ else:
         print(f"Wrote {len(filteredRows)} rows to {outputPath}")
     except Exception as writeExc:
         print(f"Error writing output file: {writeExc}")
+
+
