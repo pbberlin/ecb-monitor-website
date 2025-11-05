@@ -339,23 +339,57 @@ def roundCoords(features, decimals=3):
 
 
 
-def dropClosePoints(features, minDistance=0.005):
+
+def dropClosePoints(features, 
+    minDistanceSmall  = 0.080,
+    minDistanceLarge  = 0.120,
+):
     """
     Removes redundant coordinate points from geometries:
-    if a point is not farther than 'minDistance' from the
+    if a point is not farther than a minDistance[Small|Large] from the
     previous kept point (in degrees), it is dropped.
+
 
     Works recursively for all geometry coordinate structures.
     """
 
     import math
 
+
     def distance(p1, p2):
         dx = p1[0] - p2[0]
         dy = p1[1] - p2[1]
         return math.sqrt(dx * dx + dy * dy)
 
-    def filterCoords(coordList):
+
+    # heavier pruning for some large shapes
+    # smaller countries (Malta, Cyprus) are pruned less
+    def isLargeShapeByName(feature):
+        try:
+            props = feature.get("properties", {})
+            nameValue = str(props.get("name", "")).strip()
+            if nameValue in [
+                "Norway", 
+                "Sweden",
+                "Denmark",
+                "Finland",
+            ]:
+                return True
+        except Exception as ex:
+            print(f"dropClosePoints(): failed checking large-shape name: {ex}")
+        return False
+
+
+    def getThresholdForFeature(feature):
+        if isLargeShapeByName(feature):
+            return minDistanceLarge
+        else:
+            # keep small & medium streamlined as before
+            # you can expand this branch later if you want to distinguish small vs. medium
+            return minDistanceSmall
+
+
+    def filterCoords(coordList, minDist2):
         # Single coordinate pair?
         if isinstance(coordList[0], (float, int)):
             return coordList
@@ -376,7 +410,7 @@ def dropClosePoints(features, minDistance=0.005):
                 prev = newList[-1]
                 curr = coordList[idx1]
                 dist = distance(prev, curr)
-                if dist > minDistance:
+                if dist > minDist2:
                     newList.append(curr)
                 else:
                     print(f"\tdropped close point {curr[0]:6.3f}:{curr[1]:6.3f} -  dist={dist:.4f}")
@@ -387,7 +421,7 @@ def dropClosePoints(features, minDistance=0.005):
             # Deeper nesting (Polygon rings, MultiPolygons, etc.)
             nested = []
             for idx1, sub in enumerate(coordList):
-                nested.append(filterCoords(sub))
+                nested.append(filterCoords(sub, minDist2))
             return nested
 
     # ---- feature iteration ----
@@ -403,7 +437,9 @@ def dropClosePoints(features, minDistance=0.005):
                 print(f"dropClosePoints(): feature {idx1} has no coordinates")
                 continue
 
-            geom["coordinates"] = filterCoords(coords)
+            minDistancePerShape = getThresholdForFeature(feat)
+
+            geom["coordinates"] = filterCoords(coords, minDistancePerShape)
             feat["geometry"] = geom
 
         except Exception as ex:
@@ -436,7 +472,7 @@ def main():
     shiftCentroidOnly(
         features, 
         countryName    =  "Cyprus",
-        lonShiftDeg    =  -1.9 ,
+        lonShiftDeg    =  -2.1 ,
         latShiftDeg    =  -0.2 ,
     )
 
@@ -484,6 +520,29 @@ def main():
 
     shiftCentroidOnly(
         features, 
+        countryName    =  "Luxembourg",
+        lonShiftDeg    =   0.45 ,
+        latShiftDeg    =   0.0 ,
+    )
+
+
+    shiftCentroidOnly(
+        features, 
+        countryName    =  "Netherlands",
+        lonShiftDeg    =   -0.15 ,
+        latShiftDeg    =   -0.25 ,
+    )
+
+
+    shiftCentroidOnly(
+        features, 
+        countryName    =  "Slovenia",
+        lonShiftDeg    =   -0.15 ,
+        latShiftDeg    =   -0.19 ,
+    )
+
+    shiftCentroidOnly(
+        features, 
         countryName    =  "Sweden",
         lonShiftDeg    =  -0.8 ,
         latShiftDeg    =  -2.2 ,
@@ -492,7 +551,7 @@ def main():
     shiftCentroidOnly(
         features, 
         countryName    =  "Portugal",
-        lonShiftDeg    =   0.3 ,
+        lonShiftDeg    =   0.27 ,
         latShiftDeg    =   0.0 ,
     )
 
@@ -514,7 +573,7 @@ def main():
 
     # drop redundant points
     # dropClosePoints(features, minDistance=0.005)
-    dropClosePoints(features, minDistance=0.080)
+    dropClosePoints(features, minDistanceSmall=0.080, minDistanceLarge=0.125)
 
 
     # Write output (top-level lines + one-line features)
