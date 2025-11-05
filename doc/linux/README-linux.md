@@ -152,7 +152,21 @@ sudo touch /var/www/ecb-app/ecb.wsgi
 ```
 
 
-## git auto deploy
+## git auto deploy I
+
+
+```bash
+ssh pbu@192.168.2.142 'echo ok'
+# sudo -u git ssh pbu@192.168.2.142 'echo ok'
+
+# -p to preserve date
+# scp  -p /home/git/workdir/README.md   pbu@192.168.2.142:/var/www/ecb-app/
+ssh pbu@192.168.2.142 'touch /var/www/ecb-app/ecb.wsgi'
+
+```
+
+
+## git auto deploy II
 
 
 
@@ -162,19 +176,6 @@ git config --global credential.helper store
 echo  'https://pbu:L!btardQ2@git.zew.de' > ~/.git-credentials
 chmod 600 ~/.git-credentials
 cat       ~/.git-credentials
-```
-
-
-
-```bash
-ssh pbu@192.168.2.142 'echo ok'
-# sudo -u git ssh pbu@192.168.2.142 'echo ok'
-
-
-# -p to preserve date
-scp  -p /home/git/workdir/README.md   pbu@192.168.2.142:/var/www/ecb-app/
-ssh pbu@192.168.2.142 'touch /var/www/ecb-app/ecb.wsgi'
-
 ```
 
 
@@ -215,6 +216,7 @@ ssh ${SSH_OPTS} "${REMOTE_HOST}" bash -lc "
   git config user.name 'pbu'
   git config user.email 'peter.buchmann@zew.de'
   git pull --ff-only origin main
+  sudo systemctl restart apache2
   echo 'git pull on remote machine - stop'
 "
 ```

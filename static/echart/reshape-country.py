@@ -197,9 +197,14 @@ def enhance(
         # Annotate properties so downstream users know this was modified
         if "properties" not in features[countryFeatureIdx]:
             features[countryFeatureIdx]["properties"] = {}
-        features[countryFeatureIdx]["properties"]["_modified_{countryName}"] = True
+        features[countryFeatureIdx]["properties"][f"_modified_{countryName}"] = True
         features[countryFeatureIdx]["properties"]["_lon_shift_deg"] = lonShiftDeg
-        features[countryFeatureIdx]["properties"]["_scale_factor"] = scaleFactor
+        features[countryFeatureIdx]["properties"]["_scale_factor"]  = scaleFactor
+        
+        features[countryFeatureIdx]["properties"]["LON"]  += lonShiftDeg
+        features[countryFeatureIdx]["properties"]["LAT"]  += latShiftDeg
+        
+        
         print(f"transformed {countryName} geometry")
     except Exception as ex:
         print(f"Failed to transform {countryName} geometry: {ex}")
@@ -236,6 +241,7 @@ def enhance(
 
     if False:
         # Add a label point at the rectangle's top-left corner
+        #   we do this in echart
         try:
             tlPoint = topLeftOfRectangle(insetRectGeom)
             labelFeature = {
@@ -255,6 +261,48 @@ def enhance(
         except Exception as ex:
             print(f"Failed to add label point: {ex}")
             return
+
+
+
+def shiftCentroidOnly(
+        features, 
+        countryName,
+        lonShiftDeg     ,
+        latShiftDeg     ,
+    ):
+
+    countryFound      = False
+    countryFeatureIdx = None
+
+    # Identify country feature
+    for idx1, feat in enumerate(features):
+        try:
+            if findCountryFeature(countryName , feat):
+                countryFound = True
+                countryFeatureIdx = idx1
+                break
+        except Exception as ex:
+            print(f"Error during {countryName} detection at feature {idx1}: {ex}")
+
+    if not countryFound:
+        print("Did not find a feature that looks like {countryName}. No changes written.")
+        return
+
+
+    # move centroid 
+    try:
+
+        if "properties" not in features[countryFeatureIdx]:
+            features[countryFeatureIdx]["properties"] = {}
+        features[countryFeatureIdx]["properties"]["LON"]  += lonShiftDeg
+        features[countryFeatureIdx]["properties"]["LAT"]  += latShiftDeg
+        
+        
+        print(f"moved centroid {countryName} geometry")
+    except Exception as ex:
+        print(f"Failed to moved centroid {countryName} geometry: {ex}")
+        return
+
 
 
 def roundCoords(features, decimals=3):
@@ -370,35 +418,29 @@ def main():
         return
 
 
-    countryName = "Cyprus"
-
-
-    # ----- configuration -----
-    lonShiftDeg     =   1.8
-    latShiftDeg     =   0.5
-    scaleFactor     =   1.25
-
-    padLeftDeg      =   0.60
-    padRightDeg     =   0.60
-    padTopDeg       =   0.65    # <- increase top padding here
-    padBottomDeg    =   0.60
-
-    # -------------------------
 
     enhance(
         features, 
-        countryName,
+        countryName    =  "Cyprus",
             
-        lonShiftDeg     ,
-        latShiftDeg     ,
-        scaleFactor     ,
+        lonShiftDeg     =   1.8 ,
+        latShiftDeg     =   0.5 ,
+        scaleFactor     =   1.25 ,
 
-        padLeftDeg      ,
-        padRightDeg     ,
-        padTopDeg       ,
-        padBottomDeg    ,
+        padLeftDeg      =   0.60 ,
+        padRightDeg     =   0.60 ,
+        padTopDeg       =   0.65 ,   # <- increase top padding here
+        padBottomDeg    =   0.60 ,
 
     )
+    shiftCentroidOnly(
+        features, 
+        countryName    =  "Cyprus",
+        lonShiftDeg    =  -1.9 ,
+        latShiftDeg    =  -0.2 ,
+    )
+
+
 
     enhance(
         features, 
@@ -433,6 +475,34 @@ def main():
 
     )
 
+    shiftCentroidOnly(
+        features, 
+        countryName    =  "Finland",
+        lonShiftDeg    =   0.0 ,
+        latShiftDeg    =  -2.2 ,
+    )
+
+    shiftCentroidOnly(
+        features, 
+        countryName    =  "Sweden",
+        lonShiftDeg    =  -0.8 ,
+        latShiftDeg    =  -2.2 ,
+    )
+
+    shiftCentroidOnly(
+        features, 
+        countryName    =  "Portugal",
+        lonShiftDeg    =   0.3 ,
+        latShiftDeg    =   0.0 ,
+    )
+
+    shiftCentroidOnly(
+        features, 
+        countryName    =  "Ireland",
+        lonShiftDeg    =   0.3 ,
+        latShiftDeg    =   0.0 ,
+    )
+
 
     # Round all coordinates to 3 decimals
     try:
@@ -442,13 +512,13 @@ def main():
         print(f"Failed rounding coordinates: {ex}")
 
 
-    # Then drop redundant points
+    # drop redundant points
     # dropClosePoints(features, minDistance=0.005)
     dropClosePoints(features, minDistance=0.080)
 
+
     # Write output (top-level lines + one-line features)
     try:
-        outputPath = inputPath.with_name(f"{inputPath.stem}_{countryName.lower()}.geojson")
         outputPath = Path("europe-reduced.geojson")  # keep your override
         dataOut = {
             "type": "FeatureCollection",

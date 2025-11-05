@@ -173,7 +173,7 @@
       for (let country in base) {
         let numberValue = base[country];
         // console.log(country, numberValue);
-
+        // xxxxx
         let item = {
           type: 'scatter',
           coordinateSystem: 'geo',
@@ -192,7 +192,8 @@
           },
                   
           data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], numberValue] }],
-          tooltip: { show: true, formatter: `${numberValue}` },
+          tooltip:  { show: true, formatter: `${numberValue}` },
+          tooltip:  { show: false },
           z: 10,
         };
 
@@ -557,3 +558,29 @@ function getRegionCoords(mapName, regionName) {
 
 
 </script>
+
+
+<style>
+  #xx li { list-style-type: circle;}
+</style>
+<ul style="margin: 1rem; margin-left: 15rem" id="xx">
+
+
+  <li>ameco data '(Percentage of GDP at current prices (excessive deficit procedure))' vs
+    <br>
+    ameco data '(percentage of GDP at market prices (excessive deficit procedure))'</li>
+
+  <li>Color coding: Input by Jan</li>
+  <li>Color coding: Idea: Maastricht criteria of 60%</li>
+
+
+  <li>Definition of EU 20+1  (shown are 27)</li>
+  <li>Definition Country name: 'Czech Republic' (ameco18 says 'Czechia')</li>
+
+  <li>Malta and Cyprus enlarged and shifted</li>
+  <li>Malta and Cyprus - emphasis hidden under number</li>
+  <li>Luxembourg slightly enlarged</li>
+  <li>Centroids shifted for Finland and Sweden</li>
+  <li>Map vertices reduced by 80% - reduce coastlines but not islands </li>
+
+</ul>
