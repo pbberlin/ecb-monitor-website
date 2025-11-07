@@ -6,7 +6,7 @@
   }
 
   .left-col-controls {
-    position: relative;   /*  z-index  */    
+    position: relative;   /*  z-index  */
     z-index: 10;
     width: calc(  max(19.5rem, 20%)  );
     /* margin: 0 auto; */
@@ -18,7 +18,7 @@
     background-color: rgba(217,233,236,0.25)
   }
 
-  #slider-group { 
+  #slider-group {
     margin-top: 1.2rem;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@
 
   <h3 > Fiskaldaten - Öffentliche Schulden in % BIP: </h3>
 
-  
+
   <!-- <label for="yearSlider">Year:</label> -->
   <!-- <input id="yearSlider" type="range" min="1970" step="1"  autofocus /> -->
   <div id="slider-group">
@@ -110,17 +110,17 @@
 
 
     // creating the 'series' config for a pie chart with three random number.
-    // Pie charts are easily positioned using either geo coordinates 
+    // Pie charts are easily positioned using either geo coordinates
     // or geojson 'name' -  via line  `center: centerLabelOrCoords`.
     // Other charts types dont have this feature - thus we have to
     //   pull the centroids for countries out of the geojson
     //     centroids['France']
-    //     centroids['Spain'] 
+    //     centroids['Spain']
     //     centroids[country][0], centroids[country][1]
     //      [2.21, 46.23]
-    // The centroids have been finetuned in reshape-country.py 
+    // The centroids have been finetuned in reshape-country.py
     function randomPieSeries1(centerLabelOrCoords, radius) {
-      
+
       const data = ['A', 'B', 'C', 'D'].map((t) => {
         return {
           value: Math.round(Math.random() * 100),
@@ -172,7 +172,7 @@
             align: 'center',
             verticalAlign: 'middle'
           },
-                  
+
           data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], numberValue] }],
           tooltip:  { show: true, formatter: `${numberValue}` },
           tooltip:  { show: false },
@@ -196,10 +196,15 @@
     myChart.showLoading();
 
     let res;
-    // res = await fetch(url, { cache: 'no-cache' });
-    // res = await fetch(url, { cache: 'force-cache' });
-    // adapt in prod
-    res = await fetch(url, { cache: 'no-store' });
+    const isDevMode = window.APP_DEBUG;
+    if (isDevMode) {
+      // res = await fetch(url, { cache: 'no-cache' });
+      res = await fetch(url, { cache: 'no-store' });
+      console.log(`fetching map data - since development mode`);
+    } else {
+      res = await fetch(url, { cache: 'force-cache' });
+      console.log(`map data from cache - since production mode`);
+    }
     if (!res.ok) { throw new Error(`HTTP ${res.status}`); }
     const geoJSON = await res.json();   // works even if server sends text/plain
     echarts.registerMap('europe-reduced', geoJSON);
@@ -260,7 +265,7 @@
         // zoom: 0.75,
 
         // top:    -240,     // margin top
-        // bottom: -130,     
+        // bottom: -130,
         // left:   0,
         // right:  0,
 
@@ -321,8 +326,8 @@
               fontWeight: 300,
 
               // position: 'top-right',  // unsupported
-              position: 'top',      
-              align:    'left',     
+              position: 'top',
+              align:    'left',
               offset:    [-14,-34],
             },
           },
@@ -348,8 +353,8 @@
               fontWeight: 300,
 
               // position: 'top-right',  // unsupported
-              position: 'top',      
-              align:    'left',     
+              position: 'top',
+              align:    'left',
               offset:    [-6,-24],
             },
 
@@ -375,8 +380,8 @@
               formatter: '',
 
               // position: 'top-right',  // unsupported
-              position: 'top',      
-              align:    'left',     
+              position: 'top',
+              align:    'left',
               offset:    [-6,-24],
             },
 
@@ -409,7 +414,7 @@
         // randomPieSeries1('Germany', 35),
 
         ...manySingleNumbers(),
-        
+
       ]
     };
 
@@ -458,7 +463,7 @@
       option3.series = manySingleNumbers(yr);
       console.log(` changing year to ${yr} `);
       myChart.setOption(
-          option3, 
+          option3,
           {
             notMerge :   false,  // do merge
             lazyUpdate : true,

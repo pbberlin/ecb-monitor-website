@@ -13,6 +13,10 @@
     <link href="/static/css/main-zew.css"   media="all" rel="stylesheet" />
     <link href="/static/css/main-fonts.css" rel="stylesheet" />
 
+     <script>
+      // ENV = 'production' => DEBUG = False, else TRUE
+      window.APP_DEBUG = {{ "true" if config['DEBUG'] else "false" }};
+    </script>
 
 </head>
 
