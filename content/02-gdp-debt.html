@@ -150,88 +150,6 @@
     }
 
 
-    function regionsColoring(yr=2025) {
-      let results = [];
-
-
-      for (const [idx, country] of nonMembers.entries()) {
-          let item = { name: country, itemStyle: { areaColor: '#eee', borderWidth: 0.4, borderColor: '#ccc' } };
-          // console.log(`  regionsColoring()-1 ${country}`);
-          results.push(item);
-      };
-
-      /*
-        rgb(194, 225, 226)
-        rgb(214, 235, 236)
-        rgb(235, 245, 246)
-        rgb(255, 255, 255)
-      */
-      for (const [idx, country] of notInEuro.entries()) {
-          // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
-          let item = { name: country, itemStyle: { areaColor: 'rgb(238, 245, 245)', borderWidth: 0.2,   aaborderColor: '#ccc' } };
-          // console.log(`  regionsColoring()-2 ${country}`);
-          results.push(item);
-      };
-
-
-
-      for (const [idx, country] of euCountriesEuro.entries()) {
-
-          let statsValue   ; 
-          let statsColoring;
-          try {
-             statsValue    = debtPercentOfGDP[yr][country];          
-             statsColoring = pctToColor(statsValue);
-          } catch (error) {
-            console.log(`no stats value for ${country} for ${yr}`)
-          }
-          // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
-          let item = { name: country, itemStyle: { areaColor: statsColoring,} };
-          // console.log(`  regionsColoring()-3 ${country} - ${statsValue}`);
-          results.push(item);
-      };
-
-
-
-
-      // for (const [idx, country] of notInEuro.entries()) {
-      return results;
-    }
-
-
-    function extraRectangle(country, offsetX, offsetY){
-      // the rectangles around Cyprus and Malta, not Luxembourg, 
-      // differing only in offset 
-      const item =           
-        {
-          name: `${country} Inset Rectangle`,
-          itemStyle: {
-            areaColor:   'none',
-            areaColor:   'rgba(217,233,236,0.15)',
-            borderColor: '#aaa',
-            borderWidth: 0.5,   // <— thinner border (default is 1)
-          },
-          emphasis: { disabled: true },
-          tooltip:  { show:     false },
-          label: {
-            show:      true,
-            // magnifier optional
-            // formatter: text + '🔍',
-            // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
-            formatter: country,
-            fontSize:       11,
-            fontWeight:    300,
-
-            // position: 'top-right',  // unsupported
-            position: 'top',
-            align:    'left',
-            offset:    [offsetX, offsetY],
-          },
-        }
-        return item;
-    }
-
-
     // 0 to 60% - interpolate between green and green-red (yellow)
     // 60& to 180%  ... full red
     function pctToColor(pct) {
@@ -279,6 +197,84 @@
     }
 
 
+
+    function regionsColoring(yr=2025) {
+      let results = [];
+
+      for (const [idx, country] of nonMembers.entries()) {
+          let item = { name: country, itemStyle: { areaColor: '#eee', borderWidth: 0.4, borderColor: '#ccc' } };
+          // console.log(`  regionsColoring()-1 ${country}`);
+          results.push(item);
+      };
+
+      /*
+        rgb(194, 225, 226)
+        rgb(214, 235, 236)
+        rgb(235, 245, 246)
+        rgb(255, 255, 255)
+      */
+      for (const [idx, country] of notInEuro.entries()) {
+          // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
+          let item = { name: country, itemStyle: { areaColor: 'rgb(238, 245, 245)', borderWidth: 0.2,   aaborderColor: '#ccc' } };
+          // console.log(`  regionsColoring()-2 ${country}`);
+          results.push(item);
+      };
+
+
+
+      for (const [idx, country] of euCountriesEuro.entries()) {
+          try {
+             const statsValue    = debtPercentOfGDP[yr][country];          
+             const statsColoring = pctToColor(statsValue);
+            // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
+            let item = { name: country, itemStyle: { areaColor: statsColoring,} };
+            // x14x14
+            results.push(item);
+            // console.log(`  regionsColoring()-3 ${country} - ${statsValue}`);
+          } catch (error) {
+            console.log(`no stats value for ${country} for ${yr}`)
+          }
+      };
+
+      // for (const [idx, country] of notInEuro.entries()) {
+      return results;
+    }
+
+
+    function extraRectangle(country, offsetX, offsetY){
+      // the rectangles around Cyprus and Malta, not Luxembourg, 
+      // differing only in offset 
+      const item =           
+        {
+          name: `${country} Inset Rectangle`,
+          itemStyle: {
+            areaColor:   'none',
+            areaColor:   'rgba(217,233,236,0.15)',
+            borderColor: '#aaa',
+            borderWidth: 0.5,   // <— thinner border (default is 1)
+          },
+          emphasis: { disabled: true },
+          tooltip:  { show:     false },
+          label: {
+            show:      true,
+            // magnifier optional
+            // formatter: text + '🔍',
+            // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
+            formatter: country,
+            fontSize:       11,
+            fontWeight:    300,
+
+            // position: 'top-right',  // unsupported
+            position: 'top',
+            align:    'left',
+            offset:    [offsetX, offsetY],
+          },
+        }
+        return item;
+    }
+
+
+
     // creating debt numbers at the centroid of 27 eu countries
     function manyCountriesShowStats(yr=2025) {
       let results = [];
@@ -289,8 +285,10 @@
           type: 'scatter',
           coordinateSystem: 'geo',
           symbol: 'circle',
-          symbolSize: 30,     // for debug
+          // x14x14
+          symbolSize: 34,     
           symbolSize:  0,
+          // symbolOffset: [10, -15],   // moves symbol and label
           color: pctToColor(statsValue),
           animationDuration: 0,
           label: {
@@ -301,7 +299,9 @@
             fontWeight: 300,
             color: '#000',
             align: 'center',
-            verticalAlign: 'middle'
+            verticalAlign: 'middle',
+            // offset:    [32, 0],
+            // offset:    [0, 12],
           },
           data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], statsValue] }],
           tooltip:  { show: true, formatter: `${statsValue}` },
