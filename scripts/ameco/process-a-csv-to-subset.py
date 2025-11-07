@@ -3,6 +3,8 @@ import csv
 from datetime import datetime
 
 # filter settings
+targetCode = "UDGG"
+targetCode = "UDGGL"
 targetUnit = "(Percentage of GDP at current prices (excessive deficit procedure))"
 
 euCountries = [
@@ -35,29 +37,6 @@ euCountries = [
     "Sweden"
 ]
 
-euCountriesEuro = [
-    "Austria",
-    "Belgium",
-    "Bulgaria",
-    "Croatia",
-    "Cyprus",
-    "Estonia",
-    "Finland",
-    "France",
-    "Germany",
-    "Greece",
-    "Ireland",
-    "Italy",
-    "Latvia",
-    "Lithuania",
-    "Luxembourg",
-    "Malta",
-    "Netherlands",
-    "Portugal",
-    "Slovakia",
-    "Slovenia",
-    "Spain"
-]
 
 
 filteredRows = []
@@ -78,23 +57,25 @@ try:
 
         # keep only COUNTRY, UNIT, and years 1960–2026
         keepFields = ["COUNTRY", "UNIT"]
-        for year in range(1960, currentYear+1):
+        for year in range(1960, currentYear+2):
             keepFields.append(str(year))
 
 
         for idx1, row in enumerate(csvReader):
             try:
-                unitVal  = row.get("UNIT", "")
-                unitVal  = unitVal.strip()
+                codeVal   = row.get("CODE", "")
+                codeVal   = codeVal.strip()
+
+                unitVal   = row.get("UNIT", "")
+                unitVal   = unitVal.strip()
+
                 country  = row.get("COUNTRY", "")
 
-                # 
-
                 # your debug print preserved
-                print(f" {country:16}  {unitVal} ")
 
-                if unitVal == targetUnit:
+                if unitVal == targetUnit  and  codeVal == targetCode:
 
+                    print(f" unit found in {idx1:3} -  {country:16}  {unitVal} ")
 
                     # normalize irregular country name
                     if country == "Czechia":
@@ -121,7 +102,7 @@ if headerFields is None:
 else:
     try:
         with outputPath.open(mode="w", encoding="utf-8", newline="") as outFile:
-            csvWriter = csv.DictWriter(outFile, fieldnames=keepFields, delimiter=",")
+            csvWriter = csv.DictWriter(outFile, fieldnames=keepFields, delimiter=";")
             csvWriter.writeheader()
 
             for idx1, row in enumerate(filteredRows):

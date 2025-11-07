@@ -9,7 +9,7 @@ def makeJsFromCsv(inputCsvPath: Path, outputJsPath: Path) -> None:
 
     try:
         with inputCsvPath.open(mode="r", encoding="utf-8", newline="") as inFile:
-            delimiterChar = ","  # fixed delimiter
+            delimiterChar = ";"  # fixed delimiter
 
             csvReader = csv.DictReader(inFile, delimiter=delimiterChar)
             headerFields = csvReader.fieldnames if csvReader.fieldnames is not None else []
