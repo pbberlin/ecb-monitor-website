@@ -9,7 +9,7 @@ def makeJsFromCsv(inputCsvPath: Path, outputJsPath: Path) -> None:
 
     try:
         with inputCsvPath.open(mode="r", encoding="utf-8", newline="") as inFile:
-            delimiterChar = ";"  # fixed delimiter
+            delimiterChar = ","  # fixed delimiter
 
             csvReader = csv.DictReader(inFile, delimiter=delimiterChar)
             headerFields = csvReader.fieldnames if csvReader.fieldnames is not None else []
@@ -85,8 +85,8 @@ def makeJsFromCsv(inputCsvPath: Path, outputJsPath: Path) -> None:
 
 if __name__ == "__main__":
 
-    inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_debt_to_gdp.csv"
-    outputPath = Path.cwd() / "static"  / "dl" /  "ameco_debt_to_gdp.js"
+    inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_debt_to_gdp.csv"
+    outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_debt_to_gdp.js"
 
     makeJsFromCsv(inputPath, outputPath)
     print(f"Wrote: {outputPath}")
