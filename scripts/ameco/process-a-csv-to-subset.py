@@ -35,6 +35,31 @@ euCountries = [
     "Sweden"
 ]
 
+euCountriesEuro = [
+    "Austria",
+    "Belgium",
+    "Bulgaria",
+    "Croatia",
+    "Cyprus",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Ireland",
+    "Italy",
+    "Latvia",
+    "Lithuania",
+    "Luxembourg",
+    "Malta",
+    "Netherlands",
+    "Portugal",
+    "Slovakia",
+    "Slovenia",
+    "Spain"
+]
+
+
 filteredRows = []
 headerFields = None
 
