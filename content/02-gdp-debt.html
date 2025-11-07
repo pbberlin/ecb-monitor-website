@@ -62,6 +62,7 @@
 
 <!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script> -->
 <script type="text/javascript" src="/static/js/echarts.min.js"></script>
+<script type="text/javascript" src="/static/js/eu-and-euro-countries.js"></script>
 
 
 <!-- Uncomment this line if you want to dataTool extension -->
@@ -108,6 +109,16 @@
     const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
 
 
+    // creating the 'series' config for a pie chart with three random number.
+    // Pie charts are easily positioned using either geo coordinates 
+    // or geojson 'name' -  via line  `center: centerLabelOrCoords`.
+    // Other charts types dont have this feature - thus we have to
+    //   pull the centroids for countries out of the geojson
+    //     centroids['France']
+    //     centroids['Spain'] 
+    //     centroids[country][0], centroids[country][1]
+    //      [2.21, 46.23]
+    // The centroids have been finetuned in reshape-country.py 
     function randomPieSeries1(centerLabelOrCoords, radius) {
       
       const data = ['A', 'B', 'C', 'D'].map((t) => {
@@ -138,40 +149,11 @@
     }
 
 
-
-
-
-
-
-    function singleNumberByCoords(lonLat, numberValue) {
-      return {
-        type: 'scatter',
-        coordinateSystem: 'geo',
-        symbol: 'circle',
-        symbolSize: 0,   // hide the marker
-        animationDuration: 0,
-        label: {
-          show: true,
-          formatter: numberValue.toString(),
-          fontSize: 14,
-          fontWeight: 'bold',
-          fontWeight: 300,
-          color: '#000',
-          align: 'center',
-          verticalAlign: 'middle'
-        },
-        data: [{ name: 'value', value: [lonLat[0], lonLat[1], numberValue] }],
-        tooltip: { show: true, formatter: `${numberValue}` },
-        z: 10,
-      };
-    }
-
+    // creating debt numbers at the centroid of 27 eu countries
     function manySingleNumbers(yr=2025) {
       let results = [];
-      
-      const base = debtPercentOfGDP[yr];
-      for (let country in base) {
-        let numberValue = base[country];
+      for (let country in debtPercentOfGDP[yr]) {
+        let numberValue = debtPercentOfGDP[yr][country];
         // console.log(country, numberValue);
         // xxxxx
         let item = {
@@ -196,10 +178,7 @@
           tooltip:  { show: false },
           z: 10,
         };
-
         results.push(item);
-
-
       }
       return results;
     }
@@ -219,13 +198,14 @@
     let res;
     // res = await fetch(url, { cache: 'no-cache' });
     // res = await fetch(url, { cache: 'force-cache' });
+    // adapt in prod
     res = await fetch(url, { cache: 'no-store' });
     if (!res.ok) { throw new Error(`HTTP ${res.status}`); }
     const geoJSON = await res.json();   // works even if server sends text/plain
     echarts.registerMap('europe-reduced', geoJSON);
     console.log("europe geo json loaded and registered")
 
-    // Extract lon/lat data
+    // prepare longitude/latitude data from geojson file for positioning of geo shapes
     let centroids = {};
     for (let feature of geoJSON.features.entries()) {
       // console.log(feature[1].properties);
@@ -234,69 +214,12 @@
       let lat = feature[1].properties.LAT;
       centroids[name] = [lon, lat];
     }
-    // You can now use `centroids` later for scatter data, tooltips, etc.
     // console.log(centroids);
+    // we can now use `centroids` for scatter data, tooltips, etc.
 
 
-function getRegionCoords(mapName, regionName) {
 
-  const mapData = echarts.getMap(mapName);
-
-  if (!mapData) {
-    console.error(`Map "${mapName}" not found — must be registered before setOption.`);
-    return null;
-  }
-
-  const features = mapData.geoJson.features;
-
-  for (let [idx1, feature] of features.entries()) {
-
-    const name = feature.properties && feature.properties.name;
-
-    if (name === regionName) {
-
-      // Use predefined center point if available
-      if (feature.properties && feature.properties.cp) {
-        return feature.properties.cp;
-      }
-
-      const geometry = feature.geometry;
-
-      let lonSum = 0;
-      let latSum = 0;
-      let count = 0;
-
-      // Flatten nested coordinate arrays manually
-      const processCoords = coords => {
-        for (let [idx2, val] of coords.entries()) {
-          if (Array.isArray(val[0])) {
-            processCoords(val); // recurse deeper
-          } else if (Array.isArray(val) && val.length === 2) {
-            lonSum += val[0];
-            latSum += val[1];
-            count += 1;
-          }
-        }
-      };
-
-      processCoords(geometry.coordinates);
-
-      if (count === 0) {
-        console.error(`No coordinates found for region "${regionName}".`);
-        return null;
-      }
-
-      return [lonSum / count, latSum / count];
-    }
-  }
-
-  console.warn(`Region "${regionName}" not found in map "${mapName}".`);
-  return null;
-}
-
-    console.log(` geo coords for centroid of France ${getRegionCoords('europe-reduced', 'France')}`)
-
-
+    console.log(` geo coords for centroid of France ${centroids["France"][0]} ${centroids["France"][1]}`)
 
 
 
@@ -485,12 +408,6 @@ function getRegionCoords(mapName, regionName) {
         // randomPieSeries1('France',  25),
         // randomPieSeries1('Germany', 35),
 
-
-        
-        // singleNumberByCoords([2.21, 46.23], 99),
-        // singleNumberByCoords(  centroids['France'] , 22),
-        // singleNumberByCoords(  centroids['Spain']  , 19),
-
         ...manySingleNumbers(),
         
       ]
@@ -574,29 +491,6 @@ function getRegionCoords(mapName, regionName) {
 
   <li>Euro Countries plus Bulgaria  (shown are 27)</li>
 
-  participatingMembers = [
-    "Austria",
-    "Belgium",
-    "Bulgaria",
-    "Croatia",
-    "Cyprus",
-    "Estonia",
-    "Finland",
-    "France",
-    "Germany",
-    "Greece",
-    "Ireland",
-    "Italy",
-    "Latvia",
-    "Lithuania",
-    "Luxembourg",
-    "Malta",
-    "Netherlands",
-    "Portugal",
-    "Slovakia",
-    "Slovenia",
-    "Spain"
-]
 
 
 
