@@ -12,13 +12,6 @@
 
 * Einer hat keine Reden?
 
-* Die plain text Versionen haben teilweise keine "Satzende" Trennungen mehr - bspw. Überschrift geht direkt in ersten Satz über
+* Die plain text Versionen haben teilweise keine "Satzende" Trennungen mehr - bspw. Überschrift geht direkt in ersten Satz über. Siehe `example-html-to-text.py` for a fix. 
 
-## Todo
-
-* Einige wenige Reden sind in der HTML-Seite verkürzt
-
-* Wir brauchen noch die Schritte vier und fünf
-    * Download des PDF
-    * Text-Extraktion aus dem PDF
 

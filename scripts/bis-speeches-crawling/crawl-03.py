@@ -17,7 +17,7 @@ import time
 import random
 from   pathlib import Path
 from   typing  import Dict, Any, Optional
-
+from   datetime import datetime
 import httpx
 from   bs4     import BeautifulSoup
 
@@ -191,6 +191,15 @@ def extractFields(html: str, url: str) -> Dict[str, Any]:
     dateText = getText(dateNode)
     result["date"] = dateText
 
+    # 05 June 2025  - give me some standard formatted parsed date to result["date_parsed"] with yyyy-mm-dd
+    try:
+        parsedDate = datetime.strptime(dateText, "%d %B %Y")
+        result["date_parsed"] = parsedDate.strftime("%Y-%m-%d")
+    except Exception as exc:
+        print(f"Date parse error: {exc}")
+        result["date_parsed"] = ""
+
+
     # pdf_url: //*[@id="center"]/div[2]/div[2]/div[3]/a  class="pdftitle_link"
     pdfAnchor = None
     try:
@@ -272,7 +281,6 @@ def main():
 
                 name = (row.get("name") or "").strip()
                 url  = (row.get("url") or "").strip()
-                linkNumber = (row.get("link_number") or "").strip()
 
                 if len(url) < 8:
                     print(f"{idx:4}  skip (no url)  {name}")
@@ -286,7 +294,6 @@ def main():
                     continue
 
                 
-
                 data = extractFields(html, url)
 
                 # original row for traceability
@@ -297,7 +304,8 @@ def main():
 
 
                 slug = tlsl(name)
-                filename = f"{slug}-{int(linkNumber):04}.json"
+                dte  = (data["date_parsed"] or data["date"] or data["link_number"] or "").strip()
+                filename = f"{slug}-{dte}.json"
                 outPth   = outDir / filename
 
                 try:

@@ -570,21 +570,111 @@ function getRegionCoords(mapName, regionName) {
     <br>
     ameco data '(percentage of GDP at market prices (excessive deficit procedure))'</li>
 
-  <li>Color coding: Input by Jan</li>
-  <li>Color coding: Idea: Maastricht criteria of 60%</li>
 
 
-  <li>Definition of EU 20+1  (shown are 27)</li>
-  <li>Definition Country name: 'Czech Republic' (ameco18 says 'Czechia')</li>
+  <li>Euro Countries plus Bulgaria  (shown are 27)</li>
 
-  <li>Malta and Cyprus enlarged and shifted</li>
-  <li>Malta and Cyprus - emphasis hidden under number</li>
-  <li>Luxembourg slightly enlarged</li>
-  <li>Centroids shifted for Finland, Sweden, many others</li>
+  participatingMembers = [
+    "Austria",
+    "Belgium",
+    "Bulgaria",
+    "Croatia",
+    "Cyprus",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Ireland",
+    "Italy",
+    "Latvia",
+    "Lithuania",
+    "Luxembourg",
+    "Malta",
+    "Netherlands",
+    "Portugal",
+    "Slovakia",
+    "Slovenia",
+    "Spain"
+]
 
-  <li>Auswahl Defizit , Staatsquote, ... -  sechs runde </li>
-  <li>Play button - Prio B - ma gucken   </li>
 
-  <li>Download - jede Variable separate - je nach Auswahl der   </li>
+
+
+  <li>Auswahl Defizit , Staatsquote, ... -  sechs Radio-Buttons</li>
+  <li>Play button </li>
+
+  <li>Download - jede Variable separat - je nach Auswahl der Kennzahl  </li>
+
+    <li>Color coding</li>
 
 </ul>
+
+
+<div class="gradientWrapper">
+    <div class="myGradient"></div>
+
+    <div class="tick" style="left:  60px;"> 60%</div>
+    <div class="tick" style="left: 100px;">100%</div>
+    <div class="tick" style="left: 200px;">200%</div>
+</div>
+
+<style>
+.gradientWrapper {
+    position: relative;
+    height: 130px;
+    width: 300px;
+    margin: 20px;
+}
+
+.myGradient {
+    height: 100px;
+    width: 300px;
+    background: linear-gradient(
+        to right,
+        green     0px,
+        #808000  60px,
+        #808000  60px,
+        red     180px,
+        red     300px
+    );
+    border: 1px solid #444;
+}
+
+.tick {
+    position: absolute;
+    bottom: 0;
+    height: 5px;
+    width:   1px;
+    background: black;
+    text-align: center;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: black;
+}
+
+.tick::after {
+    /* content: attr(style); */
+}
+
+.tick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tick::before {
+    content: "";
+    height: 4px;
+    width:  1px;
+    background: black;
+}
+
+.tick {
+    top: 100px;
+}
+
+.tick span {
+    margin-top: 5px;
+}
+</style>

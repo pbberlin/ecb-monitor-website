@@ -43,7 +43,7 @@ currentYear = datetime.now().year
 
 # input and output paths
 inputPath  = Path("AMECO18.CSV")
-outputPath = Path.cwd() / "static"  / "dl" /  "ameco_debt_to_gdp.csv"
+outputPath = Path.cwd() / ".." /  ".." / "static"  / "dl" /  "ameco_debt_to_gdp.csv"
 
 
 try:
@@ -69,14 +69,18 @@ try:
                 print(f" {country:16}  {unitVal} ")
 
                 if unitVal == targetUnit:
+
+
+                    # normalize irregular country name
+                    if country == "Czechia":
+                        row["COUNTRY"] = "Czech Republic"
+                        country        = "Czech Republic"
+
+
                     if country in euCountries:
-
-                        # todo
-                        if country == "Czechia":
-                            country == "Czech Republic"
-
                         filteredRow = {k: row[k] for k in keepFields if k in row}
                         filteredRows.append(filteredRow)
+
             except Exception as rowExc:
                 print(f"Error processing row index {idx1}: {rowExc}")
 
@@ -92,7 +96,7 @@ if headerFields is None:
 else:
     try:
         with outputPath.open(mode="w", encoding="utf-8", newline="") as outFile:
-            csvWriter = csv.DictWriter(outFile, fieldnames=keepFields, delimiter=";")
+            csvWriter = csv.DictWriter(outFile, fieldnames=keepFields, delimiter=",")
             csvWriter.writeheader()
 
             for idx1, row in enumerate(filteredRows):

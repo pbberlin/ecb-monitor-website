@@ -126,9 +126,9 @@ sudo chown -R pbu:www-data /var/www/ecb-app/data/dl
 sudo chmod 2775            /var/www/ecb-app/data/dl
 
 # application files - with URL - images, charts ...
-sudo mkdir -p /var/www/ecb-app/static/tmp
-sudo chown -R pbu:www-data /var/www/ecb-app/static/tmp
-sudo chmod 2775            /var/www/ecb-app/static/tmp
+sudo mkdir -p /var/www/ecb-app/static/dl
+sudo chown -R pbu:www-data /var/www/ecb-app/static/dl
+sudo chmod 2775            /var/www/ecb-app/static/dl
 
 
 
@@ -219,4 +219,47 @@ ssh ${SSH_OPTS} "${REMOTE_HOST}" bash -lc "
   sudo systemctl restart apache2
   echo 'git pull on remote machine - stop'
 "
+```
+
+
+### compression
+
+
+```bash
+
+sudo a2enmod deflate
+sudo systemctl restart apache2
+
+vim /etc/apache2/mods-available/deflate.conf
+
+# add last line
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml
+    AddOutputFilterByType DEFLATE text/css text/javascript application/javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/geo+json
+</IfModule>
+
+
+sudo systemctl restart apache2
+
+# test 
+# response should contain 
+#     "Content-Encoding: gzip"
+curl -H "Accept-Encoding: gzip" -I https://ecb-monitor.zew.de/
+curl -H "Accept-Encoding: gzip" -I https://ecb-monitor.zew.de/static/echart/europe-reduced.geojson
+
+
+```
+
+### Caching compressed
+
+```bash
+sudo a2enmod headers
+sudo a2enmod deflate
+
+sudo a2enmod cache
+sudo a2enmod cache_disk
+sudo systemctl restart apache2
+
 ```
