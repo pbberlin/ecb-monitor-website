@@ -154,7 +154,8 @@ def enhance(
         lonShiftDeg     ,
         latShiftDeg     ,
         scaleFactor     ,
-        
+
+        drawRect,    
         padLeftDeg      ,
         padRightDeg     ,
         padTopDeg       ,
@@ -173,6 +174,7 @@ def enhance(
     geomTransformed   = None
     countryFeatureIdx = None
 
+
     # Identify country feature
     for idx1, feat in enumerate(features):
         try:
@@ -186,6 +188,7 @@ def enhance(
     if not countryFound:
         print("Did not find a feature that looks like {countryName}. No changes written.")
         return
+
 
 
     # Transform {countryName} geometry
@@ -203,39 +206,38 @@ def enhance(
         
         features[countryFeatureIdx]["properties"]["LON"]  += lonShiftDeg
         features[countryFeatureIdx]["properties"]["LAT"]  += latShiftDeg
-        
-        
+    
         print(f"transformed {countryName} geometry")
     except Exception as ex:
         print(f"Failed to transform {countryName} geometry: {ex}")
         return
 
 
-    # Build and append inset rectangle (with asymmetric padding)
-    try:
-        insetRectGeom = buildInsetRectangleAsym(geomTransformed, padLeftDeg, padRightDeg, padTopDeg, padBottomDeg)
-        insetFeature = {
-            "type": "Feature",
-            "properties": {
-                "name": nameRect,
-                "role": "inset_box",
-                "padding_left_deg": padLeftDeg,
-                "padding_right_deg": padRightDeg,
-                "padding_top_deg": padTopDeg,
-                "padding_bottom_deg": padBottomDeg
-            },
-            "geometry": mapping(insetRectGeom),
-        }
 
-        if onTopOfCountry:
-            features.append(insetFeature)     #                     on top of 
-        else:
-            features.insert(0, insetFeature)  # prepend - rectangle under country
-        print(f"rectangle around {countryName} with asymmetric padding")
-    
-    except Exception as ex:
-        print(f"Failed to create inset rectangle: {ex}")
-        return
+    if drawRect:
+        # Build and append inset rectangle (with asymmetric padding)
+        try:
+            insetRectGeom = buildInsetRectangleAsym(geomTransformed, padLeftDeg, padRightDeg, padTopDeg, padBottomDeg)
+            insetFeature = {
+                "type": "Feature",
+                "properties": {
+                    "name": nameRect,
+                    "role": "inset_box",
+                    "padding_left_deg": padLeftDeg,
+                    "padding_right_deg": padRightDeg,
+                    "padding_top_deg": padTopDeg,
+                    "padding_bottom_deg": padBottomDeg
+                },
+                "geometry": mapping(insetRectGeom),
+            }
+            if onTopOfCountry:
+                features.append(insetFeature)     #                     on top of 
+            else:
+                features.insert(0, insetFeature)  # prepend - rectangle under country
+            print(f"rectangle around {countryName} with asymmetric padding")        
+        except Exception as ex:
+            print(f"Failed to create inset rectangle: {ex}")
+            return
 
 
 
@@ -463,6 +465,7 @@ def main():
         latShiftDeg     =   0.5 ,
         scaleFactor     =   1.25 ,
 
+        drawRect= True,
         padLeftDeg      =   0.60 ,
         padRightDeg     =   0.60 ,
         padTopDeg       =   0.65 ,   # <- increase top padding here
@@ -486,6 +489,7 @@ def main():
         latShiftDeg    =  -0.7  ,
         scaleFactor    =   3.5  ,
 
+        drawRect= True,
         padLeftDeg     = 0.9 ,
         padRightDeg    = 0.9 ,
         padTopDeg      = 0.4 ,
@@ -502,6 +506,7 @@ def main():
         latShiftDeg    =  -0.0  ,
         scaleFactor    =   1.3  ,
 
+        drawRect= False,
         padLeftDeg     = 0.4 ,
         padRightDeg    = 0.4 ,
         padTopDeg      = 0.4 ,

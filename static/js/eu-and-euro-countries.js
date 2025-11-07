@@ -27,7 +27,7 @@ const euCountries = [
     "Slovenia",
     "Spain",
     "Sweden"
-]
+];
 
 // November 2025 - 20 euro countries - plus Bulgaria imminent
 const euCountriesEuro = [
@@ -52,4 +52,27 @@ const euCountriesEuro = [
     "Slovakia",
     "Slovenia",
     "Spain"
-]
+];
+
+
+const nonMembers = [
+    "Norway",
+    "Switzerland",
+    "United Kingdom",
+    "Andorra",
+    "Ukraine",
+    "Moldova",
+    "Belarus",
+    "Bosnia and Herzegovina",
+    "Albania",
+    "Montenegro",
+    "Macedonia",
+    "Serbia",
+];
+
+
+const euroSet = new Set(euCountriesEuro);
+
+const notInEuro = euCountries.filter(country => !euroSet.has(country));
+
+// console.log(notInEuro);

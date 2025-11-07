@@ -91,8 +91,7 @@
 <script src="/static/dl/ameco_debt_to_gdp.js"></script>
 <script type="module">
 
-
-  // wrap everything in an async IIFE so we can use await at top level
+  // wrap everything in an async func, since we need `await fetch(...)` at top level
   (async () => {
 
     const dom = document.getElementById('echart_container');
@@ -108,6 +107,8 @@
     const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
     const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
 
+
+    debtPercentOfGDP
 
     // creating the 'series' config for a pie chart with three random number.
     // Pie charts are easily positioned using either geo coordinates
@@ -149,22 +150,152 @@
     }
 
 
+    function regionsColoring(yr=2025) {
+      let results = [];
+
+
+      for (const [idx, country] of nonMembers.entries()) {
+          let item = { name: country, itemStyle: { areaColor: '#eee', borderWidth: 0.4, borderColor: '#ccc' } };
+          // console.log(`  regionsColoring()-1 ${country}`);
+          results.push(item);
+      };
+
+      /*
+        rgb(194, 225, 226)
+        rgb(214, 235, 236)
+        rgb(235, 245, 246)
+        rgb(255, 255, 255)
+      */
+      for (const [idx, country] of notInEuro.entries()) {
+          // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
+          let item = { name: country, itemStyle: { areaColor: 'rgb(238, 245, 245)', borderWidth: 0.2,   aaborderColor: '#ccc' } };
+          // console.log(`  regionsColoring()-2 ${country}`);
+          results.push(item);
+      };
+
+
+
+      for (const [idx, country] of euCountriesEuro.entries()) {
+
+          let statsValue   ; 
+          let statsColoring;
+          try {
+             statsValue    = debtPercentOfGDP[yr][country];          
+             statsColoring = pctToColor(statsValue);
+          } catch (error) {
+            console.log(`no stats value for ${country} for ${yr}`)
+          }
+          // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
+          let item = { name: country, itemStyle: { areaColor: statsColoring,} };
+          // console.log(`  regionsColoring()-3 ${country} - ${statsValue}`);
+          results.push(item);
+      };
+
+
+
+
+      // for (const [idx, country] of notInEuro.entries()) {
+      return results;
+    }
+
+
+    function extraRectangle(country, offsetX, offsetY){
+      // the rectangles around Cyprus and Malta, not Luxembourg, 
+      // differing only in offset 
+      const item =           
+        {
+          name: `${country} Inset Rectangle`,
+          itemStyle: {
+            areaColor:   'none',
+            areaColor:   'rgba(217,233,236,0.15)',
+            borderColor: '#aaa',
+            borderWidth: 0.5,   // <— thinner border (default is 1)
+          },
+          emphasis: { disabled: true },
+          tooltip:  { show:     false },
+          label: {
+            show:      true,
+            // magnifier optional
+            // formatter: text + '🔍',
+            // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
+            formatter: country,
+            fontSize:       11,
+            fontWeight:    300,
+
+            // position: 'top-right',  // unsupported
+            position: 'top',
+            align:    'left',
+            offset:    [offsetX, offsetY],
+          },
+        }
+        return item;
+    }
+
+
+    // 0 to 60% - interpolate between green and green-red (yellow)
+    // 60& to 180%  ... full red
+    function pctToColor(pct) {
+
+        if (pct <= 0) {
+            return "#00ff00";          // green
+        }
+        if (pct >= 300) {
+            pct = 300;
+        }
+
+        const green = [0x00, 0xff, 0x00];
+        const olive = [0x80, 0x80, 0x00];
+        const red   = [0xff, 0x00, 0x00];
+
+        function interp(a, b, t) {
+            const out = [0, 0, 0];
+            for (let idx1 = 0; idx1 < 3; idx1++) {
+                out[idx1] = Math.round(a[idx1] + (b[idx1] - a[idx1]) * t);
+            }
+            return out;
+        }
+
+        let rgb;
+
+        if (pct <= 60) {
+            const t = pct / 60;
+            rgb = interp(green, olive, t);
+        } else if (pct <= 180) {
+            const t = (pct - 60) / 120;
+            rgb = interp(olive, red, t);
+        } else {
+            rgb = red.slice();
+        }
+
+        const hex = rgb.map(function (v) {
+            const h = v.toString(16);
+            return h.length === 1 ? "0" + h : h;
+        });
+
+        // various degrees of color shock intensity
+        return "#" + hex.join("") + "77";
+        return "#" + hex.join("") + "99";
+        return "#" + hex.join("") + "88";
+    }
+
+
     // creating debt numbers at the centroid of 27 eu countries
-    function manySingleNumbers(yr=2025) {
+    function manyCountriesShowStats(yr=2025) {
       let results = [];
       for (let country in debtPercentOfGDP[yr]) {
-        let numberValue = debtPercentOfGDP[yr][country];
+        const statsValue = debtPercentOfGDP[yr][country];
         // console.log(country, numberValue);
-        // xxxxx
         let item = {
           type: 'scatter',
           coordinateSystem: 'geo',
           symbol: 'circle',
-          symbolSize: 0,
+          symbolSize: 30,     // for debug
+          symbolSize:  0,
+          color: pctToColor(statsValue),
           animationDuration: 0,
           label: {
             show: true,
-            formatter:  Math.round(numberValue).toString() + ' %',
+            formatter:  Math.round(statsValue).toString() + ' %',
             fontSize:    14,
             fontSize:    12,
             fontWeight: 300,
@@ -172,9 +303,8 @@
             align: 'center',
             verticalAlign: 'middle'
           },
-
-          data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], numberValue] }],
-          tooltip:  { show: true, formatter: `${numberValue}` },
+          data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], statsValue] }],
+          tooltip:  { show: true, formatter: `${statsValue}` },
           tooltip:  { show: false },
           z: 10,
         };
@@ -182,6 +312,9 @@
       }
       return results;
     }
+
+
+
 
 
 
@@ -269,8 +402,9 @@
         // left:   0,
         // right:  0,
 
-        center:       [ 16  ,  48.8  ],  // geo center - longitute - latitude
-        center:       [ 14  ,  48.8  ],  // geo center - longitute - latitude
+        center:       [ 16     ,  48.8  ],  // geo center - longitute - latitude
+        center:       [ 14     ,  48.8  ],  
+        center:       [ 12.05  ,  48.8  ],  
         layoutCenter: ['50%', '50%'],    // where to place the geo center
         // layoutSize:    '250%',
 
@@ -287,108 +421,18 @@
         itemStyle: {
           // https://echarts.apache.org/en/option.html#legend.itemStyle
           areaColor: colIB3,
-          borderColor: '#999999',
-          inactiveColor: '#f11',
+          borderColor:         '#999999',
+          inactiveColor:       '#f11',
           inactiveBorderColor: '#ccc',
+          borderWidth:           0.50,
         },
-        // extra colors for non-members
+
+        // extra colors for eu non-members
         regions: [
-          { name: 'Norway',         itemStyle: { areaColor: '#eee', borderWidth: 0 } },
-          { name: 'Switzerland',    itemStyle: { areaColor: '#eee', borderWidth: 0 } },
-          { name: 'United Kingdom', itemStyle: { areaColor: '#eee', borderWidth: 0 } },
-          { name: 'Andorra',        itemStyle: { areaColor: '#eee', borderWidth: 0 } },
-          { name: 'Ukraine',        itemStyle: { areaColor: '#eee', borderWidth: 0 } },
-          { name: 'Moldova',        itemStyle: { areaColor: '#eee', borderWidth: 0 } },
-          { name: 'Belarus',        itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
-          { name: 'Bosnia and Herzegovina', itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
-          { name: 'Albania',       itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
-          { name: 'Montenegro',    itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
-          { name: 'Macedonia',     itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
-          { name: 'Serbia',        itemStyle: { areaColor: '#eee', borderColor: '#ccc' } },
-
-          {
-            name: 'Cyprus Inset Rectangle',
-            itemStyle: {
-              areaColor:   'none',
-              areaColor:   'rgba(217,233,236,0.15)',
-              borderColor: '#aaa',
-              borderWidth: 0.5,   // <— thinner border (default is 1)
-            },
-            emphasis: { disabled: true },
-            tooltip:  { show: false },
-            label: {
-              show:      true,
-              // magnifier optional
-              // formatter: text + '🔍',
-              // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
-              formatter: 'Cyprus',
-              fontSize:   11,
-              fontWeight: 300,
-
-              // position: 'top-right',  // unsupported
-              position: 'top',
-              align:    'left',
-              offset:    [-14,-34],
-            },
-          },
-
-          {
-
-            name: 'Malta Inset Rectangle',
-            itemStyle: {
-              areaColor:   'none',
-              areaColor:   'rgba(217,233,236,0.15)',
-              borderColor: '#aaa',
-              borderWidth: 0.5,   // <— thinner border (default is 1)
-            },
-            emphasis: { disabled: true },
-            tooltip:  { show: false },
-            label: {
-              show:      true,
-              // magnifier optional
-              // formatter: text + '🔍',
-              // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
-              formatter: 'Malta',
-              fontSize:   11,
-              fontWeight: 300,
-
-              // position: 'top-right',  // unsupported
-              position: 'top',
-              align:    'left',
-              offset:    [-6,-24],
-            },
-
-          },
-
-
-          {
-            name: 'Luxembourg Inset Rectangle',
-            itemStyle: {
-              areaColor:   'none',
-              areaColor:   'rgba(217,233,236,0.15)',
-              borderColor: '#aaa',
-              borderWidth: 0.5,   // <— thinner border (default is 1)
-            },
-            emphasis: { disabled: true },
-            tooltip:  { show: false },
-            label: {
-              show:      true,
-              // magnifier optional
-              // formatter: text + '🔍',
-              // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
-              formatter: 'Luxembourg',
-              formatter: '',
-
-              // position: 'top-right',  // unsupported
-              position: 'top',
-              align:    'left',
-              offset:    [-6,-24],
-            },
-
-          },
-
-
-
+          ...regionsColoring(),
+          extraRectangle('Cyprus', -14,-34),
+          extraRectangle('Malta' ,  -6,-24),
+          // rectangles('Luxembourg' ,  0,0),
         ],
 
 
@@ -406,16 +450,14 @@
 
 
       series: [
-
         // greenwich  longitude, latitude
         // randomPieSeries1([-1.6, 52.5], 25),
 
         // randomPieSeries1('France',  25),
         // randomPieSeries1('Germany', 35),
-
-        ...manySingleNumbers(),
-
+        ...manyCountriesShowStats(),
       ]
+
     };
 
     myChart.hideLoading();
@@ -444,9 +486,6 @@
 
 
 
-    // initial render
-    // option3.series[0].data = buildSeries(parseInt(sliderEl.value, 10));
-    // chart.setOption(option3, true);
 
     // --- onChange handler: update the chart option (stub) ---
     sliderEl.addEventListener('change', function () {
@@ -456,11 +495,23 @@
 
       // mutate option and re-apply
       let option3;
+
+      // reset the stuff we want to update
       option3 = {
-        // title: { text: 'Selected year: ' + sliderEl.value },
-        series: []
+        series: [],
+        geo: {
+          regions: [],
+        },
       };
-      option3.series = manySingleNumbers(yr);
+      // re-populate
+      option3.series = manyCountriesShowStats(yr);
+      option3.geo.regions  = [
+          ...regionsColoring(yr),
+          extraRectangle('Cyprus', -14,-34),
+          extraRectangle('Malta' ,  -6,-24),
+      ];
+
+
       console.log(` changing year to ${yr} `);
       myChart.setOption(
           option3,
@@ -488,16 +539,11 @@
 <ul style="margin: 1rem; margin-left: 15rem" id="xx">
 
 
-  <li>ameco data '(Percentage of GDP at current prices (excessive deficit procedure))' vs
-    <br>
-    ameco data '(percentage of GDP at market prices (excessive deficit procedure))'</li>
 
-
-
-  <li>Euro Countries plus Bulgaria  (shown are 27)</li>
-
-
-
+  <li>
+    Ziemlich identische Daten - einmal 'UDGG' - einmal  'UDGGL' - L für "linked series". 
+    Ich begreife nicht, was der inhaltliche Unterschied ist.
+  </li>
 
 
   <li>Auswahl Defizit , Staatsquote, ... -  sechs Radio-Buttons</li>
@@ -505,18 +551,28 @@
 
   <li>Download - jede Variable separat - je nach Auswahl der Kennzahl  </li>
 
-    <li>Color coding</li>
+  <li>
+    color code - 0 bis 60% - von grün zu gelb<br>
+    60% bis 180% - von gelb zu rot<br>
+    "Farbsättigung" reduziert (Demo) <br>
+    Idee: Unter 40% pure green?
+
+      <div class="gradientWrapper">
+          <div class="myGradient"></div>
+          <div class="tick" style="left:   0px;">  0%</div>
+          <div class="tick" style="left:  60px;"> 60%</div>
+          <div class="tick" style="left: 100px;">100%</div>
+          <div class="tick" style="left: 200px;">200%</div>
+      </div>
+
+
+
+  </li>
+
 
 </ul>
 
 
-<div class="gradientWrapper">
-    <div class="myGradient"></div>
-
-    <div class="tick" style="left:  60px;"> 60%</div>
-    <div class="tick" style="left: 100px;">100%</div>
-    <div class="tick" style="left: 200px;">200%</div>
-</div>
 
 <style>
 .gradientWrapper {
