@@ -45,7 +45,11 @@
 
 
   #echart_container {
-    /* not 75% -  percent fails */
+
+    /* not 100% -  fails */
+    width: 820px;
+
+    /* not 75% -  fails */
     height: 75vh;  
 
     /* margin:  0 auto; */
@@ -134,8 +138,21 @@
           <input type="radio" name="stats_variable" value="ameco_net_lending">
         </label>
       </div>
+      
+      
+      <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem">
+            <a href="#"  title="2000 till present" >>> Play</a>
+      </div>
+
+      <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem">
+            <a href="#"  title="CSV, UTF-8">Download Data</a>
+      </div>
 
 
+      <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem">
+             <span style="font-size: 70%;">color opacity</span>  
+            <input  name="color_opacity" id="color_opacity"  type="number" min="1" max="100"  value="30"  style="border:none; width: 2.2rem;padding:0; font-size: 70%;" >
+      </div>
 
   </div>
 
@@ -149,30 +166,27 @@
 
     <ul id="bullet-container">
 
+
+      <!-- 
       <li>
         Ziemlich identische Daten - einmal 'UDGG' - einmal  'UDGGL' - L für "linked series".
         Ich begreife nicht, was der inhaltliche Unterschied ist.
-      </li>
+      </li> 
+      -->
 
-      <li>Auswahl Defizit , Staatsquote, ... -  sechs Radio-Buttons</li>
-      <li>Play button </li>
-
-      <li>Download - jede Variable separat - je nach Auswahl der Kennzahl  </li>
 
       <li>
-        color code - 0 bis 60% - von grün zu gelb<br>
-        60% bis 180% - von gelb zu rot<br>
-        "Farbsättigung" reduziert (Demo) <br>
-        Idee: Unter 40% pure green?
-
+        "Farbsättigung" reduziert (Demo) 
           <div class="gradientWrapper">
-              <div class="myGradient"></div>
+              <div class="myGradient1"></div>
               <div class="tick" style="left:   0px;">  0%</div>
               <div class="tick" style="left:  60px;"> 60%</div>
               <div class="tick" style="left: 100px;">100%</div>
               <div class="tick" style="left: 200px;">200%</div>
           </div>
-      </li>
+
+
+        </li>
     </ul>
   </div>
 
@@ -228,7 +242,24 @@
 
     const dom = document.getElementById('echart_container');
 
-    let selectedData = debtPercentOfGDP;
+    let selectedData   = debtPercentOfGDP;
+    let selectedVar    = "ameco_debt_to_gdp";
+
+    let selectedDataMeta = {
+      "ameco_debt_to_gdp": {
+        "formatter": (statsValue) => { 
+          return Math.round(statsValue).toString() + ' %' 
+        },
+        "color_ranges": [ 1,  60, 180, ],
+      } ,
+      "ameco_net_lending": {
+        "formatter": (statsValue) => { return  (Math.round(statsValue*10)/10).toString() + ' %' },
+        "color_ranges": [ -1,  3,   6, ],
+      } ,
+    };
+
+
+
 
     const myChart = echarts.init(dom, null, {
       renderer: 'canvas',
@@ -283,12 +314,23 @@
     }
 
 
-    // 0 to 60% - interpolate between green and green-red (yellow)
-    // 60& to 180%  ... full red
-    function pctToColor(pct) {
+    // pctToColor(pct, ranges)
+    // ranges: [r1, r2]  => 0→r1, r1→r2, r2→max
+    function pctToColor(pct, ranges=[1, 60, 180]) {
+
+        let opacity = 77;
+        const elOpa = document.getElementById("color_opacity");
+        if (elOpa){
+          opacity = elOpa.value;
+          opacity = elOpa.value.toString(16);  
+        }
+
+
+        pct = pct * ranges[0];
+        // console.log(`color ${pct} - ${ranges} `);
 
         if (pct <= 0) {
-            return "#00ff00";          // green
+            return "#00ff00" + opacity;
         }
         if (pct >= 300) {
             pct = 300;
@@ -306,13 +348,16 @@
             return out;
         }
 
+        const r1 = ranges[1];
+        const r2 = ranges[2];
+
         let rgb;
 
-        if (pct <= 60) {
-            const t = pct / 60;
+        if (pct <= r1) {
+            const t = pct / r1;
             rgb = interp(green, olive, t);
-        } else if (pct <= 180) {
-            const t = (pct - 60) / 120;
+        } else if (pct <= r2) {
+            const t = (pct - r1) / (r2 - r1);
             rgb = interp(olive, red, t);
         } else {
             rgb = red.slice();
@@ -323,10 +368,7 @@
             return h.length === 1 ? "0" + h : h;
         });
 
-        // various degrees of color shock intensity
-        return "#" + hex.join("") + "77";
-        return "#" + hex.join("") + "99";
-        return "#" + hex.join("") + "88";
+        return "#" + hex.join("") + opacity;
     }
 
 
@@ -335,7 +377,18 @@
       let results = [];
 
       for (const [idx, country] of nonMembers.entries()) {
-          let item = { name: country, itemStyle: { areaColor: '#eee', borderWidth: 0.4, borderColor: '#ccc' } };
+          let item = { 
+            name:  country, 
+            tooltip: {
+              show:      true,
+              formatter: country + "\n(non EU)",
+            },
+            itemStyle: { 
+              areaColor:   '#eee', 
+              borderWidth:  0.4, 
+              borderColor: '#ccc' 
+            },
+           };
           // console.log(`  regionsColoring()-1 ${country}`);
           results.push(item);
       };
@@ -347,8 +400,18 @@
         rgb(255, 255, 255)
       */
       for (const [idx, country] of notInEuro.entries()) {
-          // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
-          let item = { name: country, itemStyle: { areaColor: 'rgb(238, 245, 245)', borderWidth: 0.2,   aaborderColor: '#ccc' } };
+          let item = { 
+              name: country, 
+              tooltip: {
+                show:      true,
+                formatter: country + "\n(no €)",
+              },
+              itemStyle: { 
+                areaColor: 'rgb(238, 245, 245)', 
+                borderWidth: 0.2,
+                aaborderColor: '#ccc',
+              },
+          };
           // console.log(`  regionsColoring()-2 ${country}`);
           results.push(item);
       };
@@ -358,7 +421,7 @@
       for (const [idx, country] of euCountriesEuro.entries()) {
           try {
              const statsValue    = selectedData[yr][country];
-             const statsColoring = pctToColor(statsValue);
+             const statsColoring = pctToColor(statsValue, selectedDataMeta[selectedVar]["color_ranges"]  );
             // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
             let item = { name: country, itemStyle: { areaColor: statsColoring,} };
             // x14x14
@@ -422,11 +485,12 @@
           symbolSize: 34,
           symbolSize:  0,
           // symbolOffset: [10, -15],   // moves symbol and label
-          color: pctToColor(statsValue),
+          color: pctToColor(statsValue, selectedDataMeta[selectedVar]["color_ranges"]),  // only if symbolSize > 0
           animationDuration: 0,
           label: {
             show: true,
             formatter:  Math.round(statsValue).toString() + ' %',
+            formatter:  selectedDataMeta[selectedVar]["formatter"](statsValue),
             fontSize:    14,
             fontSize:    12,
             fontWeight: 300,
@@ -481,15 +545,11 @@
     for (let feature of geoJSON.features.entries()) {
       // console.log(feature[1].properties);
       let name = feature[1].properties.name;
-      let lon = feature[1].properties.LON;
-      let lat = feature[1].properties.LAT;
+      let lon  = feature[1].properties.LON;
+      let lat  = feature[1].properties.LAT;
       centroids[name] = [lon, lat];
     }
-    // console.log(centroids);
     // we can now use `centroids` for scatter data, tooltips, etc.
-
-
-
     console.log(` geo coords for centroid of France ${centroids["France"][0]} ${centroids["France"][1]}`)
 
 
@@ -536,8 +596,8 @@
         // right:  0,
 
         center:       [ 16     ,  48.8  ],  // geo center - longitute - latitude
-        center:       [ 14     ,  48.8  ],
         center:       [ 12.05  ,  48.8  ],
+        center:       [ 14.50  ,  48.8  ],  // move ireland as far left as possible
         layoutCenter: ['50%', '50%'],    // where to place the geo center
         // layoutSize:    '250%',
 
@@ -553,7 +613,7 @@
         nameProperty: 'name', //  name_en - for using en name.
         itemStyle: {
           // https://echarts.apache.org/en/option.html#legend.itemStyle
-          areaColor: colIB3,
+          areaColor:            colIB3,
           borderColor:         '#999999',
           inactiveColor:       '#f11',
           inactiveBorderColor: '#ccc',
@@ -660,16 +720,18 @@
     for (let idx1 = 0; idx1 < statRadios.length; idx1++) {
       statRadios[idx1].addEventListener('change', function (evt) {
 
+
         if (evt.target.value === 'ameco_debt_to_gdp') {
           selectedData = debtPercentOfGDP;
-          console.log('selected debtPercentOfGDP');
         }
 
         if (evt.target.value === 'ameco_net_lending') {
           selectedData = netLendingPercentOfGDP;
-          console.log('selected netLendingPercentOfGDP');
         }
+        
+        selectedVar  = evt.target.value;
 
+        console.log(`selected ${evt.target.value}`);
 
         const yr = parseInt(sliderEl.value, 10);
 
@@ -718,14 +780,15 @@
 <style>
   .gradientWrapper {
       position: relative;
-      height: 2rem;
-      width: 300px;
+      height:   2rem;
+      width:  300px;
       margin: 20px;
+      /* margin-bottom: 4rem; */
   }
 
-  .myGradient {
-      height: 100px;
-      width: 300px;
+  .myGradient1 {
+      height:   2rem;
+      width:  300px;
       background: linear-gradient(
           to right,
           green     0px,
@@ -736,6 +799,8 @@
       );
       border: 1px solid #444;
   }
+
+
 
   .tick {
       position: absolute;
@@ -749,9 +814,6 @@
       color: black;
   }
 
-  .tick::after {
-      /* content: attr(style); */
-  }
 
   .tick {
       display: flex;
@@ -767,7 +829,7 @@
   }
 
   .tick {
-      top: 100px;
+      top: 2rem;
   }
 
   .tick span {
