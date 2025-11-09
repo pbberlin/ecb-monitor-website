@@ -3,7 +3,9 @@ import csv
 import json
 import sys
 
-def makeJsFromCsv(inputCsvPath: Path, outputJsPath: Path) -> None:
+
+
+def makeJsFromCsv(inputCsvPath: Path, outputJsPath: Path, jsName: str) -> None:
     years = []
     dataByYear = {}
 
@@ -74,7 +76,7 @@ def makeJsFromCsv(inputCsvPath: Path, outputJsPath: Path) -> None:
 
         jsLines = []
         jsLines.append("// Auto-generated from CSV → JS (years → { COUNTRY: value })")
-        jsLines.append("const debtPercentOfGDP = " + jsonText + ";")
+        jsLines.append(f"const {jsName} = " + jsonText + ";")
         jsText = "\n".join(jsLines)
 
         with outputJsPath.open(mode="w", encoding="utf-8", newline="") as outJs:
@@ -85,8 +87,14 @@ def makeJsFromCsv(inputCsvPath: Path, outputJsPath: Path) -> None:
 
 if __name__ == "__main__":
 
+
     inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_debt_to_gdp.csv"
     outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_debt_to_gdp.js"
+    makeJsFromCsv(inputPath, outputPath,"debtPercentOfGDP")
+    print(f"Wrote: {outputPath}")
 
-    makeJsFromCsv(inputPath, outputPath)
+
+    inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_net_lending.csv"
+    outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_net_lending.js"
+    makeJsFromCsv(inputPath, outputPath,"netLendingPercentOfGDP")
     print(f"Wrote: {outputPath}")
