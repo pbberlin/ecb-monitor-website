@@ -5,6 +5,57 @@
     height: 100%;
   }
 
+
+  /*
+    container: left-to-right flow, top-aligned
+    3 columns
+    - col 1: 20% - at least 20vm
+    - col 2: exactly 820px
+    - col 3: takes remaining width
+  */
+  .layout {
+    display: grid;
+    grid-template-columns: max(20rem, 20vw) 820px 1fr;
+    column-gap: 0;
+    align-items: start;           /* vertical: top for all */
+  }
+
+  /* Ensure grid items can shrink if needed */
+  .col {
+    min-width: 0;
+    padding:   0;
+    margin:    0;
+    /* margin: 2px; */
+    /* border: 1px solid red; */
+  }
+
+  /* per-cell horizontal alignment */
+  /* first div: at least 20rem - 20% of screen width - */
+  .col--left   { justify-self: end;    align-self: start; }
+  /* second div: fixed 820px, content centered */
+  .col--center { justify-self: center; align-self: start; }
+  /* third div: takes the residual space, content left */
+  .col--right  { justify-self: start;  align-self: start; }
+
+
+
+  #echart_container {
+    /* not 75% -  percent fails */
+    height: 75vh;  
+
+    /* margin:  0 auto; */
+    padding: 0;
+    /* border-top: 1px solid lightgray; */
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
+    box-sizing: border-box;    
+  }
+
+
+
+
+
   .left-col-controls {
     position: relative;   /*  z-index  */
     z-index: 10;
@@ -28,36 +79,83 @@
 
   }
 
-  #echart_container {
-    height: 75%;
-    padding: 0;
-    margin:  0;
-    width:  820px;
-    margin: 0 auto;
-    /* border-top:  1px solid lightgray; */
+
+
+  #bullet-container li { 
+    list-style-type: circle;
+    margin: 1rem;    
   }
+
+
 
 
 </style>
 
-<div class="left-col-controls">
 
 
+<div class="layout">
 
-  <h3 > Fiskaldaten - Öffentliche Schulden in % BIP: </h3>
+  <div class="col col--left left-col-controls">
+      <!-- First (top, right) -->
+      <h3 > Fiskaldaten - Öffentliche Schulden in % BIP: </h3>
 
-
-  <!-- <label for="yearSlider">Year:</label> -->
-  <!-- <input id="yearSlider" type="range" min="1970" step="1"  autofocus /> -->
-  <div id="slider-group">
-    <input id="yearSlider" type="range" min="1997" step="1"  autofocus />
-    <span id="yearLabel"></span>
+      <!-- <label for="yearSlider">Year:</label> -->
+      <div id="slider-group">
+        <input id="yearSlider" type="range" min="2000" step="1"  autofocus />
+        <span id="yearLabel"></span>
+      </div>
   </div>
 
-</div  >
+
+  <div class="col col--center">
+    <!-- colbx1 -->
+
+    <div id="echart_container">echart container content</div>
+
+    <!-- colbx2 -->
+
+    <ul id="bullet-container">
+
+      <li>
+        Ziemlich identische Daten - einmal 'UDGG' - einmal  'UDGGL' - L für "linked series".
+        Ich begreife nicht, was der inhaltliche Unterschied ist.
+      </li>
+
+      <li>Auswahl Defizit , Staatsquote, ... -  sechs Radio-Buttons</li>
+      <li>Play button </li>
+
+      <li>Download - jede Variable separat - je nach Auswahl der Kennzahl  </li>
+
+      <li>
+        color code - 0 bis 60% - von grün zu gelb<br>
+        60% bis 180% - von gelb zu rot<br>
+        "Farbsättigung" reduziert (Demo) <br>
+        Idee: Unter 40% pure green?
+
+          <div class="gradientWrapper">
+              <div class="myGradient"></div>
+              <div class="tick" style="left:   0px;">  0%</div>
+              <div class="tick" style="left:  60px;"> 60%</div>
+              <div class="tick" style="left: 100px;">100%</div>
+              <div class="tick" style="left: 200px;">200%</div>
+          </div>
+      </li>
+    </ul>
+  </div>
 
 
-<div id="echart_container"></div>
+
+  <div class="col col--right">
+    <!-- right col -->
+    <!-- Third col (top, left, fills the rest)  -->
+  </div>
+
+
+</div>
+
+
+
+
 
 
 <!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script> -->
@@ -224,7 +322,7 @@
 
       for (const [idx, country] of euCountriesEuro.entries()) {
           try {
-             const statsValue    = debtPercentOfGDP[yr][country];          
+             const statsValue    = debtPercentOfGDP[yr][country];
              const statsColoring = pctToColor(statsValue);
             // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
             let item = { name: country, itemStyle: { areaColor: statsColoring,} };
@@ -242,9 +340,9 @@
 
 
     function extraRectangle(country, offsetX, offsetY){
-      // the rectangles around Cyprus and Malta, not Luxembourg, 
-      // differing only in offset 
-      const item =           
+      // the rectangles around Cyprus and Malta, not Luxembourg,
+      // differing only in offset
+      const item =
         {
           name: `${country} Inset Rectangle`,
           itemStyle: {
@@ -286,7 +384,7 @@
           coordinateSystem: 'geo',
           symbol: 'circle',
           // x14x14
-          symbolSize: 34,     
+          symbolSize: 34,
           symbolSize:  0,
           // symbolOffset: [10, -15],   // moves symbol and label
           color: pctToColor(statsValue),
@@ -403,8 +501,8 @@
         // right:  0,
 
         center:       [ 16     ,  48.8  ],  // geo center - longitute - latitude
-        center:       [ 14     ,  48.8  ],  
-        center:       [ 12.05  ,  48.8  ],  
+        center:       [ 14     ,  48.8  ],
+        center:       [ 12.05  ,  48.8  ],
         layoutCenter: ['50%', '50%'],    // where to place the geo center
         // layoutSize:    '250%',
 
@@ -533,44 +631,6 @@
 </script>
 
 
-<style>
-  #xx li { list-style-type: circle;}
-</style>
-<ul style="margin: 1rem; margin-left: 15rem" id="xx">
-
-
-
-  <li>
-    Ziemlich identische Daten - einmal 'UDGG' - einmal  'UDGGL' - L für "linked series". 
-    Ich begreife nicht, was der inhaltliche Unterschied ist.
-  </li>
-
-
-  <li>Auswahl Defizit , Staatsquote, ... -  sechs Radio-Buttons</li>
-  <li>Play button </li>
-
-  <li>Download - jede Variable separat - je nach Auswahl der Kennzahl  </li>
-
-  <li>
-    color code - 0 bis 60% - von grün zu gelb<br>
-    60% bis 180% - von gelb zu rot<br>
-    "Farbsättigung" reduziert (Demo) <br>
-    Idee: Unter 40% pure green?
-
-      <div class="gradientWrapper">
-          <div class="myGradient"></div>
-          <div class="tick" style="left:   0px;">  0%</div>
-          <div class="tick" style="left:  60px;"> 60%</div>
-          <div class="tick" style="left: 100px;">100%</div>
-          <div class="tick" style="left: 200px;">200%</div>
-      </div>
-
-
-
-  </li>
-
-
-</ul>
 
 
 
@@ -633,3 +693,7 @@
     margin-top: 5px;
 }
 </style>
+
+
+
+
