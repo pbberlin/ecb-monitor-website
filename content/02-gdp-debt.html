@@ -31,7 +31,12 @@
 
   /* per-cell horizontal alignment */
   /* first div: at least 20rem - 20% of screen width - */
-  .col--left   { justify-self: end;    align-self: start; }
+  .col--left   { 
+    justify-self: end; 
+    align-self: start; 
+    text-align: right; 
+    width: max-content;
+  }
   /* second div: fixed 820px, content centered */
   .col--center { justify-self: center; align-self: start; }
   /* third div: takes the residual space, content left */
@@ -70,14 +75,26 @@
   }
 
   #slider-group {
-    margin-top: 1.2rem;
     display: flex;
     flex-direction: column;
     gap: 0.1rem;
-    align-items: center;
+    align-items: center;   /* contents centered horizontally */
     height: auto;
+    width: max-content;    /* shrink container to content so it can sit right */
 
+    margin-top:    1.1rem;
+    margin-bottom: 0.8rem;
+    margin-left: auto;
+    padding-right: 1rem;
   }
+
+  .options-stat-vars {
+    display:        flex;
+    flex-direction: column;   /* vertical arrangement */
+    align-items: flex-end;    /* right  alignment */
+    gap: 0.5rem;              /* vertical spacing */
+  }
+
 
 
 
@@ -104,6 +121,22 @@
         <input id="yearSlider" type="range" min="2000" step="1"  autofocus />
         <span id="yearLabel"></span>
       </div>
+
+      <!-- option -->
+      <div class="options-stat-vars">
+        <label>
+          Debt to GDP (Ameco)
+          <input type="radio" name="stats_variable" value="ameco_debt_to_gdp" checked>
+        </label>
+
+        <label>
+          Net Lending (Ameco)
+          <input type="radio" name="stats_variable" value="ameco_net_lending">
+        </label>
+      </div>
+
+
+
   </div>
 
 
@@ -161,6 +194,8 @@
 <!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script> -->
 <script type="text/javascript" src="/static/js/echarts.min.js"></script>
 <script type="text/javascript" src="/static/js/eu-and-euro-countries.js"></script>
+<script src="/static/dl/ameco_debt_to_gdp.js"></script>
+<script src="/static/dl/ameco_net_lending.js"></script>
 
 
 <!-- Uncomment this line if you want to dataTool extension -->
@@ -186,13 +221,14 @@
 
 <!-- <script type="text/javascript"> -->
 
-<script src="/static/dl/ameco_debt_to_gdp.js"></script>
 <script type="module">
 
   // wrap everything in an async func, since we need `await fetch(...)` at top level
   (async () => {
 
     const dom = document.getElementById('echart_container');
+
+    let selectedData = debtPercentOfGDP;
 
     const myChart = echarts.init(dom, null, {
       renderer: 'canvas',
@@ -206,7 +242,6 @@
     const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
 
 
-    debtPercentOfGDP
 
     // creating the 'series' config for a pie chart with three random number.
     // Pie charts are easily positioned using either geo coordinates
@@ -322,7 +357,7 @@
 
       for (const [idx, country] of euCountriesEuro.entries()) {
           try {
-             const statsValue    = debtPercentOfGDP[yr][country];
+             const statsValue    = selectedData[yr][country];
              const statsColoring = pctToColor(statsValue);
             // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
             let item = { name: country, itemStyle: { areaColor: statsColoring,} };
@@ -376,8 +411,8 @@
     // creating debt numbers at the centroid of 27 eu countries
     function manyCountriesShowStats(yr=2025) {
       let results = [];
-      for (let country in debtPercentOfGDP[yr]) {
-        const statsValue = debtPercentOfGDP[yr][country];
+      for (let country in selectedData[yr]) {
+        const statsValue = selectedData[yr][country];
         // console.log(country, numberValue);
         let item = {
           type: 'scatter',
@@ -570,8 +605,6 @@
     window.addEventListener('resize', myChart.resize);
 
 
-
-
     // --- slider setup: 1960 .. (current year + 1) ---
     const nextYear = new Date().getFullYear() + 1;
     const sliderEl = document.getElementById('yearSlider');
@@ -612,14 +645,62 @@
 
       console.log(` changing year to ${yr} `);
       myChart.setOption(
-          option3,
+        option3,
+        {
+          notMerge :   false,  // do merge
+          lazyUpdate : true,
+        },
+      );
+    });
+
+
+
+    const statRadios = document.querySelectorAll('input[name="stats_variable"]');
+
+    for (let idx1 = 0; idx1 < statRadios.length; idx1++) {
+      statRadios[idx1].addEventListener('change', function (evt) {
+
+        if (evt.target.value === 'ameco_debt_to_gdp') {
+          selectedData = debtPercentOfGDP;
+          console.log('selected debtPercentOfGDP');
+        }
+
+        if (evt.target.value === 'ameco_net_lending') {
+          selectedData = netLendingPercentOfGDP;
+          console.log('selected netLendingPercentOfGDP');
+        }
+
+
+        const yr = parseInt(sliderEl.value, 10);
+
+        // mutate option and re-apply
+        let option4;
+
+        // reset the stuff we want to update
+        option4 = {
+          series: [],
+          geo: {
+            regions: [],
+          },
+        };
+        // re-populate
+        option4.series = manyCountriesShowStats(yr);
+        option4.geo.regions  = [
+            ...regionsColoring(yr),
+            extraRectangle('Cyprus', -14,-34),
+            extraRectangle('Malta' ,  -6,-24),
+        ];
+
+        myChart.setOption(
+          option4,
           {
             notMerge :   false,  // do merge
             lazyUpdate : true,
           },
         );
-    });
 
+      });
+    }
 
 
 
@@ -635,63 +716,63 @@
 
 
 <style>
-.gradientWrapper {
-    position: relative;
-    height: 130px;
-    width: 300px;
-    margin: 20px;
-}
+  .gradientWrapper {
+      position: relative;
+      height: 2rem;
+      width: 300px;
+      margin: 20px;
+  }
 
-.myGradient {
-    height: 100px;
-    width: 300px;
-    background: linear-gradient(
-        to right,
-        green     0px,
-        #808000  60px,
-        #808000  60px,
-        red     180px,
-        red     300px
-    );
-    border: 1px solid #444;
-}
+  .myGradient {
+      height: 100px;
+      width: 300px;
+      background: linear-gradient(
+          to right,
+          green     0px,
+          #808000  60px,
+          #808000  60px,
+          red     180px,
+          red     300px
+      );
+      border: 1px solid #444;
+  }
 
-.tick {
-    position: absolute;
-    bottom: 0;
-    height: 5px;
-    width:   1px;
-    background: black;
-    text-align: center;
-    transform: translateX(-50%);
-    font-size: 12px;
-    color: black;
-}
+  .tick {
+      position: absolute;
+      bottom: 0;
+      height: 5px;
+      width:   1px;
+      background: black;
+      text-align: center;
+      transform: translateX(-50%);
+      font-size: 12px;
+      color: black;
+  }
 
-.tick::after {
-    /* content: attr(style); */
-}
+  .tick::after {
+      /* content: attr(style); */
+  }
 
-.tick {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+  .tick {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 
-.tick::before {
-    content: "";
-    height: 4px;
-    width:  1px;
-    background: black;
-}
+  .tick::before {
+      content: "";
+      height: 4px;
+      width:  1px;
+      background: black;
+  }
 
-.tick {
-    top: 100px;
-}
+  .tick {
+      top: 100px;
+  }
 
-.tick span {
-    margin-top: 5px;
-}
+  .tick span {
+      margin-top: 5px;
+  }
 </style>
 
 
