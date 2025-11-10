@@ -56,7 +56,8 @@ def main(inputFile,targetFilename, targetCode, targetUnit):
 
             # keep only COUNTRY, UNIT, and years 1960–2026
             keepFields = ["COUNTRY", "UNIT"]
-            for year in range(1960, currentYear+2):
+            # for year in range(1960, currentYear+2):
+            for year in range(2000, currentYear+2):
                 keepFields.append(str(year))
 
 
@@ -70,7 +71,6 @@ def main(inputFile,targetFilename, targetCode, targetUnit):
 
                     country  = row.get("COUNTRY", "")
 
-                    # your debug print preserved
 
                     if unitVal == targetUnit  and  codeVal == targetCode:
 
@@ -123,8 +123,6 @@ outFileSuffix  = "debt_to_gdp"
 code     = "UDGGL"
 code     = "UDGG"
 unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
-
-
 main(inpFile, outFileSuffix, code, unit)
 
 
@@ -132,5 +130,18 @@ outFileSuffix  = "net_lending"
 inpFile        = "AMECO16.CSV"
 code     = "UBLG"
 unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
+main(inpFile, outFileSuffix, code, unit)
 
+
+outFileSuffix  = "total_expenditure"
+inpFile        = "AMECO16.CSV"
+code     = "UUTG"
+unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
+main(inpFile, outFileSuffix, code, unit)
+
+
+outFileSuffix  = "interest_expenditure"
+inpFile        = "AMECO16.CSV"
+code     = "UYIG"
+unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
 main(inpFile, outFileSuffix, code, unit)

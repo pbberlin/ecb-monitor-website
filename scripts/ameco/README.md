@@ -14,8 +14,15 @@ curl  https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_
 tar -xf .\tmp-ameco-all.zip AMECO18.CSV AMECO16.CSV
 
 
+
 python  process-a-csv-to-subset.py
+
+# CSV to JavaScript
 python  process-b-csv-to-js.py
+
+# CSV reformatting the decimal separator "."  to  "," - so that European Excel does at least show 
+python  process-c.py
+
 
 
 # files written to  .\static\dl\
