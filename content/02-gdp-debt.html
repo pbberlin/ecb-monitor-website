@@ -131,7 +131,6 @@
       <div class="options-stat-vars">
         <label title="(Ameco)">
           Öffentliche Schulden in % BIP 
-          <!-- <input type="radio" name="stats_variable" value="ameco_debt_to_gdp" checked> -->
           <input type="radio" name="stats_variable" value="ameco_debt_to_gdp" >
         </label>
 
@@ -148,6 +147,11 @@
         <label title="(Ameco)">
           Zinszahlungen in % Staatsausgaben 
           <input type="radio" name="stats_variable" value="ameco_interest_expenditure">
+        </label>
+
+        <label title="(Ameco)">
+          Zinszahlungen in % BIP 
+          <input type="radio" name="stats_variable" value="ameco_interest_to_gdp">
         </label>
 
 
@@ -227,6 +231,7 @@
 <script src="/static/dl/ameco_net_lending.js"       ></script>
 <script src="/static/dl/ameco_total_expenditure.js" ></script>
 <script src="/static/dl/ameco_interest_expenditure.js" ></script>
+<script src="/static/dl/ameco_interest_to_gdp.js" ></script>
 
 
 <!-- Uncomment this line if you want to dataTool extension -->
@@ -262,14 +267,14 @@
 
     let selectedDataMeta = {
       "ameco_debt_to_gdp": {
-        "selected_data" : debtPercentOfGDP,
+        "selected_data" : debtPercentToGDP,
         "formatter": (statsValue) => { 
           return Math.round(statsValue).toString() + ' %' 
         },
         "color_ranges": [ 1,  60, 180, ],
       } ,
       "ameco_net_lending": {
-        "selected_data" : netLendingPercentOfGDP,
+        "selected_data" : netLendingPercentToGDP,
         "formatter": (statsValue) => { 
           return  (Math.round(statsValue*10)/10).toString() + ' %' 
         },
@@ -288,6 +293,13 @@
           return  (Math.round(statsValue*10)/10).toString() + ' %' 
         },
         "color_ranges": [ 1,  3, 6, ],
+      } ,
+      "ameco_interest_to_gdp": {
+        "selected_data" : interestToGDP,
+        "formatter": (statsValue) => { 
+          return  (Math.round(statsValue*10)/10).toString() + ' %' 
+        },
+        "color_ranges": [ 1,  5, 12, ],
       } ,
     };
 

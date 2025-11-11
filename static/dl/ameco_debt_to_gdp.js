@@ -1,5 +1,5 @@
 // Auto-generated from CSV → JS (years → { COUNTRY: value })
-const debtPercentOfGDP = {
+const debtPercentToGDP = {
   "2000": {
     "Austria": 66.6378,
     "Belgium": 109.5887,

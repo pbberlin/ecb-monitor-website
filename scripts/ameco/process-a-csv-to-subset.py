@@ -145,3 +145,10 @@ inpFile        = "AMECO16.CSV"
 code     = "UYIG"
 unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
 main(inpFile, outFileSuffix, code, unit)
+
+
+outFileSuffix  = "interest_to_gdp"
+inpFile        = "AMECO16.CSV"
+code     = "UYIG"
+unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
+main(inpFile, outFileSuffix, code, unit)
