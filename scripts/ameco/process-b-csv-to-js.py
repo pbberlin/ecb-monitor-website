@@ -90,13 +90,13 @@ if __name__ == "__main__":
 
     inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_debt_to_gdp.csv"
     outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_debt_to_gdp.js"
-    makeJsFromCsv(inputPath, outputPath,"debtPercentOfGDP")
+    makeJsFromCsv(inputPath, outputPath,"debtPercentToGDP")
     print(f"Wrote: {outputPath}")
 
 
     inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_net_lending.csv"
     outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_net_lending.js"
-    makeJsFromCsv(inputPath, outputPath,"netLendingPercentOfGDP")
+    makeJsFromCsv(inputPath, outputPath,"netLendingPercentToGDP")
     print(f"Wrote: {outputPath}")
 
 
@@ -109,4 +109,10 @@ if __name__ == "__main__":
     inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_interest_expenditure.csv"
     outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_interest_expenditure.js"
     makeJsFromCsv(inputPath, outputPath,"interestExpenditure")
+    print(f"Wrote: {outputPath}")
+
+
+    inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_interest_to_gdp.csv"
+    outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_interest_to_gdp.js"
+    makeJsFromCsv(inputPath, outputPath,"interestToGDP")
     print(f"Wrote: {outputPath}")
