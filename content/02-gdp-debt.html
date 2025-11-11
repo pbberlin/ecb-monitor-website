@@ -131,7 +131,8 @@
       <div class="options-stat-vars">
         <label title="(Ameco)">
           Öffentliche Schulden in % BIP 
-          <input type="radio" name="stats_variable" value="ameco_debt_to_gdp" checked>
+          <!-- <input type="radio" name="stats_variable" value="ameco_debt_to_gdp" checked> -->
+          <input type="radio" name="stats_variable" value="ameco_debt_to_gdp" >
         </label>
 
         <label title="(Ameco)">
@@ -158,7 +159,7 @@
       </div>
       
       <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem">
-        <a id="linkDownload" href="#" title="CSV, UTF-8" download>Daten herunterladen</a>
+        <a id="linkDownload" href="#" title="European CSV, semikolon, UTF-8" download>Daten herunterladen</a>
       </div>
       
       
@@ -258,38 +259,56 @@
 
     const dom = document.getElementById('echart_container');
 
-    let selectedData   = debtPercentOfGDP;
-    let selectedVar    = "ameco_debt_to_gdp";
-
-    const linkDownload = document.getElementById("linkDownload")
-    linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
 
     let selectedDataMeta = {
       "ameco_debt_to_gdp": {
+        "selected_data" : debtPercentOfGDP,
         "formatter": (statsValue) => { 
           return Math.round(statsValue).toString() + ' %' 
         },
         "color_ranges": [ 1,  60, 180, ],
       } ,
       "ameco_net_lending": {
+        "selected_data" : netLendingPercentOfGDP,
         "formatter": (statsValue) => { 
           return  (Math.round(statsValue*10)/10).toString() + ' %' 
         },
         "color_ranges": [ -1,  3,   6, ],
       } ,
       "ameco_total_expenditure": {
+        "selected_data" : totalExpenditure,
         "formatter": (statsValue) => { 
           return Math.round(statsValue).toString() + ' %' 
         },
         "color_ranges": [ 1,  30, 60, ],
       } ,
       "ameco_interest_expenditure": {
+        "selected_data" : interestExpenditure,
         "formatter": (statsValue) => { 
           return  (Math.round(statsValue*10)/10).toString() + ' %' 
         },
         "color_ranges": [ 1,  3, 6, ],
       } ,
     };
+
+    // init
+    let selectedVar    = "ameco_debt_to_gdp";
+    const rawHash   = window.location.hash;    
+    const byUrlHash = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
+    if (byUrlHash !== ""){
+      selectedVar    = byUrlHash;
+    }
+    console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
+
+    let statRadios = document.querySelectorAll('input[name="stats_variable"]');
+    statRadios.forEach(function(radio) {
+        if (radio.value === selectedVar) {
+            radio.checked = true;
+        }
+    });
+
+    const linkDownload = document.getElementById("linkDownload")
+    linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
 
 
     const myChart = echarts.init(dom, null, {
@@ -451,7 +470,7 @@
 
       for (const [idx, country] of euCountriesEuro.entries()) {
           try {
-             const statsValue    = selectedData[yr][country];
+             const statsValue    = selectedDataMeta[selectedVar]["selected_data"][yr][country];
              const statsColoring = pctToColor(statsValue, selectedDataMeta[selectedVar]["color_ranges"]  );
             // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
             let item = { name: country, itemStyle: { areaColor: statsColoring,} };
@@ -505,8 +524,8 @@
     // creating debt numbers at the centroid of 27 eu countries
     function manyCountriesShowStats(yr=2025) {
       let results = [];
-      for (let country in selectedData[yr]) {
-        const statsValue = selectedData[yr][country];
+      for (let country in selectedDataMeta[selectedVar]["selected_data"][yr]) {
+        const statsValue = selectedDataMeta[selectedVar]["selected_data"][yr][country];
         // console.log(country, numberValue);
         let item = {
           type: 'scatter',
@@ -746,44 +765,24 @@
 
 
 
-    let statRadios = document.querySelectorAll('input[name="stats_variable"]');
 
     // color_opacity also triggers the option/radio change event
-    const extendedList = Array.from(statRadios);
+    const extendableList = Array.from(statRadios);
     const opacityInput = document.getElementById('color_opacity');
-    extendedList.push(opacityInput);
+    extendableList.push(opacityInput);
 
 
-    for (let idx1 = 0; idx1 < extendedList.length; idx1++) {
-      extendedList[idx1].addEventListener('change', function (evt) {
+    for (let idx1 = 0; idx1 < extendableList.length; idx1++) {
+      extendableList[idx1].addEventListener('change', function (evt) {
 
-
-        if (evt.target.value === 'ameco_debt_to_gdp') {
-          selectedData = debtPercentOfGDP;
+        if (evt.target.name !== "color_opacity") {
           selectedVar  = evt.target.value;
-          linkDownload.setAttribute("href", `/static/dl/${evt.target.value}.csv`)
-        }
-
-        if (evt.target.value === 'ameco_net_lending') {
-          selectedData = netLendingPercentOfGDP;
-          selectedVar  = evt.target.value;
-          linkDownload.setAttribute("href", `/static/dl/${evt.target.value}.csv`)
-        }
-
-        if (evt.target.value === 'ameco_total_expenditure') {
-          selectedData = totalExpenditure;
-          selectedVar  = evt.target.value;
-          linkDownload.setAttribute("href", `/static/dl/${evt.target.value}.csv`)
-        }
-        
-        if (evt.target.value === 'ameco_interest_expenditure') {
-          selectedData = interestExpenditure;
-          selectedVar  = evt.target.value;
-          linkDownload.setAttribute("href", `/static/dl/${evt.target.value}.csv`)
         }
         
         console.log(`selected ${evt.target.value}`);
 
+        linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
+        
         const yr = parseInt(sliderEl.value, 10);
 
         // mutate option and re-apply
