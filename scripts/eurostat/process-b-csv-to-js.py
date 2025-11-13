@@ -3,6 +3,9 @@ import csv
 import json
 import sys
 
+from datetime import datetime
+currentYear = datetime.now().year
+
 euCodesToNames = {
     "AT": "Austria",
     "BE": "Belgium",
@@ -163,6 +166,37 @@ def makeJsFromTsv(inputTsvPath: Path, outputJsPath: Path, jsName: str) -> None:
         return
 
     try:
+
+        # build mapping of year-month keys (sorted descending alphabetically)
+        sortedKeysDesc = sorted(dataByYearMonth.keys(), reverse=True)
+        mapping = {}
+        for idx1, yM in enumerate(sortedKeysDesc):
+            mapping[yM] = currentYear - idx1
+
+
+        mappingInverted = {}
+        for idx1, key in enumerate(mapping):
+            value = mapping[key]
+            mappingInverted[ int(value) ] = key
+
+
+        # padding the mapping2 - 2000, 2001 ... min value, current year + 1 ... max value
+        # derive min/max keys (alphanumerically) and their values
+        minKey = min(mappingInverted.keys())
+        maxKey = max(mappingInverted.keys())
+        minValue = mappingInverted[minKey]
+        maxValue = mappingInverted[maxKey]
+        for idx1, yearInt in enumerate(range(2000, int(minKey))):
+            print(f" {yearInt} {minValue}")
+            mappingInverted[yearInt] = str(minValue)
+        nextYears = [currentYear + 1, currentYear + 2]
+        for idx1, yearInt in enumerate(nextYears):
+            mappingInverted[yearInt] = maxValue
+
+
+        dataByYearMonth["mapping2"] = mappingInverted
+
+
         jsonText = json.dumps(
             dataByYearMonth,
             ensure_ascii=False,
@@ -174,6 +208,7 @@ def makeJsFromTsv(inputTsvPath: Path, outputJsPath: Path, jsName: str) -> None:
         jsLines.append("// Auto-generated from TSV → JS (years → { COUNTRY: value })")
         jsLines.append(f"const {jsName} = " + jsonText + ";")
         jsText = "\n".join(jsLines)
+
 
         with outputJsPath.open(mode="w", encoding="utf-8", newline="") as outJs:
             outJs.write(jsText)
