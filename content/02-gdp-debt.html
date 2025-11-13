@@ -773,32 +773,36 @@
       return String(newYear) + "-" + mnthFormatted;
     }
 
-    // xxxx
     function sliderToKey(){
-      const yr = parseInt(sliderEl.value, 10);
-      if (selectedVar === "eurostat_yields_10y"){
 
-        const keys = Object.keys(yieldsTenYears);
-        // const maxKey = Math.max(...keys.map(k => Number(k)));
-        const maxKey = keys.reduce((acc, k) => {
-          return acc.localeCompare(k, undefined, { numeric: true }) > 0 ? acc : k;
-        });
-        console.log(`max key is ${maxKey}`);
-        const [yearStr, monthStr] = maxKey.split("-");
-        const yrSeries   = parseInt(yearStr,  10);
-        const mnthSeries = parseInt(monthStr, 10);
-        return subtractMonths(yrSeries, mnthSeries, (currentYear-yr));
+      const yr = parseInt(sliderEl.value, 10);
+      
+      // xxxxx
+      if (selectedVar !== "eurostat_yields_10y"){
+        return {
+          yr: yr,
+          lbl:String(yr),
+        };
       }
 
-      return yr;
+
+      const mp2 = selectedDataMeta[selectedVar]["selected_data"]["mapping2"]
+      // console.log(mp2);
+      return {
+        yr:  mp2[ String(yr) ],
+        lbl: mp2[ yr ],
+      };
+
+
+
     }
 
 
     // --- onChange handler: update the chart option (stub) ---
     sliderEl.addEventListener('change', function () {
 
-      const yr = sliderToKey();
-      labelEl.textContent = String(yr);
+      const res = sliderToKey();
+      labelEl.textContent = res.lbl;
 
       // mutate option and re-apply
       let option3;
@@ -811,15 +815,15 @@
         },
       };
       // re-populate
-      option3.series = manyCountriesShowStats(yr);
+      option3.series = manyCountriesShowStats(res.yr);
       option3.geo.regions  = [
-          ...regionsColoring(yr),
+          ...regionsColoring(res.yr),
           extraRectangle('Cyprus', -14,-34),
           extraRectangle('Malta' ,  -6,-24),
       ];
 
 
-      console.log(` changing year to ${yr} `);
+      console.log(` changing year to ${res.yr} `);
       myChart.setOption(
         option3,
         {
@@ -849,8 +853,8 @@
 
         linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
 
-        const yr = sliderToKey()
-        labelEl.textContent = String(yr);
+        const res = sliderToKey();
+        labelEl.textContent = res.lbl;
 
         // mutate option and re-apply
         let option4;
@@ -863,9 +867,9 @@
           },
         };
         // re-populate
-        option4.series = manyCountriesShowStats(yr);
+        option4.series = manyCountriesShowStats(res.yr);
         option4.geo.regions  = [
-            ...regionsColoring(yr),
+            ...regionsColoring(res.yr),
             extraRectangle('Cyprus', -14,-34),
             extraRectangle('Malta' ,  -6,-24),
         ];
