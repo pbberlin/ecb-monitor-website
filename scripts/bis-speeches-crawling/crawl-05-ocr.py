@@ -6,6 +6,7 @@
 from pathlib import Path
 import subprocess
 from pypdf import PdfReader
+import json
 
 
 def runOcrOnPdf(inPth: Path, outPth: Path) -> None:
@@ -39,16 +40,100 @@ def extractTextFromOcrPdf(pdfPath: Path) -> str:
     return "\n\n".join(allTextList)
 
 
-if __name__ == "__main__":
 
-    inp = Path(".") / "out" / "dl" / "fabio-panetta-2024-07-09.pdf"
+
+def checkSlashRatio(filePath):
+    maxBytes = 10 * 1024
+    totalChars = 0
+    slashCount = 0
+
+    try:
+        with filePath.open("r", encoding="utf-8", errors="replace") as f:
+            textChunk = f.read(maxBytes)
+            for idx1, ch in enumerate(textChunk):
+                totalChars += 1
+                if ch == "/":
+                    slashCount += 1
+
+        if totalChars == 0:
+            print(f"no content for  {filePath}")
+            return False
+
+        ratio = slashCount / totalChars
+        return ratio
+
+    except Exception as exc:
+        print(f"checkSlashRatio {exc}")
+        return False
+
+
+
+
+
+def oneFile(inp,out):
+
     ocredPdf    = inp.with_name(  inp.stem + "_ocr.pdf")
     if not ocredPdf.exists():
         runOcrOnPdf(inp, ocredPdf)
 
     extractedText = extractTextFromOcrPdf(ocredPdf)
     # print(extractedText)
-    out = Path(".") / "out" /  (inp.stem + "_ocr.txt")
     out.write_text(extractedText)
     print(f"\t written to {out}")
  
+
+
+outDir = Path("./out")
+dlDir = outDir / "dl"
+dlDir.mkdir(parents=True, exist_ok=True)
+
+jsonFilesList = sorted(outDir.glob("*.json"))
+
+
+
+counterWithSlashes = 0
+for idx1, jsonPath in enumerate(jsonFilesList):
+    try:
+        with jsonPath.open("r", encoding="utf-8") as f:
+            jsonData = json.load(f)
+    except Exception as exc:
+        print(f"[{idx1}] JSON load failed for {jsonPath}: {exc}")
+        continue
+
+    if "pdf_url" not in jsonData:
+        print(f"[{idx1}] Key 'pdf_url' not found in {jsonPath.name}")
+        continue
+
+    if "pdf_url" not in jsonData:
+        print(f"[{idx1}] Key 'pdf_url' not found in {jsonPath.name}")
+        continue
+
+
+    inpPdf = Path(".") / "out" / "dl" /  (jsonPath.stem +  ".pdf")
+    inpTxt = Path(".") / "out" / (jsonPath.stem +  "_pdfcontent.txt")
+    
+    if inpPdf.exists():
+        if not inpTxt.exists():
+            print(f"{idx1:3} -     exists -  {inpPdf}")
+            print(f"{idx1:3} - not exists -  {inpTxt}")
+    else:
+        print(f"{idx1:3} - not exists -  {inpPdf}")
+        continue
+
+
+    outOcr = Path(".") / "out" /  (inpPdf.stem + "_ocr.txt")
+    if outOcr.exists():
+        print(f"{idx1:3} -     exists -  {outOcr}")
+        continue
+
+    result = checkSlashRatio(inpTxt)
+    if type(result) is bool and result == False:
+        print("checkSlashRatio() failed")
+        continue
+    
+    if result > 0.01:
+        counterWithSlashes += 1
+        print(f" \t{(result*100):5.1f}% slashes for {counterWithSlashes} {inpTxt.name}")
+
+        oneFile(inpPdf, outOcr)
+        break
