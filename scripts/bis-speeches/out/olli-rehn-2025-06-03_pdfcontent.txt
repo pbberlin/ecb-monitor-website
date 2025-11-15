@@ -1,0 +1,181 @@
+1/5 BIS - Central bankers' speeches
+Olli Rehn: Macroeconomic policy in times of global political upheaval
+Keynote speech by Mr Olli Rehn, Governor of the Bank of Finland, at the Bank of 
+Finland and Centre for Economic Policy Research (CEPR) joint conference "Frontiers 
+of monetary economics in the 21st century: where and where to?", Helsinki, 13 May 
+2025.
+* * *
+Ladies and Gentlemen, Colleagues and Friends,
+Welcome to the sunny, spring-time Helsinki. On behalf of the Bank of Finland and the 
+Centre for Economic Policy Research, it is my great pleasure to open this year's 
+research conference on monetary economics – which again has an excellent and a 
+most fascinating programme!
+Let me begin with a mission statement – and a confession. Our slogan at the Bank of 
+Finland is: "Securing stability – in science we trust." That is, we lean on evidence- and 
+theory-based economic analysis and policy-relevant research to support our stability 
+mission.
+However, I must make a confession. In this turbulent world, it is comforting to return to a 
+familiar setting and reflect on policy challenges alongside leading economists. Although 
+only eight months have passed since our last gathering, it feels like the global 
+landscape has shifted dramatically.
+And the confession is this, in front of you as researchers, scholars, scientists, leading 
+economists; in these times of pervasive uncertainty, we need plenty of judgment and 
+scenario analysis to supplement our economic and econometric research and 
+regression equations, thus making monetary policy, by necessity, is as much an art as 
+a science. Such is life in these strange times – but finally, at least, it dis make me 
+understand why the Governor at Bank of Finland is,, also the chair of the arts  ex officio
+committee of the Bank!
+Talking about geopolitics and its effects, just look at the ECB's evolving language. 
+Uncertainty went from "increased" to "high," then "pervasive," and now, per President 
+Lagarde, "exceptional." This isn't linguistic inflation. It reflects how genuinely hard 
+forecasting has become, with markets pricing in risk at levels not seen in years.
+Risks abound: from trade wars to faltering global alliances. For central bankers and 
+researchers alike, this is no time for complacency. Instead of dissecting every new risk, 
+today I want to focus on three key areas:
+Lessons from the recent inflation surge;
+Open questions around fiscal policy, particularly defence spending;
+And finally, the role of productivity and innovation.
+Low inflation – past and future
+
+2/5 BIS - Central bankers' speeches
+Let's nevertheless recall there are some good news. The European economy is 
+recovering. Unemployment is at 6.1%, the lowest since the euro's creation. Inflation has 
+been hovering just above 2% since late 2023, allowing the ECB to cut rates seven 
+times.
+The energy shock that hit Europe in spring 2022 has played out very differently than in 
+the 1970s, with the economic cost being much lower this time. Thanks to increased 
+labour supply and lower working hours, wage-price spirals were avoided. Today's 
+labour market is more flexible, less unionised, and better educated.
+Importantly, inflation expectations were much better anchored before the recent inflation 
+surge. This underlies the importance of central bank independence and a strong 
+commitment to the inflation target. The ECB has focused firmly on maintaining these, 
+and will continue to do so.
+Before Covid, the main challenge was that inflation remained stubbornly below the 
+target. Most risks to the inflation outlook were deflationary, including population ageing 
+and the related increase in savings, and the low investment demand. And before the 
+ECB's 2021 review and move to a symmetric 2% target over the medium term, which 
+has worked well, the inflation target was perceived as a ceiling, creating a downward 
+bias.
+From around 2021, inflationary pressures reappeared. First this was due to the 
+pandemic-broken supply chains and stimulus-fuelled demand, then due to the energy 
+shocks arising from Russia's invasion of Ukraine.
+We learned how demand and supply shocks can be deeply intertwined. But we still face 
+many unknowns in that regard. Current geopolitical tensions may expose us to new 
+surprises that we have little historical experience of. Preferably, the spectre of a 
+prolonged trade war with the US will dissipate sooner rather than later, as an economic 
+conflict between long-standing friends and allies is the last thing we need in a world 
+challenged by dictatorial impulses and by a neocolonial mentality.
+Furthermore, what if China shifts exports away from the US to Europe, slashing prices 
+to compete? That could bring deflationary forces and industrial strain to the EU. Would 
+it benefit consumers or hurt our economy overall? The policy response would not be 
+straightforward.
+Let's hope we don't have to answer these questions through crisis. Whatever the 
+challenge, the ECB will remain focused on price stability and its symmetric 2% inflation 
+target over the medium term.
+Defence spending – new pressures
+Since the pandemic, fiscal spending pressures have risen. Now, security concerns are 
+adding fuel. Russia's aggression and doubts about US defence commitments are 
+prompting big spending shifts across Europe. Germany is paving the way and has 
+eased its constitutional debt limits.
+
+3/5 BIS - Central bankers' speeches
+We can assume that with normal execution lags the most substantial fiscal impact will 
+start to be felt from next year 2026 and 2027 onwards. This implies that the fiscal 
+impact on the growth and inflation outlook will take effect in the medium term, as an 
+ordinary citizen perceives is, although this timespan of fiscal impulse will mostly be 
+beyond the projection horizon of medium term as understood in monetary policy. Our 
+assessment indicate a moderately significant impact on growth and limited impact on 
+inflation in the relevant timespan.
+Waking up and substantially increasing defence spending is welcome. Security is the 
+bedrock of economic stability. Peace and security within European borders are 
+fundamental to the European project and its economy.  Defence should be seen as a 
+European public good. Further support for Ukraine should also be seen in the same 
+light.
+But what does this mean for inflation? Historical comparisons to war-time money 
+printing don't apply here. Independent central banks like the ECB remain focused on 
+keeping inflation expectations anchored.
+Still, we need to understand what type of shock defence spending represents. Is it 
+demand or supply driven? Likely both, depending on how and where the money is 
+spent.
+We also face the question ofto pay for it. EU-level spending would offer more  how  
+stability and efficiency. That might mean higher membership fees, new revenue 
+sources, or even treaty changes. Defence bonds – as safe assets – are one option, but 
+only if backed by solid future income.
+Meanwhile, demands on public budgets are rising across the board: infrastructure, 
+climate policy, aging populations.
+What guidance do we have so far from economics research?
+There is a large body of literature on fiscal multipliers, which incidentally often uses 
+defence spending as a natural experiment or exogenous shock. These multipliers are 
+frequently estimated to be below one, because public spending or investment usually 
+crowds out private one.
+However, evidence suggests that multipliers tend to be larger in times of recession and 
+economic slack. Moreover, some of the best evidence on the magnitude of fiscal 
+multipliers is based on US data, where the multiplier may be smaller. This is simply 
+because the US defence industry is very large compared to its European counterpart 
+and is thus more likely to face diminishing marginal returns.
+All these issues mean that for European defence spending to be successful and 
+sustainable, we must make every euro count. The additional defence spending should 
+focus on investment in building up industrial network capacity and R&D, rather than 
+simply procurement of defence equipment, which may be largely imported.
+Then there is also the aspect of defence efficiency. For this, we need sound planning 
+and coordination at the European level, as well as a common market for defence, as 
+
+4/5 BIS - Central bankers' speeches
+stressed in last year's Letta Report. Recent experience has shown that training in the 
+use of unfamiliar weapons and problems with shortages of spare parts can become 
+critical bottlenecks. Therefore, further harmonisation of technical standards and types of 
+arms and equipment across European defence forces is key.
+With a history of independent and diminished national defence industries, the EU has 
+some considerable catching up to do. We need to increase both national and EU-level 
+defence spending, e.g. as Bruegel has suggested, by establishing a European Defence 
+Mechanism formed by a coalition of the capable and willing. Such a fund would bypass 
+the limitations to raising EU-level income, be resilient to any intra-EU obstruction and 
+could also accommodate countries from outside the European Union, like the United 
+Kingdom and Norway.
+In short: defence spending won't necessarily be inflationary. But to be effective, it must 
+be efficient. We need smart investments – in industrial capacity, innovation, and R&D – 
+not just procurement. And we must avoid fragmented efforts. A European Defence 
+Mechanism, built by a coalition of the capable and willing, could also help to pursue 
+these goals.
+Innovation – defence and civilian
+Let's now turn to innovation. Defence spending often yields big returns beyond the 
+battlefield. Its effectiveness should be assessed from a long-term perspective, not only 
+via short-run multipliers. Historically, it has given rise to technological breakthroughs 
+that have not only found direct civilian applications but created whole new non-defence 
+industries.
+Walkie-talkies were created during the Second World War at Motorola for infantry and 
+artillery communication. Radar gave us microwave ovens. Military satellites gave us 
+GPS and digital imaging. Jet engines, nuclear energy, the internet – all have military 
+origins. Dual-use in action.
+Yes, these are cherry-picked examples. But they highlight that basic research often 
+needs public support. The private sector tends to shy away from "unknown unknowns."
+Modern defence is about technology, not just steel and troops. And there's often more 
+pressure to innovate efficiently. Look at Ukraine – it has rapidly developed drone tech, 
+despite scarce resources.
+We know that Europe needs a productivity boost. For years, we depended on cheap 
+energy from Russia, cheap goods from China and the security shield from the U.S. 
+abroad. That stability was a mirage, if not a hallucination.
+To maintain our living standards and sovereignty, we must double down on innovation 
+by investing on human capital and creating a conducive environment for research and 
+researchers. Whether it's AI, clean tech, green transition or digitalisation, we can't afford 
+to lag behind. Innovation is not optional; it's vital for Europe's future – a necessary 
+condition for sustaining Europe's quality of life and democratic values.
+
+5/5 BIS - Central bankers' speeches
+Why not use the EU Horizon programme to create a scholarship and visa programme 
+for returning and moving scientists to attract talent to Europe, where critical thinking and 
+academic freedom in universities are encouraged and safeguarded?
+Dear friends,
+Let me conclude. Europe finds itself in a puzzling paradox, which would be funny if it 
+were not purely pathetic. As Polish PM Donald Tusk put it starkly recently by quipping 
+as follows: "500 million Europeans are asking 300 million Americans to protect them 
+from 140 million Russians."
+We need to put an end to that paradox. Europe must take responsibility for its own 
+external security, in today's harsh geopolitical world.
+This isn't just about military strength. It's about cohesion, economic resilience and long-
+term growth. We need to spark Europe's industrial renewal, reinforce technological 
+leadership, and enhance productivity.
+As history shows, Europe tends to move forward in times of crisis. In every crisis there 
+is an opportunity – this time round we must use it particularly wisely to make Europe 
+more resilient and capable of thriving again.
+Thank you.

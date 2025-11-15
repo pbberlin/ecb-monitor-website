@@ -1,0 +1,258 @@
+ACPR-AMF Forum Fintech – Paris, 09 October 2025
+Speech by François Villeroy de Galhau, Governor of the Banque de
+France
+Chairman of the ACPR
+Ladies and Gentlemen,
+Speech 
+Published on the 9th of October 2025
+Econom y 
+“Fintechs and sovereignty: Three
+pillars to be strengthened together”
+
+I am delighted to welcome you today to the Banque de France for this
+sixth edition of the Fintech Forum, organised jointly by the ACPR and the
+AMF, whose chair, Marie-Anne Barbat-Layani, I wish to warmly welcome.
+In a context that is volatile to say the least, the ACPR remains attentive
+to the ecosystem, which is the very purpose of this Forum. Let me stress
+once again that fintechs require from us just as much attention, dialogue
+and consideration as other traditional players. These are also the
+commitments of our Fintech Charter that are regularly reviewed: our
+response rate to initial contacts within two weeks, as stipulated in the
+Charter, remains consistently high at 98%. Once the authorisation
+process has begun, response times are 10 days (compared to 9.5 days
+last year). In early October, the ACPR also set up a Directorate for
+Innovation, Data and Technological Risks, bringing together the divisions
+responsible for innovation and those responsible for AI and cyber
+supervision, thereby effectively combining innovation and regulation.
+This Forum provides an opportunity for regulatory dialogue with the
+ecosystem. But it also strives to be strategic: this year's theme is
+sovereignty. I would like to share our conviction that the development of
+the fintech ecosystem can, and must, strengthen our sovereignty
+through three pillars: financing the economy (I), money (II), and lastly
+new technologies (III).
+I. Sovereignty and the financing of
+the economy
+1. The financing of the economy requires
+“stimulus” from fintechs
+I will begin with the first “pillar of sovereignty”: the financing of the
+economy. Today, implementing a genuine Savings and Investments
+Union (SIU) is an essential step towards establishing European economic
+and financial sovereignty. Europe does not lack savings or credit, it lacks
+equity. And Europe does not lack total investment, but rather innovative
+investment: there is obviously a strong link between these two
+observations. 
+
+L'Europe ne manque pas d'épargne, ni de crédit, mais de fonds propres
+It is vital to strengthen support for innovation in key areas of sovereignty,
+such as digital technology and artificial intelligence (AI), decarbonised
+energy, and defence, by mobilising more European financial savings. The
+fintech ecosystem, at the forefront of innovation, can play a role in
+making our economies more ‘sovereign’ in terms of financing, for
+example by fostering new financing channels amid the tokenisation of
+finance .  The European pilot regime  supports this process by offering
+market infrastructures the opportunity to use blockchain technology
+within a simplified framework.
+2. Despite their dynamism, fintechs still lack
+equity capital
+The fintech ecosystem in France is reaching a first stage of maturity,
+with over 1,000 fintechs, 50,000 employees, and a number of major
+players. It has proved its resilience: despite a sharp decline in fundraising
+in 2023 and 2024, the ecosystem has consolidated and held its ground.
+This tightening of financing conditions has led fintechs to double down
+on their efforts in order to achieve profitability.
+image ImageThématique Europe Investissement Catégorie Discours
+i
+
+Fundraising rebounded in the first half of 2025, with an increase of more
+than 20% compared to mid-2024, initially driven by a few large
+transactions, often backed by non-European investors. This trend,
+however, remains fragile. Today, the ecosystem needs more equity,
+particularly from European investors. 
+Une priorité donc pour l'UEI : augmenter les fonds propres et le capital-risque
+I advocate   an agenda focused on five concrete priorities in terms of
+equity and venture capital:
+a) a genuine European supervisory framework for investment funds in
+order to hasten the transition from national to “pan-European” funds. 
+b) the creation of an optional “28th regime" comprising a common EU-
+wide set of business law rules, with the aim of reducing administrative
+costs for companies operating in several EU countries. The
+Commission's consultation on the subject is a promising step forward. 
+c) the gradual development of European retirement savings and pension
+funds.
+ d) the implementation of ambitious public-private partnerships. By
+extending the EIB's experience and its European Tech Champions
+Initiative (ETCI), we should leverage the influence of private investors in
+the venture capital market through public funds.
+e) the introduction of European retail investment products through
+simplification and standardisation. 
+image ImageThématique Europe Investissement Catégorie Discours
+iii
+
+ 
+II. Sovereignty and money
+1. Maintaining the pivotal role of central bank
+money
+The second "pillar of sovereignty" is monetary. The rapid and potentially
+massive growth of stablecoins, most often backed by the US dollar and
+strongly supported by the new US administration, could undermine our
+monetary sovereignty acquired through the euro. In particular, it could
+lead to the disorderly proliferation of private settlement solutions and a
+growing dependence on non-European and unregulated players.   How
+should we respond? First, by completing the European regulatory
+framework – the MiCA Regulation.   This framework would benefit from
+the much stricter regulation of the multi-issuance of the same stablecoin
+within and outside the European Union, to reduce arbitrage risks in times
+of stress. I also advocate, along with the Chair of the AMF, for the
+European supervision of crypto-asset issuers, exercised by ESMA.
+Furthermore, maintaining the pivotal role of central bank money. This
+requires the Eurosystem to offer a wholesale digital euro for the
+interbank market and a retail digital euro for the general public. The first
+project is less well known and less high-profile than the second, but it is
+even more important. The Eurosystem and the Banque de France are
+actively working on this as part of the Pontes project: by next year, a
+pilot solution will enable financial intermediaries to settle their tokenised
+assets in central bank money, either through TARGET services or via a
+distributed ledger of the Eurosystem.   In the second stage, the
+Eurosystem intends to propose, as part of the Appia project, a shared
+ledger   where tokenised central bank money, tokenised bank deposits
+and tokenised assets could be exchanged on the same platform. This will
+help overcome many technical obstacles to the integration of European
+capital markets. This ‘wholesale’ digital currency has therefore become a
+high priority: we must accelerate our efforts, and the Banque de France
+will do everything in its power to contribute to this acceleration.
+iv
+v
+vi 
+vii
+viii
+
+2. Promoting the private supply of tokenised
+money
+While the provision of a CBDC is essential, it is not intended to cover all
+uses in the tokenised economy. In addition, it is necessary to have
+tokenised commercial bank money, equivalent to traditional commercial
+bank money in our monetary system. Why shouldn't European banks
+consider the USD-backed stablecoin market, since that is where the
+market is today? But they should be just as focused on their natural
+market of tomorrow: EUR-backed stablecoins. In that regard, I welcome
+the launch of a first consortium of nine European banks, following the
+first initiative of a French bank. The technical choice remains open
+between tokenised deposits  or EUR-backed stablecoins issued by
+banks: we could have both, but we must not end up with neither. The
+cooperation of all market players, particularly French fintechs, is
+therefore necessary and urgent in order to develop these innovative use
+cases.
+III. Sovereignty and technology
+1. Mastering new technologies
+I will conclude with a third pillar in which fintechs are often pioneers: new
+technologies. Fintechs offer immense opportunities for the financial
+sector, both in terms of improving internal efficiency and customer
+services. However, they create a number of vulnerabilities; I will take the
+example of AI and quantum computing. The development of AI is a
+decisive boost for productivity, but it may also contribute to the
+amplification of financial vulnerabilities. For instance, market
+concentration in AI, in terms of specialised hardware, cloud services  or
+pre-trained foundation models, could increase the risk of dependence on
+third parties. Similarly, while quantum computing offers new capabilities
+in terms of computing and metrics, it also poses major risks in terms of
+data confidentiality and security for all financial players.
+ix
+x 
+
+Regulation can help to support the adoption of these new technologies
+within a secure framework.   The European AI Act   applies to the
+financial sector, and in particular to "high-risk" AI systems. It will take full
+effect from August 2026. I welcome the fact that the ACPR has been
+designated as the market supervisory authority for high-risk use cases in
+the financial sector in the draft organisation recently presented by the
+French Ministry of Finance. Fortunately, a significant part of the
+requirements set out in the AI Act are already included in sector-specific
+regulations. We are actively preparing for this role and intend to continue
+to involve market participants through regular meetings with the
+industry. The ACPR will take particular care to minimise the regulatory
+burden on institutions by adopting a risk-based approach and exploiting
+all possible synergies with its "usual" supervisory tasks. 
+Central banks can also set an example by developing their technological
+expertise. As regards quantum computing, the Banque de France, one of
+the pioneers in this field, is conducting experiments in collaboration with
+several other central banks and financial institutions. At the same time,
+we encourage all financial institutions to commit to the post-quantum
+transition without delay; we will play our role in monitoring this transition,
+but also in influencing it as co-chair [with Canada] of the G7 working
+group on quantum technologies.
+2. Strengthening our collective resilience
+In an environment marked by cyber risk; the European DORA
+Regulation  has applied to all financial entities since January 2025; it
+introduces very concrete measures: institutions must now regularly test
+the security of their information systems and report major incidents. As
+regards cloud services specifically, let me point out that, even though
+critical IT service providers are subject to supervision, financial
+institutions, including fintechs, remain responsible for their own risks.
+They therefore need to remain in control of the entire subcontracting
+chain, and regularly audit their IT service providers. These audit tasks
+can be shared between institutions, as is the case in the German
+banking sector: strength lies in unity. 
+xi xii
+xiii 
+
+I will conclude with the words of Jean Monnet: “Sovereignty withers
+when it is frozen in the forms of the past.” Conversely, fintechs, the
+spearheads of innovation in the financial sector, have the power to
+promote financial, monetary and technological sovereignty. Rest assured
+that the ACPR is committed to supporting you during this period of rapid
+transformation in the financial sector, so that innovation continues to go
+hand in hand with stability. Thank you for your attention.
+ 
+ 
+ 
+xiv
+
+Tokenisation involves issuing, recording and exchanging assets in the
+form of digital tokens on Distributed Ledger Technology (DLT) platforms.
+EU Regulation of 30 May 2022 setting up a pilot regime for market
+infrastructures based on distributed ledger technology. It enables
+existing or new market infrastructures to use DLT in a simplified
+framework for trading or settlement activities involving "tokenised"
+financial instruments. It aims to promote innovation and experimentation
+within a framework that ensures investor protection, market integrity and
+financial stability.
+Villeroy de Galhau (F.) (2025), 
+‘Savings and Investments Union:
+(Lastingly) Turning an Idea into Action,’ AEFR/REF Conference ‘Where do
+Savings Go? ”, 11 September
+Assouan (E.) (2025), ‘La Banque de France, au défi de la tokénisation
+de la finance et des stablecoins’  Revue Banque, September; Bénassy-
+Quéré (A.) (2025), "
+Is tokenization a game-changer for the International
+Monetary System?", Op-ed, 15 September.
+Regulation (EU) 2023/1114 on digital operational resilience for the
+financial sector
+Barbat-Layani (M.-A.), Villeroy de Galhau (F.) (2024), « European
+supervision: crypto first!Op-ed, 14 November.
+viiECB (2025), « ECB commits to distributed ledger technology settlement
+plans with dual-track strategy », communiqué de presse, 1er juillet.
+European Shared Ledger
+Tokenised interbank payment instruments
+The cloud is a method of organising and managing IT for businesses,
+enabling them to remotely access and use standardised IT services
+provided by IT service providers.
+Villeroy de Galhau (F.) (2025), « “Where there is danger, a rescuing
+element grows as well”, Paris Finance Forum, 10 June
+The AI Act (Regulation (EU) 2024/1689 laying down harmonised rules
+on artificial intelligence)
+Regulation (EU) 2022/2554 on digital operational resilience for the
+financial sector
+Monnet (J.) (1976), Mémoires
+i
+ii
+iii
+iv
+v
+vi
+viii
+ix
+x
+xi
+xii
+xiii
+xiv

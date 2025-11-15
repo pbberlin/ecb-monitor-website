@@ -1,0 +1,492 @@
+ 
+Climate change and the ECB: we need both enthusiasm and realism  
+ 
+Speech by Governor Pierre Wunsch | CFO Award Trends-Tendances 
+ 
+21 October 2021 
+ 
+ 
+Ladies and gentlemen, 
+It is a pleasure for me to have been invited here and to share my views on 
+this very important topic.… As you know, climate change is one of the 
+toughest challenges for the planet and the global economic system. All 
+economic actors, including central banks, need to think about the role they 
+can play to tackle it. This is exactly what the ECB has done recently, in the 
+context of its strategy review. Our plan in that context – including some 
+reflections that I have about it – will be an important part of my speech. 
+Before jumping to my main messages, I should mention that I will only be 
+talking about how climate change can affect the conduct of monetary 
+policy. I will leave its implications for the other important job of central 
+banks, namely financial supervision, for another occasion.  
+So, let me start by summarising the five main takeaways of my speech: 
+1) Climate change is real and we need to act. That can be done at a 
+reasonable cost. 
+2) The correct price for emissions is the key (but not only) instrument to 
+steer our collective efforts. 
+3) Central banks have a rather limited role to play in this, given their 
+mandate but also the instruments at their disposal. 
+4) However, the consequences of climate change for monetary policy and 
+the central bank balance sheet need to be factored in… and the action 
+plan that the ECB announced in July will just do that.  
+5) Funding the transition to net zero will benefit from advances in 
+disclosures and taxonomy but making sure sustainable ac tivities are 
+profitable is the key priority. 
+  
+
+2/14 INTERN 
+1. Climate change is real and we need to act. That can be done at a 
+reasonable cost. 
+Let’s start with my first message. Climate change is real. This has been 
+made clear in many studies by renowned scientists and institutions. From 
+these studies, it appears that the ecological, social and economic cost of 
+no action is ultimately very high. While most forecasts predict that the 
+consequences of climate change will be quite mild in Western Europe in 
+the coming decade, the July floods have shown the devastating impact of 
+extreme weather events. So, t he risks related to climate change in our 
+regions might need some re-assessment. 
+But in any case, our focus should now be o n mitigation measures. We 
+have agreed to net  zero in 2050. Let’s do it! And let’s do it while keeping 
+the economic and social costs as low as possible. 
+Even during the COVID-19 crisis, when large parts of the world economy 
+came to a halt, carbon emissions only fell slightly. Positive news on the 
+recovery implies that emissions will again start to grow if we do not take 
+any additional measures. Clearly, we are currently not meeting our 
+commitments. Emissions should come down by more than 5  % per year. 
+We are not there yet! 
+I am a strong believer in the capacity of markets to adapt to the new reality. 
+But they need clear and stable rules of the game. I therefore welcome the 
+new Commission package that aims to extend and deepen our climate 
+toolbox, in particular the ETS system. Clear and ambitious long -term 
+targets are essential, but they have to be translated into actual instruments 
+to cre ate the sense of urgency that is now required. Price signals and 
+regulations are needed for climate considerations to be incorporated into 
+the decision -making process of all economic actors. It should not be a 
+matter of belief… or a matter of being (or not ) sensitive to peer 
+pressure…These rules should be binding so that we all act accordingly. 
+But let’s be honest. The path towards a carbon -neutral world will not 
+necessarily be a happy transition. Taking the right measures to achieve 
+this goal will have an economic cost. It will generate opportunities for some 
+but be a burden for others. It will for sure disrupt current business practices 
+and society at large.  
+The precise cost for the economy is heavily debated and estimates differ 
+substantially. The overall cost may well not be too high. According to the 
+European Commission for example, the impact on aggregate GDP in 2030 
+
+ 3/14 
+could be n egative or positive, depending on the hypotheses and 
+assumptions that are used.  
+To put this cost in perspective, let me mention a few numbers. Belgium 
+emits some 110 million tonnes of CO2 each year. What about the average 
+cost of abat ement? It is not easy to pin down. Some green technologies 
+are already competitive. Others are still exp ensive. Costs are also 
+expected to fall as technology advances. In the industrial sector, carbon 
+capture provides us with some upper bound for the costs. Estimates of the 
+cost vary between 100 and 200€ per tonne. I guess 150 euro per tonne is 
+therefore a number we can use here as an “upper bound” for the average 
+cost of abatement in the entire economy. This would imply a cost of some 
+16-17 billion euro per year  to reach net zero in Belgium . As a share of 
+today’s GDP, that is some 3.5  %. But we have until 2050  to achieve net 
+zero. Therefore, starting today, the yearly cost will gradually increase and 
+reach the 16-17 billion figure in 2050. But by then, with a larger economy, 
+it will probably be closer to 2 than 3 % of GDP. These numbers are smaller 
+than the drop in GDP during the 2008 -2009 great financial crisis and  will 
+come about much more gradually. Another way of putting it is that, each 
+year, aggregate income growth would be some 0.1 of a percentage point 
+lower between now and 2050. 
+I know I am taking a risk in mentioning a number. But then, we will only 
+know in thirty years’ time. So, nobody can prove me wrong. Also, and most 
+importantly, I strongly believe that we need a realistic message on the 
+economic impact of climate change. It will not be “party time with free 
+money” BUT neither will it be all “doom and gloom”. Our best estimate is 
+that the impact will not be any higher than that of previous economic 
+shocks – like the oil shocks or financial crisis – but then spread over a 
+much longer period. I might be wrong, but this is my best understanding 
+of the issue from the many readings I have done on the topic.  
+Anyway, even if the numbers suggest that the overall economic impact 
+might not be too bad, some important remarks have to be made.  
+First, they only consider the long -term impact on GDP and therefore 
+overlook the intermediate period. The climate transition requires us to  
+gradually factor in the cost to others from carbon emissions. This is a 
+negative supply shock. It will constr ain the means of production available 
+to us. Also, part of the capital stock will be made economically obsolete  
+earlier than foreseen or technically feasible . This is in addition to the 
+negative impact on LT potential growth. There is therefore a trade -off 
+between speed of action and the negative impact on the existing capital 
+stock. 
+
+4/14 INTERN 
+Secondly, large investment  will be needed to reduce emissions. Such 
+additional investment can mean lower consumption. And green 
+investment might even lead to other necessary investment being crowded 
+out. This is probably less of a risk in the short run, given current low interest 
+rates, but it cannot be ruled out, especially in the longer run if interest rates 
+start rising  again. Another way to look at this risk of crowding-out is 
+perhaps easier to imagine: if virtually all research and innovation efforts in 
+companies all over the economy are redirected to reduce emissions, other 
+welfare-generating projects and activities could be put on hold or simply 
+be abandon ed. Productivity – the key source of welfare creation in an 
+ageing society – would suffer. 
+Last but not least, the costs might be very unevenly distributed across the 
+population and economic sectors. Poorer households risk being hit harder, 
+as energy represents a larger part of their expenses and they have less 
+means to spend on clean investment . Some firms’ activities are very 
+energy-intensive: that makes those firms very vulnerable to emission -
+reducing measures. Social coherence and competitiveness should 
+therefore be kept in mind when charting a path towards net zero. Society-
+wide – yet targeted – support is needed to make the ecological transition 
+a success. 
+  
+
+ 5/14 
+2. The correct price for emissions is the key (but not the only) 
+instrument to steer our collective efforts. 
+For a successful transition, a green action plan needs to make economic 
+sense. In that respect, economists agree that government action will be 
+most effective if carbon is priced so that firms and households take the 
+environment into account when consuming  and investing. A carbon price 
+and a clear announcement of its future path together form  the most 
+efficient way of doing that. All individual decisions can be taken with full 
+forward-looking information and that naturally leads to the most cost -
+effective options to reduce emissions.  
+In practice, the European Union has chosen to use the Emission Trading 
+System (ETS) which fixes a maximum emission quantity. Emission rights 
+are granted and traded, implicitly leading to a carbon price. In comparison 
+to a carbon tax, an ETS has the advantage of directly fixing the target 
+variable, that is carbon emissions. With quantities  fixed, the price is the 
+buffer and hence becomes more volatile. The current ETS has shown 
+some success despite its disadvantages, like its rather limited scope. 
+Fortunately, the European Commission has announced an exte nsion of 
+the system, which will remove or limit some of its weaknesses.  
+By the way, even if higher ETS prices play a role in the recent very strong 
+increase in energy prices, it is only one of many factors. The energy price 
+boom is driven by several other market -specific factors affecting the price 
+of energy products. It is therefore not the result of climate policies.  
+But even after the planned extension, relying only on the ETS is risky. If 
+people don’t sufficiently internalise higher future CO2 prices, the y could 
+postpone necessary actions and the transition would be unnecessarily 
+hard in the long term. Therefore, gov ernments will also have to rely on 
+regulation, impose minimum standards and  forbid polluting activities. In 
+addition, some techniques for reducing the amount of greenhouse gasses 
+in the atmosphere are currently very expensive and will surely need public 
+subsidies to be kick -started and ultimately be marketed. This is, for 
+instance, the case for direct air capture (DAC) 1, which will be needed to 
+reach and accelerate to net zero, compensating for residual emissions.   
+It is also crucial to regularly review subsidy schemes in order to keep 
+providing the right incentives and avoid windfall effects. This is complex, 
+as it requires permanent monitoring of lots of elements, not only for the  
+related technology but also for other technological alternatives. It is one of 
+ 
+1  DAC, which takes carbon from the air, should not be confused with carbon capture incorporated in 
+industrial processes where the carbon concentration is much higher. 
+
+6/14 INTERN 
+the lessons of the past that some technologies have been supported 
+excessively. That has resulted in high costs for only small reductions of 
+emissions. Policy-makers should support promising but still exp ensive 
+technologies on a smaller scale. Innovative projects can then be an 
+inspiration for everybody and kick-start private investment. 
+Let me summari se this second part of my talk. A carbon price covering 
+most economic activities is central to cope with climate change. It gives a 
+clear market signal to all economic agents, who can then make the most 
+cost-efficient choices. One could say that it gets int o all the cracks of the 
+economy. But only setting a carbon price might not be enough to reach 
+the desired net zero target. Governments should correct the most adverse 
+redistribution effects and could flank this price mechanism with regulation, 
+for instance  when network effects play a role. Temporary and targeted 
+support of a limited number of promising flagship projects to get these off 
+the ground and serve as a role model should also be part of the toolkit. 
+  
+
+ 7/14 
+3. Central banks have a rather limited role to play in this, given their 
+mandate but also the instruments at their disposal  
+Everything I have said up to now, I consider to be the core of our collective 
+efforts to reach net zero. I haven’t mentioned central banks and not even 
+financial markets or financial institutions. So, let’s turn to them now. 
+What role should the ECB2 play in the fight against climate change? 
+The mandates of central banks differ widely all over the world. There are 
+of course some common features, like the focus on the pursuit of monetary 
+and financial stability or the fact that central banks should enjoy wide 
+independence in the performance of their tasks. But the legal mandates 
+also differ in the precise way they describe objectives, tasks and 
+instruments. We should keep that in mind when comparing the actions of 
+different central banks. 
+In the EU, the mandate of the central bank is anchored in the Treaty 3. In 
+European Law, an EU institution can only have the competences which 
+EU Treaties  attribute to it . In other words, for each initiative, for each 
+action, the central bank must find a legal basis in the EU Treaties. And I 
+guess we all agree that Treaty change is only a theoretical possibility 
+today… 
+Different views have been expressed as to the legal possibility for the ECB 
+to take standalone actions on climate change issues, outside the pursuit 
+of its primary objective of maintaining price stability. 
+People arguing that such a legal basis exists often refer to the so -called 
+secondary objective of the EC B4. The Treaty does in fact state that “The 
+primary objective of the ESCB shall be to maintain price stability ”. But it 
+goes even further: “Without prejudice to the objective of price stability, the 
+central bank shall support the general economic policies in the Union with 
+a view to contributing to the achievement of the objectives of the Union as 
+laid down in Article 3 of the Treaty”. 
+If you read Article 3 of the Treaty, you will notice that it covers a very broad 
+list of objectiv es without any priorities assigned to them. Sure, Article 3 
+refers to “a high level of protection and improvement of the quality of the 
+ 
+2  For convenience, I refer to the ECB as the monetary policy authority for the euro area. To put things 
+more specifically, the legal provisions apply to the ESCB, comprised of the Frankfurt-based ECB and 
+the national central banks of the EU. 
+3  More precisely, it has been anchored in Article 127 of the Treaty on the Functioning of the European 
+Union (TFEU) and in the Statutes of the ESCB and the ECB which are annexed to that Treaty. 
+4  Referred to in Article 127 of the TFEU. 
+
+8/14 INTERN 
+environment” but only as one among many other objectives: balanced 
+economic growth, a highly competitive social market e conomy, full 
+employment, social progress, scientific and technologic advance, social 
+exclusion and discrimination, equality of women and men, etc. 
+I am an economist, not a lawyer. I shall therefore not venture further into 
+these legal debates. But it is interesting that this legal possibility for the 
+ECB to pursue a stand alone action in the domain of climate change has 
+only been discovered recently, while these provisions have been there for 
+more than twenty years. 
+In fact, I hear more and more voices – including from former central 
+bankers – speaking about a risk of mission creep. For instance, the former 
+Governor of the Bank of England, Mervyn King, expressed clear warnings 
+when he wrote recently that central banks are risking their independence 
+by entering into issues traditionally considered as being the domain of 
+elected politicians5. Once politicians a nd activists see that central banks 
+bend to pressure, he argues, they will push all the harder. In the end, that 
+means central banks will find it harder to do what they are uniquely 
+qualified to do: to provide monetary and financial stability.  
+Former US Treasury Secretary Larry Summers put it in even stronger 
+words. He accuses central banks of trying “to curry domestic political favor 
+by focusing on issues like climate change” 6. And, if you allow me a last 
+reference, former Bank of England Deputy Governor Paul Tucker warned 
+in his book  “Unelected Power” that central banks should show “self -
+restraint” in straying into areas where they do not have a mandate 7.  
+To offer yet another perspective on the question: how should we think 
+about the effectiveness of euro area monetary policy to support climate 
+objectives? Monetary policy is about supporting or slowing down 
+aggregate demand in the euro area, depending on the outlook for inflation. 
+That’s in contrast with what is needed to tackle climate change , which is 
+mainly about reinventing the global supply side of the economy. An overly 
+proactive role on our side could perhaps even be a disincentive, maybe 
+giving governments an excuse for postponing  necessary, but sometimes 
+difficult, decisions or reforms? 
+Beyond the legal or political arguments, lies another one: monetary policy 
+does  not have efficient tools to deal with allocative efficiency. This is the 
+ 
+5 https://www.bloomberg.com/opinion/articles/2021-08-23/central-banks-are-risking-their-
+independence-mervyn-king-dan-katz  
+6 https://www.bloomberg.com/news/articles/2021-05-18/summers-says-central-banks-currying-favor-
+with-climate-focus  
+7  https://press.princeton.edu/books/paperback/9780691196305/unelected-power  
+
+ 9/14 
+reason why no economic textbook assigns us a role in this area. We have 
+relatively blunt macro tools that are very far from a first -best Pigouvian 
+price. 
+It is with these caveats in mind that I look at the decisions of the Governing 
+Council of the ECB to present an action plan to include climate change 
+considerations in our monetary policy strategy. There was unanimous 
+support for this, so I also agreed with it. But I also want to underscore that 
+this is work in progress. Translating the action plan into concrete decisions 
+will have to be discussed and prepared in depth by experts from the ECB 
+and the national central banks. Some strands of work are uncontroversial, 
+others will have to be challenged , for instance  in view of the concerns 
+raised by Mervyn King and Paul Tucker. Also, practical feasibility is a point 
+of attention, I’ll come back to that. 
+  
+
+10/14 INTERN 
+4. The ECB’s climate change action plan 
+Do not misunderstand me.  I am not saying that  my colleagues from the 
+ECB Governing Council and  I should disregard climate change when we 
+conduct monetary policy. 
+All I have said so far is that an orderly  transition towards a net zero EU  
+can only be effective if elected leaders send a clear signal on a fair price 
+for carbon. And I have clarified that, in my view,  the scope for facilitating 
+this transition with proactive intent  is far less obvious  for unelected 
+monetary policy -makers. Moreover , when factoring in political economy 
+dynamics, it risks jeopardising our independence. Apart from such legal or 
+institutional reasons, we should also acknowledge that our instruments are 
+far from ideal for pro-active climate policies. 
+That said, both physical and transition shocks do have implications for the 
+conduct of monetary policy when pursuing the price stability mandate.  
+They are likely to affect aggregate  demand and supply. They therefore 
+create new sources of risks for  the growth and inflation outlook. They will 
+also affect the functioning of financial markets and the financial sector, 
+with possible impairments to  the monetary transmission mechanism. 
+Finally, they could imply higher financial risks on the central bank balance 
+sheet. 
+It was thus more than justified to pay a lot of attention to  climate in our 
+recent monetary policy strategy review. There is no question in my mind 
+that we need to invest much more in our understanding of the issue, which 
+explains (if need be) my support for the action plan announced by the ECB 
+in early July. 
+The action plan reflects the  breadth and complexity of the challenge.  It 
+covers four main areas. 
+First, we have committed ourselves to intensifying our efforts to better 
+understand how climate change risks impact the macroeconomy and the 
+financial system. The ECB and national central banks will coordinate 
+investment in analytical tools and  the development of  new data  and 
+experimental indicators. 
+Second, we will promote knowledge and transparency around climate 
+change risks by leveraging the central role that the Eurosystem has on 
+financial markets. This aspect focuses on exploring options to introduce 
+climate-related disclosure requirements for  private assets that we buy in 
+
+ 11/14 
+our corporate bond purchase programme or that we hold as collateral 
+against our loans to commercial banks. 
+Third, we will undertake  climate stress tests o n the Eurosystem balance 
+sheet and improve our own balance sheet risk assessment capabilities. 
+And, finally,  we will  consider ad hoc  adjustments to our operational 
+framework, specifically  to our collateral policy and our corporate sector 
+purchase programme. For corporate bond purchases, this means we have 
+to define to what extent we can change the  set of principles  guiding the 
+allocation of our  corporate bond  purchases to factor in  climate change 
+criteria. Besides, we also  intend to continue enhancing our internal due 
+diligence process, especially as the availability and the quality of climate-
+related metrics  improve.  Going forward,  climate change considerations 
+could be given a more important role in our assessments of CSPP issuers. 
+As I argued earlier, I fully endorse  the essence of this ambitious action 
+plan. In particular, I warmly welcome  the push to better  grasp the 
+implications of climate change for  a price-stability-oriented central bank  
+and for its balance sheet. To that end, richer statistical data for climate risk 
+analysis and efforts on  disclosures and reporting are obviously very 
+important. These efforts should keep  the burden for companies  at a 
+manageable level, though. 
+What about the changes to our operational framework?  Here, I would like 
+to plead for  a risk-based approach  that capitalises on methodological 
+robustness and solid evidence. Let me elaborate. 
+I must first insist on risk-based motivation. The case for adjustments to our 
+monetary policy instruments to protect our balance sheet from financial 
+risks is conceptually clear, and when these risks are related to climate 
+change, too. It is a matter of preserving our ability to fulfill our price stability 
+mandate.  
+Whether it is relevant in practice, and therefore useful to implement 
+specific measures, is a more open que stion. In fact, there are two 
+necessary conditions for this endeavour to yield material results. 
+The first is solid evidence that financial markets are not adequately 
+factoring in risks related to climate change when pricing financial assets. 
+In other words, we need to demonstrate that there is a wedge between 
+market prices and fundamental values. Fun damental value should be 
+understood here as the value that incorporates all currently available 
+information, including currently known and expected or announced climate 
+
+12/14 INTERN 
+policies. Another aspect to keep in mind is that the relevant horizon for any 
+mispriced risk that we may identify should be consistent with the 
+exposures on our balance sheet; for instance, very long -term risks are 
+irrelevant for our collateral framework because the se are re -valued on a 
+daily basis. 
+The second condition is that our initiatives need to materially improve our 
+risk assessment. For that, we must be able to rely on a sufficient degree 
+of disclosure, reliable climate change risk assessments by rating agencies 
+and, in the absence of this, an in -house framework which is both 
+conceptually clear and can be quantified reliably. 
+To me, this seems quite a challenge. 
+Coming back to the first condition, research-based evidence on the pricing 
+of physical and transition risks is growing, but still limited. Yet, the burden 
+of proof – that markets misprice these risks – lies with us. When I read the 
+various reports and researc h at our disposal , I cannot escape the 
+conclusion that it remains extremely difficult to measure the size of any 
+mispricing. The deeply uncertain, non -linear, endogenous and forward -
+looking nature of the risks explains that. Howe ver, to be able to act here, 
+the bias should be measurable. 
+Against this background, I remain very cautious about the calls for shifting 
+from the operational concept of market neutrality towards a notion of 
+market efficiency. 
+Market neutrality is deeply ro oted within the Eurosystem purchasing 
+philosophy. It is understood as an ambition to minimise the impact of our 
+purchases on relative prices and market liquidity while having an impact 
+on the overall level of yields. In practice, it has translated into pur chasing 
+bond categories reflecting their market capitalisation. 
+Market efficiency, in contrast, is a concept which is deeply rooted in the 
+economic literature. To put it very briefly, its application to our purchasing 
+framework would enable the allocation of our purchases to be tilted in the 
+face of apparent market imperfections, like a carbon price that is too low.  
+Taking on board market efficiency considerations is often put forward as a 
+means of reducing the carbon bias of credit markets. However, it also very 
+much relates to the idea of adjusting monetary policy with a view to 
+supporting climate policies. I ex pressed – and backed up – my 
+reservations on this earlier.. Aiming for allocative efficiency is not a central 
+bank task and could have far reaching implications in many areas. 
+
+ 13/14 
+5. Funding the transition to net zero: disclosures and taxonomy 
+versus the right price for emissions 
+The implementation of the ECB climate change action plan will be aligned 
+with EU policies and initiatives in the field of environmental sustainability 
+disclosure and reporting, like the Taxonomy Regulation. Once there is 
+agreement on its content, the taxonomy enables activities to be identified 
+as environmentally sustainable – or not! – and thus aligned with the Paris 
+objectives, the EU Climate Law and the Green Deal. Let me close my talk 
+with a few thoughts on how such initiatives can be squared with policies 
+that focus on the price mechanism, like a carbon tax or emissions trading. 
+Putting a price on carbon, in the EU mainly via the ETS, is all about 
+economic efficiency. Firms face an extra cost when producing and they 
+will use technologies optimally while maximising profits . The philosoph y 
+behind the taxonomy is that investors will use it to discriminate between 
+green and less green firms, leading to different external funding costs. 
+They, in turn, should impact firms’ choices in the field of climate and 
+sustainability. 
+I do see a role for  labelling in consumer markets: people can easily pick 
+the products and services that are labelled “sustainable” and that should 
+be welcomed. On financial markets, informing investors and introducing 
+elements of “best in class” or “name and shame” can also  contribute   to 
+higher transparency. But we should not expect wonders here. What is first 
+and foremost needed for firms to make the “right” choices  is that such 
+choices are profitable.  
+Here, I have some sympathy for what Tariq Fancy8, former Blackrock head 
+of sustainable investing, argues: if a “good” bank discriminates against a 
+firm based on an ESG score, there will be a “bad” bank happily buying the 
+cheap bonds or shares as long as the firm is profitable. Of course, that 
+“good” bank can also be a central bank that uses tilting… This is not mere 
+theory. There was recently an article in the FT9 showing how hedge funds 
+were making a killing by buying cheap dirty assets from more socially 
+“exposed” companies. 
+More broadly speaking, I still find it difficult to articulate the interaction 
+between CO2 pricing and the taxonomy. The idea behind the ETS – a form 
+of Pigouvian price – is that reducing emissions should take place 
+efficiently. Some firms have higher costs of abatement than others. Some 
+sectors, like renewable energy and electric cars, have lower “green 
+ 
+8 https://www.tijd.be/markten-live/analyse/tariq-fancy-ex-blackrock-duurzaam-beleggen-is-een-
+gevaarlijk-luchtkasteel/10333120.html 
+9  https://www.ft.com/content/ed11c971-be02-47dc-875b-90762b35080e?shareType=nongift 
+
+14/14 INTERN 
+premia” compared to brown technologies than others. It is therefore 
+efficient for firms to have different levels of emission reductions, different 
+paths to carbon neutrality.  
+So, what is the value added of the taxonomy for two firms that comply with 
+the ETS rules? In theory  – in a world with perfect informatio n –, none. 
+Unless one might argue that the ETS price is too low… That it is not in line 
+with the objective of carbon neutrality in 2050. But this would point to a 
+policy failure. The ECB would then act instead of politicians. But this would 
+be abusing our independence. 
+So, in short, I would a priori be reluctant to rely on the taxonomy to 
+discriminate between two firms that comply with the ETS scheme. It would 
+not be efficient and err on the side of autonomous policy-making. 
+Now, some firms or consumers may want to go beyond what is legally 
+required, which is more than fine with me. The taxonomy can also be used 
+to fight “greenwashing” and should better inform us about the challenges 
+ahead. But, again, from a policy perspective, I find it difficult to articulate 
+its role for firms that fall under the ETS regime (which is probably the case 
+for most big emitters on our balance sheet). 
+Let me conclude by repeating my main messages. 
+ 
+1) Climate change is real and we need to act. I have also taken the risk 
+of claiming that this can be done at a reasonable cost. 
+2) The correct price for emissions is the key instrument (but not the only 
+instrument) to steer our collective efforts. 
+3) Central banks have a rather limited role to play in this, given their 
+mandate and the instruments they have. 
+4) However, the consequences of climate change for monetary policy and 
+the central bank balance sheet need to be factored in. The action plan 
+that the ECB announced in July should do just that. 
+5) Funding the transition to net zero will benefit from advances in 
+disclosures and good taxonomy but making sure sustainable activities 
+are profitable is key. 
+Thank you for your attention. 

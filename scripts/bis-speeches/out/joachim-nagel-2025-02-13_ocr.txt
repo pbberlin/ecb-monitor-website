@@ -1,0 +1,324 @@
+Homepage//en] > Press//en/press] > Speeches//en/press/speeches]
+r* in the monetary policy universe: navigational star
+or dark matter?
+Lecture at the London School of Economics and Political Science
+12.02.2025 | London | Joachim Nagel
+Check against delivery.
+1 Introduction
+2 Definition of r-star and use for monetary policy
+3 Estimates for r-star over time
+4 Uncertainties around r-star estimates
+5 Conclusions for monetary policy
+1 Introduction
+Ladies and gentlemen, It's a pleasure and an honour for me to speak here before
+such a distinguished audience.
+“Remember to look up at the stars and not down at your feet.” This was advice from
+Stephen Hawking, the famous English physicist and author of numerous books on
+the cosmos. And who would want to contradict the genius?
+So today | invite you to join me on a stargazing tour. If you don’t have a telescope
+with you, no worries. However, | should add a disclaimer here: When a couple look
+up at the stars, things could get romantic. When astronomers observe the stars,
+impressive images can come into view. When economists talk about stars, it usually
+gets complicated. Now you know what you're getting into!
+I'm sure you've already guessed what topic | have in mind: the natural rate of inter-
+est—also known as r-star. It is a concept that economists have been grappling with
+for more than 125 years." And it has perhaps never received more attention than in
+the current era of monetary policy.
+
+
+From a central banker's perspective, | would like to discuss what role rstar can and
+should play in the monetary policy universe. | will structure my lecture around four
+Key questions: What is rstar and why is it of interest for monetary policy? How have
+estimates for r-star evolved over the past decades? What drives uncertainty about
+current estimates and the future evolution of r-star? What conclusions should mone-
+tary policy draw from this?
+2 Definition of r-star and use for monetary policy
+Let's start with the definition. The natural rate is the real interest rate that would
+prevail if the economy were operating at its potential and prices were stable. R-star
+is commonly thought to be driven by real forces that structurally affect the balance
+between saving and investment. Think of technological progress and dernographics,
+for example. This also rneans that rstar should, by definition, be independent of
+monetary policy. The latter follows from the widely held belief that monetary policy
+can affect real variables only temporarily, but is neutral in the long term.
+At first glance, the natural rate could be a guiding star for the conduct of monetary
+policy. fa central bank sets its policy rates so that the real interest rate is above r-
+star, monetary policy is restrictive or “tight”. Consequently, ecoriornic activity slows
+and the inflation rate should decrease. If the real rate is below r-star, monetary
+policy is expansionary or “loose”. It provides incentives for consurners to purchase
+rnore and for enterprises to step up investment and output. Hence, this should result
+in more economic activity and a higher inflation rate.
+However, the idea of the natural rate serving as a guiding star for monetary policy
+comes with profound challenges. Perhaps the name star evokes associations with
+astronomy and navigation. But these would be misleading. H r-star were like a star
+in the sky, it would be relatively easy to locate. Stars ernit light and are therefore
+observable.
+The natural rate is a theoretical concept. It is based on a hypothetical state of the
+world. That means the natural rate is, by nature, unobservable. Ht can only be esti-
+mated. For example, models use assumptions about the relationship between mea-
+surable variables and r-star. in this respect, the natural rate is not so much like a Star
+shining brightly in the sky. It is more a case of dark matter. As it is invisible, astrono-
+mers infer dark matter indirectly by observing its gravitational effects.
+if something is hard to find, it only spurs researchers to look even harcder~ whether
+they are astronomers or economists. Therefore, we can draw on a variety of estima-
+tion methods for the evolution of the natural rate.
+
+
+3 Estimates for r-star over time
+Since around the 1980s various estimates of different types have been pointing to a
+downward trend for r-star over several decades and across many advanced econo-
+mies.”! In the wake of the global financial crisis, the estimates slumped to exception-
+ally low levels.! This development was roughly in line with the observed trajectory
+of actual real interest rates of short- and long-term government bonds during this
+period. And no wonder: In the long run, both should be driven by the same funda-
+mental forces affecting the balance between saving and investment.
+So the question is this: what has lifted saving and depressed investment? A simple
+answer would be: in the long term, the most important driver is potential growth.
+But this finding is not very enlightening. Potential growth is also not observable. It is
+determined by underlying forces such as demographics and technological progress.
+This is where we need to look for the causes.
+Indeed, according to a number of recent studies, waning productivity growth and
+population ageing were the key factors in pushing saving up and investment down.
+4] Lower productivity reduces the return on investment, so people are less willing to
+invest. As they expect to live longer, they are more willing to save.
+In addition, inequality, risk aversion and fiscal policy could be other factors. For
+example, growing inequality raises saving, as richer households save a larger share
+of their income. Similarly, higher risk aversion leads to higher saving, especially in
+safe assets, while lowering investment.”
+Many of the estimates for r-star reached their lowest point in the pandemic years
+2020 and 2021. After that, there were signs of a partial reversal. A recent analysis
+by Eurosystem economists across a suite of models and data up to the end of 2024
+suggests that estimates of r-star range from — 1% % to 2 % in real terms. In nominal
+terms, they find that it ranges between 134% and 2% %.©
+It is clear that these ranges depend on the estimating approaches considered. Taking
+into account an even wider array of measures, Bundesbank staff calculations using
+data up to the end of 2024 reveal a range of 1.8% to 2.5%." And the
+ECB (European Central Bank) found for the third quarter of 2024: When three esti-
+mates derived from versions of the Holston-Laubach-Williams model are factored in,
+the range of real r-star is — ¥2 % to 1% and the nominal range is 134% to 3%.
+All in all, the results suggest that the range of r-star estimates most likely increased
+by about one percentage point from their lows. The latest estimates by economists
+from the Bank for International Settlements come to similar findings."!
+
+
+The reasons for the increase after the pandemic are not yet fully clear. For example,
+high fiscal spending with rising public debt levels could play a role. Or higher needs
+for capital, as companies make their value chains more resilient by duplicating struc-
+tures and increasing stock levels.
+4 Uncertainties around r-star estimates
+Stargazing tours in economics are a journey into the uncertain. This is also and espe-
+cially true for r-star. Estimates of the natural rate of interest are subject to major
+uncertainties, shaped by three M’s: megatrends, methodology and monetary policy.
+First, we are facing a number of megatrends. Think of climate change, ageing soci-
+eties, digitalisation, and the risks of de-globalisation and increasing geopolitical divi-
+sions. The effects of these megatrends on natural rates are difficult to gauge and
+may change over time.
+On the one hand, they could contribute to a higher natural rate. Here are some
+examples: The widespread uptake of artificial intelligence could boost productivity
+growth. The green transition could lead to higher investment. Fiscal deficits could
+persist at an elevated level due to higher defence spending given geopolitical ten-
+sions. The entry of the baby boomer generation into retirement could reduce
+savings.
+On the other hand, life expectancy is predicted to keep rising; the high hopes for the
+productivity-enhancing effect of Al (artificial intelligence) could turn out to be too
+optimistic; and given high public debt levels, fiscal soace for additional spending is
+limited in many countries. Overall, it is virtually impossible to predict which develop-
+ments will prevail in affecting r-star.
+The second factor of uncertainty is methodology. The methods used to define and
+estimate r-star differ in important ways, especially in terms of time and risk.
+Ricardo Reis demonstrates this impressively in a recent paper.'?! He presents four dif-
+ferent “r-stars”. They are based on four different conceptual approaches. And they
+developed quite differently between 1995 and 2019.
+One major difference is the risk dimension. Knut Wicksell’s original definition of the
+natural rate was the rate of return on physical capital in equilibrium."'®! The rate of
+return on physical capital is the return on investment in the real economy. And this
+rate is very much associated with risks.
+
+
+However, this perspective has been lost in virtually all of the model approaches.
+Generally, they use rather secure government bond yields as a starting point. Again,
+with regard to the real economy, a risky return on capital would be a more appropri-
+ate yardstick. When we look at measures for the return on private capital, we see a
+strong contrast with risk-free rates. Returns on private capital have remained broadly
+stable over the last decades in the US (United States),!'""! Germany!'2! and the euro
+area as a whole.!'?!
+From these observations, Ricardo Reis draws the following conclusion: “focusing
+exclusively on the return on government bonds as the measure of r-star, while
+neglecting the return on private capital, leads to the wrong policy advice.”!"*!
+Another case in point is the time horizon that is considered. Commonly cited esti-
+mates seek to assess the real rate that prevails in the longer run, when all shocks
+have dissipated. Most of these estimates are highly imprecise. Many methods simply
+project the current or the historical level of real rates into the future. This may con-
+found permanent trends with cyclical factors, which may not be representative for
+the future. As a result, such methods could miss important turning points in real rate
+trends.
+Other approaches characterise a short-run real rate in a hypothetical world without
+frictions. While interesting, this concept is of limited value for actual policymaking in
+the real world. Methods based on a short-term equilibrium tend to produce more
+volatile estimates of r-star.
+There is a third reason for caution: monetary policy itself may play a role in shaping
+the natural rate or its estimates. A number of studies challenge the view that money
+is neutral in the long run.!'>!
+There are different channels through which monetary policy could have lasting
+effects on real interest rates. Prolonged tight monetary policy, for example, may
+lower investment, innovation and productivity growth.''®! By contrast, persistent
+monetary easing could fuel financial imbalances and contribute to zombification.!'7!
+
+
+Moreover, recent research suggests that central bank announcements provide guid-
+ance about the trend in real rates. For instance, a narrow window around
+Fed (Federal Reserve System) meetings captures most of the trend decline in
+US (United States) real long-term yields since 1980.""®! This could mean: when
+central banks look for r-star in financial market prices, they might actually be looking
+in a mirror.''?! Feedback loops between monetary policy and markets could unduly
+reinforce their perceptions about r-star. And shifts in perceived r-star could affect
+actual r-star as it influences saving and investment decisions.
+5 Conclusions for monetary policy
+Against the backdrop of these major uncertainties, the final key question of my
+speech is this: what role can and should r-star play for monetary policy in practice?
+Let's approach the answer with a thought experiment: Put yourself in the shoes of a
+monetary policymaker who only looks at r-star. The relevant interest rate with which
+you steer the monetary policy stance is currently 2.75 %. After a previous series of
+interest rate cuts, you consider whether a further cut would be appropriate.
+Your staff inform you that various point estimates of r-star range from around 1.8%
+to 2.5 % in nominal terms. If r-star were at the upper end of the estimates, the
+policy rate would become neutral with the next rate cut. Things would be different if
+r-star were at the lower end of the estimates: Monetary policy would continue to be
+restrictive, even after several further rate cuts.
+So how would you proceed, given a certain stance you want to achieve? Beware: If
+you rely on a wrong estimate, your decision may have a different effect on inflation
+than you intended. Simply choosing the middle of the range might not be a happy
+medium. Around the point estimates, there are often uncertainty bands of different
+sizes and with asymmetries.
+As you have probably guessed: It is no coincidence that | have described this particu-
+lar decision-making situation. It looks similar in the euro area ahead of the next
+monetary policy meeting of the ECB (European Central Bank) Governing Council at
+the beginning of March. After several rate cuts, the neutral rate could already be
+near—or there may still be some way to go.
+The President of the New York Fed (Federal Reserve System), John Williams, put the
+problem in a nutshell when he said: “as we have gotten closer to the range of esti-
+mates of neutral, what appeared to be a bright point of light is really a fuzzy
+blur.” 2°!
+
+
+The bottom line here is this: The closer we get to the neutral rate, the more appro-
+priate it becomes to take a gradual approach. For this purpose, r-star is a helpful
+concept: it indicates when we need to be more cautious with policy rate moves so
+that we don’t take a wrong step.
+At the same time, the limits of the concept are also clear: it would be risky to base
+decisions mainly on r-star estimates. Much more is needed to assess the current
+monetary policy stance and the optimal policy path for the near future.
+That is why the Eurosystem uses a variety of financial, real economic and other indi-
+cators along the monetary policy transmission mechanism. We want the fullest
+picture possible. And, of course, r-star also has a place in this picture. For instance, r-
+star is included in model-based optimal policy projections that we use in the deci-
+sion-making process.
+In my opinion, proceeding in a data-driven and gradual manner has served the
+ECB (European Central Bank) Governing Council well. There is no reason to act
+hastily in the present uncertain environment. The data will tell us where we need to
+go.
+Away from day-to-day monetary policymaking, the concept of the natural rate of
+interest provides a useful framework. This is also exemplified in the policy scenarios
+that Ricardo Reis presented last week in Brussels.'2"!
+He works with the assumption that government bond rates remain around current
+levels. | would add the assumption that inflation stays on target—actually, that is
+what | am in office for and committed to. Assuming output is at capacity, policy
+rates would be persistently higher than in the past. But the recommendations on
+actual monetary policy depend on the driving forces: is the new setting caused by
+less demand for safe and liquid assets or by an increase in productivity? And he has
+two more scenarios in his paper!
+That provides a good example of why we should take a close look at the factors
+behind r-star estimates. Here it is important to even better understand the forces
+that are shifting real interest rate trends. We need to find out how these forces and
+trends affect our work to ensure price stability.
+Reviewing our monetary policy strategy from time to time is therefore vital. That is
+precisely what we are doing right now in the Eurosystem. And, of course, in this
+process, we look at all the questions | mentioned about r-star.
+
+
+Our stargazing tour is drawing to a close. It turns out we were dealing more with
+dark matter than with a shining star. Just as dark matter is an exciting field for
+astronomers, r-star is a rewarding topic for economists.
+Using r-star alone to navigate the monetary policy universe could be like flying
+almost blind. But having it as one of many instruments in your cockpit is highly
+useful.
+| would like to end by quoting Stephen Hawking again: “Mankind’s greatest
+achievements have come about by talking, and its greatest failures by not talking.”
+Footnotes:
+1. Wicksell, K. (1898), Geldzins und GUterpreise: eine Studie Uber die den
+Tauschwert des Geldes bestimmenden Ursachen, Jena, G. Fischer (English
+version as ibid. (1936), Interest and prices: a study of the causes regulating the
+value of money, London, Macmillan).
+2. Obstfeld, M., Natural and Neutral Real Interest Rates: Past and Future,
+NBER (National Bureau of Economic Research) Working Paper, No 31949,
+December 2023.
+3. Brand, C., M. Bielecki and A. Penalver (2018), The natural rate of interest: esti-
+mates, drivers, and challenges to monetary policy, ECB (European Central Bank)
+Occasional Paper, No 217.
+4. Cesa-Bianchi, A., R. Harrison and R. Sajedi (2023), Global R*,
+CEPR (Center for Economic and Policy Research) Discussion Paper No 18518;
+Davis, J., C. Fuenzalida, L. Huetsch, B. Mills and A. M. Taylor (2024), Global
+natural rates in the long run: Postwar macro trends and the market-implied r* in
+10 advanced economies, Journal of International Economics, Vol. 149;
+International Monetary Fund (2023), The natural rate of interest: drivers and
+implications for policy, World Economic Outlook, April, Chapter 2.
+5. On the development of risk appetite in financial markets, see Deutsche
+Bundesbank, Risk appetite in financial markets and monetary policy, Monthly
+Report, January 2025.
+6. Brand, C., N. Lisack and F. Mazelis (2025), Natural rate estimates for the euro
+area: insights, uncertainties and shortcomings, ECB (European Central Bank)
+Economic Bulletin, 1/2025.
+7. Additional models would also provide values outside this range, but are currently
+not deemed sufficiently robust.
+8. Benigno, G., B. Hofmann, G. Nuno and D. Sandri (2024), Quo vadis, r*? The
+natural rate of interest after the pandemic,
+BIS (Bank for International Settlements) Quarterly Review, March.
+
+
+10.
+. Caballero, R., E. Farhi and P-O. Gourinchas (2017), Rents, Technical Change, and11
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+. Reis, R. (2025), The Four R-stars: From Interest Rates to Inflation and Back, draft
+working paper.
+Wicksell, K. (1898), op. cit.
+Risk Premia Accounting for Secular Trends in Interest Rates, Returns on Capital,
+Earning Yields, and Factor Shares, American Economic Review: Papers &
+Proceedings 107(5), pp. 614-620.
+Deutsche Bundesbank, The natural rate of interest, Monthly Report,
+October 2017.
+Brand, C., M. Bielecki and A. Penalver (2018), The natural rate of interest: esti-
+mates, drivers, and challenges to monetary policy, ECB (European Central Bank)
+Occasional Paper, No 217.
+Reis, R., Which r-star, public bonds or private investment? Measurement and
+policy implications, Unpublished manuscript, September 2022.
+Jorda, O., S. Singh and A. Taylor, The long-run effects of monetary policy,
+NBER (National Bureau of Economic Research) Working Papers, No 26666,
+January 2020, revised September 2024; Benigno, G., B. Hofmann, G. Nuno and
+D. Sandri (2024), Quo vadis, r*? The natural rate of interest after the pandemic,
+BIS (Bank for International Settlements) Quarterly Review, March.
+Baqaee, D., E. Farhi and K. Sangani, The supply-side effects of monetary policy,
+NBER (National Bureau of Economic Research) Working Paper, No 28345,
+January 2021, revised March 2023; Ma, Y. and K. Zimmermann, Monetary Policy
+and Innovation, NBER (National Bureau of Economic Research) Working Paper,
+No 31698, September 2023.
+Borio, C., P. Disyatat, M. Juselius and P. Rungcharoenkitkul (2022), Why so low
+for so long? A long-term view of real interest rates, International Journal of
+Central Banking, Vol. 18, No 3.
+Hillenbrand, S. (2025), The Fed (Federal Reserve System) and the Secular Decline
+in Interest Rates, The Review of Financial Studies, forthcoming.
+Williams, J. C. (2017), Comment on “Safety, Liquidity, and the Natural Rate of
+Interest”, by M. Del Negro, M. P. Giannoni, D. Giannone, and A. Tambalotti,
+Brookings Papers on Economic Activity, Vol. 1, pp. 235-316; Rungcharoenkitkul,
+P. and F. Winkler, The natural rate of interest through a hall of mirrors,
+BIS (Bank for International Settlements) Working Paper No 974, November 2021.
+Williams, J. C., Remarks at the 42nd Annual Central Banking Seminar, Federal
+Reserve Bank of New York, New York City, 1 October 2018.
+Reis, R. (2025), op. cit.

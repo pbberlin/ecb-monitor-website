@@ -1,0 +1,327 @@
+TM
+Monetary Policy and Macroeconomic Forecasts: 
+The Last Fifty Years
+Keynote speech by Fabio Panetta* 
+Governor of Banca d’Italia
+Prometeia 50 Conference  
+Milan, Museo della Scienza e Tecnologia, 18 June 2025
+I would like to thank the Prometeia association for inviting me to take part in this 
+conference, marking the fiftieth anniversary of its founding.
+Since 1974, Prometeia has contributed to the Italian economic debate with 
+economic analyses and forecasts, in line with its original mission as the “Association 
+for Econometric Forecasts“. Over time, it has come to play a prominent role by 
+developing its own modelling tools capable of generating reliable forecasts and 
+evaluating the impact of economic policies.
+1
+Over the past fifty years, the macroeconomic landscape has changed profoundly. 
+Changes in shocks, progress in economic theory, and the experience gained have 
+transformed the role of central banks, redefining how they safeguard the purchasing 
+power of money and financial stability.
+The tools available to central bankers have also evolved. The growing availability of 
+data, together with advances in economic and statistical analysis, has enabled the 
+development of more sophisticated forecasting models, better suited to grasp the 
+complexity of today’s economy.
+In my remarks, I will focus on three interconnected areas: the conduct of monetary 
+policy, macroeconomic modelling, and the use of forecasts in central banks’ 
+decision-making processes. Their proper interaction is a fundamental element for 
+more informed, timely, and effective monetary action – especially in a constantly 
+evolving environment.
+* I would like to thank Stefano Siviero for his help in writing this speech.
+1 Prometeia and Banca d’Italia were among the pioneers in the development of econometric models in 
+Italy. In the 1960s, the Bank’s econometric efforts drew the attention of Beniamino Andreatta, who later 
+became one of Prometeia’s main advocates. In 1969, he wrote: “ The path forward is the one already 
+pursued by our central bank for years: to refine its interpretative frameworks and develop an increasingly 
+sophisticated system for gathering the necessary statistical data.“ (B. Andreatta, “Il disegno della politica 
+della Banca centrale e l’uso di modelli econometrici di flussi monetari“, Bancaria, 1, 1969, p. 18).
+
+2
+1.  Central bank independence, price stability, and forecasts
+In the early 1970s – when, even in Italy, monetary policy was not yet separate from other 
+public policies – forecasts, including those on inflation, were not considered essential. 
+Central banks pursued intermediate objectives, such as the defence of the exchange rate 
+or the growth of monetary aggregates, often using administrative tools. 2 Price stability 
+was not yet their primary goal.
+Since then, profound changes in the macroeconomic and institutional context, along with 
+significant innovations in economic theory, have increased the importance of forecasts 
+in monetary policymaking. As I will explain later, this evolution was not linear: phases of 
+affirmation and consolidation alternated with periods of refining models and rethinking 
+their role in guiding monetary policy. 
+A turning point came with the inflationary wave between the late 1970s and early 1980s. In 
+response to that shock, many central banks gained independence and adopted medium-
+term price stability as their stated primary objective.3
+Macroeconomic forecasts – especially those concerning inflation – thus became a 
+structural and essential component of the monetary policy toolkit. 
+Independence, however, required greater transparency and accountability. Central banks 
+were expected to explain and justify their decisions: the publication of forecasts, along 
+with information on the models used, became an essential factor for transparency and 
+accountability.
+Today, almost all central banks regularly publish their forecasts.4 This practice reflects the 
+awareness of the crucial role of expectations in inflation dynamics and in the transmission 
+of monetary policy. Publishing forecasts not only promotes transparency; it also helps 
+guide investors’ expectations, thereby strengthening the effectiveness of monetary 
+policy.
+This approach has radically transformed central bank communication. Fifty years ago, the 
+prevailing view held that the effectiveness of monetary policy depended on its ability to 
+surprise markets. Today, by contrast, most central banks explain their “reaction function“5 
+2 The administrative tools used at that time included credit ceilings, portfolio constraints, and foreign 
+exchange controls.
+3 The adoption of price stability as the direct goal of monetary policy is mainly associated with the 
+work of Svensson, who introduced the concepts of inflation targeting and inflation forecast targeting. 
+See: Lars E.O. Svensson, “Inflation Targeting“, in B.M. Friedman and M. Woodford (eds.), Handbook of 
+Monetary Economics, vol. 3, Amsterdam, New Holland, 2011, pp. 1237-1302.
+4 Banca d’Italia has done this since 2007, in line with Eurosystem decisions. Before the early 2000s, 
+central banks rarely released public forecasts. Banca d’Italia only published some simulations in May 
+1992 using its quarterly model, to analyze public finance adjustment paths; these were essentially 
+forecasts conditional on different fiscal scenarios.
+5 The “reaction function“ describes how the central bank adjusts its policy tools in response to changes 
+in the economic environment, in order to maintain price stability.
+
+32
+in order to guide market expectations. Some have gone even further, adopting forms of 
+forward guidance6 and, at times, publishing the expected path of official rates they deem 
+consistent with achieving the inflation target.7
+2.  Economic instability, monetary policy, and forecasts in the 2000s 
+Over the past twenty years, the main macroeconomic and financial variables have 
+experienced wide fluctuations and increased sensitivity to shocks, marking a clear 
+break from the Great Moderation period, characterized by stable growth and the rapid 
+absorption of shocks.8
+The phase of instability began with the global financial crisis of 2008-09, followed by 
+the sovereign debt crisis in Europe, the post-pandemic recession, and the inflation spike 
+triggered by the energy crisis (Figure 1).
+The increased volatility has led to two important changes in the nature and role of the 
+forecasts produced by central banks.
+6 Forward guidance refers to explicit indications about the future stance of monetary policy. The ECB 
+adopted formal forward guidance between 2013 and 2021, when inflation was below the 2 percent 
+target and official interest rates were at their lower bound.
+7 This approach has been adopted by the central banks of Sweden, Norway, and New Zealand. Its 
+benefits and risks are discussed by Ben Bernanke in his review of the Bank of England’s forecasting 
+tools: B. Bernanke, “Forecasting for monetary policy making and communication at the Bank of 
+England: a review“, Bank of England, 12 April, 2024.
+8 The term “Great Moderation“ refers to the final decades of the last century, when major economies 
+appeared to follow a stable trajectory, marked by small and temporary shocks that were quickly 
+absorbed.
+Figure 1
+GDP volatility during the Great Moderation 
+and in the first decades of the 2000s  (1)
+(percentage points)
+ 0.0
+ 2.5
+ 5.0
+ 7.5
+10.0
+ 0.0
+ 2.5
+ 5.0
+ 7.5
+10.0
+1990 2000 2010 2020
+Euro area Italy United States
+Source: OECD.
+(1) Standard deviation of year-on-year GDP growth rates calculated over a 12-quarter period.
+
+The first one concerns the growing awareness of the need to consider not only the central 
+scenario of forecasts, but also the distribution of surrounding risks – an approach known 
+as risk management. In a highly uncertain environment, it is essential for central banks to 
+adopt a robust policy strategy, capable of responding in a balanced way to a wide range of 
+possible developments, rather than relying solely on the optimal policy for the most likely 
+scenario.
+This orientation has profoundly transformed the practice of forecasting, establishing 
+the development of alternative scenarios9 and the systematic assessment of uncertainty 
+around the central projection as standard components of the process.10
+In effect, the succession of extraordinary shocks – and the occasionally substantial 
+forecast errors they produced – have enhanced the informational content of forecasts, 
+making them more comprehensive and context-aware tools.
+The second change concerns the role of macroeconomic projections in the decision-
+making process of central banks, which at times has been partially reduced due to the 
+sequence of major shocks mentioned earlier and the associated forecast errors. For 
+example, the inflation surge of 2021-23 – the most intense in the last forty years – was 
+not anticipated, mainly due to the sharp rise in energy prices linked to the war in Ukraine.
+In response to these developments, central banks have started to use forecasts more 
+cautiously, integrating them with alternative analyses and indicators – particularly those 
+relating to core inflation – and paying increasing attention to actual data. In the euro 
+area, this approach – known as data-dependence – has led to favouring decisions taken 
+on a meeting-by-meeting basis.
+Today, monetary policy in the euro area is once again being conducted under conditions 
+of heightened uncertainty. 
+The Eurosystem projections for the coming months indicate that inflation is likely to remain 
+below the 2 per cent target for an extended period, alongside persistently weak economic 
+activity. Nevertheless, the macroeconomic outlook remains subject to substantial and 
+difficult-to-quantify risks. These arise, on the one hand, from conflicting signals in US trade 
+policy and, on the other, from the recent escalation of the conflict between Israel and Iran.
+Against this backdrop, the ECB’s Governing Council, at its most recent meeting, reaffirmed a 
+flexible approach, keeping its options open. It will continue to take decisions on a meeting-
+by-meeting basis, without pre-committing to a defined course for monetary policy.
+9 In June 2025, for instance, the Eurosystem presented two alternative scenarios, alongside its economic 
+projections for the euro area, in order to assess the impact of different US trade policies compared with 
+the forecasting scenario deemed likelier. 
+10 This trend began with the Bank of England’s inflation fan charts. See: E. Britton, P. Fisher, and J. Whitley, 
+The inflation report projections: understanding the fan chart , Bank of England, Quarterly Bulletin, 
+March 1998, pp. 30-37. For the approach developed by Banca d’Italia, see: C. Miani and S. Siviero,  
+“A non-parametric model-based approach to uncertainty and risk analysis of macroeconomic 
+forecasts“, Banca d’Italia, Temi di discussione (Working Papers), 758, 2010.
+4
+
+5
+3.  Forecasting Errors and Learning by Doing
+As mentioned, econometric models have made significant forecasting errors in recent 
+years, for example during the pandemic and the high inflation phase of 2022-23, 
+reigniting debate about their reliability.
+This is a crucial issue: major errors can compromise the timeliness and effectiveness of 
+central bank actions, with tangible effects on price stability, growth, and employment.
+In reality, most of these errors – particularly those relating to inflation – can be traced to 
+the unpredictability of the exogenous shocks that occurred during that period, linked to 
+geopolitical or environmental events rather than economic ones. 
+For example, the surge in energy prices between 2021 and 2022 was largely driven by 
+Russia’s manipulation of oil supply and its invasion of Ukraine. 11 Clearly, the ability to 
+anticipate such events has little to do with the features of forecasting models.
+A reassuring element, emerging from ex-post analyses, is that more than two-thirds 
+of the forecasting error made by Banca d’Italia on 2022 inflation is attributable to the 
+energy component; the figure rises to 80 per cent when food products are included 
+(Figure 2).12
+11 F. Panetta, “Monetary policy after a perfect storm: festina lente“, speech at the 3 rd International 
+Monetary Policy Conference organized by the Bank of Finland “Monetary policy in low and high 
+inflation environments“, Helsinki, 26 June, 2024.
+12 D. Delle Monache and C. Pacella, “The drivers of inflation dynamics in Italy over the period 2021-2023“, 
+Banca d’Italia, Questioni di economia e finanza (Occasional Papers), 873, 2024. Similar assessments 
+apply to the euro area. See: M. Chahad, A.-C. Hofmann-Drahonsky, A. Page and M. Tirpák, “An updated 
+assessment of short-term inflation projections by Eurosystem and ECB staff“, ECB, Economic Bulletin, 1, 
+2023, pp. 61-55.
+4
+Figure 2
+Contributions to inflation forecast errors in Italy
+(percentage points)
+−2
+0
+2
+4
+6
+8
+−2
+0
+2
+4
+6
+8
+2021 2022 2023
+Not accounted for
+Other factors
+Fiscal policy
+International prices of other raw
+materials and manufactured goods
+Energy prices
+Forecast error (1)
+Sources: Istat and based on Banca d’Italia’s calculations.
+(1) Forecast errors for the household consumption deflator growth rate. 
+
+6
+The lesson from the pandemic and energy crises concerns the need to refine the 
+techniques for anticipating the behaviour of key exogenous variables, starting with 
+energy prices themselves, which are notoriously volatile and particularly relevant for 
+inflation.
+It should be noted that the process of revising forecasting tools – initiated by Banca 
+d’Italia and other central banks to account for exceptional events – is nothing new. 
+The global financial crisis, for example, led to the introduction of mechanisms to 
+simulate the effects of a potential credit crunch, 13 while the sovereign debt crisis 
+spurred the development of tools to analyse “unconventional“ monetary policies.
+In addition to the challenges posed by extraordinary shocks, there are well-known 
+limitations relating to the nature of the data used in economic forecasts, which are 
+often estimates and subject to subsequent revisions. Economic forecasters – unlike 
+meteorologists – lack certainty even about current data. 14
+Nevertheless, there are encouraging signs. Research by Banca d’Italia shows that, 
+compared with the 2008 financial crisis, forecasts were adjusted promptly during the 
+sovereign debt crisis and even more so during the pandemic. 15 The initial errors were 
+still substantial, but the ability to correct them improved significantly.
+Forecasting errors are, to a large extent, inevitable; the ability to learn from them is 
+what makes the difference.
+4.  Which Models?
+Today, semi-structural econometric models remain a central tool for both private 
+forecasters – such as Prometeia – and central banks. 16 In the Eurosystem, national 
+forecasts for the euro area often rely on models of this type. 
+Their resilience can be explained by their ability to reconcile two often conflicting 
+needs: on the one hand, adherence to data; on the other, consistency with economic 
+13 L. Rodano, S. Siviero and I. Visco, “Business cycle reversals and macroeconomic forecasts: tale of two 
+recessions“, in R. Bardozzi (ed.), Economic multisectoral modelling between past and future: a tribute to 
+Maurizio Grassini and a selection of his writings, Florence, Firenze University Press, 2013, pp. 229-247.
+14 F. Busetti, “Preliminary data and econometric forecasting: an application with the Bank of Italy quarterly 
+model“, Journal of Forecasting, 25, 2006, pp. 1-23.
+15 L. Rodano, S. Siviero and I. Visco, 2013, op. cit.
+16 The construction of the semi-structural econometric model of Banca d’Italia began in 1963 by a working 
+group coordinated by Antonio Fazio and Guido Maria Rey, under the direction of then-Governor 
+Guido Carli. Over time, several generations of the model have followed, with major contributions 
+from Franco Modigliani (in the initial phase) and Albert Ando (from 1982 to 2002). These generations 
+were regularly documented in Bank publications, including: “Un modello econometrico dell’economia 
+italiana (M1BI)“, Banca d’Italia, 1970; A. Fazio and B. Sitzia, “The quarterly econometric model of the 
+Bank of Italy. Structure and policy applications“, Banca d’Italia, 1979; I. Visco et al., “Modello trimestrale 
+dell’economia italiana“, Banca d’Italia, Temi di discussione del Servizio Studi, 80, 1986; G. Galli,  
+D. Terlizzese and I. Visco, “Un modello trimestrale per la previsione e la politica economica: le proprietà 
+di breve e di lungo periodo del modello della Banca d’Italia“, Politica Economica, 5, 1, 1989, pp. 3-52.
+
+6 7
+theory. Purely statistical models, although sometimes more accurate in the short term, 
+do not clarify the underlying economic mechanisms or ensure internal consistency 
+between variables. In other words, they do not provide monetary authorities with 
+the economic narrative that is indispensable for the analysis and communication of 
+policy decisions. 17
+At the other extreme, more theoretically sophisticated models may fail to use 
+empirical information efficiently. Semi-structural models, though involving inevitable 
+compromises, manage to integrate a wide range of data while maintaining a 
+recognizable theoretical framework. 18
+For this reason, most central banks continue to use them, alongside a range of 
+alternative tools within a “model suite“. Banca d’Italia also follows this approach, 
+using more statistical models for short-term forecasts and more theoretical ones for 
+medium- and long-term projections.
+New Frontiers: Integrated Models and Computing Power
+Recent advances in computing capabilities are opening up new possibilities for 
+economic analysis, enabling the integration of macroeconomic models with 
+microeconomic analysis tools. This combined approach has made it possible to 
+address issues that macroeconometric models alone could not tackle effectively.
+For example, analyses by Banca d’Italia show that the quantitative easing policies 
+adopted in the pre-pandemic period, contrary to some expectations, did not exacerbate 
+inequalities but rather produced moderately positive redistributive effects. 19
+The combination of micro and macro levels has also proven useful in other areas, 
+allowing for the estimation of potential output while avoiding the “aggregation 
+bias“, 20 and providing more accurate measures of the effects of credit rationing 
+during the sovereign debt crisis. 21
+17 Policymakers need an “economic narrative“ to judge the reliability of a forecast scenario; data alone 
+are not enough. 
+18 S. Siviero and D. Terlizzese, “Macroeconomic forecasting: debunking a few old wives“ tales’, Journal 
+of Business Cycle Measurement and Analysis , 3, 2007, pp. 287-316; M. Caivano and S. Siviero, 
+“Strumenti matematici a supporto delle decisioni di politica monetaria. Il caso della Banca d’Italia“, 
+in G. Boffi (ed .), I modelli matematici di fronte alla crisi economica e finanziaria , Università Bocconi, 
+Pristem/Storia, 31, 2013, pp. 49-78.
+19 M. Casiraghi, E. Gaiotti, M.L. Rodano and A. Secchi, “A ’reverse Robin Hood’? The distributional 
+implications of non-standard monetary policy for Italian households“, Journal of International Money 
+and Finance, 85, 2018, pp. 215-235.
+20 D. Fantino, “Potential output and microeconomic heterogeneity“, Banca d’Italia, Temi di discussione 
+(Working Papers), 1194, 2018; D. Fantino, S. Formai and A. Mistretta, Firm characteristics and potential 
+output: a growth accounting approach , Banca d’Italia, Questioni di economia e finanza (Occasional 
+Papers), 616, 2021.
+21 L. Burlon, D. Fantino, A. Nobili and G. Sene, “The quantity of corporate credit rationing with matched 
+bank-firm data“, Banca d’Italia, Temi di discussione (Working Papers), 1058, 2016.
+
+8
+5. Conclusions: The Future of Forecasts (and of Errors)
+This discussion has highlighted several promising ways to enhance the reliability 
+of macroeconomic forecasts – including the systematic analysis of error sources, the 
+integration of macroeconomic and microeconomic models, and the use of alternative 
+scenarios to account for uncertainty.
+Future challenges will require even more advanced tools. It will be crucial to understand 
+the impact of long-term trends – such as the green transition – and to harness the 
+potential offered by recent advances in data processing.
+Artificial intelligence opens up interesting perspectives for modelling complex and  
+non-linear dynamics, as has already happened in the field of meteorology. 22 However, 
+in the realm of monetary policy, the ability to provide an economic narrative remains 
+essential: for this reason, even the most advanced models must be accompanied by 
+interpretable and theoretically grounded tools.
+Ultimately, forecasting the economy will never be an exact science. Economic agents, 
+unlike physical particles, react to policies23, form expectations, and interact strategically.
+For this reason, error will always be part of the process, and precisely for this reason, 
+models will always be a work in progress.
+As a well-known quote has it, “It’s tough to make predictions, especially about the 
+future“.24
+22 C. Cookson, “Weather forecasting takes big step forward with Europe’s new AI system“, Financial 
+Times, 25 February, 2025. 
+23 This feature was highlighted by R.E. Lucas, “Econometric policy evaluation: a critique“, in K. Brunner 
+and A.H. Meltzer (eds.), The Phillips curve and labor markets , Amsterdam, North-Holland, 1976,  
+pp. 19-46.
+24 The quote has been variously attributed to Niels Bohr, Winston Churchill, and even Yogi Berra.

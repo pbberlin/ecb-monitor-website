@@ -1,0 +1,178 @@
+1/5 BIS - Central bankers' speeches
+Joachim Nagel: Interactions between monetary policy, regulation and 
+financial markets
+Video message by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the 
+Conference on Markets and Intermediaries, jointly organised by the Deutsche 
+Bundesbank and the Humboldt-Universität Berlin, Frankfurt am Main, 1 October 2024.
+* * *
+Check against delivery 
+1 Introduction
+Ladies and gentlemen,
+Good morning and welcome to the Conference on Markets and Intermediaries, an 
+event jointly organised by the Bundesbank and the Humboldt-Universität zu Berlin.
+In my opening speech, I will take you on a helicopter tour of the programme and share 
+some thoughts on the topics that will be covered over the next two days. The 
+programme certainly does cover a wide range of topics. It addresses current challenges 
+facing financial markets, financial intermediaries, and central banks.
+Since the Great Financial Crisis, central banks worldwide have expanded their balance 
+sheets, injected additional liquidity into the financial system, and broadened their 
+collateral frameworks. In addition, financial regulation has been adapted to make the 
+financial system more stable.
+While these measures served useful purposes, they also had side effects, not least in 
+money and capital markets. Policymakers and regulators are therefore well-advised to 
+evaluate the effects of their measures.
+2 Non-bank financial institutions
+The first session is dedicated to non-bank financial institutions, or NBFIs.
+This sector includes, amongst others, insurers, investment funds, and money market 
+and hedge funds. It is strongly interconnected, both with other sectors and across 
+countries. Its share of the global financial system, as measured by total financial assets, 
+is almost one-half.
+Clearly, it could be a source of systemic risks. But the risks presented byNBFIs often    
+lie out of view. This makes them more difficult to monitor and assess. All the more 
+important, then, to close data gaps and strengthen the resilience of the sector.
+One particular source of vulnerability are fire sales of open-ended funds. These are the 
+subject of a paper that Rüdiger Weber is presenting this morning.1
+
+2/5 BIS - Central bankers' speeches
+Open-ended funds are especially prone to fire sales because, during episodes of 
+market stress, they often face significant pressure from investors who want to liquidate 
+their holdings quickly. Fund managers may then be forced to offload fund assets at 
+short notice. And if those assets are less liquid, they may have to sell them at lower 
+prices. This may amplify price declines and liquidity shortages.
+Effective liquidity management and regulation are very important here. A recently 
+published Bundesbank paper shows that price-based liquidity management tools help 
+keep the financial fragility of open-ended mutual funds in check.2
+In times of stress, investors also try to protect their capital by shifting it into safer assets. 
+However, this flight to safety can intensify the downward pressure on the prices of 
+riskier assets as demand for the latter declines.
+The Financial Stability Board is doing important work in this field. But it is currently 
+focused on microprudential regulation. I think theFSB's work on this front needs to be  
+complemented by the development of macroprudential regulation for theNBFI sector.   
+In any case, we should not jeopardise what we have achieved in the banking regulation 
+space by allowing stability risks to build up elsewhere in the financial system.
+3 Central bank digital currencies
+The second session is on central bank digital currencies (CBDC).
+CBDC is an issue that is keeping almost all central banks very busy at the moment. The  
+Eurosystem is hard at work preparing for the potential introduction of a digital euro.
+As the world turns increasingly digital, the digital euro would provide a secure and 
+efficient digital payment option that complements cash. It aims to strengthen Europe's 
+strategic autonomy by building on European infrastructures, and to promote innovation 
+in the private sector.
+However, introducing aCBDC could also have unintended side effects. If bank    
+customers were allowed to hold it in large amounts, periods of banking distress could 
+trigger large, sudden shifts out of deposits intoThis could lead to financial  CBDC.  
+instability.
+And ifCBDC were too attractive a substitute for deposits, commercial banks' access to    
+retail deposits could erode over time. Which could lead to structural disintermediation 
+and call into question our proven two-tier banking system. It is therefore of the essence 
+to designCBDC in a way that prevents these risks from materialising.   
+The challenge is to optimise the usability ofCBDC as a means of payment while at the    
+same time limiting its effects on the market for bank deposits. Two decisive factors in 
+this regard are remuneration and holding limits. Let me say a few words on each of 
+these.
+
+3/5 BIS - Central bankers' speeches
+Remuneration means the rate of interest on people's holdings ofIf that rate of  CBDC.  
+interest were positive, holdingCBDC would be more attractive. But at the same time,    
+that would lead to outflows out of bank deposits.
+Based on a welfare-maximising model setting, Pascal Paul will argue later this 
+afternoon that central banks should allow for a positive interest rate.This stands in 3 
+contrast to the intention of the Governing Council not to remunerate digital euro 
+holdings.4
+Why are we not in favour of remuneration?
+Because our aim is to make the digital euro a digital complement to cash, and there is 
+no remuneration for holding cash. We neither want to compete with commercial banks 
+for deposits, nor do we want to employ the digital euro as a monetary policy instrument.
+The second, perhaps even more important, factor is holding limits. We intend to limit 
+digital euro holdings to a certain amount, because we want to ensure the digital euro 
+does not lead to large sudden shifts or disintermediation.
+The limits currently under discussion range from €500 to €3,000.A recent Bundesbank 5 
+paper finds that an optimal holding limit would be in a range between €1,500 and 
+€2,500. On the Governing Council, we have not yet taken a decision on the exact 6 
+amount. What is more,EU legislators might be involved here.   
+But as regards the practical usability of the digital euro, the exact limit does not play a 
+major role anyway. This is because a reverse waterfall system, as it is called, would 
+allow users to link their digital euro wallet to their bank account. They can then convert 
+their bank deposits into digital euro automatically and instantly if their holdings are 
+insufficient to make a payment.
+4 Banking and deposit flows
+Allowing users to convert an unlimited amount of deposits intoCBDC would expose    
+commercial banks to substantial run risk. In any case, zero or lower interest rates will 
+not discourage them from doing that in times of crisis. However, digital bank runs can 
+happen even without CBDC.
+The failure of Silicon Valley Bank and other regional banks in March 2023 showed how 
+quickly customers can withdraw their deposits these days. At Silicon Valley Bank alone, 
+customers pulled outUSD 42 billion within the space of a single day, which equated to    
+around one-quarter of total deposits. And anotherUSD 100 billion would have been    
+withdrawn a day later.The depositors on the run were apparently account holders with 7 
+uninsured deposits.
+Banking and deposit flows are the subject of Session 3. Dominic Cucic will present a 
+paper showing that bank customers do indeed redistribute their deposits when deposit 
+insurance limits change.Credible and reliable deposit insurance helps to prevent bank 8 
+runs and preserve financial stability.
+
+4/5 BIS - Central bankers' speeches
+In the euro area, we currently have deposit insurance at the national level. Adding a 
+European layer in the form of a hybrid model would help prevent situations where large 
+shocks overwhelm national deposit insurance systems and lead to cross-border 
+contagion.
+As a European layer should be risk-based, large exposures of banks to individual 
+sovereigns are an issue. Currently, many banks hold a disproportionately large number 
+of bonds issued by their domestic governments. If this were to continue, a common 
+deposit insurance arrangement could lead to a redistribution of sovereign solvency risks.
+In my view, the newEU legislative session provides a good opportunity to move forward    
+on both issues: with a reduction in banks' exposures to individual sovereigns, and a 
+common European deposit insurance system.
+5 Central bank interventions and market behaviour
+Session 4 of this conference focuses on the impact of central bank interventions on 
+market behaviour. Both papers in this session underline that such central bank 
+measures need to be carefully designed.9
+Central banks have taken a wide range of non-standard monetary policy measures to 
+ensure sufficient monetary stimulus at the effective lower bound. But in the medium to 
+long term, such policies may lead to inefficiencies. These could arise in financial 
+markets themselves or in the allocation of resources affected by the boost to lending.
+This makes it all the more important to evaluate the instruments used and the lessons 
+learned. It is therefore very fitting that we are currently carrying out a strategy review in 
+the Eurosystem. Amongst other things, this will provide an opportunity to critically 
+review the quantitative easing policies we have seen in the past.
+The extensive bond purchases contributed to price stability in an era of low inflation, but 
+they were also associated with numerous side effects in financial markets. Without 
+prejudging the outcome of the review, I think their use should be limited to exceptional 
+circumstances.
+6 Conclusion
+Ladies and gentlemen,
+The conference concludes with a panel discussion on theECB's new operational  
+framework. As I have already expressed my views on this on a different occasion,I 10 
+will end my speech by expressing my gratitude.
+Thanks to the organisers from the Bundesbank and Humboldt University for setting up 
+this conference. Thanks to the presenters, discussants and panellists for sharing their 
+insights. Thanks to all participants for their contributions. And special thanks to Annette 
+Vissing-Jørgensen from the Federal Reserve Board, who will give a keynote on 
+"Balance sheet policy above the effective lower bound".11
+
+5/5 BIS - Central bankers' speeches
+Now I wish you all an exciting conference with valuable insights.
+Thank you very much. 
+1 Rzenik, A. and R. Weber (2022), Money in the Right Hands, mimeo.
+2 Dunne, P. et al. (2024), Financial fragility in open-ended mutual funds: the role of 
+, Bundesbank Discussion Paper, No 36/2024.liquidity management tools
+3 Paul, P., M. Ulate and J. C. Wu (2024), A Macroeconomic Model of Central Bank 
+Digital Currency, mimeo.
+4 European Central Bank (2023), A stocktake on the digital euro. Summary report on 
+, 18 October.the investigation phase and outlook on the next phase
+5 Balz, B. (2024), Only balances of €500 allowed? What the digital euro is intended to 
+, Interview with Focus online, 5 June.deliver–and what not
+6 Bidder, R., T. Jackson and M. Rottner (2024), CBDC and banks: Disintermediating  
+, Deutsche Bundesbank Discussion Paper, No 15/2024.fast and slow
+7 Congressional Hearing Transcript, Recent Bank Failures and the Regulatory 
+, Committee on Banking, Housing, and Urban Affairs, 28 March 2023.Response
+8 Cucic, D. et al. (2024), Distortive Effects of Deposit Insurance: Administrative 
+Evidence from Deposit and Loan Accounts, mimeo.
+9 Eufinger, C. and Z. Ye (2024), Breaking Bagehot's Rules: Loan Contracting with 
+Advantageous Central Bank Funding, mimeo; Meisenzahl, R. R. and K. M. Pence, De-
+Limiting Arbitrage: Evidence from the Term Asset-Backed Securities Loan Facility, 
+mimeo.
+10 Nagel, J. (2024), ,  Reflections on the Eurosystem's new operational framework
+Speech at the Konstanz Seminar on Monetary Theory and Monetary Policy, 16 May.
+11 Vissing-Jørgensen, A. (2023), ,ECB Forum on  Balance Sheet Policy Above the ELB   
+Central Banking, Sintra.

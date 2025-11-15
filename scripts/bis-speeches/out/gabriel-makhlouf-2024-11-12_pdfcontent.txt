@@ -1,0 +1,237 @@
+1/7 BIS - Central bankers' speeches
+Gabriel Makhlouf: Navigating a shifting landscape
+Remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at 
+the Singapore Fintech Festival, Singapore, 8 November 2024.
+* * *
+Dia dhaoibh, good afternoon ladies and gentlemen. I hope you've enjoyed the 
+discussions at this year's Fintech Festival.  Thank you to the Global Finance & 
+Technology Network for the invitation to speak to you on how the Central Bank of 
+Ireland is navigating through change and the rapidly evolving landscape of the financial 
+system.
+In my remarks I will discuss the changing landscape of the global financial system, and 
+how central banks need to respond to it if they are to continue to deliver on their 
+mandates.  I will also talk about the innovation we are seeing in Ireland's financial 
+sector.
+But first some positive news on inflation.  As the IMF indicated last month, the global 
+war on inflation is being won.
+In the euro area, the finishing line is coming into view.
+But monetary policy is not a sprint and, like all good medium and long distance runners, 
+it is important to assess conditions carefully and pace yourself. 
+And with the finish line in sight, we don't need to rush to it. In my view, a prudent and 
+cautious approach remains the right one.
+One area I am keen to see further disinflation progress is services, where inflation has 
+remained around 4 per cent during 2024. As it accounts for almost half of consumer 
+spending for euro area households (and two-thirds of 'core' goods and services 
+spending), price developments in services can have a large bearing on overall inflation 
+dynamics. 
+A focus on services inflation dynamics was a common theme at the recent IMF 
+meetings.  Easing supply bottlenecks and falling energy and food inflation are driving a 
+global disinflation, but services price inflation remains elevated in many regions.
+This points to the importance of understanding sectoral dynamics and of calibrating 
+monetary policy accordingly.  With goods inflation returning to trend in the euro area, 
+services inflation closer to around 3 per cent is more consistent with achieving our 2 per 
+cent target. 
+Absent future shocks – and there are several potential risks on this front not least from 
+geopolitical developments – inflation is expected to sustainably reach our 2 per cent 
+target during 2025.
+But we should take the time to reflect on the extraordinary circumstances that monetary 
+policy has had to manage since the global financial crisis (GFC): a period of very low 
+
+2/7 BIS - Central bankers' speeches
+inflation, followed by the closing down of economies and the prospect of deflation, then 
+the return of very high inflation from the disruption of supply chains and a war-induced 
+energy shock and now a relatively rapid process of disinflation. 
+I expect a fragmenting global economy undergoing significant transitions - in 
+demography, in technology, in climate - to mean that volatility and uncertainty will reflect 
+a new normal, posing challenges to all economic policy-maker.
+The changing landscape of the global financial system
+The reality of course is that the pace of change in our economy and financial system 
+has been accelerating rapidly since the GFC. It has required central banks, regulators, 
+firms and consumers to adapt, transform and evolve to meet the challenge that it poses.
+The Singapore Fintech Festival showcases and highlights the sheer breadth and depth 
+of the innovation that is happening in financial systems across the globe and give policy-
+makers an insight into the future.
+Since the latter stages of the 17century, when the world's oldest central bank, th 
+Sweden's Riskbank was founded, price stability, mitigating crises and stabilising 
+economies have represented a central bank's primary mandate.
+While change and challenge has been constant throughout the history of central 
+banking, the challenges and changes that central banks face today are more complex, 
+more connected and more multifaceted than ever before.
+We are living in a world of unprecedented innovation, change, complexity and 1
+uncertainty.
+In the past five years, we have endured a global pandemic and witnessed Russia's war 
+on Ukraine and its people, as well as an escalating conflict in the Middle East and an 
+increasingly uncertain geopolitical environment.
+The break-down of a rules-based world order, the risks posed by, at best, reduced 
+interconnectedness and, at worst, a preference for autarky and the prioritisation of short-
+term, national interests over the common good, all add to the sense that the changes 
+we are seeing feel different, and not in a good way.
+At the same time as this changing geo-economic landscape, the financial system both 
+in Ireland and globally has been undergoing its own rapid change over the last number 
+of years.  
+In particular, technological innovation has had a profound impact across all aspects of 
+our lives and the provision of financial services is no different. Technology is a key part 
+of the financial services landscape today.
+And while the change so far has been significant, in many ways it feels like just the 
+beginning.
+
+3/7 BIS - Central bankers' speeches
+All of this adds to my growing sense that the pace of change we see and feel today in 
+financial services, combined with the uncertain and challenging environment, makes 
+change in the present very different than change in the past.
+This no doubt creates an enhanced sense of unpredictability, and for some, perhaps a 
+sense of anxiety.
+So I suppose the question is how do we, and how are we, navigating this change?
+Sticking to our principles
+Navigating change is complex, but sometimes to overcome complexity, you need to 
+seek simplicity.
+And, while it is important to be adaptable, in times of rapid change central banks should 
+also remain anchored to the fundamentals, and remember that no matter how novel or 
+innovative something is, the basics of good governance, good risk management and 
+delivering in the interests of consumers, investors and the wider economy remains the 
+same.2
+From a regulatory perspective, I have spoken before that to achieve positive outcomes 
+the necessary foundations or principles must be in place. Our regulatory approach at 
+the Central Bank of Ireland is underpinned by six principles. Regulation must be (i) 
+forward looking, (ii) connected, (iii) proportionate, (iv) predictable, (v) transparent and 
+(vi) agile.3
+While these principles are general, I think they are increasingly relevant to meet the 
+challenges of today as well as the opportunities and risks that a rapidly digitalising 
+financial sector is bringing in the near future.
+It goes without saying that we need to be to ensure we can continue  forward-looking 
+to deliver in the face of rapid change. And in a world that is fragmenting, it is all the 
+more necessary to be with peer regulators, with industry and with our  connected 
+citizens.
+Being means harnessing benefits while mitigating risks. It doesn't mean  proportionate 
+compromising on our fundamentals which are even more important in times of rapid 
+change.
+Predictability and matter for the regulator and the industry. If we are  transparency 
+predictable and transparent, then regulated entities will be able to deliver on our 
+expectations even in times of uncertainty and change.
+And finally is something not often associated with central banks but I would say  agility 
+we have demonstrated a great degree of agility in the response to the numerous shocks 
+of recent years.  And in the face of rapid innovation in the financial sector, I think 
+embedding that agility into business as usual – rather than only in crisis situations – is 
+essential.
+
+4/7 BIS - Central bankers' speeches
+These principles underpin our wider approach, and I believe will serve us well when 
+facing into the changing and growing financial system in Ireland.
+Innovation in the financial system   
+Let me take a moment to assess some of the innovation that we have seen in the 
+financial system in Ireland.
+The size of the financial sector in Ireland has grown at pace in recent years. Ireland is 
+seen as an attractive location for financial service providers to operate in, due to our 
+membership of the European single market, having an open and connected economy, a 
+highly skilled workforce, predictable government policies, and a transparent regulatory 
+environment.
+Some examples of the changes we have seen in the financial system are:
+Between 2018 and 2022, there was a greater than four-fold growth in the number 
+of payment firms authorised in Ireland.
+We are also seeing BigTech firms looking to provide in-house payments and e-
+money wallets that enable consumers pay for their purchases.
+We are all experiencing a rapid change in electronic payments, and consumer 
+demand for instant payments.
+We are watching firms develop new and innovative technology-driven business 
+models such as some payment firms partnering with other financial services firms, 
+such as credit providers, to offer a combined payment and credit solution to 
+merchant clients and consumers.
+Firms' efforts to target these consumers are facilitated by open-banking, new cloud and 
+block-chain based technologies, as well as enhanced data analytics.
+This is to be welcomed, and these new products and new delivery channels are 
+providing greater choice as well as bringing new consumers into the financial services 
+system.
+However, we are also seeing concerning developments, like technology-driven new 
+products in the crypto area, which do (in some instances), raise serious questions 
+around sustainability and concerns relating to consumer and investor protection.
+So the picture and trajectory is clear.
+Technology is driving significant change, and new entrants will continue to innovate, 
+disrupt and challenge existing market participants to progress technology 
+transformation as a strategic imperative. 
+Putting principles into practice - Enhancing our innovation facilities 
+to better understand the changing world
+How are we working towards adapting, anticipating and responding proactively to 
+changes in the economy and financial system at the Central Bank of Ireland?
+
+5/7 BIS - Central bankers' speeches
+A central theme of our Strategy is being .  Among other things, we want  Future Focused4
+to anticipate, support and manage the risks of innovation in central banking and 
+financial services, while ensuring that innovation is harnessed for the public good.
+As a result, technological innovation continues to be a key focus for us. We want to 
+better understand the opportunities and risks for consumers and the economy.
+This is one of the reasons why we have enhanced our innovation facilities – with the 
+establishment of a new innovation sandbox programme – so that we can remain5  agile 
+learning and developing a deeper understanding of the and forward looking by 
+ecosystem.
+This new engagement will enable the Central Bank of Ireland to; anticipate and to 
+support innovation in the financial sector, deepen our understanding of innovation, 
+better inform our regulatory approach, better explain to innovative firms what being 
+regulated entails and embed a regulatory culture in fledgling and fast growing firms.  
+We will continue to work closely with our regulatory partners to ensure the necessary 
+guardrails are in place to balance innovation with financial stability.
+We must ensure that new technologies benefit society while mitigating potential risks.
+It is through open dialogue, constructive collaboration and a shared understanding of 
+the challenges and opportunities that we can foster an environment conducive to 
+innovation that enhances the wellbeing of society as a whole.
+Priorities 2025 – how we are future focused
+Two of the Central Bank's priorities for 2025 are the implementations of (i) the new EU 
+Digital Operational Resilience Act which is of particular focus in the context of Ireland's 
+large technology sector, and (ii) the Markets in Crypto Asset Regulation, including 
+technical standards and engaging with firms seeking authorisation under the new 
+regime.
+In 2025 we will also:
+Continue to modernise our other frameworks, both domestically in terms of our 
+Consumer Protection code, as well as at EU level, including work on the Digital 6
+Euro and on negotiations regarding the new EU Financial Data Access 
+Regulation, which will enable data sharing within the financial sector and other 
+sectors.
+Continue to strengthen our capabilities, in particular around AI and tokenisation, 
+given their likelihood to be the next significant widespread technological 
+development in the financial system.
+Ensure that public money continues to act as an anchor for a well-functioning 
+payments system.
+Continue to deepen our engagement with industry and our collaboration with 
+peers.
+
+6/7 BIS - Central bankers' speeches
+Digital payments
+One area that is clear is the need to modernise our payments systems and improve 
+their efficiency, in particular in the world of cross border activity.
+I am a firm believer that the future lies in harnessing digital technology. This does not 
+mean we have to abandon the system we are familiar with but it does mean that central 
+banks need to ensure that they keep up with the digital age. And, in particular that 
+public money is available in digital form.
+Which brings me to the digital euro.
+A digital euro would be a digital form of cash, issued by the central bank and available 
+to everyone in the euro area.
+A digital euro would go hand in hand with banknotes, providing – for free – an all-in-one 
+digital payment option across the euro area.
+It will blend the simplicity of cash with digital convenience while maintaining the highest 
+levels of privacy. It is a logical next step for our single currency.
+The final decision on whether or not to issue a digital euro will only be taken once 
+European legislators have defined its legal framework.
+But in my view the financial system must remain primed to adopt and reap the benefits 
+of innovation generally, including a digital euro.
+Conclusion
+We live in uncertain, perhaps turbulent, times.  
+Central banks need to remain anchors of stability, but that does not mean we need to 
+wait for calm before we take action.
+The challenges facing central banks are complex and multi-faceted. Effective strategies 
+rely on the interconnectedness of regulators, firms, consumers and the financial 
+ecosystem. But they need more than just better communication.
+Our collective regulatory response to the changes in the financial services industry will 
+shape the next decade, so we need to think holistically about regulation, how it can 
+ensure financial stability, build resilience and support effective innovation that delivers 
+for positive outcomes for citizens.
+Well-designed rules leads to stronger financial services firms and stronger firms are 
+better able to serve the needs of consumers, households, businesses and the wider 
+economy. 
+1 The transformative power of innovation in the financial system - Speech by Cecilia 
+Skingsley
+
+7/7 BIS - Central bankers' speeches
+2 Innovation and Trust speech by Sharon Donnery 2024
+3 2022Financial System Conference speech 
+4 Central Bank of Ireland Strategy (PDF 2.57MB)
+5 Central Bank of Ireland Innovation Sandbox Programme
+6 Consumer Protection Code Review

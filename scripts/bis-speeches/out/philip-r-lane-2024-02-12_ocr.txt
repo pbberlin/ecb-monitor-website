@@ -1,0 +1,612 @@
+SPEECH
+Euro area international financial flows:
+analytical insights and measurement
+challenges
+Keynote speech by Philip R. Lane, Member of the Executive Board
+of the ECB, at the joint Banco de Espajna, Irving Fisher Committee
+on Central Bank Statistics and European Central Bank conference
+“External statistics after the pandemic: addressing novel analytical
+challenges” in Madrid
+Madrid, 12 February 2024
+Introduction
+It is my great pleasure to speak at this second edition of the conference on external statistics, jointly
+organised by the Banco de Espana, the Irving Fisher Committee and the European Central Bank, after
+having contributed already to the first edition of this conference in Lisbon in February 2020, just before
+the onset of the pandemic. 4] As a long-standing user of external statistics, both in academia and as a
+central banker, | am very pleased to see that since the last conference the richness and availability of
+external statistics — in particular for the euro area — has been further enhanced. This is of particularly
+high value for the analysis we do regularly at the ECB, as | will show today. At the same time, there
+are still significant measurement shortfalls in external statistics and many analytical hurdles to
+overcome, including specific challenges for the euro area.
+Today| will focus on the analysis of euro area financial flows, in the current context of the monetary
+policy tightening cycle and elevated geopolitical tensions. In addition, | will outline some areas where |
+see potential for further enhancing the statistical information available for such analysis and for
+improving the underlying statistical infrastructure.
+The euro area is highly financially integrated, both internally and externally: an accurate measurement
+of financial linkages is key for our understanding of euro area exposures to external shocks and the
+international transmission of the ECB’s policies. The analysis of euro area cross-border financial
+linkages has become increasingly complex in recent years, in particular owing to the expansion of
+international financial intermediation chains, which often involve non-bank entities located in
+international financial centres, including in some euro area countries.4! At the same time, the ECB —
+together with the euro area national central banks — has developed new breakdowns of the euro area
+balance of payments and international investment position (b.0.p./i.i.p.) statistics that facilitate an
+enhanced, albeit still imperfect, analysis of risk exposures and interconnectedness.2
+Euro area financial flows at the current juncture
+
+
+Euro area international financial flows sharply reversed in 2022 — from a multi-year peak observed in
+2021 — into the largest retrenchment since the global financial crisis (Chart 1).41 The retrenchment
+affected both foreign assets and foreign liabilities, in line with their strong co-movement observed over
+the past decades. More recently, in 2023, euro area financial flows started to pick up again.
+Chart 1
+Euro area financial account
+(four-quarter moving sums, EUR billions)
+=m Assets
+e = Liabilities
+2,500
+2,000
+1,500
+1,000
+500
+-500
+4 1999 @4 2001 4 2003 4 2005 Q4 2007 Q4 2009 @4 2011 042013 Q4 2015 Q4 2017 4 2019 @4 2021 Q3 2023
+Source: ECB.
+Notes: A positive (negative) number indicates cross-border net purchases (sales). Net financial derivatives are
+reported under assets. The latest observation is for the third quarter of 2023.
+The swings in euro area international financial flows over the past few years were to a great extent
+driven by foreign portfolio investment and foreign direct investment (Chart 2), Accordingly, | will focus
+my remarks on these two components of the financial account that — due to the intricacies of euro area
+financial intermediation — require a particularly careful analysis. To this end, | will use the available
+detailed official statistics, but also draw on insights from research studies.
+
+
+Chart 2
+Euro area financial account
+(four-quarter moving sums, EUR billions)
+Assets Liabilities
+@ FDI M@ Reserve assets @ FOI @ Other investment
+® Portfolio equity @ Financial derivatives (net) ® Portfolio equity = Total
+®@ Portfolio debt = Total ®@ Portfolio debt
+@ Other investment 2600
+2500 -
+2000
+2000
+1500
+1500
+1000 1000
+500 ’ 500 | |
+;, wer . “Te | 0 - "7 ' ' rTa iam mame | HI" mee
+-500 -500
+-1000 -1000
+ra] - ~ w ~ > — © w ~ => _— > = ~o ww ad > = Oo w ~ So =
+> 8 8 8&8 8&8 8 &6 & & & 86 8 > § &® &® 8&8 & & & & & Sb FS
+- NN “NN “nN iN “NS o iN iN “ aC iN _- N TMN —N TMN TMN TMN TMN TMN N TMN —TMN
+7 z Sg 7T 7 =z vz 7 7 =z vz vT wz > wz wT > a wz aT =z wz wT bs wT
+oS So o o o So o o o o o o Go Go So Go o So o So ie) o So o
+Source: ECB.
+Notes: For assets, a positive (negative) number indicates net purchases (sales) of non-euro area instruments by
+euro area investors. For liabilities, a positive (negative) number indicates net purchases (sales) of euro area
+instruments by non-euro area investors. The latest observation is for the third quarter of 2023.
+Euro area portfolio investment flows — the sectoral dimension
+| start by examining detailed information at the euro area (resident) sectoral level to better understand
+the factors driving aggregate foreign portfolio investment flows. Focusing on the non-bank financial
+intermediaries sector provides valuable insights.
+At a structural level, the sectoral breakdown reveals the predominance of the investment funds sector
+(including money market funds) as holders of portfolio investment securities issued by non-euro area
+residents. It accounts for 64% of total equity and debt holdings in the third quarter of 2023. It follows
+that an analysis of the cross-border investment patterns by investment funds is crucial, not only for
+assessing the exposures of the investment fund sector, but also for understanding those of the
+underlying investors. Insurance companies, pension funds and households are significant holders of
+euro area investment fund shares, while foreign investors residing outside the euro area are also
+major investors in euro area funds. Recent research shows that euro area investment funds are a
+source of portfolio diversification for the underlying euro area investors, in particular towards extra-
+euro area assets. For foreign investors, euro area investment funds not only provide exposure to
+euro area assets but also constitute intermediation vehicles for global portfolio investment.
+Investment funds account for a significant proportion of the fluctuations in international portfolio
+investment flows (Chart 3). This is consistent with a procyclical demand for investment fund shares,
+with the underlying investors strongly affected by shifts in global sentiment. This helps to explain the
+2022 retrenchment, given the low risk appetite prevailing in global financial markets following the
+
+
+Russian invasion of Ukraine. The data also confirm that insurance corporations and pension funds
+tend to be more stable investors, at least in relation to their direct holdings.
+Chart 3
+Euro area portfolio investment assets by resident sector
+(transactions; four-quarter moving sums, EUR billions)
+Equity Debt
+B lnvestnent funds @ Barks B lrwestnent funds @ Barks
+© Other financial insttutore @ Otter sectors © Otherfinancialins ttutore @ Other sectors
+@ insurance corporations and pension funds = Total ® Insurance corporations and persion funds = Total
+B Eurosystem B® Eurosystem
+600
+“00
+a0
+0
+a0
+10 H
+: l-100
+“20
+0
+04 219 Q2 2020 42020 2 2021 042021 Q2 222 04222 @n2z3 042019 Q2 2020 042020 Q2 2021 042021 Q2 222 042022 Q2 2023
+Source: ECB.
+Notes: For assets, a positive (negative) number indicates net purchases (sales) of non-euro area instruments by
+euro area investors. Investment funds include money market funds. Other sectors include governments, non-
+financial corporations, and households and non-profit institutions serving households. The latest observation is for
+the third quarter of 2023.
+While a structural analysis of the drivers of euro area portfolio flows is beyond the scope of today’s
+remarks, | would like to highlight that — apart from the geopolitical factors weighing on investor
+sentiment — the monetary policy tightening of the ECB may also have contributed to the retrenchment
+in portfolio flows. In fact, the shifts in investment patterns observed in 2022 marked an end toa
+protracted phase of large-scale portfolio rebalancing towards extra-euro area securities, which had
+started in 2014 when the ECB introduced negative interest rates and launched its asset purchase
+programmes. | More recently, the net purchases of foreign securities by euro area investors
+rebounded amid the global shift in the interest rate environment, with higher interest rates especially
+prompting a step-up in international bond purchases.
+On the liability side of euro area portfolio investment, investment funds played a similarly large role in
+the drying-up of foreign net purchases of euro area equities in 2022. The combination of the sizeable
+euro area investment fund industry and the strong extra-euro area investor base — especially for those
+funds based in Ireland and Luxembourg — amplifies euro area financial flows, particularly during times
+of sharp shifts in risk sentiment (Chart 4). At the same time, since the amplification in part reflects the
+pass-through holdings of external investors in external assets, the impact on euro area financial
+dynamics is overstated by focusing on un-adjusted measures.
+
+
+Chart 4
+Euro area portfolio investment liabilities by resident sector
+(transactions; four-quarter moving sums, EUR billions)
+Equity Debt
+@ lrwestment funds @ Banks B lnvestment funds @ Bark
+Non-financial corporatiors B Other sectors © Non-financial corporations @ Other sectors
+@ Otter fnancialirstautiors = Total @ Other financial institutions = Total
+B Government B Government
+700 20
+600 300
+9 = = q ll a +} t_ oo
+=D ea)
+Q4m19 Q2 2020 042020 2 2021 O49 2021 @enz2 Q42022 Q2 2023 Q42019 eww o42020 Q2 221 Q42021 2222 042022 Q2 223
+Source: ECB.
+Notes: For liabilities, a positive (negative) number indicates net purchases (sales) of euro area instruments by
+non-euro area investors. Investment funds include money market funds. Other sectors include the Eurosystem,
+households and non-profit institutions serving households, insurance corporations and pension funds. The latest
+observation is for the third quarter of 2023.
+Higher euro area interest rates and the ending of net asset purchases by the Eurosystem have visibly
+boosted the appetite of foreign investors for euro area debt securities since 2022 (Chart 4). This is a
+reversal of the pattern during the years 2014-2019 when foreign investors were large net sellers of
+euro area debt securities, especially sovereign bonds. That is, monetary policy clearly plays a
+significant role in determining net foreign debt inflows, via both the level of interest rates and balance
+sheet policies. In an environment of rising interest rates, foreign investors have turned into net buyers
+of euro area debt securities, especially sovereign bonds and bank bonds.
+Euro area portfolio investment flows — the geographic dimension
+The new counterpart breakdowns available in the euro area b.o.p./i.i.p. allow for a better coverage of
+the geography of international financial flows, vis-a-vis both advanced economies and emerging
+market economies.“ These data reveal that in 2022 euro area investors reduced their exposures to
+equity securities in a broad-based fashion across geographic counterparts (Chart 5) 02] The
+retrenchment was particularly pronounced vis-a-vis the United States and the United Kingdom.
+
+
+Chart 5
+Euro area portfolio investment assets by counterpart location
+(transactions; four-quarter moving sums, EUR billions)
+Equity Debt
+= Total @ Offshore centres = Total @ Offshore centres
+BD United Kingdom @ Other advanced and other EU United Kingdom @ Other advanced and other EU
+B United States B Emerging and developing economies United States B Emerging and developing economies
+600 ao
+600 =O
+0 a
+3x00 x0
+200 200
+100 “= |
+-0 = 0 Fj a
+0 “eo
+-20 “20
+300 200
+042019 a2 aa 042020 a2 2021 042021 C2 222 Q4x22 Q2 223 042019 Q2 2020 042020 C2 221 042021 @nwz2 4222 Q2 223
+Source: ECB.
+Notes: For assets, a positive (negative) number indicates net purchases (sales) of non-euro area instruments by
+euro area investors. “Other advanced and other EU” include Australia, Canada, Japan, Norway, South Korea and
+Switzerland as well as the non-euro area EU Member States and those EU institutions and bodies that are
+considered for statistical purposes as being outside the euro area, such as the European Commission and the
+European Investment Bank. “Emerging and developing economies’ include all countries and country groups not
+shown in the chart, as well as unallocated transactions. The latest observation is for the third quarter of 2023.
+For debt securities, the picture is more nuanced: during the retrenchment in 2022, euro area investors
+on balance sold a significant amount of securities issued by US and UK residents, while net purchases
+continued vis-a-vis other advanced economies and the non-euro area EU (Chart 5). The strong net
+sales of debt issued by emerging market economies and offshore financial centres were particularly
+striking, especially given their relatively small weight in the euro area portfolio. Among emerging
+market economies, these net sales were driven by disinvestments of securities issued in China,
+Mexico and Russia.“2] while euro area net purchases of debt securities recovered strongly vis-a-vis
+most regions in 2023, the sentiment towards emerging economies and offshore financial centres
+remained muted.
+While at first sight emerging economies and offshore financial centres may appear as rather unrelated
+investment destinations, these are in fact closely linked, since the debt securities issued in offshore
+financial centres are to a significant extent issued by subsidiaries of corporations based in emerging
+markets, particularly in China. Recent research, as presented in the first session today, finds that euro
+area and US investment in emerging market corporate bonds is substantially larger when investment
+in issuance by offshore subsidiaries of emerging market corporations is taken into account.4] For the
+euro area, estimates show that the “nationality-based” holdings of corporate debt securities of the
+BRICS countries are around six times higher.“5! This example highlights the difficulty in tracing
+ultimate exposures across the financial intermediation chains. At the same time, it shows how
+ambitious research involving the careful merging of various datasets may provide complementary
+information to the public, which could lay the ground for future enhancements to official statistics.
+
+
+While information on the geography of euro area portfolio investment assets has become increasingly
+rich, it is notoriously difficult to obtain a full grasp of the foreign holders of euro area securities.“4 This
+relates to the phenomenon of globally missing assets, as the portfolio investment liabilities that are
+reported globally consistently exceed reported assets.“4 This gap, in turn, can be linked to a
+significant degree to equity securities issued in the United States, Ireland and Luxembourg. 21 There
+is a range of conjectures on the origins of the globally missing assets. A primary explanation relates to
+the non-reporting of assets held in custody abroad (so-called third party holdings), in particular by
+investors with no statistical reporting obligation such as households or non-financial corporations.
+Within the euro area, such third-party holdings are already reported by custodians as part of the
+securities holdings statistics, which increases the coverage of intra-euro area portfolio investment
+holdings. However, security holdings that are held in custody outside the euro area can at best be
+estimated. In closing this significant data gap, | see room for international initiatives to promote a
+comprehensive and granular reporting of third-party holdings (for instance in the context of the IMF’s
+Coordinated Portfolio Investment Survey) by those countries with a strong custody industry./24)
+Euro area foreign direct investment flows
+Taking a longer-term perspective, euro area foreign direct investment (FDI) flows were remarkably
+stable for decades, even during crisis times, before entering a phase of exceptionally large, positive
+flows from about 2015 (as shown in Chart 2). This was followed by a period of high volatility and —
+more recently — a strong retrenchment phase. 221
+As | have noted on previous occasions, the developments in FDI over the past decade have been very
+much driven by euro area financial centres due to the presence of multinational enterprises (MNEs) in
+these economies.22] MNEs tend to have complex organisational structures which frequently involve
+numerous legal entities, including special-purpose entities (SPEs), across various countries.24]
+While the interpretation of euro area headline FDI figures has not become easier over the years, more
+detailed sectoral and geographic breakdowns facilitate the analysis of FDI. Moreover, our
+understanding of euro area FDI is set to improve further in the near future, with the publication of a
+separate breakdown for SPEs in euro area b.o.p./i.i.p. statistics.
+Taking a sectoral view of the retrenchment observed in euro area FDI since 2022 reveals the important
+role of the other financial institutions (OF1) category, which also includes SPEs and holding companies
+(Chart 6), 1251 The strong positive correlation between gross FDI asset and liability transactions related
+to OF ls suggests that these “financialised” flows often “pass through” the euro area without being
+absorbed in the domestic economy. Preliminary data suggest that SPEs represent around 30 per cent
+of euro area FDI asset and liability positions and 55 per cent of FDI assets and liability positions in the
+OFI sector. More insights on the role of SPEs in euro area cross-border statistics will become available
+with the publication of the b.o.p./i.i.p. dataset for SPEs this spring.
+
+
+Chart 6
+Euro area foreign direct investment by resident sector
+(transactions; four-quarter moving sums, EUR billions)
+Assets Liabilities
+@ Nonfinancial comorations @ Other sectors B@ Nor financial corporations @ Othersectors
+@ Other financial institutions = Total OD Other fin ancial institutiors = Total
+00
+0
+20
+200
+100
+0
+-*O
+-200
+200
+400
+00
+Q42019 @naw O4nw 2 2021 Q4ar1 Maz 04222 Q2 223 4a 22020 042020 2 2021 042021 Q2 222 osm2 Q2 X23
+Source: ECB.
+Notes: For assets, a positive (negative) number indicates net purchases (sales) of non-euro area instruments by
+euro area investors. For liabilities, a positive (negative) number indicates net purchases (sales) of euro area
+instruments by non-euro area investors. “Other sectors” include all institutional sectors not shown in the chart. The
+latest observation is for the third quarter of 2023.
+In contrast to OF |-related FDI flows, the FDI flows of the non-financial corporate sector are mainly
+driven by the euro area countries outside the group of financial centres and hence tend to be more
+closely related to developments in the real economy. Accordingly, while there was no large-scale
+retrenchment, the recent slowdown in this sector’s FDI transactions appears to be consistent with
+lower global and euro area growth momentum and might also provide tentative signs of companies
+pulling back from overseas direct investment amid heightened geopolitical risks./241
+The geographic breakdown of FDI flows brings additional insights (Chart 7). The recent retrenchment
+occurred vis-a-vis counterparts in the United States, United Kingdom and in offshore financial centres,
+which suggests a close relation to MNE operations, particularly in combination with the sectoral
+evidence presented before. Having said this, euro area FDI asset flows to other destinations have
+proven to be more resilient in recent years, albeit on a much smaller scale.
+
+
+Chart 7
+Euro area foreign direct investment by counterpart location
+(transactions; four-quarter moving sums, EUR billions)
+Assets Liabilities
+= Total B Offshore centres = Total B Oftshore centres
+BD United Kingdom @ Other advanced and otter EU United Kingdom Other advanced and other EU
+B United States B Emerging and developing economies B@ United States B Emerging and developing economies
+600 e00
+20 «70
+, rt fs,
+20 200
+20 ae)
+000
+Q4an9 mun ona ce 221 04221 a2 222 O4n22 Q2 2023 42019 enw ann Q2 2021 421 @nw2 O42022 Q2 223
+Source: ECB.
+Notes: For assets, a positive (negative) number indicates net purchases (sales) of non-euro area instruments by
+euro area investors. For liabilities, a positive (negative) number indicates net purchases (sales) of euro area
+instruments by non-euro area investors. “Other advanced and other EU” include Australia, Canada, Japan,
+Norway, South Korea and Switzerland as well as the non-euro area EU Member States and those EU institutions
+and bodies that are considered for statistical purposes as being outside the euro area, such as the European
+Commission and the European Investment Bank. “Emerging and developing economies” include all countries and
+country groups not shown in the chart, as well as unallocated transactions. The latest observation is for the third
+quarter of 2023.
+Similarly to portfolio investment, even these more detailed FDI data remain insufficient to fully look
+through the often complex cross-border chains to identify the ultimate investor countries and ultimate
+host economies involved in FDI relationships. This is a notoriously difficult task, not only due to the
+complex ownership structures of MNEs, but also because it requires very comprehensive information.
+Sharing data among national statisticians across borders could be helpful — something | will return to
+later in my remarks. Nonetheless, some research-based advancements in identifying the ultimate
+countries involved in an FDI relationship (also to be presented at this conference) provide useful
+insights 24 Data on inward FDI on an ultimate basis reveal, for example, a much larger role of the
+United States as an investor in the EU compared to the official (immediate counterparty basis) data./22
+Potential enhancements to data and statistical infrastructure
+Combining b.o.p./i.i.p. statistics with security-level data such as the European System of Central
+Banks’ (ESCB) Securities Holdings Statistics allows for a granular analysis along various dimensions,
+such as currency, issuing entity and security characteristics, including the rating.221 For the latter,
+experimental ECB data on euro area portfolio investment assets show an increase in the share of
+high-rated debt securities since 2021, in line with a preference for safer assets during times of
+elevated risk aversion (Chart 8).22
+
+
+Chart 8
+Euro area portfolio investment debt asset position by rating category
+(percentage shares of outstanding amounts)
+M EcCAF14 M ECAF 4-4
+! ECAF 2 © Wo rating
+@ ECAF 3
+Fe F RF SF KF KF RMR KR
+100%
+90
+ao
+ra
+60
+50
+40
+30
+20
+10
+O%
+Q12019 3 2019 Q@12020 432020 1 2021 Q3 2021 Q@12022 432022 1 2023 M3 2023
+Source: ECB.
+Notes: Experimental data following Rodriguez Caloca, A., Radke, T. and Schmitz, M. (2021). The ratings
+categories are drawn from the Eurosystem Credit Assessment Framework (ECAF). The ECAF provides a
+harmonised rating scale of five credit quality steps. The first step includes securities rated from AAA to AA-, the
+second from A+ to A-, the third from BBB+ to BBB-. In addition, the fourth category includes all rated securities
+with a rating below credit quality step three and the fifth category reflects those securities without a rating. The
+latest observation is for the third quarter of 2023.
+In addition, and this also stressed in the ongoing update of the balance of payment manual, it is very
+useful to have a fully integrated view of the international investment position, showing how the
+transmission of financial shocks propagates through the valuation channel arising from exchange rates
+and other asset price movements to an economy’s external balance sheet.2] Unlike when I started
+doing research on this topic, nowadays such data are readily available in the official statistics of many
+economies, including for the euro area, with a considerable degree of detail, and show, for example,
+the importance of exchange rate-induced valuation effects (Chart 9).
+
+
+Chart 9
+Changes in the net international investment position of the euro area
+(outstanding amounts; EUR billions)
+<<< (Change in the net international investment position eee Transactions
+mem Exchange rate changes mem Price changes
+mmm Other volume changes
+400
+300
+200
+io 6 I
+0
+-100
+-200
+-300
+-400
+-500
+Q1 42 03 Q4 Q@1 G2 O3 O4 O1 G2 O3 O4 O1 G2 OF 24 O1 G2 43 G4 O1 G2 a3 24 O1 a2 a3
+2017 20168 2019 2020 2021 2022 2023
+Source: ECB.
+Note: The latest observation is for the third quarter of 2023.
+To enhance the analysis of globalisation-related phenomena, and in particular to isolate the impact of
+MNEs, | support the plans of the ESCB to establish new data on foreign-controlled non-financial
+corporations in the balance of payments and the financial sector accounts. It would also be essential
+for such data to be available for the non-financial accounts, in order to observe the impact of MNEs on
+production and capital formation patterns. In this context, | would like to stress once more that it is
+analytically very useful to have fully consistent data on external accounts and domestic sectoral
+accounts, as is the case for the euro area datasets on b.o.p. and quarterly sector accounts. This
+supports the analysis of interconnectedness and helps to identify domestic sector imbalances that
+ultimately drive external imbalances.221
+More generally, in terms of statistical infrastructure, | would like to highlight again that further efforts
+are needed to improve the analytical value of macroeconomics statistics. In my view, to keep official
+statistics fit for policy analysis, these need to enable a fast response to crises and keep pace with the
+rapidly evolving global activities of MNEs and financial intermediaries. For example, | am very much in
+favour of the development and use of experimental statistics to boost statistical agility. In this context,
+the pandemic has shown the usefulness of “non-standard” higher-frequency data sources, for instance
+to enhance our understanding of labour market dynamics.
+Another improvement that is worth considering is facilitating the safe exchange of confidential
+statistical information for well-justified statistical purposes across borders, especially within the
+
+
+ESCB/European Statistical System (ESS). This can be achieved by a sound and supportive legal
+basis, coupled with robust and safe information technology systems supporting the exchange of data.
+This would minimise the risks of unlawful disclosures, while maximising the benefits of synergies
+through collaboration between statistical authorities.221
+As | have advocated before, there is a strong case for exploring avenues to collect data on
+internationally active, large MNEs in a centralised way, at the EU rather than national level. This could
+eliminate information gaps and overlaps across countries and ensure a more timely, complete and
+consistent cross-country recording of the activities of MNEs. A coordinated approach across the EU
+could be a win-win situation, as it would reduce the statistical reporting burden of MNEs by removing
+the need to complete questionnaires from 27 Member States in more than 20 languages. This
+streamlined process would not only benefit the MNEs themselves but also the statistical authorities
+responsible for collecting and analysing the data. It would improve timeliness, enhance the accuracy of
+reporting and ultimately contribute to a more efficient and effective system of data management. This
+is already being pursued by the ESCB in relation to the banking industry through standardising area-
+wide data reporting by banks. 241
+Conclusion
+In my remarks today | have focused on euro area financial flows in the current context of the monetary
+policy tightening cycle and geopolitical tensions. | have stressed the usefulness of available data for
+the regular analysis we do at the ECB, but | have also highlighted the areas where measurement
+issues still hamper our full understanding of portfolio investment and foreign direct investment
+EXpOsures.
+| would like to highlight once more that further efforts are needed to improve the analytical value of
+external statistics and this can be achieved by enhancing the underlying statistical infrastructure.
+As a long-standing user of external statistics, | very much look forward to the discussions at this
+conference and will closely follow future enhancements to the data on cross-border statistics.
+1.
+See Lane, P.R. (2020), “The analytical contribution of external statistics: addressing the challenges’,
+keynote speech at the Joint European Central Bank, Irving Fisher Committee and Banco de Portugal
+conference on “Bridging measurement challenges and analytical needs of external statistics: evolution
+or revolution?”, 17 February.
+2.
+See Lane, P.R. and Milesi-Ferretti, G.M. (2018), “The External Wealth of Nations Revisited:
+International Financial Integration in the Aftermath of the Global Financial Crisis,” IMF Economic
+Review, Vol. 66, No 1, International Monetary Fund, pp. 189-222.
+3.
+
+
+The new data reported in accordance with the amended ECB External Statistics Guideline
+ECB/2018/19 include additional breakdowns by resident sector, counterpart country and foreign direct
+investment debt instruments. The new series is currently available for the euro area aggregates as of
+the first quarter of 2019 and data for earlier periods will be made available in the course of 2024.
+Additional information on the euro area balance of payments and international investment position
+statistics can be found on the ECB’s website.
+4.
+See Emter, L., Schiavone, M. and Schmitz, M. (2023), “The great retrenchment in euro area external
+financial flows in 2022 — insights from more granular balance of payments statistics”, Economic
+Bulletin, |ssue 4, ECB.
+5.
+Transactions in the category “other investment” also reversed from high positive values in 2022 — in
+particular on the liability side — mainly owing to a decline in the deposits of non-euro area residents
+held with the Eurosystem.
+6.
+See Carvalho, D. (2022), “The portfolio holdings of euro area investors: Looking through investment
+funds,” Journal of International Money and Finance, Vol. 120, pp. 102-519 and Beck, R., Coppola, A.,
+Lewis, A., Maggiori, M., Schmitz, M. and Schreger, J. (2023), “Ihe Geography of Capital Allocation in
+the Euro Area”, working paper available at SSRN.
+7.
+See Carvalho, D. and Schmitz, M. (2023), “Shifts in the portfolio holdings of euro area investors in the
+midst of COVID-19: looking through investment funds”, Review of International Economics. Vol. 31,
+Issue 5, pp. 1641-1687 and Beck, R., Coppola, A., Lewis, A., Maggiori, M., Schmitz, M. and Schreger,
+J. (2023), op. cit.
+8.
+See Timmer, Y. (2018), “Cyclical investment behaviour across financial institutions”, Journal of
+Financial Economics, Vol. 129, No 2, pp. 268-286.
+9.
+The ECB’s asset purchase programme was initiated in mid-2014, while its pandemic emergency
+purchase programme was launched in March 2020. Net asset purchases under both programmes
+were discontinued in 2022. See Coeuré, B. (2017), “The international dimension of the ECB’s asset
+purchase programme”, speech given at the Foreign Exchange Contact Group meeting, 11 July; Lane,
+P.R. (2019), “The international transmission of monetary policy”, keynote speech at the CEPR
+International Macroeconomics and Finance Programme Meeting, 14 November; and Bergant, K.,
+
+
+Fidora, M. and Schmitz, M. (2020), “International capital flows at the security level: evidence from the
+ECB’s Asset Purchase Programme”, Working Paper Series, No 2388, ECB, Frankfurt am Main.
+10.
+See Beck, R., Coppola, A., Lewis, A., Maggiori, M., Schmitz, M. and Schreger, J. (2023), op. cit.
+11.
+The list of counterpart countries now includes for instance all G-20 and EU countries outside the euro
+area. In particular, information became available for a number of additional advanced economies
+(Australia, Norway and South Korea) and emerging market economies (Argentina, Indonesia, Mexico,
+Saudi Arabia, South Africa and Turkiye).
+12.
+On the determinants of the geography of the equity holdings of euro area investors, see Lane, P.R.
+and Milesi-Ferretti, G.M. (2007), “The International Equity Holdings of Euro Area Investors,” in The
+External Dimension of the The Euro Area (Di Mauro, F. and Anderton, R. eds), Cambridge University
+Press.
+13.
+For details on how euro area investment in Russia evolved following Russia’s invasion of Ukraine, see
+Emter, L., Fidora, M., Pastoris, F. and Schmitz, M. (2022), “Euro area linkages with Russia: latest
+insights from the balance of payments”, Economic Bulletin, |lssue 7, ECB.
+14.
+See Bertaut, C. C., Bressler, B. and Curcuru, S. (2019), “Globalization and the Geography of Capital
+Flows,” FEDS Notes, Washington: Board of Governors of the Federal Reserve System, Coppola, A.,
+Maggiori, M., Neiman, B. and Schreger, J. (2021), “Redrawing the Map of Global Capital Flows: The
+Role of Cross-Border Financing and Tax Havens”, The Quarterly Journal of Economics, Vol. 136(3),
+pp.1499-1556 and Beck, R., Coppola, A., Lewis, A., Maggiori, M., Schmitz, M. and Schreger, J. (2023),
+op. cit.
+15.
+The BRICS countries are Brazil, Russia, India, China and South Africa.
+16.
+The ECB provides estimates for euro area portfolio investment liability positions by counterparty.
+However, these are subject to uncertainty as securities are regularly traded in secondary markets and
+held via custodians and other financial intermediaries.
+17.
+See Milesi-Ferretti, G.M. (2023), “Many Creditors, One Large Debtor: Understanding The Buildupof
+Global Stock Imbalances after the Global Financial Crisis,” IMF Economic Review.
+
+
+18.
+See Milesi-Ferretti, G.M. (2024), “Missing assets: Exploring the source of data gaps in global cross-
+border holdings of portfolio equity”, mimeo, Hutchins Center on Fiscal and Monetary Policy, The
+Brookings Institution, and Beck, R., Coppola, A., Lewis, A., Maggiori, M., Schmitz, M. and Schreger, J.
+(2023), op. cit.
+19.
+See Zucman, G. (2013), “The missing wealth of nations: Are Europe and the US net debtors or net
+creditors?”, The Quarterly Journal of Economics, 128(3), 1321-1364.
+20.
+See Bui Quang, P. and Gervais, E. (2019), “How to identify “hidden securities assets” in the Balance of
+Payments: methods of Bank of France’, B/S [FC Bulletin, No 49.
+21.
+See Diz Dias, J. et al. (2024), “Where are the hidden securities in external statistics?”, mimeo, ECB.
+22.
+Foreign direct investment-related flows were traditionally considered to be the least volatile category of
+international capital flows. See, for example, Eichengreen, B., Gupta, P. and Masetti, O. (2018), “Are
+Capital Flows Fickle? Increasingly? And Does the Answer Still Depend on Type?”, Asian Economic
+Papers, Vol. 17(1), pp. 22-41. However, in recent years the strong role of multinational enterprises has
+been accompanied by increased volatility, especially for small open economies. See, for example, Di
+Nino, V., Habib, M. and Schmitz, M. (2020), “Multinational enterprises, financial centres and their
+implications for external imbalances: a euro area perspective”, Economic Bulletin, |ssue 2, ECB.
+23.
+Euro area financial centres commonly include Belgium, Cyprus, Ireland, Luxembourg, Malta and the
+Netherlands.
+24.
+SPEs located in euro area financial centres typically hold equities, manage debt issuance and allocate
+funding across parent and subsidiaries.
+25.
+See Emter, L., Schiavone, M. and Schmitz, M. (2023), op. cit.
+26.
+See Attinasi, M.G., loannou, D., Lebastard, L. and Morris, R. (2023), “Global production and supply
+chain risks: insights from a survey of leading companies”, Economic Bulletin, |ssue 7, ECB.
+27.
+
+
+See Brew, K. et al. (2023), “Experimental Ultimate Host Economy Statistics for U.S. Direct Investment
+Abroad”, BEA Working Paper Series, WP 2023-9; Figueira, C. (2023), “Where is the real impact of
+Foreign Direct Investment? — The case of the Portuguese outward foreign direct investment”, mimeo,
+Banco de Portugal; and Gémez-Llabrés, C., Pastoris, F. and Schmitz, M. (2023), “Who stands behind
+European FDI investors? A novel characterisation of pass-through within the EU’, B/S /FC Bulletin, No
+58.
+28.
+See Eurostat (2023), US remains top EU foreign ultimate investment partner, 13 May.
+29.
+See Rodriguez Caloca, A., Radke, T. and Schmitz, M. (2021), “The more the merrier: enhancing
+traditional cross-border portfolio investment statistics using security-by-security information’, BIS [FC
+Bulletin, No 55.
+30.
+Further developments of approaches combining micro and macro data, for example to measure euro
+area portfolio investment holdings of sustainable debt securities, will be very much welcome (see
+“Experimental indicators on sustainable finance” on the ECB’s website). More broadly, the data needs
+in macroeconomic statistics to cover climate change and sustainable finance have become very
+apparent in recent years. These include, for instance, the recommendations of the third data gaps
+initiative regarding climate change and FDI statistics presenting the associated carbon footprints as
+well as physical and transition risks. Official statistics in this field are needed to assess the social and
+economic impact of climate change and monitor the financial vulnerabilities stemming from physical
+and transitional risks.
+31.
+See Lane, P.R. and Milesi-Ferretti, G.M. (2007), “A Global Perspective on External Positions’, in
+Clarida, R. H. (ed.), G7 Current Account Imbalances: Sustainability and Adjustment, National Bureau
+of Economic Research, pp. 67-102.
+32.
+See Allen, C. (2019), “Revisiting External Imbalances: Insights from Sectoral Accounts”, Journal of
+International Money and Finance, Vol. 96, pp. 67-101.
+33.
+See Committee on Monetary, Financial and Balance of Payments Statistics (2023), Opinion on the
+between the ESS and the ESCB, 12 June.
+34.
+
+
+See “Making banks’ data reporting more efficient” on the ECB’s website.
+CONTACT
+European Central Bank
+Directorate General Communications
+> Sonnemannstrasse 20
+> 60314 Frankfurt am Main, Germany
+> +49 69 1344 7455
+> media@ecb.europa.eu
+Reproduction is permitted provided that the source is acknowledged.
+Media contacts
+Copyright 2024, European Central Bank

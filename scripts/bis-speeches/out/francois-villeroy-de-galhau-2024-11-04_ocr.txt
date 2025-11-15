@@ -1,0 +1,462 @@
+wif
+BANQUE DE FRANCE
+A\s
+EUROSYSTEME
+Speech
+Monetary policy
+Monetary Policy in Perspective (Il):
+Three landmarks for a future of
+“Great Volatility”
+Published on 30 October 2024
+The London School of Economics - London, 30 October 2024
+Ladies and Gentlemen,
+
+
+| am delighted to be in London and | wish to warmly thank Professor lain
+Begg for the invitation. The current decade has been remarkable for
+central banks, characterized by an unprecedented and highly implausible
+sequence of shocks: a deflationary one with Covid, followed by an
+inflationary one with the unwarranted Russian invasion of Ukraine. In a
+speech | gave last week in New York,! | looked back on the critical role
+and success of credible monetary policies in the recent disinflation
+episode. Today, | will look forward and discuss how central banks can
+navigate this new environment of “Great volatility” that sharply contrasts
+with the stability of the past “Great Moderation”. Expect more supply
+shocks, while analysing that not all of them are alike (I). Anchor even
+more our inflation objective, with some adjustments (Il). And be ready to
+support louder and clearer structural reforms (Ill).
+Some argue that the next years will see more inflationary forces, with
+deglobalisation, decarbonisation and demographics. Maybe... but for
+sure the near future will be shaped by more uncertainty. Supply shocks
+are likely to occur more frequently, as stressed by president Lagarde ina
+widely noted speech in Jackson Hole last year!. This will contribute to
+greater volatility and less predictability in inflation. Political
+fragmentation, beyond extreme events such as wars, is already inducing
+a decoupling of trade! along geopolitical blocs, particularly for energy
+and selected high-tech products (mobile phones, laptops and computer
+Chips).
+
+
+TRADE FRAGMENTATION
+Chart 1: The Fragmentation of World Trade according to geopolitical blocs
+(year-on-year trade growth rates)
+Source: Carluccio, Gaulier, Smagghue and Stumpner (2024).
+Purple line : between countries in the same bloc (relative to trade with neutral countries) BANQUE DE FRANCE
+Blue line : between countries of opposing blocs (relative to trade with neutral countries)
+Trade Fragmentation
+With fewer and more specialized suppliers, supply chains turn less
+flexible, which reduces their capacity to absorb shocks'’. Climate change
+is already increasing physical risks with their associated supply
+disruptions: the number of extreme floods, storms and climatological
+events such as heatwaves or wildfires has more than doubled over the
+past forty years”. The transition to an ecologically sustainable global
+economy will also be bumpy as the adjustment costs are large and
+unevenly spread. Yet, these are not the only challenges the world
+economy is facing going forward. Demographic change is weighting on
+labour supply and will affect migrations, as well as the composition of
+peoples’ consumption baskets. Technological shocks are also likely to be
+more pervasive, starting with Al.
+1. Not all supply shocks are alike
+These multiple supply-side shocks will have different implications for
+inflation. Adverse supply shocks, while usually contractionary, need not
+be inflationary at all horizons. As a consequence, there is no ‘one-size-
+fits all’ policy response. The starting point is a thorough analysis of the
+anatomy of supply shocks, with a corresponding cartography". Five
+key characteristics of the shock matter for monetary policy.
+
+
+The first one is the degree of shock reversibility. This is why central
+banks may want to “look through” supply shocks, since the inflationary
+effect of a transitory shock might dissipate before monetary policy
+reaches its full effect (after 18 to 24 months). Symmetrically, as central
+banks can be uncertain about the transitory nature of supply shocks,
+they may want to react early to avoid spillovers to core inflation.
+P|
+A CARTOGRAPHY OF SUPPLY SHOCKS
+1. Possibility of reversal: 4
+5 = 5s
+ZS 2 2“~
+= © oo
+=. S
+© A)
+< S
+BANQUE DE FRANCE
+A cartography of supply shocks - 1
+The second characteristic is between the domestic or external origin of
+the disruption. When the shock is imported from the rest of the world
+(e.g. an oil-price shock for an importing country), the impact on
+domestic inflation may be later mitigated by the negative impact of the
+terms-of-trade shock on aggregate demand. The same shock can be an
+external supply shock and an internal demand shock. Such mitigation of
+inflation is absent if the shock is domestic (e.g. a drought leading to an
+increase in local food prices).
+
+
+A CARTOGRAPHY OF SUPPLY SHOCKS
+1. Possibility of reversal:
+S= 35—! C) 2. Source/Terms of trade: =i ©
+RO D=. @ External a+ ”
+S « Oil shock in Europe » 2
+5 ©
+BANQUE DE FRANCE
+A cartography of supply shocks - 2
+| also have to mention that domestic or external disruptions can be
+policy-induced.
+Think about tariffs. Who bears the cost of higher tariffs depends on
+which firms can pass the increase in costs to its buyers. The imposition
+of US tariffs on Chinese imports is a case in point of a policy-induced
+shock: its impact is almost fully passed through to importer prices in the
+US“ and in that case a persistent price level shock.
+The third characteristic is the centrality of the affected sectors.
+
+
+A CARTOGRAPHY OF SUPPLY SHOCKS
+1. Possibility of reversal:
+2. Source/Terms of trade:
+sso]
+SJOW\
+Aseuoie|jul
+Aseuone|jul
+3. Centrality of the affected sectors:
+BANQUE DE FRANCE
+A cartography of supply shocks - 3
+It determines how far shocks can ripple through the supply chain. The
+semiconductors shortage in 2021 is an example of an upstream shock
+leading to significant production losses in the downstream production of
+automobile around the globe.
+The fourth factor to consider is the degree of price stickiness in the
+affected industries.
+
+
+A CARTOGRAPHY OF SUPPLY SHOCKS
+1. Possibility of reversal:
+2. Source/Terms of trade:
+Sso7
+SJOW\ External
+« Oil shock in Europe »
+Aseuone|jul3. Centrality of the affected sectors:
+Aseuoneyul
+Downstream
+4. Degree of price stickiness:
+A cartography of supply shocks - 4
+V_—VUvy
+| BANQUEDE FRANCE
+EuRosysTiMe
+Differences here interact with the sector centrality | just mentioned.
+Recent energy price shocks originated in a sector with fairly flexible
+prices. But energy is an upstream sector and shocks here are cost-push
+shocks for downstream sectors with overall stickier prices, including
+services. While inflation initially rises only in a limited way in sectors with
+sticky prices, it persists for longer. ¥"!
+Finally, the fifth characteristic of supply shocks is their predictability.
+
+
+A CARTOGRAPHY OF SUPPLY SHOCKS
+1. Possibility of reversal:
+= 2. Source/Terms of trade: sc
+< O :rnal =>
+=! O shock in Europe » © os
+= 3. Centrality of the affected sectors: o
+= Downstream —
+4. Degree of price stickness:
+5. Ability to plan ahead?:
+BANQUE DE FRANCE
+4 SANS NSN/
+A cartography of supply shocks - 5
+Disruptions do not need to be sudden and unexpected, they can be
+anticipated well-ahead. The more predictable a supply shock, the more
+manageable it will be. For instance, a preannounced steadily rising
+carbon tax will have more manageable effects than an unexpected one-
+off jump.
+Bottom line: there is no longer one textbook answer to supply shocks.
+Central banks will have to analyse more granular data, and exert their
+judgment. Most shocks to come could be expected to be external for the
+euro area and on more flexible prices like commodities or critical raw
+materials, and hence have less persistent inflationary effects if inflation
+expectations are kept well anchored. But their centrality in the economy,
+and their intricacy with more sticky services prices should keep central
+banks in alert.
+While climate-related and natural disasters are often unpredictable, risk
+scenarios help us to identify the worst possible outcomes and mitigate
+them (by reacting ahead of time).* These could be useful input to a risk-
+management approach to policy setting.
+
+
+That said, expect all of us to live with increased uncertainty. Frank
+Knight (1921) famously coined the difference between risks, which are
+measurable and hence hedgeable, and uncertainty, with unknown
+probabilities and outcome”. Today’s world is more and more “Knightean”.
+And uncertainty negatively impacts investment decisions as shown by
+Bloom et al.*', as well as household consumption: see the recent increase
+in the savings rate in Europe, at least partially explained by a lowering
+confidence. Central banks themselves won't fully escape this increased
+uncertainty; but they must do their best, as “uncertainty absorbers”, to
+reduce it for economic agents: this brings me to our inflation objective.
+Responding to supply shocks poses a greater challenge for central
+banks compared to the demand shocks faced in the 2010s. Unlike
+demand shocks, supply shocks create a trade-off, as higher inflation is
+accompanied by a negative hit on output. Moreover, monetary policy
+primarily influences demand, has no direct effect on supply. A further
+Clarification is important: monetary policy does not target specific
+sectors and relative prices, as price signals play a key role in the market
+economy to enable an efficient allocation of resources. Nevertheless, we
+must remain vigilant as households and firms are very sensitive to
+specific prices in forming perceptions of inflation.
+Do we then need to modify our price stability framework? Increased
+volatility, even well managed, means that we could likely deviate from
+our inflation target more frequently. Maintaining inflation precisely on
+target 2,0 at all times is neither realistic, nor necessary. Instead, our
+focus must remain forward-looking, as monetary policy affects the
+economy with considerable lags.
+1. Keeping the 2% target
+
+
+Central banks have converged on a 2% target and there are good
+reasons for it. It is low enough to make inflation barely noticeable when it
+is at target. But it also provides a buffer to avoid deflation and a margin
+on nominal interest rates to reduce the risk of hitting the effective lower
+bound. The 2% target has proven effective in anchoring expectations, as
+historical evidence demonstrates. It has now become a global standard
+in advanced economies. Revisiting it is not on the table for our Strategy
+Review next year, as the ECB President already made it clear. That said,
+facing greater volatility, should central banks have more flexibility around
+this inflation target?
+2. Flexibility in space: ‘control’ bands?
+Without changing the point target, some argue that we may want to
+make it more flexible thanks to inflation bands. Facing greater
+volatility, inflation bands could reduce the risk of fine tuning and
+overreacting to small changes in inflation. Several advanced economies’
+central banks today follow a target with an explicit tolerance band.
+However, the explicit numerically defined band can play different roles.
+Most of those central banks pursue a point target, with a tolerance band
+that serves as a communication device: being off the target does not
+immediately call for activism on the side of the central bank. The central
+banks of the UK and Canada fall into this category. New Zealand, also,
+added a focal point to the inflation target band in 2012.
+EXAMPLES OF CENTRAL BANKS PRICE STABILITY DEFINITION
+Numerical
+target/definition
+Bank of Canada 2% with a control Point with control 6-8 quarters, on average
+range of 1-3% range
+Bank of England 2% Point with triggers* Applies at all times; for
+deviation or +/- 1%, the BoE
+needs to indicate the horizon
+of the return to target
+Reserve Bank of New Zealand 1-3% with 2% Range with focal Medium-term
+midpoint point
+Reserve Bank of Australia Between 2 and Range « Appropriate timeframe »**
+3%
+Swiss National Bank 0-2%*** Range Medium-term, specified as
+around 3 years
+Source: “The ECB's price stability framework: past experience, current and future challenges”, Work stream on the price stability objective, Occasional Papers Series n* 269, September 2021. (*) if
+inflation moves away from the target by more than 1 percentage point in either direction, the Governor is required,to send an open letter to the Chancellor explaining why inflation has moved away BANQUE DE FRANCE
+from target and what action the Bank is taking to bring inflation back to target”. (**) “The appropriate timeframe for this depends on economic circumstances”. (***) ) “The Swiss National Bank
+equates price stability with a rise in the Swiss consumer price index (CPI) of less than 2% per annum. Deflation, i.e. a protracted decline in the price level, is also regarded as a breach of the
+objective of price stability.”
+
+
+In contrast, some central banks like the Swiss National Bank target an
+inflation band, for which they express to be indifferent, as long as
+inflation materializes within that band or zone. There are however some
+drawbacks of such target zones in my opinion. One consequence of the
+implied nonlinearity of central bank policies in the presence of inflation
+target zones could be higher output volatility, as central banks need to
+take more forceful actions outside of a band." In practice, there is a risk
+that explicit inflation tolerance bands, even if augmented with a focal
+point and intended as a communication device only, can be
+misunderstood as non-intervention zones, thereby undermining the
+expectation channel of monetary policy.
+3. Flexibility in tin edium-term orientation
+An alternative and possibly preferable approach in my view is to maintain
+our medium-term orientation around the symmetry of our objective. As
+with tolerance bands, under a medium-term orientation a central bank
+does not have to react to short-term point deviations, but rather respond
+to inflation dynamics that risk pushing it off target. What matters is not
+so much the /eve/ of deviation from target at one point in time, but the
+trend and persistence of expected deviations, in other words, whether
+this deviation is more likely to increase or to decrease. In concrete terms,
+if inflation is above target, but converging at a sufficient pace, this may
+not call for action. Nevertheless, a too vague medium-term objective
+without a clear roadmap is a blurred signal that can ultimately undermine
+credibility. Hence, the counterpart of such flexibility is that it implies a
+clear communication about the horizon and the journey back to target.
+
+
+Finally, the medium-term orientation provides some flexibility to deal
+with supply shock trade-offs. In such situations, headline inflation may
+not accurately foreshadow medium-term outcomes. Central banks can
+then decide to put less weight on headline inflation data, and give more
+weight to measures of underlying inflation. This has been the case since
+2022 in the euro area, when underlying inflation became one of three
+criteria of our reaction function. This issue is also covered in the chapter
+2 of the latest WEO of the IMF, which shows in particular that, in the
+recent period, policy rules targeting inflation in sectors with stickiest
+prices would have delivered relatively faster disinflation®".
+However, we should not abandon our reference to headline inflation in
+the definition of our objective. This measure is well understood by the
+general public and fits their inflation perception, and this is the inflation
+that matters for expectations and second round effects.
+In an environment where supply matters more, structural policies also
+matter more for price stability. To the extent that they raise the path of
+potential growth, structural policies reduce the inflation rate for a given
+growth rate of effective GDP. Furthermore, a more flexible economy will
+reduce the reaction of prices to a given shock, because reallocations and
+substitutions across sectors, technologies and geographies will be
+faster. More than ever, monetary policies should not be “the only game in
+town”; but they could even not be the “central game”. As regularly
+repeated — but not much noted? — in our Monetary Policy Statement,
+“fiscal and structural policies should be aimed at making the economy
+more productive, competitive and resilient’*”.
+
+
+Let me first emphasise the urgent need for action. Europe has a growth
+and productivity problem. We had rather good news in the short term on
+Q3 growth this morning, in the euro area (+0.4%), as well as in France
+(+0.4%). But with a broader view, there is a widening gap in GDP growth
+compared to the United States, with cumulated increase of GDP per
+capita reaching 26% since 1999, compared with 39% in the US.
+P|
+|
+A WIDENING GDP GROWTH GAP WITH THE US
+<Chart 4: GDP growth per capita
+(in %, average annual change (lhs), cumulated change (rhs))
+1999-2008 2009-2014 2015-2023 1999-2023
+@WEurozone WMUnitedStates @ UK
+Sources : OECD.
+BANQUE DE FRANCE
+A widening GDP growth gap with the US
+Given the tight fiscal space — at the end of the first quarter of 2024,
+debt-to-GDP reached for example 111% in France -, fiscal policy should
+be focused in many countries towards consolidation rather than
+stimulus. We must escape the high debt / low growth trap.
+Reassuringly, we have nevertheless two roadmaps with concrete
+proposals to tackle these growth challenges, the Draghi report for
+enhancing European competitiveness and the Letta report for
+empowering the Single Market*’. They provide the structural reforms
+agenda essential to foster innovation and productivity, while leveraging
+the green and digital transitions. If we put aside the Eurobond part of the
+Draghi report which could be disjoined, let me sum up this agenda with a
+triple strengthening of the European economy: size, multiplied by
+muscle, multiplied by speed.
+
+
+|
+A TRIPLE STRENGTHENING FOR EUROPE <
+Size 4 Financial muscle 4 Speed
+Single Market Savings and Investments Union Innovation
+intensification = Capital Market Union Simplification
+a
+Competition policy
+at European Scale
++ Banking Union
+BANQUE DE FRANCE
+A triple strengthening for Europe
+1. The supportive role of central banks
+Central banks can help fiscal consolidation and structural reforms by
+preserving stability in this volatile environment. Central banks can be the
+anchors in the storm. By keeping long-term inflation expectations
+anchored, they reduce long-term inflation risk premia, the cost of long-
+term funding and ultimately improve macroeconomic stability.
+2. Using our credibility, and inspiring good
+governance practices?
+
+
+Central bankers are naturally reluctant to address the structural
+economic challenges and reforms, as these are often somewhat of
+political nature; but the Bank of Spain by law or the Bank of Italy in
+practice for instance often have to stress such topics. More generally,
+central banks in Europe are more vocal there than say, the US Federal
+Reserve. There are good economic reasons, as said, why central banks
+have some legitimacy for providing help to governments in this field
+while preserving their independence. Unfortunately, many of these
+governments are at present politically weakened and face a difficult task,
+under pressure of short-termism, conflicting objectives and national
+biases. One key element of central banks’ successes comparatively has
+been credibility. This credibility on monetary policy was built through
+decades of tenacious action and communication.
+Using this credibility to soeak, beyond monetary policy, about structural
+reforms and fiscal consolidation, is not without risks. We as Central
+Banks should make clear that we are not the deciders there; that we
+mention structural policies as far as these are relevant for price stability;
+that our role is to bring independent data, expertise and explanation in
+the public debate; that we accept our views to be discussed and even
+contested. But in today’s Europe and today’s world, where non-monetary
+action is both more necessary and more difficult than ever, this risk may
+be worth taking for central banks. If we do not advocate the Draghi and
+Letta reports, who will? Or if we do not defend open trade, with fair
+rules, who will?
+However, credibility did not come by chance: the architecture of the
+ECB, as a central bank, was designed to counteract short-termism, and
+to achieve the common goal of price stability. While our governance may
+not be directly transferable to other institutions, | see three key
+ingredients that can serve as an interesting example — and are by the
+way also gathered for European successful competition policy: (i) clear
+and precise objectives, the “mandate”, conferred by democracy; (ii)
+institutional independence with majority voting after an open and
+confident discussion; (iii) full accountability on decisions and results. |
+will sum up this way: if we were not efficient, we would not be fully
+legitimate in being independent.
+
+
+While this governance is obviously not universally applicable, and the
+decision here belongs to political authorities, these could possibly
+consider replicating it in some specific domains in Europe. As an
+example, achieving the capital markets union, now adequately rebranded
+as a broader “Savings and Investments Union”, is vital for fostering
+growth: as part of it, a unified and independent supervision of markets is
+key. Regarding climate change, some have put forward innovative
+reflections around a “central bank of carbon’*”', which could steer the
+climate agenda, with a clear mandate to reduce carbon emissions and
+reach net neutrality in 2050.
+Let me conclude with Bertrand Russell, the famous British philosopher
+and mathematician who was awarded the Nobel Prize in Literature in
+1950. He was also one of the founders of the London School of
+Economics. In his History of Western philosophy, published in 1946, he
+wrote: “To teach how to live without certainty, and yet without being
+paralysed by hesitation, is perhaps the chief thing that philosophy, in our
+age, can still do for those who study it.” We, central bankers of the 21st
+century, have started to learn how to manage uncertainty in an
+unprecedented succession of shocks. We stand ready to adapt to this
+new environment of Great Volatility and to act where needed, in order to
+remain an anchor of stability. For our economies to show resilience,
+structural policies have to follow suit: rest assured that we will do
+everything in our remit to help keep these fundamental issues front-
+stage. Thank you for your attention.
+
+
+‘Villeroy de Galhau (F.), A monetary policy perspective (I): three lessons
+from the recent inflation surge, speech at New York University, 22
+October 2024
+Lagarde (C.), Policymaking in an age of shifts and breaks, speech at
+Jackson Hole, 25 August 2023
+Mancini (M.) et al., Positioning in global value chains:A new dataset
+available for global value chain analyses, VOXEU Column, 18 April 2024
+'VMancini (M.) et al., ibid
+YDrudi (F.) et al., Climate change and monetary policy in the euro area, ECB
+Occasional Paper Series No 271, September 2021
+Vivilleroy de Galhau (F.), Central Banks’ Exit from the Garden of Eden,
+speech, 28 June 2024
+viiCavallo (A.) et al., Tariff Pass-Through at the Border and at the Store:
+Evidence from US Trade Policy, American Economic Review, Vol. 3, No. 1,
+March 2021
+VillAfrouzi (H.) and Bhattarai (S.), Inflation and GDP dynamics in production
+networks:A sufficient statistics approach, NBER Working Paper, February
+2022 (updated in July 2024)
+XDées (S.) et al., An analytical framework for assessing climate transition
+risks: an application to France, Review of World Economics, 1-57, 17 July
+2024
+*Knight (F.), Risk, uncertaintyand profit, published in 1921
+XIBloom (N.), Bond (S.), Van Reenen (J.), “Uncertaintyand Investment
+Dynamics", The Review of Economic Studies, Vol. 74, Issue 2, April 2007
+xlle Bihan (H.), Marx (M.) and Matheron (J.), inflation tolerance ranges in
+the New Keynesian Model, European Economic Review, Vol. 153, April
+2023
+xllll nternational Monetary Fund, World Economic Outlook, Chapter 2,
+October 2024
+xiVEuropean Central Bank, Combined monetary policy decisions and
+statement, 17 October 2024
+*VLetta (E.), Much More than a Market - Speed, Security, Solidarity, report,
+10 April 2024
+xvIDelpa (J.) and Gollier (C.), Pour une banque centrale du carbone (For a
+central bank of carbon) (French only), October 2019
+Download the full publication

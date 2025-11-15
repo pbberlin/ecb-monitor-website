@@ -1,0 +1,345 @@
+TM
+The heat is on: challenges and opportunities  
+of the energy transition
+Opening remarks by Fabio Panetta 
+Governor of Banca d’Italia
+G7-IEA conference on ‘Ensuring an orderly energy transition’* 
+Banca d’Italia 
+Rome, 16 September 2024
+Good morning, ladies and gentlemen
+It is a pleasure to welcome you to the G7-International Energy Agency (IEA) conference 
+on ‘Ensuring an orderly energy transition’. 
+Let me start by thanking the IEA, on its 50 th anniversary, for its role in improving the 
+security of the international energy system and for providing us with data and analyses 
+that are essential to our collective efforts to reduce the carbon footprint of our economies.
+Today’s conference gathers together a comprehensive group of policymakers, regulators, 
+academics and business representatives that will guide us through several critical aspects 
+of the transition to a net zero emissions world. 
+Before I leave you to the work of the conference, let me share some thoughts on these 
+topics.
+The energy transition is inevitable and must be managed in an orderly way 
+After a series of important steps forward following the 2015 Paris Agreement, we are now 
+seeing signs of discontent with the energy transition. 
+Net flows into sustainable investment funds are losing momentum, with redemptions 
+occurring in some countries due to political backlash against climate initiatives; 1 some 
+* I wish to thank Paolo Angelini, Ivan Faiella, Fabrizio Ferriani, Andrea Giovanni Gazzani, Luciano 
+Lavecchia for their valuable insights and contributions.
+1 Morningstar, Global Sustainable Fund Flows: Q2 2024 in Review , 2024; IEA, World Energy Investment 
+2024, 2024. For example, global sustainable net fund flows in the first two quarters of 2021 amounted 
+to around $340 billion against roughly 1 billion in the first two quarters of 2024.
+
+2
+large asset managers are scaling back their involvement in global climate efforts; 2 
+renewable energy companies are facing increasing financial headwinds; 3 and export 
+restrictions on critical minerals are steadily increasing 4 amid a challenging geopolitical 
+situation, marked by Russia’s invasion of Ukraine, the devastating events in the Middle 
+East and increasing economic and trade fragmentation.5 
+Alongside these worrying developments, there are some encouraging ones. 
+Global investment in clean energy is now double that in fossil fuels. 6 The recent COP 28 
+meeting highlighted significant improvements, including commitments to phase out fossil 
+fuels, expand renewable energy capacity, improve energy efficiency and reduce methane 
+emissions.7 In addition, major global emitters such as China are making extraordinary 
+progress on renewables, reaching their wind and solar capacity targets well ahead of 
+schedule.8  
+Despite all the potential challenges, the transition remains inevitable: this conviction 
+transcends personal preferences, as there is now a consensus in the scientific community 
+that the long-term economic damage from climate change and a disorderly energy 
+transition far outweigh the costs of implementing the Paris Agreement (Figure 1).
+With global temperatures breaking all records 9 (Figure 2), we must balance the need 
+for a gradual energy transition, given that these processes take time, 10 with the risk of 
+postponing further emissions reductions, and thus reaching catastrophic climate tipping 
+points. 
+So what can be done to ensure an orderly energy transition?
+Reducing the cost of the transition through international cooperation
+There is no doubt that the green transition will be expensive. Green energy investment, 
+which is expected to exceed $3 trillion globally in 2024, 11 is still a long way from the 
+2 Climate Action 100+, ‘Climate Action 100+ reaction to recent departures’, press release, 26 February 2024.
+3 IEA, Financial headwinds for renewables investors: What’s the way forward?, 2023.
+4 Kowalski P. and Legendre C., ‘Raw materials critical for the green transition: production, international 
+trade and export restrictions ’, OECD Trade Policy Paper, 269, 2023; IRENA, Geopolitics of the Energy 
+Transition, 2023.
+5 Panetta F., ‘The future of Europe’s economy amid geopolitical risks and global fragmentation’, Lectio 
+Magistralis delivered on the occasion of the conferral of an honorary degree in Juridical Sciences in 
+Banking and Finance by the University of Roma Tre, Rome, 23 April 2024.
+6 IEA, World Energy Investment 2024, 2024.
+7 For more information, see on the IEA’s website: ‘COP28: Tracking the Energy Outcomes’.
+8 Dong X., ‘China to Achieve its 2030 Installed Clean Energy Target in July 2024’, Climate Energy Finance, 
+Monthly Chine Update, 2 July 2024.
+9 At global level, July 2024 was the warmest July since records began in 1850, tied with July 2023.
+10 Smil V., Energy and civilization. A History, MIT Press, Cambridge, 2018.
+11 IEA, World Energy Investment 2024, 2024.
+
+2 3
+$4.5 trillion required annually by the early 2030s to achieve net zero emissions by mid-
+century.12 
+More importantly, this financing gap conceals significant differences between advanced 
+economies and emerging market and developing economies (EMDEs).13 
+Despite accounting for one third of global GDP and two thirds of the world’s population, 
+EMDEs (excluding China) only account for 15 per cent of global clean energy investment. 
+This underinvestment is partly due to difficulties in raising capital: financing transition-
+related projects in EMDEs can be twice as expensive as in advanced economies (Figure 3). 
+Although the geopolitical challenges facing the world today make international 
+cooperation more difficult than in the past, it is important to reaffirm that cooperation is 
+crucial in order to combat climate change.
+A fair and effective solution would be to establish an international incentive framework, 
+such as the  Global Carbon Reduction Incentive (GCRI) scheme, whereby countries with 
+higher per capita emissions compensate countries with relatively low emissions.14 
+A GCRI-type scheme would increase the stability and credibility of domestic policies 
+in this area, which are essential for private sector investment decisions. It would also 
+reduce the overall cost of the transition and provide a solution to the financing problem 
+in EMDEs, which could then invest in clean energy projects rather than in much cheaper 
+coal-fired plants. Advanced economies should recognize that the resource transfers 
+involved in the scheme would be more than offset by the economic damage avoided 
+from climate change that they would suffer if the transition effort failed. 
+In addition, effective international cooperation is critical to fostering transition-related 
+technological innovation. To this end, it is essential to remove barriers to the global 
+diffusion of green and low-carbon technologies, a strategy that would be less vulnerable 
+to political backlash than regulation and carbon pricing. 
+Avoiding new forms of energy dependence
+Energy security, which was suddenly brought to the fore by Russia’s invasion of Ukraine, 
+is now a key priority on policymakers’ agendas. The transition to low-carbon energy 
+sources is part of the solution: increasing renewable energy production will help countries 
+wean themselves off their dependence on fossil fuels.
+Unfortunately, there is a significant risk of replacing fossil fuel dependency with a new one. 
+12 IEA, Net Zero Roadmap: A Global Pathway to Keep the 1.5 °C Goal in Reach. 2023 Update, 2023.
+13 IEA, Reducing the Cost of Capital. Strategies to unlock clean energy investment in emerging and 
+developing economies, 2024.
+14 Lall S.V., Rajan R. and Schoder C., ‘A Global Incentive Scheme to Reduce Carbon Emissions’, World 
+Bank, Policy Research Working Paper, 10759, 2024.
+
+4
+The production of the critical minerals required for the transition – lithium, copper, nickel 
+and cobalt, among others – is highly concentrated, with the top three producing countries 
+supplying between 50 and 85 per cent of global production (Figure 4). 15 China is the 
+world leader in rare earths mining, controlling about 70 per cent of world production, 
+and has an even larger share of refining. 16 China also leads the world in the production 
+and deployment of wind, solar photovoltaics (PV), batteries and electric vehicles (EV), and 
+is at the forefront of advances in these areas.17
+Europe is dependent on imported critical minerals, due to its limited natural resources 
+and to delays in transition-related industrial sectors. 
+Cooperation at European level is essential to address this issue through the integration 
+of gas and electricity networks, which are key to the continent’s energy security; such a 
+policy will also increase the efficiency of the investments needed for the transition and 
+avoid a patchwork of national efforts. 
+Another key part of the solution is to diversify international partnerships and build 
+mutually beneficial relationships with countries rich in critical inputs. Strengthening 
+critical mineral supply chains is at the heart of initiatives such as the Resilient and Inclusive 
+Supply-chain Enhancement (RISE) project,18 which aims to help low- and middle-income 
+countries become more integrated into supply chains for products that are key to the 
+energy transition.
+Finally, all technological options should be considered in order to promote the 
+diversification of decarbonized energy production.19 
+Managing the twin transition: green and digital
+The world we live in is facing an energy transition, but also a digital transition. They are 
+interlinked and both require significant investment.20
+15 IEA, Global Critical Minerals Outlook 2024, 2024.
+16 IRENA, 2023, op. cit.; this percentage is even higher when the geographical concentration is adjusted 
+to account for the capital ownership of mining companies: Faubert V., Guessé N. and Le Roux J., 
+‘Capital in the Twenty-First Century: Who Owns the Capital of Firms Producing Critical Raw Materials?’, 
+Banque de France, Working Paper, 952, 2024. 
+17 Hove A., ‘Clean energy innovation in China: fact and fiction, and implications for the future’, Oxford 
+Institute for Energy Studies, OIES Paper, CE14, 2024.
+18 The initiative launched by the World Bank and the Japanese Presidency of the G7 is also at the heart of 
+the G7 agenda under the Italian Presidency; see World Bank, ‘World Bank and Japan to Boost Mineral 
+Investments and Jobs in Clean Energy’, press release, 11 October 2023.
+19 For example, the development of small modular reactors for baseload power production; see Panetta F.,  
+2024, op. cit.
+20 The public and private climate-related investment needs in the EU are around €620 billion per year on 
+average. To this is added approximately €125 billion annually for the digital transition; see Panetta F., 
+2024, op. cit.
+
+4 5
+The expansion of power-hungry digital technologies such as data centres and artificial 
+intelligence (AI), not to mention crypto-assets, is driving up energy demand. These 
+technologies now account for 2 per cent of global electricity consumption, but this 
+figure is expected to more than double by 2026, increasing to 1,000 TWh, an amount 
+comparable with Japan’s total power demand. 
+This additional electricity demand will not only slow down the phase-out of fossil fuels,21 
+but it will also increase pressure on water resources due to the additional electricity 
+generation and cooling needs of IT equipment.22 
+Yet technology can also be an important ally in the energy transition. Promising 
+applications show the potential for technology and AI to help power grids accommodate 
+an increasing share of intermittent renewable sources, improve forecasting and climate 
+risk assessment, and reduce the cost of sustainability reporting.23 
+As both the energy and the digital transitions are inevitable transformations, it is up to us 
+to make the most of them, ensuring that we maximize their combined potential and reap 
+the full benefits, not just the costs.
+Building public support for climate action
+Transitioning to a long-term carbon-neutral energy system will benefit us in many ways, 
+decreasing our dependence on fossil fuels, mitigating climate risks and reducing local 
+pollution. 
+However, the costs of this process will be difficult to bear, particularly for energy-intensive 
+businesses and vulnerable households. 
+In fact, most climate change mitigation policies, such as carbon pricing, put pressure on 
+the energy bills of businesses and households. 
+The consumption baskets of less affluent households are heavily weighted towards 
+energy goods. They will therefore be disproportionately affected by the gradual increase 
+in energy costs required for the transition. Similarly, firms in the hard-to-abate sectors 
+will need to change their technologies and business models and may face existential 
+threats. 
+21 While the additional power demand can be met with low-carbon solutions, the materials required to 
+build new data centres (steel, cement, chips) can push emissions up. See Crownhart C., ‘AI is an energy 
+hog. This is what it means for climate change’, The Spark. MIT Technology Review, 2024.
+22 According to some recent estimates, a small number (between 10 and 50) of simple queries using 
+the nowadays obsolete GPT-3 consumes half a litre of water.  Summing up and considering future 
+projections, total global AI water demand in 2027 is estimated to be between 4.2 – 6.6 billion cubic 
+metres of water withdrawal, equivalent to more than half the total annual water withdrawal of the 
+United Kingdom. See Li P., Yang J., Islam M.A. and Ren S., ‘Making AI Less ‘Thirsty’: Uncovering and 
+Addressing the Secret Water Footprint of AI Models’, ArXiv, abs/2304.03271.
+23 See Scotti C., ‘Digital and green: twice the transformation, twice the win?’, closing remarks at the conference 
+on ‘The macroeconomic and financial dimensions of the green transition’, Fiesole, 28 June 2024.
+
+6
+These issues need to be addressed through appropriate policies. While well-intentioned, 
+policies to achieve ambitious climate goals, that promote extreme or overly rigid 
+approaches, risk backfiring by alienating the public and thus reducing political support 
+for climate initiatives.24
+A successful transition requires a comprehensive, credible, and inclusive strategy that 
+simultaneously addresses the environmental and social aspects of the problem, and 
+strikes the right balance between ambition and feasibility. 
+Compensatory mechanisms, such as the redistribution of revenues from carbon pricing 
+schemes, are essential to mitigate the impact of the transition on less affluent households 
+and on the competitiveness of the productive system, ensuring that no one is left behind.25 
+Communicating the benefits with a clear, transparent, and evidence-based approach is 
+also essential to enhance its legitimacy and acceptability among citizens.  
+Conclusions
+The path to achieving an orderly energy transition faces formidable technological and 
+societal challenges, which are currently compounded by geopolitical tensions. In the face 
+of such tensions, we should focus on collective efforts to counter climate change.
+Governments of the major world economies should lead the way. They should 
+promote low-carbon investment, reduce the administrative and regulatory burden 
+that hinder the transition, and avoid damaging stop-and-go policies that create 
+uncertainty and undermine crucial private sector investment. This is the essence of 
+the orderly transition process we need to establish.
+As central bankers, our policy decisions can be improved by a better understanding of 
+the macroeconomic implications of the transition. With this perspective in mind, this 
+conference is part of a two-day event designed to foster a cross-fertilization between 
+policymakers and technical experts. Tomorrow, the event will continue with a meeting 
+of the G7 modelling expert networks to discuss the macroeconomic impacts of climate 
+change and the transition to a low-carbon economy.
+Thank you for your participation. I wish you all two days of constructive talks.
+24 See Vlasceanu M. et al., ‘Addressing climate change with behavioral science: A global intervention 
+tournament in 63 countries’, Science Advances, Vol. 10, No. 6, 2024.
+25 G7 Finance Ministers and Central Bank Governors’ Meeting, ‘G7 Finance Ministers and Central Bank 
+Governors’ Communiqué Communiqué’, Stresa, 23-25 May 2024. 
+
+6
+FIGURES
+
+9
+Figure 1
+Global GDP impact under different climate policy scenarios (1)
+(percentage deviation from baseline scenario)
+−15
+−10
+−5
+0
+2030 2040 2050
+Net Zero 2050
+2030 2040 2050
+Delayed Transition
+−15
+−10
+−5
+0
+2030 2040 2050
+Current Policies
+Acute physical risk Chronic physical risk Transition risk
+Source: NGFS, NGFS Scenarios for Central Banks and Supervisors, November 2023.
+(1) The above figure shows how GDP is impacted across scenarios compared with a hypothetical (and impossible) baseline scenario in which no transition or 
+physical risks occur. This baseline scenario represents a world in which climate change does not occur. Climate change therefore has a negative impact on GDP 
+in every plausible scenario, but the magnitude of the losses differs across them.
+Figure 2
+Global mean temperature anomalies (1)
+(degrees °C)
+−1.0
+−0.5
+0.0
+0.5
+1.0
+1.5
+−1.0
+−0.5
+0.0
+0.5
+1.0
+1.5
+1850 1900 1950 2000
+Source: Berkeley Earth.
+(1) 12-month moving average of the Berkeley Earth global mean temperature anomaly time series and its associated 95 per cent uncertainty (blue line). The 
+smoothed data (red line) indicate long-term trend. Anomalies relative to the 1850-1900 average.
+9
+
+10
+Figure 4
+Geographical distribution of the global EV battery supply chain in 2023 (1)
+(percentage points)
+0
+25
+50
+75
+100
+Co Gr Li Ni
+Mining
+0
+25
+50
+75
+100
+Co Gr Li Ni
+Processing
+0
+25
+50
+75
+100
+Anode Cathode
+Cell components Battery cells
+0
+25
+50
+75
+100
+EVs
+China
+Europe
+US
+Australia
+Chile
+DRC
+Indonesia
+Japan
+Korea
+Russia
+Other
+Source: IEA, Global Critical Minerals Outlook 2024, 2024.
+(1) Li = lithium; Ni = nickel; Co = cobalt; Gr = graphite; DRC = Democratic Republic of the Congo. Geographical breakdown refers to the country where the 
+production occurs. Mining is based on production data. Material processing is based on refining production data. Cell component production is based on cathode 
+and anode material production capacity data. Battery cells are based on battery cell production capacity data. EVs are based on electric cars production data. For 
+all minerals, mining and refining shows total production, not only that used in EVs. Graphite refining refers to spherical graphite production only.
+Figure 3
+Expectations for the internal rate of returns for utility-scale PV (1)
+(percentage points)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+Risk-free rate United States Europe EMDE
+Source: IEA, World Energy Investment 2024, 2024.
+(1) For each area, the graph displays the maximum value of the expected internal rate of return (the spread is shown on top of the risk free rate). The data refer to 2023.

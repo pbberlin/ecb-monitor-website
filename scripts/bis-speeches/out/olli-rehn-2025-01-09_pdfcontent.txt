@@ -1,0 +1,220 @@
+1/6 BIS - Central bankers' speeches
+Olli Rehn: Addressing systemic risks to financial stability in the 
+European Union
+Speech by Mr Olli Rehn, Governor of the Bank of Finland and First Vice-Chair of the 
+European Systemic Risk Board (ESRB), to the CFA Institute Systemic Risk Council, 
+Washington DC, 18 December 2024. 
+* * *
+ accompanying the speechPresentation
+Esteemed members of the CFA Institute Systemic Risk Council,
+May I first thank the Systemic Risk Council for the invitation. It is a great honour to 
+speak before such a distinguished audience. I am looking forward to hearing your views 
+and I hope we can have a lively discussion after my talk.
+Let me start with a snapshot of our financial stability journey: since the global financial 
+crisis, we have gained a sharper understanding of the systemic vulnerabilities in our 
+financial system. The last 15 years have underscored the importance of financial 
+stability as a cornerstone for effective central banking.
+During this transformative period, seminal work, by Ben Bernanke, Charles 
+Kindleberger, Hyman Minsky and others, has provided a rich theoretical foundation for 
+understanding these risks.
+Bernanke shows that inadequate monetary policy and financial market failures can turn 
+economic shocks into prolonged depressions. His emphasis on the role of central banks 
+as lenders of last resort, combined with the concept of the financial accelerator, greatly 
+helped to frame the policy responses to the global financial crisis and reduce the risk of 
+another Great Depression.
+Kindleberger and Minsky illustrate how financial instability is not merely a by-product of 
+irrational behaviour, but an almost inevitable aspect of financial cycles  dubbed by 
+Minsky as the "financial instability hypothesis". To quote Kindleberger: "The essence of 
+financial crises is that they are all alike". This suggests that, while details differ, 
+systemic patterns persist.
+Globally, we have made notable strides in this domain. In the European Union, our 
+enhanced regulatory and supervisory frameworks, ranging from increased capital 
+requirements to advanced macroprudential policies and all the way to the banking 
+union, have played a pivotal role in shielding the financial system from recent global 
+shocks. The European Systemic Risk Board (ESRB) has made an important 
+contribution to these efforts and is an essential part of the macroprudential architecture 
+in the EU. Nevertheless, emerging challenges, particularly from the non-banking sector 
+and cyber risks, remind us only too well that vigilance remains paramount.
+Looking ahead, the completion of the Basel III regulatory reforms  described by some 
+as the "Basel endgame"  remains critical. The Basel III framework, with its stringent 
+
+2/6 BIS - Central bankers' speeches
+capital and liquidity standards, addresses key vulnerabilities by ensuring banks hold 
+adequate reserves to withstand financial disruptions. Even as debates unfold across the 
+Atlantic, with the incoming US administration re-evaluating regulatory priorities, it is 
+essential to remind ourselves that robust implementation of Basel III is a foundational 
+building block for long-term financial stability.
+[Slide 2 Roadmap of today's talk]
+As you can see on this slide, I will first give you an overview of the ESRB and its 
+functions. Next, I will discuss key risks to EU financial stability, based on the ESRB's 
+recent systemic risk assessment and major trends behind these risks. Finally, I will 
+share some thoughts with you on how we believe the ESRB needs to change and 
+develop in the continuously evolving systemic risk landscape.
+[Slide 3 ESRB organisational chart]
+The ESRB benefits from a large and diverse membership. At the General Board there 
+are national supervisory authorities, national central banks, the ECB, the European 
+Supervisory Authorities (ESAs), the Commission.
+In addition to the Steering Committee, which sets strategy, there are two Advisory 
+Committees, technical and scientific, that are both created by statute.
+The Advisory Technical Committee considers topics from a policy perspective and is 
+the primary operational arm of the ESRB. It is the central hub for the ESRB's analytical 
+work.
+The Advisory Scientific Committee, adopts a more academic perspective. Composed of 
+15 external academic experts plus the Chair of the Advisory Technical Committee, it 
+conducts research and provides advice to support other parts of the ESRB's structure.
+[Slide 4 Key risks in the EU financial system]
+Despite the challenges in the macro-financial environment over the past few years, the 
+EU financial system has remained resilient.
+Let me summarise our current view of the key risks to EU financial stability.
+[Slide 5 Macro-risks: Pursuing growth while nurturing financial stability]
+In our latest risk assessment, we have identified three key financial stability risks facing 
+the EU financial system. These are outlined on this slide. They concern: (1) the 
+macroeconomic environment and potential balance sheet stress in the private sector; 
+(2) vulnerabilities in financial markets that can lead to disorderly market corrections; and 
+(3) deteriorating asset quality, and consequent funding risks in the banking sector.
+Overall, risks to financial stability in the EU have increased over the past months amid 
+high political uncertainty and elevated geopolitical tensions. This is reflected in the 
+emergence of several plausible triggers for tail risk scenarios. These include new major 
+trade restrictions and the escalation of the Russian illegal war in Ukraine or the tragic 
+
+3/6 BIS - Central bankers' speeches
+conflict in the Middle East. Related to this, the EU economy has faced increasing 
+number of cyberattacks and acts of hybrid warfare. These factors may intensify 
+macroeconomic, credit and market risks and make financial markets and commodity 
+prices more volatile.
+The first financial stability risk relates to a weak macroeconomic environment and 
+potential balance sheet stress in the private sector, which has so far been resilient. 
+While the economic outlook is slowly improving, there are two particular issues of 
+concern in the longer-term outlook for the EU: geoeconomic fragmentation and low 
+productivity growth.
+In recent years, geopolitical tensions have risen substantially with Russia's war in 
+Ukraine, the conflict in the Middle East and China's strategic aims. The rise in 
+geopolitical tensions is greatly contributing to an increasingly uncertain and volatile 
+global environment and it also has significant implications for Europe.
+Overall, the exposure of euro area bank assets from high-risk countries is low, so the 
+direct risks in the banking sector are limited. In 2024 Russia, China and the Middle East 
+account altogether only for around 5% of euro area banks' assets. Banks in the euro 
+area have also reacted quickly to increased country risks. This is evident in the monthly 
+development of the foreign corporate loan portfolio, which you can see in the graph on 
+the left.
+We are more concerned about indirect macroeconomic impacts via trade wars, 
+protectionism and geoeconomic fragmentation. Geopolitics is shaping the economic 
+operational environment and is likely to have long-term adverse effects.
+This leads me to the marked slowdown in productivity growth, which is Europe's 
+Achilles heel. The EU's persistent productivity gap in relation to the United States has 
+widened further in the past few years, as per the graph on the right.
+The need for Europe to pursue stronger productivity growth on all fronts is a key 
+challenge, as outlined in former ECB President Mario Draghi's recent report. In pursuit 
+of productivity and economic growth, Europe should support better distribution of new 
+technologies, improve access to finance and remove existing barriers to cross-border 
+services.
+However, when we talk about actions to accelerate economic growth, it also inevitably 
+means taking more risks. It is important in these discussions that we do not take the 
+stability of the financial system for granted.
+When memories of crises fade and the financial system remains stable for a longer 
+period, discussions about deregulation tend to gain momentum – as we are now 
+witnessing. But taking the deregulation route would be very short-sighted from the 
+financial stability perspective.
+[Slide 6: Market risks: Promoting capital markets union while managing the non-
+bank financial intermediation sector's systemic risks]
+
+4/6 BIS - Central bankers' speeches
+The second risk identified by the ESRB relates to financial markets, where the risk 
+appetite has been unusually strong, especially in the context of high macro-financial 
+uncertainty. The abrupt, albeit short-lived, market correction in early August showed 
+how sensitive the risk appetite can be to shocks, and further corrections may come.
+In the EU, promoting the savings and investment union – or capital markets union  has 
+gained new impetus over the past year. I believe that a better functioning and more 
+unified European capital market would promote EU competitiveness and distribution of 
+risk. It would also reduce the bank-centric nature of the EU financial system and the 
+resulting vulnerabilities.
+At the same time, we must ensure that the risks in the non-bank sector are  managed 
+effectively, including at the systemic level.
+There has been active discussion in the EU this year about the need to extend 
+macroprudential instruments beyond the banking sector, especially to the investment 
+fund sector. This has been motivated by the significant growth of the investment fund 
+sector. It is important, too, that we properly understand the interconnections and 
+dynamics between banks and non-banks.
+[Slide 7: Bank risks: Sturdy capital buffers provide resilience
+but new threats need to be addressed]
+Finally, the third identified risk concerns the banking sector. Vulnerabilities in the 
+banking sector could emerge, especially if the first two risks materialise. This could 
+increase credit risks and tighten financing conditions.
+So far, the EU banking sector has remained stable and resilient, due at least in part to 
+the financial regulations in place as well as micro- and macroprudential policies. 
+Profitability has increased significantly in recent years while the capital ratios of euro 
+area banks have approximately doubled since the global financial crisis. However, 
+although higher bank capitalisation protects banks from traditional risks, such as credit 
+risks, new risks create new concerns.
+Digitalisation has led to significant cost savings for banks as customers can conduct 
+many of their bank business at home on their computers. At the same time, as we 
+learned the hard way from the deposit flight in the United States a little over a year ago, 
+increased digitalisation may also make banks more vulnerable to liquidity risks. Sooner 
+or later, new technological advances, such as artificial intelligence and quantum 
+computing, will bring profound changes to the functioning and structures of economies, 
+finance and society in general. It is essential that we understand the relevance of these 
+technologies and the use of big data in relation to systemic risks.
+The vulnerabilities and risks from the climate and nature crises can no longer be 
+categorised as long-term issues; they require our immediate attention. Cybersecurity is 
+also a challenge for banks, as geopolitical tensions take cyber risks to a new level and 
+present hybrid and physical cyber risks. A recent prominent example of this is the 
+damage to telecommunications cables in the Baltic Sea.
+
+5/6 BIS - Central bankers' speeches
+These factors should also be properly taken into account in our own analysis of 
+systemic risks. A lot of work has already been done, but there is still a lot of room for 
+improvement, especially on potential macroprudential tools in these areas.
+[Slide 7 Priorities in developing the ESRB]
+Given the constantly evolving environment, the ESRB's mandate and set-up need to be 
+reviewed from time to time. The European Commission is currently tasked with 
+reporting on the review of the ESRB to the European Parliament and to the Council of 
+the European Union.
+For this purpose, the ESRB has established a High-Level Group to identify what 
+changes to the ESRB's mission or framework might be necessary, and to provide 
+insights to the EU's co-legislators prior to the review process. I have the honour of 
+chairing this group.
+The High-Level Group will soon publish a report on the future of the ESRB. Let me 
+highlight a few priorities that I consider important for developing the ESRB and that are 
+likely to be reflected in the report.
+First of all, it is important that the ESRB's focus should move towards a holistic 
+assessment of systemic risks in the EU financial system. Given its large and diverse 
+membership, including national supervisory authorities, national central banks, the 
+ECB, the European Supervisory Authorities (ESAs), the Commission, etc., the ESRB 
+has a unique ability to examine cross-sectoral, cross-border and interlinked risks – the 
+truly systemic dimension of the risks.
+A holistic assessment of systemic risks to financial stability in the EU would also require 
+a system-wide stress testing framework that would allow consistent analysis and 
+assessment of vulnerabilities across the key sectors of the EU financial system. The 
+stress testing framework would need to be complemented with other more qualitative 
+sources of information, including market intelligence and expert judgement.
+To further develop its assessment of systemic risks in the EU, the ESRB would need 
+comprehensive and sufficiently granular EU-wide data covering both banks and non-
+banks. In particular, improving data sharing between ESAs and the ESRB would be 
+necessary to assess interconnections between different entities and segments in the 
+EU financial system.
+In addition to enhancing systemic risk analysis, the ESRB will deepen its analysis of 
+macro-financial vulnerabilities in EU Member States and assess how macroprudential 
+policy measures enhance the resilience of the financial system against identified risks. 
+This kind of assessment of national macroprudential policy stances could feed into the 
+EU's macroeconomic imbalance procedure.
+Finally, it is essential to strengthen the ESRB's communications on financial stability, 
+systemic risks and macroprudential policies. Even perfect systemic risk assessments 
+would be of little value if they, and consequent policy conclusions, cannot be effectively 
+communicated to the financial industry, other stakeholders and the general public.
+
+6/6 BIS - Central bankers' speeches
+Let me now conclude. Financial stability fundamentally depends on the geopolitical and 
+macroenonomic context. The best for EU financial stability at this juncture is to maintain 
+European unity and firmly support Ukraine in the face of Russia's war.
+Furthermore, it is crucial to strengthen the structural foundations of the European 
+economy by focusing policy actions on productivity growth and industrial 
+competitiveness, while retaining the European model of social inclusion.
+The ESRB, together with the ESAs, the ECB,  the national central banks and 
+supervisory authorities, continues to play a key role in safeguarding the stability of the 
+EU financial system. Our work will focus on the evolving systemic risk and will be based 
+on comprehensive data and research, high-quality analysis, and wide-ranging 
+cooperation between authorities.
+Today, I have outlined to you the main systemic risks that we have identified and are 
+currently analysing and monitoring at the ESRB. As I noted earlier, I would be most 
+interested to hear your views concerning the global systemic risk landscape.
+Thank you very much for your attention.

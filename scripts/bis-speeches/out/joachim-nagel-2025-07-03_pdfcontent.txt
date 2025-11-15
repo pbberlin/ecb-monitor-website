@@ -1,0 +1,404 @@
+Homepage[/en] Press[/en/press] Speeches[/en/press/speeches] 
+23.06.2025| Freiburg im Breisgau | Joachim Nagel
+Check against delivery.
+1 Introduction
+Ladies and gentlemen, I am delighted and honoured to be able to deliver the
+20th Walter Eucken lecture.
+“Good economic policy is regulatory policy” – this motto has been the hallmark of
+the Walter Eucken Institute ever since it was founded. True to that guiding prin‐
+ciple, your institution concerns itself in particular with the question of how our
+market-based and competitive order can be maintained and further developed.
+Monetary policy does not always play the key role in such matters. Nor was
+Walter Eucken a specialist in monetary theory, but someone who was mainly
+concerned with the economic system in its entirety. Nonetheless, monetary sta‐
+bility was a key factor underpinning his economic policy thinking.
+One impressive example of this belief can be found in his “Principles of Economic
+Policy”, where he writes: “All endeavours to realise a competitive framework are
+in vain unless a certain level of monetary stability can be assured.”
+Current and future monetary policy challengesfacing the Eurosystem
+20th Walter Eucken lecture
+1 Introduction
+2 Operational framework for implementing monetary policy
+3 Quantitative tightening
+4 Monetary policy stance
+5 Conclusion
+[1]
+
+Though many decades have passed in the meantime, that statement still stands
+up today. And in my view, the fundamental idea behind that remark has since
+become the core principle for major central banks: guaranteeing price stability is
+their core mandate.
+That said, Eucken’s concept of how price stability should be maintained was very
+diﬀerent to ours today. One page later he issues this stern warning: “… experi‐
+ence shows that a monetary constitution which gives free rein to those in charge
+of monetary policy places greater conﬁdence in them than it is advisably possi‐
+ble to do.”
+This, Eucken argued, harboured the danger that “[…] a monetary constitution
+that was not automatically constructed will be abused for inﬂation.” It is a
+remark that articulated his fundamental scepticism about government control.
+This led Eucken to favour a “commodity-reserve currency” system.
+Eucken’s misgivings were picked up again decades later in the form of the time-
+inconsistency problem of Robert Barro and David Gordon.  The time-inconsis‐
+tency problem is a situation where policymakers are often tempted to deviate
+from their pledge to keep prices stable in the short run in order to stimulate the
+economy. Economic agents recognise this temptation, however, and adjust their
+inﬂation expectations accordingly.
+This ultimately drives up inﬂation without actually stimulating the economy.
+Policymakers and economic agents end up being worse oﬀ than they would
+have been if the price stability pledge had been credible and adhered to
+accordingly.
+The time-inconsistency problem was mitigated by monetary policy being
+entrusted to an independent central bank with a clear mandate to preserve price
+stability. Otmar Issing transformed Eucken’s dictum from the “primacy of mone‐
+tary policy” to a “primacy of price stability” – and rightly so, in my view.
+[2]
+[3]
+[4]
+
+In my speech today, I will assess this primacy of price stability from diﬀerent
+angles while always looking to incorporate Eucken’s regulatory perspective into
+my remarks. To this end, I would like to pick up on three topical monetary policy
+issues that the ECB (European Central Bank) Governing Council has been con‐
+cerned with recently. I will therefore structure my lecture around the following
+key questions: 
+So I will be beginning with some fairly abstract thoughts and become increas‐
+ingly more speciﬁc as my speech progresses.
+2 Operational framework for implementing monetary policy
+Let me begin with the Eurosystem’s operational framework for implementing
+monetary policy. The purpose of the operational framework is to help steer
+short-term money market rates closely in line with the Governing Council’s mon‐
+etary policy decisions.
+Decisions regarding the stance of monetary policy, meanwhile – in particular the
+level of the key interest rates – are taken by the Governing Council on the basis of
+its monetary policy strategy. And at the heart of this strategy is the primary
+objective of maintaining price stability.
+2.1 Changes to the operational framework for implementing monetary policy
+In March 2024, we, the members of the Governing Council, adopted changes to
+the operational framework for implementing monetary policy.  These adjust‐
+ments came about against the backdrop of the run-oﬀ of the extensive asset
+holdings and thus the gradual decline in excess liquidity. 
+First, the Governing Council last year adjusted its operational framework for
+implementing monetary policy and, as part of these changes, announced that
+structural monetary policy operations would be introduced in the future. How
+do these operations ﬁt in from a regulatory viewpoint? I will share some more
+details about these structural operations in just a few moments.
+•
+Second, how is the run-oﬀ of the asset purchase programmes aﬀecting the
+stance of monetary policy, and which implications have been given insuﬃcient
+attention so far?
+•
+And third, how should the current monetary policy stance be assessed?•
+[5]
+
+Excess liquidity is the name given to the reserves held by commercial banks with
+the Eurosystem above and beyond the banking system’s structural liquidity
+needs. Structural liquidity needs arise, ﬁrst, from what are known as autono‐
+mous factors over which we, as a central bank, have no direct inﬂuence. These
+factors include the general public’s demand for banknotes, for example. Second,
+structural liquidity needs come about because commercial banks are required to
+hold a minimum reserve.
+The high level of excess liquidity can be traced back to the monetary policy asset
+purchase programmes adopted during the period of low interest rates. As the
+asset purchase programmes run oﬀ, this excess liquidity will gradually decline.
+To prevent this from causing excessive ﬂuctuation in short-term money market
+rates, the Governing Council, as a precautionary measure, staked out a frame‐
+work for steering money market interest rates in the future. Last year, we agreed
+to narrow the spread between the main reﬁnancing rate and the deposit facility
+rate from 50 to 15 basis points. 
+This is the key lever for steering money market interest rates going forward.
+However, its impact will only become more visible as the balance sheet nor‐
+malises, once excess liquidity has declined signiﬁcantly. We will closely monitor
+how money market rates are discovered based on this change.
+We will continue to conduct our weekly main reﬁnancing operations and the
+three-month tenders based on the full allotment procedure. This means that
+banks will be able to tap into an extensive source of liquidity – and do so in
+return for a broad variety of collateral. This helps make sure that banks across
+the euro area are treated equally and enables banks to participate in our opera‐
+tions, no matter what business model they run.
+In addition, the Governing Council agreed in principle to introduce what are
+known as structural operations at a later stage. These are expected to be imple‐
+mented in the form of structural longer-term credit operations and a structural
+portfolio of securities. 
+
+These operations will make a signiﬁcant contribution to covering the banking
+sector’s structural liquidity needs. You will remember how I explained that struc‐
+tural liquidity needs come about due to autonomous factors, which can be pre‐
+dicted relatively well, as well as the minimum reserve requirements.
+2.2 Structural liquidity operations: assessment from a regulatory perspective
+By agreeing on structural operations, we laid out some fundamental ground‐
+work very early on. But how exactly these structural operations should be
+designed and how they will relate to each other once the monetary policy asset
+holdings have run oﬀ are matters for another day. There is still time to take
+these decisions. 
+Because in all probability, it will take a few years yet for the asset holdings to
+shrink to such an extent that we see a structural liquidity deﬁcit again. Right
+now, though, there is nothing to stop us from formulating regulatory principles –
+ inspired by Walter Eucken’s line of thinking – that might provide guidance for the
+structural operations.
+What matters ﬁrst of all is that these structural operations should be, and should
+remain, strictly focused on their intrinsic purpose, which is to cover a substantial
+portion of the banking sector’s structural liquidity needs. These operations are
+not there to fund individual Member States, banks or enterprises. Nor are they
+intended to stimulate lending. And they are most certainly not there to inﬂuence
+the stance of monetary policy.
+A key factor underpinning economic and monetary policy in the European Union
+is the requirement to act in accordance with the principle of an open market
+economy with free competition – that is a principle that has shaped the
+EU (European Union) ever since the Maastricht Treaty. It is about promoting the
+eﬃcient allocation of resources, which is an objective that is closely linked to
+economic growth and prosperity. 
+This principle echoes the thinking of Walter Eucken, who always stressed the
+importance of competition and the avoidance of market distortions. Structural
+operations should therefore be designed such that they do not interfere with rel‐
+ative market prices and the allocation of resources any more than they have to. 
+
+In a structural portfolio, say, having fewer longer-dated bonds and more bonds
+with short maturities could help to reduce interference with the term premium.
+Limiting structural reﬁnancing operations to sensible maturities would allow pol‐
+icymakers to deliver a timely response to potential declines in liquidity needs.
+Using a variable rate tender procedure for the reﬁnancing operations would play
+a part in upholding competition among bank funding instruments and avoiding
+subsidy elements. Because then, banks’ demand and their alternative funding
+costs would be reﬂected in the interest rates they bid.
+The speciﬁc design of a structural portfolio raises a variety of granular questions,
+like which bond classes should be purchased? How can market price eﬀects and
+subsidy elements be minimised? These decisions are particularly challenging in a
+monetary union. 
+One thing is clear: the target volume of a structural portfolio should be sensibly
+proportionate to the volume of purchasable bonds. To avoid market distortions,
+only small portions of individual bond issues should be purchased.
+One possible question from a regulatory perspective is whether corporate bonds
+belong in a structural portfolio in the ﬁrst place. Because the main beneﬁciaries
+of this would be large enterprises that can tap capital markets. This, in turn,
+could distort the allocation of resources.
+And one matter that certainly merits consideration as regards public sector
+bonds is that we should not reduce the incentives for sound ﬁscal management
+as far as we can avoid it. 
+As you can see, then, some issues still need to be clariﬁed in future. We still have
+plenty of time to do this because the asset holdings are only running oﬀ slowly
+and excess liquidity levels will stay high for the foreseeable future.
+Leaving this aside, there are practical reasons for introducing the structural
+longer-term credit operations ﬁrst and only turning to the matter of the struc‐
+tural portfolio of securities at a later stage. That’s because the extensive legacy
+bond holdings from the monetary policy asset purchase programmes will be
+taken into account when the structural operations are introduced – the
+Governing Council agreed as much last year.
+
+This leads the Bundesbank to expect that structural reﬁnancing operations will
+be introduced ﬁrst and that a structural portfolio of securities will only be built
+up at a later stage. In addition, the Bundesbank believes that suitably designed
+structural reﬁnancing operations will cover the bulk of the banking system’s
+structural liquidity needs in future.
+3 Quantitative tightening
+Let me move away from this perhaps somewhat abstract discussion and more
+towards monetary policy in practice. The passive run-oﬀ of our asset purchase
+programmes is signiﬁcant not only with regard to our operational framework for
+implementing monetary policy.
+It also plays a role for monetary policy in practice, as it is tending to tighten the
+monetary policy stance. And it is doing so despite the fact that the Eurosystem
+has already loosened its monetary policy by lowering interest rates eight times
+since June 2024.
+But does this not mean that these two measures are contradictory and that the
+run-oﬀ of the asset purchase programmes should therefore be stopped? The
+answer to this is a clear “no”. Allow me to explain to you in more detail why I can
+give such a clear answer.
+3.1 Steering monetary policy via key interest rates
+The asset purchase programmes were introduced when the Eurosystem was
+operating close to the eﬀective zero lower bound on interest rates. As a result, it
+was hardly possible to further ease monetary policy to any signiﬁcant extent by
+cutting key interest rates. In this context, the asset purchase programmes
+proved to be a useful instrument of monetary policy.  This was because they
+enabled monetary policy to exert additional inﬂuence on medium to long-term
+interest rates, in particular. In turn, this helped to stabilise price developments. 
+However, considerable purchase volumes were needed to achieve a notable
+impact on inﬂation. For example, an overview study from the Journal of
+Monetary Economics shows that, in the euro area, purchases totalling around
+€150 billion raised the price level by 11 basis points.
+[6]
+[7]
+
+While the macroeconomic eﬀects of quantitative easing have already been
+studied in great depth, quantitative tightening, especially for the euro area,
+remains a largely unexplored ﬁeld. In any case, the impact of quantitative tight‐
+ening is likely to be weaker overall than the impact of quantitative easing.
+First, ﬁnancial markets were prepared at an early stage for the run-oﬀ of the
+asset purchase programmes. As a result, there is no noteworthy announcement
+eﬀect. Second, the Eurosystem’s balance sheet will shrink by around €30 billion
+per month over the coming years.
+For the sake of comparison: at its peak, the Eurosystem purchased bonds worth
+around €80 billion per month under the expanded asset purchase programme
+(APP (asset purchase programme)). Under the pandemic emergency purchase
+programme (PEPP (pandemic emergency purchase programme)), monthly pur‐
+chases amounted to more than €100 billion at times.
+On the whole, the run-oﬀ of our asset purchase programmes should therefore
+have only a marginal impact on the monetary policy stance. And we also take
+this eﬀect into account indirectly when setting the level of key interest rates. This
+is because medium-term and long-term interest rates feed directly into the
+Eurosystem’s inﬂation forecasts, which are a key foundation for our monetary
+policy decisions.
+To sum up: the Eurosystem is now eﬀectively steering its monetary policy stance
+via key interest rates. This means that we can continue to allow the monetary
+policy purchase programmes to passively run oﬀ without any cause for concern.
+3.2 Taking greater account of the impact on central bank ﬁnances
+Thus far, I have focused on the desired monetary policy eﬀects of large-volume
+asset purchases for the purposes of quantitative easing. However, we must not
+lose sight of their side eﬀects. These include, for example, incentives for lending
+to less productive ﬁrms, widening wealth inequality, and rising real estate prices.
+[8]
+[9]
+
+Another possible eﬀect of large-volume asset purchases in the low interest rate
+environment was the rapid rise in inﬂation, when the monetary policy stance
+had to be tightened signiﬁcantly. The income interest rates on the purchased
+medium-term and long-term securities on the assets side of the Eurosystem’s
+balance sheet were largely ﬁxed. By contrast, the expenditure interest rates on
+the liabilities side of our balance sheet are variable, as banks’ balances are remu‐
+nerated at the deposit facility rate. 
+The Eurosystem thus took on a high level of interest rate risk with the asset pur‐
+chase programmes. This risk has materialised since we had to raise interest
+rates quickly and signiﬁcantly in response to the wave of inﬂation. And this
+entails considerable balance sheet losses for the Eurosystem and the
+Bundesbank. 
+Let me make one thing clear: the primary objective of the Eurosystem is to main‐
+tain price stability. On the ECB (European Central Bank) Governing Council, we
+do everything necessary to achieve this – even if using the speciﬁc instruments
+required is likely to lead to a loss. There must be no doubt about this. And the
+balance sheet losses that we are incurring at present do not restrict our ability to
+maintain price stability.
+However, in light of recent experience, we should only use the instrument of
+large-volume asset purchases at the lower bound in absolutely exceptional cases
+in future. 
+4 Monetary policy stance
+Finally, let us touch upon day-to-day monetary policy business. Earlier, I
+described how quantitative tightening inﬂuences the Eurosystem’s monetary
+policy stance. But how should we assess the current monetary policy stance
+overall?
+A well-known concept for this is the natural rate of interest. It is deﬁned as the
+real interest rate that would prevail if the economy were at normal capacity utili‐
+sation and growing at its potential rate and if prices were stable.
+
+As the natural rate of interest cannot be observed directly, it needs to be esti‐
+mated. Eurosystem calculations using various models put the nominal natural
+rate of interest at the end of 2024 at between 1.75 % and 2.25 %.
+To put this into perspective: since the key interest rate cut at the monetary policy
+meeting at the beginning of June, the deposit facility rate, which is relevant to
+the monetary policy stance, has stood at 2 %. This is exactly in the middle of the
+range that I just mentioned. It is therefore likely that the Eurosystem’s monetary
+policy is currently within neutral territory, even if the estimates are subject to
+great uncertainty.
+Owing to this high degree of uncertainty, it would be risky to base decisions
+solely on the natural rate of interest. As a result, we on the
+ECB (European Central Bank) Governing Council always look at a wide variety of
+real and ﬁnancial indicators along the entire monetary policy transmission chain.
+This provides us with the most comprehensive picture of the current monetary
+policy stance possible. Overall, we are now in a good position with regard to the
+interest rate level in anticipation of further developments in inﬂation. 
+For our future monetary policy stance, the greatest uncertainty at present –
+ alongside events in the Middle East – is undoubtedly the unpredictable
+US (United States) trade policy. It is not only unclear how strong its eﬀects could
+be. It is also ultimately uncertain whether US (United States) trade policy will
+have an inﬂationary or disinﬂationary impact on the euro area.
+This is because the end result depends on a large number of factors. These
+include the response to US (United States) tariﬀs by the Federal Reserve, devel‐
+opments in the exchange rate between the US (United States) dollar and the
+euro, any potential retaliatory tariﬀs in Europe, and the impact on international
+supply chains.
+The degree of uncertainty is exceptionally high. And this is the reason why the
+ECB (European Central Bank) Governing Council is now, more than ever, making
+its decisions on a data-dependent and meeting-by-meeting basis.  So, if you
+were expecting me to give a detailed outlook of interest rates, then I am afraid
+that I will have to disappoint you. 
+[10]
+[11]
+
+Critics may argue that our data-dependent and meeting-by-meeting approach
+provides ﬁnancial markets with too little clarity and that we should commit our‐
+selves more ﬁrmly to a future path of interest rates. There is no doubt in my
+mind that Walter Eucken would be on our side here. 
+Eucken was critical of monetary policy aimed at active stabilisation, as it is the
+central bank that decides the appropriate level of interest rates, not the markets.
+To put it bluntly, central banks suﬀer from Hayek’s “pretence of knowledge” –
+ which is to say, the presumption of possessing more knowledge than we actu‐
+ally do.
+There is no question: setting the optimal level of interest rates to stabilise prices
+is an extremely challenging task. However, this task is by no means impossible,
+as shown by the average inﬂation of just over 2 % during the 25 years since the
+introduction of the euro. 
+But we can surely agree that the diﬃculty of this task is dependent on the
+degree of uncertainty. In times of high uncertainty, as we are experiencing right
+now, central banks should not claim to be able to see far into the future. The
+interest outlook should therefore be kept correspondingly short-term at present.
+5 Conclusion
+Ladies and gentlemen, I hope that my remarks have shown that the principles of
+Walter Eucken are still relevant to monetary policy today. The structural opera‐
+tions planned for the future should therefore also be based on regulatory policy
+principles.
+The gradual reduction of our current asset holdings is a necessary step towards
+monetary policy normalisation. Despite the gradual decline in asset holdings,
+the ECB (European Central Bank) Governing Council is steering the monetary
+policy stance eﬀectively via key interest rates.
+These are within an appropriate range at present. Uncertainty remains high,
+especially following the US (United States) military strikes in Iran. It would there‐
+fore be wise for us on the ECB (European Central Bank) Governing Council to
+continue focusing on ﬂexibility and data dependence.
+[12]
+
+I suspect that Walter Eucken, too, would have called for precisely this restraint
+and humility faced with the complexity of economic interrelationships. Thank
+you for your attention.
+See Eucken, W. (2004), Principles of Economic Policy [Grundsätze der
+Wirtschaftspolitik], 7th edition, Mohr Siebeck, p. 256.
+1.
+A detailed review of the commodity-reserve currency system can be found in
+Friedman, M. (1951), Commodity-Reserve Currency, Journal of Political
+Economy, Vol. 59(3).
+2.
+See Barro, R. and D. Gordon (1983), Rules, discretion and reputation in a
+model of monetary policy, Journal of Monetary Economics, Vol. 12(1),
+pp. 101‑121.
+3.
+See Issing, O. (2004), On the primacy of price stability, Prague Spring Lecture,
+Liberální Institute, Prague, 10 June 2004.
+4.
+This topic is explained in greater detail in Deutsche Bundesbank (2025),
+Review of the operational framework for implementing monetary policy:
+outlook for the Eurosystem balance sheet and structural operations, Monthly
+Report, June 2025.
+5.
+See Rostagno, M., C. Altavilla, G. Carboni, W. Lemke, R. Motto and A. Saint
+Guilhem (2021), Combining negative rates, forward guidance and asset pur‐
+chases: identiﬁcation and impacts of the ECB (European Central Bank)’s
+unconventional policies, Working Paper Series No 2564, European Central
+Bank.
+6.
+See Fabo, B., M. Jančoková, E. Kempf and Ľ. Pástor (2021), Fifty shades of
+QE (quantitative easing): Comparing ﬁndings of central bankers and aca‐
+demics, Journal of Monetary Economics, Vol. 120, pp. 1‑20.
+7.
+See Du, W., K. Forbes and M. Luzzetti (2024), Quantitative Tightening Around
+the Globe: What Have We Learned?
+NBER (National Bureau of Economic Research) Working Paper No 32321,
+April 2024.
+8.
+See, for example, Acharya, V., T. Eisert, C. Euﬁnger and C. Hirsch (2019),
+Whatever It Takes: The Real Eﬀects of Unconventional Monetary Policy, The
+Review of Financial Studies, Vol. 32(9), pp. 3366‑3411; Asriyan, V., L. Laeven,
+A. Martin, A. Van der Ghote and V. Vanasco (2024), Falling Interest Rates and
+Credit Reallocation: Lessons from General Equilibrium, Review of Economic
+Studies; Battistini, N., M. Falagiarda, A. Hackmann, and M. Roma (2022),
+Navigating the Housing Channel of Monetary Policy Across Euro Area
+Regions, Working Paper Series No 2752, European Central Bank.
+9.
+
+See Brand, C., N. Lisack and F. Mazelis (2025), Natural rate estimates for the
+euro area: insights, uncertainties and shortcomings,
+ECB (European Central Bank) Economic Bulletin, 1/2025.
+10.
+For more detailed comments on the impact of uncertainty on monetary
+policy, see Nagel, J. (2025), European monetary policy in times of high uncer‐
+tainty, lecture at ZEW (Zentrum für Europäische Wirtschaftsforschung GmbH)
+ – Leibniz Centre for European Economic Research, 27 May 2025, Mannheim.
+11.
+See von Hayek, F. (1974), The Pretence of Knowledge, Lecture to the memory
+of Alfred Nobel, 11 December 1974.
+12.

@@ -1,0 +1,187 @@
+1/5 BIS - Central bankers' speeches
+Olli Rehn: Europe's economy - taming inflation, tackling productivity
+Speech by Mr Olli Rehn, Governor of the Bank of Finland and First Vice-Chair of the 
+, at the 2024 RiskLab European Systemic Risk Board at Arcada, Bank of Finland and 
+onference on AI and Systemic Risk European Systemic Risk Board joint c
+Analytics, Helsinki, 7 June 2024.
+* * *
+Ladies and Gentlemen, Dear Colleagues and Friends,
+Good morning everyone. May I also take this opportunity, as Governor of the Bank of 
+Finland, to welcome you today. I am glad to see so many of you here in Helsinki, and of 
+course a warm welcome to all those who are online. Once again, the organizers of this 
+conference have put together an impressive programme, with cutting edge topics and 
+distinguished speakers. It is a great privilege to share my thoughts with you today.
+Let me begin with yesterday's news – literally! That is, yesterday we decided at the 
+Governing Council of the European Central Bank to reduce the ECB's key monetary 
+policy rates by 0.25 percentage points.
+What then is the story behind this very newsworthy decision? First and foremost, we 
+have made significant progress in disinflation since our last rate hike in September 
+2023. Inflation has fallen by more than 2.5 percentage points, and the inflation outlook 
+has improved markedly. Barring further setbacks, for instance in the geopolitical 
+situation and energy prices, or in wage developments for that matter, inflation is 
+projected to converge to our 2% target in the medium term.
+Euro area economic activity is showing increasing signs of recovery, and the labour 
+market has remained robust. The growth outlook was revised upwards yesterday, which 
+is obviously good news.
+Looking ahead, the ECB Governing Council will continue to follow a data-dependent 
+and meeting-by-meeting approach when determining the appropriate policy stance. We 
+will set our rates based on our analysis – at each Governing Council meeting – of three 
+parameters: the inflation outlook, the dynamics of underlying inflation and the strength 
+of monetary transmission. And we are not pre-committing to any rate path.
+In every meeting we also assess the risks to financial stability. In this regard too, it is 
+clear that today geopolitics is the main risk that may cast a shadow over financial 
+stability in Europe and more globally.
+The European Systemic Risk Board, the ESRB, monitors geopolitical developments 
+closely, as these could act as a trigger for many of the key systemic risks identified in 
+the European financial system.
+Let me say a few words about the ESRB.
+Its core task is to contribute to the prevention and mitigation of systemic risks in the 
+European context. Experience shows how important it is to understand and monitor 
+
+2/5 BIS - Central bankers' speeches
+risks in an increasingly complex, interconnected and continuously changing financial 
+system. One key requirement to succeed in this respect is to have access to high-
+quality data – without data there is no visibility regarding risks, and without proper 
+analysis it is hard to develop mitigating measures and policies.
+By the end of this year, the European Commission will report to the European 
+Parliament and Council on whether there is a need to revise the mandate or 
+organization of the ESRB to better answer the current challenges and changes in the 
+operating environment. The ESRB General Board has established a High-Level Group 
+on the ESRB Review.
+The High-Level Group will identify what kind of adjustments either to the mission or the 
+framework of the ESRB would be required and will provide its insights to the EU co-
+legislators. The group has four members, and I have the honour of chairing it. One of 
+the key areas which the group will be discussing is access to data.
+Dear Colleagues,
+Let me now turn to Finland as a case study. The ECB´s decision to cut its policy rates is 
+welcome news for the Finnish economy, which has been struggling particularly since 
+the energy shock and inflation spike that materialized after the start of Russia´s illegal 
+war in Ukraine.
+The Finnish housing market has been hit hard and the fall in house prices has been 
+significant. The decline in construction activity is one of the reasons why Finland´s 
+economy entered a recession in the latter part of last year.
+As any reader of economic history knows, large disruptions in housing and other real 
+estate markets have often led to severe financial crises. Finland in the late 1980s and 
+early 1990s was a case in point – a dark memory that we should not forget, but 
+certainly one that we should learn from. You can no doubt recall other examples around 
+the world, from the Tulip mania to the global financial crisis.
+So far, this time has been somewhat different, however. We have avoided such a crisis. 
+Most Finnish indebted households have been able to service their loans, although many 
+have been forced to reduce their consumption of goods and services. The problems in 
+the construction sector have, fortunately, not spread widely to other sectors. Banks 
+have even improved their profitability and capitalization, thanks to their growing net 
+interest income. 
+More generally, financial systems throughout the world have remained remarkably 
+resilient in the last few years – despite being hit by the pandemic, the spike in inflation, 
+rapid interest rate increases and the deposit runs in regional American banks. The 
+strengthened resilience is a testament to the profound regulatory and supervisory 
+reforms after the global financial crisis, as well as to the better readiness of 
+policymakers to take bold, timely and exceptional policy actions in times of crisis. 
+We expect that the systemic risks and vulnerabilities in Finland´s real estate market will 
+start to ease this year, assuming that interest rates fall and the economy starts to 
+recover as projected.
+
+3/5 BIS - Central bankers' speeches
+As we – the Bank of Finland – stated in our annual financial stability assessment, 
+published in May, we are fully aware that the deterioration in the international security 
+environment exposes Finnish and other western financial systems to shocks and 
+widespread disruptions. For instance, there is a heightened risk that the financial 
+market infrastructure and financial institutions could face more frequent and severe 
+cyberattacks and hybrid interference.
+In response to this, Finnish financial institutions have improved their continuity planning 
+and contingency preparations. The national emergency account system established in 
+Finland two years ago, in turn, ensures that critical banking and daily payment services 
+would be available to the public even in times of severe disruption.   
+The short-term economic outlook for the euro area and Finland is now somewhat 
+brighter than projected just a while ago. However, our long term growth prospects look 
+rather weak, unless we can manage to find new sources of growth. That goes for all of 
+Europe, too.
+As documented by Ian Goldin and others, the growth rate of labour productivity in the 
+OECD economies between the 1970s and the 1990s was around 2%. In the current 
+century, it has fallen to 1%. 
+The gap between Europe and the US has been widening, especially since the 
+pandemic. The discrepancy between post-pandemic developments in productivity is, 
+however, exaggerated if we only look at productivity per person. This is because the 
+pandemic caused a very large adjustment in the number of people employed in the 
+United States, while in Europe, thanks to different job retention schemes, jobs were 
+preserved – but hours worked fell abruptly.
+In other words, average hours worked decreased dramatically in Europe, but much less 
+in the US. Consequently, productivity per person looks substantially weaker in Europe 
+and the euro area than in the US.
+But still, even if we compare productivity per hour, Europe's performance is much 
+weaker than that in the United States. Between the fourth quarter of 2019 and the fourth 
+quarter of 2023, labour productivity per hour worked increased by 0.6% in the euro area 
+vs. 6% in the US. The productivity gap has widened mainly since mid-2022, when euro 
+area productivity growth was depressed by the energy shock. Slower growth in euro 
+area labour productivity is broad based across sectors, within manufacturing and 
+services alike, rather than driven by sectoral re-allocation.
+While different labour market dynamics and different shocks – or at least a different 
+magnitude of shocks – can explain the divergence of productivity growth in Europe from 
+that in the US in the past few years, structural factors play a significant role in 
+explaining the underlying differences between Europe and the US. This goes back to 
+well before the pandemic.
+The list of structural factors behind to the euro area's poor productivity performance is, 
+unfortunately, rather long. The euro area lags behind the United States particularly in 
+R&D, technology adoption and innovation. ICT and professional services stand out as 
+the sectors with the weakest relative productivity growth in the past few decades. 
+
+4/5 BIS - Central bankers' speeches
+Educational attainment is higher in the US on average, and the regulatory environment 
+there is more conducive to business dynamism.
+Finland has had its own challenges. Productivity growth has been very slow or non-
+existent for the past 10-15 years. This is the result of a unique combination of cyclical 
+and structural shocks – and the Finnish economy's inability to adjust sufficiently 
+smoothly.
+Europe needs more productivity growth, not least because its populations are ageing, 
+green investments require funding, public debts and deficits are large and defence 
+expenditures need to be raised. In Finland, productivity growth is also being curtailed by 
+the fact that the average level of educational attainment among younger age cohorts 
+has not advanced recently.
+The question of how productivity growth can be boosted is therefore a key challenge for 
+the economics profession. While waiting for your research let me reflect.
+Policies aimed at improving access to finance, such as further progress with the capital 
+markets union, and the removal of existing barriers to the provision of services across 
+countries could have a long-lasting impact in supporting productivity growth in the euro 
+area. Giving fresh impetus to the EU's capital markets union by relaunching it as an 
+investment and financing union could be one of the low hanging but high producing fruit.
+This links to technology. Some of us may have very high expectations concerning the 
+potential of generative artificial intelligence (AI) for boosting productivity and economic 
+growth. On the other hand, some, like Daron Acemoglu (recall Robert Gordon), are less 
+optimistic. In any event, it does appear quite probable, or at least possible, that the 
+spread of generative AI is going to have profound ramifications for labour markets, 
+businesses and societies at large.
+Increasing attention has been given to the potential effects of AI on the financial system 
+and financial stability. In his brilliant keynote speech yesterday, Professor Danielsson 
+warned us how overreliance on autonomous AI systems could pose risks to the integrity 
+and stability of the global financial system. I share his concern.
+Central banks need to keep pace with developments in emerging technologies and the 
+data economy. At the Bank of Finland, we have for quite some time already been using 
+machine learning algorithms in several core analysis functions, such as nowcasting, or 
+short-term GDP forecasting. The same goes for payment and settlement system 
+simulations and financial stability analysis. Together with the Finnish Financial 
+Supervisory Authority – the FIN-FSA – we recently established a cross-organizational 
+centre of excellence in advanced data science. Its nicely self-confident name is ACE, 
+the Analytics Center of Excellence.
+Dear Friends,
+Let me conclude. This weekend, EU citizens will vote in the European parliamentary 
+elections. Many crucial issues are at stake in these elections.
+
+5/5 BIS - Central bankers' speeches
+First and foremost is European unity in the face of Russia´s threat and, more generally, 
+in a world of heightened geopolitical challenges. Our support to Ukraine must be 
+unwavering, and we must work on several fronts to enhance European security. We 
+must also continue our fight against climate change.
+Second, strengthening the EU economy is of the utmost importance. Only a strong 
+economy can bring sustainable prosperity, security and stability. Maintaining price 
+stability is the central banks' best contribution to enhancing a predictable and conducive 
+environment for the long-term investments needed for digitalisation and the greening of 
+our economies.
+Europe's weak productivity performance calls for raising the level of ambition of the next 
+Commission. There are no shortcuts. In addition to R&D, we must foster reforms to 
+support productivity growth, including policies improving access to finance and 
+removing barriers services across countries. It is clear that the recent and future 
+developments in cutting-edge research and innovations, including AI, will play a key 
+role in the pursuit of these goals.
+Thus, it is no time for small talk, but taking big-time action for European unity and 
+reform – what a meaningful challenge!
+Thank you for your kind attention!

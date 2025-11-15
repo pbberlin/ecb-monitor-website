@@ -1,0 +1,205 @@
+1/6 BIS - Central bankers' speeches
+Yannis Stournaras: Should central banks' mandate be revised?
+Speech by Mr Yannis Stournaras, Governor of the Bank of Greece, at "Les Rencontres 
+Économiques d'Aix-en-Provence 2025", panel "Should central banks' mandate be 
+revised?", Aix-en-Provence, 5 July 2025. 
+* * *
+Good morning, everyone. Many thanks to the organisers for inviting me here today. It's 
+a pleasure to be part of this distinguished panel.
+Heraclitus, the Greek philosopher, famously asserted "everything changes, and nothing 
+stays".
+This observation is valid across all aspects of life, and central banking is no exception.
+It was not that long ago when monetary policy was thought to be a policy instrument 
+with limited influence, even by central bankers.
+One notable central banker who held that view was Arthur Burns, who was Federal 
+Reserve Chairman in the 1970s.
+And so, when inflation started rising in the United States following the first oil price 
+shock in the early 1970s, Burns kept his foot on the monetary-policy gas pedal.
+U.S. President Nixon was facing re-election and Burns did not want to jeopardize 
+Nixon's chances by allowing unemployment to rise.
+Burns advocated wage-price controls – and not monetary policy – as the best way to 
+prevent inflation.
+What followed was the Great Inflation -- a combination of double-digit inflation and 
+double-digit unemployment rates.
+Not all central banks acted that way. Both the Bundesbank and the Swiss National 
+Bank, to name two notable exceptions, tightened monetary policy in response to the 
+1970s oil price shocks.
+As a result, their economies escaped from the oil price shocks in much better condition, 
+both in terms of inflation and in terms of unemployment, than that of the United States.
+That experience taught central banks a lesson: monetary policy needs to focus on 
+inflation if it wants to prevent stagflation – that is, a combination of high inflation and 
+high unemployment.
+Today, no central banker would doubt that firm resolve is needed to tame inflation, even 
+if, as in the period following the Covid shock, inflation was mainly supply-driven.
+Consequently, the evolution of thinking about what central banks can – and cannot – do 
+has been profound during the past 50 years.
+
+2/6 BIS - Central bankers' speeches
+I. The evolving central bank mandate
+Related to that, another significant change has been the adoption of price stability as 
+the primary objective of central banks, reflecting the hard-learned lessons of the Great 
+Inflation era in the 1970s, to which I just referred.
+And many central banks have been granted political independence. Those two 
+developments are intrinsically connected, because experience has shown that a 
+politically independent central bank is best positioned to deliver price stability to its 
+citizens.
+The European Central Bank (ECB) is a prime example of a central bank that is both 
+independent and legally bound to achieve price stability.
+But the journey didn't end there. Fast forward to the Global Financial Crisis (GFC). That 
+profound shock revealed structural vulnerabilities in the financial system. In response, 
+many central banks broadened their mandates to include explicit financial stability 
+objectives.
+Central banks were granted sole or co-responsibility for macroprudential tasks – 
+effectively tools to prevent systemic risk.
+In the euro area, this translated into a monumental institutional development: the 
+creation of the banking union, entrusting the direct supervision of significant banks to 
+the ECB, in close cooperation with national authorities.
+This marked a pivotal step in strengthening financial stability, an important precondition 
+for price stability.
+More recently, the post-pandemic inflation surge and other structural shifts reignited the 
+debate around inflation targets and policy frameworks.
+The following question was addressed: are our current objectives, instruments, and 
+operational frameworks truly fit for purpose in this highly uncertain and volatile world?
+Should we revise our mandate by integrating other considerations, without 
+compromising the primary objective of price stability?
+II. The ECB's monetary policy strategy: a stability anchor
+My focus today will be on the Eurosystem. Our price stability mandate is enshrined in 
+the Treaty on the Functioning of the EU. Why is this so vital? Because history has 
+shown us the deep and lasting damage that can be caused by deviations from price 
+stability.
+How we deliver on our mandate is defined by our monetary policy strategy. Central to 
+this strategy is our unambiguous and symmetric 2% inflation target over the medium 
+term.
+
+3/6 BIS - Central bankers' speeches
+The point target was made explicit in 2021. It replaced a more complex formulation, 
+providing greater clarity. It offered a stable reference point that is easy for the public to 
+understand, enhancing wage and price setting, thereby strengthening the anchoring of 
+inflation expectations.
+Since its creation in 1999 and until the shocks of the early 2020s, the ECB delivered 
+inflation close to 2% on average. This helped build credibility – a precious asset. 
+Thanks to this credibility, even during the recent inflation surge, long-term expectations 
+remained well anchored.
+That, in turn, allowed us to act forcefully to bring inflation back to target, while also 
+achieving a soft landing of the economy.
+You might ask: why 2% and not zero? The answer lies in flexibility. An inflation buffer 
+above zero provides monetary policy with space for interest rate cuts in the event of 
+adverse developments and with a safety margin against the risk of deflation. It also 
+addresses issues like downward nominal rigidities and measurement bias.
+Several academics and policymakers have called for raising the target above 2%. 1 
+Such proposals have to be carefully weighed against potential risks to central bank 
+credibility.Frequent adjustments to the target risk undermining the credibility we have 2 
+worked so hard to build. If markets expect the target to keep shifting, inflation 
+expectations could de-anchor, making our job much harder.
+Our focus on the medium term is equally important, as it gives us valuable flexibility. 
+Monetary policy acts with long and variable lags. A medium-term approach enables us 
+to navigate inflationary or deflationary pressures in a stepwise, gradual manner - 
+without overreacting in ways that might harm economic activity and employment. This 
+approach allows us to look through short-lived supply-driven deviations of inflation from 
+target, which are expected to dissipate over time.
+An important strand of the literature explores monetary policy implications from 
+heterogenous developments in prices across sectors. Such approaches underscore the 
+critical importance of delving into granular data to help the understanding of how prices 
+are changing in the economy. At the ECB, inflation analysis includes a broad range of 
+measures encompassing headline and various metrics of underlying inflation, to help us 
+assess the dynamics and drivers of inflation.
+Our aim is to ensure that our policies are transmitted smoothly and effectively across 
+member states and segments of the economy, in order to enhance the prosperity of our 
+citizens. This is key in a monetary union where financial structures and economic 
+conditions still differ widely.
+I. Rethinking Mandates: Responding to Emerging Challenges
+Let me now turn to broader challenges that call for a forward-looking reassessment of 
+central bank roles.
+Central banks do not operate in a vacuum. In the euro area, we must navigate a 
+particularly complex environment.
+
+4/6 BIS - Central bankers' speeches
+This environment is shaped by fragmented capital markets, persistent geopolitical 
+tensions that impact energy markets and supply chains, the urgency of climate risks, 
+and a pressing need to address the productivity gap vis-à-vis other major economic 
+areas.
+Let me be clear: central banks are not the main actors in resolving these challenges. 
+That responsibility lies primarily with governments and legislators in Europe.
+However, monetary policy has a vital supporting role: to provide an anchor of stability. 
+By safeguarding our primary objective – maintaining low and predictable inflation – we 
+secure a fundamental condition for sustainable growth. This, in turn, fosters confidence 
+among households and firms, spurring investment and job creation.
+Over the past year, as inflation has eased, we have been able to largely remove policy 
+restrictiveness. This easing in financing conditions will make capital more affordable 
+and accessible, which is essential for investment in a time of very high uncertainty.
+The ECB has also been a frontrunner in contributing to some of these broader agendas. 
+Within our mandate, we are actively integrating climate-related considerations into our 
+operations, risk assessments, and supervisory and collateral frameworks. In our 
+strategy assessment, climate remains a policy priority within our remit.
+Yet, there is something that cannot change: monetary policy cannot drive Europe's 
+transformation alone.
+That's why we are pressing for progress in other areas, notably financial architecture. 
+Such progress can support the effectiveness of our monetary policy, a point made clear 
+also in our 2025 strategy assessment.
+To mobilize investment at the scale needed to re-invigorate growth and ensure that the 
+benefits flow seamlessly across borders, we need to finalise the Banking Union and 
+deepen the Capital Markets Union.
+A fully fledged "Savings and Investments Union" is essential. It will fundamentally 
+improve how our financial system channels savings into productive investment, 
+especially in critical areas like energy, defence, and innovation – all pressing priorities 
+for our Union.
+A more integrated union will allow the euro to take on a greater role as an international 
+currency. This means not only sharing in the benefits that come with that global status, 
+but also stepping up to the responsibility that comes with it – especially at a time when 
+the world is increasingly marked by uncertainty and division.
+Europe must rise to the occasion. The ECB is working towards the digital euro, a 
+project that can strengthen the international role of our currency in the digital era. This 
+initiative can increase efficiency, innovation and resilience while protecting our 
+monetary sovereignty.
+The current institutional setup poses an important obstacle because the ECB 
+essentially operates without a genuine fiscal counterpart at the euro area level. A 
+
+5/6 BIS - Central bankers' speeches
+permanent central fiscal capacity – a shared framework for managing public finances – 
+would be a true turning point, enabling coordinated investment and shared 
+responsibility for growth-enhancing initiatives.
+The Recovery and Resilience Facility (RRF) could serve as a valuable blueprint for the 
+future. The creation of a common European safe asset can be a key instrument for 
+deepening financial integration and resilience across the euro area. This, along with the 
+elimination of internal barriers which fragment the European market as described in the 
+Letta Report and in various IMF studies, and are in fact equivalent to internal high 
+tariffs, will increase the rate of return on domestic investment, leading to a higher 
+investment ratio as suggested by the Draghi Report, thus closing the investment and 
+productivity gap with the US.
+More ambitious proposals, such as the one recently put forward by Olivier Blanchard 
+and Ángel Ubide,deserve consideration: they could help create a deep and liquid EU 3 
+bond market that could achieve greater global significance.
+V. The Fiscal and Monetary interactions
+Let me elaborate more on the interplay between fiscal and monetary policy.
+An enabling force to the achievement of price stability and financial stability is sound 
+fiscal policy that supports monetary policy.
+In the euro area, we learnt the hard way during the debt crisis that fiscal and monetary 
+policies should be aligned, reinforcing each other. This could lead to more effective 
+crisis resolution and stronger economic recovery, as exemplified in the handling of the 
+pandemic.
+The optimal outcome arises when both policies are aligned, but critically, with a clear 
+understanding of their respective roles, responsibilities, and mandates.
+Today, as political pressure builds in some jurisdictions to cut interest rates, 
+coordination without subordination is paramount. It is critically important to maintain the 
+central bank independence and ensure that policymakers can uphold their primary 
+mandate of price stability.
+Conclusion
+To conclude, in a world of constant flux, central bank mandates are not written in stone. 
+They are continuously evolving in response to significant challenges and shifting 
+economic landscapes.
+Yet the foundation must remain firm. A firm, credible, clear commitment to price stability.
+This is our best contribution to economic growth, job creation and the welfare of our 
+citizens.
+A more efficient architecture of the euro area can also play a vital role.
+
+6/6 BIS - Central bankers' speeches
+Thank you for your time. I look forward to our discussion.
+1 See Blanchard, O., Dell' Ariccia, G., & Mauro, P. (2010), "Rethinking macroeconomic 
+policy",  199-215; Ball, L.M. (2014), "The Journal of Money, Credit and Banking, 42, 
+case for a long-run inflation target of four percent", International Monetary Fund 
+Working Paper No. 14-92; Williams, J.C. (2016), "Monetary policy in a low R-star 
+world",  , 23, 1-23.FRBSF Economic Letter
+2 See Bernanke, Ben (2014), "Modifying the Fed's policy framework: Does a higher 
+inflation target beat negative interest rates?", . Ben Bernanke's Blog at Brookings
+3 See Blanchard, O. and Ubide, A. (2025), "Now is the time for Eurobonds: A specific 
+proposal", Pieterson Institute for International Economics (PIIE), . Realtime Economics

@@ -1,0 +1,191 @@
+SPEECH
+Risks to financial stability in autumn 2024
+== | @) Read aloud | >
+‘Given the growing cyber risks, we must continue our work to reduce the probability
+of cyberattacks while simultaneously boosting our resilience against their potential
+impact.’ said Olaf Sleijpen at the IIF International Accounting and Reporting Forum.
+He talked about the risks to financial stability caused by the rise in geopolitical
+tensions and geoeconomic fragmentation.
+Published: 12 November 2024
+
+
+Good afternoon and thank you for the invitation. | asked specifically not to have to talk about
+accounting, given that | am not an expert in this important field. But, as a former member of
+the Basel Committee, | Know enough about it to understand that regulation and accounting
+are crucial to keeping the banking industry safe and sound.
+What | will do is take you through the most important risks to financial stability that we
+currently see as a central bank. Because | think this is very relevant to your field of work as
+well.
+Now, the fun about analysing financial stability risks is that there's never a dull moment. Take
+last week for example. | cannot say | stayed up on election night, but obviously, the outcome
+of the US presidential election is an important factor for financial stability. And not only with
+regard to the new administration’s economic policy, but perhaps even more, its foreign policy,
+in a world where geopolitical tensions have risen sharply.
+Indeed, this surge in geopolitical tensions has fueled geo-economic fragmentation. Countries
+are clustering together in economic and political blocs, they are strengthening national
+security and curbing strategic economic risks, and we are seeing more and more trade
+restrictions. In response, firms around the world are rethinking their supply chains and are
+considering re-shoring, near-shoring or friend-shoring.
+ONG UNMBES TRUCTED |
+Figure 1: Increased geo-economic fragmentation
+® _ — ee . “ 1 _ 4 ' : :
+eeee eeoe ee |
+forte "Se pro @ oeeee fF aggre’ wee ere 4 eee of 6 weet wt oo eek Oo ot hetY ate
+incnatemenl ee et ee ee eee ee ae a ees ee oe ae |
+2
+As you Can see in this chart, the deglobalisation trend has been on-going ever since the global
+financial crisis. AS an open economy with a large financial sector, the Netherlands is
+particularly sensitive to geo-economic fragmentation. But to some extent this also holds for
+the EU as a whole. The numbers show that even as a bloc, the EU economy is more open than,
+
+
+for example, China and the US. EU trade with other countries is more than 40 percent of EU
+GDP. Europe has prospered as an open economic region, but is also more heavily exposed to
+the effects of geo-economic fragmentation.
+Both geopolitical tensions and geo-economic fragmentation can affect financial stability, and
+those effects can follow different channels. For instance, geopolitical tensions are associated
+with a higher number of cyberattacks worldwide. Also financial institutions are affected by
+geo-economic fragmentation through their lending and investment portfolio, the so-called
+real economy channel.
+Let me cover these two channels a little bit more in depth, starting with the impact via the
+real economy. Trade restrictions hamper growth of the economy in general, but do not affect
+everyone to the same extent. For financial institutions the effect of fragmentation and
+tensions depends on their portfolio composition. Overall Dutch financial institutions have
+relatively few corporate loans and investments in countries that are geopolitically remote
+from the Netherlands. But they are more vulnerable to fragmentation through the value
+chains of the firms they lend to or invest in.
+Financial institutions may also be indirectly affected by trade disruptions via corporates whose
+production depends on so-called opposing countries. Since 1995 imports such as commodities,
+services or components from these countries have increased fourfold to 12% in 2020.
+| ONB UNRESTRICTED
+Figure 2: Dutch industrial sector vulnerable to geo-economic
+fragmentation
+Share of foreign imports by sector in 2020
+Energy
+Industry
+Agriculture
+Real estate
+Trade
+ICT
+| i I i | i i
+Financial
+services
+0 10 20 3» 40 SO 60 70 80 90 100
+@ Like-minded countries
+® Neutral countries
+@ Opposite countries Source: OECD.
+Notes: To map sensitivities to geopolitical tensions and fragmentation, we divided countries into three groups based on the way they voted on the UN resolution
+on the human rights situation in the temporarily occupied parts of Ukraine in 2023: “likeminded”, “opposing” and “neutral” countries (Baba et al., 2023). The
+Lay “neutral” group comprises countries that abstained or were absent at the time of the vote on this specific resolution. This division of countries into the three
+groups cannot be considered absolute, as it relates to a specific resolution. 3
+As this graph shows, the industrial and construction sectors depend for a substantial share on
+foreign imports from such opposing countries. That makes these sectors vulnerable to trade
+restrictions between global regions. We saw this for example during the COVID-19 pandemic.
+
+
+Combining this information about sectors with the corporate lending portfolio of banks, we
+see that the industrial sector depends relatively heavily on opposing countries and at the same
+time accounts for a relatively large share of banks’ corporate loan portfolios. You can see that
+in this graph.
+| ONS UNRESTRICTED
+Figure 3: Dutch banks particularly vulnerable to geo-economic
+fragmentation through loans to industry
+Foreign input reliance (FIR) on “opposing” countries by sector (horizontal), sectoral share of corporate loan
+portfolio (vertical)
+20
+wa
+Real estate
+na industry
+@
+Trade
+Agriculture
+10|
+ca
+Energy
+u .
+0 15 30
+Sa Sources: OECD and DNB supervisory statistics.
+4
+So when monitoring risks in the loan and investment portfolios, it is important that financial
+institutions look beyond the country in which a firm is based. They should also consider how
+vulnerable it may be through its value chains. This is because dependence on foreign imports
+may differ significantly between firms.
+After touching on the real economy channel, let me now discuss another channel through
+which geopolitical tensions can impact financial stability, and that is the growing cyber risk.
+Growing geopolitical tensions are accompanied by higher cyber risks. This was underscored in
+the recent warning issued by the National Cyber Security Centre in the Netherlands. The NCSC
+warns against the significant risk of cyber threats, including the growing presence of nation-
+state actors. This warning is already becoming a reality, as the recent hack of the Dutch
+National Police showed.
+Now for the financial sector in particular | would like to reflect on three vulnerabilities that
+increase the risk of disruption to the financial system from a cyberattack.
+First, the cyber landscape is becoming increasingly complex due to various developments, not
+the least of which is the rise of artificial intelligence. Arguably, Al offers many opportunities.
+For example it improves the operational efficiency or cyber security by detecting patterns and
+
+
+anomalies that indicate cyberthreats in real time. But Al also enables more frequent and more
+sophisticated cyberattacks. For example, you may have heard how cyber attackers managed
+to steal 25 million US dollars from a foreign company by using Al face and voice impersonation
+software. They managed to trick a staff member into believing that the instructions were
+coming from the company's executive in a live video conference.
+Second, there is a vulnerability related to outsourcing by financial institutions. To perform their
+core tasks, financial institutions outsource certain tasks or rely on the structure of third
+parties, such as cloud storage services or cybersecurity. As only a small group of parties
+provide these digital services, concentration risk arises. Given that the financial sector is
+traditionally highly concentrated in the Netherlands, this concentration risk from outsourcing
+is amplified here. Issues affecting a single service provider can thus hit multiple financial
+institutions, creating ripple effects throughout the system and society. A case in point is last
+summer's CrowdStrike incident. Although its cause was a programming error, it illustrates the
+risks of increasing concentration and digital dependencies.
+Finally, processes that are vital for the Netherlands and the financial sector, such as
+telecommunications and energy supply, are strategic targets for cyber attackers. These
+dependencies increase the financial sector's vulnerability to cyberattacks.
+| ONB UNRESTRICTED
+Figure 4: A quarter of global cyberincidents affect the financial
+sector directly or indirectly through vital infrastructure
+Percentages
+Mi Other sectors Telecom sector
+® Vital process, other ® Energy sector
+®@ Vital process, relevant to financial sector ® Digital infrastructure 2 service provider
+®@ Financial sector Source: European Union Agency for
+Cybersecurity (ENISA), 2024
+fumcrrs tes
+For example, as you can see here, a quarter of all cyberattacks worldwide affect the financial
+sector directly or indirectly through a vital process on which the financial system depends. You
+can think of these dependencies on vital infrastructure as the blocks at the bottom of a tall
+Jenga tower. A complex system arises on top of the blocks in the foundation. And if you
+
+
+remove one of these blocks, the entire system built on top may tremble or - in a worst case
+scenario - fail.
+Given the growing cyber risks and known vulnerabilities, we must continue our work to
+reduce the probability of cyberattacks while simultaneously boosting our resilience against
+their potential impact.
+Reducing the probability means solid and up-to-date operational risk management and
+policies. Stress tests and penetration tests are highly relevant in this regard, as they uncover
+weaknesses. The recent ECB stress test, for example, concluded that banks need to make
+improvements on several fronts, such as by assessing their reliance on critical third parties.
+Moreover, we must keep up with the rapid developments in the cyber threat landscape.
+Information exchange between financial institutions and across sectors is key in this respect.
+But also information exchange and co-operation between the financial sector and public
+authorities are key. Platforms, like the IIF, are invaluable for forging connections, sharing
+information and establishing working relationships.
+Such connections can indeed prove very useful when push comes to shove, as you need to find
+each other in times of crisis. Next to having timely information available, having effective
+contingency measures in place is key to strengthening resilience in case of a successful
+cyberattack. Such crisis measures need to be regularly tested, but in order to act you need to
+know in detail what is happening. Adequate crisis management also requires all possible
+stakeholders in the outsourcing chain to be on the same page, so that they know what is
+expected of them. It is therefore of vital importance to hold regular drills with critical third
+parties. Also in this respect, public and private parties need to work together on system-wide
+cyber scenarios or stress tests to assess resilience and crisis response.
+We live in a time where war has come close to our borders, and geo-economic fragmentation
+has become anew reality. Yet, even in this reality, policymakers can seek pragmatic solutions
+that minimise the economic costs of fragmentation. And remain committed to the functioning
+of the multilateral system that has brought us so many benefits. It is our role as members of
+the international financial community to keep conveying this message to national
+policymakers. And to keep working on cross-border challenges together.
+Thank you for your attention. | am now available to answer your questions.
+Discover related articles
+Speech | | Economy |

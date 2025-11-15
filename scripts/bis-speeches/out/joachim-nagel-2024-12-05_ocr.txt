@@ -1,0 +1,338 @@
+Homepage//en] > Press//en/press] > Speeches//en/press/speeches]
+Monetary policy in times of uncertainty and
+structural challenges
+Speech at the European Stability Mechanism
+04.12.2024 | Luxembourg | Joachim Nagel
+Check against delivery.
+1 Introduction
+2 Current economic developments
+3 Uncertainty in the Eurosystem’s inflation projection
+3.1 Alternative energy paths
+3.2 Alternative scenarios for consumer confidence
+3.3 Alternative paths for euro area productivity
+3.4 Overall assessment
+4 Monetary policy outlook
+1 Introduction
+Ladies and gentlemen, it is a great pleasure to be here and address such a distin-
+guished audience of financial market experts. As seasoned market observers, you are
+undoubtedly accustomed to the ups and downs of financial markets.
+In the early autumn of 2023, financial markets were expecting that the Eurosystem
+would reduce its monetary policy rate by approximately 60 basis points throughout
+2024. Just three months later, progress in central banks’ efforts to tame inflation,
+together with a weakening real economy, led markets to believe that central banks
+would significantly accelerate their rate-cutting cycle, with a cumulative reduction of
+160 basis points reckoned to be likely.
+However, in the first half of 2024, inflation proved to be more persistent than antici-
+pated. And the real economy, including the labour market, showed renewed signs of
+resilience. Consequently, expectations for rate cuts in the euro area for 2024
+decreased steadily to approximately 65 basis points by June 2024.
+
+
+Subsequently, the pendulum swung back again as we saw the inflation rate coming
+in several times lower than expected and the economy slowing down. Following the
+three 25-basis-point cuts already implemented in June, September and October,
+markets currently expect the overnight money market rate to stand approximately
+100 basis points lower throughout 2024.
+What accounts for these significant fluctuations in market expectations? The
+Eurosystem can closely steer the overnight money market rate by adjusting its mone-
+tary policy rates. Accordingly, the fluctuations in forward overnight money market
+rates ultimately reflect financial markets’ expectations of how we see current and
+future economic developments and how we are going to respond. Or, to put it in
+central banker language, these fluctuations are inter alia interpretations of our reac-
+tion function.
+The large swings observed over the past few months suggest high uncertainty
+regarding the outlook for the real economy and prices. In my speech, | aim to
+provide you with some guidance. More specifically, | will explore how the
+Eurosystem analytically addresses uncertainty and how this uncertainty impacts our
+monetary policy decisions. | will illustrate this with several scenarios recently ana-
+lysed by Eurosystem staff.
+| will conclude with a short outlook for our upcoming monetary policy meeting next
+week. Before delving into the scenarios, let me provide a brief overview of the
+current outlook for the real economy and prices in the euro area and Germany.
+2 Current economic developments
+In the September 2024 macroeconomic projections, ECB (European Central Bank)
+staff predicted that the euro area economy would grow by 0.8 percent in 2024,
+rising to 1.3 percent in 2025 and 1.5 percent in 2026. Furthermore, staff projected
+that the euro area inflation rate would gradually decline to an average of
+1.9 percent by 2026. This anticipated decrease in the inflation rate was primarily due
+to reduced cost pressures, lower profit margins, and the delayed effects of monetary
+policy tightening.
+Macroeconomic data received since September has been mixed. In the third quarter
+of 2024, economic output in the euro area increased more than expected. However,
+the underlying growth momentum remains subdued. Euro area inflation in
+September, October and November was -— overall—weaker than expected, now
+standing at 2.3 percent. The core inflation rate, which excludes energy and food
+prices, remained unchanged in November at 2.7 percent.
+
+
+Furthermore, wage growth picked up in the third quarter to 5.4 percent, driven by
+an exceptionally strong increase of negotiated wages in Germany amounting to
+8.8 percent. The significant increase was driven by the high wage outcome in
+Germany's retail and wholesale trade sectors, which included, among other factors,
+substantial one-off inflation adjustment premiums. However, the latest negotiations
+in the metal and electronics sector show a more moderate trend. As temporary infla-
+tion compensation premiums expire by the end of 2024, the relative importance of
+permanent payments will increase significantly.
+The German economy has recently been at the centre of attention due to its lacklus-
+tre growth. Germany's economic performance improved in the third quarter of
+2024, with real GDP (gross domestic product) rising by a seasonally adjusted
+0.1 percent compared to the previous quarter. While this exceeded earlier expecta-
+tions, the GDP (gross domestic product) decline in the second quarter was revised
+up from 0.1 percent to 0.3 percent, indicating that overall economic performance
+remained weak during the summer half-year.
+Currently, none of the major demand components offer much reason to expect a
+significant short-term recovery of the German economy.[1] Although private con-
+sumption benefited from steeply rising wages in the third quarter, the labour market
+is weakening, and high consumer uncertainty has likely dampened private consump-
+tion growth.
+Exports and production in both industry and construction have continued to decline.
+High financing costs and significant economic policy uncertainty continue to weigh
+on investments, affecting demand for construction services and capital goods.
+Additionally, low capacity utilisation is further hindering investment in the industrial
+sector.
+The competitive position of German industry has worsened, and growing foreign
+markets have not provided growth impulses as they did in the past. Industry is under
+significant pressure to adapt to changing structural conditions, both domestically
+and globally. Among these challenges are higher energy costs, the shift to carbon-
+neutral production methods, as well as increasing competition from emerging econ-
+omies (such as China) and rising international tensions.[2] The German automotive
+sector is particularly affected by this structural transformation.
+More generally, substantial bureaucratic burdens along with accelerating demo-
+graphic change are negatively impacting the German economy. While many of these
+structural challenges might be particularly pronounced in Germany, they are also
+present in other European countries.
+
+
+When we face the same challenges, we should consider dealing with them together:
+a common European approach will be key to overcoming many of these issues. The
+recently published reports by Enrico Letta and Mario Draghi offer valuable sugges-
+tions in this regard.[3] Delving deeply into these two reports could easily take up an
+entire speech, so | will focus on one aspect that | believe is most relevant to you.
+What kind of public goods should we provide together in Europe and how should
+we finance them? There is a broad consensus that we can and should realise effi-
+ciency reserves. But as is so often the case, the devil is in the detail.
+In general, joint provision is advisable if one of the following two criteria applies:
+First, that joint provision of public goods is more cost-effective. Second, that there is
+a risk of under-provision at the national level because benefits accrue across borders.
+These criteria certainly apply to defence policy, which to date has largely been a
+national affair. As a European, | firmly believe that we should work more closely
+together in this area. However, well intentioned is not always well done. It is no
+child’s play to create a reliable European defence policy. For example, we have to
+establish reliable and functioning decision-making structures.
+Another area where there is certainly room for improvement is common European
+infrastructure, be it the energy or IT (information technology) infrastructure. Here,
+common European standards and policy coordination are crucial. For example, the
+countries of the EU (European Union) should reduce requirements and regulation
+that hinder cross-border cooperation.
+While joint financing is not a precondition, the EU (European Union) budget could
+be used more to finance European public goods or to support the build-up of a
+European infrastructure. Currently, two thirds of the budget are used for agricultural
+subsidies and cohesion spending geared heavily towards redistribution.
+Financing common spending through common debt is in my view not a near-term
+goal. There are economic as well as legal grounds for caution, as the German
+Constitutional Court has made clear.[4] Common EU (European Union) debt would
+thus require further integration with profound institutional reforms.
+Stronger fiscal rules alone are not sufficient for shared debt responsibility. To ensure
+democratic decision-making structures, competencies would need to be transferred
+to the European level. But currently | do not see political majorities for such far-
+reaching institutional changes.
+
+
+Taken together, the direction for Europe seems clear. However, there is uncertainty
+about how we will get there. And this brings me back to the beginning of my
+speech: the significant uncertainty that we currently face regarding future price
+developments.
+3 Uncertainty in the Eurosystem’s inflation projection
+How does the Eurosystem address this uncertainty, and how does it affect our view
+on the inflation outlook? As many of you know, the macroeconomic projections are
+a key input to our monetary policy decision-making process and, as such, also an
+important communication tool of the Eurosystem.([5]
+Every quarter, staff project the euro area inflation rate and other macroeconomic
+variables for the coming two to three years. The projections published in June and
+December are prepared by experts from national central banks
+(NCBs (national central banks)), in close coordination with experts from the
+ECB (European Central Bank). The projections published in March and September are
+instead prepared by ECB (European Central Bank) staff, with
+NCB (national central bank) experts providing the short-term inflation projections.
+These projections rest upon certain technical—exogenous— assumptions.
+Accordingly, the projections can be viewed as conditional. Specifically, the staff pro-
+jections build on market expectations with respect to our policy path. Thus, the pro-
+jections do not necessarily reflect an interest rate path that the Governing Council
+deems most appropriate.
+Market observers often focus on what we call the baseline projection. It re-presents
+the trajectory that Eurosystem staff consider most likely. However, the baseline is not
+the only scenario for future developments. The Eurosystem routinely performs
+various sensitivity and scenario analyses. And these sensitivity and scenario analyses
+also factor into our monetary policy decisions.
+The Eurosystem summarises the results of these analyses in the “risk assessment”
+section of our monetary policy statement.[6] The more detailed results are published
+in our quarterly reports. But the sensitivity and scenario analyses are not only helpful
+for refining our monetary policy decisions. They can also help market observers to
+better understand our reaction function.
+
+
+In the following, | would like to highlight three different sensitivity and scenario
+analyses that Eurosystem staff have conducted over recent quarters: First, the impact
+of alternative energy price paths. Second, the impact of alternative scenarios for
+consumer confidence. And third, the impact of alternative paths for euro area pro-
+ductivity developments.
+3.1 Alternative energy paths
+The first source of uncertainty concerns energy prices. The baseline inflation projec-
+tion builds on the price paths contained in futures at a specific cut-off date for both
+oil and gas prices as exogenous variables.[7] Given the high uncertainty inherent in
+the future trajectory of oil and gas prices, alternative paths for these commodities
+may significantly influence economic projections.
+Eurosystem staff address this uncertainty by exploring alternative downside and
+upside scenarios.|8] In technical terms, these scenarios are derived from the 25th
+and 75th percentiles of the option-implied estimated distribution of the probabilities
+that market participants attach to future oil and gas prices.
+In the most recently published sensitivity analysis in September 2024, for oil prices,
+the alternative paths were symmetrically distributed around the baseline, indicating
+broadly balanced risks. However, for gas prices, the distribution suggested upside
+risks, probably reflecting adverse geopolitical factors such as escalating tensions in
+the Middle East and the war in Ukraine. For each scenario, Eurosystem staff com-
+puted a synthetic energy price index, a weighted average of the oil and gas price
+paths, and assessed the macroeconomic impacts using ECB (European Central Bank)
+and Eurosystem models.
+The September results indicated generally stronger upside risks to inflation and more
+limited risks to GDP (gross domestic product) growth.[9] In the upside risk scenario,
+inflation could be a cumulative 1.5 percentage points higher until the end of 2026
+than in the baseline. In contrast, the downside scenario foresaw inflation to be
+1.1 percentage points lower. Taken together, temporary fluctuations in energy prices
+show a strong impact on euro area inflation. The main reason for this is that energy
+prices are highly flexible and have a strong pass-through.
+3.2 Alternative scenarios for consumer confidence
+Let me now turn to a scenario analysis for another important cyclical driver of the
+real economy. Following the Russian attack on Ukraine, consumer confidence in the
+euro area plummeted. It has remained subdued since, despite a recent uptick.
+Consequently, consumption and housing investment have been restrained, while
+savings have remained elevated.
+
+
+In our September 2024 projections, Eurosystem staff delved into the potential risk
+that unexpected changes in consumer confidence pose to our baseline projections,
+my second source of uncertainty. | would like to highlight two alternative scenarios.
+[10]
+The first scenario, assuming lower confidence, predicted an increase in the savings
+ratio and a decline in housing investment due to heightened geopolitical uncertainty
+and elevated financing costs. The second scenario, with higher confidence, envi-
+sioned a faster improvement in consumer confidence, leading to a lower savings
+ratio, higher spending, and increased housing investment.
+The lower and higher confidence scenarios have noticeable effects on the growth
+rate of private consumption and real GDP (gross domestic product). Until 2026, the
+cumulative effect on consumption is 1.4 percentage points and on real
+GDP (gross domestic product) 0.9 percentage point, with a negative sign for the
+lower confidence scenario. Conversely, the cumulative impact on euro area inflation
+is rather negligible, amounting to plus or minus 0.1 percentage point. Taken
+together, while changes in consumer confidence seem to have a noticeable impact
+on the real economy, they hardly affect our baseline projection for the inflation
+rate—at least for September 2024.
+3.3 Alternative paths for euro area productivity
+Finally, allow me to consider a crucial driver of medium to long-term growth.
+Productivity growth in the euro area has been relatively weak for some time both in
+historical terms and in comparison to other countries, such as the United States. One
+reason for this development was that firms in the euro area retained or even created
+new jobs at a time when output growth was relatively weak. Furthermore, there are
+also strong indications that the underlying trend of productivity improvement has
+weakened significantly.
+The latest baseline projections imply that productivity will gradually improve with a
+strengthening of GDP (gross domestic product) growth. Despite this improvement,
+productivity growth is expected to remain lower than over the past two decades.
+But a faster recovery of productivity cannot be ruled out either. It would require the
+widespread adaptation of new technologies such as artificial intelligence.
+
+
+To assess the impact of alternative productivity paths, my third source of uncertainty,
+Eurosystem staff considered two scenarios in June:[11] In an optimistic scenario,
+staff assumed a faster unwinding of past cyclical drivers that supported employ-
+ment, such as a reduction in labour hoarding and hiring incentives. This would result
+in weaker employment growth over the projection horizon, leading to higher labour
+productivity compared to the baseline.
+In a pessimistic scenario, staff assumed structural factors negatively affecting capital
+and total factor productivity (TFP (total factor productivity)). One avenue would be
+that hysteresis effects from past low demand reduce the incentives to invest in the
+capital stock. Another channel would be that high energy prices, geopolitical ten-
+sions, and supply chain issues could also negatively influence trend
+TFP (total factor productivity).
+In the optimistic scenario, the cumulative impact on the inflation rate up to the end
+of 2026 is very small, a negligible reduction of 0.02 percentage point. In the pes-
+simistic scenario, inflation cumulatively increases by 0.25 to 0.3 percentage point.
+The impact on real GDP (gross domestic product) growth was negative in both sce-
+narios, ranging from a cumulative reduction of 0.2 to 0.9 percentage point. Taken
+together, the baseline projection for the inflation rate is not very sensitive to these
+alternative scenarios for productivity.
+3.4 Overall assessment
+What are the main lessons you and market participants more generally can draw
+from these analyses? Let me mention three:
+Firstly and obviously, energy prices have a strong immediate impact on our outlook
+for the inflation rate. Therefore, our December staff projection, too, will be taking a
+close look at energy prices in the baseline as well as in alternative scenarios.
+Secondly, some factors that have a noticeable impact on real economic growth, such
+as changes in consumer confidence or productivity growth, need not significantly
+affect the outlook for the inflation rate.
+Thirdly, it is important to recognise that all scenario analyses are determined by the
+specific risks prevalent at the time they are conducted. As we look ahead, we must
+consider the potential emergence of new risks that could significantly impact euro
+area inflation. Currently, one significant concern is the potential impact of the tariffs
+proposed by the incoming US (United States) administration. | imagine we are all
+aware of the frequent announcements on social media, featuring new numbers and
+new countries.
+
+
+Accordingly, in these uncertain times, financial market participants are well advised
+not only to consider our baseline projections, but also to incorporate the
+Eurosystem’s comprehensive scenario and sensitivity analyses.
+4 Monetary policy outlook
+Where does all this leave us regarding the decision to be made at the
+ECB (European Central Bank) Governing Council meeting next Thursday?
+At the beginning of this week, markets had priced in an interest rate reduction of
+approximately 32 basis points. Given that the disinflation process is proceeding
+largely as currently projected, at this stage | would have no objections if we were to
+continue to reduce our policy rates.
+But | reserve my final judgement until | have reviewed the new macroeconomic pro-
+jections for December and made up my mind concerning the risks surrounding the
+baseline. In any case, | caution against lowering the degree of restriction too hastily.
+Interest rates should converge slowly and at a measured pace towards neutral
+territory.
+| am well aware that the neutral territory is difficult to pin down, which adds
+another layer of uncertainty. This uncertainty is, in my view, another argument in
+favour of taking a cautious and gradual approach. As of now, | do not see a signifi-
+cant risk of inflation undershooting that would warrant the Eurosystem becoming
+expansionary in the near future.
+Footnotes:
+1. See Deutsche Bundesbank (2024), The German economy, Monthly Report,
+November 2024.
+2. On the latter point, see Nagel (2024), Geoeconomic fragmentation: handling
+inflation pressures and volatility, increasing resilience, Soeech at Tokyo University,
+18 November 2024, Tokyo.
+3. Letta, E. (2024), Much more than a market—speed, security, solidarity.
+Empowering the Single Market to deliver a sustainable future and prosperity for
+all EU (European Union) Citizens; Draghi, M. (2024), The future of European
+competitiveness—A competitiveness strategy for Europe.
+4. See Federal Constitutional Court (2022), Judgment of the Second Senate of
+31 October 2022, 2 BvR 900/22-, paras 1-38, https:/Awww.bverfg.de/e/rs20231
+031_2bvr090022en/https:/www. bverfg.de/e/rs2023 103 1_2bvr090022en], in
+particular para 8.
+
+
+10.
+11.
+. See Nagel (2024), Dot plots for the Eurosystem?, Speech at Harvard University,
+22 October 2024, Cambridge.
+. See, for example, https:/Awww.ecb.europa.eu/press/press_conference/monetary-
+policy-statement/2024/html/ecb.is241017~59ad385bab.en.html
+[https://www.ecb. europa. eu/press/press_conference/monetary-policy-
+statement/2024/html/ecb.is241017~59ad385bab.en.html]
+. Oil prices refer to Brent crude oil spot and futures prices. Gas prices refer to the
+Dutch TTF (Title Transfer Facility) gas spot and futures prices.
+. See ECB (European Central Bank) (2024b), Eurosystem staff macroeconomic pro-
+jections for the euro area, September 2024, section 6, for details.
+. The macroeconomic impacts are reported as averages of a number of
+ECB (European Central Bank) and Eurosystem staff macroeconomic models.
+See ECB (European Central Bank) (2024a), op. cit., box 2 for details. For the sake
+of brevity, the third scenario with temporarily lower confidence is not
+considered.
+See ECB (European Central Bank) (2024a), Eurosystem staff macroeconomic pro-
+jections for the euro area, June 2024, box 3 for details. The scenarios were eval-
+uated using two different models. See the notes in Table B of
+ECB (European Central Bank) (2024a) op. cit. for details.

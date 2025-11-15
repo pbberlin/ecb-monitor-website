@@ -1,0 +1,223 @@
+1/6 BIS - Central bankers' speeches
+Olli Rehn: This time is different or back to basics? Reflections on 
+monetary policy normalisation
+Policy keynote speech by Mr Olli Rehn, Governor of the Bank of Finland, at the Bank of 
+, Helsinki, 13 September 2024.Finland and CEPR Joint Conference
+* * *
+ accompanying the speech Presentation
+Ladies and Gentlemen, Dear Friends,
+May I warmly welcome you to Helsinki and to our annual research conference, which 
+the Bank of Finland organizes jointly with the Centre for Economic Policy Research.
+May I also say that taking inflation and monetary policy as the theme of the conference 
+has proved to be a pertinent and productive tradition. But this was not always self-
+evident, as times have changed.
+Just a few years ago, high inflation would have sounded like ancient history. However, 
+as we know only too well, the COVID-19 pandemic and the subsequent geopolitical 
+tragedies have proved that inflation can return, unexpectedly and significantly, and that 
+central banks must stand ready to tackle it purposefully.
+The surge in inflation and the robust disinflationary measures taken by the European 
+Central Bank and other central banks remind us how important it is that central bankers 
+and academics listen and talk to each other.
+In fact, the timing of this dialogue opportunity today is particularly appropriate, as I 
+returned home only yesterday evening from the Governing Council meeting in 
+Frankfurt, where we took our latest interest rate decisions.
+So let me devote the first part of my talk to the current economic outlook and our 
+monetary policy decisions. I will then turn to a more bird's-eye view of the past few 
+years regarding inflation. Finally, I shall say a few words about the ECB's assessment 
+of its monetary policy strategy.
+Slide 2: Disinflation in the euro area is on the right track
+Inflation  or, rather, disinflation  in the euro area is on the right track. We've come down 
+from the peak of 10.6% in October 2022 and are now in the vicinity of our 2% medium-
+term target. The latest Eurostat estimate, for August, shows an inflation rate of 2.2% in 
+the euro area.
+While the final stretch of the road to our 2% target may be bumpy, the ECB and other 
+international institutions forecast that the 2% target will be achieved in a sustainable 
+way in the course of next year.
+Slide 3: Euro area GDP growth is projected to gradually pick up
+
+2/6 BIS - Central bankers' speeches
+Growth, however, remains slow in the euro area, and downside risks to growth have 
+increased over the summer. Industrial production in the euro area is still stumbling after 
+the energy price shock and is not expected to recover quickly. According to the ECB 
+staff forecast published yesterday, growth in the euro area this year will be subdued, 
+but will then accelerate to 1.3% in 2025 and to 1.5% in 2026. Geopolitics, including two 
+wars and other political uncertainties, is strongly influencing the growth and inflation 
+outlook for the euro area, both in the short and medium run.
+It has become evident that the weakness in euro area growth is more structural than we 
+had previously thought. Europe must, in my view, pursue stronger productivity growth, 
+not least since its populations are ageing, green investments require massive funding, 
+public debts and deficits are large and defence spending needs to be raised.
+These developments call for a strong, unified response from the EU. This is the main 
+message from former ECB President Mario recent Draghi's   report on EU 
+. The report highlights three key areas for action: 1) closing the R&D competitiveness
+and innovation gap with the United States; 2) balancing Europe's ambitious climate 
+goals with competitiveness; and 3) enhancing security and reducing critical 
+dependencies.
+The report is a wakeup call to all Europeans and a deep diagnosis of our economic and 
+industrial challenges. I do hope it catches the attention it deserves from both the new 
+European Commission and the EU national governments.
+Slide 4: The ECB's Governing Council lowered key interest rates at its September 
+meeting
+At the ECB's Governing Council meeting yesterday, we decided to lower our main 
+policy rate by 0.25 percentage points, meaning that the deposit facility rate now stands 
+at 3.5%.
+There were good reasons for easing monetary policy: inflation has continued to slow 
+down, and inflation expectations are close to the ECB's 2 percent target. In addition, 
+economic activity is still subdued, and financing conditions remain restrictive.
+Disinflation, together with robust wage growth, is supporting the growth of real 
+disposable incomes in the euro area and paving the way for a consumption-led 
+recovery. Our Achilles' heel, though, is the low level of productive investment.
+Concerning productive investment – that we badly need – the distinction between 
+structural and macro is never crystal-clear, black-and-white. Yes, the current clouds of 
+geopolitics and intra-European uncertainty weigh on the European economy, in the 
+form of damaging confidence effects. Nevertheless, and to paraphrase a certain giant 
+on whose shoulders we all stand: "In the long run we are all retired. But in the 
+meantime, we need more productive investment."
+In other words, even though the euro area's longer term growth and competitiveness 
+challenges cannot be solved using monetary policy, an easing in financial conditions 
+will bring welcome relief to households and companies in the short term, and should 
+support investment, which is needed to increase longer term productivity.
+
+3/6 BIS - Central bankers' speeches
+The prevailing uncertainties continue to underline the case for data dependency and a 
+meeting-by-meeting approach in the Governing Council's decision-making going 
+forward. We are not pre-committing to a particular rate path.
+We thus maintain full freedom of action and flexibility in making interest rate decisions 
+in future meetings. The next regular monetary policy meetings will be held in October 
+and December.
+The Governing Council will continue to base its monetary policy decisions on the 
+assessment of the inflation outlook, the dynamics of underlying inflation and the 
+strength of monetary policy transmission.
+Slide 5: Three periods of inflation in the euro era, 1999-2024
+Let me now turn to the ECB's assessment of its monetary policy strategy by taking both 
+a step back and a longer term perspective.
+This graph shows that the quarter-century history of euro area inflation can be 
+conveniently divided into three distinct periods: 1) 'normal times', during what later 
+became largely known as the Great Moderation, from the 1980s until 2009 (inflation at 
+2.2% on average); 2) 'lowflation' in the aftermath of the Global Financial Crisis (inflation 
+at 1.3% on average); and 3) 'highflation' since 2021 (inflation at 5.8% on average).
+Each of these periods had a specific set of drivers, shocks and policy challenges. In 
+spring 2020, the ECB launched its previous monetary policy strategy review, motivated 
+by persistent sub-target price dynamics, the binding policy rate constraint and the need 
+to evaluate the unconventional monetary policy toolkit. Estimates of the natural rate of 
+interest were at that time pointing to a declining downward trend, and there was 
+growing evidence of a flattening of the Phillips curve, although with apparent non-
+linearities.
+All these factors together posed a risk that the central bank could have lost the 
+necessary policy space and, equally worryingly, that inflation expectations could 
+become de-anchored.
+What cause inflation? Demand or supply shocks?
+Given the commitment to reassess its actions regularly, the ECB decided this summer 
+to launch an assessment of its monetary policy strategy, with the aim of completing it in 
+mid-2025.
+What has changed since the previous review in 2020? No sooner had the ink of the 
+previous review dried in July 2021 than inflation started to rise rapidly. Clearly, 
+understanding the nature of the inflation surge is of paramount importance – and a key 
+lesson to be learnt.
+Let me elaborate a bit.
+One view holds that the surge in prices can be mainly attributed to factors that were 
+constraining . For example, the pandemic-related lockdowns across the world  supply
+
+4/6 BIS - Central bankers' speeches
+heavily disrupted international production and transportation chains, resulting in multi-
+month delays in the supply of manufactured goods. The same lockdowns reduced or 
+even temporarily eliminated the supply of many services, for instance in the leisure 
+industry. The pandemic also led to a massive drop in average hours worked, creating 
+labour shortages and further squeezing supply.
+On top of that came a textbook or, rather, .  supply-side shock   a relative price shock
+When Russia invaded Ukraine in February 2022, global oil and gas prices shot up. 
+Within a few months the euro area was largely cut off from Russian natural gas supplies 
+and was instead increasing its natural gas imports from the US, Norway and Africa, 
+which added to the energy bill and economic costs.
+But could also have been at play, as acknowledged by Chair  demand-shifting factors 
+Powell at this year's Jackson Hole keynote speech. Research presented at this year's 
+ECB Forum on Central Banking in Sintra also points in this direction. One potential 
+factor was the strong level of pent-up demand following the pandemic lockdowns.
+People not only consumed less and accumulated more savings during the pandemic, 
+but demand also shifted from services to goods. Once the lockdown restrictions had 
+been eased and lifted, the vaccines rollouts made and health security improved, there 
+was a demand overhang and a surplus of savings that together boosted private 
+consumption.
+Secondly, advanced economies introduced both fiscal and monetary stimulus measures 
+on an unprecedented scale, with the objective of boosting domestic demand. 
+Expansionary fiscal policy was especially pronounced in the United States.
+Central banks also stepped in with various stimulus programmes. For instance, the 
+ECB launched the PEPP asset purchase programme worth 1,850 billion euro in total. 
+The Federal Reserve, apart from dropping the policy rate to zero, embarked on a wide 
+range of asset purchase and loan programmes.
+On top of that, both the Fed and the ECB made fresh changes to their respective 
+monetary policy strategies. In both cases, the original goal had been to lift inflation from 
+the deflationary mire where we had been for too long, with the aim of achieving a slight 
+upward shift in inflation expectations.
+It therefore transpired that many of the potential factors contributing to high inflation, 
+including demand shifts, fiscal and monetary policy measures, energy shocks and 
+supply chain disruptions, all happened around the same time.
+This concurrence of various economic forces apparently makes life more difficult for 
+researchers who try to analyse the causes of the inflation surge, because it amplifies 
+the perennial identification problem. So, the jury is still out, and researchers are busy 
+trying to disentangle these factors and develop new tools for identification and analysis.
+These demand-supply interactions are rightly a part of this year's Bank of Finland and 
+CEPR joint conference, for example the papers and discussions from yesterday's 
+fascinating session on large shocks. They are also likely to be among the issues 
+considered in . the next ECB strategy assessment in 2025
+
+5/6 BIS - Central bankers' speeches
+Slide 6. Reflections on the ECB's next strategy review in 2025
+The most important decision of the ECB's previous strategy review, in 2021, was to set 
+a symmetric inflation target of 2% over the medium term. This means that both negative 
+and positive deviations from the target are now treated as equally undesirable. We also 
+underlined the medium-term orientation for reaching the target.
+This redefined inflation target, in place since 2021, has provided a clear and 
+comprehensible anchor, and enough flexibility both in terms of the temporal definition 
+and the instruments used. This has allowed us to avoid taking any excessively drastic 
+measures that the old target might have implied.
+Thus, the target itself does not, in my view, need re-consideration. But in the strategy 
+assessment we need a better understanding of the inflation dynamics of the past few 
+years and of the secular trends affecting monetary policy going forward. These include 
+geopolitics and other drivers of the natural rate of interest.
+Geopolitical challenges and geoeconomic fragmentation, in particular, will continue 
+to shape the operating environment of monetary policy in the years ahead. Complex 
+value chains are no longer seen only as a sign of economic progress, efficiency and 
+peaceful cooperation, but also as a potential source of risk and economic disruptions.
+The changes that are taking place in the world economy, from trade wars to supply 
+chain diversions, are likely to increase the probability of supply shocks and inflation 
+volatility. They will also importantly shape the new equilibrium of the euro area economy 
+that emerges after the current interest rate cycle.
+Turning to the natural rate of interest, there are arguments supporting the view that it is 
+rising – as a result of the huge investment needs due to the green transition, artificial 
+intelligence and defence spending – but there are also arguments for the view that it is 
+declining – due to weakening productivity growth arising from population ageing and 
+geoeconomic fragmentation. The true picture is still largely unknown and requires 
+considerable further research.
+Another focus area in the strategy assessment should, in my view, be .  labour markets
+We need a more concrete understanding of how demographics affect the participation 
+rate and labour force trends.
+In recent years we have seen a sharp decrease in average hours worked during the 
+pandemic and increased immigration, which has enlarged the labour supply and helped 
+to constrain wage pressures.
+We need to ask ourselves whether these trends are likely to continue and such shocks 
+likely to reoccur. And what is their impact on labour productivity in the short and longer 
+term?
+Conclusions
+Ladies and Gentlemen,
+
+6/6 BIS - Central bankers' speeches
+Let me finish with a few conclusions.
+The latest inflationary episode was the largest in 40 years. This, and the subsequent 
+disinflation, offer us a wealth of new empirical raw material to learn from and for re-
+examining the analytical and historical knowledge we gained from Volcker's disinflation 
+in the early 1980s.
+Nevertheless, the paths of real and nominal interest rates and the ultimate dynamics of 
+prices have this time been, to some extent, different. Obviously, the world has also 
+undergone profound structural changes in the meantime, which makes simple 
+analogies tricky. Even so, careful comparison and analysis of these two inflation 
+episodes and their differences may improve our understanding of economics.
+Let me add that there are many reasons to assume that the supply side of the economy 
+is and will likely continue to be a source of shocks with inflationary implications. Climate 
+and weather, energy and geopolitics, production chains, labour market and new 
+technologies can all be sources of major disruptions and accelerate structural change.
+This is of paramount importance for another reason too, namely that our traditional 
+analytical tools, such as the New Keynesian framework, are typically better suited to the 
+study of demand disruptions. Thinking more about the supply side may be tougher but 
+is no less important.
+Thank you.

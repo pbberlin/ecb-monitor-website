@@ -1,0 +1,153 @@
+1/4 BIS - Central bankers' speeches
+Gabriel Makhlouf: Introductory statement - Joint Oireachtas 
+Committee on Finance, Public Expenditure and Reform, and 
+Taoiseach
+Opening statement by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, 
+before the Joint Oireachtas (National Parliament) Committee on Finance, Public 
+Expenditure and Reform, and Taoiseach (Head of Parliament), Dublin, 14 February 
+2024.
+* * *
+Good afternoon Chair, Committee members.
+Thank you for your invitation to appear before you today. I am joined by Deputy 
+Governors Vasileios Madouros and Derville Rowland.
+I will begin by giving a brief overview of the economic outlook and the resilience of 
+household borrowers in the current economic environment and by setting out some of 
+our regulatory priorities for the year ahead.
+The economic outlook
+Turning to the outlook, the most recent Eurosystem staff projections show economic 
+activity and inflation for the Euro Area weakened in the second half of 2023. The short-
+term outlook for the Euro Area economy points to stagnation in the face of tighter 
+financing conditions, weak business and consumer confidence and low foreign demand. 
+However, the economy is expected to start gradually improving over the course of the 
+year. A broad-based disinflationary process is unfolding across Europe and is expected 
+to continue during 2024 as the effects of past energy price shocks and other pressures 
+fade. The pace of growth in labour costs will then be the dominant driver of core 
+inflation.
+Overall, Euro Area headline Harmonised Index of Consumer Prices (HICP) inflation is 
+expected to decrease from 5.4 per cent in 2023 to an average of 2.7 per cent this year, 
+2.1 per cent next year and 1.9 per cent in 2026. Although inflation has fallen in many 
+member states, we have not yet seen the full extent of the lagged effect of monetary 
+policy actions on borrower finances or economic demand. At our most recent meeting 
+at the end of January, my colleagues and I at the ECB decided to keep rates 
+unchanged.
+With disinflation well underway, we are confident in sustainably reaching our target of 2 
+per cent. Policy rates are now at levels that, if maintained for a sufficiently long duration, 
+will make a substantial contribution to bringing Euro Area inflation back to target. 
+Although uncertainties remain, it is clear that our monetary policy decisions are working. 
+Finally, and for the avoidance of doubt, I remain open-minded about the path of our 
+policy rates.
+The Irish economy
+
+2/4 BIS - Central bankers' speeches
+As for Ireland, economic activity at home slowed noticeably in 2023. The Irish economy 
+is still expected to grow over the coming years, albeit at a slower pace. We published 
+our latest Quarterly Bulletin at the end of December, which sets out our latest 
+assessment of the economy. Our forecasts suggest Ireland's domestic economy will 
+grow by 2.5 per cent this year, and by 1.9 and 2 per cent in 2025 and 2026 respectively. 
+Inflation has declined significantly over the course of 2023 and the outlook for inflation 
+is now lower than projections given in our previous forecasts.
+However, there are a series of general and sector-specific factors that, to varying 
+degrees, underlie recent developments and could affect those current forecasts. First, 
+base effects and a post pandemic normalisation, which mostly relate to the unwinding 
+of the exceptional level of physical investment in the State by multinational enterprises 
+in 2022, as well as in the normalisation of export activity in the pharmaceutical sector 
+post-Covid. Second, structural factors such as geoeconomic fragmentation in goods 
+and services trade, and capacity constraints in the labour market and in housing, which 
+limit the scope for higher sustainable growth in the domestic economy.
+Third, the general slowdown of activity globally and domestically, as demand is 
+dampened by tighter monetary policy necessary to bring inflation back to sustainable 
+levels. This is already affecting both external and domestic demand developments for 
+Ireland, and is contributing to slower growth than would otherwise be the case over the 
+forecast horizon.
+The resilience of household borrowers in the current economic 
+environment
+Let me turn to the resilience of household borrowers in the current economic 
+environment. There are two key points that I would like to highlight. First, at an 
+aggregate level, the Irish household sector has proved resilient in the face of these 
+challenges, and we expect that to continue if economic conditions evolve in line with our 
+forecast. Second there are, of course, some borrowers that are more vulnerable and we 
+have been working to ensure that the financial system is ready to deal with cases of 
+financial distress in a consumer focused way. Overall, the frameworks we have in place 
+have been working, and we intend to ensure this remains the case.
+The impact of inflation and rising interest rates on Irish household borrowers has been 
+cushioned by nominal income growth, fiscal measures, and the relatively slow pass-
+through of monetary policy by lenders to household borrowing rates. The resilience of 
+households has also been supported by more than a decade of balance sheet repair 
+since the previous crisis, fixed borrowing costs for many, low levels of debt and prudent 
+new lending following the introduction of our mortgage measures. We also have a 
+strong labour market, with over 300,000 jobs created in the past few years.
+As I said, households have been broadly resilient in this environment but there are 
+pockets of vulnerability and, for some, mortgage repayments have increased 
+significantly, particularly for those on tracker rates but also some borrowers on variable 
+rates and those newly applying for credit.
+Mortgage switching has played a role in ensuring consumers access what they consider 
+to be the best option for their circumstances. Switching volumes have increased from 
+
+3/4 BIS - Central bankers' speeches
+€1.3bn in 2019 to €3.7bn in 2022, with borrowers continuing to benefit from switching 
+even after the ECB tightening cycle began. Moreover, the switching rate of mortgage 
+holders at non-bank lenders increased during 2023, and our estimates suggest that it 
+now stands at around the same level as the switching rate for mortgage holders at retail 
+banks, having been substantially below that for many years. We also saw credit unions 
+beginning to play a growing role in switching last year.  
+Nevertheless, we continue to remain focused on how lenders deal with borrowers in 
+financial distress. As I indicated, over the past year we have been particularly focused 
+on ensuring that the financial sector is ready to respond to borrowers who find 
+themselves in a difficult financial position.
+The most important thing for people who find themselves in difficulty is to contact their 
+financial services provider without delay. We know that early engagement leads to 
+better outcomes.
+Through our work we have seen firms enhance their early warning indicators and 
+customer engagement, widen the suite of alternative repayment arrangements they 
+offer (including certain limited fixed-rate options) and the introduction of new support 
+measures for borrowers through the BPFI's "Dealing with Debt" campaign.
+The broadly stable arrears trend in 2023 masks some movement in the depth of 
+distress: long-term arrears cases, a scarring legacy of the previous crisis, continue their 
+long-term decline, while early arrears cases and those missing three payments (but not 
+yet in long-term arrears) both increased by an offsetting amount.
+Though every case represents a person or household in distress, when compared to 
+historical levels, the household sector continues to appear resilient at an aggregate 
+level. Tracker rate borrowers, and in particular those with a history of previous 
+repayment challenges dating back to the global financial crisis, appear to explain the 
+modest rise in early arrears cases seen up to the middle of last year.
+However, challenges remain. We recognise that there is a proportion of mortgages in 
+long-term arrears where resolution of these arrears will require system-wide initiatives 
+and we will continue to work with firms and with the broader system on this. We cannot 
+be complacent, notwithstanding the robustness of our framework and our work to 
+enhance consumer protections and supports for those in difficulty.
+Finally, I should add that we continue to look to mitigate the risks to consumers of 
+financial services from increased costs beyond the mortgage market. This has included 
+work to enhance the transparency in the investment market around fees and the risks of 
+complex products. And we have also implemented new regulatory regimes for short 
+term and high cost credit, as well as running high impact consumer awareness 
+campaigns on frauds and scams, including scams relating to advance fee fraud.
+Regulatory priorities
+Let me turn to our plans for 2024. Every year we set our priorities for financial regulation 
+and supervision in the context of our domestic and international responsibilities and 
+current and emerging issues in the large and increasingly complex financial sector that 
+
+4/4 BIS - Central bankers' speeches
+we regulate. Overall, the financial system in Ireland – and across Europe – has proved 
+to be financially and operationally resilient in the face of the turmoil of recent years. 
+However, as the sector continues to grow in size, complexity and connectivity, we need 
+to continue to deal with the medium-term implications of the evolving system and 
+ensure that our policy frameworks remain fit for purpose for the future.
+Our overarching objective remains ensuring we have a stable, resilient and trustworthy 
+financial sector, operating sustainably in the best interests of the public and consumers. 
+Particular milestones in our work programme this year include putting in place a revised 
+and modernised Consumer Protection Code, continuing to progress work both 
+internationally and domestically to address systemic risks from the non-bank sector, 
+and implementing both the Individual Accountability Framework and the new Credit 
+Unions (Amendment) Act.
+We will in particular work with the Department of Finance on implementing 
+recommendations from the Retail Banking Review, in developing a framework to protect 
+access to cash services and the resilience of the cash system. We welcome the draft 
+legislation on maintaining access to cash which we believe is an important public policy 
+intervention. It is clear that there is a societal demand and need for cash, and the 
+Central Bank – along with the rest of the Eurosystem – remains committed to the 
+provision of cash.
+Conclusion
+In conclusion, the Central Bank will continue to focus on maintaining monetary and 
+financial stability and ensuring the financial system works for consumers and the wider 
+economy in 2024.
+We are happy to take your questions. 

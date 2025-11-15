@@ -1,0 +1,475 @@
+Homepage[/en] Press[/en/press] Speeches[/en/press/speeches] 
+27.05.2025| Mannheim | Joachim Nagel
+Check against delivery.
+1 Certain uncertainty
+Ladies and gentlemen, 
+Thank you very much for your invitation and kind welcome. I am delighted to be
+with you here in Mannheim today.
+With this series of events, the
+ZEW (Zentrum für Europäische Wirtschaftsforschung GmbH) has been providing
+a forum for political, economic and academic exchange for more than three
+decades now. You have set out your expectations very clearly: “Pressing eco‐
+nomic policy issues and recent developments are the focus.”
+At present, pressing issues and developments are indeed coming thick and fast.
+Take, for example, the numerous pivots in trade policy by the US (United States)
+Administration. Sometimes the issues are already outdated before you have
+even had a chance to address them. In any case, one thing is clear: we have a lot
+to discuss today. 
+European monetary policy in times of highuncertainty
+Lecture at ZEW – Leibniz Centre for European Economic Research
+1 Certain uncertainty
+2 Monetary policy under uncertainty
+3 Drivers of uncertainty
+4 Monetary policy stance in the euro area
+5 Conclusion
+
+Ladies and gentlemen,
+When the ZEW (Zentrum für Europäische Wirtschaftsforschung GmbH) proposed
+a topic to me just over two months ago, I had no doubt in my mind: there was no
+chance that the chosen topic would already be outdated. And why not? As Alan
+Greenspan, former Chairman of the US (United States) Federal Reserve, once
+said: “Uncertainty is not just an important feature of the monetary policy land‐
+scape; it is the deﬁning characteristic of that landscape.”
+Greenspan said this in 2003. The term “the Great Moderation” had just been
+coined to describe a period of exceptional macroeconomic stability.
+Uncertainty seemed to be relatively low at that time. Nevertheless, Greenspan
+stressed the factor of uncertainty. And he is not alone in this. I would imagine
+that none of you have ever heard a central banker say that uncertainty is cur‐
+rently negligible. 
+From my own experience, I can conﬁrm that, when making monetary policy deci‐
+sions, we are always faced with uncertainty. It is, after all, in the nature of the
+matter: the decisions impact a future that cannot be precisely predicted. Dealing
+with uncertainty is therefore part of the job description of monetary policymak‐
+ers. What is constantly changing are the causes and degree of uncertainty. And
+that brings us to the heart of today’s topic: European monetary policy in times of
+high uncertainty. 
+In my lecture today, I will address three key questions: How should monetary
+policy deal with uncertainty in general? What are the main causes of uncertainty
+at present and in the future? How is monetary policy in the euro area navigating
+the current period of high uncertainty?
+2 Monetary policy under uncertainty
+Let us start with the subject that we have just touched upon: the impact of mon‐
+etary policy unfolds only gradually. The decisions of today aﬀect the inﬂation of
+tomorrow. The gap between decisions and their impact necessitates a forward-
+looking approach. Or, to put it another way: when we are out in the monetary
+policy landscape, we are also looking to our more distant surroundings. 
+[1]
+[2]
+
+This means that a core part of preparing for monetary policy meetings is to
+assess future developments. And, unlike with the weather, for example, the
+current situation is not entirely clear, either. A broad set of data and diverse eco‐
+nomic models are therefore helpful for us. Like a magnifying glass and a pair of
+binoculars, they make it easier for us to examine our environment as closely as
+possible. Following on from this, we can diﬀerentiate between two types of
+uncertainty: data uncertainty and model uncertainty.
+Data uncertainty arises because not all of the information is available to obtain a
+picture of the “true” state of the economy. There are a number of reasons for
+this: not all of the data that would be of interest are recorded statistically or can
+be recorded in their entirety. Some data are only available with a considerable
+time delay. Some are subject to measurement issues, so the data need to be
+revised later. 
+To give one example: for economic activity in the euro area,
+Eurostat (European statistical oﬃce) provides a preliminary ﬂash estimate
+around four weeks after the end of a quarter. This is based on a very limited
+dataset, and especially the ﬁgures for the third month of the quarter need to be
+estimated. The actual ﬂash estimate is released two weeks later. But even this
+does not yet include any details or nominal data. Another two to three weeks
+later, it is followed by an initial estimate with a more detailed breakdown by com‐
+ponents. However, even then, changes should still be expected, and these can
+sometimes be considerable. 
+This demonstrates how we have only incomplete knowledge of the present in
+real time. The description and assessment of the current situation are therefore
+already subject to uncertainty. 
+In addition to this, there is model uncertainty. In order to be able to examine
+macroeconomic processes, complex realities must be simpliﬁed. This simpliﬁca‐
+tion is achieved through models. They are conﬁned to a small number of interre‐
+lationships that are as relevant as possible. All others are disregarded. In mone‐
+tary policy, we use models, for example, to predict the development of inﬂation
+or to estimate the eﬀects of our monetary policy measures. However, there is
+plenty of room for discussion on whether the simpliﬁcations in each model are
+always adequate. 
+
+But even if we were all in agreement on the model framework, other sources of
+uncertainty still remain. This concerns, for one thing, the parameters. These
+reﬂect the assumed strength and dynamics of the relationships within a given
+model. The parameters are usually estimated on the basis of past observations.
+The estimation results therefore also depend on the selected investigation
+period. Furthermore, parameters can evolve over time, for example as a result of
+structural change. Particularly if this happens abruptly and the structural breaks
+are not detected immediately, the model results can then be misleading. 
+For another thing, models often make use of variables that cannot be observed
+directly, such as potential output or natural interest rates. These must them‐
+selves be estimated, which entails considerable uncertainty.  This also shows
+how closely data uncertainty and model uncertainty are intertwined.
+To summarise: models arrive at diﬀerent results due to uncertainties in their
+structure, parameters and estimation variables, which may lead us to diﬀerent
+conclusions. Assessment by experts then often determines the ﬁnal forecast
+picture. 
+In practice, data uncertainty and model uncertainty are especially relevant when
+unexpected events occur. At these times, monetary policymakers’ need for com‐
+prehensive information is, of course, particularly great. This is because the
+appropriate monetary policy response depends on the nature of the unexpected
+events in question. However, data uncertainty and model uncertainty make it dif‐
+ﬁcult to deﬁnitively ascertain the exact nature and magnitude of a shock that is
+currently taking place. There is a relatively high risk of being wrong. What can
+monetary policymakers do against this?
+First of all, we draw on many diﬀerent sources of information to obtain as com‐
+plete a picture of the current situation as possible. For example, in 2019 and
+2020, we at the Bundesbank began to regularly survey households and ﬁrms
+about their assessments and expectations. Since 2020, we have been measuring
+the activity of the German economy using a weekly index. Since the start of the
+war in Ukraine, models have been developed that explicitly take gas price shocks
+into account. 
+[3]
+
+In addition, we are continually working on improving our forecast models even
+further. Artiﬁcial intelligence now oﬀers new possibilities, such as capturing non-
+linear relationships, analysing large sets of data, and automating and accelerat‐
+ing analytical processes. We are intensively examining all of these possibilities at
+the Bundesbank. And we have already achieved some promising successes in
+this regard. I will come back to touch upon one speciﬁc prototype later on.
+Given the data uncertainty and model uncertainty, we in monetary policy are
+well advised to pursue a strategy that is as robust as possible. To stick with the
+image of Alan Greenspan: in the monetary policy landscape, you should best
+avoid ﬂip-ﬂops. Sturdy footwear is needed here. A robust strategy produces
+good results under various assumptions and prevents particularly costly
+mistakes.
+The more uncertain the setting, the greater the risk of policy errors. That is why,
+when uncertainty is high, monetary policymakers are also in demand as risk
+managers. We have to consider various scenarios, assess the likelihood that they
+will materialise as well as their implications, and also weigh up the costs and
+beneﬁts of diﬀerent monetary policy paths that lead to the inﬂation destination.
+How do these considerations aﬀect our decisions? The short answer is: it
+depends.
+A gradual approach might make sense when uncertainty is high.  It is human
+nature: when the room you are entering is dark, you do not simply rush in. You
+proceed slowly, taking small steps. Applying this analogy to monetary policy, the
+costs of reversing policy following an error could outweigh the costs of acting
+too late. “Flip-ﬂopping” could itself add to the uncertainty and destabilise expec‐
+tations. Moreover, abruptly changing direction can precipitate greater volatility in
+ﬁnancial markets and pose risks to ﬁnancial stability. 
+[4]
+
+That said, it will not always be the case that cautious monetary policymaking is a
+good response to high uncertainty. I am talking about situations in which a
+“wait-and-see” attitude increases the risk that the outcome will be particularly
+unfavourable. Going back to the dark room I mentioned just now: if the ﬂames
+are right behind you, you should not edge your way forwards in small steps. A
+scenario where inﬂation expectations risk drifting oﬀ might be just such a case.
+Then, a vigorous response would be appropriate to protect yourself from this
+worst-case scenario. As you can see, it may be necessary to respond swiftly and
+comprehensively, precisely because uncertainty is high. 
+Clearly, monetary policymakers acting as risk managers would be well advised to
+take robust control approaches into account when making decisions in particu‐
+larly uncertain times.
+3 Drivers of uncertainty
+3.1 Trade policy ﬂip-ﬂopping
+Ladies and gentlemen,
+Right now, these considerations are anything but mere theory. And that is due,
+not least, to the White House. Since the change of administration in the United
+States, no little uncertainty has been rippling across the Atlantic. The waves
+caused by US (United States) trade policy have been particularly huge. 
+Since April, the United States has been imposing additional tariﬀs of at least
+10 % on all its trading partners. Tariﬀs that are higher still apply to imports of
+steel and aluminium as well as to cars and automotive parts. Tit-for-tat tariﬀ
+hikes by the United States and China drove tariﬀ rates to more than 100 % at
+times. In mid-May, the two countries agreed to lower them signiﬁcantly for a
+time.  Even so, the average eﬀective US (United States) tariﬀ rate has climbed
+by more than 13 percentage points in the year to date, reaching its highest level
+since the 1930s.  In addition, there is a risk of tariﬀs going higher still as of July
+if bilateral negotiations fail. 
+[5]
+[6]
+[7]
+
+The shock waves unleashed by US (United States) trade policy are not only
+having an impact via the actual tariﬀ burden. Their unpredictability and the
+doubts they have raised about US (United States) economic and ﬁscal policy are
+also leaving a mark, as reﬂected by the sometimes severe ﬂuctuations in ﬁnan‐
+cial markets. The tariﬀ hikes announced on 2 April, for example, caused implied
+stock market volatility to spike signiﬁcantly higher. This points to a high degree
+of uncertainty among market participants – in the United States especially, but
+also in the euro area.
+Measured in terms of the number of mentions in newspaper articles, trade
+policy uncertainty peaked this spring.  And that is hardly surprising given how
+many questions this topic is raising: which tariﬀs will be put into eﬀect, tempo‐
+rarily suspended or withdrawn – and when? What retaliatory measures will follow
+in each case? To what degree will goods ﬂows in global trade be diverted? What
+will be the fallout from this? Will action be taken to curb these diversions? And, if
+so, by whom? You could keep going like this ad inﬁnitum. 
+Even in times when trade policy moves in straight lines, forecasts of the eco‐
+nomic impact of upheavals in the tariﬀ regime would be no more than rough
+approximations. But we are dealing with an almost unpredictable cycle of
+events: tariﬀs are threatened, put into force, partially withdrawn, and then
+threatened again. 
+One example of this is the US (United States) tariﬀ policy imposed on the
+EU (European Union). First, on 12 March, the United States imposed general
+tariﬀs of 25 % on steel and aluminium. A little time later, additional blanket tariﬀs
+of 25 % were imposed on cars and automotive parts as well. On 2 April 2025,
+President Trump also announced what he called “reciprocal” tariﬀs for a host of
+trading partners depending on the bilateral trade deﬁcit and amounting to at
+least 10 %, and, in the case of the EU (European Union), 20 %. But then, with
+turmoil raging in ﬁnancial markets, President Trump, on 9 April, suspended the
+tariﬀs for 90 days, initially in order to reach “deals”. The minimum 10 % tariﬀ and
+the additional 25 % tariﬀ on cars, steel and aluminium were left in place, though.
+On 23 May, President Trump threatened the EU (European Union) with 50 %
+tariﬀs, starting on 1 June – a threat he withdrew two days later. This means that
+forecasts are based on a footing that is less stable than usual.
+[8]
+
+As far as economic growth is concerned, at least the direction of travel seems to
+be clear: Germany, like the euro area as a whole, is likely to suﬀer marked losses
+as a result of US (United States) tariﬀ policy. First, the higher tariﬀs will make
+European goods less competitive in the US (United States) market. This will prob‐
+ably shrink exports to the United States. Second, sluggish economic activity in
+the United States and other trading-partner countries will dampen demand for
+products from Europe. Third, the high degree of uncertainty makes longer-term
+planning more diﬃcult. Enterprises could therefore postpone investment deci‐
+sions in the hope of quieter times.
+The Bundesbank has simulated the impact of US (United States) tariﬀ policy
+eﬀective in mid-April, China’s retaliatory measures, and the immediate exchange
+rate response. The results suggest that economic output in the euro area could
+be just under half a percentage point lower over the medium term. 
+The direction in which the trade dispute will move inﬂation in the euro area,
+however, remains unclear. On the one hand, weaker growth tends to dampen
+prices. Potential diversion eﬀects resulting from more goods from China in the
+European market might also leave inﬂation somewhat lower. On the other hand,
+any retaliatory tariﬀs imposed by the EU (European Union) would fuel inﬂation. 
+How the exchange rate will evolve going forward remains to be seen. In theory,
+the expected response to the US (United States) tariﬀs would be a stronger
+dollar. If anything, this would tend to drive prices higher in the euro area. But
+things have played out diﬀerently so far. In the wake of the tariﬀ discussions,
+trust in the US (United States) dollar has declined, at least temporarily, causing
+the currency to depreciate markedly since 2 April. In the euro area, this has
+dampened inﬂation.
+Thinking beyond day-to-day terms, it is conceivable that longer-term eﬀects will
+materialise as well. For example, tariﬀs can have a particularly negative impact
+on trade in intermediate goods.  This is because they shake the calculations
+upon which global production networks are based. 
+[9]
+[10]
+
+Enterprises have ﬁne-tuned their supply chains to forge highly cost-eﬃcient pro‐
+duction structures. However, the trade barriers are putting a spanner in the
+works of global value chains. Enterprises will have no option but to recalculate
+their supply chains and tweak some of their relationships with suppliers. They
+will build up new partnerships and no doubt pay particular attention to strength‐
+ening their resilience. This will not happen overnight, especially with political
+conditions as unsettled as they are right now.  In the process, they may well
+relinquish some of the eﬃciency gains they have reaped. Over the medium term,
+this could generally drive up their costs and, as a result, their prices as well.
+3.2 Structural change is progressing
+The reconﬁguration of global value chains is working in tandem with other struc‐
+tural changes: among them, ﬁrst and foremost, climate change and the transi‐
+tion to a climate-neutral economy. The ageing of society is also playing a role,
+with more people entering retirement and fewer people still in the workforce.
+And let us not forget digitalisation, which brings with it great opportunities for
+increased productivity but also considerable change in many professional ﬁelds,
+as well as the risk of giving individual big players more market power.
+All of these factors could inﬂuence the inﬂation environment. It is often unclear
+in which direction inﬂation is heading, and it may change over time. Overall,
+these structural drivers make it diﬃcult to assess medium-term inﬂation
+developments.
+3.3 New geopolitical realities
+Alongside structural change and the almost fully unpredictable developments in
+the tariﬀ dispute, there is a third factor of uncertainty. Old security policy certain‐
+ties have given way to new geopolitical realities. This is creating new challenges
+for Europe: we will thus need to invest signiﬁcantly more in our own security.
+In order to suﬃciently bolster our defence capabilities, considerably greater
+funds are required. There is a strong case against ﬁnancing such ad hoc needs in
+the short term solely by rebalancing budgets. The European Commission, for
+instance, proposes activating the national escape clause in the
+EU (European Union) ﬁscal rules in order to temporarily allow countries greater
+scope for borrowing.
+[11]
+[12]
+
+I think this is a justiﬁable approach. It would allow countries to gradually adjust
+to higher defence spending. However, it must be clear that this would only be a
+transitional period. Increased deﬁcits cannot become a permanent state of
+aﬀairs. A resilient Europe that is capable of action rests on a stable foundation.
+This includes sound public ﬁnances whereby key items are funded in the core
+budget and through current revenue.
+Overall, there are signs of a more expansionary ﬁscal policy stance for the euro
+area. Whether or not greater debt also leads to greater price pressures in the
+euro area depends on many factors, such as what the additional money is spent
+on, how quickly it ﬂows out, and how much money ﬂows in from abroad. These
+uncertainties make it more diﬃcult to forecast developments. In any case, the
+ECB (European Central Bank) Governing Council is keeping a close eye on risk. As
+stated in the account of our April meeting: “A boost in defence and infrastructure
+spending could also lift inﬂation over the medium term.”
+4 Monetary policy stance in the euro area
+The current high level of uncertainty is a slight dampener on the gratiﬁcation
+brought about by positive developments: since the beginning of the year, the
+euro area inﬂation rate has fallen from 2.5 % to 2.2 % in April. This has ﬁnally
+brought the target within reach. We are on the right path, even if it remains
+rocky. The core rate has recently risen again. At 4 %, prices for services, in partic‐
+ular, have seen surprisingly steep growth. 
+The ECB (European Central Bank) Governing Council will continue to steer the
+monetary policy stance in such a way that the inﬂation rate stabilises at 2 % over
+the medium-term. You may now be asking yourselves: “What exactly does that
+mean for the next meeting in June? Will there be another interest rate
+cut?” Pressing as these questions are, I unfortunately cannot answer them today.
+
+Since July 2022, we on the ECB (European Central Bank) Governing Council have
+been following a data-dependent approach, making decisions on a meeting-by-
+meeting basis. This approach has proved successful when dealing with the
+heightened uncertainty of recent years, such as during the aftermath of the
+COVID (coronavirus disease)-19 pandemic and in the wake of Russia’s war of
+aggression against Ukraine. We have stayed ﬂexible and have continuously
+assessed how the incoming data change the medium-term inﬂation outlook.
+Here, we supplemented our baseline – which is the most likely outcome – with
+scenario analyses. This also allowed us to assess the probability of less likely but
+still conceivable outcomes. 
+Using this approach, I believe that we are well equipped to deal with the current
+high level of uncertainty, too. As I explained earlier, inﬂation could be higher or
+lower than the latest expectations, depending on how the tariﬀ dispute develops
+as well as other inﬂuencing factors like the exchange rate, services prices and
+ﬁscal packages. In light of this, it seems to me more advisable than ever to make
+decisions meeting by meeting on the basis of the latest data. If we had not
+already been operating so ﬂexibly, we would have had to start doing so now, at
+the latest. It would be impossible to reliably commit to a speciﬁc interest rate
+path at the current juncture.
+In June, the ECB (European Central Bank) Governing Council will have a fresh set
+of data and an up-to-date forecast. These will help us to align the monetary
+policy stance in a way that will bring us another step closer to our goal. Our des‐
+tination is clear: we want the inﬂation rate to reach the target of 2 % soon and to
+stabilise there on a sustainable basis. Of that, there is no doubt. In doing so, we
+are thus providing a stable anchor for inﬂation expectations. 
+Anchored inﬂation expectations make it easier for monetary policymakers to
+bring inﬂation back to target after unexpected events. The successes in the ﬁght
+against the far too high inﬂation rates of the past few years were achieved at rel‐
+atively low economic cost.  This was partly attributable to the fact that inﬂation
+expectations were better anchored than before. But we cannot rest on our
+laurels with regard to the future, because the starting position has changed. We
+no longer have decades of moderate inﬂation rates behind us. For many people,
+the experience of such strong price surges was new and dramatic. The memory
+of this is unlikely to fade quickly.
+[13]
+[14]
+
+Inﬂation expectations, as well the associated price and wage setting, may now
+respond more quickly or more strongly to future inﬂation shocks. We therefore
+need to be particularly vigilant when it comes to the evolution of inﬂation expec‐
+tations. For instance, medium-term inﬂation expectations amongst euro area
+households and ﬁrms were recently on the rise again. Concerns about rising
+prices caused by tariﬀ policy are not only on American minds, then. We will keep
+a close eye on this development.
+Ensuring that inﬂation expectations are ﬁrmly anchored is a permanent task for
+monetary policymakers. This can be achieved by ensuring that our commitment
+to stability is highly credible and that our communication is clear.
+To further improve clarity, we have since implemented AI (artiﬁcial intelligence)-
+assisted text analysis methods, too. In this vein, the Bundesbank has developed
+a novel AI (artiﬁcial intelligence) model that can produce detailed and transpar‐
+ent evaluations of monetary policy texts.  This allows us to assess, for example,
+whether certain statements are likely to send the desired signals. After all, we do
+not want our communication to trigger undesirable market reactions or create
+additional uncertainty. AI (artiﬁcial intelligence) analysis does not replace human
+expertise. But it can help us to further improve our understanding of monetary
+policy communication and its impact.
+5 Conclusion
+Ladies and gentlemen, 
+If you are currently wondering whether this speech was generated by
+AI (artiﬁcial intelligence), or, indeed, if it will ever end, I can assure you that real
+people were involved in the speech-writing process, and I have now come to my
+closing remarks. Our AI (artiﬁcial intelligence) model is currently used to evalu‐
+ate texts. Incidentally, this speech was classiﬁed as “neutral” in monetary policy
+terms.
+[15]
+
+Alan Greenspan would probably have pushed the model to its limits. His state‐
+ments were often so cryptic that the media and ﬁnancial markets took to
+seeking out other clues: for example, when it came to monetary policy decisions,
+they looked at the thickness of his briefcase. A slim briefcase was thought to
+indicate an uneventful meeting without interest rate changes, whilst a bulging
+briefcase signalled a need for discussion and an adjustment to the policy rate.
+During his term in oﬃce, Mr Greenspan was once asked whether there was any
+truth to this theory. His answer: “The thickness of my briefcase depended on
+whether or not I had packed a sandwich.”
+Unfortunately, not all uncertainties can be so easily erased from the monetary
+policy landscape. But, as we can see, asking direct questions and talking to each
+other often contributes to greater clarity. Which makes me all the more excited
+for our discussion!
+Thank you very much. 
+Footnotes:
+Greenspan, A. (2003), Monetary Policy under Uncertainty, Remarks at a sym‐
+posium sponsored by the Federal Reserve Bank of Kansas City, Jackson Hole,
+Wyoming, 29 August 2003.
+1.
+Stock, J. H. and M. W. Watson (2002), Has the Business Cycle Changed and
+Why?, NBER (National Bureau of Economic Research) Working Paper No
+9127.
+2.
+Nagel, J. (2025), 
+, Lecture at the London School of Economics and Political Science, London,
+12 February 2025.
+3.
+Brainard, W. (1967), Uncertainty and the Eﬀectiveness of Policy, American
+Economic Review, Vol. 57, No 2, pp. 411‑425.
+4.
+Hansen, L. P. and T. J. Sargent (2001), Robust Control and Model Uncertainty,
+American Economic Review, Vol. 91, No 2.
+5.
+See Deutsche Bundesbank (2025), 6.
+[16]
+[17]
+r* in the monetary policy universe: Navigational star or dark
+matter?
+[/en/press/speeches/r-in-the-monetary-policy-universe-navigational-star-or-dark-
+matter--950660]
+The potential impact of the current trade
+dispute between the United States and China
+
+, Monthly Report, May 2025.
+The Budget Lab at Yale (2025), 
+, 2025, Yale
+University.
+7.
+A description of the trade policy uncertainty index can be found in Caldara,
+D., M. Iacoviello, P. Molligo, A. Prestipino and A. Raﬀo (2020), The economic
+eﬀects of trade policy uncertainty, Journal of Monetary Economics, Vol. 109.
+See also Deutsche Bundesbank (2025), 
+, Monthly Report, May 2025.
+8.
+Deutsche Bundesbank (2018), The macroeconomic impact of uncertainty,
+Monthly Report, October 2018, pp. 49‑64.
+9.
+Deutsche Bundesbank (2020), Domestic economic eﬀects of import tariﬀs
+with regard to global value chains, Monthly Report, January 2020.
+10.
+Bayoumi, T., J. Barkema and D. A. Cerdeiro (2019), The Inﬂexible Structure of
+Global Supply Chains, IMF (International Monetary Fund) Working Paper,
+No 19/193.
+11.
+See Deutsche Bundesbank (2025), 
+, Monthly Report, May 2025.
+12.
+Deutsche Bundesbank (2024), The global disinﬂation process and its costs,
+Monthly Report, July 2024.
+13.
+D’Acunto, F., U. Malmendier and M. Weber (2022), What Do the Data Tell Us
+About Inﬂation Expectations? NBER (National Bureau of Economic Research)
+Working Papers, No 29825, March 2022.
+14.
+Deutsche Bundesbank (2025), Monetary policy communication according to
+artiﬁcial intelligence, Monthly Report, March 2025.
+15.
+Gavin, W. T. and R. J. Mandal (2000), Inside the briefcase: The art of predicting
+the Federal Reserve, The Regional Economist, July 2000.
+16.
+Alan Greenspan in an interview with “Stern”: “In der Badewanne hatte ich
+viele gute Ideen”, 30 September 2007. 
+17.
+[https://publikationen.bundesbank.de/publikationen-en/reports-studies/monthly-
+reports/global-and-european-setting-957526]
+State of U.S. tariﬀs: May 12
+[https://budgetlab.yale.edu/research/state-us-tariﬀs-may-12-2025]
+The macroeconomic eﬀects of height‐
+ened uncertainty
+[https://publikationen.bundesbank.de/publikationen-en/reports-studies/monthly-
+reports/global-and-european-setting-957526]
+EU ﬁscal rules: proposed activation of
+national escape clauses
+[https://publikationen.bundesbank.de/publikationen-en/reports-studies/monthly-
+reports/public-ﬁnances-957534]
