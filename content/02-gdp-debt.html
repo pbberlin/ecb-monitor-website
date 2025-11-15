@@ -139,21 +139,24 @@
           <input type="radio" name="stats_variable" value="ameco_net_lending">
         </label>
 
+
         <label title="(Ameco)">
           Staatsquote % BIP
           <input type="radio" name="stats_variable" value="ameco_total_expenditure">
         </label>
 
+        
         <label title="(Ameco)">
           Zinszahlungen in % Staatsausgaben
           <input type="radio" name="stats_variable" value="ameco_interest_expenditure">
         </label>
 
+<!--         
         <label title="(Ameco)">
           Zinszahlungen in % BIP
           <input type="radio" name="stats_variable" value="ameco_interest_to_gdp">
         </label>
-
+ -->
 
         <label title="(Eurostat)">
           Zehnjährige Staatsanleihen
@@ -175,9 +178,73 @@
 
       <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem">
         <span style="font-size: 70%;">color opacity</span>
-        <input name="color_opacity" id="color_opacity" type="number" min="1" max="100" step="10" value="30"
+        <input name="color_opacity" id="color_opacity" type="number" min="1" max="100" step="10" value="60"
           style="border:none; width: 2.2rem;padding:0; font-size: 70%;">
       </div>
+
+      <style>
+
+        :root{
+          --grad-height: 1.2rem;
+        }
+
+        .gradientWrapper {
+            position: relative;
+            height:   var(--grad-height);
+            width:  100%;
+            margin: 2rem 0;
+            margin-top:  0;
+            /* border: 1px solid gray; */
+        }
+
+        .myGradient1 {
+            height:   var(--grad-height);
+            width:    100%;
+            background: linear-gradient(
+                to right,
+                green     0px,
+                #808000  30%,
+                #808000  30%,
+                red     90%,
+                red     100%
+            );
+            /* border: 1px solid #444; */
+        }
+
+
+        .tick {
+            position: absolute;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 0.4rem;
+
+            height:  5px;
+            width:   1px;
+            top:     calc(var(--grad-height) + 0.0rem);
+
+            background: black;
+            text-align:   center;
+            transform:    translateX(calc(-50% + 1px));
+            font-size: 11px;
+        }
+        .tick:last-child {
+            transform:    translateX(calc(-50% - 1px));
+        }
+
+      </style>
+
+
+      <div class="gradientWrapper">
+          <!--  -->
+          <div class="myGradient1" id="myGradient1"></div>
+          <div class="tick" style="left:   0px;">  0%</div>
+          <div class="tick" style="left:   30%;"> 60%</div>
+          <div class="tick" style="left:   50%;">100%</div>
+          <div class="tick" style="left:  100%;">180%</div>
+      </div>
+
 
   </div>
 
@@ -191,25 +258,7 @@
 
     <ul id="bullet-container">
 
-
-      <!--
       <li>
-        Ziemlich identische Daten - einmal 'UDGG' - einmal  'UDGGL' - L für "linked series".
-        Ich begreife nicht, was der inhaltliche Unterschied ist.
-      </li>
-      -->
-
-
-      <li>
-        "Farbsättigung" reduziert (Demo)
-          <div class="gradientWrapper">
-              <div class="myGradient1"></div>
-              <div class="tick" style="left:   0px;">  0%</div>
-              <div class="tick" style="left:  60px;"> 60%</div>
-              <div class="tick" style="left: 100px;">100%</div>
-              <div class="tick" style="left: 200px;">200%</div>
-          </div>
-
 
         </li>
     </ul>
@@ -408,6 +457,9 @@
           opacity = elOpa.value.toString(16);
         }
 
+        const gradWrap = document.getElementById("myGradient1");
+        gradWrap.style.opacity = opacity / 100;
+        
 
         pct = pct * ranges[0];
         // console.log(`color ${pct} - ${ranges} `);
@@ -457,6 +509,7 @@
 
 
     function regionsColoring(yr=currentYear) {
+
       let results = [];
 
       for (const [idx, country] of nonMembers.entries()) {
@@ -470,6 +523,9 @@
               areaColor:   '#eee',
               borderWidth:  0.4,
               borderColor: '#ccc'
+            },
+            emphasis: { 
+              disabled: true,
             },
            };
           // console.log(`  regionsColoring()-1 ${country}`);
@@ -494,6 +550,7 @@
                 borderWidth: 0.2,
                 aaborderColor: '#ccc',
               },
+              emphasis: { disabled: true },
           };
           // console.log(`  regionsColoring()-2 ${country}`);
           results.push(item);
@@ -697,6 +754,7 @@
         itemStyle: {
           // https://echarts.apache.org/en/option.html#legend.itemStyle
           areaColor:            colIB3,
+          areaColor:           'transparent',  // no default color - everything in regionsColoring()
           borderColor:         '#999999',
           inactiveColor:       '#f11',
           inactiveBorderColor: '#ccc',
@@ -711,12 +769,14 @@
           // rectangles('Luxembourg' ,  0,0),
         ],
 
-
-        // color when hovered
+        // only global setting possible
         emphasis: {
           itemStyle: {
             // color on hover
-            areaColor: colPri
+            // areaColor:    'transparent',
+            areaColor:    colPri,
+            borderWidth:  0.8,
+            borderColor: '#444',
           },
           label: { show: false }
         },
@@ -796,6 +856,22 @@
 
 
     }
+
+
+    sliderEl.addEventListener("wheel", function(evt) {
+        evt.preventDefault();               // stop page scrolling
+        const direction = Math.sign(evt.deltaY);
+        let newValue = Number(sliderEl.value) - direction * wheelStep;
+
+        if (newValue < sliderEl.min) {
+            newValue = sliderEl.min;
+        }
+        if (newValue > sliderEl.max) {
+            newValue = sliderEl.max;
+        }
+        sliderEl.value = newValue;
+        sliderEl.dispatchEvent(new Event("input"));    // trigger input event
+    });
 
 
     // --- onChange handler: update the chart option (stub) ---
@@ -923,67 +999,6 @@
 
 
 
-
-
-<style>
-  .gradientWrapper {
-      position: relative;
-      height:   2rem;
-      width:  300px;
-      margin: 20px;
-      /* margin-bottom: 4rem; */
-  }
-
-  .myGradient1 {
-      height:   2rem;
-      width:  300px;
-      background: linear-gradient(
-          to right,
-          green     0px,
-          #808000  60px,
-          #808000  60px,
-          red     180px,
-          red     300px
-      );
-      border: 1px solid #444;
-  }
-
-
-
-  .tick {
-      position: absolute;
-      bottom: 0;
-      height: 5px;
-      width:   1px;
-      background: black;
-      text-align: center;
-      transform: translateX(-50%);
-      font-size: 12px;
-      color: black;
-  }
-
-
-  .tick {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .tick::before {
-      content: "";
-      height: 4px;
-      width:  1px;
-      background: black;
-  }
-
-  .tick {
-      top: 2rem;
-  }
-
-  .tick span {
-      margin-top: 5px;
-  }
-</style>
 
 
 
