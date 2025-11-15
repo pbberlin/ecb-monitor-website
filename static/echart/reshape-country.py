@@ -15,6 +15,107 @@ import json
 
 from shapely.geometry import shape, mapping, box, Point
 from shapely.affinity import translate, scale
+from shapely.ops import unary_union
+
+# November 2025 - 20 euro countries - plus Bulgaria imminent
+euCountriesEuro = [
+    "Austria",
+    "Belgium",
+    "Bulgaria",
+    "Croatia",
+    # "Cyprus",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Ireland",
+    "Italy",
+    "Latvia",
+    "Lithuania",
+    "Luxembourg",
+    # "Malta",
+    "Netherlands",
+    "Portugal",
+    "Slovakia",
+    "Slovenia",
+    "Spain"
+]
+
+
+def createUnionShape(
+        features,
+        nameRect     =   f"EU Euro",
+        onTopOfCountry=False,
+    ):
+
+    countriesFound =     False
+    countryFeatureIndexes = []
+
+    # Identify country features
+    for idx1, countryName in enumerate(euCountriesEuro):
+        foundThisCountry = False
+        for idx2, feat in enumerate(features):
+            try:
+                if findSingleCountryFeature(countryName , feat):
+                    countriesFound = True
+                    foundThisCountry = True
+                    countryFeatureIndexes.append(idx2)
+                    break
+            except Exception as ex:
+                print(f"Error during {countryName} detection at feature {idx2}: {ex}")
+
+        if not foundThisCountry:
+            print(f"Did not find a feature that looks like {countryName}. No changes written.")
+            return
+
+    if not countriesFound:
+        print("Did not find any EU euro country features. No changes written.")
+        return
+
+    geometriesToMerge = []
+    for idx1, featIndex in enumerate(countryFeatureIndexes):
+        feat = features[featIndex]
+        geomDict = feat.get("geometry", None)
+        if geomDict is None:
+            print(f"Feature at index {featIndex} has no geometry. No changes written.")
+            return
+
+        try:
+            geom = shape(geomDict)
+        except Exception as ex:
+            print(f"Failed to parse geometry for feature index {featIndex}: {ex}")
+            return
+
+        geometriesToMerge.append(geom)
+
+    try:
+        mergedShape = unary_union(geometriesToMerge)
+        print("Merged all EU euro country shapes.")
+    except Exception as ex:
+        print(f"Failed to merge: {ex}")
+        return
+
+    try:
+        mergedFeature = {
+            "type": "Feature",
+            "properties": {
+                "name": nameRect,
+                "note": "20 EU euro countries and Bulgaria)"
+            },
+            "geometry": mapping(mergedShape)
+        }
+    except Exception as ex:
+        print(f"Failed to build merged feature: {ex}")
+        return
+
+    # Attach merged feature on top of existing features (drawn last)
+    if onTopOfCountry:
+        features.append(mergedFeature)
+    else:
+        features.insert(0, mergedFeature)
+
+
 
 
 
@@ -58,16 +159,18 @@ def writeGeoJsonPretty(outputPath, data):
         print(f"writeGeoJsonPretty() failed: {ex}")
 
 
-def findCountryFeature( searchedCountry, feature):
+
+def findSingleCountryFeature( searchedCountry, feature):
 
     nameCandidates = []
     props = feature.get("properties", {})
 
     for key in props:
-        # print(f"\tfindCountry({searchedCountry}) {key}")
+        # print(f"\t search country feature {searchedCountry:20} {key}")
         if key == "name":
-            print(f"\tfindCountry({searchedCountry}) - found {key} -{props[key]}-")
+            # print(f"\t search country feature {searchedCountry:20} - found {key} -{props[key]}-")
             if props[key] == searchedCountry:
+                print(f"\t search country feature {searchedCountry:20} - found {key} -{props[key]}-")
                 nameCandidates.append(str(props.get(key, "")).strip())
 
 
@@ -81,12 +184,12 @@ def findCountryFeature( searchedCountry, feature):
         return False
     else:
         pass
-        # print(f"findCountry({searchedCountry}) geometry found")
+        # print(f" search country feature {searchedCountry:20} geometry found")
 
     try:
         geom = shape(geomDict)
     except Exception as ex:
-        print(f"findCountry({searchedCountry}) failed to parse geometry: {ex}")
+        print(f" search country feature {searchedCountry:20} failed to parse geometry: {ex}")
         return False
 
     centroid = geom.centroid
@@ -94,9 +197,10 @@ def findCountryFeature( searchedCountry, feature):
     latOk = centroid.y >= 34.0 and centroid.y <= 36.0
     matchedByHeuristic = lonOk and latOk
 
-    # print(f"findCountry({searchedCountry}) {matchedByHeuristic=}")
 
     return matchedByName
+
+
 
 
 def moveAndScale(geom, lonShiftDeg, latShiftDeg, scaleFactor):
@@ -149,13 +253,13 @@ def load(inputPath):
 
 
 def enhance(
-        features, 
+        features,
         countryName,
         lonShiftDeg     ,
         latShiftDeg     ,
         scaleFactor     ,
 
-        drawRect,    
+        drawRect,
         padLeftDeg      ,
         padRightDeg     ,
         padTopDeg       ,
@@ -178,7 +282,7 @@ def enhance(
     # Identify country feature
     for idx1, feat in enumerate(features):
         try:
-            if findCountryFeature(countryName , feat):
+            if findSingleCountryFeature(countryName , feat):
                 countryFound = True
                 countryFeatureIdx = idx1
                 break
@@ -203,10 +307,10 @@ def enhance(
         features[countryFeatureIdx]["properties"][f"_modified_{countryName}"] = True
         features[countryFeatureIdx]["properties"]["_lon_shift_deg"] = lonShiftDeg
         features[countryFeatureIdx]["properties"]["_scale_factor"]  = scaleFactor
-        
+
         features[countryFeatureIdx]["properties"]["LON"]  += lonShiftDeg
         features[countryFeatureIdx]["properties"]["LAT"]  += latShiftDeg
-    
+
         print(f"transformed {countryName} geometry")
     except Exception as ex:
         print(f"Failed to transform {countryName} geometry: {ex}")
@@ -231,10 +335,10 @@ def enhance(
                 "geometry": mapping(insetRectGeom),
             }
             if onTopOfCountry:
-                features.append(insetFeature)     #                     on top of 
+                features.append(insetFeature)     #                     on top of
             else:
                 features.insert(0, insetFeature)  # prepend - rectangle under country
-            print(f"rectangle around {countryName} with asymmetric padding")        
+            print(f"rectangle around {countryName} with asymmetric padding")
         except Exception as ex:
             print(f"Failed to create inset rectangle: {ex}")
             return
@@ -267,7 +371,7 @@ def enhance(
 
 
 def shiftCentroidOnly(
-        features, 
+        features,
         countryName,
         lonShiftDeg     ,
         latShiftDeg     ,
@@ -279,7 +383,7 @@ def shiftCentroidOnly(
     # Identify country feature
     for idx1, feat in enumerate(features):
         try:
-            if findCountryFeature(countryName , feat):
+            if findSingleCountryFeature(countryName , feat):
                 countryFound = True
                 countryFeatureIdx = idx1
                 break
@@ -291,15 +395,15 @@ def shiftCentroidOnly(
         return
 
 
-    # move centroid 
+    # move centroid
     try:
 
         if "properties" not in features[countryFeatureIdx]:
             features[countryFeatureIdx]["properties"] = {}
         features[countryFeatureIdx]["properties"]["LON"]  += lonShiftDeg
         features[countryFeatureIdx]["properties"]["LAT"]  += latShiftDeg
-        
-        
+
+
         print(f"moved centroid {countryName} geometry")
     except Exception as ex:
         print(f"Failed to moved centroid {countryName} geometry: {ex}")
@@ -342,9 +446,11 @@ def roundCoords(features, decimals=3):
 
 
 
-def dropClosePoints(features, 
-    minDistanceSmall  = 0.080,
-    minDistanceLarge  = 0.120,
+def dropClosePoints(features,
+    simplifyThresh1      = 0.080,
+    simplifyThresh2      = 0.120,
+    simplifyThresh3      = 0.180,
+    simplifyThresh4      = 0.230,
 ):
     """
     Removes redundant coordinate points from geometries:
@@ -366,29 +472,82 @@ def dropClosePoints(features,
 
     # heavier pruning for some large shapes
     # smaller countries (Malta, Cyprus) are pruned less
-    def isLargeShapeByName(feature):
+    def isSimplify02(feature):
         try:
             props = feature.get("properties", {})
             nameValue = str(props.get("name", "")).strip()
             if nameValue in [
-                "Norway", 
-                "Sweden",
+                
                 "Denmark",
-                "Finland",
+                "Ireland",
+                "Netherlands",
+                "France",
+
+                "Estonia",
+                "Latvia",
+                "Lithuania",
+                "Cyprus",
+                "Croatia",
+                "Greece",
+
+                "Ukraine",
+                "Belarus",
+                "Moldova",
+                "Bosnia and Herzegovina",
+                "Serbia",
+                "Albania",
+                "Macedonia",
+                "Montenegro",
+
+                "San Marino",
+                "Holy See (Vatican City)",
+
+                "Euro countries",
             ]:
                 return True
         except Exception as ex:
-            print(f"dropClosePoints(): failed checking large-shape name: {ex}")
+            print(f"dropClosePoints - isSimplify01(): failed checking large-shape name: {ex}")
         return False
 
 
+    def isSimplify03(feature):
+        try:
+            props = feature.get("properties", {})
+            nameValue = str(props.get("name", "")).strip()
+            if nameValue in [
+                "Sweden",
+                "Finland",
+                "United Kingdom",
+            ]:
+                return True
+        except Exception as ex:
+            print(f"dropClosePoints - isSimplify02(): failed checking large-shape name: {ex}")
+        return False
+
+
+    def isSimplify04(feature):
+        try:
+            props = feature.get("properties", {})
+            nameValue = str(props.get("name", "")).strip()
+            if nameValue in [
+                "Norway",
+            ]:
+                return True
+        except Exception as ex:
+            print(f"dropClosePoints - isSimplify03(): failed checking large-shape name: {ex}")
+        return False
+
+
+
     def getThresholdForFeature(feature):
-        if isLargeShapeByName(feature):
-            return minDistanceLarge
+        if isSimplify04(feature):    
+            return simplifyThresh4
+        if isSimplify03(feature):
+            return simplifyThresh3
+        if isSimplify02(feature):
+            return simplifyThresh2
         else:
-            # keep small & medium streamlined as before
-            # you can expand this branch later if you want to distinguish small vs. medium
-            return minDistanceSmall
+            return simplifyThresh1
 
 
     def filterCoords(coordList, minDist2):
@@ -399,23 +558,29 @@ def dropClosePoints(features,
         # Nested: list of coordinates
         newList = []
 
+
         # Determine if this is a list of coordinate pairs or deeper nesting
         if isinstance(coordList[0][0], (float, int)):
+
             # List of coordinate pairs → apply distance filter
             if len(coordList) == 0:
                 return coordList
 
+
             # Always keep first point
             newList.append(coordList[0])
 
+            cntr = -1
             for idx1 in range(1, len(coordList)):
+                cntr += 1
                 prev = newList[-1]
                 curr = coordList[idx1]
                 dist = distance(prev, curr)
                 if dist > minDist2:
                     newList.append(curr)
                 else:
-                    print(f"\tdropped close point {curr[0]:6.3f}:{curr[1]:6.3f} -  dist={dist:.4f}")
+                    if cntr>0 and  cntr%1255 == 0:
+                        print(f"\t {cntr:4} dropped close point {curr[0]:6.3f}:{curr[1]:6.3f} -  dist={dist:.4f}")
 
             return newList
 
@@ -439,7 +604,9 @@ def dropClosePoints(features,
                 print(f"dropClosePoints(): feature {idx1} has no coordinates")
                 continue
 
+            
             minDistancePerShape = getThresholdForFeature(feat)
+            print( f"\tminDistancePerShape {minDistancePerShape:4.3f} " )
 
             geom["coordinates"] = filterCoords(coords, minDistancePerShape)
             feat["geometry"] = geom
@@ -456,11 +623,16 @@ def main():
         return
 
 
+    # try:
+    #     createUnionShape(features, "Euro countries", onTopOfCountry=False)
+    # except Exception as ex:
+    #     print(f"Failed to create outer EU euro shape: {ex}")
+
 
     enhance(
-        features, 
+        features,
         countryName    =  "Cyprus",
-            
+
         lonShiftDeg     =   1.8 ,
         latShiftDeg     =   0.5 ,
         scaleFactor     =   1.25 ,
@@ -473,7 +645,7 @@ def main():
 
     )
     shiftCentroidOnly(
-        features, 
+        features,
         countryName    =  "Cyprus",
         lonShiftDeg    =  -2.1 ,
         latShiftDeg    =  -0.2 ,
@@ -482,9 +654,9 @@ def main():
 
 
     enhance(
-        features, 
+        features,
         "Malta",
-            
+
         lonShiftDeg    =  -2.5 ,
         latShiftDeg    =  -0.7  ,
         scaleFactor    =   3.5  ,
@@ -499,9 +671,9 @@ def main():
 
 
     enhance(
-        features, 
+        features,
         "Luxembourg",
-            
+
         lonShiftDeg    =   0.0 ,
         latShiftDeg    =  -0.0  ,
         scaleFactor    =   1.3  ,
@@ -517,54 +689,76 @@ def main():
     )
 
     shiftCentroidOnly(
-        features, 
+        features,
         countryName    =  "Finland",
         lonShiftDeg    =   0.0 ,
         latShiftDeg    =  -2.2 ,
     )
 
     shiftCentroidOnly(
-        features, 
+        features,
         countryName    =  "Luxembourg",
-        lonShiftDeg    =   0.45 ,
-        latShiftDeg    =   0.0 ,
+        lonShiftDeg    =    0.62 ,
+        latShiftDeg    =   -0.06 ,
+    )
+
+    shiftCentroidOnly(
+        features,
+        countryName    =  "Croatia",
+        lonShiftDeg    =    -0.05 ,
+        latShiftDeg    =    -0.15 ,
+    )
+
+    shiftCentroidOnly(
+        features,
+        countryName    =  "Slovenia",
+        lonShiftDeg    =   -0.22 ,
+        latShiftDeg    =   -0.22 ,
+    )
+
+    shiftCentroidOnly(
+        features,
+        countryName    =  "Hungary",
+        lonShiftDeg    =   -0.0 ,
+        latShiftDeg    =   -0.2 ,
     )
 
 
     shiftCentroidOnly(
-        features, 
+        features,
         countryName    =  "Netherlands",
         lonShiftDeg    =   -0.15 ,
         latShiftDeg    =   -0.25 ,
     )
 
 
-    shiftCentroidOnly(
-        features, 
-        countryName    =  "Slovenia",
-        lonShiftDeg    =   -0.15 ,
-        latShiftDeg    =   -0.19 ,
-    )
 
     shiftCentroidOnly(
-        features, 
+        features,
         countryName    =  "Sweden",
         lonShiftDeg    =  -0.8 ,
         latShiftDeg    =  -2.2 ,
     )
 
     shiftCentroidOnly(
-        features, 
+        features,
         countryName    =  "Portugal",
         lonShiftDeg    =   0.27 ,
         latShiftDeg    =   0.0 ,
     )
 
     shiftCentroidOnly(
-        features, 
+        features,
         countryName    =  "Ireland",
         lonShiftDeg    =   0.3 ,
         latShiftDeg    =   0.0 ,
+    )
+
+    shiftCentroidOnly(
+        features,
+        countryName    =  "Malta",
+        lonShiftDeg    =    0.4 ,
+        latShiftDeg    =   -0.1 ,
     )
 
 
@@ -578,7 +772,13 @@ def main():
 
     # drop redundant points
     # dropClosePoints(features, minDistance=0.005)
-    dropClosePoints(features, minDistanceSmall=0.080, minDistanceLarge=0.125)
+    dropClosePoints(
+        features, 
+        simplifyThresh1=0.080, 
+        simplifyThresh2=0.125,
+        simplifyThresh3=0.18,
+        simplifyThresh4=0.34,
+    )
 
 
     # Write output (top-level lines + one-line features)
