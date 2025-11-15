@@ -1,0 +1,202 @@
+1/6 BIS - Central bankers' speeches
+Fabio Panetta: Overview of economic and financial developments in 
+Italy
+Address by Mr Fabio Panetta, Governor of the Bank of Italy, at the ordinary general 
+, Rome, 31 March 2025.meeting of shareholders
+* * *
+Ladies and Gentlemen,
+Global uncertainty remains high, fuelled by persistent geopolitical and trade tensions. 
+This environment hinders international trade and exacerbates the fragmentation of the 
+global economy, contributing to a further slowdown in economic activity.
+The European economy, already marked by a stagnating manufacturing sector, is 
+particularly affected by these dynamics due to its high exposure to international trade.
+Since last June, the ECB Governing Council has gradually lowered its key interest 
+rates, reflecting the progress made in the fight against inflation. However, credit is being 
+affected, with the usual lags, by the monetary tightening of the previous years and by a 
+weak business cycle.
+Looking ahead, we cannot yet say that the battle against inflation is over. It is crucial 
+that we monitor any factors that could prevent inflation from returning to its 2 per cent 
+target.
+Monetary policy decisions will have to balance two aspects. On the one hand, the 
+weakness of the European economy and geopolitical tensions are curbing consumption 
+and investment, holding down inflation. On the other hand, the growing uncertainty – 
+due above all to the sometimes contradictory announcements on US trade policies – 
+requires a prudent approach to policy rate cuts.
+As I will explain shortly, the negative impact of high policy rates over the past year is 
+reflected in Banca d'Italia's 2024 Annual Accounts, which are submitted to you for 
+approval today.
+Monetary policy and its impact on Banca d'Italia's Annual Accounts
+The policy rates remained unchanged for the first five months of 2024. Since June, the 
+ECB Governing Council has started to make gradual cuts: between then and the end of 
+last year, it lowered the Eurosystem deposit facility rate by 100 basis points, to 3 per 
+cent.
+As of 18 September 2024, to limit the volatility of short-term market rates, the spread 
+between the MRO rate and the deposit facility rate was reduced from 50 to 15 basis 
+points.
+Subsequently, over the course of 2025, the ECB Governing Council has cut the policy 
+rates by a further 50 basis points.
+
+2/6 BIS - Central bankers' speeches
+Alongside this, it reduced reinvestments of maturing securities purchased under the 
+pandemic emergency purchase programme (PEPP) by €7.5 billion per month over the 
+second half of 2024, fully discontinuing them by the end of the year. Also taking into 
+account maturing securities held under the asset purchase programme (APP), the 
+overall amount of securities held by the Eurosystem for monetary policy purposes 
+shrank by around €400 billion compared with 2023.
+The amount of funding granted to euro-area banks through Eurosystem refinancing 
+operations fell sharply, from €410 billion to €34 billion. This contraction was mainly due 
+to the final repayments under the third series of targeted longer-term refinancing 
+operations (TLTRO III).
+At the end of 2024, the Eurosystem's overall exposure to monetary policy 
+counterparties was entirely accounted for by weekly main refinancing operations and 
+longer-term operations with 3-month maturities.
+Overall, the developments in monetary policy operations led to a significant reduction in 
+euro-area excess liquidity, namely banks' funds above the reserve requirements held 
+with the Eurosystem. At the end of 2024, excess liquidity was €2,827 billion, down by 
+€519 billion on the previous year.
+The balance sheet
+In 2024, the Bank's balance sheet shrank for the third consecutive year, by €149 billion, 
+in line with what was observed at Eurosystem level. Since 2021, the balance sheet has 
+contracted by a total of 28 per cent, from €1,538 billion to €1,104 billion.
+On the asset side, the decrease was mainly due to the reduction in refinancing 
+operations, down from €150 billion to €23 billion, and in securities held for monetary 
+policy purposes, which went from €657 billion to €591 billion, with Italian government 
+bonds accounting for €544 billion.
+On the liability side, there was a decline both in deposits held by banks, which fell by 
+€66 billion, and in the Bank's negative TARGET balance, which dropped from €521 
+billion to €416 billion. The reduction in the latter was largely due to foreign investment in 
+Italian, mostly public sector, securities. The disbursement of the fifth and sixth tranches 
+of Recovery and Resilience Facility funds to the Italian State through the TARGET 
+system also contributed to the decrease in the Bank's negative balance.
+The negative TARGET balance has continued to decline in the first months of 2025, to 
+around €400 billion on average in March.
+Main drivers of the 2024 net profit and outlook
+In 2024, the Bank's financial result before tax and before the release of the general risk 
+provision was negative by €7.3 billion, €0.2 billion lower than in the previous year.
+In the Annual Accounts for 2022, we had already anticipated that Banca d'Italia would 
+post a gross loss for the following two years, before the release of the general risk 
+provision, largely due to the sharp contraction in net interest income. As pointed out last 
+
+3/6 BIS - Central bankers' speeches
+year, the rate hike cycle that began in 2022 led to an increase in the cost of balance 
+sheet liabilities – mainly bank deposits – with no corresponding increase in the yield on 
+monetary policy assets. These assets are actually less sensitive to changes in interest 
+rates, as they consist mainly of fixed-rate securities with medium to long-term maturities.
+In 2024, despite the gradual reduction, key interest rates remained higher than in 2023 
+on average. As a result, the profit and loss account was again affected both by net 
+interest income (-€4.2 billion) and by the net result of pooling monetary income (-€1.9 
+billion).
+In the years prior to 2023, the Bank built up its financial buffers in anticipation of 
+potential future losses, thanks to particularly high profits during that period.
+In the 2024 accounts, the release of €5.8 billion from the general risk provision, along 
+with the positive contribution of about €2.4 billion from the carryforward of the tax loss, 
+enabled the Bank to close the year with a net profit of €0.8 billion.
+This release from the general risk provision is consistent with the Bank's lower 
+exposure to financial risk, stemming from its shrinking balance sheet. This risk will 
+continue to decline in the coming years owing to the discontinuation of the reinvestment 
+of the principal payments from the entire portfolio of securities held for monetary policy 
+purposes.
+Despite the total reduction of €11.4 billion in the general risk provision in the last two 
+years, the degree of risk coverage remains adequate over the short and the medium 
+term. Furthermore, given the current market expectations for the path of interest rates, 
+we still expect 2025 to mark a return to gross profit.
+I would like to emphasize that the primary goal of the Eurosystem is to maintain price 
+stability, not to maximize profit. Monetary policy decisions are taken solely pursuant to 
+this mandate, even when they temporarily lead to a reduction in the financial results 
+reported by the central banks.
+While central banks can fulfil this mandate effectively even when they report losses, 
+financial independence remains vital for enabling them to properly perform their tasks. 
+This is why we must welcome any tool or initiative that could help strengthen it. This 
+philosophy has steered our provisioning policy in the past and will continue to do so in 
+the future.
+The digital euro project, designed to safeguard monetary sovereignty in the euro area 
+and generate benefits for households and firms, can also contribute to the financial 
+soundness of central banks, thereby protecting seigniorage. This would become even 
+more important should the growth in banknotes in circulation slow as a result of 
+increasing recourse to private means of digital payment.
+Organizational measures and digital transformation
+
+4/6 BIS - Central bankers' speeches
+One year ago, in this very setting, I stressed the Bank's commitment to the process of 
+modernization in order to align its internal organizational structure with the changing 
+environment and to make work processes more efficient, fully seizing the opportunities 
+offered by digital transformation.
+The evolution of the payment system has made the Bank's responsibilities and tasks 
+more complex as we are called on to ensure that it functions properly and efficiently. In 
+response to this growing complexity, last year we reorganized the Directorate General 
+for Markets and Payment Systems, splitting it in two to form the Directorate General for 
+Markets and Monetary Policy Operations and the Directorate General for Payments and 
+Market Infrastructures. This decision was taken to increase the effectiveness and 
+specialization of our organization in these areas.
+We also established the Digital Euro Unit, reporting directly to the Governing Board, in 
+order to concentrate the Bank's work on the Eurosystem's digital euro project in a single 
+dedicated structure.
+Alongside this, as part of the treasury services that Banca d'Italia performs on behalf of 
+the government, the ReTes operating system, an extensive programme for re-
+engineering treasury procedures, became operational at the beginning of this year. 
+Thanks to an innovative IT architecture, ReTes makes it possible to significantly simplify 
+processes, replace obsolete tools and impose a single standard for exchanges with all 
+local and central government entities.
+This infrastructure will cut operating costs and improve the quality of the service that the 
+Bank provides to the State, leading to a more effective use of the Treasury's information 
+assets and making it easier to monitor the public accounts.
+Given the continuing importance of cash for the general public, Banca d'Italia is an 
+active participant in the Eurosystem's work on designing the third series of euro 
+banknotes. In addition to a new look, this series boasts more technologically advanced 
+security features and will be environmentally sustainable.
+In the meantime, the plan to restructure the branch network and expand its functions 
+has entered the implementation phase. The goal is to strengthen the role of the 
+branches in highly strategic business areas with greater growth potential, thereby 
+increasing the contribution the Bank can make locally.
+I have stressed many times how the branches are one of the strengths of our 
+organization. Their roots in the local community, their ties with local institutions and their 
+proximity to economic and financial operators are essential components of the Bank's 
+operations. They are a valuable asset, which we will continue to put to good use.
+At the same time, we must be mindful of the emerging needs of local communities and 
+developments in the economic and financial system. The reorganization plan, whose 
+impact on the staff is currently under discussion with the trade unions, aims to reinforce 
+the link between the Bank and its local stakeholders, while at the same time 
+
+5/6 BIS - Central bankers' speeches
+strengthening the coordination and integration between the branches and the head 
+office. The goal is to ensure a more flexible organizational model, capable of effectively 
+balancing operations and resources.
+Moving on to innovation, a comprehensive programme of initiatives is being finalized to 
+accelerate the Bank's digital transformation, with a view to improving the quality of the 
+services offered, raising operational efficiency and making the Bank more agile and 
+better equipped to face future challenges.
+The programme is built around three main ideas: investing in cutting-edge technologies, 
+expanding the range of digital services and fostering a strategic and balanced use of 
+artificial intelligence; streamlining and innovating internal processes, thanks to the 
+integration of information systems and the exploitation of new technologies; and 
+completing the digitalization of document flows, further reducing recourse to paper-
+based processes.
+Digital transformation and the progressive streamlining of administrative work, with the 
+consequent reallocation of resources towards institutional functions and strategic 
+priorities, will be two pillars of the new Strategic Plan, to be drawn up by the beginning 
+of next year.
+In keeping with our tradition, we will continue to invest in our people, knowing that the 
+success of any initiative hinges on their active participation, on the continuous 
+development of their skills and on leveraging their talent.
+Proposal for the allocation of the net profit
+Dear Shareholders,
+Pursuant to Article 38 of the Statute, acting on a proposal of the Governing Board and 
+after hearing the opinion of the Board of Auditors, I present for your approval the Board 
+of Directors' proposal for the allocation of the net profit for 2024.
+Under the current dividend policy, the amount paid to the Shareholders is kept within a 
+range of €340 million to €380 million, provided that the net profit is sufficient and without 
+prejudice to the Bank's capital adequacy.
+Shareholders' dividends may fall outside this range if there is a strongly negative 
+profitability trend, as occurred last year.
+Accordingly, from the net profit for 2024 of €844 million, I propose allocating €200 
+million as a dividend to the Shareholders, the same as in the previous year, and €644 
+million to the State, €29 million more than in 2023. To supplement the current dividend 
+allocated to the Shareholders, the amount of €140 million is released from the special 
+item for stabilizing dividends, which will therefore be brought to zero. The Shareholders 
+will thus receive a total of €340 million.
+
+6/6 BIS - Central bankers' speeches
+The total amount effectively allocated to the Shareholders over the last five years is 
+therefore €1,633 million, while the total allocated to the State over the same period in 
+the form of profits amounts to €14,406 million, in addition to the current taxes for IRES 
+and IRAP purposes of €3,361 million.

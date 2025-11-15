@@ -1,0 +1,486 @@
+Italan Banking Association
+Annual Meeting
+Banks and the economy:
+credit, regulation and growth
+Speech by the Governor of the Bank of Italy
+Fabio Panetta
+Rome, 9 Fuly 2024
+
+
+
+
+1. The economic situation and monetary policy
+After stagnating for more than a year, economic activity in the euro area edged
+up by 0.3 per cent in the first quarter of 2024. The biggest contribution came from
+foreign demand, while domestic demand remained weak: household consumption
+rose marginally and investment declined.' Activity remains sluggish above all in
+manufacturing.
+GDP is estimated to have grown moderately in the second quarter, supported
+by services; conversely, the latest business surveys confirm that industrial activity
+remains weak.
+Inflation is continuing to fall, with fluctuations in the monthly data. In June
+it declined to 2.5 per cent, while its core component, which excludes the most
+volatile items, held stable at 2.9 per cent (Figure 1).
+Figure 1
+Euro-area consumer price inflation (1)
+(per cent)
+(a) Headline inflation (b) Core inflation
+16 + + 16
+12 - 12
+8 - - 8
+44 K 4
+0- - 0
+-4+ } -4
+2019 2020 2021 2022 2023 ‘24 2019 2020 2021 2022 2023 '24
+=— YoY = 3-month annualized
+Sources: Calculations based on ECB and Eurostat data.
+(1) The inflation rates for the Harmonized Index of Consumer Prices (HICP) are calculated as the year-on-year percentage
+change and the seasonally adjusted 3-month annualized changed. Core inflation excludes energy and food.
+: The decline in overall investment was mitigated by positive developments in the construction sector,
+which benefited from temporary factors, notably favourable weather conditions in Germany.
+
+
+At the beginning of June, the ECB Governing Council lowered its key interest
+rates by 25 basis points, after keeping them unchanged at high levels for nine
+months. This decision reflects the gradual fall in inflation and the prospect of a
+further drop in the coming months.
+Despite the current period of disinflation, some observers are concerned about
+price growth in services, which still stands at 4.1 per cent. These concerns are not
+unwarranted, but they need to be put into perspective, as service prices tend to
+move differently from those of goods. As was the case with past energy shocks,
+services inflation has been slow to react to energy price increases in the last few
+months, tardy in reaching its peak and is now falling more slowly than goods
+inflation (Figure 2).
+Figure 2
+Inflation persistence, services versus non-energy industrial goods
+(a) Responses to energy shocks (1) (b) Annual inflation rates (2)
+(percentage points) (monthly data; percentage changes)
+0.44 L 0.4
+6+ + 6
+0.24 k 0.2
+4- + 4
+0.04 - 0.0
+2+ +2
+-0.2 5 - -0.2
+ns 0- r 0
+0123 45 67 8 9 101112 2021 2022 2023 '24
+— NEIGs — Services
+Sources: Calculations based on ECB and Eurostat data.
+(1) Impulse-response functions based on a quarterly VAR model over the sample period 1996-2023; the x-axis indicates
+the number of quarters after the energy shock. Model specification and identification of energy shocks are similar to
+those presented in S. Neri, F. Busetti, C. Conflitti, F. Corsello, D. Delle Monache and A. Tagliabracci, 2023, ‘Energy price
+shocks and inflation in the euro area’, Banca d’ltalia, Questioni di Economia e Finanza (Occasional Papers), 792, 2023. —
+(2) Year-on-year percentage changes of the euro-area HICP of non-energy industrial goods (NEIGs) and services over
+the sample period 2021-2024.
+Furthermore, the fact that services inflation is higher than that of goods is
+nothing new. This has been the case in the euro area since the late 1990s, even
+when headline inflation was in line with or below the ECB’s target (Figure 3).
+For a more in-depth analysis of euro-area inflation dynamics and monetary policy prospects, see
+‘Monetary policy after a perfect storm: festina lente’, speech by F. Panetta at the 3" International
+Monetary Policy Conference held by the Bank of Finland, ‘Monetary policy in low and high inflation
+environments’, Helsinki, 26 June 2024.
+
+
+Figure 3
+Inflation levels, non-energy industrial goods versus services (1)
+(monthly data; percentage changes)
+6° K6
+\
+4- + 4
+25 +2
+h
+0 W Lo
+T T T T T
+2000 2005 2010 2015 2020
+— NEIGs — Services
+Source: Calculations based on Eurostat data.
+(1) Year-on-year percentage changes of the euro-area HICP of non-energy industrial goods (NEIGs) and services over the
+sample period 1998-2024.
+There is also debate over the pace of wage growth, which continues to be
+robust. In this case too, careful analysis of the data can mitigate fears. Following
+the losses of previous years, the current increase in wages constitutes an inevitable
+recovery in purchasing power, and will lose steam as the loss to be recouped
+decreases. Moreover, the lower costs of intermediate inputs and the sizeable profits
+accumulated so far are allowing firms to absorb wage growth without passing it on
+to final prices. Finally, the increase in labour costs on the one hand, and the fall in
+energy prices and in the cost of capital? on the other, will foster an increase in the
+capital-labour ratio and in productivity, thereby also helping to contain inflationary
+pressures.
+Two important factors will have to be taken into account in future monetary
+policy decisions. First, past key rate hikes are still squeezing demand, production
+and inflation, and will continue to do so in the coming months.* Second, the
+expansionary effects of the monetary easing envisaged in the coming months will
+be mitigated by the further contraction of the Eurosystem’s balance sheet, which
+will continue to have a tightening effect on banks’ funding costs and liquidity, and
+thus on the supply of credit to the economy.
+At this time, the cost of capital is decreasing as a result of the decline in both actual and expected
+interest rates, as well as by the fall in the prices of energy goods.
+According to our estimates, the effect of monetary tightening on inflation will be even greater in 2024
+than in 2023; see A.M. Conti, S. Neri and A. Notarpietro, “Credit strikes back: the macroeconomic
+impact of the 2022-2023 ECB monetary tightening and the role of lending rates’, Banca d'Italia,
+Questioni di Economia e Finanza (Occasional Papers), forthcoming.
+
+
+From now on, the disinflation process can be completed by gradually
+adjusting the official interest rates to the actual and expected fall in inflation, if
+macroeconomic developments confirm the current forecasts. However, we must
+stand ready to react promptly to new shocks that could move us away from that
+trajectory, either upwards or downwards.
+Cyclical developments in the Italian economy are closely following those in
+the euro area. Growth was also 0.3 per cent in Italy in the first quarter of this year,
+and appears to have remained at a similar level in the second. Services continue to
+expand, especially in tourism-related components, while manufacturing remains
+weak. The forecasts of Consensus Economics point to growth of 0.8 per cent for
+2024 as a whole.°
+Economic activity is mainly being driven by net foreign demand, while
+domestic demand is still weak. Investment in plant, machinery and intangible
+assets is falling, affected by tight financing conditions and by uncertainty over the
+global economic and political situation.
+Figure 4
+Inflation in the six main euro-area countries (1)
+(percentage changes)
+Jan. 2023 Apr. 2023 July 2023 Oct. 2023 Jan. 2024 Apr. 2024
+«“="Euro area ——Belgium -—France ~—-Germany —ltaly ——Netherlands ——Spain
+Source: Eurostat.
+(1) Year-on-year percentage changes in the HICP. For June 2024, preliminary estimates.
+Household consumption is growing moderately, buoyed by a positive labour
+market performance: in the first five months of 2024, there were almost half a
+The forecasts of Consensus Economics are in line with the projections published in June by Banca
+d’ Italia; they pointed to growth of 0.6 per cent, adjusted for calendar effects, and of 0.8 per cent without
+the adjustment. Our projections were prepared in May, before Istat released its updated data for the
+quarterly national accounts. Incorporating these revisions would push the projections up by around 0.1
+percentage points.
+
+
+million more persons employed on average than in the same period in 2023. Wage
+growth remains moderate.
+Inflation, which had been above the euro-area average until the summer of
+last year, fell rapidly to very low levels,° thereby contributing significantly to
+disinflation in the euro area as a whole (Figure 4).
+I will not expand on these brief comments on recent economic developments
+in Italy, as our Economic Bulletin, to be published at the end of this week, will
+provide a detailed analysis.
+2. Credit, firms and banks
+Credit growth has weakened considerably in Italy as a result of monetary
+tightening. There has been a significant contraction in the stock of business loans,
+which has only recently lessened. Lending to households has also slowed down
+sharply and has stagnated over the past year (Figure 5). Interest rates on new loans
+have risen considerably.
+Figure5
+Bank loans in Italy (1)
+(12-month percentage changes)
+124 + 12
+8+ F 8
+4+ t+ 4
+i caver F O
+-4- | -4
+-8 - + -8
+2014 «2015S 2016's 2017-—s« 2018 = 2019'S «2020. s«2021 «Ss 2022S 2023: ‘24
+=—— Households = Firms
+Source: Supervisory reports.
+(1) The data for May 2024 are provisional. Includes repos and bad debts; excludes repos vis-a-vis central counterparties.
+The percentage changes are adjusted to reflect the accounting effect of securitizations, reclassifications, value adjustments,
+exchange rate variations and other variations not due to transactions. The data on firms refer to non-financial corporations
+and producer households.
+The slowdown in lending is comparable to what occurred during the crisis
+episodes of the last 15 years. The effects on the real economy have, however, been
+much less severe.
+6 For further details, see Chapter 14: ‘Inflation after the pandemic: developments, causes and
+consequences’, Annual Report for 2023, 2024.
+
+
+This is primarily due to a better macroeconomic situation as a result of the
+exceptional support measures adopted in response to the health and energy crises.
+Yet, it also reflects the sounder conditions of firms, households and banks, which
+not only benefited directly or indirectly from those measures but are now also on
+a more solid footing.
+For firms, strong profitability has prevented higher interest expenses from
+undermining debt sustainability.’ Part of the liquidity buffer accumulated during
+the pandemic years was used to repay, sometimes in advance, loans that had
+become more costly.’ Despite these outlays, liquidity is still ample (Figure 6).
+Figure 6
+Firms’ liquidity as a share of GDP (1)
+(per cent)
+2009 2011 2013 2015 2017 2019 2021 2023
+tae Euro area —— France —— Germany = Italy — Spain
+Sources: Based on Banca d’ltalia (Financial Accounts), ECB and Eurostat data.
+(1) Liquidity is the sum of currency and deposits held by firms.
+The sound position of households reflects high employment and low
+indebtedness: the ratio of financial debt to disposable income, which was already
+low by international standards, declined further to 58.6 per cent.
+Finally, as I have mentioned on other occasions, the condition of banks has
+improved considerably in terms of profitability, asset quality and capitalization. The
+tightening in lending supply, which has emerged in the past few months, mainly
+reflects a heightened perception of borrower riskiness, rather than a worsening
+The ratio of interest expense to gross operating income is below 10 per cent, half the average value
+recorded in the period 2008-11. In the two years 2022-23, the gross operating income of firms grew
+by 13 per cent in real terms, reaching 8 per cent of assets, its highest level in 20 years. The boost in
+profits was associated to a 4 per cent rise in self-financing. According to Banca d’Italia’s Survey of
+Industrial and Service Firms, the share of firms that reported a profit exceeded 80 per cent in 2023.
+8 Financial Stability Report, 2, 2023. It is estimated that about 20 per cent of loans outstanding at the
+end of 2021 were repaid early during the two years 2022-23. The share of early repayments was
+higher for larger firms and especially for floating-rate loans not backed by public guarantees.
+
+
+in the condition of banks. Supply constraints therefore remained within normal
+levels and did not force firms to cut back on investment or households to curtail
+consumption.’
+Given that firms are stronger than before, the financial position of households
+is sound, and banks are healthy, we can look ahead with confidence. However, we
+should refrain from being over-optimistic.
+The protraction in credit weakness would weigh on a situation that is, as in
+other countries, exposed to vulnerabilities. In the current environment, it would
+be difficult to conceive public intervention of the exceptionally generous kind
+adopted after the pandemic.
+Moreover, a number of factors complicate the context within which banks are
+called to supply credit to the real economy.
+The shrinking of the Eurosystem’s balance sheet which I mentioned earlier
+could raise the cost of issuing bank bonds and intensify the rebalancing of savers’
+portfolios towards higher-yielding assets, thereby increasing competition and
+interest rates on bank deposits. The global geopolitical situation, as well as the
+domestic politics in some major countries, is keeping the underlying uncertainty
+high.
+Furthermore, a protracted period of high interest rates could affect the ability
+of borrowers to repay their debts. We are seeing early signs of this: in the first
+quarter of 2024, the flow of non-performing loans rose to 2.1 per cent of total
+business loans, from 1.8 per cent in the previous quarter,’® and is estimated to
+continue to grow moderately both this year and the next. The loan default rate
+for households is expected to remain lower, at around 1 per cent. These levels are
+nonetheless far from historical highs: at challenging times over the past decade,
+this indicator neared 10 per cent for firms and exceeded 3 per cent for households.
+In such an environment, banks must temper the need to contain risks with that
+of supporting the real economy. Credit should continue to flow to borrowers that
+are capable of honouring their commitments. This will require banks to carefully
+Based on banks’ responses in the Eurosystem’s Bank Lending Survey, lending developments in
+recent years have reflected, in addition to weak demand, a tightening of credit standards largely due
+to an increased risk perception on the part of banks. Unlike in the past, bank balance sheet constraints
+have not been reported to have had a significant impact. See M. Bottero and A.M. Conti, “In the thick
+of it: an interim assessment of monetary policy transmission to credit conditions’, Banca d’Italia,
+Questioni di Economia e Finanza (Occasional Papers), 810, 2023 and S. Auer and A.M. Conti, ‘Bank
+lending in an unprecedented monetary tightening cycle: evidence from the euro area’, Banca d’Italia,
+Questioni di Economia e Finanza (Occasional Papers), 856, 2024.
+10 The figure for Q4 2023 has been revised slightly upwards, based on previous reports.
+
+
+select borrowers, constantly monitor their profitability and financial conditions
+and design an effective recovery strategy in the event of default.
+Loan loss provisions must be made pradently. On average, banks under our
+direct supervision with traditional business models have alower NPL coverage ratio
+than significant banking groups. We have already reminded the banks concerned
+to adjust their provisions; most of them have taken steps and we will assess their
+effectiveness in the coming months. A low number of banks have not fully heeded
+our plea; we will continue to push them to adopt the necessary measures.
+Some banks, with balance sheet indicators less favourable than the system
+average have drawn up business plans that envisage a rapid expansion of activities.
+Such strategies need to be carefully considered. Efforts to restore profitability must
+build on efficiency gains and more refined customer selection criteria; it should be
+borne in mind that there are no shortcuts to achieving the goals that have been set.
+3. Banking and financial regulation
+An effective regulatory framework, together with careful supervision, is
+essential to provide the banking system with the efficiency and strength needed to
+fund the real economy under stable conditions.
+We have seen this play out in recent years. The regulatory reforms introduced
+in the wake of the 2008-09 crisis have made the global banking system stronger and
+enabled it to overcome an unprecedented string of adverse events without excessive
+jolts: the pandemic, a war at the border with Europe, the return of inflation, and
+a monetary tightening of unparalleled intensity in recent history. In the United
+States, where the reform was less than stringent for part of the banking system,
+some banks failed, originating contagion effects that required heavy intervention
+by the authorities.
+It is in the general interest, including of financial intermediaries, to continue
+to strengthen the regulatory framework for banks and financial players, with a view
+to managing both traditional risks and those arising from innovative activities.
+The prudential regulation of banks
+Next year, the final part of the prudential framework for banks drawn up
+19
+
+
+a phase-in period that will end in 2030.''! Once completed, the regulatory review
+will have taken well over twenty years. This is too long when measured against
+the consequences of potential instability and the speed at which new risks emerge.
+European lawmakers have transposed the Basel rules with no significant
+deviations from the original design and taken into account the specific features of
+our continent’s economy, starting with the large share of small and medium-sized
+enterprises, which are granted preferential prudential treatment in the allocation of
+credit.'”
+The role of banks’ internal models — whose use leads, in practice, to lower
+capital requirements — has been reduced, while the sensitivity to risk of standardized
+methodologies has increased.'? The impact on requirements will therefore be
+greater for the Italian and European financial intermediaries that use internal
+models, which are typically the largest and most complex ones.
+In keeping with the commitment of the Group of Central Bank Governors
+and Heads of Supervision not to impose excessive capital burdens, the new rules
+provide for capital increases that banks can easily achieve in the current period of
+high profits. For this reason too, any hesitation in the implementation would be
+counterproductive: it would expose the whole economy to risks in the immediate
+future and make implementation more difficult if it were pushed back to a less
+positive phase than the current one.
+However, the transposition of the new rules is not proceeding at the same pace
+everywhere. It is particularly slow in the United States. This makes the reform
+incomplete and creates competitive disparities between financial intermediaries, as
+in the case of the new market risk rules. For this reason, to ensure a level playing
+field among intermediaries that operate at global level, the European Commission
+recently announced its intention to suspend the entry into force of this part of the
+reform in the EU for one year. It is certainly not the ideal outcome: competition
+in laxity among jurisdictions is not the appropriate response to the need for lower
+risks and for uniform rules at global level.
+uM The phase-in period is intended to avoid excessive discontinuity with the current rules and to
+gradually steer the system towards the new framework.
+12 Loans to small and medium-sized enterprises involve less capital absorption than similar exposures
+to other borrowers.
+13 The internal models recognized by regulation allow banks to estimate, on the basis of their own data and
+against a comprehensive set of quantitative and qualitative criteria, the main risk parameters, which in
+turn form the basis for calculating capital requirements. Conversely, in the standardized methodologies
+intended for less complex banks, the requirements are calculated using predefined formulas.
+11
+
+
+Parallel to the ongoing international reform, Italy is strengthening its
+macroprudential safeguards and finalizing the related supervisory system.
+In order to increase protection against risks that may arise outside the financial
+system, Banca d’Italia introduced a systemic risk buffer in April 2024. The buffer,
+equal to 1.0 per cent of credit and counterparty risk-weighted exposures to residents
+in Italy, will be reached gradually: 0.5 per cent this year and the remaining 0.5 per
+cent by 30 June 2025.
+Past crises have also shown that financial stability needs to be safeguarded by
+evaluating the system as a whole, and not only its constituent parts. To this end,
+Italy has recently designed a framework that complies with the best international
+guidelines in order to improve coordination and the exchange of information
+between authorities. On 5 July, the first meeting of the Italian Committee for
+Macroprudential Policies took place and brought together the authorities that
+contribute to strengthening the role of the financial system in supporting growth
+and development: Banca d'Italia, the Italian Companies and Stock Exchange
+Commission (Consob), the Italian Institute for the Supervision of Insurance
+(IVASS) and the Italian Pension Fund Supervisory Authority (Covip). Overall,
+while vulnerabilities exist, the Committee’s assessment is that risks to financial
+stability in Italy are currently contained."
+Crypto-asset markets and MiCAR
+The risks that today require attention are those stemming from crypto-assets,
+a category that encompasses many different instruments. The main distinction
+is between stablecoins and crypto-assets that are not backed by any underlying
+assets, which from now on I will simply call ‘unbacked’.
+Stablecoins — e.g. Tether or USD Coin — are digital instruments whose value
+is linked to that of a portfolio of assets, known as reserve assets, such as currencies,
+deposits, securities or other instruments.'° Without appropriate and incisive
+regulation, stablecoins too would be particularly vulnerable to ‘redemption runs’,
+should their holders lose faith in them.
+Unbacked crypto-assets — such as Bitcoin or Ethereum — are not issued by a
+specific entity, as a rule. They have no intrinsic value and do not generate income
+flows, such as coupons or dividends, and are created using computing technology.
+M4 Banca d’Italia, Consob, IVASS and Covip, ‘First meeting of the Committee for Macroprudential
+Policies’, press release, 5 July 2024.
+1s Stablecoins can be pegged to other crypto-assets.
+12
+
+
+Their value cannot be ensured by any party or by any real or financial asset. They
+are sometimes traded on informal and opaque circuits or on platforms that are
+not subject to adequate controls. Crypto-assets are held by operators whose main
+objective is to sell them on at a higher price and, in some cases, to dodge tax rules
+or the regulations in place to counter money laundering and terrorist financing. In
+many cases, these crypto-assets are in effect akin to a gamble, a speculative high-
+risk contract, whose value is not tied to fundamentals. For these reasons, their value
+fluctuates very sharply (Figure 7). Clearly, they do not possess the characteristics
+that make them suited to perform the three inherent functions of money: a means
+of payment, store of value and unit of account.
+Figure 7
+Price of Bitcoin and Ethereum
+(US dollars; daily data)
+80,000 + + 8,000
+60,000 + - 6,000
+40,000 - + 4,000
+20,000 + + 2,000
+0- ee?)
+2018 2020 2022 2024
+— Bitcoin — Ethereum (1)
+Sources: Coinmarketcap and Yahoo Finance.
+(1) Right-hand scale.
+The share of unbacked crypto-assets held by investors who may be potentially
+unaware of the high risks they are facing is still low, but not negligible.'® It could
+grow in the future, as it did during the pandemic, especially in emerging countries.
+With the aim of monitoring the risks connected with crypto-assets, the
+European Union has recently adopted the Markets in Crypto Assets Regulation
+(MiCAR),”’ a specific set of rules that will be implemented in full over the course
+of this year. Banca d’ Italia and Consob will be called upon, on the basis of the draft
+legislative decree approved a few days ago, to exercise the supervisory functions
+provided for under the new regulatory framework.
+16 The Eurosystem’s 2022 Study on the payment attitudes of consumers in the euro area (SPACE),
+published in December of that year, showed that crypto-assets were held by only 4 per cent of
+respondents, less than one third of whom also used them as a means of payment. According to
+Statista data, the share of holders of crypto-assets in the United States is about twice as high.
+17 Regulation (EU) 2023/1114.
+13
+
+
+MiCAR identifies the different types of instruments in the form of digital
+tokens that it governs: electronic money tokens (EMTs), whose value is linked to
+that of a single official currency; asset-referenced tokens (ARTs), which are linked
+to one or more underlying assets; and a residual category that includes unsecured
+crypto-assets and utility tokens.'* As they are pegged to underlying assets, only
+EMTs and ARTs are to be considered as stablecoins.
+MiCAR treats these crypto-assets differently. For EMTs and ARTs, it sets out
+precise requirements that they must meet and specific obligations for the financial
+intermediaries that issue or distribute them, as well as for all the market players
+involved in any capacity.’ Conversely, the rules governing unbacked crypto-assets
+and utility tokens are largely limited to prior notification obligations: therefore, in
+practice, these products remain outside the scope of the regulation.
+The new rules help to bring some order to the crypto-asset market, although
+in some cases their effectiveness is hampered by the complexity and the ever-
+changing nature of the issues at hand. For example, the management of stablecoins
+on unreliable trading platforms, particularly outside Europe, could generate risks
+beyond the control of individual issuers.
+All of this increases the responsibilities falling on the financial intermediaries,
+both traditional and non-traditional, operating in this market, which, under MiCAR,
+will need to pay due attention to both financial and operational risks.
+They will also have to guarantee the robustness of the technology used from
+a technical and legal standpoint, in order to combat illicit or criminal transactions
+as well. In particular, they will need to ensure compliance with the rules in place to
+counter money laundering and terrorist financing and with the sanctions adopted
+at international level, by aligning their organizational structures with those rules.
+To meet these needs, crypto-asset operators must bring in people with adequate
+skills and establish effective control functions, right from the planning stage of
+new initiatives.
+According to MiCAR, both EMTs and ARTs possess the characteristics that
+make them suitable as a means of payment and of exchange. However, in our
+assessments, the only instruments that can fully perform the means of payment
+function, while preserving the public’s trust, are EMTs, which may be issued
+by banks and Electronic Money Institutions (EMIs). Only these instruments are,
+in fact, pegged to the value of a currency that is legal tender and are protected
+18 Utility tokens are crypto-assets that have the sole function of giving access to a good or service
+provided by their issuer. Examples of this are tokens to be used on gaming platforms.
+19 These obligations mainly have to do with market access, prudential and transparency requirements.
+14
+
+
+by specific rules guaranteeing holders that the funds they invest in them can be
+redeemed at par value at any time.
+The provision of ARTs as a means of exchange, which is governed by MiCAR
+with a number of safeguards and restrictions, must instead be considered by the
+financial intermediarics involved with the utmost care and attention, given the
+risks connected to the possible fluctuations in the value of these instruments and to
+the lack of redeemability at par value.
+In the coming days, we will publish a communication to the market on this
+issue, aimed at facilitating an effective application of MiCAR, with a view to
+helping to preserve the smooth functioning of the markets and of the payment
+system and to protect the holders of these instruments.
+4. Conclusions
+After a long period of stagnation, the European economy has recorded
+moderate growth in the last few months. This is a positive development, but the
+future remains uncertain. There are as yet no signs of a clear improvement in
+domestic demand, weighed down by the still tight monetary conditions and the
+disquiet caused by geopolitical tensions and recent international political events.
+The fall in inflation has made it possible to start easing monetary conditions.
+The reduction in key interest rates will continue at a gradual pace, accompanying
+the return of inflation to the target, if macroeconomic developments remain in
+line with the ECB Governing Council’s expectations. Should unexpected events
+risk deviating us from this path, in one direction or another, we must be ready to
+promptly adapt our decisions.
+Growth is proceeding at a moderate pace in aly. The contraction in lending
+to the economy caused by monetary tightening has had no disruptive effects, unlike
+in the past. This also reflects banks’ robust profitability and capital position, to
+which the legislative reforms launched after the financial crisis have contributed.
+The soundness of banks is today a strength of our production system.
+They now have the task of shoring up the recovery in demand, supporting
+households and firms, and thereby preventing lending from curbing consumption
+and investment. In this way, they can help relaunch the Italian economy.
+1S

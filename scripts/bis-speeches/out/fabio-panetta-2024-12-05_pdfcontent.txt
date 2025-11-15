@@ -1,0 +1,481 @@
+TM
+A European productivity compact
+Speech by Fabio Panetta* 
+Governor of Banca d’Italia
+20th Spain-Italy Dialogue Forum (AREL-CEOE-SBEES)  
+Barcelona, 3 December 2024 
+Introduction
+I am delighted to take part in this edition of the Spain-Italy Dialogue Forum which, since 
+1999, has provided a great opportunity for our two countries to exchange ideas and 
+experiences. Two countries united by the Mediterranean, a sea so enchantingly evoked 
+by the voice of Joan Manuel Serrat.
+The history of Italy is inextricably linked to that of Spain. The same is true of their 
+economies. Our trade in goods and services totals over €73 billion: Spain is Italy’s fourth 
+largest trading partner, Italy is Spain's third. Spanish direct investment in Italy and Italian 
+direct investment in Spain amount to €14 billion and €46 billion, respectively. 
+Together, our two countries make up a significant part of the euro area. They account for 
+25 per cent of GDP, 23 per cent of industrial output and 17 per cent of euro-area exports. 
+A staunch commitment to being part of the European endeavour has been a fundamental 
+driver of economic development for both countries – for Italy, which has been a member 
+since the beginning, and for Spain, which has been able to seize the opportunities offered 
+by its more recent accession. 
+However, the European economy is struggling to keep pace with the most dynamic 
+countries, the United States above all (Figure 1.a), mainly because of low productivity 
+growth (Figure 1.b).
+The fact that the European economy is losing ground is nothing new. The gap with the 
+United States emerged at the end of the last century, with the spread of information and 
+communication technologies, and subsequently widened with the digital revolution and, 
+more recently, artificial intelligence. 
+* My thanks go to Antonella Foglia, Valentina Memoli, Roberto Pisano, Pietro Rizza, Anatoli Segura 
+Vélez, Pietro Tommasino, and Stefania Zotteri for their valuable research and contributions.
+
+2
+These three missed opportunities for Europe are interrelated and are an indication of 
+structural weaknesses. Their effects are visible in Europe’s declining economic position 
+(Figure 2) and, ultimately, in the living conditions of its citizens: if Italy or Spain were 
+US states, they would be in the lowest quintile in terms of GDP per capita, as would the 
+European Union as a whole.1 
+The European economic and social model that took shape after the Second World War, 
+based on the principles of freedom, equality and solidarity, as well as international 
+cooperation, has been a marker of civil progress. This model has proven successful in 
+many areas, as shown by the data on life expectancy. 
+It must be preserved, and to do this we need an economy that can grow and generate 
+widespread prosperity.
+1 2023 GDP in terms of purchasing power parity.
+Figure 1
+GDP growth and productivity gaps between the European Union and the United States
+(a) real GDP
+(index: 1991=100)
+(b) GDP per hour worked (1)
+(index: Q1 1995=100)
+100
+150
+200
+250
+100
+150
+200
+250
+2000 2010 2020
+100
+120
+140
+160
+180
+100
+120
+140
+160
+180
+2000 2010 2020
+European Union United States
+Sources: For panel (a), IMF . For panel (b), Bureau of Labor Statistics and Eurostat.
+(1) GDP per hour worked in the private sector.
+Figure 2
+Global GDP shares of the world’s leading economies
+(per cent)
+(a) Shares of global GDP at current prices (b) Shares of global GDP based on purchasing power parity
+0
+10
+20
+30
+0
+10
+20
+30
+2010 2015 2020
+0
+5
+10
+15
+20
+25
+0
+5
+10
+15
+20
+25
+2010 2015 2020
+European Union United States China India
+Source: IMF .
+
+2 3
+In the remainder of my speech, I will focus on one goal that I consider to be a priority: 
+putting innovation at the heart of economic policies as a driver of productivity and 
+growth, and mobilizing public and private resources to this end.
+1. Innovation, technology and productivity
+At the root of the European economy’s low productivity lies its insufficient capacity for 
+innovation, which in turn is due to the lack of dynamism in the business sector. In the 
+last decade, investment in research and development by European companies has been 
+about 60 per cent that of US companies, and the gap has been widening over time 
+(Figure 3).2
+This is compounded by an unfavourable sectoral composition of research activity in 
+Europe, 30 per cent of which is concentrated in mature sectors.3 Over the past two decades, 
+the companies at the top of the research and development investment scoreboard have 
+mostly been in the automotive sector, which is now struggling to keep up with the more 
+radical innovations by its extra-European competitors.4
+In the United States, instead, the companies and sectors that spend the most on research 
+and development have changed over time. Twenty years ago it was car manufacturers; 
+2 The percentage is broadly the same both in terms of purchasing power parity and as a ratio of GDP. 
+The gap is even greater, as shown in Figure 3.a, at current monetary values, which are affected by 
+exchange rate fluctuations and differences in price dynamics. At purchasing power parity, the ratio fell 
+from 62 per cent in 2013 to 50 per cent in 2023. 
+3 E. Nindl et al., The 2023 EU Industrial R&D Investment Scoreboard, Publications Office of the European 
+Union, 2023. The figures relate to the 2,500 companies that invest the most in research and development 
+worldwide.
+4 C. Fuest, D. Gros, P.-L. Mengel, G. Presidente and J. Tirole, EU innovation policy: How to Escape the 
+Middle Technology Trap, EconPol Policy Report, 2024.
+Figure 3
+Private sector R&D expenditure
+(a) Investment in R&D
+(billions of euros)
+(b) Investment in R&D as a share of GDP
+(per cent)
+0
+200
+400
+600
+800
+0
+200
+400
+600
+800
+2014 2016 2018 2020 2022
+1.0
+1.5
+2.0
+2.5
+3.0
+1.0
+1.5
+2.0
+2.5
+3.0
+2014 2016 2018 2020 2022
+European Union United States China
+Sources: For the European Union, Eurostat; for China and the United States, OECD.
+
+4
+today it is digital economy and technology-intensive companies, with new players 
+continually emerging that are capable of achieving significant growth and capitalization 
+in a short period of time.
+There are three main reasons for the predominance of middle technology sectors in 
+Europe.
+To begin with, the innovation gap that has been building up since the end of the last 
+century, when Europe's production system failed to make the most of the opportunities 
+provided by the spread of the Internet and of information and communication 
+technologies. Then came the US tech giants (Google, Apple, Facebook, Amazon, and 
+Microsoft), whose access to massive datasets, scientific know-how, financial resources, 
+and extensive customer bases, has ensured them a dominant position today as digital 
+service providers and in cutting-edge fields such as artificial intelligence. 
+The European economy’s capacity to innovate is also limited by the fragmentation of 
+research and development activities among firms, universities and research centres based 
+in different countries. This hinders the transfer of knowledge and ideas, and hampers the 
+undertaking of projects with high funding requirements.
+Finally, the lack of integration between the scientific and business worlds and the rigidity 
+of the EU administrative and regulatory framework stand in the way of transforming 
+research results into competitive products and services for the global marketplace. 
+AI is an eminent case in point.5 Although European research centres have produced high-
+level studies in this field, the contribution of European businesses to the development of 
+AI technology is negligible: between 2013 and 2023, private investments in AI amounted 
+to $20 billion in Europe, compared with $100 billion in China and $330 billion in the US.6 
+Though it remains unclear to what extent AI will increase labour productivity, it is clear 
+that remaining on the sidelines of technological progress – as mere users of innovation 
+developed elsewhere – would be short-sighted.
+Greater involvement of European companies alongside a handful of global tech giants 
+would not only benefit the economy but also safeguard citizens’ fundamental rights such 
+as personal data protection and pluralism in media and information. 
+2.  The investment we need for a new Europe
+Over the last ten years, capital investment in Europe has been systematically lower than 
+in the United States; the gap, which had narrowed in the years before the pandemic, 
+is now widening again (Figure 4). Moreover, the trends in investment in research and 
+development point to problems in the quality and composition of spending.
+5 Similar considerations apply to many other areas such as robotics, biotechnology and space 
+exploration.
+6 N. Maslej et al. , Artificial Intelligence Index Report 2024 , AI Index Steering Committee, Institute for 
+Human-Centered AI, Stanford University, Stanford, April 2024.
+
+4 5
+Europe will need significant resources to achieve sustainable economic growth and to 
+secure its strategic autonomy.
+According to various analyses,7 a further €800 billion per year will be required in public 
+and private investment until 2030 for the twin green and digital transition and for 
+strengthening its defence capacity.8 
+This amount, equal to almost 5 per cent of the EU’s GDP every year,  9 does not include 
+all of the expenditure needed to improve our innovation capacity, such as that for 
+upgrading the skills required by emerging technologies. I will not go into the details of 
+these estimates. Rather, I would like to focus on three issues.
+The first one is the need to implement strategic projects through European initiatives.
+Their high cost would make investment too burdensome for individual Member States, 
+even for those that are financially sounder. 10 Only by joining forces can we improve the 
+functioning of the EU’s single market, exploit economies of scale, avoid duplication 
+7 F. Panetta, ‘Investing in Europe’s future: The case for a rethink’, speech delivered at the Istituto per 
+gli Studi di Politica Internazionale (ISPI), Milan, 11 November 2022; F. Panetta, ‘The future of Europe’s 
+economy amid geopolitical risks and global fragmentation’, Lectio Magistralis marking the conferral of 
+an honorary degree in Juridical Sciences in Banking and Finance by the University of Roma Tre, 23 April 
+2024; O. Bouabdallah, E. Dorrucci, L. Hoendervangers and C. Nerlich, ‘Mind the gap: Europe’s strategic 
+investment needs and how to support them’, The ECB Blog, 27 June 2024; M. Draghi, The future of 
+European competitiveness, 2024.
+8 Climate-related investment needs in the EU amount to around €620 billion per year on average 
+(European Commission, 2023 Strategic Foresight Report. Sustainability and people’s wellbeing at the 
+heart of Europe’s Open Strategic Autonomy, COM(2023) 376 final, 6 July 2023, p. 7). This amount must 
+be increased by around €125 billion per year for the digital transition and by around €75 billion per 
+year to bring defence spending to 2 per cent of GDP, in line with NATO commitments.
+9 Based on GDP for 2023. 
+10 For example, recent estimates produced for Germany alone point to around €800 billion additional 
+cumulative investment needs over the period 2025-30; see F. Heilmann et al., ‘Public financing needs 
+for the modernisation of Germany’, Dezernat Zukunft, 2024.
+Figure 4
+Capital expenditure (1)
+(per cent of GDP)
+14
+15
+16
+17
+18
+14
+15
+16
+17
+18
+2014 2016 2018 2020 2022
+European Union United States
+Sources: For the European Union, Eurostat; for the United States, Bureau of Economic Analysis.
+(1) Capital expenditure is calculated as the difference between gross fixed investment and investment in housing. 
+
+6
+resulting from overlapping national initiatives, and stave off the free-rider problems that 
+often occur with public goods.11
+The second issue is the source of funds.
+Such major interventions require joint public and private resources. In the past, four fifths 
+of European capital investment were financed by the private sector and the remainder 
+by the public sector.12 
+However, it is reasonable to expect that the share of public sector investment will increase 
+in the future, since many projects – such as the production of innovative technologies, 
+the digital transition, energy security and defence – involve European public goods.  
+Furthermore, numerous projects, especially in the early stages, have low returns and 
+uncertain outcomes; this is why the public sector plays such a key role in fostering private 
+sector initiatives. A historic example of this is the DARPA project in the United States, 
+which, since the 1960s, has paved the way for the development of the Internet.13
+Last but not least is the need to help European citizens understand that the high 
+investment costs will be offset by equally high rewards. During this transition, it will be 
+essential to protect the most vulnerable segments of the population, which might be 
+more affected by the changes. This approach will be crucial to mitigate any social or 
+political pushback and to strengthen public support for the EU project. 
+3.  The role of public sector resources
+Europe has been in an anomalous situation for years. On the one hand, some countries 
+have very high levels of public debt – which is a significant problem for Spain and even 
+more so for Italy. On the other hand, the European common debt is very low.
+The bulk of the EU’s public debt consists of funding for the NextGenerationEU (NGEU) 
+programme. The funds under the Recovery and Resilience Facility, the main instrument 
+of the NGEU, amount to €650 billion; a further €80 billion have been allocated to several 
+existing programmes already included in the EU budget. However, the NGEU programme 
+will end in 2026 and, from 2028 onwards, the outstanding volume of EU bonds will start 
+to decrease, reaching nearly zero over the next three decades. 
+11 Within a given territory, public goods are non-rivalrous (extending their use to everyone does not 
+require additional costs) and non-excludable (it is not possible to restrict their use to those who 
+have helped finance them). The latter feature is at the root of free-rider problems, i.e., in our case, 
+the incentive for a State to benefit from the efforts of others (e.g. in the environmental field) without 
+making any efforts of its own.
+12 M. Draghi, 2024, op. cit. 
+13 In 1958, the United States founded the Advanced Research Projects Agency (ARPA; later renamed 
+Defense ARPA, or DARPA), with the aim of developing breakthrough military technology. In 1969, 
+they launched ARPAnet, a computer network connecting ARPA to a number of US universities. During 
+the 1970s, the number of universities connected to the network grew and a new protocol was created 
+to streamline and expedite communication between and among network computers, thereby laying 
+the foundations for the development of the Internet as we know it today. DARPA’s activities rely on 
+the interaction between academia, the corporate sector and government agencies.
+
+6 7
+Creating a common fiscal capacity to finance public goods would help Europe overcome 
+this anomaly. 
+To be clear: this proposal does not imply the creation of a ‘fiscal union’, and would 
+require neither an EU finance minister nor mechanisms for systematic transfers between 
+countries.14 The idea, instead, is to set up a common spending programme to finance 
+investments that are indispensable for all European citizens, through a continent-wide 
+productivity compact. To paraphrase Keynes, what matters is not to do better or worse 
+those things which the Member States are already doing, but to do the things that are 
+not being done at all.15
+Here is an example that may help illustrate my point. 
+If the EU issued debt securities to fund up to 25 per cent of an investment plan worth 
+€800 billion a year for six years, by 2030 the European common debt would reach 6 per 
+cent of the EU’s GDP. Taking into account NGEU bonds and other programmes managed 
+by the European Commission, it would reach 10 per cent of GDP (Figure 5).16
+14 Let me only mention in passing the other important functions that a common fiscal capacity could 
+perform. As well as mitigating the impact of local shocks that affect only some Member States (a form 
+of mutual insurance), a common fiscal capacity would enable the better management of aggregate 
+demand. This way, the European fiscal policy would no longer be the mere sum of national fiscal 
+stances, but could be made consistent with the cyclical conditions of the euro-area economy as a 
+whole and with the monetary policy stance.
+15 ‘The important thing for Government is not to do things which individuals are doing already, and to do 
+them a little better or a little worse; but to do those things which at present are not done at all.’ Keynes 
+made the point in his 1926 essay The End of Laissez-faire, referring to the best way to allocate tasks 
+between the public and private sector within a single country (J.M. Keynes, The End of Laissez-faire , 
+London, Hogarth Press, 1926).
+16 The macroeconomic assumptions underlying the simulations are that: the interest rate on the 
+productivity compact will be 3 per cent (equal to the weighted average of the yields on the ten-year 
+bonds of the EU Member States); real GDP growth forecasts up to 2026 are sourced from European 
+Commission, European Economic Forecast. Autumn 2024 , Institutional Paper, 296, November 2024; 
+between 2027 and 2030 real growth will align with potential GDP growth (1 per cent), as estimated 
+by the European Commission in 2024 Ageing Report.  Economic and Budgetary Projections for the 
+EU Member States (2022-2070) , Institutional Paper, 279, April 2024; from 2031 onwards, the growth 
+forecasts are in line with those made by the European Commission in the same document; from 2027 
+onwards, inflation remains stable at 2 per cent. Debt ‘excluding NGEU’ means debt relating to the 
+following financial assistance programmes managed by the European Commission: the European 
+instrument for temporary Support to mitigate Unemployment Risks in an Emergency (SURE), the 
+European Financial Stabilisation Mechanism (EFSM), the Balance of Payments (BoP) assistance facility, 
+the Euratom Research and Training Programme, the Macro Financial Assistance (MFA) and Macro 
+Financial Assistance+ (MFA+) programmes, and the loan component of the Ukraine Facility. For SURE, 
+EFSM, BoP, Euratom and MFA the assumption is that the capital will be almost entirely repaid by 2058, 
+as stated in European Commission, Consolidated annual accounts of the European Union for the financial 
+year 2023, COM (2024) 272 final, 2024; for the funds disbursed to Ukraine under the MFA+ programme, 
+the Ukraine facility and the exceptional macrofinancial assistance package adopted by the EU Council 
+on October, the assumption is that they will start to be repaid in 2033. For NGEU, the assumption is 
+that by 2026 all EU Member States will have received the full amount of funds requested and that 
+grant-related borrowings will be repaid linearly between 2028 and 2058 (between 2032 and 2053 for 
+loan-related borrowings). Finally, with regard to the productivity compact, the assumption is that from 
+2031 onwards, Member States will only repay interest on bonds, whose amount will therefore remain 
+constant in nominal terms.
+
+8
+The increase in liabilities would be small at central level and used exclusively to boost 
+the productivity of the European economy;  17 it would limit the investment expenditure 
+needs of Member States, which could thus reduce their public debt more quickly.
+The creation of a liquid secondary market would make it possible to reduce EU bond 
+yields, which are currently penalized by the low liquidity of trading and the absence of 
+derivative instruments to hedge market risks. Based on Banca d’Italia estimates, solving 
+these critical issues could reduce the yields on common EU bonds by over 20 basis 
+points.18 
+Regular issuances of securities by the EU would also provide us with a European safe 
+asset which, as I will explain, is indispensable for the development of a European 
+capital market.
+This course of action, however, needs to take into account three important preconditions: 
+the rationalization of the resources already allocated to EU programmes; obtaining 
+the commitment of high-debt Member States to improve their public accounts in 
+order to prevent the EU’s overall debt from rising excessively; and guaranteeing 
+transparent management of EU projects, by ensuring that the resources are actually 
+used to increase productivity and that there is full accountability for all decisions 
+made.
+17 A flow of resources, which can conservatively be estimated at around 0.2 per cent of the EU’s GDP 
+for 2031, would be sufficient to repay the additional common debt incurred in the years 2025-30. 
+If, as we could reasonably expect, the plan should lead to higher potential growth, the cost would 
+then fall. 
+18 K. Pallara, M. Pericoli and P. Tommasino, ‘Issuing European safe assets: how to get the most out of 
+Eurobonds?’, Banca d’Italia, Questioni di Economia e Finanza (Occasional Papers), forthcoming.
+Figure 5
+Simulations of the stock of common EU bonds issued  
+to fund the financial assistance programmes managed by the European Commission
+(per cent of GDP)
+0
+2
+4
+6
+8
+10
+0
+2
+4
+6
+8
+10
+2030 2040 2050
+Excluding NGEU NGEU Productivity compact
+Sources: For the financial assistance programmes (including NGEU), calculations based on European Commission data; for the simulations, see Footnote 16.
+
+8 9
+4. A European capital market for innovation
+One of the biggest obstacles when it comes to investing in innovation in Europe is the 
+lack of an efficient capital market that is integrated at EU level and can select the most 
+capable entrepreneurs and support high-risk, high-yield projects from the very outset.19  
+The investment plan I have described above will require a significant contribution on the 
+part of financial intermediaries and private investors, not only in terms of the resources 
+required, but also to select and monitor the projects. 
+Given the riskiness of the investments, the equity market and other specialized forms 
+of investment – such as private equity and venture capital – will play a fundamental 
+role. Market dynamics may well provide solutions to problems that would otherwise be 
+difficult to solve. However, the conditions must be created for these forces to play out 
+in full.
+Greater financial integration would make the euro area more attractive to investors, both 
+foreign and domestic. The European economy has been running a balance-of-payments 
+surplus for years. Therefore, it has been generating savings that exceed domestic 
+investment, partly redirecting them abroad. Prior to the pandemic, domestic financial 
+resources invested outside of the euro area averaged over €300 billion per year, or almost 
+3 per cent of GDP. Had they been directed towards domestic business initiatives, capital 
+investment on our continent would have increased by one fifth. 
+A single capital market would improve the allocation of savings. It would also boost 
+cross-border financial flows between Member States, providing European households, 
+firms and financial intermediaries with better diversification opportunities. This would 
+allow them to mitigate the impact of local shocks and to take part in projects with higher 
+risks and returns. The financial sector currently enables European investors to absorb just 
+one fourth of local GDP shocks, compared with three fourths in the United States.
+To make progress towards a single capital market in Europe, two fundamental problems 
+must be addressed. 
+The first is the lack of a European safe asset. 
+A common safe asset is essential for the functioning of any developed capital 
+market. The possibility of trading a risk-free benchmark would facilitate the pricing of 
+financial products such as corporate bonds and derivatives, thereby encouraging their 
+development. Furthermore, it would provide a form of collateral that could be used across 
+countries and market segments, facilitating collateralized trading in interbank markets 
+and allowing better risk diversification by financial intermediaries. A safe asset would 
+also attract foreign investment, thereby strengthening the international role of the euro.
+19 E. Letta, Much more than a market: speed, security, solidarity. Empowering the Single Market to deliver a 
+sustainable future and prosperity for all EU Citizens, April 2024.
+
+10
+The second problem is the lack of a complete banking union, which restricts European 
+banks to operating mainly in national markets. Establishing the Single Supervisory 
+Mechanism and the Single Resolution Mechanism was a major step forward, but it fell 
+short of creating a fully integrated European banking market.20 A sequential, small-steps 
+approach was taken, which has not worked.21
+Banks play a crucial role in the major capital markets: from asset management to bond 
+and equity underwriting and placement, and from initial public offerings to financial 
+advisory and market- making services. An integrated capital market requires that banks 
+be fully operational throughout the euro area.
+The introduction of a European safe asset and the completion of the banking union 
+are the most important preconditions for creating a single capital market, but they are 
+not the only ones. We must not forget the importance of drafting a single European 
+Finance Act, of strengthening central supervision, and of harmonizing corporate crisis 
+management mechanisms. 
+Conclusions
+Jean Monnet once said: ‘Europe will be forged in crisis’. 22 This statement is not only a 
+beacon of hope in hard times, but also a reminder that we must embrace every challenge 
+as an opportunity to transform our continent. 
+Today, we are facing momentous changes: the twin digital and green transition, the 
+deteriorating geopolitical outlook, demographic and migration pressures, and the 
+fragmentation of world trade. These are not temporary crises, but major processes that 
+require appropriate responses. 
+To face them, we need to build an economy that can grow, innovate and generate 
+widespread prosperity. No Member State can do this alone. We need coordinated action 
+at European level: a productivity compact that mobilizes public and private investment in 
+strategic common goods.
+This endeavour is not just a response to the need to recover lost ground, but also a 
+blueprint for the future. It means strengthening technological sovereignty, creating 
+jobs, improving the quality of life of citizens and protecting such fundamental values as 
+freedom and pluralism.
+20 The credit sector remains fragmented along national lines: there is no European deposit guarantee 
+scheme, the bank crisis management framework is incomplete and obstacles to the transfer of banking 
+groups’ capital and liquidity across countries still exist.
+21 F. Panetta, ‘Europe’s shared destiny, economics and the law’, Lectio Magistralis  by Fabio Panetta, 
+Member of the Executive Board of the ECB, on the occasion of the conferral of an honorary degree in 
+Law by the University of Cassino and Southern Lazio, 6 April 2022.
+22 ‘L’Europe se fera dans les crises et elle sera la somme des solutions apportées à ces crises’ (J. Monnet, 
+Mémoires, Paris, Fayard, 1976).
+
+10 11
+To achieve these goals, it is essential that we introduce a European safe asset, complete 
+the banking union, and develop a European capital market that is better able to 
+finance innovative high-risk projects. We must also create a business environment that 
+encourages entrepreneurship and innovation, overcoming regulatory and administrative 
+rigidities that hold back our growth potential.
+We cannot afford a sequential, small-steps approach. The necessary reforms are 
+interconnected and mutually reinforcing: they must be implemented with determination 
+and vision, building on the recent analyses by Mario Draghi and Enrico Letta.
+Europe can and must take control of its own destiny. Like Niccolò Machiavelli’s archer, 
+we must aim higher to hit our target.23 Together, Member States can turn challenges into 
+opportunities and build a future of prosperity and progress for all European citizens. 
+23 ‘It’s like the clever archer who senses that his target is too far off, knows the limitations of his bow, and 
+so aims far higher than he normally would, not because he really wants his arrow to go that high, but 
+to have it fall from a height on to his target’. (N. Machiavelli, The Prince, Chapter VI, 1532, translated 
+by Tim Parks, 2009).

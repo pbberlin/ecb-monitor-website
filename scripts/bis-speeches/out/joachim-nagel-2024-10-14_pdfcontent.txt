@@ -1,0 +1,163 @@
+1/5 BIS - Central bankers' speeches
+Joachim Nagel: Introducing a digital euro - the cross-border 
+dimension
+Speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the RBI@90 
+High-Level Conference on "Central banking at crossroads",  organised by the Reserve 
+Bank of India, New Delhi, 14 October 2024.
+* * *
+Check against delivery 
+1 Introduction
+Dear Governor Das,
+dear colleagues,
+ladies and gentlemen,
+I am delighted to be here with you today, at this wonderful location, visiting this 
+wonderful country – one of the cradles of world civilisation and culture. 
+The Reserve Bank of India is currently celebrating its foundation 90 years ago. My 
+heartfelt congratulations to all members of staff on this anniversary! Last year, Indian 
+real-time payment systems processed about 129 billion digital transactions.This 1 
+means that 84% of electronic payment transactions took place in real time. During the 
+same period, only about 19% of electronic payments worldwide were real-time 
+transactions. In my view, this is impressive evidence of the excellent work the RBI has 
+accomplished over the last few years.
+Payment systems and their cross-border interaction are also an important topic at this 
+conference. This is because cross-border payments are an integral part of our 
+globalised world. Historically, from the Renaissance to modern times, correspondent 
+banks have acted as the bedrock for cross-border payment transactions. However, 2
+even today, transferring funds by means of correspondent banking is often slow, 
+involves many steps and may result in high and non-transparent fees. 
+Moreover, in the last two decades, correspondent banking has been subject to a 
+downward trend, mainly due to increasingly strict compliance requirements. Between 
+2011 and 2022, the number of active correspondents decreased by roughly one third, 
+while the value of cross-border payments increased by almost 40%.Obviously, this is 3 
+an alarming trend in terms of market competition.
+To some extent, technical progress might be able to compensate for a tighter 
+correspondent banking market. In particular, in the last decade, a number of FinTech 
+companies have provided new opportunities to streamline cross-border payments using 
+innovative methods like blockchain and digital wallets.The FinTech revolution focused   
+
+2/5 BIS - Central bankers' speeches
+on private money. However, it now appears there may be another revolution on the 
+horizon – this time involving payments in central bank money: the introduction of central 
+bank digital currencies (CBDC).
+In my talk, I would like to address CBDC developments with a particular focus on cross-
+border payments. First, I will outline some general points about the potential impact and 
+benefits of the introduction of CBDC for processing cross-border transactions. Second, I 
+will aim to highlight this topic in the context of the Eurosystem's work on a digital euro – 
+the envisaged European retail CBDC.
+2 CBDCs and cross-border payments
+Given that there are correspondent banks and FinTechs working on digital innovations 
+as well, let me begin with a question. What would be the additional benefits of CBDCs 
+in the area of digital payments? The introduction of CBDCs would facilitate a setup of 
+new infrastructures for digital payments. On the one hand, this makes high initial 
+investment necessary. On the other hand, once a CBDC is established with its new 
+infrastructure, it could catalyse broad improvements in payment systems, including 
+cross-border transactions – by introducing new message standards and shorter process 
+chains, for example.4
+Starting on a green field may be one major advantage of CBDCs. Experience shows 
+that, in particular, implementing common standards is not an easy task. Take ISO 
+20022, for example.The International Organisation for Standardisation proposed this 5 
+common standard for financial messages in cross-border payments in 2004. It will be 
+probably more widely used in payment systems on a global level next year – 21 years 
+after the initial proposal. This period feels even longer when you think of all the 
+innovations that have taken place in the meantime – the first iPhone was presented in 
+2007, the concept of a decentralised blockchain in 2008.
+However, to be able to reap the benefits for cross-border payment, interoperability 
+between CBDCs must be ensured early on. To this end, central banks should already 
+begin to consider the best ways for interaction in the planning phase. In my view, we 
+have a historic opportunity to vastly improve cross-border transactions by making 
+different CBDCs interoperable from the very beginning.
+Indeed, a number of projects are already researching the best ways of making CBDCs 
+interoperable. For instance, the Bank for International Settlement (BIS) Innovation Hub 
+in Singapore and a number of national central banks in the Indo-Pacific region set up 
+to explore how a common platform for CBDCs could enable cheaper, Project Dunbar 
+faster and safer cross-border payments.6
+I am strongly in favour of a multilateral approach in this area, because this best serves 
+the interests of all participants. If central banks proceed in a largely unilateral way 
+instead, we not only risk inefficiencies, but also undesirable interferences. Consider a 
+scenario in which a CBDC is made available for holders abroad in a unilateral way. In 
+such a case, we could see currency substitution or appreciation pressure for the 
+domestic currency. Also, the balance sheet of the CBDC emitting central bank could 
+strongly expand. A knock-on effect may be that domestic monetary policy in countries 
+
+3/5 BIS - Central bankers' speeches
+that suffer from increased currency substitution becomes less effective. By contrast, a 
+multilateral approach including reasonable holding limits could mitigate these risks.
+Meanwhile, the RBI has made valuable contributions to the topic of retail CBDC. The 
+digital rupee based on blockchain technology was launched on 1 December 2022. It is 
+issued by the central bank and distributed by commercial banks. As I understand it, the 
+RBI intends to tap the potential for using CBDCs in cross-border payments as well.
+3 A digital euro: The cross-border dimension
+In the Eurosystem, we expect a digital euro to be launched in just a few years' time. 
+The primary goal of a digital euro is meet the domestic needs of the euro area. To some 
+extent, however, this goal already includes a significant cross-border dimension. Let me 
+explain what I mean by that. A quarter century on from the introduction of the euro, 
+there is still no single pan-European solution for digital payments when people go 
+shopping in stores or online. This means there is a risk that traditional cashless 
+payment solutions offered by private European payment service providers will not 
+match customer needs.
+To be fair, some euro area Member States have successfully implemented innovative 
+digital solutions in the area of payments – I am thinking, for example, of the online 
+payment system iDEAL in the Netherlands or Bizum Wallet in Spain. However, such 
+payment solutions by themselves usually only function within national borders. 
+Promising initiatives have been underway in recent years to widen the scope of these 
+solutions. For example, iDEAL was successfully acquired by the European Payments 
+Initiative, a company founded by several European banks and financial services 
+companies. This initiative seeks to create a truly pan-European payment solution in the 
+near to medium term. 
+This shows that the European payments sector has made meaningful progress; 
+however, there are challenges further ahead. International payment providers, 
+particularly those offering credit card schemes, still heavily dominate the European 
+market for payment services – and even more when it comes to payments abroad.
+A digital euro would be a major step forward in this context. It would provide a 
+standardised digital means of payment for day-to-day transactions throughout the euro 
+area. Despite the need for a more integrated payment system, we are determined to 
+prevent the Eurosystem's footprint in the European financial system from becoming too 
+large. We are therefore planning to issue a digital euro, but not to distribute it. This 
+means that banks and other payment providers should assume the role of the CBDC 
+interface between the Eurosystem and the customers.
+The euro area currently consists of 20 Member States, each of which has its own 
+banking system with its own unique features. Against this background, I am sure you 
+can imagine the overall complexity of our task. Therefore, our current focus is on 
+making the digital euro accessible for all users within the euro area. We are investing 
+great effort in our work on this, and we are constantly explaining what we do and why 
+we do it, not least because a number of people are sceptical of CBDCs. 
+
+4/5 BIS - Central bankers' speeches
+Once we have accomplished a digital euro for all users within the euro area, it will, in 
+my view, be worth considering making it accessible to users outside the euro area as 
+well. Rules for geographical access to a digital euro will be set down in legislation. If 
+European legislation allows, access to a digital euro can also be granted to consumers 
+and firms in the Member States of the European Economic Area outside the euro area. 
+Selected non-EU countries can be included as well.7
+Ideally, the D€ would be interoperable with other CBDCs from the very start, for 
+example, for person-to-person payments or commercial payments from or to firms 
+outside the euro area. However, this is currently a vision for the future, since, as already 
+mentioned, we first have to overcome numerous challenges to establish a retail digital 
+euro that works within the euro area.
+4 Concluding remarks
+Let me conclude. So far, CBDCs are newcomers to the world of payment systems. We 
+can only estimate how large a role they will end up playing in payment transactions. 
+This is all the more true when it comes to cross-border payments.
+The scepticism about CBDCs in many quarters is not uncommon for many 
+technological innovations. For example, in the early 1980s, "computerphobia" was a 
+widespread phenomenon.This took a wide range of forms, even fear of physically 8 
+touching a computer or feeling threatened by those who worked with them. Today, this 
+may seem very strange to us. Computers have since become an essential day-to-day 
+tool for us.
+And so we will continue our efforts to implement CBDCs. I am confident that this will 
+ultimately make our payment systems better, faster and more efficient.
+ 1 ACI Worldwide Inc., It's prime time for real-time: Real-time payments adoption and 
+, Payment report 2024. growth around the globe
+2 Lothian, J. R. (2002), The internationalization of money and finance and the 
+, Journal of International Money and Finance 21, Vol. globalization of financial markets
+6, p. 699-724.
+3 Garratt, R., Wilkens, P. K. and H. S. Shin,  , Next generation correspondent banking
+BIS Bulletin No. 78, 30 May 2024.
+4 Deutsche Bundesbank,  , Cross-border interoperability of central bank digital currency
+Monthly Report, July 2022, p. 59-75.
+5 ISO 20022 | ISO20022
+6 Project Dunbar - International settlements using multi-CBDCs (mas.gov.sg)
+
+5/5 BIS - Central bankers' speeches
+7 International aspects of CBDCs: update on digital euro (europa.eu)
+8 LaFrance, A.,  , The Atlantic, 30 March 2015.When People Feared Computers

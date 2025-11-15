@@ -1,0 +1,444 @@
+TM
+Peace and prosperity in a fragmented world
+Speech by Fabio Panetta* 
+Governor of Banca d’Italia
+Economy and Peace: a possible alliance  
+Fondazione Centesimus Annus Pro Pontifice 
+Bologna, Centro San Domenico, 16 January 2025
+Today, our world is facing an alarming rise in geopolitical tensions and conflicts. The 
+number of wars, which had decreased after the fall of the Berlin Wall, has turned upward 
+again in the last fifteen years; in 2023 it reached its highest level since World War II 
+(Figure 1).
+In many regions, war – often fratricidal – is a daily reality.1 Day after day, the news brings us 
+dramatic images, reawakening fears linked to the traumatic experiences of the two world 
+wars. In Western Europe, the debate about significantly increasing defence spending has 
+resurfaced after a long time. 
+But conflicts are not the only cause for concern. The denial of basic needs, which still 
+affects large parts of the world's population, is also a form of violence. 
+After decades of ever stronger international cooperation and economic integration, 
+history now seems to be taking a step backwards. 
+It is a very different world from the days when I started working as a central banker. In 
+many ways, it is a world of greater uncertainty and less hope for the future, although 
+even back then there was no shortage of stark clashes and dramatic tensions.2 
+*  I would like to thank Andrea Brandolini, Patrizio Pagano, Roberto Piazza, Pietro Rizza and Girolamo 
+Rossi for their help in writing this speech, and Valentina Memoli and Roberto Pisano for their editorial 
+support. 
+1 Most of the ongoing armed conflicts are civil wars. Those in Myanmar, Sudan and Ethiopia are among 
+the bloodiest (Source: ACLED). The war in Sudan is causing a devastating humanitarian crisis: some 
+25 million Sudanese are suffering from food shortages; 10 million have fled their homes and 2 million 
+have sought refuge abroad.
+2 In the 1980s, despite signs of progress and hope – such as the possible rapprochement between the 
+superpowers – there were still geopolitical, social and economic tensions. The Cold War shaped world 
+politics, fuelling fears of an imminent nuclear conflict. In the Middle East, the Iran-Iraq war and the 
+conflict in Afghanistan, with the Soviet invasion, strained international relations. Apartheid in South 
+Africa was a further sign of the persistence of racial segregation dividing societies around the world. 
+In Poland, the Solidarity movement and political tensions under the Communist regime exposed the 
+internal struggles within Eastern Europe.
+
+2
+It was therefore with great pleasure that I accepted the invitation from the Centro San 
+Domenico and the Centesimus Annus Foundation to reflect, as an economist and with 
+due humility, on such a fundamental issue as the link between peace and prosperity.
+I welcome this important opportunity to acknowledge the Centro San Domenico’s 
+patronage of Catholic cultural activities for over fifty years. These efforts, like those of the 
+Fondazione Centesimus Annus and above all of the Italian Episcopal Conference, are part 
+of the Catholic Church’s long-standing commitment to addressing social and economic 
+issues, with a particular focus on inequalities and conflicts.3
+3 The first encyclical on economic and social matters – the Rerum novarum, promulgated at the end of 
+the 19th century – was not the origin but the outcome of Catholic engagement on these issues. As 
+far back as the middle of the century, at the height of the industrial revolution, many prominent 
+Catholics were actively analysing the risks of industrial capitalism and of colonialism. At that 
+time, when class conflicts broke out and the Communist Party Manifesto by Engels and Marx 
+was published, important Catholics such as Cardinals De Bonald in Lyon, Manning in Manchester 
+and Gibbons in Baltimore spoke out on the distortions  of the capitalist industrial system, while 
+people such as Von Ketteler, a German bishop, engaged  with the most important representatives 
+of socialism. Catholic economists and sociologists – from the Italian scholar Giuseppe Toniolo 
+to the Germanic intellectual Carl von Vogelsang – analysed the problems of capitalism and 
+proposed new models of work organization (see O. Köhler, La formazione dei cattolicesimi nella 
+società moderna , in Storia della Chiesa,  Vol. IX: La chiesa negli Stati moderni e i movimenti sociali 
+1878-1914 , Milan, Jaca Book, 1982, pp. 234-239, and O. de Dinechin, SJ, Rerum novarum, in 
+‘Aggiornamenti sociali’, 3, 2019, pp. 258-262). 
+Figure 1
+Number of conflicts in the world involving at least one state
+(number of ongoing conflicts)
+0
+10
+20
+30
+40
+50
+60
+0
+10
+20
+30
+40
+50
+60
+1950 1960 1970 1980 1990 2000 2010 2020
+Internationalized intrastate conflicts (1)
+Non−internationalized intrastate conflicts (1)
+Extra−systemic conflicts (2)
+Interstate conflicts (3)
+Sources: Uppsala Conflict Data Program (UCDP) and Peace Research Institute Oslo (PRIO), 2024.
+(1) Intrastate conflict: a conflict between a government and a non-governmental armed group within the territory of a given state, resulting in at least 25 battle-related 
+deaths in one calendar year. If a foreign state is involved, the conflict is defined as ‘internationalized’ . If this is not the case, it is defined as ‘non-internationalized’ . –  
+(2) Extra-systemic conflict: a conflict between a state and a non-state group outside the state’s own territory, resulting in at least 25 battle-related deaths in one 
+calendar year. – (3) Interstate conflict: a conflict between states, resulting in at least 25 battle-related deaths in one calendar year.
+
+2 3
+1. War cannot generate prosperity 
+Humanity cannot thrive without peace, and neither can the economy. 
+In the countries involved in a conflict, war seriously damages the drivers of growth. 4 
+Hostilities destroy productive capital: infrastructure, machinery and raw materials. They 
+claim victims, especially among the young generations, bending learning opportunities 
+and the formation of a skilled workforce to the requirements of war. This reduces the 
+availability and quality of ‘human capital’. Furthermore, wars often erode social capital, 5 
+thereby weakening social cohesion and trust in institutions.
+The war effort supports aggregate demand and can stimulate innovation, but seriously 
+distorts its purposes. The economic benefits are short-lived and do not remove the need 
+to reconvert the economy once a conflict is over, even in countries that were involved in 
+the conflict but suffered no direct damage to their territory. The high inflation and the 
+steep fall of economic activity that often mark wartime periods are signs of the damage 
+that wars inflict on the economic fabric (Figure 2).
+The manufacturing of war equipment does not help increase a country’s growth potential.6 
+Development comes from productive investment, not from arms. That is why, in the 1930s, 
+John Maynard Keynes proposed a massive rise in public investment spending as a solution 
+to economic depression in the United States, suggesting that President Roosevelt’s focus 
+should be on ‘the rehabilitation of the physical condition of the railroads’. 7
+Moreover, it is misleading to attribute technological progress to military expenditure. It is 
+scientific research that sparks innovation. Military investment can generate innovation if 
+it is allocated to research.8 However, we do not need to resort to war for this: technologies 
+developed for military purposes only translate into progress when they later find civilian 
+applications. 
+War is therefore a form of ‘development in reverse’9 and cannot bring prosperity. 
+4 M. Schularick, speech at the ECB Forum on Central Banking, Sintra, 2 July 2024.
+5 Research on the importance of social capital for economic development has been influenced by 
+Robert Putnam's work on Italy (see R.D. Putnam, Making democracy work: civic traditions in modern 
+Italy, Princeton, Princeton University Press, 1993).
+6 The fact that military spending is not, in and of itself, an instrument of economic development does 
+not mean that it does not play a necessary role in national defence. 
+7 J.M. Keynes, ‘From Keynes to Roosevelt: our recovery plan assayed’, The New York Times, 31 December 
+1933. See also G.B. Eggertsson, ‘Great expectations and the end of the depression’, American Economic 
+Review, 98, 4, 2008, pp. 1476-1516. 
+8 For example, the Manhattan Project, developed in the US during World War II, led to the exploitation 
+of nuclear energy. Similarly, the Defense Advanced Research Projects Agency (DARPA) programme, 
+set up in the 1950s, produced the internet. NASA’s moon landing in the 1960s resulted in aviation 
+and satellite technology advancements, such as GPS. But only military spending dedicated to research 
+can generate long-term economic benefits (see J. Antolin-Diaz and P. Surico, ‘The long-run effects of 
+government spending’, American Economic Review, forthcoming).
+9 P. Collier et al., Breaking the conflict trap. Civil war and development policy. A World Bank policy research 
+report, Washington DC, World Bank and Oxford University Press, 2003.
+
+4
+2. Growth and integration as instruments of peace
+Economic growth, prosperity and peace are instead closely linked.10
+To understand this connection, we must recognize that development in modern 
+economies is based on integration and international trade. 11 The free movement of 
+goods, capital, people and ideas facilitates the transfer of knowledge and technology, 
+thereby helping to bring peoples together. 
+The idea that open trade and deep integration of production can secure lasting peace 
+inspired the global economic framework that emerged after World War II.
+The relationship between economic integration and peace is explicitly cited in the Havana 
+Charter, which in 1948 sought to create an international organization for world trade to 
+promote stability and prosperity. The Charter never did enter into force, but the talks 
+led to the General Agreement on Tariffs and Trade (GATT), which was succeeded by the 
+World Trade Organization (WTO) in 1995. 
+10 For Kant and Montesquieu, economics was the foundation of peace. In Perpetual peace, Kant argued 
+that ‘the commercial spirit cannot co-exist with war’ and that international economic relations must 
+be underpinned by international law ‘based upon a federation of free states’ (I. Kant, Perpetual peace, 
+London, 1795, pp. 157 and 68). Montesquieu, in turn, wrote: ‘L’effet naturel du commerce est de porter 
+à la paix’ (Montesquieu, De l’esprit des lois, 1748, book XX, chapter II, p. 349).
+11 The correlation between open trade and growth after World War II has been studied by J. Feyrer, ‘Trade 
+and Income-Exploiting Time Series in Geography’, American Economic Journal:  Applied Economics , 
+11, 4, 2019, pp. 1-35; see also J.A. Frankel and D.H. Romer, ‘Does Trade Cause Growth?’, American 
+Economic Review, 89, 3, 1999, pp. 379-399; D. Rodrik, One Economics, Many Recipes: Globalization, 
+Institutions, and Economic Growth, Princeton and Oxford, Princeton University Press, 2007; M.J. Melitz 
+and S.J. Redding, ‘Trade and Innovation,’ NBER Working Paper Series, 28945, 2021.
+Figure 2
+Real income and inflation before and after World War II
+(indices: 1935=100)
+(a) Real GDP per capita (b) Consumer price index
+ 60
+ 80
+100
+120
+140
+ 60
+ 80
+100
+120
+140
+1935 1940 1945 1950
+  100
+2,000
+4,000
+6,000
+  100
+2,000
+4,000
+6,000
+1935 1940 1945 1950
+Italy France
+Source: Ò. Jordà, M. Schularick and A.M. Taylor, ‘Macrofinancial history and the new business cycle facts’ , in M. Eichenbaum and J.A. Parker (eds.), NBER 
+Macroeconomics Annual 2016, Volume 31, 2017 , pp. 213-263.
+
+4 5
+In 1944, the Bretton Woods Conference established a multilateral system to promote 
+cooperation and trade on a global scale. Other institutions followed over time, such as 
+the World Bank (1944), the International Monetary Fund (1945), the OECD (1961), the 
+G20 (1999) and the Financial Stability Board (2009).
+The European project itself was conceived as a way of preventing new conflicts between 
+neighbouring countries, following the devastations of World Wars I and II. In the words 
+of Robert Schuman, the economic unification of Europe aimed to make war ‘not merely 
+unthinkable, but materially impossible’.12 
+These initiatives fuelled the globalization that has taken off since the middle of the last 
+century. The ratio of international trade to GDP rose from 20 per cent in 1950 to 34 
+per cent in 1975 (Figure 3) and then increased further in the following decades, mainly 
+because of the end of the Cold War and the integration of new countries into the global 
+economy, notably China. In 2019, this ratio reached 60 per cent. 
+Meanwhile, the global production structure has become increasingly complex and 
+interconnected due to the creation of global supply chains and an increase in trade 
+agreements, from 50 in 1990 to 300 in 2021.13 
+This open, multilateral trade system has fostered development. The freedom to trade 
+goods and services, to invest across borders, and to share knowledge and ideas has 
+improved economic well-being for much of the world’s population, creating new job 
+opportunities – especially for women – and reducing inequalities between advanced and 
+developing countries (Figure 4). 
+12 For more information, see the EU website: Schuman declaration May 1950  and F. Panetta,  ‘Europe’s 
+shared destiny, economics and the law’, Lectio Magistralis on the occasion of the conferral of an 
+honorary degree in Law by the University of Cassino and Southern Lazio, 6 April 2022.
+13 For further information, see the WTO’s website: Regional trade agreements.
+Figure 3
+International trade developments between 1874 and 2021
+(exports plus imports as a percentage of GDP)
+1914
+1945
+1980
+2008
+Industrialization World Wars Bretton Woods era Liberalization Slow-
+balization
+0
+10
+20
+30
+40
+50
+60
+70
+0
+10
+20
+30
+40
+50
+60
+70
+1880 1920 1960 2000
+Source: Based on M. Klasing and P . Milionis, ‘Quantifying the evolution of world trade’ , 1870-1949, Journal of International Economics, 92, 1, 2014, pp. 185-197 .
+
+6
+Access to international markets has allowed many emerging economies to grow,14 lifting 
+hundreds of millions of people out of extreme poverty. It is estimated that without 
+the progress made over the last 35 years, 2.4 billion more people would be living in 
+destitution today.15 
+As the role of international cooperation grew stronger, conflict between states subsided. 
+All this progress led Steven Pinker to consider globalization as one of the reasons for the 
+‘long peace’ following the end of World War II.16
+3. Globalization, its discontents, and geopolitical shifts
+Globalization has brought indisputable benefits, but there have been unwanted effects 
+too, which have not always been fully understood or properly addressed by governments 
+and international institutions. 
+Although openness to foreign trade has improved living conditions in emerging 
+economies and reduced income inequalities between countries, it has also often 
+exacerbated inequalities within States. 
+14 Openness to trade has benefited developing countries both directly and indirectly. Direct benefits 
+include access to new production technologies and new markets. Indirect effects include greater 
+competition between businesses and, consequently, higher domestic production efficiency. This 
+openness has also prompted governments to improve the quality of their fiscal and monetary policies 
+(see A. Chari and P.B. Henry, ‘Learning from the doers: developing country lessons for advanced 
+economy growth’, American Economic Review, 104, 5, 2014, pp. 260-265). 
+15 In 1990, the world population was 5.3 billion, 38 per cent of which lived in extreme poverty (defined 
+by the World Bank as living on less than $2.15 per day, at current prices). Had the share of people 
+in poverty not decreased, today – with a world population of 8.2 billion – there would be 3.1 billion 
+people living in absolute poverty; instead, there are 700 million (see United Nations, World Population 
+Prospects: Summary of Results, New York, July 2024).
+16 S. Pinker, The better angels of our nature: why violence has declined, New York, Viking, 2011.
+Figure 4
+Inequality between countries: 1950-2020 (1)
+(index)
+0.45
+0.50
+0.55
+0.60
+0.65
+0.45
+0.50
+0.55
+0.60
+0.65
+1960 1980 2000 2020
+Source: B. Milanovic, ‘Global income inequality by the numbers: in history and now. An Overview’, World Bank, Policy Research Working Paper, 6259, 2012.
+(1) Inequality between countries is calculated by assuming that all citizens of a given country have the same income.
+
+76
+In advanced economies – in the absence of reforms in areas such as education, health 
+and social protection – globalization and the relocation of production have contributed 
+to a slowdown in the income dynamics of workers in low-skill and low-paid jobs, but also 
+of many in the middle class.
+Many low-income countries – in Sub-Saharan Africa especially – have remained trapped 
+in extreme poverty and high debt, in spite of the economic progress afforded by their 
+involvement in the global economy and in spite of aid from multilateral development 
+banks17 and advanced countries. 
+Over 700 million people are suffering from food and water shortages globally, and even 
+more lack access to adequate healthcare.18 Almost 700 million people have no electricity, 
+while 2.3 billion have to rely on using polluting fuels for cooking, posing serious health 
+risks.19 Around 250 million children aged between 6 and 18 are excluded from education,20 
+with marked gender inequalities.21 
+Moreover, the increasing economic clout of emerging economies has not been 
+accompanied by corresponding advances in political freedoms. This is partly why leading 
+countries have been reluctant to review the governance of international institutions 
+in order to grant these new economic powers more representation, which has led to 
+dissatisfaction on their part.
+These factors have caused many to view globalization as an elitist project, whether rightly 
+or wrongly,22 fuelling resentment among large sections of the population. The 2007-08 
+financial crisis further undermined trust in the ruling classes, eroding confidence in the global 
+17 Multilateral development banks include the World Bank and regional development banks, foremost 
+among which are the Inter-American Development Bank, the Asian Development Bank and the 
+African Development Bank. In Europe, the European Investment Bank and the European Bank for 
+Reconstruction and Development financed investments in Central and Eastern European countries 
+after the fall of the Berlin Wall.
+18 FAO, IFAD, UNICEF, WFP and WHO, The state of food security and Nutrition in the world. Financing to end 
+hunger, food insecurity and malnutrition in all its forms, Rome, 2024. Estimating the number of people 
+without adequate healthcare is a complex issue: according to the World Bank and the World Health 
+Organisation, over half of the world’s population (4.5 billion people) have no access to essential medical 
+services; for more details, see the page on the World Bank’s website: Universal Health Coverage. 
+19 For more details, see the page on the World Bank’s website: Energy. 
+20 UNESCO, 251M children and youth still out of school, despite decades of progress (UNESCO report) , 
+press release, 31 October 2024.
+21 Girls are often unable to attend school because of conflicts and social fragility, and girls are twice as 
+likely as boys to be excluded from school in war-torn countries. See UNICEF, 27 million children out of 
+school in conflict zones, press release, 18 September 2017.
+22 Much of the negative effects on the labour market in advanced economies have in fact been driven 
+by technological development and falling transport costs, which have facilitated the offshoring of 
+production to emerging countries. However, in the public debate and according to general perception, 
+these effects are often attributed to globalization. See F. Panetta, ‘The future of Europe’s economy amid 
+geopolitical risks and global fragmentation’, Lectio Magistralis delivered on the occasion of the conferral 
+of an honorary degree in Juridical Sciences in Banking and Finance by the University of Roma Tre, 
+Rome, 23 April 2024. Moreover, not all countries have complied with WTO rules: for example, industrial 
+development in China has benefited from public subsidies that have outpriced companies and workers 
+in other countries (see European Commission, EU imposes duties on unfairly subsidised electric vehicles 
+from China while discussions on price undertakings continue, press release, 29 October 2024).
+
+8
+governance model based on free trade, economic integration, the role of international 
+financial institutions and that of supranational bodies in the resolution of disputes. 
+The world is now evolving in the direction of a multipolar and fragmented system, with 
+rising nationalist and protectionist sentiments and growing competition among opposing 
+blocs of countries. Geopolitical tensions are escalating as a result. 
+On the economic front, these strains have led to trade disputes between the United States 
+and China, to Brexit and to a growing number of vetoes by governments on foreign 
+investments in domestic companies. Global trade is fragmenting and is increasingly 
+being used for strategic purposes, especially in the race for technological dominance. In 
+the next few years, a rise in protectionism can be expected, driven by US policies.
+Meanwhile, military conflicts are spreading dramatically, and have now come to Europe too. 
+In this context, a growing tendency to reject shared international principles has emerged, 
+even to the point of questioning the efficiency of democratic rules in global competition.23 
+This raises very serious concerns for the future of international relations.
+4. What economic policies are needed for peace?
+The priority must be to preserve a global economy that remains open to international trade. 
+Severing economic and trade links would lead to a significant loss of well-being for the 
+world’s population, further weakening the multilateral framework that has underpinned 
+global economic development since the end of World War II, with repercussions that 
+would extend beyond the boundaries of economics and finance. I will not dwell on these 
+aspects, as I have discussed them elsewhere.24 
+That said, it is necessary to correct the imbalances that have emerged over time in order 
+to prevent deprivation and frustration from fuelling tensions and conflicts. 
+To achieve these goals, it is essential to act on several fronts, both domestically and 
+internationally. I will only mention a few key points here, without claiming to be exhaustive.
+The first step is to combat inequalities, in both poor and advanced countries.25 Reducing 
+gaps in income and opportunities is not only key to building a fairer and more equal 
+society, but is also essential to guarantee social stability. Moreover, it is a prerequisite 
+23 In the words of the President of the Italian Republic Sergio Mattarella: ‘Our public opinions are instilled 
+with the doubt that democratic power is weak, inefficient, slow, and unfit to govern quick-paced 
+evolutions. Or even that it is a penalizing factor in competing with non-democratic systems. ' (speech 
+by the President of the Italian Republic Sergio Mattarella at the Ceremony for the exchange of end-of-
+year greetings with representatives of institutions, political forces and civil society, Rome, 17 December 
+2024).
+24 F. Panetta, ‘The future of Europe’s economy amid geopolitical risks and global fragmentation’, 2024, 
+op. cit. and F. Panetta ‘Economic developments and monetary policy in the euro area’, speech at the 
+30th ASSIOM FOREX Congress, Genoa, 10 February 2024.
+25 The Magisterium of the Roman Catholic Church constantly addresses economic inequalities. See, 
+among others, Benedict XVI, Encyclical letter Caritas in veritate, 29 June 2009, no. 42; Francis, Encyclical 
+letter Fratelli tutti, 3 October 2020, no. 116. 
+
+8 9
+for development: if a significant part of the population is excluded from economic 
+opportunities, the entire economy suffers.
+Another step is improving education and training systems. Fair access to education 
+is necessary to break the poverty cycle and build a skilled and productive workforce 
+capable of adapting to market changes and starting new economic activities. Investing 
+in the education of young people, regardless of their initial conditions, means leaving no 
+one behind and making full use of the human capital available. 
+It is also vital to step up social protection and ensure access to efficient health services. This 
+would enable workers to weather difficult times without falling into poverty, encouraging 
+their active participation in the labour market while promoting social cohesion and 
+economic stability. 
+Another priority at international level is managing the external debt of the poorest 
+countries,26 which has reached $1.1 trillion.27 
+Today, as was the case forty years ago, we must think about how to relieve the burden 
+of this debt, which is hindering productive investment and holding back development in 
+many countries.28 
+However, the success of current initiatives is challenged by the involvement of new major 
+creditors, such as China, and by current geopolitical tensions.29 Accelerating these efforts 
+would be one concrete step towards finding solutions to improve the living conditions 
+of the populations affected.
+But that is not all. It is essential to adopt policies that support development, countering 
+the pressure that extreme poverty exerts on migratory flows, making them difficult 
+to control. Investing in the management of these flows is critical to supporting the 
+economies of the migrants’ countries of origin and to responding to the consequences 
+of demographic decline in the destination countries. Additionally, pursuing sustainable 
+26 The issue of debt of poor countries was raised by Pope John Paul II as early as 1986  in his speech 
+to the United Nations (see CEI, ‘Etica e finanza’, supplement to no. 19, Quaderni della Segreteria CEI, 
+August 2000, pp. 40-42). It was recently revisited by Pope Francis for the 2025 Jubilee (see Francis, Bull 
+of Indiction for the Ordinary Jubilee, Spes non confundit, no. 16, 9 May 2024). 
+27 The figure refers to the debt held at the end of 2023 by the poorest countries, i.e. those that have access 
+to concessional loans from the World Bank. The long-term external public debt of these countries has 
+reached $780 billion. According to debt sustainability analyses conducted by the IMF and the World 
+Bank, more than half of poor countries are considered as being in ‘debt distress’ or ‘at high risk of debt 
+distress’; the share was less than one quarter ten years ago.
+28 We must not repeat the experience of the 1980s, the ‘lost decade’ in the development of many 
+countries, caused by the delay in recognizing the need to reduce their external debt and by the 
+ensuing insolvency crises. 
+29 The Common Framework for Debt Treatment, signed by the G20 countries in 2020, is the most 
+significant attempt to regulate the debt restructuring processes of low-income countries, expanding 
+the participation in the governance of these processes to non-Paris Club countries, such as China. 
+The Global Sovereign Debt Roundtable, created in 2023 and comprising official bilateral creditors, 
+private creditors and debtor countries, is a useful complement to the Common Framework, focusing 
+on fostering debate on the most important challenges facing restructuring. 
+
+10
+development models is necessary to ease tensions over access to scarce resources, like 
+water and energy, which often fuel conflicts.
+Conclusions 
+Globalization has undoubtedly increased integration between countries and created 
+opportunities for economic and social progress in many regions of the world. 
+However, it has also exposed very clear limitations. Current trade and geopolitical tensions 
+are symptoms of a system that has not fully met the expectations and needs of the 
+world’s population. Every day, thousands of people continue to suffer from deprivation 
+and violence, often from seemingly endless fratricidal conflicts.
+The economy appears to have become globalized without fostering a ‘global 
+consciousness’. 
+Economic integration and international cooperation need to be revived, and their flaws 
+corrected with policies that promote sustainable and inclusive development – policies 
+that combine growth with social justice, environmental protection and the eradication of 
+poverty.
+Peace and prosperity are closely intertwined. 
+Peace is not merely the absence of conflict; it is also about creating the conditions for 
+every individual to live in dignity, free from fear and poverty. At the same time, any 
+prosperity that does not contribute to widespread well-being will prove fleeting, and 
+risks generating conflicts and instability.
+As Pope Paul VI stated in his encyclical Populorum progressio , ‘development means 
+peace’.30 Today, these words remind us of the urgent need to work for a future of fairer 
+and more peaceful prosperity.
+30 Paul VI, Encyclical letter Populorum progressio, 26 March 1967, no. 87.

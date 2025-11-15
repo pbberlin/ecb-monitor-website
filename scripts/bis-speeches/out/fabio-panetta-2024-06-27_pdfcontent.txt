@@ -1,0 +1,500 @@
+TM
+Monetary policy after a perfect storm: festina lente
+Speech by Fabio Panetta 
+Governor of the Bank of Italy
+3rd Bank of Finland International Monetary Policy Conference on  
+‘Monetary Policy in Low and High Inflation Environments’1
+Helsinki, 26 June 2024
+Good afternoon ladies and gentlemen. I would like to thank the Bank of Finland for 
+organizing this conference, and Governor Rehn for inviting me. It is a great pleasure to 
+be here. Finland has been crowned the happiest country in the world for the seventh 
+consecutive year in the recently published World Happiness Report:2 I am really happy to 
+be part of that happiness.
+We are at a turning point in the European monetary policy cycle. In June, the Governing 
+Council decided to cut the key ECB interest rates by 25 basis points after holding them 
+at high levels for nine months. Turning points inevitably attract attention, and the policy 
+debate is now focused on the next steps: ECB watchers are eagerly looking for clues 
+about the pace of the normalization path. 
+I will briefly review what has happened to inflation over the past three years. I will then 
+discuss some of the remaining concerns about the disinflation process, namely price 
+developments in the services sector and the role of profits, input costs and labour costs. 
+After that, I will examine the outlook for inflation and growth from a forward-looking 
+perspective. I will outline my thoughts on the evolution of monetary policy before 
+concluding.
+My main message is that the disinflation process requires two ingredients. We must 
+keep adjusting policy rates to complete the process and smoothly reach our 2 per cent 
+inflation target in a scenario where our expectations turn out to be broadly correct. But 
+1 I would like to thank Piergiorgio Alessandri, Marco Bernardini, Francesco Corsello, Alessandro Notarpietro, 
+Marianna Riggi, Alessandro Secchi, Fabrizio Venditti and Eliana Viviano for their contributions and 
+comments. Festina lente – “hasten slowly” – is the Latin motto that epitomised a decisive but calm policy 
+action for Augustus, the first emperor of Rome. The motto was also used in XVI-century Florence by 
+Cosimo I De’ Medici, whose fleet aptly adopted as a symbol a turtle endowed with sails.
+2 Helliwell J.F., R. Layard, J.D. Sachs, J.-E. De Neve, L.B. Aknin and S. Wang (eds.), 2024, ‘World Happiness 
+Report’, University of Oxford, Wellbeing Research Centre.
+
+2
+we also need to be prudent, and stand ready to adjust our policy in response to shocks 
+that may create upside or downside risks to the current outlook. 
+1. Genesis and unfolding of a perfect storm
+After years of low inflation, the euro area experienced an exceptional rise in prices between 
+2021 and 2023 (Figure 1). Supply constraints, the rebound in consumption and soaring 
+commodity and energy prices created a perfect storm for inflation. The nature of the storm 
+has been debated in countless papers and opinion pieces, and I will not systematically 
+review it again today.3 There are just a few points I would like to emphasize. 
+The first one is that the conditions for the storm took shape in 2020, when inflation was 
+close to zero. The pandemic disrupted supply chains and caused a structural shift in 
+consumption patterns – including a reallocation from services to goods – that proved to 
+be highly consequential in the following two years. 
+The second point is that, paradoxically, the recovery in the US economy complicated 
+the picture in the euro area. It was fast and strong, underpinned by a generous fiscal 
+stimulus and the excess savings accumulated during the pandemic lockdowns, and it 
+initially involved more goods than services. This led to large swings in relative prices, 
+pushing up headline inflation; 4 it also strained supply chains and increased commodity 
+and energy prices on international markets. In a twist of fate, a positive demand shock 
+in the US turned into an additional negative supply shock for Europe. 
+3 See e.g. Panetta F., 2023, ‘Everything everywhere all at once – responding to multiple global shocks’, 
+speech at ‘The ECB and its Watchers XXIII’ conference, Frankfurt am Main, 22 March. 
+4 Bernanke B., and O. Blanchard, 2023, ‘What Caused the U.S. Pandemic-Era Inflation?’, Hutchins Center 
+Working Paper 86, June.
+Figure 1
+Euro area headline inflation decomposition
+(monthly data; per cent and percentage points)
+−2
+0
+2
+4
+6
+8
+10
+12
+−2
+0
+2
+4
+6
+8
+10
+12
+2005 2010 2015 2020
+Headline y−o−y
+Energy
+Food
+NEIGs
+Services
+Source: calculations based on Eurostat data. 
+Notes: the figure reports the year-on-year percentage changes of the euro-zone HICP , decomposed into contributions of its components.
+
+2 3
+The Russian invasion of Ukraine in February 2022 radically changed the inflation outlook. 
+On the eve of the invasion, inflation was hovering around 5 per cent, and Eurosystem 
+economists, analysts and investors broadly agreed that price pressures would recede 
+relatively quickly. In the months that followed, an extraordinary series of energy and 
+commodity price shocks doubled headline inflation, unsettling markets and central banks 
+alike.5 In short, we entered into a different world.6
+2. Should we (still) worry about services and wages?
+In response to the rise in inflation, in July 2022 the ECB started an unprecedented series of 
+rate hikes. This decisive response paid off: supply shocks, bottlenecks and soaring energy 
+prices have not triggered an inflationary spiral, as they had in the past, and inflation 
+expectations remained firmly anchored. The disinflation process is now well under way. 
+Inflation fell from a peak of 10.6 per cent in October 2022 to 2.6 per cent in May, and the 
+speed of the decline was unprecedented, as the previous increase. 
+However, inflation has not yet returned to target. Some commentators have pointed 
+to price dynamics in the services sector and the labour market as possible obstacles 
+in the ‘last mile’ of the price stabilization efforts. We should certainly remain vigilant 
+on developments in these areas, but a closer look at the data suggests that the ‘last 
+mile’ may require nothing more than patience and a careful monitoring of the ongoing 
+disinflation process.
+2.1.	 The	rise	and	fall	of	inflation	in	the	services	sector
+The services sector has attracted attention for two related reasons. First, services inflation 
+seems to be more persistent than goods inflation. Second, services price growth remains 
+above the ECB target. Let me discuss these points in turn.
+The persistence is only apparent. It reflects the fact that inflation in the services sector 
+started to rise later, peaked later and started to fall later. In turn, this delayed rise and 
+fall depends on the combination of two forces. 
+One is purely coincidental and specifically related to the pandemic episode. Initially, 
+the recovery in consumption was mainly driven by demand for goods, in particular 
+the durable goods that consumers were unable to buy during the first stage of the 
+5 The shocks had a particularly severe impact on Europe, a net importer of most commodities – 
+unfortunately including Russian gas. The exorbitant energy bills also left European households with 
+far less money to spend on other goods and services than their American counterparts.
+6 As this rough summary suggests, and as I have noted on previous occasions, the euro area faced a 
+wave of particularly ‘bad’ inflation. The ‘good’ type is driven by buoyant domestic demand and wage 
+growth consistent with the target; monetary policy should nurture it or mitigate it (depending on the 
+initial level) until the target is reached. The ‘bad’ type reflects negative supply shocks that raise prices 
+and depress economic activity; monetary policy should look through it. There is also an ‘ugly’ type 
+of inflation driven by a de-anchoring of inflation expectations; monetary policy should immediately 
+stamp it out. See Panetta F., 2021, ‘Patient monetary policy amid a rocky recovery’, speech delivered at 
+Sciences Po, Paris, 24 November.
+
+4
+lockdowns. The consumption of goods recovered quickly in the euro area; it grew 
+even faster in the US, where it exceeded pre-pandemic levels. Services consumption 
+recovered later and more slowly, especially in the euro area (Figure 2).
+The second force is structural. Goods and services react differently to exogenous cost-push  
+shocks because they are characterized by different price adjustment mechanisms. In 
+particular, price adjustments are slower for services. One reason for this is that many 
+services are provided directly by the public sector or are subject to administrative and 
+contractual frictions.7
+Consider energy price shocks. Estimates based on historical data and standard 
+econometric models show that, following an energy shock, non-energy industrial goods 
+(NEIGs) inflation peaks in about one year and returns to equilibrium within two years; 
+instead, services inflation peaks about six months later and normalizes after almost 
+three years (Figure 3a). In terms of relative magnitude and timing, these estimates 
+are virtually mirror images of the inflation patterns actually observed between 2022 
+and 2024 (Figure 3b). This remarkable coincidence corroborates the hypothesis that 
+the asymmetric propagation of energy shocks explains a good part of the ‘puzzling’ 
+divergence between the two sectors.
+The second concern is that services inflation remains higher than goods inflation and 
+above the ECB target. However, this is not surprising: historically, it has almost always 
+been the case. In the euro area, services inflation has been around 1 percentage point 
+higher than goods inflation since the late 1990s; before the great financial crisis, it 
+was also systematically above the ECB target (Figure 4). Whatever the explanation for 
+7 The a-cyclical, backward-looking ‘latecomer’ items, which include rents and insurances as well as 
+services directly provided by the public sector (health, education, post), played an important role in 
+boosting inflation over the past 12 months (Figure A1).
+Figure 2
+Diverging consumption paths of goods and services
+(quarterly data; index numbers, Q4 2019=100)
+(a) United States (b) euro area
+80
+90
+100
+110
+120
+80
+90
+100
+110
+120
+2018 2019 2020 2021 2022 2023
+80
+90
+100
+110
+120
+80
+90
+100
+110
+120
+2018 2019 2020 2021 2022 2023
+Goods Services
+Source: calculations based on US Bureau of Economic Analysis and Eurostat data. 
+Notes: panel (b) is based on euro area countries for which data are available.
+
+4 5
+this difference, the data suggest that there is no reason to expect goods and services 
+inflation to coincide in the long run. 8 
+8 Since services are less tradable than goods, the gap may reflect for instance a Balassa-Samuelson 
+effect. According to this theory, if productivity grows faster in the tradable sector than in the non-
+tradable sector (for instance because of international competition), while wages are equalized across 
+sectors in equilibrium, then the relative price of tradables and non-tradables will diverge and the 
+non-tradable sector will experience a higher inflation rate. Productivity growth has traditionally been 
+higher in the goods sector, lending credibility to this interpretation of the data. See Balassa B., 1964, 
+‘The purchasing-power parity doctrine: a reappraisal’, Journal of Political Economy , 72 (6) 584-596 and 
+Samuelson P.A., 1964, ‘Theoretical notes on trade problems’, Review of Economics and Statistics , 46 (2) 
+145-154.
+Figure 4
+Inflation levels, services versus non-energy industrial goods
+(monthly data; per cent)
+0
+2
+4
+6
+0
+2
+4
+6
+2000 2005 2010 2015 2020
+NEIGs Services
+Source: calculations based on Eurostat data.
+Notes: the figure reports the year-on-year percentage changes of the euro-zone HICP of services and non-energy industrial goods (NEIGs) over the sample period 
+1998-2024.
+Figure 3
+Inflation persistence, services versus non-energy industrial goods
+(a) Responses to energy shocks in a VAR model
+(percentage points)
+(b) Annual inflation rates, 2021-2024
+(monthly data; per cent)
+−0.2
+0.0
+0.2
+0.4
+−0.2
+0.0
+0.2
+0.4
+0 1 2 3 4 5 6 7 8 9 10 11 12
+2
+4
+6
+2
+4
+6
+2021 2022 2023 '24
+NEIGs Services
+Source: calculations based on Eurostat data.
+Notes: panel (a) reports impulse-response functions based on a quarterly VAR model over the sample period 1996-2023; the x-axis indicates the number of 
+quarters after the energy shock. Model specification and identification of energy shocks are similar to those presented in Neri S., F . Busetti, C. Conflitti, F . Corsello, 
+D. Delle Monache and A. Tagliabracci, 2023, ‘Energy price shocks and inflation in the euro area’ , Banca d’Italia, Questioni di Economia e Finanza (Occasional 
+Papers), n. 792. Panel (b) reports the year-on-year percentage changes of the euro-zone HICP of services and non-energy industrial goods (NEIGs) over the 
+sample period 2021-2024.
+
+6
+What matters is the convergence of overall headline inflation towards our target, not the 
+behavior of individual components of the price index. The relatively high level of services 
+inflation will be closely monitored in the future, but we have reasons to believe that the 
+stickiness in this sector is not abnormal in any way. 
+2.2.	 Wages,	costs	and	profits
+Wages have been rising gradually to make up for previous losses of purchasing power, 
+and in some countries they may rise further. Concerns that this will reignite inflation are 
+mitigated by three factors.
+First, intermediate costs have fallen significantly, offsetting the impact of wage increases 
+on the dynamics of total costs. This mechanism is already at play, and it has contributed 
+to a weakening of domestic price pressures: the output deflator decelerated sharply since 
+the end of 2022 (Figure 5).
+In addition, in recent months firms have not fully passed on the fall in energy and intermediate 
+input costs to final prices. As a result, they have accumulated substantial profits, especially 
+in some sectors; and it is precisely in these profitable sectors that workers are demanding 
+a rapid recovery of past real wage losses.9 This means that, going forward, profits can play 
+a buffering role, limiting the pass-through from wage increases to consumer prices.
+Finally, since 2021 productivity has been held back by a very intensive use of the labour 
+factor, driven by increases in the costs of other production inputs and the decline in 
+9 Consider for instance the well-known case of the retail sector in Germany. Wages are expected to rise 
+on average by almost 7 per cent in 2024, but profits have increased by over 40 per cent since 2019, from 
+110 to 155 billion euros, creating significant shock-absorption capacity. At a more general level, Bank of 
+Italy calculations show that aggregate markups (defined as the ratio between the value of production 
+and total variable costs) are well above their long-term trends in Germany, France and Italy (Figure A2).
+Figure 5
+Contribution of costs and profits to year-on-year changes in the output deflator
+(quarterly data; per cent and percentage points)
+0
+4
+8
+0
+4
+8
+2018 2019 2020 2021 2022 2023 '24
+Output Deflator
+Unit Cost of Intermediate Inputs
+Unit Labour Cost
+Unit Profit
+Source: calculations based on Destatis, Insee, Istat and Eurostat data.
+Notes: the figure is based on data for Germany, France and Italy. The three components of the deflator (UCIP , ULC and UP) are obtained dividing, 
+respectively, the cost of intermediate goods, the cost of labour and the gross operating surplus by the real value of production
+
+6 7
+the real cost of labour. Productivity growth is likely to resume in the coming months,  
+as labour becomes relatively more expensive, leading to an increase in the capital-labour 
+ratio. This will compress growth in unit labour costs and hence consumer prices. 
+3.	 The	outlook	for	inflation	and	growth
+A careful examination of disaggregated, high-frequency price movements is essential 
+to understand inflation dynamics, but there is a limit to the amount of information that 
+can be gleaned from raw data alone. Monetary policy is forward-looking; as such, it 
+must also rely on an estimate of how inflation is likely to evolve in the medium term.
+One way of informing this estimate is to use indicators of ‘underlying inflation’ that 
+filter out the noise and cross-sectional heterogeneity in the data and provide a clearer 
+signal on common, medium-term inflation trends. Many available indicators of this 
+kind show that inflation has been firmly on a downward trend since 2023 (Figure 6). The 
+simplest indicator, core inflation, has been on a downward trend too; we should not 
+forget that relatively high services inflation has been accompanied by very low inflation 
+for non-energy industrial goods. 
+Another strategy is to use model-based projections combined with experts’ judgement. 
+The Eurosystem’s latest projections show inflation gradually returning to target over 
+the medium term, and are thus fully consistent with the underlying inflation indicators. 
+In 2022-2023 inflation forecasts took a battering because they were volatile and 
+(unsurprisingly) subject to large revisions. However, we are no longer in that situation: 
+the projections for 2025 have fluctuated in a narrow range – between 2.0 and 2.2 per 
+cent – for more than a year, and those for 2026 have not changed since last December, 
+standing at 1.9 per cent.
+Figure 6
+Rise and fall of underlying inflation
+(monthly data; per cent)
+0
+2
+4
+6
+0
+2
+4
+6
+2018 2019 2020 2021 2022 2023 '24
+Core HICPXX PCCI Core UCI Core
+Source: calculations based on Eurostat and ECB data. 
+Notes: core (HICPX) is the y-o-y inflation rate of the overall HICP excluding energy and food. HICPXX is the y-o-y rate of change of the index that excludes energy, 
+food and also components related to travel and clothing. UCI is a model-based indicator of underlying inflation created by Bank of Italy staff: Aprigliano V. and  
+F . Corsello, ’Underlying Composite Inflation (UCI): a novel indicator to track inflation developments’ , Banca d’Italia, Questioni di Economia e Finanza (Occasional 
+Papers), forthcoming. PCCI is the ECB indicator of persistent and common pressures on inflation; Bańbura M. and E. Bobeica, 2020, ‘PCCI – a data-rich measure 
+of underlying inflation in the euro area’ , ECB Statistics Paper Series, n. 38.
+
+8
+While our confidence in the disinflation process has grown steadily over time, the 
+outlook for economic activity remains fragile. The euro-area economy has been mired in 
+stagnation since the end of 2022. The uptick in GDP growth in the first quarter of this year 
+may be less reassuring than it appears, given the disappointing figures for consumption 
+and business investment. Moreover, GDP is projected to grow by an average of  
+1.5 per cent over the next two years – about half a percentage point less than in the last 
+expansionary phase.10
+4. Monetary policy implications
+So where does all this leave us in terms of monetary policy? 
+The recent cut in interest rates reflects the observed and expected decline in inflation 
+that I have just described. 
+Going forward, the pace of monetary policy normalization will continue to be based on 
+the assessment of the inflation outlook, the dynamics of underlying inflation, and the 
+strength of monetary policy transmission. There may be sporadic unexpected data points 
+along the way, but the overall course of monetary policy will not change as long as the 
+big picture confirms that we continue to advance towards the target. 
+Two elements need to be borne in mind when assessing this baseline. 
+First, the transmission of the restrictive monetary policy stance adopted so far is still 
+unfolding. Our estimates suggest that the interest rate hikes implemented in 2022-2023 
+are still working their way through the economy, and that their impact on inflation may 
+be stronger in 2024 than in 2023.11
+Second, the effect of any rate cuts is likely to be mitigated by the ongoing contraction 
+of the Eurosystem’s balance sheet. This could make the normalization phase different 
+from the past, for instance by affecting bank funding costs and credit supply. Indeed, 
+the data collected through the Bank Lending Survey (BLS) indicate that the reduction in 
+the monetary policy asset portfolio is already having a tightening effect on bank lending 
+conditions (Figure 7).
+Most importantly, the baseline – no matter how carefully constructed – is only one of 
+many possible outcomes. The key lesson of the past four years is that policymakers 
+also need to consider alternative scenarios. Allow me therefore to qualify the picture by 
+highlighting the main risks that the euro area may face over the medium term.
+10 Between 2013 and 2019, GDP in the euro area grew on average by 1.9 percentage points per year. 
+Weak growth may partly reflect headwinds coming from the credit market: bank funding costs remain 
+onerous, lending rates on new loans are still very high, and loan growth continues to be subdued for 
+both firms and households.
+11 Panetta F., 2024, ‘Challenges for monetary policy transmission in a shifting landscape’, speech delivered 
+at the Inaugural Conference of the Research Network on ‘Challenges for Monetary Policy Transmission 
+in a Changing World’, European Central Bank, Frankfurt am Main, 25 April.
+
+8 9
+One possible risk is another wave of geopolitical shocks. It is now clear that diplomatic 
+and military confrontations between countries can have dramatic effects on trade, capital 
+flows, growth and prices. 12 Given the current state of international relations, we must 
+hope, but certainly not assume, that the global landscape will be more stable in the 
+future than it has been over the past two years.
+Another risk is an increase in political uncertainty within countries. Some of the world’s 
+largest economies have elected or will elect their leaders in 2024, and political turnover 
+physiologically translates into policy uncertainty: households and investors need to form 
+a view on how incoming governments will handle many critical economic and political 
+decisions. It is hard to imagine how this might affect inflation. Uncertainty can disappear 
+without consequences. It can trigger capital outflows and currency depreciations, creating 
+upward price pressures. But it could also shake confidence and weaken demand, halting 
+or even reversing the fragile recovery we have seen so far. In short, we know that we don’t 
+know.
+Central banks should be prepared to deal with the consequences of such shocks if and 
+when they materialize. This implies a readiness to use the full range of tools at their 
+disposal to adjust the monetary stance, addressing any threats to price stability, and 
+protect the transmission mechanism of monetary policy.
+12 Panetta F., 2024, ‘The future of Europe’s economy amid geopolitical risks and global fragmentation’, 
+Lectio Magistralis delivered at the University of Roma Tre, 23 April. Lagarde C., 2024, ‘Policymaking 
+in a new risk environment’, Speech at the 30th Dubrovnik Economic Conference, Dubrovnik, 14 June. 
+Reichlin L. and J. Zettelmeyer, 2024, ‘The European Central Bank must adapt to an environment of 
+inflation volatility’, Bruegel Policy Brief, 12 June.
+Figure 7
+Impact of the ECB’s monetary policy asset portfolio on credit supply
+(half-yearly data; net percentage shares)
+(a) Credit standards (b) Terms and conditions
+−6
+−3
+ 0
+ 3
+ 6
+−6
+−3
+ 0
+ 3
+ 6
+2022 2023 2024
+−10
+ −5
+  0
+  5
+ 10
+−10
+ −5
+  0
+  5
+ 10
+2022 2023 2024
+Enterprises Households for house purchase Consumer credit and other lending
+Source: ECB Bank Lending Survey (BLS).
+Notes: the figure shows banks’ replies to the BLS question on the impact of the ECB’s monetary policy asset portfolio on their credit standards (panel a) and terms 
+and conditions (panel b) for loans to enterprises and households. A positive net percentage share indicates a tightening impact in the preceding six-month period. 
+The last observation refers to the April 2024 survey and incorporates banks’ expectations for the next six-month period (dashed line).
+
+10
+5. Conclusions 
+Let me conclude.
+The euro area has emerged from a ‘perfect storm’, a violent bout of inflation driven by 
+a series of large and unpredictable supply-side shocks. Inflation is now on a downward 
+path, and many of the issues that we have debated so vigorously in recent months may 
+become less important going forward.
+The current macroeconomic picture is consistent with a normalization of the monetary 
+stance. The ECB duly started this process a few weeks ago and, in the baseline scenario, 
+it will pursue it gradually and smoothly. 
+In calibrating the normalization we should be data-dependent, taking into account 
+incoming information on the macroeconomic outlook without overweighting temporary 
+blips in the data. We should also be cautious in our communications, avoiding the ‘casual’ 
+forward guidance that can arise from (implicit or explicit) predictions on the timing and 
+sequence of future interest rate cuts. Erratic communication would distract attention 
+from the key determinant of our monetary policy decisions, namely our reaction function.
+Finally, monetary policy requires a management of risks and tail scenarios, not only 
+baselines. Political and geopolitical risks remain high, and call for awareness, flexibility 
+and state-contingent action plans. Like other central banks, the ECB has been thoroughly 
+tested along these dimensions more than once in the last 15 years. The tests were passed 
+successfully. They were difficult, but also instructive, and they hold promise for how 
+monetary policy will be managed in the future. 
+Based on those experiences, I am confident that – barring new upheavals – we will soon 
+transition from the saga of the ‘last mile’ to the reality of the ‘first smile’ accompanying a 
+full restoration of price stability.
+Thank you.
+
+10 11
+APPENDIX
+Figure A1
+Role of ‘latecomers’ in service inflation
+(monthly data; per cent and percentage points)
+−1
+0
+1
+2
+3
+4
+5
+6
+−1
+0
+1
+2
+3
+4
+5
+6
+2021 2022 2023 '24
+Services y−o−y
+Accomodation and Transport
+Restaurants
+Other Services
+Latecomers
+Source: calculations based on Eurostat data. 
+Notes: the figure reports the year-on-year percentage changes of the euro-zone services HICP decomposed into its contributions. Items in the latecomers group 
+include housing rentals, insurance and financial services, health-related services, education, cultural and social services.
+Figure A2
+Markups, recent evolution and long-term trend
+(quarterly data)
+1.275
+1.280
+1.285
+1.290
+1.275
+1.280
+1.285
+1.290
+2019 2020 2021 2022 2023 '24
+Markup Pre−pandemic trend
+Source: calculations based on Destatis, INSEE, Istat and Eurostat data.
+Note: estimates based on data for Germany, France and Italy. Markups are defined as the ratios of the value of production over total variable costs. The pre-pandemic 
+trend is calculated over the period 2000-2019.
+
+Designed by the Printing and Publishing Division of the Bank of Italy

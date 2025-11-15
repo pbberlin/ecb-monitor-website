@@ -1,0 +1,622 @@
+iB BANCA D'ITALIA
+EUROSISTEMA
+Monetary policy in a shifting landscape
+Inaugural Conference of the Research Network
+on ‘Challenges for Monetary Policy Transmission in a Changing World’ (ChaMP)*
+Dinner speech by Fabio Panetta
+Governor of the Bank of Italy
+Frankfurt, 25 April 2024
+First of all, | wish to thank the organizers for inviting me. It is a great pleasure to be back
+at the ECB, although it feels strange to be here as a guest.
+Our vision of how the economy works is in perpetual motion. In 1949, Bill Phillips unveiled
+the ‘Phillips Machine’.' This ingenious contraption used water to represent money flowing
+through the economy, with valves that could be opened or closed to simulate the effects
+of policy interventions on consumption and investment. The economy was presented as a
+fixed and deterministic system of relations that could be investigated until its functioning
+became clear once and for all.”
+We know that, for better or for worse, the real world is very different. Indeed, if economic
+relations were fixed and deterministic, our jobs would be easy but boring. Economic
+relations are not fixed because the economy evolves following slow-moving structural
+trends. And they are not deterministic, because there are many events that we tend to
+conceptualize as ‘shocks’ — perhaps due to the limitations of our knowledge. The last four
+years have been exceptional in this regard: from the Covid pandemic onwards, we have
+witnessed a combination of shocks and structural changes with few historical precedents.
+The global landscape has changed radically as a result, with important implications for
+both the theory and the practice of monetary policy. A constructive interaction between
+policy and research is key: at times like this, the dialogue between researchers and policy
+makers becomes critical. Your job within the ChaMP Network is to help us improve our
+understanding of the economy and the monetary policy transmission mechanism.
+| would like to thank Piergiorgio Alessandri, Margherita Bottero, Antonio Conti, Francesco Corsello,
+Stefano Neri and Eliana Viviano for their contributions.
+The machine was also known as the Monetary National Income Analogue Computer, or MONIAC.
+Phillips found that, even in his stylized setup, policy interventions based on feedback rules could be
+highly sensitive to lags, delays and over or undershooting issues. See ‘MONIAC: Phillips Monetary
+National Income Analogue Computing Machine’, special issue of Economia Politica, December 2011.
+
+
+My remarks this evening have two objectives. First | will revisit the story of 2021-2023,
+taking stock of where the events have taken us. Then | will discuss the implications of the
+current outlook for the monetary policy stance of the ECB.
+My intention of course is to flesh out puzzles and questions, not to lecture you, or indeed
+hand out prescriptions as to what the ECB or other central banks around the world should
+do next. Yet the picture that has emerged from the data has important implications for
+the ECB’s next steps.
+1. Lessons from the 2022-2023 tightening cycle
+Let me start by reviewing the main lessons from the tightening cycle of the last two years.
+We have been hit by large supply shocks while undergoing a structural shift away from
+globalization
+The lockdowns that came with the Covid pandemic hit firms’ activities and households’
+income prospects at the same time, affecting both the demand and supply of goods and
+raising the spectre of a prolonged economic depression. The interplay between demand
+and supply also played a key role in the subsequent recovery. At the end of the pandemic,
+consumption increased as citizens regained confidence and resumed their pre-pandemic
+routines. However, this demand boost took place at a time when supply disruptions had not
+yet been resolved, exacerbating bottlenecks and putting further pressure on global supply
+chains (Figure A1).4 Production cuts by oil exporting countries and jumps in gas prices
+pushed up inflation (Figure A2). Prices rose dramatically for a range of goods, including food
+and agricultural products. The Russian aggression against Ukraine greatly magnified these
+shocks, pushing up energy and food prices and adding to the general uncertainty about
+the outlook. What had started as an ambiguous combination of demand- and supply-side
+factors rapidly evolved into a situation dominated by imported supply-side shocks.
+The Russia-Ukraine war was in itself unpredictable, but it erupted — and it keeps unfolding —
+against a background of increasing geopolitical disputes. The world has recently
+experienced a series of major setbacks to geopolitical stability, with a number of violent
+conflicts that sets a tragic record in the post-World War II era.° Globalization has slowed
+as a result. We are now moving towards a fragmented global landscape characterized by
+rising protectionism and volatile trade flows. This shift has important long-run implications,
+The pandemic called into question the very difference between demand and supply shocks: sometimes,
+adverse supply shocks give place to demand shortages, pushing economic activity below its potential. See
+V. Guerrieri, G. Lorenzoni, L. Strauband and |. Werning, 2022, ‘Macroeconomic Implications of COVID-19:
+Can Negative Supply Shocks Cause Demand Shortages?’, American Economic Review, 112 (5), 1437-74.
+See F. Panetta, ‘Everything everywhere all at once: responding to multiple global shocks’; panel on “Global
+shocks, policy spillovers and geo-strategic risks: how to coordinate policies” at The ECB and its Watchers
+XXIII Conference, Frankfurt am Main, 22 March 2023; and S. Neri, “There has been an awakening’. The
+rise (and fall) of inflation in the euro area’, Banca d'Italia, Questioni di Economia e Finanza (Occasional
+Papers) 834, 2024.
+F. Panetta, ‘The future of Europe’s economy amid geopolitical risks and global fragmentation’, speech
+delivered at Universita degli Studi Roma Tre, Rome, 23 April 2024.
+
+
+but it also matters in the short-run (and hence for monetary policy) because it affects
+firms’ profitability, riskiness and investment plans.
+Of course, | am deliberately painting a broad picture of global developments. As you know,
+there are important differences in the way the story unfolded in Europe and in the US.
+The US experienced a much larger fiscal expansion, and — being a net exporter of food and
+energy — was less affected by volatility in commodity prices. In the euro area, by contrast,
+shocks to energy supplies had a strong impact on both income and production. This
+means that the euro area sawa relatively larger share of inflation of the ‘bad’ type, which
+is typically more problematic for monetary authorities.®
+The exposure of the euro area to foreign shocks is largely due to two structural features.
+One is the well-known scarcity of natural resources — and hence a high dependence on
+energy imports, especially Russian gas. The other one is the historical reliance on an
+‘open economy’ model where growth depends heavily on foreign demand and trade
+openness. These features may also play a role during the green transition, because the
+production and storage of renewable energy relies on rare materials that, like oil and gas,
+Europe needs to import from abroad.
+How did the ECB manage all this? Taking decisions in real time was tricky ...
+The ECB responded to the rise in inflation with an unprecedented sequence of interest
+rate hikes.
+Calibrating the interventions in real time was truly challenging. As you know all too well,
+distinguishing between demand and supply shocks is never easy, and became more
+difficult in the pandemic era. This identification problem becomes even harder when
+prices are affected by a combination of many different shocks. Furthermore, getting the
+identification right is not enough: you also need to form a view on how the shocks
+propagate through the economy. This is not trivial if you are dealing with events that
+have not been seen for decades -— like a war on your doorstep — and markets with very
+peculiar structural features — such as the natural gas market.’
+In previous speeches | distinguished between good, bad and ugly inflation. ‘Good’ inflation is driven by
+buoyant domestic demand and a wage growth consistent with the target; monetary policy should nurture
+it until the target is reached. ‘Bad’ inflation reflects negative supply shocks that raise prices and depress
+economic activity; monetary policy should look through it. ‘Ugly’ inflation is driven by a de-anchoring of
+inflation expectations; monetary policy should immediately stamp it out. F. Panetta, ‘Patient monetary
+policy amid a rocky recovery’, speech delivered at Sciences Po, Paris, 24 November 2021.
+Wholesale gas prices are sticky because trading is often based on long-term contracts indexed to past
+prices. Furthermore, retail prices adjust slowly to changes in wholesale prices due to regulatory frictions.
+In the oil market, trading is instead based on spot contracts, and retail (gasoline) prices closely track
+wholesale prices. As a result, oil shocks have a large impact on consumer prices in the short run, whereas
+gas shocks cause a slow, persistent increase in inflation with peak responses that can take place almost
+two years after the shock (see P. Alessandri and A. Gazzani, ‘Natural gas and the macroeconomy: not
+all energy shocks are alike’, Banca d'Italia, Temi di Discussione (Working Papers) 1428, 2023). After the
+invasion of Ukraine, energy markets were also heavily influenced by strategic supply manipulations
+enacted by Russian producers.
+
+
+With the luxury of hindsight, we can now read the macro outlook more accurately.
+Consider for instance the discrepancies between the macroeconomic data observed in
+2021-2023 and the official forecasts formulated by central banks one year in advance
+(a statistic to which the media paid a lot of attention both in Europe and in the US). In
+its one-year ahead forecasts, the ECB was surprised on the upside by both inflation and
+GDP growth in Q2 and Q3 2021, presumably because of the unexpected demand boost
+associated to the re-opening. After that, it systematically observed positive surprises for
+inflation and negative surprises for GDP growth until Q3 2023 (Figure 1).
+Figure 1
+Surprises in quarter-on-quarter real GDP growth and inflation in the euro area (1)
+(quarterly data; percentage points)
+Q1 2021 2022 |) 2023
+Q2
+24 r 2
+a4 Q3
+14 1
+(2 \ Energy shock Qs
+0 : a2 0
+-1-5 The economy reopens r 4
+T
+Forecast error headline inflation
+Monetary policy kicks in
+T T
+-1.0 -0.5 0.0 0.5 1.0 1.5
+Forecast error real GDP growth
+Sources: Calculations based on ECB and Eurostat data.
+(1) Difference between realized values and 4-quarter ahead forecasts for quarter-on-quarter real GDP growth (horizontal axis) and consumer price inflation
+(vertical axis).
+This pattern corroborates the view that adverse supply shocks, which push prices and
+quantities in opposite directions, played a key role in causing the rise in inflation.
+The credit market — a good barometer of the business cycle in the euro area — reinforces
+the view that the corporate sector was not faring too well. Credit demand declined
+steadily since the end of 2022, especially for the loans that firms use to finance fixed
+investments.’ But geopolitical shocks and high energy prices also reduced firms’ revenues
+and increased their riskiness, contributing to a stronger-than-expected contraction in the
+supply of bank credit (Figure A3)."
+8 See e.g. Financial Times, ‘Why are central bank forecasts so wrong?’, 18 May 2023.
+9 S. Neri, F. Busetti, C. Conflitti, F. Corsello, D. Delle Monache and A. Tagliabracci, ‘Energy price shocks
+and inflation in the euro area’, Banca d'Italia, Questioni di Economia e Finanza (Occasional papers)
+792, 2023.
+10 With potentially important implications for productivity: more on this below.
+For evidence on the transmission of policy rates to lending rates and credit quantities in 2022-
+2023, see P.R. Lane, ‘Inflation and monetary policy’, presentation delivered at the Policy Lecture at
+Aix-Marseille School of Economics (AMSE), Marseille, 22 March 2024.
+
+
+In short, the catch-up in demand stemming from the post-Covid recovery was
+compounded by an unlucky sequence of large and previously unseen supply shocks. All
+in all, supply shocks may have had a more significant impact on prices and economic
+activity than demand shocks.’
+... but the key priority was clear: to put a lid on inflation
+Does this mean that the Governing Council overlooked supply-side dynamics and got
+its policy choices wrong? This conclusion may be tempting for critics, but it would be
+unjustified for two reasons.
+In mid-2022, the key ECB interest rates were still negative: a recalibration of the stance
+was clearly needed. Furthermore, the rise in inflation came at a time of tight labour
+markets, raising serious concerns that a wage-price spiral (and potentially a de-anchoring
+of inflation expectations) could follow. This is a risk that no central bank can take, nor
+downplay on the basis of flimsy separations of demand and supply shocks. As of 2022,
+the priority for the ECB was to bring inflation down, keep long-term inflation expectations
+anchored and preserve its own credibility. A bold response to the price pressures achieved
+all three objectives.
+2. Where do we stand?
+The macro outlook has changed, and risks from wages are decreasing
+It is clear that the situation has changed substantially over time. Core inflation has
+been falling steadily since July 2023, while GDP growth has been hovering around zero.
+Furthermore, in the last quarter of 2023 both inflation and GDP growth surprised to the
+downside. This indicates that, while supply shocks and energy prices receded, aggregate
+demand also weakened, partly in response to the monetary restriction.
+Inflation expectations are well-anchored and the probability of a self-sustained inflationary
+spiral is low. Labour market data suggest that wage growth may have peaked in 2023
+and is evolving in line with our projections, which foresee a return to our target in 2025."
+More importantly, discussing wages in isolation can be very misleading: we need to
+consider wages along with other input costs, profits and productivity too. With this in
+mind, we can identify three hypothetical scenarios where wages grow without creating
+inflationary pressures.
+F. Panetta, ‘The complexity of monetary policy’, CEPR-EABCN conference on “Finding the Gap: Output
+Gap Measurement in the Euro Area”, European University Institute, Florence, 14 November 2022; and
+F. Panetta, ‘Getting disinflation right’, Bocconi University, Milan, 3 August 2023.
+P. Cipollone, ‘The confidence to act: monetary policy and the role of wages during the disinflation
+process’, House of the Euro and the Centre for European Reform Brussels, 27 March 2024.
+
+
+Figure 2
+Total unit cost, labour unit cost and headline inflation in the euro area (1)
+(quarterly data; year-on-year percentage changes)
+12- t 12 12 - r 12
+8- t 8 8- rt 8
+4- tT 4 4- tT 4
+07 r O 07 r O
+-4- [ —4 -4 5 t —4
+T T T T T T
+2018 2020 2022 2018 2020 2022
+-—— Labour unit cost — Total unit cost — Headline inflation
+Sources: Based on data from Destatis, Eurostat, Insee and Istat.
+(1) Estimates based on the data for France, Germany and Italy. Unit costs are calculated as the ratio of total costs to total output in real terms. The last observation is
+Q4 2023.
+First, the wage rise could take place in a context where firms’ total production costs
+(of which wages are only one component) decline or remain constant. Firms price their
+goods by applying markups to total costs rather than solely to wages. Consequently,
+if the costs of other inputs drop, wages can, in principle, rise without affecting
+prices. After the sharp acceleration observed in 2022, total costs have decelerated
+and they are now growing at a rate that is consistent with the pre-pandemic norm
+(Figure 2). This is indeed the reason why the acceleration in wages did not prevent
+a decline in inflation in 2023.
+Second, firms may absorb the rise in wages (and potentially even in total costs) by
+reducing their profit buffers. This compensation requires a temporary compression in
+firms’ profit margins and, as such, it is more likely to take place when demand is weak
+and margins are high. This is currently the case in the euro area."°
+Third, the rise in wages could be accompanied bya rise in productivity. An improvement
+in productivity raises the workers’ output, implying that unit labour cost (the ratio of
+hourly compensation to hourly output) can remain constant or even decline despite a
+See Panetta, F., ‘Economic developments and monetary policy in the euro area’, speech delivered at
+the 30% ASSIOM FOREX Congress, Genoa, 10 February 2024. According to Banca d'Italia estimates,
+labour contributes less than other production inputs to total costs; considering only the direct
+shares of labour and intermediate inputs, labour accounts for around 40 per cent of the total.
+Impulse-responses from a quarterly VAR model indicate that shocks to energy prices have a large
+and quick impact on producer price inflation (PPI) for intermediate goods, and are then gradually
+and only partially transmitted to consumer good PPI, core consumer price inflation (CPI) and wages.
+Wages peak over a year after the shock, with a maximum response that is one order of magnitude
+smaller than the shock itself (about 0.3 percentage points for a hypothetical 5 per cent increase in
+energy prices).
+In 2023 mark-ups in the three largest euro area countries were around 1.5 percentage points higher
+than in 2022 on average.
+
+
+higher wage bill. This mechanism is likely to play a role as well. Productivity declined in
+2022-2023, but the decline was partly due to divergences among the prices of different
+production inputs: faced with extremely high energy costs, firms had a clear economic
+incentive to use more labour in production, which in turn led to a decline in output per
+worker. The drop in productivity might be naturally reabsorbed over time, as the relative
+costs of labour and non-labour inputs and the capital to labour ratio revert to their
+long-run levels.
+Looking beyond the near term, | would also emphasize that productivity hinges critically
+on the capital stock. Firms should invest more in order for workers to become more
+productive. This is clearly a complex theme that goes beyond the remit of central banks.
+And | do not necessarily subscribe to the (fascinating) view that monetary policy can
+affect capital stocks and productivity into the distant future.’® However, hesitations in
+adjusting interest rates to the fall in inflation would discourage firms from investing,
+delaying the expansion of the capital stock, hampering productivity and generating a
+competitive disadvantage for the euro area in global markets.
+The ‘balance of risks’ looks very different now
+Not surprisingly, the risks surrounding the macroeconomic outlook have also changed
+under the combined influence of these factors. According to the ECB Survey of
+Professional Forecasters, the upside risks for inflation that dominated in 2022-2023 have
+receded, leaving the uncertainty around price dynamics roughly balanced, while the risks
+for economic activity remain tilted to the downside (Figure A4).
+There are two reasons why mitigating these downside risks is important.
+The first one is that the interest rate hikes implemented thus far will keep biting well into
+2024. Estimates by Banca d'Italia staff suggest that their impact on inflation will actually
+be greater in 2024 than it was in 2023, with a non-negligible contribution provided by
+the bank lending channel (Figure A5).
+The second one is that the ECB is also shrinking its balance sheets, and it is doing so
+faster than most other central banks. We have relatively little evidence on the relationship
+between the availability of central bank liquidity and credit conditions. This is a theme
+that deserves more research in the future, also in light of the planned reduction in excess
+liquidity. In any case, the responses to the Bank Lending Survey (BLS) suggest that,
+inasmuch as QE provided a positive boost until 2022, the reduction of the Eurosystem’s
+balance sheet — even at this early stage — may exert a negative influence on the liquidity
+position and lending volumes of euro-area banks (Figure A6). The figures are small, and
+they come with the usual caveats attached to survey data, but they point to another
+potential brake on economic activity.
+16 See e.g. O. Jorda, S. R. Singh, and A. M. Taylor, ‘The long-run effects of monetary policy’, National
+Bureau of Economic Research WP 26666, 2020.
+
+
+3. (Re)calibrating the monetary stance
+From now on, we must weigh the risk of monetary policy becoming too tight ...
+With inflation progressively moving towards our target, the question arises of what
+the ECB should do next. The emergence of downside risks to the outlook implies
+that the ECB should consider the possibility that monetary policy could become ‘too
+tight’ going forward. Monetary policy is obviously too tight if it ends up causing a
+deep recession, but it is also too tight if it pushes inflation below target and causes a
+prolonged economic stagnation. We are reasonably far from the first scenario, but we
+cannot (yet) rule out the second one.
+In the United States, GDP and consumption have converged back to their pre-pandemic
+long-term growth paths; in the euro area, they are still well below trend (Figure 3).
+Furthermore, in its most recent projections, the International Monetary Fund (IMF)
+predicts the US to grow over thrice as much as the euro area in 2024 (2.7 per cent versus
+0.8 per cent).'’ Monetary policy is certainly not the only or even the main cause of this
+divergence, but it is important that it does not become an unnecessary obstacle that
+prevents the euro area from achieving its full potential. Combined with weak business
+dynamism and relentless competitive pressures from abroad, a tight monetary stance
+could generate hysteresis effects that would increase the risk of a protracted period of
+economic weakness.
+Figure 3
+Consumption and GDP in real terms in the euro area and the United States (1)
+(quarterly data; index numbers, Q4 2017=100)
+(a) Real consumption (b) Real GDP
+110 7 - 110 110 7 er 110
+100 - - 100 100 - - 100
+90-
+T T T T T T T T
+2017 2019 2021 2023 2017 2019 2021 2023
+— Euro area — United States
+sean Euro area: pre-pandemic trend «=» United States: pre-pandemic trend
+Sources: Calculations based on Bureau of Economic Analysis and Eurostat data.
+(1) Seasonally adjusted. The last data is Q4 2023.
+17 IMF, World Economic Outlook, April 2024.
+
+
+Looking back, the Great Recession and the sovereign debt crises caused a long period
+of too low inflation (Figure A7) and a downward de-anchoring of long-term inflation
+expectations (Figure A8).'® For years the ECB spent most of its energies trying to lift the
+euro area out of that equilibrium. Inflation expectations are not a problem today, but that
+experience demonstrates that letting inflation slip below the 2 per cent target could be
+very costly. It would also be inconsistent with the symmetrical nature of the price stability
+target enshrined in the latest Strategy Review (and could potentially undermine it).
+... and assess our policy options accordingly: what goes up must come down”
+It is of paramount importance to act in a timely manner to minimize these risks. In my
+view the ECB’s action should be guided by three considerations.
+First, we should think about the big picture surrounding decisions on interest rates.
+Central banks do not act in a vacuum: they have to take into account a large number of
+exogenous factors that interfere with the transmission of monetary policy and/or have
+an independent (and potentially large) impact on prices and economic activity. As of
+today, the big picture includes modest growth prospects at global level and high political
+uncertainty. In Europe, it also includes a more restrictive fiscal stance”? and a run-down of
+central bank balance sheets — a policy mix that is unlikely to support aggregate demand.
+Second, inaction is not neutral. Based on current expectations, the ECB stance is likely to
+remain restrictive — with real rates above their ‘natural’ level — well into 2025 (Figure AQ).
+Keeping in mind the ‘long and variable lags’ in the transmission mechanism, this state
+of affairs clearly calls for timely action: steering monetary policy is like steering a tanker,
+and if the helmsman (or helmswoman) does not act well in advance, they will crash into
+the harbour altogether. As | said, unnecessary delays may take us uncomfortably close
+to the effective lower bound at a later stage if stagnation is entrenched and inflation
+expectations fall below target.
+Third, gradualism is important. Timely action would allow the ECB to be nimble and move
+in small, progressive steps. Small rate cuts would counter weak demand, and could be
+paused at no cost if upside shocks to inflation were to materialize along the way. They
+would also minimize the likelihood of the ECB falling behind the curve and having to
+hastily resort to larger rate cuts in the future. There are many reasons why large cuts
+F. Corsello, S. Neri, and A. Tagliabracci, 2021, ‘Anchored or de-anchored? That is the question’, European
+Journal of Political Economy, 69, 102031.
+This popular expression is sometimes attributed to Sir Isaac Newton. The attribution is, in all likelihood,
+apocryphal, but the question of whether interest rates can defy Newton’s law of gravitation is valid all
+the same.
+20 In the last Macroeconomic Projection Exercise, the cyclically-adjusted primary balance of the euro area
+is expected to increase from -1.5 per cent in 2023 to -0.7 per cent in 2025. The new fiscal framework
+may generate a further tightening of the stance in the medium term.
+
+
+are generally unpalatable.*" One of them is that they could create a credibility issue,
+especially after an unprecedented tightening cycle.
+An important question that has recently come up in the debate is to what extent the
+ECB’s decisions should be linked to the course followed by the Fed. The ECB’s mandate
+is to pursue price stability in the euro area, and the ECB’s actions are not conditioned by
+developments in other jurisdictions. However, US monetary policy has powerful spillovers
+in the rest of the world, including the euro area.” A failure to account for these spillovers
+could lead to an inaccurate calibration of policy interventions.”
+| do not see this hypothetical ‘decoupling’ between the Fed and the ECB as particularly
+critical at the current juncture.
+The ECB’s projections always take into account the expected path of interest rates in
+the US and beyond. Governing Council members evaluate their policy options using
+GDP and inflation forecasts that — to the best of their knowledge (or rather the staff's
+knowledge) — already account for the influence of the Fed's decisions on the euro area.
+The Fed's strategy is just one of the factors that must be reflected in the projections,
+although it is certainly an important one.
+Unexpected changes in the Fed’s stance cannot by definition be included in the forecasts.
+But, if anything, they are likely to reinforce the case for a rate cut rather than weakening it.
+If markets expect interest rates to drop but the Fed keeps them unchanged (for instance
+on the back of strong inflation data), the rest of the world faces an unexpected monetary
+tightening. And a tightening in the US has a negative impact on inflation and output
+in the euro zone.” The reason is that — besides a depreciation of the euro (which is the
+obvious, textbook type of effect) —- the shock also causes a decline in global demand
+and a tightening in financial conditions. Historically, the latter channels have been
+quantitatively dominant, implying that the net impact of a spillover in the medium term
+is both recessionary and deflationary.
+B. Sack and V. Wieland, 2000, ‘Interest-rate smoothing and optimal monetary policy: a review of
+recent empirical evidence’, Journal of Economics and Business, 52 (1-2), 205-228; M. Woodford, 2003,
+‘Optimal interest-rate smoothing’, The Review of Economic Studies 70 (4), 861-886; T. Nakata and
+S. Schmidt, 2019, ‘Gradualism and liquidity traps’, Review of Economic Dynamics, 31, 182-199; L. Metelli,
+F. Natoli and L. Rossi, ‘Monetary Policy Gradualism and the Nonlinear Effects of Monetary Shocks’,
+Banca d'Italia, Temi di Discussione (Working Papers) 1275, 2020.
+See e.g. H. Rey, 2013, ‘Dilemma not trilemma: the global cycle and monetary policy independence’,
+Proceedings of the Jackson Hole Economic Policy Symposium, Federal Reserve Bank of Kansas City;
+V. Bruno and H. S. Shin, 2015, ‘Capital flows and the risk-taking channel of monetary policy’, Journal
+of Monetary Economics, 71, 119-132; H. Rey, 2016, ‘International channels of transmission of monetary
+policy and the mundellian trilemma’, /MF Economic Review, 64 (1), 6-35; B. S. Bernanke, 2017, ‘Federal
+reserve policy in an international context’, IMF Economic Review, 65 (1), 5-36.
+22
+23 F. Panetta, ‘Mind the step: calibrating monetary policy in a volatile environment’, Keynote speech at
+the ECB Money Market Conference, Frankfurt am Main, 3 November 2022.
+See L. Dedola, G. Rivolta, and L. Stracca, 2017, ‘If the Fed sneezes, who catches a cold?’, Journal of
+International Economics, 108, 23-41; and R. Degasperi, S.S. Hong, and G. Ricco, ‘The Global Transmission
+of U.S. Monetary’, CEPR Discussion Paper 14533, 2020.
+24
+10
+
+
+4 Conclusions
+The last two years have been tough for policy, but inspiring for research: it is not common
+to witness geopolitical shifts, a 1970s-style energy crisis, large swings in inflation and a
+record monetary tightening cycle in the space of 24 months. It may not be over yet.
+After the direct confrontation between israel and Iran over the past few weeks, another
+worrying historical development, political tensions in the Middle East are bound to
+remain high.
+Being on the policy side of this trench, | hope that researchers will make the most of
+this experience, You should dissect these complex events and turn them into a new
+and better understanding of how the economy works. | suspect this process will take us
+farther away from the ‘Phillips Machine’. in any case, it should provide us with notions
+and tools that can be deployed in the not-too-distant future to render monetary policy
+more effective.
+| hope my remarks tonight have given you an idea of some of the issues that sit at the
+top of the priority list for me, and presumably for many of my colleaques within the ESCB.
+Thank you for your attention and enjoy the rest of the evening.
+11
+
+
+
+
+SUPPLEMENTARY FIGURES
+Figure A1
+Indicators of global supply bottlenecks and producer prices in the euro area (1)
+(monthly data)
+125 7 tr 5
+100 + + 4
+75 r 3
+50 - r 2
+25 - rt 1
+0-7 VU rt 0
+-25 7 1
+-50 5 t -2
+2018 2019 2020 2021 2022 2023 '24
+— GSCPI (2) -— Euro area manufacturing PMI - input prices
+— Euro area manufacturing PMI - delivery times ——— [Euro area PPI - intermediate goods
+Sources: ECB, Federal Reserve Bank of New York and S&P Global.
+(1) The Global Supply Chain Pressure Index (GSCPI) integrates transportation cost data and manufacturing indicators to derive a measure of global supply chain
+conditions; it is measured in standard deviations from the average value. The delivery times PMI has been inverted by deducting the index value from 100, so
+that an increase identifies longer delays. The PPI is expressed in annual percentage changes. The last observation is March 2024 for GSCPI and PMI, February
+2024 for PPI. — (2) Right-hand scale.
+Figure A2
+Energy contribution to headline inflation in the euro area (1)
+(monthly data; percentage points)
+Energy contribution to headline inflation
+Electricity
+as
+Liquid and solid fuels, and heat energy
+T T T T
+2003 2005 2007 2009
+T
+2001
+T
+2011
+T T T T T T
+2013 2015 2017 2019 2021 2023
+Source: ECB.
+(1) Contributions to year-on-year changes in the HICP. The black line represents the overall contribution of the HICP energy component to headline inflation. The last
+observation is March 2024.
+Figure A3
+Model-based counterfactuals for corporate lending rates and loans in the euro area
+(a) Loan rates (1)
+(quarterly data; per cent)
+6- t 6
+| — actual L
+Sp sees counterfactual: monetary policy re 5
+~«= counterfactual: adding risk perception =
+44 90% credibilityinteval eee L 4
+68% credibility interval S
+34 4 L 3
+27 - 2
+154 t 1
+2020 2021 2022 2023
+(b) Lending volumes (2)
+(quarterly data; year-on-year percentage changes)
+10.0 - + 10.0
+754 —i‘“‘“s«w SS + 7.5
+5.0 5 + 5.0
+2.5 7 % > 2.5
+— actual BS
+004°" counterfactual: monetary policy and business cycle L 0.0
+an counterfactual: adding risk perception .
+90% credibility interval
+-2.5 4 68% credibility interval L -9.5
+2020 2021 2022 2023
+Source: A.M. Conti, S. Neri and A. Notarpietro, ‘Credit Strikes Back: The
+Macroeconomic Impact of the 2022-2023 ECB Monetary Tightening and the
+Role of Lending Rates’, 2024, Banca d'Italia, Questioni di economia e finanza
+(Occasional papers), forthcoming.
+(1) The red line is the composite indicator of cost of borrowing for non-financial
+corporations (NFCs). The blue line is a counterfactual obtained from a Bayesian
+VAR conditioning on the actual path of 3-month and 10-year nominal interest rates
+(with 68% and 90% credible intervals). The yellow line is a counterfactual obtained
+by conditioning also on the actual path of banks’ risk perception from the Bank
+Lending Survey. The estimation sample is: Q1 2003 - Q4 2021.
+13
+Source: S. Auer and A.M. Conti, ‘Bank Lending in an Unprecedented Monetary
+Tightening Cycle: Evidence from the Euro Area’, 2024, Banca d'ltalia,
+Questioni di economia e finanza (Occasional papers), forthcoming.
+(2) The red line is the year-on-year growth rate of loans to NFCs. The blue line
+is a counterfactual obtained from a Bayesian VAR conditioning on the actual
+path of 3-month and 10-year nominal interest rates, real GDP and HICP (with
+68% and 90% credible intervals). The yellow line is a counterfactual obtained
+by conditioning also on the actual path of banks’ risk perception from the Bank
+Lending Survey. The estimation sample is: Q1 2003 - Q4 2021.
+
+
+Figure A4
+Probabilities of high inflation and low growth in 2024 in the euro area (1)
+(per cent)
+40 r 40
+30 4 + 30
+20- + 20
+10+ + 10
+0+ + 0
+T T
+GDP<0.5 Inflation>3
+Ml Q1 2023 MB Q2 2024
+Source: ECB Survey of Professional Forecasters.
+(1) The figure reports the average probabilities, according to the ECB’s Survey of Professional Forecasters respondents, of having high inflation (above 3 per cent)
+and low GDP growth (below 0.5 per cent) in 2024. These probabilities are reported separately for the Q1 2023 and Q2 2024 surveys.
+Figure A5
+Macroeconomic effects of the 2022-23 monetary tightening in the euro area (1)
+(year-on-year percentage changes)
+(a) Inflation (b) Output growth
+i, |
+-1-
+0]
+-1-
+2 - 2 -
+-3 4 -3 4
+“44 T T T “44 T T T
+2022 2023 2024 2022 2023 2024
+!) Tightening: no banking sector ME Tightening $M Tightening + firms loans markup shock
+Source: A.M. Conti, S. Neri and A. Notarpietro, ‘Credit Strikes Back: The Macroeconomic Impact of the 2022-2023 ECB Monetary Tightening and the Role of
+Lending Rates’, 2024, Banca d'Italia, Questioni di economia e finanza (Occasional papers), forthcoming.
+(1) The figure reports the mean effects across two sets of simulations, each based on the posterior mean of the distribution of the parameters. The first set of
+simulations uses results from model estimation up to Q4 2019, the second one uses estimates up to Q4 2023. The scenario “Tightening: no banking sector’ is
+obtained by shutting off the banking sector in the model; the scenario “Tightening” is obtained by simulating the model, which implies an imperfect pass-through
+of the monetary policy impulse on banks’ lending rates; the scenario “Tightening + firms loans markup shocks’ is obtained by adding shocks to banks’ markup on
+the rate on loans, to allow the model to reproduce the actual path of the lending rates to non-financial corporations.
+Figure A6
+Impact of changes in the Eurosystem’s balance sheet on banks’ liquidity position and lending (1)
+(half-yearly data; net percentage shares)
+(a) Monetary policy portfolio (b) Targeted longer-term refinancing operations
+30 60 +
+20 40 -
+10 20-
+0 0-
+-10 -20 -
+2021 2022 2023 2024 2021 2022 2023 2024
+— Banks' liquidity position .—— Lending volumes to enterprises
+Source: ECB Bank Lending Survey.
+(1) A negative net percentage share indicates a negative effect in the preceding six-month period. The last observation refers to the April 2024 survey and
+incorporates banks’ expectations for the next six-month period (dashed line).
+14
+
+
+Figure A7
+Inflation regimes in the euro area (1)
+(monthly data; per cent)
+2001 2003 2007 20092005 2011 2013 2015 2017 2019 2021 2023 2025
+/s Low ©) Medium MM! High — Inflation(2) 0 = Level regime (2)
+Source: Calculations based on Eurostat and ECB data.
+(1) The shaded areas (regime probabilities) are estimated using the Markov Switching model, while the dashed line uses the Bai and Perron methodology (J. Bai
+and P. Perron, 2003, ‘Computation and analysis of multiple structural change models’, Journal of applied econometrics, 18(1), p. 1-22). The latest NIPE and MPE
+projections (March 2024) are employed to extend the estimates until 2026. — (2) Annualized monthly changes; percentage points; right-hand scale.
+Figure A8
+Risk of inflation expectation de-anchoring in the euro area (1)
+(quarterly data; per cent)
+2.3 5 t 2.3
+2.2 5 - 2.2
+2.1 5 - 2.1
+2.0 NAT reveeeat 2.0
+bo A ree ficfoccecccvene L 49
+1.8 - r 1.8
+1.77 t 1.7
+—— Long-term inflation expectation (2)
+1.6 | == Long-term inflation, forecast mean L 46
+95% confidence interval
+154° Level of anchoring (3) L415
+T T T T T T T T T T
+2007 2009 2011 2013 2015 2017 2019 2021 2023 2025
+Source: Calculations based on ECB Survey of Professional Forecasters data. For the methodology see S. Neri, “There has been an awakening’. The rise (and
+fall) of inflation in the euro area’, Banca d’ltalia, Questioni di Economia e Finanza (Occasional Papers) 834 2024.
+(1) The projected path of long-term inflation expectations is conditional on the Eurosystem’s June 2023 Broad Macroeconomic Projection Exercise. The last
+observation is Q2 2024. — (2) Five-year ahead forecast of HICP inflation. More precisely, four calendar years ahead in the Q1 and Q2 rounds and five calendar
+years ahead in the Q3 and Q4 rounds. For example, in the surveys of the first two quarters of 2018, the long-term forecast refers to 2022, while in the last two
+it refers to 2023. — (3) The level-anchoring analysis is conducted using the methodology in J. Bai and P. Perron, 2003, ‘Computation and analysis of multiple
+structural change models’, Journal of applied econometrics, 18(1), p. 1-22.
+Figure A9
+Expected evolution of short-term real interest rates in the euro area (1)
+(daily data; per cent)
+- 2.0
+— Real interest rate
+sree Expected real interest rate as of Sep 14 2023
+== _ Expected real interest rate as of Aor 17 2024 L 1.5
+— Natural interest rate (50th percentile)
+Natural interest rate (10th-90th percentile)
+ve L 4.0
+ence lee mane ou L O05
+0.05 r 0.0
+-0.5 5 t -0.5
+T T T T T T T T T
+Sep 2023 Dec 2023 Mar 2024 Jun 2024 Sep 2024 Dec 2024 Mar 2025 Jun 2025 Sep 2025 Dec 2025 Mar 2026
+Source: M. Bernardini, L. D’Arrigo, A. Lin and A. Tiseno, 2024, ‘Real interest rates and the ECB’s monetary policy stance’, Banca d’ltalia, Questioni di economia
+e finanza (Occasional papers), forthcoming.
+(1) The figure shows (i) a market-based measure of the 1-year real rate, (ii) its expected paths starting at different points in time and (iii) a range of Eurosystem
+quarterly estimates of the natural rate (10" and 90" percentiles) as of Q3 2023. The red line denotes the median of this range.
+15

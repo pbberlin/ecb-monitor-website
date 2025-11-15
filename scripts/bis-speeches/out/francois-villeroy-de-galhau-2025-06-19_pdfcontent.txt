@@ -1,0 +1,279 @@
+ 
+ 
+ 
+ 
+ 
+ 
+Paris Finance Forum – 10 June 2025 
+“Where there is danger, a rescuing element grows as well” 
+ 
+Speech by François Villeroy de Galhau, 
+Governor of the Banque de France 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Press contact: Delphine Cuny (delphine.cuny@banque-france.fr)
+
+
+Page 1 of 7 
+ 
+Ladies and Gentlemen, 
+I am delighted to participate in this latest edition of the Paris Finance Forum, 
+and I would like to warmly thank Augustin de Romanet and Jean-Charles Simon 
+for their invitation. This year, Paris has once again demonstrated its vibrancy by 
+climbing to fourth place in the OFEXi ranking of global financial centres. The fact 
+remains, however, that this has been an unprecedented year, both for the global 
+economy and for finance. I propose taking solace in the words of the German 
+poet Hölderlin: “where there is danger, a rescuing element grows as well”.ii I will 
+outline three threats (1) before inviting us to take three winning gambles (2). 
+1) A pivotal year with a combination of three threats 
+1.1. (Geo)political unpredictability 
+The first threat is clearly (geo)political unpredictability, amplified this year by the 
+shift in US policy.  
+ 
+From an economic standpoint, the global outlook – primarily in the United States 
+– has been significantly weakened by the new US administration’s shift towards 
+protectionism and its persistent unpredictability. But  it is also undermining 
+financial stability, causing exceptionally high short-term volatility, particularly in 
+US bond markets , which have failed to play their traditional safe -haven role. 
+Confidence in the dollar as an international reserve currency could be eroded ,iii 
+while the international role of the euro could be fostered as clearly explained by 
+Christine Lagarde in Berlin a fortnight ago. 
+In this volatile environment, the ECB is a pillar of stability, having successfully 
+normalised its monetary policy over the past year with eight successive cuts to 
+short-term rates. I expressed this wish back in January, when our rates were 
+still at 3%, that we would return to 2% by the summer. Since last Thursday, we 
+
+
+Page 2 of 7 
+ 
+have been in the favourable “2 and 2” zone, with inflation forecast at 2% this 
+year – which is our target – and our key rate at 2%, well below the US and UK 
+levels of 4.25%. But in such an uncertain environment, this favourable zone 
+does not mean a comfortable zone or a static zone : we will remain pragmatic  
+and data-driven, and as agile as necessary. 
+1.2. Technological disruptions 
+The second threat comes from technological transformations in the financial 
+sector. These developments create as many vulnerabilities as they do 
+opportunities, particularly in two critical areas: crypto -assets and artificial 
+intelligence (AI).  
+Crypto-assets are back in the spotlight, particularly stablecoins, which are 
+mostly backed by  the US dollar iv and strongly promoted by the new US 
+administration.  
+ 
+They pose a serious risk of a “de-Europeanisation” and privatisation of the 
+currency,v they currently have no robust federal framework in the United States 
+and expose their users and the financial system to numerous financial risks. The 
+development of AI is a decisive boost for productivity – whose gains can be 
+estimated at between 0.3 and 1% per year –; but it may also contribute to the 
+amplification of financial vulnerabilities. For example, AI market concentration 
+could increase the risk of dependence on third party players . The use of the 
+same types of tools could also amplify herd behaviour, resulting in greater 
+volatility and procyclicality. 
+1.3. Disintermediation of the financial system  
+The third threat stems from developments in the financial system itself. Two -
+thirds of financial sector growth since 2008 has come from non -bank financial 
+
+
+Page 3 of 7 
+ 
+intermediation (NBFI),vi which now account s for nearly 50% of global financial 
+assetsvii. 
+ 
+This development could help diversify the sources of financing for the European 
+economy. However, in recent years, several episodes have highlighted the 
+vulnerabilities associated with NBFI: too opaque, highly interlinked, sometimes 
+too leveraged. First, hedge funds, whose use of leverage is rising in Europe and 
+the United States  currently account for more than 50% of transactions in the 
+secondary European government deb t market. While they can contribute to 
+boosting market liquidity, they can potentially also amplify volatility in the event 
+of tensions. Another area of vigilance  is growth in private credit: in 2024, total 
+assets under management in Europe reached EUR  430 billion, compared with 
+EUR 150 billion in 2014 .viii Banks’ exposure to these private funds remains 
+difficult to accurately assess for supervisors, and sometimes even the banks  
+themselves, due to the opacity of the market and the multiple layers of leverage 
+in the ecosystem.  
+2) Three winning gambles? 
+I want to turn now to three paradoxical gambles. Gambles because we haven’t 
+won yet and our game is not yet up to scratch. And paradoxical because they 
+require shaking off our form of collective stupefaction, in order to transform these 
+emerging threats into opportunities.  
+2.1. Regulation can help innovation to go hand in hand with stability 
+The first gamble is that well-tailored regulation can help to innovation go hand 
+in hand with stability. This is only an oxymoron in appearance : without trust, 
+innovation can only be temporary; without innovation, financial stability is just 
+
+
+Page 4 of 7 
+ 
+stasis. Crypto-assets are a good illustration of this. France and Europe were 
+pioneers in the field, with the creation of the DASP statusix in 2019, followed by 
+the adoption of a harmonised European framework based around the MiCA 
+Regulation.x MiCA is a decisive step forward: it supports the secure and lasting 
+development of tokenised finance while also help ing to regulate dollar -backed 
+stablecoins. Their rapid growth, which is set to accelerate further, must not come 
+at the expense of European monetary sovereignty.  
+Our first response to the rapid development of dollar-backed stablecoins is the 
+wholesale central bank digital currency ( CDBC) and the digital euro, which will 
+make it possible to maintain central bank money’s key role in the digital world.  
+In the interbank arena, the Eurosystem is advocating a tokenised settlement 
+offering in central bank money and is working to provide an initial solution to 
+banks and financial markets by the start of 2026 , to be followed by further 
+stages. These “tokenised bank reserves” will constitute a secure and liquid 
+settlement asset for financial players, in a highly dynamic payment universe and 
+a financial sector undergoing tokenisation. In the retail arena, the Eurosystem is 
+preparing to issue a digital euro . This “digital banknote +” will also reduce our 
+dependence on international networks, which account for 66% of card payments 
+in the euro area . Its distribution will rely on a “public -private partnership” with 
+commercial banks, based on a balanced economic model. 
+At the same time , the emergence of euro -backed alternatives – euro 
+stablecoins, tokenised deposits, tokenised money -market funds – deserves, in 
+collaboration with market participants, increased attention, including with regard 
+to their cross -border use. The European authorities must also closely monitor 
+the implementation of MiCA and start considering a possible “MiCA 2” regulation 
+that takes better account of these sovereignty issues.  
+ 
+Lastly, it is vital that we equip ourselves with adequate monitoring tools and a 
+regulatory framework adapted to non-bank finance. In order t o better account 
+for the risks posed by interlinkages with the financial sector, the ACPR and the 
+Banque de France, together with the AMF, are preparing a pilot systemic stress 
+test this year involving banks, insurers and investment funds. This exercise has 
+
+Page 5 of 7 
+ 
+no regulatory implications, but will allow us to better understand the nature of 
+the risks and their transmission channels.  It is a first in Europe, where no such 
+exercise is being considered in the near term. 
+2.2. Europe can benefit from America’s policy shift 
+The second paradoxical gamble consists in seizing “Europe’s moment” in 
+response to America’s radical policy shift. We have the ability to make this leap, 
+provided we have the firm and lasting will to do so. Let’s be frank: we are 
+currently falling short of the mark. We’ve got the right diagnosis, with the Draghi 
+and Letta reports in 2024, then the strategy laid out by European Commissioner 
+Albuquerque in March 2025 . But what we need now to act is a general 
+mobilisation, based around 3 imper atives – “3 i’s”,xi or, if you prefer, size 
+multiplied by muscle multiplied by speed. 
+ 
+First, we need to better integrate the single market. This means capitalising on 
+our size – which is equivalent to that of the United States – by removing internal 
+barriers. Second, we need to invest better, giving greater priority to the most 
+promising disruptive innovations and avoiding falling into the “middle technology 
+trap” highlighted by Jean Tirole .xii To do this, we need to develop Europe’s 
+financial muscle through a genuine SIU. Europe lacks neither savings nor loans: 
+it does lack secure and liquid assets to attract international investors, and lacks 
+capital to finance innovation. Our main priority should therefore be to increase 
+equity financing, which amounts to 215%  of GDP in the United States for non -
+financial corporations, compared with 88% in the euro area.  
+
+
+Page 6 of 7 
+ 
+ 
+In terms of venture capital, five times less funds were raised in the EU than the 
+United States between 2013 and 2023. Institutional investors could be brought 
+on board for this, taking inspiration from the French TIBI or German WIN 
+initiatives,xiii but scaled up to a European level. Pan-European funds could also 
+be developed, with a new v ersion of the European Tech Champions Initiative 
+(ETCI) of the EIB open to private investors. Finally, we need to innovate faster 
+with less bureaucracy. For the financial sector, this means adopting a European 
+approach to simplification,xiv consisting in making regulations less complex but 
+without eschewing our financial stability objective or the international Basel 
+standards: fewer standards but better implementation to make them more 
+effective. I welcome the creation of two high -level task forces at the ECB and 
+EBA on this issue,xv which are expected to submit concrete proposals later this 
+year. 
+But to turn these good intentions into action, we need to set a mobilising 
+deadline,xvi as Jacques Delors did in the past with 1 January 1993 for the single 
+market, and 1 January 1999 for the single currency. It is up to the Commission 
+to propose this deadline, but why not 1  January 2028? Whatever the case, we 
+need to step things up a gear if we want to emerge from the Trump years on a 
+stronger footing and with greater sovereignty. 
+2.3. France and Paris are in a stronger position within Europe 
+Finally, within Europe, we can take a gamble on France and the Paris financial 
+centre. Although our country faces serious economic and fiscal challenges, it 
+still has many strengths. Our businesses, from the largest – international leaders 
+that rival Germany in number – to the youngest (some 400,000 firms were set 
+up in 2024, 30% more than ten years ago). The gross financial savings of French 
+
+
+Page 7 of 7 
+ 
+citizens, which amount to EUR 64 trillion,xvii placing France’s financial 
+institutions among the leading players in Europe . Lastly, the Paris financial 
+centre that you represent – for the sixth year in a row France has been ranked 
+the most attractive European country for foreign investors, xviii and Paris is now 
+the top tech ecosystem in Europe, according to the Global Tech Ecosystem 
+Index 2025 ,xix ahead of London, Stockholm and Munich. The Holroyd 
+“Attractiveness” lawxx of June 2024 has also strengthened our post -
+Brexit competitiveness by facilitat ing new stock market listings and supporting 
+the financing of global trade. 
+* 
+I began with Hölderlin, and I shall conclude with Paul Valéry: “The future is not 
+what is going to happen, but what we are going to do”.xxi Over the past ten years, 
+we have succeeded in learning  the lessons from the crises and preserv ing 
+financial stability. But today, history is accelerating, and Europe and France 
+must for their part also move forward with regulation that combines innovation 
+with stability, and with a general mobilisation that constructs the economic and 
+financial sovereignty of our  continent. France has the advantage of having 
+Europe's leading financial sector. Our country combines both the strength and 
+the ambition to seize this moment of acceleration. Thank you. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Page 8 of 7 
+ 
+i Institut Louis Bachelier, Center for Financial Studies (2025), OFEX ranking, January 
+ii Hölderlin (F.) (1808), “Patmos”.  
+iii Villeroy de Galhau (F.) (2025), Letter to the President of the Republic: From stupefaction, to general 
+mobilisation, how to respond to America's policy shift, 9 April. 
+iv Stablecoins backed by the US dollar account for 99% of market capitalisation. Source: Banque de France 
+(2025), Financial Stability Report, to be published in June. 
+v Villeroy de Galhau (F.) (2025), Letter to the President of the Republic: From stupefaction, to general 
+mobilisation. How to respond to America's policy shift, 9 April. Villeroy de Galhau (F.) (2025), “A mobilising 
+deadline for seizing ‘Europe’s moment’” Hearing before the National Assembly Foreign Affairs Committee, 14 
+May. 
+vi “NBFI refers to a system for raising funds and providing funding that involves players outside the traditional 
+banking system” Source: Saillard (M.), Schwenninger (A.) and Watel (A.) (2023), “Non-bank financial 
+intermediation:vulnerabilities and challenges”, Eco Notepad, Banque de France, September. 
+vii FSB (2024), Global Monitoring Report on Non-Bank Financial Intermediation, December. 
+viii Buch (C.) (2025), “Hidden leverage and blind spots : addressing banks’ exposures to private market funds”, 
+The Supervision Blog, 3 June. It should be noted that these estimates are based on market data due to a lack of 
+official data sources on this market. 
+ix Digital Asset Service Provider, a status created under Law No. 2019-486 of May 2019, known as the PACTE 
+Law (Plan d’action pour la croissance et la transformation des entreprises – Business Growth and Transformation 
+Law). 
+x Markets in Crypto-Assets (MiCA), Regulation EU 2023/1114 of 31 May 2023. 
+xi Villeroy de Galhau (F.) (2025), Letter to the President of the Republic: From stupefaction to a general 
+mobilisation. How to respond to America’s policy shift, 9 April. 
+xii Fuest (C.), Gros (D.), Mengel (P.-L.), Presidente (G.) and Tirole (J.) (2024), EU Innovation Policy – How to 
+Escape the Middle Technology Trap, European Policy Analysis Group, April. 
+xiii Villeroy de Galhau (F.) (2025), “Venturing into open waters to unlock Europe’s innovative potential”, speech at 
+Euronext Paris, 18 March. 
+xiv Villeroy de Galhau (F.) (2025), “A European approach to simplification: avoiding three misconceptions and 
+suggesting concrete milestones”, Eurofi Warsaw, 11 April. 
+xv Villeroy de Galhau (F.) (2025), Presentation of the ACPR annual report, speech, 27 May. 
+xvi Villeroy de Galhau (F.) (2025), “A mobilising deadline for seizing ‘Europe’s moment’”, speech before the 
+National Assemble Foreign Affairs Committee, 14 May. 
+xvii Banque de France (2025), Household savings – Q4 2024, 22 May. 
+xviii EY (2025), Annual barometer 2024, May. 
+xix Dealroom (2025), Global Tech Index 2025, 21 May. 
+xx Law No. 2024-537 of 13 June 2024 aimed at increasing corporate financing and the attractiveness of French 
+firms. 
+xxi Valéry (P.) (1931), Glimpses of the Modern World. 
+                                                           

@@ -1,0 +1,196 @@
+ACPR-AM F Fintech Forum – Paris, 14 October 2024 
+Forging a successful alliance between innovators and regulators 
+Speech by François Villeroy de Galhau, 
+Governor of the Banque de France 
+Chairman of the ACPR 
+Press contact: Delphine Cuny (delphine.cuny@banque-france.fr)
+
+
+Page 1 of 5 
+ 
+Ladies and Gentlemen,  
+I am delighted to welcome you to the Banque de France for this fifth annual 
+Fintech Forum, organised jointly by the ACPR and AMF. I would like to extend 
+a warm welcome to Marie-Anne Barbat-Layani, Chair of the AMF, and to thank 
+Clara Chappaz, Secretary of State for Artificial Intelligence and Digital 
+Technologies, for her presence at the close of this morning's proceedings. We 
+created this Forum with a simple aim: to show that the Banque de France, and 
+our Authorities, are as much those of the fintechs as they are of the incumbent 
+players, and that innovation and regulation do not necessarily constitute an odd 
+couple.  
+Today I would like to illustrate this with a continuity, a break with the past, and 
+a challenge. First, the continuity: while the first few m onths of 2024 have 
+witnessed a stabilisation of the amount of funds raised, the ACPR and the 
+Banque de France remain resolutely committed to fintechs  (I). The break with 
+the past concerns the surge in artificial intelligence: t he ACPR stands ready to 
+assume the role of “market supervisor” for the French financial sector (II). Lastly, 
+the challenge is one of balancing openness and trust: as from next January, 
+DORA legislation will provide more trust – as well as more requirements (III). 
+I. Continuity: the commitment of the Banque de France and the ACPR to 
+the innovative ecosystem 
+1. A stabilising financial environment 
+After the heady years of 2021 and 2022, followed by a sharp downturn in 2023,i 
+funds raised by French fintechs stabilised in the first half of 2024 at 
+EUR 560 million, compared with EUR 568 million in the first half of 2023. ii 
+Therefore France is still the EU's biggest market, ahead of Germany (nearly 
+EUR 500 million), but continues to lag well behind the U nited Kingdom 
+(EUR 1.3 billion). This stabilisation is due in particular to the shift in monetary 
+policy: the last increase in key rates was in September 2023, and since then we 
+have cut rates twice by 25 basis points, in June and September, as a result of 
+
+Page 2 of 5 
+ 
+the sharp fall in inflation. I will refrain from saying any more as we are in a “silent 
+period”. 
+The first half of the year may therefore mark a turning point and herald renewed 
+growth in the fintech ecosystem. We are also witnessing this at the ACPR's 
+Fintech Innovation Hub, with a distinct upturn in the number of new projects. By 
+mid-September, 72 projects had been submitted, an increase of around 15% on 
+the same period in 2023. 
+2. The ACPR continues to listen closely to the ecosystem and intends to 
+adapt to its developments 
+Against a backdrop still fraught with economic uncertainty, the ACPR is listening 
+ever more closely to the ecosystem. This is what the Fintech Forum is all about, 
+together with the “My Fintech Journey” website, which is regularly enhanced to 
+provide clear answers to the main questions posed by project leaders. It is also 
+the purpose of our commitments under the Fintech Charter , and their regular 
+monitoring.  
+Our first contact response rate within two weeks – as outlined in the Charter – 
+remains very high at 92%. Once the authorisation journey has actually begun, 
+response times have edged up this year, averaging around 11 days (compared 
+with 10 last year). The ACPR has also been very proactive around innovative 
+projects in the broadest sense. In particular, I should mention the projects 
+involving the first two issuers of stablecoins accredited in France –  and in 
+Europe – on 1 July,
+  the same day that the MiCA Re gulationiii came into force. 
+We are also currently vetting applications for the pilot regime.iv 
+Lastly, for f intechs that have already been granted authorisation and wish to 
+extend their activities to other European countries, we are aware of the 
+difficulties arising from the increasing number of sometimes relatively similar 
+reports that need to be submitted to different authorities, and di ffering 
+interpretations of regulations. These disparities are generating complexity and 
+significant costs for start-ups like fintechs. And let me say loud and clear that it 
+is time to take serious note of the call of the Draghi Report , among others, for 
+
+Page 3 of 5 
+ 
+more standardisation and simplification. We fully intend to contribute to this 
+process.  
+II. A break with the past, around artificial intelligence   
+1. One of the main drivers of fintech innovation 
+Artificial intelligence (AI) – and especially generative AI – has clearly made 
+exponential progress over the past two years. And despite massive interest, we 
+have not yet c ollectively grasped the full extent of the transformation to come. 
+Let's be humble enough to admit that we don't know everything, and that we 
+don't really know what the business models of tomorrow will look like. But in the 
+case of AI, if we wait until we are sure before innovating, we will be sure to get 
+it wrong.  
+As a central bank and financial supervisor, it is imperative that we keep up with 
+these developments; and learning by doing is critical. At the Banque de France, 
+we have already given priority to five use cases. At the beginning of May, I 
+outlined an “AI doctrine”
+v at the BIS, organised around three guiding principles: 
+understand and master; buy- in, through a “human AI” that enhances human 
+capabilities rather than replacing them; and cooperation between public 
+authorities.  
+2. The ACPR stands ready to take on the role of market supervisor 
+In this regard, the European legislation adopted last June,
+vi designed to promote 
+trustworthy AI, will gradually enter into force. It identifies two “ high-risk” use 
+cases in the banking and insurance sectors: systems designed to assess the 
+creditworthiness of individuals or assign them a credit rating; and systems for 
+assessing and pricing life and health insurance products.  
+The ACPR stands ready to assume the role of market supervisor for the French 
+financial sector. This designation seems only natural, in phase with both the 
+spirit of the regulation that explicitly provides for such a role, and with what 
+almost all of our European neighbours intend to do: the supervision of these 
+systems can unlock significant and fairly obvious synergies with the prudential 
+
+Page 4 of 5 
+ 
+supervision of banks and insurers. And we have been preparing for this role for 
+several years now, in liaison with the market vii and with the support of the 
+Banque de France's Lab (our Open Innovation centre).  
+So we have already acquired expertise, especially in auditing algorithms; 
+however, we recognise that this role will require a certain methodological leap 
+for the designated national authorities. Developing a standard European 
+methodology would make sense in this regard, based on guidance from the 
+European supervisory authorities, for example.  
+III. The challenge: balancing openness with trust in the digital arena  
+1. Open source, open data... new models to serve consumers 
+New digital uses have resulted in new models that benefit consumers. Open 
+source, open data, and so on: the desire for openness resides in the name. 
+European regulation has helped to drive this dynamic, the second Payment 
+Services Directive (PSD 2) being a prime example.
+viii  
+For financial services, this openness is set to intensify in the near future with the 
+draft Financial Data Access regulation (FIDA).
+ix A gradual approach to openness 
+and data sharing – contingent on the degree of standardisation and digitisation 
+– should enable existing players and fintechs to reach a consensus and jointly 
+develop guidelines and technical arrang ements for sharing, while avoiding the 
+risks of exclusion and demutuali sation. This should be done as part of 
+“schemes”, outside of which data sharing should not be possible, and access to 
+which should be restricted to entities established within the EU. It is in nobody's 
+interest for openness to turn into anarchy, or to exacerbate cyber risks.  
+2. In a more open world, more prone to cyber risk, a major componen t of 
+systemic trust: DORA 
+BigTechs have established a dominant position in the IT sphere in areas such 
+as the cloud, to which the financial sector is increasingly turning.
+x By the way, 
+the ACPR has published just today a study on this topicxi and possible regulatory 
+responses. Faced with these dominant players, fintechs are even more welcome 
+as factors that “dilute” risks. Speaking more generally, it is obvious that cyber 
+
+Page 5 of 5 
+ 
+risks are growing in line with the increasing “ interconnectedness” of the digital 
+sphere – and even more so with rising geopolitical tensions. 
+The EU regulation concerning digital oper ational resilience for the financial 
+sector (DORA), due to be applied from  next January, will enable the three 
+European authorities to directly oversee all critical IT service providers. I would 
+like to take this opportunity to welcome the recent appointment of Marc Andries, 
+Inspector General of the Banque de France and a recognised expert in IT and 
+cybersecurity, to head up this new mission. DORA will provide a major 
+component of systemic trust thanks to a state- of-the-art regulatory framework. 
+It bolsters third-party risk management and incident reporting for more effective 
+cyber threat analysis, introduces mandatory penetration testing, and fosters a 
+collective defence culture by enabling financial entities to exchange information 
+on cyber threats within trust-based communities. DORA's rigorous standards 
+provide a guarantee of the increased resilience it will bring to the financial sector. 
+It is therefore particularly important that all those involved are well prepared and 
+this afternoon's thematic workshop, run by teams from the ACPR and the AMF, 
+will provide all those concerned with answers to any questions they may have.  
+ ***  
+I will conclude with a quote from Benjamin Franklin: “There are many ways not 
+to succeed, but the surest way is never to take ri sks.” Fintechs know well how 
+to take risks and in doing so, they also enable the financial sector as a whole to 
+innovate and adapt to technological change. Nevertheless, dangers relating to 
+these changes must be known and controlled, so we also need to for ge a 
+successful alliance between innovators and regulators. You can count on our 
+commitment to this objective. Thank you for your attention.  
+ 
+ 
+ 
+ 
+
+Page 6 of 5 
+ 
+i Villeroy de Galhau (F.), Fintechs: at the forefront of “new frontiers”, opening address of the 4th ACPR-AMF Fintech 
+Forum – Paris, 16 October 2023. 
+ii France Fintech, Half-yearly Report, 2024 
+iii Europe's Markets in Crypto-Assets (MiCA) Regulation 
+iv EU Regulation of 30 May 2022 setting up a pilot regime for market infrastructures based on distributed ledger 
+technology. 
+v Villeroy de Galhau (F.), Innovation by central banks: the sooner the better, speech delivered at the BIS Innovation 
+Summit – 6 May 2024 
+vi EU AI Act 
+vii Through workshops organised with banks and insurers, techsprints that bring together fintechs, data 
+scientists and more traditional players, and research. 
+viii Directive (EU) 2015/2366 relating to payment services. 
+ix Framework for financial data access, (FIDA). 
+x Villeroy de Galhau (F.), Big techs in finance: a bildungsroman that is far from over, speech at the BIS 
+conference, 9 February 2023. 
+xi Le développement des big techs dans le secteur financier : quels risques, quelles réponses réglementaires ?, 
+ACPR study published on 14 October 2024. 
+                                                            

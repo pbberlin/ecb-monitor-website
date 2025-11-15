@@ -1,0 +1,297 @@
+R\Y/A
+BANQUE DE FRANCE
+DAS
+EUROSYSTEME
+Speech
+c>0 ¢>
+Towards a realistic simplification:
+untying some of the knots In
+European banking regulations
+Published on the 26th of November 2024
+Speech by Francois Villeroy de Galhau,
+Governor of the Banque de France, Chairman of the ACPR
+
+
+Ladies and Gentlemen,
+It gives me great pleasure to welcome you to another ACPR Conference,
+which this year focuses on the topic of innovation: “the financial sector
+innovates, supervision evolves”. As a supervisor, talking about innovation
+of course means trying to strike the right balance between two
+ostensibly contradictory goals, which we nonetheless want to reconcile:
+the 2S’s — Security for the financial sector and Support for economic
+development. But there is a third S, which can help to achieve this
+compatibility: Simplification.
+Following the 2007-09 global crisis, we took significant and much-
+needed steps to strengthen financial sector regulation. We have now
+reached the end of a cycle, with the implementation of the final package
+of Basel Ill. This therefore now seems to be the right time to take a
+much-needed step back: it is not enough for the regulatory principles
+themselves to be sound — we also need to ensure that the complexity of
+our existing regulation does not constitute an obstacle to achieving our
+goals.
+There now appears to be a new consensus in Europe in favour of
+simplification. The Draghi report,'! and before that the Letta report,
+singled out regulatory simplification as one of the keys to European
+competitiveness: more speed for more innovation and more growth. The
+European Commission has made easing the regulatory burden — and
+especially reducing reporting obligations by at least 25%" -— one of the
+focuses of its forthcoming mandate. The Single Supervisory Mechanism
+(SSM) has decided to modify its Supervisory Review and Evaluation
+Process (SREP) and make it more simple and flexible. | am convinced
+that, for financial stability, we also now need regulatory stability.
+However, simplifying does not mean deregulating, and let us
+acknowledge that simplifying is actually not quite that simple (1). | will
+then set out some practical priorities for achieving simplification (Il).
+
+
+More than 15 years have passed since the Great Financial Crisis — 1 do
+not need to remind you of the social, economic and financial damage it
+caused. Lessons were learned, thanks to intense international
+cooperation, but as time passes, the “temptation to forget” returns,
+along with calls to go back to the way things were. This temptation is
+dangerous: Basel Ill rules allowed financial institutions to weather the
+Covid-19 crisis, and stopped the health and economic crisis from turning
+into a financial crisis. They subsequently prevented the interest rate
+hikes from jeopardising financial stability, and stopped the fallout from
+the collapse of SVB in March 2023 from spreading to Europe.
+Today, of course, a wind of deregulation appears to be blowing on the
+other side of the Atlantic. So let us be clear and factual: the final Basel III
+rules have already been published by two thirds of the 27 Basel
+Committee member jurisdictions, and have already entered into force in
+more than a third, including Japan, Canada and China. In Europe, they
+will enter into force on 1 January 2025." .
+|
+LA SIMPLIFICATION N’EST PAS LA DEREGULATION : POURSUIVRE L’APPLICATION DE BALE III
+ETAT DES LIEUX DE L'ADOPTION DES STANDARDS DE BALE III, AU 30/09/2024
+AR AN BE CA OQ HK bs bs) ? KE BS ag RL SA % ZA CH TM cs ‘S$ (x)
+4 * 4 4 * * 4 4 J 4 4 4 4 4 4 4 J
+1 * 4 4 1 4 ‘ 4 i 4 4 J
+rm Source : BRI, RCAP on timeliness: Basel Ill implementation dashboard
+= (2024)
+BOF-PUBLIC 2 CONFERENCE DE L’ACPR - 26 NOVEMBRE 2024 BANQUE DE FRANCE
+Etat des lieux de l'adoption des standards de Bale iii, AU 30/09/2024
+
+
+This framework must continue to form the international basis for banking
+regulation. It will of course apply to European subsidiaries of US banks.
+We remain hopeful that US authorities will transpose Basel Ill into
+national law: indeed, it may be in the interests of big American banks to
+align with international standards. However, if the United States does
+decide to opt out, European supervisors and legislators will take great
+care to maintain a competitive level playing field across the main
+jurisdictions. The European banking package contains certain tools
+allowing us to adjust our regulations to competitive challenges when this
+is justified, especially when it comes to market risks. The Commission
+has already postponed the entry into force of the new rules concerning
+the Fundamental Review of the Trading Book (FRTB) by a year. Moreover,
+failing to regulate non-banks and crypto-assets today would just sow the
+seeds for tomorrow’s financial crisis. Both these sectors are growing
+rapidly, and the G20 and FSB have adopted clear guiding principles for
+them. It is in everyone's interest to support them, rather than multiplying
+the future risks — including in the United States — stemming from
+different supervisors taking their own individual decisions, from legal
+disputes, and from the collapse of players whose value has been
+artificially inflated — let’s not forget what happened to LTCM in 1998, and
+FTX in 2022.
+In short, simplifying does not mean deregulating. On the contrary, it
+means regulating more effectively: having fewer regulations but
+implementing them better and thereby making them more efficient.
+2. Simplifying that simple
+
+
+The unsatisfactory situation in Europe in this regard can give rise to
+pessimism: not only do we have more legislative proposals than 20 years
+ago — 431 in the 2019-24 period, compared with 374 between 1999 and
+2004 - but they have also doubled in length — an average of 8,600 words
+in 2019-24, compared with 4,500 previously.” This is not simply the
+result of bureaucratic blindness that is all too easily vilified: the different
+European authorities are doing their job both competently and
+conscientiously. But in Europe at least, there are clear structural causes
+that are also potential levers for improvement. First, there is an
+accumulation of international, European and national standards, with the
+constant temptation to add more. There is also the fact that each
+country always wants to keep the previous rules, making it nearly
+impossible to lighten the burden when a new regulation is introduced.
+There are also numerous bodies in charge — the SSM with its
+microprudential role, the ECB and the European Systemic Risk Board
+(ESRB) with their macroprudential role, the SRM for resolution, European
+agencies including the European Banking Authority (EBA) for banks, and
+the various national authorities... The ACPR does not claim to be perfect,
+although it does have a reputation for being an expert in its sector and
+for focusing on substance rather than procedure.
+There are also too many directives that need to be transposed into
+national law, and not enough regulations that apply directly. Added to
+this is the ongoing too high level of mistrust between states, meaning
+that rules have to be set out clearly specified in great detail, at times at
+the request of the industry itself. By way of example, in the last banking
+package, the EBA — whose work is essential - was entrusted with
+approximately 140 mandates to draft technical standards and guidelines
+. This mistrust also leads to an obsession with an internal level playing
+field, between Member States, whereas we should be just as concerned
+with ensuring an externa! level playing field, with the rest of the world.
+Yes, technological innovation and artificial intelligence will help us to
+manage big data. But we should not simply use innovation as a crutch to
+carry us in the same wrong direction. First, because technology cannot
+do everything: it cannot manage the ambiguities caused by complexity.
+To have efficient technology, we need clean, standardised and
+consistent data. Second, because adding technological complexity to
+offset regulatory complexity is merely lowering the chances that humans
+
+
+will retain control and this would result in us losing sight of our goal of
+achieving real security.
+So there is no magic wand, no simplification revolution, but resolute
+action based around a small number of practical priorities. | would like to
+put forward three of these, without claiming to be exhaustive. | know
+that several of my European colleagues — like certain national treasuries
+— are thinking along these lines in terms of a realistic simplification.
+REP of tomorrow’ over the
+Let’s start with a concrete example of what the SSM has begun to do to
+ensure that its Supervisory Review And Evaluation Process - the SREP -
+more effectively reflects a risk-based approach involving greater
+prioritisation of supervisory activities. The SSM Supervisory Board has
+adopted two broad principles. First, developing a multi-year approach to
+the SREP, with the possibility of updating decisions every two years
+rather than every year if there has been no significant change in a bank's
+risk profile. Second, greater focus on key expectations and outcomes,
+with more effective use of the escalation ladder if deficiencies have not
+been remediated after a long period. The SREP process will therefore be
+shorter, with decisions sent to the majority of banks in September. | will
+also support any initiative to standardise supervision tools at the SSM
+level, as this will make the best use of resources and enhance efficiency.
+As regards our internal functioning, there is still room to fine-tune the
+organisation between vertical and horizontal supervisory activities, in
+order to reduce the ‘prudential burden’ for both banks and supervisors.
+These simplification measures can represent real progress, which
+obviously still need to be effectively implemented in practice - we will
+make sure that they are - but whose aim is to make prudential oversight
+more responsive and focused on priority risks.
+2 Developing an overview of the rules to
+
+
+We are simplifying supervision, now we need to streamline regulations,
+while complying with the Basel standards, which remains our
+benchmark. First, we need to recognise that it is not easy to compare
+capital requirements across the major jurisdictions. Differences in
+business models, specific legal aspects, possible divergences and other
+overlapping requirements outside the Basel Ill framework mean that
+comparisons quickly become tricky. We should simply note that the
+major European banks generally have a higher CET1 capital ratio than the
+major US banks - 14.3% compared with 13.9% on average.
+However, it is easier to compare the complexity of regulations. As the
+EBA report“ published last summer clearly shows, in Europe, there are
+many more overlapping layers of microprudential and macroprudential
+capital requirement regulations and triggers of automatic restrictions on
+distributions than in the United States or the United Kingdom.
+|
+DEVELOPPER UNE VUE HOLISTIQUE DES REGLES POUR LES RATIONALISER
+COMPARAISON DES EXIGENCES PRUDENTIELLES BANCAIRES : LE CAS DU CADRE APPLICABLE POUR LES FONDS PROPRES
+Cadre européen Cadre américain
+Source : rapport EBA « stacking orders and capital buffers » (2024).
+Notes : 1) exigences de fonds propres relatives a la solvabilité en continuité d’exploitation (hors exigences de gone-concern MREL/TLAC) ;
+2) les graphiques visent 4 refléter les exigences pour les grandes banques. La taille de chaque couche d’exigence dans les graphiques est
+illustrative et ne correspond pas au taux réel (ex : le CCyB existe aux US mais est actuellement a 0 %).
+BDF-PUBLIC 3 CONFERENCE DE L’ACPR - 26 NOVEMBRE 2024 BANQUE DE FRANCE
+Comparaison des exigences prudentielles bancaires : le cas du cadre applicable pour les
+fonds propres
+
+
+In Europe, we have multiplied institutions and requirements, whereas
+Basel and our counterpart institutions have opted for a simpler approach.
+Are we to assume that we are systematically the only ones in the right?
+As we have reached the end of a regulation cycle in the wake of the
+Great Financial Crisis, our priority could now be to develop a “holistic”
+view of the rules that apply to European banks, which will enable us to
+compare ourselves at the international level. This work obviously needs
+to be carried out under the aegis of the European Commission and
+involve all of the European supervisory authorities. We need a
+comprehensive analysis of the impact of all the new standards produced
+in Europe — including at levels 2 and 3 — to ensure that they do not add
+another layer of capital requirements in addition to what is provided for
+in the political agreement in respect of the level 1 text.
+Next, we will need to have the courage and lucidity to simplify
+regulations in areas where Europe is considerably out of line. In terms of
+resolution, | am thinking in particular of the fit between TLAC loss
+absorbing capacity requirements under Basel and MREL, which is a
+European invention. | am also thinking of the different parallel
+frameworks for automatic restriction on distributions, which can create
+uncertainty in the forward-looking management of a firms' capital.
+Neither should we exclude the need to consider the need for a more
+radical approach to simplifying capital requirements, factoring in the
+experience of other major jurisdictions, such as the United States, where
+the stress capital buffer set up by the Federal Reserve combines a
+number of micro and macroprudential objectives. Comparisons can be
+misleading, but they are not a bad place to start! At the end of its
+comprehensive review, the Commission could put forward a legislative
+proposal to simplify the European prudential framework — one that is still
+Basel-compliant, but more effective.
+Lastly, | would like to reiterate the need to finally start making progress
+on cross-border banking integration within the European Union, focusing
+on two areas: removing “host” country obstacles to cross-border
+liquidity (and capital) flows, with sufficient guarantees in terms of intra-
+group support mechanisms in the event of a crisis; and setting up a
+hybrid deposit guarantee system to ensure European support for
+national systems as a last resort.TM!!
+
+
+g the consistency of the different3. Ensurin
+ulations
+There is one crucial area in Europe where we are thankfully at the
+forefront, but which is representative of a certain build-up overlapping
+regulations, namely that of climate change. I'll say it again loud and clear:
+this is essential if the financial sector is to be able to contend with the
+very real risks to which it is exposed. No one can doubt the pioneering
+commitment of the Banque de France and the ACPR in this area,
+however, if these regulations become too complex and difficult to
+understand, there is a risk they will be applied poorly or not implemented
+at all.
+That's why it is vital that we continue to work towards two objectives.
+First, it is essential to achieve the most unified regulations possible in
+Europe, instead of a plethora of regulations including — to name but a few
+— the SFDR regulation, the CSRD* and CSDDD*' directives, and
+France's Energy and Climate Act*' , which preceded the European
+regulations. Each of these regulations, often issued by different bodies,
+represented legitimate progress at the time, however, their accumulation
+now clearly lacks overall consistency. Let's stick to the objective but, at
+the very least, bring the definitions closer together and avoid duplicating
+requests for data. Secondly, we need to come up with a single transition
+plan per institution, summarising prudential requirements under the CRD
+directiveTM" and net-zero alignment requirements under the CSRD and
+the CSDDD. This is vital if we are to set credible targets for financial
+institutions. And one day, we will perhaps be able to go further in
+aligning European EFRAG*" and international ISSB*” standards.
+In conclusion, | am convinced that a safer banking sector can go hand in
+hand with simpler rules. Not fewer capital and liquidity safeguards, but
+less procedural burden. Certainly not less Basel Ill - but sometimes less
+European sophisticated regulations. Our rules can only gain in legitimacy
+and effectiveness. René Char, in his collection Les Matinaux, spoke of
+‘man’s curious illness of tying knots’*”' Now is the time to start untying
+them.
+
+
+Draghi (M.), The future of European competitiveness, September 2024
+Letta (E.), Much more than a market, April 2024.
+See Mission Letter to Valdis Dombrovskis, Commissioner-designate for
+simplification, and the “Better Regulation” programme.
+https://www.bis.org/bcbs/implementation/rcap_reports.htm
+Marcus (J.S.), How to achieve better EU laws, CEPS, October 2024.
+European Banking Authority, « The EBA publishes roadmap on the
+implementation of the EU banking package », December 2023.
+European Banking Authority, Stacking orders and capital buffers,
+Reflections on management buffer practices in the EU, July 2024.
+Villeroy de Galhau (F.), "Financial services: The European mysterious gap’,
+Speech, 4 September 2024.
+Sustainable Finance Disclosures Regulation (2019), which came into force
+in 2021.
+Corporate Sustainability Reporting Directive (2022), implemented as of
+2024.
+Corporate and Sustainability Due Diligence Directive (2024), to be
+implemented as of 2027.
+Loi Energie-Climat (2019)
+Capital Requirements Directive (2013)
+European Financial Reporting Advisory Group
+International Sustainability Standards Board
+Char (R.), Les Matinaux, Gallimard, 1950
+Download the full publication
+Towards a realistic simplification: unty... (PDF - 302 Ko)
+Updated on the 26th of November 2024

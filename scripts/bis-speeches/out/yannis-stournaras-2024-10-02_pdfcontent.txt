@@ -1,0 +1,169 @@
+1/4 BIS - Central bankers' speeches
+Yannis Stournaras: The Greek experience in dealing with Non-
+Performing Loans and the challenges ahead for EU banks
+Speech by Mr Yannis Stournaras, Governor of the Bank of Greece, at the Non-
+Performing Loan (NPL) Meeting 2024 "Step Forward", organised by Banca Ifis, 
+Cernobbio, 27 September 2024.
+* * *
+I would like to thank the Chairman of Banca Ifis for inviting me in this very interesting 
+forum.
+In my short intervention today, I will share with you our experience in dealing with NPLs 
+in Greece and I will then outline the key challenges ahead for the banking system in the 
+euro area.
+Part A: Dealing with NPLs in Greece
+As you all know, Greece suffered greatly throughout the previous decade from an acute 
+economic crisis that reduced domestic GDP by ~25%. We experienced an economic 
+contraction that is equivalent to some of the worse post-war crisis episodes in global 
+economic history.
+Inevitably, the economic recession took a toll on the asset quality of all Greek lenders. 
+Within just a few years, about half of the banks' loan book was non-performing. NPLs 
+became the largest asset class in Greece - for the Small and Medium-Sized Enterprises 
+(SMEs) and the Small Business and Professionals (SBPs), which are the backbone of 
+the Greek economy, about two thirds of the obligors were in default at the peak of the 
+crisis.    
+Today, the picture is completely different, as banks have managed to reduce their NPLs 
+ratio to just north of 5% (which is closer to the EU average) through a combination of 
+measures, notably using an Asset Protection Scheme called 'Hercules' which is similar 
+to the Italian GACS.
+If I can briefly outline the key takeaways from our experience in dealing with NPLs over 
+the past decade, these are the following:
+First, it is important to understand that dealing with NPLs in a systemic crisis 
+requires a multi-faceted strategy that includes legal, operational, and financial 
+aspects.
+he timely recognition of the problem and the need to take policy actions at an 
+early stage are of utmost importance. Having said this, I fully acknowledge the 
+difficulty to address legacy loans in a recessionary environment. NPL reduction is 
+more feasible in a growing economy (e.g. improving financial position of 
+households and non-financial corporates, increasing collateral value, etc.).
+Strengthening the legal framework for bankruptcy and insolvency procedures is 
+essential. Streamlining processes such as collateral enforcement and speeding 
+up judicial procedures significantly contribute to reducing NPLs. In a nutshell, all 
+
+2/4 BIS - Central bankers' speeches
+kind of impediments to NPL workout should be removed. That was a very 
+important lesson learnt during the past decade.
+To give you an example: in the early years of the crisis, it became evident 
+that some kind of protection for the primary residence was necessary, to 
+ensure social cohesion and the protection of vulnerable obligors. In 2010, 
+the then government introduced a Law that aimed to protect homeowners 
+from foreclosure by offering protection to primary residences under certain 
+conditions. However, some deficiencies in the design of the measure 
+resulted in the erosion of the payment culture and encouraged the 
+emergence of the so-called 'strategic defaulters'.
+Since then, Greece has reformed its insolvency laws, making it easier for banks to 
+recover assets. The new insolvency framework aimed to accelerate proceedings, 
+reducing the time it takes for banks to recover funds from insolvent borrowers. In 
+addition, the introduction of electronic auctions for foreclosed properties streamlined the 
+process, allowing banks to recover funds more quickly and efficiently.
+Banks also need to have an adequate NPL governance function to deal with the 
+problem. They should also have the proper capital and provision cushions to 
+absorb the losses associated with NPL management.
+The role of the supervisor is important here. Continuous and rigorous supervision by 
+authorities ensures that banks adhere to NPL reduction plans. Supervisors must 
+monitor banks' progress and impose corrective actions when targets are not met. The 
+SSM also played a critical role in pushing banks to offload their NPLs through the 
+application of the so-called 'prudential backstop' as a Pillar 2 measure.
+Facilitating the development of secondary markets for NPLs, where these assets 
+can be sold to investors, is vital. This includes creating a regulatory environment 
+that attracts investors and ensures transparency and fairness. On transparency, I 
+would like to point out that having publicly available data on recoveries is useful (I 
+understand that such data is available in Italy).
+Another important lesson is that it is impossible to address quickly the problem 
+without a systemic solution for NPLs (such as an Asset Protection Scheme (APS) 
+or an Asset Management Company (AMC)). The design of the scheme is of equal 
+importance, to ensure minimum impact on taxpayers.
+The clear benefit in Greece from the introduction of the Hellenic Asset 
+Protection Scheme ('Hercules') was the quick clean-up of banks' balance 
+sheets. Before the introduction of HAPS, banks were unable to deliver a 
+material improvement in their asset quality, and the key driver of NPL 
+reduction was loan write-offs. The introduction of HAPS changed completely 
+the landscape (also for the LSIs, where it is typically even more difficult to 
+deal with NPLs). Banks of course recorded a substantial loss, but this loss 
+was lower compared to an outright sale. At the same time, banks got capital 
+relief, since the senior notes they hold bear the Greek government 
+guarantee and thus have a zero risk weight. 
+Effective coordination among the government and supervisory authorities is 
+crucial. The implementation of reforms and frameworks (like the NPL reduction 
+plans) needs alignment between these entities to be successful.
+
+3/4 BIS - Central bankers' speeches
+Private debt resolution is also important from a macroeconomic perspective. Even 
+if the NPLs are off the banks' balance sheets, the debt is still there and should be 
+duly addressed. The role of NPL servicers is very important in this respect – debt 
+needs to be restructured and/or forgiven to allow obligors a second chance. If this 
+is not done, the result will be that a significant proportion of economic agents are 
+no longer bankable.
+Finally, I would like to stress the importance of governance and transparency. As 
+there is no cloud without a silver lining, the crisis forced Greece to implement the 
+most advanced governance and transparency measures in its financial 
+institutions, Systemic as well as Less Significant ones. Among other things, even 
+the smallest cooperative bank in Greece is now applying International Accounting 
+Standards, while there are no exceptions to European directives or SSM rules.
+Part B: Challenges ahead for EU banks
+Now, let's move on to the EU banking system and the challenges ahead.
+EU banks have currently solid fundamentals that were gradually built up after the Global 
+Financial Crisis. To give you some more colour on this, based on the EBA Risk 
+Dashboard :1
+In December 2009, the Total Capital Ratio (TCR) of EU banks was 13%. Since 
+then, banks executed several capital accretive actions and now enjoy wide capital 
+buffers with an average TCR at 20% in March 2024.
+The most impressive improvement was in asset quality, as banks lowered the 
+average NPE ratio from levels close to 7% (in 2016) to 1.9% in March 2024.
+Banks' profitability has also improved lately, as the net interest income of most 
+lenders benefited from the increase in interest rates. Recall that, at some point in 
+time over the previous decade, the average Return on Equity (RoE) for EU banks 
+was barely positive. With March 2024 data, the average RoE for EU banks 
+reached 10.6%.
+Finally, EU banks enjoy ample liquidity with a solid deposit base and full access to 
+the wholesale and capital markets. In March 2024, the average Liquidity 
+Coverage Ratio (LCR) of EU banks was 161.4%, well above the supervisory 
+minimum of 100%.
+The positive macroeconomic environment is also supporting the financial fundamentals 
+of EU lenders. However, risks to financial stability have been rising:
+Geopolitical risk remains high for some time now, since the Russian invasion of 
+Ukraine, and is further fuelled by the tensions in the Middle East. Political 
+developments in the US and the EU are also creating uncertainty. Geopolitical risk 
+is an exogenous risk factor which could potentially have immense repercussions 
+on the banking sector.
+A reassessment of risk premia following a sudden shift in market sentiment could 
+put asset prices under strain with potential implications for the sector of non-bank 
+financial institutions (NBFI). Past events showed us that the non-bank financial 
+sector can amplify worsening markets conditions through forced asset sales to 
+
+4/4 BIS - Central bankers' speeches
+address margin calls or potential liquidity needs. Risks and vulnerabilities in the 
+non-bank financial sector could essentially create spillovers to banks (via loans, 
+securities, etc.) and to the real economy.
+The recent rise in interest rates alongside high inflation rates put the balance 
+sheet of some firms and households under strain. Against this backdrop - and 
+despite the recent drop in the interest rates -, a deterioration in asset quality and a 
+rise in loan loss provisions for European lenders with a time lag cannot be ruled 
+out.
+In addition, weakening economic growth along with high interest rates could weigh 
+heavily on the demand for new loans and the implementation of banks' business 
+plans. Note that the improved profitability following the rise in interest rates 
+masked structural deficiencies in many banks, such as in terms of cost efficiency 
+and digitalisation.
+The increase in borrowing costs over the past few quarters has led to a cooling of 
+the real estate market in the euro area, notably the commercial real estate 
+segment. A fall in real estate prices could expose some property developers to 
+losses and consequently impact the cost of credit risk for some European lenders.
+Several new risks have recently emerged in our risks heatmap, such as the 
+climate change risk and the risks stemming from cyber-attacks. The latter is 
+closely linked to the rising geopolitical risk.
+Concluding, despite the progress so far, there is no room for complacency. As risks to 
+financial stability remain, supervisors should ensure that financial institutions are 
+cautious in their business decisions and preserve ample capital and liquidity buffers, 
+while upholding top governance standards. Macroprudential supervisors should also 
+preserve capital buffers with the aim to increase resilience in the system. 
+Finally, we need to revamp our crisis management framework and complete the 
+Banking Union. The adoption of a common European Deposit Insurance Scheme 
+(EDIS) at the level of the banking union is necessary to strengthen depositors' 
+confidence, especially in case of cross-border turmoil and systemic crisis. The 
+completion of the Banking Union with the adoption of a common framework for Crisis 
+Management and Deposit Insurance (CMDI) will facilitate the integration of the, so far, 
+fragmented banking sector in the European Union along the lines suggested by the 
+Draghi Report and achieve level playing field in European banking regulation and 
+resolution.
+Thank you.
+ 1 https://www.eba.europa.eu/risk-analysis-and-data/risk-dashboard

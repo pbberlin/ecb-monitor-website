@@ -1,0 +1,479 @@
+Homepage//en] > Press//en/press] > Speeches//en/press/speeches]
+Geoeconomic fragmentation: handling inflation
+pressures and volatility, increasing resilience
+Speech at Tokyo University
+18.11.2024 | Tokyo | Joachim Nagel
+Check against delivery.
+1 Introduction
+2 Geoeconomic fragmentation: where do we stand?
+3 Handling inflationary pressures and inflation volatility
+3.1 Inflationary pressures
+3.2 Inflation volatility
+4 Increasing resilience
+4.1 Fostering carbon neutrality
+4.2 Completing the Capital Markets Union
+4.3 Introducing a digital euro
+5 Conclusions
+1 Introduction
+Ladies and gentlemen,
+it is a great pleasure to be here at Tokyo University. In past weeks, international
+observers had been holding their breath in anticipation of the results of the presi-
+dential election in the United States. Now we know the outcome.
+President-Elect Donald Trump has announced plans to significantly increase tariffs on
+a broad spectrum of goods. If the incoming US (United States) administration makes
+these promises a reality, this could mark a significant turning point for the interna-
+tional system of trade.
+
+
+However, the election in the United States is just one prominent example of a
+broader theme that has recently started to play out on the international stage. After
+several decades of increasing global integration, the world has now shifted into a
+new phase of what is known as “geoeconomic fragmentation”. As intriguing as this
+term may sound, many of us might have different interpretations of what it actually
+means.
+Rather surprisingly, the first word of that term — “geoeconomics” — actually has a
+long history and dates back to the work of political scientist and author Edward
+Luttwak in 1990.[1] Back then, Luttwak defined geoeconomics as: “the admixture of
+the logic of conflict with the methods of commerce — or, as Clausewitz would have
+written, the logic of war in the grammar of commerce.”
+He argued that the end of the Cold War marked a shift away from traditional
+geopolitical competition, characterised by military and strategic rivalry. In this new
+era, he wrote, economic power and commercial competition would become the
+primary means of achieving national objectives and exerting influence on the global
+stage.
+Contrary to Luttwak’s expectations, the world experienced a period of increased
+global cooperation after the end of the Cold War, culminating in the creation of the
+World Trade Organisation (WTO (World Trade Organization)) in 1995 and China’s
+entry into the WTO (World Trade Organization) in 2001. In recent years, however,
+this trend has seemingly come to a halt.
+To the point, the International Monetary Fund recently defined geoeconomic frag-
+mentation as a “policy-driven reversal of global economic integration”.[2]
+Geoeconomic fragmentation thus has an overlap with deglobalisation, which also
+encompasses non-policy-driven reductions in global integration.[3]
+In my speech today, | would like to address geoeconomic fragmentation from three
+perspectives. First, | will examine the current extent of geoeconomic fragmentation.
+Second, | will explore the implications of increased geoeconomic fragmentation for
+central banks. And third, | will discuss how other policy areas can enhance resilience
+against geoeconomic fragmentation.
+Throughout my speech, | will be taking a primarily European or euro area perspec-
+tive. However, given the various similarities between Europe and Japan regarding
+their exposure to geoeconomic fragmentation, | will also occasionally refer to the sit-
+uation in Japan.
+
+
+2 Geoeconomic fragmentation: where do we stand?
+Allow me to begin by examining the extent of the geoeconomic fragmentation that
+we can observe thus far.
+First of all, what we can clearly see is that the number of imposed trade restrictions
+has risen significantly since 2019.[4] From 2009 to 2019, the Global Trade Alert
+database recorded around three thousand new trade restrictions each year. In 2020,
+the number of new trade restrictions jumped to six thousand and has remained
+largely at this level ever since.
+Protectionist measures can take many forms, such as tariffs, quotas or subsidies. A
+closer examination of the data reveals that subsidies alone accounted for approxi-
+mately two-thirds of the protectionist trade measures implemented between 2020
+and 2023. Subsidies not only rose strongly in absolute terms, but their share in
+trade-restricting measures also grew.
+We have observed an increase in protectionist measures in all of the
+G20 (Group of 20) countries, including members of the euro area as well as Japan.
+Some of these measures were implemented as sanctions against Russia in response
+to its invasion of Ukraine. The most significant increases have been observed in the
+United States and China. More specifically, out of all of the protectionist measures
+implemented by the G20 (Group of 20) countries, the United States accounted for
+around 23 percent and China for 17 percent.
+Notably, many of the protectionist measures between the United States and China
+are reciprocal. This highlights the risk that each initial increase in protectionism can
+lead to a self-reinforcing feedback loop.
+Somewhat counteracting this trend towards protectionism, we can also see inten-
+tions of deepening trade relationships through regional free trade agreements.
+Recent examples include the Regional Comprehensive Economic Partnership (
+RCEP (Regional Comprehensive Economic Partnership)), which encompasses Japan
+and the economies of the Asian-Pacific region, as well as agreements between the
+EU (European Union) and Vietnam, and the EU (European Union) and Singapore.
+So, how have these developments impacted flows of global trade thus far? Here, the
+picture is mixed.
+
+
+On the one hand, the degree of global trade integration has not yet changed much
+and remains high from a historical standpoint. In 2023, global trade accounted for
+58 percent of global GDP (gross domestic product). This was just slightly lower than
+the 61 percent recorded in 2008, when global trade integration started to level off.
+On the other hand, international trade is regionalising.[5] In particular, while the
+United States and China continue to trade with other countries, trade between the
+United States and China has declined noticeably.
+On the whole, we are witnessing some clear signs of geoeconomic fragmentation.
+However, the significance and longevity of this development remain uncertain.
+In any case, the euro area and Japan find themselves in similar situations, as they
+both have close economic ties to the United States and China, the key players in
+recent trade conflicts. In 2023, China and the United States were the main trading
+partners for both the euro area and Japan. Furthermore, regarding trade in goods,
+both the euro area and Japan are recording trade deficits with China and trade sur-
+pluses with the United States.
+3 Handling inflationary pressures and inflation volatility
+What could an increase in geoeconomic fragmentation mean for central banks and
+their goal of maintaining price stability? This is the second perspective from which |
+will look at this issue.
+3.1 Inflationary pressures
+Let me start with inflationary pressures that may affect the medium to long-term
+level of inflation. An increase in global integration is usually associated with declin-
+ing inflationary pressures.[6]
+One important channel through which global integration affects domestic inflation is
+the cross-border trade in intermediate goods and services, otherwise known as
+global value chains.[7] With the increase in global value chains, countries were able
+to specialise in areas in which they had a comparative advantage. As a result, inter-
+national trade promoted productivity and economic growth, whilst also dampening
+inflationary pressures to some degree. And some studies suggest that this effect has
+been particularly pronounced in Japan.[8]
+Accordingly, one of the reasons why we should be concerned about geoeconomic
+fragmentation is that inflationary pressures might rise if global integration were to
+reverse.
+
+
+How concerned should we be about such a scenario? When considering the risk of
+higher inflation alone, | would say not overly.
+The main reason for my optimism is that, although empirical studies show that the
+effect of global integration on domestic price dynamics is statistically significant, it
+appears to be economically small.[9] In other words, while we can be quite sure
+about the direction of this impact, its magnitude seems minor. Accordingly, global
+integration would have to decrease substantially to cause a noticeable rise in infla-
+tionary pressures. And, so far, we have not seen this.
+Furthermore, subsidies, which constitute a substantial part of all of the protectionist
+measures enacted over recent years, can actually be disinflationary.[10] Of course, a
+sudden and drastic increase in trade restrictions, like tariffs, might change the
+picture. If one country raised tariffs strongly and the countries affected were to retal-
+iate, we could see a significant rise in inflationary pressures.
+But, even if we do witness a significant increase in geoeconomic fragmentation
+leading to greater inflationary pressures, central banks have all of the tools necessary
+to handle a situation like this. Ultimately, for the Eurosystem, a noticeable reduction
+in global integration would mean that it would have to set interest rates higher to
+keep inflation at bay. The Bank of Japan is certainly also well-equipped to counter
+higher inflationary pressures.
+Whilst | am sure that we, as central bankers, can cope with potentially greater infla-
+tionary pressures, this does not mean that geoeconomic fragmentation is harmless.
+Output growth would be lower because we would lose some of the benefits pro-
+vided by efficient international division of labour.[1 1]
+To give you some numbers: According to IMF (International Monetary Fund) econo-
+mists, a mild strategic decoupling would result in a permanent loss of
+GDP (gross domestic product) of 0.2 percent globally. However, in a scenario with
+severe fragmentation, in which the world would essentially split into two autono-
+mous trading blocs, global output losses could rise to as much as 7 percent.|[12]
+3.2 Inflation volatility
+So far, | have focused on inflationary pressures that could affect the medium to
+long-term level of inflation. But what about inflation volatility, which is to say tem-
+porary fluctuations in the rate of inflation?
+
+
+The empirical evidence on how global integration affects inflation volatility is rather
+limited. However, recent events clearly show the potential effects, both direct and
+indirect.
+Especially in Europe, many of us still quite vividly remember when the Russian inva-
+sion of Ukraine led to a severe reduction in the supply of natural gas and caused
+major disruptions to the international trade of food commodities. This is a clear
+example of geoeconomic fragmentation at play.
+Compared to Europe, Japan was less reliant on natural gas imports from Russia.
+However, as Europe increased its imports of liquefied natural gas
+(LNG (Liquefied Natural Gas)), global demand surged, leading to higher costs for
+Japan as well. Furthermore, given Japan's heavy reliance on food imports, the
+country felt the rise in international food prices particularly strongly.[13]
+Of course, higher gas and food prices were not the only cause of the recent spike in
+inflation in the euro area, but they certainly played a significant role. In turn, once
+European economies had adapted and found new suppliers, falling natural gas
+prices contributed significantly to the disinflation process. And so, too, did the nor-
+malisation of trade in food commodities.[14]
+However, the vulnerabilities extend beyond fossil fuels and food. Other areas that
+immediately spring to mind are computer chips and critical minerals, including rare
+earths. Sudden disruptions in any of these areas could trigger another inflation
+spike.
+These vulnerabilities have not gone unnoticed, prompting various policy measures in
+both Japan and Europe. Japan has been a frontrunner with its “Economic Security
+Promotion Act” .[15] Amongst other objectives, this act aims to ensure stable sup-
+plies of critical materials, such as semiconductors and rare earths, and to enhance
+the development of specific critical technologies.
+The European Union's “Open Strategic Autonomy” initiative intends to reduce
+dependencies that pose risks to security.[16] One important aspect of this plan is the
+reshoring or “friendshoring” of global value chains. And the “Net-Zero Industry Act”
+includes support for green technologies to boost Europe's ability to manufacture
+net-zero technologies and their key components.
+
+
+Both strategies aim to move production in strategically relevant areas to Europe. This
+should reduce vulnerabilities to global developments, ultimately lowering the risk of
+renewed inflation volatility. However, there is a trade-off here, as Europe itself is
+thereby contributing to geoeconomic fragmentation and giving up some of the ben-
+efits of the international division of labour. And this may also come at the cost of
+greater inflationary pressures.
+if geoeconomic fragmentation causes higher inflation volatility, what does that
+mean for the Eurosystem or central banks more generally?
+A sudden eruption of geoeconomic fragmentation resembles a negative supply
+shock that creates a stabilisation trade-off, as inflation rises and output falls. The
+mandate of the Eurosystem is very clear: price stability, However, even a central bank
+focused solely on price stability cannot completely neglect output. in the euro area,
+we operationalise our mandate by aiming for inflation of 2% over the mediurn term.
+This allows us to respond flexibly and avoid overreactions that could lead to
+destabilisation.
+During the recent period of high inflation, we took decisive action to keep medium
+to long-term inflation expectations under control. This was crucial, as inflation rates
+were guite high during certain months. We tolerated some volatility in inflation, but
+without compromising our mandate.
+if we see more inflation volatility in the future, it might becorne even more impor-
+tant to show strong commitment to achieving our price stability target and stabilis-
+ing inflation expectations (17)
+4 increasing resilience
+As | have hopefully made clear by now, monetary policy can deal with both greater
+inflationary pressures and increased inflation volatility. lt is evident that monetary
+policy is essential in combatting the inflationary impact of geoeconomic
+fragmentation.
+However, other areas of economic policy could also help if we see an intensification
+of geoeconomic fragmentation. My third and final perspective on geoeconomic
+fragmentation concerns exactly this: how can other policy areas enhance resilience?
+
+
+In terms of trade policy, Europe as a whole should continue to support an open and
+rules-based system of international trade. Additionally, Europe should continue to
+foster trade agreements with countries seeking mutually beneficial exchange. The
+Japan-EU (European Union) Free Trade Agreement finalised nearly seven years ago is
+a shining example of this. At the same time, firms need to take measures to increase
+the resilience of their supply chains and business models.
+When it comes to limiting the volatility of inflation, the obvious elephant in the room
+is price caps and subsidies. Several European countries and Japan have implemented
+measures like these to handle the large increases in the prices of electricity and
+natural gas following the Russian invasion of Ukraine.
+Such measures may be justified under exceptional circumstances, for example, when
+inflation increases very quickly and drastically. However, any such measures should
+be temporary, targeted at those who really need them, and designed to create the
+right incentives. Because, ultimately, they are just a temporary bandage over a large
+and deep wound.
+In general, they should not be a long-term solution, as they obscure the price signals
+that indicate the relative levels of supply and demand, and consequently, the scarcity
+of goods and services. For example, Germany’s temporary gas price brake relieved
+the burden on citizens and firms, but kept price signals intact, so that the demand
+for natural gas was significantly reduced.
+In order to make a lasting impact, | see three structural areas that could help Europe
+better withstand geoeconomic fragmentation, which | would like to touch on briefly.
+First, fostering the transition to a carbon-neutral system of energy production.
+Second, strengthening the Capital Markets Union in Europe. And, third, introducing
+a digital euro. Allow me to explain my reasoning.
+4.1 Fostering carbon neutrality
+One way to increase our resilience against geoeconomic fragmentation is to diversify
+our sources of energy supply. The transition to a carbon-neutral economy could con-
+tribute significantly to this goal. This is because fossil fuels tend to make greater
+contributions to inflation volatility in economies that import a lot of oil and natural
+gas.[18]
+
+
+And, in this regard, both Japan and the euro area are heavily exposed: (19) Japan
+imports almost all of its olf and natural gas, while the euro area imports the major-
+ity. And both regions rely on these fuel sources for more than half of their energy
+consumption,
+The European Union has already embarked on an arnbitious path of climate protec-
+tion, aiming to achieve a net-zero econorny by 2050.(20) And Japan has committed
+to achieving carbon neutrality by 2050 as well. (21) increasing the production of
+renewable energy would also make our economies less vulnerable to global disrup-
+tions in fossil fuel prices, which is a very welcome side effect.
+Europe could further enhance ffs economic resilience and energy security by inte-
+grating its power grids more closely, thereby facilitating more efficient distribution of
+energy. This way, hydropower stored in Norway can temporarily step in when the
+winds don’t blow in the North Sea or the sun doesn't shine in southern Europe.
+Shifting frorn fossil fuels to renewable energy requires significant additional invest-
+rent, as parts of the existing capital stock need replacement. Under what is known
+as the “Fit for 55" policy scenario, the European Commission estimates that, com-
+pared to the average of the years 20171 to 2020, annual clirnate protection invest-
+ments need to increase by €477 billion by the end of 2030.[22)
+This additional investment right increase inflationary pressures during the transition
+ohase. However, as | arqued earlier, the Eurosystem can manage this.
+4.2 Completing the Capttal Markets Union
+A second way to make the euro area more resilient against geoeconomic fragmenta-
+tion in a wider sense is to complete the Capital Markets Union in Europe. Given that
+many of you are probably not closely familiar with this topic, allow me to provide
+same broader context.
+The European Capital Markets Union has its origins in the global financial and
+European debdt crises. In the aftermath of these crises, banks in several euro area
+member states struggled with large volumes of non-performing loans. This situation
+made it difficult for banks to provide enough lending to firms. it also highlighted
+Europe's strong reliance on banks for external financing. Consequently, European
+policymakers envisioned the Capital Markets Union as Europe’s effort to improve
+pan-European capital market funding.
+
+
+Let me Hlustrate this with some data.[23) At the end of 2008, debt securities
+accounted for just 3 percent of liabilities armong non-financial corporations, while
+shares listed on a stack exchange comprised around 15 percent. 15 years later, the
+share of capital market financing has hardly increased at all: debt securities now
+account for 3.5 percent, and listed shares for nearly 16 percent.[24)
+For comparison, the share of debt securities in Japan is around 4 percent. in the
+United States, which is often seen as a prime example of a market-based financial
+system, listed shares accounted for a substantial one-third of non-financial corpora-
+tions’ Habilities, while debt securfties cornprised around 7 percent.
+What would be the benefits of a cornpleted Capital Markets Union?
+On the one hand, it would help to distribute the macroeconomic and financial con-
+sequences of gececonomic fragmentation if euro area countries are hit asymmetri-
+cally. Bank lending is predominantly national and, in some cases, even regional or
+local. By contrast, capital market financing can be cross-border, thereby spreading
+the risks of a sector or region that is particularly strongly affected by geoeconamic
+fragmentation to a much broader investor base.
+On the other hand, it would help to mobilise financial resources to finance invest-
+ment in digitalisation, infrastructure and growth opportunities more generally. This
+would boost our growth potential and make the monetary policy stabilisation trade-
+offs arising from inflation spikes caused by geoeconomic fragmentation more bear-
+able, And it would, of course, also help to finance the transition to a carbon-neutral
+economy.
+What still needs to be done? | see three main areas of improvement.
+First, firms need better access to venture capital in particular and equity in general.
+European firms certainly do not have a lack of innovative ideas. However, they often
+face challenges in turning these ideas into marketable products. This is where
+venture capital investors can be especially helpful.
+Second, the securitisation market should be revitalised. Securitisations serve as an
+ideal bridge between banks and capital markets. A transparent and high-quality
+securitisation market would enable banks to transfer portions of their loan portfolias
+to the capital market. This process distributes loans and the associated risks more
+broadly. Additionally, it would also free up lending capacity for additional loans. At
+the same time, we must ensure that we regulate the risks appropriately and avoid
+any negative impact on financial stability.
+
+
+Third, insolvency laws should be harmonised. In the EU (European Union), with its
+27 Member States, there are essentially 27 different insolvency laws. An effective
+and harmonised insolvency regime would have two significant effects. On the one
+hand, harmonisation would facilitate cross-border investment, as investors would
+have a better understanding of the associated risks, thereby broadening the investor
+base. On the other hand, improving its effectiveness would expedite insolvency pro-
+ceedings, facilitating the reallocation of scarce resources to innovative firms striving
+to build a digital and carbon-neutral future.
+4.3 Introducing a digital euro
+A third way of promoting European resilience against geoeconomic fragmentation in
+the financial sphere would be to introduce a digital euro.
+Currently, digital payments in the euro area often rely on non-European companies,
+making Europe vulnerable to geoeconomic fragmentation in the international pay-
+ments system. By contrast, the digital euro, as currently envisaged, would be built
+on exclusively European infrastructure. Consequently, the digital euro would
+strengthen Europe's strategic autonomy and increase its resilience.
+But this is, of course, not the only reason in favour of the digital euro. The digital
+euro would also be a digital complement to cash at a time when payments are
+becoming increasingly digital. This would enable people living in the euro area to
+hold central bank money in digital form.
+Furthermore, the digital euro would provide the highest possible level of privacy, sur-
+passed only by cash, since the Eurosystem is simply not interested in collecting and
+commercialising individual customers’ payment data.
+And, finally, the digital euro could be used to pay in every corner of the euro area,
+both online and offline, offering an unprecedented degree of universal acceptance
+and usability.
+In November 2023, we entered what is being termed the preparation phase, laying
+the groundwork for how the digital euro could be designed. However, a final deci-
+sion on issuing a digital euro has yet to be made.
+5 Conclusions
+The global landscape has clearly changed in recent years. A world once charac-
+terised by multilateralism and global cooperation has slowly shifted towards con-
+frontation and fracture.
+
+
+The first signs of geoeconomic fragmentation are becoming increasingly evident.
+And, unfortunately, we may be on the brink of significant escalation. This is a con-
+cerning development, and we should all strive to restore cooperation and free trade.
+But, even if international tensions should intensify: Central bankers have all of the
+tools needed to address greater inflationary pressures or increased inflation volatility
+resulting from geoeconomic fragmentation. We can and will do what is necessary to
+maintain price stability.
+And other policy areas have various tools to enhance the resilience of our economies
+against geoeconomic fragmentation, some of which | have outlined today. With this
+in mind, | am confident that we will find the best way in the coming years — as
+central banks, but also as societies.
+Or, in the words of the famous Japanese manager Konosuke Matsushita: “The
+untrapped mind is open enough to see many possibilities, humble enough to learn
+from anyone and anything, forbearing enough to forgive all, perceptive enough to
+see things as they really are, and reasonable enough to judge their true value.”[25]
+Footnotes:
+1. See Luttwak, E. (1990), From Geopolitics to Geo-Economics — Logic of Conflict,
+Grammar of Commerce, The National Interest, Summer 1990.
+2. Aiyar, S. et al. (2023), Geoeconomic Fragmentation and the Future of
+Multilateralism, IMF (International Monetary Fund) Staff Discussion Notes,
+SDN/2023/001.
+3. Norring, A. (2024) Geoeconomic fragmentation, globalization, and multilateral-
+ism, BoF Economics Review, No 2/2024. See section 2 for a detailed discussion
+of the distinctions between the different terms.
+4. See Global dynamics (globaltradealert.org)
+[https://www.globaltradealert.org/global_dynamics].
+5. See Gopinath, G. et al. (2024), Changing Global Linkages: A New Cold War,
+IMF (International Monetary Fund) Working Paper No 76.
+6. See, for example, Ciccarelli, M. and B. Mojon (2010), Global Inflation, The
+Review of Economics and Statistics, Vol. 92(3), pp. 524-535 and Forbes, K.
+(2019), Has globalization changed the inflation process?,
+BIS (Bank for International Settlements) Working Papers 791.
+7. Auer, R. et al. (2017), The globalisation of inflation: the growing importance of
+global value chains, BIS (Bank for International Settlements) Working Papers
+602.
+
+
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+. For an overview, see Hogen, Y. et al. (2024), Changes in the Global Economic
+Landscape and Issues for Japan’s Economy, Bank of Japan Broad-Perspective
+Review Series, No 24-E-3.
+. See Attinasi, M. and M. Balatti (2021), Globalisation and its implications for infla-
+tion in advanced economies, ECB (European Central Bank) Economic Bulletin,
+Issue 4 and Lodge, D. et al. (2021), The implications of globalisation for the
+ECB (European Central Bank) monetary policy strategy, Occasional Paper Series
+263, European Central Bank.
+A recent study finds that heavily subsidised sectors with over-capacity in China
+could lower euro area consumer price inflation by 0.3 percentage point. If euro
+area producers reduce their prices in response to cheaper Chinese products, euro
+area inflation could drop by an additional 0.6 percentage point. See Al-Haschimi,
+A. and T. Spital (2024), The evolution of China’s growth model: challenges and
+long-term growth prospects, ECB (European Central Bank) Economic Bulletin,
+Issue 5.
+Gaal, N. et al. (2023), Global Trade Fragmentation — An EU (European Union)
+Perspective, European Economy Economic Briefs, European Commission.
+Bolhuis, M. et al. (2023), Fragmentation in Global Trade: Accounting for
+Commodities, IMF (International Monetary Fund) Working Papers No 73. In the
+mild strategic decoupling scenario, there is no trade between the
+USA (United States of America)-EU (European Union) and Russia, and no trade in
+high-tech sectors between the USA (United States of America)-
+EU (European Union) and China. In the severe fragmentation scenario, the
+remaining countries join one of the two groups depending on the strength of
+their trade links with either the United States or China, resulting in zero trade
+with the respective other group. The lower bound in the scenario with severe
+fragmentation is 1.9%. The large range is the result of different assumptions
+regarding plausible values for trade elasticities.
+Nakamura, K. et al. (2024), What Caused the Pandemic-Era Inflation?:
+Application of the Bernanke-Blanchard Model to Japan, Bank of Japan Working
+Paper Series, No 24-E-1.
+Deutsche Bundesbank (2024), The global disinflation process and its costs,
+Monthly Report, July 2024.
+https:/Awww.japaneselawtranslation.go.jp/outline/75/905R403. pdf
+For an overview, see Demosthenes, |. et al. (2023), The EU (European Union)’s
+Open Strategic Autonomy from a central banking perspective — Challenges to
+the monetary policy landscape from a changing geopolitical environment,
+Occasional Paper Series 311, European Central Bank.
+Amatyakul, P. et al. (2024), The contribution of monetary policy to disinflation,
+BIS (Bank for International Settlements) Bulletin No 82.
+
+
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+Ha, J. et al. (2023), Understanding the global drivers of inflation: How important
+are oil prices?, Energy Economics, Vol. 127(A).
+See Energy Institute (2024), Statistical Review of World Energy, 73rd edition.
+See 2050 long-term strategy - European Commission (europa.eu)
+[https://climate. ec. europa. eu/eu-action/climate-strategies-targets/2050-long-
+term-strategy_en]
+For a detailed discussion of the economic implications, see Kurachi, Y. et al.
+(2022), Challenges for Japan’s Economy in the Decarbonization Process, Bank of
+Japan Reports and Research Papers.
+European Commission, SWD(2023) 68 final.
+This comparison uses non-consolidated financial accounts data at market prices.
+The share for debt securities in the euro area is probably higher because the
+available statistics cannot account for indirect issuance by non-financial corpora-
+tions through their financial vehicles.
+Matsushita, K. (1989), Nurturing Dreams My Path in Life. Quoted in: Tony
+Kippenberger (2002), Leadership Styles: Leading 08.04., p. 73.

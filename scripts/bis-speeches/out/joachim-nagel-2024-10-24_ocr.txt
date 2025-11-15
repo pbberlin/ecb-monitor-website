@@ -1,0 +1,413 @@
+Homepage//en] > Press//en/press] > Speeches//en/press/speeches]
+Dot plots for the Eurosystem?
+Speech at Harvard University
+22.10.2024 | Cambridge | Joachim Nagel
+Check against delivery.
+1 Introduction
+2 The dot plot and other forms of forward guidance
+2.1 The Fed's dot plot
+2.2 Monetary policy communication at the Eurosystem
+3 A dot plot for the Eurosystem?
+3.1 Independence
+3.2 Effectiveness of monetary policy communication
+3.3 Projection uncertainty
+4 Conclusion
+1 Introduction
+Ladies and gentlemen,
+it is a great pleasure to be at Harvard again, to meet long time companions like
+Hans-Helmut Kotz and to exchange ideas with top scientists such as Benjamin
+Friedman. When | was in this round two years ago, we were dealing with an
+unprecedented global inflation spike.[1] Fortunately, the worst is behind us, and
+inflation in the euro area is heading back to the Eurosystem’s target. We have not
+brought the inflation ship safely back into the 2% harbour, but the port is in sight.
+Thus, | can focus on another question today.
+
+
+Before | do that, let me share an analogy to set the stage for my discussion. Back in
+the 19705 and 1980s, the fleld of econornics was split into two seemingly incompat-
+ine schools of thought: New Keynesian and New Classical. Their proponents were
+not too polite in their language, calling assumptions “foolishly restrictive” or com-
+paring an opponent to someone attempting to pass himself off as Napoleon
+Bonaparte.i2} But, over time, ideas from both camps ultimately merged to form a
+consensus called the New Neoclassical Synthesis, the very foundation of modern
+macroeconomics.(3) Gregory Mankiw neatly described this stary in his essay “The
+Macroeconomist as Scientist and Engineer”[4]
+The takeaway from this analogy is that cornplex issues are rarely black or white.
+With this in mind, | want to explore whether the conduct of monetary policy in the
+euro area could be enhanced by offering more detailed and nuanced information
+regarding its future outlook. More specifically, today | will address the following
+question: Should the Eurasystern introduce dot plots?
+To explore this, | will first examine current experience with dot plots and other forms
+of forward guidance in both the United States and the euro area. | will then evaluate
+the advantages and disadvantages of incorporating dot plots into the Eurosystern’s
+communication strategy. In this analysis, | will concentrate on the implications for
+policymakers’ independence, the effectiveness of monetary policy and the manage-
+ment of uncertainty.
+2 The dot plot and other forms of forward guidance
+Let me begin with sorne basics. Most central banks in advanced economies have a
+clear mandate to keep prices stable. They do this mainly by setting the policy rate
+and communicating their decisions in order to manage the expectations of eco-
+nomic agents, including market participants, households and firms. When central
+banks provide explicit signals about the future path of the policy rate, we call it
+forward guidance.
+a
+We can classify forward quidance into two ideal types: “Odyssean” and “Delphic”(5)
+Odyssean forward guidance means the central bank makes a firm commitment to a
+future course of action, like promising to keep interest rates at a certain level for a
+certain time. Like Odysseus, who famously tled himself to the mast of his ship to
+resist the cail of the sirens, central banks are cornmitting to staying on course —
+whatever the future brings.
+
+
+In contrast, Delphic forward guidance is conditional and involves sharing information
+about the central bank’s economic outlook and policy intentions without making
+firm commitments. This term comes from the Oracle of Delphi, famous for its
+prophecies and predictions, which were so ambiguous and open to interpretation
+that they always seemed to be borne out in hindsight. A prime example of Delphic
+forward guidance is the policy rate forecasts published by central banks such as
+Norges Bank and Sweden’s Riksbank.
+A more subtle way of monetary policy communication is through the central bank's
+reaction function. A reaction function indicates how the central bank adjusts its
+policy rate in response to key macroeconomic variables like the inflation rate or eco-
+nomic growth. When economic agents have a clear understanding of this reaction
+function, communication about the expected development of these macroeconomic
+variables can also help shape their expectations regarding the future trajectory of
+the policy rate.
+2.1 The Fed's dot plot
+To consider if the Eurosystem should introduce dot plots, let me briefly recall what
+the Fed (Federal Reserve System) dot plots are and how market observers view them.
+Twelve years ago, the Fed (Federal Reserve System) began publishing the federal
+funds rate projections of the Federal Open Market Committee
+(FOMC (Federal Open Market Committee)) participants. Its intention was to boost
+transparency and communication with financial markets and the general public. On
+the other side of the Atlantic, the Eurosystem has, from its inception, held public
+press conferences and published monetary policy statements, the minutes of its
+meetings, and the results of its quarterly macroeconomic projections.
+As you are well aware, before the FOMC (Federal Open Market Committee) meeting,
+FOMC (Federal Open Market Committee) participants share their individual assess-
+ment of the appropriate level of the fed funds rate for the end of the current year,
+the end of the coming two to three years and over the longer run. The longer run
+projection refers to “each participant's assessment of the value to which each vari-
+able would be expected to converge, over time, under appropriate monetary policy
+and in the absence of further shocks to the economy.” [6]
+
+
+Due to its visual representation in the Summary of Economic Projections (
+SEP (Summary of Economic Projections)), the combined projections of all
+FOMC (Federal Open Market Committee) members are known as the dot plot. These
+dots complement the FOMC (Federal Open Market Committee) participants’ projec-
+tions for GDP (gross domestic product) growth, unemployment and inflation. While
+each FOMC (Federal Open Market Committee) participant submits their funds rate
+projection together with corresponding projections for macroeconomic variables,
+these correspondences are not revealed by the
+SEP (Summary of Economic Projections). Accordingly, market observers cannot
+directly link the interest rate projections to the projections of the other macro
+variables.
+The dot plot was meant to complement the Fed’s communication, not to replace the
+forward guidance it provided in the monetary policy statement at that time during
+the press conference. For example, in January 2012, the
+FOMC (Federal Open Market Committee) statement provided explicit forward guid-
+ance on rates, saying that the Committee “[...] anticipates that economic conditions
+[...] are likely to warrant exceptionally low levels for the federal funds rate at least
+through late 2014."[7] During the accompanying press conference, Chairman Ben
+Bernanke introduced the dot plot, observing that “[...] eleven participants expect
+that the appropriate federal funds rate at the end of 2014 will be at or below 1
+percent, while six participants anticipate higher rates at that time."[8]
+Although the Federal Reserve did not introduce the dot plots as an explicit tool for
+forward guidance, many market analysts began to interpret them as such. When the
+forward guidance in the statement and the dot plot sent mixed signals,
+FOMC (Federal Open Market Committee) chairs often downplayed the dot plot's
+importance.
+In 2014, Janet Yellen famously stated: “[...] one should not look to the dot plot, so
+to speak, as the primary way in which the Committee wants to or is speaking about
+policy [...]."[9] Similarly, in 2019, Jerome Powell noted that “[...] the dot plot has, on
+occasion, been a source of confusion. Until now, forward guidance in the statement
+has been a main tool for communicating committee intentions and minimizing that
+confusion.”[10]
+And this is also how Fed (Federal Reserve System) watchers now see the dot plot,
+ranking it as the Fed's fifth most important communication tool.[11] The top com-
+munication tools are the press conference, the Summary of Economic Projections
+(excluding the dots), the FOMC (Federal Open Market Committee) statement, and
+speeches by the chair.
+
+
+Numerous studies show that the Fed (Federal Reserve System) has successfully used
+monetary policy communication to influence long-term interest rates and other asset
+prices.[12] And some research suggests that the dot plots significantly and indepen-
+dently influence market interest rates. [13] But there is a fundamental issue about
+these results: it is very challenging to determine how much each communication
+channel contributes to the overall effect.
+To identify the causal effect of monetary policy, scholars often define a so-called
+event window around central banks’ monetary policy meetings. Changes in market
+interest rates during this event window are then attributed to monetary policy.
+But there is a problem: when the dot plot is released, it is published together with
+the monetary policy statement. That makes it hard to determine which one caused
+the interest rate changes observed during the event. And because of this, it is
+unclear whether those channels actually provide complementary information or are
+just substitutes.
+2.2 Monetary policy communication at the Eurosystem
+So, what does the Eurosystem’s monetary policy communication look like? The
+Eurosystem began using explicit forward guidance in the introductory statement to
+its July 2013 meeting. At that time, inflation in the euro area was low, and the
+Eurosystem expected underlying price pressures to stay subdued in the medium
+term. Interest rates were already at the effective zero lower bound.
+To provide further accommodation, the ECB (European Central Bank)’s Governing
+Council, which is the counterpart of the FOMC (Federal Open Market Committee),
+announced in its July 2013 meeting that it “expects the key
+ECB (European Central Bank) interest rates to remain at present or lower levels for
+an extended period of time.”[14] The Governing Council continued to use variations
+of this statement for almost a decade. And there is now also ample evidence that
+the Eurosystem has been successful in implementing its forward guidance.[15]
+With the resurgence of inflation in 2021 and high uncertainty caused by major
+shocks and structural changes, the Eurosystem shifted to a data-dependent,
+meeting-by-meeting approach, largely stepping away from explicit forward
+guidance.
+
+
+More specifically, we now base our interest rate decisions on three elements: first,
+our assessment of the inflation outlook in light of the incoming economic and finan-
+cial data, second, the dynamics of underlying inflation, and third, the strength of
+monetary policy transmission. These three elements can be seen as a further specifi-
+cation of our reaction function. However, the Governing Council does not pre-
+commit to any specific rate path.
+Taken together, apart from the publication of the dot plot, the approaches to mone-
+tary policy communication taken by the Federal Reserve System and the Eurosystem
+are largely comparable. Both institutions regard the monetary policy statement and
+the press conference as their primary communication tools. And both central banks
+have recently shifted from explicit forward guidance towards a data-dependent
+meeting-by-meeting approach.
+But the Eurosystem also continues to provide signals about future policy rates. It
+simply does it more implicitly. For example, the wording of the monetary policy
+statement and the answers of the ECB (European Central Bank) President during
+press conferences provide insights into future policy rates. As do speeches and inter-
+views given by Governing Council members. Additionally, the Eurosystem influences
+market expectations through its quarterly staff projections.[16]
+Unlike some other central banks, the Eurosystem uses the interest rate implied by
+financial market prices on a specific cut-off day as a conditioning assumption for its
+macroeconomic projections. Specifically, this means that our medium-term inflation
+forecast aligns with market expectations for a particular policy rate path. Market
+participants can subsequently compare the exogenous path for the policy rate, as
+embedded in our macroeconomic projections, with our actual monetary policy deci-
+sions, in order to gain insights into our reaction function.
+You could say that the Eurosystem provides Athenian communication. Athena was
+known as the Goddess of wisdom and as a protector and guide to many Greek
+heroes. Rather than communicating directly with those she protected, Athena often
+used indirect guidance. And through her subtle guidance, Athena empowered the
+heroes she protected to take decisive action and make wise choices.
+3 A dot plot for the Eurosystem?
+Now, let us get to the heart of the matter. Should the Eurosystem introduce dot
+plots? Although this question can only be answered “yes” or “no”, complex issues
+are rarely black and white, as mentioned earlier.
+
+
+In the following, rather than simply listing the pros and cons of introducing dot plots
+in the Eurosystem, | will structure my discussion around three themes: First, the
+impact dot plots could have on the independence of the Eurosystem. Second, the
+potential for dot plots to improve the effectiveness of our monetary policy commu-
+nication. And third, the role dot plots could play in capturing projection uncertainty
+around our baseline forecasts.
+Throughout, | will only consider adding projections for the policy rates to the exist-
+ing macroeconomic projections by Eurosystem staff. For simplicity, | will not consider
+whether to also complement our current consensus projections for macroeconomic
+variables with individual macroeconomic projections.
+3.1 Independence
+Let me begin with the theme of independence. The ECB (European Central Bank)’s
+Governing Council consists of the six ECB (European Central Bank) Executive Board
+members and the 20 governors of the euro area’s national central banks. Although
+this setting may resemble that of the Federal Open Market Committee, which
+includes Federal Reserve Bank Presidents, there is a significant difference.
+The euro area is not composed of regions within a single country but of individual
+countries within a larger union, each with its own fiscal authority and national laws,
+as well as considerable differences in economic size and performance. Therefore,
+within the Governing Council we have a strong interest in finding and communicat-
+ing a consensus perspective. This is, for example, enshrined in our statute, which
+states that the proceedings of the meetings of the Governing Council are
+confidential.
+When we discussed introducing ECB (European Central Bank) accounts from our
+Governing Council meetings — comparable to the published minutes of
+FOMC (Federal Open Market Committee) meetings — about a decade ago, we aimed
+to balance two things: On the one hand, to clearly articulate the consensus perspec-
+tive. Yet on the other hand to represent the full spectrum of views in order to help
+market participants better understand the ECB (European Central Bank) Governing
+Council’s decision-making process.[17]
+In the end, the Eurosystem decided to represent the full spectrum of the discussion
+without naming individuals. Nevertheless, despite the anonymity of the arguments
+presented, markets and the media alike continue to attempt to discern the identities
+of the individuals behind them. Given that numerous members of the Governing
+Council express their views on monetary policy through speeches and interviews,
+identifying their positions is not a particular challenge.
+
+
+If there were anonymous dot plots of Governing Council members, media and the
+markets alike would probably attempt to match individual members to each dot as
+well. The primary distinction between speeches and dot plots is that Governing
+Council members deliver speeches voluntarily. In contrast, dot plots would force all
+Governing Council members to regularly articulate their perspectives on the future
+trajectory of interest rates. And this could potentially influence the Governing
+Council's independence.
+Once national stakeholders become aware of “their” representative's views on
+future interest rates, they may exert pressure on the representative to align with
+national interests. | am confident that, even if we were to publish dot plots, every
+member of the Governing Council would continue to act independently and in the
+best interests of the entire euro area. However, | believe we are well advised not to
+put ourselves in a situation that might increase pressure on us to act in ways others
+want us to.
+3.2 Effectiveness of monetary policy communication
+My second theme is whether a dot plot could significantly enhance the Eurosystem’s
+effectiveness of monetary policy communication. And here | am sceptical. To begin
+with, there is the previously discussed issue: the dot plot may conflict with the con-
+sensus message conveyed in the monetary policy statement. But the main reason for
+my scepticism is that comparative studies on different methods of monetary policy
+communication are inconclusive.
+A BIS (Bank for International Settlements) working paper shows that interest rate
+projections provide additional information to macroeconomic projections, meaning
+that they are not redundant.[18] That could be seen as an argument for introducing
+dot plots. However, while market participants in countries that publish both interest
+rate projections and macroeconomic projections prefer the former, they might still
+be able to obtain sufficient information from macroeconomic projections alone.
+Furthermore, research on central bank communication in Norway and Sweden
+shows that publishing interest rate projections has not improved market understand-
+ing of what new macroeconomic information implies for future interest rate.[19] In
+other words, the publication of interest rate paths did not help market participants
+better understand the central banks’ reaction functions.
+
+
+This finding aligns with research published by the Reserve Bank of New Zealand that
+shows that announcements with interest rate forecasts and those with only written
+statements lead to similar market reactions across the yield curve.[20] The authors
+pointedly conclude that, while central bank communication is important, the exact
+form it takes is less relevant.
+This result echoes a seminal study by Blinder and co-authors, who concluded back in
+2008 that there was no consensus on what constitutes an optimal communication
+strategy. [21]
+All things considered, | see no compelling evidence that the Eurosystem’s monetary
+policy communication would be significantly enhanced by the introduction of a dot
+plot.
+3.3 Projection uncertainty
+Now to the third and final theme — uncertainty. | am quite sure that the Eurosystem
+has room to improve how we handle projection uncertainty. Currently, the
+ECB (European Central Bank)’s Governing Council summarises its view on the uncer-
+tainty surrounding economic growth and inflation in the risk assessment section of
+its monetary policy statement. More specifically, the Eurosystem addresses the
+uncertainty around its baseline inflation forecast in two ways. [22]
+First, it produces fan charts with symmetric ranges around the point forecast, based
+on past projection errors. In this setup, past projection errors act as a catch-all proxy
+for uncertainty. Second, it occasionally publishes risk scenarios, conditional on
+assumptions different from those in the baseline projection. For instance, during the
+pandemic, the Eurosystem began using alternative assumptions about the future
+path of infections and contact restrictions to illustrate macroeconomic uncertainty.
+Could the use of dot plots enhance the communication of inflation forecast uncer-
+tainty within the Eurosystem? Given that dot plots offer only an indirect method for
+conveying uncertainty about the inflation outlook, there may be more effective
+alternatives.
+One might be to enhance the communication of our existing measures of uncer-
+tainty. Another might be to develop new measures, such as scenario and sensitivity
+analyses, as well as improved fan charts. We must carefully evaluate the pros and
+cons of each approach.
+
+
+Hence, it is quite fitting that the Eurosystem is currently performing an interim
+strategic review, which includes an analysis of how risk and uncertainty should
+inform both policy decisions and policy communication. I'm already looking forward
+to the results.
+4 Conclusion
+Ladies and gentlemen, let me conclude. | began my talk by discussing different
+schools of thought — New Keynesian and New Classical — and argued that complex
+issues are rarely black or white. When it comes to central bank communication
+about the future, there are certainly many promising approaches. And, undoubtedly,
+dot plots are an intriguing instrument for central bank communication.
+However, given the prevailing evidence, | do not see a compelling case for introduc-
+ing dot plots for the Eurosystem.
+On the other hand, | firmly believe that we can and should enhance how we
+account for uncertainty in our macroeconomic projections. | have outlined a few
+options which the Eurosystem will address in the ongoing strategy review.
+Footnotes:
+1. Nagel, J. (2022), The ECB (European Central Bank)’s mandate: maintaining price
+Stability in the euro area, speech at the Minda de Gunzburg Center for European
+Studies, Harvard University.
+2. Mankiw, G. (2006), The Macroeconomist as Scientist and Engineer, Journal of
+Economic Perspectives, Vol. 20(4), pp. 29-46.
+3. Goodfriend, M. and R. King (1997), The New Neoclassical Synthesis and the Role
+of Monetary Policy, in: NBER (National Bureau of Economic Research)
+Macroeconomics Annual, Bernanke, B. and J. Rotemberg (eds.),
+MIT (Massachusetts Institute of Technology) Press, pp. 231-283.
+4. Mankiw, G. (2006), op. cit.
+5. Campbell, J. et al. (2012), Macroeconomic Effects of Federal Reserve Forward
+Guidance, Brookings Papers on Economic Activity, Vol. 43(1), pp. 1-80. Another
+distinction is between time-dependent (or calendar-dependent) and state-depen-
+dent forward guidance. The former ties monetary policy to a specific time frame,
+whereas the latter ties future policy actions to specific economic conditions or
+thresholds. The concepts can overlap and be used in combination.
+6. SEP (Summary of Economic Projections): Compilation and Summary of Individual
+Economic Projections, 24-25 January 2012.
+7. FOMC (Federal Open Market Committee) Statement, 25 January 2012.
+
+
+. Bernanke, B. (2012), Transcript of Chairman Bernanke's Press Conference, 25
+January 2012,
+9. Yellen, J. (2014), Transcript of Chair Yellen’s Press Conference, 19 March 2014.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+. Powell, J. (2019), Monetary Policy: Normalization and the Road Ahead, speech at
+the SIEPR (Stanford Institute for Economic Policy Research) Economic Summit,
+Stanford Institute of Economic Policy Research, Stanford, California.
+Wessel, D. and S. Boocker (2024), Federal Reserve communication — survey
+results, Hutchins Center on Fiscal and Monetary Policy at Brookings.
+See, for example, GUrkaynak, R. et al. (2005), Do Actions Speak Louder Than
+Words? The Response of Asset Prices to Monetary Policy Actions and
+Statements, International Journal of Central Banking, International Journal of
+Central Banking, Vol. 1(1), pp. 55-93; Wright, J. (2012), What Does Monetary
+Policy Do to Long-term Interest Rates at the Zero Lower Bound?, Economic
+Journal, Vol. 122(564), pp. 447-466; and Swanson, E. (2021), Measuring the
+effects of federal reserve forward guidance and asset purchases on financial
+markets, Journal of Monetary Economics, Vol. 118(C), pp. 32-53.
+See, for example, Couture, C. (2021), Financial market effects of
+FOMC (Federal Open Market Committee) projections, Journal of
+Macroeconomics, Vol. 67 and Hillenbrand, S. (2023), The
+Fed (Federal Reserve System) and the Secular Decline in Interest Rates, Accepted,
+Review of Financial Studies.
+Draghi, M. and V. Constancio (2013), Introductory statement to the press confer-
+ence (with Q&A), Frankfurt am Main, 4 July 2013.
+See, for example, Altavilla, C. et al. (2021), Assessing the efficacy, efficiency and
+potential side effects of the ECB (European Central Bank)’s monetary policy
+instruments since 2014, ECB (European Central Bank) Occasional Paper, No. 278;
+Andrade, P. and F. Ferroni (2021), Delphic and Odyssean monetary policy shocks:
+Evidence from the euro area, Journal of Monetary Economics, Vol. (117), pp.
+816-832; Kerssenfischer, M. (2022), Information effects of euro area monetary
+policy, Economics Letters, Vol. 216(C); and Monetary Policy Committee,
+Taskforce on Rate Forward Guidance and Reinvestment (2022), Rate forward
+guidance in an environment of large central bank balance sheets: A Eurosystem
+stock-taking assessment, ECB (European Central Bank) Occasional Paper No.
+290.
+The Eurosystem produces macroeconomic projections four times a year.
+ECB (European Central Bank) staff produces them in March and September. In
+June and December, they are co-produced by ECB (European Central Bank) and
+national central bank staff.
+See Morris, S. and H. Shin (2005): Central Bank Transparency and the Signal
+Value of Prices, Brookings Papers on Economic Activity, Vol.36(2), pp. 1-66 for a
+general treatment of the role of transparency.
+
+
+18.
+19.
+20.
+21.
+22.
+Hofmann, B. and D. Xia (2022), Quantitative forward guidance through interest
+rate projections, BIS (Bank for International Settlements) Working Paper No.
+1009.
+Natvik, G. et al. (2020), Does publication of interest rate paths provide guid-
+ance?, Journal of International Money and Finance, Vol. 103.
+Detmers, G.-A (2021), Quantitative or Qualitative Forward Guidance: Does it
+Matter?, Economic Record, Vol. 97(319), pp. 491-503.
+Blinder, A. et al. (2008), Central Bank Communication and Monetary Policy: A
+Survey of Theory and Evidence, Journal of Economic Literature, Vol. 46(4), pp.
+910-945.
+See ECB (European Central Bank) (2024), ECB (European Central Bank) staff
+macroeconomic projections for the euro area, March 2023, box 6 for a
+rundown.

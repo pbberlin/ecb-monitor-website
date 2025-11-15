@@ -1,0 +1,420 @@
+Speech by GovernorGabriel Makhlouf to OECD
+ 
+Growing pains: how
+demographics, migration
+and technology will reshape
+Europe’s workforce
+Lecture at the OECD
+Good morning and thank you for the invitation to speak here today.  It is a pleasure to
+be back at the OECD and to talk about a topic that is rarely far from the top of the policy
+agenda, namely labour market developments. Whether it is in relation to long-run
+growth prospects or the drivers of inflation, labour market dynamics play a crucial role. 
+My speech will today will cover three inter-related topics.
+First, I will reflect on the resilience of labour markets over the last five years,
+highlighting the key developments that have seen employment in the euro area grow
+steadily, despite a sequence of negative shocks.  
+22 September 2025Speech
+1
+
+Next, I will explore how looming demographic challenges, ageing populations, declining
+fertility and shrinking work forces, will drag on employment growth and therefore
+economic growth in the coming decades, with migration only offering a partial, albeit
+important, solution to the challenge.
+As demographic headwinds bite, finding ways to boost labour force participation and
+productivity becomes even more important as a driver of economic growth. Despite this,
+policy reforms to structurally raise participation rates in Europe have been slow in
+coming. On top of this, recent productivity trends for the euro area are not good.  In the
+final part of my speech I will discuss how new technologies, and artificial intelligence
+(AI) specifically, can be harnessed to boost productivity, and how this interacts with
+some of the labour market dynamics.
+The Euro Area Labour Market
+2019-2025: a quiet champion
+In the face of unprecedented shocks in recent years, the Euro area labour market has
+held up exceptionally well. This performance is all the more remarkable when we recall
+the hysteresis that characterised previous downturns. And it’s why I refer to it as the
+‘quiet champion’.
+The labour market entered the pandemic in good shape. Monthly unemployment in the
+euro area reached a low of 7.2 percent in March 2020, reflecting steady, if
+unspectacular, growth since around 2015. Notably, around two-thirds of the expansion
+of the labour force in the years prior to the pandemic was immigration from outside of
+the euro area. Around this time, falling unemployment and rising job vacancies were
+also contributing to tighter labour market conditions, seen as a key driver of wage
+growth.2
+
+The pandemic triggered an immediate labour market disruption. Labour demand ground
+to a halt as job openings collapsed (PDF 946.55KB). Unemployment peaked at 8.6 per
+cent in August 2020. However, the euro area’s response differed markedly from other
+regions, particularly the United States which saw a much larger unemployment spike.
+The difference reflected the extensive use of job retention schemes across Euro area
+countries, which maintained employment relationships while reducing working hours.
+These policies helped to support incomes in the face of an exceptional shock, but also
+facilitated a smoother recovery once economic activity resumed.
+By the third quarter of 2021, little more than 18 months after the start of the pandemic,
+the employment rate in the euro area was above pre-pandemic levels, at 69 per cent of
+the working age population. Post-pandemic labour market dynamics have, however,
+proved to be more than just a rebound. Employment has continued to grow despite
+further shocks such as the war in Ukraine and rising geopolitical tensions, with the euro
+area employment rate hitting 70.8 per cent in late 2024; unemployment hit an all-time
+low of 6.2 per cent in late 2024 and has remained around that level since.
+Several factors contributed to this resurgence.
+On the demand side, post-pandemic pent-up demand, especially in consumer facing
+services, boosted the demand for workers. The slow adjustment of real wages – falling
+by around 2 per cent between 2021 and 2023 – was another important factor. As wage
+adjustment to the inflation surge lagged, this acted as a ‘shock absorber’, making
+labour more attractive than capital and thereby supporting labour demand.   
+ points to the combined role of high profit margins and falling real wages in
+providing financial space for firms to hoard labour during the recovery from the crisis,
+especially in manufacturing.
+3
+4 ECB
+analysis
+5
+
+On the supply side, the labour force in the euro area increased by over 8 million
+between 2021 and 2025, growing at an average annual rate of 1.2 per cent.   This is
+almost four times the rate of growth we saw prior to the pandemic. And, much like the
+earlier period, migration has been an important source of workforce growth. Eurostat
+data shows that almost half of the increase in the size of the labour force is from foreign
+workers, that is, non-euro area nationals. In addition, foreign workers have also seen a
+larger increase in their employment rate in recent years, relative to nationals. The
+combined effects on GDP are large:  has estimated that 4 of the 5 percentage
+point cumulative increase in GDP between 2019 and 2024 is attributable to foreign
+workers.  
+This is a euro area picture. When we look at individual countries, the relative role
+played by migration and increasing employment and participation rates differs. For
+example, growth in Italy, with a relatively lower participation rate, has been helped more
+by higher participation rates of nationals. Whereas the likes of Germany, with a
+declining working age population, has relied more on an influx of foreign workers to
+offset the effects of the population ageing. Some countries, like Ireland and Spain have
+relied on both channels, with higher participation rates and inward migration boosting
+employment growth in both countries.   
+I emphasise the migration channel for two reasons. First, assumptions about migration
+patterns can have a big impact on population growth estimates, as I outline below.
+Second, in the euro area, migration happens : there was an
+almost identical increase in the share of high-skilled migrant and national employment
+between 2015 and 2023. This suggests that migration also matters for productivity
+growth.  I return to this in the next section that looks at longer-term demographic
+trends.
+Longer-term demographic trends –
+where cyclical meets the structural
+Looking ahead, at a euro area level some labour market cooling is expected over the
+current forecast horizon, through to end-2027. The September ECB staff
+macroeconomic projections have annual employment growth averaging around 0.5 per
+cent over the next two years, a significant drop-off compared to the recent experience.
+6
+the ECB
+across the skill distribution
+7
+8
+
+Some of this reflects a cooling of labour demand. We are already seeing this in job
+vacancies, which have declined from their post-pandemic peaks, although at the
+country level we see  in these trends. For example, job
+postings in Spain and Italy remain around 50 per cent above pre-pandemic levels;
+whereas in Germany and France, the figure is closer to 15-20 per cent, reflecting more
+labour market cooling in these countries.
+The employment growth slowdown also reflects demographic factors that were initially
+rather slow moving, but are now beginning to bite. I have previously talked about this as
+the ‘quick-quick’ phase of demographic change: a period when the population structure
+in many countries will go through a rapid transition phase, culminating in a far larger
+retired and elderly population, essentially an inversion of the population pyramid (PDF
+1.35MB) that has characterised many developed countries for decades. Between 2024
+and 2027, the euro area working age population is  (or
+1.5 million workers between the ages of 15 and 64).  Some countries see large
+declines, for example Latvia (-4.8 per cent), Lithuania (-3.4 per cent), Greece (-2.6 per
+cent), Portugal (-2.1 per cent), Germany (-1.5 per cent) and Austria (-1.3 per cent).
+Even among those countries treading water – such as Belgium, France, Spain, the
+Netherlands, Finland and Cyprus, all start to see their working age populations decline
+from 2027 onwards. The longer-term impact is stark: the ‘old-age dependency ratio’ in
+the euro area, that is, the population aged 65 and over as a proportion of the population
+aged 15-64, is set to increase sharply from 33.7 in 2022 to 51.2 in 2050.  
+cross-country differences
+projected to fall by 0.7 per cent
+
+These trends will exert varying, and sometimes contradictory, effects on inflation. An
+older population with lower consumption and higher savings could place downward
+pressure on aggregate demand, limiting price growth in certain sectors. This aligns with
+the “secular stagnation” hypothesis, which has argued that ageing societies are more
+prone to disinflationary forces. At the same time, a shrinking working-age population will
+tighten labour markets in the absence of increases in labour force participation rates.
+This puts upward pressure on wages that feed into services inflation. Moreover, as
+older cohorts consume more health care and age-related services; relative price
+increases in those areas may become more entrenched. The balance of these effects is
+hard to predict, but one potential outcome is higher structural inflation in labour-
+intensive, non-tradable sectors (i.e. services), even as weak aggregate demand keeps
+headline inflation subdued. This creates an environment in which inflation dynamics are
+increasingly segmented, complicating the job of central banks that aim to stabilise
+prices economy-wide.
+Returning to demographic trends, the workforce in Ireland is also ageing, although the
+trend somewhat lags what we see in other European countries. There are two main
+reasons for this. First,  during the early-2000s will continue
+to support growth in the working age population in the near-term.  However, rapidly
+falling fertility rates since then, Ireland’s fertility rate was 1.5 in 2023, down from almost
+2 in 2003, and converging on the EU average of 1.4, means that from the mid-2030s
+onwards, Ireland has one of the fastest ageing populations in Europe, rapidly closing
+current gaps in the dependency ratio, when compared to other countries. Central Bank
+of Ireland analysis (PDF 1.19MB) projects the long-term growth rate of the economy to
+slow by 2050 to below half its historic average growth rate observed over the last half
+century.
+relatively higher fertility rates
+9 
+
+The second mitigating factor is migration. A 
+ shows how inward migration has been central to Ireland’s
+growth story. Over the period 1995-2020, all European countries saw an increase in the
+share of international migrants in their population, but Ireland’s trajectory stands out:
+from just over one-in-twenty international migrants in the population in 1995, by 2020
+this was one-in-five, similar to figures for Austria, Germany and Sweden.  As the report
+notes, while it can have large impacts, net migration is hard to predict, and, in the case
+of Ireland at least, it has been historically under-predicted. However, even 
+ of net migration returning to pre-pandemic levels of around
+40,000 per year sees Ireland’s labour force growth stay in positive territory through to
+2047. In a low migration scenario – just under half this level – the labour force starts to
+contract much earlier, from 2041 onwards.
+The point here is not so much to get bogged down in population or migration projection
+scenarios – which, as I said, are highly uncertain – but rather to highlight the extent to
+which migration can help mitigate the demographic and growth drag from ageing
+populations and falling fertility rates. This could allow time for governments to develop
+and implement other policies, mainly around labour force participation and productivity,
+as I discuss in the final section of my speech.
+Some final thoughts on migration.
+The preceding discussion focuses on the direct impact of migration, that is, on numbers
+in work. However, as , among others, has shown, migration supports
+growth beyond direct effects. This includes the potential for positive net fiscal impacts,
+i.e. taxes and contributions that migrants pay compared to the benefits and public
+services they receive – fostering trade linkages and contributing to job creation and
+entrepreneurship.
+And while migration can offset some of drag on economic growth from unhelpful
+demographic dynamics – as well as helping to 
+, we cannot ignore the growing political and social resistance to immigration
+in many countries.
+recent report by Ireland’s Department of
+Finance (PDF 2.71MB)
+baseline
+assumptions (PDF 2.71MB)
+OECD research
+smooth out cyclical labour market
+fluctuations
+
+For me it emphasises the importance of robust evidence and building a narrative that is
+based on facts. Research has shown that perceptions about migration can be wide of
+the mark, be it about the number and characteristics of migrants, or their economic
+contribution to society. It is important that decision makers continue to have a solid
+evidence base on the impact of migration on our economies, including how it interacts
+with demographic trends. OECD research and analysis provides a valuable evidence
+base to support effective decision-making.
+Shrinking not sinking
+Migration can mitigate some of the effects of the coming demographic changes, but it
+cannot push back the tide. In this section, I now want to look at other how increasing
+labour force participation and productivity growth can help.
+As I have said previously, with shrinking populations, increasing labour force
+participation is a necessary part of the solution. For the working age population, it is
+important that reforms to tax and benefit systems remove disposable income cliff-edges
+and tax wedges that can impinge on incentives to work. In this regard, ongoing 
+ on how tax and benefit systems affect incentives to work provide an important
+public policy role.
+We also need to look beyond the traditional definition of working age population as 15-
+60/64 years of age and boost participation in the post-60/65 population. In a world of
+longer  and , sustaining living standards will need people to work
+beyond what is currently considered ‘typical’ retirement age. A recent  on
+making the labour market work for older workers puts it well:
+“To sustain living standards and address structural labour shortages, many countries
+will need people to work beyond 60 or 65. This requires labour market policies and
+employer practices that support the hiring, retention and most importantly the
+employability of mid-to-late career workers. Employers, employees, governments and
+social partners all have a role in promoting lifelong learning, improving job quality and
+promoting healthy workplaces to ensure the employability, well-being and economic
+contribution of older workers in an evolving world of work.”
+10
+OECD
+research
+lifespans health spans
+OECD report
+
+The impact of increased labour force participation in the post-60/65 population is
+potentially large. Take the old-age dependency ratio as an example. Defining the
+working age population as 15-69 instead of typical 15-64, and taking Eurostat’s current
+population projections, the euro area dependency ratio in 2050 is 36.6 instead of 51.2;
+in Ireland it ‘falls’ from 43.2 to 29.1.  To put these changes in context, allowing for a
+‘high migration’ scenario in population projections results in a relatively small decrease
+in the euro area 2050 dependency ratio, to just 48.9; for Ireland, it falls to 40.8.
+Shifting our perceptions of the working age population can alleviate some unpleasant
+demographic arithmetic. However, given relatively lower participation rates in general
+for older workers, these effects likely represent the upper-end of potential upside
+scenarios to raising participation rates. Having said that, labour force participation rates
+have increased for the 65-69 age group in recent years, from 13 to 18 per cent in the
+euro area between 2019 and 2025, and from 23 to 30 per cent in Ireland over the same
+period. For comparison, the participation rate of 65-69 year olds in the US in 2024
+was .
+Thus far, my remarks have focused on the role of the size of the working age population
+in growth. I will finish with a brief discussion on the other fundamental growth driver,
+namely productivity.
+In previous speeches I have highlighted the drivers of weak productivity growth in
+Europe, and policies to try and improve it. On the policy front, implementing the
+proposals in the  and  reports – mainly around completing the Savings and
+Investment Union and removing barriers that restrict trade in goods and services in the
+EU single market – must be a priority. You will not be surprised to hear that this was a
+topic of conversation at last week’s meeting of EU Finance Ministers and Central Bank
+Governors.
+11
+12
+33.4 per cent
+Draghi Letta
+
+But here I want to talk specifically around developments in AI. We are still in the early
+take-up phase of a technology that is itself rapidly evolving. But it is already clear that 
+ are faster compared to historical episodes of new technology roll-outs,
+such as the advent of the personal computer.  What we have seen so far in terms of
+the , including in my own organisation, suggests that it has the potential to
+disrupt existing employment patterns, both as a substitute for existing labour through
+the automation of certain tasks and as a complement to existing skills.  Together, this
+will create new opportunities for workforce growth and productivity gains. We need to
+prepare now for the changes that are coming. This means, among other things, more
+flexible labour markets that allow for worker mobility within and between firms, as well
+as across sectors and occupations. It also means providing training opportunities for
+workers – both younger and older – to drive upskilling and support transitions to new
+roles that may not even exist yet.
+In many ways, this is revisiting the ‘ ’ debate in Europe. Speaking at the OECD,
+many of you will be familiar with the concept, but flexicurity is essentially about
+balancing flexibility for employers and security for workers so that firms and workers
+can adjust efficiently to economic changes and new technologies, while also
+maintaining social inclusion and competitiveness.
+In the early-2000s, flexicurity became synonymous with labour market structural
+reforms.  As you will have seen from our , the ECB’s Governing
+Council considers it important for governments to adopt growth-enhancing structural
+reforms that can strengthen the euro area economy in the current environment.
+AI
+adoption rates
+use of AI
+13
+flexicurity
+14
+15 September decision
+
+In the context of AI, and given the 
+, we must reduce both bureaucratic and financial hurdles to starting, and
+scaling-up, a recurring theme in both the  and  reports.  Reforms that align
+and streamline hiring procedures across the euro area will help to minimise risks to
+firms of adopting new technology, as well as encouraging greater cross-country worker
+mobility, which will be particularly important for high-demand digital or AI skills. Related
+to this, mutual recognition of skills and aligning this to the national university and
+vocational training programmes at the country level will help to balance supply and
+demand for skills at a European level. Better coordination around the passporting of
+worker benefits, be it pensions, training credits or even health insurance – would also
+encourage mobility across firms, sectors and countries. As AI shifts the demand for
+skills, active labour market programmes that focus on reskilling, not just younger, but
+also mid-career workers, linking back to my earlier discussion – will be important.
+Conclusion
+Despite a series of negative shocks in recent years, employment in the euro area has
+steadily grown, driven by strong post-pandemic demand and increased labour force
+participation, bolstered by inward migration. Looking ahead, demographic shifts will
+slow employment growth. Migration offers a partial solution, but the dividend from
+raising labour force participation rates is arguably greater. And, we need to be thinking
+about participation in the context of new generations living longer and healthier
+lives.          
+Raising productivity growth will be fundamental for sustaining living standards. The roll-
+out and rapid adoption of AI has led to much hype about its productivity promise, but
+the eventual impact remains highly uncertain.  Nonetheless, flexible labour markets and
+proactive reskilling of workers across the age distribution will be essential to maximise
+the productivity enhancing potential of these new technologies.
+To sum up, what the data is telling us is that our societies are facing a series of
+important choices if we want to sustain or improve our future living standards (or,
+perhaps more accurately, for some of us at least, the living standards of our children
+and grandchildren). 
+role of start-ups in driving innovation historically (PDF
+411.04KB)
+Draghi Letta
+
+We could of course just accept that living standards will worsen but I see little evidence
+that poorer living standards are likely to be tolerated by the majority of our citizens. I
+suppose we could also see an increase in fertility rates but I am not sure this would
+solve the challenge on its own and, on the evidence, that would require a significant
+reversal in recent trends. 
+Our choices are likely to involve improvements in our productivity, an increase in labour
+market participation and inward migration. In my view a combination of these, they are
+not mutually exclusive - offer us the most effective route to building the best
+opportunities for our grandchildren. 
+I do not suggest that this will be straightforward. To help us to choose well, we will need
+researchers and organisations such as the OECD to set out the facts in an accessible
+way and enable informed choices to be made by policymakers, and which can be
+understood by our citizens. 
+[1] Thank you to Rea Lydon, Daragh Clancy, Rob Kelly and Conor O’Shea for their help
+in preparing these remarks.
+[2] See, for example, the discussion on wage growth dynamics and labour market
+tightness in the . In 2014, there were
+more than ten unemployed persons for each job vacancy; by 2019, this had fallen to
+around four unemployed persons for each job vacancy. Despite an initial collapse in job
+vacancies (PDF 946.55KB) at the onset of the pandemic, the post-pandemic rebound
+would see this ratio almost halve again.
+[3] Monitoring wage dynamics after the inflation surge was important for monetary
+policy makers concerned about ‘second round effects’ that could drive inflation
+persistently about target. See for example, my November 2021 remarks “Inflation
+dynamics in a pandemic: maintaining vigilance and optionality”, where I highlight this
+risk. The development of more forward-looking and real-time wage trackers – such as
+the  and the , developed by the
+Central Bank of Ireland and the jobs site Indeed – have provided crucial information on
+wage dynamics.
+December 2019 Eurosystem macro projections
+ECB Negotiated Wage Tracker Indeed Wage Tracker
+
+[4] On real wage dynamics during the inflation surge, see 
+.
+[5] One of the flip sides of labour hoarding is lower productivity growth, measured as
+output per worker. Understanding the reasons for weak productivity during the post-
+pandemic recovery was a key issue for the Governing Council in recent years. For more
+on this, see Chapters 2 and 3 of the ECB/Eurosystem 2025 Strategy
+Review 
+.
+[6] For context, this is only marginally lower than the average annual growth rate of the
+US labour force between 2022 and 2024. With euro area unemployment rates changing
+little over this period, increases in the labour force map almost directly to increases in
+employment.
+[7] Beyond productivity effects, the concentration of migrant workers in certain sectors
+is also notable. For example, healthcare in Ireland is a case-in-point. 
+ (2023) show that almost one quarter of nurses and midwives were from
+outside Ireland, while more than 7 in 10 new doctors registered in 2022 were trained
+abroad.
+[8] The slowdown in employment growth is not unique to Europe. For example, the IMF
+WEO (April 2025) has employment growth in the United States at 0.5 per cent in 2026,
+in part due to a large slowdown in inward migration. This is down from a 2021-23
+average of almost 3 per cent.
+[9] The fertility rate measures the number of live births per woman. See 
+ for more on fertility statistics and trends.
+[10] This catchy title is from the .
+[11] I use Eurostat’s  calculations from March, 2023.
+President Christine Lagarde’s
+2025 speech at the Kansas Fed Symposium in Jackson Hole, Wyoming
+Occasional Paper “A strategic view on the economic and inflation environment
+in the euro area” (PDF 3.02MB)
+Government
+statistics
+Eurostat
+(2025)
+Economist magazine’s September 13 , 2025 editionth
+EUROPOP23
+
+[12] The ‘high migration’ scenario assumes 33 per cent more immigration than in the
+baseline from non-EU countries in each year covering the projection horizon. For the
+euro area, the baseline assumption is for approximately net 1 million non-EU migrants
+each year from 2026 onwards, down from almost 4 million in 2022, a figure significantly
+boosted by Ukrainian’s fleeing the war with Russia. For comparison, net immigration
+into the EU from 2015-19 averaged 1.4 million per year.
+[13] For more on this, see, amongst others, , 
+, ,  and 
+.
+[14] For OECD publications on the topic, see, for example 
+.
+The  also notes how “Denmark’s well-
+functioning “flexicurity” facilitates reemployment of workers displaced by the energy
+transition.”
+[15] See, for example, the 
+ on “Towards Common Principles of Flexicurity”.
+Anthropic (2025) Kazinnik and Brynjolfsson
+(2025) Babina and Fedyk (2025) Hampole et al. (2025) Agrawal, Gans and
+Goldfarb (2025)
+“Flexicurity and the
+Economic Crisis 2008-2009: Evidence from Denmark” (Eriksson, 2012) (PDF 1.66MB)
+2021 OECD Economic Survey for Denmark
+2007 Communication from the Commission to the European
+Parliament, the Council, the European Economic and Social Committee and the
+Committee of the Regions

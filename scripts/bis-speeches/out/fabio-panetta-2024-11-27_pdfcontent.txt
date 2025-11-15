@@ -1,0 +1,586 @@
+TM
+Back to the future: forward-looking considerations 
+on monetary policy normalization
+Speech by Fabio Panetta* 
+Governor of Banca d’Italia
+Bocconi University,  
+Milan, 19 November 2024 
+Good morning everyone. 
+Let me first of all thank the Rector of Università Bocconi, Professor Francesco Billari, for 
+inviting me here today. It is a pleasure to visit this prestigious and renowned institution. 
+And it is always a privilege to discuss economics with young people who are studying this 
+discipline today, but will shape its course tomorrow.
+This meeting takes place at an interesting time for monetary policy.
+The exceptional shocks of 2022-23 are gradually fading into the background, and 
+inflation in the euro area is not only lower, but also less volatile than it has been for a 
+long time (Figure 1). As a result, inflation forecast errors have also normalized (Figure 2). 
+The euro area has completed a long, historic journey through terrae incognitae  that 
+began immediately after the COVID pandemic.
+* I wish to thank Piergiorgio Alessandri and Alessandro Secchi for their valuable insights and contributions.
+Figure 1
+Euro-area inflation going back to normal
+(percentage changes and percentage points)
+−6
+−4
+−2
+0
+2
+4
+6
+8
+10
+12
+−2.0
+−1.5
+−1.0
+−0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+2003 2006 2009 2012 2015 2018 2021 2024
+HICP inflation Target HICP inflation, monthly change (1)
+Source: ECB and Eurostat.
+(1) Right-hand scale.
+
+2
+This return to charted territory is clearly good news. But the current economic landscape 
+presents its own challenges. At the global level, geopolitical tensions are high, and 
+political developments in a number of countries are difficult to predict. In the euro area, 
+the economy is stagnating and interest rates are still in restrictive territory. How should 
+the ECB proceed?
+Today I will argue that this ‘new’ phase has three main implications for the conduct of 
+monetary policy. 
+First, with inflation close to target and domestic demand stagnant, restrictive monetary 
+conditions are no longer necessary. In the current phase we should focus more on the 
+sluggishness of the real economy: without a sustained recovery, inflation risks being 
+pushed well below target, opening up a scenario that would be difficult for monetary 
+policy to counteract and should therefore be avoided. In short, we need to normalize 
+our monetary policy stance and move to neutral – or even expansionary territory, if 
+necessary.  
+Second, we can now return to a more traditional, genuinely forward-looking approach 
+to monetary policy, in line with our medium-term orientation. Removing monetary 
+restrictions when aggregate demand is faltering is a simple example of how this principle 
+translates into practice; but the principle is far more general. The exceptional circumstances 
+of the past two years have forced central banks to give less weight to forecasts and to 
+live day by day (or ‘meeting by meeting’). Now that the situation on the inflation front 
+is normalizing, the ECB should also normalize the way it calibrates its monetary policy 
+stance, by returning to tradition and refocusing on its medium-term reaction function. In 
+short, we should go ‘back to the future’. 
+Third, and in line with the points I have just made, our communication should provide 
+more guidance on the expected evolution of our policy than has been the case in the 
+Figure 2
+Projection errors for euro-area inflation (1)
+(percentage points)
+(a) One quarter ahead projection errors (b) Four quarters ahead projection errors
+−4
+−2
+0
+2
+4
+6
+8
+−4
+−2
+0
+2
+4
+6
+8
+2004 2009 2014 2019 2024
+−4
+−2
+0
+2
+4
+6
+8
+−4
+−2
+0
+2
+4
+6
+8
+2004 2009 2014 2019 2024
+Source: elaborations on ECB data.
+(1) Based on ECB/Eurosystem projections for headline inflation. Dotted lines denote an interval around zero of plus/minus two standard deviations of projection 
+errors realized in 2003-2020.
+
+2 3
+recent past. This will help firms and households to form their views on the future path of 
+policy rates, thereby supporting demand and the recovery of the real economy.
+In the rest of my speech I will explore these issues starting with an analysis of what has 
+changed and why it matters. 
+1.  A fragile global macroeconomic outlook 
+Inflation has been falling steadily in the main advanced economies in 2024; 1 the 
+disinflation process has been rapid and generally less painful than in past experiences. 
+For economic activity the picture is more complex. A clear divide has emerged between 
+the two main global players, the US and China. 
+In the US inflation is falling, albeit unevenly, amid robust consumption and income 
+growth. This prompted the Federal Reserve to cut interest rates by 75 basis points 
+between September and November. The forthcoming change in the US administration 
+adds uncertainty to the inflation outlook: changes in fiscal and trade policy are likely to 
+have a significant impact on the economy, with implications for monetary policy.  
+In China, by contrast, subdued demand and a protracted real estate crisis have depressed 
+inflation and weakened economic activity, leading to extraordinary monetary and fiscal 
+interventions. These measures have supported financial markets, but their effectiveness 
+in boosting growth and restoring price stability remains uncertain.
+At the global level, activity in the goods and services sectors continues to diverge. 
+These two sectors took different paths in the aftermath of the pandemic, and the gap is 
+still pronounced: manufacturing performed poorly throughout the year, while services 
+generally performed better. 2 After a robust expansion in the first half of the year, trade 
+slowed in the third quarter, partly due to the slowdown in China. 
+Looking ahead, the IMF forecasts that global growth will remain roughly constant at 
+3.2 per cent for the next two years, with a significant gap between the US and the euro 
+area. The IMF’s medium-term forecast of 3.1 per cent remains close to its historical 
+minimum.
+2.	 The	euro	area:	a	shaky	recovery	with	falling	inflation
+Inflation in the euro area is in line with or ahead of the global trend. The disinflation 
+process has been faster and smoother than some had anticipated: medium-term 
+inflation expectations remained anchored, generalized second-round effects through 
+wages did not materialize, and concerns about the ‘last mile’ problem – the idea that 
+1 With the exception of Japan, where it remained roughly constant near the 2 per cent target.
+2 This sectoral divergence also affects inflation rates, which are globally much higher for services than 
+for goods. More on this below.
+
+4
+the final phase of the disinflation might for some reason be the most difficult – proved 
+groundless. 
+This rapid normalization was largely due to the unwinding of the supply shocks that 
+had caused prices to accelerate in the first place. The ECB’s action and its credibility 
+contributed to the process. 
+Headline inflation fell below the 2 per cent target in September. It then returned exactly 
+to target in October, reflecting a temporary increase largely due to base effects. 3 Some 
+ups and downs are to be expected in the coming months, again due to base effects, but 
+the baseline is one in which inflation continues to fall in early 2025 and remains on target 
+thereafter.
+Economic activity remains weak. The 0.4 per cent growth rate recorded in the third 
+quarter of 2024 provided some respite after two years of stagnation, but we should not 
+read too much into this figure: the region remains on course for annual growth of at 
+most 1 per cent in 2024. The malaise of European manufacturing is confirmed by the fact 
+that industrial production has been falling for two years and is now below pre-pandemic 
+levels (Figure 3). 
+Leading indicators suggest that the turning point for Europe’s beleaguered 
+manufacturing sector is not in sight. In Germany, PMIs are around the levels seen in 
+the spring of 2020 or in 2009, neither of which are particularly reassuring benchmarks 
+(Figure 4.a). 4 The euro area services sector is in better shape, but it benefited from  
+one-off events such as the Olympic Games in the summer and may now be slowing 
+down (Figure 4.b).
+3 The base effect is the temporary effect on the measurement of inflation resulting from unusual price 
+developments in the initial (base) period for which inflation is calculated. These mechanical changes 
+are statistical phenomena due to past events and do not reflect current economic trends. 
+4 The problems are widespread. The German economy is a good barometer for the area as a whole; 
+given its size, it also has a powerful indirect influence on its neighbours.
+Figure 3
+Industrial production in the euro area (1)
+(index numbers: January 2020=100)
+70
+80
+90
+100
+110
+70
+80
+90
+100
+110
+2019 2020 2021 2022 2023 2024
+Euro area Euro area (excl. Ireland) Germany France Italy
+Source: elaborations on Eurostat data.
+(1) Three-month moving average.
+
+4 5
+The unemployment rate remains at its historical minimum of 6.3 per cent (Figure 5.a).  
+However, the job vacancy rate, a leading indicator of future employment dynamics, 
+has been on a downward trend for more than two years and is currently not far from 
+pre-pandemic levels (Figure 5.b).
+In any case, it is especially the demand side of the economy that gives less cause for 
+optimism. Private domestic demand contracted in the first half of this year, leaving 
+growth entirely dependent on foreign demand (Figure 6). 
+The extent to which exports will continue to support GDP in 2025 is unclear at best. 
+The possibility that the US administration will introduce new tariffs is not reassuring in 
+this respect. Without a boost from exports, the euro area will need a strong rebound in 
+domestic demand to grow. 
+Figure 4
+Purchasing Managers’ Indices (PMIs) in the euro area
+(diffusion indexes)
+(a) Manufacturing (b) Services
+30
+40
+50
+60
+70
+30
+40
+50
+60
+70
+2010 2015 2020
+40
+45
+50
+55
+60
+65
+40
+45
+50
+55
+60
+65
+2022 2023 2024
+Euro area Germany France Italy
+Source: Standard & Poor’s Global.
+Figure 5
+Euro-area labour market indicators
+(percentage points)
+(a) Unemployment rate (b) Job vacancy rate
+6
+7
+8
+9
+10
+11
+12
+13
+6
+7
+8
+9
+10
+11
+12
+13
+2005 2010 2015 2020
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+2010 2015 2020
+Source: Eurostat.
+
+6
+The question is, how likely is this rebound?
+Consumption has been a recurrent disappointment so far. The recovery embedded in 
+past Eurosystem projections has repeatedly failed to materialize: households have proved 
+reluctant to spend, partly because of high real interest rates (Figure 7).5 
+Investment also remains weak. This is partly due to uncertain growth prospects. However, 
+tight financing conditions are also increasing the cost of capital for companies. In addition 
+to dampening demand in the short term, a persistently high cost of capital (relative to 
+5 Preliminary data suggest a possible strengthening of consumption in the third quarter, but its precise 
+extent and resilience remain to be seen.
+Figure 6
+Euro-area GDP growth rate and contributions of domestic and foreign demand
+(percentage changes and percentage points)
+−1
+0
+1
+2
+−1
+0
+1
+2
+2021 2022 2023 2024
+GDP growth (1) Net foreign demand Domestic demand
+Source: elaborations on Eurostat data.
+(1) Quarterly percentage changes.
+Figure 7
+Model-based decomposition of the change in the saving rate (1)
+(percentage points)
+−1
+0
+1
+2
+3
+−1
+0
+1
+2
+3
+Q4 2022 Q1 2023 Q2 2023 Q3 2023 Q4 2023 Q1 2024 Q2 2024
+Labour income
+Other income
+Net wealth
+Short−term interest rate
+Consumer confidence
+Residuals
+Saving rate
+Source: P . Lane, ‘Inflation and monetary policy in the euro area’ , Seminar at Columbia University, 22 October 2024 (updated estimates).
+(1) Decomposition based on an error-correction model for private consumption, including real household labour and other income, real net wealth, real interest rate and 
+household confidence. Real interest rates are computed as the difference between the nominal three-month EURIBOR and households’ inflation expectations one-year ahead.
+
+76
+labour and intermediate goods) prevents the adjustment in the capital-to-labour ratio 
+that would be necessary to raise productivity. 6 
+Last but not least, restrictive fiscal policies are likely to compress demand in 2025. 7 
+This interpretation of the data points to downside risks to growth, and hence inflation. 
+As always, there are alternative interpretations of the possible course of events, some 
+of which are associated with an emphasis on upside risks. In the absence of major 
+shocks, two factors could keep inflation persistently above target: service prices and 
+labour costs. The ECB should certainly remain vigilant on these fronts. 
+But how likely are services and wages to be a primary concern going forward?
+Services inflation remains high, at 3.9 per cent in October. However, services prices 
+are notoriously sluggish: for a large proportion of the services in the consumption 
+basket,8 prices adjust to past inflation with a lag. Since inflation is now much lower, it 
+will not lead to further large increases in services prices. Moreover, services inflation 
+has historically always been higher than goods inflation. This means that the ECB does 
+not need services inflation to reach 2 per cent to meet its target. 9 
+As regards wages, after the robust catch-up in 2023 and 2024, which was inevitable 
+given the previous rise in inflation, their dynamics are now normalizing. Wage growth 
+is evolving in line with Eurosystem projections. Moreover, business surveys suggest 
+that wage pressures will ease going forward, in line with the projections. If history is 
+any guide, the recent decline in the vacancy-to-unemployment ratio also points to a 
+less tight labour market, and hence to a moderation in compensation per hour in the 
+near future (Figure 8). Indeed, against the backdrop of subdued economic growth, it is 
+unlikely that we will see a new acceleration in wages next year.  
+Private sector inflation expectations are broadly consistent with the predominance of 
+downward risks to inflation.  For example, inflation-linked swaps suggest that inflation 
+will fall below 2 per cent in early 2025 and will remain around that level for the rest 
+6 F. Panetta, ‘Monetary policy in a shifting landscape’, dinner speech at the Inaugural Conference 
+of the Research Network on ‘Challenges for Monetary Policy Transmission in a Changing World’ 
+(ChaMP), Frankfurt, 25 April 2024. See also P. Cipollone, ‘Some like it hotter: the conditions for 
+a cyclical recovery in euro area productivity’, contribution to the Centre for European Reform’s 
+annual economics conference on ‘A European path to higher economic growth’, Ditchley Park,  
+15 November 2024.
+7 These may be driven by fiscal rules (such as the debt brake in Germany) and/or efforts to rein in high 
+deficits (e.g. in Italy and France). 
+8 Sluggish items (or ‘latecomers’) , such as insurance policies or health services,  account for around 40 
+per cent of the total services basket and 20 per cent of the total HICP basket. Last September, they 
+contributed 1.7 percentage points to an overall services inflation of 3.9 per cent.
+9 F. Panetta, ‘Monetary policy after a perfect storm: festina lente’, speech delivered at the Bank of Finland 
+International Monetary Policy Conference on ‘Monetary Policy in Low and High Inflation Environment’, 
+Helsinki, 26 June 2024.
+
+8
+of the year; 10 beyond one year, they signal risks of undershooting our target. In recent 
+months, restrictive monetary policy has played a key role in pushing these expectations 
+below 2 per cent (Figure 9).11
+The policies implemented by the new US administration may of course have an impact on 
+the inflation outlook, but we know too little today to speculate on the likely impact. There 
+could be inflationary pressures from a generalized increase in tariffs and a depreciation 
+10 Around 60 per cent of the analysts surveyed by the ECB (SMA) see inflation risks in 2025 as ‘balanced’, but 
+35 per cent now believe that they are tilted downwards. Consumers’ inflation expectations are declining 
+too. According to the ECB-CES data for September 2024, one-year ahead inflation expectations declined to 
+2.4 per cent (from 2.7 per cent), and three-year ahead expectations fell to 2.1 per cent (from 2.3 per cent).
+11 It is worth noting that market-based inflation expectations did not move much after the US elections. 
+This reflects the widespread view that the policies adopted by the new administration could, if anything, 
+affect the growth prospects of the euro area (for instance through a reduction in exports) rather than 
+its inflation outlook.
+Figure 8
+Compensations and vacancies in the euro area
+(percentage changes and ratio)
+0.5
+1.5
+2.5
+3.5
+4.5
+5.5
+0.25
+0.30
+0.35
+0.40
+0.45
+0.50
+2022 2023 2024 '25
+Compensation per hour Vacancy/unemployment ratio (1)
+Source: Eurostat.
+(1) Right-hand scale. The vacancy-to-unemployment ratio is shifted three quarters ahead.
+Figure 9
+A model-based decomposition of inflation expectations in the euro area (1)
+(basis points and per cent)
+−100
+−50
+0
+50
+100
+150
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+2022 2023 2024
+EA demand
+EA supply
+EA monetary policy
+US monetary policy
+US macro
+Global risk appetite
+5Y inflation swap rate (2)
+Source: elaborations based on C. Höynck and L. Rossi, ‘The drivers of market-based inflation expectations in the euro area and in the US’ , Economic Letters, 232, 
+2023, also published in Banca d’Italia, Questioni di Economia e Finanza (Occasional Papers), 779, 2023.
+(1) Changes relative to 3 January 2022. − (2) Right-hand scale.
+
+8 9
+of the euro. But these could be offset by the recessionary effects of a decline in trade 
+flows, higher economic uncertainty and lower commodity prices due to lower global 
+activity. In this case, the overall impact on euro area inflation could even be negative.
+3. Implications for monetary policy 
+How should monetary policy respond to the economic environment I have just described?
+First and foremost, the overarching objective should be a timely normalization of the 
+monetary policy stance. As outlined above, weak domestic demand continues to weigh 
+on economic activity, while the outlook for external demand is far from encouraging. 
+In a scenario where demand remains subdued, inflation could fall well below 2 per cent. 
+Tackling this situation with a restrictive monetary stance would be a mistake, as it would 
+exacerbate the undershooting of the inflation target. Instead, the ECB should face this 
+situation with a neutral stance. This way it could pause rate cuts if the undershooting is 
+likely to be temporary – or cut rates further if the undershooting appears likely to persist. 
+When discussing this issue, one is often confronted with the objection that the so called 
+r* (or ‘r-star’, namely the threshold that determines whether the stance is restrictive, 
+neutral or expansionary) is an elusive concept: nobody knows exactly what its value is. 
+The objection is factually correct, but I do not think it is relevant at this stage. 
+We are probably a long way from the neutral rate. 12 Moreover, we may need to cut 
+policy rates to below r* if the cycle deteriorates. There is nothing exotic about this 
+possibility: lowering policy rates below the neutral level at the trough of the cycle is 
+a standard policy prescription, which both the ECB and the Fed have adhered to in 
+the past (Figure 10). The question is not whether the ECB can, but whether it must. 
+12 Most estimates place it near zero, and in any case below 0.5 per cent. See C. Brand, N. Lisack and  
+F. Mazelis, ‘Estimates of the natural interest rate for the euro area: an update’, European Central Bank, 
+Economic Bulletin, 1, 2024, pp. 66-69.
+Figure 10
+Real short-term interest rates and r* in the euro area and in the US (1)
+(per cent and percentage points)
+(a) Euro area (2) (b) United States (3)
+−10
+−8
+−6
+−4
+−2
+0
+2
+4
+−10
+−8
+−6
+−4
+−2
+0
+2
+4
+2000 2005 2010 2015 2020
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+10
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+10
+1970 1980 1990 2000 2010 2020
+Real rate r* Real rate − r*
+Source: elaborations on data from the Board of Governors of the Federal Reserve System, the ECB, Eurostat, the Federal Reserve Bank of New Y ork and the US 
+Bureau of Economic Analysis.  
+(1) The natural rate (r*) is estimated according to the Holston, Laubach and Williams methodology. − (2) EONIA and Euro short-term rate (€STR) deflated by one 
+quarter ahead annual inflation. − (3) Effective federal funds rate deflated by one quarter ahead annual inflation.
+
+10
+Answering this question requires a constant and careful examination of the evolution 
+of the macroeconomic outlook.
+Second, policy decisions should once again be guided by a truly forward-looking view of 
+economic developments and inflation. The prescription to normalize the monetary stance 
+is, in fact, a corollary to this principle. So far, the strong reliance on actual outcomes has 
+been justified by the exceptional shocks and the associated high uncertainty observed in 
+the period 2020-23. Now, the supply shocks of recent years have been absorbed, inflation 
+volatility and forecasting errors have declined and macroeconomic relationships have 
+become more stable. In this context, inflation projections based on a genuine economic 
+analysis of the fundamental drivers of inflation are more relevant than price indicators, 
+such as “underlying inflation” estimates. All indicators have a place in a central bank’s 
+toolkit, but their relative relevance naturally changes over time.13
+Finally, communication matters. After three rate cuts, with inflation around the target and 
+economic activity stagnant, the tightening bias in our official description of the monetary 
+stance is no longer necessary. 14 Furthermore, the emphasis on ‘meeting-by-meeting, 
+data-dependent’ decisions does not fit well with the renewed focus on a forward-looking 
+approach. It would continue to place the ECB at the far end of the spectrum ranging from 
+‘no guidance’ to ‘full commitment’.
+There is an obvious trade-off between the two: ‘no guidance’ leaves a central bank 
+free rein, but creates uncertainty about the path of policy rates; ‘full commitment’ is 
+more effective in anchoring expectations, but can create undesirable constraints and 
+reputational costs. We deliberately chose to maximise our freedom in the eye of the 
+storm, choosing the first option – but the situation has changed, and it is now time for 
+the ECB to give more explicit indications of its intentions.
+Some are extremely cautious. I understand that position, but I am also aware that ‘no 
+guidance’ carries its own risks, as it can make interest rates highly sensitive to economic 
+news. For example, interest rate expectations took a nosedive in October: a handful 
+of new numbers was enough for markets to price a much higher chance of a rate cut  
+(Figure 11). The Fed had a similar problem in August, when weak job reports led to 
+market volatility and an abrupt downward revision in interest rate expectations. These 
+reactions may indicate that – despite their best efforts – central banks are seen as ‘data 
+point dependent’ rather than ‘data dependent’. Clearly, this incorrect perception needs 
+to be addressed. A more explicit element of guidance would achieve this.
+A ‘directional guidance’ would help to stimulate consumption and investment, thereby 
+reducing the likelihood of a weak-demand scenario. It would help households and firms to 
+take more informed longer-term decisions. After all, the purchase of durable or capital goods 
+13 The very characteristics that made ‘underlying inflation’ so valuable during the volatile 2022-23 period, 
+including its smoothness and stability, make it less informative today. See also P. Lane, ‘Underlying 
+inflation’, lecture delivered at Trinity College, Dublin, 6 March 2023.
+14 The last press releases emphasized that “The Governing Council [...] will keep policy rates sufficiently 
+restrictive for as long as necessary” to achieve price stability.
+
+10 11
+is a form of commitment. If the central bank is not prepared to abandon the ‘no-guidance’ 
+approach, it becomes more difficult for households and firms to make commitments.
+4.  Conclusions 
+After a long journey in terrae incognitae, the euro area economy has returned to more 
+normal conditions. 
+The supply shocks of recent years have been absorbed, inflation volatility has declined 
+and inflation is close to target. Macroeconomic relationships have become more stable 
+and the real economy is likely to come (back) to the fore as a key driver of inflation 
+dynamics.
+In this context, the ECB can afford to normalize its monetary policy. It should do so by 
+bringing its policy rates to a neutral level, in line with the economic and inflation outlook, 
+so as to avoid the risk of undershooting the target; by returning to a more traditional, 
+genuinely forward looking approach to monetary policy, in line with its medium-term 
+orientation; and by adapting its communication in order to provide the necessary 
+guidance to consumers and investors. 
+This requires taking a brave step: we should brace ourselves and go ‘back to the future’. 
+Thank you for your attention.
+Figure 11
+Probability of a 25 basis points cut by the ECB in October 2024 (1)
+(percentage)
+PMI EA
+HICP FR, ES
+0
+20
+40
+60
+80
+100
+0
+20
+40
+60
+80
+100
+16 September 23 September 30 September 7 October 14 October
+Source: elaborations on LSEG data.
+(1) Market-based probability.
+
+Printed on EU-Ecolabel certified paper 
+(registration number FR/011/003)
+The life-cycle environmental footprint of the paper used  
+was offset by purchasing carbon credits and planting trees in Italy.
+Designed and printed by the Printing and Publishing Division of the Bank of Italy

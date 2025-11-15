@@ -1,0 +1,179 @@
+1/5 BIS - Central bankers' speeches
+Gabriel Makhlouf: Meeting challenges of a changing financial system
+Remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the 
+Central Bank of Ireland Financial System Conference, Dublin, 18 November 2024.
+* * *
+Fáilte, good morning and welcome to our Financial System Conference. Today's theme 
+is delivering a well-functioning financial system in a changing economy. We have an 
+excellent group of speakers but I'd like to welcome in particular Minister Pascal 
+Donohue, President of the Eurogroup, and Pablo Hernández de Cos, the former 
+Governor of Banco de España, a former colleague at the ECB's Governing Council and 
+a future colleague as Head of the Bank for International Settlements, the central 
+bankers' central bank as some describe it.
+In these opening remarks I will briefly discuss the evolution of the global financial 
+system, and how we at the Central Bank are transforming to meet the changes we are 
+seeing in Ireland's financial sector. I'll also look further ahead at some of the changes 
+we are expecting to see and how we are likely to respond.
+Evolution of the financial system
+Allow me for a moment to reflect on some of the change that we have seen in the 
+structure of the financial system through history, from early beginnings to today's digital 
+world.
+The earliest form of trade was conducted through the barter of goods and services, and 
+slowly evolved into using commodity or representative money. In fact virtual money did 
+not arrive with the digital age but was created around 5000 years ago by the Sumerians 
+who developed a financial architecture based on accounting, a legal system and a 
+variable rate of interest. The Lydians brought us the concept of physical money through 
+the creation of coins and laid the foundations for modern finance. 
+Fast forward a thousand years or so, and medieval times witnessed the emergence of 
+new financial instruments, such as bills of exchange and letters of credit, facilitating 
+long distance trade and reducing the risks associated with transporting large sums of 
+money across both land and sea.
+The Industrial Revolution marked a turning point as financial institutions emerged to 
+support a thriving industrial sector. Banks, stock markets and insurance companies 
+played important roles in mobilising capital, managing risk and facilitating economic 
+growth. I won't go on. 
+One thing that hasn't changed for some time is that modern (post-Westphalian) nation-
+states have also adopted fiat currency systems. And their central banks have become 
+the guardians of stability in the value of money relative to goods and services, and the 
+use of monetary policy tools to influence economic activity.
+
+2/5 BIS - Central bankers' speeches
+As technology continues to develop, we are seeing our monetary and financial system 
+also evolve and we all need to be ready for change.
+Meeting the challenge: transforming regulation and supervision
+Now, it's becoming something of a truism to say that the global economy is fragmenting 
+while the world, including countries such as ours, starts to undergo significant economic 
+transitions – in demography, in technology, in climate – while also experiencing a period 
+of unprecedented innovation. And change isn't just coming; in some parts of the world 1
+it is already here.
+In the face of a changing ecosystem, central banks, regulators, businesses and 
+consumers all have to adapt, transform and evolve.
+For our part, we are changing how we work and how our frameworks reflect an 
+increasingly digital world.
+While this transformation is across the whole of the Central Bank, I want to point to 
+some of what we've done so far.
+We have been changing how we engage with innovation in financial services, enabling 
+us to deepen our understanding of innovation, better inform our regulatory approach, 
+better explain to innovative firms what being regulated entails and better embed a 
+regulatory culture in fledgling and fast growing firms. 
+Since last year's conference, where we announced a consultation on our approach to 
+innovation engagement, we have successfully launched an Innovation Sandbox 
+Programme.2
+We have already received a substantial number of applications to our Combating 
+Financial Crime Sandbox, from across the innovation ecosystem (from early-stage start-
+ups, scaling firms, established financial services firms, and forward-thinking 
+partnerships). The projects submitted are exploring new technologies and developing 
+innovative methods to tackle financial crime, benefiting both the financial system and 
+consumers.
+In the coming weeks, we will be announcing the selected participants and we look 
+forward to sharing the insights and learnings that emerge from that work.
+In addition to our engagement with innovation, we'll continue to modernise our other 
+frameworks. These include our Consumer Protection Code while we work with our 
+European partners on the Digital Euro and on negotiations regarding the new EU 
+Financial Data Access Regulation, among other things.
+Our most comprehensive response to the changing financial system comes in the form 
+of our new supervisory framework.3
+
+3/5 BIS - Central bankers' speeches
+This is a direct response to the rapidly-changing and interconnected financial system 
+which we supervise, recognising that we need to change to make sure we can deliver 
+our supervisory and regulatory mandate effectively, both today and in the future.
+Our new supervisory framework
+Our new supervisory model is building on strong foundations. It will of course remain 
+risk-based but is evolving to deliver a more integrated approach drawing on all 
+elements of our mandate (consumer and investor protection, safety and soundness, 
+financial stability and integrity of the system).
+This enhanced approach is based on accumulated experience, on insight, on best 
+practice and is built for a faster moving and more complex financial services sector.  
+Importantly, it will also place consumer protection at the heart of day-to-day supervision.
+It will position us better as an organisation to meet our objectives to ensure consumers 
+of financial services are protected in a changing financial landscape.
+Firms will hear one consistent voice from the Bank, with more coordinated messaging 
+and more streamlined demands across the full span of our regulatory and supervisory 
+mandate.
+We will promote a more open and transparent supervisory approach. Strategic 
+supervisory priorities will be clearly identified and communicated in a proportionate and 
+timely manner. 
+To enable and implement our new supervisory framework we need the right operational 
+approach and organisational structure. We are moving to an organisational structure 
+where our regulatory and supervisory directorates will have teams responsible for 
+integrated supervision across all our regulatory outcomes. The changes come into 
+effect in January and you can read more about them on our website.
+Looking further ahead: innovation in payments, AI & tokenisation
+A core theme of the Central Bank's Strategy is being future-focused. And looking over 
+the horizon, there are three areas in particular which are likely to be the next significant 
+widespread technological developments in the financial system.
+The payments landscape is changing very rapidly, amid both technological and 
+business model innovation. Significant frictions remain, especially in cross-border 
+payments. We also need to strengthen our capabilities around Tokenisation and AI.
+We recognise that public innovation in payment systems must keep pace with private 
+innovation, otherwise challenges may arise in maintaining financial stability and 
+monetary sovereignty in a digitally disruptive era. The development of a National 
+Payments Strategy is one example of the importance of coordination to balance 
+competing interests for the betterment of consumers and small businesses.
+
+4/5 BIS - Central bankers' speeches
+In an increasingly digital world, it is also important that we ensure public money is 
+available in digital form. The introduction of a digital euro is a logical next step in the 
+evolution of our currency, while also responding to the shift in customer preferences for 
+digital payments, in order to 'future-proof' our money.
+It would be a digital form of cash, issued by the central bank and available to everyone 
+in the euro area.
+A digital euro would go hand in hand with banknotes, providing an all-in-one digital 
+payment option across the euro area, free for basic use. It will blend the simplicity of 
+cash with digital convenience while maintaining the highest levels of privacy.
+A further disruptive trend is the wider tokenisation of financial assets. To be clear this is 
+not the same as speculative crypto assets, about which I continue to have concerns, 
+not least for consumers. Rather this is about using distributed ledger technology, or 
+similar technologies, to 'tokenise' real assets with real value. This has the vast potential 
+to realise advancements in both real-time and dynamic transaction processing
+This technology may have a lot of potential and we have seen early engagement from 
+industry who are exploring using this technology for different use cases including cross 
+border payments, remittance, tokenisation of assets and units in a fund.
+Such technologies could provide greater access and choice to people across the world 
+to financial services. It could enhance co-ordination between participants in the financial 
+and payments ecosystem, reduce costs and increase efficiency.
+It could also provide benefit to regulators in terms of real time information access.
+As for AI, its impact on the financial system could transform the risk landscape firms by 
+transforming existing challenges like interpretability, fairness, and ethical data use and 
+accentuating other ones, such as cyber risk and governance.4
+All of us – industry and policy makers – have a role to play and collaboration will be vital 
+to realising the potential of this technology while managing the risks.
+Conclusion
+Let me conclude with a brief look ahead to the future of the European economy and 
+financial sector, one of the themes of our conference, and I look forward to hearing 
+different views throughout the day.
+There has been much discussion on this topic of late, in the context of a challenging 
+international environment and the great economic transitions I mentioned, including 
+climate change, demography and digitalisation.
+I think it is a good thing we are having this debate, and note the ambitions set out in the 
+Budapest Declaration by EU leaders just over a week ago.5
+For my part, I would just make a few observations.
+
+5/5 BIS - Central bankers' speeches
+Europe's strength has always been the combination of harnessing its internal market – 
+by balancing single rule-books, level playing fields, and a belief in both the centre and 
+the periphery as well as the equal interest of states big and small – alongside an 
+international openness, outlook and leadership. As we pursue our ambitions for 
+European competitiveness, I hope we continue to put this combination at its heart
+I also hope we recognise that long-term productivity and competitiveness are built 
+through sustainable long-term policy. In financial regulation that means not pursuing 
+short-term growth through lower standards, but rather long-term stability (an absolute 
+pre-condition for sustainable growth), by ensuring those that finance our economy are 
+safe, sound and resilient to the increasingly difficult external environment.
+Finally, on regulation and in particular on building bigger capital markets in Europe to 
+help finance the economic transitions, I would hope that we don't take the option of 
+thinking we can simply regulate it into existence. We need to concentrate on delivering 
+structural market reforms to pensions, to retail savings, to the supply of investable 
+assets and, at the end of the day, to the way our capital market works with the real 
+economy. 
+But that is a whole other speech. I hope you enjoy the conference.
+1 The transformative power of innovation in the financial system - Speech by Cecilia 
+Skingsley
+ 2 Central Bank of Ireland Innovation Sandbox Programme
+ 3 https://www.centralbank.ie/docs/default-source/publications/corporate-reports
+/strategic-plan/our-strategy/central-bank-of-ireland---our-strategy-2024.pdf?
+ – Our 2024 Strategysfvrsn=d64b671a_3 (PDF 2.57MB)
+ We have described this in more detail in our 4 Supervisory Risk Outlook Report (PDF 
+ from earlier in 2024.2.08MB)
+ 5 Budapest Declaration on the New European Competitiveness Deal

@@ -1,0 +1,1312 @@
+ 
+1 
+ 
+FRANKFURT SCHOOL OF FINANCE & MANAGEMENT, CENTRE 
+FOR CENTRAL BANKING 
+Guest lecture by Pierre Wunsch, Governor, National Bank of Belgium  
+“Beyond hawks and doves: trying to get it right in an uncertain world” 
+8 May 2024 – Frankfurt 
+Introduction 
+ 
+Good afternoon everyone, 
+ 
+I am very happy to be here today, at Jens’ kind invitation, to share a few 
+thoughts on the art of conducting monetary policy in uncertain times. The 
+establishment of the Centre for Central Banking by Jens and Emanuel 
+Moench in Frankfurt is a great initiative. I very much look forward to the 
+centre’s contributions to a better understanding of the complex linkages 
+between finance, central banking, and the real economy.  
+ 
+Since I joined the ECB’s Governing Council in 2019 (and earlier as a 
+backbencher), I have felt privileged to know Jens, and have learned so much 
+from him.  
+ 
+At the beginning, our views may have appeared to contrast somewhat. You 
+might recall Jens being labelled as a “hawkish member” of the Council. My 
+institution, the National Bank of Belgium, was instead considered to be 
+rather “dovish”. And indeed, divergences were not uncommon. In 
+September 2019, the Financial Times tagged Jens as – quote – “opposed in 
+principle” and myself as a – quote – “supporter” of Mario Draghi’s “last big 
+stimulus”.1 
+ 
+My journey through the world of central banking has taught me a few things, 
+and Jens has been instrumental in this. That’s what my speech tonight is all 
+about. In fact, the working title of the speech has long been “The impact of 
+seating arrangements on monetary policy”. Indeed, Jens and I share the 
+privilege of having surnames beginning with “W”, meaning that we were 
+neighbours at the Council table for quite some time.  
+ 
+ 
+1 Financial Times, 27 September 2019, “Splits at the ECB top table over Mario Draghi’s last big stimulus”. 
+
+ 
+2 
+ 
+A key lesson learned from being in Jens’ company is that giving central 
+bankers birds’ names (hawks, doves, owls, parrots, you name it) is simplistic. 
+Let it be noted once and for all: we are all staunch supporters of price 
+stability. Delivering it is our mission. Our mandate is not dual; we don’t do 
+trade-offs. What differentiates us, however, is our perception of risks, and 
+relatedly, our willingness to take risks. 
+ 
+That clarity of purpose has been a useful compass on my journey: I have not 
+had to balance multiple goals based on personal preferences. In fact, 
+maintaining inflation at 2% is simply about doing the right thing, conditional 
+on what we think we know about the state of the economy and its likely 
+evolution over the medium term. Under uncertainty, it amounts to managing 
+the risk of missing our goal.  
+ 
+Growth, of course, is in the background, but it is not the driver of our 
+decision. Indeed, we know that being extremely risk averse or, on the 
+contrary, reckless about inflation, invariably ends up killing economic 
+growth. Being too tight for too long or having to put the infla tion genie back 
+into the bottle both lead to subpar growth or worse.  
+ 
+It should now be clear that, in my view, the “hawk/dove” dichotomy cannot 
+capture the true nature of monetary policymaking. Hence, the title of my 
+speech today: “Beyond hawks and doves: trying to get it right in an uncertain 
+world”. 
+ 
+Throughout this lecture, I will reflect upon my evolving stance on the primary 
+drivers of monetary policy in recent years. I will also share some personal 
+thoughts on the medium-term trajectory of monetary policy. Finally, I will 
+discuss more fundamental questions around the limits of central bank 
+mandates. Acute crises and urgent issues have clearly tested those limits. I 
+will focus on the role of independent central banks in mitigating climate 
+change and interacting with fiscal policy.  
+ 
+ 
+Before COVID-19: a well-developed theory that had to be tested 
+ 
+Before the COVID-19 pandemic, things seemed reasonably simple, at least by 
+today’s standards. Aggregate demand was seen as structurally weak. For a 
+host of reasons (population ageing, rising income inequality, etc.), ample 
+global savings appeared to be struggling to find sufficient opportunities for 
+profitable investment. Thus, equilibrium real interest rates (often referred to 
+
+ 
+3 
+ 
+as R* in our simple macro jargon) had to be very low, and inflation hovered 
+below official targets. There were even signs of de-anchoring of long-term 
+inflation expectations.  
+ 
+ 
+ 
+In such circumstances, the conventional wisdom from central bank 
+workhorse models (all of which belong to the class of so-called new 
+Keynesian models) prescribes an extremely stimulative monetary policy. 
+Indeed, in these models, imbalances stem from the demand side of the 
+economy. This means that monetary policy can always handle such 
+imbalances. Models describe a world of “divine coincidence” where closing 
+the output gap (bringing Y to Y*) also brings inflation back to target (that is, 
+pi to pi*). In the end, according to these models, our job is to align the stars 
+(Y with Y*, pi with pi* and R with R*).2  
+ 
+The problem, however, was that monetary policy had precious little room for 
+manoeuvre. Conventional instruments were squeezed between an already 
+low R* and the so-called effective lower bound on interest rates. That lower 
+bound reflects the fact that in an economy where money can be freely 
+converted into cash, the scope for negative nominal interest rates is 
+bounded by the marginal cost of hoarding cash , be it at home under a 
+mattress or in a bank vault. 
+ 
+ 
+2 Blanchard and Galí (2007). 
+                                         
+                                                                   
+                                                                                                                                                             
+ 
+         
+   
+                                
+   
+   
+ 
+   
+ 
+   
+ 
+                            
+                               
+                                    
+                                                   
+  
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+                        
+            
+
+ 
+4 
+ 
+Quite logically, the dominant view became that central banks had to provide 
+the required stimulus through means other than conventional instruments. 
+Beyond historically low (negative) policy rates, central banks sought to 
+influence longer-term interest rates through forward guidance and asset 
+purchases. They tried to boost the credit channel of monetary policy by 
+providing ample liquidity to commercial banks , hoping they would lend more 
+to their customers.  
+ 
+In hindsight, it is evident that this multipronged strategy of serial big 
+bazookas yielded suboptimal outcomes. Inflation remained stubbornly low, 
+while the side effects of that shock therapy became increasingly evident. I 
+will get back to these side effects later. 
+ 
+ 
+Monetary policy during COVID-19: no regrets 
+ 
+The COVID-19 pandemic erupted in this environment of chronically low 
+demand and limited policy space. The shock was deep, sudden, and involved 
+an unlikely combination of dislocated supply chains and suppressed demand. 
+The costs of such disruption could not possibly be insured ex ante by anyone. 
+Only governments could protect economies ex post against potentially huge 
+long-term consequences that far exceeded anything a Schumpeterian 
+creative destruction argument could justify. Instead, scarring was a clear and 
+present danger. As moral hazard was not a consideration either, the case for 
+protection was crystal clear. 
+ 
+Of course, the policy response had to be commensurate to the shock: 
+massive, quick, but reversible. Yet, policy space was not only limited on the 
+monetary side but also on the fiscal side, owing to historically high public 
+debt in many countries. In addition, rapid deployment and reversibility are 
+features of fiscal policy, not monetary policy, which only influences 
+macroeconomic outcomes with long and variable time lags. 
+ 
+The need for a large-scale macro stimulus in a context of limited policy space 
+brought the “policy mix” concept back to life. In normal times, independent 
+actions by central banks and treasuries often lead to tensions in the mix. 
+Typically, the central bank offsets the demand effect of fiscal policy if it sees 
+the latter as running against price stability. Thus, unwarranted fiscal stimulus 
+leads to tighter monetary policy, and vice versa. Game theorists would say 
+that monetary policy and fiscal policy are strategic substitutes: it is in the 
+
+ 
+5 
+ 
+best interest of policymakers to offset their respective impacts on aggregate 
+demand. 
+ 
+The situation created by the pandemic turned that game on its head. Both 
+monetary and fiscal policies had to be deployed to protect and stabilize the 
+economy. Monetary policy — through the PEPP and other programs — 
+effectively worked by creating the space required for fiscal policy to act.  
+ 
+ 
+ 
+With the onset of the pandemic, inflation further receded . As investors and 
+consumers were unable to respond to lower interest rates and cheap credit, 
+monetary policy could only be effective through the government ’s role as 
+the spender of last resort. It became in the best interest of the central bank 
+to fully accommodate and even further encourage fiscal stimulus. During the 
+pandemic, monetary and fiscal policies had temporarily become strategic 
+complements. 
+ 
+One fundamental point to emphasise is that the joint fiscal and monetary 
+expansion observed in response to the pandemic reflected the actions of 
+two separate sets of policymakers acting independently within their remits. 
+It was never the result of ex ante coordination or backdoor deal-making. 
+ 
+One general lesson from this peculiar episode is that quantitative easing (QE) 
+can be a potent tool in times of significant shocks  and constrained policy 
+space. In fact, QE likely proved effective even when operating at the 
+effective lower bound in the sense that it contributed to maintaining 
+                             
+                  
+                                                                                       
+ 
+                             
+   
+                                 
+           
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                           
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                        
+               
+
+ 
+6 
+ 
+government debt servicing costs – denoted as “r” – below the rate of 
+economic growth “g”. A negative differential between r and g improves 
+public debt dynamics and alleviates concerns over debt sustainability. If 
+anything, this episode should allay our apprehensions about the effective 
+lower bound. 
+ 
+
+ 
+7 
+ 
+ 
+2021: a change of heart in view of inflation and financial stability risks 
+ 
+By the end of 2020, it became clear that vaccines would help to pull us out of 
+the mire. Predictably, policy normalisation would occur sooner or later. That 
+meant the return of the usual interplay between monetary and fiscal policies 
+and with it, the emergence of a clear risk that delayed fiscal consolidation 
+would require faster and stronger monetary tightening.  
+ 
+Logically, I started questioning the wisdom behind our apparent 
+commitment to persistently low interest rates. I became particularly 
+uncomfortable with forward guidance that effectively tied us to such a 
+stance for an extended period. A series of dissents followed, related not only 
+to forward guidance but also to the extremely gradual unwinding of asset 
+purchases. 
+ 
+I first dissented on the revision of forward guidance in July 2021, in the wake 
+of the ECB’s strategy review. You might recall that the revised guidance listed 
+three conditions that had to be met before the ECB could consider lifting 
+policy rates.3 On the topic of forward guidance, I felt close to Jens, who had 
+already highlighted several issues in 2019.4 
+ 
+I had two main concerns. Firstly, the revised guidance flew in the face of 
+proportionality when considering financial stability. Although the ECB had 
+explicitly recognised “financial stability [as] a precondition to price stability”, 
+the revision seemed to contradict that statement.  
+ 
+Secondly, the stringent conditions for liftoff attached to the revised forward 
+guidance effectively tied our hands in a way that could soon prove 
+untenable. I saw the distinct risk of having to change course suddenly, taking 
+everyone by surprise. In the end, our credibility was in the balance and with 
+it, the very effectiveness of forward guidance  itself, and of monetary policy 
+more generally.  
+ 
+ 
+3 The three conditions were: (i) inflation reaching 2% well ahead of the end of the projection horizon; (ii) 
+inflation forecasts being at 2% for the rest of the projection horizon; and (iii) underlying inflation being 
+sufficiently advanced so as to be consistent with inflation stabilising at 2% over the medium term. 
+4 Central Banking, 31 January 2022, “Wunsch sceptical on forward guidance”. For Jens Weidmann’s speech, 
+see “What the future holds – Benefits and limitations of forward guidance”, European Banking Congress, 
+22 November 2019. 
+
+ 
+8 
+ 
+My discomfort about the conditions attached to forward guidance related to 
+personal concerns about the weight of models in our strategic thinking. 
+Much of the latter indeed seemed to hinge on models predicting that 
+inflation would smoothly converge to 2%. But how reliable are models in 
+times of unprecedented disturbances and policy actions?  What is the value 
+of model-based inflation predictions where the endpoint of 2% is essentially 
+assumed, and where convergence happens quite fast, especially if 
+expectations are rational? Besides, models are bound to miss regime shifts 
+and to struggle with the deep impact of tail events. And since the last 
+significant inflation surge had occurred in the 1970s, models arguably 
+underestimated the persistence of inflation when it started to climb.5 
+ 
+ 
+ 
+Incidentally, the false sense of knowledge resulting from an overreliance on 
+models was also at the core of the recent review of the Bank of England’s 
+forecasting approach by Ben Bernanke. This review could also inspire us in 
+the Eurosystem.6 On the topic of forecasts in particular, a major issue is that 
+analysts tend to focus on the point estimate of inflation at the end of the 
+forecasting horizon, which is about two to three years ahead. The significant 
+uncertainty surrounding projections is only a second-order consideration. 
+This is an issue if, like me, you believe that policymaking is about risk 
+management. 
+ 
+ 
+5 Wunsch (2022). 
+6 See also Schnabel (2024). 
+                                          
+            
+                                                                  
+ 
+                     
+   
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+                        
+                                                     
+
+ 
+9 
+ 
+One can think of two technical remedies: fan charts and alternative 
+scenarios. Fan charts have the important advantage of providing a broad 
+idea about projection uncertainty. However, fan charts are only as good as 
+the assumptions used to build them. For instance, many fan charts reflect 
+either past forecasting errors — which is not useful if uncertainty rises — or 
+normally distributed shocks calibrated against past empirical moments. Fan 
+charts also routinely ignore model uncertainty itself. In the end, alternative 
+scenarios reflecting various modelling assumptions and shocks might be 
+easier to communicate to the public and might better convey differences of 
+views among Governing Council members.  
+ 
+My second material dissent concerned the speed of disposal of the asset 
+portfolio accumulated through QE. I call to mind the additional year of 
+reinvestment under the Pandemic Emergency Purchase Programme (PEPP)  
+sanctioned in December 2021, setting gross purchases in stone until the end 
+of 2024. At the time of this decision, headline inflation was at 5% and core 
+inflation was at almost 3%, but indeed our inflation projection for the end of 
+the projection horizon was at 1.8%. Now, with the pandemic behind us and 
+monetary policy being normalised on multiple fronts , PEPP reinvestment is 
+being continued to honour an old promise. Fortunately, the impact of an 
+additional year of reinvestment is limited. 
+ 
+Overall, I disagreed with the revised forward guidance and the slow 
+unwinding of the accumulated portfolio of asset purchases  out of concern 
+for inflation and financial stability. With regard to the former, while the 
+inflation spike reflected an energy crisis, it seems hard to deny that highly 
+accommodative monetary policy facilitated the rise in inflation. 
+ 
+With regard to financial stability, I was fearful that the serious side effects of 
+loose monetary policy — in the form of misallocations and financial 
+exuberance — had been underestimated. Uppermost in my mind were the 
+potential for over-investment in non-productive assets, the belief that 
+budget constraints were being taken lightly, an overly enthusiastic search for 
+yield, the risks of asset price bubbles, and excessive leverage. Let’s not forget 
+that a long period of monetary policy accommodation had probably 
+increased the likelihood of a systemic financial crisis.7  
+ 
+One might well say that “there is no financial stability issue this time 
+around”. I would reply along the lines of Rajan and Acharya who warned 
+ 
+7 See e.g. Grimm et al. (2023). 
+
+ 
+10 
+ 
+against “[t]he dangers of forgetting the 2023 banking crisis”. Time is too 
+short to elaborate on this here, but my sense is that the link with the 
+extremely accommodative monetary policy of the preceding years is clear.  
+ 
+Of course, the euro area was largely unaffected by the US banking turmoil 
+thanks to robust capital and liquidity buffers. But a change in sentiment 
+might have weighed on credit growth and contributed to disinflation. In such 
+a scenario, monetary policy tightening might have been less aggressive, 
+possibly leading to a pause in rate hikes, similar to the Fed in June 2023.8 
+This is a good example of how central bankers must navigate uncertain times 
+by remaining agile and avoiding pre-commitments to predetermined 
+policies.  
+ 
+To sum up, one should not underestimate financial stability risks going 
+forward.9 Particularly if policy rates have to be kept high for longer. And one 
+should keep in mind that, in principle, a central bank can only act when 
+financial stability issues are related to liquidity and not solvency issue s.10 As a 
+consequence, prevention is, as always, better than cure. 
+ 
+I could not end a discussion of the side effects of super-accommodative 
+monetary policy without mentioning fiscal sustainability. There are two 
+issues here. The first is that low or negative nominal interest rates on public 
+debt, if maintained for too long, can encourage reckless spending trends. The 
+second is that from the perspective of the consolidated public sector balance 
+sheet, QE amounts to transforming long-term liabilities into overnight ones 
+(bank reserves). The resulting transfer of the interest rate risk away from 
+private sector balance sheets quickly becomes a costly proposition when 
+policy rates must be raised. 11 Central banking today is a loss-making 
+operation, something the public and some academics have a hard time 
+accepting. 
+ 
+Here again, Jens’ early warnings impacted my thinking. As early as mid-2020, 
+he reminded us that “large-scale purchases of government bonds are 
+associated with the risk of blurring the line between monetary and fiscal 
+policy”.12  
+ 
+ 
+8 Bloomberg, 22 March 2023, “ECB’s Wunsch Wants Time to Assess If Rates Need to Rise Further”. 
+9 Wunsch (2024a). 
+10 Schnabel (2023). 
+11 Hall and Sargent (2022).  
+12 Weidmann (2020). 
+
+ 
+11 
+ 
+ 
+2022: I became a “hawk” in the eyes of analysts 
+ 
+And inflation ultimately came back with a vengeance! With the pandemic 
+behind us, a surprisingly strong recovery hit supply chains that were still 
+under stress, and price pressures inevitably unwound. I quickly called for 
+higher policy rates, a development that prompted many analysts to conclude 
+decisively that I had aligned myself with the hawkish camp. 
+ 
+In the face of mounting inflationary pressures, our workhorse models 
+supported a narrative of temporary developments that did not warrant a 
+policy shift. The accumulation of inflation forecast errors nevertheless 
+encouraged me to question openly the dominant view.13 In early 2022, I 
+characterised the return of nominal interest rates to zero or above by year-
+end as a “no-brainer”.14 By mid-2022, Russia’s aggression in Ukraine had 
+propelled energy prices in Europe to historic highs.  
+ 
+ 
+ 
+As inflation continued to outpace expectations , the textbook-ish “look 
+through” advice appeared to be increasingly inadequate. I called for a hike of 
+at least 200 basis points to bring real rates to zero, a level at which monetary 
+policy was unlikely to harm economic prospects (monetary policy would be 
+considered broadly neutral), while signalling a clear resolve to deliver on our 
+ 
+13 See e.g. MNI, 13 October 2021, “ECB Risking Wrong Inflation Message”. 
+14 Reuters, 5 April 2022, “ECB could raise interest rates back to zero this year – Wunsch”.  
+                                         
+                         
+                                                                                                                                 
+ 
+              
+   
+  
+  
+ 
+ 
+                
+                               
+                      
+
+ 
+12 
+ 
+mandate.15 Still, that judgment call had to be made under exceptional 
+uncertainty. Estimates of the neutral policy rate (R*) are notoriously 
+unreliable.16 As Fed Chair Powell succinctly put it, “we are navigating by the 
+stars under cloudy skies”.17 
+ 
+By the end of 2022, I found myself contemplating the prospect of rates 
+reaching 3%. There was little doubt in my mind that inflationary pressures 
+had to be tackled by strong policy action.18 I entered 2023 convinced that 
+rates would reach the 4% threshold, which is where we are today.19 
+ 
+Summing up and preliminary conclusions 
+ 
+Before moving to the current policy landscape, let me briefly recap. 
+ 
+Firstly, we’ve seen that quantitative easing proves effective in addressing the 
+effects of tail economic shocks in a context of constrained policy space. QE 
+worked through the monetary-fiscal policy mix.  
+ 
+Outside times of acute crisis, QE might well be tantamount to pushing on a 
+string. Neither quantitative easing nor forward guidance proved effective in 
+steering inflation back to our 2% target. Besides, unconventional policies 
+have side effects in terms of inflation persistence, financial stability, and 
+fiscal sustainability. 
+ 
+Secondly, models may not always be the reliable compass on which we 
+should rely. We were led to believe that inflation was transitory, only to find 
+out it was not. This underscores the need for a critical re-evaluation of our 
+modelling frameworks and of the role of model-based projections in 
+policymaking. The Bank of England recently indicated a way forward that 
+we’d be well-minded to consider. 
+ 
+Thirdly, the costs and risks associated with the effective lower bound might 
+not be as serious as previously thought. On the one hand, the effective lower 
+bound did not prevent an effective response to an acute crisis such as 
+COVID-19. On the other hand, with inflation being a regressive tax felt by all 
+of us, the perceived cost of de-anchoring upward — say above 3% — is 
+ 
+15 Reuters, 28 June 2022, “ECB support should be limitless if fragmentation unwarranted: Wunsch”. 
+16 Wunsch (2022).  
+17 Powell, J. H. (2023), “Inflation: Progress and the Path Ahead”, Speech at Jackson Hole.   
+18 Interview with CNBC, 13 October 2022. 
+19 Financial Times, 3 March 2023, “ECB officials warn of more interest rate rises as high inflation persists”. 
+
+ 
+13 
+ 
+arguably higher than the unease one might experience during prolonged 
+episodes of inflation in the 0-1% range. 
+ 
+Two policy conclusions can be drawn. 
+ 
+Firstly, central banks should engage in aggressive monetary accommodation 
+— through QE and forward guidance — when crises hit, and policy space is 
+scarce. Outside such circumstances, “shock and awe” strategies should be 
+avoided if inflation expectations remain reasonably well -anchored. This 
+realisation requires a recalibration of our policy toolkit. 
+ 
+By implication, we should also be prepared to tolerate some flexibility in 
+interpreting the point inflation target of 2.0%. This is to avoid mistakes such 
+as the decision to expand quantitative easing when inflation forecasts 
+hovered around 1.8% in late 2021.  
+ 
+ 
+Monetary policy at the current juncture 
+ 
+Thinking about monetary policy today is fraught with conceptual and 
+practical challenges. To name but a few, I would mention the rising 
+prevalence of supply shocks (or relative price disturbances, if you prefer), 
+heightened uncertainty over key economic relationships that we previously 
+took for granted (mainly the Phillips curve), and slow-moving transitions 
+(population ageing, digitalisation and the advent of AI, climate change, or the 
+shortening of global value chains).  
+ 
+Structural transformation means that the models at our disposal are 
+intrinsically uncertain; or rather, even more uncertain than before. In a 
+sense, the good old “Lucas critique” is back! As Bob Lucas warned us almost 
+50 years ago, trusting fixed parameters and functional forms reflecting past 
+behaviours can be misleading. Conventional wisdom might not be as wise as 
+it used to be, because “intercepts” might shift, and critical “slopes” might 
+have become steeper as a result of thus far unsuspected “non-linearities.”  
+ 
+What might at first sound like a curiosity of modelling carries first-order 
+policy implications. A case in point is the traditional advice of “looking 
+through” supply shocks. The argument is simply that if inflation expectations 
+are anchored, the inflation effects of temporary supply shocks will self-
+correct without any policy action. That prescription, which stems from 
+traditional new Keynesian models, partly explains why the ECB did not start 
+
+ 
+14 
+ 
+raising policy rates as soon as inflation emerged. Meanwhile, as we were 
+“looking through,” real interest rates dived further into negative territory, 
+fuelling inflation. 
+ 
+As positive inflation forecast errors piled up, many struggled to understand 
+the drivers of inflation persistence. This is hardly surprising if the most 
+trusted models keep replicating a world of low and stable inflation  where 
+actual policy is seen as having little effect on the process  (the “flat Phillips 
+curve” view). Besides, many analysts and policymakers took comfort in long-
+term inflation expectations remaining anchored at 2%.  
+ 
+This forces us to think harder about the role of inflation expectations in our 
+policy framework. In my view, we should not rest quietly on the fact that 
+some preferred measure of expected inflation is firmly tied to the official 
+target. Welfare reflects actual inflation, which everybody feels as the 
+painfully regressive tax it is. To put it bluntly, “we do not eat expected 
+inflation.”  
+ 
+Of course, anchoring is crucial for macroeconomic stability as a deviation of 
+long-term inflation expectations from 2% would be a sign of waning 
+confidence in the credibility of monetary policy. And as COVID-19 showed, 
+such credibility is crucial to deploying an adequate response during crises. 
+However, stable long-term inflation expectations are only a necessary, not a 
+sufficient, condition for macroeconomic stability. It only tells us the 
+endpoint, not how we will get there. 
+ 
+So, to understand inflation persistence — what happens between now and 
+the fixed endpoint — we must look into the role of shorter-term 
+expectations and their effects on wage formation. In fact, new Keynesian 
+models tell us nothing else: long-term expectations play no role beyond their 
+influence on shorter-term expectations.20 And in fact, the textbook new 
+Keynesian Phillips curve features next-period inflation expectations.  
+ 
+Empirically, short-term expectations are a key driver of macroeconomic 
+dynamics. Recent evidence from wage growth data supports that view.21 
+Workers seem to take short-term inflation expectations into account in the 
+wage-bargaining process, in addition to past inflation; while longer-term 
+expectations play virtually no independent role. Indeed, if workers know that 
+ 
+20 Rudd (2022) and Blanchard and Bernanke (2023). 
+21 Glick, Leduc and Pepper (2022). 
+
+ 
+15 
+ 
+they can renegotiate their wages every year or every other year, longer-term 
+developments are largely irrelevant. A similar reasoning holds for firms’ 
+pricing behaviours. 
+ 
+The role of short-term expectations in price- and wage-setting behaviours 
+feeds into one of my concerns about inflation persistence: the emergence of 
+wage-price spirals. If short-term inflation expectations matter for wage- and 
+price-formation mechanisms, a rise in these expectations would encourage 
+workers to raise wage demands and firms to increase sales prices in a sort of 
+“tit-for-tat” game.22 A terms-of-trade shock makes such tit-for-tat dynamics 
+even more likely, as each agent has an incentive to transfer the impact of the 
+shock onto the other, even though the shock makes the entire economy 
+poorer. 
+ 
+ 
+ 
+Thus, placing a greater emphasis on short-term inflation expectations and 
+wage dynamics seems advisable in order to navigate the current climate.23  
+ 
+As the effects of energy shocks dissipate, firms have tended to reduce profit 
+margins in the face of persistent wage growth. While firms may have taken 
+advantage of the inflationary environment to increase prices  (so-called 
+“greedflation”), they may also have anticipated that wages would ultimately 
+ 
+22 Arce, Hahn and Koester (2023). 
+23 See also Adrian (2023). 
+                                        
+                        
+                                                                                            
+ 
+                                               
+   
+                                    
+   
+  
+ 
+ 
+ 
+                        
+                             
+                      
+  
+ 
+ 
+ 
+ 
+ 
+  
+                    
+              
+
+ 
+16 
+ 
+catch up with price increases. If so, margins would simply play a buffer role, 
+reflecting the greater rigidity of nominal wages compared to prices.  
+ 
+While such conjecture appears plausible, theoretical models struggle to 
+capture ongoing inflation dynamics. The formal debate revolves around the 
+specific form of the Phillips curve. For one thing, the stability observed in 
+long-term inflation expectations suggests that the curve did not shift 
+upwards. This means that monetary policy credibility has been preserved. An 
+upward shift in the curve would have meant higher inflation regardless of 
+the state of the real economy, and thus a greater likelihood of tit-for-tat 
+manoeuvres. As such, and as seen in the 1980s, central banks would have 
+had to regain credibility at the cost of causing a protracted slowdown in 
+economic activity, and most probably, a serious recession. 
+ 
+There has been even more debate around the shape of the curve, and 
+namely, its slope and curvature. Non-linearity could mean that the slope of 
+the curve depends on the level of inflation. This would be consistent with the 
+view that firms would feel less constrained by competition and would be less 
+hesitant to raise prices in an inflationary context (or one characterised by 
+strong demand24) compared to a low inflation (or depressed) environment. 
+This kind of conjecture would help explain the inflation surge as well as the 
+seemingly painless disinflation process observed so far.  
+ 
+Recent empirical evidence concerning the Phillips curve is consistent with 
+signs of a steepening trajectory.25 While models need time to adjust to a new 
+reality, microeconomic evidence points more clearly to an increase in the 
+frequency of price adjustments by firms.  
+ 
+ 
+24 Benigno and Eggertson (2023) and Erceg, Lindé and Trabandt (2024). 
+25 Stevens and Wauters (2021), and Gautier, Le Bihan and Lippi (2023). 
+
+ 
+17 
+ 
+ 
+ 
+That said, since the curve does not appear to have shifted upward,  policy 
+credibility remains intact, and there is no case for maintaining tight 
+monetary conditions beyond those strictly necessary to stabilise the 
+economy. Not surprisingly, markets have already priced in rate cuts in the 
+short term. Looking at the €STR forward curve, a first cut is expected in June, 
+with one or two additional cuts envisaged by year end. A similar picture 
+emerges from the ECB’s survey of monetary analysts.  
+ 
+ 
+ 
+Of course, uncertainty around such scenarios remains considerable. 
+Distributions of €STR forward rates around the baseline are wide. In 
+                         
+                                                                                    
+                                                                                                                                
+ 
+                                            
+   
+                                    
+                                                      
+ 
+   
+   
+   
+                
+                          
+                                                
+                                                                                                                                                       
+                                                                                                                         
+ 
+                  
+   
+                       
+              
+ 
+ 
+ 
+ 
+ 
+ 
+        
+                 
+                               
+                
+   
+   
+   
+ 
+  
+  
+          
+                                                 
+   
+   
+   
+ 
+  
+  
+                    
+
+ 
+18 
+ 
+addition, the recent volatility in interest rates underscores the need for 
+caution when looking at market prices. After the last rate hike in September 
+2023, long-term rates plunged by about 90 basis points by the end of the 
+year due to expectations for monetary policy easing after better-than-
+expected inflation data. However, since the beginning of this year, long-term 
+rates paired back some of their earlier decline as expectations for rate cuts 
+moderated somewhat.  
+ 
+For central banks, dealing with uncertainty means remaining data-
+dependent. Now is not the time to commit to a preset course of action. It is 
+about using our discretion wisely… about getting it right, as information 
+about the state of the economy becomes available. Significant risks remain 
+around the trajectory of wage growth and inflation in wage-intensive 
+services. Despite recent signs of moderation, more will be known about the 
+dynamics of wages and services inflation at the June Governing Council 
+meeting.  
+ 
+Of course, data dependence also requires some willingness to take risks, as 
+uncertainty complicates the early detection of new trends. 26 To be sure, the 
+road ahead is likely to be a bumpy one for services and core inflation. Real-
+time inflation readings will likely be quite volatile over the next few months. 
+As wages are intrinsically more rigid than prices, wage growth is expected to 
+remain broadly constant this year. This would imply that real wages catch up 
+with their pre-pandemic levels. Of course, we still cannot exclude that 
+workers demand compensation for several years of depressed purchasing 
+power. 
+ 
+ 
+26 Wauters (2023). 
+
+ 
+19 
+ 
+ 
+ 
+All in all, and although the outlook remains foggy, I see a path for initiating 
+rate cuts this year. Firstly, our inflation forecasts have recently become more 
+reliable. Secondly, we continue to predict a return of inflation to the official 
+target by end-2025. Thus, with no sign of de-anchoring in the longer term, 
+the costs of remaining tight for too long seem to outweigh those of a 
+premature loosening. This boils down to what I have recently described as 
+the Governing Council having to “make a bet” on inflation staying in line with 
+projections.27  
+ 
+One known unknown remains the role of the exchange rate and the risk of 
+importing inflation. While monetary policy tightening was remarkably 
+synchronous around the world, easing cycles appear unlikely to exhibit 
+similar synchronicity. Diverging economic conditions and policies on both 
+sides of the Atlantic might lead to significant effects from the dollar-euro 
+exchange rate. 
+ 
+ 
+The mandate under pressure on two main fronts  
+ 
+Before concluding, I would like to take a step back and discuss two matters 
+related to the boundaries of central bank mandates. The first pertains to the 
+evolving public discourse on climate change and its implications for 
+ 
+27 Econostream Media, 8 February 2024, “ECB’s Wunsch: ‘At some point, we are going to have to bet on 
+where inflation’s going’”. Reuters, 13 March 2024, “ECB should ‘make a bet’ on rates before long, says 
+Wunsch”. Bloomberg, 13 March 2024, “ECB must take a bet on rate cut as prices abate, Wunsch says”. 
+                         
+                               
+                                                            
+ 
+                  
+   
+              
+   
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+                
+                                                          
+                                                        
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+                
+
+ 
+20 
+ 
+monetary policy. The second revolves around the interactions between fiscal 
+and monetary policies. 
+ 
+While these two considerations might appear to be orthogonal to one 
+another, they were joined at birth by the reference in the ECB’s mandate to 
+Article 3 of the Treaty on European Union (TEU). Taken together, the ECB is 
+expected to support EU policies as long as price stability is not jeopardi sed.  
+ 
+For many, supporting EU policies means using our very deep pockets to tilt 
+relative prices in directions deemed desirable from a social welfare point of 
+view. Specifically, we could buy green assets to lower the funding costs of 
+decarbonisation. We could provide fiscal space to governments so they can 
+meet the ever-increasing demands on already stretched domestic budgets. 
+ 
+Let me say it loudly and clearly: be careful what you wish for! Pushing central 
+banks into the inherently political waters of tilting relative prices could open 
+Pandora’s box: never-ending mission creep and ultimately, politicisation 
+would loom large.  
+ 
+Let me now take these issues on one at a time. 
+ 
+Climate change 
+ 
+On climate change, I have gone on the record on two key occasions in 2021 
+and 2023. As you might guess, Jens had already made interventions in 
+2019.28 
+ 
+ 
+28 Wunsch (2021, 2023b, 2024b), Weidmann (2019b, 2021a, 2021b).  
+
+ 
+21 
+ 
+ 
+ 
+There has been a growing chorus of voices calling on central banks to take a 
+more proactive role in addressing climate change. While I acknowledge the 
+criticality of a successful climate transition, let’s keep in mind the inherent 
+limitations of monetary policy in dealing with allocative efficiency issues.  
+ 
+Monetary policy is a blunt instrument and one unfit to tweak relative prices 
+in socially desirable ways. To achieve the latter, an array of fiscal instruments 
+are available which embody the key virtues of being quick, targeted and 
+reversible. 
+ 
+Admittedly, my view is a minority one within the ECB Governing Council. I 
+nevertheless take some comfort in the fact that this view is more popular in 
+the Anglo-Saxon world. Chairman Powell famously said last year that “We 
+[the Fed] are not, and will not be, a climate policymaker”.  
+ 
+Another source of relief for me is that integrating climate change in 
+monetary policy has so far remained a largely conceptual discussion. The 
+actions taken to tilt corporate bond purchases and the collateral framework 
+have been rather symbolic. I would be more concerned if actions went 
+beyond symbols in the future. 
+ 
+That said, when discussing climate change in relation to monetary policy 
+instruments, one should distinguish between direct action on relative prices 
+and a risk-based approach.  
+ 
+                         
+       
+  
+               
+                                  
+
+ 
+22 
+ 
+A risk-based approach should be understood as recognising the higher risks 
+of default at the firm level arising from exposure to climate developments or 
+policies. In that case, it is natural to consider that risk when implementing 
+monetary policy through asset purchases or when accepting collateral. 
+Central banks impose similar requirements on the commercial banks they 
+supervise. As Jens put it: “[c]entral banks should practise what they preach”. 
+Central banks should factor in climate-related financial risks into their risk 
+management, as they do for many other risks.  
+ 
+Beyond default risks at the firm level, central banks also look at climate risks 
+from a financial stability perspective. Here, stress tests are a relevant tool. 
+These should consider the relatively low duration of bank balance sheets. 
+One should for instance avoid conducting stress tests with static balance 
+sheets over long periods.  
+ 
+The calibration of stress tests is a difficult balancing act. Recently, the ECB 
+conducted a stress test with carbon prices of $600/tCO2 in a so-called 
+“orderly” scenario and $1 000/tCO2 by 2050 in a “disorderly” scenario.29 The 
+latter corresponds to a shock which would push the price of oil up to almost 
+$450 per barrel. Now, how likely is it that governments would produce a 
+shock bigger than the recent energy crisis while at the same time not 
+offering any support to the economy? Not very likely, I would say, at least, 
+not if recent opinion polls on the coming European elections are any guide. 
+ 
+Regarding action on relative prices beyond individual risks of default, the 
+role of monetary policy is most contentious. The short version of the 
+argument is that textbooks usually give monetary policy no role in terms of 
+allocative efficiency. Now, as a group of Belgian NGOs has actively 
+campaigned against my reappointment as governor given my position on the 
+topic, I might as well give you the somewhat longer version.  
+ 
+Proponents of an active role for the ECB in greening our economies mention 
+Article 3 of the TEU, to which the ECB mandate refers. The mandate reads: 
+“Without prejudice to the objective of price stability, the ESCB shall support 
+the general economic policies in the Union […]”. The general economic 
+policies laid out in Article 3 cover many objectives. By isolating action on 
+climate change, an “animal farm” reading of the Treaty would put us in the 
+position of prioritising the issue without clear criteria for making such a 
+choice nor the political legitimacy to do so.  
+ 
+29 ECB (2022). 
+
+ 
+23 
+ 
+ 
+Moreover, the condition “[W]ithout prejudice to the objective of price 
+stability” is a weak one: with the ECB balance sheet running at about €7 
+trillion, one could argue in favour of spending €10 billion on any policy issue 
+without really affecting the monetary policy stance and hence  without 
+immediate prejudice to the primary mandate.  
+ 
+More crucially, is a central bank’s involvement in climate policy about 
+supporting policy or correcting policy failures? Conceptually, the economists’ 
+first best recommendation to fight climate change would be to introduce a 
+Pigouvian tax on carbon, to force polluters to account for their externalities. 
+Now, if elected authorities were to set the CO2 price at the socially optimal 
+level, monetary policy would not have any additional role to play. And if 
+authorities were to set the price too low, changing this price through 
+monetary policy would be tantamount to correcting a policy failure, which is 
+controversial.  
+ 
+Once again, unelected policymakers cannot legitimately make choices with 
+first-order redistributive implications. As soon as one recognises that fighting 
+climate change implies trade-offs, there is a very fine line between 
+supporting policy and making policy. Conceptually, one would need to 
+change the nature of the trade-off, with more efficient instruments than 
+those available to policymakers, to be on safer grounds. But this is unlikely to 
+be the case for the reasons I just explained.  
+ 
+Finally, monetary policy faces a communication challenge when dealing with 
+climate change. Many people believe that central banks are just another kind 
+of bank providing credit to the economy. But they are not . It is therefore 
+crucial to avoid creating expectations that central banks can finance the 
+energy transition.  
+ 
+Fiscal-monetary policy interactions 
+ 
+Another issue at the frontier of discussions around central bank mandates is 
+the relationship between monetary and fiscal policies.  I have already made 
+some key points when discussing the role of the policy mix during the COVID -
+19 pandemic, but I’d like briefly to elaborate on a few more general 
+considerations. 
+ 
+Since the 1990s, granting political independence to central banks , along with 
+a well-defined mandate to achieve price stability, has been one of the most 
+
+ 
+24 
+ 
+widespread and successful institutional reforms in the world. It brought 
+macroeconomic stability that was sorely lacking during the 1980s.  
+ 
+The core idea is simple and intuitive. To avoid inflationary monetary policy, it 
+makes sense to keep the insatiable appetite of governments for spending 
+well separated from a creditor with potentially infinitely-deep pockets and 
+offering very generous funding terms (zero interest). 
+ 
+It remains that even if they live separate lives, monetary and fiscal 
+authorities are tied by the intertemporal budget constraint of the 
+consolidated public sector. The question then becomes: who will ultimately 
+assume responsibility for fulfilling that budget constraint?  
+ 
+If monetary policy is to be credibly assigned to preserving price stability, then 
+the Treasury must assume the sole responsibility for sticking to the budget 
+constraint. This is sometimes known as ensuring a regime of monetary 
+dominance, and it explains why many governments (in Europe and 
+elsewhere) have committed to specific fiscal rules banning excessive deficits 
+and debts. The opposite situation, in which the central bank is forced to fulfil 
+the budget constraint, is labelled as fiscal dominance. 
+ 
+Recent years have blurred the previously neat demarcation lines between 
+the two policy realms.  
+ 
+Firstly, as discussed earlier, the COVID-19 pandemic created a situation in 
+which both sets of instruments were strategic complements: it was in the 
+best interest of monetary policy to create space for fiscal poli cy, and in the 
+best interest of fiscal policy to use that space to respond to the crisis. 
+However, this made us forget that the normal situation is one of strategic 
+substitutability, in which monetary policy offsets the effects of fiscal policy 
+on aggregate demand.  
+ 
+I am afraid that to this day, too many governments are continuing to 
+sleepwalk into a world in which central banks are expected to continue to 
+help at any cost, given the magnitude and multiplicity of the challenges we 
+all face. My view is different: two years of strategic complementarity and 
+crisis management might have left governments with a sense that it was OK 
+not to make difficult choices anymore. Well, it’s not OK.  
+ 
+Secondly, jitters in sovereign debt markets have prompted some central 
+banks to intervene to avoid costly panics and preserve the stability of the 
+
+ 
+25 
+ 
+financial system. A prominent example is the intervention by the Bank o f 
+England to avert a bout of panic related to overambitious fiscal 
+announcements. In the euro area, the fragmentation of the fiscal landscape  
+— one central bank and many national treasuries — led to the creation of 
+explicit, conditional stabilization tools — OMT and TPI — aimed at avoiding 
+unwarranted market panic. Of course, these instruments only make sense in 
+order to prevent intrinsically solvent governments being subject to 
+devastating liquidity crises. Other mechanisms outside the ESCB — namely 
+ESM loans — exist to handle fundamental fiscal sustainability issues.  
+ 
+Thirdly, a persistent combination of unsound public finances and 
+accommodative monetary policy could have contributed to the undermining 
+of commitments to fiscal responsibility. Jens’ cautionary words from 2020 
+resonate loudly today: “Cheap money may be increasingly seen as the 
+normal state. Under those conditions, even high debt burdens may appear 
+sustainable to governments. But what if conditions change? ”.30  
+ 
+These considerations leave me with an uneasy feeling that fragile public 
+sector balance sheets and mounting fiscal challenges (population ageing, 
+defence, climate action) might become a persistent concern for central 
+bankers. In a world in which governments have emerged from a series of 
+crises as highly effective financiers and insurers of last resort, they are, 
+perhaps more than ever before, too important to fail… The implication is 
+that the risk of fiscal crisis might have become a shadow constraint on 
+monetary policy. This is what I characterised a year ago, at the ECB Watchers 
+conference, as a weak form of fiscal dominance.31 
+ 
+Coming back to Article 3, does it mean that we should support sound fiscal 
+policies and tilt our purchases against high debt or deficit countries? That 
+doing so is actually mandated by the Treaty? I do not believe so. But it does 
+illustrate the need to better define the limits of our mandate s and actions. In 
+short, be careful what you wish for.  
+ 
+ 
+Conclusion 
+ 
+ 
+30 Weidmann (2020). 
+31 Wunsch (2023a). 
+
+ 
+26 
+ 
+Let me now try to conclude this long voyage through the land of hawks and 
+doves. By now, I hope that I have convinced you that we have learned a lot 
+from the experiences of the last few years. And also, that monetary policy is 
+about much more than a fight between two established camps, that it is 
+more than a football match. 
+ 
+ 
+ 
+In a nutshell, aside from times of crisis, monetary policy has been more 
+constrained by the effective lower bound than we thought. Persistent 
+inflation — which our models had essentially assumed away — has come 
+back with a vengeance, although medium-term expectations remain well-
+anchored. This points to the need to revisit the reliance on some instruments 
+and tools. While QE proved effective in the midst of crises, it failed to bring 
+us back to target within a reasonable timeframe. As regards forward 
+guidance, it also proved relatively inefficient compared to the cost of tying 
+our hands.  
+ 
+Where does this leave us? Probably with a humbler form of monetary policy. 
+One that tolerates some more deviation from our target when economic 
+conditions are benign and when risks of larger deviations are contained. This 
+is more art than science.  
+ 
+Beyond these lessons on the inflation front, I have briefly discussed two 
+issues pertaining to the limits of our mandates. I have argued that we are 
+both testing these limits, with our climate policies, and being tested, with a 
+weak form of fiscal dominance. None of the two are particularly salient as I 
+                       
+                            
+               
+                                                       
+                                                       
+          
+
+
+ 
+27 
+ 
+deliver this lecture, but they could become more prominent in the coming 
+years, especially if public deficits do not decline as planned, and if our 
+climate ambitions move from the symbolic to the more impactful. 
+ 
+Central bank independence is a humbling privilege for unelected officials. It 
+should come with a narrow mandate. As Jens (him again) once said, “central 
+bankers are not superheroes”.32 Yet they must show extraordinary agility to 
+adapt and respond to extraordinary circumstances. Be it during the recent 
+COVID-19 pandemic or the “whatever it takes” episode, we may be called 
+upon as architects and enablers of effective solutions. But however forceful 
+these actions may be, they should remain exceptional and temporary. They 
+should also pass a simple smell test: do we have tools at our disposal that 
+elected politicians do not have, that are more efficient, and that they would 
+want us to use?  
+ 
+Thank you for bearing with me. This was indeed itself an attempt at getting it 
+right in an uncertain world. 
+ 
+ 
+  
+ 
+32 Weidmann (2019a). 
+
+ 
+28 
+ 
+References 
+ 
+Adrian, T. (2023), “The Role of Inflation Expectations in Monetary Policy”, 
+Remarks at the Deutsche Bundesbank Symposium, 15 May.  
+ 
+Arce, O., E. Hahn and G. Koester (2023), “How tit-for-tat inflation can make 
+everyone poorer”, European Central Bank, Blog, 30 March.  
+ 
+Benigno, P. and G. B. Eggertson (2023), “It’s Baaack: The Surge in Inflation in 
+the 2020s and the Return of the Non-Linear Phillips Curve”, National Bureau 
+of Economic Research, Working Paper 31197.  
+ 
+Blanchard, O. J. and B. S. Bernanke (2023), “What Caused the US Pandemic-
+Era Inflation?”, National Bureau of Economic Research, Working Paper 
+31417. 
+ 
+Blanchard, O. J. and J. Galí (2007), “Real Wage Rigidities and the New 
+Keynesian Model”, Journal of Money, Credit and Banking, 39(1), 35-65. 
+ 
+Burban, V., B. De Backer and A. L. Vladu (2024), “Inflation (de-)anchoring in 
+the euro area,” European Central Bank, Working Paper (forthcoming).  
+ 
+ECB (2022), “2022 climate risk stress test”.  
+ 
+Erceg, C., J. Lindé and M. Trabandt (2024), “Monetary Policy and Inflation 
+Scares”, International Monetary Fund, Working Paper (forthcoming).  
+ 
+Gautier, E., H. Le Bihan and F. Lippi (2023), “Why prices transmit large-scale 
+shocks more quickly”, Banque de France, Blog, 5 October. 
+ 
+Glick, R., S. Leduc and M. Pepper (2022), “Will Workers Demand Cost-of-
+Living Adjustments?”, Federal Reserve Bank of San Francisco, Economic 
+Letter 21.  
+ 
+Grimm, M., Ò. Jordà, M. Schularick, A. M. Taylor (2023), “Loose Monetary 
+Policy and Financial Instability”, Federal Reserve Bank of San Francisco, 
+Working Paper 06.  
+ 
+Hall, G. J. and T. J. Sargent (2022), “Three world wars: Fiscal-monetary 
+consequences”, Proceedings of the National Academy of Sciences , Research 
+Article.  
+
+ 
+29 
+ 
+ 
+Kashyap, A. K. and J. C. Stein (2023), “Monetary Policy When the Central 
+Bank Shapes Financial-Market Sentiment”, Journal of Economic Perspectives, 
+37(1), 53-76. 
+ 
+Rajan, R. G. and V. V. Acharya (2024), “The Danger of Forgetting the 2023 
+Banking Crisis”, Project Syndicate, 8 February. 
+ 
+Rudd, J. (2022), “Why do we think that inflation expectations matter for 
+inflation? (And should we?)”, Review of Keynesian Economics, 10(1), 25-45. 
+ 
+Schnabel, I. (2023), “Monetary and financial stability – can they be 
+separated?”, Speech at the Conference on Financial Stability and Monetary 
+Policy in the honour of Charles Goodhart, 19 May. 
+ 
+Schnabel, I. (2024), “The future of inflation (forecast) targeting”, Keynote 
+speech at the thirteenth conference organised by the I nternational Research 
+Forum on Monetary Policy, “Monetary Policy Challenges during Uncertain 
+Times”, at the Federal Reserve Board, Washington, D.C ., 17 April. 
+ 
+Stevens, A. and J. Wauters (2021), “Is euro area lowflation here to stay? 
+Insights from a time-varying parameter model with survey data”, Journal of 
+Applied Econometrics, 36, 566-586. 
+ 
+Wauters, J. (2023), “The perils of tracking year-on-year inflation”, National 
+Bank of Belgium, Blog, 21 April. 
+ 
+Weidmann, J. (2019a), “The role of the central bank in a modern economy - a 
+European perspective”, Speech at the University of South Africa (UNISA), 
+Pretoria, 12 February. 
+ 
+Weidmann, J. (2019b), “Climate change and central banks”, Welcome 
+address at the Deutsche Bundesbank’s second financial market conference, 
+Frankfurt am Main, 29 October.  
+ 
+Weidmann, J. (2020), “Too close for comfort? The relationship between 
+monetary and fiscal policy”, Speech at the OMFIF Virtual Panel, 5 November.  
+ 
+Weidmann, J. (2021a), “Climate risks, financial markets and central banks’ 
+risk management”, Speech at the Green Swan 2021 Global Virtual 
+Conference, 2 June.  
+
+ 
+30 
+ 
+ 
+Weidmann, J. (2021b), “What role should central banks play in combating  
+climate change?”, Remarks at the ILF Online-Conference “Green Banking and 
+Green Central Banking: What are the right concepts? ”, Goethe University 
+Frankfurt, 25 January. 
+ 
+Weidmann, J. (2020), “The current crisis and the challenges it poses for 
+economic and monetary policy”, Frankfurt Finance Summit, 22 June. 
+ 
+Wunsch, P. (2021), “Climate change and the European Central Bank - we 
+need both enthusiasm and realism”, Keynote speech at the Trends CFO of 
+the Year 2021 Award, Brussels, 20 October. 
+ 
+Wunsch, P. (2022), “Germs, War and Central Banks”, Public Lecture at the 
+International Center for Monetary and Banking Studies, Geneva, 8 
+November. 
+ 
+Wunsch, P. (2023a), “Two sides of the same coin: money supply, budget 
+deficits and inflation”, National Bank of Belgium, Blog, 19 April.  
+ 
+Wunsch, P. (2023b), “The macroeconomic aspects of climate neutrality – a 
+European perspective”, Keynote speech at the Peterson Institute for 
+International Economics, 5 June.  
+ 
+Wunsch, P. (2024a), “Too good to be true? Financial stability and the great  
+reversal in interest rates,” The EuroFi Magazine, February. 
+ 
+Wunsch, P. (2024b), “Strategic investment and reforms in view of enhancing 
+EU’s growth potential”, Opening Keynote, 13 February. 
+ 

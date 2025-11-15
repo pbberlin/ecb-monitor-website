@@ -1,0 +1,276 @@
+TM
+Beyond fragmentation: economic resilience in a shifting world
+Opening remarks by Fabio Panetta* 
+Governor of Banca d’Italia
+G7-Seminar on ‘A fragmenting trading system:  
+where we stand and the implications for policy’
+Banca d’Italia 
+Rome, 15 November 2024
+Ladies and Gentlemen,
+It is a great pleasure to welcome you to this G7-seminar on ‘A fragmenting trading 
+system: where we stand and the implications for policy’. 
+We are meeting today just a few hundred  metres from Palazzo dei Conservatori, where 
+the Treaties of Rome were signed in 1957. The Treaties laid the foundations for the 
+European Economic Community and the European Atomic Energy Community. They set 
+in motion a vision of cooperation and shared prosperity that still resonates strongly in 
+the world today. Their objectives reflect a set of values that transcend European borders 
+and remain strikingly relevant: to promote the free movement of people, goods, services 
+and capital, and to ensure equal access to essential materials.1 
+Almost 70 years later, these values are under strain. 
+In my remarks today I will touch on some of the forces that risk pushing the global 
+system towards fragmentation. I will also outline some high-level criteria for tackling the 
+problem. 
+The opening up to international trade, increased economic and financial integration, and 
+closer cooperation between countries are important achievements for the international 
+community after the devastation caused by the Second World War. We must safeguard 
+these achievements to ensure prosperity and peace for future generations.
+*   *   *
+* I wish to thank Alessandro Borin, Michele Mancini, Valentina Memoli, Roberto Piazza and Pietro Rizza 
+for their valuable insights and contributions.
+1 Article 52 of the EAEC states that: ‘The supply of ores, source materials, and special fissile materials 
+shall be ensured [...] by means of a common supply policy on the principle of equal access to 
+sources of supply.’
+
+2
+There is perhaps no better way to describe the process of global integration than through 
+the lens of international trade. 
+The ability to trade has always brought countries together. Two centuries ago, the house 
+of Thomas Jefferson, one of the American founding fathers, was filled with wine, furniture 
+and books imported from Europe.2
+Since then, global trade integration has increased dramatically and its centre of gravity 
+has shifted. Two hundred years ago, trade was mostly an Atlantic affair. 3 Today, trade 
+connects all regions across the world, and its value (imports plus exports) has reached 60 
+per cent of world GDP. Two main factors have contributed to this expansion.
+First, falling trade costs. Jefferson could afford to import French wine because he 
+was extremely wealthy. Today, import costs are much lower – for everyone. This is 
+partly because the reduction in international tariffs under the GATT/WTO multilateral 
+agreements has made imported goods cheaper. Indeed, research shows that the 
+increase in import tariffs in the United States in 2018 significantly raised the price 
+of imported goods – tariffs were passed on one-to-one to US consumers. 4 Equally 
+important is the fall in international transport costs: by some measures, air transport 
+costs have fallen in real terms from almost $4 per tonne-kilometer in 1955 to $0.3 in 
+2004.5 Policy certainly matters, but so does technological progress.
+A second key factor is that global trade now moves through complex global value 
+chains. The furniture in Jefferson’s living room was designed and manufactured entirely 
+in Europe. Today, the material and intellectual inputs for both simple and complex 
+objects come from all over the world. This has led to a spectacular increase in both 
+the interconnectedness and specialization of global economies. Take the iPhone for 
+example. It is designed in the United States, its display comes from South Korea, the 
+memory chips come from Japan, South Korea and Taiwan, and it is all assembled  
+in China.6
+Globalization has been accompanied by a dramatic improvement in living standards, 
+especially in China and in other parts of Asia. Hundreds of millions of people have 
+2 For an account of Jefferson’s private life, see S.N. Randolph, The Domestic Life of Thomas Jefferson , 
+New York, Harper & Brothers, 1871. Some of Jefferson’s furniture can be seen at the official Thomas 
+Jefferson Monticello website.
+3 K. Pomeranz, ‘The Great Divergence: China, Europe, and the Making of the Modern World Economy ’, 
+Princeton University Press, 2000.
+4 M. Amiti, S.J. Redding and D.E. Weinstein, ‘Who’s paying for the US tariffs? A longer-term perspective’, 
+AEA Papers and Proceedings, Volume 110, 2020, pp. 541-546; P.D. Fajgelbaum, P.K. Goldberg,  
+P.J. Kennedy and A.K. Khandelwal, ‘The return to protectionism’, The Quarterly Journal of Economics, 
+Volume 135, 1, 2020, pp. 1-55.
+5 D. Hummels, ‘Transportation Costs and International Trade in the Second Era of Globalization’, Journal 
+of Economic Perspectives, Volume 21, 3, 2007, pp. 131-154.
+6 F.P. Hochberg, ‘The iPhone Isn’t Made in China: It’s Made Everywhere’, The Wall Street Journal,  
+31 January 2020.
+
+2 3
+been lifted out of poverty. 7 This phenomenon has been so pronounced that between 
+1980 and 2008 the centre of gravity of global economic activity moved some 5,000 km 
+eastwards.8 This shift in trade has also been accompanied by geopolitical shifts.
+*   *   *
+For all the successes I have listed, we must acknowledge that globalization has also 
+created vulnerabilities. Some have only recently become apparent. Others have been 
+brewing for a long time.9 This brings me directly to the issue of global fragmentation.
+The COVID-19 pandemic and the geopolitical tensions following Russia’s aggression  
+against Ukraine have highlighted the vulnerabilities associated with over-reliance on 
+single suppliers or regions. These events have shown how specialization can improve 
+efficiency but also lead to excessive concentration, creating bottlenecks in global supply 
+chains. 
+Interdependence is increasingly perceived as a source of risk to national security. 
+Examples include the sudden interruption of Russian gas flows to Europe, or China’s 
+export quotas on gallium. At the same time, several advanced economies have curbed 
+technology exports to non-aligned countries. 10 Geopolitical blocs are now considering 
+how to manage specialization and international trade to ensure their supremacy in the 
+race for technology. 
+Companies are already taking note. 11 Geopolitical considerations are becoming more 
+important in their foreign direct investment decisions. 12 In the European Union (EU), 
+companies have begun to implement de-risking strategies, mainly by replacing Chinese 
+suppliers with EU-based ones.13 Globalization is not over, but the geography of trade is 
+changing.14 
+7 At the global level, inequalities have decreased since the 1980s thanks to a reduction in the gaps 
+between countries. See L. Chancel, T. Piketty, E. Saez and G. Zucman (coordinators), World Inequality 
+Report 2022, World Inequality Lab, 2022.
+8 D. Quah, ‘The Global Economy’s Shifting Centre of Gravity’, Global Policy, Volume 2, 2011, pp. 3-9.
+9 F. Panetta, ‘The future of Europe’s economy amid geopolitical risks and global fragmentation’, Lectio 
+Magistralis delivered on the occasion of the conferral of an honorary degree in Juridical Sciences in 
+Banking and Finance by the University of Roma Tre, Rome, 23 April 2024.
+10 Export quotas on gallium on the one hand, and limitations on technological transfers on the other, 
+are in fact related. See H. Ziady and X. Xu, ‘China hits back in the chip war, imposing export curbs on 
+crucial raw materials’, CNN, 3 July 2023.
+11 M. Bottone, M. Mancini, A. Boffelli, D. Pegoraro, A. Kutten, I. Balteanu and J. Quintana, ‘Sourcing 
+governance and de-risking strategies in Europe: a comparative study of Germany, Italy and Spain’, Banca 
+d’Italia, Questioni di Economia e Finanza (Occasional Papers), 880, 2024; Centro Studi Confindustria, 
+‘Catene di fornitura tra nuova globalizzazione e autonomia strategica’, Confindustria Servizi, 2023.
+12 IMF, ‘World Economic Outlook. A Rocky Recovery’, April 2023. 
+13 I. Balteanu, M. Bottone, A. Fernández-Cerezo, D. Ioannou, A. Kutten, M. Mancini, and R. Morris, 
+‘European firms facing geopolitical risk: Evidence from recent Eurosystem surveys’, VoxEU column,  
+18 May 2024.
+14 F.P. Conteduca, S. Giglioli, C. Giordano, M. Mancini and L. Panon, ‘Trade Fragmentation Unveiled: Five 
+Facts on the Reconfiguration of Global, US and EU Trade’, Banca d’Italia, Questioni di Economia e 
+Finanza (Occasional Papers), 881, 2024.
+
+4
+Other forces are also pushing towards greater fragmentation. In several advanced countries, 
+critics argue that – by embracing globalization – democratic countries have given up some 
+of their autonomy in implementing national policies that could have offered protection to 
+the most vulnerable workers and citizens.15 Such considerations deserve attention. 
+At the same time, globalization has often been an easy scapegoat. For example, empirical 
+analysis shows that technological progress has a much greater impact on wage inequality 
+than outsourcing or participation in global value chains.16 
+It has also become increasingly clear that some countries have been able to attract 
+significant volumes of global production thanks to substantial public subsidies. 17 For 
+example, the rapid growth of the electric vehicle industry in China has been supported 
+by generous production subsidies. 18 Multilateral rules and institutions have not always 
+been effective in addressing these distortions. This has contributed to the erosion of the 
+multilateral system.
+As a central banker, let me also comment on the state of the international financial 
+system. At global level, the degree of financial integration remains high, and the financial 
+safety net has expanded significantly since the 2008 financial crisis. However, this safety 
+net remains uneven across countries. 19 There are signs that the landscape is changing. 
+For instance, there is growing debate about the impact of trade and financial sanctions 
+on the structure of the international payments system. In addition, some central banks 
+are reducing their holdings of major currencies while increasing their gold reserves.20
+*   *   *
+How should we address the challenges of global fragmentation?
+Recognizing that this is an extremely complex issue, I will refrain from offering a specific 
+solution. Instead, I will propose a methodological approach and outline some concrete 
+examples of its application.
+15 D. Rodrik, The Globalization Paradox: Democracy and the Future of the World Economy ,  
+New York-London, W.W. Norton, 2011.
+16 R.C. Feenstra and G.H. Hanson, ‘The impact of outsourcing and high-technology capital on 
+wages: estimates for the United States, 1979-1990’, Quarterly Journal of Economics, 114, 3, 1999,  
+pp. 907-940; R.C. Feenstra and G.H. Hanson, ‘Global production sharing and rising inequality:  
+a survey of trade and wages’, in E. K. Choi and J. Harrigan (eds.), Handbook of International Trade , 
+Oxford, Blackwell Publishing, 2003, pp. 146-185; ‘Fostering inclusive growth’, document prepared by 
+IMF staff for the G20 meeting in Hamburg on 7-8 July 2017.
+17 L. Rotunno and M. Ruta, ‘Trade Spillovers of Domestic Subsidies’, IMF Working Papers, 41, 2024.
+18 European Commission, ‘EU imposes duties on unfairly subsidised electric vehicles from China while 
+discussions on price undertakings continue’, press release, 29 October 2024. 
+19 The global financial safety net comprises central banks’ FX reserves, central banks’ bilateral swap 
+arrangements (BSAs), Regional Financing Arrangements (RFAs), and the IMF. Its expansion since 
+2008 was driven mainly by increased coverage from BSAs and RFAs, which however are limited to 
+selected participating countries. The IMF remains the only elements of the global financial safety net 
+that provides universal coverage. See S. Aiyar et al., ‘Geoeconomic Fragmentation and the Future of 
+Multilateralism’, IMF Staff Discussion Notes, 1, 2023.
+20 F. Panetta, ‘Beyond money: the euro’s role in Europe’s strategic future’, Speech at the conference for 
+the Ten years with the euro, Riga, 26 January 2024.
+
+4 5
+My basic premise is that we must avoid the illusion that blanket measures erecting 
+protectionist barriers are the solution to our problems. A blanket measure is like a kitchen 
+knife: it is not the right instrument to perform complex surgery. The global economy is 
+extremely complex in its trade, investment and financial interconnections. Attempts to 
+divide the global economy into rival blocs would do more harm than good. 
+An escalation of trade barriers between blocs would lead to severe efficiency and welfare 
+losses for all. 21 It would reduce the diversification of our economies and increase the 
+volatility of output and inflation. Indeed, several studies have shown that trade openness 
+and participation in global production networks improve the diversification of sources 
+of supply and demand, thereby reducing exposure to local shocks. 22 The weaponization 
+of critical supply chains by commodity-producing countries would severely affect EU 
+manufacturing production, with heterogeneous effects across regions, sectors and firms. 
+For example, value-added in the electrical equipment industry could fall by more than  
+7 per cent, three times as much as in the textile industry.23 
+Protectionism would not be as protective as it might seem, as blunt policies would 
+inevitably be circumvented. Key products targeted by bilateral trade restrictions would 
+find indirect routes to opposing blocs through trade with third countries, 24 simply 
+turning a bilateral relationship into a three-party trade. This would only add a third trade 
+intermediary, increasing costs and risks and reducing transparency. 25 Such unintended 
+consequences would undermine economic efficiency and security.
+*   *   *
+So, how can we pursue a more focused de-risking strategy?
+In my view, this strategy rests on four main pillars: information, innovation, flexibility 
+and international cooperation. As an example of this approach, I will refer to possible  
+de-risking strategies in the sourcing of critical raw materials. This is a crucial issue for the 
+EU, which accounts for only 0.5 per cent of global production of these inputs.26 
+21 See, among others, M.G. Attinasi, L. Boeckelmann and B. Meunier, ‘The economic costs of supply 
+chain decoupling’, ECB Working Papers, 2839, 2023; G. Felbermayr, H. Mahlkow and A. Sandkamp, 
+‘Cutting through the value chain: The long-run effects of decoupling the East from the West’, Empirica, 
+50, 2023, pp. 75-108; B. Javorcik, L. Kitzmüller, H. Schweiger and M.A. Yıldırım, ‘Economic costs of 
+friendshoring’, The World Economy, 47, 7, 2024, pp. 2871-2908.
+22 A. Borin, M. Mancini and D. Taglioni, ‘Measuring exposure to risk in global value chains’, World Bank, 
+Policy Research Working Papers, 9785, 2021.
+23 L. Panon et al., ‘Inputs in distress: geoeconomic fragmentation and firms’ sourcing ’, Banca d’Italia, 
+Questioni di Economia e Finanza (Occasional Papers), 861, 2024.
+24 For instance, in the case of sanctions imposed on Russia following the invasion of Ukraine, there 
+are signs of a rerouting of EU sanctioned goods through specific third countries. See A. Borin et al. ,  
+‘The impact of EU sanctions on Russian imports’, VoxEU, 29 May 2023.
+25 F.P. Conteduca, S. Giglioli, C. Giordano, M. Mancini and L. Panon, op. cit., 2024.
+26 IEA, ‘World Energy Investment 2024’, 2024; F. Panetta, ‘The heat is on: challenges and opportunities 
+of the energy transition’, Opening remarks at the G7-IEA conference on ‘Ensuring an orderly energy 
+transition’, Rome, 16 September 2024.
+
+6
+With better information, we can better identify and monitor vulnerabilities. Many 
+G7 public institutions, including the European Commission and the US Department 
+of Commerce, have developed analytical tools to map critical vulnerabilities in 
+the availability of raw materials. 27 However, our understanding of production 
+interdependencies remains limited. More data needs to be collected and pooled, and 
+best practices and tools need to be shared.
+Innovation is the second pillar. Scientific research and product development can 
+provide us with alternative materials and technologies. This can be financed partly 
+through public-private partnerships for large projects. In addition, multilateral 
+financial institutions such as the European Bank for Reconstruction and Development 
+can finance new supply chains that help diversify sources of critical raw materials. 
+Third, our policies must be flexible enough to adapt to an ever-changing landscape. 
+We cannot predict exactly what future innovations will look like. Nor can we predict 
+geopolitical developments. Nevertheless, we should set long-term goals. Flexibility is all 
+the more important when change takes time.28
+The fourth pillar is cooperation. To unlock the greatest gains, we should remain 
+committed to making cooperation truly global. The cost of a fragmented world would 
+in fact be very high. Some research 29 suggests that it could exceed 6 percent of global 
+GDP in extreme scenarios. 30 
+But as global cooperation becomes more difficult, there are reasons to at least 
+strengthen cooperation among like-minded countries. The rewards are great: it was 
+a joint US-European supply chain that developed and distributed one of the most 
+27 R. Arjona, W. Connell García and C. Herghelegiu, ‘An enhanced methodology to monitor the EU’s 
+strategic dependencies and vulnerabilities’, Publications Office of the European Union, Single Market 
+Economy Papers WP/14, 2023; European Commission, ‘Strategic dependencies and capacities’, 
+Commission Staff Working Document, 352, 2021; U.S. Department of Commerce ‘Fact Sheet: 
+Department of Commerce Announces New Actions on Supply Chain Resilience’, 10 September 2024.
+28 To understand what this means, consider the production of critical minerals needed for the climate 
+transition. Europe needs a flexible policy mix to significantly reduce its critical dependencies  
+(M. Draghi, ‘The future of European competitiveness’, September 2024). Projects to increase domestic 
+production of critical minerals are under way, for example for lithium. However, uncertainties remain 
+regarding potential yields, especially for rare earths. There is currently no domestic refining capacity 
+for these elements in the EU, so decisions will also have to be made here (L. Gregoir and K. van Acker, 
+‘Metals for Clean Energy: Pathways to Solving Europe’s Raw Materials Challenge’, KU Leuven, 2022). 
+Some argue that, if technological innovation in recycling advances far enough, Europe could become 
+a net exporter of these minerals in the long term. But, in the short term, we need to step up economic 
+diplomacy to strengthen trade and investment partnerships with a wider group of suppliers, including 
+those in sub-Saharan Africa. The G7 Partnership for Resilient and Inclusive Supply Chain Enhancement 
+is a blueprint for innovative strategies on this front. It can help diversify our supply chains for clean 
+energy products, while providing our partners in low- and middle-income countries with technology 
+transfers that support their economic development.
+29 M.G. Attinasi and M. Mancini (coordinators), ‘Navigating a fragmenting global trading system: Insights 
+for central banks’, European Central Bank, Occasional Paper Series, forthcoming.
+30 To put this figure into perspective, a 6 percent decline in global output corresponds to the impact of 
+the COVID-19 pandemic on world GDP in 2020. This impact is calculated as the difference between 
+realized world GDP in 2020 and the corresponding value projected by the IMF in its October 2019 
+‘World Economic Outlook’.
+
+76
+successful vaccines against COVID-19. The EU is already discussing new ways to further 
+coordinate its members’ policies. We also need to work better with our international 
+partners. For instance, we should reinvigorate discussions on trade and investment 
+agreements. On industrial policy, better coordination would at least allow us to avoid 
+costly subsidy wars. 
+*   *   *
+Let me conclude by emphasizing that the costs of international fragmentation are not 
+only economic. Much more is at stake: from social progress to international cooperation. 
+And so is freedom – the freedom to trade goods and services, to invest across borders, 
+to share knowledge and ideas. These are the prerequisites for securing prosperity and 
+peace.
+I very much look forward to the discussions that will emerge from today’s seminar.  
+I am sure it will help raise awareness of the many benefits that only an integrated world 
+can bring.
