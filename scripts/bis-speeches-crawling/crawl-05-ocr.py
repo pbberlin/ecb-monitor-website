@@ -8,26 +8,25 @@ import subprocess
 from pypdf import PdfReader
 
 
-def runOcrOnPdf(inputPdfPath: Path, outputPdfPath: Path) -> None:
+def runOcrOnPdf(inPth: Path, outPth: Path) -> None:
+    print(f"\t starting OCR {inPth}")
     cmd = [
         "ocrmypdf",
         "--force-ocr",
         "--language",
         "eng",
-        str(inputPdfPath),
-        str(outputPdfPath),
+        str(inPth),
+        str(outPth),
     ]
-
-
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0:
+    res = subprocess.run(cmd, capture_output=True, text=True)
+    if res.returncode != 0:
         print("ocrmypdf failed:")
-        print(result.stdout)
-        print(result.stderr)
-        raise RuntimeError(f"ocrmypdf failed with code {result.returncode}")
+        print(res.stdout)
+        print(res.stderr)
+        raise RuntimeError(f"ocrmypdf failed with code {res.returncode}")
 
 
-def extractTextFromPdf(pdfPath: Path) -> str:
+def extractTextFromOcrPdf(pdfPath: Path) -> str:
     reader = PdfReader(str(pdfPath))
     allTextList = []
     for idx1, page in enumerate(reader.pages):
@@ -36,18 +35,20 @@ def extractTextFromPdf(pdfPath: Path) -> str:
             print(f"Warning: page {idx1} returned None text")
             pageText = ""
         allTextList.append(pageText)
+    print(f"\t extracted {len(allTextList)} pages from {pdfPath}")
     return "\n\n".join(allTextList)
 
 
 if __name__ == "__main__":
-    originalPdf = Path("fabio-panetta-2024-07-09.pdf")
-    ocredPdf = Path("fabio-panetta-2024-07-09_ocr.pdf")
 
+    inp = Path(".") / "out" / "dl" / "fabio-panetta-2024-07-09.pdf"
+    ocredPdf    = inp.with_name(  inp.stem + "_ocr.pdf")
     if not ocredPdf.exists():
-        runOcrOnPdf(originalPdf, ocredPdf)
+        runOcrOnPdf(inp, ocredPdf)
 
-    extractedText = extractTextFromPdf(ocredPdf)
+    extractedText = extractTextFromOcrPdf(ocredPdf)
     # print(extractedText)
-    out = originalPdf.with_name(  originalPdf.stem + ".txt")
+    out = Path(".") / "out" /  (inp.stem + "_ocr.txt")
     out.write_text(extractedText)
+    print(f"\t written to {out}")
  
