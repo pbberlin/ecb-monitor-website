@@ -1,5 +1,7 @@
 # use 
-# pipreqs . --force
+pip install pipreqs
+# use 
+pipreqs . --force
 
 flask
 pandas

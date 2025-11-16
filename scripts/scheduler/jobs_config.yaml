@@ -1,0 +1,17 @@
+# cron format
+#   minute       hour       day-of-month month       day-of-week
+#   minute(0–59) hour(0–23) day(1–31)    month(1–12) weekday(0–6)
+#   we are in [app dir]/scripts/scheduler
+jobs:
+  - id: "dailyFetch"
+    cron: "0 3 * * *"
+    script: "../daily_fetch.py"
+    env:
+          FLASK_ENV: "production"
+  - id: "sendReport"
+    cron: "30 6 * * *"
+    script: "../send_report.py"
+
+  - id: "refreshCache"
+    cron: "0 */2 * * *"
+    script: "../refresh_cache.py"
