@@ -12,6 +12,7 @@ from   ipaddress import ip_address, ip_network
 
 from   flask import Flask, request, Response, abort 
 from   flask import render_template, send_from_directory 
+from   flask import g
 app  = Flask(__name__)
 # Flask automatically sets this when FLASK_ENV=development
 # or when you run app.run(debug=True)
@@ -20,6 +21,33 @@ if debugMode:
     app.config["TEMPLATES_AUTO_RELOAD"] = True
     app.jinja_env.auto_reload = True
     app.jinja_env.cache = {}
+
+
+LANGUAGE_BY_HOST = {
+    "ecb-monitor.zew.de": "en",
+    "ezb-monitor.zew.de": "de",
+}
+
+
+@app.before_request
+def selectLanguage():
+    hostHeader = request.headers.get("Host", "")
+    hostName   = hostHeader.split(":")[0].lower()
+    g.currentLanguage = LANGUAGE_BY_HOST.get(hostName, "en")
+
+    if False:
+        # now available everyhwere
+        currentLanguage = getattr(g, "currentLanguage", "en")
+
+
+# currentLanguage available in all Jinja templates
+# used in index.html window.APP_LANGUAGE = "{{ currentLanguage }}";
+@app.context_processor
+def injectLanguage():
+    currentLanguage = getattr(g, "currentLanguage", "en")
+    return {
+        "currentLanguage": currentLanguage,
+    }
 
 
 from lib.page1   import getAllPredictions
@@ -218,13 +246,13 @@ def allPredictionsH():
             top_k = request.json['top_k']
         except Exception as error:
             print(str(error))
-        
+
         res = getAllPredictions(input_text, random.randint(5,555))
-        
+
         print(f"allPredictionsH 2 {input_text}")
 
         return app.response_class(response=json.dumps(res), status=200, mimetype='application/json')
-    
+
     except Exception as error:
         err = str(error)
         print(err)
@@ -235,8 +263,8 @@ def allPredictionsH():
 
 if __name__ == '__main__':
     app.run(
-        host='0.0.0.0', 
-        debug=True, 
-        port=5000, 
+        host='0.0.0.0',
+        debug=True,
+        port=5000,
         use_reloader=False,
     )

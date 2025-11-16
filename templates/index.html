@@ -16,6 +16,7 @@
      <script>
       // ENV = 'production' => DEBUG = False, else TRUE
       window.APP_DEBUG = {{ "true" if config['DEBUG'] else "false" }};
+      window.APP_LANGUAGE = "{{ currentLanguage }}";
     </script>
 
 </head>
@@ -120,7 +121,7 @@
                 <nav>
                     <a class="c-meta__link js-languageswitch" href="https://www.zew.de/en/zew/about-zew" lang="en"
                         title="English">
-                        English
+                        {{ currentLanguage }}
                     </a>
                 </nav>
             </div>
@@ -191,11 +192,11 @@
                     </a>
 
                     <a href="/pg/additonal-ui-elements.html">
-                        UI elements additional 
+                        UI elements additional
                     </a>
 
                     <a href="/pg/echart.html">
-                        Landkarte EU  
+                        Landkarte EU
                     </a>
 
 
@@ -1004,7 +1005,7 @@
 
                     EZB-Transparenz-Monitor
                 </span>
-                
+
                 <!--
                 <img
                     class="u-d:n u-d:b@sm"
@@ -1780,7 +1781,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   <!-- GoatCounter pixel: placed at the END of <body> -->
-  <img 
+  <img
     src="/gc-stats?p={{ request.path | urlencode }}"
     alt="" width="1" height="1"
     referrerpolicy="no-referrer-when-downgrade"
