@@ -185,12 +185,12 @@
           <input type="radio" name="stats_variable" value="ameco_interest_expenditure">
         </label>
 
-<!--
+        <!--
         <label title="(Ameco)">
           Zinszahlungen in % BIP
           <input type="radio" name="stats_variable" value="ameco_interest_to_gdp">
         </label>
- -->
+        -->
 
         <label title="(Eurostat)">
           Zehnjährige Staatsanleihen
@@ -206,15 +206,23 @@
       </div>
 
       <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem">
-        <a id="linkDownload" href="#" title="European CSV, semikolon, UTF-8" download>Daten herunterladen</a>
+        <a id="linkDownload" href="#" title="European CSV, semikolon delimited, decimal separator: comma, UTF-8" download>Daten herunterladen</a>
       </div>
 
 
-      <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem">
-        <span style="font-size: 70%;">color opacity</span>
+      <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem"
+          title="change  saturation / opacity of the map colors"  
+        >
+        <span style="font-size: 70%; display: inline-block; position: relative; top: -5px;"
+        >Saturation</span>
+        <!-- 
         <input name="color_opacity" id="color_opacity" type="number" min="1" max="100" step="10" value="60"
           style="border:none; width: 2.2rem;padding:0; font-size: 70%;">
-      </div>
+        -->
+          <input name="color_opacity" id="color_opacity" type="range" min="1" max="100" step="10" value="60"
+          style="border:none; width: 4rem;">
+
+        </div>
 
       <style>
 
@@ -287,9 +295,15 @@
 
 
   <div class="col col--right control-pad" astyle="height: 90%;">
+      
+    <p>
+        
+      Entire Euro area:
       <br>
-      <br>
-      <br>
+      52 %
+
+    </p>
+
       <br>
       <br>
       <!-- room for additional stuff. room for additional stuff. -->
@@ -348,13 +362,8 @@
   // wrap everything in an async func, since we need `await fetch(...)` at top level
   (async () => {
 
-    const dom = document.getElementById('echart_container');
+    const myChartDom = document.getElementById('echart_container');
     const currentYear = new Date().getFullYear();
-
-
-
-
-
 
 
 
@@ -403,10 +412,11 @@
       } ,
     };
 
+
     // init
-    let selectedVar    = "ameco_debt_to_gdp";
-    const rawHash   = window.location.hash;
-    const byUrlHash = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
+    let   selectedVar  = "ameco_debt_to_gdp";
+    const rawHash      = window.location.hash;
+    const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
     if (byUrlHash !== ""){
       selectedVar    = byUrlHash;
     }
@@ -422,11 +432,11 @@
     const linkDownload = document.getElementById("linkDownload")
     linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
 
-
-    const myChart = echarts.init(dom, null, {
+    const myChart = echarts.init(myChartDom, null, {
       renderer: 'canvas',
       useDirtyRect: false
     });
+
 
     const root = document.documentElement;
     const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
@@ -546,8 +556,11 @@
         coordinateSystem: 'geo',
         symbol: 'circle',
         symbol: 'image:///static/img/ecb/ecb-tower-02.png',
-        symbolSize:   [ 20,  30],
-        symbolOffset: [ -6,   1],
+        symbolSize:   [ 1.5*20,  1.5*30],
+        symbolSize:   [ 1.5*20,  1.5*22],  // shortened - view from steeply above
+        symbolOffset: [ -9,   1],
+        symbolOffset: [ -9,  -2],  // second vertical
+        animationDuration: 0,
         data: [
             {
                 name: 'ECB Tower',
@@ -561,6 +574,75 @@
       }
       return item;
     }
+
+
+
+
+    function updateEcbArrow() {
+
+        const pixel = myChart.convertToPixel({ geoIndex: 0 }, ecbCoord);
+
+        const containerWidth  = myChartDom.clientWidth;
+        const containerHeight = myChartDom.clientHeight;
+
+        let p0x = pixel[0];
+        let p0y = pixel[1];
+        // tuning arrow below icon
+        // p0x = p0x -  8;
+        // p0y = p0y + 26;
+        p0x = p0x + 2;
+        p0y = p0y - 3;
+
+        const endX = containerWidth + 0;
+        let  endY = p0y;
+        endY = 50;
+
+        // const midX = (startX + endX) / 2;
+        const p1x = (p0x + endX) / 3.4;
+        const p1y =  p0y - 0;
+
+
+        const pointsForPolyLine = [
+            [p0x, p0y],
+            [p1x, p1y],
+            [endX, endY]
+        ];
+
+        myChart.setOption({
+            graphic: [
+                {
+                    id: 'ecb-arrow-line',
+                    type: 'polyline',
+                    shape: {
+                        points: pointsForPolyLine
+                    },
+                    style: {
+                        stroke: '#333',
+                        lineWidth: 0.4
+                    },
+                    silent: true,  // no reaction to click, hover, drag...
+                },
+                // {
+                //     id: 'ecb-arrow-head',
+                //     type: 'polygon',
+                //     shape: {
+                //         points: [
+                //             [p0x    , p0y - 12],    // tip
+                //             [p0x - 8, p0y +  2],    // left  point
+                //             [p0x + 8, p0y +  2]     // right point
+                //         ]
+                //     },
+                //     style: {
+                //         fill: '#888'
+                //     },
+                //     silent: true
+                // },
+            ]
+        });
+    }
+
+
+
 
     function regionsColoring(yr=currentYear) {
 
@@ -853,14 +935,20 @@
 
     myChart.hideLoading();
     myChart.setOption(optionsInit);
+    updateEcbArrow();
     console.log("echart options set 1")
 
 
-    // if (option && typeof option === 'object') {
-    //   console.log("echart options set 2")
-    // }
+    window.addEventListener('resize', function() {
+        myChart.resize();
+        updateEcbArrow();
+    });
 
-    window.addEventListener('resize', myChart.resize);
+    myChart.on('georoam', function() {
+        updateEcbArrow();
+    });
+
+
 
 
     // --- slider setup: 1960 .. (current year + 1) ---
@@ -888,10 +976,9 @@
       return String(newYear) + "-" + mnthFormatted;
     }
 
+
     function sliderToKey(){
-
       const yr = parseInt(sliderEl.value, 10);
-
       // xxxxx
       if (selectedVar !== "eurostat_yields_10y"){
         return {
