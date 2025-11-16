@@ -1,0 +1,12 @@
+# use 
+pip install pipreqs
+# use 
+pipreqs . --force
+
+flask
+pandas
+matplotlib
+
+# not possible under windows
+wsgiref
+
