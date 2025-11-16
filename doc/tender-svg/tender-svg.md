@@ -19,9 +19,9 @@ You task:
 
 * Sparsely drawn patches of windows / windows panes - most windows should not be drawn but "implied" - a few windows are subject to modest animation - see below
 
-* Background 1: transparent, looking good on white backgrounds, maybe a some high slim clouds (scarce style)
+* Background: transparent, looking good on white backgrounds, maybe a some high slim clouds (scarce style)
 
-* Background 2: only a single line of shapes behind the building - sketching a low skyline.  
+* Background: only a single line of shapes behind the building - sketching a low skyline.  
 
 * Optionally before the building: - some simple shapes of parking lots or tree foliage  - just indicating the anchoring on the ground 
 
