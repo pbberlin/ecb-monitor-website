@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 800 1000"
+    preserveAspectRatio="xMidYMid meet">
+
+  <!--
+    Color palette
+    ECB blue:   #0069B4
+    Light sky:  #D5ECF0
+    Accent:     #C8D400
+  -->
+
+  <defs>
+    <!-- Simple window symbol so SVGator can easily duplicate/edit if needed -->
+    <symbol id="simpleWindow" viewBox="0 0 40 60">
+      <rect x="2" y="2" width="36" height="56"
+            fill="#D5ECF0"
+            stroke="#0069B4"
+            stroke-width="4"
+            rx="4" ry="4" />
+    </symbol>
+  </defs>
+
+  <!-- Background 1: slim clouds (transparent overall, looks good on white) -->
+  <g id="background-clouds"
+     fill="none"
+     stroke="#D5ECF0"
+     stroke-width="6"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M120 160 C 170 130, 260 130, 320 160
+             S 460 190, 520 160" />
+    <path d="M420 110 C 470 90, 560 90, 620 120
+             S 730 150, 760 130" />
+  </g>
+
+  <!-- Background 2: low skyline silhouette behind the ECB -->
+  <g id="background-skyline"
+     fill="none"
+     stroke="#0069B4"
+     stroke-width="8"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     opacity="0.8">
+    <path d="M40 670
+             L80 640 L140 640 L140 610
+             L200 610 L200 650
+             L260 650 L260 620
+             L340 620 L340 600
+             L420 600 L420 640
+             L500 640 L500 610
+             L580 610 L580 650
+             L640 650 L640 630
+             L720 630 L760 650" />
+  </g>
+
+  <!-- Ground: simple parking / plaza hint -->
+  <g id="foreground-ground"
+     fill="none"
+     stroke="#0069B4"
+     stroke-width="10"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M80 760 L720 760" />
+    <path d="M140 780 L320 840" />
+    <path d="M480 840 L660 780" />
+    <path d="M260 880 C 340 900, 460 900, 540 880" />
+  </g>
+
+  <!-- ECB building group -->
+  <g id="ecb-building"
+     stroke="#0069B4"
+     stroke-width="10"
+     stroke-linejoin="round"
+     stroke-linecap="round">
+
+    <!-- Podium / base -->
+    <g id="ecb-base">
+      <polygon
+          fill="#D5ECF0"
+          points="160,720 480,720 520,560 200,560" />
+      <polygon
+          fill="none"
+          points="200,560 520,560 540,520 220,520" />
+    </g>
+
+    <!-- Left leaning tower -->
+    <g id="tower-left">
+      <polygon
+          fill="#D5ECF0"
+          points="260,220 170,720 320,720 410,220" />
+      <!-- A few vertical structure lines -->
+      <path d="M245 320 L205 680"
+            fill="none" />
+      <path d="M285 260 L245 680"
+            fill="none" />
+      <path d="M325 230 L285 680"
+            fill="none" />
+    </g>
+
+    <!-- Right leaning tower (slightly taller) -->
+    <g id="tower-right">
+      <polygon
+          fill="#D5ECF0"
+          points="380,180 320,720 520,720 600,210" />
+      <!-- Vertical structure lines -->
+      <path d="M390 260 L350 700"
+            fill="none" />
+      <path d="M430 210 L390 700"
+            fill="none" />
+      <path d="M470 190 L430 700"
+            fill="none" />
+      <path d="M520 190 L470 700"
+            fill="none" />
+    </g>
+
+    <!-- Accent line between towers -->
+    <path id="tower-gap"
+          d="M360 210 L280 720"
+          fill="none" />
+    <path
+          d="M380 200 L300 720"
+          fill="none" />
+
+    <!-- Sparse windows on the right tower (Batman-style patches) -->
+    <g id="windows-right">
+      <use href="#simpleWindow" x="420" y="260" width="40" height="60" />
+      <use href="#simpleWindow" x="460" y="340" width="40" height="60" />
+      <use href="#simpleWindow" x="430" y="430" width="40" height="60" />
+      <use href="#simpleWindow" x="470" y="520" width="40" height="60" />
+      <use href="#simpleWindow" x="410" y="600" width="40" height="60" />
+    </g>
+
+    <!-- Sparse windows on the left tower -->
+    <g id="windows-left">
+      <use href="#simpleWindow" x="260" y="320" width="40" height="60" />
+      <use href="#simpleWindow" x="280" y="420" width="40" height="60" />
+      <use href="#simpleWindow" x="250" y="520" width="40" height="60" />
+    </g>
+
+    <!-- A few accent panes on the podium -->
+    <g id="windows-base">
+      <rect x="230" y="590" width="60" height="40"
+            fill="#D5ECF0"
+            stroke="#0069B4"
+            stroke-width="6"
+            rx="4" ry="4" />
+      <rect x="320" y="590" width="60" height="40"
+            fill="#D5ECF0"
+            stroke="#0069B4"
+            stroke-width="6"
+            rx="4" ry="4" />
+      <rect x="410" y="590" width="60" height="40"
+            fill="#D5ECF0"
+            stroke="#0069B4"
+            stroke-width="6"
+            rx="4" ry="4" />
+    </g>
+
+    <!-- Small trees / foliage as simple shapes -->
+    <g id="foreground-trees"
+       fill="#C8D400"
+       stroke="#0069B4"
+       stroke-width="8">
+      <circle cx="140" cy="740" r="26" />
+      <circle cx="200" cy="750" r="22" />
+      <circle cx="620" cy="750" r="24" />
+      <circle cx="680" cy="740" r="20" />
+    </g>
+
+  </g>
+</svg>
