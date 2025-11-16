@@ -1,8 +1,10 @@
 from pathlib import Path
 import subprocess
 import sys
+# pip install pyyaml
 import yaml
 
+# apscheduler
 from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.triggers.cron       import CronTrigger
 

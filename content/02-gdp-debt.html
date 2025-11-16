@@ -1,4 +1,26 @@
 <style>
+
+  :root{
+    --grad-height: 1.2rem;
+    --w01: max(20rem, 20vw);  /* widht left and right column  */
+  }
+
+
+  /* radio buttons 20% larger */
+  input[type="radio"] {
+    transform:         scale(1.34);
+    -webkit-transform: scale(1.34);    /* Safari / older WebKit */
+    -ms-transform:     scale(1.34);    /* old IE/Edge */
+    transform-origin:  center;
+    vertical-align:    middle;
+
+    position: relative;
+    top: -0.12rem;
+
+  }
+
+
+
   html,
   body,
   dummy {
@@ -15,11 +37,11 @@
     -           or right margin max(20rem, 20vw)
   */
   .layout {
-    width: calc( 820px + 2*max(20rem, 20vw));
+    width: calc( 820px + 2* var(--w01));
     margin: 0 auto;
 
     display: grid;
-    grid-template-columns: max(20rem, 20vw) 820px max(20rem, 20vw);
+    grid-template-columns:  var(--w01) 820px  var(--w01);
     column-gap: 0;
     align-items: start;           /* vertical: top for all */
 
@@ -35,21 +57,28 @@
     /* border: 1px solid red; */
   }
 
-  /* per-cell horizontal alignment */
-  /* first div: at least 20rem - 20% of screen width - */
+
+  /* col1 - at least 20rem - 20% of screen width - */
   .col--left   {
     justify-self: end;
     align-self: start;
     text-align: right;
+    min-width: calc( var(--w01) - 0.5rem );
     /* width: max-content; */
   }
-  /* second div: fixed 820px, content centered */
-  .col--center { justify-self: center; align-self: start; }
-  /* third div: takes the residual space, content left */
-  .col--right  { 
-    justify-self: start;  
-    align-self:   start; 
+
+  /* col2 -  fixed 820px, content centered */
+  .col--center {
+    justify-self: center;
+    align-self: start;
+  }
+
+  /* col3 - takes the residual space, content left */
+  .col--right  {
+    justify-self: start;
+    align-self:   start;
     text-align:   left;
+    min-width: calc( var(--w01) - 0.5rem );
     /* width: max-content; */
   }
 
@@ -85,17 +114,16 @@
   }
 
   #slider-group {
-    display: flex;
+    display:        flex;
     flex-direction: column;
-    gap: 0.1rem;
+    gap: 0.01rem;
     align-items: center;   /* contents centered horizontally */
-    height: auto;
-    width: max-content;    /* shrink container to content so it can sit right */
+    height:      auto;
+    width:       max-content;    /* shrink container to content so it can sit right */
 
     margin-top:    1.1rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.1rem;
     margin-left: auto;
-    padding-right: 1rem;
   }
 
   .options-stat-vars {
@@ -151,13 +179,13 @@
           <input type="radio" name="stats_variable" value="ameco_total_expenditure">
         </label>
 
-        
-        <label title="(Ameco)" style="font-size: 95%;">
+
+        <label title="(Ameco)">
           Zinszahlungen in % Staatsausgaben
           <input type="radio" name="stats_variable" value="ameco_interest_expenditure">
         </label>
 
-<!--         
+<!--
         <label title="(Ameco)">
           Zinszahlungen in % BIP
           <input type="radio" name="stats_variable" value="ameco_interest_to_gdp">
@@ -190,9 +218,6 @@
 
       <style>
 
-        :root{
-          --grad-height: 1.2rem;
-        }
 
         .gradientWrapper {
             position: relative;
@@ -267,7 +292,7 @@
       <br>
       <br>
       <br>
-      room for additional stuff. room for additional stuff. 
+      <!-- room for additional stuff. room for additional stuff. -->
       <br>
       <br>
       <br>
@@ -464,7 +489,7 @@
 
         const gradWrap = document.getElementById("myGradient1");
         gradWrap.style.opacity = opacity / 100;
-        
+
 
         pct = pct * ranges[0];
         // console.log(`color ${pct} - ${ranges} `);
@@ -511,7 +536,31 @@
         return "#" + hex.join("") + opacity;
     }
 
+    const ecbCoord = [8.6889, 50.1095];  // frankfurt
+    // const ecbCoord = [9.851, 51.11];  // germany centroid
 
+    function ecb(){
+      let item = {
+        name: 'ECB Tower',
+        type: 'scatter',
+        coordinateSystem: 'geo',
+        symbol: 'circle',
+        symbol: 'image:///static/img/ecb/ecb-tower-02.png',
+        symbolSize:   [ 20,  30],
+        symbolOffset: [ -6,   1],
+        data: [
+            {
+                name: 'ECB Tower',
+                value: ecbCoord
+            }
+        ],
+        tooltip: {
+            show: true,
+            formatter: 'ECB Tower'
+        }
+      }
+      return item;
+    }
 
     function regionsColoring(yr=currentYear) {
 
@@ -529,7 +578,7 @@
               borderWidth:  0.4,
               borderColor: '#ccc'
             },
-            emphasis: { 
+            emphasis: {
               disabled: true,
             },
            };
@@ -699,7 +748,7 @@
 
 
 
-    const option2 = {
+    const optionsInit = {
 
       tooltip: {},
       legend: {
@@ -797,12 +846,13 @@
         // randomPieSeries1('France',  25),
         // randomPieSeries1('Germany', 35),
         ...manyCountriesShowStats(),
+        ecb(),
       ]
 
     };
 
     myChart.hideLoading();
-    myChart.setOption(option2);
+    myChart.setOption(optionsInit);
     console.log("echart options set 1")
 
 
@@ -841,7 +891,7 @@
     function sliderToKey(){
 
       const yr = parseInt(sliderEl.value, 10);
-      
+
       // xxxxx
       if (selectedVar !== "eurostat_yields_10y"){
         return {
@@ -896,7 +946,10 @@
         },
       };
       // re-populate
-      option3.series = manyCountriesShowStats(res.yr);
+      option3.series = [
+        ...manyCountriesShowStats(res.yr),
+        ecb(),
+      ];
       option3.geo.regions  = [
           ...regionsColoring(res.yr),
           extraRectangle('Cyprus', -14,-34),
@@ -948,7 +1001,10 @@
           },
         };
         // re-populate
-        option4.series = manyCountriesShowStats(res.yr);
+        option4.series = [
+          ...manyCountriesShowStats(res.yr),
+          ecb(),
+        ];
         option4.geo.regions  = [
             ...regionsColoring(res.yr),
             extraRectangle('Cyprus', -14,-34),
