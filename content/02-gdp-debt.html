@@ -221,7 +221,7 @@
 
 
   <div class="col col--right control-pad" astyle="height: 90%;">
-      
+
 
       <style>
 
@@ -285,13 +285,13 @@
 
 
 
-      <div class="slider-group" 
+      <div class="slider-group"
           style="margin-top: 4.5rem;"
-          title="change  saturation / opacity of the map colors"  
+          title="change  saturation / opacity of the map colors"
       >
         <span style="font-size: 65%; font-weight: 300; display: inline-block; position: relative; top: -5px;"
         >Farbsättigung / Color saturation</span>
-        <!-- 
+        <!--
         <input name="color_opacity" id="color_opacity" type="number" min="1" max="100" step="10" value="60"
           style="border:none; width: 2.2rem;padding:0; font-size: 70%;">
         -->
@@ -571,7 +571,7 @@
 
 
       let item2 = {
-        name: 'ECB Tower',
+        name: 'ECB Tower large',
         type: 'scatter',
         coordinateSystem: 'geo',
         symbol: 'circle',
@@ -582,17 +582,52 @@
         data: [
             {
                 name: 'ECB Tower',
-                value: [33.4, 52]
+                value: [33.4, 51.2]
             }
         ],
         tooltip: {
-            show: true,
+            show: false,
             formatter: 'ECB Tower'
         }
       }
       results.push(item2);
 
 
+      // text-only label at a geo position
+      let item3 = {
+        name: 'Euro area Label',
+        type: 'scatter',
+        coordinateSystem: 'geo',
+        symbol: 'circle',
+        symbolSize: 0,
+        zlevel: 11,
+        label: {
+            show: true,
+            formatter: 'Euro area\n(19 countries) and Bulgaria',
+            position: 'inside',   // on the point
+            offset: [0, 0],       // fine-tune in px
+            color: '#222',
+            fontSize: 13,
+            backgroundColor: 'rgba(0,0,0,0.5)',
+            backgroundColor: 'transparent',
+            // padding: [3, 5],
+            // borderRadius: 3,
+        },
+        itemStyle: {
+            // opacity: 0               // hide the symbol itself
+        },
+        data: [
+            {
+                name: 'ECB Tower Label',
+                value: [33.7, 54.0]
+            }
+        ],
+        tooltip: {
+            show: false
+        }
+      }
+
+      results.push(item3);
 
       return results;
     }
