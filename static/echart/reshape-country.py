@@ -43,6 +43,38 @@ euCountriesEuro = [
 ]
 
 
+def EuroAreaBox(
+    features,
+    onTopOfCountry=False,        
+):
+
+    minx=12.0 + 16
+    maxx=23.5 + 16
+    
+    miny=47.0 + 1.1
+    maxy=54.0 + 1.1
+    
+    rect = box(minx , miny , maxx , maxy )
+
+    insetFeature = {
+        "type": "Feature",
+        "properties": {
+            "name": "Euro area (19 countries)",
+            "role": "inset_box",
+            "LON": minx + (maxx-minx)/2, 
+            # "LAT": miny + (maxy-miny)/1.25,
+            "LAT": miny + (maxy-miny)/5.5,
+        },
+        "geometry": mapping(rect),
+
+    }
+    if onTopOfCountry:
+        features.append(insetFeature)     #                     on top of
+    else:
+        features.insert(0, insetFeature)  # prepend - rectangle under country
+
+
+
 def createUnionShape(
         features,
         nameRect     =   f"EU Euro",
@@ -321,7 +353,13 @@ def enhance(
     if drawRect:
         # Build and append inset rectangle (with asymmetric padding)
         try:
-            insetRectGeom = buildInsetRectangleAsym(geomTransformed, padLeftDeg, padRightDeg, padTopDeg, padBottomDeg)
+            insetRectGeom = buildInsetRectangleAsym(
+                geomTransformed, 
+                padLeftDeg, 
+                padRightDeg, 
+                padTopDeg, 
+                padBottomDeg,
+            )
             insetFeature = {
                 "type": "Feature",
                 "properties": {
@@ -761,6 +799,10 @@ def main():
         latShiftDeg    =   -0.1 ,
     )
 
+    EuroAreaBox(
+        features,
+        True,
+    )
 
     # Round all coordinates to 3 decimals
     try:

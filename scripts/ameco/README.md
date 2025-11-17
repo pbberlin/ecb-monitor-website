@@ -21,7 +21,8 @@ python  process-a-csv-to-subset.py
 python  process-b-csv-to-js.py
 
 # CSV reformatting the decimal separator "."  to  "," - so that European Excel does at least show 
-python  process-c.py
+cd ..\..\\static\dl\
+python jsToCSV.py
 
 
 
