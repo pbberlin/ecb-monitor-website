@@ -7,6 +7,7 @@ from datetime import datetime
 currentYear = datetime.now().year
 
 euCodesToNames = {
+    "EU27_2020": "Euro area (19 countries)",
     "AT": "Austria",
     "BE": "Belgium",
     "BG": "Bulgaria",

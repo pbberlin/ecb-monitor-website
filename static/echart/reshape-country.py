@@ -63,7 +63,8 @@ def EuroAreaBox(
             "role": "inset_box",
             "LON": minx + (maxx-minx)/2, 
             # "LAT": miny + (maxy-miny)/1.25,
-            "LAT": miny + (maxy-miny)/5.5,
+            # "LAT": miny + (maxy-miny)/6.5,
+            "LAT": maxy - 6.5,
         },
         "geometry": mapping(rect),
 
