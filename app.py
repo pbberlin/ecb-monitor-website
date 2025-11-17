@@ -11,7 +11,7 @@ from   ipaddress import ip_address, ip_network
 
 
 from   flask import Flask, request, Response, abort 
-from   flask import render_template, send_from_directory 
+from   flask import render_template, render_template_string, send_from_directory 
 from   flask import g
 app  = Flask(__name__)
 # Flask automatically sets this when FLASK_ENV=development
@@ -33,20 +33,35 @@ LANGUAGE_BY_HOST = {
 def selectLanguage():
     hostHeader = request.headers.get("Host", "")
     hostName   = hostHeader.split(":")[0].lower()
-    g.currentLanguage = LANGUAGE_BY_HOST.get(hostName, "en")
-
+    g.currentLanguage = LANGUAGE_BY_HOST.get(hostName, "de")
+    print(f"cur lang by hostname is { getattr(g, "currentLanguage", "undefined") }")
+    
     if False:
         # now available everyhwere
-        currentLanguage = getattr(g, "currentLanguage", "en")
+        currentLanguage = getattr(g, "currentLanguage", "de")
 
 
-# currentLanguage available in all Jinja templates
-# used in index.html window.APP_LANGUAGE = "{{ currentLanguage }}";
+from lib.trls    import AttrDict, trlsByLg, getCurrentLanguageAndI18n
+
+
 @app.context_processor
 def injectLanguage():
-    currentLanguage = getattr(g, "currentLanguage", "en")
+
+    curLg = getattr(g, "currentLanguage", "en")
+
+    curI18n = {}
+    if curLg in trlsByLg:
+        curI18n = trlsByLg[curLg]
+
+    curLg, curI18n = getCurrentLanguageAndI18n()
+
+    # currentLanguage      -> "en" / "de"
+    # make available in all Jinja templates
+    # used in index.html window.APP_LANGUAGE = "{{ currentLanguage }}";
+    # i18n                 -> dict of key -> translated string in current language
     return {
-        "currentLanguage": currentLanguage,
+        "currentLanguage": curLg,
+        "i18n": AttrDict(curI18n),
     }
 
 
@@ -120,14 +135,21 @@ def favicon():
 def index():
 
     pth = Path("./content") / "main.html"
+
     cnt = pth.read_text( encoding="utf-8"  )
 
-    # jinja template
+    # render content file with Jinja
+    curLg, curI18n = getCurrentLanguageAndI18n()
+    renderedCnt = render_template_string(
+        cnt,
+        currentLanguage=curLg,        
+        i18n=AttrDict(curI18n),
+    )
+
     return render_template(
             "index.html",
-            title   = "EZB Transparenzmonitor",
-            content = cnt,
-        )
+            content = renderedCnt,
+    )
 
 
 
@@ -139,12 +161,19 @@ def page(htmlFile):
         pth = pth.with_suffix(".html")
     if not pth.exists():
         return f"Page '{htmlFile}' not found.", 404
+
     cnt = pth.read_text(encoding="utf-8")
+
+    curLg, curI18n = getCurrentLanguageAndI18n()
+    renderedCnt = render_template_string(
+        cnt,
+        currentLanguage=curLg,        
+        i18n=AttrDict(curI18n),
+    )
+
     return render_template(
         "index.html",
-        title="EZB Transparenzmonitor",
-        # cnt = "dummy",
-        content=cnt,
+        content=renderedCnt,
     )
 
 
