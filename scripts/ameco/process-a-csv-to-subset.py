@@ -7,6 +7,7 @@ from datetime import datetime
 currentYear = datetime.now().year
 
 euCountries = [
+    "Euro area (19 countries)",
     "Austria",
     "Belgium",
     "Bulgaria",
@@ -63,13 +64,24 @@ def main(inputFile,targetFilename, targetCode, targetUnit):
 
             for idx1, row in enumerate(csvReader):
                 try:
-                    codeVal   = row.get("CODE", "")
-                    codeVal   = codeVal.strip()
+                    codeRaw   = row.get("CODE", "")
+                    codeRaw   = codeRaw.strip()
+
+                    #  new since 2025-11 - code is now
+                    #           ROM.1.0.99.327.UDGGLR
+                    if "." in codeRaw:
+                        parts = codeRaw.split(".")
+                        codeVal = parts[-1]
+                    else:
+                        codeVal = codeRaw
 
                     unitVal   = row.get("UNIT", "")
                     unitVal   = unitVal.strip()
 
                     country  = row.get("COUNTRY", "")
+
+                    if idx1 < 10:
+                        print(f" row{idx1:03} -  {codeVal:24}  {country:16}  {unitVal} ")
 
 
                     if unitVal == targetUnit  and  codeVal == targetCode:

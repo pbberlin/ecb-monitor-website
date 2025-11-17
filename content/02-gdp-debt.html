@@ -210,19 +210,18 @@
       </div>
 
 
-      <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem"
-          title="change  saturation / opacity of the map colors"  
-        >
-        <span style="font-size: 70%; display: inline-block; position: relative; top: -5px;"
-        >Saturation</span>
-        <!-- 
-        <input name="color_opacity" id="color_opacity" type="number" min="1" max="100" step="10" value="60"
-          style="border:none; width: 2.2rem;padding:0; font-size: 70%;">
-        -->
-          <input name="color_opacity" id="color_opacity" type="range" min="1" max="100" step="10" value="60"
-          style="border:none; width: 4rem;">
 
-        </div>
+  </div>
+
+
+  <div class="col col--center">
+    <div id="echart_container">echart container content</div>
+  </div>
+
+
+
+  <div class="col col--right control-pad" astyle="height: 90%;">
+      
 
       <style>
 
@@ -231,8 +230,8 @@
             position: relative;
             height:   var(--grad-height);
             width:  100%;
-            margin: 2rem 0;
-            margin-top:  0;
+            margin:      2rem 0;
+            /* margin-top:  0; */
             /* border: 1px solid gray; */
         }
 
@@ -285,31 +284,25 @@
       </div>
 
 
-  </div>
+
+      <div class="slider-group" 
+          style="margin-top: 4.5rem;"
+          title="change  saturation / opacity of the map colors"  
+      >
+        <span style="font-size: 65%; font-weight: 300; display: inline-block; position: relative; top: -5px;"
+        >Farbsättigung / Color saturation</span>
+        <!-- 
+        <input name="color_opacity" id="color_opacity" type="number" min="1" max="100" step="10" value="60"
+          style="border:none; width: 2.2rem;padding:0; font-size: 70%;">
+        -->
+        <input name="color_opacity" id="color_opacity" type="range" min="0" max="91" step="10" value="60"
+          style="border:none; width: 4rem;"
+        >
+
+      </div>
 
 
-  <div class="col col--center">
-    <div id="echart_container">echart container content</div>
-  </div>
 
-
-
-  <div class="col col--right control-pad" astyle="height: 90%;">
-      
-    <p>
-        
-      Entire Euro area:
-      <br>
-      52 %
-
-    </p>
-
-      <br>
-      <br>
-      <!-- room for additional stuff. room for additional stuff. -->
-      <br>
-      <br>
-      <br>
     <ul id="bullet-container" >
     </ul>
 
@@ -550,7 +543,9 @@
     // const ecbCoord = [9.851, 51.11];  // germany centroid
 
     function ecb(){
-      let item = {
+      let results = [];
+
+      let item1 = {
         name: 'ECB Tower',
         type: 'scatter',
         coordinateSystem: 'geo',
@@ -572,7 +567,34 @@
             formatter: 'ECB Tower'
         }
       }
-      return item;
+      results.push(item1);
+
+
+      let item2 = {
+        name: 'ECB Tower',
+        type: 'scatter',
+        coordinateSystem: 'geo',
+        symbol: 'circle',
+        symbol: 'image:///static/img/ecb/ecb-tower-02.png',
+        symbolSize:   [ 3.5*20,  3.5*30],
+        symbolSize:   [ 3.5*20,  3.5*22],  // shortened - view from steeply above
+        animationDuration: 0,
+        data: [
+            {
+                name: 'ECB Tower',
+                value: [33.4, 52]
+            }
+        ],
+        tooltip: {
+            show: true,
+            formatter: 'ECB Tower'
+        }
+      }
+      results.push(item2);
+
+
+
+      return results;
     }
 
 
@@ -593,13 +615,17 @@
         p0x = p0x + 2;
         p0y = p0y - 3;
 
-        const endX = containerWidth + 0;
+        let endX = containerWidth + 0;
+        endX = 630;
         let  endY = p0y;
-        endY = 50;
+        endY = 220;
 
         // const midX = (startX + endX) / 2;
-        const p1x = (p0x + endX) / 3.4;
-        const p1y =  p0y - 0;
+        let p1x = (p0x + endX) / 3.4;
+        let p1y =  p0y - 0;
+
+        p1x = 550;
+        p1y = 220;
 
 
         const pointsForPolyLine = [
@@ -928,7 +954,7 @@
         // randomPieSeries1('France',  25),
         // randomPieSeries1('Germany', 35),
         ...manyCountriesShowStats(),
-        ecb(),
+        ...ecb(),
       ]
 
     };
@@ -1035,7 +1061,7 @@
       // re-populate
       option3.series = [
         ...manyCountriesShowStats(res.yr),
-        ecb(),
+        ...ecb(),
       ];
       option3.geo.regions  = [
           ...regionsColoring(res.yr),
@@ -1090,7 +1116,7 @@
         // re-populate
         option4.series = [
           ...manyCountriesShowStats(res.yr),
-          ecb(),
+          ...ecb(),
         ];
         option4.geo.regions  = [
             ...regionsColoring(res.yr),
