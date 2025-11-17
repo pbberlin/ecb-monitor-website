@@ -3,7 +3,7 @@
 
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <title>{{ title }}</title>
+    <title>{{ i18n.app_title }}</title>
     <meta content="index, follow" name="robots" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="OOI15ycxOSr46zxsqPlsRPgNHGmD854A7lWAfxrvfsw" name="google-site-verification" />
@@ -15,7 +15,7 @@
 
      <script>
       // ENV = 'production' => DEBUG = False, else TRUE
-      window.APP_DEBUG = {{ "true" if config['DEBUG'] else "false" }};
+      window.APP_DEBUG    =  {{ "true" if config['DEBUG'] else "false" }};
       window.APP_LANGUAGE = "{{ currentLanguage }}";
     </script>
 
@@ -1002,8 +1002,8 @@
             <a class="c-menu-main__logo" href="/" target="_self">
 
                 <span style="font-size: 2.6rem;">
-
-                    EZB-Transparenz-Monitor
+                    {{ i18n.app_title }}
+                    <!-- EZB-Transparenz-Monitor -->
                 </span>
 
                 <!--
