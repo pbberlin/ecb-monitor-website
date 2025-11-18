@@ -33,8 +33,9 @@ LANGUAGE_BY_HOST = {
 def selectLanguage():
     hostHeader = request.headers.get("Host", "")
     hostName   = hostHeader.split(":")[0].lower()
-    g.currentLanguage = LANGUAGE_BY_HOST.get(hostName, "de")
-    print(f"cur lang by hostname is { getattr(g, "currentLanguage", "undefined") }")
+    currLang   = LANGUAGE_BY_HOST.get(hostName, "de") 
+    g.currentLanguage = currLang
+    print(f"cur lang by hostname is {currLang}")
     
     if False:
         # now available everyhwere
