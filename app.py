@@ -4,10 +4,10 @@ import random
 from   datetime   import datetime, timedelta
 from   pathlib    import Path
 
+
 import pandas as pd
 import matplotlib
 from   ipaddress import ip_address, ip_network
-
 
 
 from   flask import Flask, request, Response, abort 
@@ -35,7 +35,7 @@ def selectLanguage():
     hostName   = hostHeader.split(":")[0].lower()
     currLang   = LANGUAGE_BY_HOST.get(hostName, "de") 
     g.currentLanguage = currLang
-    print(f"cur lang by hostname is {currLang}")
+    # print(f"cur lang by hostname is {currLang}")
     
     if False:
         # now available everyhwere
@@ -139,12 +139,11 @@ def index():
 
     cnt = pth.read_text( encoding="utf-8"  )
 
-    # render content file with Jinja
-    curLg, curI18n = getCurrentLanguageAndI18n()
+    # curLg, curI18n = getCurrentLanguageAndI18n()
     renderedCnt = render_template_string(
         cnt,
-        currentLanguage=curLg,        
-        i18n=AttrDict(curI18n),
+        # currentLanguage=curLg,     
+        # i18n=AttrDict(curI18n),
     )
 
     return render_template(
@@ -165,11 +164,15 @@ def page(htmlFile):
 
     cnt = pth.read_text(encoding="utf-8")
 
-    curLg, curI18n = getCurrentLanguageAndI18n()
+
+    curLg = getCurrentLanguageAndI18n()
+    #  arg.get does *not* contain POST values
+    lg = request.args.get('lang')
+
     renderedCnt = render_template_string(
         cnt,
         currentLanguage=curLg,        
-        i18n=AttrDict(curI18n),
+        # i18n=AttrDict(curI18n),
     )
 
     return render_template(
@@ -192,62 +195,6 @@ def nameIsEgal():
 
 
 
-@app.route('/download-speeches')
-def fetch():
-
-    yr = 2025
-
-    fPth = dirDl / f"speeches-{yr}.pkl"
-
-    # print(f"file name {fPth}")
-
-    reload   = False
-    speeches = None
-
-    if fPth.exists():
-        fileDate = datetime.fromtimestamp(fPth.stat().st_mtime)
-        if fileDate < datetime.now() - timedelta(hours=24):
-            reload = True
-    else:
-        reload = True
-
-    if reload:
-        # https://bis-med-it.github.io/gingado/datasets.html
-        speeches = load_CB_speeches(yr, cache=False)
-        speeches.to_pickle(fPth)
-    else:
-        speeches = pd.read_pickle(fPth)
-
-
-
-    hd      = speeches.head(n=4)
-
-    for i in range(len(hd)):
-        text = hd.at[i, "text"]
-        text = truncateUtf8(text, 128)
-        text = text.replace('\n', "<br>")
-        hd.at[i, "text"]        = text
-
-        desc = hd.at[i, "description"]
-        hd.at[i, "description"] = truncateUtf8(desc, 128)
-
-
-    # hd      = speeches.tail(n=4)
-
-
-    cnt  = ""
-    cnt += f"Reloaded {reload} <br>"
-    cnt += hd.to_html()
-    # cnt += f"<pre>  {hd} </pre>"
-    cnt += f"<pre>  {fPth} </pre>"
-
-    return render_template(
-            "index.html",
-            title   =  "EZB Transparenzmonitor",
-            content = cnt,
-        )
-
-
 
 @app.route('/some-file')
 @app.route('/some-file.html')
@@ -255,10 +202,9 @@ def flow01():
     pth = Path("./content") / "flow-1.html"
     cnt = pth.read_text( encoding="utf-8"  )
     return render_template(
-            "index.html",
-            title   = "EZB Transparenzmonitor",
-            content = cnt,
-        )
+        "index.html",
+        content = cnt,
+    )
 
 
 
@@ -269,7 +215,6 @@ def allPredictionsH():
 
         #  arg.get does *not* contain POST values
         input_text = request.args.get('input_text')
-
         print(f"allPredictionsH 1 {input_text}")
 
         try:
@@ -281,7 +226,11 @@ def allPredictionsH():
 
         print(f"allPredictionsH 2 {input_text}")
 
-        return app.response_class(response=json.dumps(res), status=200, mimetype='application/json')
+        return app.response_class(
+            response=json.dumps(res), 
+            status=200, 
+            mimetype='application/json',
+        )
 
     except Exception as error:
         err = str(error)

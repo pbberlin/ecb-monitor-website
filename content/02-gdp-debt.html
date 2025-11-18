@@ -154,15 +154,12 @@
   <div class="col col--left control-pad">
 
       <!--
-      {{i18n["hello"]}}
       {{i18n["good_day"]}}
-      {{i18n.hello}}
       {{i18n.good_day}}
       -->
 
       <!-- First (top, right) -->
-      <!-- <h3 > Fiskaldaten - Öffentliche Schulden in % BIP: </h3> -->
-      <h3 > Fiskaldaten </h3>
+      <h3 > {{i18n.headline_fiscal_data}}</h3>
 
       <!-- <label for="yearSlider">Year:</label> -->
       <div id="slider-group">
@@ -308,7 +305,7 @@
           title="change  saturation / opacity of the map colors"
       >
         <span style="font-size: 65%; font-weight: 300; display: inline-block; position: relative; top: -5px;"
-        >Farbsättigung / Color saturation</span>
+        >{{i18n.color_saturation}} </span>
         <!--
         <input name="color_opacity" id="color_opacity" type="number" min="1" max="100" step="10" value="60"
           style="border:none; width: 2.2rem;padding:0; font-size: 70%;">

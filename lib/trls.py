@@ -1,11 +1,15 @@
 from   flask import g
+from   flask import request 
 
 
 # to have       {{i18n.hello}}  instead of       {{i18n["hello"]}}
 class AttrDict(dict):
-    def __getattr__(self, name):
+    def __getattr__(self, key):
         try:
-            return self[name]
+            if key in self:
+                return self[key]
+            else:
+                return f"? trl '{key}'"
         except Exception as ex:
             print(ex)
             raise
@@ -15,16 +19,28 @@ class AttrDict(dict):
 
 trlsRaw = [
     {
-        "app_title":    { 
-            "en": "ECB-Transparency-Monitor", 
-            "de": "EZB-Transparenz-Monitor",
+        "good_day": { 
+            "en": "Good day", 
+            "de": "Guten Tag",
         },
     },
     {
-        "hello":    { "en": "hello", "de": "Hallo" }
+        "app_title":    { 
+            "de": "EZB-Transparenz-Monitor",
+            "en": "ECB-Transparency-Monitor", 
+        },
     },
     {
-        "good_day": { "en": "Good day", "de": "Guten tag" }
+        "color_saturation":    { 
+            "de": "Farbsättigung",
+            "en": "Color saturation", 
+        },
+    },
+    {
+        "headline_fiscal_data":    { 
+            "de": "Fiskaldaten",
+            "en": "Fiscal Data", 
+        },
     },
 ]
 
@@ -44,6 +60,13 @@ for idx1, trlEntry in enumerate(trlsRaw):
 def getCurrentLanguageAndI18n():
     # curLg = getattr(g, "currentLanguage", "en")
     curLg = getattr(g, "currentLanguage", "de")
+
+    #  arg.get does *not* contain POST values
+    lg = request.args.get('lang')
+    if (lg is None) or (lg == "") :
+        pass
+    else:
+        curLg = lg
 
     curI18n = {}
     if curLg in trlsByLg:
