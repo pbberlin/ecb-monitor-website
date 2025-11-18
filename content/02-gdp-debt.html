@@ -232,8 +232,6 @@
 
       <style>
 
-        /* xxxxxx */
-
         .gradientWrapper1 {
             position:    relative;
             height:      var(--grad-height);
@@ -243,24 +241,29 @@
             /* border: 1px solid gray; */
         }
 
+        /* xxxxxx */
         .myGradient1 {
             height:   var(--grad-height);
             width:    100%;
             opacity:  var(--initOpacity);
             background: linear-gradient(
                 to right,
-                green     0px,
-                #808000  30%,
-                #808000  30%,
-                red     90%,
-                red     100%
+                #00A000   0%,
+                #A08000  30%,
+                #A08000  30%,
+                #FF0000  90%,
+                #FF0000 100%
             );
+
+
             /* border: 1px solid #444; */
         }
 
         .myGradient2 {
             height:   var(--grad-height);
             width:    100%;
+            opacity:  var(--initOpacity);
+
             /* background is set dynamically by JS */
         }
 
@@ -324,7 +327,7 @@
 
 
 
-  <div class="gradientWrapper2">
+  <div class="gradientWrapper1">
       <div class="myGradient2" id="myGradient2"></div>
   </div>
 
@@ -537,21 +540,24 @@
             opacityHex = "0" + opacityHex;
         }
 
-        const gradWrap = document.getElementById("myGradient1");
-        gradWrap.style.opacity = opacity;
+        const gradWrap1 = document.getElementById("myGradient1");
+        gradWrap1.style.opacity = opacity;
+        const gradWrap2 = document.getElementById("myGradient2");
+        gradWrap2.style.opacity = opacity;
 
 
         pct = pct * ranges[0];
         // console.log(`color ${pct} - ${ranges} `);
 
         if (pct <= 0) {
-            return "#00ff00" + opacityHex;
+          // xxxxx 
+          return "#00ff00" + opacityHex;
         }
         if (pct >= 300) {
             pct = 300;
         }
 
-        const green = [0x00, 0xff, 0x00];
+        const colGr = [0x00, 0xff, 0x00];
         const olive = [0x80, 0x80, 0x00];
         const red   = [0xff, 0x00, 0x00];
 
@@ -570,7 +576,7 @@
 
         if (pct <= r1) {
             const t = pct / r1;
-            rgb = interp(green, olive, t);
+            rgb = interp(colGr, olive, t);
         } else if (pct <= r2) {
             const t = (pct - r1) / (r2 - r1);
             rgb = interp(olive, red, t);
@@ -1030,7 +1036,7 @@
 
 
       series: [
-        // greenwich  longitude, latitude
+        // gre-enwich  longitude, latitude
         // randomPieSeries1([-1.6, 52.5], 25),
 
         // randomPieSeries1('France',  25),
@@ -1263,32 +1269,6 @@
 
 <script>
 
-function buildGradientBackground(gradientElement, color_ranges, colors, minValue, maxValue, fullRange) {
-
-    const stops = [];
-
-    // first color from 0% to first boundary
-    stops.push(colors[0] + " 0%");
-
-    for (let idx1 = 1; idx1 < color_ranges.length; idx1 += 1) {
-
-        const boundaryValue = color_ranges[idx1];
-        const positionPercent = (boundaryValue - minValue) / fullRange * 100;
-
-        // previous color up to boundary
-        stops.push(colors[idx1 - 1] + " " + positionPercent + "%");
-
-        // hard edge: next color starts at same position
-        stops.push(colors[idx1] + " " + positionPercent + "%");
-    }
-
-    // ensure last color reaches 100%
-    stops.push(colors[colors.length - 1] + " 100%");
-
-    const gradientCss = "linear-gradient(to right, " + stops.join(", ") + ")";
-    gradientElement.style.background = gradientCss;
-}
-
 function buildTicks(wrapperElement, color_ranges, minValue, maxValue, fullRange) {
 
     // remove old ticks
@@ -1356,6 +1336,30 @@ function buildTicks(wrapperElement, color_ranges, minValue, maxValue, fullRange)
     }
 }
 
+    function gradientCss(gradientElement, color_ranges, colors, minValue, maxValue, fullRange) {
+
+        const stops = [];
+
+        for (let idx1 = 0; idx1 < color_ranges.length; idx1 += 1) {
+
+            const boundaryValue   = color_ranges[idx1];
+            const pct = (boundaryValue - minValue) / fullRange * 100;
+            const positionPercent = Math.round(pct*10)/10;
+
+            // previous color up to boundary
+            stops.push(colors[idx1] + " " + positionPercent + "%");
+            // hard edge: next color starts at same position
+            stops.push(colors[idx1] + " " + positionPercent + "%");
+        }
+
+        // ensure last color reaches 100%
+        stops.push(colors[colors.length - 1] + " 100%");
+
+        const gradientCss = "linear-gradient( \n\tto right, \n\t" + stops.join(", \n\t") + "\n)";
+        console.log(`background:  ${gradientCss};`)
+        gradientElement.style.background = gradientCss;
+    }
+
 
 
     function createGradientLegend(domEl, config) {
@@ -1375,22 +1379,22 @@ function buildTicks(wrapperElement, color_ranges, minValue, maxValue, fullRange)
         const maxValue  = color_ranges[color_ranges.length - 1];
         const fullRange = maxValue - minValue;
 
-        buildGradientBackground(gradientElement, color_ranges, colors, minValue, maxValue, fullRange);
+        gradientCss(gradientElement, color_ranges, colors, minValue, maxValue, fullRange);
 
         buildTicks(parentWrapper, color_ranges, minValue, maxValue, fullRange);
 
     }
 
-
+    // xxxxxx
     const gradientConfig = [
       {
         color_ranges: [1, 60, 180],
-        colors:      ["green", "#808000", "red"]
+        colors:      ["#00A000", "#A08000", "#FF0000"]
       },
 
       {
         color_ranges: [-1, 3, 6],
-        colors:      ["green", "#808000", "red"]
+        colors:      ["#00A000", "#A08000", "#FF0000"]
       },
     ];
 
