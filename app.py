@@ -3,28 +3,16 @@ import json
 import random
 import time
 from   datetime   import datetime, timedelta
-
-
 from   pathlib    import Path
 
 
-fn = Path("./myfile.json")
-
-if fn.exists():
-    # get  ocr
-    ocrVersion = fn.with_name( fn.stem + "_ocr.txt" )
-    if ocrVersion.exists():
-        pass
-        # use ocr exract
-    else:   
-        ocrVersion = fn.with_name( fn.stem + "_pdfcontent.txt" )
 
 import pandas as pd
 import matplotlib
 from   ipaddress import ip_address, ip_network
 
 
-from   flask import Flask, request, Response, abort 
+from   flask import Flask, request, Response, abort, current_app 
 from   flask import render_template, render_template_string, send_from_directory 
 from   flask import g
 app  = Flask(__name__)
@@ -59,36 +47,41 @@ def selectLanguage():
         currentLanguage = getattr(g, "currentLanguage", "de")
 
 
-from lib.trls    import AttrDict, trlsByLg, getCurrentLanguageAndI18n
+if False:
+    from lib.trls    import getCurrentLanguageAndI18n
+import lib.trls as trlsModule
+
+import importlib
+def getI18nDyn():
+    global trlsModule
+    debugModeLive = current_app.debug or os.environ.get("FLASK_DEBUG") == "1"
+    if debugModeLive:
+        try:
+            trlsModule = importlib.reload(trlsModule)
+            print(f"\treloading lib.trls")
+        except Exception as exc:
+            print(f"Error reloading lib.trls: {exc}")
+    return trlsModule.getCurrentLanguageAndI18n()
+
 
 
 @app.context_processor
 def injectLanguage():
 
-    curLg = getattr(g, "currentLanguage", "en")
-
-    curI18n = {}
-    if curLg in trlsByLg:
-        curI18n = trlsByLg[curLg]
-
-    curLg, curI18n = getCurrentLanguageAndI18n()
+    curLg, curI18n = getI18nDyn()
 
     # currentLanguage      -> "en" / "de"
     # make available in all Jinja templates
     # used in index.html window.APP_LANGUAGE = "{{ currentLanguage }}";
-    # i18n                 -> dict of key -> translated string in current language
+    # i18n                 -> dict of key   -> translated string in current language
+    # i18n                 -> staticVersion -> url param for static files
     return {
         "currentLanguage": curLg,
-        "i18n": AttrDict(curI18n),
         "staticVersion": app.config["STATIC_VERSION"],
+        "i18n": curI18n,
     }
 
 
-
-
-from lib.page1   import getAllPredictions
-from lib.util    import truncateUtf8
-from lib.gingado import load_CB_speeches
 
 
 
@@ -226,6 +219,7 @@ def flow01():
 
 
 
+from lib.page1   import getAllPredictions
 @app.route('/all-predictions', methods=['post','get'])
 def allPredictionsH():
     try:

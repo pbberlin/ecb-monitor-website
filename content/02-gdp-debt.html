@@ -176,18 +176,19 @@
       <!-- option -->
       <div class="options-stat-vars">
         <label title="(Ameco)">
-          Öffentliche Schulden in % BIP
+          {{i18n.public_debt_in_percent_gdp}}
           <input type="radio" name="stats_variable" value="ameco_debt_to_gdp" >
         </label>
 
         <label title="(Ameco)">
-          Nettokreditaufnahme % BIP
+          {{i18n.net_lending_in_percent_gdp}}
           <input type="radio" name="stats_variable" value="ameco_net_lending">
         </label>
 
 
         <label title="(Ameco)">
-          Staatsquote % BIP
+          <!-- Staatsquote % BIP -->
+          {{i18n.total_expenditure_in_percent_gdp}}
           <input type="radio" name="stats_variable" value="ameco_total_expenditure">
         </label>
 
@@ -218,7 +219,8 @@
       </div>
 
       <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem">
-        <a id="linkDownload" href="#" title="European CSV, semikolon delimited, decimal separator: comma, UTF-8" download>Daten herunterladen</a>
+        <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download  
+        >{{i18n.download_data}}</a>
       </div>
 
 
@@ -418,7 +420,7 @@
         "formatter": (statsValue) => {
           return Math.round(statsValue).toString() + ' %'
         },
-        "color_ranges":  [ 20,  35, 55, 60 ],
+        "color_ranges":  [ 20,  40, 55, 60 ],
         "colors":        ["#00A000", "#80A000", "#FF0000", "#FF0000"]
       } ,
       "ameco_interest_expenditure": {
