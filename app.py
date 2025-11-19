@@ -1,9 +1,23 @@
 import os
 import json
 import random
+import time
 from   datetime   import datetime, timedelta
+
+
 from   pathlib    import Path
 
+
+fn = Path("./myfile.json")
+
+if fn.exists():
+    # get  ocr
+    ocrVersion = fn.with_name( fn.stem + "_ocr.txt" )
+    if ocrVersion.exists():
+        pass
+        # use ocr exract
+    else:   
+        ocrVersion = fn.with_name( fn.stem + "_pdfcontent.txt" )
 
 import pandas as pd
 import matplotlib
@@ -27,6 +41,9 @@ LANGUAGE_BY_HOST = {
     "ecb-monitor.zew.de": "en",
     "ezb-monitor.zew.de": "de",
 }
+
+staticVersion = str(int(time.time()))
+app.config["STATIC_VERSION"] = staticVersion
 
 
 @app.before_request
@@ -63,7 +80,10 @@ def injectLanguage():
     return {
         "currentLanguage": curLg,
         "i18n": AttrDict(curI18n),
+        "staticVersion": app.config["STATIC_VERSION"],
     }
+
+
 
 
 from lib.page1   import getAllPredictions
@@ -165,13 +185,10 @@ def page(htmlFile):
     cnt = pth.read_text(encoding="utf-8")
 
 
-    curLg = getCurrentLanguageAndI18n()
-    #  arg.get does *not* contain POST values
-    lg = request.args.get('lang')
-
+    # curLg, curI18n = getCurrentLanguageAndI18n()
     renderedCnt = render_template_string(
         cnt,
-        currentLanguage=curLg,        
+        # currentLanguage=curLg,        
         # i18n=AttrDict(curI18n),
     )
 
