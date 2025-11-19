@@ -3,6 +3,7 @@
   :root{
     --grad-height:   1.2rem;
     --w01:           max(20rem, 20vw);  /* width left and right column  */
+    --w01-min:       calc( var(--w01) - 0.5rem )  ;
     --echartHeight:   75vh;              /* not 75% -  fails */  
     --marginHeight:  calc( var(--echartHeight) - 1rem);
     --initOpacity:   0.6;               /* minimize flickering */
@@ -63,8 +64,8 @@
 
   /* col1 - at least 20rem - 20% of screen width - */
   .col--left   {
-    height: var(--marginHeight);
-    min-width: calc( var(--w01) - 0.5rem );
+    height:    var(--marginHeight);
+    min-width: var(--w01-min);
 
     justify-self: end;
     align-self: start;
@@ -80,10 +81,9 @@
 
   /* col3 - takes the residual space, content left */
   .col--right  {
-    height: var(--marginHeight);
-    min-width: calc( var(--w01) - 0.5rem );
+    height:    var(--marginHeight);
+    min-width: var(--w01-min);
     /* width: max-content; */
-
 
     justify-self: start;
     align-self:   start;
@@ -232,78 +232,76 @@
 
 
 
-  <div class="col col--right control-pad" astyle="height: 90%;">
+  <div class="col col--right control-pad">
+
+    <style>
+
+      .gradientWrapperWrapper {
+          position:    absolute;
+          width:       calc( var(--w01-min)  - 2rem );
+          bottom:      0.1rem;
+          /* border: 1px solid red; */
+      }
 
 
+      .gradientWrapper {
+          position:    relative;
+          height:      var(--grad-height);
+          width:       100%;
+          margin:      2rem 0;
+          /* margin-top:  0; */
+          /* border: 1px solid gray; */
+      }
 
-      <style>
+      .myGradient1 {
+          height:   var(--grad-height);
+          width:    100%;
+          opacity:  var(--initOpacity);
+          background: linear-gradient(
+              to right,
+              #00A000   0%,
+              #A08000  30%,
+              #A08000  30%,
+              #FF0000  90%,
+              #FF0000 100%
+          );
+          /* border: 1px solid #444; */
+      }
 
-        .gradientWrapper1 {
-            position:    relative;
-            height:      var(--grad-height);
-            width:       100%;
-            margin:      2rem 0;
-            /* margin-top:  0; */
-            /* border: 1px solid gray; */
-        }
+      .myGradient2 {
+          height:   var(--grad-height);
+          width:    100%;
+          opacity:  var(--initOpacity);
 
-        .myGradient1 {
-            height:   var(--grad-height);
-            width:    100%;
-            opacity:  var(--initOpacity);
-            background: linear-gradient(
-                to right,
-                #00A000   0%,
-                #A08000  30%,
-                #A08000  30%,
-                #FF0000  90%,
-                #FF0000 100%
-            );
-            /* border: 1px solid #444; */
-        }
-
-        .myGradient2 {
-            height:   var(--grad-height);
-            width:    100%;
-            opacity:  var(--initOpacity);
-
-            /* background is set dynamically by JS */
-        }
+          /* background is set dynamically by JS */
+      }
 
 
-        .tick {
-            position: absolute;
+      .tick {
+          position: absolute;
 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-top: 0.4rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 0.4rem;
 
-            height:  5px;
-            width:   1px;
-            top:     calc(var(--grad-height) + 0.0rem);
+          height:  5px;
+          width:   1px;
+          top:     calc(var(--grad-height) + 0.0rem);
 
-            background: black;
-            text-align:   center;
-            transform:    translateX(calc(-50% + 1px));
-            font-size: 11px;
-        }
-        .tick:last-child {
-            transform:    translateX(calc(-50% - 1px));
-        }
+          background: black;
+          text-align:   center;
+          transform:    translateX(calc(-50% + 1px));
+          font-size: 11px;
+      }
+      .tick:last-child {
+          transform:    translateX(calc(-50% - 1px));
+      }
 
-      </style>
+    </style>
 
 
-      <!-- 
-      <div class="gradientWrapper1">
-          <div class="myGradient1" id="myGradient1"></div>
-          <div class="tick" style="left:   0px;">  0%</div>
-          <div class="tick" style="left:   30%;"> 60%</div>
-          <div class="tick" style="left:   50%;">100%</div>
-          <div class="tick" style="left:  100%;">180%</div>
-      </div>
-      -->
+    <div class="gradientWrapperWrapper">
 
 
       <div class="slider-group"
@@ -320,47 +318,47 @@
       </div>
 
 
+      <div class="gradientWrapper">
+          <div class="myGradient2" id="myGradient2"></div>
+      </div>
+
+        <!-- 
+        <div class="gradientWrapper">
+            <div class="myGradient1" id="myGradient1"></div>
+            <div class="tick" style="left:   0px;">  0%</div>
+            <div class="tick" style="left:   30%;"> 60%</div>
+            <div class="tick" style="left:   50%;">100%</div>
+            <div class="tick" style="left:  100%;">180%</div>
+        </div>
+        -->
 
 
 
+    </div>
 
 
+    <!-- 
+        <ul id="bullet-container" >
+        </ul>
+    -->
 
-  <div class="gradientWrapper1">
-      <div class="myGradient2" id="myGradient2"></div>
-  </div>
-
-
-
-
+  </div><!-- /col--right -->
 
 
-
-
-
-
-    <ul id="bullet-container" >
-    </ul>
-
-  </div>
-
-
-</div>
-
-
+</div><!-- /layout -->
 
 
 
 
 <!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script> -->
-<script type="text/javascript" src="/static/js/echarts.min.js"></script>
-<script type="text/javascript" src="/static/js/eu-and-euro-countries.js"></script>
-<script src="/static/dl/ameco_debt_to_gdp.js"          ></script>
-<script src="/static/dl/ameco_net_lending.js"          ></script>
-<script src="/static/dl/ameco_total_expenditure.js"    ></script>
-<script src="/static/dl/ameco_interest_expenditure.js" ></script>
-<script src="/static/dl/ameco_interest_to_gdp.js"      ></script>
-<script src="/static/dl/eurostat_yields_10y.js"        ></script>
+<script type="text/javascript" src="/static/js/echarts.min.js"                ></script>
+<script type="text/javascript" src="/static/js/eu-and-euro-countries.js"      ></script>
+<script type="text/javascript" src="/static/dl/ameco_debt_to_gdp.js?v={{staticVersion}}"          ></script>
+<script type="text/javascript" src="/static/dl/ameco_net_lending.js?v={{staticVersion}}"          ></script>
+<script type="text/javascript" src="/static/dl/ameco_total_expenditure.js?v={{staticVersion}}"    ></script>
+<script type="text/javascript" src="/static/dl/ameco_interest_expenditure.js?v={{staticVersion}}" ></script>
+<script type="text/javascript" src="/static/dl/ameco_interest_to_gdp.js?v={{staticVersion}}"      ></script>
+<script type="text/javascript" src="/static/dl/eurostat_yields_10y.js?v={{staticVersion}}"        ></script>
 
 
 <!-- Uncomment this line if you want to dataTool extension -->
@@ -411,33 +409,34 @@
         "formatter": (statsValue) => {
           return  (Math.round(statsValue*10)/10).toString() + ' %'
         },
-        "color_ranges":  [-2, 3, 6],
-        "colors":        ["#00A000", "#80A000", "#FF0000"]
+        "color_ranges":  [-6, -2, 0, 2],
+        // red to green
+        "colors":        ["#FF0000", "#80A000", "#00A000", "#00A000"]
       } ,
       "ameco_total_expenditure": {
         "selected_data" : totalExpenditure,
         "formatter": (statsValue) => {
           return Math.round(statsValue).toString() + ' %'
         },
-        "color_ranges": [ 1,  30, 60, ],
-        "colors":        ["#00A000", "#80A000", "#FF0000"]
+        "color_ranges":  [ 20,  35, 55, 60 ],
+        "colors":        ["#00A000", "#80A000", "#FF0000", "#FF0000"]
       } ,
       "ameco_interest_expenditure": {
         "selected_data" : interestExpenditure,
         "formatter": (statsValue) => {
           return  (Math.round(statsValue*10)/10).toString() + ' %'
         },
-        "color_ranges": [ 1,  3, 6, ],
+        "color_ranges": [ 1, 2.5, 6, ],
         "colors":        ["#00A000", "#80A000", "#FF0000"]
       } ,
-      "ameco_interest_to_gdp": {
-        "selected_data" : interestToGDP,
-        "formatter": (statsValue) => {
-          return  (Math.round(statsValue*10)/10).toString() + ' %'
-        },
-        "color_ranges": [ 1,  5, 12, ],
-        "colors":        ["#00A000", "#80A000", "#FF0000"]
-      } ,
+      // "ameco_interest_to_gdp": {
+      //   "selected_data" : interestToGDP,
+      //   "formatter": (statsValue) => {
+      //     return  (Math.round(statsValue*10)/10).toString() + ' %'
+      //   },
+      //   "color_ranges": [ 1,  5, 12, ],
+      //   "colors":        ["#00A000", "#80A000", "#FF0000"]
+      // } ,
       "eurostat_yields_10y": {
         "selected_data" : yieldsTenYears,
         "formatter": (statsValue) => {
@@ -532,10 +531,23 @@
       };
     }
 
+    function mapToZeroOne(vl, ranges) {
 
-    // pctToColor(vl, ranges)
-    // ranges: [r1, r2]  => 0→r1, r1→r2, r2→max
-    function pctToColor(vl, ranges=[1, 60, 180]) {
+        let range0 = ranges[0];
+        let range1 = ranges[1];
+        let range2 = ranges[2];
+
+        if (vl <= range1) {
+            let t = (vl - range0) / (range1 - range0);
+            return Math.max(0, Math.min(1, t));
+        } else {
+            let t = (vl - range1) / (range2 - range1);
+            return Math.max(0, Math.min(1, t));
+        }
+    }
+
+
+    function valToPctToColor(vl, config) {
 
         let opacity = initOpacity;
         if (elOpa){
@@ -554,26 +566,43 @@
           gradWrap1.style.opacity = opacity;
         }
         const gradWrap2 = document.getElementById("myGradient2");
-        gradWrap2.style.opacity = opacity;
-
-
-        vl = vl * ranges[0];
-        // console.log(`color ${pct} - ${ranges} `);
-
-        if (vl <= 0) {
-          // xxxxx 
-          vl = 1;
-          // return "#00ff00" + opacityHex;
-        }
-        if (vl >= 300) {
-            vl = 300;
+        if (gradWrap2) {
+          gradWrap2.style.opacity = opacity;
         }
 
-        const colGr = [0x00, 0xA0, 0x00];
-        const colYl = [0x80, 0x80, 0x00];
-        const colRd = [0xff, 0x00, 0x00];
 
-        function interp(a, b, t) {
+        const ranges = config["color_ranges"]
+
+
+        // const colR0 = [0x00, 0xA0, 0x00]; // mostly green
+        // const colR1 = [0x80, 0x80, 0x00]; // yellow
+        // const colR2 = [0xff, 0x00, 0x00]; // red
+
+        const colors = config["colors"]  //     ["#FF0000", "#80A000", "#00A000"]
+
+        function separateVals(hexColor) {
+            let cleanHex = hexColor.replace("#", "");
+            let componentArray = [];
+            for (let idx1 = 0; idx1 < cleanHex.length; idx1 += 2) {
+                let hexPair = cleanHex.substring(idx1, idx1 + 2);
+                let comp = parseInt(hexPair, 16);
+                componentArray.push(comp);
+            }
+            return componentArray;
+        }
+
+        let colorsSeparated = [];
+        for (let [idx1, color] of colors.entries()) {
+            let rgbComponents = separateVals(color);
+            colorsSeparated.push(rgbComponents);
+        }
+
+        const colR0 = colorsSeparated[0];
+        const colR1 = colorsSeparated[1];
+        const colR2 = colorsSeparated[2];
+
+
+        function interpolate(a, b, t) {
             const out = [0, 0, 0];
             for (let idx1 = 0; idx1 < 3; idx1++) {
                 out[idx1] = Math.round(a[idx1] + (b[idx1] - a[idx1]) * t);
@@ -581,30 +610,38 @@
             return out;
         }
 
-        const r1 = ranges[1];
-        const r2 = ranges[2];
+        let r0 = ranges[0];
+        let r1 = ranges[1];
+        let r2 = ranges[2];
 
         let rgb;
 
-        if (vl <= r1) {
-            const t = vl / r1;
-            rgb = interp(colGr, colYl, t);
+        if (vl <= r0) {
+            rgb = colR0.slice();
+        } else if (vl <= r1) {
+            let t = mapToZeroOne(vl, ranges);
+            rgb = interpolate(colR0, colR1, t);
         } else if (vl <= r2) {
-            const t = (vl - r1) / (r2 - r1);
-            rgb = interp(colYl, colRd, t);
+            let t = mapToZeroOne(vl, ranges);
+            rgb = interpolate(colR1, colR2, t);
         } else {
-            rgb = colRd.slice();
+            rgb = colR2.slice();
         }
 
-        const hex = rgb.map(function (v) {
-            const h = v.toString(16);
+        const asHex = rgb.map(function (v) {
+            const  h = v.toString(16);
             return h.length === 1 ? "0" + h : h;
         });
-        return "#" + hex.join("") + opacityHex;
+
+        return "#" + asHex.join("") + opacityHex;
     }
+
 
     const ecbCoord = [8.6889, 50.1095];  // frankfurt
     // const ecbCoord = [9.851, 51.11];  // germany centroid
+
+
+
 
     function symbolsSeries(){
       let results = [];
@@ -822,7 +859,7 @@
       for (const [idx, country] of euCountriesEuro.entries()) {
           try {
              const statsValue    = selectedDataMeta[selectedVar]["selected_data"][yr][country];
-             const statsColoring = pctToColor(statsValue, selectedDataMeta[selectedVar]["color_ranges"]  );
+             const statsColoring = valToPctToColor(statsValue, selectedDataMeta[selectedVar]  );
             // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
             let item = { name: country, itemStyle: { areaColor: statsColoring,} };
             // x14x14
@@ -886,7 +923,7 @@
           symbolSize: 34,
           symbolSize:  0,
           // symbolOffset: [10, -15],   // moves symbol and label
-          color: pctToColor(statsValue, selectedDataMeta[selectedVar]["color_ranges"]),  // only if symbolSize > 0
+          color: valToPctToColor(statsValue, selectedDataMeta[selectedVar]),  // only if symbolSize > 0
           animationDuration: 0,
           label: {
             show: true,
@@ -922,7 +959,7 @@
     url = ROOT_PATH + '/static/echart/usa.json';
     url = ROOT_PATH + '/static/echart/europe-complete.geojson';
     url = ROOT_PATH + '/static/echart/europe-reduced-orig.geojson';
-    url = ROOT_PATH + '/static/echart/europe-reduced.geojson';
+    url = ROOT_PATH + '/static/echart/europe-reduced.geojson?v={{staticVersion}}';
 
     myChart.showLoading();
 
@@ -1306,7 +1343,7 @@
             const endInt = Math.floor(maxValue);
 
             for (let curVal = sttInt; curVal <= endInt; curVal += 1) {
-                console.log(` tick-range-6 at ${curVal}`)
+                // console.log(` tick-range-6 at ${curVal}`)
                 tickValuesSet.add(curVal);
             }
 
@@ -1316,7 +1353,17 @@
             const endEven = Math.floor(maxValue / 2) * 2;
 
             for (let curVal = sttEven; curVal <= endEven; curVal += 2) {
-                console.log(` tick-range-10 at ${curVal}`)
+                // console.log(` tick-range-10 at ${curVal}`)
+                tickValuesSet.add(curVal);
+            }
+
+        } else if (fullRange <= 90) {
+            // every even number
+            const sttEven = Math.ceil( minValue / 20) * 20;
+            const endEven = Math.floor(maxValue / 20) * 20;
+
+            for (let curVal = sttEven; curVal <= endEven; curVal += 20) {
+                // console.log(` tick-range-10 at ${curVal}`)
                 tickValuesSet.add(curVal);
             }
 
