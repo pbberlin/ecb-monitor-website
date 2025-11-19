@@ -31,6 +31,36 @@ trlsRaw = [
         },
     },
     {
+        "public_debt_in_percent_gdp":    { 
+            "de": "Öffentliche Schulden in % BIP",
+            "en": "Public debt in pct GDP", 
+        },
+    },
+    {
+        "net_lending_in_percent_gdp":    { 
+            "de": "Nettokreditaufnahme % BIP",
+            "en": "Net lending in pct GDP", 
+        },
+    },
+    {
+        "total_expenditure_in_percent_gdp":    { 
+            "de": "Staatsquote in % BIP",
+            "en": "Total expenditure in pct GDP", 
+        },
+    },
+    {
+        "download_data":    { 
+            "de": "Daten herunterladen",
+            "en": "Data download", 
+        },
+    },
+    {
+        "download_data_help":    { 
+            "de": "Europäische CSV Datei, Semikolon delimited, Dezimal-Trennzeichen: Komma, UTF-8",
+            "en": "European CSV, semikolon delimited, decimal separator: comma, UTF-8", 
+        },
+    },
+    {
         "color_saturation":    { 
             "de": "Farbsättigung",
             "en": "Color saturation", 
