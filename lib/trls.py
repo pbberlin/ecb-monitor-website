@@ -103,7 +103,7 @@ trlsRaw = [
     {
         "yields_10y":    { 
             "de": "Umlaufrendite 10-j. Staatsanleihen",
-            "en": "Yields 10-year government bond", 
+            "en": "Yields 10-year government bonds", 
         },
     },
     {
@@ -127,7 +127,7 @@ trlsRaw = [
     {
         "headline_fiscal_data":    { 
             "de": "Fiskaldaten",
-            "en": "Fiscal Data", 
+            "en": "Fiscal Landscape", 
         },
     },
 ]

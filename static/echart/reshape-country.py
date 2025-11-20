@@ -14,16 +14,19 @@ from pathlib import Path
 import json
 
 from shapely.geometry import shape, mapping, box, Point
-from shapely.affinity import translate, scale
-from shapely.ops import unary_union
 
-# November 2025 - 20 euro countries - plus Bulgaria imminent
-euCountriesEuro = [
+from shapely.affinity import translate, scale
+# from shapely.ops import unary_union
+from shapely import unary_union   # <-- this one has grid_size
+
+
+# November 2025 - 19 countries -  plus Bulgaria imminent
+forMergeOnly_EuroCountries = [
     "Austria",
     "Belgium",
     "Bulgaria",
     "Croatia",
-    # "Cyprus",
+    "Cyprus",
     "Estonia",
     "Finland",
     "France",
@@ -34,7 +37,7 @@ euCountriesEuro = [
     "Latvia",
     "Lithuania",
     "Luxembourg",
-    # "Malta",
+    "Malta",
     "Netherlands",
     "Portugal",
     "Slovakia",
@@ -43,42 +46,37 @@ euCountriesEuro = [
 ]
 
 
-def EuroAreaBox(
-    features,
-    onTopOfCountry=False,        
-):
-
-    minx=12.0 + 16
-    maxx=23.5 + 16
-    
-    miny=47.0 + 1.1
-    maxy=54.0 + 1.1
-    
-    rect = box(minx , miny , maxx , maxy )
-
-    insetFeature = {
-        "type": "Feature",
-        "properties": {
-            "name": "Euro area (19 countries)",
-            "role": "inset_box",
-            "LON": minx + (maxx-minx)/2, 
-            # "LAT": miny + (maxy-miny)/1.25,
-            # "LAT": miny + (maxy-miny)/6.5,
-            "LAT": maxy - 6.5,
-        },
-        "geometry": mapping(rect),
-
-    }
-    if onTopOfCountry:
-        features.append(insetFeature)     #                     on top of
-    else:
-        features.insert(0, insetFeature)  # prepend - rectangle under country
+# def Unused_EuroAreaBox(
+#     features,
+#     p1, p2,
+#     onTopOfCountry=False,
+# ):
+#     rect = box(p1[0] , p1[1] , p2[0] , p2[1]  )
+#     mp = mapping(rect)
+#     centroidGeom = rect.centroid
+#     centroidLon  = centroidGeom.x
+#     centroidLat  = centroidGeom.y
+#     insetFeature = {
+#         "type": "Feature",
+#         "properties": {
+#             "name": "Euro area (19 countries)",
+#             "role": "inset_box",
+#             "LON": centroidLon,
+#             "LAT": centroidLat,
+#         },
+#         "geometry": mapping(rect),
+#     }
+#     if onTopOfCountry:
+#         features.append(insetFeature)     #                     on top of
+#     else:
+#         features.insert(0, insetFeature)  # prepend - rectangle under country
+#     return centroidLon, centroidLat
 
 
 
-def createUnionShape(
+def euroCountriesMergedShape(
         features,
-        nameRect     =   f"EU Euro",
+        nameRect,
         onTopOfCountry=False,
     ):
 
@@ -86,7 +84,7 @@ def createUnionShape(
     countryFeatureIndexes = []
 
     # Identify country features
-    for idx1, countryName in enumerate(euCountriesEuro):
+    for idx1, countryName in enumerate(forMergeOnly_EuroCountries):
         foundThisCountry = False
         for idx2, feat in enumerate(features):
             try:
@@ -123,24 +121,41 @@ def createUnionShape(
         geometriesToMerge.append(geom)
 
     try:
-        mergedShape = unary_union(geometriesToMerge)
+        # mergedShape = unary_union(geometriesToMerge)
+        # 0.080
+        gridSize = 0.230
+        mergedShape = unary_union(geometriesToMerge, grid_size=gridSize)
         print("Merged all EU euro country shapes.")
     except Exception as ex:
         print(f"Failed to merge: {ex}")
         return
 
+
+
     try:
+
+        centroidGeom = mergedShape.centroid
+        centroidLon  = centroidGeom.x
+        centroidLat  = centroidGeom.y
+
         mergedFeature = {
             "type": "Feature",
             "properties": {
                 "name": nameRect,
-                "note": "20 EU euro countries and Bulgaria)"
+                "note": "euro countries and Bulgaria",
+                "LON": centroidLon,
+                "LAT": centroidLat,
             },
             "geometry": mapping(mergedShape)
         }
+
+
+
     except Exception as ex:
         print(f"Failed to build merged feature: {ex}")
         return
+
+
 
     # Attach merged feature on top of existing features (drawn last)
     if onTopOfCountry:
@@ -203,7 +218,7 @@ def findSingleCountryFeature( searchedCountry, feature):
         if key == "name":
             # print(f"\t search country feature {searchedCountry:20} - found {key} -{props[key]}-")
             if props[key] == searchedCountry:
-                print(f"\t search country feature {searchedCountry:20} - found {key} -{props[key]}-")
+                # print(f"\t search country feature {searchedCountry:20} - found {key} -{props[key]}-")
                 nameCandidates.append(str(props.get(key, "")).strip())
 
 
@@ -214,6 +229,7 @@ def findSingleCountryFeature( searchedCountry, feature):
 
     geomDict = feature.get("geometry", None)
     if geomDict is None:
+        print(f" search country feature {searchedCountry:20} no found")
         return False
     else:
         pass
@@ -355,10 +371,10 @@ def enhance(
         # Build and append inset rectangle (with asymmetric padding)
         try:
             insetRectGeom = buildInsetRectangleAsym(
-                geomTransformed, 
-                padLeftDeg, 
-                padRightDeg, 
-                padTopDeg, 
+                geomTransformed,
+                padLeftDeg,
+                padRightDeg,
+                padTopDeg,
                 padBottomDeg,
             )
             insetFeature = {
@@ -373,10 +389,16 @@ def enhance(
                 },
                 "geometry": mapping(insetRectGeom),
             }
-            if onTopOfCountry:
-                features.append(insetFeature)     #                     on top of
+            if onTopOfCountry == "secondLast":
+                last = features[-1]
+                features.pop()
+                features.append(insetFeature)
+                features.append(last)
             else:
-                features.insert(0, insetFeature)  # prepend - rectangle under country
+                if onTopOfCountry:
+                    features.append(insetFeature)     #                     on top of
+                else:
+                    features.insert(0, insetFeature)  # prepend - rectangle under country
             print(f"rectangle around {countryName} with asymmetric padding")
         except Exception as ex:
             print(f"Failed to create inset rectangle: {ex}")
@@ -516,7 +538,7 @@ def dropClosePoints(features,
             props = feature.get("properties", {})
             nameValue = str(props.get("name", "")).strip()
             if nameValue in [
-                
+
                 "Denmark",
                 "Ireland",
                 "Netherlands",
@@ -541,7 +563,6 @@ def dropClosePoints(features,
                 "San Marino",
                 "Holy See (Vatican City)",
 
-                "Euro countries",
             ]:
                 return True
         except Exception as ex:
@@ -557,6 +578,7 @@ def dropClosePoints(features,
                 "Sweden",
                 "Finland",
                 "United Kingdom",
+                "Euro area (19 countries)",
             ]:
                 return True
         except Exception as ex:
@@ -579,7 +601,7 @@ def dropClosePoints(features,
 
 
     def getThresholdForFeature(feature):
-        if isSimplify04(feature):    
+        if isSimplify04(feature):
             return simplifyThresh4
         if isSimplify03(feature):
             return simplifyThresh3
@@ -643,9 +665,9 @@ def dropClosePoints(features,
                 print(f"dropClosePoints(): feature {idx1} has no coordinates")
                 continue
 
-            
+
             minDistancePerShape = getThresholdForFeature(feat)
-            print( f"\tminDistancePerShape {minDistancePerShape:4.3f} " )
+            # print( f"\tminDistancePerShape {minDistancePerShape:4.3f} " )
 
             geom["coordinates"] = filterCoords(coords, minDistancePerShape)
             feat["geometry"] = geom
@@ -662,10 +684,37 @@ def main():
         return
 
 
-    # try:
-    #     createUnionShape(features, "Euro countries", onTopOfCountry=False)
-    # except Exception as ex:
-    #     print(f"Failed to create outer EU euro shape: {ex}")
+    try:
+        nm = "Euro area (19 countries)"
+        euroCountriesMergedShape(
+            features, 
+            nm,  
+            onTopOfCountry=True,
+        )
+    except Exception as ex:
+        print(f"Failed to create {nm}: {ex}")
+
+
+    enhance(
+        features,
+        countryName     =  nm,
+
+        lonShiftDeg     =   23.2 ,
+        latShiftDeg     =   0.8 ,   # positive -> move upwards
+        # scaleFactor     =   0.19 ,
+        scaleFactor     =   0.21 ,
+
+        drawRect= True,
+        padLeftDeg      =   0.560 ,
+        padRightDeg     =   0.560 ,
+        # padTopDeg       =   1.865 ,   # <- increase top padding here
+        padTopDeg       =   0.265 ,   # <- increase top padding here
+        padBottomDeg    =   0.260 ,
+
+        # onTopOfCountry=True,
+        onTopOfCountry="secondLast",
+    )
+
 
 
     enhance(
@@ -800,10 +849,7 @@ def main():
         latShiftDeg    =   -0.1 ,
     )
 
-    EuroAreaBox(
-        features,
-        True,
-    )
+
 
     # Round all coordinates to 3 decimals
     try:
@@ -816,8 +862,8 @@ def main():
     # drop redundant points
     # dropClosePoints(features, minDistance=0.005)
     dropClosePoints(
-        features, 
-        simplifyThresh1=0.080, 
+        features,
+        simplifyThresh1=0.080,
         simplifyThresh2=0.125,
         simplifyThresh3=0.18,
         simplifyThresh4=0.34,
