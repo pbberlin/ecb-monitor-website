@@ -37,6 +37,52 @@ trlsRaw = [
         },
     },
     {
+        "public_debt_in_percent_gdp_desc":    { 
+            "de": """
+                <li>
+                Allgemeine konsolidierte Bruttoschulden des Staates
+                </li>
+
+                <li>
+                Prozentsatz des BIP zu aktuellen Preisen
+                </li>
+
+                <li>
+                Verfahren bei übermäßigem Defizit, basierend auf ESA 2010
+                </li>
+
+                <li>
+                Originalquelle:   
+                    <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
+                        Ameco, Code UDGG
+                    </a>
+                </li>
+            """, 
+            "en": """
+                <li>
+                General government consolidated gross debt
+                </li>
+
+                <li>
+                Percentage of GDP at current prices
+                </li>
+
+                <li>
+                Excessive deficit procedure, based on ESA 2010
+                </li>
+
+                <li>
+                    Original source: 
+
+                    <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
+                        Ameco, Code UDGG
+                    </a>
+                
+                </li>
+            """, 
+        },
+    },
+    {
         "net_lending_in_percent_gdp":    { 
             "de": "Nettokreditaufnahme % BIP",
             "en": "Net lending in pct GDP", 
@@ -49,9 +95,21 @@ trlsRaw = [
         },
     },
     {
+        "interest_expenditure":    { 
+            "de": "Zinszahlungen in % Staatsausgaben",
+            "en": "Interest expenditure in pct GDP", 
+        },
+    },
+    {
+        "yields_10y":    { 
+            "de": "Umlaufrendite 10-j. Staatsanleihen",
+            "en": "Yields 10-year government bond", 
+        },
+    },
+    {
         "download_data":    { 
             "de": "Daten herunterladen",
-            "en": "Data download", 
+            "en": "Download data", 
         },
     },
     {

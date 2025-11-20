@@ -49,11 +49,13 @@ def selectLanguage():
 
 if False:
     from lib.trls    import getCurrentLanguageAndI18n
-import lib.trls as trlsModule
 
+# dev mode => re-loading the translations python module with every request
+import lib.trls as trlsModule
 import importlib
 def getI18nDyn():
     global trlsModule
+    # taking it from current_app - not from app  - as above
     debugModeLive = current_app.debug or os.environ.get("FLASK_DEBUG") == "1"
     if debugModeLive:
         try:

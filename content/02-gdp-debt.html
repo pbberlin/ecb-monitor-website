@@ -123,29 +123,39 @@
   #slider-group {
     display:        flex;
     flex-direction: column;
-    gap: 0.01rem;
-    align-items: center;   /* contents centered horizontally */
-    height:      auto;
-    width:       max-content;    /* shrink container to content so it can sit right */
+    gap:           0.01rem;
+    align-items:   center;   /* contents centered horizontally */
+    height:        auto;
+    width:         max-content;    /* shrink container to content so it can sit right */
+    width:         100%;
 
     margin-top:    1.1rem;
     margin-bottom: 1.1rem;
-    margin-left: auto;
+    margin-left:   auto;
+    margin-right:  auto;
   }
 
   .options-stat-vars {
     display:        flex;
-    flex-direction: column;   /* vertical arrangement */
-    align-items: flex-end;    /* right  alignment */
-    gap: 0.5rem;              /* vertical spacing */
+    flex-direction: column;      /* vertical arrangement */
+    align-items:    flex-end;    /* right  alignment */
+    gap:            0.9rem;      /* vertical spacing */
+    margin:         3.0rem 0;
   }
 
 
 
 
-  #bullet-container li {
+  .bullet-container {
+    margin: 0;
+    padding: 0;
+  }
+  .bullet-container li {
     list-style-type: circle;
-    margin: 1rem;
+    margin-left: 1rem;
+    padding: 0.3rem 0;
+
+    font-size: 90%;
   }
 
 
@@ -165,12 +175,14 @@
       -->
 
       <!-- First (top, right) -->
-      <h3 > {{i18n.headline_fiscal_data}}</h3>
+      <h3> {{i18n.headline_fiscal_data}}</h3>
 
       <!-- <label for="yearSlider">Year:</label> -->
       <div id="slider-group">
-        <input id="yearSlider" type="range" min="2000" step="1"  autofocus />
-        <span id="yearLabel"></span>
+        <input id="yearSlider" type="range" min="2000" step="1"  autofocus 
+          style="width: 90%; align-self: end;"
+        />
+        <span id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
       </div>
 
       <!-- option -->
@@ -187,14 +199,13 @@
 
 
         <label title="(Ameco)">
-          <!-- Staatsquote % BIP -->
           {{i18n.total_expenditure_in_percent_gdp}}
           <input type="radio" name="stats_variable" value="ameco_total_expenditure">
         </label>
 
 
         <label title="(Ameco)">
-          Zinszahlungen in % Staatsausgaben
+          {{i18n.interest_expenditure}}
           <input type="radio" name="stats_variable" value="ameco_interest_expenditure">
         </label>
 
@@ -206,7 +217,7 @@
         -->
 
         <label title="(Eurostat)">
-          Zehnjährige Staatsanleihen
+          {{i18n.yields_10y}}
           <input type="radio" name="stats_variable" value="eurostat_yields_10y">
         </label>
 
@@ -303,21 +314,22 @@
     </style>
 
 
+
+
+
+
+
+
     <div class="gradientWrapperWrapper">
 
 
-      <div class="slider-group"
-          style="margin-top: 4.5rem;"
-          title="change  saturation / opacity of the map colors"
-      >
-        <span style="font-size: 65%; font-weight: 300; display: inline-block; position: relative; top: -5px;"
-        >{{i18n.color_saturation}} </span>
-        <input name="color_opacity" id="color_opacity" type="range" min="0" max="1" step="0.1" 
-          value="0.6"
-          style="border:none; width: 4rem;"
-        >
+      <ul class="bullet-container" >
+        {{i18n.public_debt_in_percent_gdp_desc|safe}}
+      </ul>
+      <br>
 
-      </div>
+
+
 
 
       <div class="gradientWrapper">
@@ -336,13 +348,24 @@
 
 
 
+      <div class="slider-group"
+          style="margin-top: 4.5rem;"
+          title="change  saturation / opacity of the map colors"
+      >
+        <span style="font-size: 65%; font-weight: 300; display: inline-block; position: relative; top: -5px;"
+        >{{i18n.color_saturation}} </span>
+        <input name="color_opacity" id="color_opacity" type="range" min="0" max="1" step="0.1" 
+          value="0.6"
+          style="border:none; width: 6rem;     transform: scale(0.60); "
+        >
+      </div>
+
+
+
+
     </div>
 
 
-    <!-- 
-        <ul id="bullet-container" >
-        </ul>
-    -->
 
   </div><!-- /col--right -->
 
@@ -526,6 +549,7 @@
         labelLine: {
           show: false
         },
+        animation:         false,
         animationDuration: 0,
         radius: radius,
         center: centerLabelOrCoords,
@@ -658,6 +682,7 @@
         symbolSize:   [ 1.5*20,  1.5*22],  // shortened - view from steeply above
         symbolOffset: [ -9,   1],
         symbolOffset: [ -9,  -2],  // second vertical
+        animation:         false,
         animationDuration: 0,
         data: [
             {
@@ -681,6 +706,7 @@
         symbol: 'image:///static/img/ecb/ecb-tower-02.png',
         symbolSize:   [ 3.5*20,  3.5*30],
         symbolSize:   [ 3.5*20,  3.5*22],  // shortened - view from steeply above
+        animation:         false,
         animationDuration: 0,
         data: [
             {
@@ -926,6 +952,7 @@
           symbolSize:  0,
           // symbolOffset: [10, -15],   // moves symbol and label
           color: valToPctToColor(statsValue, selectedDataMeta[selectedVar]),  // only if symbolSize > 0
+          animation:         false,
           animationDuration: 0,
           label: {
             show: true,
@@ -1049,6 +1076,8 @@
             // [maxLon, maxLat],
                 [16 + 9.2 - 0.2   , 48.5 + 11.6],
         ],
+
+        // universalTransition: true,
 
         nameProperty: 'name', //  name_en - for using en name.
         itemStyle: {
@@ -1226,6 +1255,7 @@
     const opacityInput   = document.getElementById('color_opacity');
     extendableList.push(opacityInput);
 
+    let timerId = 0;
 
     for (let idx1 = 0; idx1 < extendableList.length; idx1++) {
       extendableList[idx1].addEventListener('change', function (evt) {
@@ -1246,17 +1276,13 @@
         const res = sliderToKey();
         labelEl.textContent = res.lbl;
 
-        // mutate option and re-apply
         let option4;
-
-        // reset the stuff we want to update
         option4 = {
           series: [],
           geo: {
             regions: [],
           },
         };
-        // re-populate
         option4.series = [
           ...manyCountriesShowStats(res.yr),
           ...symbolsSeries(),
@@ -1274,6 +1300,13 @@
             lazyUpdate : true,
           },
         );
+
+        if (timerId > 0) {
+          clearTimeout(timerId);
+        }
+        timerId = setTimeout(function () {
+          sliderEl.focus();
+        }, 1200);
 
       });
     }
@@ -1376,7 +1409,7 @@
             const endEven = Math.floor(maxValue / 50) * 50;
 
             for (let curVal = sttEven; curVal <= endEven; curVal += 50) {
-                console.log(` tick-range-xx at ${curVal}`)
+                // console.log(` tick-range-xx at ${curVal}`)
                 tickValuesSet.add(curVal);
             }
 
