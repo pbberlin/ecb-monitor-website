@@ -587,10 +587,6 @@
             opacityHex = "0" + opacityHex;
         }
 
-        const gradWrap1 = document.getElementById("myGradient1");
-        if (gradWrap1) {
-          gradWrap1.style.opacity = opacity;
-        }
         const gradWrap2 = document.getElementById("myGradient2");
         if (gradWrap2) {
           gradWrap2.style.opacity = opacity;
@@ -695,7 +691,7 @@
             formatter: 'ECB Tower'
         }
       }
-      results.push(item1);
+      // results.push(item1);
 
 
       let item2 = {
@@ -719,7 +715,7 @@
             formatter: 'ECB Tower'
         }
       }
-      results.push(item2);
+      // results.push(item2);
 
 
       // text-only label at a geo position
@@ -756,7 +752,7 @@
         }
       }
 
-      results.push(item3);
+      // results.push(item3);
 
       return results;
     }
@@ -765,6 +761,8 @@
 
 
     function arrowRedraw() {
+
+        return;
 
         const pixel = myChart.convertToPixel({ geoIndex: 0 }, ecbCoord);
 
@@ -906,13 +904,25 @@
     function extraRectangle(country, offsetX, offsetY){
       // the rectangles around Cyprus and Malta, not Luxembourg,
       // differing only in offset
+
+      let areaCol = 'rgba(217,233,236,0.15)';
+      let label   = country;
+      if (country === "Euro area (19 countries)"){
+        areaCol = 'rgba(217,233,236,1.00)';
+        areaCol = 'rgba(244,244,244,1.00)';
+        label   = country + "\n + Bulgaria";
+        label   = "Entire Euro area";
+        offsetX = -25;
+        offsetY = -55;
+      }
+
       const item =
         {
           name: `${country} Inset Rectangle`,
           itemStyle: {
-            areaColor:   'none',
-            areaColor:   'rgba(217,233,236,0.15)',
-            borderColor: '#aaa',
+            areaColor:    'none',
+            areaColor:   areaCol,
+            borderColor:  '#aaa',
             borderWidth: 0.5,   // <— thinner border (default is 1)
           },
           emphasis: { disabled: true },
@@ -922,7 +932,7 @@
             // magnifier optional
             // formatter: text + '🔍',
             // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
-            formatter: country,
+            formatter:    label,
             fontSize:       11,
             fontWeight:    300,
 
@@ -1095,6 +1105,7 @@
           ...regionsColoring(),
           extraRectangle('Cyprus', -14,-34),
           extraRectangle('Malta' ,  -6,-24),
+          extraRectangle('Euro area (19 countries)' ,  0,0),
           // rectangles('Luxembourg' ,  0,0),
         ],
 
@@ -1234,6 +1245,7 @@
           ...regionsColoring(res.yr),
           extraRectangle('Cyprus', -14,-34),
           extraRectangle('Malta' ,  -6,-24),
+          extraRectangle('Euro area (19 countries)' ,  0,0),
       ];
 
 
@@ -1291,6 +1303,7 @@
             ...regionsColoring(res.yr),
             extraRectangle('Cyprus', -14,-34),
             extraRectangle('Malta' ,  -6,-24),
+            extraRectangle('Euro area (19 countries)' ,  0,0),
         ];
 
         myChart.setOption(
