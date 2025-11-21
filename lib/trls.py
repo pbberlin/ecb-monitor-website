@@ -32,8 +32,8 @@ trlsRaw = [
     },
     {
         "switch_language_label": { 
-            "de": "English version",  # switched
-            "en": "Deutsche Fassung", 
+            "de": "To  English version",  # switched
+            "en": "Zur Deutschen Fassung", 
         },
     },
     {
@@ -43,51 +43,36 @@ trlsRaw = [
         },
     },
     {
-        "public_debt_in_percent_gdp":    { 
-            "de": "Öffentliche Schulden in % BIP",
-            "en": "Public debt in pct GDP", 
+        "ameco_debt_to_gdp_label":    { 
+            "de": "Staatsschulden in % BIP",
+            "en": "Government debt in % GDP", 
         },
     },
     {
-        "public_debt_in_percent_gdp_desc":    { 
+        "ameco_debt_to_gdp_desc":    { 
             "de": """
                 <li>
-                Allgemeine konsolidierte Bruttoschulden des Staates
+                Gesamtstaatliche Bruttoschulden des Staates in % BIP
                 </li>
 
                 <li>
-                Prozentsatz des BIP zu aktuellen Preisen
-                </li>
-
-                <li>
-                Verfahren bei übermäßigem Defizit, basierend auf ESA 2010
-                </li>
-
-                <li>
-                Originalquelle:   
+                Quelle: 
                     <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
-                        Ameco, Code UDGG
+                        Europäische Kommission, AMECO Database, Variablen-Code: UDGG
                     </a>
                 </li>
             """, 
             "en": """
                 <li>
-                General government consolidated gross debt
+                General government gross debt in % GDP
                 </li>
 
-                <li>
-                Percentage of GDP at current prices
-                </li>
 
                 <li>
-                Excessive deficit procedure, based on ESA 2010
-                </li>
-
-                <li>
-                    Original source: 
+                    Source: 
 
                     <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
-                        Ameco, Code UDGG
+                        European Commission, AMECO Database, variable code: UDGG
                     </a>
                 
                 </li>
@@ -95,27 +80,77 @@ trlsRaw = [
         },
     },
     {
-        "net_lending_in_percent_gdp":    { 
-            "de": "Nettokreditaufnahme % BIP",
-            "en": "Net lending in pct GDP", 
+        "ameco_net_lending_label":    { 
+            "de": "Haushaltssaldo in % BIP",
+            "en": "Government balance in % GDP", 
         },
     },
     {
-        "total_expenditure_in_percent_gdp":    { 
+        "ameco_net_lending_desc":    { 
+            "de": """
+                <li>
+                Gesamtstaatlicher Haushaltssaldo in % BIP
+                </li>
+                <li>
+                Quelle: 
+                    <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
+                    Europäische Kommission, AMECO Database, Variablen-Code: UBLG
+                    </a>
+                </li>
+            """, 
+            "en": """
+                <li>
+                General government balance in % GDP
+                </li>
+                <li>
+                    Source: 
+                    <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
+                    European Commission, AMECO Database, variable code: UBLG
+                    </a>                
+                </li>
+            """, 
+        },
+    },
+    {
+        "ameco_total_expenditure_label":    { 
             "de": "Staatsquote in % BIP",
             "en": "Total expenditure in pct GDP", 
         },
     },
     {
-        "interest_expenditure":    { 
+        "ameco_total_expenditure_desc":    { 
+            "de": """
+            """, 
+            "en": """
+            """, 
+        },
+    },
+    {
+        "ameco_interest_expenditure_label":    { 
             "de": "Zinszahlungen in % Staatsausgaben",
             "en": "Interest expenditure in pct GDP", 
         },
     },
     {
-        "yields_10y":    { 
+        "ameco_interest_expenditure_desc":    { 
+            "de": """
+            """, 
+            "en": """
+            """, 
+        },
+    },
+    {
+        "eurostat_yields_10y_label":    { 
             "de": "Umlaufrendite 10-j. Staatsanleihen",
             "en": "Yields 10-year government bonds", 
+        },
+    },
+    {
+        "eurostat_yields_10y_desc":    { 
+            "de": """
+            """, 
+            "en": """
+            """, 
         },
     },
     {
