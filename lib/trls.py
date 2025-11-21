@@ -20,8 +20,20 @@ class AttrDict(dict):
 trlsRaw = [
     {
         "good_day": { 
-            "en": "Good day", 
             "de": "Guten Tag",
+            "en": "Good day", 
+        },
+    },
+    {
+        "switch_language_hint": { 
+            "de": "switch language",   # switched 
+            "en": "Sprache wechseln", 
+        },
+    },
+    {
+        "switch_language_label": { 
+            "de": "English version",  # switched
+            "en": "Deutsche Fassung", 
         },
     },
     {
@@ -141,13 +153,15 @@ for idx1, trlEntry in enumerate(trlsRaw):
             val = translations[lg]
             if lg not in trlsByLg:
                 trlsByLg[lg] = {}
+            # print(f"{lg} {key:16} {val[:44]}")
             trlsByLg[lg][key] = val
 
 
 
 def getCurrentLanguageAndI18n():
-    # curLg = getattr(g, "currentLanguage", "en")
-    curLg = getattr(g, "currentLanguage", "de")
+    curLg         = getattr(g, "currentLanguage", "de")
+    switchLgCode  = getattr(g, "switchLgCode", "de")
+    switchLgUrl   = getattr(g, "switchLgUrl", "de")
 
     #  arg.get does *not* contain POST values
     lg = request.args.get('lang')
@@ -160,4 +174,4 @@ def getCurrentLanguageAndI18n():
     if curLg in trlsByLg:
         curI18n = trlsByLg[curLg]
 
-    return curLg, AttrDict(curI18n)
+    return AttrDict(curI18n), curLg, switchLgCode, switchLgUrl

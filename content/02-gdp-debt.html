@@ -718,8 +718,30 @@
       // results.push(item2);
 
 
-      // text-only label at a geo position
+
       let item3 = {
+        name: 'Euro Area',
+        type: 'scatter',
+        coordinateSystem: 'geo',
+        symbol: 'circle',
+        symbol: 'image:///static/img/euro-area/02a-sm.png',
+        symbolSize:   [ 2.0*20,  2.0*15],
+        animation:         false,
+        animationDuration: 0,
+        data: [
+            {
+                name: 'Euro Area',
+                value: [32.4, 52.6],
+            }
+        ],
+        silent: true,  // no reaction to click, hover, drag...
+      }
+      results.push(item3);
+
+
+
+      // text-only label at a geo position
+      let item4 = {
         name: 'Euro area Label',
         type: 'scatter',
         coordinateSystem: 'geo',
@@ -743,7 +765,7 @@
         },
         data: [
             {
-                name: 'ECB Tower Label',
+                name: 'Euro area Label',
                 value: [33.7, 54.0]
             }
         ],
@@ -751,8 +773,7 @@
             show: false
         }
       }
-
-      // results.push(item3);
+      // results.push(item4);
 
       return results;
     }

@@ -16,7 +16,7 @@
      <script>
       // ENV = 'production' => DEBUG = False, else TRUE
       window.APP_DEBUG    =  {{ "true" if config['DEBUG'] else "false" }};
-      window.APP_LANGUAGE = "{{ currentLanguage }}";
+      window.APP_LANGUAGE = "{{ curLg }}";
     </script>
 
 </head>
@@ -119,9 +119,14 @@
 
             <div class="c-meta__group">
                 <nav>
-                    <a class="c-meta__link js-languageswitch" href="https://www.zew.de/en/zew/about-zew" lang="en"
-                        title="English">
-                        {{ currentLanguage }}
+                    <a 
+                        title="{{i18n.switch_language_hint}}"
+                        class="c-meta__link js-languageswitch" 
+                        href="{{switchLgUrl}}"
+                        accesskey="l"
+                    >
+                        {{i18n.switch_language_label}}
+                        <!-- {{switchLgCode}} -->
                     </a>
                 </nav>
             </div>
