@@ -188,24 +188,24 @@
       <!-- option -->
       <div class="options-stat-vars">
         <label title="(Ameco)">
-          {{i18n.public_debt_in_percent_gdp}}
+          {{i18n.ameco_debt_to_gdp_label}}
           <input type="radio" name="stats_variable" value="ameco_debt_to_gdp" >
         </label>
 
         <label title="(Ameco)">
-          {{i18n.net_lending_in_percent_gdp}}
+          {{i18n.ameco_net_lending_label}}
           <input type="radio" name="stats_variable" value="ameco_net_lending">
         </label>
 
 
         <label title="(Ameco)">
-          {{i18n.total_expenditure_in_percent_gdp}}
+          {{i18n.ameco_total_expenditure_label}}
           <input type="radio" name="stats_variable" value="ameco_total_expenditure">
         </label>
 
 
         <label title="(Ameco)">
-          {{i18n.interest_expenditure}}
+          {{i18n.ameco_interest_expenditure_label}}
           <input type="radio" name="stats_variable" value="ameco_interest_expenditure">
         </label>
 
@@ -217,7 +217,7 @@
         -->
 
         <label title="(Eurostat)">
-          {{i18n.yields_10y}}
+          {{i18n.eurostat_yields_10y_label}}
           <input type="radio" name="stats_variable" value="eurostat_yields_10y">
         </label>
 
@@ -323,9 +323,27 @@
     <div class="gradientWrapperWrapper">
 
 
-      <ul class="bullet-container" >
-        {{i18n.public_debt_in_percent_gdp_desc|safe}}
+      <ul class="bullet-container stats-desc" id="ameco_debt_to_gdp_desc" >
+        {{i18n.ameco_debt_to_gdp_desc|safe}}
       </ul>
+
+      <ul class="bullet-container stats-desc" id="ameco_net_lending_desc" >
+        {{i18n.ameco_net_lending_desc|safe}}
+      </ul>
+
+      <ul class="bullet-container stats-desc" id="ameco_total_expenditure_desc" >
+        {{i18n.ameco_total_expenditure_desc|safe}}
+      </ul>
+
+      <ul class="bullet-container stats-desc" id="ameco_interest_expenditure_desc" >
+        {{i18n.ameco_interest_expenditure_desc|safe}}
+      </ul>
+
+      <ul class="bullet-container stats-desc" id="eurostat_yields_10y_desc" >
+        {{i18n.eurostat_yields_10y_desc|safe}}
+      </ul>
+
+
       <br>
 
 
@@ -491,6 +509,17 @@
             radio.checked = true;
         }
     });
+
+    let descs = document.querySelectorAll(".stats-desc");
+    descs.forEach(function(desc) {
+        if (desc.id === selectedVar + "_desc") {
+            desc.style.display = "block";
+          } else {
+            desc.style.display = "none";
+        }
+    });
+
+
 
     const linkDownload = document.getElementById("linkDownload")
     linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
@@ -1304,6 +1333,16 @@
         linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
 
         createGradientLegend( "myGradient2", selectedDataMeta[selectedVar]);
+
+
+        let descs = document.querySelectorAll(".stats-desc");
+        descs.forEach(function(desc) {
+            if (desc.id === selectedVar + "_desc") {
+                desc.style.display = "block";
+              } else {
+                desc.style.display = "none";
+            }
+        });
 
 
         const res = sliderToKey();
