@@ -26,9 +26,26 @@ if debugMode:
 
 
 LANGUAGE_BY_HOST = {
-    "ecb-monitor.zew.de": "en",
-    "ezb-monitor.zew.de": "de",
+    "ezb-monitor.zew.de":              "de",
+    "ecb-monitor.zew.de":              "en",
+    "ezb-transparenz-monitor.zew.de":  "de",
+    "ecb-transparency-monitor.zew.de": "en",
 }
+
+alternateHost = {
+    "ezb-monitor.zew.de":               "ecb-monitor.zew.de",
+    "ecb-monitor.zew.de":               "ezb-monitor.zew.de",
+    "ezb-transparenz-monitor.zew.de":   "ecb-transparency-monitor.zew.de",
+    "ecb-transparency-monitor.zew.de":  "ezb-transparenz-monitor.zew.de",
+    "localhost":                        "localhost",
+}
+
+alternateLang = {
+    "de": "en",
+    "en": "de",
+}
+
+
 
 staticVersion = str(int(time.time()))
 app.config["STATIC_VERSION"] = staticVersion
@@ -37,10 +54,33 @@ app.config["STATIC_VERSION"] = staticVersion
 @app.before_request
 def selectLanguage():
     hostHeader = request.headers.get("Host", "")
-    hostName   = hostHeader.split(":")[0].lower()
-    currLang   = LANGUAGE_BY_HOST.get(hostName, "de") 
-    g.currentLanguage = currLang
-    # print(f"cur lang by hostname is {currLang}")
+    hostParts  = hostHeader.split(":")
+    hostName   = hostParts[0].lower()
+    port       = ""
+    if len(hostParts) > 1:
+        port = ":" + hostParts[1]
+    if request.is_secure:
+        protocol = "https"
+    else:
+        protocol = "http"
+
+    curLg      = LANGUAGE_BY_HOST.get(hostName, "de") 
+    if hostName == "localhost":
+        lg = request.args.get('lang')
+        if (lg is None) or (lg == "") :
+            curLg = "de"
+        else:
+            curLg = lg
+
+    g.currentLanguage = curLg
+
+    fPth = request.full_path
+    fPth = fPth.replace(f"lang={curLg}", "")
+    fPth += f"lang={alternateLang[curLg]}"
+    g.switchLgUrl    = protocol + "://" + alternateHost[hostName] + port + fPth
+    g.switchLgCode   = alternateLang[curLg]
+
+    # print(f"cur lang by hostname is {curLg}")
     
     if False:
         # now available everyhwere
@@ -70,16 +110,25 @@ def getI18nDyn():
 @app.context_processor
 def injectLanguage():
 
-    curLg, curI18n = getI18nDyn()
+    curI18n, curLg, switchLgCode, switchLgUrl  = getI18nDyn()
 
-    # currentLanguage      -> "en" / "de"
+    # for idx, key in enumerate(curI18n):
+    #     print(f"  {key:16} {curI18n[key][:44]}")
+    #     if idx > 5:
+    #         break
+
+
+    # curLg      -> "en" / "de"
     # make available in all Jinja templates
-    # used in index.html window.APP_LANGUAGE = "{{ currentLanguage }}";
+    # used in index.html window.APP_LANGUAGE = "{{curLg}}";
     # i18n                 -> dict of key   -> translated string in current language
     # i18n                 -> staticVersion -> url param for static files
     return {
-        "currentLanguage": curLg,
         "staticVersion": app.config["STATIC_VERSION"],
+        "curLg"        : curLg,
+        "switchLgCode" : switchLgCode,
+        "switchLgUrl"  : switchLgUrl,
+
         "i18n": curI18n,
     }
 
@@ -154,11 +203,8 @@ def index():
 
     cnt = pth.read_text( encoding="utf-8"  )
 
-    # curLg, curI18n = getCurrentLanguageAndI18n()
     renderedCnt = render_template_string(
         cnt,
-        # currentLanguage=curLg,     
-        # i18n=AttrDict(curI18n),
     )
 
     return render_template(
@@ -179,12 +225,8 @@ def page(htmlFile):
 
     cnt = pth.read_text(encoding="utf-8")
 
-
-    # curLg, curI18n = getCurrentLanguageAndI18n()
     renderedCnt = render_template_string(
         cnt,
-        # currentLanguage=curLg,        
-        # i18n=AttrDict(curI18n),
     )
 
     return render_template(
