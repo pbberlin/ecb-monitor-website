@@ -779,7 +779,7 @@
         zlevel: 11,
         label: {
             show: true,
-            formatter: 'Euro area\n(19 countries) and Bulgaria',
+            formatter: 'Euro area\n(20 countries) with Bulgaria',
             position: 'inside',   // on the point
             offset: [0, 0],       // fine-tune in px
             color: '#222',
@@ -933,18 +933,19 @@
 
 
       for (const [idx, country] of euCountriesEuro.entries()) {
-          try {
-             const statsValue    = selectedDataMeta[selectedVar]["selected_data"][yr][country];
-             const statsColoring = valToPctToColor(statsValue, selectedDataMeta[selectedVar]  );
-            // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
-            let item = { name: country, itemStyle: { areaColor: statsColoring,} };
-            // x14x14
-            results.push(item);
-            // console.log(`  regionsColoring()-3 ${country} - ${statsValue}`);
-          } catch (error) {
-            console.log(`no stats value for ${country} for ${yr}`)
-          }
-      };
+        try {
+          const statsValue    = selectedDataMeta[selectedVar]["selected_data"][yr][country];
+          const statsColoring = valToPctToColor(statsValue, selectedDataMeta[selectedVar]  );
+          // console.log(` ${statsValue} ${ valToPctToColor(statsValue, selectedDataMeta[selectedVar]) }  ${country}`);
+          // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
+          let item = { name: country, itemStyle: { areaColor: statsColoring,} };
+          // x14x14
+          results.push(item);
+          // console.log(`  regionsColoring()-3 ${country} - ${statsValue}`);
+        } catch (error) {
+          console.log(`no stats value for ${country} for ${yr}`)
+        }
+    };
 
       // for (const [idx, country] of notInEuro.entries()) {
       return results;
@@ -957,7 +958,7 @@
 
       let areaCol = 'rgba(217,233,236,0.15)';
       let label   = country;
-      if (country === "Euro area (19 countries)"){
+      if (country === "Euro area (20 countries)"){
         areaCol = 'rgba(217,233,236,1.00)';
         areaCol = 'rgba(244,244,244,1.00)';
         label   = country + "\n + Bulgaria";
@@ -1003,7 +1004,7 @@
       let results = [];
       for (let country in selectedDataMeta[selectedVar]["selected_data"][yr]) {
         const statsValue = selectedDataMeta[selectedVar]["selected_data"][yr][country];
-        // console.log(country, numberValue);
+        // console.log(` ${statsValue} ${ valToPctToColor(statsValue, selectedDataMeta[selectedVar]) }  ${country}`);
         let item = {
           type: 'scatter',
           coordinateSystem: 'geo',
@@ -1156,7 +1157,7 @@
           ...regionsColoring(),
           extraRectangle('Cyprus', -14,-34),
           extraRectangle('Malta' ,  -6,-24),
-          extraRectangle('Euro area (19 countries)' ,  0,0),
+          extraRectangle('Euro area (20 countries)' ,  0,0),
           // rectangles('Luxembourg' ,  0,0),
         ],
 
@@ -1296,7 +1297,7 @@
           ...regionsColoring(res.yr),
           extraRectangle('Cyprus', -14,-34),
           extraRectangle('Malta' ,  -6,-24),
-          extraRectangle('Euro area (19 countries)' ,  0,0),
+          extraRectangle('Euro area (20 countries)' ,  0,0),
       ];
 
 
@@ -1364,7 +1365,7 @@
             ...regionsColoring(res.yr),
             extraRectangle('Cyprus', -14,-34),
             extraRectangle('Malta' ,  -6,-24),
-            extraRectangle('Euro area (19 countries)' ,  0,0),
+            extraRectangle('Euro area (20 countries)' ,  0,0),
         ];
 
         myChart.setOption(

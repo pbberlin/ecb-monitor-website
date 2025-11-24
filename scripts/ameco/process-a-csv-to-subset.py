@@ -7,7 +7,8 @@ from datetime import datetime
 currentYear = datetime.now().year
 
 euCountries = [
-    "Euro area (19 countries)",
+    # "Euro area (1-9 countries)",
+    "Euro area (20 countries)",
     "Austria",
     "Belgium",
     "Bulgaria",

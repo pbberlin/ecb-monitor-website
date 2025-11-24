@@ -33,7 +33,7 @@ const euCountries = [
 
 // November 2025 - 20 euro countries - plus Bulgaria imminent
 const euCountriesEuro = [
-    "Euro area (19 countries)",  // key for ameco and eurostat
+    "Euro area (20 countries)",  // key for ameco and eurostat
     "Austria",
     "Belgium",
     "Bulgaria",
