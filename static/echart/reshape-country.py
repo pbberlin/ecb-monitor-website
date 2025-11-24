@@ -20,7 +20,7 @@ from shapely.affinity import translate, scale
 from shapely import unary_union   # <-- this one has grid_size
 
 
-# November 2025 - 19 countries -  plus Bulgaria imminent
+# November 2025 - 1-9 countries -  plus Bulgaria imminent
 forMergeOnly_EuroCountries = [
     "Austria",
     "Belgium",
@@ -59,7 +59,7 @@ forMergeOnly_EuroCountries = [
 #     insetFeature = {
 #         "type": "Feature",
 #         "properties": {
-#             "name": "Euro area (19 countries)",
+#             "name": "Euro area (20 countries)",
 #             "role": "inset_box",
 #             "LON": centroidLon,
 #             "LAT": centroidLat,
@@ -578,7 +578,7 @@ def dropClosePoints(features,
                 "Sweden",
                 "Finland",
                 "United Kingdom",
-                "Euro area (19 countries)",
+                "Euro area (20 countries)",
             ]:
                 return True
         except Exception as ex:
@@ -685,7 +685,7 @@ def main():
 
 
     try:
-        nm = "Euro area (19 countries)"
+        nm = "Euro area (20 countries)"
         euroCountriesMergedShape(
             features, 
             nm,  

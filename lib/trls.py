@@ -33,7 +33,7 @@ trlsRaw = [
     {
         "switch_language_label": {
             "de": "To  English version",  # switched
-            "en": "Zur Deutschen Fassung",
+            "en": "Zur deutschen Fassung",
         },
     },
     {
