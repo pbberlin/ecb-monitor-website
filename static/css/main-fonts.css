@@ -117,3 +117,14 @@ textarea {
 h3, p, li {
     color:  var(--color-font);
 }
+
+
+a, a:not([class]) {
+    /* text-decoration: none; */
+    /* text-decoration: underline; */
+}
+
+a:hover {
+    /* text-decoration: none; */
+    text-decoration: underline;
+}
