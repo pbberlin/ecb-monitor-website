@@ -4,12 +4,12 @@
 pip install -r requirements.txt
 # wsgiref fails under windows
 
-# Flask server
-python app.py
-
 # Web Server Gateway Interface (WSGI) 
 python app-wsgiref.py
 
+
+# local development Flask server 
+cls && python app.py
 
 
 ```
@@ -23,6 +23,3 @@ Open in browser http://localhost:5000
 siehe  [hier](doc/README.md)
 
 
-
-
-<!-- 2025-10-31 -->

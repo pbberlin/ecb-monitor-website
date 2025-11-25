@@ -36,7 +36,27 @@ sudo systemctl start  app-scheduler
 
 ## windows
 
-<!-- cd into development git repo - scripts/scheduler -->
+```bash
+
+# cd into development git repo - scripts/scheduler
 cd C:\users\pbu\Documents\zew_work\git\python\guw-flask\scripts\scheduler\
-<!-- run  -->
+
+# run
 ..\..\venv\Scripts\python.exe scheduler_main.py
+
+```
+
+
+## job scripts
+
+```bash
+
+./scripts/fetch-ameco.py
+
+
+requires zabbix_sender.exe
+
+sudo apt install zabbix-sender
+# or
+sudo apt install zabbix-agent
+```
