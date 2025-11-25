@@ -11,20 +11,10 @@ DATA_DIR = Path.cwd() / "."
 MIN_TOP_LEVEL_KEYS = 10
 MIN_NESTED_KEYS    = 10
 
-ZABBIX_SERVER = "http://monitor2.zew.de/zabbix/"      # adjust
+
 ZABBIX_SERVER = "monitor2.zew.de"
-# port is 10051 or 10050  
 ZABBIX_HOST   = "ecb-monitor.zew.de"                  # must match host in Zabbix
 ZABBIX_KEY    = "data.pipeline.status"                # create an item with this key (trapper or use sender-to-agent)
-
-"""
-    powershell
-    Test-NetConnection -ComputerName monitor2.zew.de -Port 10050
-    Test-NetConnection -ComputerName monitor2.zew.de -Port 10051
-
-
-"""
-
 
 
 def extractJsonFromJs(jsText):
