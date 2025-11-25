@@ -33,6 +33,25 @@ sudo systemctl start  app-scheduler
 
 ```
 
+## Send results to zabbix
+
+```bash
+
+# requires zabbix_sender
+
+# port is 10051 or 10050  
+powershell
+Test-NetConnection -ComputerName monitor2.zew.de -Port 10050
+Test-NetConnection -ComputerName monitor2.zew.de -Port 10051
+
+
+sudo apt install zabbix-sender
+# or
+sudo apt install zabbix-agent
+
+
+```
+
 
 ## windows
 
@@ -47,16 +66,15 @@ cd C:\users\pbu\Documents\zew_work\git\python\guw-flask\scripts\scheduler\
 ```
 
 
+## zabbix monitor
+
+
+
+
 ## job scripts
 
 ```bash
 
 ./scripts/fetch-ameco.py
 
-
-requires zabbix_sender.exe
-
-sudo apt install zabbix-sender
-# or
-sudo apt install zabbix-agent
 ```
