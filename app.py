@@ -150,6 +150,7 @@ allowedIps = [
     "192.168.1.0/24",     # local network
     "193.196.11.188",     # ZEW internal
     "193.196.11.0/24",    # ZEW internal network (covers 193.196.11.1–193.196.11.255)
+    "78.94.80.126",       # zew guest
 ]
 
 allowedNetworks = []
