@@ -26,13 +26,13 @@ trlsRaw = [
     },
     {
         "switch_language_hint": {
-            "de": "switch language",   # switched
-            "en": "Sprache wechseln",
+            "de": "switch language  (ALT+L)",     # reverse translation
+            "en": "Sprache wechseln (ALT+L)",
         },
     },
     {
         "switch_language_label": {
-            "de": "To  English version",  # switched
+            "de": "To English version",  # reverse translation
             "en": "Zur deutschen Fassung",
         },
     },

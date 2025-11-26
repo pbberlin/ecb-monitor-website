@@ -1,6 +1,7 @@
 from pathlib import Path
 import subprocess
 import sys
+import zipfile  # default module
 from datetime import datetime
 
 
@@ -50,15 +51,30 @@ def runAmecoPipeline() -> bool:
     if runShellCommand(curlCmd, cwdPath=appDir) != 0:
         return False
 
-    tarCmd = [
-        "tar",
-        "-xf",
-        str(tmpZipPath),
-        "AMECO18.CSV",
-        "AMECO16.CSV",
-    ]
-    if runShellCommand(tarCmd, cwdPath=appDir) != 0:
+    # tarCmd = [
+    #     "tar",
+    #     "-xf",
+    #     str(tmpZipPath),
+    #     "AMECO18.CSV",
+    #     "AMECO16.CSV",
+    # ]
+    # if runShellCommand(tarCmd, cwdPath=appDir) != 0:
+    #     return False
+
+    fileList = ["AMECO18.CSV", "AMECO16.CSV"]
+    try:
+        with zipfile.ZipFile(tmpZipPath, "r") as myZip:
+            for idx1, myFile in enumerate(fileList):
+                try:
+                    myZip.extract(myFile, path=appDir)
+                except Exception as exFile:
+                    print(exFile)
+                    return False
+    except Exception as exZip:
+        print(exZip)
         return False
+
+
 
     if runPythonScript(jobDir / "process-a-csv-to-subset.py", cwdPath=appDir) != 0:
         return False
