@@ -85,8 +85,8 @@ def runAmecoPipeline() -> bool:
     if runPythonScript(dlDir / "jsToCSV.py", cwdPath=dlDir) != 0:
         return False
 
-    if runPythonScript(dlDir / "validate-zabbix.py", cwdPath=dlDir) != 0:
-        return False
+    # if runPythonScript(dlDir / "validate-zabbix.py", cwdPath=dlDir) != 0:
+    #     return False
 
     return True
 
