@@ -12,9 +12,10 @@ MIN_TOP_LEVEL_KEYS = 10
 MIN_NESTED_KEYS    = 10
 
 
+# zabbix_sender, port 10050
 ZABBIX_SERVER = "monitor2.zew.de"
-ZABBIX_HOST   = "ecb-monitor.zew.de"                  # must match host in Zabbix
-ZABBIX_KEY    = "data.pipeline.status"                # create an item with this key (trapper or use sender-to-agent)
+ZABBIX_HOST   = "ecb-monitor.zew.de"             # must match host in Zabbix
+ZABBIX_KEY    = "crawling.status"                # create an item with this key (trapper or use sender-to-agent)
 
 
 def extractJsonFromJs(jsText):
@@ -160,10 +161,15 @@ def main():
 
     if allOk:
         print("[INFO] All JS files validated successfully")
-        sendStatusOk = sendStatusToZabbix(1)
-        if not sendStatusOk:
-            sys.exit(2)
+        try:
+            sendStatusOk = sendStatusToZabbix(1)
+            # if not sendStatusOk:
+            #     sys.exit(2)
+        except Exception as exc:
+            print(f"sending success to zabbix failed.")
+            print(f"{exc}")
         sys.exit(0)
+
     else:
         print("[ERROR] One or more JS files failed validation", file=sys.stderr)
         sendStatusOk = sendStatusToZabbix(0)
