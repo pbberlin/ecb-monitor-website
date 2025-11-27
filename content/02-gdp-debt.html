@@ -1,12 +1,15 @@
 <style>
 
   :root{
+    --display-type:   desktop;               /* used in javascript, no quotation marks */
+
     --grad-height:   1.2rem;
     --w01:           max(20rem, 20vw);  /* width left and right column  */
     --w01-min:       calc( var(--w01) - 0.5rem )  ;
     --echartHeight:   75vh;              /* not 75% -  fails */  
     --marginHeight:  calc( var(--echartHeight) - 1rem);
     --initOpacity:   0.6;               /* minimize flickering */
+
   }
 
 
@@ -188,6 +191,7 @@
       :root {
         /* also zooms the echart */
         --echartHeight: 32vh;
+        --display-type:   mobile;               /* used in javascript, no quotation marks */
       }
 
 
@@ -656,6 +660,8 @@
     const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
     const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
 
+    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
+
     let storedOpacity = localStorage.getItem("initOpacity");    
     let initOpacity = 0.6;
     if (storedOpacity !== null) {
@@ -743,12 +749,6 @@
 
 
         const ranges = config["color_ranges"]
-
-
-        // const colR0 = [0x00, 0xA0, 0x00]; // mostly green
-        // const colR1 = [0x80, 0x80, 0x00]; // yellow
-        // const colR2 = [0xff, 0x00, 0x00]; // red
-
         const colors = config["colors"]  //     ["#FF0000", "#80A000", "#00A000"]
 
         function separateVals(hexColor) {
@@ -767,6 +767,10 @@
             let rgbComponents = separateVals(color);
             colorsSeparated.push(rgbComponents);
         }
+
+        // const colR0 = [0x00, 0xA0, 0x00]; // mostly green
+        // const colR1 = [0x80, 0x80, 0x00]; // yellow
+        // const colR2 = [0xff, 0x00, 0x00]; // red
 
         const colR0 = colorsSeparated[0];
         const colR1 = colorsSeparated[1];
@@ -867,8 +871,9 @@
       // results.push(item2);
 
 
-
+      // the "euro surrounded by the stars" image - positioned in the euro area inset rectangle 
       let item3 = {
+        silent: true,  // no reaction to click, hover, drag...
         name: 'Euro Area',
         type: 'scatter',
         coordinateSystem: 'geo',
@@ -883,7 +888,6 @@
                 value: [32.4, 52.6],
             }
         ],
-        silent: true,  // no reaction to click, hover, drag...
       }
       results.push(item3);
 
@@ -1026,12 +1030,7 @@
           results.push(item);
       };
 
-      /*
-        rgb(194, 225, 226)
-        rgb(214, 235, 236)
-        rgb(235, 245, 246)
-        rgb(255, 255, 255)
-      */
+
       for (const [idx, country] of notInEuro.entries()) {
           let item = {
               name: country,
@@ -1059,7 +1058,6 @@
           // console.log(` ${statsValue} ${ valToPctToColor(statsValue, selectedDataMeta[selectedVar]) }  ${country}`);
           // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
           let item = { name: country, itemStyle: { areaColor: statsColoring,} };
-          // x14x14
           results.push(item);
           // console.log(`  regionsColoring()-3 ${country} - ${statsValue}`);
         } catch (error) {
@@ -1073,7 +1071,7 @@
 
 
     function extraRectangle(country, offsetX, offsetY){
-      // the rectangles around Cyprus and Malta, not Luxembourg,
+      // the rectangles around 'Euro area (20 countries)', Cyprus and Malta, not Luxembourg,
       // differing only in offset
 
       let areaCol = 'rgba(217,233,236,0.15)';
@@ -1121,6 +1119,13 @@
 
     // creating debt numbers at the centroid of 27 eu countries
     function manyCountriesShowStats(yr=currentYear) {
+
+      let fontSize = 12;
+      if (displayType === "mobile") {
+        let fontSize = 10.5;
+        console.log(`displayType = ${displayType} - fontSize = ${fontSize}`)
+      }
+
       let results = [];
       for (let country in selectedDataMeta[selectedVar]["selected_data"][yr]) {
         const statsValue = selectedDataMeta[selectedVar]["selected_data"][yr][country];
@@ -1141,7 +1146,7 @@
             formatter:  Math.round(statsValue).toString() + ' %',
             formatter:  selectedDataMeta[selectedVar]["formatter"](statsValue),
             fontSize:    14,
-            fontSize:    12,
+            fontSize:    fontSize,
             fontWeight: 300,
             color: '#000',
             align: 'center',
