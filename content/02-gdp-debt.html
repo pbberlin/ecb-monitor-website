@@ -1120,10 +1120,11 @@
     // creating debt numbers at the centroid of 27 eu countries
     function manyCountriesShowStats(yr=currentYear) {
 
-      let fontSize = 12;
+      let fontSizeByScreen = 12;
       if (displayType === "mobile") {
-        let fontSize = 10.5;
-        console.log(`displayType = ${displayType} - fontSize = ${fontSize}`)
+        fontSizeByScreen = 10.5;
+        fontSizeByScreen = 10;
+        console.log(`displayType = ${displayType} - fontSize = ${fontSizeByScreen}`)
       }
 
       let results = [];
@@ -1146,7 +1147,7 @@
             formatter:  Math.round(statsValue).toString() + ' %',
             formatter:  selectedDataMeta[selectedVar]["formatter"](statsValue),
             fontSize:    14,
-            fontSize:    fontSize,
+            fontSize:    fontSizeByScreen,
             fontWeight: 300,
             color: '#000',
             align: 'center',
