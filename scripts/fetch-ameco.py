@@ -66,7 +66,7 @@ def runAmecoPipeline() -> bool:
         with zipfile.ZipFile(tmpZipPath, "r") as myZip:
             for idx1, myFile in enumerate(fileList):
                 try:
-                    myZip.extract(myFile, path=appDir)
+                    myZip.extract(myFile, path=jobDir)
                 except Exception as exFile:
                     print(exFile)
                     return False

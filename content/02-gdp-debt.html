@@ -88,15 +88,25 @@
     justify-self: start;
     align-self:   start;
     text-align:   left;
+
+    display: flex;
+    flex-direction: row;
+
+    /* border: 2px solid green; */
+
+
   }
 
+  .col--right--inset {
+      /* border: 1px solid red; */
+      align-self: self-end;
+    }
 
 
   #echart_container {
 
     /* not 100% -  fails */
     width: 820px;
-
     height: var(--echartHeight);
 
     /* margin:  0 auto; */
@@ -120,7 +130,7 @@
     background-color: rgba(217,233,236,0.25)
   }
 
-  #slider-group {
+  .slider-group {
     display:        flex;
     flex-direction: column;
     gap:           0.01rem;
@@ -135,6 +145,11 @@
     margin-right:  auto;
   }
 
+  #yearSlider {
+    width: 90%; 
+    align-self: end;
+  }
+
   .options-stat-vars {
     display:        flex;
     flex-direction: column;      /* vertical arrangement */
@@ -144,10 +159,14 @@
   }
 
 
+  .play-and-download {
+    margin:       1.2rem;
+    margin-right: 0.4rem    
+  }
 
 
   .bullet-container {
-    margin: 0;
+    margin:  0;
     padding: 0;
   }
   .bullet-container li {
@@ -178,10 +197,8 @@
       <h3> {{i18n.headline_fiscal_data}}</h3>
 
       <!-- <label for="yearSlider">Year:</label> -->
-      <div id="slider-group">
-        <input id="yearSlider" type="range" min="2000" step="1"  autofocus 
-          style="width: 90%; align-self: end;"
-        />
+      <div id="slider-group" class="slider-group">
+        <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
         <span id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
       </div>
 
@@ -225,11 +242,11 @@
       </div>
 
 
-      <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem">
+      <div class="slider-group  play-and-download" >
         <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
       </div>
 
-      <div class="slider-group" style="margin:1.2rem;margin-right:0.4rem">
+      <div class="slider-group play-and-download" >
         <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download  
         >{{i18n.download_data}}</a>
       </div>
@@ -249,14 +266,6 @@
 
     <style>
 
-      .gradientWrapperWrapper {
-          position:    absolute;
-          width:       calc( var(--w01-min)  - 2rem );
-          bottom:      0.1rem;
-          /* border: 1px solid red; */
-      }
-
-
       .gradientWrapper {
           position:    relative;
           height:      var(--grad-height);
@@ -266,22 +275,7 @@
           /* border: 1px solid gray; */
       }
 
-      .myGradient1 {
-          height:   var(--grad-height);
-          width:    100%;
-          opacity:  var(--initOpacity);
-          background: linear-gradient(
-              to right,
-              #00A000   0%,
-              #A08000  30%,
-              #A08000  30%,
-              #FF0000  90%,
-              #FF0000 100%
-          );
-          /* border: 1px solid #444; */
-      }
-
-      .myGradient2 {
+      .gradient1 {
           height:   var(--grad-height);
           width:    100%;
           opacity:  var(--initOpacity);
@@ -311,17 +305,30 @@
           transform:    translateX(calc(-50% - 1px));
       }
 
+
+
+      .gradientDebug {
+          height:   var(--grad-height);
+          width:    100%;
+          opacity:  var(--initOpacity);
+          background: linear-gradient(
+              to right,
+              #00A000   0%,
+              #A08000  30%,
+              #A08000  30%,
+              #FF0000  90%,
+              #FF0000 100%
+          );
+          /* border: 1px solid #444; */
+      }
+
+
     </style>
 
 
 
 
-
-
-
-
-    <div class="gradientWrapperWrapper">
-
+    <div class="col--right--inset">
 
       <ul class="bullet-container stats-desc" id="ameco_debt_to_gdp_desc" >
         {{i18n.ameco_debt_to_gdp_desc|safe}}
@@ -347,16 +354,13 @@
       <br>
 
 
-
-
-
       <div class="gradientWrapper">
-          <div class="myGradient2" id="myGradient2"></div>
+          <div class="gradient1" id="gradient1"></div>
       </div>
 
         <!-- 
         <div class="gradientWrapper">
-            <div class="myGradient1" id="myGradient1"></div>
+            <div class="gradientDebug" id="gradientDebug"></div>
             <div class="tick" style="left:   0px;">  0%</div>
             <div class="tick" style="left:   30%;"> 60%</div>
             <div class="tick" style="left:   50%;">100%</div>
@@ -367,7 +371,7 @@
 
 
       <div class="slider-group"
-          style="margin-top: 4.5rem;"
+          style="margin-top: 4.5rem; margin-bottom: 0;"
           title="change  saturation / opacity of the map colors"
       >
         <span style="font-size: 65%; font-weight: 300; display: inline-block; position: relative; top: -5px;"
@@ -500,7 +504,7 @@
     }
     // console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
 
-    createGradientLegend( "myGradient2", selectedDataMeta[selectedVar]);
+    createGradientLegend( "gradient1", selectedDataMeta[selectedVar]);
 
 
     let statRadios = document.querySelectorAll('input[name="stats_variable"]');
@@ -616,7 +620,7 @@
             opacityHex = "0" + opacityHex;
         }
 
-        const gradWrap2 = document.getElementById("myGradient2");
+        const gradWrap2 = document.getElementById("gradient1");
         if (gradWrap2) {
           gradWrap2.style.opacity = opacity;
         }
@@ -1335,7 +1339,7 @@
 
         linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
 
-        createGradientLegend( "myGradient2", selectedDataMeta[selectedVar]);
+        createGradientLegend( "gradient1", selectedDataMeta[selectedVar]);
 
 
         let descs = document.querySelectorAll(".stats-desc");
@@ -1528,7 +1532,7 @@
         stops.push(colors[colors.length - 1] + " 100%");
 
         const gradientCss = "linear-gradient( \n\tto right, \n\t" + stops.join(", \n\t") + "\n)";
-        console.log(`background:  ${gradientCss};`)
+        // console.log(`background:  ${gradientCss};`)
         gradientElement.style.background = gradientCss;
     }
 
@@ -1560,3 +1564,107 @@
 
 </script>
 
+
+<style>
+@media (max-width: 900px) {
+  /* smartphone */
+
+  :root {
+    /* also zooms the echart */
+    --echartHeight: 32vh;
+  }
+
+
+  /* single column stack */
+  .layout {
+    width:     100%;
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;  /* col--left, col--center, col--right */
+  }
+
+  /* allow cols to shrink nicely */
+  .col {
+    min-width: 0;
+    padding:   0;
+    margin:    0;
+  }
+
+  /* stacked: top, middle, bottom
+     (HTML order already is: left -> center -> right) */
+  .col--left,
+  .col--center,
+  .col--right {
+    width:     100%;
+    min-width:    0;
+    height:    auto;
+
+    justify-self: stretch;
+    align-self:     start;
+    text-align:    center;
+  }
+
+  .col--right {
+    /* height: 20rem;  */
+    height: auto; 
+  }
+  .col--right--inset {
+      /* border: 1px solid red; */
+      align-self: self-end;
+    }
+
+
+
+  /* center column: echart takes full width on phone */
+  #echart_container {
+    width:             100%;
+    max-width:         100%;
+    height:      var(--echartHeight);
+    box-sizing: border-box;
+
+    /* border-top: 2px solid red; */
+  }
+
+
+  .layout h3 {
+    /* .layout to increase specifitiy */
+    font-size: 140%;
+    width:      90%;
+    margin: 1rem auto ;
+    margin-bottom: 0;
+  }
+
+
+  .slider-group {
+    align-self:   center;
+    justify-self: center;
+  }
+
+  #yearSlider {
+    width: 90%; 
+    align-self: center;
+  }
+
+  .options-stat-vars {
+    /* align-items:    center;     */
+    margin:         0.83rem 0;
+    margin-right: 6rem;
+  }
+
+  .play-and-download {
+    display: inline-block;
+    margin: 0.2rem;
+    margin-top:    0.8rem;
+    margin-bottom: 0.8rem;
+    /* width: 40%  !important  ; */
+    width: 40%  ;
+    /* margin-right:0.4rem     */
+  }
+
+
+
+}
+
+</style>

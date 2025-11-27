@@ -39,42 +39,41 @@ sudo systemctl start  app-scheduler
 
 # requires zabbix_sender
 
-# port is 10051 or 10050  
 powershell
 Test-NetConnection -ComputerName monitor2.zew.de -Port 10050
-Test-NetConnection -ComputerName monitor2.zew.de -Port 10051
+# port is 10050 or 10051
 
 
 sudo apt install zabbix-sender
-# or
-sudo apt install zabbix-agent
+# or sudo apt install zabbix-agent
+
+
+# for data sent with zabbix_sender 
+#   =>  we need to create an item of type "zabbix trapper" 
+http://monitor2.zew.de/zabbix/zabbix.php?action=item.list&filter_set=1&filter_hostids%5B%5D=10672&context=host
 
 
 ```
 
 
-## windows
+## run manual
 
 ```bash
 
+# windows
 # cd into development git repo - scripts/scheduler
 cd C:\users\pbu\Documents\zew_work\git\python\guw-flask\scripts\scheduler\
 
 # run
 ..\..\venv\Scripts\python.exe scheduler_main.py
 
-```
 
+# or run the job script directly
 
-## zabbix monitor
+# linux debian
+cd /var/www/ecb-app
+activate
+python ./scripts/fetch-ameco.py
 
-
-
-
-## job scripts
-
-```bash
-
-./scripts/fetch-ameco.py
 
 ```

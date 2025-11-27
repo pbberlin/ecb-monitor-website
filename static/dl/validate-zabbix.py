@@ -15,6 +15,8 @@ MIN_NESTED_KEYS    = 10
 # zabbix_sender, port 10050
 ZABBIX_SERVER = "monitor2.zew.de"
 ZABBIX_HOST   = "ecb-monitor.zew.de"             # must match host in Zabbix
+# for zabbix_sender - we need to create a zabbix trapper item
+# http://monitor2.zew.de/zabbix/zabbix.php?action=item.list&filter_set=1&filter_hostids%5B%5D=10672&context=host
 ZABBIX_KEY    = "crawling.status"                # create an item with this key (trapper or use sender-to-agent)
 
 
