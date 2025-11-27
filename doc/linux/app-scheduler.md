@@ -72,7 +72,7 @@ cd C:\users\pbu\Documents\zew_work\git\python\guw-flask\scripts\scheduler\
 
 # linux debian
 cd /var/www/ecb-app
-activate
+source /var/www/ecb-app/.venv/bin/activate
 python ./scripts/fetch-ameco.py
 
 
