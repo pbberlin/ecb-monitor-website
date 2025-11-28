@@ -77,6 +77,8 @@
     align-self: start;
     text-align: right;
     /* width: max-content; */
+
+    align-content:   end;
   }
 
   /* col2 -  fixed 820px, content centered */
@@ -95,17 +97,9 @@
     align-self:   start;
     text-align:   left;
 
-    display: flex;
-    flex-direction: row;
-
-    /* border: 2px solid green; */
+    align-content:   end;
 
 
-  }
-
-  .col--right--inset {
-      /* border: 1px solid red; */
-      align-self: self-end;
   }
 
 
@@ -229,16 +223,9 @@
       .col--right {
         /* height: 20rem;  */
         height: auto;
+        padding: 1rem 2rem;
+        text-align: left;
       }
-      .col--right--inset {
-          /* border: 1px solid red; */
-          margin-top:    0.5rem;
-          margin-bottom: 0;
-          align-self: self-end;
-
-          padding: 1rem 2rem;
-          text-align: left;
-        }
 
       .gradientWrapper {
         margin: 0.1rem 0;
@@ -448,7 +435,6 @@
 
 
 
-    <div class="col--right--inset">
 
       <ul class="bullet-container stats-desc" id="ameco_debt_to_gdp_desc" >
         {{i18n.ameco_debt_to_gdp_desc|safe}}
@@ -503,9 +489,6 @@
       </div>
 
 
-
-
-    </div>
 
 
 

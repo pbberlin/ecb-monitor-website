@@ -42,6 +42,48 @@ trlsRaw = [
             "en": "ECB-Transparency-Monitor",
         },
     },
+
+    {
+        "headline_ecb_council": {
+            "de": "EZB-Rat",
+            "en": "ECB Council",
+        },
+    },
+    {
+        "headline_ecb_monetary_policy": {
+            "de": "EZB-Geldpolitik",
+            "en": "ECB Monetary Policy",
+        },
+    },
+    {
+        "headline_fiscal_data":    {
+            "de": "Fiskaldaten",
+            "en": "Fiscal Landscape",
+        },
+    },
+    {
+        "headline_economic_data":    {
+            "de": "Ökonomisches Umfeld",
+            "en": "Economic Landscape",
+        },
+    },
+    {
+        "headline_science":    {
+            "de": "Wissenschaft",
+            "en": "Science",
+        },
+    },
+
+
+    {
+        "our_topics":    {
+            "de": "Unsere <br> <b>Themen</b>",
+            "en": "Our    <br> <b>Topics</b>",
+        },
+    },
+
+
+
     {
         "entire_euro_area":    {
             "de": "Durchschnitt\\nEurozone",
@@ -229,12 +271,6 @@ trlsRaw = [
         "color_saturation":    {
             "de": "Farbsättigung",
             "en": "Color saturation",
-        },
-    },
-    {
-        "headline_fiscal_data":    {
-            "de": "Fiskaldaten",
-            "en": "Fiscal Landscape",
         },
     },
 ]
