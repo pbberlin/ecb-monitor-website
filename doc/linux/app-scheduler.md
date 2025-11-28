@@ -31,6 +31,15 @@ sudo systemctl start  app-scheduler
 # alternatively
 # @reboot /path/to/venv/bin/python /path/to/project/scheduler_main.py >> /var/log/app-scheduler.log 2>&1
 
+sudo journalctl -u app-scheduler.service
+sudo journalctl -u app-scheduler.service -f
+
+
+
+sudo -u www-data test -r /var/www/ecb-app/scripts && echo "read ok" || echo "read denied"
+sudo -u www-data test -x /var/www/ecb-app/scripts && echo "execute ok" || echo "execute denied"
+
+
 ```
 
 ## Send results to zabbix
@@ -74,6 +83,7 @@ cd C:\users\pbu\Documents\zew_work\git\python\guw-flask\scripts\scheduler\
 cd /var/www/ecb-app
 source /var/www/ecb-app/.venv/bin/activate
 python ./scripts/fetch-ameco.py
+
 
 
 ```

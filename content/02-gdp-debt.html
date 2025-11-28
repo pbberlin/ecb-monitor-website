@@ -6,7 +6,7 @@
     --grad-height:   1.2rem;
     --w01:           max(20rem, 20vw);  /* width left and right column  */
     --w01-min:       calc( var(--w01) - 0.5rem )  ;
-    --echartHeight:   75vh;              /* not 75% -  fails */  
+    --echartHeight:   75vh;              /* not 75% -  fails */
     --marginHeight:  calc( var(--echartHeight) - 1rem);
     --initOpacity:   0.6;               /* minimize flickering */
 
@@ -82,7 +82,7 @@
   /* col2 -  fixed 820px, content centered */
   .col--center {
     justify-self: center;
-    align-self: start;
+    align-self:    start;
   }
 
   /* col3 - takes the residual space, content left */
@@ -106,7 +106,7 @@
   .col--right--inset {
       /* border: 1px solid red; */
       align-self: self-end;
-    }
+  }
 
 
   #echart_container {
@@ -152,7 +152,7 @@
   }
 
   #yearSlider {
-    width: 90%; 
+    width: 90%;
     align-self: end;
   }
 
@@ -167,7 +167,7 @@
 
   .play-and-download {
     margin:       1.2rem;
-    margin-right: 0.4rem    
+    margin-right: 0.4rem
   }
 
 
@@ -190,7 +190,7 @@
 
       :root {
         /* also zooms the echart */
-        --echartHeight: 32vh;
+        --echartHeight:   34vh;
         --display-type:   mobile;               /* used in javascript, no quotation marks */
       }
 
@@ -228,7 +228,7 @@
 
       .col--right {
         /* height: 20rem;  */
-        height: auto; 
+        height: auto;
       }
       .col--right--inset {
           /* border: 1px solid red; */
@@ -270,7 +270,7 @@
       }
 
       #yearSlider {
-        width: 90%; 
+        width: 90%;
         align-self: center;
       }
 
@@ -367,7 +367,7 @@
       </div>
 
       <div class="slider-group play-and-download" >
-        <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download  
+        <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
         >{{i18n.download_data}}</a>
       </div>
 
@@ -478,7 +478,7 @@
           <div class="gradient1" id="gradient1"></div>
       </div>
 
-        <!-- 
+        <!--
         <div class="gradientWrapper">
             <div class="gradientDebug" id="gradientDebug"></div>
             <div class="tick" style="left:   0px;">  0%</div>
@@ -496,7 +496,7 @@
       >
         <span style="font-size: 65%; font-weight: 300; display: inline-block; position: relative; top: -5px;"
         >{{i18n.color_saturation}} </span>
-        <input name="color_opacity" id="color_opacity" type="range" min="0" max="1" step="0.1" 
+        <input name="color_opacity" id="color_opacity" type="range" min="0" max="1" step="0.1"
           value="0.6"
           style="border:none; width: 6rem;     transform: scale(0.60); "
         >
@@ -662,13 +662,13 @@
 
     const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
 
-    let storedOpacity = localStorage.getItem("initOpacity");    
+    let storedOpacity = localStorage.getItem("initOpacity");
     let initOpacity = 0.6;
     if (storedOpacity !== null) {
         initOpacity = parseFloat(storedOpacity);
         // console.log(`  initOpacity from store ${initOpacity}  `)
-    }    
-    root.style.setProperty("--initOpacity", initOpacity.toString());    
+    }
+    root.style.setProperty("--initOpacity", initOpacity.toString());
     elOpa.value = initOpacity;
 
 
@@ -871,7 +871,7 @@
       // results.push(item2);
 
 
-      // the "euro surrounded by the stars" image - positioned in the euro area inset rectangle 
+      // the "euro surrounded by the stars" image - positioned in the euro area inset rectangle
       let item3 = {
         silent: true,  // no reaction to click, hover, drag...
         name: 'Euro Area',
@@ -879,13 +879,13 @@
         coordinateSystem: 'geo',
         symbol: 'circle',
         symbol: 'image:///static/img/euro-area/02a-sm.png',
-        symbolSize:   [ 2.0*20,  2.0*15],
+        symbolSize:   [ 1.8*20,  1.8*15],
         animation:         false,
         animationDuration: 0,
         data: [
             {
                 name: 'Euro Area',
-                value: [32.4, 52.6],
+                value: [31.04, 53.06],
             }
         ],
       }
@@ -1074,6 +1074,16 @@
       // the rectangles around 'Euro area (20 countries)', Cyprus and Malta, not Luxembourg,
       // differing only in offset
 
+      let fontSizeByDisplay = 11;
+      let backgroundByDisplay = 'transparent';
+      if (displayType === "mobile") {
+        fontSizeByDisplay = 10;
+        backgroundByDisplay = '#f5f5f5';        
+      }
+      if (displayType === "mobile") {
+        offsetY = offsetY + 8;
+      }
+
       let areaCol = 'rgba(217,233,236,0.15)';
       let label   = country;
       if (country === "Euro area (20 countries)"){
@@ -1082,8 +1092,12 @@
         label   = country + "\n + Bulgaria";
         label   = "Entire Euro area";
         label   = "{{i18n.entire_euro_area}}";
-        offsetX = -25;
-        offsetY = -55;
+
+        if (displayType === "mobile") {
+          offsetX = offsetX + 40;
+          offsetY = offsetY - 10;
+        }
+
       }
 
       const item =
@@ -1103,13 +1117,34 @@
             // formatter: text + '🔍',
             // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
             formatter:    label,
-            fontSize:       11,
+            formatter:    '{label|' + label + '}',
+            fontSize:       fontSizeByDisplay,
             fontWeight:    300,
 
             // position: 'top-right',  // unsupported
             position: 'top',
             align:    'left',
             offset:    [offsetX, offsetY],
+
+            // rich text for multi line - vertically left
+            rich: {
+              label: {
+                height:           12,
+                align:         'left',
+                verticalAlign: 'top',
+                fontSize:       fontSizeByDisplay,
+                fontWeight:    300,
+
+
+                backgroundColor: backgroundByDisplay,  
+                borderWidth: 1,              // 
+                padding: [3, 4, 3, 4],       // top, right, bottom, left
+                borderRadius: 3 ,             //                 
+
+
+
+              }
+            },
           },
         }
         return item;
@@ -1120,11 +1155,10 @@
     // creating debt numbers at the centroid of 27 eu countries
     function manyCountriesShowStats(yr=currentYear) {
 
-      let fontSizeByScreen = 12;
+      let fontSizeByDisplay = 12;
       if (displayType === "mobile") {
-        fontSizeByScreen = 10.5;
-        fontSizeByScreen = 10;
-        console.log(`displayType = ${displayType} - fontSize = ${fontSizeByScreen}`)
+        fontSizeByDisplay = 10;
+        // console.log(`displayType = ${displayType} - fontSize = ${fontSizeByDisplay}`)
       }
 
       let results = [];
@@ -1147,7 +1181,7 @@
             formatter:  Math.round(statsValue).toString() + ' %',
             formatter:  selectedDataMeta[selectedVar]["formatter"](statsValue),
             fontSize:    14,
-            fontSize:    fontSizeByScreen,
+            fontSize:    fontSizeByDisplay,
             fontWeight: 300,
             color: '#000',
             align: 'center',
@@ -1251,8 +1285,7 @@
         // right:  0,
 
         center:       [ 16     ,  48.8  ],  // geo center - longitute - latitude
-        center:       [ 12.05  ,  48.8  ],
-        center:       [ 14.50  ,  48.8  ],  // move ireland as far left as possible
+        center:       [ 13.0   ,  48.8  ],
         layoutCenter: ['50%', '50%'],    // where to place the geo center
         // layoutSize:    '250%',
 
@@ -1281,9 +1314,9 @@
         // extra colors for eu non-members
         regions: [
           ...regionsColoring(),
-          extraRectangle('Cyprus', -14,-34),
-          extraRectangle('Malta' ,  -6,-24),
-          extraRectangle('Euro area (20 countries)' ,  0,0),
+          extraRectangle('Cyprus', -14,-37),
+          extraRectangle('Malta' ,  -6,-26),
+          extraRectangle('Euro area (20 countries)', -45,-51),
           // rectangles('Luxembourg' ,  0,0),
         ],
 
@@ -1422,9 +1455,9 @@
       ];
       option3.geo.regions  = [
           ...regionsColoring(res.yr),
-          extraRectangle('Cyprus', -14,-34),
-          extraRectangle('Malta' ,  -6,-24),
-          extraRectangle('Euro area (20 countries)' ,  0,0),
+          extraRectangle('Cyprus', -14,-37),
+          extraRectangle('Malta' ,  -6,-26),
+          extraRectangle('Euro area (20 countries)', -45,-51),
       ];
 
 
@@ -1490,9 +1523,9 @@
         ];
         option4.geo.regions  = [
             ...regionsColoring(res.yr),
-            extraRectangle('Cyprus', -14,-34),
-            extraRectangle('Malta' ,  -6,-24),
-            extraRectangle('Euro area (20 countries)' ,  0,0),
+            extraRectangle('Cyprus', -14,-37),
+            extraRectangle('Malta' ,  -6,-26),
+            extraRectangle('Euro area (20 countries)', -45,-51),
         ];
 
         myChart.setOption(
