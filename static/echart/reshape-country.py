@@ -699,17 +699,15 @@ def main():
         features,
         countryName     =  nm,
 
-        lonShiftDeg     =   23.2 ,
-        latShiftDeg     =   0.8 ,   # positive -> move upwards
-        # scaleFactor     =   0.19 ,
-        scaleFactor     =   0.21 ,
+        lonShiftDeg     =   20.4 ,   # move right
+        latShiftDeg     =    0.9 ,   # positive -> move upwards
+        scaleFactor     =   0.20 ,
 
         drawRect= True,
         padLeftDeg      =   0.560 ,
         padRightDeg     =   0.560 ,
-        # padTopDeg       =   1.865 ,   # <- increase top padding here
-        padTopDeg       =   0.265 ,   # <- increase top padding here
-        padBottomDeg    =   0.260 ,
+        padTopDeg       =   0.165 ,   # <- increase top padding here
+        padBottomDeg    =   0.160 ,
 
         # onTopOfCountry=True,
         onTopOfCountry="secondLast",
@@ -793,15 +791,15 @@ def main():
     shiftCentroidOnly(
         features,
         countryName    =  "Croatia",
-        lonShiftDeg    =    -0.05 ,
-        latShiftDeg    =    -0.15 ,
+        lonShiftDeg    =     0.25 ,
+        latShiftDeg    =    -0.10 ,
     )
 
     shiftCentroidOnly(
         features,
         countryName    =  "Slovenia",
-        lonShiftDeg    =   -0.22 ,
-        latShiftDeg    =   -0.22 ,
+        lonShiftDeg    =   -0.25 ,
+        latShiftDeg    =   -0.10 ,
     )
 
     shiftCentroidOnly(

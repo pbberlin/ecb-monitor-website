@@ -44,8 +44,8 @@ trlsRaw = [
     },
     {
         "entire_euro_area":    {
-            "de": "Durchschnitt Eurozone",
-            "en": "Euro area average",
+            "de": "Durchschnitt\\nEurozone",
+            "en": "Euro area\\naverage",
         },
     },
     {
