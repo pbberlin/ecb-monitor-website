@@ -9,6 +9,14 @@ import re
 from pathlib import Path
 
 
+
+# importing from ../../lib/trls.py
+parentDir = Path(__file__).resolve().parent.parent.parent
+libPath = parentDir / "lib"
+sys.path.insert(0, str(libPath))
+from trls import trlsByLg
+
+
 def debugPrintNestedDict(myDict, maxLevel=3, maxItemsPerLevel=3, indentLevel=0):
 
     indentText = "\t" * indentLevel
@@ -194,6 +202,16 @@ def writeCsvForJsFile(jsFilePath):
                         row.append("")
 
                 csvWriter.writerow(row)
+
+            # csvFilePath - ameco_debt_to_gdp
+            key = f"{csvFilePath.stem}_desc"
+            print(f"\tsearching for key -{key}-  in  ../lib/trls.py.trlsByLg")
+            val = ""
+            if key in trlsByLg["en"]:
+                val = trlsByLg["en"][key]
+                print(f"\tfound key -{key}-  {val}")
+            # csvWriter.writerow([f"todo - {csvFilePath.stem}_desc from ../lib/trls.py.trlsRaw"])
+            csvWriter.writerow([val])
 
         print(f"\tWrote CSV: {csvFilePath}")
 
