@@ -181,6 +181,15 @@ def limitRemoteAddr():
         abort(403, description="Invalid IP address")
 
 
+@app.after_request
+def addSecurityHeaders(resp):
+    # resp.headers["Content-Security-Policy"] = (
+    #     "default-src 'self'; "
+    #     "script-src 'self' "
+    #     "'sha256-MGIBbpKUJsi7zkhCI3XuEea7C34s7XragI7YFbdeBzM=';"
+    # )
+    return resp
+
 
 @app.route("/favicon.ico")
 def favicon():
