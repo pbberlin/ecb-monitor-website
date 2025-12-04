@@ -128,3 +128,10 @@ a:hover {
     /* text-decoration: none; */
     text-decoration: underline;
 }
+
+/* style of the goat counter pixel */
+#goat_counter_pixel {
+  position:absolute;
+  left:-9999px;
+  top:-9999px;
+}

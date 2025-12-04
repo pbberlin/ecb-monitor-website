@@ -8,6 +8,8 @@ from datetime import datetime
 # compute paths only once
 scriptDir = Path(__file__).resolve().parent
 appDir    = scriptDir.parent
+print(f"\t scriptDir  {scriptDir} ")
+print(f"\t appDir     {appDir} ")
 jobDirAmeco     = appDir / "scripts" / "ameco"
 jobDirEurostat  = appDir / "scripts" / "eurostat"
 dlDir     = appDir / "static" / "dl"

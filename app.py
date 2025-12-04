@@ -181,15 +181,57 @@ def limitRemoteAddr():
         abort(403, description="Invalid IP address")
 
 
-@app.after_request
-def addSecurityHeaders(resp):
-    # resp.headers["Content-Security-Policy"] = (
-    #     "default-src 'self'; "
-    #     "script-src 'self' "
-    #     "'sha256-MGIBbpKUJsi7zkhCI3XuEea7C34s7XragI7YFbdeBzM=';"
-    # )
+# @app.after_request
+def addSecurityHeadersExample(resp):
+    # 2025-12-03 - security headers
+    resp.headers["Content-Security-Policy"] = (
+        "default-src 'self'; "
+        "script-src 'self' "
+        "'sha256-J9xcOPZ3bcP8s/Obh7kP7+E5kA0A0aIidxZnFr0L44I='; "
+        "img-src 'self' data:; "
+        "style-src 'self' 'unsafe-inline'; "
+        "object-src 'none'; "
+        "frame-ancestors 'none'; "
+    )
     return resp
 
+
+
+
+@app.after_request
+def addSecurityHeaders(resp):
+    # 2025-12-03 - security headers
+
+    # resp.headers["Content-Security-Policy"] = (
+    #     "default-src 'self'; "
+    #     f"script-src 'self'{scriptHashPart}; "
+    #     f"style-src 'self'{styleHashPart}; "
+    #     "img-src 'self' data:; "
+    #     "object-src 'none'; "
+    #     "frame-ancestors 'none'; "
+    # )
+
+    resp.headers["Content-Security-Policy"] = (
+        "default-src 'self'; "
+        "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com; "
+        "style-src 'self' 'unsafe-inline'; "
+        "img-src 'self' data:; "
+        "object-src 'none'; "
+        "frame-ancestors 'none'; "
+    )
+
+
+    if request.is_secure:
+        resp.headers["Strict-Transport-Security"] = (
+            "max-age=63072000; includeSubDomains; preload"
+        )
+
+    resp.headers["X-Frame-Options"] = "DENY"
+    resp.headers["X-Content-Type-Options"] = "nosniff"
+    resp.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+    resp.headers["Permissions-Policy"] = "geolocation=(), microphone=(), camera=()"
+
+    return resp
 
 @app.route("/favicon.ico")
 def favicon():
