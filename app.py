@@ -151,6 +151,7 @@ allowedIps = [
     "193.196.11.188",     # ZEW internal
     "193.196.11.0/24",    # ZEW internal network (covers 193.196.11.1–193.196.11.255)
     "78.94.80.126",       # zew guest
+    "34.254.109.160",     # securityheaders.com
 ]
 
 allowedNetworks = []
@@ -161,12 +162,6 @@ for ip in allowedIps:
 
 @app.before_request
 def limitRemoteAddr():
-
-    # crude example: allow the securityheaders.com scanner
-    userAgent = request.headers.get("User-Agent", "")
-    if "securityheaders.com" in userAgent.lower():
-        print(f"Bypassing IP check for security scanner UA: {userAgent}")
-        return
 
     clientIp = request.remote_addr
 
