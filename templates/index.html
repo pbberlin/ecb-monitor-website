@@ -13,12 +13,9 @@
     <link href="/static/css/main-zew.css"   media="all" rel="stylesheet" />
     <link href="/static/css/main-fonts.css" rel="stylesheet" />
 
-    <!-- hashed - sha256-MGIBbpKUJsi7zkhCI3XuEea7C34s7XragI7YFbdeBzM= -->
-     <script>
-      // ENV = 'production' => DEBUG = False, else TRUE
-      window.APP_DEBUG    =  {{ "true" if config['DEBUG'] else "false" }};
-      window.APP_LANGUAGE = "{{ curLg }}";
-    </script>
+    <!-- we need to pass on the url lang parameter to the javascript file  -->
+    <script src="{{ url_for('appConfigJs', lang=curLg) }}"></script>
+
 
 </head>
 

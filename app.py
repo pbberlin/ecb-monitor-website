@@ -13,13 +13,13 @@ from   ipaddress import ip_address, ip_network
 
 
 from   flask import Flask, request, Response, abort, current_app 
-from   flask import render_template, render_template_string, send_from_directory 
+from   flask import render_template, render_template_string, make_response,  send_from_directory 
 from   flask import g
 app  = Flask(__name__)
 # Flask automatically sets this when FLASK_ENV=development
 # or when you run app.run(debug=True)
-debugMode = app.debug or os.environ.get("FLASK_DEBUG") == "1"
-if debugMode:
+debugModeInit = app.debug or os.environ.get("FLASK_DEBUG") == "1"
+if debugModeInit:
     app.config["TEMPLATES_AUTO_RELOAD"] = True
     app.jinja_env.auto_reload = True
     app.jinja_env.cache = {}
@@ -161,6 +161,13 @@ for ip in allowedIps:
 
 @app.before_request
 def limitRemoteAddr():
+
+    # crude example: allow the securityheaders.com scanner
+    userAgent = request.headers.get("User-Agent", "")
+    if "securityheaders.com" in userAgent.lower():
+        print(f"Bypassing IP check for security scanner UA: {userAgent}")
+        return
+
     clientIp = request.remote_addr
 
     try:
@@ -181,35 +188,12 @@ def limitRemoteAddr():
         abort(403, description="Invalid IP address")
 
 
-# @app.after_request
-def addSecurityHeadersExample(resp):
-    # 2025-12-03 - security headers
-    resp.headers["Content-Security-Policy"] = (
-        "default-src 'self'; "
-        "script-src 'self' "
-        "'sha256-J9xcOPZ3bcP8s/Obh7kP7+E5kA0A0aIidxZnFr0L44I='; "
-        "img-src 'self' data:; "
-        "style-src 'self' 'unsafe-inline'; "
-        "object-src 'none'; "
-        "frame-ancestors 'none'; "
-    )
-    return resp
-
-
-
 
 @app.after_request
 def addSecurityHeaders(resp):
-    # 2025-12-03 - security headers
 
-    # resp.headers["Content-Security-Policy"] = (
-    #     "default-src 'self'; "
-    #     f"script-src 'self'{scriptHashPart}; "
-    #     f"style-src 'self'{styleHashPart}; "
-    #     "img-src 'self' data:; "
-    #     "object-src 'none'; "
-    #     "frame-ancestors 'none'; "
-    # )
+    # f"script-src 'self'{scriptHashPart}; "
+    #  f"style-src 'self'{styleHashPart}; "
 
     resp.headers["Content-Security-Policy"] = (
         "default-src 'self'; "
@@ -232,6 +216,7 @@ def addSecurityHeaders(resp):
     resp.headers["Permissions-Policy"] = "geolocation=(), microphone=(), camera=()"
 
     return resp
+
 
 @app.route("/favicon.ico")
 def favicon():
@@ -264,6 +249,22 @@ def index():
             content = renderedCnt,
     )
 
+
+@app.route("/static/js/app-config.js")
+def appConfigJs():
+
+    debugModeLive = current_app.debug or os.environ.get("FLASK_DEBUG") == "1"
+    curLg = getattr(g, "currentLanguage", "de")
+
+    resp = make_response(
+        render_template(
+            "js/app-config.js",
+            debug=debugModeLive,
+            curLg=curLg,            
+        )
+    )
+    resp.headers["Content-Type"] = "application/javascript; charset=utf-8"
+    return resp
 
 
 @app.route('/pg/<htmlFile>')
