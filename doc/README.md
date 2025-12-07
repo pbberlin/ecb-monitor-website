@@ -24,7 +24,6 @@ DataStream, Refinitiv
 10-Jahre Bonds
     Eurozone - Deutschland
 
-
 Pictogramm
 
 Cookiebot
@@ -32,7 +31,7 @@ Cookiebot
 
 ## Meeting 2025-10-07
 
-Daten von Behörden von Thomas Wirth geprüft
+Daten von Behörden von Justiziar Th. W. geprüft
 
 * Cookiebot
 * Analytics
@@ -41,7 +40,7 @@ Daten von Behörden von Thomas Wirth geprüft
 
 * Welches UI Element ...
 
-* @Jan: direct scrape von  ECB Speeches
+* @JKE: direct scrape of  ECB Speeches
 
 * English first, German im zweiten Schritt
 

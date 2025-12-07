@@ -17,9 +17,11 @@ cls && python app.py
 Open in browser http://localhost:5000
 
 
-## Todo
+## Notes
 
+* This software is part of a research package at ZEW - sponsored by [Geld und Währung](https://www.stiftung-geld-und-waehrung.de/stiftung-de/) 
 
-siehe  [hier](doc/README.md)
+* The software is _early_ _alpha_
+
 
 
