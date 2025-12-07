@@ -8,13 +8,15 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="OOI15ycxOSr46zxsqPlsRPgNHGmD854A7lWAfxrvfsw" name="google-site-verification" />
 
-    <link href="https://www.zew.de/das-zew/ueber-das-zew" rel="canonical" />
-
     <link href="/static/css/main-zew.css"   media="all" rel="stylesheet" />
     <link href="/static/css/main-fonts.css" rel="stylesheet" />
 
-    <!-- we need to pass on the url lang parameter to the javascript file  -->
-    <script src="{{ url_for('appConfigJs', lang=curLg) }}"></script>
+    <!-- factoring out inline script causes complexity  -->
+    <script>
+        // ENV = 'production' => DEBUG = False, else TRUE
+        window.APP_DEBUG    =  {{ "true" if config['DEBUG'] else "false" }};
+        window.APP_LANGUAGE = "{{ curLg }}";
+   </script
 
 
 </head>
