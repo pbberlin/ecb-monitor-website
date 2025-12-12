@@ -644,6 +644,21 @@
     });
 
 
+    // for offset in perent - mapped to pixels of chart width/height
+    // usage:
+    //    offset:    percentToPxOffsets(-1, -5),
+    function percentToPxOffsets(offsetXPercent, offsetYPercent) {
+
+      const w = myChart.getWidth();
+      const h = myChart.getHeight();
+
+      const offsetX = Math.round(w * (offsetXPercent / 100));
+      const offsetY = Math.round(h * (offsetYPercent / 100));
+
+      return [ offsetX, offsetY ];
+    }
+
+
     const root = document.documentElement;
     const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
     const colSec = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
@@ -1068,7 +1083,7 @@
       let backgroundByDisplay = 'transparent';
       if (displayType === "mobile") {
         fontSizeByDisplay = 10;
-        backgroundByDisplay = '#f5f5f5';        
+        backgroundByDisplay = '#f5f5f5';
       }
       if (displayType === "mobile") {
         offsetY = offsetY + 8;
@@ -1108,7 +1123,7 @@
             // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
             formatter:    label,
             formatter:    '{label|' + label + '}',
-            fontSize:       fontSizeByDisplay,
+            fontSize:      fontSizeByDisplay,
             fontWeight:    300,
 
             // position: 'top-right',  // unsupported
@@ -1126,10 +1141,10 @@
                 fontWeight:    300,
 
 
-                backgroundColor: backgroundByDisplay,  
-                borderWidth: 1,              // 
+                backgroundColor: backgroundByDisplay,
+                borderWidth: 1,              //
                 padding: [3, 4, 3, 4],       // top, right, bottom, left
-                borderRadius: 3 ,             //                 
+                borderRadius: 3 ,             //
 
 
 
@@ -1240,6 +1255,36 @@
         show: false,
       },
 
+      // 
+      toolbox: {
+        show:   true,
+        right: '0.125%',
+        top:   '0.125%',
+
+        itemSize: 10,
+        itemGap:   6,
+
+        iconStyle: {
+          borderColor: '#666',
+          borderWidth: 1
+        },
+
+
+        feature: {
+          restore: {
+            title: '🔍 100%'
+          },
+          saveAsImage: {
+            type: 'png',          // or 'jpeg', 'svg'
+            name: 'ecb-monitor-map-screenshot',
+            backgroundColor: '#fff',
+            pixelRatio: 2,
+          },
+        },
+      },
+
+
+
       // global colors for series - taken from main-fonts.css
       color: [
         'rgb(194, 211,   0)',
@@ -1251,9 +1296,20 @@
       ],
 
 
+
+
+
       geo: {
         map: 'europe-reduced',
         roam: true,
+
+        // zoom out to 300% => 1/3
+        // zoom in  to 400% => 4
+        scaleLimit: {
+          min: 0.75,
+          max: 4
+        },
+
         aspectScale: Math.cos((55 * Math.PI) / 180),
         aspectScale: Math.cos((35 * Math.PI) / 180),
         aspectScale: Math.cos((30 * Math.PI) / 180),  // vertical compression of map projection
@@ -1278,6 +1334,7 @@
         center:       [ 13.0   ,  48.8  ],
         layoutCenter: ['50%', '50%'],    // where to place the geo center
         // layoutSize:    '250%',
+
 
 
         boundingCoords: [
