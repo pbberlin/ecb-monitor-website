@@ -5,7 +5,11 @@
 jobs:
   - id: "amecoJob"
     cron: "15 2 * * *"
-    script: "../scripts/fetch-ameco.py"
+    # briefly change to 
+    # cron: "* * * * *"
+    # and
+    # sudo systemctl restart app-scheduler
+    script: "../fetch-ameco.py"
   - id: "dailyFetch"
     cron: "0 3 * * *"
     script: "../daily_fetch.py"

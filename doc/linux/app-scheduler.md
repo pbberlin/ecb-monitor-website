@@ -12,8 +12,8 @@ Description=Python job scheduler for my Flask app
 After=network.target
 
 [Service]
-WorkingDirectory=/var/www/ecb-app/scripts/scheduler/
-ExecStart=/var/www/ecb-app/.venv/bin/python scheduler_main.py
+WorkingDirectory=/var/www/ecb-app/
+ExecStart=/var/www/ecb-app/.venv/bin/python scripts/scheduler/scheduler_main.py
 Restart=always
 User=www-data
 Group=www-data
@@ -36,7 +36,7 @@ sudo journalctl -u app-scheduler.service -f
 
 
 
-sudo -u www-data test -r /var/www/ecb-app/scripts && echo "read ok" || echo "read denied"
+sudo -u www-data test -r /var/www/ecb-app/scripts && echo "read ok"    || echo "read denied"
 sudo -u www-data test -x /var/www/ecb-app/scripts && echo "execute ok" || echo "execute denied"
 
 
@@ -71,8 +71,11 @@ http://monitor2.zew.de/zabbix/zabbix.php?action=item.list&filter_set=1&filter_ho
 
 # windows
 # cd into development git repo - scripts/scheduler
-cd C:\users\pbu\Documents\zew_work\git\python\guw-flask\scripts\scheduler\
+cd C:\users\pbu\Documents\zew_work\git\python\ecb-monitor\scripts\scheduler\
+python -u .\scheduler_main.py
 
+
+# linux
 # run
 ..\..\venv\Scripts\python.exe scheduler_main.py
 
