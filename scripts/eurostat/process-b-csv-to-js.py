@@ -89,7 +89,8 @@ def makeJsFromTsv(inputTsvPath: Path, outputJsPath: Path, jsName: str) -> None:
             except Exception as sortExc:
                 print(f"Error sorting header year-months: {sortExc}")
 
-            print(f" we search for year-months {yearMonths} ")
+            print(f"\twe search for year-months")
+            print(f"\t{yearMonths} ")
 
             for idx1, yM in enumerate(yearMonths):
                 dataByYearMonth[str(yM)] = {}
