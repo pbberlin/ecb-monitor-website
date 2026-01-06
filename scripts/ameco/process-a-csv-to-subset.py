@@ -142,8 +142,8 @@ unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
 main(inpFile, outFileSuffix, code, unit)
 
 
-inpFile        = "AMECO16.CSV"
-outFileSuffix  = jobDirAmeco / "net_lending"
+inpFile        = jobDirAmeco / "AMECO16.CSV"
+outFileSuffix  = "net_lending"
 code     = "UBLG"
 unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
 main(inpFile, outFileSuffix, code, unit)

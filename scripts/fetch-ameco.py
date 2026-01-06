@@ -30,7 +30,8 @@ def runShellCommand(commandList, cwdPath: Path | None = None) -> int:
 
 
 def runPythonScript(scriptPath: Path, cwdPath: Path | None = None) -> int:
-    print(f"\t   workdir {cwdPath} - exec {scriptPath}")
+    print(f"   workdir {cwdPath} ")
+    print(f"   exec    {scriptPath}")
     try:
         result = subprocess.run(
             [sys.executable, str(scriptPath)],
@@ -84,9 +85,11 @@ def runAmecoPipeline() -> bool:
     # eurostat
 
     amecoTsv = jobDirEurostat / "estat_teimf050.tsv"
+    param2 = "curl \"https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/teimf050/?format=TSV&compressed=false\" -o estat_teimf050.tsv"
+    param2 = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/teimf050/?format=TSV&compressed=false"
     curlCmd2 = [
         "curl",
-        """curl "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/teimf050/?format=TSV&compressed=false" -o estat_teimf050.tsv""",
+        param2,
         "-o",
         str(amecoTsv),
     ]
