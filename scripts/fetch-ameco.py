@@ -8,6 +8,7 @@ from datetime import datetime
 # compute paths only once
 scriptDir = Path(__file__).resolve().parent
 appDir    = scriptDir.parent
+print(f"\t script     {Path(__file__).resolve()}   start")
 print(f"\t scriptDir  {scriptDir} ")
 print(f"\t appDir     {appDir} ")
 jobDirAmeco     = appDir / "scripts" / "ameco"
@@ -29,6 +30,7 @@ def runShellCommand(commandList, cwdPath: Path | None = None) -> int:
 
 
 def runPythonScript(scriptPath: Path, cwdPath: Path | None = None) -> int:
+    print(f"\t   workdir {cwdPath} - exec {scriptPath}")
     try:
         result = subprocess.run(
             [sys.executable, str(scriptPath)],
@@ -75,7 +77,7 @@ def runAmecoPipeline() -> bool:
     if runPythonScript(jobDirAmeco / "process-a-csv-to-subset.py", cwdPath=appDir) != 0:
         return False
 
-    if runPythonScript(jobDirAmeco / "process-b-csv-to-js.py", cwdPath=appDir) != 0:
+    if runPythonScript(jobDirAmeco / "process-b-csv-to-js.py",     cwdPath=appDir) != 0:
         return False
 
 

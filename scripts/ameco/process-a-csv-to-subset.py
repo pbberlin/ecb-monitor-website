@@ -42,14 +42,14 @@ euCountries = [
 
 
 
-def main(inputFile,targetFilename, targetCode, targetUnit):
+def main(inputFile, targetFilename, targetCode, targetUnit):
 
     filteredRows = []
     headerFields = None
 
     # input and output paths
     inputPath  = Path(inputFile)
-    outputPath = Path.cwd() / ".." /  ".." / "static"  / "dl" /  f"ameco_{targetFilename}.csv"
+    outputPath = Path.cwd() / "static"  / "dl" /  f"ameco_{targetFilename}.csv"
 
     try:
         with inputPath.open(mode="r", encoding="latin-1", newline="") as inFile:
@@ -81,13 +81,14 @@ def main(inputFile,targetFilename, targetCode, targetUnit):
 
                     country  = row.get("COUNTRY", "")
 
-                    if idx1 < 10:
-                        print(f" row{idx1:03} -  {codeVal:24}  {country:16}  {unitVal} ")
+                    if idx1 < 10 and ("Euro" not in country):
+                        print(f"\t\t row{idx1:03} -  {codeVal:8}  {country:16}  {unitVal} ")
 
 
                     if unitVal == targetUnit  and  codeVal == targetCode:
 
-                        print(f" unit found in {idx1:3} -  {country:16}  {unitVal} ")
+                        if idx1 < 10 and ("Euro" not in country):
+                            print(f"\t    unit found in {idx1:3} -  {country:16}  {unitVal} ")
 
                         # normalize irregular country name
                         if country == "Czechia":
@@ -100,12 +101,12 @@ def main(inputFile,targetFilename, targetCode, targetUnit):
                             filteredRows.append(filteredRow)
 
                 except Exception as rowExc:
-                    print(f"Error processing row index {idx1}: {rowExc}")
+                    print(f"error processing row index {idx1}: {rowExc}")
 
     except FileNotFoundError as fnfExc:
-        print(f"Input file not found: {fnfExc}")
+        print(f"input file not found: {fnfExc}")
     except Exception as readExc:
-        print(f"Error reading input file: {readExc}")
+        print(f"error reading input file: {readExc}")
 
 
 
@@ -121,17 +122,19 @@ def main(inputFile,targetFilename, targetCode, targetUnit):
                     try:
                         csvWriter.writerow(row)
                     except Exception as writeRowExc:
-                        print(f"Error writing row index {idx1}: {writeRowExc}")
+                        print(f"error writing row index {idx1}: {writeRowExc}")
 
-            print(f"Wrote {len(filteredRows)} rows to {outputPath}")
+            print(f"\twrote {len(filteredRows)} rows to {outputPath}")
         except Exception as writeExc:
-            print(f"Error writing output file: {writeExc}")
+            print(f"error writing output file: {writeExc}")
 
 
+
+jobDirAmeco     = Path.cwd() / "scripts" / "ameco"
 
 
 # filter settings
-inpFile        = "AMECO18.CSV"
+inpFile        = jobDirAmeco / "AMECO18.CSV"
 outFileSuffix  = "debt_to_gdp"
 code     = "UDGGL"
 code     = "UDGG"
@@ -139,29 +142,29 @@ unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
 main(inpFile, outFileSuffix, code, unit)
 
 
-outFileSuffix  = "net_lending"
 inpFile        = "AMECO16.CSV"
+outFileSuffix  = jobDirAmeco / "net_lending"
 code     = "UBLG"
 unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
 main(inpFile, outFileSuffix, code, unit)
 
 
+inpFile        = jobDirAmeco / "AMECO16.CSV"
 outFileSuffix  = "total_expenditure"
-inpFile        = "AMECO16.CSV"
 code     = "UUTG"
 unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
 main(inpFile, outFileSuffix, code, unit)
 
 
+inpFile        = jobDirAmeco / "AMECO16.CSV"
 outFileSuffix  = "interest_expenditure"
-inpFile        = "AMECO16.CSV"
 code     = "UYIG"
 unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
 main(inpFile, outFileSuffix, code, unit)
 
 
+inpFile        = jobDirAmeco / "AMECO16.CSV"
 outFileSuffix  = "interest_to_gdp"
-inpFile        = "AMECO16.CSV"
 code     = "UYIG"
 unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
 main(inpFile, outFileSuffix, code, unit)

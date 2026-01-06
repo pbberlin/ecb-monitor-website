@@ -14,6 +14,8 @@ cls && python app.py
 
 ```
 
+Use _localhost_ instead of 127.0.0.1
+
 Open in browser http://localhost:5000
 
 

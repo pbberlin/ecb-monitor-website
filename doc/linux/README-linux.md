@@ -122,14 +122,19 @@ sudo chmod 2775 /var/www/ecb-app/tmp
 
 
 # application files - unreachable via URL
+sudo mkdir -p /var/www/ecb-app/data/dl
 sudo chown -R pbu:www-data /var/www/ecb-app/data/dl
-sudo chmod 2775            /var/www/ecb-app/data/dl
+sudo chmod -R 2775        /var/www/ecb-app/data/dl
 
 # application files - with URL - images, charts ...
 sudo mkdir -p /var/www/ecb-app/static/dl
 sudo chown -R pbu:www-data /var/www/ecb-app/static/dl
-sudo chmod 2775            /var/www/ecb-app/static/dl
+sudo chmod -R 2775         /var/www/ecb-app/static/dl
 
+
+sudo mkdir -p /var/www/ecb-app/scripts/ameco
+sudo chown -R pbu:www-data /var/www/ecb-app/scripts/ameco
+sudo chmod -R 2775         /var/www/ecb-app/scripts/ameco
 
 
 

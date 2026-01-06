@@ -140,8 +140,46 @@ def buildCountryYearStructure(dataDict):
     return countryToYearToValue, yearKeysSet
 
 
+def cleanseForCsv(txt):
+
+    lines    = txt.splitlines()
+    cleansed = []
+
+    tagRe = re.compile(r"^\s*<[^>]+>\s*$")
+
+    for idx1, line in enumerate(lines):
+
+        line = line.strip()
+        if line == "":
+            continue
+        if tagRe.match(line) is not None:
+            continue
+        cleansed.append(line)
+
+    resultText = "\n".join(cleansed)
+    return resultText
+
+
+
+def appendAfterLastCol(csvFilePath, row):
+    """ append the bibliography source after the last column """
+    key = f"{csvFilePath.stem}_desc"
+    print(f"\tsearching for key -{key}-  in  ../lib/trls.py.trlsByLg")
+    val = ""
+    if key in trlsByLg["en"]:
+        val = trlsByLg["en"][key]
+        print(f"\tfound key -{key}-  {val}")
+        val = cleanseForCsv(val)
+
+    # csvWriter.writerow([f"todo - {csvFilePath.stem}_desc from ../lib/trls.py.trlsRaw"])
+    # csvWriter.writerow([val])
+    row.append(val)
+    return row
+
+
+
 def writeCsvForJsFile(jsFilePath):
-    
+
     try:
         jsText = jsFilePath.read_text(encoding="utf-8")
     except Exception as ex:
@@ -157,7 +195,7 @@ def writeCsvForJsFile(jsFilePath):
     try:
         dataDict = json.loads(jsonText)
         debugPrintNestedDict(dataDict)
-                
+
     except Exception as ex:
         print(f"Error parsing JSON in '{jsFilePath}': {ex}")
         return
@@ -201,17 +239,11 @@ def writeCsvForJsFile(jsFilePath):
                     else:
                         row.append("")
 
+                if idx1 == 1:
+                    row = appendAfterLastCol(csvFilePath, row)
+
                 csvWriter.writerow(row)
 
-            # csvFilePath - ameco_debt_to_gdp
-            key = f"{csvFilePath.stem}_desc"
-            print(f"\tsearching for key -{key}-  in  ../lib/trls.py.trlsByLg")
-            val = ""
-            if key in trlsByLg["en"]:
-                val = trlsByLg["en"][key]
-                print(f"\tfound key -{key}-  {val}")
-            # csvWriter.writerow([f"todo - {csvFilePath.stem}_desc from ../lib/trls.py.trlsRaw"])
-            csvWriter.writerow([val])
 
         print(f"\tWrote CSV: {csvFilePath}")
 
@@ -220,7 +252,7 @@ def writeCsvForJsFile(jsFilePath):
 
 
 def processDirectory(inputDirPath):
-    
+
     inputDirPath = Path(inputDirPath)
 
     if not inputDirPath.is_dir():
