@@ -110,8 +110,27 @@ sudo a2enmod http2
 
 ```bash
 
-# following dirs are shared between
+sudo chown -R pbu:www-data /var/www/ecb-app
+sudo find /var/www/ecb-app -type d -exec chmod 2755 {} \;
+sudo find /var/www/ecb-app -type f -exec chmod 0644 {} \;
 
+
+
+# multiple writers with different identities must coexist
+#     frist  line _existing_ files and dirs
+#     second line _future_   files and dirs - option -d is 'default'
+sudo setfacl -R    -m u:pbu:rwX -m g:www-data:rwX /var/www/ecb-app
+sudo setfacl -R -d -m u:pbu:rwX -m g:www-data:rwX /var/www/ecb-app
+
+sudo setfacl -Rb                                  /var/www/ecb-app/.git
+sudo setfacl -Rb                                  /var/www/ecb-app/lib
+sudo find /var/www/ecb-app -type f -name '*.py' -exec setfacl -b {} \;
+
+# getfacl [file]
+
+
+
+# following dirs are shared between pbu and www-data
 sudo mkdir -p /var/www/ecb-app/tmp
 # group ownership to www-data
 sudo chown -R pbu:www-data /var/www/ecb-app/tmp
@@ -126,6 +145,8 @@ sudo mkdir -p /var/www/ecb-app/data/dl
 sudo chown -R pbu:www-data /var/www/ecb-app/data/dl
 sudo chmod -R 2775        /var/www/ecb-app/data/dl
 
+
+
 # application files - with URL - images, charts ...
 sudo mkdir -p /var/www/ecb-app/static/dl
 sudo chown -R pbu:www-data /var/www/ecb-app/static/dl
@@ -135,6 +156,10 @@ sudo chmod -R 2775         /var/www/ecb-app/static/dl
 sudo mkdir -p /var/www/ecb-app/scripts/ameco
 sudo chown -R pbu:www-data /var/www/ecb-app/scripts/ameco
 sudo chmod -R 2775         /var/www/ecb-app/scripts/ameco
+
+sudo mkdir -p /var/www/ecb-app/scripts/eurostat
+sudo chown -R pbu:www-data /var/www/ecb-app/scripts/eurostat
+sudo chmod -R 2775         /var/www/ecb-app/scripts/eurostat
 
 
 

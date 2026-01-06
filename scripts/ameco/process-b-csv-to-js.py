@@ -88,31 +88,31 @@ def makeJsFromCsv(inputCsvPath: Path, outputJsPath: Path, jsName: str) -> None:
 if __name__ == "__main__":
 
 
-    inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_debt_to_gdp.csv"
-    outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_debt_to_gdp.js"
+    inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_debt_to_gdp.csv"
+    outputPath = Path.cwd() / "static"  / "dl" /  "ameco_debt_to_gdp.js"
     makeJsFromCsv(inputPath, outputPath,"debtPercentToGDP")
-    print(f"Wrote: {outputPath}")
+    print(f"\t wrote: {outputPath}")
 
 
-    inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_net_lending.csv"
-    outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_net_lending.js"
+    inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_net_lending.csv"
+    outputPath = Path.cwd() / "static"  / "dl" /  "ameco_net_lending.js"
     makeJsFromCsv(inputPath, outputPath,"netLendingPercentToGDP")
-    print(f"Wrote: {outputPath}")
+    print(f"\t wrote: {outputPath}")
 
 
-    inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_total_expenditure.csv"
-    outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_total_expenditure.js"
+    inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_total_expenditure.csv"
+    outputPath = Path.cwd() / "static"  / "dl" /  "ameco_total_expenditure.js"
     makeJsFromCsv(inputPath, outputPath,"totalExpenditure")
-    print(f"Wrote: {outputPath}")
+    print(f"\t wrote: {outputPath}")
 
 
-    inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_interest_expenditure.csv"
-    outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_interest_expenditure.js"
+    inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_interest_expenditure.csv"
+    outputPath = Path.cwd() / "static"  / "dl" /  "ameco_interest_expenditure.js"
     makeJsFromCsv(inputPath, outputPath,"interestExpenditure")
-    print(f"Wrote: {outputPath}")
+    print(f"\t wrote: {outputPath}")
 
 
-    inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_interest_to_gdp.csv"
-    outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "ameco_interest_to_gdp.js"
+    inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_interest_to_gdp.csv"
+    outputPath = Path.cwd() / "static"  / "dl" /  "ameco_interest_to_gdp.js"
     makeJsFromCsv(inputPath, outputPath,"interestToGDP")
-    print(f"Wrote: {outputPath}")
+    print(f"\t wrote: {outputPath}")
