@@ -178,7 +178,7 @@ def appendAfterLastCol(csvFilePath, row):
 
 
 
-def writeCsvForJsFile(jsFilePath):
+def writeCsvForJsFile(jsFilePath, dbg=False):
 
     try:
         jsText = jsFilePath.read_text(encoding="utf-8")
@@ -194,7 +194,8 @@ def writeCsvForJsFile(jsFilePath):
 
     try:
         dataDict = json.loads(jsonText)
-        debugPrintNestedDict(dataDict)
+        if dbg:
+            debugPrintNestedDict(dataDict)
 
     except Exception as ex:
         print(f"Error parsing JSON in '{jsFilePath}': {ex}")
@@ -202,7 +203,8 @@ def writeCsvForJsFile(jsFilePath):
 
     try:
         countryToYearToValue, yearKeysSet = buildCountryYearStructure(dataDict)
-        debugPrintNestedDict(countryToYearToValue)
+        if dbg:
+            debugPrintNestedDict(countryToYearToValue)
     except Exception as ex:
         print(f"Error building country/year structure for '{jsFilePath}': {ex}")
         return
@@ -270,7 +272,7 @@ def processDirectory(inputDirPath):
 
     for idx1, jsFilePath in enumerate(jsFilesList):
         print(f"\tprocessing JS file: {jsFilePath}")
-        writeCsvForJsFile(jsFilePath)
+        writeCsvForJsFile(jsFilePath, idx1<2)
 
 
 def main():
