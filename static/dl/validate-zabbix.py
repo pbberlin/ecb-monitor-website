@@ -156,13 +156,13 @@ def main():
     allOk = True
 
     for idx1, jsPath in enumerate(jsFileList):
-        print(f"[INFO] Validating {jsPath}")
+        print(f"\t  validating {jsPath}")
         isOk = validateJsFile(jsPath)
         if not isOk:
             allOk = False
 
     if allOk:
-        print("[INFO] All JS files validated successfully")
+        print("\tall JS files validated successfully")
         try:
             sendStatusOk = sendStatusToZabbix(1)
             # if not sendStatusOk:
