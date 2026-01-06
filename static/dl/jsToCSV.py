@@ -17,9 +17,9 @@ sys.path.insert(0, str(libPath))
 from trls import trlsByLg
 
 
-def debugPrintNestedDict(myDict, maxLevel=3, maxItemsPerLevel=3, indentLevel=0):
+def debugPrintNestedDict(myDict, maxLevel=3, maxItemsPerLevel=3, indentLevel=1):
 
-    indentText = "\t" * indentLevel
+    indentText = "\t" + "  " * indentLevel
 
     if not isinstance(myDict, dict):
         print(f"{indentText}{myDict}")
@@ -261,7 +261,7 @@ def processDirectory(inputDirPath):
 
     jsFilesList = []
     for idx1, jsPath in enumerate(sorted(inputDirPath.glob("*.js"))):
-        print(f"{idx1:2} adding: {jsPath}")
+        print(f"\t{idx1:2} adding: {jsPath}")
         jsFilesList.append(jsPath)
 
     if len(jsFilesList) == 0:
@@ -269,7 +269,7 @@ def processDirectory(inputDirPath):
         return
 
     for idx1, jsFilePath in enumerate(jsFilesList):
-        print(f"Processing JS file: {jsFilePath}")
+        print(f"\tprocessing JS file: {jsFilePath}")
         writeCsvForJsFile(jsFilePath)
 
 
