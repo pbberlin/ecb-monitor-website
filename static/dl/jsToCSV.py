@@ -241,7 +241,7 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
                     else:
                         row.append("")
 
-                if idx1 == 1:
+                if idx1 == 0:
                     row = appendAfterLastCol(csvFilePath, row)
 
                 csvWriter.writerow(row)

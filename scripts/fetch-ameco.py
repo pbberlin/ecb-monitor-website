@@ -84,12 +84,11 @@ def runAmecoPipeline() -> bool:
 
     # eurostat
 
-    amecoTsv = jobDirEurostat / "estat_teimf050.tsv"
-    param2 = "curl \"https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/teimf050/?format=TSV&compressed=false\" -o estat_teimf050.tsv"
-    param2 = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/teimf050/?format=TSV&compressed=false"
+    amecoTsv    = jobDirEurostat / "estat_teimf050.tsv"
+    downloadUrl = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/teimf050/?format=TSV&compressed=false"
     curlCmd2 = [
         "curl",
-        param2,
+        downloadUrl,
         "-o",
         str(amecoTsv),
     ]
