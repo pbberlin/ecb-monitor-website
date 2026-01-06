@@ -123,7 +123,8 @@ def makeJsFromTsv(inputTsvPath: Path, outputJsPath: Path, jsName: str) -> None:
                             print(f"\t row{idx1:02}  skipping {countryCode}")
                             continue
                         country = euCodesToNames[countryCode]
-                        print(f"\t row{idx1:02}  - country is {country}")
+                        if idx1 < 4 or (idx1%10 == 0):
+                            print(f"\t row{idx1:02}  - country is {country}")
 
 
                     for idx2, yMStr in enumerate(yearMonths):
@@ -189,8 +190,9 @@ def makeJsFromTsv(inputTsvPath: Path, outputJsPath: Path, jsName: str) -> None:
         minValue = mappingInverted[minKey]
         maxValue = mappingInverted[maxKey]
         for idx1, yearInt in enumerate(range(2000, int(minKey))):
-            print(f" {yearInt} {minValue}")
             mappingInverted[yearInt] = str(minValue)
+            if idx1 == 2000 or (idx1 > (int(minKey)-4)):
+                print(f"\t  year {yearInt} - min value {minValue}")
         nextYears = [currentYear + 1, currentYear + 2]
         for idx1, yearInt in enumerate(nextYears):
             mappingInverted[yearInt] = maxValue
