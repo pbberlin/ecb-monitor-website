@@ -219,9 +219,10 @@ def makeJsFromTsv(inputTsvPath: Path, outputJsPath: Path, jsName: str) -> None:
 
 if __name__ == "__main__":
 
+    jobDirEurostat     = Path.cwd() / "scripts" / "eurostat"
 
-    inputPath  = Path.cwd() / ".." / ".." / "static"  / "dl" /  "estat_teimf050.tsv"
-    inputPath  = Path.cwd() /                                   "estat_teimf050.tsv"
-    outputPath = Path.cwd() / ".." / ".." / "static"  / "dl" /  "eurostat_yields_10y.js"
+
+    inputPath  = Path.cwd() / jobDirEurostat / "estat_teimf050.tsv"
+    outputPath = Path.cwd() / "static"  / "dl" /  "eurostat_yields_10y.js"
     makeJsFromTsv(inputPath, outputPath,"yieldsTenYears")
-    print(f"Wrote: {outputPath}")
+    print(f"  eurostat wrote: {outputPath}")
