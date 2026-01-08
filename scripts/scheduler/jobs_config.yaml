@@ -9,7 +9,7 @@ jobs:
     # cron: "* * * * *"
     # and
     # sudo systemctl restart app-scheduler
-    script: "../fetch-ameco.py"
+    script: "../fetch-ameco-eurostat.py"
   - id: "dailyFetch"
     cron: "0 3 * * *"
     script: "../daily_fetch.py"

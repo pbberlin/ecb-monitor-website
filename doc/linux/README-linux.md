@@ -101,18 +101,30 @@ sudo a2enmod http2
 ```
 
 
-##  tmp rights for libraries
+## Rights
 
-[wsgi:error]  File "/var/www/ecb-app/.venv/lib/python3.11/site-packages/gingado/internals.py", line 153, in download_csv
-[wsgi:error]   Path(timestamped_file_path).parent.mkdir(exist_ok=True)
-                PermissionError: [Errno 13] Permission denied: 'gingado'
+We need ACL
+
 
 
 ```bash
 
+sudo git config --system --add safe.directory /var/www/ecb-app
+# verify
+git config --system --get-all safe.directory
+sudo -u www-data git -C /var/www/ecb-app status
+
+
+
+sudo mkdir -p /var/www/ecb-app
+
+# following dirs are shared between pbu and www-data
+# group ownership to www-data
 sudo chown -R pbu:www-data /var/www/ecb-app
-sudo find /var/www/ecb-app -type d -exec chmod 2755 {} \;
-sudo find /var/www/ecb-app -type f -exec chmod 0644 {} \;
+
+
+sudo find /var/www/ecb-app -type d -exec chmod 2775 {} \;
+sudo find /var/www/ecb-app -type f -exec chmod 0664 {} \;
 
 
 
@@ -122,14 +134,44 @@ sudo find /var/www/ecb-app -type f -exec chmod 0644 {} \;
 sudo setfacl -R    -m u:pbu:rwX -m g:www-data:rwX /var/www/ecb-app
 sudo setfacl -R -d -m u:pbu:rwX -m g:www-data:rwX /var/www/ecb-app
 
-sudo setfacl -Rb                                  /var/www/ecb-app/.git
-sudo setfacl -Rb                                  /var/www/ecb-app/lib
-sudo find /var/www/ecb-app -type f -name '*.py' -exec setfacl -b {} \;
+# redundant
+sudo setfacl -R    -m u:pbu:rwX -m u:www-data:rwX -m g:www-data:rwX /var/www/ecb-app/.git
+sudo setfacl -R -d -m u:pbu:rwX -m u:www-data:rwX -m g:www-data:rwX /var/www/ecb-app/.git
+
+# sudo setfacl -Rb                                  /var/www/ecb-app/.git
+# sudo setfacl -Rb                                  /var/www/ecb-app/lib
+# sudo find /var/www/ecb-app -type f -name '*.py' -exec setfacl -b {} \;
+
 
 # getfacl [file]
+getfacl ./app.py
+getfacl ./*.py
+getfacl ./static/dl/ameco_debt_to_gdp.*
+getfacl ./static/dl/jsToCSV.py
 
 
 
+
+sudo -u www-data bash -lc 'cat > /var/www/.netrc <<EOF
+machine git.zew.de
+login pbu
+password Soz!spa26
+EOF
+chmod 600 /var/www/.netrc'
+
+
+sudo -u www-data git config --global user.name  "www-data bot"
+sudo -u www-data git config --global user.email "ecb-watch@zew.de"
+
+```
+
+
+## Old right config - obsolete
+
+The rights cannot be maintained - by cron, by apache, by git pull
+
+
+```bash
 # following dirs are shared between pbu and www-data
 sudo mkdir -p /var/www/ecb-app/tmp
 # group ownership to www-data

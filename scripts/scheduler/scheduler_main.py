@@ -29,6 +29,7 @@ def runScript(scriptPath: Path) -> None:
 
 def main() -> None:
     baseDir = Path(__file__).resolve().parent
+    print(f"Scheduler base dir is {baseDir} - yet work dir should be ?")
     configPath = baseDir / "jobs_config.yaml"
 
     jobs = loadJobConfig(configPath)
