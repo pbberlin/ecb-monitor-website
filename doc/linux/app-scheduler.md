@@ -34,6 +34,7 @@ sudo systemctl start  app-scheduler
 sudo journalctl -u app-scheduler.service
 sudo journalctl -u app-scheduler.service -f
 
+sudo journalctl -u app-scheduler.service -o cat --no-pager | less
 
 
 sudo -u www-data test -r /var/www/ecb-app/scripts && echo "read ok"    || echo "read denied"
@@ -85,7 +86,7 @@ python -u .\scheduler_main.py
 # linux debian
 cd /var/www/ecb-app
 source /var/www/ecb-app/.venv/bin/activate
-python ./scripts/fetch-ameco.py
+python ./scripts/fetch-ameco-eurostat.py
 
 
 

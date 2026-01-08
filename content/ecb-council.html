@@ -1,0 +1,775 @@
+<style>
+
+  :root{
+    --display-type:   desktop;               /* used in javascript, no quotation marks */
+
+    --grad-height:   1.2rem;
+    --w01:           max(20rem, 20vw);  /* width left and right column  */
+    --w01-min:       calc( var(--w01) - 0.5rem )  ;
+    --echartHeight:   75vh;              /* not 75% -  fails */
+    --marginHeight:  calc( var(--echartHeight) - 1rem);
+    --initOpacity:   0.6;               /* minimize flickering */
+
+  }
+
+
+  /* radio buttons 20% larger */
+  input[type="radio"] {
+    transform:         scale(1.34);
+    -webkit-transform: scale(1.34);    /* Safari / older WebKit */
+    -ms-transform:     scale(1.34);    /* old IE/Edge */
+    transform-origin:  center;
+    vertical-align:    middle;
+
+    position: relative;
+    top: -0.12rem;
+
+  }
+
+
+  input[type="radio"] {
+    margin-left:  0.4rem;
+  }
+
+  html,
+  body,
+  dummy {
+    height: 100%;
+  }
+
+
+  .layout h3 {
+      font-size: 140%;
+      text-align: left;
+      text-align: center;
+  }
+
+
+  /*
+    container: left-to-right flow, top-aligned
+    3 columns
+    - col 1: 20% - at least 20vm
+    - col 2: exactly 820px
+    - col 3: 1fr - takes remaining width
+    -           or right margin max(20rem, 20vw)
+  */
+  .layout {
+    width: calc( 820px + 2* var(--w01));
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns:  var(--w01) 820px  var(--w01);
+    column-gap: 0;
+    align-items: start;           /* vertical: top for all */
+
+    /* border: 1px solid red; */
+  }
+
+  /* Ensure grid items can shrink if needed */
+  .col {
+    min-width: 0;
+    padding:   0;
+    margin:    0;
+    /* margin: 2px; */
+    /* border: 1px solid red; */
+  }
+
+
+  /* col1 - at least 20rem - 20% of screen width - */
+  .col--left   {
+    height:    var(--marginHeight);
+    min-width: var(--w01-min);
+
+    justify-self: end;
+    align-self: start;
+    text-align: right;
+    /* width: max-content; */
+
+    align-content:   end;
+  }
+
+  /* col2 -  fixed 820px, content centered */
+  .col--center {
+    justify-self: center;
+    align-self:    start;
+  }
+
+  /* col3 - takes the residual space, content left */
+  .col--right  {
+    height:    var(--marginHeight);
+    min-width: var(--w01-min);
+    /* width: max-content; */
+
+    justify-self: start;
+    align-self:   start;
+    text-align:   left;
+
+    align-content:   end;
+
+
+  }
+
+
+  #echart_container {
+
+    /* not 100% -  fails */
+    width: 820px;
+    height: var(--echartHeight);
+
+    /* margin:  0 auto; */
+    padding: 0;
+    border-bottom: 1px solid lightgray;
+    /* border-right:  1px solid lightgray; */
+    /* border: 1px solid lightgray; */
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+      /* smartphone */
+
+      :root {
+        /* also zooms the echart */
+        --echartHeight:   34vh;
+        --display-type:   mobile;               /* used in javascript, no quotation marks */
+      }
+
+
+      /* single column stack */
+      .layout {
+        width:     100%;
+        max-width: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;  /* col--left, col--center, col--right */
+      }
+
+      /* allow cols to shrink nicely */
+      .col {
+        min-width: 0;
+        padding:   0;
+        margin:    0;
+      }
+
+      /* stacked: top, middle, bottom
+        (HTML order already is: left -> center -> right) */
+      .col--left,
+      .col--center,
+      .col--right {
+        width:     100%;
+        min-width:    0;
+        height:    auto;
+
+        justify-self: stretch;
+        align-self:     start;
+        text-align:    center;
+      }
+
+      .col--right {
+        /* height: 20rem;  */
+        height: auto;
+        padding: 1rem 2rem;
+        text-align: left;
+      }
+
+
+      /* center column: echart takes full width on phone */
+      #echart_container {
+        width:             100%;
+        max-width:         100%;
+        height:      var(--echartHeight);
+        box-sizing: border-box;
+
+        /* border-top: 2px solid red; */
+      }
+
+
+      .layout h3 {
+        /* .layout to increase specifitiy */
+        text-align: center;
+        width:      90%;
+        margin: 1rem auto ;
+        margin-bottom: 0;
+      }
+
+
+
+}
+
+
+
+
+
+</style>
+
+
+
+<div class="layout">
+
+  <div class="col col--left control-pad">
+      <!-- First (top, right) -->
+      <h3> {{i18n.headline_ecb_council}}</h3>
+  </div>
+
+
+  <div class="col col--center">
+    <div id="echart_container">echart container content</div>
+  </div>
+        right col content
+  </div><!-- /col--right -->
+
+
+</div><!-- /layout -->
+
+
+
+
+<script type="text/javascript" src="/static/js/echarts.min.js"                ></script>
+<script type="text/javascript" src="/static/js/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
+
+
+<script type="module">
+
+  // wrap everything in an async func, since we need `await fetch(...)` at top level
+  (async () => {
+
+    const myChartDom  = document.getElementById('echart_container');
+
+
+    // xxxxx
+    let selectedDataMeta = {
+    };
+
+
+    // init
+    const rawHash      = window.location.hash;
+    const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
+    if (byUrlHash !== ""){
+      selectedVar    = byUrlHash;
+    }
+    // console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
+
+
+    const myChart = echarts.init(myChartDom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+
+
+
+    const root = document.documentElement;
+    const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
+    const colSec = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
+    const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
+    const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
+
+    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
+
+
+
+
+    function symbolsSeries(){
+      let results = [];
+
+      let item1 = {
+        name: 'ECB Tower',
+        type: 'scatter',
+        coordinateSystem: 'geo',
+        symbol: 'circle',
+        symbol: 'image:///static/img/ecb/ecb-tower-02.png',
+        symbolSize:   [ 1.5*20,  1.5*30],
+        symbolSize:   [ 1.5*20,  1.5*22],  // shortened - view from steeply above
+        symbolOffset: [ -9,   1],
+        symbolOffset: [ -9,  -2],  // second vertical
+        animation:         false,
+        animationDuration: 0,
+        data: [
+            {
+                name: 'ECB Tower',
+                value: [8.6889, 50.1095],  // frankfurt
+
+            }
+        ],
+        tooltip: {
+            show: true,
+            formatter: 'ECB Tower'
+        }
+      }
+      // results.push(item1);
+
+
+      let item2 = {
+        name: 'ECB Tower large',
+        type: 'scatter',
+        coordinateSystem: 'geo',
+        symbol: 'circle',
+        symbol: 'image:///static/img/ecb/ecb-tower-02.png',
+        symbolSize:   [ 3.5*20,  3.5*30],
+        symbolSize:   [ 3.5*20,  3.5*22],  // shortened - view from steeply above
+        animation:         false,
+        animationDuration: 0,
+        data: [
+            {
+                name: 'ECB Tower',
+                value: [33.4, 51.2]
+            }
+        ],
+        tooltip: {
+            show: false,
+            formatter: 'ECB Tower'
+        }
+      }
+      // results.push(item2);
+
+
+      // the "euro surrounded by the stars" image - positioned in the euro area inset rectangle
+      let item3 = {
+        silent: true,  // no reaction to click, hover, drag...
+        name: 'Euro Area',
+        type: 'scatter',
+        coordinateSystem: 'geo',
+        symbol: 'circle',
+        symbol: 'image:///static/img/euro-area/02a-sm.png',
+        symbolSize:   [ 1.8*20,  1.8*15],
+        animation:         false,
+        animationDuration: 0,
+        data: [
+            {
+                name: 'Euro Area',
+                value: [31.04, 53.06],
+            }
+        ],
+      }
+      results.push(item3);
+
+
+
+      // text-only label at a geo position
+      let item4 = {
+        name: 'Euro area Label',
+        type: 'scatter',
+        coordinateSystem: 'geo',
+        symbol: 'circle',
+        symbolSize: 0,
+        zlevel: 11,
+        label: {
+            show: true,
+            formatter: 'Euro area\n(20 countries) with Bulgaria',
+            position: 'inside',   // on the point
+            offset: [0, 0],       // fine-tune in px
+            color: '#222',
+            fontSize: 13,
+            backgroundColor: 'rgba(0,0,0,0.5)',
+            backgroundColor: 'transparent',
+            // padding: [3, 5],
+            // borderRadius: 3,
+        },
+        itemStyle: {
+            // opacity: 0               // hide the symbol itself
+        },
+        data: [
+            {
+                name: 'Euro area Label',
+                value: [33.7, 54.0]
+            }
+        ],
+        tooltip: {
+            show: false
+        }
+      }
+      // results.push(item4);
+
+      return results;
+    }
+
+    function extraRectangle(country, offsetX, offsetY){
+      // the rectangles around 'Euro area (20 countries)', Cyprus and Malta, not Luxembourg,
+      // differing only in offset
+
+      let fontSizeByDisplay = 11;
+      let backgroundByDisplay = 'transparent';
+      if (displayType === "mobile") {
+        fontSizeByDisplay = 10;
+        backgroundByDisplay = '#f5f5f5';
+      }
+      if (displayType === "mobile") {
+        offsetY = offsetY + 8;
+      }
+
+      let areaCol = 'rgba(217,233,236,0.15)';
+      let label   = country;
+      if (country === "Euro area (20 countries)"){
+        areaCol = 'rgba(217,233,236,1.00)';
+        areaCol = 'rgba(244,244,244,1.00)';
+        label   = country + "\n + Bulgaria";
+        label   = "Entire Euro area";
+        label   = "{{i18n.entire_euro_area}}";
+
+        if (displayType === "mobile") {
+          offsetX = offsetX + 40;
+          offsetY = offsetY - 10;
+        }
+
+      }
+
+      const item =
+        {
+          name: `${country} Inset Rectangle`,
+          itemStyle: {
+            areaColor:    'none',
+            areaColor:   areaCol,
+            borderColor:  '#aaa',
+            borderWidth: 0.5,   // <— thinner border (default is 1)
+          },
+          emphasis: { disabled: true },
+          tooltip:  { show:     false },
+          label: {
+            show:      true,
+            // magnifier optional
+            // formatter: text + '🔍',
+            // formatter: '💠' + text.replace(/\s*\(Inset\)\s*$/i, '')  ,
+            formatter:    label,
+            formatter:    '{label|' + label + '}',
+            fontSize:      fontSizeByDisplay,
+            fontWeight:    300,
+
+            // position: 'top-right',  // unsupported
+            position: 'top',
+            align:    'left',
+            offset:    [offsetX, offsetY],
+
+            // rich text for multi line - vertically left
+            rich: {
+              label: {
+                height:           12,
+                align:         'left',
+                verticalAlign: 'top',
+                fontSize:       fontSizeByDisplay,
+                fontWeight:    300,
+
+
+                backgroundColor: backgroundByDisplay,
+                borderWidth: 1,              //
+                padding: [3, 4, 3, 4],       // top, right, bottom, left
+                borderRadius: 3 ,             //
+
+
+
+              }
+            },
+          },
+        }
+        return item;
+    }
+
+
+
+
+
+    function arrowRedraw() {
+
+        return;
+
+        const pixel = myChart.convertToPixel({ geoIndex: 0 }, ecbCoord);
+
+        const containerWidth  = myChartDom.clientWidth;
+        const containerHeight = myChartDom.clientHeight;
+
+        let p0x = pixel[0];
+        let p0y = pixel[1];
+        // tuning arrow below icon
+        // p0x = p0x -  8;
+        // p0y = p0y + 26;
+        p0x = p0x + 2;
+        p0y = p0y - 3;
+
+        let endX = containerWidth + 0;
+        endX = 630;
+        let  endY = p0y;
+        endY = 220;
+
+        // const midX = (startX + endX) / 2;
+        let p1x = (p0x + endX) / 3.4;
+        let p1y =  p0y - 0;
+
+        p1x = 550;
+        p1y = 220;
+
+
+        const pointsForPolyLine = [
+            [p0x, p0y],
+            [p1x, p1y],
+            [endX, endY]
+        ];
+
+        myChart.setOption({
+            graphic: [
+                {
+                    id: 'ecb-arrow-line',
+                    type: 'polyline',
+                    shape: {
+                        points: pointsForPolyLine
+                    },
+                    style: {
+                        stroke: '#333',
+                        lineWidth: 0.4
+                    },
+                    silent: true,  // no reaction to click, hover, drag...
+                },
+                // {
+                //     id: 'ecb-arrow-head',
+                //     type: 'polygon',
+                //     shape: {
+                //         points: [
+                //             [p0x    , p0y - 12],    // tip
+                //             [p0x - 8, p0y +  2],    // left  point
+                //             [p0x + 8, p0y +  2]     // right point
+                //         ]
+                //     },
+                //     style: {
+                //         fill: '#888'
+                //     },
+                //     silent: true
+                // },
+            ]
+        });
+    }
+
+
+
+
+
+
+
+
+
+
+
+    //  determine the root path based on current host
+    const ROOT_PATH = window.location.origin;
+    let url;
+    url = ROOT_PATH + '/static/echart/europe-reduced.geojson?v={{staticVersion}}';
+    myChart.showLoading();
+
+    let res;
+    const isDevMode = window.APP_DEBUG;
+    if (isDevMode) {
+      // res = await fetch(url, { cache: 'no-cache' });
+      res = await fetch(url, { cache: 'no-store' });
+      console.log(`fetching map data - since development mode`);
+    } else {
+      res = await fetch(url, { cache: 'force-cache' });
+      console.log(`map data from cache - since production mode`);
+    }
+    if (!res.ok) { throw new Error(`HTTP ${res.status}`); }
+    const geoJSON = await res.json();   // works even if server sends text/plain
+    echarts.registerMap('europe-reduced', geoJSON);
+    // console.log("europe geo json loaded and registered")
+
+    // prepare longitude/latitude data from geojson file for positioning of geo shapes
+    let centroids = {};
+    for (let feature of geoJSON.features.entries()) {
+      // console.log(feature[1].properties);
+      let name = feature[1].properties.name;
+      let lon  = feature[1].properties.LON;
+      let lat  = feature[1].properties.LAT;
+      centroids[name] = [lon, lat];
+    }
+    // we can now use `centroids` for scatter data, tooltips, etc.
+    // console.log(` geo coords for centroid of France ${centroids["France"][0]} ${centroids["France"][1]}`)
+
+
+
+    const optionsInit = {
+
+      tooltip: {},
+      legend: {
+        show: false,
+      },
+
+      // 
+      toolbox: {
+        show:   true,
+        right: '0.125%',
+        top:   '0.125%',
+
+        itemSize: 10,
+        itemGap:   6,
+
+        iconStyle: {
+          borderColor: '#666',
+          borderWidth: 1
+        },
+
+
+        feature: {
+          restore: {
+            title: '🔍 100%'
+          },
+          saveAsImage: {
+            type: 'png',          // or 'jpeg', 'svg'
+            name: 'ecb-monitor-map-screenshot',
+            backgroundColor: '#fff',
+            pixelRatio: 2,
+          },
+        },
+      },
+
+
+
+      // global colors for series - taken from main-fonts.css
+      color: [
+        'rgb(194, 211,   0)',
+        'rgb( 0,  105, 180)',
+        'rgb(245, 245, 246)',
+        'rgb(112, 111, 111)',
+        'rgb(157, 157, 156)',
+        'rgb(174, 215, 217)',
+      ],
+
+
+
+
+
+      geo: {
+        map: 'europe-reduced',
+        roam: true,
+
+        // zoom out to 300% => 1/3
+        // zoom in  to 400% => 4
+        scaleLimit: {
+          min: 0.75,
+          max: 4
+        },
+
+        aspectScale: Math.cos((55 * Math.PI) / 180),
+        aspectScale: Math.cos((35 * Math.PI) / 180),
+        aspectScale: Math.cos((30 * Math.PI) / 180),  // vertical compression of map projection
+
+        // projection: {
+        //     project: function (point) {
+        //         return [point[0], Math.log(Math.tan((Math.PI / 4) + (point[1] * Math.PI / 360)))];
+        //     },
+        //     unproject: function (point) {
+        //         return [point[0], (2 * Math.atan(Math.exp(point[1])) - Math.PI / 2) * 180 / Math.PI];
+        //     }
+        // },
+
+        // zoom: 0.75,
+
+        // top:    -240,     // margin top
+        // bottom: -130,
+        // left:   0,
+        // right:  0,
+
+        center:       [ 16     ,  48.8  ],  // geo center - longitute - latitude
+        center:       [ 13.0   ,  48.8  ],
+        layoutCenter: ['50%', '50%'],    // where to place the geo center
+        // layoutSize:    '250%',
+
+
+
+        boundingCoords: [
+            // [minLon, minLat],
+            //  north of finland -  west of ireland
+                [16 - 9.2         , 48.5 - 11.6],
+            // [maxLon, maxLat],
+                [16 + 9.2 - 0.2   , 48.5 + 11.6],
+        ],
+
+        // universalTransition: true,
+
+        nameProperty: 'name', //  name_en - for using en name.
+        itemStyle: {
+          // https://echarts.apache.org/en/option.html#legend.itemStyle
+          areaColor:            colIB3,
+          areaColor:           'transparent',  // no default color - everything in regionsColoring()
+          borderColor:         '#999999',
+          inactiveColor:       '#f11',
+          inactiveBorderColor: '#ccc',
+          borderWidth:           0.50,
+        },
+
+        // extra colors for eu non-members
+        regions: [
+          // ...regionsColoring(),
+          extraRectangle('Cyprus', -14,-37),
+          extraRectangle('Malta' ,  -6,-26),
+          extraRectangle('Euro area (20 countries)', -45,-51),
+          // rectangles('Luxembourg' ,  0,0),
+        ],
+
+        // on hover
+        //  only global setting possible
+        emphasis: {
+          itemStyle: {
+            // areaColor:    'transparent',
+            areaColor:    colPri,
+            areaColor:   'inherit',
+            borderWidth:  0.8,
+            borderWidth:  1.3,
+            borderColor: '#444',
+          },
+          label: { show: false }
+        },
+      },   // end geo
+
+
+
+      series: [
+        // gre-enwich  longitude, latitude
+        // randomPieSeries1([-1.6, 52.5], 25),
+
+        // randomPieSeries1('France',  25),
+        // randomPieSeries1('Germany', 35),
+        // ...manyCountriesShowStats(),
+        ...symbolsSeries(),
+      ]
+
+    };
+
+    myChart.hideLoading();
+    myChart.setOption(optionsInit);
+    arrowRedraw();
+    // console.log("echart options set 1")
+
+
+    window.addEventListener('resize', function() {
+        myChart.resize();
+        arrowRedraw();
+    });
+
+    myChart.on('georoam', function() {
+        arrowRedraw();
+    });
+
+
+
+
+
+
+
+
+
+
+  })();   // end of outmost aync func - so we can you fetch inside
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
