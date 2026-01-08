@@ -103,9 +103,9 @@ sudo a2enmod http2
 
 ## Rights
 
-We need ACL
-
-
+* We need user `pbu` and `var-www`
+* App scheduler is also running as `var-www` and needs to git push
+* We have to go beyond class Linux chmod/chown - and us ACL
 
 ```bash
 
@@ -127,7 +127,6 @@ sudo find /var/www/ecb-app -type d -exec chmod 2775 {} \;
 sudo find /var/www/ecb-app -type f -exec chmod 0664 {} \;
 
 
-
 # multiple writers with different identities must coexist
 #     frist  line _existing_ files and dirs
 #     second line _future_   files and dirs - option -d is 'default'
@@ -138,12 +137,10 @@ sudo setfacl -R -d -m u:pbu:rwX -m g:www-data:rwX /var/www/ecb-app
 sudo setfacl -R    -m u:pbu:rwX -m u:www-data:rwX -m g:www-data:rwX /var/www/ecb-app/.git
 sudo setfacl -R -d -m u:pbu:rwX -m u:www-data:rwX -m g:www-data:rwX /var/www/ecb-app/.git
 
-# sudo setfacl -Rb                                  /var/www/ecb-app/.git
-# sudo setfacl -Rb                                  /var/www/ecb-app/lib
 # sudo find /var/www/ecb-app -type f -name '*.py' -exec setfacl -b {} \;
 
 
-# getfacl [file]
+# check getfacl [file]
 getfacl ./app.py
 getfacl ./*.py
 getfacl ./static/dl/ameco_debt_to_gdp.*
@@ -152,56 +149,47 @@ getfacl ./static/dl/jsToCSV.py
 
 
 
-sudo -u www-data bash -lc 'cat > /var/www/.netrc <<EOF
+
+
+# minimal home dir for www-data
+#  no shell
+#  but place for storing git config
+sudo mkdir -p /home/www-data
+sudo chown www-data:www-data /home/www-data
+sudo chmod 0700 /home/www-data
+
+sudo -u www-data env HOME=/home/www-data git -C /var/www/ecb-app config --global user.name "pbu"
+sudo -u www-data env HOME=/home/www-data git -C /var/www/ecb-app config --global user.email "pbu@ecb-watch"
+sudo -u www-data env HOME=/home/www-data git -C /var/www/ecb-app status
+
+sudo -u www-data bash -lc 'cat > /home/www-data/.netrc <<EOF
 machine git.zew.de
 login pbu
 password Soz!spa26
 EOF
-chmod 600 /var/www/.netrc'
+chmod 600 /home/www-data/.netrc
+'
+
+# now assign this home dir
+
+sudo systemctl stop apache2
+sudo systemctl stop app-scheduler.service
+sudo usermod -d /home/www-data www-data
+# check
+getent passwd www-data
+# should yield www-data:x:s33:33:www-data:/home/www-data:/usr/sbin/nologin
+
+sudo systemctl start apache2
+sudo systemctl start app-scheduler.service
 
 
-sudo -u www-data git config --global user.name  "www-data bot"
-sudo -u www-data git config --global user.email "ecb-watch@zew.de"
+
 
 ```
 
 
 ## Old right config - obsolete
 
-The rights cannot be maintained - by cron, by apache, by git pull
-
-
-```bash
-# following dirs are shared between pbu and www-data
-sudo mkdir -p /var/www/ecb-app/tmp
-# group ownership to www-data
-sudo chown -R pbu:www-data /var/www/ecb-app/tmp
-# both users read/write/execute
-#    The 2 in 2775 sets the setgid bit, meaning any files created inside inherit the www-data group automatically.
-#    That ensures new files made by the app (www-data) or by you (pbu) remain group-accessible.
-sudo chmod 2775 /var/www/ecb-app/tmp
-
-
-# application files - unreachable via URL
-sudo mkdir -p /var/www/ecb-app/data/dl
-sudo chown -R pbu:www-data /var/www/ecb-app/data/dl
-sudo chmod -R 2775        /var/www/ecb-app/data/dl
-
-
-
-# application files - with URL - images, charts ...
-sudo mkdir -p /var/www/ecb-app/static/dl
-sudo chown -R pbu:www-data /var/www/ecb-app/static/dl
-sudo chmod -R 2775         /var/www/ecb-app/static/dl
-
-
-sudo mkdir -p /var/www/ecb-app/scripts/ameco
-sudo chown -R pbu:www-data /var/www/ecb-app/scripts/ameco
-sudo chmod -R 2775         /var/www/ecb-app/scripts/ameco
-
-sudo mkdir -p /var/www/ecb-app/scripts/eurostat
-sudo chown -R pbu:www-data /var/www/ecb-app/scripts/eurostat
-sudo chmod -R 2775         /var/www/ecb-app/scripts/eurostat
 
 
 
@@ -214,14 +202,15 @@ export MPLCONFIGDIR=/var/www/ecb-app/tmp
 
 
 # upload
+
+```bash
 # *    copy contents of tmp/, not the tmp/ directory itself
 sudo cp -r -f /var/www/ecb-app/tmp/* /var/www/ecb-app/
 sudo chown -R pbu:www-data /var/www/ecb-app
 sudo chmod 2775            /var/www/ecb-app
 sudo touch /var/www/ecb-app/ecb.wsgi
-
-
 ```
+
 
 
 ## git auto deploy I
@@ -249,7 +238,6 @@ echo  'https://pbu:L!btardQ2@git.zew.de' > ~/.git-credentials
 chmod 600 ~/.git-credentials
 cat       ~/.git-credentials
 ```
-
 
 
 

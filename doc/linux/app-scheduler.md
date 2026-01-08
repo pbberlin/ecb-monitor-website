@@ -17,6 +17,10 @@ ExecStart=/var/www/ecb-app/.venv/bin/python scripts/scheduler/scheduler_main.py
 Restart=always
 User=www-data
 Group=www-data
+Environment=HOME=/home/www-data
+UMask=0002
+Environment=GIT_TERMINAL_PROMPT=0
+
 
 [Install]
 WantedBy=multi-user.target
