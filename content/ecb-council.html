@@ -215,7 +215,10 @@
   <div class="col col--left control-pad">
       <!-- First (top, right) -->
       <h3> {{i18n.headline_ecb_council}}</h3>
-  </div>
+
+      <div id="council_list" ></div>
+
+    </div>
 
 
   <div class="col col--center">
@@ -769,8 +772,121 @@
 
 
 
+<style>
+
+  #council_list {
+    overflow-y: scroll;
+    max-height: 90%;
+  }
+  #council_list p {
+    margin: 0;
+    padding: 0;
+  }
+
+</style>
 
 
+  <script>
+
+
+    const councilList = document.getElementById("council_list");
+
+
+      function formatValue(key, value) {
+        if (key === "incumbent") {
+          if (Number.isNaN(value)) {
+            return "";
+          }
+          if (value === 1.0) {
+            return "yes";
+          } else {
+            return "no";
+          }
+        }
+
+        if (key === "birth_year") {
+          if (Number.isNaN(value)) {
+            return "";
+          }
+          return Math.trunc(value);
+        }
+
+        if (value === null || value === undefined) {
+          return "";
+        }
+        if (typeof value === "number") {
+          if (Number.isNaN(value)) {
+            return "";
+          }
+          return value.toFixed(2);
+        }
+        return value;
+      }
+
+
+      const sortedKeys = Object.keys(ecbCouncil).sort(function (a, b) {
+
+        const aIsGovernor = ecbCouncil[a].role_euro === "national governors";
+        const bIsGovernor = ecbCouncil[b].role_euro === "national governors";
+
+        if (aIsGovernor && !bIsGovernor) {
+          return -1;
+        }
+
+        if (!aIsGovernor && bIsGovernor) {
+          return 1;
+        }
+
+        // same group → sort by name
+        return ecbCouncil[a].name.localeCompare(ecbCouncil[b].name);
+      });
+
+
+      sortedKeys.forEach(function (directorKey) {
+
+        const rec = ecbCouncil[directorKey];
+
+        const cardDiv = document.createElement("div");
+        cardDiv.style.marginBottom = "0.4rem";
+        cardDiv.style.padding = "0.15rem";
+
+        if (rec.role_euro === "governor") {
+          cardDiv.style.backgroundColor = "#e6f2ff";
+        } else {
+          cardDiv.style.backgroundColor = "#eeeeee";
+        }
+
+        const nameParagraph = document.createElement("p");
+        const boldName = document.createElement("strong");
+        boldName.textContent = rec.name;
+        nameParagraph.appendChild(boldName);
+        cardDiv.appendChild(nameParagraph);
+
+        Object.keys(rec).forEach(function (fieldKey) {
+
+          if (fieldKey === "name") {
+            return;
+          }
+          if (fieldKey === "name_excel") {
+            return;
+          }
+          if (fieldKey === "organisation_euro") {
+            return;
+          }
+          if (rec[fieldKey] === null) {
+            return;
+          }
+
+          const fieldParagraph = document.createElement("p");
+          fieldParagraph.textContent = fieldKey + ": " + formatValue(fieldKey, rec[fieldKey]);
+          cardDiv.appendChild(fieldParagraph);
+        });
+
+        councilList.appendChild(cardDiv);
+      });
+
+    
+  </script>
 
 
 
