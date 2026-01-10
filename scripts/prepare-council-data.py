@@ -1,11 +1,84 @@
 import json
 import pickle
 import pandas as pd
+import math
 from pathlib import Path
 
 from pandas import Timestamp
 from pandas import NaT # not a time
 NaTType = type(pd.NaT)
+
+
+
+
+
+def formatValue(key, val):
+    try:
+
+        if key == "incumbent":
+            if isinstance(val, float) and math.isnan(val):
+                return ""            
+            if val == 1.0:
+                return True
+            else:
+                return False
+
+        if key == "birth_year":
+            if isinstance(val, float) and math.isnan(val):
+                return ""
+            return math.trunc(val)
+        if key == "count_speeches":
+            if isinstance(val, float) and math.isnan(val):
+                return ""
+            return math.trunc(val)
+        if key == "euro_accession_year":
+            if isinstance(val, float) and math.isnan(val):
+                return ""
+            return math.trunc(val)
+
+
+        if val is None:
+            return ""
+
+        if isinstance(val, (int, float)):
+            if isinstance(val, float) and math.isnan(val):
+                return ""
+            if isinstance(val, int):
+                return f"{val}"
+            if isinstance(val, float):
+                return round(float(val),2)
+                # return f"{val:.2f}"
+
+
+        # default
+        return val
+
+    except Exception as e:
+        print(f"Error in formatValue: {e}")
+        return val
+
+
+
+def testFormatValue():
+
+    testData = [
+        ("incumbent", 1.0),
+        ("incumbent", 0.0),
+        ("incumbent", float("nan")),
+        ("birth_year", 1980.9),
+        ("birth_year", float("nan")),
+        ("some_float", 50000.1234),
+        ("some_float", None),
+        ("some_float", "Not a number"),
+        ("some_int", 99)
+    ]
+    for idx1, testTuple in enumerate(testData):
+        testKey   = testTuple[0]
+        testValue = testTuple[1]
+        result = formatValue(testKey, testValue)
+        print(f"Key: {testKey:<12} | Value: {str(testValue):<15} -> Result: {result}")
+
+
 
 def convertPickleToJs(
     pthPickle, 
@@ -23,7 +96,6 @@ def convertPickleToJs(
         if not isinstance(dta, pd.DataFrame):
             dta = pd.DataFrame(dta)
 
-        out1 = {}
         
         # columns and the key column values
         cols = dta.columns.tolist()
@@ -49,11 +121,10 @@ def convertPickleToJs(
         # Iterate columns to create first level keys
         for idx1, colName in enumerate(cols):
             
-            colDict = {}
             col = dta[colName].tolist()
 
-            if idx1 < 6:
-                print(f" row  {keyCol[:5]} ")
+            if idx1 < 1:
+                print(f" first five row keys  {keyCol[:5]} ")
 
             # Iterate rows to create second level keys (cell values)
             for idx2, vl in enumerate(col):
@@ -75,18 +146,25 @@ def convertPickleToJs(
                     print(f" type of {vl} is OTHER:    {type(vl)}")
 
 
-                rowKey = str(keyCol[idx2])
                 # print(f" rowkey is {rowKey} ")
-                colDict[rowKey] = vl
-
+                rowKey = str(keyCol[idx2])
 
                 # print(f" {rowKey:28}  {colName:24} {vl}")
                 if not rowKey in out2:
                     out2[rowKey] = {}
-                out2[rowKey][colName] = vl
+
+                if "name_excel" in out2[rowKey] and rowKey !=  out2[rowKey]["name_excel"]:
+                    print(f" {out2[rowKey]['name_excel']} vs {rowKey}")
+
+                if colName == "name_excel":
+                    continue
+                if colName == "source" and vl is  None:
+                    continue
 
 
-            out1[colName] = colDict
+                out2[rowKey][colName] = formatValue(colName, vl)
+
+
 
 
         # jsonString = json.dumps(out1, indent=4)
@@ -128,6 +206,10 @@ appDir    = scriptDir.parent
 print(f"\t script     {Path(__file__).resolve()}   start")
 
 
+
+# testFormatValue()
+
+
 toHtml(   
     Path( appDir / "data" / "dl" / "ecb-council-data.pkl") ,
     Path( appDir / "data" / "dl" / "council.html") ,
@@ -138,5 +220,7 @@ convertPickleToJs(
     Path( appDir / "static" / "dl" / "ecb-council-data.js") ,
     "name",
 )
+
+
 
 

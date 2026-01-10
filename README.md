@@ -27,3 +27,15 @@ Open in browser http://localhost:5000
 
 
 
+## Todo
+
+
+Automatisierung
+
+Als Pickle oder als Excel/CSV
+
+Im Land: Hawkish-Dovish-Score, Farbcodierung.  -1 ... 0 ... 1
+
+Zeitmaschine
+
+
