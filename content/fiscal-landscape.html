@@ -1068,7 +1068,7 @@
         } catch (error) {
           console.log(`no stats value for ${country} for ${yr}`)
         }
-    };
+      };
 
       // for (const [idx, country] of notInEuro.entries()) {
       return results;
@@ -1347,6 +1347,21 @@
 
         // universalTransition: true,
 
+        // on hover
+        //  only global setting possible
+        emphasis: {
+          itemStyle: {
+            // areaColor:    'transparent',
+            areaColor:    colPri,
+            areaColor:   'inherit',
+            borderWidth:  0.8,
+            borderWidth:  1.3,
+            borderColor: '#444',
+          },
+          label: { show: false }
+        },
+
+
         nameProperty: 'name', //  name_en - for using en name.
         itemStyle: {
           // https://echarts.apache.org/en/option.html#legend.itemStyle
@@ -1367,19 +1382,6 @@
           // rectangles('Luxembourg' ,  0,0),
         ],
 
-        // on hover
-        //  only global setting possible
-        emphasis: {
-          itemStyle: {
-            // areaColor:    'transparent',
-            areaColor:    colPri,
-            areaColor:   'inherit',
-            borderWidth:  0.8,
-            borderWidth:  1.3,
-            borderColor: '#444',
-          },
-          label: { show: false }
-        },
       },   // end geo
 
 

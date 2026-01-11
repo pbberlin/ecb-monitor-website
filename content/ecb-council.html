@@ -278,37 +278,11 @@
 
 
 
+
     function symbolsSeries(){
       let results = [];
 
       let item1 = {
-        name: 'ECB Tower',
-        type: 'scatter',
-        coordinateSystem: 'geo',
-        symbol: 'circle',
-        symbol: 'image:///static/img/ecb/ecb-tower-02.png',
-        symbolSize:   [ 1.5*20,  1.5*30],
-        symbolSize:   [ 1.5*20,  1.5*22],  // shortened - view from steeply above
-        symbolOffset: [ -9,   1],
-        symbolOffset: [ -9,  -2],  // second vertical
-        animation:         false,
-        animationDuration: 0,
-        data: [
-            {
-                name: 'ECB Tower',
-                value: [8.6889, 50.1095],  // frankfurt
-
-            }
-        ],
-        tooltip: {
-            show: true,
-            formatter: 'ECB Tower'
-        }
-      }
-      // results.push(item1);
-
-
-      let item2 = {
         name: 'ECB Tower large',
         type: 'scatter',
         coordinateSystem: 'geo',
@@ -329,34 +303,12 @@
             formatter: 'ECB Tower'
         }
       }
-      // results.push(item2);
-
-
-      // the "euro surrounded by the stars" image - positioned in the euro area inset rectangle
-      let item3 = {
-        silent: true,  // no reaction to click, hover, drag...
-        name: 'Euro Area',
-        type: 'scatter',
-        coordinateSystem: 'geo',
-        symbol: 'circle',
-        symbol: 'image:///static/img/euro-area/02a-sm.png',
-        symbolSize:   [ 1.8*20,  1.8*15],
-        animation:         false,
-        animationDuration: 0,
-        data: [
-            {
-                name: 'Euro Area',
-                value: [31.04, 53.06],
-            }
-        ],
-      }
-      results.push(item3);
-
+      results.push(item1);
 
 
       // text-only label at a geo position
-      let item4 = {
-        name: 'Euro area Label',
+      let item2 = {
+        name: 'ECB building label',
         type: 'scatter',
         coordinateSystem: 'geo',
         symbol: 'circle',
@@ -364,22 +316,20 @@
         zlevel: 11,
         label: {
             show: true,
-            formatter: 'Euro area\n(20 countries) with Bulgaria',
+            formatter: 'ECB',
             position: 'inside',   // on the point
             offset: [0, 0],       // fine-tune in px
             color: '#222',
             fontSize: 13,
             backgroundColor: 'rgba(0,0,0,0.5)',
             backgroundColor: 'transparent',
-            // padding: [3, 5],
-            // borderRadius: 3,
         },
         itemStyle: {
             // opacity: 0               // hide the symbol itself
         },
         data: [
             {
-                name: 'Euro area Label',
+                name: 'ECB building label',
                 value: [33.7, 54.0]
             }
         ],
@@ -387,10 +337,79 @@
             show: false
         }
       }
-      // results.push(item4);
+      results.push(item2);
 
       return results;
     }
+
+
+    let currentYear=2026
+
+    // creating numbers at the centroid of 27 eu countries
+    function manyCountriesShowStats(yr=currentYear) {
+
+
+      let fontSizeByDisplay = 12;
+      if (displayType === "mobile") {
+        fontSizeByDisplay = 10;
+      }
+
+      let processed = {}
+
+      let results = [];
+      // xxxxx
+      for (const rec of councilSorted1) {
+
+        let country    = rec["country"];
+        if(processed[country]){
+          continue;
+        }
+        processed[country] = true;
+
+        let role1 = rec["organisation_euro"]
+        if(role1 === "ecb"){
+          continue;
+        }
+
+        
+        let statsValue = rec["hawkish_score"];
+
+        // console.log(` ${country}  ${statsValue} `)
+        // console.log(`   coords ${centroids[country][0]}  ${centroids[country][1]}  `)
+
+        let item = {
+          type: 'scatter',
+          coordinateSystem: 'geo',
+          symbol: 'circle',
+          symbolSize: 34,
+          symbolSize:  0,
+          // color: valToPctToColor(statsValue, selectedDataMeta[selectedVar]),  // only if symbolSize > 0
+          animation:         false,
+          animationDuration: 0,
+          label: {
+            show: true,
+            formatter:      Math.round(statsValue*100).toString(),
+            fontSize:       14,
+            fontSize:       fontSizeByDisplay,
+            fontWeight:     300,
+            color:         '#000',
+            align:         'center',
+            verticalAlign: 'middle',
+          },
+          data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], statsValue] }],
+          tooltip:  { show: true, formatter: `${statsValue}` },
+          tooltip:  { show: false },
+          z: 10,
+        };
+        results.push(item);
+      }
+      return results;
+    }
+
+
+
+
+
 
     function extraRectangle(country, offsetX, offsetY){
       // the rectangles around 'Euro area (20 countries)', Cyprus and Malta, not Luxembourg,
@@ -474,6 +493,108 @@
 
 
 
+    function regionsColoring(yr=currentYear) {
+
+      let results = [];
+
+      for (const [idx, country] of nonMembers.entries()) {
+          let item = {
+            name:  country,
+            tooltip: {
+              show:      true,
+              formatter: country + "\n(non EU)",
+            },
+            itemStyle: {
+              areaColor:   '#eee',
+              borderWidth:  0.4,
+              borderColor: '#ccc'
+            },
+            emphasis: {
+              disabled: true,
+            },
+           };
+          // console.log(`  regionsColoring()-1 ${country}`);
+          results.push(item);
+      };
+
+
+      for (const [idx, country] of notInEuro.entries()) {
+          let item = {
+              name: country,
+              tooltip: {
+                show:      true,
+                formatter: country + "\n(no €)",
+              },
+              itemStyle: {
+                areaColor: 'rgb(238, 245, 245)',
+                borderWidth: 0.2,
+                aaborderColor: '#ccc',
+              },
+              emphasis: { disabled: true },
+          };
+          // console.log(`  regionsColoring()-2 ${country}`);
+          results.push(item);
+      };
+
+
+      // xxxxx
+      for (const [idx, country] of euCountriesEuro.entries()) {
+
+        const colorNoData = 'rgba(224, 224, 224, 0.28)';
+        let areaCol = colorNoData;
+
+        for (const rec of councilSorted1) {
+          let role1 = rec["organisation_euro"]
+          if(role1 === "ecb"){
+            continue;
+          }
+
+          let countryX    = rec["country"];
+          if(country===countryX){
+            let statsValueX = rec["hawkish_score"];
+            areaCol = 'rgba(199, 199, 244, 0.28)';
+          }
+        }
+
+
+        let item = {
+              name: country,
+              tooltip: {
+                show:      true,
+                formatter: country,
+              },
+              itemStyle: {
+                areaColor:   areaCol,
+                borderWidth: 0.2,
+                // borderColor: '#444',
+              },
+          };
+          // console.log(`  regionsColoring()-3 ${country}`);
+          results.push(item);
+
+
+        // try {
+        //   const statsValue    = selectedDataMeta[selectedVar]["selected_data"][yr][country];
+        //   const statsColoring = valToPctToColor(statsValue, selectedDataMeta[selectedVar]  );
+          
+
+          
+        //   // console.log(` ${statsValue} ${ valToPctToColor(statsValue, selectedDataMeta[selectedVar]) }  ${country}`);
+        //   // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
+        //   let item = { name: country, itemStyle: { areaColor: statsColoring,} };
+        //   results.push(item);
+        //   // console.log(`  regionsColoring()-3 ${country} - ${statsValue}`);
+        // } catch (error) {
+        //   console.log(`no stats value for ${country} for ${yr}`)
+        // }
+
+      };
+
+
+
+      return results;
+
+    }
 
 
     function arrowRedraw() {
@@ -689,26 +810,6 @@
 
         // universalTransition: true,
 
-        nameProperty: 'name', //  name_en - for using en name.
-        itemStyle: {
-          // https://echarts.apache.org/en/option.html#legend.itemStyle
-          areaColor:            colIB3,
-          areaColor:           'transparent',  // no default color - everything in regionsColoring()
-          borderColor:         '#999999',
-          inactiveColor:       '#f11',
-          inactiveBorderColor: '#ccc',
-          borderWidth:           0.50,
-        },
-
-        // extra colors for eu non-members
-        regions: [
-          // ...regionsColoring(),
-          extraRectangle('Cyprus', -14,-37),
-          extraRectangle('Malta' ,  -6,-26),
-          extraRectangle('Euro area (20 countries)', -45,-51),
-          // rectangles('Luxembourg' ,  0,0),
-        ],
-
         // on hover
         //  only global setting possible
         emphasis: {
@@ -722,26 +823,45 @@
           },
           label: { show: false }
         },
+
+
+        nameProperty: 'name', //  name_en - for using en name.
+        itemStyle: {
+          // https://echarts.apache.org/en/option.html#legend.itemStyle
+          areaColor:            colIB3,
+          areaColor:           'transparent',  // no default color - everything in regionsColoring()
+          borderColor:         '#999999',
+          inactiveColor:       '#f11',
+          inactiveBorderColor: '#ccc',
+          borderWidth:           0.50,
+        },
+
+
+        regions: [
+          // changing properties of existing shape (by name)
+          ...regionsColoring(),                // returns list of items
+          //  drawing additional shapes
+          extraRectangle('Cyprus', -14,-37),
+          extraRectangle('Malta' ,  -6,-26),
+          extraRectangle('Euro area (20 countries)', -45,-51),
+        ],
+
       },   // end geo
 
 
-
       series: [
+        // adding chart elements
         // gre-enwich  longitude, latitude
-        // randomPieSeries1([-1.6, 52.5], 25),
-
-        // randomPieSeries1('France',  25),
-        // randomPieSeries1('Germany', 35),
-        // ...manyCountriesShowStats(),
-        ...symbolsSeries(),
+        ...manyCountriesShowStats(),         // returns list of items
+        ...symbolsSeries(),                  // returns list of items
       ]
 
     };
 
+
     myChart.hideLoading();
     myChart.setOption(optionsInit);
     arrowRedraw();
-    // console.log("echart options set 1")
 
 
     window.addEventListener('resize', function() {
@@ -792,39 +912,8 @@
     const councilList = document.getElementById("council_list");
 
 
-      function formatValue(key, value) {
-        if (key === "incumbent") {
-          if (Number.isNaN(value)) {
-            return "";
-          }
-          if (value === 1.0) {
-            return "yes";
-          } else {
-            return "no";
-          }
-        }
 
-        if (key === "birth_year") {
-          if (Number.isNaN(value)) {
-            return "";
-          }
-          return Math.trunc(value);
-        }
-
-        if (value === null || value === undefined) {
-          return "";
-        }
-        if (typeof value === "number") {
-          if (Number.isNaN(value)) {
-            return "";
-          }
-          return value.toFixed(2);
-        }
-        return value;
-      }
-
-
-      const sortedKeys = Object.keys(ecbCouncil).sort(function (a, b) {
+      let namesSorted = Object.keys(ecbCouncil).sort(function (a, b) {
 
         const aIsGovernor = ecbCouncil[a].role_euro === "national governors";
         const bIsGovernor = ecbCouncil[b].role_euro === "national governors";
@@ -842,9 +931,15 @@
       });
 
 
-      sortedKeys.forEach(function (directorKey) {
+      namesSorted = Object.keys(ecbCouncil);
+      namesSorted.forEach(function (name) {
 
-        const rec = ecbCouncil[directorKey];
+        const rec = ecbCouncil[name];
+
+        let role1 = rec["organisation_euro"]
+        if(role1 !== "ecb"){
+          return;
+        }
 
         const cardDiv = document.createElement("div");
         cardDiv.style.marginBottom = "0.4rem";
@@ -870,15 +965,25 @@
           if (fieldKey === "name_excel") {
             return;
           }
+          if (fieldKey === "starting_date") {
+            return;
+          }
+          if (fieldKey === "termination_date") {
+            return;
+          }
           if (fieldKey === "organisation_euro") {
             return;
           }
-          if (rec[fieldKey] === null) {
+          // if (rec[fieldKey] === null) {
+          //   return;
+          // }
+          if (rec[fieldKey] === "") {
             return;
           }
 
           const fieldParagraph = document.createElement("p");
-          fieldParagraph.textContent = fieldKey + ": " + formatValue(fieldKey, rec[fieldKey]);
+          // fieldParagraph.textContent = fieldKey + ": " + formatValue(fieldKey, rec[fieldKey]);
+          fieldParagraph.textContent = fieldKey + ": " + rec[fieldKey];
           cardDiv.appendChild(fieldParagraph);
         });
 

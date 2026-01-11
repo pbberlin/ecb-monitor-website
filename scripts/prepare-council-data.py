@@ -8,6 +8,24 @@ from pandas import Timestamp
 from pandas import NaT # not a time
 NaTType = type(pd.NaT)
 
+from collections import defaultdict
+
+def toHtml(pthPickle, outPth):
+    try:
+        # Read the pickle file into a pandas DataFrame
+        councilDataFrame = pd.read_pickle(pthPickle)
+
+        # Transform the DataFrame into an HTML table string
+        # Using built-in method to avoid manual loops as per instruction
+        htmlTable = councilDataFrame.to_html()
+
+        # print(htmlTable)
+        with outPth.open("w", encoding="utf-8") as fileHandle:
+            fileHandle.write(htmlTable)
+
+    except Exception as exc:
+        print(f"exc is {exc} " )
+
 
 
 
@@ -80,6 +98,44 @@ def testFormatValue():
 
 
 
+
+
+
+def sortByYearStart(ecbCouncil):
+
+    try:
+
+        keysInp = list(ecbCouncil.values())
+
+        def generateSortKey(memberRecord):
+
+            sort1    = memberRecord["starting_date"]
+            sort2    = memberRecord["role_euro"]
+
+            fullName = memberRecord["name"]
+            nameParts = fullName.split(" ")
+            sort3 = nameParts[-1]
+
+            return (sort1, sort2, sort3)
+
+        keysSorted = sorted(keysInp, key=generateSortKey)
+
+        if False:
+            print("--- Sorted Results ---")
+            for idx1, member in enumerate(keysSorted):
+                name = member["name"]
+                date = member["starting_date"]
+                role = member["role_euro"]                
+                print(f"{idx1 + 1}. {date} | {role} | {name}")
+
+        return keysSorted
+
+    except Exception as exc:
+        print(f"sortJson() exc {exc} " )
+
+
+
+
 def convertPickleToJs(
     pthPickle, 
     outPthJs, 
@@ -116,7 +172,10 @@ def convertPickleToJs(
 
 
 
-        out2 = {}
+        out = {}
+
+        organisation_euro = defaultdict(int)
+        role_euro         = defaultdict(int)
 
         # Iterate columns to create first level keys
         for idx1, colName in enumerate(cols):
@@ -137,9 +196,10 @@ def convertPickleToJs(
                     pass
                 elif type(vl) is NaTType:
                     vl = "NaT"
+                    vl = "0"
                 elif type(vl) is Timestamp:
                     if vl is NaT:
-                        vl = "NaT"
+                        vl = "0"
                     else:
                         vl = vl.strftime("%Y-%m-%d %H:%M:%S")
                 else:
@@ -150,11 +210,11 @@ def convertPickleToJs(
                 rowKey = str(keyCol[idx2])
 
                 # print(f" {rowKey:28}  {colName:24} {vl}")
-                if not rowKey in out2:
-                    out2[rowKey] = {}
+                if not rowKey in out:
+                    out[rowKey] = {}
 
-                if "name_excel" in out2[rowKey] and rowKey !=  out2[rowKey]["name_excel"]:
-                    print(f" {out2[rowKey]['name_excel']} vs {rowKey}")
+                if "name_excel" in out[rowKey] and rowKey !=  out[rowKey]["name_excel"]:
+                    print(f" {out[rowKey]['name_excel']} vs {rowKey}")
 
                 if colName == "name_excel":
                     continue
@@ -162,43 +222,42 @@ def convertPickleToJs(
                     continue
 
 
-                out2[rowKey][colName] = formatValue(colName, vl)
+                out[rowKey][colName] = formatValue(colName, vl)
+
+                if colName == "starting_date":
+                    out[rowKey]["year_start"] = int(out[rowKey][colName][:4])
+                if colName == "termination_date":
+                    out[rowKey]["year_stop"] = int(out[rowKey][colName][:4])
+
+
+                if colName == "organisation_euro":
+                    organisation_euro[vl] += 1
+                if colName == "role_euro":
+                    role_euro[vl] += 1
+
+        # sort - starting_date, organisation_euro, role_euro, name - last token
 
 
 
+        jsonString1 = json.dumps(out, indent=4)
+        jsContent = f"const {varName}={jsonString1}; \n\n"
 
-        # jsonString = json.dumps(out1, indent=4)
-        jsonString = json.dumps(out2, indent=4)
-        
-        jsParts = [f"const {varName} = ", jsonString, ";"]
-        jsContent = "".join(jsParts)
+
+        byYearList = sortByYearStart(out)
+        jsonString2 = json.dumps(byYearList, indent=4)
+        jsContent += f"councilSorted1={jsonString2}; \n\n"
 
         with outPthJs.open("w", encoding="utf-8") as fileHandle:
             fileHandle.write(jsContent)
 
-        print(f"converted {pthPickle} to {outPthJs}")
+        print(f"converted \n\t{pthPickle} to \n\t{outPthJs}")
+
+        print(f"organisation_euro {organisation_euro} ")
+        print(f"role_euro         {role_euro} ")
 
     except Exception as exc:
         print(f"exc is {exc} " )
 
-
-
-def toHtml(pthPickle, outPth):
-    try:
-        # Read the pickle file into a pandas DataFrame
-        councilDataFrame = pd.read_pickle(pthPickle)
-
-        # Transform the DataFrame into an HTML table string
-        # Using built-in method to avoid manual loops as per instruction
-        htmlTable = councilDataFrame.to_html()
-
-        # print(htmlTable)
-        with outPth.open("w", encoding="utf-8") as fileHandle:
-            fileHandle.write(htmlTable)
-
-    except Exception as exceptionObject:
-        # Always print the exception
-        print(exceptionObject)
 
 
 scriptDir = Path(__file__).resolve().parent
