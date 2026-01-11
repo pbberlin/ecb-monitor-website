@@ -125,6 +125,35 @@
   }
 
 
+  .control-pad {
+    position: relative;   /*  z-index  */
+    z-index: 10;
+    margin: 0.4rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1.1rem;
+    background-color: rgba(217,233,236,0.25)
+  }
+
+  .slider-group {
+    display:        flex;
+    flex-direction: column;
+    gap:           0.01rem;
+    align-items:   center;   /* contents centered horizontally */
+    height:        auto;
+    width:         max-content;    /* shrink container to content so it can sit right */
+    width:         100%;
+
+    margin-top:    1.1rem;
+    margin-bottom: 1.1rem;
+    margin-left:   auto;
+    margin-right:  auto;
+  }
+
+  #yearSlider {
+    width: 90%;
+    align-self: end;
+  }
+
 
 
 
@@ -216,6 +245,13 @@
       <!-- First (top, right) -->
       <h3> {{i18n.headline_ecb_council}}</h3>
 
+      <!-- <label for="yearSlider">Year:</label> -->
+      <div id="slider-group" class="slider-group">
+        <input id="yearSlider" type="range" min="1998" step="1"  autofocus  />
+        <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
+      </div>
+
+
       <div id="council_list" ></div>
 
     </div>
@@ -235,7 +271,8 @@
 
 <script type="text/javascript" src="/static/js/echarts.min.js"                ></script>
 <script type="text/javascript" src="/static/js/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
-<script type="text/javascript" src="/static/dl/ecb-council-data.js?v={{staticVersion}}"        ></script>
+<script type="text/javascript" src="/static/dl/ecb-council-by-name.js?v={{staticVersion}}"        ></script>
+<script type="text/javascript" src="/static/dl/ecb-council-by-function.js?v={{staticVersion}}"    ></script>
 
 
 <script type="module">
@@ -244,6 +281,7 @@
   (async () => {
 
     const myChartDom  = document.getElementById('echart_container');
+    const currentYear = new Date().getFullYear();
 
 
     // xxxxx
@@ -343,8 +381,6 @@
     }
 
 
-    let currentYear=2026
-
     // creating numbers at the centroid of 27 eu countries
     function manyCountriesShowStats(yr=currentYear) {
 
@@ -358,7 +394,7 @@
 
       let results = [];
       // xxxxx
-      for (const rec of councilSorted1) {
+      for (const rec of councilByFunction) {
 
         let country    = rec["country"];
         if(processed[country]){
@@ -543,7 +579,7 @@
         const colorNoData = 'rgba(224, 224, 224, 0.28)';
         let areaCol = colorNoData;
 
-        for (const rec of councilSorted1) {
+        for (const rec of councilByFunction) {
           let role1 = rec["organisation_euro"]
           if(role1 === "ecb"){
             continue;
@@ -875,9 +911,76 @@
 
 
 
+    // --- slider setup: 1960 .. (current year + 1) ---
+    const sliderEl = document.getElementById('yearSlider');
+    const labelEl  = document.getElementById('yearLabel');
+
+    sliderEl.max        = String(currentYear+0);
+    sliderEl.value      = String(currentYear);
+    labelEl.textContent = sliderEl.value;
+
+    function sliderToKey(){
+      const yr = parseInt(sliderEl.value, 10);
+      return {
+        yr: yr,
+        lbl:String(yr),
+      };
+    }
+
+    sliderEl.addEventListener("wheel", function(evt) {
+        evt.preventDefault();               // stop page scrolling
+        const direction = Math.sign(evt.deltaY);
+        let newValue = Number(sliderEl.value) - direction * wheelStep;
+
+        if (newValue < sliderEl.min) {
+            newValue = sliderEl.min;
+        }
+        if (newValue > sliderEl.max) {
+            newValue = sliderEl.max;
+        }
+        sliderEl.value = newValue;
+        sliderEl.dispatchEvent(new Event("input"));    // trigger input event
+    });
 
 
+    // --- onChange handler: update the chart option (stub) ---
+    sliderEl.addEventListener('change', function () {
 
+      const res = sliderToKey();
+      labelEl.textContent = res.lbl;
+
+      // mutate option and re-apply
+      let option3;
+
+      // reset the stuff we want to update
+      option3 = {
+        series: [],
+        geo: {
+          regions: [],
+        },
+      };
+      // re-populate
+      option3.series = [
+        ...manyCountriesShowStats(res.yr),
+        ...symbolsSeries(),
+      ];
+      option3.geo.regions  = [
+          ...regionsColoring(res.yr),
+          extraRectangle('Cyprus', -14,-37),
+          extraRectangle('Malta' ,  -6,-26),
+          extraRectangle('Euro area (20 countries)', -45,-51),
+      ];
+
+      console.log(` changing year to ${res.yr} `);
+      myChart.setOption(
+        option3,
+        {
+          notMerge :   false,  // do merge
+          lazyUpdate : true,
+        },
+      );
+
+    });
 
 
 
@@ -912,83 +1015,67 @@
     const councilList = document.getElementById("council_list");
 
 
+    namesSorted = Object.keys(councilByFunction);  // sorting is done in python pre-processing 
+    namesSorted.forEach(function (name) {
 
-      let namesSorted = Object.keys(ecbCouncil).sort(function (a, b) {
+      const rec = councilByFunction[name];
 
-        const aIsGovernor = ecbCouncil[a].role_euro === "national governors";
-        const bIsGovernor = ecbCouncil[b].role_euro === "national governors";
+      let role1 = rec["organisation_euro"]
+      if(role1 !== "ecb"){
+        return;
+      }
 
-        if (aIsGovernor && !bIsGovernor) {
-          return -1;
+      const cardDiv = document.createElement("div");
+      cardDiv.style.marginBottom = "0.4rem";
+      cardDiv.style.padding = "0.15rem";
+
+      if (rec.role_euro === "president") {
+        cardDiv.style.backgroundColor = "#e6f2ff";
+      } else if (rec.role_euro === "vice-president") {
+        cardDiv.style.backgroundColor = "#e6f2ee";
+      } else {
+        // "executive board", "chief economist"
+        cardDiv.style.backgroundColor = "#eeeeee";
+      }
+
+      const nameParagraph = document.createElement("p");
+      const boldName = document.createElement("strong");
+      boldName.textContent = rec.name;
+      nameParagraph.appendChild(boldName);
+      cardDiv.appendChild(nameParagraph);
+
+      Object.keys(rec).forEach(function (fieldKey) {
+
+        if (fieldKey === "name") {
+          return;
         }
-
-        if (!aIsGovernor && bIsGovernor) {
-          return 1;
+        if (fieldKey === "name_excel") {
+          return;
         }
-
-        // same group → sort by name
-        return ecbCouncil[a].name.localeCompare(ecbCouncil[b].name);
-      });
-
-
-      namesSorted = Object.keys(ecbCouncil);
-      namesSorted.forEach(function (name) {
-
-        const rec = ecbCouncil[name];
-
-        let role1 = rec["organisation_euro"]
-        if(role1 !== "ecb"){
+        if (fieldKey === "starting_date") {
+          return;
+        }
+        if (fieldKey === "termination_date") {
+          return;
+        }
+        if (fieldKey === "organisation_euro") {
+          return;
+        }
+        // if (rec[fieldKey] === null) {
+        //   return;
+        // }
+        if (rec[fieldKey] === "") {
           return;
         }
 
-        const cardDiv = document.createElement("div");
-        cardDiv.style.marginBottom = "0.4rem";
-        cardDiv.style.padding = "0.15rem";
-
-        if (rec.role_euro === "governor") {
-          cardDiv.style.backgroundColor = "#e6f2ff";
-        } else {
-          cardDiv.style.backgroundColor = "#eeeeee";
-        }
-
-        const nameParagraph = document.createElement("p");
-        const boldName = document.createElement("strong");
-        boldName.textContent = rec.name;
-        nameParagraph.appendChild(boldName);
-        cardDiv.appendChild(nameParagraph);
-
-        Object.keys(rec).forEach(function (fieldKey) {
-
-          if (fieldKey === "name") {
-            return;
-          }
-          if (fieldKey === "name_excel") {
-            return;
-          }
-          if (fieldKey === "starting_date") {
-            return;
-          }
-          if (fieldKey === "termination_date") {
-            return;
-          }
-          if (fieldKey === "organisation_euro") {
-            return;
-          }
-          // if (rec[fieldKey] === null) {
-          //   return;
-          // }
-          if (rec[fieldKey] === "") {
-            return;
-          }
-
-          const fieldParagraph = document.createElement("p");
-          // fieldParagraph.textContent = fieldKey + ": " + formatValue(fieldKey, rec[fieldKey]);
-          fieldParagraph.textContent = fieldKey + ": " + rec[fieldKey];
-          cardDiv.appendChild(fieldParagraph);
-        });
-
-        councilList.appendChild(cardDiv);
+        const fieldParagraph = document.createElement("p");
+        // fieldParagraph.textContent = fieldKey + ": " + formatValue(fieldKey, rec[fieldKey]);
+        fieldParagraph.textContent = fieldKey + ": " + rec[fieldKey];
+        cardDiv.appendChild(fieldParagraph);
       });
+
+      councilList.appendChild(cardDiv);
+    });
 
     
   </script>

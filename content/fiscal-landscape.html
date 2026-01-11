@@ -310,10 +310,9 @@
       <!-- First (top, right) -->
       <h3> {{i18n.headline_fiscal_data}}</h3>
 
-      <!-- <label for="yearSlider">Year:</label> -->
       <div id="slider-group" class="slider-group">
         <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
-        <span id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
+        <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
       </div>
 
       <!-- option -->
@@ -1443,24 +1442,19 @@
 
 
     function sliderToKey(){
-
       const yr = parseInt(sliderEl.value, 10);
-
       if (selectedVar !== "eurostat_yields_10y"){
         return {
           yr: yr,
           lbl:String(yr),
         };
       }
-
       const mp2 = selectedDataMeta[selectedVar]["selected_data"]["mapping2"]
       // console.log(mp2);
       return {
         yr:  mp2[ String(yr) ],
         lbl: mp2[ yr ],
       };
-
-
 
     }
 
@@ -1530,6 +1524,7 @@
 
     let timerId = 0;
 
+    // event handlers for radio inputs and color opacity
     for (let idx1 = 0; idx1 < extendableList.length; idx1++) {
       extendableList[idx1].addEventListener('change', function (evt) {
 

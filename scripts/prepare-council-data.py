@@ -101,22 +101,24 @@ def testFormatValue():
 
 
 
-def sortByYearStart(ecbCouncil):
+def sortByFunction(dataByName):
 
     try:
 
-        keysInp = list(ecbCouncil.values())
+        keysInp = list(dataByName.values())
 
         def generateSortKey(memberRecord):
 
-            sort1    = memberRecord["starting_date"]
-            sort2    = memberRecord["role_euro"]
+            sort1a    = memberRecord["organisation_euro"]
+            sort1b    = memberRecord["role_euro"]
 
             fullName = memberRecord["name"]
             nameParts = fullName.split(" ")
-            sort3 = nameParts[-1]
+            sort2 = nameParts[-1]
 
-            return (sort1, sort2, sort3)
+            sort3     = memberRecord["starting_date"]
+
+            return (sort1a, sort1b, sort2, sort3)
 
         keysSorted = sorted(keysInp, key=generateSortKey)
 
@@ -138,9 +140,10 @@ def sortByYearStart(ecbCouncil):
 
 def convertPickleToJs(
     pthPickle, 
-    outPthJs, 
+    outPthJs1, 
+    outPthJs2, 
     keyColName, 
-    varName="ecbCouncil",
+    varName="councilByName",
 ):
 
     try:
@@ -238,22 +241,26 @@ def convertPickleToJs(
         # sort - starting_date, organisation_euro, role_euro, name - last token
 
 
-
-        jsonString1 = json.dumps(out, indent=4)
-        jsContent = f"const {varName}={jsonString1}; \n\n"
-
-
-        byYearList = sortByYearStart(out)
-        jsonString2 = json.dumps(byYearList, indent=4)
-        jsContent += f"councilSorted1={jsonString2}; \n\n"
-
-        with outPthJs.open("w", encoding="utf-8") as fileHandle:
-            fileHandle.write(jsContent)
-
-        print(f"converted \n\t{pthPickle} to \n\t{outPthJs}")
-
         print(f"organisation_euro {organisation_euro} ")
         print(f"role_euro         {role_euro} ")
+
+        jsonString = json.dumps(out, indent=4)
+        jsContent = f"const {varName}={jsonString}; \n\n"
+        with outPthJs1.open("w", encoding="utf-8") as fileHandle:
+            fileHandle.write(jsContent)
+        print(f"converted \n\t{pthPickle} to \n\t{outPthJs1}")
+
+
+        byFunction = sortByFunction(out)
+        jsonString = json.dumps(byFunction, indent=4)
+        jsContent  = f"councilByFunction={jsonString}; \n\n"
+        with outPthJs2.open("w", encoding="utf-8") as fileHandle:
+            fileHandle.write(jsContent)
+        print(f"converted \n\t{pthPickle} to \n\t{outPthJs2}")
+
+
+
+
 
     except Exception as exc:
         print(f"exc is {exc} " )
@@ -276,7 +283,8 @@ toHtml(
 
 convertPickleToJs(
     Path( appDir / "data"   / "dl" / "ecb-council-data.pkl") ,
-    Path( appDir / "static" / "dl" / "ecb-council-data.js") ,
+    Path( appDir / "static" / "dl" / "ecb-council-by-name.js") ,
+    Path( appDir / "static" / "dl" / "ecb-council-by-function.js") ,
     "name",
 )
 
