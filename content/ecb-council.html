@@ -232,10 +232,47 @@
 }
 
 
+</style>
 
 
+<style>
+
+  #council_list {
+    overflow-y: scroll;
+    max-height: 90%;
+  }
+
+  #council_list .member-card {
+    margin:  0;
+    margin-bottom:  0.4rem;
+    padding: 0;
+  }
+
+  #council_list .member-card div {
+    margin:  0;
+    padding: 0;
+    font-size: 90%;
+  }
+
+  #council_list .member-card div.name {
+    font-weight: bold;
+  }
+  #council_list .member-card div.role_euro {
+    /* text-transform: capitalize; */
+  }
+
+  #council_list .member-card div.hawkish_score {
+    position: relative;
+    top:     -0.3rem;
+    font-size: 120%;
+  }
 
 </style>
+
+
+
+
+
 
 
 
@@ -275,9 +312,17 @@
 <script type="text/javascript" src="/static/dl/ecb-council-by-function.js?v={{staticVersion}}"    ></script>
 
 
+<!-- 
+  'module'
+    runs after  HTML is fully parsed
+    runs before DOMContentLoaded fires
+
+    images, fonts not yet being loaded
+    layout  sizes not yet available
+-->
 <script type="module">
 
-  // wrap everything in an async func, since we need `await fetch(...)` at top level
+  // wrap in async func, since we need `await fetch(...)` at top level
   (async () => {
 
     const myChartDom  = document.getElementById('echart_container');
@@ -943,11 +988,115 @@
     });
 
 
+
+
+    function buildMemberCard(member) {
+
+      const keysDisplay = [
+        "name",
+        "role_euro__from_to",
+        // "role_euro",
+        // "from_to",
+
+        // "born_raised",
+        // "career",
+
+        "hawkish_score",
+        // "count_speeches",
+      ];
+
+      const popupKeys = [
+        "born_raised",
+        "career",
+      ];
+
+
+      const outerDiv = document.createElement("div");
+      outerDiv.className = "member-card";
+
+
+      for (let idx1 = 0; idx1 < keysDisplay.length; idx1 += 1) {
+
+        const ky = keysDisplay[idx1];
+        const vl = member[ky];
+
+        const rowDiv = document.createElement("div");
+        rowDiv.className   = ky;
+
+        if (vl === null || typeof vl === "undefined") {
+          rowDiv.textContent = `${ky}:`;
+        } else {
+          // rowDiv.textContent = `${myKey}: ${String(myVal)}`;
+          rowDiv.textContent = `${String(vl)}`;
+        }
+        // if (ky === "career"){
+        //   rowDiv.setAttribute("title", "{{i18n.career_education}}")
+        // }
+
+        outerDiv.appendChild(rowDiv);
+      }
+
+
+      let titleMouseOver = ""
+      for (let idx1 = 0; idx1 < popupKeys.length; idx1 += 1) {
+        const ky = popupKeys[idx1];
+        const vl = member[ky];
+
+        if (vl === null || typeof vl === "undefined") {
+          // 
+        } else {
+          titleMouseOver += `${vl} \n`;
+        }
+      }
+      outerDiv.setAttribute("title", titleMouseOver)
+
+      return outerDiv;
+    }
+
+
+    function populateLeftPanel(yr=currentYear) {
+
+      const councilList = document.getElementById("council_list");
+      councilList.replaceChildren(); // reset
+
+      let namesSorted = Object.keys(councilByFunction);  // sorting is done in python pre-processing 
+      namesSorted.forEach(function (name) {
+
+        const rec = councilByFunction[name];
+
+        let role1 = rec["organisation_euro"]
+        if(role1 !== "ecb"){
+          return;
+        }
+
+        let yearStart = rec["year_start"]
+        let yearStop  = rec["year_stop"]
+        if (yearStop === 0) {
+          yearStop = 9999;
+        }
+
+        // console.log(   `${yearStart} < ${currentYear}  <   ${yearStop}` )
+        if(yearStart <= yr  &&  yearStop >= yr){
+          // is current
+        } else {
+          return;
+        }
+
+        const card = buildMemberCard(rec);
+        councilList.appendChild(card);
+
+      });  // end of foreach
+
+    }
+
+
     // --- onChange handler: update the chart option (stub) ---
     sliderEl.addEventListener('change', function () {
 
       const res = sliderToKey();
       labelEl.textContent = res.lbl;
+
+      populateLeftPanel(res.yr)
 
       // mutate option and re-apply
       let option3;
@@ -984,6 +1133,13 @@
 
 
 
+    sliderEl.dispatchEvent(
+      new InputEvent('change', {
+        bubbles:    true,
+        cancelable: true,
+      })
+    );
+
 
   })();   // end of outmost aync func - so we can you fetch inside
 
@@ -992,93 +1148,6 @@
 
 </script>
 
-
-
-
-<style>
-
-  #council_list {
-    overflow-y: scroll;
-    max-height: 90%;
-  }
-  #council_list p {
-    margin: 0;
-    padding: 0;
-  }
-
-</style>
-
-
-  <script>
-
-
-    const councilList = document.getElementById("council_list");
-
-
-    namesSorted = Object.keys(councilByFunction);  // sorting is done in python pre-processing 
-    namesSorted.forEach(function (name) {
-
-      const rec = councilByFunction[name];
-
-      let role1 = rec["organisation_euro"]
-      if(role1 !== "ecb"){
-        return;
-      }
-
-      const cardDiv = document.createElement("div");
-      cardDiv.style.marginBottom = "0.4rem";
-      cardDiv.style.padding = "0.15rem";
-
-      if (rec.role_euro === "president") {
-        cardDiv.style.backgroundColor = "#e6f2ff";
-      } else if (rec.role_euro === "vice-president") {
-        cardDiv.style.backgroundColor = "#e6f2ee";
-      } else {
-        // "executive board", "chief economist"
-        cardDiv.style.backgroundColor = "#eeeeee";
-      }
-
-      const nameParagraph = document.createElement("p");
-      const boldName = document.createElement("strong");
-      boldName.textContent = rec.name;
-      nameParagraph.appendChild(boldName);
-      cardDiv.appendChild(nameParagraph);
-
-      Object.keys(rec).forEach(function (fieldKey) {
-
-        if (fieldKey === "name") {
-          return;
-        }
-        if (fieldKey === "name_excel") {
-          return;
-        }
-        if (fieldKey === "starting_date") {
-          return;
-        }
-        if (fieldKey === "termination_date") {
-          return;
-        }
-        if (fieldKey === "organisation_euro") {
-          return;
-        }
-        // if (rec[fieldKey] === null) {
-        //   return;
-        // }
-        if (rec[fieldKey] === "") {
-          return;
-        }
-
-        const fieldParagraph = document.createElement("p");
-        // fieldParagraph.textContent = fieldKey + ": " + formatValue(fieldKey, rec[fieldKey]);
-        fieldParagraph.textContent = fieldKey + ": " + rec[fieldKey];
-        cardDiv.appendChild(fieldParagraph);
-      });
-
-      councilList.appendChild(cardDiv);
-    });
-
-    
-  </script>
 
 
 

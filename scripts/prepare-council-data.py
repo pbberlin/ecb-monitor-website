@@ -104,37 +104,51 @@ def testFormatValue():
 def sortByFunction(dataByName):
 
     try:
-
         keysInp = list(dataByName.values())
-
+        roleOrderMap = {
+            "president":       0,
+            "vice-president":  1,
+            "chief economist": 2,
+            "executive board": 3,
+            "board":           4,
+            "executive board": 6,   # ecb
+            "governor":        5,   # non-ecb
+        }
         def generateSortKey(memberRecord):
 
-            sort1a    = memberRecord["organisation_euro"]
-            sort1b    = memberRecord["role_euro"]
+            sort1a = memberRecord["organisation_euro"]
+
+            roleValue = memberRecord["role_euro"]
+            if roleValue not in roleOrderMap:
+                raise ValueError(f"Unknown role_euro: {roleValue}")
+
+            sort1b = roleOrderMap[roleValue]
 
             fullName = memberRecord["name"]
             nameParts = fullName.split(" ")
             sort2 = nameParts[-1]
 
-            sort3     = memberRecord["starting_date"]
+            sort3 = memberRecord["starting_date"]
 
+            # print(f" sorting by {sort1a}-{sort1b}-{sort2}-{sort3}")
             return (sort1a, sort1b, sort2, sort3)
 
         keysSorted = sorted(keysInp, key=generateSortKey)
 
-        if False:
-            print("--- Sorted Results ---")
+        if True:
+            print("\t\t--- Sorted Results ---")
+            headTail = 5
             for idx1, member in enumerate(keysSorted):
                 name = member["name"]
                 date = member["starting_date"]
-                role = member["role_euro"]                
-                print(f"{idx1 + 1}. {date} | {role} | {name}")
+                role = member["role_euro"]
+                if idx1 < headTail  or idx1 > (len(keysSorted) - headTail):
+                    print(f"\t\t{idx1 + 1:2}. {date} | {role} | {name}")
 
         return keysSorted
 
     except Exception as exc:
-        print(f"sortJson() exc {exc} " )
-
+        print(f"sortJson() exc {exc} ")
 
 
 
@@ -155,24 +169,25 @@ def convertPickleToJs(
         if not isinstance(dta, pd.DataFrame):
             dta = pd.DataFrame(dta)
 
-        
+        print(f"\t  found {len(dta)} records in data frame")
+
         # columns and the key column values
         cols = dta.columns.tolist()
-        dbg = ", ".join(cols)
-        print(f"cols: {dbg}")
-
         if keyColName not in cols:
             raise f"{keyColName} must be in cols {cols}"
         else:
-            print(f"keyColName '{keyColName}' found cols")
+            print(f"\t  keyColName '{keyColName}' and {len(cols)} cols total")
+            # dbg = ", ".join(cols)
+            # print(f"cols: {dbg}")
+
 
 
         keyCol = dta[keyColName].tolist()
+        print(f"\t  '{len(keyCol)}' rows found by {keyColName}")
         for idx1, keyColVal in enumerate(keyCol):
-            if idx1 > 3:
+            if idx1 > 2:
                 break
-            print(f"\tkey col '{keyColName}' val  - {keyColVal}")
-
+            print(f"\t     key col '{keyColName}' val  - {keyColVal}")
 
 
         out = {}
@@ -180,15 +195,15 @@ def convertPickleToJs(
         organisation_euro = defaultdict(int)
         role_euro         = defaultdict(int)
 
-        # Iterate columns to create first level keys
+        # iterate columns to create first level keys
         for idx1, colName in enumerate(cols):
             
             col = dta[colName].tolist()
 
             if idx1 < 1:
-                print(f" first five row keys  {keyCol[:5]} ")
+                print(f"\t  first five row keys  { ', '.join(keyCol[:5]) } ")
 
-            # Iterate rows to create second level keys (cell values)
+            # iterate rows to create second level keys (cell values)
             for idx2, vl in enumerate(col):
 
                 if vl is None:
@@ -238,17 +253,47 @@ def convertPickleToJs(
                 if colName == "role_euro":
                     role_euro[vl] += 1
 
-        # sort - starting_date, organisation_euro, role_euro, name - last token
 
 
-        print(f"organisation_euro {organisation_euro} ")
-        print(f"role_euro         {role_euro} ")
+        for idx1, key in enumerate(out):
+
+
+            out[key]["from_to"] = f"{out[key]['year_start']} - {out[key]['year_stop']}"
+            if out[key]['year_stop'] == 0:
+                out[key]["from_to"] = f"since {out[key]['year_start']}  "
+
+            title = f"{out[key]['role_euro']}"
+            title = str(title).strip()
+            out[key]["role_euro__from_to"]  = f"{title.capitalize()},  {out[key]['from_to']} "
+
+
+            out[key]["career"]  = f"{out[key]['field_of_study']}"
+
+            if out[key]['career_1']:
+                out[key]["career"] += f", {out[key]['career_1']}"
+            if out[key]['career_2']:
+                out[key]["career"] += f", {out[key]['career_2']}"
+
+            out[key]["born_raised"]  = f"*{out[key]['birth_year']}, {out[key]['country']}"
+
+
+
+
+        for idx1, key in enumerate(out):
+            # out[key].pop("year_start", None) 
+            # out[key].pop("year_stop",  None) 
+            out[key].pop("career_1",   None) 
+            out[key].pop("career_2",   None) 
+
+
+        print(f"\t  organisation_euro {', '.join(organisation_euro)} ")
+        print(f"\t  role_euro         {', '.join(role_euro)} ")
 
         jsonString = json.dumps(out, indent=4)
         jsContent = f"const {varName}={jsonString}; \n\n"
         with outPthJs1.open("w", encoding="utf-8") as fileHandle:
             fileHandle.write(jsContent)
-        print(f"converted \n\t{pthPickle} to \n\t{outPthJs1}")
+        print(f"converted \n\t{pthPickle} to \n\t{outPthJs1} - {len(out)} rows")
 
 
         byFunction = sortByFunction(out)
@@ -256,7 +301,7 @@ def convertPickleToJs(
         jsContent  = f"councilByFunction={jsonString}; \n\n"
         with outPthJs2.open("w", encoding="utf-8") as fileHandle:
             fileHandle.write(jsContent)
-        print(f"converted \n\t{pthPickle} to \n\t{outPthJs2}")
+        print(f"converted \n\t{pthPickle} to \n\t{outPthJs2} - {len(byFunction)} rows")
 
 
 
@@ -269,7 +314,7 @@ def convertPickleToJs(
 
 scriptDir = Path(__file__).resolve().parent
 appDir    = scriptDir.parent
-print(f"\t script     {Path(__file__).resolve()}   start")
+print(f"\tscript     {Path(__file__).resolve()}   start")
 
 
 

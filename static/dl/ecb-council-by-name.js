@@ -7,8 +7,6 @@ const councilByName={
         "birth_year": 1939,
         "gender": "male",
         "field_of_study": "Law",
-        "career_1": "Bank",
-        "career_2": "Stock Market",
         "starting_date": "1995-01-01 00:00:00",
         "year_start": 1995,
         "termination_date": "2008-08-31 00:00:00",
@@ -16,7 +14,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 36,
-        "hawkish_score": 0.45
+        "hawkish_score": 0.45,
+        "from_to": "1995 - 2008",
+        "role_euro__from_to": "Governor,  1995 - 2008 ",
+        "career": "Law, Bank, Stock Market",
+        "born_raised": "*1939, Austria"
     },
     "Ewald Nowotny": {
         "name": "Ewald Nowotny",
@@ -26,8 +28,6 @@ const councilByName={
         "birth_year": 1944,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Professor",
-        "career_2": "",
         "starting_date": "2008-09-01 00:00:00",
         "year_start": 2008,
         "termination_date": "2019-08-31 00:00:00",
@@ -35,7 +35,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 23,
-        "hawkish_score": -0.13
+        "hawkish_score": -0.13,
+        "from_to": "2008 - 2019",
+        "role_euro__from_to": "Governor,  2008 - 2019 ",
+        "career": "Economics, Professor",
+        "born_raised": "*1944, Austria"
     },
     "Robert Holzmann": {
         "name": "Robert Holzmann",
@@ -45,8 +49,6 @@ const councilByName={
         "birth_year": 1949,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "OECD",
-        "career_2": "Professsor",
         "starting_date": "2019-09-01 00:00:00",
         "year_start": 2019,
         "termination_date": "0",
@@ -54,7 +56,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 11,
-        "hawkish_score": 0.34
+        "hawkish_score": 0.34,
+        "from_to": "since 2019  ",
+        "role_euro__from_to": "Governor,  since 2019   ",
+        "career": "Economics, OECD, Professsor",
+        "born_raised": "*1949, Austria"
     },
     "Guy Quaden": {
         "name": "Guy Quaden",
@@ -64,8 +70,6 @@ const councilByName={
         "birth_year": 1945,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Univerity",
-        "career_2": "",
         "starting_date": "1999-03-01 00:00:00",
         "year_start": 1999,
         "termination_date": "2011-03-31 00:00:00",
@@ -73,7 +77,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 21,
-        "hawkish_score": 0.23
+        "hawkish_score": 0.23,
+        "from_to": "1999 - 2011",
+        "role_euro__from_to": "Governor,  1999 - 2011 ",
+        "career": "Economics, Univerity",
+        "born_raised": "*1945, Belgium"
     },
     "Luc Coene": {
         "name": "Luc Coene",
@@ -83,8 +91,6 @@ const councilByName={
         "birth_year": 1945,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "National Bank",
-        "career_2": "Poltics",
         "starting_date": "2011-04-01 00:00:00",
         "year_start": 2011,
         "termination_date": "2015-03-10 00:00:00",
@@ -92,7 +98,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 1,
-        "hawkish_score": 0.9
+        "hawkish_score": 0.9,
+        "from_to": "2011 - 2015",
+        "role_euro__from_to": "Governor,  2011 - 2015 ",
+        "career": "Economics, National Bank, Poltics",
+        "born_raised": "*1945, Belgium"
     },
     "Jan Smets": {
         "name": "Jan Smets",
@@ -102,8 +112,6 @@ const councilByName={
         "birth_year": 1951,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "National Bank",
-        "career_2": "Board of Director",
         "starting_date": "2015-03-11 00:00:00",
         "year_start": 2015,
         "termination_date": "2019-01-01 00:00:00",
@@ -111,7 +119,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 5,
-        "hawkish_score": -0.08
+        "hawkish_score": -0.08,
+        "from_to": "2015 - 2019",
+        "role_euro__from_to": "Governor,  2015 - 2019 ",
+        "career": "Economics, National Bank, Board of Director",
+        "born_raised": "*1951, Belgium"
     },
     "Pierre Wunsch": {
         "name": "Pierre Wunsch",
@@ -121,8 +133,6 @@ const councilByName={
         "birth_year": 1967,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Research",
-        "career_2": "Politics",
         "starting_date": "2019-01-02 00:00:00",
         "year_start": 2019,
         "termination_date": "0",
@@ -130,7 +140,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 4,
-        "hawkish_score": 0.68
+        "hawkish_score": 0.68,
+        "from_to": "since 2019  ",
+        "role_euro__from_to": "Governor,  since 2019   ",
+        "career": "Economics, Research, Politics",
+        "born_raised": "*1967, Belgium"
     },
     "Christodoulos Christodoulou": {
         "name": "Christodoulos Christodoulou",
@@ -140,8 +154,6 @@ const councilByName={
         "birth_year": 1939,
         "gender": "male",
         "field_of_study": "Law",
-        "career_1": "Teacher",
-        "career_2": "Politcs",
         "starting_date": "2004-04-01 00:00:00",
         "year_start": 2004,
         "termination_date": "2007-12-31 00:00:00",
@@ -149,7 +161,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2008,
         "count_speeches": "",
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "2004 - 2007",
+        "role_euro__from_to": "Governor,  2004 - 2007 ",
+        "career": "Law, Teacher, Politcs",
+        "born_raised": "*1939, Cyprus"
     },
     "Athanasios Orphanides": {
         "name": "Athanasios Orphanides",
@@ -159,8 +175,6 @@ const councilByName={
         "birth_year": 1962,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Economist",
-        "career_2": "",
         "starting_date": "2008-01-01 00:00:00",
         "year_start": 2008,
         "termination_date": "2012-05-02 00:00:00",
@@ -168,7 +182,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2008,
         "count_speeches": 2,
-        "hawkish_score": 0.6
+        "hawkish_score": 0.6,
+        "from_to": "2008 - 2012",
+        "role_euro__from_to": "Governor,  2008 - 2012 ",
+        "career": "Economics, Economist",
+        "born_raised": "*1962, Cyprus"
     },
     "Panicos Demetriades": {
         "name": "Panicos Demetriades",
@@ -178,8 +196,6 @@ const councilByName={
         "birth_year": 1959,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Research",
-        "career_2": "National Bank",
         "starting_date": "2012-05-03 00:00:00",
         "year_start": 2012,
         "termination_date": "2014-04-10 00:00:00",
@@ -187,7 +203,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2008,
         "count_speeches": 0,
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "2012 - 2014",
+        "role_euro__from_to": "Governor,  2012 - 2014 ",
+        "career": "Economics, Research, National Bank",
+        "born_raised": "*1959, Cyprus"
     },
     "Chrystalla Georghadji": {
         "name": "Chrystalla Georghadji",
@@ -197,8 +217,6 @@ const councilByName={
         "birth_year": 1956,
         "gender": "female",
         "field_of_study": "Economics",
-        "career_1": "Research",
-        "career_2": "Court of Audit",
         "starting_date": "2014-04-11 00:00:00",
         "year_start": 2014,
         "termination_date": "2019-04-01 00:00:00",
@@ -206,7 +224,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2008,
         "count_speeches": "",
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "2014 - 2019",
+        "role_euro__from_to": "Governor,  2014 - 2019 ",
+        "career": "Economics, Research, Court of Audit",
+        "born_raised": "*1956, Cyprus"
     },
     "Constantinos Herodotou": {
         "name": "Constantinos Herodotou",
@@ -216,8 +238,6 @@ const councilByName={
         "birth_year": 1970,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Investestmen Banker",
-        "career_2": "",
         "starting_date": "2019-04-02 00:00:00",
         "year_start": 2019,
         "termination_date": "0",
@@ -225,7 +245,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": 2008,
         "count_speeches": 2,
-        "hawkish_score": 0.85
+        "hawkish_score": 0.85,
+        "from_to": "since 2019  ",
+        "role_euro__from_to": "Governor,  since 2019   ",
+        "career": "Economics, Investestmen Banker",
+        "born_raised": "*1970, Cyprus"
     },
     "Andres Lipstok": {
         "name": "Andres Lipstok",
@@ -235,8 +259,6 @@ const councilByName={
         "birth_year": 1957,
         "gender": "male",
         "field_of_study": "Finance",
-        "career_1": "Politics",
-        "career_2": "",
         "starting_date": "2005-06-07 00:00:00",
         "year_start": 2005,
         "termination_date": "2012-06-07 00:00:00",
@@ -244,7 +266,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2011,
         "count_speeches": 6,
-        "hawkish_score": 0.23
+        "hawkish_score": 0.23,
+        "from_to": "2005 - 2012",
+        "role_euro__from_to": "Governor,  2005 - 2012 ",
+        "career": "Finance, Politics",
+        "born_raised": "*1957, Estonia"
     },
     "Ardo Hansson": {
         "name": "Ardo Hansson",
@@ -254,8 +280,6 @@ const councilByName={
         "birth_year": 1958,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Politics",
-        "career_2": "",
         "starting_date": "2012-06-08 00:00:00",
         "year_start": 2012,
         "termination_date": "2019-06-06 00:00:00",
@@ -263,7 +287,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2011,
         "count_speeches": 4,
-        "hawkish_score": 0.15
+        "hawkish_score": 0.15,
+        "from_to": "2012 - 2019",
+        "role_euro__from_to": "Governor,  2012 - 2019 ",
+        "career": "Economics, Politics",
+        "born_raised": "*1958, Estonia"
     },
     "Madis M\u00fcller": {
         "name": "Madis M\u00fcller",
@@ -273,8 +301,6 @@ const councilByName={
         "birth_year": 1977,
         "gender": "male",
         "field_of_study": "Finance",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "2019-06-07 00:00:00",
         "year_start": 2019,
         "termination_date": "0",
@@ -282,7 +308,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": 2011,
         "count_speeches": 1,
-        "hawkish_score": 1.0
+        "hawkish_score": 1.0,
+        "from_to": "since 2019  ",
+        "role_euro__from_to": "Governor,  since 2019   ",
+        "career": "Finance, Bank",
+        "born_raised": "*1977, Estonia"
     },
     "Sirkka H\u00e4m\u00e4l\u00e4inen": {
         "name": "Sirkka H\u00e4m\u00e4l\u00e4inen",
@@ -292,8 +322,6 @@ const councilByName={
         "birth_year": 1939,
         "gender": "female",
         "field_of_study": "Economics",
-        "career_1": "CentralBank",
-        "career_2": "",
         "starting_date": "1998-06-01 00:00:00",
         "year_start": 1998,
         "termination_date": "2003-05-31 00:00:00",
@@ -301,7 +329,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": "",
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "1998 - 2003",
+        "role_euro__from_to": "Executive board,  1998 - 2003 ",
+        "career": "Economics, CentralBank",
+        "born_raised": "*1939, Finland"
     },
     "Matti Vanhala": {
         "name": "Matti Vanhala",
@@ -311,8 +343,6 @@ const councilByName={
         "birth_year": 1946,
         "gender": "male",
         "field_of_study": "Political Science",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "1998-01-01 00:00:00",
         "year_start": 1998,
         "termination_date": "2004-07-11 00:00:00",
@@ -320,7 +350,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 2,
-        "hawkish_score": 0.65
+        "hawkish_score": 0.65,
+        "from_to": "1998 - 2004",
+        "role_euro__from_to": "Governor,  1998 - 2004 ",
+        "career": "Political Science, Bank",
+        "born_raised": "*1946, Finland"
     },
     "Erkki Liikanen": {
         "name": "Erkki Liikanen",
@@ -330,8 +364,6 @@ const councilByName={
         "birth_year": 1950,
         "gender": "male",
         "field_of_study": "Political Science",
-        "career_1": "Politics",
-        "career_2": "",
         "starting_date": "2004-07-12 00:00:00",
         "year_start": 2004,
         "termination_date": "2018-07-11 00:00:00",
@@ -339,7 +371,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 50,
-        "hawkish_score": -0.06
+        "hawkish_score": -0.06,
+        "from_to": "2004 - 2018",
+        "role_euro__from_to": "Governor,  2004 - 2018 ",
+        "career": "Political Science, Politics",
+        "born_raised": "*1950, Finland"
     },
     "Olli Rehn": {
         "name": "Olli Rehn",
@@ -349,8 +385,6 @@ const councilByName={
         "birth_year": 1962,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Politics",
-        "career_2": "",
         "starting_date": "2018-07-12 00:00:00",
         "year_start": 2018,
         "termination_date": "0",
@@ -358,7 +392,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 60,
-        "hawkish_score": -0.18
+        "hawkish_score": -0.18,
+        "from_to": "since 2018  ",
+        "role_euro__from_to": "Governor,  since 2018   ",
+        "career": "Economics, Politics",
+        "born_raised": "*1962, Finland"
     },
     "Jean-Claude Trichet": {
         "name": "Jean-Claude Trichet",
@@ -368,8 +406,6 @@ const councilByName={
         "birth_year": 1942,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "AdminFinance",
-        "career_2": "",
         "starting_date": "2003-11-01 00:00:00",
         "year_start": 2003,
         "termination_date": "2011-10-31 00:00:00",
@@ -377,7 +413,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 399,
-        "hawkish_score": 0.44
+        "hawkish_score": 0.44,
+        "from_to": "2003 - 2011",
+        "role_euro__from_to": "President,  2003 - 2011 ",
+        "career": "Economics, AdminFinance",
+        "born_raised": "*1942, France"
     },
     "Christian Noyer": {
         "name": "Christian Noyer",
@@ -387,8 +427,6 @@ const councilByName={
         "birth_year": 1950,
         "gender": "male",
         "field_of_study": "Law",
-        "career_1": "AdminFinance",
-        "career_2": "",
         "starting_date": "1998-06-01 00:00:00",
         "year_start": 1998,
         "termination_date": "2002-05-31 00:00:00",
@@ -396,7 +434,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 43,
-        "hawkish_score": 0.54
+        "hawkish_score": 0.54,
+        "from_to": "1998 - 2002",
+        "role_euro__from_to": "Vice-president,  1998 - 2002 ",
+        "career": "Law, AdminFinance",
+        "born_raised": "*1950, France"
     },
     "Fran\u00e7ois Villeroy de Galhau": {
         "name": "Fran\u00e7ois Villeroy de Galhau",
@@ -406,8 +448,6 @@ const councilByName={
         "birth_year": 1959,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Bank",
-        "career_2": "Politics",
         "starting_date": "2015-11-01 00:00:00",
         "year_start": 2015,
         "termination_date": "0",
@@ -415,7 +455,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 150,
-        "hawkish_score": -0.02
+        "hawkish_score": -0.02,
+        "from_to": "since 2015  ",
+        "role_euro__from_to": "Governor,  since 2015   ",
+        "career": "Economics, Bank, Politics",
+        "born_raised": "*1959, France"
     },
     "Ernst Welteke": {
         "name": "Ernst Welteke",
@@ -425,8 +469,6 @@ const councilByName={
         "birth_year": 1942,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Politics",
-        "career_2": "",
         "starting_date": "1999-09-01 00:00:00",
         "year_start": 1999,
         "termination_date": "2004-04-16 00:00:00",
@@ -434,7 +476,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 19,
-        "hawkish_score": 0.4
+        "hawkish_score": 0.4,
+        "from_to": "1999 - 2004",
+        "role_euro__from_to": "Governor,  1999 - 2004 ",
+        "career": "Economics, Politics",
+        "born_raised": "*1942, Germany"
     },
     "Axel Weber": {
         "name": "Axel Weber",
@@ -444,8 +490,6 @@ const councilByName={
         "birth_year": 1957,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Professor",
-        "career_2": "",
         "starting_date": "2004-04-30 00:00:00",
         "year_start": 2004,
         "termination_date": "2011-04-30 00:00:00",
@@ -453,7 +497,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 55,
-        "hawkish_score": 0.59
+        "hawkish_score": 0.59,
+        "from_to": "2004 - 2011",
+        "role_euro__from_to": "Governor,  2004 - 2011 ",
+        "career": "Economics, Professor",
+        "born_raised": "*1957, Germany"
     },
     "Jens Weidmann": {
         "name": "Jens Weidmann",
@@ -463,8 +511,6 @@ const councilByName={
         "birth_year": 1968,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Politics",
-        "career_2": "Sachverst\u00e4ndigen Rates",
         "starting_date": "2011-05-01 00:00:00",
         "year_start": 2011,
         "termination_date": "2021-12-31 00:00:00",
@@ -472,7 +518,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 143,
-        "hawkish_score": 0.57
+        "hawkish_score": 0.57,
+        "from_to": "2011 - 2021",
+        "role_euro__from_to": "Governor,  2011 - 2021 ",
+        "career": "Economics, Politics, Sachverst\u00e4ndigen Rates",
+        "born_raised": "*1968, Germany"
     },
     "Joachim Nagel": {
         "name": "Joachim Nagel",
@@ -482,8 +532,6 @@ const councilByName={
         "birth_year": 1966,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "2022-01-01 00:00:00",
         "year_start": 2022,
         "termination_date": "0",
@@ -491,7 +539,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 62,
-        "hawkish_score": 0.77
+        "hawkish_score": 0.77,
+        "from_to": "since 2022  ",
+        "role_euro__from_to": "Governor,  since 2022   ",
+        "career": "Economics, Bank",
+        "born_raised": "*1966, Germany"
     },
     "Lucas Papademos": {
         "name": "Lucas Papademos",
@@ -501,8 +553,6 @@ const councilByName={
         "birth_year": 1947,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "CentralBank",
-        "career_2": "",
         "starting_date": "2002-06-01 00:00:00",
         "year_start": 2002,
         "termination_date": "2010-05-31 00:00:00",
@@ -510,7 +560,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2001,
         "count_speeches": 69,
-        "hawkish_score": 0.37
+        "hawkish_score": 0.37,
+        "from_to": "2002 - 2010",
+        "role_euro__from_to": "Vice-president,  2002 - 2010 ",
+        "career": "Economics, CentralBank",
+        "born_raised": "*1947, Greece"
     },
     "Nicholas C Garganas": {
         "name": "Nicholas C Garganas",
@@ -520,8 +574,6 @@ const councilByName={
         "birth_year": 1937,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "CentralBank",
-        "career_2": "",
         "starting_date": "2002-06-01 00:00:00",
         "year_start": 2002,
         "termination_date": "2008-06-14 00:00:00",
@@ -529,7 +581,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2001,
         "count_speeches": 10,
-        "hawkish_score": 0.58
+        "hawkish_score": 0.58,
+        "from_to": "2002 - 2008",
+        "role_euro__from_to": "Governor,  2002 - 2008 ",
+        "career": "Economics, CentralBank",
+        "born_raised": "*1937, Greece"
     },
     "George A Provopoulos": {
         "name": "George A Provopoulos",
@@ -539,8 +595,6 @@ const councilByName={
         "birth_year": 1950,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "2008-06-15 00:00:00",
         "year_start": 2008,
         "termination_date": "2014-06-30 00:00:00",
@@ -548,7 +602,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2001,
         "count_speeches": 13,
-        "hawkish_score": -0.3
+        "hawkish_score": -0.3,
+        "from_to": "2008 - 2014",
+        "role_euro__from_to": "Governor,  2008 - 2014 ",
+        "career": "Economics, Bank",
+        "born_raised": "*1950, Greece"
     },
     "Yannis Stournaras": {
         "name": "Yannis Stournaras",
@@ -558,8 +616,6 @@ const councilByName={
         "birth_year": 1956,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Politics",
-        "career_2": "Professor",
         "starting_date": "2014-06-10 00:00:00",
         "year_start": 2014,
         "termination_date": "0",
@@ -567,7 +623,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": 2001,
         "count_speeches": 61,
-        "hawkish_score": -0.22
+        "hawkish_score": -0.22,
+        "from_to": "since 2014  ",
+        "role_euro__from_to": "Governor,  since 2014   ",
+        "career": "Economics, Politics, Professor",
+        "born_raised": "*1956, Greece"
     },
     "Maurice O\u2019Connell": {
         "name": "Maurice O\u2019Connell",
@@ -577,8 +637,6 @@ const councilByName={
         "birth_year": 1936,
         "gender": "male",
         "field_of_study": "Law",
-        "career_1": "University",
-        "career_2": "",
         "starting_date": "1994-01-01 00:00:00",
         "year_start": 1994,
         "termination_date": "2002-02-28 00:00:00",
@@ -586,7 +644,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 4,
-        "hawkish_score": 0.65
+        "hawkish_score": 0.65,
+        "from_to": "1994 - 2002",
+        "role_euro__from_to": "Governor,  1994 - 2002 ",
+        "career": "Law, University",
+        "born_raised": "*1936, Ireland"
     },
     "John Hurley": {
         "name": "John Hurley",
@@ -596,8 +658,6 @@ const councilByName={
         "birth_year": 1945,
         "gender": "male",
         "field_of_study": "Law",
-        "career_1": "AdminFinance",
-        "career_2": "",
         "starting_date": "2002-03-01 00:00:00",
         "year_start": 2002,
         "termination_date": "2009-09-30 00:00:00",
@@ -605,7 +665,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 35,
-        "hawkish_score": 0.26
+        "hawkish_score": 0.26,
+        "from_to": "2002 - 2009",
+        "role_euro__from_to": "Governor,  2002 - 2009 ",
+        "career": "Law, AdminFinance",
+        "born_raised": "*1945, Ireland"
     },
     "Patrick Honohan": {
         "name": "Patrick Honohan",
@@ -615,8 +679,6 @@ const councilByName={
         "birth_year": 1949,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "2009-10-01 00:00:00",
         "year_start": 2009,
         "termination_date": "2015-11-25 00:00:00",
@@ -624,7 +686,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 25,
-        "hawkish_score": -0.09
+        "hawkish_score": -0.09,
+        "from_to": "2009 - 2015",
+        "role_euro__from_to": "Governor,  2009 - 2015 ",
+        "career": "Economics, Bank",
+        "born_raised": "*1949, Ireland"
     },
     "Philip R. Lane": {
         "name": "Philip R. Lane",
@@ -634,8 +700,6 @@ const councilByName={
         "birth_year": 1969,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Professor",
-        "career_2": "Research",
         "starting_date": "2019-06-01 00:00:00",
         "year_start": 2019,
         "termination_date": "0",
@@ -643,7 +707,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 59,
-        "hawkish_score": -0.1
+        "hawkish_score": -0.1,
+        "from_to": "since 2019  ",
+        "role_euro__from_to": "Chief economist,  since 2019   ",
+        "career": "Economics, Professor, Research",
+        "born_raised": "*1969, Ireland"
     },
     "Gabriel Makhlouf": {
         "name": "Gabriel Makhlouf",
@@ -653,8 +721,6 @@ const councilByName={
         "birth_year": 1960,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Civil Service",
-        "career_2": "",
         "starting_date": "2019-09-01 00:00:00",
         "year_start": 2019,
         "termination_date": "0",
@@ -662,7 +728,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 48,
-        "hawkish_score": 0.32
+        "hawkish_score": 0.32,
+        "from_to": "since 2019  ",
+        "role_euro__from_to": "Governor,  since 2019   ",
+        "career": "Economics, Civil Service",
+        "born_raised": "*1960, Ireland"
     },
     "Antonio Fazio": {
         "name": "Antonio Fazio",
@@ -672,8 +742,6 @@ const councilByName={
         "birth_year": 1936,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "CentralBank",
-        "career_2": "",
         "starting_date": "1993-05-04 00:00:00",
         "year_start": 1993,
         "termination_date": "2005-12-20 00:00:00",
@@ -681,7 +749,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 17,
-        "hawkish_score": 0.39
+        "hawkish_score": 0.39,
+        "from_to": "1993 - 2005",
+        "role_euro__from_to": "Governor,  1993 - 2005 ",
+        "career": "Economics, CentralBank",
+        "born_raised": "*1936, Italy"
     },
     "Mario Draghi": {
         "name": "Mario Draghi",
@@ -691,8 +763,6 @@ const councilByName={
         "birth_year": 1947,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Professor",
-        "career_2": "Bank",
         "starting_date": "2011-11-01 00:00:00",
         "year_start": 2011,
         "termination_date": "2019-10-31 00:00:00",
@@ -700,7 +770,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 253,
-        "hawkish_score": -0.63
+        "hawkish_score": -0.63,
+        "from_to": "2011 - 2019",
+        "role_euro__from_to": "President,  2011 - 2019 ",
+        "career": "Economics, Professor, Bank",
+        "born_raised": "*1947, Italy"
     },
     "Ignazio Visco": {
         "name": "Ignazio Visco",
@@ -710,8 +784,6 @@ const councilByName={
         "birth_year": 1949,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "2011-11-01 00:00:00",
         "year_start": 2011,
         "termination_date": "2023-10-31 00:00:00",
@@ -719,7 +791,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 97,
-        "hawkish_score": -0.35
+        "hawkish_score": -0.35,
+        "from_to": "2011 - 2023",
+        "role_euro__from_to": "Governor,  2011 - 2023 ",
+        "career": "Economics, Bank",
+        "born_raised": "*1949, Italy"
     },
     "Fabio Panetta": {
         "name": "Fabio Panetta",
@@ -729,8 +805,6 @@ const councilByName={
         "birth_year": 1959,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Bank",
-        "career_2": "OECD",
         "starting_date": "2020-01-01 00:00:00",
         "year_start": 2020,
         "termination_date": "2023-10-31 00:00:00",
@@ -738,7 +812,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 28,
-        "hawkish_score": 0.07
+        "hawkish_score": 0.07,
+        "from_to": "2020 - 2023",
+        "role_euro__from_to": "Executive board,  2020 - 2023 ",
+        "career": "Economics, Bank, OECD",
+        "born_raised": "*1959, Italy"
     },
     "Einars Rep\u0161e": {
         "name": "Einars Rep\u0161e",
@@ -748,8 +826,6 @@ const councilByName={
         "birth_year": "",
         "gender": "",
         "field_of_study": "",
-        "career_1": "",
-        "career_2": "",
         "starting_date": "1991-09-03 00:00:00",
         "year_start": 1991,
         "termination_date": "2001-12-20 00:00:00",
@@ -757,7 +833,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2014,
         "count_speeches": 4,
-        "hawkish_score": 0.47
+        "hawkish_score": 0.47,
+        "from_to": "1991 - 2001",
+        "role_euro__from_to": "Governor,  1991 - 2001 ",
+        "career": "",
+        "born_raised": "*, Latvia"
     },
     "Ilm\u0101rs Rim\u0161\u0113vi\u010ds": {
         "name": "Ilm\u0101rs Rim\u0161\u0113vi\u010ds",
@@ -767,8 +847,6 @@ const councilByName={
         "birth_year": 1965,
         "gender": "male",
         "field_of_study": "Engineering, Business administration",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "2001-12-21 00:00:00",
         "year_start": 2001,
         "termination_date": "2019-12-20 00:00:00",
@@ -776,7 +854,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2014,
         "count_speeches": 2,
-        "hawkish_score": -0.1
+        "hawkish_score": -0.1,
+        "from_to": "2001 - 2019",
+        "role_euro__from_to": "Governor,  2001 - 2019 ",
+        "career": "Engineering, Business administration, Bank",
+        "born_raised": "*1965, Latvia"
     },
     "M\u0101rti\u0146\u0161 Kaz\u0101ks": {
         "name": "M\u0101rti\u0146\u0161 Kaz\u0101ks",
@@ -786,8 +868,6 @@ const councilByName={
         "birth_year": 1973,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "2019-12-21 00:00:00",
         "year_start": 2019,
         "termination_date": "0",
@@ -795,7 +875,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": 2014,
         "count_speeches": "",
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "since 2019  ",
+        "role_euro__from_to": "Governor,  since 2019   ",
+        "career": "Economics, Bank",
+        "born_raised": "*1973, Latvia"
     },
     "Reinoldijus \u0160arkinas": {
         "name": "Reinoldijus \u0160arkinas",
@@ -805,8 +889,6 @@ const councilByName={
         "birth_year": "",
         "gender": "",
         "field_of_study": "",
-        "career_1": "",
-        "career_2": "",
         "starting_date": "1996-01-01 00:00:00",
         "year_start": 1996,
         "termination_date": "2011-04-15 00:00:00",
@@ -814,7 +896,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2015,
         "count_speeches": "",
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "1996 - 2011",
+        "role_euro__from_to": "Governor,  1996 - 2011 ",
+        "career": "",
+        "born_raised": "*, Lithuania"
     },
     "Vitas Vasiliauskas\u00a0": {
         "name": "Vitas Vasiliauskas\u00a0",
@@ -824,8 +910,6 @@ const councilByName={
         "birth_year": 1973,
         "gender": "male",
         "field_of_study": "Law",
-        "career_1": "Politcs",
-        "career_2": "Bank",
         "starting_date": "2011-04-16 00:00:00",
         "year_start": 2011,
         "termination_date": "2021-04-07 00:00:00",
@@ -833,7 +917,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2015,
         "count_speeches": 3,
-        "hawkish_score": -0.27
+        "hawkish_score": -0.27,
+        "from_to": "2011 - 2021",
+        "role_euro__from_to": "Governor,  2011 - 2021 ",
+        "career": "Law, Politcs, Bank",
+        "born_raised": "*1973, Lithuania"
     },
     "Gediminas \u0160imkus": {
         "name": "Gediminas \u0160imkus",
@@ -843,8 +931,6 @@ const councilByName={
         "birth_year": 1977,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Economist",
-        "career_2": "Bank",
         "starting_date": "2021-04-08 00:00:00",
         "year_start": 2021,
         "termination_date": "0",
@@ -852,7 +938,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": 2015,
         "count_speeches": 2,
-        "hawkish_score": 0.2
+        "hawkish_score": 0.2,
+        "from_to": "since 2021  ",
+        "role_euro__from_to": "Governor,  since 2021   ",
+        "career": "Economics, Economist, Bank",
+        "born_raised": "*1977, Lithuania"
     },
     "Yves Mersch": {
         "name": "Yves Mersch",
@@ -862,8 +952,6 @@ const councilByName={
         "birth_year": 1949,
         "gender": "male",
         "field_of_study": "Law",
-        "career_1": "Politcs",
-        "career_2": "",
         "starting_date": "2012-12-15 00:00:00",
         "year_start": 2012,
         "termination_date": "2020-12-14 00:00:00",
@@ -871,7 +959,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 98,
-        "hawkish_score": -0.17
+        "hawkish_score": -0.17,
+        "from_to": "2012 - 2020",
+        "role_euro__from_to": "Executive board,  2012 - 2020 ",
+        "career": "Law, Politcs",
+        "born_raised": "*1949, Luxembourg"
     },
     "Gaston Reinesch": {
         "name": "Gaston Reinesch",
@@ -881,8 +973,6 @@ const councilByName={
         "birth_year": 1958,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Professor",
-        "career_2": "Consultant",
         "starting_date": "2013-01-01 00:00:00",
         "year_start": 2013,
         "termination_date": "0",
@@ -890,7 +980,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 2,
-        "hawkish_score": -0.8
+        "hawkish_score": -0.8,
+        "from_to": "since 2013  ",
+        "role_euro__from_to": "Governor,  since 2013   ",
+        "career": "Economics, Professor, Consultant",
+        "born_raised": "*1958, Luxembourg"
     },
     "Michael Bonello": {
         "name": "Michael Bonello",
@@ -900,8 +994,6 @@ const councilByName={
         "birth_year": 1945,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "CentralBank",
-        "career_2": "",
         "starting_date": "1999-10-01 00:00:00",
         "year_start": 1999,
         "termination_date": "2011-06-30 00:00:00",
@@ -909,7 +1001,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2008,
         "count_speeches": 35,
-        "hawkish_score": 0.43
+        "hawkish_score": 0.43,
+        "from_to": "1999 - 2011",
+        "role_euro__from_to": "Governor,  1999 - 2011 ",
+        "career": "Economics, CentralBank",
+        "born_raised": "*1945, Malta"
     },
     "Josef Bonnici": {
         "name": "Josef Bonnici",
@@ -919,8 +1015,6 @@ const councilByName={
         "birth_year": 1953,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Politcs",
-        "career_2": "",
         "starting_date": "2011-07-01 00:00:00",
         "year_start": 2011,
         "termination_date": "2016-06-30 00:00:00",
@@ -928,7 +1022,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2008,
         "count_speeches": 6,
-        "hawkish_score": -0.47
+        "hawkish_score": -0.47,
+        "from_to": "2011 - 2016",
+        "role_euro__from_to": "Governor,  2011 - 2016 ",
+        "career": "Economics, Politcs",
+        "born_raised": "*1953, Malta"
     },
     "Mario Vella": {
         "name": "Mario Vella",
@@ -938,8 +1036,6 @@ const councilByName={
         "birth_year": 1905,
         "gender": "male",
         "field_of_study": "Phylosphy, Economics",
-        "career_1": "Politics",
-        "career_2": "Professor",
         "starting_date": "2016-07-01 00:00:00",
         "year_start": 2016,
         "termination_date": "2020-12-31 00:00:00",
@@ -947,7 +1043,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2008,
         "count_speeches": 6,
-        "hawkish_score": -0.12
+        "hawkish_score": -0.12,
+        "from_to": "2016 - 2020",
+        "role_euro__from_to": "Governor,  2016 - 2020 ",
+        "career": "Phylosphy, Economics, Politics, Professor",
+        "born_raised": "*1905, Malta"
     },
     "Edward Scicluna": {
         "name": "Edward Scicluna",
@@ -957,8 +1057,6 @@ const councilByName={
         "birth_year": 1946,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Teacher",
-        "career_2": "Audit",
         "starting_date": "2021-01-01 00:00:00",
         "year_start": 2021,
         "termination_date": "0",
@@ -966,7 +1064,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": 2008,
         "count_speeches": 5,
-        "hawkish_score": 0.5
+        "hawkish_score": 0.5,
+        "from_to": "since 2021  ",
+        "role_euro__from_to": "Governor,  since 2021   ",
+        "career": "Economics, Teacher, Audit",
+        "born_raised": "*1946, Malta"
     },
     "Willem F Duisenberg": {
         "name": "Willem F Duisenberg",
@@ -976,8 +1078,6 @@ const councilByName={
         "birth_year": 1935,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Politics",
-        "career_2": "",
         "starting_date": "1997-07-01 00:00:00",
         "year_start": 1997,
         "termination_date": "2003-10-31 00:00:00",
@@ -985,7 +1085,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 130,
-        "hawkish_score": 0.39
+        "hawkish_score": 0.39,
+        "from_to": "1997 - 2003",
+        "role_euro__from_to": "President,  1997 - 2003 ",
+        "career": "Economics, Politics",
+        "born_raised": "*1935, Netherlands"
     },
     "Nout Wellink": {
         "name": "Nout Wellink",
@@ -995,8 +1099,6 @@ const councilByName={
         "birth_year": 1967,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "1997-07-01 00:00:00",
         "year_start": 1997,
         "termination_date": "2011-06-30 00:00:00",
@@ -1004,7 +1106,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 36,
-        "hawkish_score": 0.3
+        "hawkish_score": 0.3,
+        "from_to": "1997 - 2011",
+        "role_euro__from_to": "Governor,  1997 - 2011 ",
+        "career": "Economics, Bank",
+        "born_raised": "*1967, Netherlands"
     },
     "Klaas Knot": {
         "name": "Klaas Knot",
@@ -1014,8 +1120,6 @@ const councilByName={
         "birth_year": 1967,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "CentralBank",
-        "career_2": "",
         "starting_date": "2011-07-01 00:00:00",
         "year_start": 2011,
         "termination_date": "0",
@@ -1023,7 +1127,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 63,
-        "hawkish_score": 0.27
+        "hawkish_score": 0.27,
+        "from_to": "since 2011  ",
+        "role_euro__from_to": "Governor,  since 2011   ",
+        "career": "Economics, CentralBank",
+        "born_raised": "*1967, Netherlands"
     },
     "Ant\u00f3nio Jos\u00e9 Fernandes de Sousa": {
         "name": "Ant\u00f3nio Jos\u00e9 Fernandes de Sousa",
@@ -1033,8 +1141,6 @@ const councilByName={
         "birth_year": 1955,
         "gender": "male",
         "field_of_study": "Management Sciences",
-        "career_1": "Private",
-        "career_2": "",
         "starting_date": "1994-01-01 00:00:00",
         "year_start": 1994,
         "termination_date": "2000-01-31 00:00:00",
@@ -1042,7 +1148,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": "",
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "1994 - 2000",
+        "role_euro__from_to": "Governor,  1994 - 2000 ",
+        "career": "Management Sciences, Private",
+        "born_raised": "*1955, Portugal"
     },
     "V\u00edtor Const\u00e2ncio": {
         "name": "V\u00edtor Const\u00e2ncio",
@@ -1052,8 +1162,6 @@ const councilByName={
         "birth_year": 1943,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Politics",
-        "career_2": "",
         "starting_date": "2010-06-01 00:00:00",
         "year_start": 2010,
         "termination_date": "2018-05-31 00:00:00",
@@ -1061,7 +1169,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 92,
-        "hawkish_score": -0.47
+        "hawkish_score": -0.47,
+        "from_to": "2010 - 2018",
+        "role_euro__from_to": "Vice-president,  2010 - 2018 ",
+        "career": "Economics, Politics",
+        "born_raised": "*1943, Portugal"
     },
     "Carlos da Silva Costa": {
         "name": "Carlos da Silva Costa",
@@ -1071,8 +1183,6 @@ const councilByName={
         "birth_year": 1949,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Resaerch",
-        "career_2": "",
         "starting_date": "2010-06-07 00:00:00",
         "year_start": 2010,
         "termination_date": "2020-07-19 00:00:00",
@@ -1080,7 +1190,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 14,
-        "hawkish_score": -0.1
+        "hawkish_score": -0.1,
+        "from_to": "2010 - 2020",
+        "role_euro__from_to": "Governor,  2010 - 2020 ",
+        "career": "Economics, Resaerch",
+        "born_raised": "*1949, Portugal"
     },
     "M\u00e1rio Centeno": {
         "name": "M\u00e1rio Centeno",
@@ -1090,8 +1204,6 @@ const councilByName={
         "birth_year": 1966,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Politics",
-        "career_2": "Professor",
         "starting_date": "2020-07-20 00:00:00",
         "year_start": 2020,
         "termination_date": "0",
@@ -1099,7 +1211,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 14,
-        "hawkish_score": -0.04
+        "hawkish_score": -0.04,
+        "from_to": "since 2020  ",
+        "role_euro__from_to": "Governor,  since 2020   ",
+        "career": "Economics, Politics, Professor",
+        "born_raised": "*1966, Portugal"
     },
     "Mari\u00e1n Jusko": {
         "name": "Mari\u00e1n Jusko",
@@ -1109,8 +1225,6 @@ const councilByName={
         "birth_year": "",
         "gender": "",
         "field_of_study": "",
-        "career_1": "",
-        "career_2": "",
         "starting_date": "1999-07-30 00:00:00",
         "year_start": 1999,
         "termination_date": "2004-12-31 00:00:00",
@@ -1118,7 +1232,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2009,
         "count_speeches": 1,
-        "hawkish_score": 0.0
+        "hawkish_score": 0.0,
+        "from_to": "1999 - 2004",
+        "role_euro__from_to": "Governor,  1999 - 2004 ",
+        "career": "",
+        "born_raised": "*, Slovakia"
     },
     "Ivan \u0160ramko": {
         "name": "Ivan \u0160ramko",
@@ -1128,8 +1246,6 @@ const councilByName={
         "birth_year": 1957,
         "gender": "male",
         "field_of_study": "Management Sciences",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "2005-01-01 00:00:00",
         "year_start": 2005,
         "termination_date": "2010-01-11 00:00:00",
@@ -1137,7 +1253,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2009,
         "count_speeches": 0,
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "2005 - 2010",
+        "role_euro__from_to": "Governor,  2005 - 2010 ",
+        "career": "Management Sciences, Bank",
+        "born_raised": "*1957, Slovakia"
     },
     "Jozef Mak\u00fach": {
         "name": "Jozef Mak\u00fach",
@@ -1147,8 +1267,6 @@ const councilByName={
         "birth_year": 1953,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Bank",
-        "career_2": "Professor",
         "starting_date": "2010-01-12 00:00:00",
         "year_start": 2010,
         "termination_date": "2019-05-31 00:00:00",
@@ -1156,7 +1274,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2009,
         "count_speeches": 1,
-        "hawkish_score": 0.0
+        "hawkish_score": 0.0,
+        "from_to": "2010 - 2019",
+        "role_euro__from_to": "Governor,  2010 - 2019 ",
+        "career": "Economics, Bank, Professor",
+        "born_raised": "*1953, Slovakia"
     },
     "Peter Ka\u017eim\u00edr": {
         "name": "Peter Ka\u017eim\u00edr",
@@ -1166,8 +1288,6 @@ const councilByName={
         "birth_year": 1968,
         "gender": "male",
         "field_of_study": "International Relations",
-        "career_1": "Firms",
-        "career_2": "Politics",
         "starting_date": "2019-06-01 00:00:00",
         "year_start": 2019,
         "termination_date": "0",
@@ -1175,7 +1295,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": 2009,
         "count_speeches": "",
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "since 2019  ",
+        "role_euro__from_to": "Governor,  since 2019   ",
+        "career": "International Relations, Firms, Politics",
+        "born_raised": "*1968, Slovakia"
     },
     "France Arhar": {
         "name": "France Arhar",
@@ -1185,8 +1309,6 @@ const councilByName={
         "birth_year": "",
         "gender": "",
         "field_of_study": "",
-        "career_1": "",
-        "career_2": "",
         "starting_date": "1991-03-06 00:00:00",
         "year_start": 1991,
         "termination_date": "2001-03-31 00:00:00",
@@ -1194,7 +1316,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2007,
         "count_speeches": "",
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "1991 - 2001",
+        "role_euro__from_to": "Governor,  1991 - 2001 ",
+        "career": "",
+        "born_raised": "*, Slovenia"
     },
     "Mitja Gaspari": {
         "name": "Mitja Gaspari",
@@ -1204,8 +1330,6 @@ const councilByName={
         "birth_year": 1951,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "CentralBank",
-        "career_2": "",
         "starting_date": "2001-04-01 00:00:00",
         "year_start": 2001,
         "termination_date": "2007-03-31 00:00:00",
@@ -1213,7 +1337,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2007,
         "count_speeches": "",
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "2001 - 2007",
+        "role_euro__from_to": "Governor,  2001 - 2007 ",
+        "career": "Economics, CentralBank",
+        "born_raised": "*1951, Slovenia"
     },
     "Marko Kranjec": {
         "name": "Marko Kranjec",
@@ -1223,8 +1351,6 @@ const councilByName={
         "birth_year": 1940,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "University",
-        "career_2": "",
         "starting_date": "2007-07-16 00:00:00",
         "year_start": 2007,
         "termination_date": "2013-07-16 00:00:00",
@@ -1232,7 +1358,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2007,
         "count_speeches": "",
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "2007 - 2013",
+        "role_euro__from_to": "Governor,  2007 - 2013 ",
+        "career": "Economics, University",
+        "born_raised": "*1940, Slovenia"
     },
     "Bo\u0161tjan Jazbec": {
         "name": "Bo\u0161tjan Jazbec",
@@ -1242,8 +1372,6 @@ const councilByName={
         "birth_year": 1970,
         "gender": "???",
         "field_of_study": "Economics",
-        "career_1": "OtherAdmin",
-        "career_2": "",
         "starting_date": "2013-07-17 00:00:00",
         "year_start": 2013,
         "termination_date": "2018-04-30 00:00:00",
@@ -1251,7 +1379,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2007,
         "count_speeches": 1,
-        "hawkish_score": -0.8
+        "hawkish_score": -0.8,
+        "from_to": "2013 - 2018",
+        "role_euro__from_to": "Governor,  2013 - 2018 ",
+        "career": "Economics, OtherAdmin",
+        "born_raised": "*1970, Slovenia"
     },
     "Bo\u0161tjan Vasle": {
         "name": "Bo\u0161tjan Vasle",
@@ -1261,8 +1393,6 @@ const councilByName={
         "birth_year": 1969,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Research/Expertise",
-        "career_2": "",
         "starting_date": "2019-01-09 00:00:00",
         "year_start": 2019,
         "termination_date": "0",
@@ -1270,7 +1400,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": 2007,
         "count_speeches": 5,
-        "hawkish_score": 0.72
+        "hawkish_score": 0.72,
+        "from_to": "since 2019  ",
+        "role_euro__from_to": "Governor,  since 2019   ",
+        "career": "Economics, Research/Expertise",
+        "born_raised": "*1969, Slovenia"
     },
     "Luis \u00c1ngel Rojo": {
         "name": "Luis \u00c1ngel Rojo",
@@ -1280,8 +1414,6 @@ const councilByName={
         "birth_year": 1934,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "CentralBank",
-        "career_2": "",
         "starting_date": "1992-01-01 00:00:00",
         "year_start": 1992,
         "termination_date": "2000-07-20 00:00:00",
@@ -1289,7 +1421,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 1,
-        "hawkish_score": 0.7
+        "hawkish_score": 0.7,
+        "from_to": "1992 - 2000",
+        "role_euro__from_to": "Governor,  1992 - 2000 ",
+        "career": "Economics, CentralBank",
+        "born_raised": "*1934, Spain"
     },
     "Jaime Caruana\u00a0": {
         "name": "Jaime Caruana\u00a0",
@@ -1299,8 +1435,6 @@ const councilByName={
         "birth_year": "",
         "gender": "",
         "field_of_study": "",
-        "career_1": "",
-        "career_2": "",
         "starting_date": "2000-07-21 00:00:00",
         "year_start": 2000,
         "termination_date": "2006-07-12 00:00:00",
@@ -1308,7 +1442,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 16,
-        "hawkish_score": 0.37
+        "hawkish_score": 0.37,
+        "from_to": "2000 - 2006",
+        "role_euro__from_to": "Governor,  2000 - 2006 ",
+        "career": "",
+        "born_raised": "*, Spain"
     },
     "Miguel Fernandez Ordonez": {
         "name": "Miguel Fernandez Ordonez",
@@ -1318,8 +1456,6 @@ const councilByName={
         "birth_year": 1945,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "OtherAdmin",
-        "career_2": "",
         "starting_date": "2006-03-08 00:00:00",
         "year_start": 2006,
         "termination_date": "2012-06-10 00:00:00",
@@ -1327,7 +1463,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 35,
-        "hawkish_score": 0.12
+        "hawkish_score": 0.12,
+        "from_to": "2006 - 2012",
+        "role_euro__from_to": "Governor,  2006 - 2012 ",
+        "career": "Economics, OtherAdmin",
+        "born_raised": "*1945, Spain"
     },
     "Luis Mar\u00eda Linde": {
         "name": "Luis Mar\u00eda Linde",
@@ -1337,8 +1477,6 @@ const councilByName={
         "birth_year": 1945,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Politcs",
-        "career_2": "",
         "starting_date": "2012-06-11 00:00:00",
         "year_start": 2012,
         "termination_date": "2018-06-10 00:00:00",
@@ -1346,7 +1484,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 52,
-        "hawkish_score": -0.54
+        "hawkish_score": -0.54,
+        "from_to": "2012 - 2018",
+        "role_euro__from_to": "Governor,  2012 - 2018 ",
+        "career": "Economics, Politcs",
+        "born_raised": "*1945, Spain"
     },
     "Pablo Hern\u00e1ndez de Cos": {
         "name": "Pablo Hern\u00e1ndez de Cos",
@@ -1356,8 +1498,6 @@ const councilByName={
         "birth_year": 1971,
         "gender": "male",
         "field_of_study": "Law, Economics, Business",
-        "career_1": "Research",
-        "career_2": "Bank",
         "starting_date": "2018-06-11 00:00:00",
         "year_start": 2018,
         "termination_date": "0",
@@ -1365,7 +1505,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 87,
-        "hawkish_score": 0.02
+        "hawkish_score": 0.02,
+        "from_to": "since 2018  ",
+        "role_euro__from_to": "Governor,  since 2018   ",
+        "career": "Law, Economics, Business, Research, Bank",
+        "born_raised": "*1971, Spain"
     },
     "\u017deljko Rohatinski": {
         "name": "\u017deljko Rohatinski",
@@ -1375,8 +1519,6 @@ const councilByName={
         "birth_year": 1951,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Economist",
-        "career_2": "",
         "starting_date": "2000-07-12 00:00:00",
         "year_start": 2000,
         "termination_date": "2012-07-07 00:00:00",
@@ -1384,7 +1526,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": 2023,
         "count_speeches": 2,
-        "hawkish_score": 0.2
+        "hawkish_score": 0.2,
+        "from_to": "2000 - 2012",
+        "role_euro__from_to": "Governor,  2000 - 2012 ",
+        "career": "Economics, Economist",
+        "born_raised": "*1951, Croatia"
     },
     "Boris Vuj\u010di\u0107": {
         "name": "Boris Vuj\u010di\u0107",
@@ -1394,8 +1540,6 @@ const councilByName={
         "birth_year": 1964,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "EZB (external advisor in the Monetary Matters Department)",
-        "career_2": "",
         "starting_date": "2012-07-08 00:00:00",
         "year_start": 2012,
         "termination_date": "0",
@@ -1403,7 +1547,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": 2023,
         "count_speeches": 7,
-        "hawkish_score": 0.34
+        "hawkish_score": 0.34,
+        "from_to": "since 2012  ",
+        "role_euro__from_to": "Governor,  since 2012   ",
+        "career": "Economics, EZB (external advisor in the Monetary Matters Department)",
+        "born_raised": "*1964, Croatia"
     },
     "Eugenio Domingo Solans": {
         "name": "Eugenio Domingo Solans",
@@ -1413,8 +1561,6 @@ const councilByName={
         "birth_year": 1945,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "University",
-        "career_2": "",
         "starting_date": "1998-06-01 00:00:00",
         "year_start": 1998,
         "termination_date": "2004-05-31 00:00:00",
@@ -1422,7 +1568,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": "",
-        "hawkish_score": ""
+        "hawkish_score": "",
+        "from_to": "1998 - 2004",
+        "role_euro__from_to": "Executive board,  1998 - 2004 ",
+        "career": "Economics, University",
+        "born_raised": "*1945, Spain"
     },
     "Tommaso Padoa-Schioppa": {
         "name": "Tommaso Padoa-Schioppa",
@@ -1432,8 +1582,6 @@ const councilByName={
         "birth_year": 1940,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "CentralBank",
-        "career_2": "",
         "starting_date": "1998-06-01 00:00:00",
         "year_start": 1998,
         "termination_date": "2005-05-31 00:00:00",
@@ -1441,7 +1589,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 1,
-        "hawkish_score": 0.0
+        "hawkish_score": 0.0,
+        "from_to": "1998 - 2005",
+        "role_euro__from_to": "Executive board,  1998 - 2005 ",
+        "career": "Economics, CentralBank",
+        "born_raised": "*1940, Italy"
     },
     "Otmar Issing": {
         "name": "Otmar Issing",
@@ -1451,8 +1603,6 @@ const councilByName={
         "birth_year": 1936,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "University",
-        "career_2": "",
         "starting_date": "1998-06-01 00:00:00",
         "year_start": 1998,
         "termination_date": "2006-05-31 00:00:00",
@@ -1460,7 +1610,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 18,
-        "hawkish_score": 0.64
+        "hawkish_score": 0.64,
+        "from_to": "1998 - 2006",
+        "role_euro__from_to": "Chief economist,  1998 - 2006 ",
+        "career": "Economics, University",
+        "born_raised": "*1936, Germany"
     },
     "Gertrude Tumpel-Gugerell": {
         "name": "Gertrude Tumpel-Gugerell",
@@ -1470,8 +1624,6 @@ const councilByName={
         "birth_year": 1952,
         "gender": "female",
         "field_of_study": "Economics",
-        "career_1": "CentralBank",
-        "career_2": "",
         "starting_date": "2003-06-01 00:00:00",
         "year_start": 2003,
         "termination_date": "2011-05-31 00:00:00",
@@ -1479,7 +1631,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 25,
-        "hawkish_score": 0.18
+        "hawkish_score": 0.18,
+        "from_to": "2003 - 2011",
+        "role_euro__from_to": "Executive board,  2003 - 2011 ",
+        "career": "Economics, CentralBank",
+        "born_raised": "*1952, Austria"
     },
     "Jose Manuel Gonzalez-Paramo": {
         "name": "Jose Manuel Gonzalez-Paramo",
@@ -1489,8 +1645,6 @@ const councilByName={
         "birth_year": 1958,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "University",
-        "career_2": "",
         "starting_date": "2004-06-01 00:00:00",
         "year_start": 2004,
         "termination_date": "2012-05-31 00:00:00",
@@ -1498,7 +1652,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 39,
-        "hawkish_score": 0.22
+        "hawkish_score": 0.22,
+        "from_to": "2004 - 2012",
+        "role_euro__from_to": "Executive board,  2004 - 2012 ",
+        "career": "Economics, University",
+        "born_raised": "*1958, Spain"
     },
     "Lorenzo Bini Smaghi": {
         "name": "Lorenzo Bini Smaghi",
@@ -1508,8 +1666,6 @@ const councilByName={
         "birth_year": 1956,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "CentralBank",
-        "career_2": "",
         "starting_date": "2005-06-01 00:00:00",
         "year_start": 2005,
         "termination_date": "2011-12-31 00:00:00",
@@ -1517,7 +1673,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 63,
-        "hawkish_score": 0.4
+        "hawkish_score": 0.4,
+        "from_to": "2005 - 2011",
+        "role_euro__from_to": "Executive board,  2005 - 2011 ",
+        "career": "Economics, CentralBank",
+        "born_raised": "*1956, Italy"
     },
     "J\u00fcrgen Stark": {
         "name": "J\u00fcrgen Stark",
@@ -1527,8 +1687,6 @@ const councilByName={
         "birth_year": 1948,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "AdminFinance",
-        "career_2": "",
         "starting_date": "2006-06-01 00:00:00",
         "year_start": 2006,
         "termination_date": "2011-12-31 00:00:00",
@@ -1536,7 +1694,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 48,
-        "hawkish_score": 0.57
+        "hawkish_score": 0.57,
+        "from_to": "2006 - 2011",
+        "role_euro__from_to": "Chief economist,  2006 - 2011 ",
+        "career": "Economics, AdminFinance",
+        "born_raised": "*1948, Germany"
     },
     "Peter Praet": {
         "name": "Peter Praet",
@@ -1546,8 +1708,6 @@ const councilByName={
         "birth_year": 1949,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Bank",
-        "career_2": "Politics",
         "starting_date": "2011-06-01 00:00:00",
         "year_start": 2011,
         "termination_date": "2019-05-31 00:00:00",
@@ -1555,7 +1715,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 130,
-        "hawkish_score": -0.67
+        "hawkish_score": -0.67,
+        "from_to": "2011 - 2019",
+        "role_euro__from_to": "Chief economist,  2011 - 2019 ",
+        "career": "Economics, Bank, Politics",
+        "born_raised": "*1949, Belgium"
     },
     "J\u00f6rg Asmussen": {
         "name": "J\u00f6rg Asmussen",
@@ -1565,8 +1729,6 @@ const councilByName={
         "birth_year": 1966,
         "gender": "male",
         "field_of_study": "Business Administration, Economics",
-        "career_1": "Bank",
-        "career_2": "Research",
         "starting_date": "2012-01-01 00:00:00",
         "year_start": 2012,
         "termination_date": "2014-01-08 00:00:00",
@@ -1574,7 +1736,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 21,
-        "hawkish_score": 0.08
+        "hawkish_score": 0.08,
+        "from_to": "2012 - 2014",
+        "role_euro__from_to": "Executive board,  2012 - 2014 ",
+        "career": "Business Administration, Economics, Bank, Research",
+        "born_raised": "*1966, Germany"
     },
     "Beno\u00eet C\u0153ur\u00e9": {
         "name": "Beno\u00eet C\u0153ur\u00e9",
@@ -1584,8 +1750,6 @@ const councilByName={
         "birth_year": 1969,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Economist",
-        "career_2": "Politics",
         "starting_date": "2012-01-01 00:00:00",
         "year_start": 2012,
         "termination_date": "2019-12-31 00:00:00",
@@ -1593,7 +1757,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 190,
-        "hawkish_score": -0.48
+        "hawkish_score": -0.48,
+        "from_to": "2012 - 2019",
+        "role_euro__from_to": "Executive board,  2012 - 2019 ",
+        "career": "Economics, Economist, Politics",
+        "born_raised": "*1969, France"
     },
     "Sabine Lautenschl\u00e4ger": {
         "name": "Sabine Lautenschl\u00e4ger",
@@ -1603,8 +1771,6 @@ const councilByName={
         "birth_year": 1964,
         "gender": "female",
         "field_of_study": "Law",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "2014-01-27 00:00:00",
         "year_start": 2014,
         "termination_date": "2019-10-31 00:00:00",
@@ -1612,7 +1778,11 @@ const councilByName={
         "incumbent": false,
         "euro_accession_year": "",
         "count_speeches": 34,
-        "hawkish_score": -0.1
+        "hawkish_score": -0.1,
+        "from_to": "2014 - 2019",
+        "role_euro__from_to": "Executive board,  2014 - 2019 ",
+        "career": "Law, Bank",
+        "born_raised": "*1964, Germany"
     },
     "Luis de Guindos": {
         "name": "Luis de Guindos",
@@ -1622,8 +1792,6 @@ const councilByName={
         "birth_year": 1960,
         "gender": "male",
         "field_of_study": "Economics, Business",
-        "career_1": "Credit",
-        "career_2": "Politics",
         "starting_date": "2018-06-01 00:00:00",
         "year_start": 2018,
         "termination_date": "0",
@@ -1631,7 +1799,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 75,
-        "hawkish_score": -0.04
+        "hawkish_score": -0.04,
+        "from_to": "since 2018  ",
+        "role_euro__from_to": "Vice-president,  since 2018   ",
+        "career": "Economics, Business, Credit, Politics",
+        "born_raised": "*1960, Spain"
     },
     "Christine Lagarde": {
         "name": "Christine Lagarde",
@@ -1641,8 +1813,6 @@ const councilByName={
         "birth_year": 1956,
         "gender": "femlae",
         "field_of_study": "Law",
-        "career_1": "IMF",
-        "career_2": "Politics",
         "starting_date": "2019-11-01 00:00:00",
         "year_start": 2019,
         "termination_date": "0",
@@ -1650,7 +1820,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 134,
-        "hawkish_score": 0.15
+        "hawkish_score": 0.15,
+        "from_to": "since 2019  ",
+        "role_euro__from_to": "President,  since 2019   ",
+        "career": "Law, IMF, Politics",
+        "born_raised": "*1956, France"
     },
     "Isabel Schnabel": {
         "name": "Isabel Schnabel",
@@ -1660,8 +1834,6 @@ const councilByName={
         "birth_year": 1971,
         "gender": "female",
         "field_of_study": "Economics",
-        "career_1": "Research",
-        "career_2": "Professor",
         "starting_date": "2020-01-01 00:00:00",
         "year_start": 2020,
         "termination_date": "0",
@@ -1669,7 +1841,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 52,
-        "hawkish_score": 0.11
+        "hawkish_score": 0.11,
+        "from_to": "since 2020  ",
+        "role_euro__from_to": "Executive board,  since 2020   ",
+        "career": "Economics, Research, Professor",
+        "born_raised": "*1971, Germany"
     },
     "Frank Elderson": {
         "name": "Frank Elderson",
@@ -1679,8 +1855,6 @@ const councilByName={
         "birth_year": 1970,
         "gender": "male",
         "field_of_study": "Law",
-        "career_1": "Bank",
-        "career_2": "",
         "starting_date": "2020-12-15 00:00:00",
         "year_start": 2020,
         "termination_date": "0",
@@ -1688,7 +1862,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 16,
-        "hawkish_score": 0.42
+        "hawkish_score": 0.42,
+        "from_to": "since 2020  ",
+        "role_euro__from_to": "Executive board,  since 2020   ",
+        "career": "Law, Bank",
+        "born_raised": "*1970, Netherlands"
     },
     "Piero Cipollone": {
         "name": "Piero Cipollone",
@@ -1698,8 +1876,6 @@ const councilByName={
         "birth_year": 1962,
         "gender": "male",
         "field_of_study": "Economics",
-        "career_1": "Economist",
-        "career_2": "Bank",
         "starting_date": "2023-11-01 00:00:00",
         "year_start": 2023,
         "termination_date": "0",
@@ -1707,7 +1883,11 @@ const councilByName={
         "incumbent": true,
         "euro_accession_year": "",
         "count_speeches": 6,
-        "hawkish_score": 0.33
+        "hawkish_score": 0.33,
+        "from_to": "since 2023  ",
+        "role_euro__from_to": "Executive board,  since 2023   ",
+        "career": "Economics, Economist, Bank",
+        "born_raised": "*1962, Italy"
     }
 }; 
 
