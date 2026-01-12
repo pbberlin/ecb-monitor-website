@@ -273,6 +273,17 @@ trlsRaw = [
             "en": "Color saturation",
         },
     },
+
+    {
+        "career_education":    {
+            "de": "Ausbildung, Berufserfahrung",
+            "en": "Education, professional expertise",
+        },
+    },
+
+
+
+
 ]
 
 

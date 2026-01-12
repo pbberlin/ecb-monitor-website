@@ -540,9 +540,17 @@
 
 <!-- <script type="text/javascript"> -->
 
+<!-- 
+  'module'
+    runs after  HTML is fully parsed
+    runs before DOMContentLoaded fires
+
+    images, fonts not yet being loaded
+    layout  sizes not yet available
+-->
 <script type="module">
 
-  // wrap everything in an async func, since we need `await fetch(...)` at top level
+  // wrap in async func, since we need `await fetch(...)` at top level
   (async () => {
 
     const myChartDom  = document.getElementById('echart_container');
