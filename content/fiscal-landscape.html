@@ -128,13 +128,16 @@
 
 
 
+  /* content styles, why was the z-index needed?  */
   .control-pad {
     position: relative;   /*  z-index  */
-    z-index: 10;
-    margin: 0.4rem;
-    border-radius: 0.2rem;
+    z-index:  10;
+   
+    margin:  0.4rem;
     padding: 0.5rem 1.1rem;
-    background-color: rgba(217,233,236,0.25)
+    
+    border-radius: 0.2rem;
+    background-color: rgba(217,233,236,0.25);
   }
 
   .slider-group {
@@ -553,9 +556,28 @@
   // wrap in async func, since we need `await fetch(...)` at top level
   (async () => {
 
+    const root        = document.documentElement;
     const myChartDom  = document.getElementById('echart_container');
     const currentYear = new Date().getFullYear();
+
+
     const elOpa = document.getElementById("color_opacity");
+    let storedOpacity = localStorage.getItem("initOpacity");
+    let initOpacity = 0.6;
+    if (storedOpacity !== null) {
+        initOpacity = parseFloat(storedOpacity);
+        // console.log(`  initOpacity from store ${initOpacity}  `)
+    }
+    root.style.setProperty("--initOpacity", initOpacity.toString());
+    elOpa.value = initOpacity;
+
+
+    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
+
+    const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
+    const colSec = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
+    const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
+    const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
 
 
     // xxxxx
@@ -666,22 +688,7 @@
     }
 
 
-    const root = document.documentElement;
-    const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
-    const colSec = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
-    const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
-    const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
 
-    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
-
-    let storedOpacity = localStorage.getItem("initOpacity");
-    let initOpacity = 0.6;
-    if (storedOpacity !== null) {
-        initOpacity = parseFloat(storedOpacity);
-        // console.log(`  initOpacity from store ${initOpacity}  `)
-    }
-    root.style.setProperty("--initOpacity", initOpacity.toString());
-    elOpa.value = initOpacity;
 
 
     // creating the 'series' config for a pie chart with three random number.
@@ -1527,8 +1534,7 @@
 
     // color_opacity also triggers the option/radio change event
     const extendableList = Array.from(statRadios);
-    const opacityInput   = document.getElementById('color_opacity');
-    extendableList.push(opacityInput);
+    extendableList.push(elOpa);
 
     let timerId = 0;
 

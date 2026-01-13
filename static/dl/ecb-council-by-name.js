@@ -331,7 +331,7 @@ const councilByName={
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "1998 - 2003",
-        "role_euro__from_to": "Executive board,  1998 - 2003 ",
+        "role_euro__from_to": "1998 - 2003 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1939, Finland"
     },
@@ -436,7 +436,7 @@ const councilByName={
         "count_speeches": 43,
         "hawkish_score": 0.54,
         "from_to": "1998 - 2002",
-        "role_euro__from_to": "Vice-president,  1998 - 2002 ",
+        "role_euro__from_to": "Vice-Pres.,  1998 - 2002 ",
         "career": "Law, AdminFinance",
         "born_raised": "*1950, France"
     },
@@ -562,7 +562,7 @@ const councilByName={
         "count_speeches": 69,
         "hawkish_score": 0.37,
         "from_to": "2002 - 2010",
-        "role_euro__from_to": "Vice-president,  2002 - 2010 ",
+        "role_euro__from_to": "Vice-Pres.,  2002 - 2010 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1947, Greece"
     },
@@ -709,7 +709,7 @@ const councilByName={
         "count_speeches": 59,
         "hawkish_score": -0.1,
         "from_to": "since 2019  ",
-        "role_euro__from_to": "Chief economist,  since 2019   ",
+        "role_euro__from_to": "since 2019   ",
         "career": "Economics, Professor, Research",
         "born_raised": "*1969, Ireland"
     },
@@ -814,7 +814,7 @@ const councilByName={
         "count_speeches": 28,
         "hawkish_score": 0.07,
         "from_to": "2020 - 2023",
-        "role_euro__from_to": "Executive board,  2020 - 2023 ",
+        "role_euro__from_to": "2020 - 2023 ",
         "career": "Economics, Bank, OECD",
         "born_raised": "*1959, Italy"
     },
@@ -961,7 +961,7 @@ const councilByName={
         "count_speeches": 98,
         "hawkish_score": -0.17,
         "from_to": "2012 - 2020",
-        "role_euro__from_to": "Executive board,  2012 - 2020 ",
+        "role_euro__from_to": "2012 - 2020 ",
         "career": "Law, Politcs",
         "born_raised": "*1949, Luxembourg"
     },
@@ -1171,7 +1171,7 @@ const councilByName={
         "count_speeches": 92,
         "hawkish_score": -0.47,
         "from_to": "2010 - 2018",
-        "role_euro__from_to": "Vice-president,  2010 - 2018 ",
+        "role_euro__from_to": "Vice-Pres.,  2010 - 2018 ",
         "career": "Economics, Politics",
         "born_raised": "*1943, Portugal"
     },
@@ -1570,7 +1570,7 @@ const councilByName={
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "1998 - 2004",
-        "role_euro__from_to": "Executive board,  1998 - 2004 ",
+        "role_euro__from_to": "1998 - 2004 ",
         "career": "Economics, University",
         "born_raised": "*1945, Spain"
     },
@@ -1591,7 +1591,7 @@ const councilByName={
         "count_speeches": 1,
         "hawkish_score": 0.0,
         "from_to": "1998 - 2005",
-        "role_euro__from_to": "Executive board,  1998 - 2005 ",
+        "role_euro__from_to": "1998 - 2005 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1940, Italy"
     },
@@ -1612,7 +1612,7 @@ const councilByName={
         "count_speeches": 18,
         "hawkish_score": 0.64,
         "from_to": "1998 - 2006",
-        "role_euro__from_to": "Chief economist,  1998 - 2006 ",
+        "role_euro__from_to": "1998 - 2006 ",
         "career": "Economics, University",
         "born_raised": "*1936, Germany"
     },
@@ -1633,7 +1633,7 @@ const councilByName={
         "count_speeches": 25,
         "hawkish_score": 0.18,
         "from_to": "2003 - 2011",
-        "role_euro__from_to": "Executive board,  2003 - 2011 ",
+        "role_euro__from_to": "2003 - 2011 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1952, Austria"
     },
@@ -1654,7 +1654,7 @@ const councilByName={
         "count_speeches": 39,
         "hawkish_score": 0.22,
         "from_to": "2004 - 2012",
-        "role_euro__from_to": "Executive board,  2004 - 2012 ",
+        "role_euro__from_to": "2004 - 2012 ",
         "career": "Economics, University",
         "born_raised": "*1958, Spain"
     },
@@ -1675,7 +1675,7 @@ const councilByName={
         "count_speeches": 63,
         "hawkish_score": 0.4,
         "from_to": "2005 - 2011",
-        "role_euro__from_to": "Executive board,  2005 - 2011 ",
+        "role_euro__from_to": "2005 - 2011 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1956, Italy"
     },
@@ -1696,7 +1696,7 @@ const councilByName={
         "count_speeches": 48,
         "hawkish_score": 0.57,
         "from_to": "2006 - 2011",
-        "role_euro__from_to": "Chief economist,  2006 - 2011 ",
+        "role_euro__from_to": "2006 - 2011 ",
         "career": "Economics, AdminFinance",
         "born_raised": "*1948, Germany"
     },
@@ -1717,7 +1717,7 @@ const councilByName={
         "count_speeches": 130,
         "hawkish_score": -0.67,
         "from_to": "2011 - 2019",
-        "role_euro__from_to": "Chief economist,  2011 - 2019 ",
+        "role_euro__from_to": "2011 - 2019 ",
         "career": "Economics, Bank, Politics",
         "born_raised": "*1949, Belgium"
     },
@@ -1738,7 +1738,7 @@ const councilByName={
         "count_speeches": 21,
         "hawkish_score": 0.08,
         "from_to": "2012 - 2014",
-        "role_euro__from_to": "Executive board,  2012 - 2014 ",
+        "role_euro__from_to": "2012 - 2014 ",
         "career": "Business Administration, Economics, Bank, Research",
         "born_raised": "*1966, Germany"
     },
@@ -1759,7 +1759,7 @@ const councilByName={
         "count_speeches": 190,
         "hawkish_score": -0.48,
         "from_to": "2012 - 2019",
-        "role_euro__from_to": "Executive board,  2012 - 2019 ",
+        "role_euro__from_to": "2012 - 2019 ",
         "career": "Economics, Economist, Politics",
         "born_raised": "*1969, France"
     },
@@ -1780,7 +1780,7 @@ const councilByName={
         "count_speeches": 34,
         "hawkish_score": -0.1,
         "from_to": "2014 - 2019",
-        "role_euro__from_to": "Executive board,  2014 - 2019 ",
+        "role_euro__from_to": "2014 - 2019 ",
         "career": "Law, Bank",
         "born_raised": "*1964, Germany"
     },
@@ -1801,7 +1801,7 @@ const councilByName={
         "count_speeches": 75,
         "hawkish_score": -0.04,
         "from_to": "since 2018  ",
-        "role_euro__from_to": "Vice-president,  since 2018   ",
+        "role_euro__from_to": "Vice-Pres.,  since 2018   ",
         "career": "Economics, Business, Credit, Politics",
         "born_raised": "*1960, Spain"
     },
@@ -1843,7 +1843,7 @@ const councilByName={
         "count_speeches": 52,
         "hawkish_score": 0.11,
         "from_to": "since 2020  ",
-        "role_euro__from_to": "Executive board,  since 2020   ",
+        "role_euro__from_to": "since 2020   ",
         "career": "Economics, Research, Professor",
         "born_raised": "*1971, Germany"
     },
@@ -1864,7 +1864,7 @@ const councilByName={
         "count_speeches": 16,
         "hawkish_score": 0.42,
         "from_to": "since 2020  ",
-        "role_euro__from_to": "Executive board,  since 2020   ",
+        "role_euro__from_to": "since 2020   ",
         "career": "Law, Bank",
         "born_raised": "*1970, Netherlands"
     },
@@ -1885,7 +1885,7 @@ const councilByName={
         "count_speeches": 6,
         "hawkish_score": 0.33,
         "from_to": "since 2023  ",
-        "role_euro__from_to": "Executive board,  since 2023   ",
+        "role_euro__from_to": "since 2023   ",
         "career": "Economics, Economist, Bank",
         "born_raised": "*1962, Italy"
     }

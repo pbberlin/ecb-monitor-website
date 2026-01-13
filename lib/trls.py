@@ -49,6 +49,7 @@ trlsRaw = [
             "en": "ECB Council",
         },
     },
+
     {
         "headline_ecb_monetary_policy": {
             "de": "EZB-Geldpolitik",
@@ -278,6 +279,12 @@ trlsRaw = [
         "career_education":    {
             "de": "Ausbildung, Berufserfahrung",
             "en": "Education, professional expertise",
+        },
+    },
+    {
+        "since":    {
+            "de": "seit",
+            "en": "since",
         },
     },
 

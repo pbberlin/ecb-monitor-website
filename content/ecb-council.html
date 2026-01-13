@@ -85,7 +85,7 @@
     text-align: right;
     /* width: max-content; */
 
-    align-content:   end;
+    /* align-content:   end; */
   }
 
   /* col2 -  fixed 820px, content centered */
@@ -125,13 +125,16 @@
   }
 
 
+  /* content styles, why was the z-index needed?  */
   .control-pad {
     position: relative;   /*  z-index  */
-    z-index: 10;
-    margin: 0.4rem;
-    border-radius: 0.2rem;
+    z-index:  10;
+   
+    margin:  0.4rem;
     padding: 0.5rem 1.1rem;
-    background-color: rgba(217,233,236,0.25)
+    
+    border-radius: 0.2rem;
+    background-color: rgba(217,233,236,0.25);
   }
 
   .slider-group {
@@ -238,34 +241,60 @@
 <style>
 
   #council_list {
-    overflow-y: scroll;
     max-height: 90%;
   }
 
   #council_list .member-card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 0.4rem;
+
     margin:  0;
-    margin-bottom:  0.4rem;
+    margin-bottom:  0.25rem;
     padding: 0;
   }
 
   #council_list .member-card div {
-    margin:  0;
-    padding: 0;
-    font-size: 90%;
+    margin:    0;
+    padding:   0;
+    /* font-size: 90%; */
   }
 
   #council_list .member-card div.name {
     font-weight: bold;
   }
-  #council_list .member-card div.role_euro {
-    /* text-transform: capitalize; */
+  #council_list .member-card div.role_euro__from_to {
+    position: relative;
+    top:      -0.37rem;
   }
 
-  #council_list .member-card div.hawkish_score {
-    position: relative;
-    top:     -0.3rem;
-    font-size: 120%;
+
+  #council_list .member-card div.name,
+  #council_list .member-card div.role_euro__from_to {
+      grid-column: 1;
   }
+  #council_list .member-card div.hawkish_score  {
+
+    position: relative;
+    top:      -0.15rem;
+    font-size: 130%;
+
+    grid-column: 2;
+    grid-row:    1 / span 2;    
+    
+    /* align-self:   start; */
+    align-self:   center;
+    min-width:     3.3rem;    /* enough space for leading negative sign  */
+    padding-right: 0.14rem;
+
+    border-radius: 0.2rem;
+
+  }
+
+
+
+
+
 
 </style>
 
@@ -297,7 +326,22 @@
   <div class="col col--center">
     <div id="echart_container">echart container content</div>
   </div>
-        right col content
+        <!-- right col content -->
+
+
+      <div class="slider-group"
+          style="margin-top: 4.5rem; margin-bottom: 0;"
+          title="change  saturation / opacity of the map colors"
+      >
+        <span style="font-size: 65%; font-weight: 300; display: inline-block; position: relative; top: -5px;"
+        >{{i18n.color_saturation}} </span>
+        <input name="color_opacity" id="color_opacity" type="range" min="0" max="1" step="0.1"
+          value="0.6"
+          style="border:none; width: 6rem;     transform: scale(0.60); "
+        >
+      </div>
+
+
   </div><!-- /col--right -->
 
 
@@ -308,7 +352,7 @@
 
 <script type="text/javascript" src="/static/js/echarts.min.js"                ></script>
 <script type="text/javascript" src="/static/js/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
-<script type="text/javascript" src="/static/dl/ecb-council-by-name.js?v={{staticVersion}}"        ></script>
+<!-- <script type="text/javascript" src="/static/dl/ecb-council-by-name.js?v={{staticVersion}}"        ></script> -->
 <script type="text/javascript" src="/static/dl/ecb-council-by-function.js?v={{staticVersion}}"    ></script>
 
 
@@ -325,13 +369,48 @@
   // wrap in async func, since we need `await fetch(...)` at top level
   (async () => {
 
+    const root        = document.documentElement;
     const myChartDom  = document.getElementById('echart_container');
     const currentYear = new Date().getFullYear();
 
 
+    const elOpa = document.getElementById("color_opacity");
+    let storedOpacity = localStorage.getItem("initOpacity");
+    let initOpacity = 0.6;
+    if (storedOpacity !== null) {
+        initOpacity = parseFloat(storedOpacity);
+        // console.log(`  initOpacity from store ${initOpacity}  `)
+    }
+    root.style.setProperty("--initOpacity", initOpacity.toString());
+    elOpa.value = initOpacity;
+    elOpa.addEventListener('change', function (evt) {
+      localStorage.setItem("initOpacity", evt.target.value.toString());
+      console.log(`selected opacity ${evt.target.value}`);
+
+      sliderEl.dispatchEvent(
+        new InputEvent('change', {
+          bubbles:    true,
+          cancelable: true,
+        })
+      );
+
+    });
+
+
+
     // xxxxx
     let selectedDataMeta = {
+      "main": {
+        "selected_data" : councilByFunction,
+        "formatter": (statsValue) => {
+          return Math.round(statsValue).toString() + ' %'
+        },
+        "color_ranges": [-0.7, 0, 0.7],
+        // yellow - stingy -  blue - flood of liquidity
+        "colors":       [ "#0000A0", "#A0A0A0", "#A0A000"],
+      } ,
     };
+
 
 
     // init
@@ -342,23 +421,120 @@
     }
     // console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
 
+    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
 
-    const myChart = echarts.init(myChartDom, null, {
-      renderer: 'canvas',
-      useDirtyRect: false
-    });
-
-
-
-    const root = document.documentElement;
     const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
     const colSec = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
     const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
     const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
 
-    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
 
 
+    function mapToZeroOne(vl, ranges) {
+
+        let range0 = ranges[0];
+        let range1 = ranges[1];
+        let range2 = ranges[2];
+
+        if (vl <= range1) {
+            let t = (vl - range0) / (range1 - range0);
+            return Math.max(0, Math.min(1, t));
+        } else {
+            let t = (vl - range1) / (range2 - range1);
+            return Math.max(0, Math.min(1, t));
+        }
+    }
+    function valToPctToColor(vl, config) {
+
+        let opacity = initOpacity;
+        if (elOpa){
+          opacity = elOpa.value;
+          opacity = elOpa.value.toString(16);
+          opacity = parseFloat(opacity);
+        }
+        let tmp = Math.floor(opacity * 255);
+        let opacityHex = tmp.toString(16);
+        if (opacityHex.length < 2) {
+            opacityHex = "0" + opacityHex;
+        }
+
+        const gradWrap2 = document.getElementById("gradient1");
+        if (gradWrap2) {
+          gradWrap2.style.opacity = opacity;
+        }
+
+
+        const ranges = config["color_ranges"]
+        const colors = config["colors"]  //     ["#FF0000", "#80A000", "#00A000"]
+
+        function separateVals(hexColor) {
+            let cleanHex = hexColor.replace("#", "");
+            let componentArray = [];
+            for (let idx1 = 0; idx1 < cleanHex.length; idx1 += 2) {
+                let hexPair = cleanHex.substring(idx1, idx1 + 2);
+                let comp = parseInt(hexPair, 16);
+                componentArray.push(comp);
+            }
+            return componentArray;
+        }
+
+        let colorsSeparated = [];
+        for (let [idx1, color] of colors.entries()) {
+            let rgbComponents = separateVals(color);
+            colorsSeparated.push(rgbComponents);
+        }
+
+        // const colR0 = [0x00, 0xA0, 0x00]; // mostly green
+        // const colR1 = [0x80, 0x80, 0x00]; // yellow
+        // const colR2 = [0xff, 0x00, 0x00]; // red
+
+        const colR0 = colorsSeparated[0];
+        const colR1 = colorsSeparated[1];
+        const colR2 = colorsSeparated[2];
+
+
+        function interpolate(a, b, t) {
+            const out = [0, 0, 0];
+            for (let idx1 = 0; idx1 < 3; idx1++) {
+                out[idx1] = Math.round(a[idx1] + (b[idx1] - a[idx1]) * t);
+            }
+            return out;
+        }
+
+        let r0 = ranges[0];
+        let r1 = ranges[1];
+        let r2 = ranges[2];
+
+        let rgb;
+
+        if (vl <= r0) {
+            rgb = colR0.slice();
+        } else if (vl <= r1) {
+            let t = mapToZeroOne(vl, ranges);
+            rgb = interpolate(colR0, colR1, t);
+        } else if (vl <= r2) {
+            let t = mapToZeroOne(vl, ranges);
+            rgb = interpolate(colR1, colR2, t);
+        } else {
+            rgb = colR2.slice();
+        }
+
+        const asHex = rgb.map(function (v) {
+            const  h = v.toString(16);
+            return h.length === 1 ? "0" + h : h;
+        });
+
+        return "#" + asHex.join("") + opacityHex;
+    }
+
+
+
+
+
+    const myChart = echarts.init(myChartDom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
 
 
 
@@ -652,29 +828,9 @@
           };
           // console.log(`  regionsColoring()-3 ${country}`);
           results.push(item);
-
-
-        // try {
-        //   const statsValue    = selectedDataMeta[selectedVar]["selected_data"][yr][country];
-        //   const statsColoring = valToPctToColor(statsValue, selectedDataMeta[selectedVar]  );
-          
-
-          
-        //   // console.log(` ${statsValue} ${ valToPctToColor(statsValue, selectedDataMeta[selectedVar]) }  ${country}`);
-        //   // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
-        //   let item = { name: country, itemStyle: { areaColor: statsColoring,} };
-        //   results.push(item);
-        //   // console.log(`  regionsColoring()-3 ${country} - ${statsValue}`);
-        // } catch (error) {
-        //   console.log(`no stats value for ${country} for ${yr}`)
-        // }
-
       };
 
-
-
       return results;
-
     }
 
 
@@ -1018,20 +1174,38 @@
       for (let idx1 = 0; idx1 < keysDisplay.length; idx1 += 1) {
 
         const ky = keysDisplay[idx1];
-        const vl = member[ky];
+        let   vl = member[ky];
+
+        if(ky === "hawkish_score"){
+          if (Number.isFinite(vl)) {
+            vl = vl.toFixed(2)
+          } else {
+            vl = "0.00"
+            vl = "- \u00A0\u00A0" // non breaking space
+          }
+        }
+
+        if(ky === "role_euro__from_to"){
+          vl = vl.replace("since", "{{i18n.since}}")  ;
+        }
 
         const rowDiv = document.createElement("div");
         rowDiv.className   = ky;
 
         if (vl === null || typeof vl === "undefined") {
-          rowDiv.textContent = `${ky}:`;
+          rowDiv.textContent = `${ky}: -`;
         } else {
           // rowDiv.textContent = `${myKey}: ${String(myVal)}`;
           rowDiv.textContent = `${String(vl)}`;
         }
-        // if (ky === "career"){
-        //   rowDiv.setAttribute("title", "{{i18n.career_education}}")
-        // }
+
+
+        if(ky === "hawkish_score"){
+          let vl2 = member[ky];
+          const bgCol = valToPctToColor(vl2, selectedDataMeta["main"]  );
+          rowDiv.style.backgroundColor = bgCol;
+        }
+
 
         outerDiv.appendChild(rowDiv);
       }
@@ -1090,6 +1264,8 @@
     }
 
 
+
+
     // --- onChange handler: update the chart option (stub) ---
     sliderEl.addEventListener('change', function () {
 
@@ -1130,6 +1306,10 @@
       );
 
     });
+
+
+
+
 
 
 

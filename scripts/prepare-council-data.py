@@ -262,9 +262,17 @@ def convertPickleToJs(
             if out[key]['year_stop'] == 0:
                 out[key]["from_to"] = f"since {out[key]['year_start']}  "
 
-            title = f"{out[key]['role_euro']}"
-            title = str(title).strip()
-            out[key]["role_euro__from_to"]  = f"{title.capitalize()},  {out[key]['from_to']} "
+            officeTitle = f"{out[key]['role_euro']}"
+            officeTitle = str(officeTitle).strip()
+            officeTitle = officeTitle.replace("executive board", "", -1)
+            officeTitle = officeTitle.replace("chief economist", "", -1)
+            officeTitle = officeTitle.replace("vice-president", "Vice-Pres.", -1)
+            officeTitle = officeTitle.title()
+
+            if officeTitle:
+                out[key]["role_euro__from_to"]  = f"{officeTitle.title()},  {out[key]['from_to']} "
+            else:
+                out[key]["role_euro__from_to"]  = f"{out[key]['from_to']} "
 
 
             out[key]["career"]  = f"{out[key]['field_of_study']}"
