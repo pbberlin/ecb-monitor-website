@@ -3,6 +3,8 @@ import pickle
 import pandas as pd
 import math
 from pathlib import Path
+import traceback
+import sys
 
 from pandas import Timestamp
 from pandas import NaT # not a time
@@ -24,7 +26,8 @@ def toHtml(pthPickle, outPth):
             fileHandle.write(htmlTable)
 
     except Exception as exc:
-        print(f"exc is {exc} " )
+        tb = traceback.extract_tb(exc.__traceback__)[-1]
+        print(f"{exc} | {tb.filename}:{tb.lineno} | {tb.line}")
 
 
 
@@ -35,7 +38,7 @@ def formatValue(key, val):
 
         if key == "incumbent":
             if isinstance(val, float) and math.isnan(val):
-                return ""            
+                return ""
             if val == 1.0:
                 return True
             else:
@@ -148,15 +151,17 @@ def sortByFunction(dataByName):
         return keysSorted
 
     except Exception as exc:
-        print(f"sortJson() exc {exc} ")
+        tb = traceback.extract_tb(exc.__traceback__)[-1]
+        print(f"{exc} | {tb.filename}:{tb.lineno} | {tb.line}")
+        sys.exit(1)
 
 
 
 def convertPickleToJs(
-    pthPickle, 
-    outPthJs1, 
-    outPthJs2, 
-    keyColName, 
+    pthPickle,
+    outPthJs1,
+    outPthJs2,
+    keyColName,
     varName="councilByName",
 ):
 
@@ -197,7 +202,7 @@ def convertPickleToJs(
 
         # iterate columns to create first level keys
         for idx1, colName in enumerate(cols):
-            
+
             col = dta[colName].tolist()
 
             if idx1 < 1:
@@ -264,13 +269,14 @@ def convertPickleToJs(
 
             officeTitle = f"{out[key]['role_euro']}"
             officeTitle = str(officeTitle).strip()
-            officeTitle = officeTitle.replace("executive board", "", -1)
-            officeTitle = officeTitle.replace("chief economist", "", -1)
-            officeTitle = officeTitle.replace("vice-president", "Vice-Pres.", -1)
-            officeTitle = officeTitle.title()
+            # we do this using i18n later in Javascript:
+            #    ...replace("executive board", "", -1)
+            #    ...replace("chief economist", "", -1)
+            #    ...replace("vice-president", "Vice-Pres.", -1)
+            #    ...title()
 
             if officeTitle:
-                out[key]["role_euro__from_to"]  = f"{officeTitle.title()},  {out[key]['from_to']} "
+                out[key]["role_euro__from_to"]  = f"{officeTitle},  {out[key]['from_to']} "
             else:
                 out[key]["role_euro__from_to"]  = f"{out[key]['from_to']} "
 
@@ -288,22 +294,24 @@ def convertPickleToJs(
 
 
         for idx1, key in enumerate(out):
-            # out[key].pop("year_start", None) 
-            # out[key].pop("year_stop",  None) 
-            out[key].pop("career_1",   None) 
-            out[key].pop("career_2",   None) 
+            # out[key].pop("year_start", None)
+            # out[key].pop("year_stop",  None)
+            out[key].pop("career_1",   None)
+            out[key].pop("career_2",   None)
 
 
         print(f"\t  organisation_euro {', '.join(organisation_euro)} ")
         print(f"\t  role_euro         {', '.join(role_euro)} ")
 
-        jsonString = json.dumps(out, indent=4)
-        jsContent = f"const {varName}={jsonString}; \n\n"
-        with outPthJs1.open("w", encoding="utf-8") as fileHandle:
-            fileHandle.write(jsContent)
-        print(f"converted \n\t{pthPickle} to \n\t{outPthJs1} - {len(out)} rows")
+        if False:
+            jsonString = json.dumps(out, indent=4)
+            jsContent = f"const {varName}={jsonString}; \n\n"
+            with outPthJs1.open("w", encoding="utf-8") as fileHandle:
+                fileHandle.write(jsContent)
+            print(f"converted \n\t{pthPickle} to \n\t{outPthJs1} - {len(out)} rows")
 
 
+        #
         byFunction = sortByFunction(out)
         jsonString = json.dumps(byFunction, indent=4)
         jsContent  = f"councilByFunction={jsonString}; \n\n"
@@ -316,7 +324,9 @@ def convertPickleToJs(
 
 
     except Exception as exc:
-        print(f"exc is {exc} " )
+        tb = traceback.extract_tb(exc.__traceback__)[-1]
+        print(f"{exc} | {tb.filename}:{tb.lineno} | {tb.line}")
+        sys.exit(1)
 
 
 
@@ -329,7 +339,7 @@ print(f"\tscript     {Path(__file__).resolve()}   start")
 # testFormatValue()
 
 
-toHtml(   
+toHtml(
     Path( appDir / "data" / "dl" / "ecb-council-data.pkl") ,
     Path( appDir / "data" / "dl" / "council.html") ,
 )

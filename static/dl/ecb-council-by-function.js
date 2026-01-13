@@ -16,7 +16,7 @@ councilByFunction=[
         "count_speeches": 253,
         "hawkish_score": -0.63,
         "from_to": "2011 - 2019",
-        "role_euro__from_to": "President,  2011 - 2019 ",
+        "role_euro__from_to": "president,  2011 - 2019 ",
         "career": "Economics, Professor, Bank",
         "born_raised": "*1947, Italy"
     },
@@ -37,7 +37,7 @@ councilByFunction=[
         "count_speeches": 130,
         "hawkish_score": 0.39,
         "from_to": "1997 - 2003",
-        "role_euro__from_to": "President,  1997 - 2003 ",
+        "role_euro__from_to": "president,  1997 - 2003 ",
         "career": "Economics, Politics",
         "born_raised": "*1935, Netherlands"
     },
@@ -58,7 +58,7 @@ councilByFunction=[
         "count_speeches": 134,
         "hawkish_score": 0.15,
         "from_to": "since 2019  ",
-        "role_euro__from_to": "President,  since 2019   ",
+        "role_euro__from_to": "president,  since 2019   ",
         "career": "Law, IMF, Politics",
         "born_raised": "*1956, France"
     },
@@ -79,7 +79,7 @@ councilByFunction=[
         "count_speeches": 399,
         "hawkish_score": 0.44,
         "from_to": "2003 - 2011",
-        "role_euro__from_to": "President,  2003 - 2011 ",
+        "role_euro__from_to": "president,  2003 - 2011 ",
         "career": "Economics, AdminFinance",
         "born_raised": "*1942, France"
     },
@@ -100,7 +100,7 @@ councilByFunction=[
         "count_speeches": 92,
         "hawkish_score": -0.47,
         "from_to": "2010 - 2018",
-        "role_euro__from_to": "Vice-Pres.,  2010 - 2018 ",
+        "role_euro__from_to": "vice-president,  2010 - 2018 ",
         "career": "Economics, Politics",
         "born_raised": "*1943, Portugal"
     },
@@ -121,7 +121,7 @@ councilByFunction=[
         "count_speeches": 75,
         "hawkish_score": -0.04,
         "from_to": "since 2018  ",
-        "role_euro__from_to": "Vice-Pres.,  since 2018   ",
+        "role_euro__from_to": "vice-president,  since 2018   ",
         "career": "Economics, Business, Credit, Politics",
         "born_raised": "*1960, Spain"
     },
@@ -142,7 +142,7 @@ councilByFunction=[
         "count_speeches": 43,
         "hawkish_score": 0.54,
         "from_to": "1998 - 2002",
-        "role_euro__from_to": "Vice-Pres.,  1998 - 2002 ",
+        "role_euro__from_to": "vice-president,  1998 - 2002 ",
         "career": "Law, AdminFinance",
         "born_raised": "*1950, France"
     },
@@ -163,7 +163,7 @@ councilByFunction=[
         "count_speeches": 69,
         "hawkish_score": 0.37,
         "from_to": "2002 - 2010",
-        "role_euro__from_to": "Vice-Pres.,  2002 - 2010 ",
+        "role_euro__from_to": "vice-president,  2002 - 2010 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1947, Greece"
     },
@@ -184,7 +184,7 @@ councilByFunction=[
         "count_speeches": 18,
         "hawkish_score": 0.64,
         "from_to": "1998 - 2006",
-        "role_euro__from_to": "1998 - 2006 ",
+        "role_euro__from_to": "chief economist,  1998 - 2006 ",
         "career": "Economics, University",
         "born_raised": "*1936, Germany"
     },
@@ -205,7 +205,7 @@ councilByFunction=[
         "count_speeches": 59,
         "hawkish_score": -0.1,
         "from_to": "since 2019  ",
-        "role_euro__from_to": "since 2019   ",
+        "role_euro__from_to": "chief economist,  since 2019   ",
         "career": "Economics, Professor, Research",
         "born_raised": "*1969, Ireland"
     },
@@ -226,7 +226,7 @@ councilByFunction=[
         "count_speeches": 130,
         "hawkish_score": -0.67,
         "from_to": "2011 - 2019",
-        "role_euro__from_to": "2011 - 2019 ",
+        "role_euro__from_to": "chief economist,  2011 - 2019 ",
         "career": "Economics, Bank, Politics",
         "born_raised": "*1949, Belgium"
     },
@@ -247,7 +247,7 @@ councilByFunction=[
         "count_speeches": 48,
         "hawkish_score": 0.57,
         "from_to": "2006 - 2011",
-        "role_euro__from_to": "2006 - 2011 ",
+        "role_euro__from_to": "chief economist,  2006 - 2011 ",
         "career": "Economics, AdminFinance",
         "born_raised": "*1948, Germany"
     },
@@ -268,7 +268,7 @@ councilByFunction=[
         "count_speeches": 21,
         "hawkish_score": 0.08,
         "from_to": "2012 - 2014",
-        "role_euro__from_to": "2012 - 2014 ",
+        "role_euro__from_to": "executive board,  2012 - 2014 ",
         "career": "Business Administration, Economics, Bank, Research",
         "born_raised": "*1966, Germany"
     },
@@ -289,7 +289,7 @@ councilByFunction=[
         "count_speeches": 6,
         "hawkish_score": 0.33,
         "from_to": "since 2023  ",
-        "role_euro__from_to": "since 2023   ",
+        "role_euro__from_to": "executive board,  since 2023   ",
         "career": "Economics, Economist, Bank",
         "born_raised": "*1962, Italy"
     },
@@ -310,7 +310,7 @@ councilByFunction=[
         "count_speeches": 190,
         "hawkish_score": -0.48,
         "from_to": "2012 - 2019",
-        "role_euro__from_to": "2012 - 2019 ",
+        "role_euro__from_to": "executive board,  2012 - 2019 ",
         "career": "Economics, Economist, Politics",
         "born_raised": "*1969, France"
     },
@@ -331,7 +331,7 @@ councilByFunction=[
         "count_speeches": 16,
         "hawkish_score": 0.42,
         "from_to": "since 2020  ",
-        "role_euro__from_to": "since 2020   ",
+        "role_euro__from_to": "executive board,  since 2020   ",
         "career": "Law, Bank",
         "born_raised": "*1970, Netherlands"
     },
@@ -352,7 +352,7 @@ councilByFunction=[
         "count_speeches": 39,
         "hawkish_score": 0.22,
         "from_to": "2004 - 2012",
-        "role_euro__from_to": "2004 - 2012 ",
+        "role_euro__from_to": "executive board,  2004 - 2012 ",
         "career": "Economics, University",
         "born_raised": "*1958, Spain"
     },
@@ -373,7 +373,7 @@ councilByFunction=[
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "1998 - 2003",
-        "role_euro__from_to": "1998 - 2003 ",
+        "role_euro__from_to": "executive board,  1998 - 2003 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1939, Finland"
     },
@@ -394,7 +394,7 @@ councilByFunction=[
         "count_speeches": 34,
         "hawkish_score": -0.1,
         "from_to": "2014 - 2019",
-        "role_euro__from_to": "2014 - 2019 ",
+        "role_euro__from_to": "executive board,  2014 - 2019 ",
         "career": "Law, Bank",
         "born_raised": "*1964, Germany"
     },
@@ -415,7 +415,7 @@ councilByFunction=[
         "count_speeches": 98,
         "hawkish_score": -0.17,
         "from_to": "2012 - 2020",
-        "role_euro__from_to": "2012 - 2020 ",
+        "role_euro__from_to": "executive board,  2012 - 2020 ",
         "career": "Law, Politcs",
         "born_raised": "*1949, Luxembourg"
     },
@@ -436,7 +436,7 @@ councilByFunction=[
         "count_speeches": 1,
         "hawkish_score": 0.0,
         "from_to": "1998 - 2005",
-        "role_euro__from_to": "1998 - 2005 ",
+        "role_euro__from_to": "executive board,  1998 - 2005 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1940, Italy"
     },
@@ -457,7 +457,7 @@ councilByFunction=[
         "count_speeches": 28,
         "hawkish_score": 0.07,
         "from_to": "2020 - 2023",
-        "role_euro__from_to": "2020 - 2023 ",
+        "role_euro__from_to": "executive board,  2020 - 2023 ",
         "career": "Economics, Bank, OECD",
         "born_raised": "*1959, Italy"
     },
@@ -478,7 +478,7 @@ councilByFunction=[
         "count_speeches": 52,
         "hawkish_score": 0.11,
         "from_to": "since 2020  ",
-        "role_euro__from_to": "since 2020   ",
+        "role_euro__from_to": "executive board,  since 2020   ",
         "career": "Economics, Research, Professor",
         "born_raised": "*1971, Germany"
     },
@@ -499,7 +499,7 @@ councilByFunction=[
         "count_speeches": 63,
         "hawkish_score": 0.4,
         "from_to": "2005 - 2011",
-        "role_euro__from_to": "2005 - 2011 ",
+        "role_euro__from_to": "executive board,  2005 - 2011 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1956, Italy"
     },
@@ -520,7 +520,7 @@ councilByFunction=[
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "1998 - 2004",
-        "role_euro__from_to": "1998 - 2004 ",
+        "role_euro__from_to": "executive board,  1998 - 2004 ",
         "career": "Economics, University",
         "born_raised": "*1945, Spain"
     },
@@ -541,7 +541,7 @@ councilByFunction=[
         "count_speeches": 25,
         "hawkish_score": 0.18,
         "from_to": "2003 - 2011",
-        "role_euro__from_to": "2003 - 2011 ",
+        "role_euro__from_to": "executive board,  2003 - 2011 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1952, Austria"
     },
@@ -562,7 +562,7 @@ councilByFunction=[
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "1991 - 2001",
-        "role_euro__from_to": "Governor,  1991 - 2001 ",
+        "role_euro__from_to": "governor,  1991 - 2001 ",
         "career": "",
         "born_raised": "*, Slovenia"
     },
@@ -583,7 +583,7 @@ councilByFunction=[
         "count_speeches": 35,
         "hawkish_score": 0.43,
         "from_to": "1999 - 2011",
-        "role_euro__from_to": "Governor,  1999 - 2011 ",
+        "role_euro__from_to": "governor,  1999 - 2011 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1945, Malta"
     },
@@ -604,7 +604,7 @@ councilByFunction=[
         "count_speeches": 6,
         "hawkish_score": -0.47,
         "from_to": "2011 - 2016",
-        "role_euro__from_to": "Governor,  2011 - 2016 ",
+        "role_euro__from_to": "governor,  2011 - 2016 ",
         "career": "Economics, Politcs",
         "born_raised": "*1953, Malta"
     },
@@ -625,7 +625,7 @@ councilByFunction=[
         "count_speeches": 16,
         "hawkish_score": 0.37,
         "from_to": "2000 - 2006",
-        "role_euro__from_to": "Governor,  2000 - 2006 ",
+        "role_euro__from_to": "governor,  2000 - 2006 ",
         "career": "",
         "born_raised": "*, Spain"
     },
@@ -646,7 +646,7 @@ councilByFunction=[
         "count_speeches": 14,
         "hawkish_score": -0.04,
         "from_to": "since 2020  ",
-        "role_euro__from_to": "Governor,  since 2020   ",
+        "role_euro__from_to": "governor,  since 2020   ",
         "career": "Economics, Politics, Professor",
         "born_raised": "*1966, Portugal"
     },
@@ -667,7 +667,7 @@ councilByFunction=[
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "2004 - 2007",
-        "role_euro__from_to": "Governor,  2004 - 2007 ",
+        "role_euro__from_to": "governor,  2004 - 2007 ",
         "career": "Law, Teacher, Politcs",
         "born_raised": "*1939, Cyprus"
     },
@@ -688,7 +688,7 @@ councilByFunction=[
         "count_speeches": 1,
         "hawkish_score": 0.9,
         "from_to": "2011 - 2015",
-        "role_euro__from_to": "Governor,  2011 - 2015 ",
+        "role_euro__from_to": "governor,  2011 - 2015 ",
         "career": "Economics, National Bank, Poltics",
         "born_raised": "*1945, Belgium"
     },
@@ -709,7 +709,7 @@ councilByFunction=[
         "count_speeches": 87,
         "hawkish_score": 0.02,
         "from_to": "since 2018  ",
-        "role_euro__from_to": "Governor,  since 2018   ",
+        "role_euro__from_to": "governor,  since 2018   ",
         "career": "Law, Economics, Business, Research, Bank",
         "born_raised": "*1971, Spain"
     },
@@ -730,7 +730,7 @@ councilByFunction=[
         "count_speeches": 14,
         "hawkish_score": -0.1,
         "from_to": "2010 - 2020",
-        "role_euro__from_to": "Governor,  2010 - 2020 ",
+        "role_euro__from_to": "governor,  2010 - 2020 ",
         "career": "Economics, Resaerch",
         "born_raised": "*1949, Portugal"
     },
@@ -751,7 +751,7 @@ councilByFunction=[
         "count_speeches": 0,
         "hawkish_score": "",
         "from_to": "2012 - 2014",
-        "role_euro__from_to": "Governor,  2012 - 2014 ",
+        "role_euro__from_to": "governor,  2012 - 2014 ",
         "career": "Economics, Research, National Bank",
         "born_raised": "*1959, Cyprus"
     },
@@ -772,7 +772,7 @@ councilByFunction=[
         "count_speeches": 17,
         "hawkish_score": 0.39,
         "from_to": "1993 - 2005",
-        "role_euro__from_to": "Governor,  1993 - 2005 ",
+        "role_euro__from_to": "governor,  1993 - 2005 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1936, Italy"
     },
@@ -793,7 +793,7 @@ councilByFunction=[
         "count_speeches": 150,
         "hawkish_score": -0.02,
         "from_to": "since 2015  ",
-        "role_euro__from_to": "Governor,  since 2015   ",
+        "role_euro__from_to": "governor,  since 2015   ",
         "career": "Economics, Bank, Politics",
         "born_raised": "*1959, France"
     },
@@ -814,7 +814,7 @@ councilByFunction=[
         "count_speeches": 10,
         "hawkish_score": 0.58,
         "from_to": "2002 - 2008",
-        "role_euro__from_to": "Governor,  2002 - 2008 ",
+        "role_euro__from_to": "governor,  2002 - 2008 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1937, Greece"
     },
@@ -835,7 +835,7 @@ councilByFunction=[
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "2001 - 2007",
-        "role_euro__from_to": "Governor,  2001 - 2007 ",
+        "role_euro__from_to": "governor,  2001 - 2007 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1951, Slovenia"
     },
@@ -856,7 +856,7 @@ councilByFunction=[
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "2014 - 2019",
-        "role_euro__from_to": "Governor,  2014 - 2019 ",
+        "role_euro__from_to": "governor,  2014 - 2019 ",
         "career": "Economics, Research, Court of Audit",
         "born_raised": "*1956, Cyprus"
     },
@@ -877,7 +877,7 @@ councilByFunction=[
         "count_speeches": 4,
         "hawkish_score": 0.15,
         "from_to": "2012 - 2019",
-        "role_euro__from_to": "Governor,  2012 - 2019 ",
+        "role_euro__from_to": "governor,  2012 - 2019 ",
         "career": "Economics, Politics",
         "born_raised": "*1958, Estonia"
     },
@@ -898,7 +898,7 @@ councilByFunction=[
         "count_speeches": 2,
         "hawkish_score": 0.85,
         "from_to": "since 2019  ",
-        "role_euro__from_to": "Governor,  since 2019   ",
+        "role_euro__from_to": "governor,  since 2019   ",
         "career": "Economics, Investestmen Banker",
         "born_raised": "*1970, Cyprus"
     },
@@ -919,7 +919,7 @@ councilByFunction=[
         "count_speeches": 11,
         "hawkish_score": 0.34,
         "from_to": "since 2019  ",
-        "role_euro__from_to": "Governor,  since 2019   ",
+        "role_euro__from_to": "governor,  since 2019   ",
         "career": "Economics, OECD, Professsor",
         "born_raised": "*1949, Austria"
     },
@@ -940,7 +940,7 @@ councilByFunction=[
         "count_speeches": 25,
         "hawkish_score": -0.09,
         "from_to": "2009 - 2015",
-        "role_euro__from_to": "Governor,  2009 - 2015 ",
+        "role_euro__from_to": "governor,  2009 - 2015 ",
         "career": "Economics, Bank",
         "born_raised": "*1949, Ireland"
     },
@@ -961,7 +961,7 @@ councilByFunction=[
         "count_speeches": 35,
         "hawkish_score": 0.26,
         "from_to": "2002 - 2009",
-        "role_euro__from_to": "Governor,  2002 - 2009 ",
+        "role_euro__from_to": "governor,  2002 - 2009 ",
         "career": "Law, AdminFinance",
         "born_raised": "*1945, Ireland"
     },
@@ -982,7 +982,7 @@ councilByFunction=[
         "count_speeches": 1,
         "hawkish_score": -0.8,
         "from_to": "2013 - 2018",
-        "role_euro__from_to": "Governor,  2013 - 2018 ",
+        "role_euro__from_to": "governor,  2013 - 2018 ",
         "career": "Economics, OtherAdmin",
         "born_raised": "*1970, Slovenia"
     },
@@ -1003,7 +1003,7 @@ councilByFunction=[
         "count_speeches": 1,
         "hawkish_score": 0.0,
         "from_to": "1999 - 2004",
-        "role_euro__from_to": "Governor,  1999 - 2004 ",
+        "role_euro__from_to": "governor,  1999 - 2004 ",
         "career": "",
         "born_raised": "*, Slovakia"
     },
@@ -1024,7 +1024,7 @@ councilByFunction=[
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "since 2019  ",
-        "role_euro__from_to": "Governor,  since 2019   ",
+        "role_euro__from_to": "governor,  since 2019   ",
         "career": "Economics, Bank",
         "born_raised": "*1973, Latvia"
     },
@@ -1045,7 +1045,7 @@ councilByFunction=[
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "since 2019  ",
-        "role_euro__from_to": "Governor,  since 2019   ",
+        "role_euro__from_to": "governor,  since 2019   ",
         "career": "International Relations, Firms, Politics",
         "born_raised": "*1968, Slovakia"
     },
@@ -1066,7 +1066,7 @@ councilByFunction=[
         "count_speeches": 63,
         "hawkish_score": 0.27,
         "from_to": "since 2011  ",
-        "role_euro__from_to": "Governor,  since 2011   ",
+        "role_euro__from_to": "governor,  since 2011   ",
         "career": "Economics, CentralBank",
         "born_raised": "*1967, Netherlands"
     },
@@ -1087,7 +1087,7 @@ councilByFunction=[
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "2007 - 2013",
-        "role_euro__from_to": "Governor,  2007 - 2013 ",
+        "role_euro__from_to": "governor,  2007 - 2013 ",
         "career": "Economics, University",
         "born_raised": "*1940, Slovenia"
     },
@@ -1108,7 +1108,7 @@ councilByFunction=[
         "count_speeches": 36,
         "hawkish_score": 0.45,
         "from_to": "1995 - 2008",
-        "role_euro__from_to": "Governor,  1995 - 2008 ",
+        "role_euro__from_to": "governor,  1995 - 2008 ",
         "career": "Law, Bank, Stock Market",
         "born_raised": "*1939, Austria"
     },
@@ -1129,7 +1129,7 @@ councilByFunction=[
         "count_speeches": 50,
         "hawkish_score": -0.06,
         "from_to": "2004 - 2018",
-        "role_euro__from_to": "Governor,  2004 - 2018 ",
+        "role_euro__from_to": "governor,  2004 - 2018 ",
         "career": "Political Science, Politics",
         "born_raised": "*1950, Finland"
     },
@@ -1150,7 +1150,7 @@ councilByFunction=[
         "count_speeches": 52,
         "hawkish_score": -0.54,
         "from_to": "2012 - 2018",
-        "role_euro__from_to": "Governor,  2012 - 2018 ",
+        "role_euro__from_to": "governor,  2012 - 2018 ",
         "career": "Economics, Politcs",
         "born_raised": "*1945, Spain"
     },
@@ -1171,7 +1171,7 @@ councilByFunction=[
         "count_speeches": 6,
         "hawkish_score": 0.23,
         "from_to": "2005 - 2012",
-        "role_euro__from_to": "Governor,  2005 - 2012 ",
+        "role_euro__from_to": "governor,  2005 - 2012 ",
         "career": "Finance, Politics",
         "born_raised": "*1957, Estonia"
     },
@@ -1192,7 +1192,7 @@ councilByFunction=[
         "count_speeches": 48,
         "hawkish_score": 0.32,
         "from_to": "since 2019  ",
-        "role_euro__from_to": "Governor,  since 2019   ",
+        "role_euro__from_to": "governor,  since 2019   ",
         "career": "Economics, Civil Service",
         "born_raised": "*1960, Ireland"
     },
@@ -1213,7 +1213,7 @@ councilByFunction=[
         "count_speeches": 1,
         "hawkish_score": 0.0,
         "from_to": "2010 - 2019",
-        "role_euro__from_to": "Governor,  2010 - 2019 ",
+        "role_euro__from_to": "governor,  2010 - 2019 ",
         "career": "Economics, Bank, Professor",
         "born_raised": "*1953, Slovakia"
     },
@@ -1234,7 +1234,7 @@ councilByFunction=[
         "count_speeches": 1,
         "hawkish_score": 1.0,
         "from_to": "since 2019  ",
-        "role_euro__from_to": "Governor,  since 2019   ",
+        "role_euro__from_to": "governor,  since 2019   ",
         "career": "Finance, Bank",
         "born_raised": "*1977, Estonia"
     },
@@ -1255,7 +1255,7 @@ councilByFunction=[
         "count_speeches": 62,
         "hawkish_score": 0.77,
         "from_to": "since 2022  ",
-        "role_euro__from_to": "Governor,  since 2022   ",
+        "role_euro__from_to": "governor,  since 2022   ",
         "career": "Economics, Bank",
         "born_raised": "*1966, Germany"
     },
@@ -1276,7 +1276,7 @@ councilByFunction=[
         "count_speeches": 23,
         "hawkish_score": -0.13,
         "from_to": "2008 - 2019",
-        "role_euro__from_to": "Governor,  2008 - 2019 ",
+        "role_euro__from_to": "governor,  2008 - 2019 ",
         "career": "Economics, Professor",
         "born_raised": "*1944, Austria"
     },
@@ -1297,7 +1297,7 @@ councilByFunction=[
         "count_speeches": 35,
         "hawkish_score": 0.12,
         "from_to": "2006 - 2012",
-        "role_euro__from_to": "Governor,  2006 - 2012 ",
+        "role_euro__from_to": "governor,  2006 - 2012 ",
         "career": "Economics, OtherAdmin",
         "born_raised": "*1945, Spain"
     },
@@ -1318,7 +1318,7 @@ councilByFunction=[
         "count_speeches": 2,
         "hawkish_score": 0.6,
         "from_to": "2008 - 2012",
-        "role_euro__from_to": "Governor,  2008 - 2012 ",
+        "role_euro__from_to": "governor,  2008 - 2012 ",
         "career": "Economics, Economist",
         "born_raised": "*1962, Cyprus"
     },
@@ -1339,7 +1339,7 @@ councilByFunction=[
         "count_speeches": 4,
         "hawkish_score": 0.65,
         "from_to": "1994 - 2002",
-        "role_euro__from_to": "Governor,  1994 - 2002 ",
+        "role_euro__from_to": "governor,  1994 - 2002 ",
         "career": "Law, University",
         "born_raised": "*1936, Ireland"
     },
@@ -1360,7 +1360,7 @@ councilByFunction=[
         "count_speeches": 13,
         "hawkish_score": -0.3,
         "from_to": "2008 - 2014",
-        "role_euro__from_to": "Governor,  2008 - 2014 ",
+        "role_euro__from_to": "governor,  2008 - 2014 ",
         "career": "Economics, Bank",
         "born_raised": "*1950, Greece"
     },
@@ -1381,7 +1381,7 @@ councilByFunction=[
         "count_speeches": 21,
         "hawkish_score": 0.23,
         "from_to": "1999 - 2011",
-        "role_euro__from_to": "Governor,  1999 - 2011 ",
+        "role_euro__from_to": "governor,  1999 - 2011 ",
         "career": "Economics, Univerity",
         "born_raised": "*1945, Belgium"
     },
@@ -1402,7 +1402,7 @@ councilByFunction=[
         "count_speeches": 60,
         "hawkish_score": -0.18,
         "from_to": "since 2018  ",
-        "role_euro__from_to": "Governor,  since 2018   ",
+        "role_euro__from_to": "governor,  since 2018   ",
         "career": "Economics, Politics",
         "born_raised": "*1962, Finland"
     },
@@ -1423,7 +1423,7 @@ councilByFunction=[
         "count_speeches": 2,
         "hawkish_score": -0.8,
         "from_to": "since 2013  ",
-        "role_euro__from_to": "Governor,  since 2013   ",
+        "role_euro__from_to": "governor,  since 2013   ",
         "career": "Economics, Professor, Consultant",
         "born_raised": "*1958, Luxembourg"
     },
@@ -1444,7 +1444,7 @@ councilByFunction=[
         "count_speeches": 4,
         "hawkish_score": 0.47,
         "from_to": "1991 - 2001",
-        "role_euro__from_to": "Governor,  1991 - 2001 ",
+        "role_euro__from_to": "governor,  1991 - 2001 ",
         "career": "",
         "born_raised": "*, Latvia"
     },
@@ -1465,7 +1465,7 @@ councilByFunction=[
         "count_speeches": 2,
         "hawkish_score": -0.1,
         "from_to": "2001 - 2019",
-        "role_euro__from_to": "Governor,  2001 - 2019 ",
+        "role_euro__from_to": "governor,  2001 - 2019 ",
         "career": "Engineering, Business administration, Bank",
         "born_raised": "*1965, Latvia"
     },
@@ -1486,7 +1486,7 @@ councilByFunction=[
         "count_speeches": 2,
         "hawkish_score": 0.2,
         "from_to": "2000 - 2012",
-        "role_euro__from_to": "Governor,  2000 - 2012 ",
+        "role_euro__from_to": "governor,  2000 - 2012 ",
         "career": "Economics, Economist",
         "born_raised": "*1951, Croatia"
     },
@@ -1507,7 +1507,7 @@ councilByFunction=[
         "count_speeches": 1,
         "hawkish_score": 0.7,
         "from_to": "1992 - 2000",
-        "role_euro__from_to": "Governor,  1992 - 2000 ",
+        "role_euro__from_to": "governor,  1992 - 2000 ",
         "career": "Economics, CentralBank",
         "born_raised": "*1934, Spain"
     },
@@ -1528,7 +1528,7 @@ councilByFunction=[
         "count_speeches": 5,
         "hawkish_score": 0.5,
         "from_to": "since 2021  ",
-        "role_euro__from_to": "Governor,  since 2021   ",
+        "role_euro__from_to": "governor,  since 2021   ",
         "career": "Economics, Teacher, Audit",
         "born_raised": "*1946, Malta"
     },
@@ -1549,7 +1549,7 @@ councilByFunction=[
         "count_speeches": 5,
         "hawkish_score": -0.08,
         "from_to": "2015 - 2019",
-        "role_euro__from_to": "Governor,  2015 - 2019 ",
+        "role_euro__from_to": "governor,  2015 - 2019 ",
         "career": "Economics, National Bank, Board of Director",
         "born_raised": "*1951, Belgium"
     },
@@ -1570,7 +1570,7 @@ councilByFunction=[
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "1994 - 2000",
-        "role_euro__from_to": "Governor,  1994 - 2000 ",
+        "role_euro__from_to": "governor,  1994 - 2000 ",
         "career": "Management Sciences, Private",
         "born_raised": "*1955, Portugal"
     },
@@ -1591,7 +1591,7 @@ councilByFunction=[
         "count_speeches": 61,
         "hawkish_score": -0.22,
         "from_to": "since 2014  ",
-        "role_euro__from_to": "Governor,  since 2014   ",
+        "role_euro__from_to": "governor,  since 2014   ",
         "career": "Economics, Politics, Professor",
         "born_raised": "*1956, Greece"
     },
@@ -1612,7 +1612,7 @@ councilByFunction=[
         "count_speeches": 2,
         "hawkish_score": 0.65,
         "from_to": "1998 - 2004",
-        "role_euro__from_to": "Governor,  1998 - 2004 ",
+        "role_euro__from_to": "governor,  1998 - 2004 ",
         "career": "Political Science, Bank",
         "born_raised": "*1946, Finland"
     },
@@ -1633,7 +1633,7 @@ councilByFunction=[
         "count_speeches": 3,
         "hawkish_score": -0.27,
         "from_to": "2011 - 2021",
-        "role_euro__from_to": "Governor,  2011 - 2021 ",
+        "role_euro__from_to": "governor,  2011 - 2021 ",
         "career": "Law, Politcs, Bank",
         "born_raised": "*1973, Lithuania"
     },
@@ -1654,7 +1654,7 @@ councilByFunction=[
         "count_speeches": 5,
         "hawkish_score": 0.72,
         "from_to": "since 2019  ",
-        "role_euro__from_to": "Governor,  since 2019   ",
+        "role_euro__from_to": "governor,  since 2019   ",
         "career": "Economics, Research/Expertise",
         "born_raised": "*1969, Slovenia"
     },
@@ -1675,7 +1675,7 @@ councilByFunction=[
         "count_speeches": 6,
         "hawkish_score": -0.12,
         "from_to": "2016 - 2020",
-        "role_euro__from_to": "Governor,  2016 - 2020 ",
+        "role_euro__from_to": "governor,  2016 - 2020 ",
         "career": "Phylosphy, Economics, Politics, Professor",
         "born_raised": "*1905, Malta"
     },
@@ -1696,7 +1696,7 @@ councilByFunction=[
         "count_speeches": 97,
         "hawkish_score": -0.35,
         "from_to": "2011 - 2023",
-        "role_euro__from_to": "Governor,  2011 - 2023 ",
+        "role_euro__from_to": "governor,  2011 - 2023 ",
         "career": "Economics, Bank",
         "born_raised": "*1949, Italy"
     },
@@ -1717,7 +1717,7 @@ councilByFunction=[
         "count_speeches": 7,
         "hawkish_score": 0.34,
         "from_to": "since 2012  ",
-        "role_euro__from_to": "Governor,  since 2012   ",
+        "role_euro__from_to": "governor,  since 2012   ",
         "career": "Economics, EZB (external advisor in the Monetary Matters Department)",
         "born_raised": "*1964, Croatia"
     },
@@ -1738,7 +1738,7 @@ councilByFunction=[
         "count_speeches": 55,
         "hawkish_score": 0.59,
         "from_to": "2004 - 2011",
-        "role_euro__from_to": "Governor,  2004 - 2011 ",
+        "role_euro__from_to": "governor,  2004 - 2011 ",
         "career": "Economics, Professor",
         "born_raised": "*1957, Germany"
     },
@@ -1759,7 +1759,7 @@ councilByFunction=[
         "count_speeches": 143,
         "hawkish_score": 0.57,
         "from_to": "2011 - 2021",
-        "role_euro__from_to": "Governor,  2011 - 2021 ",
+        "role_euro__from_to": "governor,  2011 - 2021 ",
         "career": "Economics, Politics, Sachverst\u00e4ndigen Rates",
         "born_raised": "*1968, Germany"
     },
@@ -1780,7 +1780,7 @@ councilByFunction=[
         "count_speeches": 36,
         "hawkish_score": 0.3,
         "from_to": "1997 - 2011",
-        "role_euro__from_to": "Governor,  1997 - 2011 ",
+        "role_euro__from_to": "governor,  1997 - 2011 ",
         "career": "Economics, Bank",
         "born_raised": "*1967, Netherlands"
     },
@@ -1801,7 +1801,7 @@ councilByFunction=[
         "count_speeches": 19,
         "hawkish_score": 0.4,
         "from_to": "1999 - 2004",
-        "role_euro__from_to": "Governor,  1999 - 2004 ",
+        "role_euro__from_to": "governor,  1999 - 2004 ",
         "career": "Economics, Politics",
         "born_raised": "*1942, Germany"
     },
@@ -1822,7 +1822,7 @@ councilByFunction=[
         "count_speeches": 4,
         "hawkish_score": 0.68,
         "from_to": "since 2019  ",
-        "role_euro__from_to": "Governor,  since 2019   ",
+        "role_euro__from_to": "governor,  since 2019   ",
         "career": "Economics, Research, Politics",
         "born_raised": "*1967, Belgium"
     },
@@ -1843,7 +1843,7 @@ councilByFunction=[
         "count_speeches": "",
         "hawkish_score": "",
         "from_to": "1996 - 2011",
-        "role_euro__from_to": "Governor,  1996 - 2011 ",
+        "role_euro__from_to": "governor,  1996 - 2011 ",
         "career": "",
         "born_raised": "*, Lithuania"
     },
@@ -1864,7 +1864,7 @@ councilByFunction=[
         "count_speeches": 2,
         "hawkish_score": 0.2,
         "from_to": "since 2021  ",
-        "role_euro__from_to": "Governor,  since 2021   ",
+        "role_euro__from_to": "governor,  since 2021   ",
         "career": "Economics, Economist, Bank",
         "born_raised": "*1977, Lithuania"
     },
@@ -1885,7 +1885,7 @@ councilByFunction=[
         "count_speeches": 0,
         "hawkish_score": "",
         "from_to": "2005 - 2010",
-        "role_euro__from_to": "Governor,  2005 - 2010 ",
+        "role_euro__from_to": "governor,  2005 - 2010 ",
         "career": "Management Sciences, Bank",
         "born_raised": "*1957, Slovakia"
     }

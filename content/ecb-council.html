@@ -129,10 +129,10 @@
   .control-pad {
     position: relative;   /*  z-index  */
     z-index:  10;
-   
+
     margin:  0.4rem;
     padding: 0.5rem 1.1rem;
-    
+
     border-radius: 0.2rem;
     background-color: rgba(217,233,236,0.25);
   }
@@ -234,8 +234,71 @@
 
 }
 
+</style>
+
+
+<style>
+
+  .gradientWrapper {
+      position:    relative;
+      height:      var(--grad-height);
+      width:       100%;
+      margin:      2rem 0;
+      /* margin-top:  0; */
+      /* border: 1px solid gray; */
+  }
+
+  .gradient1 {
+      height:   var(--grad-height);
+      width:    100%;
+      opacity:  var(--initOpacity);
+
+      /* background is set dynamically by JS */
+  }
+
+
+  .tick {
+      position: absolute;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0.4rem;
+
+      height:  5px;
+      width:   1px;
+      top:     calc(var(--grad-height) + 0.0rem);
+
+      background: black;
+      text-align:   center;
+      transform:    translateX(calc(-50% + 1px));
+      font-size: 11px;
+  }
+  .tick:last-child {
+      transform:    translateX(calc(-50% - 1px));
+  }
+
+
+
+  .gradientDebug {
+      height:   var(--grad-height);
+      width:    100%;
+      opacity:  var(--initOpacity);
+      background: linear-gradient(
+          to right,
+          #00A000   0%,
+          #A08000  30%,
+          #A08000  30%,
+          #FF0000  90%,
+          #FF0000 100%
+      );
+      /* border: 1px solid #444; */
+  }
+
 
 </style>
+
+
 
 
 <style>
@@ -280,8 +343,8 @@
     font-size: 130%;
 
     grid-column: 2;
-    grid-row:    1 / span 2;    
-    
+    grid-row:    1 / span 2;
+
     /* align-self:   start; */
     align-self:   center;
     min-width:     3.3rem;    /* enough space for leading negative sign  */
@@ -326,7 +389,23 @@
   <div class="col col--center">
     <div id="echart_container">echart container content</div>
   </div>
-        <!-- right col content -->
+
+  <div class="col col--right control-pad">
+
+      <!-- right col content -->
+
+      <div class="gradientWrapper">
+          <div class="gradient1" id="gradient1"></div>
+      </div>
+      <!--
+      <div class="gradientWrapper">
+          <div class="gradientDebug" id="gradientDebug"></div>
+          <div class="tick" style="left:   0px;">  0%</div>
+          <div class="tick" style="left:   30%;"> 60%</div>
+          <div class="tick" style="left:   50%;">100%</div>
+          <div class="tick" style="left:  100%;">180%</div>
+      </div>
+      -->
 
 
       <div class="slider-group"
@@ -350,13 +429,13 @@
 
 
 
-<script type="text/javascript" src="/static/js/echarts.min.js"                ></script>
+<script type="text/javascript" src="/static/js/echarts.min.js"                                    ></script>
+<script type="text/javascript" src="/static/js/gradient-legend.js?v={{staticVersion}}"            ></script>
 <script type="text/javascript" src="/static/js/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
-<!-- <script type="text/javascript" src="/static/dl/ecb-council-by-name.js?v={{staticVersion}}"        ></script> -->
 <script type="text/javascript" src="/static/dl/ecb-council-by-function.js?v={{staticVersion}}"    ></script>
 
 
-<!-- 
+<!--
   'module'
     runs after  HTML is fully parsed
     runs before DOMContentLoaded fires
@@ -373,6 +452,55 @@
     const myChartDom  = document.getElementById('echart_container');
     const currentYear = new Date().getFullYear();
 
+    // xxxxx
+    // init
+    let selectedDataMeta = {
+      "main": {
+        "selected_data" : councilByFunction,
+        "formatter": (statsValue) => {
+          return Math.round(statsValue).toString() + ' %'
+        },
+        "formatter_legend": (vl) => {
+          vl = Math.round(vl).toString();
+          if(vl==="0"){
+            return "0\nNeutral";
+          }
+          if(vl==="1"){
+            return "1\nHaw- kish";
+          }
+            if(vl==="-1"){
+            return "-1\nDov- ish";
+          }
+          return vl;
+        },
+
+        // yellow - stingy -  blue - flood of liquidity
+        "color_ranges": [-1.0, 0.0 , 1.0],
+        "colors":       [ "#0000A0","#A0A0A0", "#A0A000"],
+
+        // "color_ranges": [-1.0, -0.75,   0.0 , 0.75, 1.0],
+        // "colors":       [ "#0000A0","#0000A0", "#A0A0A0", "#A0A000", "#A0A000"],
+
+      } ,
+    };
+
+
+    const rawHash      = window.location.hash;
+    const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
+    if (byUrlHash !== ""){
+      selectedVar    = byUrlHash;
+    }
+    // console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
+
+    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
+
+    const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
+    const colSec = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
+    const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
+    const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
+
+
+
 
     const elOpa = document.getElementById("color_opacity");
     let storedOpacity = localStorage.getItem("initOpacity");
@@ -387,6 +515,8 @@
       localStorage.setItem("initOpacity", evt.target.value.toString());
       console.log(`selected opacity ${evt.target.value}`);
 
+      createGradientLegend( "gradient1", selectedDataMeta["main"]);
+
       sliderEl.dispatchEvent(
         new InputEvent('change', {
           bubbles:    true,
@@ -396,37 +526,8 @@
 
     });
 
+    createGradientLegend( "gradient1", selectedDataMeta["main"]);
 
-
-    // xxxxx
-    let selectedDataMeta = {
-      "main": {
-        "selected_data" : councilByFunction,
-        "formatter": (statsValue) => {
-          return Math.round(statsValue).toString() + ' %'
-        },
-        "color_ranges": [-0.7, 0, 0.7],
-        // yellow - stingy -  blue - flood of liquidity
-        "colors":       [ "#0000A0", "#A0A0A0", "#A0A000"],
-      } ,
-    };
-
-
-
-    // init
-    const rawHash      = window.location.hash;
-    const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
-    if (byUrlHash !== ""){
-      selectedVar    = byUrlHash;
-    }
-    // console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
-
-    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
-
-    const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
-    const colSec = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
-    const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
-    const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
 
 
 
@@ -611,24 +712,33 @@
         fontSizeByDisplay = 10;
       }
 
-      let processed = {}
 
       let results = [];
       // xxxxx
       for (const rec of councilByFunction) {
 
-        let country    = rec["country"];
-        if(processed[country]){
-          continue;
-        }
-        processed[country] = true;
 
         let role1 = rec["organisation_euro"]
         if(role1 === "ecb"){
           continue;
         }
 
-        
+        let country = rec["country"]
+
+
+        let yearStart = rec["year_start"]
+        let yearStop  = rec["year_stop"]
+        if (yearStop === 0) {
+          yearStop = 9999;
+        }
+        if(yearStart <= yr  &&  yearStop >= yr){
+          // is current
+        } else {
+          continue;
+        }
+
+
+
         let statsValue = rec["hawkish_score"];
 
         // console.log(` ${country}  ${statsValue} `)
@@ -640,7 +750,7 @@
           symbol: 'circle',
           symbolSize: 34,
           symbolSize:  0,
-          // color: valToPctToColor(statsValue, selectedDataMeta[selectedVar]),  // only if symbolSize > 0
+          color: valToPctToColor(statsValue, selectedDataMeta["main"]),  // only if symbolSize > 0
           animation:         false,
           animationDuration: 0,
           label: {
@@ -808,8 +918,9 @@
 
           let countryX    = rec["country"];
           if(country===countryX){
-            let statsValueX = rec["hawkish_score"];
+            let statsValue = rec["hawkish_score"];
             areaCol = 'rgba(199, 199, 244, 0.28)';
+            areaCol = valToPctToColor(statsValue, selectedDataMeta["main"])
           }
         }
 
@@ -955,7 +1066,7 @@
         show: false,
       },
 
-      // 
+      //
       toolbox: {
         show:   true,
         right: '0.125%',
@@ -1186,7 +1297,11 @@
         }
 
         if(ky === "role_euro__from_to"){
-          vl = vl.replace("since", "{{i18n.since}}")  ;
+          vl = vl.replace("since",          "{{i18n.since}}")  ;
+          vl = vl.replace("vice-president", "{{i18n.vice_president}}")  ;
+          vl = vl.replace("president",      "{{i18n.president}}")  ;
+          vl = vl.replace("chief economist, ", "")  ;
+          vl = vl.replace("executive board, ", "")  ;
         }
 
         const rowDiv = document.createElement("div");
@@ -1217,7 +1332,7 @@
         const vl = member[ky];
 
         if (vl === null || typeof vl === "undefined") {
-          // 
+          //
         } else {
           titleMouseOver += `${vl} \n`;
         }
@@ -1233,7 +1348,7 @@
       const councilList = document.getElementById("council_list");
       councilList.replaceChildren(); // reset
 
-      let namesSorted = Object.keys(councilByFunction);  // sorting is done in python pre-processing 
+      let namesSorted = Object.keys(councilByFunction);  // sorting is done in python pre-processing
       namesSorted.forEach(function (name) {
 
         const rec = councilByFunction[name];
@@ -1306,10 +1421,6 @@
       );
 
     });
-
-
-
-
 
 
 
