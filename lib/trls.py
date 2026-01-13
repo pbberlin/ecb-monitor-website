@@ -36,10 +36,16 @@ trlsRaw = [
             "en": "Zur deutschen Fassung",
         },
     },
+    # {
+    #     "app_title":    {
+    #         "de": "EZB-Transparenz-Monitor",
+    #         "en": "ECB-Transparency-Monitor",
+    #     },
+    # },
     {
         "app_title":    {
-            "de": "EZB-Transparenz-Monitor",
-            "en": "ECB-Transparency-Monitor",
+            "de": "EZB-Monitor",
+            "en": "ECB-Monitor",
         },
     },
 
@@ -287,6 +293,18 @@ trlsRaw = [
             "en": "since",
         },
     },
+    {
+        "president":    {
+            "de": "Präsident",
+            "en": "President",
+        },
+    },
+    {
+        "vice_president":    {
+            "de": "Vizepräs.",
+            "en": "Vice-Pres.",
+        },
+    },
 
 
 
@@ -297,6 +315,8 @@ trlsRaw = [
 trlsByLg = {}
 for idx1, trlEntry in enumerate(trlsRaw):
     for key in trlEntry:
+        if "-" in key:
+            raise(f"key {key} contains '-' - we want underscore")
         translations = trlEntry[key]
         for lg in translations:
             val = translations[lg]
