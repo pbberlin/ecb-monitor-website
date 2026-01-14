@@ -333,13 +333,19 @@
     column-gap: 0.4rem;
 
     margin:  0;
-    margin-bottom:  0.25rem;
+    margin-bottom:      0.25rem;
+
     padding: 0;
+
+    /* background-color: rgba(220,220,220,0.25); */
+    border-radius: 0.6rem;
+    /* border: 1px solid green; */
   }
 
   #council_list .member-card div {
     margin:    0;
     padding:   0;
+    /* border: 1px solid red; */
     /* font-size: 90%; */
   }
 
@@ -356,6 +362,7 @@
   #council_list .member-card div.role_euro__from_to {
       grid-column: 1;
   }
+
   #council_list .member-card div.hawkish_score  {
 
     position: relative;
@@ -396,7 +403,7 @@
 
       <!-- <label for="yearSlider">Year:</label> -->
       <div id="slider-group" class="slider-group">
-        <input id="yearSlider" type="range" min="1998" step="1"  autofocus  />
+        <input id="yearSlider" type="range" min="1999" step="1"  autofocus  />
         <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
       </div>
 
@@ -422,17 +429,20 @@
           /* align-self:   start; */
           /* justify-self: start; */
           translate:  -40%  +60%;
+          opacity: 0.7;
         }
         .gradient-illustation-img2 {
           margin-left: auto;
           translate: +40%   +60%;
+          opacity: 0.7;
         }
       </style>
 
       <div class="slider-group"
-          style="margin-top: 0.5rem; margin-bottom: 0;
+          style="
+          margin-top: 0.5rem; margin-bottom: 0;
           flex-direction: row;
-          aa-border: 2px solid gray;"
+          "
       >
 
         <img class="gradient-illustation gradient-illustation-img1"  src="/static/img/dovish-hawkish/dove.png" alt="dove">
@@ -762,6 +772,9 @@
 
 
       let results = [];
+
+      let countryVals = {};
+
       // xxxxx
       for (const rec of councilByFunction) {
 
@@ -771,9 +784,7 @@
           continue;
         }
 
-        let country = rec["country"]
-
-
+        let country   = rec["country"]
         let yearStart = rec["year_start"]
         let yearStop  = rec["year_stop"]
         if (yearStop === 0) {
@@ -785,7 +796,11 @@
           continue;
         }
 
-
+        if(countryVals[country]){
+            continue;
+        } else {
+          countryVals[country] = true;
+        }
 
         let statsValue = rec["hawkish_score"];
 
@@ -803,7 +818,9 @@
           animationDuration: 0,
           label: {
             show: true,
-            formatter:      Math.round(statsValue*100).toString(),
+            // formatter:      statsValue,
+            // formatter:      Math.round(statsValue*100).toString(),
+            formatter:      (Math.round(statsValue*100)/100).toString(),
             fontSize:       14,
             fontSize:       fontSizeByDisplay,
             fontWeight:     300,
@@ -958,16 +975,35 @@
         const colorNoData = 'rgba(224, 224, 224, 0.28)';
         let areaCol = colorNoData;
 
+        let countryVals = {} 
         for (const rec of councilByFunction) {
+
           let role1 = rec["organisation_euro"]
           if(role1 === "ecb"){
             continue;
           }
 
-          let countryX    = rec["country"];
-          if(country===countryX){
+          let countryEcb= rec["country"];
+          let yearStart = rec["year_start"]
+          let yearStop  = rec["year_stop"]
+          if (yearStop === 0) {
+            yearStop = 9999;
+          }
+          if(yearStart <= yr  &&  yearStop >= yr){
+            // is current
+          } else {
+            continue;
+          }
+
+          if(countryVals[countryEcb]){
+              continue;
+          } else {
+            countryVals[countryEcb] = true;
+          }
+
+          if(country===countryEcb){
             let statsValue = rec["hawkish_score"];
-            areaCol = 'rgba(199, 199, 244, 0.28)';
+            // areaCol = 'rgba(199, 199, 244, 0.28)';
             areaCol = valToPctToColor(statsValue, selectedDataMeta["main"])
           }
         }
