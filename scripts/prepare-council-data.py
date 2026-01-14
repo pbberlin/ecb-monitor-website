@@ -10,6 +10,8 @@ from pandas import Timestamp
 from pandas import NaT # not a time
 NaTType = type(pd.NaT)
 
+from numpy import float64
+
 from collections import defaultdict
 
 def toHtml(pthPickle, outPth):
@@ -33,50 +35,74 @@ def toHtml(pthPickle, outPth):
 
 
 
-def formatValue(key, val):
+def formatValue(key, vl):
     try:
 
+        if key == "starting_date" or key == "termination_date" :
+            if vl is None:
+                vl = "-"
+            elif type(vl) is NaTType:
+                vl = "0"
+            elif type(vl) is Timestamp:
+                if vl is NaT:
+                    vl = "0"
+                else:
+                    vl = vl.strftime("%Y-%m-%d %H:%M:%S")
+
+
         if key == "incumbent":
-            if isinstance(val, float) and math.isnan(val):
+            if isinstance(vl, float) and math.isnan(vl):
                 return ""
-            if val == 1.0:
+            if vl == 1.0:
                 return True
             else:
                 return False
 
         if key == "birth_year":
-            if isinstance(val, float) and math.isnan(val):
+            if isinstance(vl, float) and math.isnan(vl):
                 return ""
-            return math.trunc(val)
+            if type(vl) is str:
+                return vl
+            return int(math.trunc(vl))
         if key == "count_speeches":
-            if isinstance(val, float) and math.isnan(val):
+            if isinstance(vl, float) and math.isnan(vl):
                 return ""
-            return math.trunc(val)
+            if type(vl) is str:
+                return vl
+            return int(math.trunc(vl))
         if key == "euro_accession_year":
-            if isinstance(val, float) and math.isnan(val):
+            if isinstance(vl, float) and math.isnan(vl):
                 return ""
-            return math.trunc(val)
+            if type(vl) is str:
+                return vl
+            return int(math.trunc(vl))
 
 
-        if val is None:
+        if vl is None:
             return ""
 
-        if isinstance(val, (int, float)):
-            if isinstance(val, float) and math.isnan(val):
+        if isinstance(vl, (int, float)):
+            if isinstance(vl, float) and math.isnan(vl):
                 return ""
-            if isinstance(val, int):
-                return f"{val}"
-            if isinstance(val, float):
-                return round(float(val),2)
+            if isinstance(vl, int):
+                return f"{vl}"
+            if isinstance(vl, float):
+                return round(float(vl),2)
                 # return f"{val:.2f}"
 
 
         # default
-        return val
+        return vl
 
-    except Exception as e:
-        print(f"Error in formatValue: {e}")
-        return val
+    except Exception as exc:
+        # print(f"Error in formatValue: {e} \n\t  -{key}-  -{vl}-")
+        tb = traceback.extract_tb(exc.__traceback__)[-1]
+        print(f"\t formatValue() -{key}-  -{vl}-")
+        print(f"\t {exc}")
+        print(f"\t {tb.filename}:{tb.lineno} | {tb.line}")
+
+
+        return vl
 
 
 
@@ -104,24 +130,33 @@ def testFormatValue():
 
 
 
-def sortByFunction(dataByName):
+def sortByFunction(members):
+
+    # print(f" {type(members)}")
 
     try:
-        keysInp = list(dataByName.values())
+        # members is now a list of member records (dicts)
+
+        keysInp = []
+        for row in members:
+            keysInp.append(row)
+
+
         roleOrderMap = {
             "president":       0,
             "vice-president":  1,
             "chief economist": 2,
             "executive board": 3,
             "board":           4,
-            "executive board": 6,   # ecb
             "governor":        5,   # non-ecb
+            "executive board": 6,   # ecb
         }
+
         def generateSortKey(memberRecord):
 
-            sort1a = memberRecord["organisation_euro"] #  ecb or country gov
+            sort1a = memberRecord["organisation_euro"]  # ecb or country gov
 
-            roleValue = memberRecord["role_euro"]      #  president, vp, chief econ., board
+            roleValue = memberRecord["role_euro"]        # president, vp, chief econ., board
             if roleValue not in roleOrderMap:
                 raise ValueError(f"Unknown role_euro: {roleValue}")
 
@@ -132,7 +167,6 @@ def sortByFunction(dataByName):
             sort2 = nameParts[-1]
 
             sort3 = memberRecord["starting_date"]
-
 
             # print(f" sorting by {sort1a}-{sort1b}-{sort2}-{sort3}")
             return (sort1a, sort1b, sort2, sort3)
@@ -146,8 +180,8 @@ def sortByFunction(dataByName):
                 name = member["name"]
                 date = member["starting_date"]
                 role = member["role_euro"]
-                if idx1 < headTail  or idx1 > (len(keysSorted) - headTail):
-                    print(f"\t\t{idx1 + 1:2}. {date} | {role} | {name}")
+                if idx1 < headTail or idx1 > (len(keysSorted) - headTail):
+                    print(f"\t\t{idx1 + 1:3}. {date} | {role:14} | {name}")
 
         return keysSorted
 
@@ -155,7 +189,6 @@ def sortByFunction(dataByName):
         tb = traceback.extract_tb(exc.__traceback__)[-1]
         print(f"{exc} | {tb.filename}:{tb.lineno} | {tb.line}")
         sys.exit(1)
-
 
 
 def convertPickleToJs(
@@ -188,86 +221,105 @@ def convertPickleToJs(
 
 
 
+        if False:
+            keyColA = dta[keyColName].tolist()
+            print(f"\t  found {len(keyColA)} rows  by '{keyColName}'")
+            for idx1, keyColVal in enumerate(keyColA):
+                if idx1 > 2:
+                    break
+                print(f"\t     key col '{keyColName}' val  - {keyColVal}")
+
+
+        out = []
+
+
         keyCol = dta[keyColName].tolist()
-        print(f"\t  '{len(keyCol)}' rows found by {keyColName}")
-        for idx1, keyColVal in enumerate(keyCol):
-            if idx1 > 2:
-                break
-            print(f"\t     key col '{keyColName}' val  - {keyColVal}")
+        for idx1, rawRowKey in enumerate(keyCol):
+
+            loopName = dta.iloc[idx1][keyColName]
+            if (idx1 < 3) or (idx1 >= (len(dta)-3)):
+                print(f"\t     {idx1:3} key col '{keyColName}' val  - {loopName}")
+    
+            # iterate columns for row
+            row = {}
+            for idx2, colName in enumerate(cols):
+                vl = dta.iloc[idx1][colName]
+                vl = formatValue(colName, vl)
+                row[colName] = vl
+            out.append(row)
 
 
-        out = {}
+        print(f"\toutput-2 {len(out)} rows")
+
+
+        if False:
+            for idx1, row in enumerate(out):
+                if (idx1 < 3) or (idx1 >= (len(out)-3)):
+                    print("\t", end="")
+                    for idx2, key in enumerate(row):
+                        print(f" {key} {row[key]}", end=", ")
+                    print("")
+
 
         organisation_euro = defaultdict(int)
         role_euro         = defaultdict(int)
-
-        # iterate columns to create first level keys
-        for idx1, colName in enumerate(cols):
-
-            col = dta[colName].tolist()
-
-            if idx1 < 1:
-                print(f"\t  first five row keys  { ', '.join(keyCol[:5]) } ")
-
-            # iterate rows to create second level keys (cell values)
-            for idx2, vl in enumerate(col):
-
-                if vl is None:
-                    pass
-                elif type(vl) is float:
-                    pass
-                elif type(vl) is str:
-                    pass
-                elif type(vl) is NaTType:
-                    vl = "NaT"
-                    vl = "0"
-                elif type(vl) is Timestamp:
-                    if vl is NaT:
-                        vl = "0"
-                    else:
-                        vl = vl.strftime("%Y-%m-%d %H:%M:%S")
-                else:
-                    print(f" type of {vl} is OTHER:    {type(vl)}")
+        distinctNames     = defaultdict(int)
 
 
-                # print(f" rowkey is {rowKey} ")
-                rowKey = str(keyCol[idx2])
-
-                # print(f" {rowKey:28}  {colName:24} {vl}")
-                if not rowKey in out:
-                    out[rowKey] = {}
-
-                if "name_excel" in out[rowKey] and rowKey !=  out[rowKey]["name_excel"]:
-                    print(f" {out[rowKey]['name_excel']} vs {rowKey}")
-
-                if colName == "name_excel":
-                    continue
-                if colName == "source" and vl is  None:
-                    continue
+        for idx1, row in enumerate(out):
+            if "name_excel" in row and row["name"] !=  row["name_excel"]:
+                print(f" {row['name_excel']} vs {row['name']}")
+            else:
+                out[idx1].pop("name_excel",   None)
 
 
-                out[rowKey][colName] = formatValue(colName, vl)
-
-                if colName == "starting_date":
-                    out[rowKey]["year_start"] = int(out[rowKey][colName][:4])
-                if colName == "termination_date":
-                    out[rowKey]["year_stop"] = int(out[rowKey][colName][:4])
+            if "starting_date" in row:
+                out[idx1]["year_start"] = int(row["starting_date"][:4])
+            if "termination_date" in row:
+                out[idx1]["year_stop"]  = int(row["termination_date"][:4])
 
 
-                if colName == "organisation_euro":
-                    organisation_euro[vl] += 1
-                if colName == "role_euro":
-                    role_euro[vl] += 1
+            if "organisation_euro" in row:
+                organisation_euro[ row["organisation_euro"] ] += 1
+            if "role_euro" in row:
+                role_euro[ row["role_euro"] ] += 1
+            if "name" in row:
+                distinctNames[ row["name"] ]  += 1
 
 
 
-        # combined keys for convenience 
-        for idx1, key in enumerate(out):
-            out[key]["from_to"] = f"{out[key]['year_start']} - {out[key]['year_stop']}"
-            if out[key]['year_stop'] == 0:
-                out[key]["from_to"] = f"since {out[key]['year_start']}  "
 
-            officeTitle = f"{out[key]['role_euro']}"
+        # print(f"\t  organisation_euro {', '.join(organisation_euro)} ")
+        print("\t", end="")
+        for key in organisation_euro:
+            print(f"{key:<12}  {organisation_euro[key]}", end=", ")
+        print("")
+        print("\t", end="")
+        # print(f"\t  role_euro         {', '.join(role_euro)} ")
+        for key in role_euro:
+            print(f"{key:<12}  {role_euro[key]}", end=", ")
+        print("")
+        print("\t", end="")
+        cntr = 0
+        for idx, key in enumerate(distinctNames):
+            if distinctNames[key] > 1:
+                print(f"{key:20} {distinctNames[key]}", end=", ")
+                cntr += 1
+            if cntr > 3:
+                cntr = 0
+                print("")
+                print("\t", end="")
+        print("")
+
+
+
+        # combined keys for convenience
+        for idx1, row in enumerate(out):
+            row["from_to"] = f"{row['year_start']} - {row['year_stop']}"
+            if row['year_stop'] == 0:
+                row["from_to"] = f"since {row['year_start']}  "
+
+            officeTitle = f"{row['role_euro']}"
             officeTitle = str(officeTitle).strip()
             # we do this using i18n later in Javascript:
             #    ...replace("executive board", "", -1)
@@ -276,36 +328,44 @@ def convertPickleToJs(
             #    ...title()
 
             if officeTitle:
-                out[key]["role_euro__from_to"]  = f"{officeTitle},  {out[key]['from_to']} "
+                row["role_euro__from_to"]  = f"{officeTitle},  {row['from_to']} "
             else:
-                out[key]["role_euro__from_to"]  = f"{out[key]['from_to']} "
+                row["role_euro__from_to"]  = f"{row['from_to']} "
 
 
-            out[key]["born_raised"]  = f"*{out[key]['birth_year']}, {out[key]['country']}"
+            row["born_raised"]  = f"*{row['birth_year']}, {row['country']}"
 
 
-            out[key]["education"]  = f"education: {out[key]['field_of_study']}"
+            row["education"]  = f"education: {row['field_of_study']}"
 
-            out[key]["career"] = "experience: "
-            if out[key]['career_1']:
-                out[key]["career"] += f"{out[key]['career_1']}"
-            if out[key]['career_2']:
-                out[key]["career"] += f", {out[key]['career_2']}"
-
-
+            row["career"] = "experience: "
+            if row['career_1']:
+                row["career"] += f"{row['career_1']}"
+            if row['career_2']:
+                row["career"] += f", {row['career_2']}"
 
 
 
-        # remove keys not needed 
+
+
+        # remove keys not needed
         for idx1, key in enumerate(out):
-            # out[key].pop("year_start", None)
-            # out[key].pop("year_stop",  None)
-            out[key].pop("career_1",   None)
-            out[key].pop("career_2",   None)
+            # out[idx1].pop("year_start", None)
+            # out[idx1].pop("year_stop",  None)
+            out[idx1].pop("career_1",   None)
+            out[idx1].pop("career_2",   None)
+
+            if ("source" in row)  and  row["source"]=="":
+                out[idx1].pop("source",   None)
+
+            if ("euro_accession_year" in row)  and  row["euro_accession_year"]=="":
+                out[idx1].pop("euro_accession_year",   None)
+
+            if ("name_excel" in row):
+                if row["name_excel"]==row["name"]:
+                    out[idx1].pop("name_excel",   None)
 
 
-        print(f"\t  organisation_euro {', '.join(organisation_euro)} ")
-        print(f"\t  role_euro         {', '.join(role_euro)} ")
 
         if False:
             jsonString = json.dumps(out, indent=4)
@@ -323,7 +383,7 @@ def convertPickleToJs(
         with outPthJs2.open("w", encoding="utf-8") as fileHandle:
             fileHandle.write(jsContent)
         print(f"\tconverted \n\t  {pthPickle} to \n\t  {outPthJs2}")
-        print(f"\toutput {len(byFunction)} rows")
+        print(f"\toutput-3 {len(byFunction)} rows")
 
 
 

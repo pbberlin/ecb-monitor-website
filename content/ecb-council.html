@@ -234,6 +234,26 @@
 
 }
 
+
+  .col--left   {
+    background-image: url("/static/img/ecb/ecb-transparent-22pct.png");
+    background-image: url("/static/img/ecb/ecb-transparent-30pct.png");
+    background-repeat: no-repeat;
+
+    background-size:      100%;
+    background-position-y:  4.8rem;
+    background-position-x: -4.5rem;
+
+    background-size:      70%;
+    background-position-y:  5.8rem;
+    background-position-x:  1.3rem;
+
+    /* background-blend-mode: lighten; */
+  }
+
+
+
+
 </style>
 
 
@@ -391,8 +411,36 @@
   </div>
 
   <div class="col col--right control-pad">
-
       <!-- right col content -->
+
+
+      <style>
+        .gradient-illustation {
+          width: 17%;
+        }
+        .gradient-illustation-img1 {
+          /* align-self:   start; */
+          /* justify-self: start; */
+          translate:  -40%  +60%;
+        }
+        .gradient-illustation-img2 {
+          margin-left: auto;
+          translate: +40%   +60%;
+        }
+      </style>
+
+      <div class="slider-group"
+          style="margin-top: 0.5rem; margin-bottom: 0;
+          flex-direction: row;
+          aa-border: 2px solid gray;"
+      >
+
+        <img class="gradient-illustation gradient-illustation-img1"  src="/static/img/dovish-hawkish/dove.png" alt="dove">
+        <img class="gradient-illustation gradient-illustation-img2"  src="/static/img/dovish-hawkish/hawk.png" alt="hawk">
+
+      </div>
+
+
 
       <div class="gradientWrapper">
           <div class="gradient1" id="gradient1"></div>
