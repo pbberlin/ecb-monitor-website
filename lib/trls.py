@@ -306,6 +306,18 @@ trlsRaw = [
         },
     },
 
+    {
+        "education":    {
+            "de": "Ausbildung",
+            "en": "Education",
+        },
+    },
+    {
+        "experience":    {
+            "de": "Berufserfahrung",
+            "en": "Experience",
+        },
+    },
 
 
 

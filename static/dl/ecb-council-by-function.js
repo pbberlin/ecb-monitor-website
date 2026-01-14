@@ -17,8 +17,9 @@ councilByFunction=[
         "hawkish_score": -0.63,
         "from_to": "2011 - 2019",
         "role_euro__from_to": "president,  2011 - 2019 ",
-        "career": "Economics, Professor, Bank",
-        "born_raised": "*1947, Italy"
+        "born_raised": "*1947, Italy",
+        "education": "education: Economics",
+        "career": "experience: Professor, Bank"
     },
     {
         "name": "Willem F Duisenberg",
@@ -38,8 +39,9 @@ councilByFunction=[
         "hawkish_score": 0.39,
         "from_to": "1997 - 2003",
         "role_euro__from_to": "president,  1997 - 2003 ",
-        "career": "Economics, Politics",
-        "born_raised": "*1935, Netherlands"
+        "born_raised": "*1935, Netherlands",
+        "education": "education: Economics",
+        "career": "experience: Politics"
     },
     {
         "name": "Christine Lagarde",
@@ -59,8 +61,9 @@ councilByFunction=[
         "hawkish_score": 0.15,
         "from_to": "since 2019  ",
         "role_euro__from_to": "president,  since 2019   ",
-        "career": "Law, IMF, Politics",
-        "born_raised": "*1956, France"
+        "born_raised": "*1956, France",
+        "education": "education: Law",
+        "career": "experience: IMF, Politics"
     },
     {
         "name": "Jean-Claude Trichet",
@@ -80,8 +83,9 @@ councilByFunction=[
         "hawkish_score": 0.44,
         "from_to": "2003 - 2011",
         "role_euro__from_to": "president,  2003 - 2011 ",
-        "career": "Economics, AdminFinance",
-        "born_raised": "*1942, France"
+        "born_raised": "*1942, France",
+        "education": "education: Economics",
+        "career": "experience: AdminFinance"
     },
     {
         "name": "V\u00edtor Const\u00e2ncio",
@@ -101,8 +105,9 @@ councilByFunction=[
         "hawkish_score": -0.47,
         "from_to": "2010 - 2018",
         "role_euro__from_to": "vice-president,  2010 - 2018 ",
-        "career": "Economics, Politics",
-        "born_raised": "*1943, Portugal"
+        "born_raised": "*1943, Portugal",
+        "education": "education: Economics",
+        "career": "experience: Politics"
     },
     {
         "name": "Luis de Guindos",
@@ -122,8 +127,9 @@ councilByFunction=[
         "hawkish_score": -0.04,
         "from_to": "since 2018  ",
         "role_euro__from_to": "vice-president,  since 2018   ",
-        "career": "Economics, Business, Credit, Politics",
-        "born_raised": "*1960, Spain"
+        "born_raised": "*1960, Spain",
+        "education": "education: Economics, Business",
+        "career": "experience: Credit, Politics"
     },
     {
         "name": "Christian Noyer",
@@ -143,8 +149,9 @@ councilByFunction=[
         "hawkish_score": 0.54,
         "from_to": "1998 - 2002",
         "role_euro__from_to": "vice-president,  1998 - 2002 ",
-        "career": "Law, AdminFinance",
-        "born_raised": "*1950, France"
+        "born_raised": "*1950, France",
+        "education": "education: Law",
+        "career": "experience: AdminFinance"
     },
     {
         "name": "Lucas Papademos",
@@ -164,8 +171,9 @@ councilByFunction=[
         "hawkish_score": 0.37,
         "from_to": "2002 - 2010",
         "role_euro__from_to": "vice-president,  2002 - 2010 ",
-        "career": "Economics, CentralBank",
-        "born_raised": "*1947, Greece"
+        "born_raised": "*1947, Greece",
+        "education": "education: Economics",
+        "career": "experience: CentralBank"
     },
     {
         "name": "Otmar Issing",
@@ -185,8 +193,9 @@ councilByFunction=[
         "hawkish_score": 0.64,
         "from_to": "1998 - 2006",
         "role_euro__from_to": "chief economist,  1998 - 2006 ",
-        "career": "Economics, University",
-        "born_raised": "*1936, Germany"
+        "born_raised": "*1936, Germany",
+        "education": "education: Economics",
+        "career": "experience: University"
     },
     {
         "name": "Philip R. Lane",
@@ -206,8 +215,9 @@ councilByFunction=[
         "hawkish_score": -0.1,
         "from_to": "since 2019  ",
         "role_euro__from_to": "chief economist,  since 2019   ",
-        "career": "Economics, Professor, Research",
-        "born_raised": "*1969, Ireland"
+        "born_raised": "*1969, Ireland",
+        "education": "education: Economics",
+        "career": "experience: Professor, Research"
     },
     {
         "name": "Peter Praet",
@@ -227,8 +237,9 @@ councilByFunction=[
         "hawkish_score": -0.67,
         "from_to": "2011 - 2019",
         "role_euro__from_to": "chief economist,  2011 - 2019 ",
-        "career": "Economics, Bank, Politics",
-        "born_raised": "*1949, Belgium"
+        "born_raised": "*1949, Belgium",
+        "education": "education: Economics",
+        "career": "experience: Bank, Politics"
     },
     {
         "name": "J\u00fcrgen Stark",
@@ -248,8 +259,9 @@ councilByFunction=[
         "hawkish_score": 0.57,
         "from_to": "2006 - 2011",
         "role_euro__from_to": "chief economist,  2006 - 2011 ",
-        "career": "Economics, AdminFinance",
-        "born_raised": "*1948, Germany"
+        "born_raised": "*1948, Germany",
+        "education": "education: Economics",
+        "career": "experience: AdminFinance"
     },
     {
         "name": "J\u00f6rg Asmussen",
@@ -269,8 +281,9 @@ councilByFunction=[
         "hawkish_score": 0.08,
         "from_to": "2012 - 2014",
         "role_euro__from_to": "executive board,  2012 - 2014 ",
-        "career": "Business Administration, Economics, Bank, Research",
-        "born_raised": "*1966, Germany"
+        "born_raised": "*1966, Germany",
+        "education": "education: Business Administration, Economics",
+        "career": "experience: Bank, Research"
     },
     {
         "name": "Piero Cipollone",
@@ -290,8 +303,9 @@ councilByFunction=[
         "hawkish_score": 0.33,
         "from_to": "since 2023  ",
         "role_euro__from_to": "executive board,  since 2023   ",
-        "career": "Economics, Economist, Bank",
-        "born_raised": "*1962, Italy"
+        "born_raised": "*1962, Italy",
+        "education": "education: Economics",
+        "career": "experience: Economist, Bank"
     },
     {
         "name": "Beno\u00eet C\u0153ur\u00e9",
@@ -311,8 +325,9 @@ councilByFunction=[
         "hawkish_score": -0.48,
         "from_to": "2012 - 2019",
         "role_euro__from_to": "executive board,  2012 - 2019 ",
-        "career": "Economics, Economist, Politics",
-        "born_raised": "*1969, France"
+        "born_raised": "*1969, France",
+        "education": "education: Economics",
+        "career": "experience: Economist, Politics"
     },
     {
         "name": "Frank Elderson",
@@ -332,8 +347,9 @@ councilByFunction=[
         "hawkish_score": 0.42,
         "from_to": "since 2020  ",
         "role_euro__from_to": "executive board,  since 2020   ",
-        "career": "Law, Bank",
-        "born_raised": "*1970, Netherlands"
+        "born_raised": "*1970, Netherlands",
+        "education": "education: Law",
+        "career": "experience: Bank"
     },
     {
         "name": "Jose Manuel Gonzalez-Paramo",
@@ -353,8 +369,9 @@ councilByFunction=[
         "hawkish_score": 0.22,
         "from_to": "2004 - 2012",
         "role_euro__from_to": "executive board,  2004 - 2012 ",
-        "career": "Economics, University",
-        "born_raised": "*1958, Spain"
+        "born_raised": "*1958, Spain",
+        "education": "education: Economics",
+        "career": "experience: University"
     },
     {
         "name": "Sirkka H\u00e4m\u00e4l\u00e4inen",
@@ -374,8 +391,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "1998 - 2003",
         "role_euro__from_to": "executive board,  1998 - 2003 ",
-        "career": "Economics, CentralBank",
-        "born_raised": "*1939, Finland"
+        "born_raised": "*1939, Finland",
+        "education": "education: Economics",
+        "career": "experience: CentralBank"
     },
     {
         "name": "Sabine Lautenschl\u00e4ger",
@@ -395,8 +413,9 @@ councilByFunction=[
         "hawkish_score": -0.1,
         "from_to": "2014 - 2019",
         "role_euro__from_to": "executive board,  2014 - 2019 ",
-        "career": "Law, Bank",
-        "born_raised": "*1964, Germany"
+        "born_raised": "*1964, Germany",
+        "education": "education: Law",
+        "career": "experience: Bank"
     },
     {
         "name": "Yves Mersch",
@@ -416,8 +435,9 @@ councilByFunction=[
         "hawkish_score": -0.17,
         "from_to": "2012 - 2020",
         "role_euro__from_to": "executive board,  2012 - 2020 ",
-        "career": "Law, Politcs",
-        "born_raised": "*1949, Luxembourg"
+        "born_raised": "*1949, Luxembourg",
+        "education": "education: Law",
+        "career": "experience: Politcs"
     },
     {
         "name": "Tommaso Padoa-Schioppa",
@@ -437,8 +457,9 @@ councilByFunction=[
         "hawkish_score": 0.0,
         "from_to": "1998 - 2005",
         "role_euro__from_to": "executive board,  1998 - 2005 ",
-        "career": "Economics, CentralBank",
-        "born_raised": "*1940, Italy"
+        "born_raised": "*1940, Italy",
+        "education": "education: Economics",
+        "career": "experience: CentralBank"
     },
     {
         "name": "Fabio Panetta",
@@ -458,8 +479,9 @@ councilByFunction=[
         "hawkish_score": 0.07,
         "from_to": "2020 - 2023",
         "role_euro__from_to": "executive board,  2020 - 2023 ",
-        "career": "Economics, Bank, OECD",
-        "born_raised": "*1959, Italy"
+        "born_raised": "*1959, Italy",
+        "education": "education: Economics",
+        "career": "experience: Bank, OECD"
     },
     {
         "name": "Isabel Schnabel",
@@ -479,8 +501,9 @@ councilByFunction=[
         "hawkish_score": 0.11,
         "from_to": "since 2020  ",
         "role_euro__from_to": "executive board,  since 2020   ",
-        "career": "Economics, Research, Professor",
-        "born_raised": "*1971, Germany"
+        "born_raised": "*1971, Germany",
+        "education": "education: Economics",
+        "career": "experience: Research, Professor"
     },
     {
         "name": "Lorenzo Bini Smaghi",
@@ -500,8 +523,9 @@ councilByFunction=[
         "hawkish_score": 0.4,
         "from_to": "2005 - 2011",
         "role_euro__from_to": "executive board,  2005 - 2011 ",
-        "career": "Economics, CentralBank",
-        "born_raised": "*1956, Italy"
+        "born_raised": "*1956, Italy",
+        "education": "education: Economics",
+        "career": "experience: CentralBank"
     },
     {
         "name": "Eugenio Domingo Solans",
@@ -521,8 +545,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "1998 - 2004",
         "role_euro__from_to": "executive board,  1998 - 2004 ",
-        "career": "Economics, University",
-        "born_raised": "*1945, Spain"
+        "born_raised": "*1945, Spain",
+        "education": "education: Economics",
+        "career": "experience: University"
     },
     {
         "name": "Gertrude Tumpel-Gugerell",
@@ -542,8 +567,9 @@ councilByFunction=[
         "hawkish_score": 0.18,
         "from_to": "2003 - 2011",
         "role_euro__from_to": "executive board,  2003 - 2011 ",
-        "career": "Economics, CentralBank",
-        "born_raised": "*1952, Austria"
+        "born_raised": "*1952, Austria",
+        "education": "education: Economics",
+        "career": "experience: CentralBank"
     },
     {
         "name": "France Arhar",
@@ -563,8 +589,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "1991 - 2001",
         "role_euro__from_to": "governor,  1991 - 2001 ",
-        "career": "",
-        "born_raised": "*, Slovenia"
+        "born_raised": "*, Slovenia",
+        "education": "education: ",
+        "career": "experience: "
     },
     {
         "name": "Michael Bonello",
@@ -584,8 +611,9 @@ councilByFunction=[
         "hawkish_score": 0.43,
         "from_to": "1999 - 2011",
         "role_euro__from_to": "governor,  1999 - 2011 ",
-        "career": "Economics, CentralBank",
-        "born_raised": "*1945, Malta"
+        "born_raised": "*1945, Malta",
+        "education": "education: Economics",
+        "career": "experience: CentralBank"
     },
     {
         "name": "Josef Bonnici",
@@ -605,8 +633,9 @@ councilByFunction=[
         "hawkish_score": -0.47,
         "from_to": "2011 - 2016",
         "role_euro__from_to": "governor,  2011 - 2016 ",
-        "career": "Economics, Politcs",
-        "born_raised": "*1953, Malta"
+        "born_raised": "*1953, Malta",
+        "education": "education: Economics",
+        "career": "experience: Politcs"
     },
     {
         "name": "Jaime Caruana\u00a0",
@@ -626,8 +655,9 @@ councilByFunction=[
         "hawkish_score": 0.37,
         "from_to": "2000 - 2006",
         "role_euro__from_to": "governor,  2000 - 2006 ",
-        "career": "",
-        "born_raised": "*, Spain"
+        "born_raised": "*, Spain",
+        "education": "education: ",
+        "career": "experience: "
     },
     {
         "name": "M\u00e1rio Centeno",
@@ -647,8 +677,9 @@ councilByFunction=[
         "hawkish_score": -0.04,
         "from_to": "since 2020  ",
         "role_euro__from_to": "governor,  since 2020   ",
-        "career": "Economics, Politics, Professor",
-        "born_raised": "*1966, Portugal"
+        "born_raised": "*1966, Portugal",
+        "education": "education: Economics",
+        "career": "experience: Politics, Professor"
     },
     {
         "name": "Christodoulos Christodoulou",
@@ -668,8 +699,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "2004 - 2007",
         "role_euro__from_to": "governor,  2004 - 2007 ",
-        "career": "Law, Teacher, Politcs",
-        "born_raised": "*1939, Cyprus"
+        "born_raised": "*1939, Cyprus",
+        "education": "education: Law",
+        "career": "experience: Teacher, Politcs"
     },
     {
         "name": "Luc Coene",
@@ -689,8 +721,9 @@ councilByFunction=[
         "hawkish_score": 0.9,
         "from_to": "2011 - 2015",
         "role_euro__from_to": "governor,  2011 - 2015 ",
-        "career": "Economics, National Bank, Poltics",
-        "born_raised": "*1945, Belgium"
+        "born_raised": "*1945, Belgium",
+        "education": "education: Economics",
+        "career": "experience: National Bank, Poltics"
     },
     {
         "name": "Pablo Hern\u00e1ndez de Cos",
@@ -710,8 +743,9 @@ councilByFunction=[
         "hawkish_score": 0.02,
         "from_to": "since 2018  ",
         "role_euro__from_to": "governor,  since 2018   ",
-        "career": "Law, Economics, Business, Research, Bank",
-        "born_raised": "*1971, Spain"
+        "born_raised": "*1971, Spain",
+        "education": "education: Law, Economics, Business",
+        "career": "experience: Research, Bank"
     },
     {
         "name": "Carlos da Silva Costa",
@@ -731,8 +765,9 @@ councilByFunction=[
         "hawkish_score": -0.1,
         "from_to": "2010 - 2020",
         "role_euro__from_to": "governor,  2010 - 2020 ",
-        "career": "Economics, Resaerch",
-        "born_raised": "*1949, Portugal"
+        "born_raised": "*1949, Portugal",
+        "education": "education: Economics",
+        "career": "experience: Resaerch"
     },
     {
         "name": "Panicos Demetriades",
@@ -752,8 +787,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "2012 - 2014",
         "role_euro__from_to": "governor,  2012 - 2014 ",
-        "career": "Economics, Research, National Bank",
-        "born_raised": "*1959, Cyprus"
+        "born_raised": "*1959, Cyprus",
+        "education": "education: Economics",
+        "career": "experience: Research, National Bank"
     },
     {
         "name": "Antonio Fazio",
@@ -773,8 +809,9 @@ councilByFunction=[
         "hawkish_score": 0.39,
         "from_to": "1993 - 2005",
         "role_euro__from_to": "governor,  1993 - 2005 ",
-        "career": "Economics, CentralBank",
-        "born_raised": "*1936, Italy"
+        "born_raised": "*1936, Italy",
+        "education": "education: Economics",
+        "career": "experience: CentralBank"
     },
     {
         "name": "Fran\u00e7ois Villeroy de Galhau",
@@ -794,8 +831,9 @@ councilByFunction=[
         "hawkish_score": -0.02,
         "from_to": "since 2015  ",
         "role_euro__from_to": "governor,  since 2015   ",
-        "career": "Economics, Bank, Politics",
-        "born_raised": "*1959, France"
+        "born_raised": "*1959, France",
+        "education": "education: Economics",
+        "career": "experience: Bank, Politics"
     },
     {
         "name": "Nicholas C Garganas",
@@ -815,8 +853,9 @@ councilByFunction=[
         "hawkish_score": 0.58,
         "from_to": "2002 - 2008",
         "role_euro__from_to": "governor,  2002 - 2008 ",
-        "career": "Economics, CentralBank",
-        "born_raised": "*1937, Greece"
+        "born_raised": "*1937, Greece",
+        "education": "education: Economics",
+        "career": "experience: CentralBank"
     },
     {
         "name": "Mitja Gaspari",
@@ -836,8 +875,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "2001 - 2007",
         "role_euro__from_to": "governor,  2001 - 2007 ",
-        "career": "Economics, CentralBank",
-        "born_raised": "*1951, Slovenia"
+        "born_raised": "*1951, Slovenia",
+        "education": "education: Economics",
+        "career": "experience: CentralBank"
     },
     {
         "name": "Chrystalla Georghadji",
@@ -857,8 +897,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "2014 - 2019",
         "role_euro__from_to": "governor,  2014 - 2019 ",
-        "career": "Economics, Research, Court of Audit",
-        "born_raised": "*1956, Cyprus"
+        "born_raised": "*1956, Cyprus",
+        "education": "education: Economics",
+        "career": "experience: Research, Court of Audit"
     },
     {
         "name": "Ardo Hansson",
@@ -878,8 +919,9 @@ councilByFunction=[
         "hawkish_score": 0.15,
         "from_to": "2012 - 2019",
         "role_euro__from_to": "governor,  2012 - 2019 ",
-        "career": "Economics, Politics",
-        "born_raised": "*1958, Estonia"
+        "born_raised": "*1958, Estonia",
+        "education": "education: Economics",
+        "career": "experience: Politics"
     },
     {
         "name": "Constantinos Herodotou",
@@ -899,8 +941,9 @@ councilByFunction=[
         "hawkish_score": 0.85,
         "from_to": "since 2019  ",
         "role_euro__from_to": "governor,  since 2019   ",
-        "career": "Economics, Investestmen Banker",
-        "born_raised": "*1970, Cyprus"
+        "born_raised": "*1970, Cyprus",
+        "education": "education: Economics",
+        "career": "experience: Investestmen Banker"
     },
     {
         "name": "Robert Holzmann",
@@ -920,8 +963,9 @@ councilByFunction=[
         "hawkish_score": 0.34,
         "from_to": "since 2019  ",
         "role_euro__from_to": "governor,  since 2019   ",
-        "career": "Economics, OECD, Professsor",
-        "born_raised": "*1949, Austria"
+        "born_raised": "*1949, Austria",
+        "education": "education: Economics",
+        "career": "experience: OECD, Professsor"
     },
     {
         "name": "Patrick Honohan",
@@ -941,8 +985,9 @@ councilByFunction=[
         "hawkish_score": -0.09,
         "from_to": "2009 - 2015",
         "role_euro__from_to": "governor,  2009 - 2015 ",
-        "career": "Economics, Bank",
-        "born_raised": "*1949, Ireland"
+        "born_raised": "*1949, Ireland",
+        "education": "education: Economics",
+        "career": "experience: Bank"
     },
     {
         "name": "John Hurley",
@@ -962,8 +1007,9 @@ councilByFunction=[
         "hawkish_score": 0.26,
         "from_to": "2002 - 2009",
         "role_euro__from_to": "governor,  2002 - 2009 ",
-        "career": "Law, AdminFinance",
-        "born_raised": "*1945, Ireland"
+        "born_raised": "*1945, Ireland",
+        "education": "education: Law",
+        "career": "experience: AdminFinance"
     },
     {
         "name": "Bo\u0161tjan Jazbec",
@@ -983,8 +1029,9 @@ councilByFunction=[
         "hawkish_score": -0.8,
         "from_to": "2013 - 2018",
         "role_euro__from_to": "governor,  2013 - 2018 ",
-        "career": "Economics, OtherAdmin",
-        "born_raised": "*1970, Slovenia"
+        "born_raised": "*1970, Slovenia",
+        "education": "education: Economics",
+        "career": "experience: OtherAdmin"
     },
     {
         "name": "Mari\u00e1n Jusko",
@@ -1004,8 +1051,9 @@ councilByFunction=[
         "hawkish_score": 0.0,
         "from_to": "1999 - 2004",
         "role_euro__from_to": "governor,  1999 - 2004 ",
-        "career": "",
-        "born_raised": "*, Slovakia"
+        "born_raised": "*, Slovakia",
+        "education": "education: ",
+        "career": "experience: "
     },
     {
         "name": "M\u0101rti\u0146\u0161 Kaz\u0101ks",
@@ -1025,8 +1073,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "since 2019  ",
         "role_euro__from_to": "governor,  since 2019   ",
-        "career": "Economics, Bank",
-        "born_raised": "*1973, Latvia"
+        "born_raised": "*1973, Latvia",
+        "education": "education: Economics",
+        "career": "experience: Bank"
     },
     {
         "name": "Peter Ka\u017eim\u00edr",
@@ -1046,8 +1095,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "since 2019  ",
         "role_euro__from_to": "governor,  since 2019   ",
-        "career": "International Relations, Firms, Politics",
-        "born_raised": "*1968, Slovakia"
+        "born_raised": "*1968, Slovakia",
+        "education": "education: International Relations",
+        "career": "experience: Firms, Politics"
     },
     {
         "name": "Klaas Knot",
@@ -1067,8 +1117,9 @@ councilByFunction=[
         "hawkish_score": 0.27,
         "from_to": "since 2011  ",
         "role_euro__from_to": "governor,  since 2011   ",
-        "career": "Economics, CentralBank",
-        "born_raised": "*1967, Netherlands"
+        "born_raised": "*1967, Netherlands",
+        "education": "education: Economics",
+        "career": "experience: CentralBank"
     },
     {
         "name": "Marko Kranjec",
@@ -1088,8 +1139,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "2007 - 2013",
         "role_euro__from_to": "governor,  2007 - 2013 ",
-        "career": "Economics, University",
-        "born_raised": "*1940, Slovenia"
+        "born_raised": "*1940, Slovenia",
+        "education": "education: Economics",
+        "career": "experience: University"
     },
     {
         "name": "Klaus Liebscher",
@@ -1109,8 +1161,9 @@ councilByFunction=[
         "hawkish_score": 0.45,
         "from_to": "1995 - 2008",
         "role_euro__from_to": "governor,  1995 - 2008 ",
-        "career": "Law, Bank, Stock Market",
-        "born_raised": "*1939, Austria"
+        "born_raised": "*1939, Austria",
+        "education": "education: Law",
+        "career": "experience: Bank, Stock Market"
     },
     {
         "name": "Erkki Liikanen",
@@ -1130,8 +1183,9 @@ councilByFunction=[
         "hawkish_score": -0.06,
         "from_to": "2004 - 2018",
         "role_euro__from_to": "governor,  2004 - 2018 ",
-        "career": "Political Science, Politics",
-        "born_raised": "*1950, Finland"
+        "born_raised": "*1950, Finland",
+        "education": "education: Political Science",
+        "career": "experience: Politics"
     },
     {
         "name": "Luis Mar\u00eda Linde",
@@ -1151,8 +1205,9 @@ councilByFunction=[
         "hawkish_score": -0.54,
         "from_to": "2012 - 2018",
         "role_euro__from_to": "governor,  2012 - 2018 ",
-        "career": "Economics, Politcs",
-        "born_raised": "*1945, Spain"
+        "born_raised": "*1945, Spain",
+        "education": "education: Economics",
+        "career": "experience: Politcs"
     },
     {
         "name": "Andres Lipstok",
@@ -1172,8 +1227,9 @@ councilByFunction=[
         "hawkish_score": 0.23,
         "from_to": "2005 - 2012",
         "role_euro__from_to": "governor,  2005 - 2012 ",
-        "career": "Finance, Politics",
-        "born_raised": "*1957, Estonia"
+        "born_raised": "*1957, Estonia",
+        "education": "education: Finance",
+        "career": "experience: Politics"
     },
     {
         "name": "Gabriel Makhlouf",
@@ -1193,8 +1249,9 @@ councilByFunction=[
         "hawkish_score": 0.32,
         "from_to": "since 2019  ",
         "role_euro__from_to": "governor,  since 2019   ",
-        "career": "Economics, Civil Service",
-        "born_raised": "*1960, Ireland"
+        "born_raised": "*1960, Ireland",
+        "education": "education: Economics",
+        "career": "experience: Civil Service"
     },
     {
         "name": "Jozef Mak\u00fach",
@@ -1214,8 +1271,9 @@ councilByFunction=[
         "hawkish_score": 0.0,
         "from_to": "2010 - 2019",
         "role_euro__from_to": "governor,  2010 - 2019 ",
-        "career": "Economics, Bank, Professor",
-        "born_raised": "*1953, Slovakia"
+        "born_raised": "*1953, Slovakia",
+        "education": "education: Economics",
+        "career": "experience: Bank, Professor"
     },
     {
         "name": "Madis M\u00fcller",
@@ -1235,8 +1293,9 @@ councilByFunction=[
         "hawkish_score": 1.0,
         "from_to": "since 2019  ",
         "role_euro__from_to": "governor,  since 2019   ",
-        "career": "Finance, Bank",
-        "born_raised": "*1977, Estonia"
+        "born_raised": "*1977, Estonia",
+        "education": "education: Finance",
+        "career": "experience: Bank"
     },
     {
         "name": "Joachim Nagel",
@@ -1256,8 +1315,9 @@ councilByFunction=[
         "hawkish_score": 0.77,
         "from_to": "since 2022  ",
         "role_euro__from_to": "governor,  since 2022   ",
-        "career": "Economics, Bank",
-        "born_raised": "*1966, Germany"
+        "born_raised": "*1966, Germany",
+        "education": "education: Economics",
+        "career": "experience: Bank"
     },
     {
         "name": "Ewald Nowotny",
@@ -1277,8 +1337,9 @@ councilByFunction=[
         "hawkish_score": -0.13,
         "from_to": "2008 - 2019",
         "role_euro__from_to": "governor,  2008 - 2019 ",
-        "career": "Economics, Professor",
-        "born_raised": "*1944, Austria"
+        "born_raised": "*1944, Austria",
+        "education": "education: Economics",
+        "career": "experience: Professor"
     },
     {
         "name": "Miguel Fernandez Ordonez",
@@ -1298,8 +1359,9 @@ councilByFunction=[
         "hawkish_score": 0.12,
         "from_to": "2006 - 2012",
         "role_euro__from_to": "governor,  2006 - 2012 ",
-        "career": "Economics, OtherAdmin",
-        "born_raised": "*1945, Spain"
+        "born_raised": "*1945, Spain",
+        "education": "education: Economics",
+        "career": "experience: OtherAdmin"
     },
     {
         "name": "Athanasios Orphanides",
@@ -1319,8 +1381,9 @@ councilByFunction=[
         "hawkish_score": 0.6,
         "from_to": "2008 - 2012",
         "role_euro__from_to": "governor,  2008 - 2012 ",
-        "career": "Economics, Economist",
-        "born_raised": "*1962, Cyprus"
+        "born_raised": "*1962, Cyprus",
+        "education": "education: Economics",
+        "career": "experience: Economist"
     },
     {
         "name": "Maurice O\u2019Connell",
@@ -1340,8 +1403,9 @@ councilByFunction=[
         "hawkish_score": 0.65,
         "from_to": "1994 - 2002",
         "role_euro__from_to": "governor,  1994 - 2002 ",
-        "career": "Law, University",
-        "born_raised": "*1936, Ireland"
+        "born_raised": "*1936, Ireland",
+        "education": "education: Law",
+        "career": "experience: University"
     },
     {
         "name": "George A Provopoulos",
@@ -1361,8 +1425,9 @@ councilByFunction=[
         "hawkish_score": -0.3,
         "from_to": "2008 - 2014",
         "role_euro__from_to": "governor,  2008 - 2014 ",
-        "career": "Economics, Bank",
-        "born_raised": "*1950, Greece"
+        "born_raised": "*1950, Greece",
+        "education": "education: Economics",
+        "career": "experience: Bank"
     },
     {
         "name": "Guy Quaden",
@@ -1382,8 +1447,9 @@ councilByFunction=[
         "hawkish_score": 0.23,
         "from_to": "1999 - 2011",
         "role_euro__from_to": "governor,  1999 - 2011 ",
-        "career": "Economics, Univerity",
-        "born_raised": "*1945, Belgium"
+        "born_raised": "*1945, Belgium",
+        "education": "education: Economics",
+        "career": "experience: Univerity"
     },
     {
         "name": "Olli Rehn",
@@ -1403,8 +1469,9 @@ councilByFunction=[
         "hawkish_score": -0.18,
         "from_to": "since 2018  ",
         "role_euro__from_to": "governor,  since 2018   ",
-        "career": "Economics, Politics",
-        "born_raised": "*1962, Finland"
+        "born_raised": "*1962, Finland",
+        "education": "education: Economics",
+        "career": "experience: Politics"
     },
     {
         "name": "Gaston Reinesch",
@@ -1424,8 +1491,9 @@ councilByFunction=[
         "hawkish_score": -0.8,
         "from_to": "since 2013  ",
         "role_euro__from_to": "governor,  since 2013   ",
-        "career": "Economics, Professor, Consultant",
-        "born_raised": "*1958, Luxembourg"
+        "born_raised": "*1958, Luxembourg",
+        "education": "education: Economics",
+        "career": "experience: Professor, Consultant"
     },
     {
         "name": "Einars Rep\u0161e",
@@ -1445,8 +1513,9 @@ councilByFunction=[
         "hawkish_score": 0.47,
         "from_to": "1991 - 2001",
         "role_euro__from_to": "governor,  1991 - 2001 ",
-        "career": "",
-        "born_raised": "*, Latvia"
+        "born_raised": "*, Latvia",
+        "education": "education: ",
+        "career": "experience: "
     },
     {
         "name": "Ilm\u0101rs Rim\u0161\u0113vi\u010ds",
@@ -1466,8 +1535,9 @@ councilByFunction=[
         "hawkish_score": -0.1,
         "from_to": "2001 - 2019",
         "role_euro__from_to": "governor,  2001 - 2019 ",
-        "career": "Engineering, Business administration, Bank",
-        "born_raised": "*1965, Latvia"
+        "born_raised": "*1965, Latvia",
+        "education": "education: Engineering, Business administration",
+        "career": "experience: Bank"
     },
     {
         "name": "\u017deljko Rohatinski",
@@ -1487,8 +1557,9 @@ councilByFunction=[
         "hawkish_score": 0.2,
         "from_to": "2000 - 2012",
         "role_euro__from_to": "governor,  2000 - 2012 ",
-        "career": "Economics, Economist",
-        "born_raised": "*1951, Croatia"
+        "born_raised": "*1951, Croatia",
+        "education": "education: Economics",
+        "career": "experience: Economist"
     },
     {
         "name": "Luis \u00c1ngel Rojo",
@@ -1508,8 +1579,9 @@ councilByFunction=[
         "hawkish_score": 0.7,
         "from_to": "1992 - 2000",
         "role_euro__from_to": "governor,  1992 - 2000 ",
-        "career": "Economics, CentralBank",
-        "born_raised": "*1934, Spain"
+        "born_raised": "*1934, Spain",
+        "education": "education: Economics",
+        "career": "experience: CentralBank"
     },
     {
         "name": "Edward Scicluna",
@@ -1529,8 +1601,9 @@ councilByFunction=[
         "hawkish_score": 0.5,
         "from_to": "since 2021  ",
         "role_euro__from_to": "governor,  since 2021   ",
-        "career": "Economics, Teacher, Audit",
-        "born_raised": "*1946, Malta"
+        "born_raised": "*1946, Malta",
+        "education": "education: Economics",
+        "career": "experience: Teacher, Audit"
     },
     {
         "name": "Jan Smets",
@@ -1550,8 +1623,9 @@ councilByFunction=[
         "hawkish_score": -0.08,
         "from_to": "2015 - 2019",
         "role_euro__from_to": "governor,  2015 - 2019 ",
-        "career": "Economics, National Bank, Board of Director",
-        "born_raised": "*1951, Belgium"
+        "born_raised": "*1951, Belgium",
+        "education": "education: Economics",
+        "career": "experience: National Bank, Board of Director"
     },
     {
         "name": "Ant\u00f3nio Jos\u00e9 Fernandes de Sousa",
@@ -1571,8 +1645,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "1994 - 2000",
         "role_euro__from_to": "governor,  1994 - 2000 ",
-        "career": "Management Sciences, Private",
-        "born_raised": "*1955, Portugal"
+        "born_raised": "*1955, Portugal",
+        "education": "education: Management Sciences",
+        "career": "experience: Private"
     },
     {
         "name": "Yannis Stournaras",
@@ -1592,8 +1667,9 @@ councilByFunction=[
         "hawkish_score": -0.22,
         "from_to": "since 2014  ",
         "role_euro__from_to": "governor,  since 2014   ",
-        "career": "Economics, Politics, Professor",
-        "born_raised": "*1956, Greece"
+        "born_raised": "*1956, Greece",
+        "education": "education: Economics",
+        "career": "experience: Politics, Professor"
     },
     {
         "name": "Matti Vanhala",
@@ -1613,8 +1689,9 @@ councilByFunction=[
         "hawkish_score": 0.65,
         "from_to": "1998 - 2004",
         "role_euro__from_to": "governor,  1998 - 2004 ",
-        "career": "Political Science, Bank",
-        "born_raised": "*1946, Finland"
+        "born_raised": "*1946, Finland",
+        "education": "education: Political Science",
+        "career": "experience: Bank"
     },
     {
         "name": "Vitas Vasiliauskas\u00a0",
@@ -1634,8 +1711,9 @@ councilByFunction=[
         "hawkish_score": -0.27,
         "from_to": "2011 - 2021",
         "role_euro__from_to": "governor,  2011 - 2021 ",
-        "career": "Law, Politcs, Bank",
-        "born_raised": "*1973, Lithuania"
+        "born_raised": "*1973, Lithuania",
+        "education": "education: Law",
+        "career": "experience: Politcs, Bank"
     },
     {
         "name": "Bo\u0161tjan Vasle",
@@ -1655,8 +1733,9 @@ councilByFunction=[
         "hawkish_score": 0.72,
         "from_to": "since 2019  ",
         "role_euro__from_to": "governor,  since 2019   ",
-        "career": "Economics, Research/Expertise",
-        "born_raised": "*1969, Slovenia"
+        "born_raised": "*1969, Slovenia",
+        "education": "education: Economics",
+        "career": "experience: Research/Expertise"
     },
     {
         "name": "Mario Vella",
@@ -1676,8 +1755,9 @@ councilByFunction=[
         "hawkish_score": -0.12,
         "from_to": "2016 - 2020",
         "role_euro__from_to": "governor,  2016 - 2020 ",
-        "career": "Phylosphy, Economics, Politics, Professor",
-        "born_raised": "*1905, Malta"
+        "born_raised": "*1905, Malta",
+        "education": "education: Phylosphy, Economics",
+        "career": "experience: Politics, Professor"
     },
     {
         "name": "Ignazio Visco",
@@ -1697,8 +1777,9 @@ councilByFunction=[
         "hawkish_score": -0.35,
         "from_to": "2011 - 2023",
         "role_euro__from_to": "governor,  2011 - 2023 ",
-        "career": "Economics, Bank",
-        "born_raised": "*1949, Italy"
+        "born_raised": "*1949, Italy",
+        "education": "education: Economics",
+        "career": "experience: Bank"
     },
     {
         "name": "Boris Vuj\u010di\u0107",
@@ -1718,8 +1799,9 @@ councilByFunction=[
         "hawkish_score": 0.34,
         "from_to": "since 2012  ",
         "role_euro__from_to": "governor,  since 2012   ",
-        "career": "Economics, EZB (external advisor in the Monetary Matters Department)",
-        "born_raised": "*1964, Croatia"
+        "born_raised": "*1964, Croatia",
+        "education": "education: Economics",
+        "career": "experience: EZB (external advisor in the Monetary Matters Department)"
     },
     {
         "name": "Axel Weber",
@@ -1739,8 +1821,9 @@ councilByFunction=[
         "hawkish_score": 0.59,
         "from_to": "2004 - 2011",
         "role_euro__from_to": "governor,  2004 - 2011 ",
-        "career": "Economics, Professor",
-        "born_raised": "*1957, Germany"
+        "born_raised": "*1957, Germany",
+        "education": "education: Economics",
+        "career": "experience: Professor"
     },
     {
         "name": "Jens Weidmann",
@@ -1760,8 +1843,9 @@ councilByFunction=[
         "hawkish_score": 0.57,
         "from_to": "2011 - 2021",
         "role_euro__from_to": "governor,  2011 - 2021 ",
-        "career": "Economics, Politics, Sachverst\u00e4ndigen Rates",
-        "born_raised": "*1968, Germany"
+        "born_raised": "*1968, Germany",
+        "education": "education: Economics",
+        "career": "experience: Politics, Sachverst\u00e4ndigen Rates"
     },
     {
         "name": "Nout Wellink",
@@ -1781,8 +1865,9 @@ councilByFunction=[
         "hawkish_score": 0.3,
         "from_to": "1997 - 2011",
         "role_euro__from_to": "governor,  1997 - 2011 ",
-        "career": "Economics, Bank",
-        "born_raised": "*1967, Netherlands"
+        "born_raised": "*1967, Netherlands",
+        "education": "education: Economics",
+        "career": "experience: Bank"
     },
     {
         "name": "Ernst Welteke",
@@ -1802,8 +1887,9 @@ councilByFunction=[
         "hawkish_score": 0.4,
         "from_to": "1999 - 2004",
         "role_euro__from_to": "governor,  1999 - 2004 ",
-        "career": "Economics, Politics",
-        "born_raised": "*1942, Germany"
+        "born_raised": "*1942, Germany",
+        "education": "education: Economics",
+        "career": "experience: Politics"
     },
     {
         "name": "Pierre Wunsch",
@@ -1823,8 +1909,9 @@ councilByFunction=[
         "hawkish_score": 0.68,
         "from_to": "since 2019  ",
         "role_euro__from_to": "governor,  since 2019   ",
-        "career": "Economics, Research, Politics",
-        "born_raised": "*1967, Belgium"
+        "born_raised": "*1967, Belgium",
+        "education": "education: Economics",
+        "career": "experience: Research, Politics"
     },
     {
         "name": "Reinoldijus \u0160arkinas",
@@ -1844,8 +1931,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "1996 - 2011",
         "role_euro__from_to": "governor,  1996 - 2011 ",
-        "career": "",
-        "born_raised": "*, Lithuania"
+        "born_raised": "*, Lithuania",
+        "education": "education: ",
+        "career": "experience: "
     },
     {
         "name": "Gediminas \u0160imkus",
@@ -1865,8 +1953,9 @@ councilByFunction=[
         "hawkish_score": 0.2,
         "from_to": "since 2021  ",
         "role_euro__from_to": "governor,  since 2021   ",
-        "career": "Economics, Economist, Bank",
-        "born_raised": "*1977, Lithuania"
+        "born_raised": "*1977, Lithuania",
+        "education": "education: Economics",
+        "career": "experience: Economist, Bank"
     },
     {
         "name": "Ivan \u0160ramko",
@@ -1886,8 +1975,9 @@ councilByFunction=[
         "hawkish_score": "",
         "from_to": "2005 - 2010",
         "role_euro__from_to": "governor,  2005 - 2010 ",
-        "career": "Management Sciences, Bank",
-        "born_raised": "*1957, Slovakia"
+        "born_raised": "*1957, Slovakia",
+        "education": "education: Management Sciences",
+        "career": "experience: Bank"
     }
 ]; 
 

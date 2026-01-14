@@ -119,9 +119,9 @@ def sortByFunction(dataByName):
         }
         def generateSortKey(memberRecord):
 
-            sort1a = memberRecord["organisation_euro"]
+            sort1a = memberRecord["organisation_euro"] #  ecb or country gov
 
-            roleValue = memberRecord["role_euro"]
+            roleValue = memberRecord["role_euro"]      #  president, vp, chief econ., board
             if roleValue not in roleOrderMap:
                 raise ValueError(f"Unknown role_euro: {roleValue}")
 
@@ -132,6 +132,7 @@ def sortByFunction(dataByName):
             sort2 = nameParts[-1]
 
             sort3 = memberRecord["starting_date"]
+
 
             # print(f" sorting by {sort1a}-{sort1b}-{sort2}-{sort3}")
             return (sort1a, sort1b, sort2, sort3)
@@ -260,9 +261,8 @@ def convertPickleToJs(
 
 
 
+        # combined keys for convenience 
         for idx1, key in enumerate(out):
-
-
             out[key]["from_to"] = f"{out[key]['year_start']} - {out[key]['year_stop']}"
             if out[key]['year_stop'] == 0:
                 out[key]["from_to"] = f"since {out[key]['year_start']}  "
@@ -281,18 +281,22 @@ def convertPickleToJs(
                 out[key]["role_euro__from_to"]  = f"{out[key]['from_to']} "
 
 
-            out[key]["career"]  = f"{out[key]['field_of_study']}"
-
-            if out[key]['career_1']:
-                out[key]["career"] += f", {out[key]['career_1']}"
-            if out[key]['career_2']:
-                out[key]["career"] += f", {out[key]['career_2']}"
-
             out[key]["born_raised"]  = f"*{out[key]['birth_year']}, {out[key]['country']}"
 
 
+            out[key]["education"]  = f"education: {out[key]['field_of_study']}"
+
+            out[key]["career"] = "experience: "
+            if out[key]['career_1']:
+                out[key]["career"] += f"{out[key]['career_1']}"
+            if out[key]['career_2']:
+                out[key]["career"] += f", {out[key]['career_2']}"
 
 
+
+
+
+        # remove keys not needed 
         for idx1, key in enumerate(out):
             # out[key].pop("year_start", None)
             # out[key].pop("year_stop",  None)
@@ -311,13 +315,15 @@ def convertPickleToJs(
             print(f"converted \n\t{pthPickle} to \n\t{outPthJs1} - {len(out)} rows")
 
 
+
         #
         byFunction = sortByFunction(out)
         jsonString = json.dumps(byFunction, indent=4)
         jsContent  = f"councilByFunction={jsonString}; \n\n"
         with outPthJs2.open("w", encoding="utf-8") as fileHandle:
             fileHandle.write(jsContent)
-        print(f"converted \n\t{pthPickle} to \n\t{outPthJs2} - {len(byFunction)} rows")
+        print(f"\tconverted \n\t  {pthPickle} to \n\t  {outPthJs2}")
+        print(f"\toutput {len(byFunction)} rows")
 
 
 

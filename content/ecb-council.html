@@ -1274,6 +1274,7 @@
 
       const popupKeys = [
         "born_raised",
+        "education",
         "career",
       ];
 
@@ -1329,11 +1330,15 @@
       let titleMouseOver = ""
       for (let idx1 = 0; idx1 < popupKeys.length; idx1 += 1) {
         const ky = popupKeys[idx1];
-        const vl = member[ky];
+        let   vl = member[ky];
+
+
 
         if (vl === null || typeof vl === "undefined") {
           //
         } else {
+          vl = vl.replace("education",    "{{i18n.education}}")  ;
+          vl = vl.replace("experience",   "{{i18n.experience}}")  ;
           titleMouseOver += `${vl} \n`;
         }
       }
