@@ -27,10 +27,4 @@ Open in browser http://localhost:5000
 
 
 
-## Todo
-
-Im Land: Hawkish-Dovish-Score, Farbcodierung.  -1 ... 0 ... 1
-
-Zeitmaschine
-
 
