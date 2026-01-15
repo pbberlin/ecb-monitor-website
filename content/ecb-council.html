@@ -333,41 +333,58 @@
     column-gap: 0.4rem;
 
     margin:  0;
-    margin-bottom:      0.25rem;
+    margin-bottom:      1.05rem;
 
     padding: 0;
 
-    /* background-color: rgba(220,220,220,0.25); */
     border-radius: 0.6rem;
     /* border: 1px solid green; */
+    /* background-color: rgba(220,220,220,0.25); */
   }
 
   #council_list .member-card div {
-    margin:    0;
-    padding:   0;
+    margin:         0;
+    padding:        0;
+    line-height:   95%;
     /* border: 1px solid red; */
     /* font-size: 90%; */
+
   }
 
-  #council_list .member-card div.name {
-    font-weight: bold;
-  }
-  #council_list .member-card div.role_euro__from_to {
-    position: relative;
-    top:      -0.37rem;
-  }
 
 
   #council_list .member-card div.name,
   #council_list .member-card div.role_euro__from_to {
-      grid-column: 1;
+    grid-column: 1;
+    margin: 0;
+
+
+    max-width: fit-content;
+    justify-self: end;
+
+    background-color: rgba(220,220,220,0.65);
+
   }
 
-  #council_list .member-card div.hawkish_score  {
+  #council_list .member-card div.name {
+    font-size:   115%;
+    line-height: 130%;
+    /* font-weight: bold; */
+  }
 
-    position: relative;
-    top:      -0.15rem;
-    font-size: 130%;
+
+  #council_list .member-card div.role_euro__from_to {
+    font-size:   100%;
+    /* position: relative; */
+    /* top:      -0.37rem; */
+  }
+
+
+  #council_list .member-card div.hawkish_score  {
+    /* position: relative; */
+    /* top:      -0.15rem; */
+    font-size:   130%;
+    line-height: 120%;
 
     grid-column: 2;
     grid-row:    1 / span 2;
@@ -377,8 +394,10 @@
     min-width:     3.3rem;    /* enough space for leading negative sign  */
     padding-right: 0.14rem;
 
-    border-radius: 0.2rem;
+    margin: 0;
 
+
+    border-radius: 0.2rem;
   }
 
 
@@ -1010,7 +1029,8 @@
 
 
         let item = {
-              name: country,
+              name:    country,
+              yearEvt: yr,
               tooltip: {
                 show:      true,
                 formatter: country,
@@ -1511,6 +1531,34 @@
 
     });
 
+
+
+    /*
+      param = {
+          componentType: 'geo',
+          name:          'Germany',
+          ...
+          region: {
+              name: 'Germany',
+              label: { ... }
+          }
+      }    
+    */
+    myChart.on('mouseover', function (param) {
+        if (param.componentType !== 'geo') {
+            return
+        }
+        if (param.region.yearEvt) {
+          console.log(` mouse enter ${param.name} \n\tparams.region.yearEvt ${param.region.yearEvt}`);
+        }
+    })
+    myChart.on('mouseout', function (param) {
+        if (param.componentType !== 'geo') {
+            return
+        }
+        // const regionName = params.name
+        // console.log(`mouse leave ${regionName}`)
+    })
 
 
     sliderEl.dispatchEvent(
