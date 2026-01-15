@@ -272,6 +272,9 @@ def convertPickleToJs(
             else:
                 out[idx1].pop("name_excel",   None)
 
+            if "Jose Manuel Gonzalez-Paramo" in row["name"]:
+                out[idx1]["name"] = "Jose M. Gonzalez-Paramo"
+
 
             if "starting_date" in row:
                 out[idx1]["year_start"] = int(row["starting_date"][:4])

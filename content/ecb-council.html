@@ -439,6 +439,8 @@
   <div class="col col--right control-pad">
       <!-- right col content -->
 
+      <div id="council_right" ></div>
+
 
       <style>
         .gradient-illustation {
@@ -1550,13 +1552,49 @@
         }
         if (param.region.yearEvt) {
           console.log(` mouse enter ${param.name} \n\tparams.region.yearEvt ${param.region.yearEvt}`);
+          const councilRight = document.getElementById("council_right");
+
+          let namesSorted = Object.keys(councilByFunction);  // sorting is done in python pre-processing
+          namesSorted.forEach(function (name) {
+            const rec = councilByFunction[name];
+            let role1 = rec["organisation_euro"]
+            if(role1 === "ecb"){
+              return;
+            }
+
+            let yearStart = rec["year_start"]
+            let yearStop  = rec["year_stop"]
+            if (yearStop === 0) {
+              yearStop = 9999;
+            }
+            // console.log(   `${yearStart} < ${currentYear}  <   ${yearStop}` )
+            if(yearStart <= param.region.yearEvt  &&  yearStop >= param.region.yearEvt){
+              // is current
+            } else {
+              return;
+            }
+            let countryMember = rec["country"]
+            if(param.name !== countryMember ){
+              return;
+            }
+
+            const card = buildMemberCard(rec);
+            councilRight.appendChild(card);
+
+          });  // end of foreach
+
+
+
+
         }
     })
     myChart.on('mouseout', function (param) {
         if (param.componentType !== 'geo') {
             return
         }
-        // const regionName = params.name
+        const councilRight = document.getElementById("council_right");
+        councilRight.replaceChildren(); // reset
+       // const regionName = params.name
         // console.log(`mouse leave ${regionName}`)
     })
 

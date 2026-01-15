@@ -336,7 +336,7 @@ councilByFunction=[
         "career": "experience: Bank"
     },
     {
-        "name": "Jose Manuel Gonzalez-Paramo",
+        "name": "Jose M. Gonzalez-Paramo",
         "country": "Spain",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
