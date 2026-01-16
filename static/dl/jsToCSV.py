@@ -194,6 +194,10 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
 
     try:
         dataDict = json.loads(jsonText)
+        if type(dataDict) is not dict:
+            # ecb-council-by-function.js
+            print(f"skipping type {type(dataDict)} - '{jsFilePath}'")
+            return
         if dbg:
             debugPrintNestedDict(dataDict)
 

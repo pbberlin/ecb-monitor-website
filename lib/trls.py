@@ -305,6 +305,12 @@ trlsRaw = [
             "en": "Vice-Pres.",
         },
     },
+    {
+        "governor":    {
+            "de": "EZB-Ratsmitglied, Präsident der nat. Zentralbank",
+            "en": "Central bank governor, member ECB Governing Council",
+        },
+    },
 
     {
         "education":    {
