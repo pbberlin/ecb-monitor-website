@@ -5,11 +5,6 @@ warmup-search-boris;3;https://www.bis.org/review/r240131a.htm
 warmup-search-boris;4;https://www.bis.org/review/r230712i.htm
 warmup-search-boris;5;https://www.bis.org/review/r230606b.htm
 warmup-search-boris;6;https://www.bis.org/review/r230207d.htm
-warmup-search-boris;7;https://www.bis.org/review/r211214o.htm
-warmup-search-boris;8;https://www.bis.org/review/r181219f.htm
-warmup-search-boris;9;https://www.bis.org/review/r180115a.htm
-warmup-search-boris;10;https://www.bis.org/review/r1607012b.htm
-warmup-search-boris;11;https://www.bis.org/review/r160425e.htm
 Boris Vujčić;1;https://www.bis.org/review/r250605b.htm
 Boris Vujčić;2;https://www.bis.org/review/r240215a.htm
 Boris Vujčić;3;https://www.bis.org/review/r240131a.htm
@@ -27,114 +22,94 @@ Christodoulos Patsalides;3;https://www.bis.org/review/r250324j.htm
 Christodoulos Patsalides;4;https://www.bis.org/review/r250217c.htm
 Christodoulos Patsalides;5;https://www.bis.org/review/r250217d.htm
 Christodoulos Patsalides;6;https://www.bis.org/review/r241125s.htm
-Christine Lagarde;1;https://www.bis.org/review/r251027d.htm
-Christine Lagarde;2;https://www.bis.org/review/r251008d.htm
-Christine Lagarde;3;https://www.bis.org/review/r251008f.htm
-Christine Lagarde;4;https://www.bis.org/review/r251007q.htm
-Christine Lagarde;5;https://www.bis.org/review/r251002a.htm
-Christine Lagarde;6;https://www.bis.org/review/r250918f.htm
-Christine Lagarde;7;https://www.bis.org/review/r250916d.htm
-Christine Lagarde;8;https://www.bis.org/review/r250910f.htm
-Christine Lagarde;9;https://www.bis.org/review/r250901d.htm
-Christine Lagarde;10;https://www.bis.org/review/r250901c.htm
-Christine Lagarde;11;https://www.bis.org/review/r250902a.htm
-Christine Lagarde;12;https://www.bis.org/review/r250703h.htm
-Christine Lagarde;13;https://www.bis.org/review/r250701d.htm
-Christine Lagarde;14;https://www.bis.org/review/r250630d.htm
-Christine Lagarde;15;https://www.bis.org/review/r250624a.htm
-Christine Lagarde;16;https://www.bis.org/review/r250623g.pdf
-Christine Lagarde;17;https://www.bis.org/review/r250611c.htm
-Christine Lagarde;18;https://www.bis.org/review/r250613a.htm
-Christine Lagarde;19;https://www.bis.org/review/r250526v.htm
-Christine Lagarde;20;https://www.bis.org/review/r250428c.htm
-Christine Lagarde;21;https://www.bis.org/review/r250417i.htm
-Christine Lagarde;22;https://www.bis.org/review/r250407f.htm
-Christine Lagarde;23;https://www.bis.org/review/r250407l.htm
-Christine Lagarde;24;https://www.bis.org/review/r250324g.htm
-Christine Lagarde;25;https://www.bis.org/review/r250313c.htm
-Edward Scicluna;1;https://www.bis.org/review/r231127j.htm
-Edward Scicluna;2;https://www.bis.org/review/r221205e.htm
-Edward Scicluna;3;https://www.bis.org/review/r221123c.htm
-Edward Scicluna;4;https://www.bis.org/review/r221104g.htm
-Edward Scicluna;5;https://www.bis.org/review/r210722a.htm
-Fabio Panetta;1;https://www.bis.org/review/r251008e.htm
-Fabio Panetta;2;https://www.bis.org/review/r250715d.htm
-Fabio Panetta;3;https://www.bis.org/review/r250619a.htm
-Fabio Panetta;4;https://www.bis.org/review/r250603g.htm
-Fabio Panetta;5;https://www.bis.org/review/r250507b.htm
-Fabio Panetta;6;https://www.bis.org/review/r250507d.htm
-Fabio Panetta;7;https://www.bis.org/review/r250428h.htm
-Fabio Panetta;8;https://www.bis.org/review/r250414d.htm
-Fabio Panetta;9;https://www.bis.org/review/r250401e.htm
-Fabio Panetta;10;https://www.bis.org/review/r250217b.htm
-Fabio Panetta;11;https://www.bis.org/review/r250121b.htm
-Fabio Panetta;12;https://www.bis.org/review/r241204c.htm
-Fabio Panetta;13;https://www.bis.org/review/r241125w.htm
-Fabio Panetta;14;https://www.bis.org/review/r241125a.htm
-Fabio Panetta;15;https://www.bis.org/review/r241112a.htm
-Fabio Panetta;16;https://www.bis.org/review/r241104d.htm
-Fabio Panetta;17;https://www.bis.org/review/r241028m.htm
-Fabio Panetta;18;https://www.bis.org/review/r240916k.htm
-Fabio Panetta;19;https://www.bis.org/review/r240828o.htm
-Fabio Panetta;20;https://www.bis.org/review/r240828k.htm
-Fabio Panetta;21;https://www.bis.org/review/r240709f.htm
-Fabio Panetta;22;https://www.bis.org/review/r240627c.htm
-Fabio Panetta;23;https://www.bis.org/review/r240531f.htm
-Fabio Panetta;24;https://www.bis.org/review/r240426n.htm
-Fabio Panetta;25;https://www.bis.org/review/r240426b.htm
-François Villeroy de Galhau;1;https://www.bis.org/review/r251014e.htm
-François Villeroy de Galhau;2;https://www.bis.org/review/r251007k.htm
-François Villeroy de Galhau;3;https://www.bis.org/review/r250929j.htm
-François Villeroy de Galhau;4;https://www.bis.org/review/r250911i.htm
-François Villeroy de Galhau;5;https://www.bis.org/review/r250623e.htm
-François Villeroy de Galhau;6;https://www.bis.org/review/r250618g.htm
-François Villeroy de Galhau;7;https://www.bis.org/review/r250526k.htm
-François Villeroy de Galhau;8;https://www.bis.org/review/r250428k.htm
-François Villeroy de Galhau;9;https://www.bis.org/review/r250428e.htm
-François Villeroy de Galhau;10;https://www.bis.org/review/r250414h.htm
-François Villeroy de Galhau;11;https://www.bis.org/review/r250401d.htm
-François Villeroy de Galhau;12;https://www.bis.org/review/r250324e.htm
-François Villeroy de Galhau;13;https://www.bis.org/review/r250319e.htm
-François Villeroy de Galhau;14;https://www.bis.org/review/r250203e.htm
-François Villeroy de Galhau;15;https://www.bis.org/review/r250128b.htm
-François Villeroy de Galhau;16;https://www.bis.org/review/r250107a.htm
-François Villeroy de Galhau;17;https://www.bis.org/review/r250109c.htm
-François Villeroy de Galhau;18;https://www.bis.org/review/r241211f.htm
-François Villeroy de Galhau;19;https://www.bis.org/review/r241203c.htm
-François Villeroy de Galhau;20;https://www.bis.org/review/r241127b.htm
-François Villeroy de Galhau;21;https://www.bis.org/review/r241126i.htm
-François Villeroy de Galhau;22;https://www.bis.org/review/r241125g.htm
-François Villeroy de Galhau;23;https://www.bis.org/review/r241104g.htm
-François Villeroy de Galhau;24;https://www.bis.org/review/r241024b.htm
-François Villeroy de Galhau;25;https://www.bis.org/review/r241014o.htm
-Frank Elderson;1;https://www.bis.org/review/r251002f.htm
-Frank Elderson;2;https://www.bis.org/review/r250623k.htm
-Frank Elderson;3;https://www.bis.org/review/r250611f.htm
-Gabriel Makhlouf;1;https://www.bis.org/review/r251007o.htm
-Gabriel Makhlouf;2;https://www.bis.org/review/r250925a.htm
-Gabriel Makhlouf;3;https://www.bis.org/review/r250617n.htm
-Gabriel Makhlouf;4;https://www.bis.org/review/r250617d.htm
-Gabriel Makhlouf;5;https://www.bis.org/review/r250527h.htm
-Gabriel Makhlouf;6;https://www.bis.org/review/r250507g.htm
-Gabriel Makhlouf;7;https://www.bis.org/review/r250326f.htm
-Gabriel Makhlouf;8;https://www.bis.org/review/r250319f.htm
-Gabriel Makhlouf;9;https://www.bis.org/review/r250220d.htm
-Gabriel Makhlouf;10;https://www.bis.org/review/r250212c.htm
-Gabriel Makhlouf;11;https://www.bis.org/review/r250123b.htm
-Gabriel Makhlouf;12;https://www.bis.org/review/r241230a.htm
-Gabriel Makhlouf;13;https://www.bis.org/review/r241218h.htm
-Gabriel Makhlouf;14;https://www.bis.org/review/r241206c.htm
-Gabriel Makhlouf;15;https://www.bis.org/review/r241128b.htm
-Gabriel Makhlouf;16;https://www.bis.org/review/r241127c.htm
-Gabriel Makhlouf;17;https://www.bis.org/review/r241126w.htm
-Gabriel Makhlouf;18;https://www.bis.org/review/r241112e.htm
-Gabriel Makhlouf;19;https://www.bis.org/review/r241014f.htm
-Gabriel Makhlouf;20;https://www.bis.org/review/r240618b.htm
-Gabriel Makhlouf;21;https://www.bis.org/review/r240611k.htm
-Gabriel Makhlouf;22;https://www.bis.org/review/r240522j.htm
-Gabriel Makhlouf;23;https://www.bis.org/review/r240515j.htm
-Gabriel Makhlouf;24;https://www.bis.org/review/r240301c.htm
-Gabriel Makhlouf;25;https://www.bis.org/review/r240131b.htm
+Christine Lagarde;1;https://www.bis.org/review/r251203d.htm
+Christine Lagarde;2;https://www.bis.org/review/r251201c.htm
+Christine Lagarde;3;https://www.bis.org/review/r251201b.htm
+Christine Lagarde;4;https://www.bis.org/review/r251127e.htm
+Christine Lagarde;5;https://www.bis.org/review/r251105m.htm
+Christine Lagarde;6;https://www.bis.org/review/r251105n.htm
+Christine Lagarde;7;https://www.bis.org/review/r251031l.htm
+Christine Lagarde;8;https://www.bis.org/review/r251027e.htm
+Christine Lagarde;9;https://www.bis.org/review/r251027d.htm
+Christine Lagarde;10;https://www.bis.org/review/r251008d.htm
+Christine Lagarde;11;https://www.bis.org/review/r251008f.htm
+Christine Lagarde;12;https://www.bis.org/review/r251007q.htm
+Christine Lagarde;13;https://www.bis.org/review/r251002a.htm
+Christine Lagarde;14;https://www.bis.org/review/r250918f.htm
+Christine Lagarde;15;https://www.bis.org/review/r250916d.htm
+Christine Lagarde;16;https://www.bis.org/review/r250910f.htm
+Christine Lagarde;17;https://www.bis.org/review/r250901d.htm
+Christine Lagarde;18;https://www.bis.org/review/r250901c.htm
+Christine Lagarde;19;https://www.bis.org/review/r250902a.htm
+Christine Lagarde;20;https://www.bis.org/review/r250703h.htm
+Christine Lagarde;21;https://www.bis.org/review/r250701d.htm
+Christine Lagarde;22;https://www.bis.org/review/r250630d.htm
+Christine Lagarde;23;https://www.bis.org/review/r250624a.htm
+Christine Lagarde;24;https://www.bis.org/review/r250623g.pdf
+Christine Lagarde;25;https://www.bis.org/review/r250611c.htm
+Edward Scicluna;1;https://www.bis.org/review/r251222b.htm
+Edward Scicluna;2;https://www.bis.org/review/r231127j.htm
+Edward Scicluna;3;https://www.bis.org/review/r221205e.htm
+Edward Scicluna;4;https://www.bis.org/review/r221123c.htm
+Edward Scicluna;5;https://www.bis.org/review/r221104g.htm
+Edward Scicluna;6;https://www.bis.org/review/r210722a.htm
+François Villeroy de Galhau;1;https://www.bis.org/review/r251209d.htm
+François Villeroy de Galhau;2;https://www.bis.org/review/r251203c.htm
+François Villeroy de Galhau;3;https://www.bis.org/review/r251127j.htm
+François Villeroy de Galhau;4;https://www.bis.org/review/r251110h.htm
+François Villeroy de Galhau;5;https://www.bis.org/review/r251031p.htm
+François Villeroy de Galhau;6;https://www.bis.org/review/r251014e.htm
+François Villeroy de Galhau;7;https://www.bis.org/review/r251007k.htm
+François Villeroy de Galhau;8;https://www.bis.org/review/r250929j.htm
+François Villeroy de Galhau;9;https://www.bis.org/review/r250911i.htm
+François Villeroy de Galhau;10;https://www.bis.org/review/r250623e.htm
+François Villeroy de Galhau;11;https://www.bis.org/review/r250618g.htm
+François Villeroy de Galhau;12;https://www.bis.org/review/r250526k.htm
+François Villeroy de Galhau;13;https://www.bis.org/review/r250428k.htm
+François Villeroy de Galhau;14;https://www.bis.org/review/r250428e.htm
+François Villeroy de Galhau;15;https://www.bis.org/review/r250414h.htm
+François Villeroy de Galhau;16;https://www.bis.org/review/r250401d.htm
+François Villeroy de Galhau;17;https://www.bis.org/review/r250324e.htm
+François Villeroy de Galhau;18;https://www.bis.org/review/r250319e.htm
+François Villeroy de Galhau;19;https://www.bis.org/review/r250203e.htm
+François Villeroy de Galhau;20;https://www.bis.org/review/r250128b.htm
+François Villeroy de Galhau;21;https://www.bis.org/review/r250107a.htm
+François Villeroy de Galhau;22;https://www.bis.org/review/r250109c.htm
+François Villeroy de Galhau;23;https://www.bis.org/review/r241211f.htm
+François Villeroy de Galhau;24;https://www.bis.org/review/r241203c.htm
+François Villeroy de Galhau;25;https://www.bis.org/review/r241127b.htm
+Frank Elderson;1;https://www.bis.org/review/r251118f.htm
+Frank Elderson;2;https://www.bis.org/review/r251105c.htm
+Frank Elderson;3;https://www.bis.org/review/r251002f.htm
+Frank Elderson;4;https://www.bis.org/review/r250623k.htm
+Frank Elderson;5;https://www.bis.org/review/r250617k.htm
+Frank Elderson;6;https://www.bis.org/review/r250611f.htm
+Frank Elderson;7;https://www.bis.org/review/r250527o.htm
+Frank Elderson;8;https://www.bis.org/review/r250319n.htm
+Frank Elderson;9;https://www.bis.org/review/r250213c.htm
+Frank Elderson;10;https://www.bis.org/review/r241126o.htm
+Frank Elderson;11;https://www.bis.org/review/r241125z.htm
+Frank Elderson;12;https://www.bis.org/review/r241106b.htm
+Frank Elderson;13;https://www.bis.org/review/r241029e.htm
+Frank Elderson;14;https://www.bis.org/review/r241007d.htm
+Frank Elderson;15;https://www.bis.org/review/r240924r.htm
+Frank Elderson;16;https://www.bis.org/review/r240919b.htm
+Frank Elderson;17;https://www.bis.org/review/r240919c.htm
+Frank Elderson;18;https://www.bis.org/review/r240709e.htm
+Frank Elderson;19;https://www.bis.org/review/r240701d.htm
+Frank Elderson;20;https://www.bis.org/review/r240612a.htm
+Frank Elderson;21;https://www.bis.org/review/r240415h.htm
+Frank Elderson;22;https://www.bis.org/review/r240328d.htm
+Frank Elderson;23;https://www.bis.org/review/r240314d.htm
+Frank Elderson;24;https://www.bis.org/review/r231204a.htm
+Gabriel Makhlouf;1;https://www.bis.org/review/r251223b.htm
+Gabriel Makhlouf;2;https://www.bis.org/review/r251211g.htm
+Gabriel Makhlouf;3;https://www.bis.org/review/r251210e.htm
+Gabriel Makhlouf;4;https://www.bis.org/review/r251201g.htm
+Gabriel Makhlouf;5;https://www.bis.org/review/r251127k.htm
+Gabriel Makhlouf;6;https://www.bis.org/review/r251118j.htm
+Gabriel Makhlouf;7;https://www.bis.org/review/r251030i.htm
+Gabriel Makhlouf;8;https://www.bis.org/review/r251027i.htm
 Gaston Reinesch;1;https://www.bis.org/review/r151214h.htm
 Gaston Reinesch;2;https://www.bis.org/review/r151007e.htm
 Gediminas Šimkus;1;https://www.bis.org/review/r250527k.htm
@@ -152,88 +127,66 @@ Gediminas Šimkus;12;https://www.bis.org/review/r220112a.htm
 Gediminas Šimkus;13;https://www.bis.org/review/r211223a.htm
 Gediminas Šimkus;14;https://www.bis.org/review/r211223c.htm
 Gediminas Šimkus;15;https://www.bis.org/review/r211229a.htm
-Isabel Schnabel;1;https://www.bis.org/review/r251007m.htm
-Isabel Schnabel;2;https://www.bis.org/review/r250526g.htm
-Isabel Schnabel;3;https://www.bis.org/review/r250401c.htm
-Isabel Schnabel;4;https://www.bis.org/review/r250226f.htm
-Isabel Schnabel;5;https://www.bis.org/review/r241218e.htm
-Isabel Schnabel;6;https://www.bis.org/review/r241112g.htm
-Isabel Schnabel;7;https://www.bis.org/review/r241015i.htm
-Isabel Schnabel;8;https://www.bis.org/review/r240902b.htm
-Isabel Schnabel;9;https://www.bis.org/review/r240607b.htm
-Isabel Schnabel;10;https://www.bis.org/review/r240528d.htm
-Isabel Schnabel;11;https://www.bis.org/review/r240425g.htm
-Isabel Schnabel;12;https://www.bis.org/review/r240322j.htm
-Isabel Schnabel;13;https://www.bis.org/review/r240314e.htm
-Isabel Schnabel;14;https://www.bis.org/review/r240301b.htm
-Isabel Schnabel;15;https://www.bis.org/review/r231113k.htm
-Isabel Schnabel;16;https://www.bis.org/review/r230925i.htm
-Isabel Schnabel;17;https://www.bis.org/review/r230905m.htm
-Isabel Schnabel;18;https://www.bis.org/review/r230901j.htm
-Isabel Schnabel;19;https://www.bis.org/review/r230619e.htm
-Isabel Schnabel;20;https://www.bis.org/review/r230522i.htm
-Isabel Schnabel;21;https://www.bis.org/review/r230328c.htm
-Isabel Schnabel;22;https://www.bis.org/review/r230302p.htm
-Isabel Schnabel;23;https://www.bis.org/review/r230110k.htm
-Isabel Schnabel;24;https://www.bis.org/review/r221124g.htm
-Isabel Schnabel;25;https://www.bis.org/review/r221003d.htm
-Joachim Nagel;1;https://www.bis.org/review/r251027c.htm
-Joachim Nagel;2;https://www.bis.org/review/r251008a.htm
-Joachim Nagel;3;https://www.bis.org/review/r250929m.htm
-Joachim Nagel;4;https://www.bis.org/review/r250924b.htm
-Joachim Nagel;5;https://www.bis.org/review/r250924e.htm
-Joachim Nagel;6;https://www.bis.org/review/r250916a.htm
-Joachim Nagel;7;https://www.bis.org/review/r250910a.htm
-Joachim Nagel;8;https://www.bis.org/review/r250710i.htm
-Joachim Nagel;9;https://www.bis.org/review/r250708c.htm
-Joachim Nagel;10;https://www.bis.org/review/r250702a.htm
-Joachim Nagel;11;https://www.bis.org/review/r250623i.htm
-Joachim Nagel;12;https://www.bis.org/review/r250528a.htm
-Joachim Nagel;13;https://www.bis.org/review/r250508b.htm
-Joachim Nagel;14;https://www.bis.org/review/r250226c.htm
-Joachim Nagel;15;https://www.bis.org/review/r250508c.htm
-Joachim Nagel;16;https://www.bis.org/review/r250217a.htm
-Joachim Nagel;17;https://www.bis.org/review/r250213a.htm
-Joachim Nagel;18;https://www.bis.org/review/r241216c.htm
-Joachim Nagel;19;https://www.bis.org/review/r241205a.htm
-Joachim Nagel;20;https://www.bis.org/review/r241125t.htm
-Joachim Nagel;21;https://www.bis.org/review/r241125f.htm
-Joachim Nagel;22;https://www.bis.org/review/r241104b.htm
-Joachim Nagel;23;https://www.bis.org/review/r241022f.htm
-Joachim Nagel;24;https://www.bis.org/review/r241014i.htm
-Joachim Nagel;25;https://www.bis.org/review/r241001h.htm
-José Luis Escrivá;1;https://www.bis.org/review/r251002e.htm
-José Luis Escrivá;2;https://www.bis.org/review/r250717f.htm
-José Luis Escrivá;3;https://www.bis.org/review/r250708a.htm
-José Luis Escrivá;4;https://www.bis.org/review/r250623d.htm
-José Luis Escrivá;5;https://www.bis.org/review/r250319a.htm
-José Luis Escrivá;6;https://www.bis.org/review/r241104h.htm
-José Luis Escrivá;7;https://www.bis.org/review/r240930b.htm
-Luis de Guindos;1;https://www.bis.org/review/r250617e.htm
-Luis de Guindos;2;https://www.bis.org/review/r250526y.htm
-Luis de Guindos;3;https://www.bis.org/review/r250429c.htm
-Luis de Guindos;4;https://www.bis.org/review/r250407j.htm
-Luis de Guindos;5;https://www.bis.org/review/r250121a.htm
-Luis de Guindos;6;https://www.bis.org/review/r241125u.htm
-Luis de Guindos;7;https://www.bis.org/review/r241107a.htm
-Luis de Guindos;8;https://www.bis.org/review/r241029d.htm
-Luis de Guindos;9;https://www.bis.org/review/r241015d.htm
-Luis de Guindos;10;https://www.bis.org/review/r241014d.htm
-Luis de Guindos;11;https://www.bis.org/review/r240619h.htm
-Luis de Guindos;12;https://www.bis.org/review/r240430b.htm
-Luis de Guindos;13;https://www.bis.org/review/r240425h.htm
-Luis de Guindos;14;https://www.bis.org/review/r240214m.htm
-Luis de Guindos;15;https://www.bis.org/review/r240117c.htm
-Luis de Guindos;16;https://www.bis.org/review/r231113a.htm
-Luis de Guindos;17;https://www.bis.org/review/r231113l.htm
-Luis de Guindos;18;https://www.bis.org/review/r231018f.htm
-Luis de Guindos;19;https://www.bis.org/review/r231006d.htm
-Luis de Guindos;20;https://www.bis.org/review/r230711k.htm
-Luis de Guindos;21;https://www.bis.org/review/r230609c.htm
-Luis de Guindos;22;https://www.bis.org/review/r230607e.htm
-Luis de Guindos;23;https://www.bis.org/review/r230606m.htm
-Luis de Guindos;24;https://www.bis.org/review/r230601l.htm
-Luis de Guindos;25;https://www.bis.org/review/r230524b.htm
+Isabel Schnabel;1;https://www.bis.org/review/r251110n.htm
+Isabel Schnabel;2;https://www.bis.org/review/r251007m.htm
+Isabel Schnabel;3;https://www.bis.org/review/r250526g.htm
+Isabel Schnabel;4;https://www.bis.org/review/r250401c.htm
+Isabel Schnabel;5;https://www.bis.org/review/r250226f.htm
+Isabel Schnabel;6;https://www.bis.org/review/r241218e.htm
+Isabel Schnabel;7;https://www.bis.org/review/r241112g.htm
+Isabel Schnabel;8;https://www.bis.org/review/r241015i.htm
+Isabel Schnabel;9;https://www.bis.org/review/r240902b.htm
+Isabel Schnabel;10;https://www.bis.org/review/r240607b.htm
+Isabel Schnabel;11;https://www.bis.org/review/r240528d.htm
+Isabel Schnabel;12;https://www.bis.org/review/r240425g.htm
+Isabel Schnabel;13;https://www.bis.org/review/r240322j.htm
+Isabel Schnabel;14;https://www.bis.org/review/r240314e.htm
+Isabel Schnabel;15;https://www.bis.org/review/r240301b.htm
+Isabel Schnabel;16;https://www.bis.org/review/r231113k.htm
+Isabel Schnabel;17;https://www.bis.org/review/r230925i.htm
+Isabel Schnabel;18;https://www.bis.org/review/r230905m.htm
+Isabel Schnabel;19;https://www.bis.org/review/r230901j.htm
+Isabel Schnabel;20;https://www.bis.org/review/r230619e.htm
+Isabel Schnabel;21;https://www.bis.org/review/r230522i.htm
+Isabel Schnabel;22;https://www.bis.org/review/r230328c.htm
+Isabel Schnabel;23;https://www.bis.org/review/r230302p.htm
+Isabel Schnabel;24;https://www.bis.org/review/r230110k.htm
+Isabel Schnabel;25;https://www.bis.org/review/r221124g.htm
+Joachim Nagel;1;https://www.bis.org/review/r251209e.htm
+Joachim Nagel;2;https://www.bis.org/review/r251201t.htm
+Joachim Nagel;3;https://www.bis.org/review/r251201u.htm
+Joachim Nagel;4;https://www.bis.org/review/r251223c.htm
+Joachim Nagel;5;https://www.bis.org/review/r251125c.htm
+Joachim Nagel;6;https://www.bis.org/review/r251110f.htm
+Joachim Nagel;7;https://www.bis.org/review/r251105h.htm
+Joachim Nagel;8;https://www.bis.org/review/r251027c.htm
+Joachim Nagel;9;https://www.bis.org/review/r251008a.htm
+Joachim Nagel;10;https://www.bis.org/review/r250929m.htm
+Joachim Nagel;11;https://www.bis.org/review/r250924b.htm
+Joachim Nagel;12;https://www.bis.org/review/r250924e.htm
+Joachim Nagel;13;https://www.bis.org/review/r250916a.htm
+Joachim Nagel;14;https://www.bis.org/review/r250910a.htm
+Joachim Nagel;15;https://www.bis.org/review/r250710i.htm
+Joachim Nagel;16;https://www.bis.org/review/r250708c.htm
+Joachim Nagel;17;https://www.bis.org/review/r250702a.htm
+Joachim Nagel;18;https://www.bis.org/review/r250623i.htm
+Joachim Nagel;19;https://www.bis.org/review/r250528a.htm
+Joachim Nagel;20;https://www.bis.org/review/r250508b.htm
+Joachim Nagel;21;https://www.bis.org/review/r250226c.htm
+Joachim Nagel;22;https://www.bis.org/review/r250508c.htm
+Joachim Nagel;23;https://www.bis.org/review/r250217a.htm
+Joachim Nagel;24;https://www.bis.org/review/r250213a.htm
+Joachim Nagel;25;https://www.bis.org/review/r241216c.htm
+José Luis Escrivá;1;https://www.bis.org/review/r251230b.htm
+José Luis Escrivá;2;https://www.bis.org/review/r251127o.htm
+José Luis Escrivá;3;https://www.bis.org/review/r251002e.htm
+José Luis Escrivá;4;https://www.bis.org/review/r250717f.htm
+José Luis Escrivá;5;https://www.bis.org/review/r250708a.htm
+José Luis Escrivá;6;https://www.bis.org/review/r250623d.htm
+José Luis Escrivá;7;https://www.bis.org/review/r250319a.htm
+José Luis Escrivá;8;https://www.bis.org/review/r241104h.htm
+José Luis Escrivá;9;https://www.bis.org/review/r240930b.htm
+Luis de Guindos;1;https://www.bis.org/review/r250407j.htm
 Madis Müller;1;https://www.bis.org/review/r251002h.htm
 Madis Müller;2;https://www.bis.org/review/r240215d.htm
 Madis Müller;3;https://www.bis.org/review/r230308g.htm
@@ -257,127 +210,131 @@ Mário Centeno;16;https://www.bis.org/review/r210415c.htm
 Mário Centeno;17;https://www.bis.org/review/r210215a.htm
 Mário Centeno;18;https://www.bis.org/review/r201019f.htm
 Mário Centeno;19;https://www.bis.org/review/r200914c.htm
+Martin Kocher;1;https://www.bis.org/review/r251201d.htm
 Mārtiņš Kazāks;1;https://www.bis.org/review/r251002m.htm
 Mārtiņš Kazāks;2;https://www.bis.org/review/r250507j.htm
-Olaf Sleijpen;1;https://www.bis.org/review/r251007g.htm
-Olaf Sleijpen;2;https://www.bis.org/review/r250623a.htm
-Olaf Sleijpen;3;https://www.bis.org/review/r250619b.htm
-Olaf Sleijpen;4;https://www.bis.org/review/r250526q.htm
-Olaf Sleijpen;5;https://www.bis.org/review/r250414a.htm
-Olaf Sleijpen;6;https://www.bis.org/review/r250324b.htm
-Olaf Sleijpen;7;https://www.bis.org/review/r241126n.htm
-Olaf Sleijpen;8;https://www.bis.org/review/r241125d.htm
-Olaf Sleijpen;9;https://www.bis.org/review/r241112i.htm
-Olaf Sleijpen;10;https://www.bis.org/review/r240621h.htm
-Olaf Sleijpen;11;https://www.bis.org/review/r240621g.htm
-Olaf Sleijpen;12;https://www.bis.org/review/r240415a.htm
-Olaf Sleijpen;13;https://www.bis.org/review/r250326d.htm
-Olaf Sleijpen;14;https://www.bis.org/review/r231120a.htm
-Olaf Sleijpen;15;https://www.bis.org/review/r230703a.htm
-Olaf Sleijpen;16;https://www.bis.org/review/r221116h.htm
-Olli Rehn;1;https://www.bis.org/review/r251002k.htm
-Olli Rehn;2;https://www.bis.org/review/r250701b.htm
-Olli Rehn;3;https://www.bis.org/review/r250617f.htm
-Olli Rehn;4;https://www.bis.org/review/r250602e.htm
-Olli Rehn;5;https://www.bis.org/review/r250604e.htm
-Olli Rehn;6;https://www.bis.org/review/r250528i.htm
-Olli Rehn;7;https://www.bis.org/review/r250429e.htm
-Olli Rehn;8;https://www.bis.org/review/r250407o.htm
-Olli Rehn;9;https://www.bis.org/review/r250325a.htm
-Olli Rehn;10;https://www.bis.org/review/r250224g.htm
-Olli Rehn;11;https://www.bis.org/review/r250114d.htm
-Olli Rehn;12;https://www.bis.org/review/r250102b.htm
-Olli Rehn;13;https://www.bis.org/review/r241203d.htm
-Olli Rehn;14;https://www.bis.org/review/r241113b.htm
-Olli Rehn;15;https://www.bis.org/review/r241024a.htm
-Olli Rehn;16;https://www.bis.org/review/r241002e.htm
-Olli Rehn;17;https://www.bis.org/review/r240916h.htm
-Olli Rehn;18;https://www.bis.org/review/r240828i.htm
-Olli Rehn;19;https://www.bis.org/review/r240628b.htm
-Olli Rehn;20;https://www.bis.org/review/r240607c.htm
-Olli Rehn;21;https://www.bis.org/review/r240527f.htm
-Olli Rehn;22;https://www.bis.org/review/r240426e.htm
-Olli Rehn;23;https://www.bis.org/review/r230619a.htm
-Olli Rehn;24;https://www.bis.org/review/r230608b.htm
-Olli Rehn;25;https://www.bis.org/review/r230601h.htm
-Philip R Lane;1;https://www.bis.org/review/r251027g.htm
-Philip R Lane;2;https://www.bis.org/review/r251007l.htm
-Philip R Lane;3;https://www.bis.org/review/r250710g.htm
-Philip R Lane;4;https://www.bis.org/review/r250703h.htm
-Philip R Lane;5;https://www.bis.org/review/r250625b.htm
-Philip R Lane;6;https://www.bis.org/review/r250527d.htm
-Philip R Lane;7;https://www.bis.org/review/r250324l.htm
-Philip R Lane;8;https://www.bis.org/review/r250210b.htm
-Philip R Lane;9;https://www.bis.org/review/r241218f.htm
-Philip R Lane;10;https://www.bis.org/review/r241202b.htm
-Philip R Lane;11;https://www.bis.org/review/r241127f.htm
-Philip R Lane;12;https://www.bis.org/review/r241125x.htm
-Philip R Lane;13;https://www.bis.org/review/r241028g.htm
-Philip R Lane;14;https://www.bis.org/review/r241015h.htm
-Philip R Lane;15;https://www.bis.org/review/r240828n.htm
-Philip R Lane;16;https://www.bis.org/review/r240729d.htm
-Philip R Lane;17;https://www.bis.org/review/r240627b.htm
-Philip R Lane;18;https://www.bis.org/review/r240611c.htm
-Philip R Lane;19;https://www.bis.org/review/r240527c.htm
-Philip R Lane;20;https://www.bis.org/review/r240503e.htm
-Philip R Lane;21;https://www.bis.org/review/r240416c.htm
-Philip R Lane;22;https://www.bis.org/review/r240213f.htm
-Philip R Lane;23;https://www.bis.org/review/r240212a.htm
-Philip R Lane;24;https://www.bis.org/review/r231110a.htm
-Philip R Lane;25;https://www.bis.org/review/r230922d.htm
-Piero Cipollone;1;https://www.bis.org/review/r251002b.htm
-Piero Cipollone;2;https://www.bis.org/review/r250929g.htm
-Piero Cipollone;3;https://www.bis.org/review/r250929f.htm
-Piero Cipollone;4;https://www.bis.org/review/r250918e.htm
-Piero Cipollone;5;https://www.bis.org/review/r250911h.htm
-Piero Cipollone;6;https://www.bis.org/review/r250701c.htm
-Piero Cipollone;7;https://www.bis.org/review/r250710h.htm
-Piero Cipollone;8;https://www.bis.org/review/r250527q.htm
-Piero Cipollone;9;https://www.bis.org/review/r250429d.htm
-Piero Cipollone;10;https://www.bis.org/review/r250409f.htm
-Piero Cipollone;11;https://www.bis.org/review/r250219b.htm
-Piero Cipollone;12;https://www.bis.org/review/r241125k.htm
-Piero Cipollone;13;https://www.bis.org/review/r241015f.htm
-Piero Cipollone;14;https://www.bis.org/review/r241014e.htm
-Piero Cipollone;15;https://www.bis.org/review/r241015g.htm
-Piero Cipollone;16;https://www.bis.org/review/r240709c.htm
-Piero Cipollone;17;https://www.bis.org/review/r240527g.htm
-Piero Cipollone;18;https://www.bis.org/review/r240426j.htm
-Piero Cipollone;19;https://www.bis.org/review/r240327a.htm
-Piero Cipollone;20;https://www.bis.org/review/r240213e.htm
-Piero Cipollone;21;https://www.bis.org/review/r240214n.htm
-Piero Cipollone;22;https://www.bis.org/review/r240123c.htm
-Piero Cipollone;23;https://www.bis.org/review/r231010h.htm
-Piero Cipollone;24;https://www.bis.org/review/r230920b.htm
-Piero Cipollone;25;https://www.bis.org/review/r230522j.htm
+Olaf Sleijpen;1;https://www.bis.org/review/r251201r.htm
+Olaf Sleijpen;2;https://www.bis.org/review/r251201q.htm
+Olaf Sleijpen;3;https://www.bis.org/review/r251112g.htm
+Olaf Sleijpen;4;https://www.bis.org/review/r251007g.htm
+Olaf Sleijpen;5;https://www.bis.org/review/r250623a.htm
+Olaf Sleijpen;6;https://www.bis.org/review/r250619b.htm
+Olaf Sleijpen;7;https://www.bis.org/review/r250526q.htm
+Olaf Sleijpen;8;https://www.bis.org/review/r250414a.htm
+Olaf Sleijpen;9;https://www.bis.org/review/r250324b.htm
+Olaf Sleijpen;10;https://www.bis.org/review/r241126n.htm
+Olaf Sleijpen;11;https://www.bis.org/review/r241125d.htm
+Olaf Sleijpen;12;https://www.bis.org/review/r241112i.htm
+Olaf Sleijpen;13;https://www.bis.org/review/r240621h.htm
+Olaf Sleijpen;14;https://www.bis.org/review/r240621g.htm
+Olaf Sleijpen;15;https://www.bis.org/review/r240415a.htm
+Olaf Sleijpen;16;https://www.bis.org/review/r250326d.htm
+Olaf Sleijpen;17;https://www.bis.org/review/r231120a.htm
+Olaf Sleijpen;18;https://www.bis.org/review/r230703a.htm
+Olaf Sleijpen;19;https://www.bis.org/review/r221116h.htm
+Olli Rehn;1;https://www.bis.org/review/r251203b.htm
+Olli Rehn;2;https://www.bis.org/review/r251113a.htm
+Olli Rehn;3;https://www.bis.org/review/r251105l.htm
+Olli Rehn;4;https://www.bis.org/review/r251031i.htm
+Olli Rehn;5;https://www.bis.org/review/r251002k.htm
+Olli Rehn;6;https://www.bis.org/review/r250701b.htm
+Olli Rehn;7;https://www.bis.org/review/r250617f.htm
+Olli Rehn;8;https://www.bis.org/review/r250602e.htm
+Olli Rehn;9;https://www.bis.org/review/r250604e.htm
+Olli Rehn;10;https://www.bis.org/review/r250528i.htm
+Olli Rehn;11;https://www.bis.org/review/r250429e.htm
+Olli Rehn;12;https://www.bis.org/review/r250407o.htm
+Olli Rehn;13;https://www.bis.org/review/r250325a.htm
+Olli Rehn;14;https://www.bis.org/review/r250224g.htm
+Olli Rehn;15;https://www.bis.org/review/r250114d.htm
+Olli Rehn;16;https://www.bis.org/review/r250102b.htm
+Olli Rehn;17;https://www.bis.org/review/r241203d.htm
+Olli Rehn;18;https://www.bis.org/review/r241113b.htm
+Olli Rehn;19;https://www.bis.org/review/r241024a.htm
+Olli Rehn;20;https://www.bis.org/review/r241002e.htm
+Olli Rehn;21;https://www.bis.org/review/r240916h.htm
+Olli Rehn;22;https://www.bis.org/review/r240828i.htm
+Olli Rehn;23;https://www.bis.org/review/r240628b.htm
+Olli Rehn;24;https://www.bis.org/review/r240607c.htm
+Olli Rehn;25;https://www.bis.org/review/r240527f.htm
+Philip R. Lane;1;https://www.bis.org/review/r251203e.htm
+Philip R. Lane;2;https://www.bis.org/review/r251027g.htm
+Philip R. Lane;3;https://www.bis.org/review/r251007l.htm
+Philip R. Lane;4;https://www.bis.org/review/r250710g.htm
+Philip R. Lane;5;https://www.bis.org/review/r250703h.htm
+Philip R. Lane;6;https://www.bis.org/review/r250625b.htm
+Philip R. Lane;7;https://www.bis.org/review/r250527d.htm
+Philip R. Lane;8;https://www.bis.org/review/r250324l.htm
+Philip R. Lane;9;https://www.bis.org/review/r250210b.htm
+Philip R. Lane;10;https://www.bis.org/review/r241218f.htm
+Philip R. Lane;11;https://www.bis.org/review/r241202b.htm
+Philip R. Lane;12;https://www.bis.org/review/r241127f.htm
+Philip R. Lane;13;https://www.bis.org/review/r241125x.htm
+Philip R. Lane;14;https://www.bis.org/review/r241028g.htm
+Philip R. Lane;15;https://www.bis.org/review/r241015h.htm
+Philip R. Lane;16;https://www.bis.org/review/r240828n.htm
+Philip R. Lane;17;https://www.bis.org/review/r240729d.htm
+Philip R. Lane;18;https://www.bis.org/review/r240627b.htm
+Philip R. Lane;19;https://www.bis.org/review/r240611c.htm
+Philip R. Lane;20;https://www.bis.org/review/r240527c.htm
+Philip R. Lane;21;https://www.bis.org/review/r240503e.htm
+Philip R. Lane;22;https://www.bis.org/review/r240416c.htm
+Philip R. Lane;23;https://www.bis.org/review/r240213f.htm
+Philip R. Lane;24;https://www.bis.org/review/r240212a.htm
+Philip R. Lane;25;https://www.bis.org/review/r231110a.htm
+Piero Cipollone;1;https://www.bis.org/review/r251223a.htm
+Piero Cipollone;2;https://www.bis.org/review/r251209c.htm
+Piero Cipollone;3;https://www.bis.org/review/r251118h.htm
+Piero Cipollone;4;https://www.bis.org/review/r251002b.htm
+Piero Cipollone;5;https://www.bis.org/review/r250929g.htm
+Piero Cipollone;6;https://www.bis.org/review/r250929f.htm
+Piero Cipollone;7;https://www.bis.org/review/r250918e.htm
+Piero Cipollone;8;https://www.bis.org/review/r250911h.htm
+Piero Cipollone;9;https://www.bis.org/review/r250701c.htm
+Piero Cipollone;10;https://www.bis.org/review/r250710h.htm
+Piero Cipollone;11;https://www.bis.org/review/r250527q.htm
+Piero Cipollone;12;https://www.bis.org/review/r250429d.htm
+Piero Cipollone;13;https://www.bis.org/review/r250409f.htm
+Piero Cipollone;14;https://www.bis.org/review/r250219b.htm
+Piero Cipollone;15;https://www.bis.org/review/r241125k.htm
+Piero Cipollone;16;https://www.bis.org/review/r241015f.htm
+Piero Cipollone;17;https://www.bis.org/review/r241014e.htm
+Piero Cipollone;18;https://www.bis.org/review/r241015g.htm
+Piero Cipollone;19;https://www.bis.org/review/r240709c.htm
+Piero Cipollone;20;https://www.bis.org/review/r240527g.htm
+Piero Cipollone;21;https://www.bis.org/review/r240426j.htm
+Piero Cipollone;22;https://www.bis.org/review/r240327a.htm
+Piero Cipollone;23;https://www.bis.org/review/r240213e.htm
+Piero Cipollone;24;https://www.bis.org/review/r240214n.htm
+Piero Cipollone;25;https://www.bis.org/review/r240123c.htm
 Pierre Wunsch;1;https://www.bis.org/review/r240806d.htm
 Pierre Wunsch;2;https://www.bis.org/review/r240304f.htm
 Pierre Wunsch;3;https://www.bis.org/review/r240214l.htm
 Pierre Wunsch;4;https://www.bis.org/review/r221118e.htm
 Pierre Wunsch;5;https://www.bis.org/review/r220615h.htm
 Pierre Wunsch;6;https://www.bis.org/review/r220318d.htm
-Yannis Stournaras;1;https://www.bis.org/review/r251002l.htm
-Yannis Stournaras;2;https://www.bis.org/review/r250918d.htm
-Yannis Stournaras;3;https://www.bis.org/review/r250709b.htm
-Yannis Stournaras;4;https://www.bis.org/review/r250617b.htm
-Yannis Stournaras;5;https://www.bis.org/review/r250611g.htm
-Yannis Stournaras;6;https://www.bis.org/review/r250224i.htm
-Yannis Stournaras;7;https://www.bis.org/review/r241126t.htm
-Yannis Stournaras;8;https://www.bis.org/review/r241113f.htm
-Yannis Stournaras;9;https://www.bis.org/review/r241002f.htm
-Yannis Stournaras;10;https://www.bis.org/review/r240904a.htm
-Yannis Stournaras;11;https://www.bis.org/review/r240806f.htm
-Yannis Stournaras;12;https://www.bis.org/review/r240617e.htm
-Yannis Stournaras;13;https://www.bis.org/review/r240515k.htm
-Yannis Stournaras;14;https://www.bis.org/review/r240314b.htm
-Yannis Stournaras;15;https://www.bis.org/review/r240314c.htm
-Yannis Stournaras;16;https://www.bis.org/review/r231026g.htm
-Yannis Stournaras;17;https://www.bis.org/review/r230124k.htm
-Yannis Stournaras;18;https://www.bis.org/review/r221122g.htm
-Yannis Stournaras;19;https://www.bis.org/review/r221031e.htm
-Yannis Stournaras;20;https://www.bis.org/review/r221031d.htm
-Yannis Stournaras;21;https://www.bis.org/review/r221028l.htm
-Yannis Stournaras;22;https://www.bis.org/review/r220901a.htm
-Yannis Stournaras;23;https://www.bis.org/review/r220713e.htm
-Yannis Stournaras;24;https://www.bis.org/review/r220629f.htm
-Yannis Stournaras;25;https://www.bis.org/review/r220621o.htm
+Yannis Stournaras;1;https://www.bis.org/review/r251112m.htm
+Yannis Stournaras;2;https://www.bis.org/review/r251002l.htm
+Yannis Stournaras;3;https://www.bis.org/review/r250918d.htm
+Yannis Stournaras;4;https://www.bis.org/review/r250709b.htm
+Yannis Stournaras;5;https://www.bis.org/review/r250617b.htm
+Yannis Stournaras;6;https://www.bis.org/review/r250611g.htm
+Yannis Stournaras;7;https://www.bis.org/review/r250224i.htm
+Yannis Stournaras;8;https://www.bis.org/review/r241126t.htm
+Yannis Stournaras;9;https://www.bis.org/review/r241113f.htm
+Yannis Stournaras;10;https://www.bis.org/review/r241002f.htm
+Yannis Stournaras;11;https://www.bis.org/review/r240904a.htm
+Yannis Stournaras;12;https://www.bis.org/review/r240806f.htm
+Yannis Stournaras;13;https://www.bis.org/review/r240617e.htm
+Yannis Stournaras;14;https://www.bis.org/review/r240515k.htm
+Yannis Stournaras;15;https://www.bis.org/review/r240314b.htm
+Yannis Stournaras;16;https://www.bis.org/review/r240314c.htm
+Yannis Stournaras;17;https://www.bis.org/review/r231026g.htm
+Yannis Stournaras;18;https://www.bis.org/review/r230124k.htm
+Yannis Stournaras;19;https://www.bis.org/review/r221122g.htm
+Yannis Stournaras;20;https://www.bis.org/review/r221031e.htm
+Yannis Stournaras;21;https://www.bis.org/review/r221031d.htm
+Yannis Stournaras;22;https://www.bis.org/review/r221028l.htm
+Yannis Stournaras;23;https://www.bis.org/review/r220901a.htm
+Yannis Stournaras;24;https://www.bis.org/review/r220713e.htm
+Yannis Stournaras;25;https://www.bis.org/review/r220629f.htm

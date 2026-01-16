@@ -3,8 +3,8 @@ name;url;status;error;position
 warmup-search-boris;https://www.bis.org/cbspeeches/index.htm?authors=1106&m=256&cbspeeches_page_length=25;ok;;
 Boris Vujčić;https://www.bis.org/cbspeeches/index.htm?authors=1106&m=256&cbspeeches_page_length=25;ok;;Governor comma Hrvatska narodna banka
 Christodoulos Patsalides;https://www.bis.org/cbspeeches/index.htm?authors=6461&m=256&cbspeeches_page_length=25;ok;;Governor comma Central Bank of Cyprus
-Christine Lagarde;       https://www.bis.org/cbspeeches/index.htm?authors=3230&m=256&cbspeeches_page_length=25&ok;;Governor comma Central Bank of Cyprus
-Edward Scicluna;         https://www.bis.org/cbspeeches/index.htm?authors=4399&m=256&cbspeeches_page_length=25&;ok;;Governor comma Central Bank of Malta
+Christine Lagarde;https://www.bis.org/cbspeeches/index.htm?authors=3230&m=256&cbspeeches_page_length=25;ok;;Governor comma Central Bank of Cyprus
+Edward Scicluna;https://www.bis.org/cbspeeches/index.htm?authors=4399&m=256&cbspeeches_page_length=25&;ok;;Governor comma Central Bank of Malta
 Fabio Panetta;https://www.bis.org/cbspeeches/index.htm?authors=710&m=256&cbspeeches_page_length=25;ok;;Governor comma Banca d'Italia
 François Villeroy de Galhau;https://www.bis.org/cbspeeches/index.htm?authors=1963&m=256&cbspeeches_page_length=25;ok;;Governor comma Banque de France
 Frank Elderson;https://www.bis.org/cbspeeches/index.htm?authors=1548&m=256&cbspeeches_page_length=25;ok;;Member of the Executive Board
@@ -17,12 +17,12 @@ José Luis Escrivá;https://www.bis.org/cbspeeches/index.htm?authors=2366&m=256&
 Luis de Guindos;https://www.bis.org/cbspeeches/index.htm?authors=2860&m=256&cbspeeches_page_length=25;ok;;Vice-President of the ECB
 Madis Müller;https://www.bis.org/cbspeeches/index.htm?authors=1439&m=256&cbspeeches_page_length=25;ok;;Governor comma Eesti Pank
 Mário Centeno;https://www.bis.org/cbspeeches/index.htm?authors=4083&m=256&cbspeeches_page_length=25;ok;;Governor comma Banco de Portugal
-Martin Kocher;;ok;;Governor comma Oesterreichische Nationalbank
+Martin Kocher;https://www.bis.org/cbspeeches/index.htm?authors=6939;ok;;Governor comma Oesterreichische Nationalbank
 Mārtiņš Kazāks;https://www.bis.org/cbspeeches/index.htm?authors=6708&m=256&cbspeeches_page_length=25;ok;;Governor comma Latvijas Banka
 Olaf Sleijpen;https://www.bis.org/cbspeeches/index.htm?authors=4341&m=256&cbspeeches_page_length=25;ok;;President comma De Nederlandsche Bank
 Olli Rehn;https://www.bis.org/cbspeeches/index.htm?authors=2788&m=256&cbspeeches_page_length=25;ok;;Governor comma Suomen Pankki – Finlands Bank
 Peter Kažimír;;ok;;Governor comma Národná banka Slovenska
-Philip R Lane;https://www.bis.org/cbspeeches/index.htm?authors=1411&m=256&cbspeeches_page_length=25;ok;;Member of the Executive Board
+Philip R. Lane;https://www.bis.org/cbspeeches/index.htm?authors=1411&m=256&cbspeeches_page_length=25;ok;;Member of the Executive Board
 Piero Cipollone;https://www.bis.org/cbspeeches/index.htm?authors=4247&m=256&cbspeeches_page_length=25;ok;;Member of the Executive Board
 Pierre Wunsch;https://www.bis.org/cbspeeches/index.htm?authors=4549&m=256&cbspeeches_page_length=25;ok;;Governor comma Nationale Bank van België / Banque Nationale de Belgique
 Yannis Stournaras;https://www.bis.org/cbspeeches/index.htm?authors=1686&m=256&cbspeeches_page_length=25;ok;;Governor comma Bank of Greece

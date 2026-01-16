@@ -5,6 +5,7 @@ tmp/**
 **/__pycache__/**
 .venv/**
 data/**
-scripts/**/out/**
-!scripts/bis-speeches/out/**
+scripts/**/out/**/*pdf
+# scripts/bis-speeches/out/dl/*pdf
+# !scripts/bis-speeches/out/*
 static/goaccess.html

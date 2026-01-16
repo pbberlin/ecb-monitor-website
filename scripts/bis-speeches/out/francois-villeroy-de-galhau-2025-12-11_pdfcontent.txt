@@ -1,0 +1,350 @@
+CEPR Paris Symposium 2025
+Speech of François Villeroy de Galhau, Governor of the Banque de
+France,
+Paris, 5 December 2025
+Speech 
+Published on the 5th of December 2025
+Monetary policy
+About our monetary policy: A good
+position but not a comfortable, nor a
+fixed one
+
+Ladies and Gentlemen,
+I am delighted to welcome you today to the Banque de France for the
+fourth edition of the annual CEPR symposium, a great opportunity for
+academics and policymakers to share knowledge. We’ve just heard
+Philippe Aghion, Nobel laureate 2025, challenge us with bold ideas on
+innovation and growth. Now, let me lay the necessary foundation which
+is trust and price stability: how does monetary policy navigate today’s
+uncertainties?
+Three years after reaching its peak, inflation is currently at 2.2% in the
+euro area and has been very close to target since May 2025.  Thanks to
+the credibility and effective action of the European Central Bank, this
+disinflation was achieved without triggering a recession, an outcome
+many observers had considered unlikely. We are, as President Christine
+Lagarde has observed, “in a good place”. But a good position is not a
+comfortable one nor a fixed one, as I will discuss today. 
+I. Not a comfortable position: dealing
+with uncertainty
+i
+
+Claiming to be in a comfortable position in such an uncomfortable world
+would obviously be excessive. Uncertainty has eased but remains high:
+AI valuations, fiscal and political instability, trade shifts, geopolitical
+tensions, and doubts over the US dollar’s global role keep CEOs and
+policymakers awake. Many of these uncertainties are “Knightian”, for
+which there is no well-defined set of probabilities over different
+outcomes. As inflation and economic conditions become less
+predictable, there are diverging assessments on the state of the
+economy and risks across agents. And when investors hold diverging
+views, markets are less likely to stabilize. Consider recent developments
+in bond markets on the one hand and in equity markets, on the other
+hand. With rising market perceptions of fiscal risks, we see tensions at
+the very long end of yield curve. At the same time, the stock market has
+been outperforming, with high price-to-earnings ratio and compressed
+credit spreads. Overall, this suggests some optimism in the short-to-
+medium-term but concerns on the longer term. 
+A well-known tendency when faced by uncertainty is cautious action,
+invoking Brainard’ principle in monetary policy.  Yet Banque de France
+research shows this can be counterproductive if agents expect
+systematic under-reaction to inflation shocks. In Bernanke’s words:
+“Brainard's attenuation principle may not always hold […] stronger action
+by the central bank may be warranted to prevent particularly costly
+outcomes.”
+  
+A risk-management approach to uncertainty: Agile pragmatism, forward-
+looking with scenario analysis.
+Hence, our repeated commitment to a “data-dependent, meeting-by-
+meeting approach”: it’s more than a mantra; it’s my favourite notion of
+“agile pragmatism". Data-dependency means pragmatism: our reaction is
+state-contingent – where the state includes not only current economic
+conditions but also the outlook and the balance of risks.
+ 
+And meeting-by-meeting means agility. But meeting-by-meeting doesn’t
+mean ignoring the future. Transmission lags make forward-looking
+analysis essential, which is why our projections play a crucial role in the
+ii 
+iii
+
+decision-making process. But we also have to think about how robust
+our decisions are to plausible and policy-relevant future shocks that may
+occur during those lags. This is where scenario analysis becomes
+valuable.
+Banque de France staff research   is developing an example of monetary
+policy risk-management framework informed by a range of scenarios.
+Let me illustrate: last June, ECB staff provided two different risk
+scenarios around the baseline, shown in Chart 1.a. 
+Optimal monetary policy across scenarios
+Each scenario implies a different optimal policy path, as shown in Chart
+1.b. Our framework then allows assigning weights not only to alternative
+scenarios but also to the baseline, as reported in Chart 2.a.
+iv
+image ImageThématique Governor Monetary policy Catégorie Speech
+
+
+Optimal monetary policy across scenarios
+image ImageThématique Governor Monetary policy Catégorie Speech
+
+
+These weights are assigned based on their relevance according to the
+Survey of Professional Forecasters (SPF). Accordingly, we can design a
+“synthetic” scenario as the weighted average of the baseline and the two
+alternative risk scenarios. Chart 2.b. shows the resulting synthesis.
+Despite different optimal paths under the scenarios, the synthetic path
+aligns very closely with the optimal path under the baseline. This is due
+to the low probability assigned to the more extreme scenario. In short,
+while an extreme tariff shock would justify looser policy, its low
+plausibility means little need for extra insurance now.
+That said, many questions remain open on scenarios. Who selects and
+prepares them? And beyond that, how should we use them? Two main
+options exist to derive a single policy decision from a range of scenarios:
+one is to synthetise scenario results using techniques like Bayesian
+synthesis – as illustrated above – and model averaging; and the other is
+to select the policy path that avoids the worst outcome across scenarios
+following a robust control approach. Both have pros and cons. Broadly
+speaking, I would say that scenario synthesis should be the preferred
+option, while robust control remains valuable when facing extreme risks
+whose plausibility is difficult to gauge. In that case the policy maker
+might be more concerned with taking out insurance against the “bad
+state” of the world.
+ 
+Such “what if?” exercises also help illustrate how the central bank might
+respond to shocks, allowing agents to learn about the policy rule from
+plausible – not just observed – decisions. Of course, such descriptions
+must remain indicative, and not committing.
+In its November 2025 Monetary Policy Report, the Bank of England has
+interestingly integrated scenarios into monetary policy council
+discussions and communications. Minutes, reports, and press releases
+use scenarios to highlight risks around key policy judgments and to
+explain alternative policy paths assuming each scenario occurs. Board
+members use scenarios to explain their decision within the monetary
+council.   As you know, we in the Eurosystem prefer that decisions are
+communicated without attributing individual views to encourage
+completely open discussions and preserve collegiality. But we could use
+v
+
+scenarios more.
+Communication under uncertainty
+The academic literature has found that monetary policy uncertainty
+heightens market interest rate sensitivity to macroeconomic surprises .
+ We cannot, of course, reduce the fundamental economic and
+geopolitical uncertainty. But central banks can reduce monetary
+uncertainty about their future decisions through efficient
+communication, by enhancing economic agents’ perceptions of the
+policy framework. 
+In a context of high uncertainty, we need to combine a hard commitment
+to the 2% symmetric inflation target and a soft guidance on the interest
+rate path. Soft guidance is not the kind of almost unconditional and “long
+horizon” forward guidance we have used at the ELB. Nor should soft
+guidance be interpreted as static. After our June and July meetings,
+markets had the wrong perception of the ECB having necessarily
+reached the terminal rate. This has contributed to a somewhat undesired
+tightening of FCI (Chart 3.a) and, since last June, the sensitivity of
+expected rates to expected inflation has diminished (Chart 3.b).
+Expectations and perception of the reaction function
+vi
+image ImageThématique Governor Monetary policy Catégorie Speech
+
+
+Soft signaling is our everyday life business, in which we influence market
+expectations of future near-term policy but keep optionality.
+ 
+Furthermore, I am convinced that we must openly address all other
+sources of economic uncertainty with a broader and bolder
+communication beyond monetary policy . Today, uncertainty stems
+primarily from deteriorating public finances, and missed opportunities for
+structural reforms. If we don’t advocate a full implementation of the
+Draghi and Letta reports by the 1/1/28, including “a 28  regime for
+2028”, who will? A remarkable move in this direction is Christine
+Lagarde’s recent speech in Frankfurt: “Another six years of inaction – and
+lost growth – would not just be disappointing. It would be irresponsible."
+II. Nor a fixed position: navigating the
+road ahead
+At the current juncture, our good position is not either a fixed one. Let
+me first dispel three main misconceptions I sometimes hear about our
+reaction function.
+1.    Three misconceptions about our reaction function
+vii
+th
+viii
+
+The ECB would have gone back to “below but close to 2%”
+The first misconception is about an alleged asymmetry of our reaction
+function. Some believe we would tolerate inflation to go below but close
+to 2% for a prolonged period of time. In our strategy review since 2021,
+as reaffirmed in 2025, we strongly stated that our inflation target is fully
+symmetric. Positive and negative deviations from 2%, if lasting, are
+equally undesirable. Let me be clear: we are not “keeping our powder
+dry” to create a buffer with the effective lower bound. 
+The bar for changing rates would have increased
+ 
+Second, some might think that we should react only to large deviations
+from the target and ignore small ones. But as I already stressed , what
+matters is not the size of the deviation, it is whether it is temporary or
+persistent. Even small but lasting deviations can affect the anchoring of
+inflation expectations. This is why we need to analyse thoroughly the
+effect of each shock, to decide whether to look through or act pre-
+emptively. Agility is not excessive policy activism, but it is not stickiness
+either.
+The ECB could not decouple from the Fed
+Finally, considering the Fed’s recent easing, and with an opposite
+mistaken view, some recommend that the ECB follow suit, but wrongly
+so. Remember Spring 2024, there was a symmetric debate about
+whether the ECB could truly cut its policy rates before the Fed. And the
+ECB did it (Chart 4.a). 
+ix
+
+ECB independence and decoupling
+Despite this decoupling, the exchange rate market absorbed this without
+turbulence, as it happened on several other occasions over the past
+decade. 
+Moreover, let me remind the obvious: we are already significantly more
+accommodative than the US. Our deposit facility rate is at 2%, close to
+estimates of the natural rate, our balance sheet size is 38% of GDP [Q3
+2025], whereas it is 22% of GDP in the US [Q2 2025] (Chart 4.b). The 10-
+year OIS stands at about 2.5% in the euro area, compared to about 3.5%
+in the US.
+ 
+2.    Some thoughts on Quantitative Normalisation
+There have also been mistaken suggestions that because the Fed has
+concluded the reduction of its aggregate securities holdings, we should
+do the same. Nevertheless, this raises a more serious question about the
+right size of our balance sheet. I agree with my colleague Isabel
+Schnabel that the word “Quantitative tightening” is misleading about the
+present process: we should speak of “Quantitative normalisation” (QN)   .
+But until when and to what size? We will discuss next year about the
+implementation of our operational framework introduced in September
+2024, but let me share two considerations:
+image ImageThématique Governor Monetary policy Catégorie Speech
+x
+
+-    We should maintain ample liquidity in the European banking
+system. At present, it is still abundant, with our excess liquidity
+of about EUR 2,500 bn. It is to be compared with the necessary
+level of liquidity to have money market rates anchored to the
+floor policy rates, namely FREL (Floor Required Excess Liquidity)
+which is estimated on average at about EUR 1,500 bn, with
+however a wide confidence interval around this average (Chart
+5.b). 
+Balance sheet normalisation
+But if we were to come to a situation of scarcer liquidity in the euro area,
+or perceived as such by banks, it would risk provoking an undue credit
+tightening, as well as an unlevel playing field with international banks.
+-    Liquidity, as we all know, can be provided “on demand”,
+through short-term refinancing operations, and/or through
+structural operations of the Eurosystem, including longer term
+refinancing operations and a structural portfolio. Short-term
+refinancing will regain part of its pre-GFC importance, but we
+also need to build a structural portfolio for at least two reasons:
+refinancing operations could still be associated for banks with a
+stigma effect; there is a need for the central bank to remain
+present on the bonds market, even above the ELB, for several
+reasons (transmission of monetary policy, climate change, etc.).
+image ImageThématique Governor Monetary policy Catégorie Speech
+
+
+3.    The name of the game is full optionality
+Euro area annual inflation reached 2.2% in November, according to the
+flash estimate released on Tuesday. This remains a good position, for the
+seventh month in a row. This average hides nevertheless two paradoxes.
+ 
+This stability encompasses inflation dispersion across countries
+There is significant heterogeneity between countries, between low
+inflation in France (0.8%) or Italy (1.1%) and still elevated inflation in
+Germany (2.6%) and Spain (3.1%). This heterogeneity is mainly driven by
+the price of services: countries with low inflation in services are those
+with the lowest total inflation rates (Chart. 6.a).
+Inflation dispersion in Europe
+Differences in service inflation are themselves largely due to wage
+dynamics (Chart 6.b). In Germany, with infrequent wage negotiations,
+wages are late in catching up with past inflation, compared to France,
+with annual negotiations and an indexed minimum wage. Once the
+catching-up is over in each country, we can hope we will see an
+evolution towards lower inflation rates in the services sector in the euro
+area. 
+image ImageThématique Governor Monetary policy Catégorie Speech
+
+
+These apparently stable inflation data are surrounded by significant risks
+on the inflation outlook.
+This is the present paradox: stable data, but significant risks. There are
+upside risks on inflation, such as global value chain fragmentation, and
+public spending in defence and infrastructure in Germany. There are
+downside risks as well: a greater deceleration of wage growth, a
+stronger euro, and cheaper imports from China. Over the latest six
+months this year compared to the same period last year (May-to-
+October 2025 vs 2024), Chinese imports in the euro area increased by
+11% in volume, and their price decreased by 9%. To give an order of
+magnitude, the last two phenomena could reduce inflation by about 0.2
+percentage point in 2027 according to Banque de France estimates. The
+postponement of ETS2 to 2028, voted by the European Parliament, will
+also post-pone its inflationary impact of around a 1/4 of percentage point
+from 2027 to 2028. To these “traditional” downside risks, we should add
+a systemic “Knightian” one with financial instability due to global equity
+market valuations, private credit and high government debts.
+Furthermore, this financial instability could be triggered by the attacks to
+the credibility and independence of the Fed.
+Bottom line: (i) the downside risks on the inflation outlook remain at least
+as significant as the upside risks, and we would not tolerate a lasting
+undershooting of our inflation target; (ii) the name of the game for our
+future meetings remains full optionality. The only fixed figure is our 2%
+inflation target; it is not any terminal interest rate, and we don’t exclude
+any policy action.
+
+In the battle to reach the inflation target, we have finally taken the lead,
+and this is no small achievement. But being ahead doesn’t give us
+permission to relax.  As the French tennis champion René Lacoste used
+to say: “If you’re on the cusp of winning, remember that there is no
+opponent who plays better than an opponent who is about to lose”. As in
+a tennis match, it’s not the last shot that matters, it is the next one. We
+must not stay fixed on the court and should anticipate how the game
+could evolve. In other words, agility is at the crossroads of two other
+virtues: extreme clarity about our determination to deliver the 2%
+inflation target; pragmatic humility and optionality about our next shots
+to that end. 
+ 
+
+ In October 2022 the year-on-year HICP Inflation rate reached the peak
+level of 10.6% in the Euro Area. In May 2025, inflation was 1.9% and never
+went below 1.9% or above 2.2% since.
+ Brainard (W.C.) (1967), “Uncertainty and the Effectiveness of Policy”, The
+American Economic Review, Vol. 57 Issue 2, Papers and Proceedings of
+the Seventy-Ninth Annual Meeting of the AER, 411-425, May
+ Bernanke (B.S.) (2007), “Monetary Policy under Uncertainty”, speech at
+the 32nd Annual Economic Policy conference, Federal Reserve Bank of
+Saint Louis, 19 October; Bauer (M.) et al. (2025), “Accounting for
+Uncertainty and Risks in Monetary Policy”, Finance and Economics
+Discussion Series 2025-073, Board of Governors of the Federal Reserve
+System.
+ Lhuissier (S.) (2026), forthcoming.
+ Pill (H.) (2025), “Evolving UK monetary policy in an evolving world”,
+speech at the Institute of Chartered Accountants of England and Wales
+annual conference, London, 17 October
+ Bauer (M.D.), Pflueger (C.E.), Sunderam (A.) (2024), “
+Perceptions about
+Monetary Policy”, The Quarterly Journal of Economics, Vol. 139, Issue 4, 4
+November, Swanson (E.T.), Williams (J.C.) (2014), “Measuring the Effect of
+the Zero Lower Bound on Medium and Longer-Term Interest Rates”, The
+American Economic Review, Vol. 104, No. 10, pp. 3154-85, October.
+ Villeroy de Galhau (F.) (2024), “Monetary Policy in Perspective (II) :
+Three landmarks for a future of “Great Volatility””, speech at the London
+School of Economics, London, 30 October
+Lagarde (C.) (2025), “From resilience to strength : unleashing Europe’s
+domestic market”, speech at the 35th Frankfurt European Banking
+Congress, Frankfurt am Main, 21 November
+ Villeroy de Galhau (F.) (2024), “Monetary Policy in Perspective (II) : Three
+landmarks for a future of “Great Volatility””, speech at the London School
+of Economics, London, 30 October
+ Schnabel (I.) (2025), “Towards a new Eurosystem balance sheet”, speech
+at the ECB Conference on Money Markets 2025, Frankfurt am Main, 6 
+November
+i
+ii
+iii
+iv
+v
+vi
+vii
+viii 
+ix
+x

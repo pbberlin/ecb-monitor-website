@@ -1,0 +1,500 @@
+1/13 BIS - Central bankers' speeches
+Olli Rehn: Money and the monetary system - case Finland, 1811 - 2030
+Lecture by Mr Olli Rehn, Governor of the Bank of Finland, at Tampere University, 
+Tampere, 12 November 2025.
+* * *
+Presentation accompanying the speech
+Let me begin by thanking for inviting me to give this lecture today.  Tampere University 
+It is truly a great pleasure and an honour, as your university conducts first-class 
+, including economics. The Finnish Centre of research in the social sciences
+Excellence in Tax Systems Research is a well-known case in point. I can personally 
+testify to the quality of the education here because my dear wife holds a Master of 
+from the University of Tampere.Social Sciences degree 
+Besides, I myself took 'Introduction to Economics', here, during one  Economics 101, 
+hot summer, after completing my military service. That was before heading to the 
+United States to study on an ASLA/ economics and international relations  Fulbright 
+.scholarship
+So, if you have any about how the complaints or criticisms   eurozone debt crisis 
+was managed  or now about my input in  you can simply ECB monetary policy   blame 
+!the University of Tampere
+Anyway, it really is wonderful to be back.
+My lecture today is about money and the monetary system, and how these have 
+. I will use Finland, and to evolved and transformed over the past two centuries
+some extent Europe too, as case studies.
+This is more than economics proper, reflecting my own background  economic history 
+in . international political economy
+Slide 2. Overview of presentation
+I will start by discussing money and the definition of money. Then I will move on to 
+different currency arrangements in Finland through history, with a special focus on the 
+20 century and the Finnish markka, our long-standing national currency.th 
+After that, we'll look at the euro and how it was introduced. How has life been for 
+Finland as a member of the EMU?
+Let's then consider the new challenges ahead for the international monetary system, 
+related to geopolitics and technological change. And finally, some conclusions.
+Slide 3. What is money and how has it changed over two centuries?
+
+2/13 BIS - Central bankers' speeches
+Let's kick off with this question: What is money, and how has it changed over two 
+centuries?
+Money is a simple tool for a complex task. It does three jobs.
+First, it is a . We use it to make payments. It spares us the  medium of exchange
+trouble of barter. If I'm selling timber and want bread, I do not have to find a baker who 
+needs timber. Money stands in the middle and makes trade possible. Related to that, 
+money is also the legal means of payment of debts. 
+Second, it is a . It enables pricing of goods and services. It is used in  unit of account
+contracts as a standard of debts and other obligations. Profits and losses are measured 
+in it. When the unit of account is under pressure, the economy may falter. When the unit 
+is steady, people can make plans for the future.
+Third, it is a . It preserves purchasing power over time. The store should  store of value
+not be taken for granted though. Inflation may eat away at it. Panics and scares can 
+undermine it. But the point is simple: money ought to hold its worth well enough that 
+people can save, investment can grow, and everyone can sleep soundly at night.
+These three functions of money stand on one foundation:. Trust that the coin is  trust
+true. Trust that the banknote will be honoured. Trust that the deposit can be redeemed.
+Trust does not appear by magic. It is earned and guarded by institutions and through 
+rules and regulations - mints, central banks, courts, laws, regulated practices and 
+procedures. This we can call . And when we link the various  a monetary system
+national or supranational monetary systems together, we get the international 
+.monetary system
+Over the past two centuries the form of money has changed, but its functions have 
+. We moved from metal coins to paper banknotes, used as fiat currency (which is not
+legal tender and inconvertible to metal), and from banknotes to bank deposits, then to 
+credit and debit cards, and from cards to electronic and instant payments.
+As for the monetary system, over time we have seen hard pegs to gold and silver, we 
+have seen fixed exchange rates, let currencies float, and we have built currency unions 
+between countries.
+And today, we see the terms tokenised deposits, stablecoins and central bank digital 
+currencies.
+Through all of this, one lesson is clear: the form can change, but the function 
+. If trust is strong, the system works. If trust fails, nothing else will help. Let me remains
+next elaborate on this by focusing on Case Finland.
+Slide 4. Finnish currency arrangements: 1811, 1860, 1865, 1878
+
+3/13 BIS - Central bankers' speeches
+Finland's monetary story begins, in modern form, in, when Tsar Alexander I of  1811
+Russia established the central banking office that later became the Bank of Finland. 
+This makes us the fourth oldest still existing central bank in the world.
+Furthermore, we can also say that we have a claim for the world's oldest central bank, 
+the Riksbank, because when that institution started its operations in, Finland was  1668
+still an integral part of Sweden!
+The creation of a central bank for Finland was discussed at , which  the Diet of Porvoo
+was a gathering of the four estates of Finland convened in 1809 after Sweden lost 
+Finland to Russia. Meeting in the town of Porvoo, the four estates swore an oath of 
+allegiance to the Tsar, who in turn confirmed Finland's old laws, religion and privileges 
+– including private property.
+The Porvoo Diet proposed the setting up of a central bank under the supervision of the 
+Diet, but this was not acceptable to the Tsar. The central bank was instead 
+subordinated to the economic department of the newly created Grand Duchy of Finland 
+– first in Turku, from 1811, and then from 1819 onwards in Helsinki.
+The political purpose was clear. Following its crushing defeat in the War of Finland in 
+18081809, Sweden had ceded Finland to Russia in the Peace Treaty of Hamina in 
+1809. St Petersburg wanted a measure of monetary order in the new Grand Duchy  and 
+to replace the Swedish currency in circulation with Russian roubles.
+However, in the first decades after 1809, both Swedishand Russian paper  riksdalers 
+roubles circulated in Finland. Eventually, thedominated, but it was no model of  rouble 
+stability. In particular, it was badly shaken by the Crimean War of 18531856. In Finland, 
+the need for a domestic anchor became plain. So, in, Finland introduced the 1860  
+as a national unit.markka  
+At first the markka was defined as ¼ of the paper rouble. The key break came in,  1865
+when the markka was and thus freed from the instability of the rouble.  pegged to silver 
+It was a polite way of saying: "Thank you, but we'll do this." our way
+There was a parallel plan in St. Petersburg to stabilize the rouble too, but that plan was 
+derailed by the uprising in Poland and the ensuing costly war. Finland was unaffected, 
+however, and so managed to establish a national monetary system of its own.
+The pegging of the currency to a precious metal was not a passing fancy. It was a 
+major signal: Finland wanted credibility, access to European capital, and a place in 
+European trade. It was a means of integration: silver was the dominant monetary 
+standard in Northern Europe at the time.
+The late 19th century was a time of economic liberalism and rapid growth in Finland. 
+The Finnish , enacted in (effective in 1880), abolished  Law on Freedom of Trade  1879 
+the old guild restrictions and granted citizens the general right to engage in business. 
+Though the priest and liberal policy entrepreneur had died decades  Anders Chydenius 
+earlier, his deeply  18th-century advocacy of economic liberty and free enterprise 
+influenced the intellectual climate that made such reform possible. The law thus 
+
+4/13 BIS - Central bankers' speeches
+realized, in practice, the Enlightenment ideals of economic freedom that Chydenius had 
+articulated more than a century before.
+The final currency step of this era came in, when Finland joined the European  1878
+trend of the 1870's and , with the markka at parity with the  adopted the gold standard
+French franc. By pegging to gold at the same gold content as the franc, Finland 
+effectively became integrated with the as a kind of 'associate  Latin Monetary Union 
+member' at the time.1
+Again, there was a concurrent plan to take the rouble to the gold standard as well, but 
+that had to be abandoned because of the Russo-Turkish war. As a result, Russia 
+followed Finland to the gold standard only two decades later in 1897.
+That anchor of gold held until the First World War. It gave us credibility, capital and 
+access to international markets. Many a railway or factory was built on that foundation. 
+The benefit was concrete: the country could raise funds in Frankfurt, Paris and 
+elsewhere  for example, for railway routes like the important Savonian line in Eastern 
+Finland.
+A currency is not a mere symbol. It is a bridge to the world – and to the future.
+Slide 5. Currency regimes in the 20centuryth 
+Fast-forward into the 20th century and we see a collection – if not a cavalcade – of 
+monetary architectures. And Finland experienced most of them up close.
+1915–1926: Paper standard. The First World War brought a suspension of gold 
+convertibility and rapid inflation. Money served the home front first – stability was 
+compromised and came only later.
+1926–1931: Return to the gold standard. After the First World War, Finland  like the 
+United Kingdom and others  went back on gold. But the old world where the gold 
+standard had worked, had gone. Democracy and strong trade unions, and the highly 
+indebted agricultural sector, made deflation, once the tool of 'internal devaluation', both 
+hard and harmful. Once the Great Depression started, the deflation required by gold 
+proved politically and socially untenable, as Barry Eichengreen has demonstrated.2
+1931–1933: Floating exchange rate. The gold exchange standard had to be 
+abandoned. Finland devalued its currency and floated, following the United Kingdom 
+and the Scandinavian countries.
+1933–1939: Pound peg ('the sterling area'). The markka, and the Scandinavian 
+currencies, were pegged to the British pound. This fitted the trade patterns of the day: 
+the UK was our main export market, above all for forest products. The economy grew 
+briskly in the late 1930s.
+
+5/13 BIS - Central bankers' speeches
+1939–1949: Exchange controls. War and reconstruction required rationing of foreign 
+exchange. The external constraints were tight. Controls were necessary, but they were 
+costly in terms of lost efficiency. There was high inflation, and after the war there were 
+several devaluations.
+1949–1971/73: Bretton Woods par value system. Fixed  but adjustable  exchange 
+rates anchored to the US dollar. Membership of the IMF (since 1948) and full current-
+account convertibility (from 1959) tied Finland into the post-war Western economic 
+order. These were years of fast growth, industrialisation and the expansion of the 
+welfare state.
+Between , Finland moved from postwar exchange controls to full  1959 and 1961
+participation in the Bretton Woods monetary system. In, the government ended  1959
+foreign-exchange rationing and restored current-account convertibility, aligning with the 
+broader European liberalization of payments. Over the next two years, the Bank of 
+strengthened reserves in preparation for formal entry into the IMF's framework. Finland 
+This transition culminated in , when Finland September 1961  declared a par value for 
+and accepted the obligations of , marking the official the markka   IMF Article VIII
+completion of its monetary liberalization and full integration into the postwar 
+international financial order.
+Yet the economy remained volatile. The markka was devalued roughly every ten years 
+from the post-war period until 1992. The lesson from this is that fixed rates alone do not 
+guarantee an equilibrium and stability if economic policy is loose and wages run ahead 
+of productivity.
+1971/73–1991: Currency basket. When the dollar was delinked from gold and the oil 
+shocks occurred, Europe and the world were compelled to improvise. Finland pegged 
+the markka to a that reflected trade shares. currency basket 
+In Western Europe the European Monetary System and the Exchange Rate 
+Mechanism, the emerged under a de facto Deutsche mark anchor – the  EMS/ERM,  
+Bundesbank was the European leader in monetary policy.
+1991: European Currency Unit peg. In June 1991, Finland shifted from the trade-
+weighted currency basket to a peg against the, a composite of EU currencies,  ECU
+thereby tightening our link to Europe. It was as much a political as an economic 
+decision, if not more.
+The decision to peg the markka was taken after a serious stand-off between the new 
+Government, led by Prime Minister Esko Aho, which would have preferred a 'final 
+devaluation' of between 5% and 10% to correct cost competitiveness when pegging, 
+and the Board of the Bank of Finland, which proposed pegging to the ECU with the then 
+current exchange rates. The Board strengthened its stance by threatening to resign if 
+the markka was devalued. The Government yielded at first.
+
+6/13 BIS - Central bankers' speeches
+1.  
+2.  
+3.  
+But the tension did not disappear. On the contrary, Bank of Finland Governor Rolf 
+Kullberg was forced to resign in April 1992, while the Government appointed Sirkka 
+Hämäläinen as the new Governor. She later served on the first-ever European Central 
+Bank Executive Board in 19982003.
+1992–1996: Float. The early 1990s crisis  born of a failed financial liberalisation, free 
+but excessive capital flows, a fixed exchange rate, lax fiscal policy and the collapse of 
+Soviet trade  led to mass unemployment by 1992. In 1991, Finland's GDP fell by 7% 
+and the number of people unemployed increased by 150,000.
+The economic crisis and the parallel international currency crisis of September 1992 
+forced Finland to let the markka float. I, for one, thought of it as –  the Last Devaluation 
+the final drink before quitting the habit.  
+The markka fell sharply, at one point roughly 40% against the ECU. By spring 1993, 
+exports had surged and the current account turned for the better. Interest rates, then a 
+key measure of trust on the economy, started finally to decline. But the cost at home 
+was heavy: bankruptcies and a long, painful shake-up of balance sheets. For a long 
+time, job creation failed to counter the job destruction, which was largely structural, 
+occurring in the wake of events within and outside Finland.
+Slides 6-8. Impossible Trinity
+The period from roughly 1988 to 1992 is of particular importance from the standpoint of 
+monetary policy and monetary regime choice. Finland in that period is a perfect case 
+study in what is known as 'impossible trilemma' or 'trinity'.
+The , also known as the ' , is a core  impossible trinity Mundell-Fleming trilemma'
+concept in international macroeconomics. It states that a country cannot 
+of the following policy goals:simultaneously have all three 
+Free capital mobility (no restrictions on capital flows – investors can move 
+money in and out freely).
+A fixed exchange rate (the domestic currency's value is pegged to another 
+currency or a basket of currencies).
+An independent monetary policy (the central bank can set interest rates to 
+achieve domestic goals, like inflation or unemployment).
+In other words, a country can of these three at the same time – the  choose only two 
+third must be sacrificed. In a nutshell, you cannot have a fixed exchange rate, free 
+capital flows and an independent monetary policy all at once.
+I must add that Professor Hélène Rey, has in her empirically grounded papers in 2013-
+15, suggested a significant revision of the Trinity. Her reformulation of the trilemma into 
+a captures a deeper truth about the contemporary global monetary order:  "dilemma" 
+sovereignty in finance has become conditional. The global financial cycle – driven by 
+the liquidity, leverage, and risk preferences of dollar-based markets – binds national 
+
+7/13 BIS - Central bankers' speeches
+policy far more tightly than exchange-rate regimes once did. In this system, the U.S. 
+, transmitting dollar functions as both a currency and a global infrastructure
+financial impulses across borders and shaping the rhythm of credit worldwide.
+Rey's insight thus redefines monetary autonomy not as the freedom to set interest rates 
+independently, but as the capacity to manage exposure to the global balance sheet 
+through macroprudential, regulatory, and institutional means. The modern challenge is 
+thus not to escape interdependence, but to govern it, or at least, manage it – a task that 
+lies at the heart of the post-crisis debate over the future of global finance and the 
+boundaries of economic sovereignty.
+Anyway, for Finland, the 'impossible trinity' was a hard lesson in the late 1980s and 
+early 1990s. According to the ex-post analysis of the Finnish economic crisis of the 
+1990s, the central causes behind the overheating of the late 1980s and the subsequent 
+deep recession were financial market and monetary factors and monetary policy. This 
+was also the conclusion of the three foreign economic experts commissioned by the 
+Bank of Finland in 1993 to conduct an in-depth study.3
+It is worth noting that Dr. Sirkka Hämäläinen, Governor of the Bank of Finland from 
+1992 to 1998, asks in her memoirs whether it would have been possible to move 
+already to a floating rate regime in the early 1980s. Some Bank of Finland economists 
+had in fact analysed this matter earlier and even recommended opting for a floating 
+exchange rate regime. But, as she notes, "the Governor and the majority of the Board 
+did not warm to such ideas".4
+Hämäläinen also concludes that even if the Governor and the Board had been ready to 
+pursue a regime change to floating rates, they would have faced formidable opposition 
+not only from the politicians and policymakers, but also from the export industries. 
+These, as well as the labour market partners, clearly saw the exchange rates as far too 
+important to be left to the whims of the markets. The export industries, both the 
+corporate leaders and the trade unions, were accustomed to the support of 
+devaluations when the going got tough.5
+Dr. Pertti Kukkonen, one of the most perceptive and intellectually honest critics of 
+central bank policy of the time, argued that a floating rate regime would have facilitated 
+both a revaluation in 1988, which would have contained overheating, and an earlier 
+devaluation in 1990, which would have relieved the downward spiral of production and 
+employment. He regrets the collapse of the "social contract" (which was referred to then 
+as 'Sorsa's contract') proposal in the autumn of 1991 and criticizes the trade unions and 
+export industry for not accepting an internal devaluation, which would have been less 
+costly for growth and jobs than the external one.6
+As Kukkonen writes: "If the markka had been floating, monetary policy would have had 
+a larger countercyclical impact, but floating did not yet fit in the realm of ideas in 
+European economic policy in the 1980s."7
+
+8/13 BIS - Central bankers' speeches
+1996–1998: ERM link on the road to Economic and Monetary Union. Finland joined 
+the EU in 1995. As its economy stabilised, Finland tied its exchange rate to the 
+Exchange Rate Mechanism of the EU, thereby paving the way for becoming a founding 
+member of the euro.
+1999–today: The euro. First as a fixed euro conversion rate used only for accounting 
+purposes and electronic payments; then the launch of euro coins and banknotes in 
+2002.
+Over time the euro's institutions have moved fromto the more robust EMU 1.0   EMU 2.0
+, including a sturdier framework for European economic governance, a permanent crisis 
+fund (the European Stability Mechanism, ESM), new legislation for banking regulation, 
+supervision and resolution, as well as the creation of the euro area banking union under 
+the auspices of the ECB.
+In short, Finland has experienced floats and pegs, metals and paper, currency 
+baskets and unions. Each move was a response to the conditions at the time. 
+None was a magic solution. But, taken together, they represent our path from 
+peripheral volatility to European stability.
+Slide 9. The euro and why it was introduced
+The euro was not born of romance. It was born of hard problems.
+After Bretton Woods collapsed, Europe faced recurring exchange-rate crises. The EMS
+/ERM worked  until it did not. In, currency pressures swept the system. German  1992
+unification had shifted the centre of gravity. Capital was mobile. National politics 
+clashed with monetary constraints. Competitive devaluations returned and sapped trust.
+At the same time, in 1993, the Europeanmarket was established. Goods,  single 
+services, labour, people and capital were to move freely. But a market without monetary 
+stability is a table with one leg short. Prices, wages and interest rates cannot be 
+compared if exchange rates fluctuate. Finance cannot be well integrated if currency risk 
+dominates.
+The euro promised three things., to end the game of beggar-thy-neighbour  First
+devaluations inside Europe. , to deliver price stability under a rules-based,  Second
+independent central bank system., to deepen the single market by stripping out  Third
+exchange-rate costs and noise.
+There were too. After the Cold War, Europe needed anchors. A  political goals 
+common currency, run by a supranational central bank and embedded in law, was seen 
+as a strong anchor. France and Germany made the decisive bargain: in effect, 
+Europeanising the anti-inflation credibility of the Bundesbank by embedding it in a new 
+European Central Bank, and binding German power within shared institutions.
+The design was not perfect. The original EMU was a monetary union without a full fiscal 
+and financial union. That gap would matter later. But the purpose was clear and, for 
+most EU countries, compelling.
+
+9/13 BIS - Central bankers' speeches
+Slide 10. Finland in the euro
+Why, specifically, did Finland join?
+The 1990s had taught us a hard truth – actually this was already apparent in the 1970s 
+and 1980s  as we were living then in a devaluation-inflation cycle, with periodic 
+devaluations following high inflation and the erosion of the competitiveness gains of the 
+previous devaluation. That is with free capital movements and a fixed exchange rate, a 
+small country cannot run a patchwork of lax or inconsistent policies and expect mercy 
+from the markets. We needed a that could not be kicked away in a  credibility anchor 
+storm. The euro offered that.
+What has it brought?
+Stability, first of all. Compared with the early 1990s, the euro years – since its creation 
+in 1999 – have delivered low and predictable inflation, lower interest rates, and a more 
+even cost of capital.
+Trade and investment have benefited from the removal of currency risk within the euro 
+area. have gained from price transparency and ease of payments. Households    
+have gained from a deeper market for finance and customers.Businesses 
+Slide 11. Responses to the financial crises
+After almost a decade of the euro, came the litmus test – or the moment of truth.
+The global financial crisis and the euro area sovereign debt crisis exposed the faults of 
+. A single monetary policy alongside many nationally regulated banking EMU 1.0
+systems and national fiscal policies can breed imbalances when credit flows too quickly 
+in some parts of the network. When the tide went out, such imbalances left weak banks, 
+fragile sovereign finances, and a dangerous feedback loop between the two.
+Europe's answer, though slow, was real and resolute. It built awith  banking union 
+common supervision and resolution. It created a permanent crisis fund, the 
+. The ECB acted as a central bank should in a European Stability Mechanism (ESM)
+crisis: lender of last resort to the system, guardian of the payments backbone, and, in 
+exceptional times, buyer of last resort to prevent self-fulfilling panics.
+The architecture moved towards . Not perfect, but stronger. EMU 2.0
+It has provided resilience during the many crises of the 2020s, from the COVID-19 
+pandemic to the economic consequences of Russia's illegal war in Ukraine, including 
+the subsequent energy crisis and inflationary surge.
+But still the euro and EMU are very much work in progress.
+For Finland the core lesson is not new. A country in a currency union must keep its 
+aligned with productivity. It must keep its resilient, competitiveness   public finances 
+not just for today, but for the next shock and for the realities of an ageing society. Wage-
+
+10/13 BIS - Central bankers' speeches
+setting must be moderate enough to support employment in a small, open economy. 
+Innovation and education must feed productivity – human capital matters. Finance must 
+be well supervised and capitalized.
+The euro does not do these jobs for us. But it makes success in these more likely if we 
+do our own job well as a society.
+Slide 12. New challenges for the international monetary system
+The next chapter in this story is being written on two fronts at once.
+First, . The world is less rules-based and more power-based  geopolitical confrontation
+than a decade ago. Tensions between the United States and China run through trade, 
+technology and finance. Sanctions and export controls have become standard tools. 
+Payment systems and reserve currencies are viewed and used as instruments of 
+statecraft.
+The remains . Market depth, ample liquidity  US dollar   the dominant reserve currency
+and the rule of law can keep it at the top. But the use of financial sanctions is 
+encouraging some countries to seek partial workarounds: more trade invoicing in other 
+currencies, regional payment systems, and local currency swaps.
+Escalating geopolitical tensions, trade wars and volatile policy shifts are reshaping the 
+rules of global finance. While the US dollar will likely remain dominant, its supremacy 
+may become somewhat less hegemonic in the evolving more multipolar world economy.
+As to the euro, it is a solid regional reserve currency, and globally distant second – for 
+the euro to become , Europe will need to act  a more broadly usedglobalanchor   
+strategically and reduce its dependencies.
+Europe must not simply drift in this global environment. It must strengthen its economic 
+base, reduce strategic dependencies and be able to stand on its own feet - while 
+keeping alliances strong.
+The second front is . Here the words are new, but the  technological disruption
+questions are old: Who issues money? Who controls the payment rails? And who bears 
+the risk?
+Crypto-assets without backing promise much but deliver little as money. They 
+are volatile and speculative. They fail the tests of unit of account and stable store 
+of value.
+Stablecoins are different in design. They promise a claim on safe assets  say, 
+short-term government bills  wrapped in a token that moves fast on new rails. The 
+EU now has a for crypto-assets and stablecoins. The US  harmonised rulebook 
+has moved to a more permissive model with strict reserve requirements for 
+issuers. There is room for coordination between the EU and the US, but the 
+politics have not yet reached this point.
+Tokenised deposits are the banking sector's answer. They keep money inside 
+the regulated system, make it movable on new infrastructures, and allow 
+programmability without breaking the link to insured deposits and central bank 
+
+11/13 BIS - Central bankers' speeches
+settlement. If well designed, they can give us the with the speed of tokens   safety 
+.of banks
+A central bank digital currency  in Europe, the  will be for broad  digital euro 
+use by the general public. In October, in the ECB Governing Council, we decided 
+to move to the next phase, ensuring technical readiness. A digital euro will be 
+legal tender in digital form, the monetary anchor in the digital world, available to 
+households and businesses, designed to be private by default for small payments 
+and safe by design for all. It would . It would  complement, not replace, cash
+ensure that in a digital age the basic unit of money remains a, not a  public good
+private monopoly.
+Slide 13. A stronger international role for the euro
+A stronger international role for the euro is increasingly seen as desirable. But it 
+requires a stronger, more dynamic Europe. Both in terms of its security and its economy.
+The euro's global weight ultimately depends on the vitality of the economy behind it. 
+That is why the path forward rests on three key priorities: Defence, Dynamism and 
+Digital Sovereignty.
+The first D is Defence  and security as an economic asset. Russia's war of 
+aggression in Ukraine has reminded us, painfully, that security and economics are 
+.inseparable
+The second D is  the engine of Europe's prosperity and the foundation of  Dynamism  
+the euro's strength. The lesson is simple: a currency cannot be stronger than the 
+economy it represents.
+The third D is  perhaps the most strategic frontier of all. In this  Digital Sovereignty 
+arena, Europe is far too dependent on non-European platforms and payment systems.
+At the same time, are spreading rapidly, aiming at  US dollar-backed stablecoins 
+extending dollar dominance into digital finance.
+Europe is not ignoring this shift. That's why theis important. digital euro 
+Together, the three Ds form a coherent strategy for a stronger Europe and a 
+. And all three support one another: requires a stronger euro  a credible defence 
+dynamic economy to fund it; benefits from digital innovation; and economic dynamism    
+, in turn, depends on both secure infrastructure and economic scale.digital sovereignty
+Technology also changes power. If the rails of payments are controlled from afar, 
+sovereignty is eroded. If key platforms are private and foreign, policy levers shrink. This 
+is why, in the 2020s, means monetary sovereignty. Europe should  digital sovereignty 
+ensure the backbone of its payment infrastructure remains open, interoperable and 
+resilient  but it must not be naïve about this.
+One more hard fact, if I may. A global currency needs a behind  deep, liquid safe asset 
+it. The US has its Treasury securities. The EU has a patchwork. Its joint issuance has 
+grown in recent years for specific common purposes, but a larger, permanent pool of 
+
+12/13 BIS - Central bankers' speeches
+safe euro-denominated assets anchored in sound fiscal rules would help integrate 
+capital markets and strengthen the euro's international role. Defence and security, if 
+funded wisely together, could form both a shield and a financial mainstay.
+Slide 14. General conclusions
+This brings us now to my conclusions. I will summarise five key lessons.
+First, money is backed by the state and tested by the market. Its  a social contract 
+three jobs  exchange, account, store  are simple to state and hard to maintain.
+Institutions and credibility do the heavy lifting. However, there is .  no perfect regime
+Fixed exchange rates bring discipline but can become a straitjacket. Floating rates bring 
+flexibility but can tempt drift and reduce credibility. A currency union brings stability of 
+prices and payments, but it demands that members keep their own houses in order.
+Second , Finland's path shows that , not fate.  currency choice is the result of policy
+We moved from rouble instability to silver, from silver to gold, from pegs to floats, from 
+baskets to the euro.
+Each shift matched a need: to attract capital, to stabilise trade, to escape crisis, or to 
+anchor expectations.
+Today, with Finland in the euro, there is . We must keep  work that only we can do
+competitiveness aligned with productivity. We must keep public finances resilient in an 
+ageing society. We must invest in education, research and innovation. We must 
+supervise the financial sector well. We must ensure that wage-setting supports 
+employment in our small, open economy. These are not tasks for Brussels, or Frankfurt. 
+They are ours.
+Third, the euro is a . It brought to an end the European habit of  stability project
+competitive devaluations. It delivered low inflation and deepened the single market. Its 
+first design had gaps in it, but its second design is sturdier.
+The task now for the EU is to finish the job. This means completing the banking union in 
+practice, building a true capital markets union, and ensuring that fiscal rules are simple, 
+credible and countercyclical.
+Fourth, the international monetary system is entering a more contested and more 
+. Dollar dominance will likely persist, but the edges are technologically advanced era
+fraying. Europe must reduce strategic dependencies, guard its digital and financial 
+sovereignty, and act with partners where interests align.
+Fifth, in money as in politics, . We should pragmatism beats ideology  use what 
+. This means regulating the new forms of private money so works and fix what fails
+that they do not undermine stability. It means building a digital euro that is useful, 
+secure and privacy-preserving. It means considering how Europe can supply more of 
+the safe assets that a strong currency requires. And it means sticking to the rule of law 
+and open markets, because they are the true engines of trust.
+
+13/13 BIS - Central bankers' speeches
+Slide 15. Case Finland, 18112030
+The time span from 1811 to 2030 is long, but the thread is clear. A small, open 
+economy can prosper when it marries with and . stability   adaptation   reform
+Yesterday we sought credibility with silver and gold.
+Today we hold it with the euro.
+Tomorrow, whatever form money takes we will need the same plain virtues  sound 
+institutions, honest accounts, careful risk-taking, steady reform, economic and 
+entrepreneurial dynamism.
+If we keep this compass, Finland will not be a passive participant in the next chapter of 
+Europe's monetary story, but will help to write it.
+ 
+1 Tarkka, Juha, Raha ja rahapolitiikka, Gaudeamus 1993, p. 76
+2 Eichengreen, Barry, Golden Fetters. The Gold Standard and the Great Depression 
+1919-39. Oxford University Press 1992, pp. 4-12, 92-99.
+3 Border, C., Currie, D. and Söderström, H.T. (1993), Three assessments of Finland's 
+Economic Crisis and Economc Policy, series C:9, Bank of Finland.
+4 Ahonen, Jukka and Jarkko Vesikansa, J. (2023), Pakko uskaltaa. Sirkka Hämäläisen 
+ura ja elämä, Otava, pp. 211217.
+5 Ibid., p. 217.
+6 Kukkonen, Pertti (1997), Rahapolitiikka ja Suomen kriisi, PTT publications no. 16, pp. 
+24, 3362.
+7 Ibid., pp. 2021.

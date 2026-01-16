@@ -1,0 +1,170 @@
+1/4 BIS - Central bankers' speeches
+François Villeroy de Galhau: Speech - Tracfin Forum
+Speech by Mr François Villeroy de Galhau, Governor of the Bank of France and Chair 
+at the 3rd Tracfin of the Prudential Supervision and Resolution Authority (ACPR), 
+Forum, Paris, 7 November 2025.
+* * *
+I am delighted to open this third forum – which coincides with Tracfin's 35th anniversary 
+– and to do it here at Bercy, a place dear to both Antoine Magnant, who I am really 
+happy to see here, and to myself, both of us former members of the French Tax 
+Authority. This invitation is also a mark of recognition for the women and men of the 
+ACPR and the Banque de France, two institutions committed to AML/CFT: the former 
+as the supervisory authority for financial institutions, the latter as a central bank 
+"subject" to the Monetary and Financial Code. 
+I do admit that I forbid the use of "subject to" at the ACPR, and we prefer 'supervised'. 
+"Subject to" does not reflect what we really are: responsible partners, committed to a 
+joint battle against one of the greatest scourges of our time. A total of 230,000 reporting i
+entities – 400 of which are gathered here today – form our first line of defence. In this 
+war of movement that we are waging against increasingly inventive criminals, the 
+cooperation between Tracfin and the ACPR takes on its full meaning. Allow me, 
+therefore, to present an overview and then to set out two priorities. 
+I.  Overview of cooperation between Tracfin and ACPR
+Over 35 years, Tracfin has forged a and, above all, a unique place in our  reputation 
+institutional landscape: growing from a handful of employees at its foundation to 230 
+today, and from 40,000 suspicious transaction reports in 2015 to more than 215,000 at 
+the end of 2024 – although numbers don't tell the whole story, but I will return to this 
+point. Tracfin's teams are able to turn these reports into proper financial intelligence: in 
+2024, nearly EUR 3 billion worth of suspicious flows were detected in relation to tax 
+fraud – on VAT, CPF (personal training accounts) or energy renovation – and more 
+than EUR 800 million in employment fraud linked to undeclared employment. 
+Most of the suspicious flows detected come from suspicious transaction reports 
+submitted by financial institutions. This commitment from the financial sector is also 
+partly the result of close cooperation with the ACPR, which has recently had a number 
+of concrete achievements: the revision of joint guidelines, the creation of a standardised 
+bank statement, and a major training programme on crypto-assets, funded by the 
+European Commission and partly hosted by the ACPR almost exactly one year ago. 
+Beyond these specific examples, Tracfin and the ACPR are united by long-standing 
+cooperation. Both in terms of specific individuals and liaison officers, as well as our 
+colleagues from Tracfin who have joined the ACPR (and vice versa). And by key 
+moments: every year, Tracfin's memoranda enrich our control programme. On-site 
+inspections are then prepared with Tracfin and covered in a shared report. 
+
+2/4 BIS - Central bankers' speeches
+II. Two fronts in the same battle: efficiency, anticipation and 
+cooperation
+I now come on to our two common priorities: first and foremost, strengthening 
+operational efficiency, and then anticipating changing threats and cooperating to thwart 
+them. 
+Efficiency
+Staying ahead in the fight against crime first means detecting how it changes over time, 
+and focusing our efforts on what truly matters. With nearly 197,000 suspicious 
+transaction reports (STRs) filed by the financial sector in 2024, we have achieved an 
+unprecedented level of commitment. And the first quarter of 2025 would appear to have 
+witnessed a further increase of 22.5%. However, such a volume of information also ii
+carries a , especially whenrisk of dispersion   the quality of the flow of information is 
+. Too many superficial, insufficiently substantiated suspicious transaction not perfect
+reports – sometimes without any real suspicion – saturate the system. I welcome the 
+start of our joint work between the ACPR and Tracfin to establish a shared diagnosis of 
+the of reporting flows. I also call for more quality   support for reporting entities, in 
+. Tracfin is already doing particular by publishing highly operational quality criteria
+a great deal. I am thinking here of the feedback that showcases the top STRs 
+and "highlights" the "flops", the organisation of sectoral workshops and the appointment 
+of correspondents for each sector. This progress is useful, but we need more structural 
+changes. Several of our neighbours – Germany, Italy and Switzerland – can show us 
+the way here. Italy has deployed tracking indicators. Switzerland publishes 'negative 
+typologies', i.e. cases that are not worth reporting. Germany's guide to best practices 
+would also be useful. We need to recognise that it is sometimes difficult to deploy 
+processes that can be adapted to the various obligations, in particular those relating to 
+the right to a bank account procedure, KYC and STRs. The German example is 
+particularly instructive: thanks to the joint efforts of the German equivalent of Tracfin 
+and the supervisor, BaFin, the volume of reports fell by nearly 20% between 2023 and 
+2024, facilitating a shift in focus to cases of greater interest.
+This is not about sweeping problems under the carpet, but rather about getting back to 
+what is most important: if we are truly effective in preventing criminals from using 
+the financial system, we should eventually see fewer suspicious transactions in 
+. Letting any transaction go through and just sending Tracfin a this domain
+standardised report on funds that have already vanished would simply play into the 
+hands of criminals. The study published by the ACPR last July on "pass-through 
+accounts" shows that institutions that engage in such practices are at least 100 times 
+more likely to be used by criminals. Our message is clear:these practices are  
+. An STR only removes civil, criminal and disciplinary liability if it is made unacceptable
+in good faith and under the conditions provided for by law.
+The ACPR and Tracfin will use all the tools at their disposal to enforce the law. For 
+example, Tracfin should be able – legally – to make broader use of the inadmissibility 
+of STRs by incorporating the criterion of quality:  aside from purely technical or linguistic 
+cases, an unusable report should be rejected. Such feedback would send a clear signal 
+
+3/4 BIS - Central bankers' speeches
+to financial institutions. Tracfin's objective feedback will in turn help to guide the 
+investigations the ACPR, which does not have access to STRs on an ongoing basis. I 
+am convinced that the quality of a suspicious transaction report says a lot about 
+.the robustness of the system that produces it
+On the operational efficiency front, we must all make the most of the revolution in 
+artificial intelligence and data. At the ACPR, for example, we have developed our own 
+AI tool, LUCIA, to enhance the effectiveness of our on-site inspections.  For reporting 
+entities dealing with large volumes of transactions, AI can also be an opportunity. This 
+requires investing in enhanced monitoring tools and, undoubtedly, artificial intelligence, 
+to analyse not only transactions but also richer KYC data. However, these tools will 
+never replace human judgement, and their models must be both understandable and 
+auditable.  
+Artificial intelligence is only one aspect of the ongoing revolution. It has become very 
+easy to falsify supporting documents and we need to rely more on robust evidence, 
+especially by facilitating access to public databases. It is now very quick and easy to 
+open and use multiple bank accounts remotely throughout the EU. I am therefore 
+delighted that the new European regulation provides an ambitious framework for – both 
+private-private and public-private – information-pooling partnerships as well as the 
+interconnection of European bank account registers, extended to crypto-assets by 2029 
+at the latest. Following the French Parliament's recent adoption of Deputy Labaronne's 
+bill, the Banque de France will deploy a new interbank platformto quickly  in 2026 
+identify fraudster bank accounts, thereby "making life difficult for the bad guys", to use 
+one of Antoine Magnant's favourite expressions. 
+Anticipation and cooperation
+Since its foundation, Tracfin has played an essential role in anticipating changing 
+. Its work is now rounded out by the national risk analysis developed under the threats
+aegis of France's AML/CTF Advisory Committee, and its sector-specific versions, 
+including the one prepared by the ACPR. Just as all Committee members are preparing 
+the third edition of these documents, I would like to commend the professionals who 
+participate in our workshops, like that currently underway on the laundering of proceeds 
+from illegal online gambling in liaison with the French National Gaming Authority and 
+Tracfin.  
+No institution can tackle these changes alone, and that is the whole point of our 
+partnership. At European level, AMLA, the new European agency responsible for 
+combating money laundering, could be a major step forward, provided it does not fall 
+into the trap of bureaucracy instead of adopting a risk-based approach. In terms of 
+supervision, it will enable better control of 100% digital players, who often operate 
+without any geographical base. From the perspective of financial intelligence units, it 
+will provide the means of dealing with transnational suspicious transactions linked to 
+complex criminal networks via pass-through accounts or shell companies. However, to 
+succeed, AMLA will need to guarantee a genuine level playing field by standardising 
+requirements and avoiding any levelling down in favour of the "least demanding" 
+jurisdictions in regulatory terms. 
+
+4/4 BIS - Central bankers' speeches
+Lastly, AMLA will also need to exert influence at level. To do this, it will  international 
+need to improve Member States' compliance with FATF standards – and prevent them 
+from appearing on the grey list. It will also need to influence these standards through 
+the quality and exemplary nature of its work. I already see one priority area: the 
+finalisation and effective deployment of FATF Recommendation 16 on the transparency 
+of international payments, which now applies to cryptoassets. This is a very positive 
+step forward. The objective of this recommendation is clear: to ensure the traceability of 
+cross-border flows so that crypto-asset transactions are as transparent as those that go 
+through the traditional banking system. France has been particularly proactive in 
+ensuring that all forms of transfers are treated in the same way, whether they involve 
+crypto-assets, card payments or instant transfers. AMLA can make a 
+concrete contribution by making this issue one of its first joint projects, particularly by 
+applying the 'travel rule' to crypto-assets.
+Beyond Europe's borders, international cooperation remains essential. However, 
+certain recent signals from Washington could be a genuine cause for concern. I am 
+referring here to the US administration's leniency vis-à-vis certain large crypto 
+platforms, which are exposed to major money laundering risks. The end of the 
+requirement for US companies to declare their beneficial owners is also a regrettable 
+development. Lastly, certain measures, if confirmed, would ease the reporting 
+requirements for US banks, which would no longer have to justify a failure to submit 
+STRs.
+That is why, as part of our G7 Presidency, France will make the fight against financial 
+crime one of its priorities, following in Canada's footsteps.
+ 
+I would like to finish with these words from Albert Einstein: "The world will not be 
+destroyed by those who do evil, but by those who watch and do nothing." Inaction in the 
+domain of AML-CFT has a cost.  Tax and social security fraud and drug trafficking cost 
+our economy nearly EUR 50 billion every year. EUR 50 billion that undermine our social 
+model and erodes confidence in our institutions. Combating the laundering of these 
+criminal flows is therefore not just a matter of compliance but, above all, it is a matter of 
+justice, trust, and a matter of restoring our public finances. This is the whole point of the 
+work we are undertaking together, that you will continue this afternoon during the 
+various round-table discussions. Thank you.
+i Number of reporting entities registered by Tracfin across all sectors (financial and non-
+financial). 
+Between H1 2024 and H1 2025, suspicious transaction reports (STRs) received by ii
+Tracfin from the financial sector increased by 22.5%, and those from the non-financial 
+sector by 34%, giving a total increase of approximately 24%.

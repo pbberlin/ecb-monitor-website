@@ -1,0 +1,164 @@
+1/5 BIS - Central bankers' speeches
+Joachim Nagel: Back to the roots - central banks and financial 
+stability
+Welcome address by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the 
+event "The Bundesbank's Financial Stability Review at 20: challenges of yesterday, 
+today and tomorrow", Frankfurt am Main, 6 November 2025.
+* * *
+Check against delivery 
+1 Introduction
+Mr Theurer, ladies and gentlemen, it is a great pleasure and honour to welcome you 
+today on this very special occasion: the Bundesbank's Financial Stability Review is 
+celebrating its 20th anniversary!
+We have an exciting afternoon ahead of us, with two high-calibre discussion panels. A 
+warm welcome, too, to all our participants. I am delighted that you are here today to join 
+in with the discussions and celebrations.
+Without giving too much away at this early stage, I'd like to sketch a brief outline of the 
+two panels. Our first round table will be moderated by my fellow Executive Board 
+member Michael Theurer. Together, we'll look back at 20 years of the Financial Stability 
+Review.
+The second round table will be led by Gaston Gelos, who joins us from the Bank for 
+International Settlements (BIS). He'll shift our focus forwards, exploring risks and 
+challenges to financial stability now and in the years to come.
+I would like to use my time at the podium to trace a broader arc, examining how 
+financial stability's importance for central banks has evolved over time.
+2 Central banks and financial stability 
+Given that the Bundesbank's Financial Stability Review is "only" 20 years old, it might 
+be tempting to think that the topic of financial stability has only recently become relevant 
+to central banks. But the opposite is true: financial stability has been an important part 
+of central banking from the outset, even if its significance has varied over the course of 
+the years.
+In the middle of the 19th century, the Bank of England began to use its rediscounting 
+facility to provide the financial system with a limited amount of liquidity in crisis 
+situations.1 These interventions inspired the then editor-in-chief of "The Economist" 
+Walter Bagehot to pen his famous work "Lombard Street". 
+
+2/5 BIS - Central bankers' speeches
+In his book, Bagehot recommended that the central bank should systematically 
+intervene in the event of bank runs and liquidity shortages so as to preserve trust in the 
+financial system and prevent a collapse. These recommendations are now known as 
+the lender-of-last-resort principle.2
+The US  Federal Reserve System was also founded, in 1913, as a direct response to 
+repeated banking panics.3 So we can see that the link between central banks and the 
+objective of financial stability is a very long-standing one. 
+Midway through the 20th century, central banks began to increasingly pivot their focus 
+towards safeguarding price stability and promoting growth and employment.4 Financial 
+stability receded further and further into the background–not least because bank runs 
+became a rarity.5 But this phase was not destined to last.
+On the heels of deregulation and liberalisation of the financial system in the 1980s 
+came the financial crises and turmoil of the 1990s and early 2000s. The Tequila Crisis 
+in Mexico, the Asian crisis, the collapse of the Long-Term Capital Management hedge 
+fund (LTCM  for short), and the implosion of the dot-com bubble were striking 
+demonstrations of how vulnerable the international financial system had become. And 
+how quickly financial stability can be forfeited again. 
+Partly in response to this, central banks around the world started paying more attention 
+to analysing and monitoring risks to financial stability once more. The introduction of 
+financial stability reviews was a significant milestone. 
+The Bank of England was an international pioneer, publishing its debut Financial 
+Stability Review back in 1996.6 The Bundesbank published its first Financial Stability 
+Review in 2005.7 Analyses on the topic had already featured in its Monthly Report in 
+the two years running up to that. 
+One of my predecessors, Professor Axel Weber, did an excellent job of summing up 
+just how important the matter of financial stability had become: Financial stability is of 
+crucial importance not only for monetary stability but also as a topic in its own right. 
+Functional shortcomings in the financial system, especially owing to instabilities, can 
+cause considerable economic costs.
+For the first time, the Bundesbank set out exactly what it meant by financial stability, 
+defining it as the financial system's ability to perform its key macroeconomic functions 
+well, including in stress situations and during periods of structural adjustment.8 That 
+definition, in a slightly tweaked form, stands to this day.9 From then on, the Financial 
+Stability Reviews served as an early warning system for the public and as a platform for 
+analysing risks. 
+And at the international level, the Bank for International Settlements, too, was especially 
+vocal, using its annual reports and academic studies to warn emphatically of the 
+
+3/5 BIS - Central bankers' speeches
+dangers of excessive lending, the formation of bubbles and systemic risks.10 However, 
+amid market euphoria and confidence in the financial sector's ability to self-regulate, 
+these warnings often went unheeded.11
+The consequences soon became apparent: the global financial crisis of 2007-08 
+confronted central banks and the international financial system with unexpected 
+challenges. The speed and scale of the crisis went beyond anything that had been 
+feared. The highly interconnected nature of financial markets triggered chain reactions 
+that led to systemic failure of historic proportions. 
+In Germany, applications for stabilisation assistance totalled €231 billion, one institution 
+was taken over by the Financial Market Stabilisation Fund (SoFFin), and resolution 
+agencies were set up.12 Gross domestic product fell by almost 6% in 2009. 
+The global financial crisis becomes the catalyst for a fundamental re-anchoring of 
+financial stability at the institutional level. In May 2009, the Bundesbank establishes a 
+dedicated Directorate General Financial Stability. But, to start with, communicating 
+information to the public through its Financial Stability Review, in the form of analyses 
+and warnings, is the only device in the Bundesbank's toolkit.
+That changes on 1 January 2013: the Financial Stability Act enters into force and, for 
+the first time ever, bestows upon the Bundesbank–together with the Federal Financial 
+Supervisory Authority (BaFin) and the Federal Ministry of Finance–an official mandate 
+for financial stability. 
+Since then, the three institutions have come together regularly in the shape of the 
+German Financial Stability Committee (FSC). The Bundesbank is charged, especially, 
+with monitoring and analysing developments that have a bearing on financial stability. 
+The FSC  can make recommendations for the introduction of macroprudential 
+instruments and activation of macroprudential measures. 
+But it's not just in Germany that things have changed–the global financial crisis has led 
+to far-reaching institutional adjustments at the international level, too. The Financial 
+Stability Board was created in 2009 to strengthen international cooperation and the 
+monitoring of systemic risks. The European Systemic Risk Board (ESRB) set to work 
+monitoring the European financial system and limiting systemic risk in 2010. 
+The new Basel III regulatory framework introduced higher and better-quality capital 
+requirements for banks. Furthermore, macroprudential instruments were developed to 
+make the financial system more resilient. 
+Nowadays, financial stability is an integral part of central banks' mandate. 
+Macroprudential oversight, the analysis of systemic risks and policy consultation are 
+now firmly anchored in the institutional framework. 
+The financial stability reviews produced by the Bundesbank and other central banks 
+have become a well-established tool–for policymakers, the financial sector and the 
+general public. Central banks have–in the best sense of the phrase–gone back to their 
+roots.
+
+4/5 BIS - Central bankers' speeches
+3 Closing remarks
+At the same time, it's important to remember that the work is never done. The 
+challenges to financial stability are constantly changing. The latest reports coming out 
+of the United States are a clear illustration of that.
+September saw both a US  auto financing provider and a manufacturer of car parts file 
+USfor bankruptcy protection. In October, two  regional banks ran into difficulties due to 
+fraud.13 We are following what's happening very closely–of that you can be sure!
+New risks could also arise as a result of the structural change unfolding in the real 
+economy and the financial system, the rapid development of artificial intelligence, and 
+ongoing geopolitical developments. It is precisely these topics that we will be discussing 
+in our second panel.
+But, first, we want to take a closer look at how the Bundesbank's Financial Stability 
+Review came to be and the challenges facing us today. I'll now hand over to my 
+Executive Board colleague, Michael Theurer.
+I look forward to some exciting debates and fresh ideas. Thank you very much for 
+listening.
+ 1 See Anson, M., D. Bholat, M. Kang and R. Thomas (2017), The Bank of England as 
+lender of last resort: new historical evidence from daily transactional data, Bank of 
+England Staff Working Paper No 691.
+2 See Bordo, M. (1990), The Lender of Last Resort: Alternative Views and Historical 
+Experience, Federal Reserve Bank of Richmond, Economic Review, January
+/February 1990.
+3 See Johnson, R. (2010), Historical Beginnings... The Federal Reserve.
+4 See Bordo, M. (2007), A Brief History of Central Banks, Federal Reserve Bank of 
+Cleveland, Economic Commentary.
+5 See Reinhart, C. and K. Rogoff (2008), This Time is Different: A Panoramic View of 
+Eight Centuries of Financial Crises,NBER Working Paper No 13882 and Laeven, L.    
+and F. Valencia (2013), Systemic Banking Crises Database,IMF Economic Review,    
+Vol. 61(2), pp. 225-270.
+6 Bank of England (1996), Financial Stability Review, Issue One, Autumn 1996.
+7 Deutsche Bundesbank (2005), , November 2005, p. 6 Financial Stability Review
+8 See Deutsche Bundesbank (2005), op. cit.
+
+5/5 BIS - Central bankers' speeches
+9 As stated in this year's Financial Stability Review, we understand financial stability as 
+a state in which the financial system is able to perform its economic functions at all times
+. See Deutsche Bundesbank (2025), , November 2025. Financial Stability Review
+10 See, for example, Bank for International Settlements (2007), 77th Annual Report 
+2006/07 and Borio, C. and W. White (2004), Whither monetary and financial stability? 
+The implications of evolving policy regimes,BIS Working Papers No 147.   
+11 See Rajan, R. (2005), Has Financial Development Made the World Riskier?,NBER   
+Working Paper No 11728.
+12 See Deutsche Bundesbank (2010), , p. 91. Annual Report 2009
+13 The auto lender Tricolor applied for bankruptcy protection on 10 September 2025, 
+and the car parts manufacturer First Brands applied for bankruptcy protection on 
+29 September 2025. On 16 October 2025,US regional banks Western Alliance and    
+Zions reported having been the victim of fraudulent borrowing. 

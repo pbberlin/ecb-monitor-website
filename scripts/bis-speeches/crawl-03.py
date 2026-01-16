@@ -6,12 +6,13 @@ Extract specified elements using BeautifulSoup.
 Write one JSON per input row to the "out" directory using tlsl(name).json as filename.
 
 Usage:
-cls &&    python crawl-03.py --input ./ecb-members-links.csv
+cls &&    python ./scripts/bis-speeches/crawl-03.py --input ./ecb-members-links.csv
 """
 
 import argparse
 import csv
 import json
+import os
 import sys
 import time
 import random
@@ -62,7 +63,7 @@ def readInputCsv(inputPath: Path) -> list[dict]:
 
 
     for idx, row in enumerate(rows):
-        print( f"\t{row['name']} - {row['url']}")
+        print( f"\t  {row['name']} - {row['url']}")
         if idx > 3:
             break
 
@@ -283,10 +284,10 @@ def main():
                 url  = (row.get("url") or "").strip()
 
                 if len(url) < 8:
-                    print(f"{idx:4}  skip (no url)  {name}")
+                    print(f"\t  {idx:4}  skip (no url)  {name}")
                     continue
 
-                print(f"{idx:4}  fetching  {url}")
+                print(f"\t  {idx:4}  fetching  {url}")
 
                 html = fetchUrl(client, url)
                 if html is None:
@@ -298,20 +299,22 @@ def main():
 
                 # original row for traceability
                 data["name"] = name
-                data["link_number"] = row["link_number"]
                 data["name_orig"]   = row["name"]
                 data["url_orig"]    = row["url"]
+                
+                # link number is changes for repeated fetches
+                data.pop("link_number", None)
 
 
                 slug = tlsl(name)
-                dte  = (data["date_parsed"] or data["date"] or data["link_number"] or "").strip()
+                dte  = (data["date_parsed"] or data["date"] or row["link_number"] or "").strip()
                 filename = f"{slug}-{dte}.json"
                 outPth   = outDir / filename
 
                 try:
                     with outPth.open("w", encoding="utf-8") as f:
                         json.dump(data, f, ensure_ascii=False, indent=2)
-                        print(f"{idx:4}  wrote     {outPth}")
+                        print(f"\t  {idx:4}  wrote     {outPth}")
                 except Exception as exc:
                     print(exc)
 
@@ -324,4 +327,8 @@ def main():
 
 
 if __name__ == "__main__":
+    scriptDir = Path(__file__).resolve().parent
+    os.chdir(scriptDir)
+    print(f"\t{Path(__file__)} start")
     main()
+    print(f"\t{Path(__file__)} end")

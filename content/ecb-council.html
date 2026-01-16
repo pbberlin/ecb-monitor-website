@@ -251,7 +251,7 @@
     /* background-blend-mode: lighten; */
   }
 
-/*   
+/*
   .col--right {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -369,7 +369,7 @@
 
   #council_list  .member-card div,
   #council_right .member-card div,
-  dummy  
+  dummy
   {
     margin:         0;
     padding:        0;
@@ -381,7 +381,7 @@
 
   #council_list  .member-card div,
   #council_right .member-card div,
-  dummy  
+  dummy
   {
     grid-column: 1;
 
@@ -419,6 +419,12 @@
     margin-bottom: 0.2rem;
   }
 
+  #council_right .member-card div.role_euro__from_to,
+  dummy
+   {
+    margin-bottom: 0.2rem;
+  }
+
 
 
 
@@ -446,7 +452,9 @@
 
   #council_right .member-card div.hawkish_score {
     grid-row:    1 / span 5;
-    
+
+    align-self:   start;
+
     padding: 0.3rem;
     padding-left:  0.25rem;
     padding-right: 0;
@@ -1171,8 +1179,8 @@
                     shape: {
                         points: [
                             [endX - 0, endY     ],    // right most
-                            [endX - 4, endY -  4],    
-                            [endX - 4, endY +  4]     
+                            [endX - 4, endY -  4],
+                            [endX - 4, endY +  4]
                         ]
                     },
                     style: {
@@ -1670,19 +1678,26 @@
         councilRight.replaceChildren(); // reset
         // console.log(`mouse leave ${params.name}`)
 
-        // remove using id attr
-        myChart.setOption({
-            graphic: [
-                {
-                    id: 'ecb-arrow-line',
-                    $action: 'remove',
-                },
-                {
-                    id: 'ecb-arrow-head',
-                    $action: 'remove',
-                },
-            ]
-        })
+        try {
+          // remove using id attr
+          myChart.setOption({
+              graphic: [
+                  {
+                      id: 'ecb-arrow-line',
+                      $action: 'remove',
+                  },
+                  {
+                      id: 'ecb-arrow-head',
+                      $action: 'remove',
+                  },
+              ]
+          })
+
+        } catch (error) {
+          // if the arrow does not exist?
+          console.log("removing arrow caused exception")
+          console.log(error)
+        }
 
 
       })
