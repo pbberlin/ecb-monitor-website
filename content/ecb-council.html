@@ -1116,34 +1116,33 @@
     }
 
 
-    function arrowRedraw() {
+    function arrowRedraw( startCoord=[8.6889, 50.1095] ) {
 
-        return;
-
-        const pixel = myChart.convertToPixel({ geoIndex: 0 }, ecbCoord);
+        const posStart = myChart.convertToPixel({ geoIndex: 0 }, startCoord);
+        const maxX = myChart.getWidth();
 
         const containerWidth  = myChartDom.clientWidth;
         const containerHeight = myChartDom.clientHeight;
 
-        let p0x = pixel[0];
-        let p0y = pixel[1];
+        let p0x = posStart[0];
+        let p0y = posStart[1];
         // tuning arrow below icon
         // p0x = p0x -  8;
         // p0y = p0y + 26;
         p0x = p0x + 2;
-        p0y = p0y - 3;
+        p0y = p0y - 10;
 
         let endX = containerWidth + 0;
-        endX = 630;
+        endX = maxX;
         let  endY = p0y;
-        endY = 220;
+        endY = 45;
 
         // const midX = (startX + endX) / 2;
         let p1x = (p0x + endX) / 3.4;
         let p1y =  p0y - 0;
 
-        p1x = 550;
-        p1y = 220;
+        p1x = p0x + 100;
+        p1y = endY;
 
 
         const pointsForPolyLine = [
@@ -1166,21 +1165,21 @@
                     },
                     silent: true,  // no reaction to click, hover, drag...
                 },
-                // {
-                //     id: 'ecb-arrow-head',
-                //     type: 'polygon',
-                //     shape: {
-                //         points: [
-                //             [p0x    , p0y - 12],    // tip
-                //             [p0x - 8, p0y +  2],    // left  point
-                //             [p0x + 8, p0y +  2]     // right point
-                //         ]
-                //     },
-                //     style: {
-                //         fill: '#888'
-                //     },
-                //     silent: true
-                // },
+                {
+                    id: 'ecb-arrow-head',
+                    type: 'polygon',
+                    shape: {
+                        points: [
+                            [endX - 0, endY     ],    // right most
+                            [endX - 4, endY -  4],    
+                            [endX - 4, endY +  4]     
+                        ]
+                    },
+                    style: {
+                        fill: '#888'
+                    },
+                    silent: true
+                },
             ]
         });
     }
@@ -1377,20 +1376,6 @@
 
     };
 
-
-    myChart.hideLoading();
-    myChart.setOption(optionsInit);
-    arrowRedraw();
-
-
-    window.addEventListener('resize', function() {
-        myChart.resize();
-        arrowRedraw();
-    });
-
-    myChart.on('georoam', function() {
-        arrowRedraw();
-    });
 
 
 
@@ -1670,6 +1655,9 @@
             const card = buildMemberCard(rec, false);
             councilRight.appendChild(card);
 
+            let startPos = [  centroids[param.name][0] , centroids[param.name][1] ]
+            arrowRedraw(startPos);
+
           });  // end of foreach
 
         }
@@ -1681,15 +1669,48 @@
         const councilRight = document.getElementById("council_right");
         councilRight.replaceChildren(); // reset
         // console.log(`mouse leave ${params.name}`)
-    })
+
+        // remove using id attr
+        myChart.setOption({
+            graphic: [
+                {
+                    id: 'ecb-arrow-line',
+                    $action: 'remove',
+                },
+                {
+                    id: 'ecb-arrow-head',
+                    $action: 'remove',
+                },
+            ]
+        })
 
 
-    sliderEl.dispatchEvent(
-      new InputEvent('change', {
-        bubbles:    true,
-        cancelable: true,
       })
-    );
+
+
+    populateLeftPanel(res.yr)
+
+    myChart.hideLoading();
+    myChart.setOption(optionsInit);
+    // arrowRedraw();
+
+    window.addEventListener('resize', function() {
+        myChart.resize();
+        // arrowRedraw();
+    });
+
+    myChart.on('georoam', function() {
+        // arrowRedraw();
+    });
+
+
+    // // trigger year slider onChange for init of left
+    // sliderEl.dispatchEvent(
+    //   new InputEvent('change', {
+    //     bubbles:    true,
+    //     cancelable: true,
+    //   })
+    // );
 
 
   })();   // end of outmost aync func - so we can you fetch inside
