@@ -1,12 +1,28 @@
-# pip install ocrmypdf
-#       not tesseract from Uni Mannheim, its too old
-# choco install tesseract
-# choco install ghostscript
+#!/usr/bin/env python3
+
+"""
+pip install ocrmypdf
+      not tesseract from Uni Mannheim, its too old
+
+powershell as administrator
+Get-ExecutionPolicy
+Set-ExecutionPolicy Bypass -Scope Process -Force
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+choco install tesseract
+choco install ghostscript
+
+Usage:
+cls &&    python ./scripts/bis-speeches/crawl-05-ocr.py
+"""
+
 
 from pathlib import Path
 import subprocess
 from pypdf import PdfReader
 import json
+import os
 
 
 def runOcrOnPdf(inPth: Path, outPth: Path, jpegTranscoding=True) -> None:
@@ -24,7 +40,7 @@ def runOcrOnPdf(inPth: Path, outPth: Path, jpegTranscoding=True) -> None:
     if not jpegTranscoding:
         cmd = [
             "ocrmypdf",
-            "--optimize", "0",          # <- key change: disable JPEG transcoding        
+            "--optimize", "0",          # <- key change: disable JPEG transcoding
             "--force-ocr",
             "--language",
             "eng",
@@ -49,7 +65,7 @@ def extractTextFromOcrPdf(pdfPath: Path) -> str:
             print(f"Warning: page {idx1} returned None text")
             pageText = ""
         allTextList.append(pageText)
-    print(f"\t extracted {len(allTextList)} pages from {pdfPath}")
+    print(f"\t    extracted {len(allTextList)} pages from {pdfPath}")
     return "\n\n".join(allTextList)
 
 
@@ -93,7 +109,7 @@ def oneFile(inp,out):
             try:
                 print(f"\t      retry without jpeg transc")
                 runOcrOnPdf(inp, ocrPdf, jpegTranscoding=False)
-            except Exception as exc:            
+            except Exception as exc:
                 print(f"\t      {exc}")
                 print(f"\t      skipping")
 
@@ -101,60 +117,71 @@ def oneFile(inp,out):
     # print(extractedText)
     out.write_text(extractedText, encoding="utf-8")
     print(f"\t   written to {out}")
- 
-
-
-outDir = Path("./out")
-dlDir = outDir / "dl"
-dlDir.mkdir(parents=True, exist_ok=True)
-
-jsonFilesList = sorted(outDir.glob("*.json"))
 
 
 
-counterWithSlashes = 0
-for idx1, jsonPath in enumerate(jsonFilesList):
-    try:
-        with jsonPath.open("r", encoding="utf-8") as f:
-            jsonData = json.load(f)
-    except Exception as exc:
-        print(f"[{idx1}] JSON load failed for {jsonPath}: {exc}")
-        continue
-
-    if "pdf_url" not in jsonData:
-        print(f"[{idx1}] Key 'pdf_url' not found in {jsonPath.name}")
-        continue
-
-    if "pdf_url" not in jsonData:
-        print(f"[{idx1}] Key 'pdf_url' not found in {jsonPath.name}")
-        continue
 
 
-    inpPdf = Path(".") / "out" / "dl" /  (jsonPath.stem +  ".pdf")
-    inpTxt = Path(".") / "out" / (jsonPath.stem +  "_pdfcontent.txt")
-    
-    if inpPdf.exists():
-        if not inpTxt.exists():
-            print(f"{idx1:3} -     exists -  {inpPdf}")
-            print(f"{idx1:3} - not exists -  {inpTxt}")
-    else:
-        print(f"{idx1:3} - not exists -  {inpPdf}")
-        continue
+def main():
+
+    outDir = Path("./out")
+    dlDir = outDir / "dl"
+    dlDir.mkdir(parents=True, exist_ok=True)
+
+    jsonFilesList = sorted(outDir.glob("*.json"))
+
+    counterWithSlashes = 0
+    for idx1, jsonPath in enumerate(jsonFilesList):
+        try:
+            with jsonPath.open("r", encoding="utf-8") as f:
+                jsonData = json.load(f)
+        except Exception as exc:
+            print(f"[{idx1}] JSON load failed for {jsonPath}: {exc}")
+            continue
+
+        if "pdf_url" not in jsonData:
+            print(f"[{idx1}] Key 'pdf_url' not found in {jsonPath.name}")
+            continue
+
+        if "pdf_url" not in jsonData:
+            print(f"[{idx1}] Key 'pdf_url' not found in {jsonPath.name}")
+            continue
 
 
-    outOcr = Path(".") / "out" /  (inpPdf.stem + "_ocr.txt")
-    if outOcr.exists():
-        print(f"{idx1:3} -     exists -  {outOcr}")
-        continue
+        inpPdf = Path(".") / "out" / "dl" /  (jsonPath.stem +  ".pdf")
+        inpTxt = Path(".") / "out" / (jsonPath.stem +  "_pdfcontent.txt")
 
-    result = checkSlashRatio(inpTxt)
-    if type(result) is bool and result == False:
-        print("checkSlashRatio() failed")
-        continue
-    
-    if result > 0.01:
-        counterWithSlashes += 1
-        print(f" \t{(result*100):5.1f}% slashes for {counterWithSlashes} {inpTxt.name}")
+        if inpPdf.exists():
+            if not inpTxt.exists():
+                print(f"{idx1:3} -     exists -  {inpPdf}")
+                print(f"{idx1:3} - not exists -  {inpTxt}")
+        else:
+            print(f"{idx1:3} - not exists -  {inpPdf}")
+            continue
 
-        oneFile(inpPdf, outOcr)
-        # break
+
+        outOcr = Path(".") / "out" /  (inpPdf.stem + "_ocr.txt")
+        if outOcr.exists():
+            print(f"{idx1:3} -     exists -  {outOcr}")
+            continue
+
+        result = checkSlashRatio(inpTxt)
+        if type(result) is bool and result == False:
+            print("checkSlashRatio() failed")
+            continue
+
+        if result > 0.01:
+            counterWithSlashes += 1
+            print(f" \t{(result*100):5.1f}% slashes for {counterWithSlashes} {inpTxt.name}")
+
+            oneFile(inpPdf, outOcr)
+            # break
+
+
+if __name__ == "__main__":
+    scriptDir = Path(__file__).resolve().parent
+    os.chdir(scriptDir)
+    print(f"\t{Path(__file__)} start")
+    main()
+    print(f"\t{Path(__file__)} end")
+

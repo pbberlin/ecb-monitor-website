@@ -1,0 +1,202 @@
+1/6 BIS - Central bankers' speeches
+Gabriel Makhlouf: Remarks – Climate Risk and Sustainable Finance 
+Forum
+Remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the 
+Climate Risk and Sustainable Finance Forum, Dublin, 8 December 2025.
+* * *
+Good morning and welcome everyone. I am delighted to address the eighth meeting of 
+this Forum.
+When the Forum was established three years ago, the goal was to bring together 
+participants from across Ireland to build a shared approach to understanding and 
+managing the systemic risks that climate change poses, while supporting the orderly 
+transition of households and businesses to the net zero objective that we're all familiar 
+with.
+The Forum has come a long way in those three years. We have established cross-
+sectoral working groups across risk management, capability building and, most 
+recently, data and disclosures. The groups have produced a number of reports and 
+facilitated sharing of knowledge and best practice.   
+In Ireland emissions have fallen by 10 per cent since the Forum first met while 
+emissions from energy are down 28 per cent. Change is happening – and in some 
+areas it is happening at pace – but we are told that the country is not on track to meet 
+its 2030 targets. The task of achieving the fundamental and deep-rooted transformation 
+of our economy is still very much in front of us, and I haven't mentioned the proposed 
+EU targets for 2040 which is 15 years away, less time than the first iPhone is behind us. 
+The availability of financing for this transition will be a very important determinant for 
+success.
+In recent years, legal frameworks have been developed to support the transition. 
+However, these frameworks are complex and financial flows to sustainable activities are 
+estimated to be approximately a quarter of what they need to be by 2030.1
+Financial firms have taken steps to manage climate and environmental sustainability 
+risks. But maturity varies across firms and more is needed to embed risk management 
+in strategic decisions, and to identify opportunities and take action.
+My remarks today will focus on four areas. I will:
+Provide my perspective on climate risk and sustainable finance in Ireland and the 
+EU, and the progress that has been made to date
+Highlight the need to ensure climate action remains a priority for the financial 
+sector, and emphasise the Central Bank's focus on climate risk and sustainable 
+finance
+Explain the need for a focus on tangible outcomesthat support the transition and  
+adaptation
+
+2/6 BIS - Central bankers' speeches
+Encourage this Forum to continue to promote a collaborative approach to how the 
+financial sector supports the transition and adaptation
+Progress to date
+First, to progress. There has been some progress although the focus and momentum 
+that built around sustainable finance in recent years is slowing as resources are 
+diverted to other topics and priorities perceived to be more urgent, newer, more 
+profitable or more likely to curry favour or less displeasure.
+Through participation in the G20 this year, I have seen first-hand how changing political 
+priorities have diverted efforts away from addressing climate change.
+This would not be a problem if we had just discovered that what Nick Stern told us 
+around 20 years ago, and other scientists before and after him, was wrong. But we 
+haven't, he wasn't and they weren't.
+We should recognise that the science hasn't been ignored completely. We have seen 
+tangible outcomes from worldwide action. Global greenhouse gas emissions are now 
+projected to be around 12 per cent below 2019 levels in 2035. This compares to a 
+projected increase in emissions of between 20-48 per cent, before the adoption of the 
+Paris Agreement.
+We are no longer on a trajectory towards the very worst-case scenarios that were once 
+feared.
+Between 2021 and 2024, assets in sustainable fundsin Europe have increased from 2 
+€3.7tn to €9.1tn and have increased as a percentage from 25 per cent to 52 per cent of 
+total fund assets. Green mortgages now make up 40 per centof new lending in the 3 
+Irish market, and since the launch of Irish Sovereign Green Bonds in 2018, a total of 
+€11.5bn has been allocated to green projects.4
+However, since this period of expansion we have seen some headwinds to sustainable 
+finance, partly from political pushback but also because some sustainability products 
+appear not to deliver on their claims. For example, research indicated that one third of 
+sustainable funds studied had exposure to fossil fuel companies, amounting to an 
+investment of €123bn. The incentive for greenwashing remains, which is a somewhat 
+polite way of saying that we need to watch out for snake oil salesmen.5
+Of course I recognise that the complexity of implementing sustainable finance, such as 
+embedding complex new regulations, processes and systems, and collecting data to 
+understand the risks, has also hampered progress.
+Sustainable finance needs to move onto a new, mature phase where it is less about 
+statements of commitment and more about action and outcomes. 
+So how do we get there?
+
+3/6 BIS - Central bankers' speeches
+First, to state the obvious, we need to build trust in sustainable finance: we need to 
+ensure that products deliver on their promises and finance goes to where it is needed. 
+This will broaden the transition into market segments that have yet to make significant 
+progress.
+And second, we need to maintain a focus on the management of climate risk, as well as 
+increasing the focus on climate change mitigation and adaptation.
+Maintaining momentum
+In other words, we need to maintain momentum. The global macroeconomic costs of 
+climate change are material. Under a scenario consistent with current nationally-
+determined contributions, the level of global GDP would be 13 per cent lower by 2050.
+The macroeconomic costs of taking action to reduce greenhouse emissions are much 
+smaller than the costs associated with inaction. Ongoing analysis within the Bank on 
+options for recycling revenue from carbon taxes also indicates that there are policy 
+choices that can reduce the costs, and enhance the benefits, of that transition.
+We are already seeing the impacts of more frequent extreme weather events around 
+the world and here at home. Such events are much more likely as a result of climate 
+change.
+The world is getting closer to – and in some reports, even crossing – climate tipping 
+points where parts of the Earth's systems could be pushed into abrupt or irreversible 
+change .6
+Ultimately, it is because climate change poses risks to these systems – which provide 
+us with food, water, energy and raw materials – that addressing these risks remains a 
+strategic priority for the Bank.
+With this in mind we recently updated our climate and sustainable finance strategy. 
+We're focusing our work programme on three key aspects:
+Building financial resilience, both at microprudential and macroprudential level
+Consistent with our economic advice mandate, informing national climate policy 
+through data, research and even greater collaboration on the macro-financial 
+aspects of climate change and the transition to net zero; and
+Enabling the financial system to play its role in transition.
+In relation to building financial resilience, we are continuing to embed climate risk 
+management and supervision of sustainable finance into all aspects of our supervisory 
+work.  
+As I hope many of you will be aware, I wrote to the chairs and CEOs of all regulated 
+firms in November 2021 setting out the Central Bank's supervisory expectations in 
+relation to climate issues. Those expectations haven't changed. Firms are expected to:
+
+4/6 BIS - Central bankers' speeches
+Demonstrate clear ownership of climate risks affecting the firm, and promote a 
+culture that places emphasis on climate and other ESG issues
+Understand the impact of climate change on their risk profile, and embed it in risk 
+management frameworks
+Undertake scenario analysis to understand the potential impacts of climate change
+Determine the impact of climate risk (and opportunities) on their risk profile, 
+business strategy and long-term sustainability, which should inform strategic 
+planning
+Be transparent about what they are doing, including not engaging in 
+greenwashing.
+We have seen meaningful progress against many of these topics.
+Financial institutions have enhanced board oversight, gradually incorporating climate 
+factors into their strategies and risk frameworks, and developed scenario analyses and 
+transition plans.
+However, progress has been uneven, and we have seen that maturity varies across 
+sectors and across firms. Many institutions remain at early stages of quantitative 
+assessment, have limited data availability, or lack the analytical capabilities needed to 
+quantify exposures and model forward-looking climate impacts. There continues to be 
+gaps in data availability, scenario modelling capabilities, and the systematic 
+incorporation of climate change risks.
+I expect firms to build on the progress they have made. Regulated firms should 
+continue to build capacity, both in terms of knowledge and data, in order to better 
+understand and manage the risks that climate change poses to their business. In 
+particular, firms should deepen their understanding of the potential impacts on the long 
+term sustainability of their business model. And regulated firms should continue to 
+deliver sustainable products in a clear and transparent way that meets the needs of 
+investors and consumers.
+Real world outcomes
+So while progress has been made, there is still more work to be done, not least to have 
+a sharper focus on achieving tangible outcomes that support the real economy's 
+transition away from unsustainable activities. And in such a transition, it is inevitable 
+that business models will need to change.
+Transition planning will require long-term thinking through the current cycle.
+I should also add that I fully support the current efforts in the EU to remove 
+unnecessary complexity from the sustainable finance regulatory framework. The current 
+framework is complex and presents challenges for financial market participants who 
+want to support the transition. We do not want to compromise the resilience of the 
+financial sector or reduce important consumer protections but we do need to make a 
+step change here. I hope that the review of the Sustainable Finance Disclosure 
+Regulation will deliver something that is less complex and more user-friendly for 
+investors.
+
+5/6 BIS - Central bankers' speeches
+Continuing to collaborate
+Finally, the importance of collaboration.
+One topic where there is a clear need for collaboration domestically is in relation to the 
+flood insurance protection gap. The report we published last year pointed out that 1 in 
+20 households in Ireland had difficulty in accessing flood insurance. This number is only 
+going to increase as flood events become more frequent and severe. Not only will it 
+affect the ability of these households to recover after a flood event, it will also have an 
+effect on the wider economy, not least on the availability of mortgages and the wider 
+housing market.
+There is a lot of work to be done but I am encouraged by initial discussions with the 
+Department of Finance and the insurance industry on this topic.
+Finally, I hope that we can build on the contributions that this Forum has made in the 
+last three years. No doubt the Forum will evolve in response to the evolution of external 
+events but in my view it will continue to have the potential to play an important role, 
+particularly as the focus shifts to the practicalities of implementation and delivery of 
+outcomes. By fostering dialogue, sharing knowledge and driving action, the Forum can 
+help ensure that Ireland's financial system is prepared to meet the challenges and 
+opportunities of the climate transition.
+Conclusion
+The path to net-zero is not linear but its necessity is clear: the costs associated with 
+taking action to tackle climate change are much smaller than the costs associated with 
+inaction.
+We must recognise that the journey to net-zero is, at its core, a real economy transition. 
+The financial sector's task is not just to manage the risks on its balance sheets, but to 
+provide the incentives and the funding to ensure that households and businesses make 
+the low-emission choices required to secure our collective future.
+My call to you is that we commit to staying the course together. This Forum has the 
+potential to be a catalyst for the transition: sharing best practice, identifying data gaps, 
+and taking action to support the wider Irish economy to deliver the real-world outcomes 
+we need.
+ 1 Climate Policy Initiative (PDF 8.18MB)
+2 Assets in Article 8 or Article 9 funds
+3 Central Bank of Ireland Climate Observatory
+4 The National Treasury Management Agency (NTMA) announces the publication of the 
+Irish Sovereign Green Bond (ISGB) Allocation Report for 2024 and the Impact Report 
+ for 2023
+
+6/6 BIS - Central bankers' speeches
+ 5 New NGO research uncovers massive greenwashing in European ESG funds  
+6 The Planetary health check 2025" report, published by the Potsdam Institute for 
+Climate Impact Research, shows that seven of the nine planetary boundaries have 
+been exceeded.

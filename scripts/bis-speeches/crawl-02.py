@@ -14,8 +14,8 @@ Usage:
 pip install playwright beautifulsoup4
 python -m playwright install
 
-cls &&    python crawl-02.py --input "./ecb-members.csv" --output "./ecb-members-links.csv" --headless false
-cls &&    python crawl-02.py --input "./ecb-members.csv" --output "./ecb-members-links.csv" [--headless true]
+cls &&    python ./scripts/bis-speeches/crawl-02.py --input "./ecb-members-out.csv" --output "./ecb-members-links.csv" --headless false
+cls &&    python ./scripts/bis-speeches/crawl-02.py --input "./ecb-members-out.csv" --output "./ecb-members-links.csv" [--headless true]
 
 Notes:
 - Input CSV must be semicolon-delimited and contain at least: name;url
@@ -25,6 +25,7 @@ Notes:
 
 import argparse
 import sys
+import os
 from   pathlib import Path
 import csv
 import re
@@ -55,8 +56,17 @@ def readInputCsv(inputPath: Path):
 
     print(f"found {len(rows)} rows")
     for idx, row in enumerate(rows):
-        print(f"\t{row}")
-        if idx > 3:
+        print(f"\t",end="")
+        for key in row:
+            if row[key] is None:
+                continue
+            if row[key].strip() == "":
+                continue
+            if key == "url":
+                continue
+            print(f"{key}: {row[key]}", end=", ")
+        print("")
+        if idx>3:
             break
 
     return rows
@@ -66,8 +76,8 @@ def readInputCsv(inputPath: Path):
 def gotoAndWaitForContent(page, url: str):
 
     try:
-        print(f"loading {url}", end="... ")
-        page.goto(url, wait_until="domcontentloaded", timeout=20*1000)
+        print(f"\t  loading {url}", end="... ")
+        page.goto(url, wait_until="domcontentloaded", timeout=30*1000)
         page.wait_for_timeout(300)
 
         found = False
@@ -291,26 +301,26 @@ def main():
                 url  = row.get("url",  "").strip()
 
                 if len(url) < 10:
-                    print(f"\t{idx:2}  skipping - no url for  {name}")
+                    print(f"\t    {idx:2}  skipping - no url for  {name}")
                     continue
 
                 ok = gotoAndWaitForContent(page, url)
                 if not ok:
-                    print(f"\t{idx:2}  failed to load content  {name}")
+                    print(f"\t    {idx:2}  failed to load content  {name}")
                     continue
 
                 try:
                     html = page.content()
                 except Exception as exc:
-                    print(f"\t{idx:2}  exc-page.content  {exc}")
+                    print(f"\t    {idx:2}  exc-page.content  {exc}")
                     continue
 
                 linkUrls = extractListUrlsFromRenderedHtml(html, url)
 
                 if len(linkUrls) == 0:
-                    print(f"\t{idx:2}  no list links found    {name}")
+                    print(f"\t    {idx:2}  no list links found    {name}")
                 else:
-                    print(f"\t{idx:2}  found {len(linkUrls):3} links  {name}")
+                    print(f"\t    {idx:2}  found {len(linkUrls):3} links  {name}")
 
                 ln = 0
                 for u in linkUrls:
@@ -335,4 +345,8 @@ def main():
 
 
 if __name__ == "__main__":
+    scriptDir = Path(__file__).resolve().parent
+    os.chdir(scriptDir)
+    print(f"\t{Path(__file__)} start")
     main()
+    print(f"\t{Path(__file__)} end")

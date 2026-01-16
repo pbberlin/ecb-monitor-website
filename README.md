@@ -4,6 +4,13 @@
 pip install -r requirements.txt
 # wsgiref fails under windows
 
+# only for crawl03.py
+pip   install httpx[http2]
+# only for crawl05-ocr.py
+pip   install ocrmypdf
+choco install tesseract
+choco install ghostscript
+
 # Web Server Gateway Interface (WSGI) 
 python app-wsgiref.py
 

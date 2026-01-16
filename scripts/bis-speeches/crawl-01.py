@@ -6,14 +6,15 @@ pip install playwright pandas
 python -m playwright install
 
 Usage:
-cls &&    python crawl-01.py --input "./ecb-members.csv" --output "./ecb-members-out.csv" [--headless true]
-cls &&    python crawl-01.py --input "./ecb-members.csv" --output "./ecb-members-out.csv" --headless false
+cls &&    python ./scripts/bis-speeches/crawl-01.py --input "./ecb-members.csv" --output "./ecb-members-out.csv" [--headless true]
+cls &&    python ./scripts/bis-speeches/crawl-01.py --input "./ecb-members.csv" --output "./ecb-members-out.csv" --headless false
 
 
 """
 
 import argparse
 import sys
+import os
 from   pathlib import Path
 import csv
 
@@ -47,7 +48,16 @@ def readInputCsv(inputPath: Path):
 
     print(f"found {len(rows)} rows")
     for idx, row in enumerate(rows):
-        print(f"\t{row}")
+        print(f"\t",end="")
+        for key in row:
+            if row[key] is None:
+                continue
+            if row[key].strip() == "":
+                continue
+            if key == "url":
+                continue
+            print(f"{key}: {row[key]}", end=", ")
+        print("")
         if idx>3:
             break
 
@@ -82,6 +92,9 @@ def getResultUrlForAuthor(page, nm: str) -> str:
 
 
     try:
+
+        nm = nm.replace("Philip R. Lane", "Philip R Lane")
+
         searchInput = page.locator("css=input.select2-search__field").first
         print(f"\t  found search input for {printExotic(nm)}")
 
@@ -197,7 +210,7 @@ def printExotic(s: str):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", required=True,     help="Path to the semicolon-delimited CSV")
+    parser.add_argument("--input",  required=True,    help="Path to the semicolon-delimited CSV")
     parser.add_argument("--output", required=True,    help="Path to write a CSV with columns: name;url;status;error")
     parser.add_argument("--headless", default="true", help="Run browser headless: true/false")
     args = parser.parse_args()
@@ -222,6 +235,7 @@ def main():
             try:
                 name = row.get("name", "").strip()
                 url  = row.get("url",  "").strip()
+
 
                 if len(url) > 30:
                     print(f"\t  {idx:2}  skipping existing url  {name} \n\t      {url}")
@@ -256,5 +270,10 @@ def main():
         for row in results:
             writer.writerow(row)
 
+
 if __name__ == "__main__":
+    scriptDir = Path(__file__).resolve().parent
+    os.chdir(scriptDir)
+    print(f"\t{Path(__file__)} start")
     main()
+    print(f"\t{Path(__file__)} end")
