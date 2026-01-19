@@ -90,29 +90,40 @@ if __name__ == "__main__":
 
     inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_debt_to_gdp.csv"
     outputPath = Path.cwd() / "static"  / "dl" /  "ameco_debt_to_gdp.js"
-    makeJsFromCsv(inputPath, outputPath,"debtPercentToGDP")
+    makeJsFromCsv(inputPath, outputPath, "debtPercentToGDP")
     print(f"\t wrote: {outputPath}")
 
 
     inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_net_lending.csv"
     outputPath = Path.cwd() / "static"  / "dl" /  "ameco_net_lending.js"
-    makeJsFromCsv(inputPath, outputPath,"netLendingPercentToGDP")
+    makeJsFromCsv(inputPath, outputPath, "netLendingPercentToGDP")
     print(f"\t wrote: {outputPath}")
 
 
     inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_total_expenditure.csv"
     outputPath = Path.cwd() / "static"  / "dl" /  "ameco_total_expenditure.js"
-    makeJsFromCsv(inputPath, outputPath,"totalExpenditure")
+    makeJsFromCsv(inputPath, outputPath, "totalExpenditure")
     print(f"\t wrote: {outputPath}")
 
 
     inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_interest_expenditure.csv"
     outputPath = Path.cwd() / "static"  / "dl" /  "ameco_interest_expenditure.js"
-    makeJsFromCsv(inputPath, outputPath,"interestExpenditure")
+    makeJsFromCsv(inputPath, outputPath, "interestExpenditure")
     print(f"\t wrote: {outputPath}")
 
 
     inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_interest_to_gdp.csv"
     outputPath = Path.cwd() / "static"  / "dl" /  "ameco_interest_to_gdp.js"
-    makeJsFromCsv(inputPath, outputPath,"interestToGDP")
+    makeJsFromCsv(inputPath, outputPath, "interestToGDP")
+    print(f"\t wrote: {outputPath}")
+
+    ## 
+    inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_gdp_growth_real.csv"
+    outputPath = Path.cwd() / "static"  / "dl" /  "ameco_gdp_growth_real.js"
+    makeJsFromCsv(inputPath, outputPath, "gdpGrowthReal")
+    print(f"\t wrote: {outputPath}")
+
+    inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_output_gap.csv"
+    outputPath = Path.cwd() / "static"  / "dl" /  "ameco_output_gap.js"
+    makeJsFromCsv(inputPath, outputPath, "outputGap")
     print(f"\t wrote: {outputPath}")

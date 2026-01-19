@@ -60,7 +60,7 @@ def runAmecoPipeline() -> bool:
         return False
 
 
-    fileList = ["AMECO18.CSV", "AMECO16.CSV"]
+    fileList = ["AMECO6.CSV", "AMECO18.CSV", "AMECO16.CSV"]
     try:
         with zipfile.ZipFile(tmpZipPath, "r") as myZip:
             for idx1, myFile in enumerate(fileList):

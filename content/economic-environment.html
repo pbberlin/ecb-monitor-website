@@ -418,16 +418,16 @@
 
   <div class="col col--right control-pad">
 
-      <ul  style="display:none;" class="bullet-container stats-desc" id="ameco_debt_to_gdp_desc" >
+      <ul  style="display:none;" class="bullet-container stats-desc" id="ameco_gdp_growth_real_desc" >
         {{i18n.ameco_gdp_growth_real_desc|safe}}
       </ul>
 
-      <ul  style="display:none;" class="bullet-container stats-desc" id="ameco_net_lending_desc" >
+      <ul  style="display:none;" class="bullet-container stats-desc" id="ameco_output_gap_desc" >
         {{i18n.ameco_output_gap_desc|safe}}
       </ul>
 
 
-      <ul  style="display:none;" class="bullet-container stats-desc" id="eurostat_yields_10y_desc" >
+      <ul  style="display:none;" class="bullet-container stats-desc" id="eurostat_hicp_desc" >
         {{i18n.eurostat_hicp_desc|safe}}
       </ul>
 
@@ -480,7 +480,7 @@
 <script type="text/javascript" src="/static/js/gradient-legend.js?v={{staticVersion}}"            ></script>
 <script type="text/javascript" src="/static/dl/ameco_gdp_growth_real.js?v={{staticVersion}}"      ></script>
 <script type="text/javascript" src="/static/dl/ameco_output_gap.js?v={{staticVersion}}"           ></script>
-<script type="text/javascript" src="/static/dl/eurostat_hicp_label.js?v={{staticVersion}}"        ></script>
+<script type="text/javascript" src="/static/dl/eurostat_hicp.js?v={{staticVersion}}"        ></script>
 
 
 
@@ -505,7 +505,7 @@
     // xxxxx
     let selectedDataMeta = {
       "ameco_gdp_growth_real": {
-        "selected_data" : debtPercentToGDP,
+        "selected_data" : gdpGrowthReal,
         "formatter": (statsValue) => {
           return Math.round(statsValue).toString() + ' %'
         },
@@ -513,7 +513,7 @@
         "colors":       ["#00A000", "#80A000", "#FF0000", "#FF0000"],
       } ,
       "ameco_output_gap": {
-        "selected_data" : netLendingPercentToGDP,
+        "selected_data" : outputGap,
         "formatter": (statsValue) => {
           return  (Math.round(statsValue*10)/10).toString() + ' %'
         },
@@ -524,7 +524,7 @@
       },
       // monthly
       "eurostat_hicp": {
-        "selected_data" : yieldsTenYears,
+        "selected_data" : hicp,
         "formatter": (statsValue) => {
           return  (Math.round(statsValue*10)/10).toString() + ' %'
         },

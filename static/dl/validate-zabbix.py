@@ -57,26 +57,36 @@ def validateJsFile(jsPath):
         return False
 
     try:
-        dataObject = json.loads(jsonText)
+        jsDta = json.loads(jsonText)
     except Exception as exc:
         print(f"[ERROR] JSON parse error in {jsPath}: {exc}", file=sys.stderr)
         return False
 
-    if not isinstance(dataObject, dict) and not isinstance(dataObject, list):
+    if not isinstance(jsDta, dict) and not isinstance(jsDta, list):
         print(f"[ERROR] Top-level object in {jsPath} is not a dict nor a list", file=sys.stderr)
         return False
 
-    topLevelKeys = list(dataObject.keys())
+
+    if isinstance(jsDta, dict):
+        topLevelKeys = list(jsDta.keys())
+
+    if isinstance(jsDta, list):
+        topLevelKeys = jsDta
+        # topLevelKeys = jsDta[0]
+
+
     if len(topLevelKeys) < MIN_TOP_LEVEL_KEYS:
         print(f"[ERROR] {jsPath} has only {len(topLevelKeys)} top-level keys", file=sys.stderr)
         return False
 
-    for idx1, key1 in enumerate(topLevelKeys):
-        val1 = dataObject[key1]
 
-        if not isinstance(val1, dict):
-            print(f"[ERROR] Value for key '{key1}' in {jsPath} is not a dict", file=sys.stderr)
-            return False
+    for idx1, key1 in enumerate(topLevelKeys):
+
+        if isinstance(jsDta, dict):
+            val1 = jsDta[key1]
+        elif isinstance(jsDta, list):
+            val1 = jsDta[0]
+
 
         keys2 = list(val1.keys())
         if len(keys2) < MIN_NESTED_KEYS:
