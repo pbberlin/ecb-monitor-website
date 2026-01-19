@@ -507,10 +507,11 @@
       "ameco_gdp_growth": {
         "selected_data" : gdpGrowthReal,
         "formatter": (statsValue) => {
-          return Math.round(statsValue).toString() + ' %'
+          return  (Math.round(statsValue*10)/10).toString() + ' %'
         },
-        "color_ranges": [0, 60, 180, 200],
-        "colors":       ["#00A000", "#80A000", "#FF0000", "#FF0000"],
+        "color_ranges": [-2, 0, 2, 4],
+        // "colors":       ["#00A000", "#80A000", "#FF0000", "#FF0000"],
+        "colors":       ["#FF0000", "#80A000", "#00A000", "#00A000"],
       } ,
       "ameco_output_gap": {
         "selected_data" : outputGap,
