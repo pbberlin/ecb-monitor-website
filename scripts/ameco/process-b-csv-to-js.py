@@ -118,8 +118,8 @@ if __name__ == "__main__":
     print(f"\t wrote: {outputPath}")
 
     ## 
-    inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_gdp_growth_real.csv"
-    outputPath = Path.cwd() / "static"  / "dl" /  "ameco_gdp_growth_real.js"
+    inputPath  = Path.cwd() / "static"  / "dl" /  "ameco_gdp_growth.csv"
+    outputPath = Path.cwd() / "static"  / "dl" /  "ameco_gdp_growth.js"
     makeJsFromCsv(inputPath, outputPath, "gdpGrowthReal")
     print(f"\t wrote: {outputPath}")
 
