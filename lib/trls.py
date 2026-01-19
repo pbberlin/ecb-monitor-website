@@ -69,7 +69,7 @@ trlsRaw = [
         },
     },
     {
-        "headline_economic_data":    {
+        "headline_economic_environment":    {
             "de": "Ökonomisches Umfeld",
             "en": "Economic Landscape",
         },
@@ -324,7 +324,7 @@ trlsRaw = [
 
     # economic environment
     # yearly
-    # compute growth rate from ameco database (GDP-LEVELS) 
+    # compute growth rate from ameco database (GDP-LEVELS)
     # formula: (GDP(T)/(GDP(T-1)-1)*100
     {
         "ameco_gdp_growth_real_label":    {
@@ -390,8 +390,10 @@ trlsRaw = [
                 </li>
             """,
         },
-    },  
-    # monthly
+    },
+
+
+    # inflation, smonthly
     {
         "eurostat_hicp_label":    {
             "de": "HVPI-Inflation in %",
@@ -423,7 +425,7 @@ trlsRaw = [
                 </li>
             """,
         },
-    }, 
+    },
 
 
 ]
