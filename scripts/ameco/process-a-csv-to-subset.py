@@ -58,11 +58,10 @@ def main(inputFile, targetFilename, targetCode, targetUnit):
 
             # keep only COUNTRY, UNIT, and years 1960–2026
             keepFields = ["COUNTRY", "UNIT"]
-            # for year in range(1960, currentYear+2):
             for year in range(2000, currentYear+2):
                 keepFields.append(str(year))
 
-
+            hitCounter = 0
             for idx1, row in enumerate(csvReader):
                 try:
                     codeRaw   = row.get("CODE", "")
@@ -81,24 +80,29 @@ def main(inputFile, targetFilename, targetCode, targetUnit):
 
                     country  = row.get("COUNTRY", "")
 
-                    if idx1 < 10 and ("Euro" not in country):
-                        print(f"\t\t row{idx1:03} -  {codeVal:8}  {country:16}  {unitVal} ")
+                    # if idx1 < 10 and ("Euro" not in country):
+                    #     print(f"\t  row{idx1:04} -  {codeVal:8}  {country:12}  {unitVal} ")
 
 
-                    if unitVal == targetUnit  and  codeVal == targetCode:
+                    if codeVal == targetCode  and (unitVal == targetUnit or targetUnit=="*"):
 
-                        if idx1 < 10 and ("Euro" not in country):
-                            print(f"\t    unit found in {idx1:3} -  {country:16}  {unitVal} ")
+                        hitCounter +=1
+
+                        # if idx1 < 11 and ("Euro" not in country):
+                        dbgCountry = country.split(" ")[0]
+                        unitValDbg = unitVal[0:36]
+                        if hitCounter < 11 and ("Euro" not in country):
+                            print(f"\t  row{idx1:04} {dbgCountry:12} code {codeVal:8}  unit {unitValDbg}    {row['2024']:8} {row['2025']:8} ")
 
                         # normalize irregular country name
                         if country == "Czechia":
                             row["COUNTRY"] = "Czech Republic"
                             country        = "Czech Republic"
 
-
                         if country in euCountries:
                             filteredRow = {k: row[k] for k in keepFields if k in row}
                             filteredRows.append(filteredRow)
+
 
                 except Exception as rowExc:
                     print(f"error processing row index {idx1}: {rowExc}")
@@ -134,6 +138,7 @@ jobDirAmeco     = Path.cwd() / "scripts" / "ameco"
 
 
 # filter settings
+
 inpFile        = jobDirAmeco / "AMECO18.CSV"
 outFileSuffix  = "debt_to_gdp"
 code     = "UDGGL"
@@ -167,4 +172,23 @@ inpFile        = jobDirAmeco / "AMECO16.CSV"
 outFileSuffix  = "interest_to_gdp"
 code     = "UYIG"
 unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
+main(inpFile, outFileSuffix, code, unit)
+
+
+
+##
+inpFile        = jobDirAmeco / "AMECO6.CSV"
+outFileSuffix  = "gdp_growth_real"
+code     = "OVGD"
+unit     = "Mrd ECU/EUR, Standard aggregation"
+unit     = "Mrd ECU/EUR"
+unit     = "Mrd ECU/EUR, Weighted mean of t/t-1 national growth rates (weights: t-1 current prices in ECU/EUR)"
+unit     = "*"
+main(inpFile, outFileSuffix, code, unit)
+
+
+inpFile        = jobDirAmeco / "AMECO6.CSV"
+outFileSuffix  = "output_gap"
+code     = "AVGDGP"
+unit     = "(Percentage of potential gross domestic product at constant prices)"
 main(inpFile, outFileSuffix, code, unit)
