@@ -139,56 +139,128 @@ jobDirAmeco     = Path.cwd() / "scripts" / "ameco"
 
 # filter settings
 
-inpFile        = jobDirAmeco / "AMECO18.CSV"
-outFileSuffix  = "debt_to_gdp"
-code     = "UDGGL"
-code     = "UDGG"
-unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
-main(inpFile, outFileSuffix, code, unit)
+# if False:
+if True:
+    inpFile        = jobDirAmeco / "AMECO18.CSV"
+    outFileSuffix  = "debt_to_gdp"
+    code     = "UDGGL"
+    code     = "UDGG"
+    unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
+    main(inpFile, outFileSuffix, code, unit)
 
 
-inpFile        = jobDirAmeco / "AMECO16.CSV"
-outFileSuffix  = "net_lending"
-code     = "UBLG"
-unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
-main(inpFile, outFileSuffix, code, unit)
+    inpFile        = jobDirAmeco / "AMECO16.CSV"
+    outFileSuffix  = "net_lending"
+    code     = "UBLG"
+    unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
+    main(inpFile, outFileSuffix, code, unit)
 
 
-inpFile        = jobDirAmeco / "AMECO16.CSV"
-outFileSuffix  = "total_expenditure"
-code     = "UUTG"
-unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
-main(inpFile, outFileSuffix, code, unit)
+    inpFile        = jobDirAmeco / "AMECO16.CSV"
+    outFileSuffix  = "total_expenditure"
+    code     = "UUTG"
+    unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
+    main(inpFile, outFileSuffix, code, unit)
 
 
-inpFile        = jobDirAmeco / "AMECO16.CSV"
-outFileSuffix  = "interest_expenditure"
-code     = "UYIG"
-unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
-main(inpFile, outFileSuffix, code, unit)
+    inpFile        = jobDirAmeco / "AMECO16.CSV"
+    outFileSuffix  = "interest_expenditure"
+    code     = "UYIG"
+    unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
+    main(inpFile, outFileSuffix, code, unit)
 
 
-inpFile        = jobDirAmeco / "AMECO16.CSV"
-outFileSuffix  = "interest_to_gdp"
-code     = "UYIG"
-unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
-main(inpFile, outFileSuffix, code, unit)
+    inpFile        = jobDirAmeco / "AMECO16.CSV"
+    outFileSuffix  = "interest_to_gdp"
+    code     = "UYIG"
+    unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
+    main(inpFile, outFileSuffix, code, unit)
 
 
 
-##
-inpFile        = jobDirAmeco / "AMECO6.CSV"
-outFileSuffix  = "gdp_growth_real"
-code     = "OVGD"
-unit     = "Mrd ECU/EUR, Standard aggregation"
-unit     = "Mrd ECU/EUR"
-unit     = "Mrd ECU/EUR, Weighted mean of t/t-1 national growth rates (weights: t-1 current prices in ECU/EUR)"
-unit     = "*"
-main(inpFile, outFileSuffix, code, unit)
+    ##
+    inpFile        = jobDirAmeco / "AMECO6.CSV"
+    outFileSuffix  = "gdp_real"
+    code     = "OVGD"
+    unit     = "Mrd ECU/EUR, Standard aggregation"
+    unit     = "Mrd ECU/EUR"
+    unit     = "Mrd ECU/EUR, Weighted mean of t/t-1 national growth rates (weights: t-1 current prices in ECU/EUR)"
+    unit     = "*"
+    main(inpFile, outFileSuffix, code, unit)
 
 
-inpFile        = jobDirAmeco / "AMECO6.CSV"
-outFileSuffix  = "output_gap"
-code     = "AVGDGP"
-unit     = "(Percentage of potential gross domestic product at constant prices)"
-main(inpFile, outFileSuffix, code, unit)
+    inpFile        = jobDirAmeco / "AMECO6.CSV"
+    outFileSuffix  = "output_gap"
+    code     = "AVGDGP"
+    unit     = "(Percentage of potential gross domestic product at constant prices)"
+    main(inpFile, outFileSuffix, code, unit)
+
+
+
+
+
+
+
+inputPath  = Path.cwd() / "static" / "dl" / "ameco_gdp_real.csv"
+outputPath = Path.cwd() / "static" / "dl" / "ameco_gdp_growth.csv"
+
+
+try:
+    with inputPath.open("r", newline="", encoding="utf-8") as infile:
+        reader = list(csv.reader(infile,delimiter=";"))
+except Exception as exc:
+    print(exc)
+    raise
+
+print(f"\tconverting GDP to growth" )
+
+
+outHeader = reader[0]
+outRows   = []
+
+for idx1, row in enumerate(reader):
+
+    if idx1 == 0:
+        continue
+
+    out = []
+
+    if idx1 < 3 or idx1 > len(reader)-3:
+        print(f"\t  row {idx1:2}  {row[0]}  {row[2]}  {row[3]}" )
+
+    # print( row )
+
+    for idx2, val in enumerate(row):
+        if idx2 < 2:
+            out.append(val)
+        elif idx2 == 2:
+            out.append("0")
+        else:
+            try:
+                vl   = float(val)
+                prev = float(row[idx2-1])
+                pct  = (vl / prev) - 1
+                pct  = round(100 * pct, 4)
+                out.append( str(pct).replace(".", ",")  )
+
+                if idx1 < 3 or idx1 > len(reader)-3:
+                    if idx2 == 3:
+                        print("\t\t", end="")
+                    if idx2 < 6:
+                        # print(f" {vl:.2f} - {prev:.2f} - {pct:.3f}" , end=", ")
+                        print(f"{pct:+.3f}" , end=", ")
+                    if idx2 == 5:
+                        print("")
+            except Exception as exc:
+                print(exc)
+
+    outRows.append(out)
+
+try:
+    with outputPath.open("w", newline="", encoding="utf-8") as outfile:
+        writer = csv.writer(outfile, delimiter=";")
+        writer.writerow(outHeader)
+        writer.writerows(outRows)
+except Exception as exc:
+    print(exc)
+    raise

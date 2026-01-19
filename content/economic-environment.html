@@ -378,8 +378,8 @@
       <!-- option -->
       <div class="options-stat-vars">
         <label title="(Ameco)">
-          {{i18n.ameco_gdp_growth_real_label}}
-          <input type="radio" name="stats_variable" value="ameco_gdp_growth_real" >
+          {{i18n.ameco_gdp_growth_label}}
+          <input type="radio" name="stats_variable" value="ameco_gdp_growth" >
         </label>
 
         <label title="(Ameco)">
@@ -418,8 +418,8 @@
 
   <div class="col col--right control-pad">
 
-      <ul  style="display:none;" class="bullet-container stats-desc" id="ameco_gdp_growth_real_desc" >
-        {{i18n.ameco_gdp_growth_real_desc|safe}}
+      <ul  style="display:none;" class="bullet-container stats-desc" id="ameco_gdp_growth_desc" >
+        {{i18n.ameco_gdp_growth_desc|safe}}
       </ul>
 
       <ul  style="display:none;" class="bullet-container stats-desc" id="ameco_output_gap_desc" >
@@ -478,9 +478,9 @@
 <script type="text/javascript" src="/static/js/echarts.min.js"                ></script>
 <script type="text/javascript" src="/static/js/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
 <script type="text/javascript" src="/static/js/gradient-legend.js?v={{staticVersion}}"            ></script>
-<script type="text/javascript" src="/static/dl/ameco_gdp_growth_real.js?v={{staticVersion}}"      ></script>
+<script type="text/javascript" src="/static/dl/ameco_gdp_growth.js?v={{staticVersion}}"           ></script>
 <script type="text/javascript" src="/static/dl/ameco_output_gap.js?v={{staticVersion}}"           ></script>
-<script type="text/javascript" src="/static/dl/eurostat_hicp.js?v={{staticVersion}}"        ></script>
+<script type="text/javascript" src="/static/dl/eurostat_hicp.js?v={{staticVersion}}"              ></script>
 
 
 
@@ -504,7 +504,7 @@
     // init
     // xxxxx
     let selectedDataMeta = {
-      "ameco_gdp_growth_real": {
+      "ameco_gdp_growth": {
         "selected_data" : gdpGrowthReal,
         "formatter": (statsValue) => {
           return Math.round(statsValue).toString() + ' %'
@@ -534,7 +534,7 @@
     };
 
 
-    let   selectedVar  = "ameco_gdp_growth_real";
+    let   selectedVar  = "ameco_gdp_growth";
     const rawHash      = window.location.hash;
     const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
     if (byUrlHash !== ""){

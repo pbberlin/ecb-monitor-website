@@ -327,13 +327,13 @@ trlsRaw = [
     # compute growth rate from ameco database (GDP-LEVELS)
     # formula: (GDP(T)/(GDP(T-1)-1)*100
     {
-        "ameco_gdp_growth_real_label":    {
+        "ameco_gdp_growth_label":    {
             "de": "BIP Wachstum (real) in %",
             "en": "GDP growth (real) in %",
         },
     },
     {
-        "ameco_gdp_growth_real_desc":    {
+        "ameco_gdp_growth_desc":    {
             "de": """
                 <li>
                 Reales BIP-Wachstum in %
@@ -393,7 +393,7 @@ trlsRaw = [
     },
 
 
-    # inflation, smonthly
+    # inflation, monthly
     {
         "eurostat_hicp_label":    {
             "de": "HVPI-Inflation in %",
