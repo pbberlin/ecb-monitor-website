@@ -62,8 +62,8 @@ def validateJsFile(jsPath):
         print(f"[ERROR] JSON parse error in {jsPath}: {exc}", file=sys.stderr)
         return False
 
-    if not isinstance(dataObject, dict):
-        print(f"[ERROR] Top-level object in {jsPath} is not a dict", file=sys.stderr)
+    if not isinstance(dataObject, dict) and not isinstance(dataObject, list):
+        print(f"[ERROR] Top-level object in {jsPath} is not a dict nor a list", file=sys.stderr)
         return False
 
     topLevelKeys = list(dataObject.keys())
@@ -71,21 +71,22 @@ def validateJsFile(jsPath):
         print(f"[ERROR] {jsPath} has only {len(topLevelKeys)} top-level keys", file=sys.stderr)
         return False
 
-    for idx1, currentKey in enumerate(topLevelKeys):
-        currentValue = dataObject[currentKey]
+    for idx1, key1 in enumerate(topLevelKeys):
+        val1 = dataObject[key1]
 
-        if not isinstance(currentValue, dict):
-            print(f"[ERROR] Value for key '{currentKey}' in {jsPath} is not a dict", file=sys.stderr)
+        if not isinstance(val1, dict):
+            print(f"[ERROR] Value for key '{key1}' in {jsPath} is not a dict", file=sys.stderr)
             return False
 
-        nestedKeys = list(currentValue.keys())
-        if len(nestedKeys) < MIN_NESTED_KEYS:
+        keys2 = list(val1.keys())
+        if len(keys2) < MIN_NESTED_KEYS:
             print(
-                f"[ERROR] Value for key '{currentKey}' in {jsPath} "
-                f"has only {len(nestedKeys)} nested keys",
+                f"[ERROR] Value for key '{key1}' in {jsPath} "
+                f"has only {len(keys2)} nested keys",
                 file=sys.stderr,
             )
             return False
+
 
     return True
 

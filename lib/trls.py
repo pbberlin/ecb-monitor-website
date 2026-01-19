@@ -109,9 +109,8 @@ trlsRaw = [
                 <li>
                 Gesamtstaatliche Bruttoschulden des Staates in % BIP
                 </li>
-
                 <li>
-                Quelle:
+                    Quelle:
                     <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
                         Europäische Kommission, AMECO Database, Variablen-Code: UDGG
                     </a>
@@ -121,11 +120,8 @@ trlsRaw = [
                 <li>
                 General government gross debt in % GDP
                 </li>
-
-
                 <li>
                     Source:
-
                     <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
                         European Commission, AMECO Database, variable code: UDGG
                     </a>
@@ -147,7 +143,7 @@ trlsRaw = [
                 Gesamtstaatlicher Haushaltssaldo in % BIP
                 </li>
                 <li>
-                Quelle:
+                    Quelle:
                     <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
                     Europäische Kommission, AMECO Database, Variablen-Code: UBLG
                     </a>
@@ -179,7 +175,7 @@ trlsRaw = [
                 Gesamtstaatliche Ausgaben in % BIP
                 </li>
                 <li>
-                Quelle:
+                    Quelle:
                     <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
                     Europäische Kommission, AMECO Database, Variablen-Code: UUTG
                     </a>
@@ -211,7 +207,7 @@ trlsRaw = [
                 Gesamtstaatliche  Zinszahlungen in % Staatsausgaben
                 </li>
                 <li>
-                Quelle:
+                    Quelle:
                     <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
                     Europäische Kommission, AMECO Database, Variablen-Code: UYIG/D.41
                     </a>
@@ -243,7 +239,7 @@ trlsRaw = [
                 Rendite Staatsanleihen des Zentralstaats auf dem Sekundärmarkt mit ungefährer Restlaufzeit von 10 Jahren
                 </li>
                 <li>
-                Quelle:
+                    Quelle:
                     <a href="https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/teimf050/?format=TSV&compressed=false">
                     Eurostat, online data code: teimf050
                     </a>
@@ -325,6 +321,109 @@ trlsRaw = [
         },
     },
 
+
+    # economic environment
+    # yearly
+    # compute growth rate from ameco database (GDP-LEVELS) 
+    # formula: (GDP(T)/(GDP(T-1)-1)*100
+    {
+        "ameco_gdp_growth_real_label":    {
+            "de": "BIP Wachstum (real) in %",
+            "en": "GDP growth (real) in %",
+        },
+    },
+    {
+        "ameco_gdp_growth_real_desc":    {
+            "de": """
+                <li>
+                Reales BIP-Wachstum in %
+                </li>
+                <li>
+                    Quelle:
+                    <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
+                        Europäische Kommission, AMECO Database, Variablen-Code: OVGD
+                    </a>
+                </li>
+            """,
+            "en": """
+                <li>
+                    Real GDP growth in %
+                </li>
+                <li>
+                    Source:
+                    <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
+                        European Commission, AMECO Database, variable code: OVGD
+                    </a>
+
+                </li>
+            """,
+        },
+    },
+    {
+        "ameco_output_gap_label":    {
+            "de": "Outputlücke in % Potenzial-BIP",
+            "en": "Output gap in % of potential GDP",
+        },
+    },
+    {
+        "ameco_output_gap_desc":    {
+            "de": """
+                <li>
+                Outputlücke: Lücke zwischen tatsächlichem und potenziellem BIP in % des potenziellen BIP
+                </li>
+                <li>
+                    Quelle:
+                    <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
+                        Europäische Kommission, AMECO Database, Variablen-Code: AVGDGP
+                    </a>
+                </li>
+            """,
+            "en": """
+                <li>
+                Output gap: gap between actual and potential GDP in % of potential GDP
+                </li>
+                <li>
+                    Source:
+                    <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
+                    European Commission, AMECO Database, variable code: AVGDGP
+                    </a>
+                </li>
+            """,
+        },
+    },  
+    # monthly
+    {
+        "eurostat_hicp_label":    {
+            "de": "HVPI-Inflation in %",
+            "en": "HICP inflation in %",
+        },
+    },
+    {
+        "eurostat_hicp_desc":    {
+            "de": """
+                <li>
+                Inflation (Harmonisierter Verbraucherpreisindex) in % zum Vorjahresmonat
+                </li>
+                <li>
+                Quelle:
+                    <a https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr/default/table?lang=en&category=prc.prc_hicp">
+                    Eurostat, Variablen-Code: prc_hicp_manr
+                    </a>
+                </li>
+            """,
+            "en": """
+                <li>
+                Inflation (Harmonised Index of Consumer Prices) in % relative to same month of previous year
+                </li>
+                <li>
+                    Source:
+                   <a https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr/default/table?lang=en&category=prc.prc_hicp">
+                    Eurostat, Variablen-Code: prc_hicp_manr
+                    </a>
+                </li>
+            """,
+        },
+    }, 
 
 
 ]

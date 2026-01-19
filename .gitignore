@@ -6,6 +6,4 @@ tmp/**
 .venv/**
 data/**
 scripts/**/out/**/*pdf
-# scripts/bis-speeches/out/dl/*pdf
-# !scripts/bis-speeches/out/*
 static/goaccess.html
