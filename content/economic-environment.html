@@ -510,7 +510,6 @@
           return  (Math.round(statsValue*10)/10).toString() + ' %'
         },
         "color_ranges": [-2, 0, 2, 4],
-        // "colors":       ["#00A000", "#80A000", "#FF0000", "#FF0000"],
         "colors":       ["#FF0000", "#80A000", "#00A000", "#00A000"],
       } ,
       "ameco_output_gap": {
@@ -608,48 +607,6 @@
 
 
 
-
-
-    // creating the 'series' config for a pie chart with three random number.
-    // Pie charts are easily positioned using either geo coordinates
-    // or geojson 'name' -  via line  `center: centerLabelOrCoords`.
-    // Other charts types dont have this feature - thus we have to
-    //   pull the centroids for countries out of the geojson
-    //     centroids['France']
-    //     centroids['Spain']
-    //     centroids[country][0], centroids[country][1]
-    //      [2.21, 46.23]
-    // The centroids have been finetuned in reshape-country.py
-    function randomPieSeries1(centerLabelOrCoords, radius) {
-
-      const data = ['A', 'B', 'C', 'D'].map((t) => {
-        return {
-          value: Math.round(Math.random() * 100),
-          name: 'Category ' + t
-        };
-      });
-
-      // map
-      return {
-        type: 'pie',
-        coordinateSystem: 'geo',
-        tooltip: {
-          formatter: '{b}: {c} ({d}%)'
-        },
-        label: {
-          show: false
-        },
-        labelLine: {
-          show: false
-        },
-        animation:         false,
-        animationDuration: 0,
-        radius: radius,
-        center: centerLabelOrCoords,
-        data: data,
-      };
-    }
-
     function mapToZeroOne(vl, ranges) {
 
         let range0 = ranges[0];
@@ -664,6 +621,7 @@
             return Math.max(0, Math.min(1, t));
         }
     }
+
 
 
     function valToPctToColor(vl, config) {
@@ -752,7 +710,6 @@
 
     const ecbCoord = [8.6889, 50.1095];  // frankfurt
     // const ecbCoord = [9.851, 51.11];  // germany centroid
-
 
 
 
@@ -873,72 +830,7 @@
 
 
     function arrowRedraw() {
-
         return;
-
-        const pixel = myChart.convertToPixel({ geoIndex: 0 }, ecbCoord);
-
-        const containerWidth  = myChartDom.clientWidth;
-        const containerHeight = myChartDom.clientHeight;
-
-        let p0x = pixel[0];
-        let p0y = pixel[1];
-        // tuning arrow below icon
-        // p0x = p0x -  8;
-        // p0y = p0y + 26;
-        p0x = p0x + 2;
-        p0y = p0y - 3;
-
-        let endX = containerWidth + 0;
-        endX = 630;
-        let  endY = p0y;
-        endY = 220;
-
-        // const midX = (startX + endX) / 2;
-        let p1x = (p0x + endX) / 3.4;
-        let p1y =  p0y - 0;
-
-        p1x = 550;
-        p1y = 220;
-
-
-        const pointsForPolyLine = [
-            [p0x, p0y],
-            [p1x, p1y],
-            [endX, endY]
-        ];
-
-        myChart.setOption({
-            graphic: [
-                {
-                    id: 'ecb-arrow-line',
-                    type: 'polyline',
-                    shape: {
-                        points: pointsForPolyLine
-                    },
-                    style: {
-                        stroke: '#333',
-                        lineWidth: 0.4
-                    },
-                    silent: true,  // no reaction to click, hover, drag...
-                },
-                // {
-                //     id: 'ecb-arrow-head',
-                //     type: 'polygon',
-                //     shape: {
-                //         points: [
-                //             [p0x    , p0y - 12],    // tip
-                //             [p0x - 8, p0y +  2],    // left  point
-                //             [p0x + 8, p0y +  2]     // right point
-                //         ]
-                //     },
-                //     style: {
-                //         fill: '#888'
-                //     },
-                //     silent: true
-                // },
-            ]
-        });
     }
 
 
@@ -1321,10 +1213,6 @@
 
       series: [
         // gre-enwich  longitude, latitude
-        // randomPieSeries1([-1.6, 52.5], 25),
-
-        // randomPieSeries1('France',  25),
-        // randomPieSeries1('Germany', 35),
         ...manyCountriesShowStats(),
         ...symbolsSeries(),
       ]
