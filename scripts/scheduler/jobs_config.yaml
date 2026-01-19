@@ -3,22 +3,30 @@
 #   minute(0-59) hour(0-23) day(1-31)    month(1-12) weekday(0-6)
 #   we are in [app dir]/scripts/scheduler
 jobs:
-  - id: "amecoJob"
+
+  - id: "amecoJobDebug"
     cron: "15 2 * * *"
     # briefly change to 
     # cron: "* * * * *"
     # and
     # sudo systemctl restart app-scheduler
     script: "../fetch-ameco-eurostat.py"
+
+
   - id: "dailyFetch"
     cron: "0 3 * * *"
     script: "../daily_fetch.py"
     env:
           FLASK_ENV: "production"
+
+
+    # 06:30 every day
   - id: "sendReport"
     cron: "30 6 * * *"
     script: "../send_report.py"
 
-  - id: "refreshCache"
-    cron: "0 */2 * * *"
-    script: "../refresh_cache.py"
+
+  # every 2 hours, on the hour
+  # - id: "refreshCache"
+  #   cron: "0 */2 * * *"
+  #   script: "../refresh_cache.py"
