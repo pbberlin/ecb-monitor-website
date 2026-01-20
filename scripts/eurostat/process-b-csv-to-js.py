@@ -40,9 +40,9 @@ euCodesToNames = {
 
 
 def makeJsFromTsv(inputTsvPath: Path, outputJsPath: Path, jsName: str) -> None:
-    yearMonths = []
+    yearMonths       = []
     yearMonthIndices = []
-    dataByYearMonth = {}
+    dataByYearMonth  = {}
 
     try:
         with inputTsvPath.open(mode="r", encoding="utf-8", newline="") as inFile:

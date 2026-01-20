@@ -86,22 +86,39 @@ def runAmecoPipeline() -> bool:
 
     amecoTsv    = jobDirEurostat / "estat_teimf050.tsv"
     downloadUrl = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/teimf050/?format=TSV&compressed=false"
-    curlCmd2 = [
+    curlCmd3 = [
         "curl",
         downloadUrl,
         "-o",
         str(amecoTsv),
         ]
-    if runShellCommand(curlCmd2, cwdPath=appDir) != 0:
+    if runShellCommand(curlCmd3, cwdPath=appDir) != 0:
         return False
+
+
+    amecoTsv    = jobDirEurostat / "estat_prc_hicp_manr.tsv"
+    downloadUrl = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/prc_hicp_manr/?format=TSV&compressed=false"
+    curlCmd4 = [
+        "curl",
+        downloadUrl,
+        "-o",
+        str(amecoTsv),
+        ]
+    if runShellCommand(curlCmd4, cwdPath=appDir) != 0:
+        return False
+
 
 
     if runPythonScript(jobDirEurostat / "process-b-csv-to-js.py", cwdPath=appDir) != 0:
         return False
 
 
-    # ameco and eurostat
 
+
+
+
+    # 
+    # ameco and eurostat
     if runPythonScript(dlDir / "jsToCSV.py",         cwdPath=dlDir) != 0:
         return False
 
@@ -120,7 +137,11 @@ def runGitRollback() -> None:
 
 def runGitCommitPush() -> None:
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    commitMessage = f"ameco job success {timestamp}"
+
+    import socket
+    hostName = socket.gethostname()    
+
+    commitMessage = f"ameco-eurostat update {timestamp} {hostName}"
 
     runShellCommand(["git", "add", str(dlDir)], cwdPath=appDir)
     runShellCommand(["git", "commit", "-a", "-m", commitMessage], cwdPath=appDir)
