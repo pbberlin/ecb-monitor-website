@@ -1,6 +1,6 @@
 // Auto-generated from CSV → JS (years → { COUNTRY: value })
 const gdpGrowthReal = {
-  "2000": {
+  "1999": {
     "Austria": 0.0,
     "Belgium": 0.0,
     "Bulgaria": 0.0,
@@ -29,6 +29,36 @@ const gdpGrowthReal = {
     "Slovenia": 0.0,
     "Spain": 0.0,
     "Sweden": 0.0
+  },
+  "2000": {
+    "Austria": 3.1895,
+    "Belgium": 3.7167,
+    "Bulgaria": 4.5872,
+    "Croatia": 2.9453,
+    "Cyprus": 5.9654,
+    "Czech Republic": 4.0107,
+    "Denmark": 3.724,
+    "Estonia": 10.0877,
+    "Euro area (20 countries)": 3.8846,
+    "Finland": 5.7537,
+    "France": 4.141,
+    "Germany": 2.8765,
+    "Greece": 4.1378,
+    "Hungary": 4.4094,
+    "Ireland": 9.4035,
+    "Italy": 3.8821,
+    "Latvia": 5.841,
+    "Lithuania": 3.4186,
+    "Luxembourg": 6.9381,
+    "Malta": 6.4132,
+    "Netherlands": 4.2198,
+    "Poland": 4.6563,
+    "Portugal": 3.8162,
+    "Romania": 2.4613,
+    "Slovakia": 0.7892,
+    "Slovenia": 3.4979,
+    "Spain": 5.2006,
+    "Sweden": 4.6311
   },
   "2001": {
     "Austria": 1.317,
