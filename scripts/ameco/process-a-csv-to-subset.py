@@ -58,7 +58,8 @@ def main(inputFile, targetFilename, targetCode, targetUnit):
 
             # keep only COUNTRY, UNIT, and years 1960–2026
             keepFields = ["COUNTRY", "UNIT"]
-            for year in range(2000, currentYear+2):
+            # for year in range(2000, currentYear+2):
+            for year in range(1999, currentYear+2):
                 keepFields.append(str(year))
 
             hitCounter = 0

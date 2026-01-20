@@ -1,5 +1,33 @@
 // Auto-generated from CSV → JS (years → { COUNTRY: value })
 const outputGap = {
+  "1999": {
+    "Austria": 1.22677,
+    "Belgium": 0.96882,
+    "Bulgaria": -7.27602,
+    "Cyprus": -0.54446,
+    "Czech Republic": -2.40948,
+    "Denmark": 2.18913,
+    "Estonia": -3.57055,
+    "Finland": 1.99358,
+    "France": -0.10766,
+    "Germany": 0.63673,
+    "Greece": 0.01026,
+    "Hungary": -0.27182,
+    "Ireland": 4.27608,
+    "Italy": -0.4617,
+    "Latvia": -1.13555,
+    "Lithuania": -3.26597,
+    "Luxembourg": 3.20834,
+    "Malta": 0.91989,
+    "Netherlands": 1.87374,
+    "Poland": 1.6555,
+    "Portugal": 1.52136,
+    "Romania": -2.7646,
+    "Slovakia": -0.35914,
+    "Slovenia": 0.53412,
+    "Spain": 1.01387,
+    "Sweden": 0.26382
+  },
   "2000": {
     "Austria": 1.81213,
     "Belgium": 2.10441,
