@@ -7,3 +7,4 @@ tmp/**
 data/**
 scripts/**/out/**/*pdf
 static/goaccess.html
+scripts/eurostat/estat_prc_hicp_manr.tsv
