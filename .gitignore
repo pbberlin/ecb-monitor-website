@@ -4,7 +4,6 @@ tmp/**
 **/node_modules/**
 **/__pycache__/**
 .venv/**
-data/**
 scripts/**/out/**/*pdf
-static/goaccess.html
 scripts/eurostat/estat_prc_hicp_manr.tsv
+scripts/council/council.html
