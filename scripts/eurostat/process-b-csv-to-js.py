@@ -3,6 +3,9 @@ import csv
 import json
 import sys
 
+from collections import defaultdict
+
+
 from datetime import datetime
 currentYear = datetime.now().year
 
@@ -39,7 +42,12 @@ euCodesToNames = {
 }
 
 
-def makeJsFromTsv(inputTsvPath: Path, outputJsPath: Path, jsName: str) -> None:
+def makeJsFromTsv(
+        inputTsvPath: Path, 
+        outputJsPath: Path, 
+        dataKey:    str,
+        jsName: str,
+    ) -> None:
     yearMonths       = []
     yearMonthIndices = []
     dataByYearMonth  = {}
@@ -89,11 +97,14 @@ def makeJsFromTsv(inputTsvPath: Path, outputJsPath: Path, jsName: str) -> None:
             except Exception as sortExc:
                 print(f"Error sorting header year-months: {sortExc}")
 
-            print(f"\twe search for year-months")
+            print(f"\tsearching for year-months")
             print(f"\t{yearMonths} ")
 
             for idx1, yM in enumerate(yearMonths):
                 dataByYearMonth[str(yM)] = {}
+
+            unwantedKeysCounter = defaultdict(int)
+
 
             for idx1, row in enumerate(csvReader):
                 try:
@@ -114,20 +125,38 @@ def makeJsFromTsv(inputTsvPath: Path, outputJsPath: Path, jsName: str) -> None:
                         compositeKey = ""
                     compositeKey = compositeKey.strip()
 
-                    # Expect format like 'M,MCBY,AT' → geo is the 3rd element
+                    # first col format  
+                    #           'M,MCBY,AT'          -> geo is the 3rd element
+                    #           'M,RCH_A,CP09321,UK' -> geo is the 4th element
                     countryCode = ""
                     parts = compositeKey.split(",")
-                    if len(parts) >= 3:
-                        countryCode = parts[2].strip()
-                        if not countryCode in euCodesToNames:
-                            print(f"\t row{idx1:02}  skipping {countryCode}")
-                            continue
-                        country = euCodesToNames[countryCode]
-                        if idx1 < 4 or (idx1%10 == 0):
-                            print(f"\t row{idx1:02}  - country is {country}")
+                    numParts = len(parts)
+                    if numParts < 3:
+                        print(f"\t row{idx1:05}  skipping too short composite key {compositeKey}")
+                        continue
+
+                    dataKeyLooped = ",".join(parts[:-1]) 
+                    if dataKey != dataKeyLooped:
+                        unwantedKeysCounter[dataKeyLooped] += 1
+                        if unwantedKeysCounter[dataKeyLooped] == 1 and (len(unwantedKeysCounter) %100) == 0:
+                            print(f"\t row{idx1:05}  skipping unwanted data key {dataKeyLooped}")
+                        continue
+
+                    countryCode = parts[numParts-1].strip()
+                    if not countryCode in euCodesToNames:
+                        print(f"\t row{idx1:05}  skipping {countryCode}")
+                        continue
+
+                    country = euCodesToNames[countryCode]
+                    # if idx1 < 4 or (idx1%10 == 0):
+                    if True:
+                        print(f"\t row{idx1:05}  - country is {country}")
 
 
+                    valCounter = 0
+                    lenYm = len(yearMonths)
                     for idx2, yMStr in enumerate(yearMonths):
+
                         try:
                             colIdx = yearMonthIndices[idx2]
                             yMRaw = ""
@@ -140,24 +169,30 @@ def makeJsFromTsv(inputTsvPath: Path, outputJsPath: Path, jsName: str) -> None:
                             # print(f"\t     col{idx2:02}  '{yMStr}' -> '{yMRaw}'")
 
                             if yMRaw == "" or yMRaw.lower() == "na"  or yMRaw.lower() == ":":
-                                print(f"\t     col{idx2:02}  '{yMStr}' -> empty or 'na' or ':' ")
+                                print(f"\t\t  col{idx2:02}  '{yMStr}' = '{yMRaw}' -> empty or 'na' or ':' ")
                                 continue  # skip missing
+
+
+                            if yMRaw.endswith(" d"):
+                                yMRaw = yMRaw[:-2]
+
 
                             cleaned = yMRaw.replace(",", ".")
                             if cleaned.endswith(" e"):
                                 cleaned = cleaned[:-2]   
-                           
-
                             val = float(cleaned)
-
-                            if idx2 < 3:
-                                print(f"\t     col{idx2:02}  '{yMStr}' -> {val:4.3f}")
-
-
                             dataByYearMonth[yMStr][country] = val
+
+                            valCounter += 1
+
+                            if valCounter <= 3 or  valCounter > (lenYm-3)  or (valCounter % 50)==0:
+                                print(f"\t     {valCounter:4}   '{yMStr}' -> {val: 6.3f}   {countryCode} ")
+
+
                         except Exception as castExc:
                             print(f"\t     Row {idx1} col {yMStr}: cannot parse '{yMRaw}': {castExc}")
                             continue
+
                 except Exception as rowExc:
                     print(f"Error processing row index {idx1}: {rowExc}")
 
@@ -225,7 +260,16 @@ if __name__ == "__main__":
     jobDirEurostat     = Path.cwd() / "scripts" / "eurostat"
 
 
-    inputPath  = Path.cwd() / jobDirEurostat / "estat_teimf050.tsv"
-    outputPath = Path.cwd() / "static"  / "dl" /  "eurostat_yields_10y.js"
-    makeJsFromTsv(inputPath, outputPath,"yieldsTenYears")
-    print(f"  eurostat wrote: {outputPath}")
+    # if False:
+    if True:
+        inputPath  = Path.cwd() / jobDirEurostat / "estat_teimf050.tsv"
+        outputPath = Path.cwd() / "static"  / "dl" /  "eurostat_yields_10y.js"
+        makeJsFromTsv(inputPath, outputPath, "M,MCBY", "yieldsTenYears")
+        print(f"  eurostat wrote: {outputPath}")
+
+    # if False:
+    if True:
+        inputPath  = Path.cwd() / jobDirEurostat / "estat_prc_hicp_manr.tsv"
+        outputPath = Path.cwd() / "static"  / "dl" /  "eurostat_hicp.js"
+        makeJsFromTsv(inputPath, outputPath, "M,RCH_A,CP00", "hicp")
+        print(f"  eurostat wrote: {outputPath}")

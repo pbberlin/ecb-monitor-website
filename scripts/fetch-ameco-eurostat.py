@@ -50,13 +50,13 @@ def runAmecoPipeline() -> bool:
 
     tmpZipPath = jobDirAmeco / "tmp-ameco-all.zip"
 
-    curlCmd1 = [
+    curlCmd = [
         "curl",
         "https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip",
         "-o",
         str(tmpZipPath),
     ]
-    if runShellCommand(curlCmd1, cwdPath=appDir) != 0:
+    if runShellCommand(curlCmd, cwdPath=appDir) != 0:
         return False
 
 
@@ -84,27 +84,27 @@ def runAmecoPipeline() -> bool:
 
     # eurostat
 
-    amecoTsv    = jobDirEurostat / "estat_teimf050.tsv"
+    eurostatTsv    = jobDirEurostat / "estat_teimf050.tsv"
     downloadUrl = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/teimf050/?format=TSV&compressed=false"
-    curlCmd3 = [
+    curlCmd = [
         "curl",
         downloadUrl,
         "-o",
-        str(amecoTsv),
+        str(eurostatTsv),
         ]
-    if runShellCommand(curlCmd3, cwdPath=appDir) != 0:
+    if runShellCommand(curlCmd, cwdPath=appDir) != 0:
         return False
 
 
-    amecoTsv    = jobDirEurostat / "estat_prc_hicp_manr.tsv"
+    eurostatTsv    = jobDirEurostat / "estat_prc_hicp_manr.tsv"
     downloadUrl = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/prc_hicp_manr/?format=TSV&compressed=false"
-    curlCmd4 = [
+    curlCmd = [
         "curl",
         downloadUrl,
         "-o",
-        str(amecoTsv),
+        str(eurostatTsv),
         ]
-    if runShellCommand(curlCmd4, cwdPath=appDir) != 0:
+    if runShellCommand(curlCmd, cwdPath=appDir) != 0:
         return False
 
 

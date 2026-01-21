@@ -409,7 +409,7 @@ trlsRaw = [
                 <li>
                 Quelle:
                     <a https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr/default/table?lang=en&category=prc.prc_hicp">
-                    Eurostat, Variablen-Code: prc_hicp_manr
+                    Eurostat, Variablen-Code: prc_hicp_manr, CP00 - Gesamt-HVPI
                     </a>
                 </li>
             """,
@@ -420,7 +420,7 @@ trlsRaw = [
                 <li>
                     Source:
                    <a https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr/default/table?lang=en&category=prc.prc_hicp">
-                    Eurostat, Variablen-Code: prc_hicp_manr
+                    Eurostat, Variablen-Code: prc_hicp_manr, CP00 - All-items HICP
                     </a>
                 </li>
             """,
