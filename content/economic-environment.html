@@ -369,9 +369,7 @@
 
       <!-- First (top, right) -->
       <h3> {{i18n.headline_economic_environment}}
-
         <a href="#" id="btnDlgIco" title="Interpretation assistance" >i</a>
-        
       </h3>
 
 
@@ -1513,11 +1511,13 @@
         display:         flex;
         justify-content: space-between;
         align-items:     center;
-        padding:         1rem 1.25rem;
+        padding:          1rem 1.25rem;
+        padding-top:      1.25rem;
         border-bottom:   1px solid #e5e7eb;
-        font-weight: 600;
+        /* font-weight: 600; */
+        font-weight: 400;
         background-color: #efefef;
-        height:      1.5rem;
+        height:      1.7rem;
     }
 
     #btnDlgClose {
@@ -1557,11 +1557,15 @@
           <li>The economic environment influences ECB policy.
             <br>
           </li>
-          <li> &nbsp; &nbsp; Weak   growth nugdes towards monetary expansion.</li>
-          <li> &nbsp; &nbsp; Strong growth motivates contraction against 'overheating'.</li>
-          <li> &nbsp; &nbsp; Positive output gap  'overheating'</li>
-          <li> &nbsp; &nbsp; Inflation under one percent implies a danger of self-reinforing deflation.</li>
-          <li> &nbsp; &nbsp; Inflation over four percent indicates overheating and threatens stability.</li>
+
+          <!-- 
+            ● ➡ ↪
+          -->
+          <li> &nbsp; &nbsp; ● &nbsp; Weak   growth ↪ monetary expansion</li>
+          <li> &nbsp; &nbsp; ● &nbsp; Strong growth ↪ monetary contraction against 'overheating' inflation</li>
+          <li> &nbsp; &nbsp; ● &nbsp; Positive output gap &nbsp; ↪  &nbsp; contraction against 'overheating'</li>
+          <li> &nbsp; &nbsp; ● &nbsp; Inflation < 1 pct &nbsp; ↪  &nbsp; deflationary spiral ➡ expansion</li>
+          <li> &nbsp; &nbsp; ● &nbsp; Inflation > 4 pct &nbsp; ↪  &nbsp; inflationary spiral ➡  contraction</li>
         </ul>
     </div>
 </dialog>
