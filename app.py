@@ -138,7 +138,7 @@ def injectLanguage():
 
 
 wd = os.getcwd()
-dirDl = Path(".") / "data" / "dl"
+dirDl = Path(".") / "scripts" / "council"
 
 
 

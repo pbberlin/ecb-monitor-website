@@ -409,12 +409,12 @@ print(f"\tscript     {Path(__file__).resolve()}   start")
 
 
 toHtml(
-    Path( appDir / "data" / "dl" / "ecb-council-data.pkl") ,
-    Path( appDir / "data" / "dl" / "council.html") ,
+    Path( appDir / "scripts" / "council" / "ecb-council-data.pkl") ,
+    Path( appDir / "scripts" / "council" / "council.html") ,
 )
 
 convertPickleToJs(
-    Path( appDir / "data"   / "dl" / "ecb-council-data.pkl") ,
+    Path( appDir / "scripts" / "council" / "ecb-council-data.pkl") ,
     Path( appDir / "static" / "dl" / "ecb-council-by-name.js") ,
     Path( appDir / "static" / "dl" / "ecb-council-by-function.js") ,
     "name",
