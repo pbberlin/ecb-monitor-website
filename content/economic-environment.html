@@ -132,10 +132,10 @@
   .control-pad {
     position: relative;   /*  z-index  */
     z-index:  10;
-   
+
     margin:  0.4rem;
     padding: 0.5rem 1.1rem;
-    
+
     border-radius: 0.2rem;
     background-color: rgba(217,233,236,0.25);
   }
@@ -488,7 +488,7 @@
 
 
 
-<!-- 
+<!--
   'module'
     runs after  HTML is fully parsed
     runs before DOMContentLoaded fires
@@ -498,15 +498,106 @@
 -->
 <script type="module">
 
-  // wrap in async func, since we need `await fetch(...)` at top level
+  /*
+    Since we need `await fetch(...)` at top level
+      -> we must wrap all logic in an async func.
+
+      logic contains event handlers with "closure" around top level variables.
+
+      1.) top level variables
+      2.) helper funcs, event handlers
+      3.) init/update code
+
+    */
   (async () => {
 
+    // xxxxx
+
+
+    // init-1
+    //    foundational variables - required in further code
     const root        = document.documentElement;
+    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
+    const colPri      = getComputedStyle(root).getPropertyValue('--color-primary').trim();
+    const colSec      = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
+    const colGr2      = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
+    const colIB3      = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
+
     const myChartDom  = document.getElementById('echart_container');
+    const myChart = echarts.init(myChartDom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    myChart.showLoading();
+
+
+    //  determine the root path based on current host
+    const ROOT_PATH = window.location.origin;
+    let url;
+    url = ROOT_PATH + '/static/echart/usa.json';
+    url = ROOT_PATH + '/static/echart/europe-complete.geojson';
+    url = ROOT_PATH + '/static/echart/europe-reduced-orig.geojson';
+    url = ROOT_PATH + '/static/echart/europe-reduced.geojson?v={{staticVersion}}';
+
+    let   rspGeo;
+    const isDevMode = window.APP_DEBUG;
+    if (isDevMode) {
+      // res = await fetch(url, { cache: 'no-cache' });
+      rspGeo = await fetch(url, { cache: 'no-store' });
+      console.log(`fetching map data - since development mode`);
+    } else {
+      rspGeo = await fetch(url, { cache: 'force-cache' });
+      console.log(`map data from cache - since production mode`);
+    }
+    if (!rspGeo.ok) { throw new Error(`HTTP ${rspGeo.status}`); }
+    const geoJSON = await rspGeo.json();   // works even if server sends text/plain
+    echarts.registerMap('europe-reduced', geoJSON);
+    // console.log("europe geo json loaded and registered")
+
+    // prepare longitude/latitude data from geojson file for positioning of geo shapes
+    let centroids = {};
+    for (let feature of geoJSON.features.entries()) {
+      // console.log(feature[1].properties);
+      let name = feature[1].properties.name;
+      let lon  = feature[1].properties.LON;
+      let lat  = feature[1].properties.LAT;
+      centroids[name] = [lon, lat];
+    }
+    // we can now use `centroids` for scatter data, tooltips, etc.
+    // console.log(` geo coords for centroid of France ${centroids["France"][0]} ${centroids["France"][1]}`)
+
+
     const currentYear = new Date().getFullYear();
 
-    // init
-    // xxxxx
+    // --- slider setup: 1960 .. (current year + 1) ---
+    const sliderEl = document.getElementById('yearSlider');
+    const labelEl  = document.getElementById('yearLabel');
+
+    sliderEl.max         = String(currentYear+1);
+    sliderEl.value       = String(currentYear);
+    labelEl.textContent  = sliderEl.value;
+
+    const statRadios     = document.querySelectorAll('input[name="stats_variable"]');
+    const extendableList = Array.from(statRadios);
+
+    const linkDownload = document.getElementById("linkDownload")
+
+
+    const elOpa          = document.getElementById("color_opacity");
+    extendableList.push(elOpa);
+
+    let initOpacity = 0.6;
+    let storedOpacity = localStorage.getItem("initOpacity");
+    if (storedOpacity !== null) {
+        initOpacity = parseFloat(storedOpacity);
+        // console.log(`  initOpacity from store ${initOpacity}  `)
+    }
+    root.style.setProperty("--initOpacity", initOpacity.toString());
+    elOpa.value = initOpacity;
+
+    let timerId = 0;
+
+
     let selectedDataMeta = {
       "ameco_gdp_growth": {
         "selected_data" : gdpGrowthReal,
@@ -521,11 +612,8 @@
         "formatter": (statsValue) => {
           return  (Math.round(statsValue*10)/10).toString() + ' %'
         },
-        // "color_ranges":  [-6, -2, 0, 2],
         "color_ranges":  [-4, 0, 4],
-        // "colors":        ["#FF0000", "#80A000", "#00A000", "#00A000"],
         "colors":        ["#00A000", "#80A000", "#FF0000"],
-
       },
       // monthly
       "eurostat_hicp": {
@@ -537,8 +625,6 @@
         "colors":        ["#00A000", "#80A000", "#FF0000"]
       } ,
     };
-
-
     let   selectedVar  = "ameco_gdp_growth";
     const rawHash      = window.location.hash;
     const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
@@ -548,52 +634,13 @@
     // console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
 
 
-    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
-
-    const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
-    const colSec = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
-    const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
-    const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
-
-
-    const elOpa = document.getElementById("color_opacity");
-    let storedOpacity = localStorage.getItem("initOpacity");
-    let initOpacity = 0.6;
-    if (storedOpacity !== null) {
-        initOpacity = parseFloat(storedOpacity);
-        // console.log(`  initOpacity from store ${initOpacity}  `)
-    }
-    root.style.setProperty("--initOpacity", initOpacity.toString());
-    elOpa.value = initOpacity;
-
-    createGradientLegend( "gradient1", selectedDataMeta[selectedVar]);
-
-
-    let statRadios = document.querySelectorAll('input[name="stats_variable"]');
-    statRadios.forEach(function(radio) {
-        if (radio.value === selectedVar) {
-            radio.checked = true;
-        }
-    });
-
-    let descs = document.querySelectorAll(".stats-desc");
-    descs.forEach(function(desc) {
-        if (desc.id === selectedVar + "_desc") {
-            desc.style.display = "block";
-          } else {
-            desc.style.display = "none";
-        }
-    });
 
 
 
-    const linkDownload = document.getElementById("linkDownload")
-    linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
 
-    const myChart = echarts.init(myChartDom, null, {
-      renderer: 'canvas',
-      useDirtyRect: false
-    });
+
+
+
 
 
     // for offset in percent - mapped to pixels of chart width/height
@@ -609,8 +656,6 @@
 
       return [ offsetX, offsetY ];
     }
-
-
 
     function mapToZeroOne(vl, ranges) {
 
@@ -831,14 +876,9 @@
       return results;
     }
 
-
-
-
     function arrowRedraw() {
         return;
     }
-
-
 
 
     function regionsColoring(yr=currentYear) {
@@ -1039,45 +1079,6 @@
 
 
 
-    //  determine the root path based on current host
-    const ROOT_PATH = window.location.origin;
-    let url;
-    url = ROOT_PATH + '/static/echart/usa.json';
-    url = ROOT_PATH + '/static/echart/europe-complete.geojson';
-    url = ROOT_PATH + '/static/echart/europe-reduced-orig.geojson';
-    url = ROOT_PATH + '/static/echart/europe-reduced.geojson?v={{staticVersion}}';
-
-    myChart.showLoading();
-
-    let res;
-    const isDevMode = window.APP_DEBUG;
-    if (isDevMode) {
-      // res = await fetch(url, { cache: 'no-cache' });
-      res = await fetch(url, { cache: 'no-store' });
-      console.log(`fetching map data - since development mode`);
-    } else {
-      res = await fetch(url, { cache: 'force-cache' });
-      console.log(`map data from cache - since production mode`);
-    }
-    if (!res.ok) { throw new Error(`HTTP ${res.status}`); }
-    const geoJSON = await res.json();   // works even if server sends text/plain
-    echarts.registerMap('europe-reduced', geoJSON);
-    // console.log("europe geo json loaded and registered")
-
-    // prepare longitude/latitude data from geojson file for positioning of geo shapes
-    let centroids = {};
-    for (let feature of geoJSON.features.entries()) {
-      // console.log(feature[1].properties);
-      let name = feature[1].properties.name;
-      let lon  = feature[1].properties.LON;
-      let lat  = feature[1].properties.LAT;
-      centroids[name] = [lon, lat];
-    }
-    // we can now use `centroids` for scatter data, tooltips, etc.
-    // console.log(` geo coords for centroid of France ${centroids["France"][0]} ${centroids["France"][1]}`)
-
-
-
     const optionsInit = {
 
       tooltip: {},
@@ -1085,7 +1086,7 @@
         show: false,
       },
 
-      // 
+      //
       toolbox: {
         show:   true,
         right: '0.125%',
@@ -1224,32 +1225,6 @@
 
     };
 
-    myChart.hideLoading();
-    myChart.setOption(optionsInit);
-    arrowRedraw();
-    // console.log("echart options set 1")
-
-
-    window.addEventListener('resize', function() {
-        myChart.resize();
-        arrowRedraw();
-    });
-
-    myChart.on('georoam', function() {
-        arrowRedraw();
-    });
-
-
-
-
-    // --- slider setup: 1960 .. (current year + 1) ---
-    const sliderEl = document.getElementById('yearSlider');
-    const labelEl  = document.getElementById('yearLabel');
-
-    sliderEl.max        = String(currentYear+1);
-    sliderEl.value      = String(currentYear);
-    labelEl.textContent = sliderEl.value;
-
 
     function subtractMonths(year, month, steps) {
       let newYear  = year;
@@ -1302,119 +1277,7 @@
     });
 
 
-    // --- onChange handler: update the chart option (stub) ---
-    sliderEl.addEventListener('change', function () {
 
-      const res = sliderToKey();
-      labelEl.textContent = res.lbl;
-
-      // mutate option and re-apply
-      let option3;
-
-      // reset the stuff we want to update
-      option3 = {
-        series: [],
-        geo: {
-          regions: [],
-        },
-      };
-      // re-populate
-      option3.series = [
-        ...manyCountriesShowStats(res.yr),
-        ...symbolsSeries(),
-      ];
-      option3.geo.regions  = [
-          ...regionsColoring(res.yr),
-          extraRectangle('Cyprus', -14,-37),
-          extraRectangle('Malta' ,  -6,-26),
-          extraRectangle('Euro area (20 countries)', -45,-51),
-      ];
-
-
-      console.log(` changing year to ${res.yr} `);
-      myChart.setOption(
-        option3,
-        {
-          notMerge :   false,  // do merge
-          lazyUpdate : true,
-        },
-      );
-    });
-
-
-
-
-    // color_opacity also triggers the option/radio change event
-    const extendableList = Array.from(statRadios);
-    extendableList.push(elOpa);
-
-    let timerId = 0;
-
-    // event handlers for radio inputs and color opacity
-    for (let idx1 = 0; idx1 < extendableList.length; idx1++) {
-      extendableList[idx1].addEventListener('change', function (evt) {
-
-        if (evt.target.name === "color_opacity") {
-          localStorage.setItem("initOpacity", evt.target.value.toString());
-        } else {
-          selectedVar  = evt.target.value;
-        }
-
-        console.log(`selected ${evt.target.value}`);
-
-        linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
-
-        createGradientLegend( "gradient1", selectedDataMeta[selectedVar]);
-
-
-        let descs = document.querySelectorAll(".stats-desc");
-        descs.forEach(function(desc) {
-            if (desc.id === selectedVar + "_desc") {
-                desc.style.display = "block";
-              } else {
-                desc.style.display = "none";
-            }
-        });
-
-
-        const res = sliderToKey();
-        labelEl.textContent = res.lbl;
-
-        let option4;
-        option4 = {
-          series: [],
-          geo: {
-            regions: [],
-          },
-        };
-        option4.series = [
-          ...manyCountriesShowStats(res.yr),
-          ...symbolsSeries(),
-        ];
-        option4.geo.regions  = [
-            ...regionsColoring(res.yr),
-            extraRectangle('Cyprus', -14,-37),
-            extraRectangle('Malta' ,  -6,-26),
-            extraRectangle('Euro area (20 countries)', -45,-51),
-        ];
-
-        myChart.setOption(
-          option4,
-          {
-            notMerge :   false,  // do merge
-            lazyUpdate : true,
-          },
-        );
-
-        if (timerId > 0) {
-          clearTimeout(timerId);
-        }
-        timerId = setTimeout(function () {
-          sliderEl.focus();
-        }, 1200);
-
-      });
-    }
 
 
     document.getElementById("linkPlay").addEventListener("click", function (ev) {
@@ -1443,6 +1306,156 @@
     });
 
 
+    function updateDesc(){
+      let descs = document.querySelectorAll(".stats-desc");
+      descs.forEach(function(desc) {
+          if (desc.id === selectedVar + "_desc") {
+              desc.style.display = "block";
+            } else {
+              desc.style.display = "none";
+          }
+      });
+    }
+
+
+
+
+
+    sliderEl.addEventListener('change', function () {
+
+      const res = sliderToKey();
+      labelEl.textContent = res.lbl;
+
+      // mutate option and re-apply
+      // reset the stuff we want to update
+      const optUpdate = {
+        series: [],
+        geo: {
+          regions: [],
+        },
+      };
+      // re-populate
+      optUpdate.series = [
+        ...manyCountriesShowStats(res.yr),
+        ...symbolsSeries(),
+      ];
+      optUpdate.geo.regions  = [
+          ...regionsColoring(res.yr),
+          extraRectangle('Cyprus', -14,-37),
+          extraRectangle('Malta' ,  -6,-26),
+          extraRectangle('Euro area (20 countries)', -45,-51),
+      ];
+
+      console.log(` changing year to ${res.yr} `);
+      myChart.setOption(
+        optUpdate,
+        {
+          notMerge :   false,  // do merge
+          lazyUpdate : true,
+        },
+      );
+    });
+
+
+
+
+    // event handlers for radio inputs and color_opacity
+    //    color_opacity also triggers the option/radio change event
+    for (let idx1 = 0; idx1 < extendableList.length; idx1++) {
+      extendableList[idx1].addEventListener('change', function (evt) {
+
+        if (evt.target.name === "color_opacity") {
+          localStorage.setItem("initOpacity", evt.target.value.toString());
+        } else {
+          selectedVar  = evt.target.value;
+        }
+
+        console.log(`selected ${evt.target.value}`);
+
+        linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
+
+        createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
+
+        updateDesc();
+
+        const res = sliderToKey();
+        labelEl.textContent = res.lbl;
+
+        const optUpdate = {
+          series: [],
+          geo: {
+            regions: [],
+          },
+        };
+        optUpdate.series = [
+          ...manyCountriesShowStats(res.yr),
+          ...symbolsSeries(),
+        ];
+        optUpdate.geo.regions  = [
+            ...regionsColoring(res.yr),
+            extraRectangle('Cyprus', -14,-37),
+            extraRectangle('Malta' ,  -6,-26),
+            extraRectangle('Euro area (20 countries)', -45,-51),
+        ];
+
+        myChart.setOption(
+          optUpdate,
+          {
+            notMerge :   false,  // do merge
+            lazyUpdate : true,
+          },
+        );
+
+
+        if (timerId > 0) {
+          clearTimeout(timerId);
+        }
+        timerId = setTimeout(function () {
+          sliderEl.focus();
+        }, 1200);
+
+
+      });
+    }
+
+
+
+
+    // init-2
+    const initFunc = () => {
+
+      statRadios.forEach(function(radio) {
+          if (radio.value === selectedVar) {
+              radio.checked = true;
+          }
+      });
+
+      console.log(`selected ${selectedVar}`);
+
+      linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
+
+      createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
+
+      updateDesc();
+
+      myChart.setOption(optionsInit);
+      arrowRedraw();
+      myChart.hideLoading();
+
+    }
+    initFunc()
+
+
+
+
+    window.addEventListener('resize', function() {
+        myChart.resize();
+        arrowRedraw();
+    });
+
+    myChart.on('georoam', function() {
+        arrowRedraw();
+    });
 
 
   })();   // end of outmost aync func - so we can you fetch inside
@@ -1558,7 +1571,7 @@
             <br>
           </li>
 
-          <!-- 
+          <!--
             ● ➡ ↪
           -->
           <li> &nbsp; &nbsp; ● &nbsp; Weak   growth ↪ monetary expansion</li>
