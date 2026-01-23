@@ -515,7 +515,6 @@
 
 
     // init-1
-    //    foundational variables - required in further code
     const root        = document.documentElement;
     const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
     const colPri      = getComputedStyle(root).getPropertyValue('--color-primary').trim();
@@ -634,6 +633,7 @@
 
 
 
+
     // for offset in percent - mapped to pixels of chart width/height
     // usage:
     //    offset:    percentToPxOffsets(-1, -5),
@@ -662,7 +662,6 @@
             return Math.max(0, Math.min(1, t));
         }
     }
-
 
 
     function valToPctToColor(vl, config) {
@@ -751,6 +750,7 @@
 
     const ecbCoord = [8.6889, 50.1095];  // frankfurt
     // const ecbCoord = [9.851, 51.11];  // germany centroid
+
 
 
 
@@ -867,9 +867,14 @@
       return results;
     }
 
+
+
+
     function arrowRedraw() {
         return;
     }
+
+
 
 
     function regionsColoring(yr=currentYear) {
@@ -1070,6 +1075,8 @@
 
 
 
+
+
     const optionsInit = {
 
       tooltip: {},
@@ -1091,7 +1098,6 @@
           borderWidth: 1
         },
 
-
         feature: {
           restore: {
             title: '🔍 100%'
@@ -1105,8 +1111,6 @@
         },
       },
 
-
-
       // global colors for series - taken from main-fonts.css
       color: [
         'rgb(194, 211,   0)',
@@ -1116,8 +1120,6 @@
         'rgb(157, 157, 156)',
         'rgb(174, 215, 217)',
       ],
-
-
 
       geo: {
         map: 'europe-reduced',
@@ -1232,6 +1234,7 @@
     }
 
 
+
     function sliderConfig(){
       if ("mapping2" in selectedDataMeta[selectedVar]["selected_data"]){
         const mp2 = selectedDataMeta[selectedVar]["selected_data"]["mapping2"];
@@ -1241,6 +1244,7 @@
         sliderEl.min = 2000;
       }
     }
+
 
     function sliderToKey(){
       const yr = parseInt(sliderEl.value, 10);
@@ -1259,7 +1263,6 @@
 
     }
 
-
     sliderEl.addEventListener("wheel", function(evt) {
         evt.preventDefault();               // stop page scrolling
         const direction = Math.sign(evt.deltaY);
@@ -1274,10 +1277,6 @@
         sliderEl.value = newValue;
         sliderEl.dispatchEvent(new Event("input"));    // trigger input event
     });
-
-
-
-
 
     document.getElementById("linkPlay").addEventListener("click", function (ev) {
         ev.preventDefault();
@@ -1304,7 +1303,6 @@
         }, 550);
     });
 
-
     function updateDesc(){
       let descs = document.querySelectorAll(".stats-desc");
       descs.forEach(function(desc) {
@@ -1315,10 +1313,6 @@
           }
       });
     }
-
-
-
-
 
 
 
@@ -1346,9 +1340,10 @@
       myChart.setOption(optionsInit);
       arrowRedraw();
       myChart.hideLoading();
-
     }
     initFunc()
+
+
 
 
 
@@ -1377,6 +1372,7 @@
           extraRectangle('Euro area (20 countries)', -45,-51),
       ];
 
+
       console.log(` changing year to ${res.yr} `);
       myChart.setOption(
         optUpdate,
@@ -1386,6 +1382,7 @@
         },
       );
     });
+
 
 
 
@@ -1438,7 +1435,6 @@
           },
         );
 
-
         if (timerId > 0) {
           clearTimeout(timerId);
         }
@@ -1446,10 +1442,8 @@
           sliderEl.focus();
         }, 1200);
 
-
       });
     }
-
 
 
 
@@ -1461,6 +1455,9 @@
     myChart.on('georoam', function() {
         arrowRedraw();
     });
+
+
+    
 
 
   })();   // end of outmost aync func - so we can you fetch inside
