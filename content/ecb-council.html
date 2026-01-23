@@ -1583,21 +1583,19 @@
       populateLeftPanel(res.yr)
 
       // mutate option and re-apply
-      let option3;
-
       // reset the stuff we want to update
-      option3 = {
+      const optUpdate = {
         series: [],
         geo: {
           regions: [],
         },
       };
       // re-populate
-      option3.series = [
+      optUpdate.series = [
         ...manyCountriesShowStats(res.yr),
         ...symbolsSeries(),
       ];
-      option3.geo.regions  = [
+      optUpdate.geo.regions  = [
           ...regionsColoring(res.yr),
           extraRectangle('Cyprus', -14,-37),
           extraRectangle('Malta' ,  -6,-26),
@@ -1606,7 +1604,7 @@
 
       console.log(` changing year to ${res.yr} `);
       myChart.setOption(
-        option3,
+        optUpdate,
         {
           notMerge :   false,  // do merge
           lazyUpdate : true,
