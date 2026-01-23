@@ -578,13 +578,11 @@
     labelEl.textContent  = sliderEl.value;
 
     const statRadios     = document.querySelectorAll('input[name="stats_variable"]');
-    const extendableList = Array.from(statRadios);
-
-    const linkDownload = document.getElementById("linkDownload")
-
-
+    const linkDownload   = document.getElementById("linkDownload")
     const elOpa          = document.getElementById("color_opacity");
+    const extendableList = Array.from(statRadios);
     extendableList.push(elOpa);
+
 
     let initOpacity = 0.6;
     let storedOpacity = localStorage.getItem("initOpacity");
@@ -625,6 +623,7 @@
         "colors":        ["#00A000", "#80A000", "#FF0000"]
       } ,
     };
+
     let   selectedVar  = "ameco_gdp_growth";
     const rawHash      = window.location.hash;
     const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
@@ -632,14 +631,6 @@
       selectedVar    = byUrlHash;
     }
     // console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
-
-
-
-
-
-
-
-
 
 
 
@@ -1128,8 +1119,6 @@
 
 
 
-
-
       geo: {
         map: 'europe-reduced',
         roam: true,
@@ -1243,6 +1232,16 @@
     }
 
 
+    function sliderConfig(){
+      if ("mapping2" in selectedDataMeta[selectedVar]["selected_data"]){
+        const mp2 = selectedDataMeta[selectedVar]["selected_data"]["mapping2"];
+        const firstKey = Object.keys(mp2)[0]; // determininistic, insertion order
+        sliderEl.min = firstKey;
+      } else {
+        sliderEl.min = 2000;
+      }
+    }
+
     function sliderToKey(){
       const yr = parseInt(sliderEl.value, 10);
       if (selectedVar !== "eurostat_hicp"){
@@ -1321,6 +1320,38 @@
 
 
 
+
+
+
+    // init-2
+    const initFunc = () => {
+
+      statRadios.forEach(function(radio) {
+          if (radio.value === selectedVar) {
+              radio.checked = true;
+          }
+      });
+
+      console.log(`selected ${selectedVar}`);
+
+      createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
+
+      sliderConfig();
+
+      linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
+
+
+      updateDesc();
+
+      myChart.setOption(optionsInit);
+      arrowRedraw();
+      myChart.hideLoading();
+
+    }
+    initFunc()
+
+
+
     sliderEl.addEventListener('change', function () {
 
       const res = sliderToKey();
@@ -1372,14 +1403,15 @@
 
         console.log(`selected ${evt.target.value}`);
 
+        sliderConfig();
+        const res = sliderToKey();
+        labelEl.textContent = res.lbl;
+
         linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
 
         createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
 
         updateDesc();
-
-        const res = sliderToKey();
-        labelEl.textContent = res.lbl;
 
         const optUpdate = {
           series: [],
@@ -1417,33 +1449,6 @@
 
       });
     }
-
-
-
-
-    // init-2
-    const initFunc = () => {
-
-      statRadios.forEach(function(radio) {
-          if (radio.value === selectedVar) {
-              radio.checked = true;
-          }
-      });
-
-      console.log(`selected ${selectedVar}`);
-
-      linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
-
-      createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
-
-      updateDesc();
-
-      myChart.setOption(optionsInit);
-      arrowRedraw();
-      myChart.hideLoading();
-
-    }
-    initFunc()
 
 
 

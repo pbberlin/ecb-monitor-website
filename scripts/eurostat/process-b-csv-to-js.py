@@ -224,10 +224,13 @@ def makeJsFromTsv(
         maxKey = max(mappingInverted.keys())
         minValue = mappingInverted[minKey]
         maxValue = mappingInverted[maxKey]
-        for idx1, yearInt in enumerate(range(2000, int(minKey))):
-            mappingInverted[yearInt] = str(minValue)
-            if idx1 == 2000 or (idx1 > (int(minKey)-4)):
-                print(f"\t  year {yearInt} - min value {minValue}")
+
+        if False:
+            # padding no longer needed
+            for idx1, yearInt in enumerate(range(2000, int(minKey))):
+                mappingInverted[yearInt] = str(minValue)
+                if idx1 == 2000 or (idx1 > (int(minKey)-4)):
+                    print(f"\t  year {yearInt} - min value {minValue}")
         nextYears = [currentYear + 1, currentYear + 2]
         for idx1, yearInt in enumerate(nextYears):
             mappingInverted[yearInt] = maxValue
