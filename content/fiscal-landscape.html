@@ -416,7 +416,6 @@
           <input type="radio" name="stats_variable" value="eurostat_yields_10y">
         </label>
 
-
       </div>
 
 
@@ -550,10 +549,22 @@
 -->
 <script type="module">
 
-  // wrap in async func, since we need `await fetch(...)` at top level
-  (async () => {
+    /*
+    Since we need `await fetch(...)` at top level
+      -> we must wrap all logic in an async func.
+
+      logic contains event handlers with "closure" around top level variables.
+
+      1.) top level variables
+      2.) helper funcs, event handlers
+      3.) init/update code
+
+    */
+(async () => {
 
     // xxxxx
+
+
     // init-1
     const root        = document.documentElement;
     const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
@@ -578,7 +589,7 @@
     url = ROOT_PATH + '/static/echart/europe-reduced-orig.geojson';
     url = ROOT_PATH + '/static/echart/europe-reduced.geojson?v={{staticVersion}}';
 
-    let rspGeo;
+    let   rspGeo;
     const isDevMode = window.APP_DEBUG;
     if (isDevMode) {
       // res = await fetch(url, { cache: 'no-cache' });
@@ -621,6 +632,7 @@
     const elOpa          = document.getElementById("color_opacity");
     const extendableList = Array.from(statRadios);
     extendableList.push(elOpa);
+
 
     let initOpacity = 0.6;
     let storedOpacity = localStorage.getItem("initOpacity");
@@ -1431,7 +1443,7 @@
 
       console.log(`selected ${selectedVar}`);
 
-      createGradientLegend( "gradient1", selectedDataMeta[selectedVar]);
+      createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
 
       sliderConfig();
       
@@ -1509,7 +1521,7 @@
 
         linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
 
-        createGradientLegend( "gradient1", selectedDataMeta[selectedVar]);
+        createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
 
         updateDesc();
 
