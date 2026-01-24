@@ -125,6 +125,9 @@
   }
 
 
+
+
+
   /* content styles, why was the z-index needed?  */
   .control-pad {
     position: relative;   /*  z-index  */
@@ -156,8 +159,6 @@
     width: 90%;
     align-self: end;
   }
-
-
 
 
 
@@ -210,7 +211,6 @@
         text-align: left;
       }
 
-
       /* center column: echart takes full width on phone */
       #echart_container {
         width:             100%;
@@ -235,42 +235,7 @@
 }
 
 
-  .col--left   {
-    background-image: url("/static/img/ecb/ecb-transparent-22pct.png");
-    background-image: url("/static/img/ecb/ecb-transparent-30pct.png");
-    background-repeat: no-repeat;
-
-    background-size:      100%;
-    background-position-y:  4.8rem;
-    background-position-x: -4.5rem;
-
-    background-size:      70%;
-    background-position-y:  5.8rem;
-    background-position-x:  1.3rem;
-
-    /* background-blend-mode: lighten; */
-  }
-
-/*
-  .col--right {
-    display: grid;
-    grid-template-rows: auto 1fr;
-
-
-    align-content: unset;
-  }
-
-  .col--right > :first-child {
-    align-self: start;
-  }
-  .col--right > :not(:first-child) {
-    align-self: end;
-  }
-
- */
-
 </style>
-
 
 <style>
 
@@ -335,8 +300,24 @@
 
 
 
-
 <style>
+
+  .col--left   {
+    background-image: url("/static/img/ecb/ecb-transparent-22pct.png");
+    background-image: url("/static/img/ecb/ecb-transparent-30pct.png");
+    background-repeat: no-repeat;
+
+    background-size:      100%;
+    background-position-y:  4.8rem;
+    background-position-x: -4.5rem;
+
+    background-size:      70%;
+    background-position-y:  5.8rem;
+    background-position-x:  1.3rem;
+
+    /* background-blend-mode: lighten; */
+  }
+
 
   #council_list,
   #council_right
@@ -461,26 +442,39 @@
 
   }
 
-
-
-
+  .gradient-illustation {
+    width: 17%;
+  }
+  .gradient-illustation-img1 {
+    /* align-self:   start; */
+    /* justify-self: start; */
+    translate:  -40%  +60%;
+    opacity: 0.7;
+  }
+  .gradient-illustation-img2 {
+    margin-left: auto;
+    translate: +40%   +60%;
+    opacity: 0.7;
+  }
 
 </style>
 
 
 
-
-
-
-
-
+<!-- id-1331qerwqrwqrq -->
+<!-- id-1331qerwqrwqrq -->
+<!-- id-1331qerwqrwqrq -->
 <div class="layout">
 
   <div class="col col--left control-pad">
-      <!-- First (top, right) -->
-      <h3> {{i18n.headline_ecb_council}}</h3>
 
-      <!-- <label for="yearSlider">Year:</label> -->
+    <!-- First (top, right) -->
+      <h3> {{i18n.headline_ecb_council}}
+        <!--  -->
+      </h3>
+
+
+
       <div id="slider-group" class="slider-group">
         <input id="yearSlider" type="range" min="1999" step="1"  autofocus  />
         <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
@@ -508,32 +502,13 @@
     <div id="echart_container">echart container content</div>
   </div>
 
+
+
   <div class="col col--right control-pad">
-      <!-- right col content -->
-
-
 
       <div id="council_right"
       ></div>
 
-
-
-      <style>
-        .gradient-illustation {
-          width: 17%;
-        }
-        .gradient-illustation-img1 {
-          /* align-self:   start; */
-          /* justify-self: start; */
-          translate:  -40%  +60%;
-          opacity: 0.7;
-        }
-        .gradient-illustation-img2 {
-          margin-left: auto;
-          translate: +40%   +60%;
-          opacity: 0.7;
-        }
-      </style>
 
       <div class="slider-group"
           style="
@@ -544,6 +519,7 @@
         <img class="gradient-illustation gradient-illustation-img1"  src="/static/img/dovish-hawkish/dove.png" alt="dove">
         <img class="gradient-illustation gradient-illustation-img2"  src="/static/img/dovish-hawkish/hawk.png" alt="hawk">
       </div>
+
 
 
 
@@ -574,6 +550,9 @@
       </div>
 
 
+
+
+
   </div><!-- /col--right -->
 
 
@@ -598,15 +577,94 @@
 -->
 <script type="module">
 
-  // wrap in async func, since we need `await fetch(...)` at top level
+  /*
+    Since we need `await fetch(...)` at top level
+      -> we must wrap all logic in an async func.
+
+      logic contains event handlers with "closure" around top level variables.
+
+      1.) top level variables
+      2.) helper funcs, event handlers
+      3.) init/update code
+
+    */
   (async () => {
 
+    // xxxxx
+
+
+    // init-1
     const root        = document.documentElement;
+    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
+    const colPri      = getComputedStyle(root).getPropertyValue('--color-primary').trim();
+    const colSec      = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
+    const colGr2      = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
+    const colIB3      = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
+
     const myChartDom  = document.getElementById('echart_container');
+    const myChart = echarts.init(myChartDom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    myChart.showLoading();
+
+
+    //  determine the root path based on current host
+    const ROOT_PATH = window.location.origin;
+    let url;
+    url = ROOT_PATH + '/static/echart/europe-reduced.geojson?v={{staticVersion}}';
+
+    let   rspGeo;
+    const isDevMode = window.APP_DEBUG;
+    if (isDevMode) {
+      // res = await fetch(url, { cache: 'no-cache' });
+      rspGeo = await fetch(url, { cache: 'no-store' });
+      console.log(`fetching map data - since development mode`);
+    } else {
+      rspGeo = await fetch(url, { cache: 'force-cache' });
+      console.log(`map data from cache - since production mode`);
+    }
+    if (!rspGeo.ok) { throw new Error(`HTTP ${rspGeo.status}`); }
+    const geoJSON = await rspGeo.json();   // works even if server sends text/plain
+    echarts.registerMap('europe-reduced', geoJSON);
+    // console.log("europe geo json loaded and registered")
+
+    // prepare longitude/latitude data from geojson file for positioning of geo shapes
+    let centroids = {};
+    for (let feature of geoJSON.features.entries()) {
+      // console.log(feature[1].properties);
+      let name = feature[1].properties.name;
+      let lon  = feature[1].properties.LON;
+      let lat  = feature[1].properties.LAT;
+      centroids[name] = [lon, lat];
+    }
+    // we can now use `centroids` for scatter data, tooltips, etc.
+    // console.log(` geo coords for centroid of France ${centroids["France"][0]} ${centroids["France"][1]}`)
+
+
     const currentYear = new Date().getFullYear();
 
-    // xxxxx
-    // init
+    // --- slider setup: 1960 .. (current year + 1) ---
+    const sliderEl = document.getElementById('yearSlider');
+    const labelEl  = document.getElementById('yearLabel');
+
+    sliderEl.max         = String(currentYear+0);
+    sliderEl.value       = String(currentYear);
+    labelEl.textContent  = sliderEl.value;
+
+
+
+    const elOpa          = document.getElementById("color_opacity");
+    let storedOpacity    = localStorage.getItem("initOpacity");
+    let initOpacity = 0.6;
+    if (storedOpacity !== null) {
+        initOpacity = parseFloat(storedOpacity);
+        // console.log(`  initOpacity from store ${initOpacity}  `)
+    }
+    root.style.setProperty("--initOpacity", initOpacity.toString());
+    elOpa.value = initOpacity;
+
+
     let selectedDataMeta = {
       "main": {
         "selected_data" : councilByFunction,
@@ -626,62 +684,11 @@
           }
           return vl;
         },
-
         // yellow - stingy -  blue - flood of liquidity
         "color_ranges": [-1.0, 0.0 , 1.0],
         "colors":       [ "#0000A0","#A0A0A0", "#A0A000"],
-
-        // "color_ranges": [-1.0, -0.75,   0.0 , 0.75, 1.0],
-        // "colors":       [ "#0000A0","#0000A0", "#A0A0A0", "#A0A000", "#A0A000"],
-
       } ,
     };
-
-
-    const rawHash      = window.location.hash;
-    const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
-    if (byUrlHash !== ""){
-      selectedVar    = byUrlHash;
-    }
-    // console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
-
-    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
-
-    const colPri = getComputedStyle(root).getPropertyValue('--color-primary').trim();
-    const colSec = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
-    const colGr2 = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
-    const colIB3 = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
-
-
-
-
-    const elOpa = document.getElementById("color_opacity");
-    let storedOpacity = localStorage.getItem("initOpacity");
-    let initOpacity = 0.6;
-    if (storedOpacity !== null) {
-        initOpacity = parseFloat(storedOpacity);
-        // console.log(`  initOpacity from store ${initOpacity}  `)
-    }
-    root.style.setProperty("--initOpacity", initOpacity.toString());
-    elOpa.value = initOpacity;
-    elOpa.addEventListener('change', function (evt) {
-      localStorage.setItem("initOpacity", evt.target.value.toString());
-      console.log(`selected opacity ${evt.target.value}`);
-
-      createGradientLegend( "gradient1", selectedDataMeta["main"]);
-
-      sliderEl.dispatchEvent(
-        new InputEvent('change', {
-          bubbles:    true,
-          cancelable: true,
-        })
-      );
-
-    });
-
-    createGradientLegend( "gradient1", selectedDataMeta["main"]);
-
-
 
 
     function mapToZeroOne(vl, ranges) {
@@ -698,6 +705,8 @@
             return Math.max(0, Math.min(1, t));
         }
     }
+
+
     function valToPctToColor(vl, config) {
 
         let opacity = initOpacity;
@@ -781,17 +790,6 @@
         return "#" + asHex.join("") + opacityHex;
     }
 
-
-
-
-
-    const myChart = echarts.init(myChartDom, null, {
-      renderer: 'canvas',
-      useDirtyRect: false
-    });
-
-
-
     function symbolsSeries(){
       let results = [];
 
@@ -855,87 +853,177 @@
       return results;
     }
 
+    function arrowRedraw( startCoord=[8.6889, 50.1095] ) {
 
-    // creating numbers at the centroid of 27 eu countries
-    function manyCountriesShowStats(yr=currentYear) {
+        const posStart = myChart.convertToPixel({ geoIndex: 0 }, startCoord);
+        const maxX = myChart.getWidth();
+
+        const containerWidth  = myChartDom.clientWidth;
+        const containerHeight = myChartDom.clientHeight;
+
+        let p0x = posStart[0];
+        let p0y = posStart[1];
+        // tuning arrow below icon
+        // p0x = p0x -  8;
+        // p0y = p0y + 26;
+        p0x = p0x + 2;
+        p0y = p0y - 10;
+
+        let endX = containerWidth + 0;
+        endX = maxX;
+        let  endY = p0y;
+        endY = 45;
+
+        // const midX = (startX + endX) / 2;
+        let p1x = (p0x + endX) / 3.4;
+        let p1y =  p0y - 0;
+
+        p1x = p0x + 100;
+        p1y = endY;
 
 
-      let fontSizeByDisplay = 12;
-      if (displayType === "mobile") {
-        fontSizeByDisplay = 10;
-      }
+        const pointsForPolyLine = [
+            [p0x, p0y],
+            [p1x, p1y],
+            [endX, endY]
+        ];
 
+        myChart.setOption({
+            graphic: [
+                {
+                    id: 'ecb-arrow-line',
+                    type: 'polyline',
+                    shape: {
+                        points: pointsForPolyLine
+                    },
+                    style: {
+                        stroke: '#333',
+                        lineWidth: 0.4
+                    },
+                    silent: true,  // no reaction to click, hover, drag...
+                },
+                {
+                    id: 'ecb-arrow-head',
+                    type: 'polygon',
+                    shape: {
+                        points: [
+                            [endX - 0, endY     ],    // right most
+                            [endX - 4, endY -  4],
+                            [endX - 4, endY +  4]
+                        ]
+                    },
+                    style: {
+                        fill: '#888'
+                    },
+                    silent: true
+                },
+            ]
+        });
+    }
+
+    function regionsColoring(yr=currentYear) {
 
       let results = [];
 
-      let countryVals = {};
+      for (const [idx, country] of nonMembers.entries()) {
+          let item = {
+            name:  country,
+            tooltip: {
+              show:      true,
+              formatter: country + "\n(non EU)",
+            },
+            itemStyle: {
+              areaColor:   '#eee',
+              borderWidth:  0.4,
+              borderColor: '#ccc'
+            },
+            emphasis: {
+              disabled: true,
+            },
+           };
+          // console.log(`  regionsColoring()-1 ${country}`);
+          results.push(item);
+      };
 
-      // xxxxx
-      for (const rec of councilByFunction) {
+
+      for (const [idx, country] of notInEuro.entries()) {
+          let item = {
+              name: country,
+              tooltip: {
+                show:      true,
+                formatter: country + "\n(no €)",
+              },
+              itemStyle: {
+                areaColor: 'rgb(238, 245, 245)',
+                borderWidth: 0.2,
+                aaborderColor: '#ccc',
+              },
+              emphasis: { disabled: true },
+          };
+          // console.log(`  regionsColoring()-2 ${country}`);
+          results.push(item);
+      };
 
 
-        let role1 = rec["organisation_euro"]
-        if(role1 === "ecb"){
-          continue;
-        }
 
-        let country   = rec["country"]
-        let yearStart = rec["year_start"]
-        let yearStop  = rec["year_stop"]
-        if (yearStop === 0) {
-          yearStop = 9999;
-        }
-        if(yearStart <= yr  &&  yearStop >= yr){
-          // is current
-        } else {
-          continue;
-        }
+      for (const [idx, country] of euCountriesEuro.entries()) {
 
-        if(countryVals[country]){
+        const colorNoData = 'rgba(224, 224, 224, 0.28)';
+        let areaCol = colorNoData;
+
+        let countryVals = {}
+        for (const rec of councilByFunction) {
+
+          let role1 = rec["organisation_euro"]
+          if(role1 === "ecb"){
             continue;
-        } else {
-          countryVals[country] = true;
+          }
+
+          let countryEcb= rec["country"];
+          let yearStart = rec["year_start"]
+          let yearStop  = rec["year_stop"]
+          if (yearStop === 0) {
+            yearStop = 9999;
+          }
+          if(yearStart <= yr  &&  yearStop >= yr){
+            // is current
+          } else {
+            continue;
+          }
+
+          if(countryVals[countryEcb]){
+              continue;
+          } else {
+            countryVals[countryEcb] = true;
+          }
+
+          if(country===countryEcb){
+            let statsValue = rec["hawkish_score"];
+            // areaCol = 'rgba(199, 199, 244, 0.28)';
+            areaCol = valToPctToColor(statsValue, selectedDataMeta["main"])
+          }
         }
 
-        let statsValue = rec["hawkish_score"];
-
-        // console.log(` ${country}  ${statsValue} `)
-        // console.log(`   coords ${centroids[country][0]}  ${centroids[country][1]}  `)
 
         let item = {
-          type: 'scatter',
-          coordinateSystem: 'geo',
-          symbol: 'circle',
-          symbolSize: 34,
-          symbolSize:  0,
-          color: valToPctToColor(statsValue, selectedDataMeta["main"]),  // only if symbolSize > 0
-          animation:         false,
-          animationDuration: 0,
-          label: {
-            show: true,
-            // formatter:      statsValue,
-            // formatter:      Math.round(statsValue*100).toString(),
-            formatter:      (Math.round(statsValue*100)/100).toString(),
-            fontSize:       14,
-            fontSize:       fontSizeByDisplay,
-            fontWeight:     300,
-            color:         '#000',
-            align:         'center',
-            verticalAlign: 'middle',
-          },
-          data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], statsValue] }],
-          tooltip:  { show: true, formatter: `${statsValue}` },
-          tooltip:  { show: false },
-          z: 10,
-        };
-        results.push(item);
-      }
+              name:    country,
+              yearEvt: yr,
+              tooltip: {
+                show:      true,
+                formatter: country,
+              },
+              itemStyle: {
+                areaColor:   areaCol,
+                borderWidth: 0.2,
+                // borderColor: '#444',
+              },
+          };
+          // console.log(`  regionsColoring()-3 ${country}`);
+          results.push(item);
+      };
+
       return results;
     }
-
-
-
-
 
 
     function extraRectangle(country, offsetX, offsetY){
@@ -1020,221 +1108,86 @@
 
 
 
-    function regionsColoring(yr=currentYear) {
+    // creating debt numbers at the centroid of 27 eu countries
+    function manyCountriesShowStats(yr=currentYear) {
+
+      let fontSizeByDisplay = 12;
+      if (displayType === "mobile") {
+        fontSizeByDisplay = 10;
+        // console.log(`displayType = ${displayType} - fontSize = ${fontSizeByDisplay}`)
+      }
 
       let results = [];
 
-      for (const [idx, country] of nonMembers.entries()) {
-          let item = {
-            name:  country,
-            tooltip: {
-              show:      true,
-              formatter: country + "\n(non EU)",
-            },
-            itemStyle: {
-              areaColor:   '#eee',
-              borderWidth:  0.4,
-              borderColor: '#ccc'
-            },
-            emphasis: {
-              disabled: true,
-            },
-           };
-          // console.log(`  regionsColoring()-1 ${country}`);
-          results.push(item);
-      };
-
-
-      for (const [idx, country] of notInEuro.entries()) {
-          let item = {
-              name: country,
-              tooltip: {
-                show:      true,
-                formatter: country + "\n(no €)",
-              },
-              itemStyle: {
-                areaColor: 'rgb(238, 245, 245)',
-                borderWidth: 0.2,
-                aaborderColor: '#ccc',
-              },
-              emphasis: { disabled: true },
-          };
-          // console.log(`  regionsColoring()-2 ${country}`);
-          results.push(item);
-      };
-
+      let countryVals = {};
 
       // xxxxx
-      for (const [idx, country] of euCountriesEuro.entries()) {
+      for (const rec of councilByFunction) {
 
-        const colorNoData = 'rgba(224, 224, 224, 0.28)';
-        let areaCol = colorNoData;
 
-        let countryVals = {}
-        for (const rec of councilByFunction) {
-
-          let role1 = rec["organisation_euro"]
-          if(role1 === "ecb"){
-            continue;
-          }
-
-          let countryEcb= rec["country"];
-          let yearStart = rec["year_start"]
-          let yearStop  = rec["year_stop"]
-          if (yearStop === 0) {
-            yearStop = 9999;
-          }
-          if(yearStart <= yr  &&  yearStop >= yr){
-            // is current
-          } else {
-            continue;
-          }
-
-          if(countryVals[countryEcb]){
-              continue;
-          } else {
-            countryVals[countryEcb] = true;
-          }
-
-          if(country===countryEcb){
-            let statsValue = rec["hawkish_score"];
-            // areaCol = 'rgba(199, 199, 244, 0.28)';
-            areaCol = valToPctToColor(statsValue, selectedDataMeta["main"])
-          }
+        let role1 = rec["organisation_euro"]
+        if(role1 === "ecb"){
+          continue;
         }
 
+        let country   = rec["country"]
+        let yearStart = rec["year_start"]
+        let yearStop  = rec["year_stop"]
+        if (yearStop === 0) {
+          yearStop = 9999;
+        }
+        if(yearStart <= yr  &&  yearStop >= yr){
+          // is current
+        } else {
+          continue;
+        }
+
+        if(countryVals[country]){
+            continue;
+        } else {
+          countryVals[country] = true;
+        }
+
+        let statsValue = rec["hawkish_score"];
+
+        // console.log(` ${country}  ${statsValue} `)
+        // console.log(`   coords ${centroids[country][0]}  ${centroids[country][1]}  `)
 
         let item = {
-              name:    country,
-              yearEvt: yr,
-              tooltip: {
-                show:      true,
-                formatter: country,
-              },
-              itemStyle: {
-                areaColor:   areaCol,
-                borderWidth: 0.2,
-                // borderColor: '#444',
-              },
-          };
-          // console.log(`  regionsColoring()-3 ${country}`);
-          results.push(item);
-      };
-
+          type: 'scatter',
+          coordinateSystem: 'geo',
+          symbol: 'circle',
+          symbolSize: 34,
+          symbolSize:  0,
+          color: valToPctToColor(statsValue, selectedDataMeta["main"]),  // only if symbolSize > 0
+          animation:         false,
+          animationDuration: 0,
+          label: {
+            show: true,
+            // formatter:      statsValue,
+            // formatter:      Math.round(statsValue*100).toString(),
+            formatter:      (Math.round(statsValue*100)/100).toString(),
+            fontSize:       14,
+            fontSize:       fontSizeByDisplay,
+            fontWeight:     300,
+            color:         '#000',
+            align:         'center',
+            verticalAlign: 'middle',
+          },
+          data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], statsValue] }],
+          tooltip:  { show: true, formatter: `${statsValue}` },
+          tooltip:  { show: false },
+          z: 10,
+        };
+        results.push(item);
+      }
       return results;
     }
 
 
-    function arrowRedraw( startCoord=[8.6889, 50.1095] ) {
-
-        const posStart = myChart.convertToPixel({ geoIndex: 0 }, startCoord);
-        const maxX = myChart.getWidth();
-
-        const containerWidth  = myChartDom.clientWidth;
-        const containerHeight = myChartDom.clientHeight;
-
-        let p0x = posStart[0];
-        let p0y = posStart[1];
-        // tuning arrow below icon
-        // p0x = p0x -  8;
-        // p0y = p0y + 26;
-        p0x = p0x + 2;
-        p0y = p0y - 10;
-
-        let endX = containerWidth + 0;
-        endX = maxX;
-        let  endY = p0y;
-        endY = 45;
-
-        // const midX = (startX + endX) / 2;
-        let p1x = (p0x + endX) / 3.4;
-        let p1y =  p0y - 0;
-
-        p1x = p0x + 100;
-        p1y = endY;
-
-
-        const pointsForPolyLine = [
-            [p0x, p0y],
-            [p1x, p1y],
-            [endX, endY]
-        ];
-
-        myChart.setOption({
-            graphic: [
-                {
-                    id: 'ecb-arrow-line',
-                    type: 'polyline',
-                    shape: {
-                        points: pointsForPolyLine
-                    },
-                    style: {
-                        stroke: '#333',
-                        lineWidth: 0.4
-                    },
-                    silent: true,  // no reaction to click, hover, drag...
-                },
-                {
-                    id: 'ecb-arrow-head',
-                    type: 'polygon',
-                    shape: {
-                        points: [
-                            [endX - 0, endY     ],    // right most
-                            [endX - 4, endY -  4],
-                            [endX - 4, endY +  4]
-                        ]
-                    },
-                    style: {
-                        fill: '#888'
-                    },
-                    silent: true
-                },
-            ]
-        });
-    }
 
 
 
-
-
-
-
-
-
-
-
-    //  determine the root path based on current host
-    const ROOT_PATH = window.location.origin;
-    let url;
-    url = ROOT_PATH + '/static/echart/europe-reduced.geojson?v={{staticVersion}}';
-    myChart.showLoading();
-
-    let res;
-    const isDevMode = window.APP_DEBUG;
-    if (isDevMode) {
-      // res = await fetch(url, { cache: 'no-cache' });
-      res = await fetch(url, { cache: 'no-store' });
-      console.log(`fetching map data - since development mode`);
-    } else {
-      res = await fetch(url, { cache: 'force-cache' });
-      console.log(`map data from cache - since production mode`);
-    }
-    if (!res.ok) { throw new Error(`HTTP ${res.status}`); }
-    const geoJSON = await res.json();   // works even if server sends text/plain
-    echarts.registerMap('europe-reduced', geoJSON);
-    // console.log("europe geo json loaded and registered")
-
-    // prepare longitude/latitude data from geojson file for positioning of geo shapes
-    let centroids = {};
-    for (let feature of geoJSON.features.entries()) {
-      // console.log(feature[1].properties);
-      let name = feature[1].properties.name;
-      let lon  = feature[1].properties.LON;
-      let lat  = feature[1].properties.LAT;
-      centroids[name] = [lon, lat];
-    }
-    // we can now use `centroids` for scatter data, tooltips, etc.
-    // console.log(` geo coords for centroid of France ${centroids["France"][0]} ${centroids["France"][1]}`)
 
 
 
@@ -1259,7 +1212,6 @@
           borderWidth: 1
         },
 
-
         feature: {
           restore: {
             title: '🔍 100%'
@@ -1273,8 +1225,6 @@
         },
       },
 
-
-
       // global colors for series - taken from main-fonts.css
       color: [
         'rgb(194, 211,   0)',
@@ -1284,10 +1234,6 @@
         'rgb(157, 157, 156)',
         'rgb(174, 215, 217)',
       ],
-
-
-
-
 
       geo: {
         map: 'europe-reduced',
@@ -1363,18 +1309,18 @@
           borderWidth:           0.50,
         },
 
-
+        // extra colors for eu non-members
         regions: [
-          // changing properties of existing shape (by name)
-          ...regionsColoring(),                // returns list of items
-          //  drawing additional shapes
+          ...regionsColoring(),
           extraRectangle('Cyprus', -14,-37),
           extraRectangle('Malta' ,  -6,-26),
-          extraRectangle('Euro area (20 countries)', -45,-51),
+          extraRectangle('Euro area (20 countries)', -45,-51),        
+          // rectangles('Luxembourg' ,  0,0),          
         ],
 
       },   // end geo
 
+      
 
       series: [
         // adding chart elements
@@ -1385,16 +1331,6 @@
 
     };
 
-
-
-
-    // --- slider setup: 1960 .. (current year + 1) ---
-    const sliderEl = document.getElementById('yearSlider');
-    const labelEl  = document.getElementById('yearLabel');
-
-    sliderEl.max        = String(currentYear+0);
-    sliderEl.value      = String(currentYear);
-    labelEl.textContent = sliderEl.value;
 
     function sliderToKey(){
       const yr = parseInt(sliderEl.value, 10);
@@ -1418,8 +1354,6 @@
         sliderEl.value = newValue;
         sliderEl.dispatchEvent(new Event("input"));    // trigger input event
     });
-
-
 
 
     function memberCardTranslation(ky, vl) {
@@ -1574,45 +1508,6 @@
 
 
 
-    // --- onChange handler: update the chart option (stub) ---
-    sliderEl.addEventListener('change', function () {
-
-      const res = sliderToKey();
-      labelEl.textContent = res.lbl;
-
-      populateLeftPanel(res.yr)
-
-      // mutate option and re-apply
-      // reset the stuff we want to update
-      const optUpdate = {
-        series: [],
-        geo: {
-          regions: [],
-        },
-      };
-      // re-populate
-      optUpdate.series = [
-        ...manyCountriesShowStats(res.yr),
-        ...symbolsSeries(),
-      ];
-      optUpdate.geo.regions  = [
-          ...regionsColoring(res.yr),
-          extraRectangle('Cyprus', -14,-37),
-          extraRectangle('Malta' ,  -6,-26),
-          extraRectangle('Euro area (20 countries)', -45,-51),
-      ];
-
-      console.log(` changing year to ${res.yr} `);
-      myChart.setOption(
-        optUpdate,
-        {
-          notMerge :   false,  // do merge
-          lazyUpdate : true,
-        },
-      );
-
-    });
-
 
 
     /*
@@ -1702,11 +1597,78 @@
       })
 
 
-    populateLeftPanel(res.yr)
 
-    myChart.hideLoading();
-    myChart.setOption(optionsInit);
-    // arrowRedraw();
+
+    // init-2
+    const initFunc = () => {
+      createGradientLegend( "gradient1", selectedDataMeta["main"]);
+      populateLeftPanel(rspGeo.yr)
+
+      myChart.setOption(optionsInit);
+      arrowRedraw();
+      myChart.hideLoading();
+    }
+    initFunc()
+
+
+    // --- onChange handler: update the chart option (stub) ---
+    sliderEl.addEventListener('change', function () {
+
+      const res = sliderToKey();
+      labelEl.textContent = res.lbl;
+
+      populateLeftPanel(res.yr)
+
+      // mutate option and re-apply
+      // reset the stuff we want to update
+      const optUpdate = {
+        series: [],
+        geo: {
+          regions: [],
+        },
+      };
+      optUpdate.series = [
+        ...manyCountriesShowStats(res.yr),
+        ...symbolsSeries(),
+      ];
+      optUpdate.geo.regions  = [
+          ...regionsColoring(res.yr),
+          extraRectangle('Cyprus', -14,-37),
+          extraRectangle('Malta' ,  -6,-26),
+          extraRectangle('Euro area (20 countries)', -45,-51),
+      ];
+
+      myChart.setOption(
+        optUpdate,
+        {
+          notMerge :   false,  // do merge
+          lazyUpdate : true,
+        },
+      );
+
+    });
+
+
+
+    elOpa.addEventListener('change', function (evt) {
+      localStorage.setItem("initOpacity", evt.target.value.toString());
+      console.log(`selected opacity ${evt.target.value}`);
+
+      createGradientLegend( "gradient1", selectedDataMeta["main"]);
+
+      sliderEl.dispatchEvent(
+        new InputEvent('change', {
+          bubbles:    true,
+          cancelable: true,
+        })
+      );
+
+    });
+
+
+
+
+
 
     window.addEventListener('resize', function() {
         myChart.resize();
@@ -1718,17 +1680,9 @@
     });
 
 
-    // // trigger year slider onChange for init of left
-    // sliderEl.dispatchEvent(
-    //   new InputEvent('change', {
-    //     bubbles:    true,
-    //     cancelable: true,
-    //   })
-    // );
 
 
   })();   // end of outmost aync func - so we can you fetch inside
-
 
 
 
