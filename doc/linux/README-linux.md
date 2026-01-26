@@ -32,9 +32,12 @@ source /var/www/ecb-app/.venv/bin/activate
 pip install --upgrade pip setuptools wheel
 pip install --no-cache-dir mod_wsgi
 
-pip install pip install gingado
-pip install pip install pandas
-pip install pip install matplotlib
+pip install gingado
+pip install pandas
+pip install matplotlib
+pip install markdown
+
+/var/www/ecb-app/.venv/bin/pip install markdown
 
 sudo vim  /etc/apache2/sites-available/ecb.conf
 sudo vim  /etc/apache2/sites-available/ecb-le-ssl.conf
@@ -126,6 +129,8 @@ sudo chown -R pbu:www-data /var/www/ecb-app
 sudo find /var/www/ecb-app -type d -exec chmod 2775 {} \;
 sudo find /var/www/ecb-app -type f -exec chmod 0664 {} \;
 
+# exceptions for venv
+sudo chmod -R +x /var/www/ecb-app/.venv/bin
 
 # multiple writers with different identities must coexist
 #     frist  line _existing_ files and dirs

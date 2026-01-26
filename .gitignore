@@ -7,3 +7,6 @@ tmp/**
 scripts/**/out/**/*pdf
 scripts/eurostat/estat_prc_hicp_manr.tsv
 scripts/council/council.html
+
+# server side tool
+static/goaccess.html

@@ -4,7 +4,8 @@ import random
 import time
 from   datetime   import datetime, timedelta
 from   pathlib    import Path
-
+import locale
+import markdown
 
 
 import pandas as pd
@@ -12,8 +13,8 @@ import matplotlib
 from   ipaddress import ip_address, ip_network
 
 
-from   flask import Flask, request, Response, abort, current_app 
-from   flask import render_template, render_template_string, make_response,  send_from_directory 
+from   flask import Flask, request, Response, abort, current_app
+from   flask import render_template, render_template_string, make_response,  send_from_directory
 from   flask import g
 app  = Flask(__name__)
 # Flask automatically sets this when FLASK_ENV=development
@@ -64,7 +65,7 @@ def selectLanguage():
     else:
         protocol = "http"
 
-    curLg      = LANGUAGE_BY_HOST.get(hostName, "de") 
+    curLg      = LANGUAGE_BY_HOST.get(hostName, "de")
     if hostName == "localhost":
         lg = request.args.get('lang')
         if (lg is None) or (lg == "") :
@@ -81,7 +82,7 @@ def selectLanguage():
     g.switchLgCode   = alternateLang[curLg]
 
     # print(f"cur lang by hostname is {curLg}")
-    
+
     if False:
         # now available everyhwere
         currentLanguage = getattr(g, "currentLanguage", "de")
@@ -255,7 +256,7 @@ def appConfigJs():
         render_template(
             "js/app-config.js",
             debug=debugModeLive,
-            curLg=curLg,            
+            curLg=curLg,
         )
     )
     resp.headers["Content-Type"] = "application/javascript; charset=utf-8"
@@ -330,8 +331,8 @@ def allPredictionsH():
         print(f"allPredictionsH 2 {input_text}")
 
         return app.response_class(
-            response=json.dumps(res), 
-            status=200, 
+            response=json.dumps(res),
+            status=200,
             mimetype='application/json',
         )
 
@@ -339,6 +340,85 @@ def allPredictionsH():
         err = str(error)
         print(err)
         return app.response_class(response=json.dumps(err), status=500, mimetype='application/json')
+
+
+
+def renderMarkdown(pth):
+  
+  try:
+    pathObj = Path(pth)
+    with open(pathObj, "r", encoding="utf-8") as openFile:
+      fileContent = openFile.read()      
+    htmlContent = markdown.markdown(fileContent)    
+    return htmlContent
+
+  except Exception as exc:
+    return f"Error reading or rendering file {pth}: {exc}"
+
+
+def dateFormat( isoDate = "2026-01-26", lg="de" ):
+
+    typedDte = datetime.strptime(isoDate, "%Y-%m-%d")
+
+    if lg=="en":
+        try:
+            locale.setlocale(locale.LC_TIME, "en_US.UTF-8")
+            return typedDte.strftime("%d. %B %Y")
+        except Exception as exc:
+            return exc
+
+    elif lg=="de" or True:
+        try:
+            locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
+            return typedDte.strftime("%d. %B %Y")
+        except Exception as exc:
+            return exc
+
+
+@app.route('/blog')
+@app.route('/blog/<md>')
+def blog(md=None):
+
+    if md is None:
+        blogDir = Path("content/blog")
+        markdowns = list(blogDir.glob("*.md"))
+        markdowns.sort(reverse=True)
+
+        listItems = []
+        for idx1, pth in enumerate(markdowns):
+            if idx1 >= 10:
+                break
+            try:
+                with open(pth, "r", encoding="utf-8") as f:
+                    hl = f.readline().strip()
+                    hl = hl.lstrip("#").strip()
+
+                    cnt  = ""
+                    cnt += " <li style='margin-bottom: 1rem;'>"
+                    cnt += dateFormat(pth.stem)
+                    cnt +=    "<br>"
+                    cnt +=    f"<b> {hl} </b>"
+                    cnt += "</li>"
+
+                    listItems.append(cnt)
+
+            except Exception as exc:
+                return f"error processing {pth}: {exc}"
+
+        renderedCnt =  f"<h3 style='margin: 2rem; margin-left: 4rem' > Blog Beiträge </h3>\n"
+        renderedCnt += f"<ul   style='margin: 2rem; margin-left: 4rem' >{ ''.join(listItems) }</ul>"
+    else:
+        pth = Path("content/blog") / md
+        cnt = renderMarkdown(pth)
+        renderedCnt = f"""<h3> blog beitrag </h3> {cnt}  """
+
+
+    return render_template(
+        "index.html",
+        content=renderedCnt,
+    )
+
+
 
 
 
