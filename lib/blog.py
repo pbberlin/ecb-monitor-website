@@ -14,14 +14,14 @@ def dateFormat( isoDate = "2026-01-26", lg="de" ):
             locale.setlocale(locale.LC_TIME, "en_US.UTF-8")
             return typedDte.strftime("%d. %B %Y")
         except Exception as exc:
-            return exc
+            return str(exc)
 
     elif lg=="de" or True:
         try:
             locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
             return typedDte.strftime("%d. %B %Y")
         except Exception as exc:
-            return exc
+            return str(exc)
 
 
 def renderMarkdown(pth):
