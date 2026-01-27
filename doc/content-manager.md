@@ -7,6 +7,8 @@
 * [Markdown format](https://en.wikipedia.org/wiki/Markdown#Examples)
 
 
+* Open a `command window`
+
 * Do `git pull` before starting work
 
 * Use VS Code for writing and editing a blog post in English and German 
