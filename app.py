@@ -2,10 +2,7 @@ import os
 import json
 import random
 import time
-from   datetime   import datetime, timedelta
 from   pathlib    import Path
-import locale
-import markdown
 
 
 import pandas as pd
@@ -312,110 +309,65 @@ def flow01():
 
 
 
-from lib.page1   import getAllPredictions
-@app.route('/all-predictions', methods=['post','get'])
-def allPredictionsH():
-    try:
-
-        #  arg.get does *not* contain POST values
-        input_text = request.args.get('input_text')
-        print(f"allPredictionsH 1 {input_text}")
-
-        try:
-            top_k = request.json['top_k']
-        except Exception as error:
-            print(str(error))
-
-        res = getAllPredictions(input_text, random.randint(5,555))
-
-        print(f"allPredictionsH 2 {input_text}")
-
-        return app.response_class(
-            response=json.dumps(res),
-            status=200,
-            mimetype='application/json',
-        )
-
-    except Exception as error:
-        err = str(error)
-        print(err)
-        return app.response_class(response=json.dumps(err), status=500, mimetype='application/json')
 
 
 
-def renderMarkdown(pth):
-  
-  try:
-    pathObj = Path(pth)
-    with open(pathObj, "r", encoding="utf-8") as openFile:
-      fileContent = openFile.read()      
-    htmlContent = markdown.markdown(fileContent)    
-    return htmlContent
 
-  except Exception as exc:
-    return f"Error reading or rendering file {pth}: {exc}"
-
-
-def dateFormat( isoDate = "2026-01-26", lg="de" ):
-
-    typedDte = datetime.strptime(isoDate, "%Y-%m-%d")
-
-    if lg=="en":
-        try:
-            locale.setlocale(locale.LC_TIME, "en_US.UTF-8")
-            return typedDte.strftime("%d. %B %Y")
-        except Exception as exc:
-            return exc
-
-    elif lg=="de" or True:
-        try:
-            locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
-            return typedDte.strftime("%d. %B %Y")
-        except Exception as exc:
-            return exc
+from lib.page1 import renderMarkdown, dateFormat
 
 
 @app.route('/blog')
-@app.route('/blog/<md>')
-def blog(md=None):
+# @app.route('/blog/')
+# @app.route('/blog/<lg>')
+# @app.route('/blog/<lg>/')
+@app.route('/blog/<lg>/<md>')
+def blog(lg=None, md=None):
 
     if md is None:
-        blogDir = Path("content/blog")
+        blogDir = Path("content/blog") / g.currentLanguage
         markdowns = list(blogDir.glob("*.md"))
         markdowns.sort(reverse=True)
 
         listItems = []
         for idx1, pth in enumerate(markdowns):
+
+            urlPth    = Path("blog") / g.currentLanguage / Path(pth).name
+
             if idx1 >= 10:
                 break
             try:
                 with open(pth, "r", encoding="utf-8") as f:
+
                     hl = f.readline().strip()
                     hl = hl.lstrip("#").strip()
 
-                    cnt  = ""
-                    cnt += " <li style='margin-bottom: 1rem;'>"
-                    cnt += dateFormat(pth.stem)
-                    cnt +=    "<br>"
-                    cnt +=    f"<b> {hl} </b>"
-                    cnt += "</li>"
+                    outerCnt  = ""
+                    outerCnt += " <li>"
+                    outerCnt +=     dateFormat(pth.stem, g.currentLanguage)
+                    outerCnt +=    "<br>"
+                    outerCnt +=    f"<b>  <a href='{urlPth.as_posix() }'> {hl} </a> </b>"
+                    outerCnt += "</li>"
 
-                    listItems.append(cnt)
+                    listItems.append(outerCnt)
 
             except Exception as exc:
                 return f"error processing {pth}: {exc}"
 
-        renderedCnt =  f"<h3 style='margin: 2rem; margin-left: 4rem' > Blog Beiträge </h3>\n"
-        renderedCnt += f"<ul   style='margin: 2rem; margin-left: 4rem' >{ ''.join(listItems) }</ul>"
+        innerCnt =  ''.join(listItems) 
     else:
-        pth = Path("content/blog") / md
-        cnt = renderMarkdown(pth)
-        renderedCnt = f"""<h3> blog beitrag </h3> {cnt}  """
+        pth = Path("content/blog") / g.currentLanguage / md
+        # print(f"   pth {pth}")
+        innerCnt = renderMarkdown(pth)
 
+
+    outerCnt = render_template(
+            "blog-body.html",
+            content = innerCnt,
+    )
 
     return render_template(
         "index.html",
-        content=renderedCnt,
+        content=outerCnt,
     )
 
 

@@ -2,6 +2,7 @@ from   flask import g
 from   flask import request
 
 
+
 # to have       {{i18n.hello}}  instead of       {{i18n["hello"]}}
 class AttrDict(dict):
     def __getattr__(self, key):
@@ -78,6 +79,13 @@ trlsRaw = [
         "headline_science":    {
             "de": "Wissenschaft",
             "en": "Science",
+        },
+    },
+
+    {
+        "ecb_watching_body_headline":    {
+            "de": "ECB-Watching – der aktuelle Kommentar",
+            "en": "ECB-Watching – commentary",
         },
     },
 

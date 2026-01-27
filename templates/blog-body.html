@@ -1,0 +1,29 @@
+
+<style>
+
+    /* {{ curLg }} */
+
+    .blog-body {
+        margin:      2rem; 
+        margin-left: 4rem;
+    }
+
+    .blog-body h3 {
+        margin-bottom: 1rem;
+    }
+
+    .blog-body li {
+        margin-bottom: 1rem;
+    }
+
+</style>
+
+<div class="blog-body">
+
+    <h3> {{i18n.ecb_watching_body_headline}} </h3>
+
+    <ul>
+        {{ content | safe }}
+    </ul>
+
+</div>
