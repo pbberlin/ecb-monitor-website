@@ -313,7 +313,7 @@ def flow01():
 
 
 
-from lib.page1 import renderMarkdown, dateFormat
+from lib.blog import renderMarkdown, dateFormat
 
 
 @app.route('/blog')
