@@ -263,6 +263,11 @@ def appConfigJs():
 @app.route('/pg/<htmlFile>')
 def page(htmlFile):
     """ generic page  """
+
+    if "/" in htmlFile or "\\" in htmlFile:
+        # prevent requests like /pg/../password 
+        abort(404)
+
     pth = Path("./content") / htmlFile
     if pth.suffix == "":
         pth = pth.with_suffix(".html")

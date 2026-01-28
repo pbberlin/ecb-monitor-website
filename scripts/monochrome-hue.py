@@ -63,9 +63,9 @@ def applyMonochrome(inputPath: Path, outputPath: Path, targetRgb: Tuple[int, int
                     s = clamp01(sT * sMul)          # keep target’s saturation, scaled
                     v = clamp01(g * vT * bMul)      # keep target’s value, scaled
                     rF, gF, bF = hsv_to_rgb(hT, s, v)
-                    r = int(round(rF * 255))
+                    r  = int(round(rF * 255))
                     g2 = int(round(gF * 255))
-                    b = int(round(bF * 255))
+                    b  = int(round(bF * 255))
                     outPx[x, y] = (r, g2, b)
                     x += 1
                 y += 1
@@ -102,10 +102,10 @@ def applyLinearRgbTint(inputPath: Path, outputPath: Path, targetRgb: Tuple[int, 
             while y < height:
                 x = 0
                 while x < width:
-                    g = grayPx[x, y] / 255.0
-                    r = int(round(g * tR))
+                    g  = grayPx[x, y] / 255.0
+                    r  = int(round(g * tR))
                     g2 = int(round(g * tG))
-                    b = int(round(g * tB))
+                    b  = int(round(g * tB))
                     outPx[x, y] = (r, g2, b)
                     x += 1
                 y += 1
@@ -126,7 +126,7 @@ def applyLinearRgbTint(inputPath: Path, outputPath: Path, targetRgb: Tuple[int, 
 def parseArgs() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Tint an image to a single hue.")
     parser.add_argument("inputPath", type=Path)
-    parser.add_argument("--rgb",        type=int,   nargs=3,  metavar=("R","G","B"), default=(174, 215, 217))
+    # parser.add_argument("--rgb",        type=int,   nargs=3,  metavar=("R","G","B"), default=(174, 215, 217))
     parser.add_argument("--quality",    type=int,   default=95)
     parser.add_argument("--saturation", type=float, default=1.0, help="0..1; higher = stronger tint")
     parser.add_argument("--brighten",   type=float, default=1.0, help="Optionally brighten - i.e. 20% (multiplies Value by 1.2)")
@@ -134,35 +134,50 @@ def parseArgs() -> argparse.Namespace:
 
 
 def main() -> None:
+
     args = parseArgs()
     inp = Path(args.inputPath)
-    rgb = (int(args.rgb[0]), int(args.rgb[1]), int(args.rgb[2]))
+    
+    # rgb = (int(args.rgb[0]), int(args.rgb[1]), int(args.rgb[2]))
 
-    # rgb = (174, 215, 217)
-    rgb = (194, 211,  0)
+    # zew cols
+    colors = {
+        "grey-dark"        : ( 72,  72,  72) ,
+        "grey-medium"      : (128, 128, 128) ,
+        "grey-light"       : (192, 192, 192) ,
 
-    saturation      = float(args.saturation)
-    brightenFactor  = float(args.brighten)
+        "yellow-dark"      : (134, 157,   0) ,
+        "yellow-light"     : (200, 210,   0) ,
 
-    out = inp.with_name(inp.stem + f"--{rgb[0]}-{rgb[1]}-{rgb[2]}.jpg")
-    applyLinearRgbTint(
-        inp, 
-        out, 
-        rgb, 
-        int(args.quality),
-        # saturation,
-        # brightenFactor,        
-    )
+        "iceblue-dark"     : (101, 157, 159) ,
+        "iceblue-light"    : (148, 204, 206) ,
+    }
 
-    out = inp.with_name(inp.stem + f"--sat{saturation:3.1f}--{brightenFactor:3.1f}--{rgb[0]}-{rgb[1]}-{rgb[2]}.jpg")
-    applyMonochrome(
-        inp, 
-        out, 
-        rgb, 
-        int(args.quality),
-        saturation,
-        brightenFactor,        
-    )
+    for idx, key in enumerate(colors):
+    
+        rgb = colors[key]
+        saturation      = float(args.saturation)
+        brightenFactor  = float(args.brighten)
+
+        out = inp.with_name(inp.stem + f"--{key}.jpg")
+        applyLinearRgbTint(
+            inp, 
+            out, 
+            rgb, 
+            int(args.quality),
+            # saturation,
+            # brightenFactor,        
+        )
+
+        out = inp.with_name(inp.stem + f"--{key}--sat{saturation:3.1f}--{brightenFactor:3.1f}.jpg")
+        applyMonochrome(
+            inp, 
+            out, 
+            rgb, 
+            int(args.quality),
+            saturation,
+            brightenFactor,        
+        )
 
 
 if __name__ == "__main__":

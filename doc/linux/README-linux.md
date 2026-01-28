@@ -1,6 +1,6 @@
 #  Python Flask application
 
-* Debian 11
+* Debian 12
 
 * apache2 and wsgi / mod_wsgi
 
@@ -39,12 +39,10 @@ source /var/www/ecb-app/.venv/bin/activate
 pip install --upgrade pip setuptools wheel
 pip install --no-cache-dir mod_wsgi
 
-pip install gingado
 pip install pandas
 pip install matplotlib
 pip install markdown
 
-/var/www/ecb-app/.venv/bin/pip install markdown
 
 sudo vim  /etc/apache2/sites-available/ecb.conf
 sudo vim  /etc/apache2/sites-available/ecb-le-ssl.conf
