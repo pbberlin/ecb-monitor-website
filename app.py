@@ -324,6 +324,7 @@ from lib.blog import renderMarkdown, dateFormat
 def blog(lg=None, md=None):
 
     if md is None:
+        showBreadCrumb = False
         blogDir = Path("content/blog") / g.currentLanguage
         markdowns = list(blogDir.glob("*.md"))
         markdowns.sort(reverse=True)
@@ -338,14 +339,20 @@ def blog(lg=None, md=None):
             try:
                 with open(pth, "r", encoding="utf-8") as f:
 
+                    # use first line of file as link-text 
                     hl = f.readline().strip()
+                    hl = hl.lstrip("<!--").rstrip("-->").strip()
                     hl = hl.lstrip("#").strip()
+
+                    autofoc = ""
+                    if idx1 == 0:
+                        autofoc = "autofocus"
 
                     outerCnt  = ""
                     outerCnt += " <li>"
                     outerCnt +=     dateFormat(pth.stem, g.currentLanguage)
                     outerCnt +=    "<br>"
-                    outerCnt +=    f"<b>  <a href='{urlPth.as_posix() }'> {hl} </a> </b>"
+                    outerCnt +=    f"<b>  <a href='{urlPth.as_posix() }' {autofoc} > {hl} </a> </b>"
                     outerCnt += "</li>"
 
                     listItems.append(outerCnt)
@@ -355,14 +362,16 @@ def blog(lg=None, md=None):
 
         innerCnt =  ''.join(listItems) 
     else:
+        showBreadCrumb = True
         pth = Path("content/blog") / g.currentLanguage / md
         # print(f"   pth {pth}")
         innerCnt = renderMarkdown(pth)
 
 
     outerCnt = render_template(
-            "blog-body.html",
-            content = innerCnt,
+        "blog-body.html",
+        content    = innerCnt,
+        breadCrumb = showBreadCrumb,
     )
 
     return render_template(

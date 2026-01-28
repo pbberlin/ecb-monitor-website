@@ -88,6 +88,12 @@ trlsRaw = [
             "en": "ECB-Watching – commentary",
         },
     },
+    {
+        "all_posts":    {
+            "de": "Alle Beiträge",
+            "en": "All posts",
+        },
+    },
 
 
     {

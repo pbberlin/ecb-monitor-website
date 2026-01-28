@@ -16,6 +16,13 @@ sudo apt install -y libapache2-mod-proxy-uwsgi
 sudo apt install -y libapache2-mod-wsgi-py3
 sudo a2enmod proxy proxy_http headers
 
+sudo apt update
+sudo apt install locales
+
+sudo dpkg-reconfigure locales
+# enable
+en_US.UTF-8 UTF-8
+de_DE.utf8  UTF-8
 
 
 sudo mkdir -p /var/www/ecb-app
