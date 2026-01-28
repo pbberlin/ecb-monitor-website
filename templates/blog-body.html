@@ -4,8 +4,8 @@
     /* {{ curLg }} */
 
     .blog-body {
-        margin:      2rem; 
-        margin-left: 4rem;
+        margin:      4rem 2rem;
+        margin-top:       1.4rem;
     }
 
     .blog-body h3 {
@@ -13,14 +13,24 @@
     }
 
     .blog-body li {
-        margin-bottom: 1rem;
+        margin-bottom: 1.0rem;
+        margin-bottom: 0.1rem;
+
+        margin-left:  2rem;
+        list-style-type: disc;
+        list-style-position: inherit;
     }
 
 </style>
 
 <div class="blog-body">
 
+    {% if breadCrumb %}
+    <p  style="font-size:90%; margin-bottom: 0.2rem;"> <a href="/blog">{{i18n.all_posts}}</a>   </p>
+    {% else %}
     <h3> {{i18n.ecb_watching_body_headline}} </h3>
+    {% endif %}
+
 
     <ul>
         {{ content | safe }}
