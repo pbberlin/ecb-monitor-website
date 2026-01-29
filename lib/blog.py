@@ -2,6 +2,10 @@ from   datetime   import datetime, timedelta
 import locale
 import markdown
 from   pathlib    import Path
+from   flask import g
+
+
+
 
 
 
@@ -24,15 +28,46 @@ def dateFormat( isoDate = "2026-01-26", lg="de" ):
             return str(exc)
 
 
-def renderMarkdown(pth):
-  
+
+def listEntry(pth: Path, idx: int):
+
+  urlPth    = Path("blog") / g.currentLanguage / Path(pth).name
+
+  with open(pth, "r", encoding="utf-8") as f:
+
+    # first line as head line - link-text 
+    h1 = f.readline().strip()
+    h1 = h1.lstrip("<!--").rstrip("-->").strip()
+    h1 = h1.lstrip("#").strip()
+
+    h2 = f.readline().strip()
+
+    restOfFile = f.read()
+
+    autofoc = ""
+    if idx == 0:
+        autofoc = "autofocus"
+
+    dateLine = dateFormat(pth.stem, g.currentLanguage)
+
+    listEntry  = ""
+    listEntry += " <li>"
+    listEntry +=    f"<p class='date-line'>{dateLine}  </p> "
+    listEntry +=    f"<b>  <a href='{urlPth.as_posix() }' {autofoc} > {h1} </a> </b>"
+    if h2:     
+      listEntry +=    f"<br> "
+      listEntry +=    f"{h2} "
+    listEntry += "</li>"
+
+
+    return h1, h2, restOfFile, dateLine, listEntry
+
+
+def renderMarkdown(markDownCnt):
   try:
-    pathObj = Path(pth)
-    with open(pathObj, "r", encoding="utf-8") as openFile:
-      fileContent = openFile.read()      
-    htmlContent = markdown.markdown(fileContent)    
+    htmlContent = markdown.markdown(markDownCnt)    
     return htmlContent
 
   except Exception as exc:
-    return f"Error reading or rendering file {pth}: {exc}"
+    return f"error markdown rendering: {exc}"
 
