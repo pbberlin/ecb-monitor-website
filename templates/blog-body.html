@@ -3,37 +3,102 @@
 
     /* {{ curLg }} */
 
+    :root:not([data-theme="dark"]) {
+        --primary:       #C8D400;
+    }        
+
+
     .blog-body {
-        margin:      4rem 2rem;
-        margin-top:       1.4rem;
+        width:     clamp(40ch, 80vw, 75ch);
+        margin-inline: auto;
+        padding: 1rem;
+        margin-bottom: 2.5rem;
+
     }
+
+    .blog-body ul {
+        position:      relative;
+    }
+    .blog-body ul::before {
+        content: "";
+        position: absolute;
+        z-index: -10;
+        top:      1.25rem;
+        bottom:   1.25rem;
+        left:     0.90rem;
+        
+        width:  2px;
+        background: var(--primary);
+    }
+
 
     .blog-body h3 {
         margin-bottom: 1rem;
     }
 
+    
     .blog-body li {
-        margin-bottom: 1.0rem;
-        margin-bottom: 0.1rem;
-
-        margin-left:  2rem;
+        position:      relative;
+        margin-bottom: 0.3rem;
+        margin-left:   0.3rem;
+        padding-left:  2.2rem;
         list-style-type: disc;
         list-style-position: inherit;
     }
+    .blog-body li::before {
+        content: "";
+        position: absolute;
+        left:      6px;
+        top:      .7rem;
+        width:    1ch;
+        height:   1ch;
+        border-radius: 50%;
+        background: var(--primary);
+        box-shadow: 0 0 0 4px color-mix(in oklab, var(--primary), transparent 75%);
+    }
+
+
+
+
+    .blog-body li p {
+        margin-bottom: -0.35rem;
+        font-size: 90%;
+        font-weight: normal;
+    }
+
+
+    .blog-body li::marker {
+        content: "";
+    }
+
+
+
+
+
+
 
 </style>
 
 <div class="blog-body">
 
     {% if breadCrumb %}
-    <p  style="font-size:90%; margin-bottom: 0.2rem;"> <a href="/blog">{{i18n.all_posts}}</a>   </p>
+        <p  style="font-size:90%; margin-bottom: 0.2rem;"> <a  autofocus href="/blog">{{i18n.all_posts}}</a>   </p>
+    {% endif %}
+
+    {% if h1 %}
+        <h3 style="margin-bottom: 0;" > {{h1}}</h3>
+        <p  style="position: relative; top: -0.6rem;  margin: 0;font-size:80%;">{{dateLine}}</p>
     {% else %}
-    <h3> {{i18n.ecb_watching_body_headline}} </h3>
+        <h3> {{i18n.ecb_watching_body_headline}} </h3>
+    {% endif %}
+
+    {% if h2 %}
+        <h4> {{h2}} </h4>
     {% endif %}
 
 
-    <ul>
-        {{ content | safe }}
-    </ul>
+    {{ content | safe }}
 
 </div>
+
+

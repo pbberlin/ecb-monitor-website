@@ -318,7 +318,7 @@ def flow01():
 
 
 
-from lib.blog import renderMarkdown, dateFormat
+from lib.blog import dateFormat, renderMarkdown, listEntry
 
 
 @app.route('/blog')
@@ -328,7 +328,11 @@ from lib.blog import renderMarkdown, dateFormat
 @app.route('/blog/<lg>/<md>')
 def blog(lg=None, md=None):
 
+    h1 = ""
+    h2 = ""
+    dateLine = ""
     if md is None:
+        # list of entries
         showBreadCrumb = False
         blogDir = Path("content/blog") / g.currentLanguage
         markdowns = list(blogDir.glob("*.md"))
@@ -336,47 +340,47 @@ def blog(lg=None, md=None):
 
         listItems = []
         for idx1, pth in enumerate(markdowns):
-
-            urlPth    = Path("blog") / g.currentLanguage / Path(pth).name
-
             if idx1 >= 10:
                 break
             try:
-                with open(pth, "r", encoding="utf-8") as f:
-
-                    # use first line of file as link-text 
-                    hl = f.readline().strip()
-                    hl = hl.lstrip("<!--").rstrip("-->").strip()
-                    hl = hl.lstrip("#").strip()
-
-                    autofoc = ""
-                    if idx1 == 0:
-                        autofoc = "autofocus"
-
-                    outerCnt  = ""
-                    outerCnt += " <li>"
-                    outerCnt +=     dateFormat(pth.stem, g.currentLanguage)
-                    outerCnt +=    "<br>"
-                    outerCnt +=    f"<b>  <a href='{urlPth.as_posix() }' {autofoc} > {hl} </a> </b>"
-                    outerCnt += "</li>"
-
-                    listItems.append(outerCnt)
-
+                _, _, _, _, outerCnt = listEntry(pth, idx1)
+                listItems.append(outerCnt)
             except Exception as exc:
                 return f"error processing {pth}: {exc}"
-
-        innerCnt =  ''.join(listItems) 
+        innerCnt =  f"""<ul>
+                             {''.join(listItems)} 
+                        </ul>"""
     else:
+
         showBreadCrumb = True
         pth = Path("content/blog") / g.currentLanguage / md
         # print(f"   pth {pth}")
-        innerCnt = renderMarkdown(pth)
+
+        h1, h2, restOfFile, dateLine, outerCnt = listEntry(pth, -1)
+
+        innerCnt = renderMarkdown(restOfFile)
+
+        pthTpl = Path("templates/blog") / Path(pth).name
+        pthTpl = pthTpl.with_suffix(".html")
+        # print(f"path {pthTpl}")
+        tplName = Path("blog") / pthTpl.name
+        tplName2 = str(tplName.as_posix)
+        if pthTpl.exists():
+            print(f"\texists {pthTpl}")
+            innerCnt = render_template(
+                "blog/" + pthTpl.name,
+                content = innerCnt,
+            )
+
 
 
     outerCnt = render_template(
         "blog-body.html",
-        content    = innerCnt,
         breadCrumb = showBreadCrumb,
+        h1  =  h1,
+        h2  =  h2,
+        dateLine   =  dateLine,
+        content    = innerCnt,
     )
 
     return render_template(
