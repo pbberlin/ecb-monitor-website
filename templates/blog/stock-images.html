@@ -1,0 +1,155 @@
+<style>
+
+.wrap {
+}
+
+.wrap p {
+    text-align: justify;
+    margin-bottom: 0;
+    hyphens: auto;
+}
+
+.wrap h3 {
+    font-size:     150%;
+    font-weight:   700;
+
+    text-align:    left;
+    word-spacing:  0.2rem;
+
+    margin: 0;
+
+}
+
+
+/* The floating “ECB” shape that text flows around */
+.shapeImage {
+
+    float:  left;
+    padding:         0;
+    margin-left:     0;
+    margin-right:    0.8rem;
+    margin-top:      0.35rem;
+    margin-bottom:   0;
+
+    /* border: 1px solid red; */
+
+    border-radius:   0.4rem;
+
+    /* 
+        x-axis increment 
+        similar to adding 4% to each shape-outside x-coord
+
+        better use margin-right 
+    */
+    shape-margin: 0.2rem;
+
+    /* default background: blue gradient rectangle - overwritten below */
+    background:
+        linear-gradient(
+            217deg,
+            oklch(0.72 0.09 225) 50%,
+            oklch(0.92 0.06 225) 90%,
+            transparent  99%
+        )
+    ;
+    
+    /* clipping polygon */
+    /* x-coord, y-coord - top left - top right */
+    --shared-polygon-shape: polygon(
+          0%       0%,
+        100%       0%,
+        100%     100%,
+          0%     100%
+    );
+
+
+    /* image clipping shape */
+    clip-path:    var(--shared-polygon-shape);
+    /* text wrap shape */
+    shape-outside: var(--shared-polygon-shape);
+
+
+
+    /* background: image file */
+    background-size:     cover;
+
+    background: url("/static/img/blog/adobe-stock-1878624005-sm.gif") no-repeat;
+    width:               320px;     /* or clamp(180px,  38vw, 340px)  */
+    height:              240px;     /* cropping, to align with text lines */
+
+    /* scaling inside cropped area  */
+    background-size:     102% 102%;  
+    /* positioning */
+    background-position: -1px -1px;
+
+
+
+}
+
+
+.shapeImage2,
+.shapeImage3,
+.shapeImage4
+ {
+    float: right;
+    background-size:     cover;
+    background: url("/static/img/blog/adobe-political-economy.jpg") no-repeat;
+
+    margin-left: 0.4rem;
+    margin-right: 0;
+
+    width:               320px;     /* or clamp(180px,  38vw, 340px)  */
+    height:              160px;     /* cropping, to align with text lines */
+
+    background-size:     100% 100%;  
+
+    padding-top: 2rem;
+    margin-top:  2rem;
+    /* margin-top: 22.8rem; */
+
+    border-radius:   0.4rem;
+
+}
+
+.shapeImage3{
+    background: url("/static/img/blog/adobe-stock-529399345-ecb.jpg") no-repeat;
+
+    background-size:     99% 99%;  
+
+}
+
+.shapeImage4{
+    background: url("/static/img/blog/European_Central_Bank_Headquarters_(model_01)-sm-fg2.png") no-repeat;
+    background-size:     99% 99%;  
+    float: left;  
+    width:               160px;     /* or clamp(180px,  38vw, 340px)  */
+    height:              360px;     /* cropping, to align with text lines */
+}
+
+
+/* Mobile: stack image on top; disable float/shape for readability */
+@media (max-width: 720px) {
+    .shapeImage {
+        float: none;
+        width: 100%;
+        height: clamp(220px, 40vh, 420px);
+        margin: 0 0 1rem 0;
+        clip-path: none;
+        shape-outside: none;
+    }
+}
+
+</style>
+
+
+<div class="wrap">
+    <figure class="shapeImage4" role="img"></figure>
+    <figure class="shapeImage"  role="img"></figure>
+    <figure class="shapeImage3" role="img"></figure>
+    <figure class="shapeImage2" role="img"></figure>
+    <div  class="flowing-text">
+        {{ content | safe }}
+    </div>
+</div>
+
+

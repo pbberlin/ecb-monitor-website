@@ -40,7 +40,15 @@ def listEntry(pth: Path, idx: int):
     h1 = h1.lstrip("<!--").rstrip("-->").strip()
     h1 = h1.lstrip("#").strip()
 
-    h2 = f.readline().strip()
+
+    h2 = ""
+    if len(h1) > 0:
+      h2 = f.readline().strip()
+
+    tplName = ""
+    if len(h2) > 0:
+      tplName = f.readline().strip()
+  
 
     restOfFile = f.read()
 
@@ -53,14 +61,14 @@ def listEntry(pth: Path, idx: int):
     listEntry  = ""
     listEntry += " <li>"
     listEntry +=    f"<p class='date-line'>{dateLine}  </p> "
-    listEntry +=    f"<b>  <a href='{urlPth.as_posix() }' {autofoc} > {h1} </a> </b>"
+    listEntry +=    f"<b>  <a href='{urlPth.as_posix() }?lang=en' {autofoc} > {h1} </a> </b>"
     if h2:     
       listEntry +=    f"<br> "
       listEntry +=    f"{h2} "
     listEntry += "</li>"
 
 
-    return h1, h2, restOfFile, dateLine, listEntry
+    return h1, h2, tplName, restOfFile, dateLine, listEntry
 
 
 def renderMarkdown(markDownCnt):

@@ -343,7 +343,7 @@ def blog(lg=None, md=None):
             if idx1 >= 10:
                 break
             try:
-                _, _, _, _, outerCnt = listEntry(pth, idx1)
+                _, _, _, _, _, outerCnt = listEntry(pth, idx1)
                 listItems.append(outerCnt)
             except Exception as exc:
                 return f"error processing {pth}: {exc}"
@@ -356,21 +356,19 @@ def blog(lg=None, md=None):
         pth = Path("content/blog") / g.currentLanguage / md
         # print(f"   pth {pth}")
 
-        h1, h2, restOfFile, dateLine, outerCnt = listEntry(pth, -1)
+        h1, h2, tplName, restOfFile, dateLine, outerCnt = listEntry(pth, -1)
 
         innerCnt = renderMarkdown(restOfFile)
 
-        pthTpl = Path("templates/blog") / Path(pth).name
-        pthTpl = pthTpl.with_suffix(".html")
-        # print(f"path {pthTpl}")
-        tplName = Path("blog") / pthTpl.name
-        tplName2 = str(tplName.as_posix)
-        if pthTpl.exists():
-            print(f"\texists {pthTpl}")
-            innerCnt = render_template(
-                "blog/" + pthTpl.name,
-                content = innerCnt,
-            )
+
+        if tplName:
+            expTpl = Path("templates/blog") / (tplName + ".html")
+            if expTpl.exists():
+                print(f"\texists explicit blog template {expTpl}")
+                innerCnt = render_template(
+                    "blog/" + expTpl.name,
+                    content = innerCnt,
+                )
 
 
 

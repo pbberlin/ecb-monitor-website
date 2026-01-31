@@ -1,0 +1,121 @@
+<style>
+
+.wrap {
+}
+
+.wrap p {
+    text-align: justify;
+    margin-bottom: 0;
+    hyphens: auto;
+}
+
+.wrap h3 {
+    font-size:     150%;
+    font-weight:   700;
+
+    text-align:    left;
+    word-spacing:  0.2rem;
+
+    margin: 0;
+
+}
+
+
+/* The floating “ECB” shape that text flows around */
+.shapeImage {
+
+    float:  left;
+    padding:         0;
+    margin-left:     0;
+    margin-right:    0;
+    margin-top:      0.35rem;
+    margin-bottom:   0;
+
+    /* border: 1px solid red; */
+
+    border-radius:   0.4rem;
+
+    /* 
+        x-axis increment 
+        similar to adding 4% to each shape-outside x-coord
+    */
+    shape-margin: 0.8rem;
+
+    /* default background: blue gradient rectangle - overwritten below */
+    background:
+        linear-gradient(
+            217deg,
+            oklch(0.72 0.09 225) 50%,
+            oklch(0.92 0.06 225) 90%,
+            transparent  99%
+        )
+    ;
+    
+    /* clipping polygon */
+    /* x-coord, y-coord - top left - top right */
+    --shared-polygon-shape: polygon(
+        0%    0%,
+        38%    0%,
+        65%   50%,
+        46%  100%,
+         0%  100%
+    );
+
+
+    /* image clipping shape */
+    clip-path:    var(--shared-polygon-shape);
+    /* text wrap shape */
+    shape-outside: var(--shared-polygon-shape);
+
+
+
+    /* background: image file */
+    background-size:     cover;
+
+    background: url("/static/img/ecb/ice-blue-3.jpg") center / cover no-repeat;
+
+    width:  52.0vh;
+    height: 48.5vh;
+
+    width:  clamp( 200px,  52.0vh, 640px);
+    height: clamp( 200px,  48.5vh, 640px);
+
+
+
+
+    /* scaling inside cropped area  */
+    /* background-size:     220px 220px;   */
+    background-size:     103% 103%;  
+    /* positioning */
+    background-position: -4px -1px;
+
+
+
+}
+
+
+
+
+/* Mobile: stack image on top; disable float/shape for readability */
+@media (max-width: 720px) {
+    .shapeImage {
+        float: none;
+        width: 100%;
+        height: clamp(220px, 40vh, 420px);
+        margin: 0 0 1rem 0;
+        clip-path: none;
+        shape-outside: none;
+    }
+}
+
+</style>
+
+
+<div class="wrap">
+    <figure class="shapeImage" role="img"></figure>
+    <div  class="flowing-text">
+        {{ content | safe }}
+    </div>
+</div>
+
+
