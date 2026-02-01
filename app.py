@@ -362,13 +362,20 @@ def blog(lg=None, md=None):
 
 
         if tplName:
+
+            tmp = Path(tplName)
+            if tmp.suffix == ".html":
+                tplName = tmp.with_suffix("")
+
             expTpl = Path("templates/blog") / (tplName + ".html")
             if expTpl.exists():
-                print(f"\texists explicit blog template {expTpl}")
+                print(f"\texplicit blog template found {expTpl}")
                 innerCnt = render_template(
                     "blog/" + expTpl.name,
                     content = innerCnt,
                 )
+            else:
+                print(f"\texplicit blog template not found: -{expTpl}-")
 
 
 
