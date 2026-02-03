@@ -6,7 +6,7 @@ tmp/**
 .venv/**
 scripts/**/out/**/*pdf
 scripts/eurostat/estat_prc_hicp_manr.tsv
-scripts/council/council.html
+scripts/council/*.html
 
 # server side tool
 static/goaccess.html

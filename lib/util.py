@@ -1,5 +1,7 @@
 from pandas import Timestamp
 
+import pandas as pd
+import traceback
 
 def truncateUtf8(text, limit=128):
     if not isinstance(text, str):

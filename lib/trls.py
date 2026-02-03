@@ -442,6 +442,27 @@ trlsRaw = [
     },
 
 
+    {
+        "headline_council_by_6weeks": {
+            "de": "Tauben und Falken – KI-Scores",
+            "en": "Doves and Hawsk - KI scores",
+        },
+    },
+    {
+        "council_by_6weeks_label":    {
+            "de": "EZB Rat - durchschnittliche Einschätzung",
+            "en": "ECB council - average stance",
+        },
+    },
+    {
+        "council_by_6weeks_desc":    {
+            "de": "Durchschnittliche Einschätzung versus Zinssatz",
+            "en": "Opinion score vs ECB interest rate over time",
+        },
+    },
+
+
+
 ]
 
 
@@ -449,7 +470,7 @@ trlsByLg = {}
 for idx1, trlEntry in enumerate(trlsRaw):
     for key in trlEntry:
         if "-" in key:
-            raise(f"key {key} contains '-' - we want underscore")
+            raise Exception(f"key {key} contains '-' - we want underscore")
         translations = trlEntry[key]
         for lg in translations:
             val = translations[lg]
