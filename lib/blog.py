@@ -29,7 +29,12 @@ def dateFormat( isoDate = "2026-01-26", lg="de" ):
 
 
 
-def listEntry(pth: Path, idx: int):
+def mdParts(pth: Path, idx: int):
+
+  """
+    first three lines and markdown filename have special role.
+    for list view
+  """
 
   urlPth    = Path("blog") / g.currentLanguage / Path(pth).name
 

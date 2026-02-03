@@ -318,7 +318,7 @@ def flow01():
 
 
 
-from lib.blog import dateFormat, renderMarkdown, listEntry
+from lib.blog import dateFormat, renderMarkdown, mdParts
 
 
 @app.route('/blog')
@@ -343,7 +343,7 @@ def blog(lg=None, md=None):
             if idx1 >= 10:
                 break
             try:
-                _, _, _, _, _, outerCnt = listEntry(pth, idx1)
+                _, _, _, _, _, outerCnt = mdParts(pth, idx1)
                 listItems.append(outerCnt)
             except Exception as exc:
                 return f"error processing {pth}: {exc}"
@@ -356,7 +356,7 @@ def blog(lg=None, md=None):
         pth = Path("content/blog") / g.currentLanguage / md
         # print(f"   pth {pth}")
 
-        h1, h2, tplName, restOfFile, dateLine, outerCnt = listEntry(pth, -1)
+        h1, h2, tplName, restOfFile, dateLine, outerCnt = mdParts(pth, -1)
 
         innerCnt = renderMarkdown(restOfFile)
 

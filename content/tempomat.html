@@ -373,7 +373,7 @@
   <div class="col col--left control-pad">
 
       <!-- First (top, right) -->
-      <h3> {{i18n.headline_council_by_6weeks}}
+      <h3> {{i18n.headline_council_tempomat}}
         <a href="#" id="btnDlgIco" title="Interpretation assistance" >i</a>
       </h3>
 
@@ -387,8 +387,8 @@
       <!-- option -->
       <div class="options-stat-vars invisible-x" >
         <label title="(Ameco)">
-          {{i18n.council_by_6weeks_label}}
-          <input type="radio" name="stats_variable" value="council_by_6weeks" >
+          {{i18n.council_tempomat_label}}
+          <input type="radio" name="stats_variable" value="council_tempomat" >
         </label>
       </div>
 
@@ -408,15 +408,18 @@
 
 
   <div class="col col--center">
-    <div id="echart_container">echart container content</div>
+
+    <svg id="gauge" width="800" height="450"></svg>
+
+    <div id="echart_container" class="invisible-x">echart container content</div>
   </div>
 
 
 
   <div class="col col--right control-pad">
 
-      <ul  style="display:none;" class="bullet-container stats-desc" id="council_by_6weeks_desc" >
-        {{i18n.council_by_6weeks_desc|safe}}
+      <ul  style="display:none;" class="bullet-container stats-desc" id="council_tempomat_desc" >
+        {{i18n.council_tempomat_desc|safe}}
       </ul>
 
 
@@ -466,7 +469,7 @@
 <script type="text/javascript" src="/static/js/echarts.min.js"                ></script>
 <script type="text/javascript" src="/static/js/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
 <script type="text/javascript" src="/static/js/gradient-legend.js?v={{staticVersion}}"      ></script>
-<script type="text/javascript" src="/static/dl/council-by-6weeks.js?v={{staticVersion}}"          ></script>
+<script type="text/javascript" src="/static/dl/council-tempomat.js?v={{staticVersion}}"          ></script>
 
 
 <!--
@@ -493,6 +496,128 @@
   (async () => {
 
     // xxxxx
+    function scoreToAngle(score) {
+        // -1 = left (180°), +1 = right (0°)
+        return Math.PI * (1 - (score + 1) / 2);
+    }
+    function getScore(entry) {
+        if (entry.opinion_score === "" || entry.opinion_score === null) {
+            return entry.median_total;
+        }
+        return entry.opinion_score;
+    }
+
+
+
+    const svg = document.getElementById("gauge");
+    const centerX = 400;
+    const centerY = 380;
+    const radius  = 300;
+    const radiusArc  = radius + 12;
+
+
+    // arc
+    const arc = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    // arc.setAttribute(
+    //     "d",
+    //     `
+    //     M ${centerX - radius} ${centerY}
+    //     A ${radius} ${radius} 0 0 1 ${centerX + radius} ${centerY}
+    //     `
+    // );
+    arc.setAttribute(
+        "d",
+        `
+        M ${centerX - radiusArc} ${centerY}
+        A ${radiusArc} ${radiusArc} 0 0 1 ${centerX + radiusArc} ${centerY}
+        `
+    );
+    arc.setAttribute("fill",   "none");
+    arc.setAttribute("stroke", "rgb( 0,  105, 180)");
+    arc.setAttribute("stroke-width", "4");
+    svg.appendChild(arc);
+
+
+        // 'rgb(194, 211,   0)',
+        // 'rgb( 0,  105, 180)',
+
+
+
+    function drawNeedle(value) {
+        const angle = scoreToAngle(value);
+        const x = centerX + Math.cos(angle) * (radius - 12);
+        const y = centerY - Math.sin(angle) * (radius - 12);
+        const needle = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        needle.setAttribute("x1", centerX);
+        needle.setAttribute("y1", centerY);
+        needle.setAttribute("x2", x);
+        needle.setAttribute("y2", y);
+        needle.setAttribute("stroke", 'rgb(194, 211,   0)');
+        needle.setAttribute("stroke-width", "3");
+        svg.appendChild(needle);
+    }
+    // drawNeedle(0.26);
+    drawNeedle( councilTempomat[0]['median_total']);
+
+
+    // const angleBucketSize   = 0.05;         // radians (~3°)
+    const angleBucketSize   = 0.28;            // radians (~3°)
+    const radialStep        = 24;              // px inward per collision
+    const minRadius         = radius - 220;    // do not collapse into center
+
+    const angleBuckets = {};
+    function getAngleBucket(angle) {
+        return Math.round(angle / angleBucketSize) * angleBucketSize;
+    }
+
+    for (const [idx1, entry] of councilTempomat.entries()) {
+        const score = getScore(entry);
+        const angle = scoreToAngle(score);
+
+        const bucketKey = getAngleBucket(angle);
+
+        if (angleBuckets[bucketKey] === undefined) {
+            angleBuckets[bucketKey] = 0;
+        }
+
+        const collisionIndex = angleBuckets[bucketKey];
+        angleBuckets[bucketKey] = angleBuckets[bucketKey] + 1;
+
+        let blobRadius = radius - 10 - (collisionIndex * radialStep);
+
+        if (blobRadius < minRadius) {
+            blobRadius = minRadius;
+        }
+
+        const x = centerX + Math.cos(angle) * blobRadius;
+        const y = centerY - Math.sin(angle) * blobRadius;
+
+        const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
+
+        const ellipse = document.createElementNS("http://www.w3.org/2000/svg", "ellipse");
+        ellipse.setAttribute("cx", x);
+        ellipse.setAttribute("cy", y);
+        ellipse.setAttribute("rx", 25);
+        // ellipse.setAttribute("ry", 18);
+        ellipse.setAttribute("ry", 10);
+        ellipse.setAttribute("fill", entry.name_excel === "Christine Lagarde" ?  "#C2D30070"  : "#ffffff88");
+        ellipse.setAttribute("stroke", "#000");
+
+        const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        label.setAttribute("x", x);
+        label.setAttribute("y", y + 4);
+        label.setAttribute("text-anchor", "middle");
+        label.setAttribute("font-size", "11px");
+        label.textContent = entry.name_excel.split(" ").slice(-1)[0];
+
+        group.appendChild(ellipse);
+        group.appendChild(label);
+        svg.appendChild(group);
+    }
+
+
+
+
 
 
     // init-1
@@ -539,8 +664,8 @@
 
 
     let selectedDataMeta = {
-      "council_by_6weeks": {
-        "selected_data" : councilBy6Weeks,
+      "council_tempomat": {
+        "selected_data" : councilTempomat,
         "formatter": (statsValue) => {
           return  (Math.round(statsValue*10)/10).toString() + ' %'
         },
@@ -549,7 +674,7 @@
       } ,
     };
 
-    let   selectedVar  = "council_by_6weeks";
+    let   selectedVar  = "council_tempomat";
     const rawHash      = window.location.hash;
     const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
     if (byUrlHash !== ""){
@@ -688,8 +813,8 @@
       const opinionSeries = [];
       const rateSeries    = [];
 
-      for (let idx1 = 0; idx1 < councilBy6Weeks.length; idx1 += 1) {
-          const row = councilBy6Weeks[idx1];
+      for (let idx1 = 0; idx1 < councilTempomat.length; idx1 += 1) {
+          const row = councilTempomat[idx1];
 
           // keep date as string; ECharts handles time axis parsing
           dates.push(row.date);
@@ -702,7 +827,7 @@
       console.log(opinionSeries);
       console.log(rateSeries);
 
-      
+
       let results = [
         {
             name: 'Opinion Score',
@@ -843,7 +968,7 @@
 
       ],
 
-      
+
 
 
       series: [
@@ -958,10 +1083,10 @@
       console.log(`selected ${selectedVar}`);
 
       createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
-      sliderConfig();      
+      sliderConfig();
       linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
       updateDesc();
-      
+
       myChart.setOption(optionsInit);
       arrowRedraw();
       myChart.hideLoading();
@@ -1175,15 +1300,14 @@
     </div>
     <div id="dlgCnt">
         <ul>
-          <li>  
+          <li>
             <br>
           </li>
 
           <!--
             ● ➡ ↪
           -->
-          <li> &nbsp; &nbsp; ● &nbsp; Dovish-hawkish stance every 6-week period</li>
-          <li> &nbsp; &nbsp; ● &nbsp; ECB interest rates</li>
+          <li> &nbsp; &nbsp; ● &nbsp; Panel decisions hinge around the median board member</li>
         </ul>
     </div>
 </dialog>
