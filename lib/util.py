@@ -1,3 +1,4 @@
+from pandas import Timestamp
 
 
 def truncateUtf8(text, limit=128):
@@ -16,4 +17,21 @@ def truncateUtf8(text, limit=128):
             truncated = truncated[:-1]
     return decoded + "..."
 
+
+def toHtml(pthPickle, outPth):
+    try:
+        # Read the pickle file into a pandas DataFrame
+        councilDataFrame = pd.read_pickle(pthPickle)
+
+        # Transform the DataFrame into an HTML table string
+        # Using built-in method to avoid manual loops as per instruction
+        htmlTable = councilDataFrame.to_html()
+
+        # print(htmlTable)
+        with outPth.open("w", encoding="utf-8") as fileHandle:
+            fileHandle.write(htmlTable)
+
+    except Exception as exc:
+        tb = traceback.extract_tb(exc.__traceback__)[-1]
+        print(f"{exc} | {tb.filename}:{tb.lineno} | {tb.line}")
 

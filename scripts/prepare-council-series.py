@@ -14,9 +14,7 @@ from numpy import float64
 
 from collections import defaultdict
 
-
 from ..lib.util import toHtml
-
 
 
 
@@ -34,53 +32,9 @@ def formatValue(key, vl):
                 else:
                     vl = vl.strftime("%Y-%m-%d %H:%M:%S")
 
-
-        if key == "incumbent":
-            if isinstance(vl, float) and math.isnan(vl):
-                return ""
-            if vl == 1.0:
-                return True
-            else:
-                return False
-
-        if key == "birth_year":
-            if isinstance(vl, float) and math.isnan(vl):
-                return ""
-            if type(vl) is str:
-                return vl
-            return int(math.trunc(vl))
-        if key == "count_speeches":
-            if isinstance(vl, float) and math.isnan(vl):
-                return ""
-            if type(vl) is str:
-                return vl
-            return int(math.trunc(vl))
-        if key == "euro_accession_year":
-            if isinstance(vl, float) and math.isnan(vl):
-                return ""
-            if type(vl) is str:
-                return vl
-            return int(math.trunc(vl))
-
-
-        if vl is None:
-            return ""
-
-        if isinstance(vl, (int, float)):
-            if isinstance(vl, float) and math.isnan(vl):
-                return ""
-            if isinstance(vl, int):
-                return f"{vl}"
-            if isinstance(vl, float):
-                return round(float(vl),2)
-                # return f"{val:.2f}"
-
-
-        # default
         return vl
 
     except Exception as exc:
-        # print(f"Error in formatValue: {e} \n\t  -{key}-  -{vl}-")
         tb = traceback.extract_tb(exc.__traceback__)[-1]
         print(f"\t formatValue() -{key}-  -{vl}-")
         print(f"\t {exc}")
@@ -92,17 +46,9 @@ def formatValue(key, vl):
 
 
 def testFormatValue():
-
     testData = [
         ("incumbent", 1.0),
         ("incumbent", 0.0),
-        ("incumbent", float("nan")),
-        ("birth_year", 1980.9),
-        ("birth_year", float("nan")),
-        ("some_float", 50000.1234),
-        ("some_float", None),
-        ("some_float", "Not a number"),
-        ("some_int", 99)
     ]
     for idx1, testTuple in enumerate(testData):
         testKey   = testTuple[0]
@@ -115,73 +61,19 @@ def testFormatValue():
 
 
 
-def sortByFunction(members):
+def sortBy(members):
+    keysInp = []
+    for row in members:
+        keysInp.append(row)
 
-    # print(f" {type(members)}")
-
-    try:
-        # members is now a list of member records (dicts)
-
-        keysInp = []
-        for row in members:
-            keysInp.append(row)
-
-
-        roleOrderMap = {
-            "president":       0,
-            "vice-president":  1,
-            "chief economist": 2,
-            "executive board": 3,
-            "board":           4,
-            "governor":        5,   # non-ecb
-            "executive board": 6,   # ecb
-        }
-
-        def generateSortKey(memberRecord):
-
-            sort1a = memberRecord["organisation_euro"]  # ecb or country gov
-
-            roleValue = memberRecord["role_euro"]        # president, vp, chief econ., board
-            if roleValue not in roleOrderMap:
-                raise ValueError(f"Unknown role_euro: {roleValue}")
-
-            sort1b = roleOrderMap[roleValue]
-
-            fullName = memberRecord["name"]
-            nameParts = fullName.split(" ")
-            sort2 = nameParts[-1]
-
-            sort3 = memberRecord["starting_date"]
-
-            # print(f" sorting by {sort1a}-{sort1b}-{sort2}-{sort3}")
-            return (sort1a, sort1b, sort2, sort3)
-
-        keysSorted = sorted(keysInp, key=generateSortKey)
-
-        if True:
-            print("\t\t--- Sorted Results ---")
-            headTail = 5
-            for idx1, member in enumerate(keysSorted):
-                name = member["name"]
-                date = member["starting_date"]
-                role = member["role_euro"]
-                if idx1 < headTail or idx1 > (len(keysSorted) - headTail):
-                    print(f"\t\t{idx1 + 1:3}. {date} | {role:14} | {name}")
-
-        return keysSorted
-
-    except Exception as exc:
-        tb = traceback.extract_tb(exc.__traceback__)[-1]
-        print(f"{exc} | {tb.filename}:{tb.lineno} | {tb.line}")
-        sys.exit(1)
+    return keysInp
 
 
 def convertPickleToJs(
     pthPickle,
-    outPthJs1,
     outPthJs2,
     keyColName,
-    varName="councilByName",
+    varName="councilBy6Weeks",
 ):
 
     try:
@@ -308,64 +200,22 @@ def convertPickleToJs(
                 row["from_to"] = f"since {row['year_start']}  "
 
             officeTitle = f"{row['role_euro']}"
-            officeTitle = str(officeTitle).strip()
-            # we do this using i18n later in Javascript:
-            #    ...replace("executive board", "", -1)
-            #    ...replace("chief economist", "", -1)
-            #    ...replace("vice-president", "Vice-Pres.", -1)
-            #    ...title()
-
             if officeTitle:
                 row["role_euro__from_to"]  = f"{officeTitle},  {row['from_to']} "
             else:
-                row["role_euro__from_to"]  = f"{row['from_to']} "
-
-
-            row["born_raised"]  = f"*{row['birth_year']}, {row['country']}"
-
-
-            row["education"]  = f"education: {row['field_of_study']}"
-
-            row["career"] = "experience: "
-            if row['career_1']:
-                row["career"] += f"{row['career_1']}"
-            if row['career_2']:
-                row["career"] += f", {row['career_2']}"
-
-
+                pass
+                # row["role_euro__from_to"]  = f"{row['from_to']} "
 
 
 
         # remove keys not needed
         for idx1, key in enumerate(out):
-            # out[idx1].pop("year_start", None)
-            # out[idx1].pop("year_stop",  None)
             out[idx1].pop("career_1",   None)
             out[idx1].pop("career_2",   None)
 
-            if ("source" in row)  and  row["source"]=="":
-                out[idx1].pop("source",   None)
-
-            if ("euro_accession_year" in row)  and  row["euro_accession_year"]=="":
-                out[idx1].pop("euro_accession_year",   None)
-
-            if ("name_excel" in row):
-                if row["name_excel"]==row["name"]:
-                    out[idx1].pop("name_excel",   None)
-
-
-
-        if False:
-            jsonString = json.dumps(out, indent=4)
-            jsContent = f"const {varName}={jsonString}; \n\n"
-            with outPthJs1.open("w", encoding="utf-8") as fileHandle:
-                fileHandle.write(jsContent)
-            print(f"converted \n\t{pthPickle} to \n\t{outPthJs1} - {len(out)} rows")
-
-
 
         #
-        byFunction = sortByFunction(out)
+        byFunction = sortBy(out)
         jsonString = json.dumps(byFunction, indent=4)
         jsContent  = f"councilByFunction={jsonString}; \n\n"
         with outPthJs2.open("w", encoding="utf-8") as fileHandle:
@@ -394,17 +244,13 @@ print(f"\tscript     {Path(__file__).resolve()}   start")
 
 
 toHtml(
-    Path( appDir / "scripts" / "council" / "ecb-council-data.pkl") ,
-    Path( appDir / "scripts" / "council" / "council-by-name.html") ,
+    Path( appDir / "scripts" / "council" / "council-by-6weeks.pkl") ,
+    Path( appDir / "scripts" / "council" / "council-by-6weeks.html") ,
 )
 
 convertPickleToJs(
-    Path( appDir / "scripts" / "council" / "ecb-council-data.pkl") ,
-    Path( appDir / "static" / "dl" / "ecb-council-by-name.js") ,
-    Path( appDir / "static" / "dl" / "ecb-council-by-function.js") ,
+    Path( appDir / "scripts" / "council" / "council-by-6weeks.pkl") ,
+    Path( appDir / "static" / "dl"       / "council-by-6weeks.js") ,
     "name",
 )
-
-
-
 
