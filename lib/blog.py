@@ -54,7 +54,8 @@ def listEntry(pth: Path, idx: int):
 
     autofoc = ""
     if idx == 0:
-        autofoc = "autofocus"
+        # autofoc = "autofocus"
+        autofoc = ""
 
     dateLine = dateFormat(pth.stem, g.currentLanguage)
 
