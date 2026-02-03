@@ -462,6 +462,20 @@ trlsRaw = [
     },
 
 
+    {
+        "headline_council_tempomat": {
+            "de": "Mehrheitsverhältnisse",
+            "en": "Majorities",
+        },
+    },
+    {
+        "council_tempomat_desc": {
+            "de": "Durchschnittliche Position der Ratsmitglieder auf Jahresbasis ",
+            "en": "Average position of council members per year",
+        },
+    },
+
+
 
 ]
 
