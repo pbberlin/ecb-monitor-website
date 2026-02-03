@@ -14,14 +14,20 @@ from numpy import float64
 
 from collections import defaultdict
 
-from ..lib.util import toHtml
+
+pthScript   = Path(__file__).resolve()
+projectRoot = pthScript.parent.parent
+if str(projectRoot) not in sys.path:
+    sys.path.insert(0, str(projectRoot))
+
+from lib.util import toHtml
 
 
 
 def formatValue(key, vl):
     try:
 
-        if key == "starting_date" or key == "termination_date" :
+        if key == "date" :
             if vl is None:
                 vl = "-"
             elif type(vl) is NaTType:
@@ -32,14 +38,29 @@ def formatValue(key, vl):
                 else:
                     vl = vl.strftime("%Y-%m-%d %H:%M:%S")
 
+
+        if vl is None:
+            return ""
+
+        if isinstance(vl, (int, float)):
+            if isinstance(vl, float) and math.isnan(vl):
+                return ""
+            if isinstance(vl, int):
+                return f"{vl}"
+            if isinstance(vl, float):
+                return round(float(vl),2)
+                # return f"{val:.2f}"
+
+        # default
         return vl
 
+
     except Exception as exc:
+        # print(f"Error in formatValue: {e} \n\t  -{key}-  -{vl}-")
         tb = traceback.extract_tb(exc.__traceback__)[-1]
         print(f"\t formatValue() -{key}-  -{vl}-")
         print(f"\t {exc}")
         print(f"\t {tb.filename}:{tb.lineno} | {tb.line}")
-
 
         return vl
 
@@ -90,7 +111,7 @@ def convertPickleToJs(
         # columns and the key column values
         cols = dta.columns.tolist()
         if keyColName not in cols:
-            raise f"{keyColName} must be in cols {cols}"
+            raise Exception(f"{keyColName} must be in cols {cols}")
         else:
             print(f"\t  keyColName '{keyColName}' and {len(cols)} cols total")
             # dbg = ", ".join(cols)
@@ -99,6 +120,7 @@ def convertPickleToJs(
 
 
         if False:
+        # if True:
             keyColA = dta[keyColName].tolist()
             print(f"\t  found {len(keyColA)} rows  by '{keyColName}'")
             for idx1, keyColVal in enumerate(keyColA):
@@ -138,73 +160,6 @@ def convertPickleToJs(
                     print("")
 
 
-        organisation_euro = defaultdict(int)
-        role_euro         = defaultdict(int)
-        distinctNames     = defaultdict(int)
-
-
-        for idx1, row in enumerate(out):
-            if "name_excel" in row and row["name"] !=  row["name_excel"]:
-                print(f" {row['name_excel']} vs {row['name']}")
-            else:
-                out[idx1].pop("name_excel",   None)
-
-            if "Jose Manuel Gonzalez-Paramo" in row["name"]:
-                out[idx1]["name"] = "Jose M. Gonzalez-Paramo"
-
-
-            if "starting_date" in row:
-                out[idx1]["year_start"] = int(row["starting_date"][:4])
-            if "termination_date" in row:
-                out[idx1]["year_stop"]  = int(row["termination_date"][:4])
-
-
-            if "organisation_euro" in row:
-                organisation_euro[ row["organisation_euro"] ] += 1
-            if "role_euro" in row:
-                role_euro[ row["role_euro"] ] += 1
-            if "name" in row:
-                distinctNames[ row["name"] ]  += 1
-
-
-
-
-        # print(f"\t  organisation_euro {', '.join(organisation_euro)} ")
-        print("\t", end="")
-        for key in organisation_euro:
-            print(f"{key:<12}  {organisation_euro[key]}", end=", ")
-        print("")
-        print("\t", end="")
-        # print(f"\t  role_euro         {', '.join(role_euro)} ")
-        for key in role_euro:
-            print(f"{key:<12}  {role_euro[key]}", end=", ")
-        print("")
-        print("\t", end="")
-        cntr = 0
-        for idx, key in enumerate(distinctNames):
-            if distinctNames[key] > 1:
-                print(f"{key:20} {distinctNames[key]}", end=", ")
-                cntr += 1
-            if cntr > 3:
-                cntr = 0
-                print("")
-                print("\t", end="")
-        print("")
-
-
-
-        # combined keys for convenience
-        for idx1, row in enumerate(out):
-            row["from_to"] = f"{row['year_start']} - {row['year_stop']}"
-            if row['year_stop'] == 0:
-                row["from_to"] = f"since {row['year_start']}  "
-
-            officeTitle = f"{row['role_euro']}"
-            if officeTitle:
-                row["role_euro__from_to"]  = f"{officeTitle},  {row['from_to']} "
-            else:
-                pass
-                # row["role_euro__from_to"]  = f"{row['from_to']} "
 
 
 
@@ -215,13 +170,13 @@ def convertPickleToJs(
 
 
         #
-        byFunction = sortBy(out)
-        jsonString = json.dumps(byFunction, indent=4)
-        jsContent  = f"councilByFunction={jsonString}; \n\n"
+        # byFunction = sortBy(out)
+        jsonString = json.dumps(out, indent=4)
+        jsContent  = f"{varName}={jsonString}; \n\n"
         with outPthJs2.open("w", encoding="utf-8") as fileHandle:
             fileHandle.write(jsContent)
         print(f"\tconverted \n\t  {pthPickle} to \n\t  {outPthJs2}")
-        print(f"\toutput-3 {len(byFunction)} rows")
+        print(f"\toutput-3 {len(out)} rows")
 
 
 
@@ -251,6 +206,6 @@ toHtml(
 convertPickleToJs(
     Path( appDir / "scripts" / "council" / "council-by-6weeks.pkl") ,
     Path( appDir / "static" / "dl"       / "council-by-6weeks.js") ,
-    "name",
+    "date",
 )
 

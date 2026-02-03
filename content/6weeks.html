@@ -1,0 +1,1212 @@
+<style>
+
+  :root{
+    --display-type:   desktop;               /* used in javascript, no quotation marks */
+
+    --grad-height:   1.2rem;
+    --w01:           max(20rem, 20vw);  /* width left and right column  */
+    --w01-min:       calc( var(--w01) - 0.5rem )  ;
+    --echartHeight:   75vh;              /* not 75% -  fails */
+    --marginHeight:  calc( var(--echartHeight) - 1rem);
+    --initOpacity:   0.6;               /* minimize flickering */
+
+  }
+
+
+  /* radio buttons 20% larger */
+  input[type="radio"] {
+    transform:         scale(1.34);
+    -webkit-transform: scale(1.34);    /* Safari / older WebKit */
+    -ms-transform:     scale(1.34);    /* old IE/Edge */
+    transform-origin:  center;
+    vertical-align:    middle;
+
+    position: relative;
+    top: -0.12rem;
+
+  }
+
+
+  input[type="radio"] {
+    margin-left:  0.4rem;
+  }
+
+  html,
+  body,
+  dummy {
+    height: 100%;
+  }
+
+
+  .layout h3 {
+      font-size: 140%;
+      text-align: left;
+      text-align: center;
+  }
+
+
+  /*
+    container: left-to-right flow, top-aligned
+    3 columns
+    - col 1: 20% - at least 20vm
+    - col 2: exactly 820px
+    - col 3: 1fr - takes remaining width
+    -           or right margin max(20rem, 20vw)
+  */
+  .layout {
+    width: calc( 820px + 2* var(--w01));
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns:  var(--w01) 820px  var(--w01);
+    column-gap: 0;
+    align-items: start;           /* vertical: top for all */
+
+    /* border: 1px solid red; */
+  }
+
+  /* Ensure grid items can shrink if needed */
+  .col {
+    min-width: 0;
+    padding:   0;
+    margin:    0;
+    /* margin: 2px; */
+    /* border: 1px solid red; */
+  }
+
+
+  /* col1 - at least 20rem - 20% of screen width - */
+  .col--left   {
+    height:    var(--marginHeight);
+    min-width: var(--w01-min);
+
+    justify-self: end;
+    align-self: start;
+    text-align: right;
+    /* width: max-content; */
+
+    align-content:   end;
+  }
+
+  /* col2 -  fixed 820px, content centered */
+  .col--center {
+    justify-self: center;
+    align-self:    start;
+  }
+
+  /* col3 - takes the residual space, content left */
+  .col--right  {
+    height:    var(--marginHeight);
+    min-width: var(--w01-min);
+    /* width: max-content; */
+
+    justify-self: start;
+    align-self:   start;
+    text-align:   left;
+
+    align-content:   end;
+
+
+  }
+
+
+  #echart_container {
+
+    /* not 100% -  fails */
+    width: 820px;
+    height: var(--echartHeight);
+
+    /* margin:  0 auto; */
+    padding: 0;
+    border-bottom: 1px solid lightgray;
+    /* border-right:  1px solid lightgray; */
+    /* border: 1px solid lightgray; */
+    box-sizing: border-box;
+  }
+
+
+
+
+
+  /* content styles, why was the z-index needed?  */
+  .control-pad {
+    position: relative;   /*  z-index  */
+    z-index:  10;
+
+    margin:  0.4rem;
+    padding: 0.5rem 1.1rem;
+
+    border-radius: 0.2rem;
+    background-color: rgba(217,233,236,0.25);
+  }
+
+  .slider-group {
+    display:        flex;
+    flex-direction: column;
+    gap:           0.01rem;
+    align-items:   center;   /* contents centered horizontally */
+    height:        auto;
+    width:         max-content;    /* shrink container to content so it can sit right */
+    width:         100%;
+
+    margin-top:    1.1rem;
+    margin-bottom: 1.1rem;
+    margin-left:   auto;
+    margin-right:  auto;
+  }
+
+  #yearSlider {
+    width: 90%;
+    align-self: end;
+  }
+
+  .options-stat-vars {
+    display:        flex;
+    flex-direction: column;      /* vertical arrangement */
+    align-items:    flex-end;    /* right  alignment */
+    gap:            0.9rem;      /* vertical spacing */
+    margin:         3.0rem 0;
+  }
+
+
+  .play-and-download {
+    margin:       1.2rem;
+    margin-right: 0.4rem
+  }
+
+
+  .bullet-container {
+    margin:  0;
+    padding: 0;
+  }
+  .bullet-container li {
+    list-style-type: circle;
+    margin-left: 1rem;
+    padding: 0.3rem 0;
+
+    font-size: 90%;
+  }
+
+  .invisible-x {
+    visibility: hidden;
+  }
+
+
+@media (max-width: 900px) {
+      /* smartphone */
+
+      :root {
+        /* also zooms the echart */
+        --echartHeight:   34vh;
+        --display-type:   mobile;               /* used in javascript, no quotation marks */
+      }
+
+
+      /* single column stack */
+      .layout {
+        width:     100%;
+        max-width: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;  /* col--left, col--center, col--right */
+      }
+
+      /* allow cols to shrink nicely */
+      .col {
+        min-width: 0;
+        padding:   0;
+        margin:    0;
+      }
+
+      /* stacked: top, middle, bottom
+        (HTML order already is: left -> center -> right) */
+      .col--left,
+      .col--center,
+      .col--right {
+        width:     100%;
+        min-width:    0;
+        height:    auto;
+
+        justify-self: stretch;
+        align-self:     start;
+        text-align:    center;
+      }
+
+      .col--right {
+        /* height: 20rem;  */
+        height: auto;
+        padding: 1rem 2rem;
+        text-align: left;
+      }
+
+      /* center column: echart takes full width on phone */
+      #echart_container {
+        width:             100%;
+        max-width:         100%;
+        height:      var(--echartHeight);
+        box-sizing: border-box;
+
+        /* border-top: 2px solid red; */
+      }
+
+      .slider-group {
+        align-self:   center;
+        justify-self: center;
+      }
+
+      #yearSlider {
+        width: 90%;
+        align-self: center;
+      }
+
+      .options-stat-vars {
+        /* align-items:    center;     */
+        margin:         0.93rem 0;
+        margin-right: max(2.1rem, 11%) ;
+      }
+
+      input[type="radio"] {
+        margin-left:  0.9rem;
+      }
+
+      .play-and-download {
+        display: inline-block;
+        margin: 0.2rem;
+        margin-top:    0.8rem;
+        margin-bottom: 0.8rem;
+        /* width: 40%  !important  ; */
+        width: 40%  ;
+        /* margin-right:0.4rem     */
+      }
+
+
+
+      .gradientWrapper {
+        margin: 0.1rem 0;
+      }
+
+      .layout h3 {
+        /* .layout to increase specifitiy */
+        text-align: center;
+        width:      90%;
+        margin: 1rem auto ;
+        margin-bottom: 0;
+      }
+
+
+
+}
+
+
+</style>
+
+<style>
+
+  .gradientWrapper {
+      position:    relative;
+      height:      var(--grad-height);
+      width:       100%;
+      margin:      2rem 0;
+      /* margin-top:  0; */
+      /* border: 1px solid gray; */
+  }
+
+  .gradient1 {
+      height:   var(--grad-height);
+      width:    100%;
+      opacity:  var(--initOpacity);
+
+      /* background is set dynamically by JS */
+  }
+
+
+  .tick {
+      position: absolute;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0.4rem;
+
+      height:  5px;
+      width:   1px;
+      top:     calc(var(--grad-height) + 0.0rem);
+
+      background: black;
+      text-align:   center;
+      transform:    translateX(calc(-50% + 1px));
+      font-size: 11px;
+  }
+  .tick:last-child {
+      transform:    translateX(calc(-50% - 1px));
+  }
+
+
+
+  .gradientDebug {
+      height:   var(--grad-height);
+      width:    100%;
+      opacity:  var(--initOpacity);
+      background: linear-gradient(
+          to right,
+          #00A000   0%,
+          #A08000  30%,
+          #A08000  30%,
+          #FF0000  90%,
+          #FF0000 100%
+      );
+      /* border: 1px solid #444; */
+  }
+
+
+</style>
+
+
+
+
+<!-- id-1331qerwqrwqrq -->
+<!-- id-1331qerwqrwqrq -->
+<!-- id-1331qerwqrwqrq -->
+<div class="layout">
+
+  <div class="col col--left control-pad">
+
+      <!-- First (top, right) -->
+      <h3> {{i18n.headline_council_by_6weeks}}
+        <a href="#" id="btnDlgIco" title="Interpretation assistance" >i</a>
+      </h3>
+
+
+
+      <div id="slider-group" class="slider-group invisible-x">
+        <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
+        <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
+      </div>
+
+      <!-- option -->
+      <div class="options-stat-vars invisible-x" >
+        <label title="(Ameco)">
+          {{i18n.council_by_6weeks_label}}
+          <input type="radio" name="stats_variable" value="council_by_6weeks" >
+        </label>
+      </div>
+
+
+      <div class="slider-group  play-and-download invisible-x" >
+        <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
+      </div>
+
+      <div class="slider-group play-and-download" >
+        <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
+        >{{i18n.download_data}}</a>
+      </div>
+
+
+
+  </div>
+
+
+  <div class="col col--center">
+    <div id="echart_container">echart container content</div>
+  </div>
+
+
+
+  <div class="col col--right control-pad">
+
+      <ul  style="display:none;" class="bullet-container stats-desc" id="council_by_6weeks_desc" >
+        {{i18n.council_by_6weeks_desc|safe}}
+      </ul>
+
+
+      <br>
+
+
+      <div class="gradientWrapper  invisible-x ">
+          <div class="gradient1" id="gradient1"></div>
+      </div>
+      <!--
+      <div class="gradientWrapper">
+          <div class="gradientDebug" id="gradientDebug"></div>
+          <div class="tick" style="left:   0px;">  0%</div>
+          <div class="tick" style="left:   30%;"> 60%</div>
+          <div class="tick" style="left:   50%;">100%</div>
+          <div class="tick" style="left:  100%;">180%</div>
+      </div>
+      -->
+
+
+
+      <div class="slider-group"
+          style="margin-top: 4.5rem; margin-bottom: 0;"
+          title="change  saturation / opacity of the map colors"
+      >
+        <span style="font-size: 65%; font-weight: 300; display: inline-block; position: relative; top: -5px;"
+        >{{i18n.color_saturation}} </span>
+        <input name="color_opacity" id="color_opacity" type="range" min="0" max="1" step="0.1"
+          value="0.6"
+          style="border:none; width: 6rem;     transform: scale(0.60); "
+        >
+      </div>
+
+
+
+
+
+  </div><!-- /col--right -->
+
+
+</div><!-- /layout -->
+
+
+
+
+<!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script> -->
+<script type="text/javascript" src="/static/js/echarts.min.js"                ></script>
+<script type="text/javascript" src="/static/js/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
+<script type="text/javascript" src="/static/js/gradient-legend.js?v={{staticVersion}}"      ></script>
+<script type="text/javascript" src="/static/dl/council-by-6weeks.js?v={{staticVersion}}"          ></script>
+
+
+<!--
+  'module'
+    runs after  HTML is fully parsed
+    runs before DOMContentLoaded fires
+
+    images, fonts not yet being loaded
+    layout  sizes not yet available
+-->
+<script type="module">
+
+  /*
+    Since we need `await fetch(...)` at top level
+      -> we must wrap all logic in an async func.
+
+      logic contains event handlers with "closure" around top level variables.
+
+      1.) top level variables
+      2.) helper funcs, event handlers
+      3.) init/update code
+
+    */
+  (async () => {
+
+    // xxxxx
+
+
+    // init-1
+    const root        = document.documentElement;
+    const displayType = getComputedStyle(root).getPropertyValue('--display-type').trim();
+    const colPri      = getComputedStyle(root).getPropertyValue('--color-primary').trim();
+    const colSec      = getComputedStyle(root).getPropertyValue('--color-secondary').trim();
+    const colGr2      = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
+    const colIB3      = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
+
+    const myChartDom  = document.getElementById('echart_container');
+    const myChart = echarts.init(myChartDom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    myChart.showLoading();
+
+    const currentYear = new Date().getFullYear();
+
+    // --- slider setup: 1960 .. (current year + 1) ---
+    const sliderEl = document.getElementById('yearSlider');
+    const labelEl  = document.getElementById('yearLabel');
+
+    sliderEl.max         = String(currentYear+1);
+    sliderEl.value       = String(currentYear);
+    labelEl.textContent  = sliderEl.value;
+
+    const linkDownload   = document.getElementById("linkDownload")
+    const elOpa          = document.getElementById("color_opacity");
+    const extendableList = Array();
+    extendableList.push(elOpa);
+
+
+    let initOpacity = 0.6;
+    let storedOpacity = localStorage.getItem("initOpacity");
+    if (storedOpacity !== null) {
+        initOpacity = parseFloat(storedOpacity);
+        // console.log(`  initOpacity from store ${initOpacity}  `)
+    }
+    root.style.setProperty("--initOpacity", initOpacity.toString());
+    elOpa.value = initOpacity;
+
+    let timerId = 0;
+
+
+    let selectedDataMeta = {
+      "council_by_6weeks": {
+        "selected_data" : councilBy6Weeks,
+        "formatter": (statsValue) => {
+          return  (Math.round(statsValue*10)/10).toString() + ' %'
+        },
+        "color_ranges": [-2, 0, 2, 4],
+        "colors":       ["#FF0000", "#80A000", "#00A000", "#00A000"],
+      } ,
+    };
+
+    let   selectedVar  = "council_by_6weeks";
+    const rawHash      = window.location.hash;
+    const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
+    if (byUrlHash !== ""){
+      selectedVar    = byUrlHash;
+    }
+    // console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
+
+
+
+
+
+    function mapToZeroOne(vl, ranges) {
+
+        let range0 = ranges[0];
+        let range1 = ranges[1];
+        let range2 = ranges[2];
+
+        if (vl <= range1) {
+            let t = (vl - range0) / (range1 - range0);
+            return Math.max(0, Math.min(1, t));
+        } else {
+            let t = (vl - range1) / (range2 - range1);
+            return Math.max(0, Math.min(1, t));
+        }
+    }
+
+
+    function valToPctToColor(vl, config) {
+
+        let opacity = initOpacity;
+        if (elOpa){
+          opacity = elOpa.value;
+          opacity = elOpa.value.toString(16);
+          opacity = parseFloat(opacity);
+        }
+        let tmp = Math.floor(opacity * 255);
+        let opacityHex = tmp.toString(16);
+        if (opacityHex.length < 2) {
+            opacityHex = "0" + opacityHex;
+        }
+
+        const gradWrap2 = document.getElementById("gradient1");
+        if (gradWrap2) {
+          gradWrap2.style.opacity = opacity;
+        }
+
+
+        const ranges = config["color_ranges"]
+        const colors = config["colors"]  //     ["#FF0000", "#80A000", "#00A000"]
+
+        function separateVals(hexColor) {
+            let cleanHex = hexColor.replace("#", "");
+            let componentArray = [];
+            for (let idx1 = 0; idx1 < cleanHex.length; idx1 += 2) {
+                let hexPair = cleanHex.substring(idx1, idx1 + 2);
+                let comp = parseInt(hexPair, 16);
+                componentArray.push(comp);
+            }
+            return componentArray;
+        }
+
+        let colorsSeparated = [];
+        for (let [idx1, color] of colors.entries()) {
+            let rgbComponents = separateVals(color);
+            colorsSeparated.push(rgbComponents);
+        }
+
+        // const colR0 = [0x00, 0xA0, 0x00]; // mostly green
+        // const colR1 = [0x80, 0x80, 0x00]; // yellow
+        // const colR2 = [0xff, 0x00, 0x00]; // red
+
+        const colR0 = colorsSeparated[0];
+        const colR1 = colorsSeparated[1];
+        const colR2 = colorsSeparated[2];
+
+
+        function interpolate(a, b, t) {
+            const out = [0, 0, 0];
+            for (let idx1 = 0; idx1 < 3; idx1++) {
+                out[idx1] = Math.round(a[idx1] + (b[idx1] - a[idx1]) * t);
+            }
+            return out;
+        }
+
+        let r0 = ranges[0];
+        let r1 = ranges[1];
+        let r2 = ranges[2];
+
+        let rgb;
+
+        if (vl <= r0) {
+            rgb = colR0.slice();
+        } else if (vl <= r1) {
+            let t = mapToZeroOne(vl, ranges);
+            rgb = interpolate(colR0, colR1, t);
+        } else if (vl <= r2) {
+            let t = mapToZeroOne(vl, ranges);
+            rgb = interpolate(colR1, colR2, t);
+        } else {
+            rgb = colR2.slice();
+        }
+
+        const asHex = rgb.map(function (v) {
+            const  h = v.toString(16);
+            return h.length === 1 ? "0" + h : h;
+        });
+
+        return "#" + asHex.join("") + opacityHex;
+    }
+
+
+
+
+
+
+
+    function arrowRedraw() {
+        return;
+    }
+
+
+
+
+
+    // creating debt numbers at the centroid of 27 eu countries
+    function manyCountriesShowStats(yr=currentYear) {
+
+      let fontSizeByDisplay = 12;
+      if (displayType === "mobile") {
+        fontSizeByDisplay = 10;
+        // console.log(`displayType = ${displayType} - fontSize = ${fontSizeByDisplay}`)
+      }
+
+
+      const dates = [];
+      const opinionSeries = [];
+      const rateSeries    = [];
+
+      for (let idx1 = 0; idx1 < councilBy6Weeks.length; idx1 += 1) {
+          const row = councilBy6Weeks[idx1];
+
+          // keep date as string; ECharts handles time axis parsing
+          dates.push(row.date);
+
+          opinionSeries.push(row.opinion_score);
+          rateSeries.push(row.leitzins);
+      }
+
+
+      console.log(opinionSeries);
+      console.log(rateSeries);
+
+      
+      let results = [
+        {
+            name: 'Opinion Score',
+            type: 'line',
+            yAxisIndex: 0,
+            data: opinionSeries.map((v, idx1) => {
+                return [dates[idx1], v];
+            }),
+            symbol: 'circle',
+            symbolSize: 7,
+            lineStyle: {
+                width: 2
+            }
+        },
+        {
+            name: 'ECB Deposit Rate',
+            type: 'line',
+            yAxisIndex: 1,
+            data: rateSeries.map((v, idx1) => {
+                return [dates[idx1], v];
+            }),
+            showSymbol: false,
+            lineStyle: {
+                type: 'dashed',
+                width: 2
+            }
+        }
+      ]
+
+
+      return results;
+
+
+    }
+
+
+
+
+
+
+
+
+    const optionsInit = {
+
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+            type: 'cross'
+        }
+      },
+      // tooltip: {},
+
+
+      legend: {
+        show: false,
+      },
+      legend: {
+        data: ['Opinion Score', 'ECB Deposit Rate'],
+        bottom: 10
+      },
+
+      grid: {
+          left: 70,
+          right: 70,
+          top: 60,
+          bottom: 70
+      },
+
+
+      //
+      toolbox: {
+        show:   true,
+        right: '0.125%',
+        top:   '0.125%',
+
+        itemSize: 10,
+        itemGap:   6,
+
+        iconStyle: {
+          borderColor: '#666',
+          borderWidth: 1
+        },
+
+        feature: {
+          restore: {
+            title: '🔍 100%'
+          },
+          saveAsImage: {
+            type: 'png',          // or 'jpeg', 'svg'
+            name: 'ecb-monitor-map-screenshot',
+            backgroundColor: '#fff',
+            pixelRatio: 2,
+          },
+        },
+      },
+
+      // global colors for series - taken from main-fonts.css
+      color: [
+        'rgb(194, 211,   0)',
+        'rgb( 0,  105, 180)',
+        'rgb(245, 245, 246)',
+        'rgb(112, 111, 111)',
+        'rgb(157, 157, 156)',
+        'rgb(174, 215, 217)',
+      ],
+
+
+     xAxis: {
+          type: 'time',
+          boundaryGap: false,
+          axisLabel: {
+            formatter: (value) => {
+                const d = new Date(value);
+                return String(d.getFullYear());
+            }
+          }
+      },
+
+      yAxis: [
+          {
+            type: 'value',
+            name: 'Opinion Score',
+            min:   -1.0,
+            max:    1.0,
+            nameRotate: 90,
+            nameLocation: 'middle',
+            nameGap: 25,
+            // position: 'left',
+          },
+
+          {
+            type: 'value',
+            name: 'ECB Deposit Rate (%)',
+            nameRotate: -270,
+            nameLocation: 'middle',
+            nameGap: 25
+          },
+
+      ],
+
+      
+
+
+      series: [
+        ...manyCountriesShowStats(),
+      ]
+
+    };
+
+
+    function subtractMonths(year, month, steps) {
+      let newYear  = year;
+      let newMonth = month;
+      for (let idx1 = 0; idx1 < steps; idx1 += 1) {
+        newMonth -= 1;
+        if (newMonth === 0) {
+          newMonth = 12;
+          newYear -= 1;
+        }
+      }
+      const mnthFormatted = `${newMonth}`.padStart(2, "0");
+      // return `2025-09`;
+      console.log( String(newYear) + "-" + mnthFormatted );
+      return String(newYear) + "-" + mnthFormatted;
+    }
+
+
+
+    function sliderConfig(){
+      if ("mapping2" in selectedDataMeta[selectedVar]["selected_data"]){
+        const mp2 = selectedDataMeta[selectedVar]["selected_data"]["mapping2"];
+        const firstKey = Object.keys(mp2)[0]; // determininistic, insertion order
+        sliderEl.min = firstKey;
+      } else {
+        sliderEl.min = 2000;
+      }
+    }
+
+
+    function sliderToKey(){
+      const yr = parseInt(sliderEl.value, 10);
+      if (selectedVar !== "eurostat_hicp"){
+        return {
+          yr: yr,
+          lbl:String(yr),
+        };
+      }
+      const mp2 = selectedDataMeta[selectedVar]["selected_data"]["mapping2"]
+      // console.log(mp2);
+      return {
+        yr:  mp2[ String(yr) ],
+        lbl: mp2[ yr ],
+      };
+
+    }
+
+    sliderEl.addEventListener("wheel", function(evt) {
+        evt.preventDefault();               // stop page scrolling
+        const direction = Math.sign(evt.deltaY);
+        let newValue = Number(sliderEl.value) - direction * wheelStep;
+
+        if (newValue < sliderEl.min) {
+            newValue = sliderEl.min;
+        }
+        if (newValue > sliderEl.max) {
+            newValue = sliderEl.max;
+        }
+        sliderEl.value = newValue;
+        sliderEl.dispatchEvent(new Event("input"));    // trigger input event
+    });
+
+    document.getElementById("linkPlay").addEventListener("click", function (ev) {
+        ev.preventDefault();
+
+        const sliderElem = document.getElementById("yearSlider");
+        const minVal = parseInt(sliderElem.min, 10);
+        const maxVal = parseInt(sliderElem.max, 10);
+
+        let currentVal = minVal;
+        sliderElem.value = currentVal;
+        sliderElem.dispatchEvent(new Event("change"));
+
+        const stepTimer = setInterval(function () {
+
+            currentVal += 1;
+            sliderElem.value = currentVal;
+            // we need to send the event to slider - to trigger its change event
+            sliderElem.dispatchEvent(new Event("change"));
+
+            if (currentVal >= maxVal) {
+                clearInterval(stepTimer);
+            }
+
+        }, 550);
+    });
+
+    function updateDesc(){
+      let descs = document.querySelectorAll(".stats-desc");
+      descs.forEach(function(desc) {
+          if (desc.id === selectedVar + "_desc") {
+              desc.style.display = "block";
+            } else {
+              desc.style.display = "none";
+          }
+      });
+    }
+
+
+
+
+    // init-2
+    const initFunc = () => {
+      console.log(`selected ${selectedVar}`);
+
+      createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
+      sliderConfig();      
+      linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
+      updateDesc();
+      
+      myChart.setOption(optionsInit);
+      arrowRedraw();
+      myChart.hideLoading();
+    }
+    initFunc()
+
+
+
+
+
+    sliderEl.addEventListener('change', function () {
+
+      const res = sliderToKey();
+      labelEl.textContent = res.lbl;
+
+      // mutate option and re-apply
+      // reset the stuff we want to update
+      const optUpdate = {
+        series: [],
+      };
+      // re-populate
+      optUpdate.series = [
+        ...manyCountriesShowStats(res.yr),
+      ];
+
+
+      console.log(` changing year to ${res.yr} `);
+      myChart.setOption(
+        optUpdate,
+        {
+          notMerge :   false,  // do merge
+          lazyUpdate : true,
+        },
+      );
+    });
+
+
+
+
+
+    // event handlers for radio inputs and color_opacity
+    //    color_opacity also triggers the option/radio change event
+    for (let idx1 = 0; idx1 < extendableList.length; idx1++) {
+      extendableList[idx1].addEventListener('change', function (evt) {
+
+        if (evt.target.name === "color_opacity") {
+          localStorage.setItem("initOpacity", evt.target.value.toString());
+        } else {
+          selectedVar  = evt.target.value;
+        }
+
+        console.log(`selected ${evt.target.value}`);
+
+        sliderConfig();
+        const res = sliderToKey();
+        labelEl.textContent = res.lbl;
+
+        linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
+
+        createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
+
+        updateDesc();
+
+
+        const optUpdate = {
+          series: [],
+        };
+        optUpdate.series = [
+          ...manyCountriesShowStats(res.yr),
+        ];
+
+        myChart.setOption(
+          optUpdate,
+          {
+            notMerge :   false,  // do merge
+            lazyUpdate : true,
+          },
+        );
+
+        if (timerId > 0) {
+          clearTimeout(timerId);
+        }
+        timerId = setTimeout(function () {
+          sliderEl.focus();
+        }, 1200);
+
+      });
+    }
+
+
+
+    window.addEventListener('resize', function() {
+        myChart.resize();
+        arrowRedraw();
+    });
+
+    myChart.on('georoam', function() {
+        arrowRedraw();
+    });
+
+
+
+
+
+  })();   // end of outmost aync func - so we can you fetch inside
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+<style>
+
+    /* wobble */
+    @keyframes wobble {
+          0% { transform: rotate(  0deg); }
+         15% { transform: rotate(-10deg); }
+         30% { transform: rotate(  8deg); }
+         45% { transform: rotate( -6deg); }
+         60% { transform: rotate(  4deg); }
+         75% { transform: rotate( -2deg); }
+        100% { transform: rotate(  0deg); }
+    }
+    .wobble {
+        animation: wobble 0.6s ease-in-out;
+    }
+
+    #btnDlgIco {
+        width:         1.2rem;
+        height:        1.2rem;
+        font-size:     1.1rem;
+        font-weight:   600;
+        font-weight:   400;
+        line-height:   1;
+        display:       inline-grid;
+        place-items:   center;
+        border-radius: 44%;
+        border:        2px solid currentColor;
+        margin-left: 0.5rem;
+    }
+
+
+
+    dialog {
+        width:            66vw;
+        height:           66vh;
+        max-width:      1000px;
+        max-height:      800px;
+        border:           none;
+        border-radius:    12px;
+        padding:           0;
+        box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
+    }
+    dialog::backdrop {
+        background: rgba(0, 0, 0, 0.45);
+    }
+
+
+    #dlgHead {
+        display:         flex;
+        justify-content: space-between;
+        align-items:     center;
+        padding:          1rem 1.25rem;
+        padding-top:      1.25rem;
+        border-bottom:   1px solid #e5e7eb;
+        /* font-weight: 600; */
+        font-weight: 400;
+        background-color: #efefef;
+        height:      1.7rem;
+    }
+
+    #btnDlgClose {
+        background: none;
+        border:     none;
+        font-size:  1.15rem;
+        height:     1.35rem;
+        line-height: 1.1;
+        /* cursor: pointer; */
+    }
+
+    #dlgCnt {
+        margin:      0;
+        padding:     0.8rem 0.925rem;
+        overflow:    auto;
+        height: calc(100% - 7.5rem);
+        font-size:  130%;
+        line-height: 2.4;
+    }
+
+    @media (max-width: 768px) {
+        dialog {
+            width:  90vw;
+            height: 90vh;
+        }
+    }
+</style>
+
+
+<dialog id="elDialog">
+    <div id="dlgHead">
+        <span>Interpretation assistance</span>
+        <button id="btnDlgClose">×</button>
+    </div>
+    <div id="dlgCnt">
+        <ul>
+          <li>The economic environment influences ECB policy.
+            <br>
+          </li>
+
+          <!--
+            ● ➡ ↪
+          -->
+          <li> &nbsp; &nbsp; ● &nbsp; Dovish-hawkish stance every 6-week period</li>
+          <li> &nbsp; &nbsp; ● &nbsp; ECB interest rates</li>
+        </ul>
+    </div>
+</dialog>
+
+<script>
+    const btnDlgIco     = document.getElementById("btnDlgIco");
+    const btnDlgClose   = document.getElementById("btnDlgClose");
+    const dlg           = document.getElementById("elDialog");
+
+    btnDlgIco.addEventListener("click", () => {
+        dlg.showModal();
+    });
+
+    btnDlgClose.addEventListener("click", () => {
+        dlg.close();
+    });
+
+    window.addEventListener("load", () => {
+        setTimeout(() => {
+            btnDlgIco.classList.add("wobble");
+            setTimeout(() => {
+                btnDlgIco.classList.remove("wobble");
+            }, 1400);
+        }, 600);
+    });
+</script>

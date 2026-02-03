@@ -14,8 +14,11 @@ from numpy import float64
 
 from collections import defaultdict
 
-
-from ..lib.util import toHtml
+pthScript   = Path(__file__).resolve()
+projectRoot = pthScript.parent.parent
+if str(projectRoot) not in sys.path:
+    sys.path.insert(0, str(projectRoot))
+from lib.util import toHtml
 
 
 
@@ -198,7 +201,7 @@ def convertPickleToJs(
         # columns and the key column values
         cols = dta.columns.tolist()
         if keyColName not in cols:
-            raise f"{keyColName} must be in cols {cols}"
+            raise Exception(f"{keyColName} must be in cols {cols}")
         else:
             print(f"\t  keyColName '{keyColName}' and {len(cols)} cols total")
             # dbg = ", ".join(cols)
