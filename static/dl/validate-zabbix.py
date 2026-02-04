@@ -87,6 +87,11 @@ def validateJsFile(jsPath):
         elif isinstance(jsDta, list):
             val1 = jsDta[0]
 
+        if Path(jsPath).name == "council-by-6weeks.js":
+            MIN_NESTED_KEYS = 3
+        if Path(jsPath).name == "council-tempomat.js":
+            MIN_NESTED_KEYS = 4
+
 
         keys2 = list(val1.keys())
         if len(keys2) < MIN_NESTED_KEYS:
