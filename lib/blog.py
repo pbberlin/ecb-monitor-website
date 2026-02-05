@@ -40,7 +40,7 @@ def mdParts(pth: Path, idx: int):
 
   with open(pth, "r", encoding="utf-8") as f:
 
-    # first line as head line - link-text 
+    # first line as head line - link-text
     h1 = f.readline().strip()
     h1 = h1.lstrip("<!--").rstrip("-->").strip()
     h1 = h1.lstrip("#").strip()
@@ -53,7 +53,7 @@ def mdParts(pth: Path, idx: int):
     tplName = ""
     if len(h2) > 0:
       tplName = f.readline().strip()
-  
+
 
     restOfFile = f.read()
 
@@ -68,7 +68,7 @@ def mdParts(pth: Path, idx: int):
     listEntry += " <li>"
     listEntry +=    f"<p class='date-line'>{dateLine}  </p> "
     listEntry +=    f"<b>  <a href='{urlPth.as_posix() }?lang=en' {autofoc} > {h1} </a> </b>"
-    if h2:     
+    if h2:
       listEntry +=    f"<br> "
       listEntry +=    f"{h2} "
     listEntry += "</li>"
@@ -79,9 +79,89 @@ def mdParts(pth: Path, idx: int):
 
 def renderMarkdown(markDownCnt):
   try:
-    htmlContent = markdown.markdown(markDownCnt)    
+    htmlContent = markdown.markdown(markDownCnt)
     return htmlContent
 
   except Exception as exc:
     return f"error markdown rendering: {exc}"
+
+
+
+
+
+
+
+
+
+
+
+
+def licenceString(fnParam):
+
+    fn = fnParam.lower()
+    if "adobe" in fn:
+        return "Licensed by our organisation from stock.adobe.com."
+    if ("zew" in fn) or ("fhe" in fn):
+        return "Produced by our organisation - ZEW (https://www.zew.de)."
+
+    return "Source: Wikimedia Commons (https://commons.wikimedia.org/wiki/Main_Page)."
+
+
+def thumb(fn):
+    baseDir = Path("/static/img/blog")
+    pth = baseDir / fn
+    if fn.lower().endswith(".mp4"):
+        return f'<video src="{pth}" width="200" controls></video>'
+    return f'<img src="{pth}" width="200">'
+
+
+def imageLicenses():
+
+
+  imgs = [
+      "calculators.png",
+      "European_Central_Bank_Headquarters_(model_01)-sm-fg2.png",
+      "fhe--grey.jpg",
+      "fhe--iceblue.jpg",
+      "adobe-political-economy.jpg",
+      "adobe-stock-1878624005-sm.gif",
+      "adobe-stock-529399345-ecb.jpg",
+    ]
+
+
+
+  lines = []
+
+  lines.append("### Image Credits (Licence Information)")
+  lines.append("")
+  lines.append("Credits for the images used on this website.")
+
+  lines.append("")
+  lines.append("| Thumbnail | Legal notice |")
+  lines.append("|---------|--------------|")
+
+  for idx1, fn in enumerate(imgs):
+
+      try:
+          thumbnailHtml = thumb(fn)
+          legalText = licenceString(fn)
+          row = f"| {thumbnailHtml} | **{fn}** — {legalText} |"
+          lines.append(row)
+
+      except Exception as exc:
+          print("Error while processing:", fn)
+          print(exc)
+          raise
+
+  markDownCnt = "\n".join(lines)
+
+
+
+  htmlContent = markdown.markdown(
+    markDownCnt,
+    extensions=["tables"],
+  )
+  return htmlContent
+
+
 

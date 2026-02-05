@@ -476,6 +476,13 @@ trlsRaw = [
     },
 
 
+    {
+        "headline_image_licenses": {
+            "de": "Bildnachweis",
+            "en": "Image Credits (Licence Information)",
+        },
+    },
+
 
 ]
 

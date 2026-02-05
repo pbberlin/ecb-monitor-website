@@ -318,7 +318,13 @@ def flow01():
 
 
 
-from lib.blog import dateFormat, renderMarkdown, mdParts
+from lib.blog import renderMarkdown, mdParts, imageLicenses
+
+
+@app.route('/image-licences')
+def handlerImageLicencse():
+    return imageLicenses()
+
 
 
 @app.route('/blog')
