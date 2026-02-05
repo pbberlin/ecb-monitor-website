@@ -87,14 +87,15 @@ def validateJsFile(jsPath):
         elif isinstance(jsDta, list):
             val1 = jsDta[0]
 
+        minNestedLocal = MIN_NESTED_KEYS 
         if Path(jsPath).name == "council-by-6weeks.js":
-            MIN_NESTED_KEYS = 3
+            minNestedLocal = 3
         if Path(jsPath).name == "council-tempomat.js":
-            MIN_NESTED_KEYS = 4
+            minNestedLocal = 4
 
 
         keys2 = list(val1.keys())
-        if len(keys2) < MIN_NESTED_KEYS:
+        if len(keys2) < minNestedLocal:
             print(
                 f"[ERROR] Value for key '{key1}' in {jsPath} "
                 f"has only {len(keys2)} nested keys",
