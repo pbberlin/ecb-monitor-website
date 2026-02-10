@@ -3,11 +3,13 @@
 """
 Monochrome hue filter for RGB JPEGs.
 
+    python monochrome-hue.py  ./inp.jpg
+
+
     python monochrome-hue.py  ./inp.jpg                    --brighten=1.4
     python monochrome-hue.py  ./inp.jpg  --saturation=0.6  --brighten=1.6
     python monochrome-hue.py  ./inp.jpg  --saturation=0.8  --brighten=1.8
     python monochrome-hue.py  ./inp.jpg  --saturation=0.4  --brighten=1.8
-
 
 """
 
