@@ -513,7 +513,8 @@
     const centerX = 400;
     const centerY = 380;
     const radius  = 300;
-    const radiusArc  = radius + 12;
+    const ring = 4
+    const radiusArc  = radius + ring;
 
 
     // arc
@@ -543,10 +544,10 @@
 
 
 
-    function drawNeedle(value) {
-        const angle = scoreToAngle(value);
-        const x = centerX + Math.cos(angle) * (radius - 12);
-        const y = centerY - Math.sin(angle) * (radius - 12);
+    function drawNeedle(val) {
+        const angle = scoreToAngle(val);
+        const x = centerX + Math.cos(angle) * (radius - ring);
+        const y = centerY - Math.sin(angle) * (radius - ring);
         const needle = document.createElementNS("http://www.w3.org/2000/svg", "line");
         needle.setAttribute("x1", centerX);
         needle.setAttribute("y1", centerY);
@@ -557,12 +558,12 @@
         svg.appendChild(needle);
     }
     // drawNeedle(0.26);
-    drawNeedle( councilTempomat[0]['median_total']);
+    const median = councilTempomat[0]['median_total'];
+    drawNeedle( median );
 
 
-    // const angleBucketSize   = 0.05;         // radians (~3°)
-    const angleBucketSize   = 0.28;            // radians (~3°)
-    const radialStep        = 24;              // px inward per collision
+    const angleBucketSize   =  0.28;           // radians (~3°)
+    const radialStep        = 21;              // px inward per collision
     const minRadius         = radius - 220;    // do not collapse into center
 
     const angleBuckets = {};
@@ -600,7 +601,23 @@
         ellipse.setAttribute("rx", 25);
         // ellipse.setAttribute("ry", 18);
         ellipse.setAttribute("ry", 10);
-        ellipse.setAttribute("fill", entry.name_excel === "Christine Lagarde" ?  "#C2D30070"  : "#ffffff88");
+
+
+        const isMedianPos = Math.round(score*1000) === Math.round(median*1000); 
+
+        if (isMedianPos) {
+          ellipse.setAttribute("fill", "#C2D30020");
+        } else if (entry.name_excel === "Christine Lagarde"){
+            ellipse.setAttribute("fill", "#dfdfdf70");
+        } else {
+          ellipse.setAttribute("fill", "#ffffff88");
+        }
+
+        // label.textContent +=  " "; 
+        // label.textContent +=  String(Math.round(score*100)) ;
+
+        
+
         ellipse.setAttribute("stroke", "#000");
 
         const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
@@ -609,6 +626,18 @@
         label.setAttribute("text-anchor", "middle");
         label.setAttribute("font-size", "11px");
         label.textContent = entry.name_excel.split(" ").slice(-1)[0];
+
+        let angleDeg = (angle * 180 / Math.PI) - 90;
+        angleDeg = -angleDeg;
+        ellipse.setAttribute(
+            "transform",
+            `rotate(${angleDeg} ${x} ${y})`
+        );        
+        label.setAttribute(
+            "transform",
+            `rotate(${angleDeg} ${x} ${y})`
+        );        
+
 
         group.appendChild(ellipse);
         group.appendChild(label);
@@ -1307,7 +1336,9 @@
           <!--
             ● ➡ ↪
           -->
-          <li> &nbsp; &nbsp; ● &nbsp; Panel decisions hinge around the median board member</li>
+          <li> &nbsp; &nbsp; ● &nbsp; The median stance is indicated by the yellow line</li>
+          <li> &nbsp; &nbsp; ● &nbsp; Panel decisions hinge around the median board member(s)</li>
+          <li> &nbsp; &nbsp; ● &nbsp; Median board members have a slightly yellow background</li>
         </ul>
     </div>
 </dialog>
