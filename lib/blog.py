@@ -119,7 +119,7 @@ def imageLicenses():
 
 
   imgs = [
-      "calculators.png",
+      "electronica-biftu-cash-register--iceblue-yell.png",
       "European_Central_Bank_Headquarters_(model_01)-sm-fg2.png",
       "fhe--grey.jpg",
       "fhe--iceblue.jpg",
@@ -161,6 +161,21 @@ def imageLicenses():
     markDownCnt,
     extensions=["tables"],
   )
+
+
+  htmlContent = f""" 
+      <style>
+        table td {{
+           vertical-align: middle;
+           padding: 1rem;
+        }}
+
+      </style>
+
+      <div style='margin: 2rem 12rem;'>
+         {htmlContent} 
+      </div>"""
+
   return htmlContent
 
 

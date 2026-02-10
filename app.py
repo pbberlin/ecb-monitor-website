@@ -323,7 +323,10 @@ from lib.blog import renderMarkdown, mdParts, imageLicenses
 
 @app.route('/image-licences')
 def handlerImageLicencse():
-    return imageLicenses()
+    return render_template(
+        "index.html",
+        content=  imageLicenses() ,
+    )
 
 
 
@@ -406,6 +409,9 @@ def blog(lg=None, md=None):
     else:
 
         showBreadCrumb = True
+
+        # newest
+
         pth = Path("content/blog") / g.currentLanguage / md
         # print(f"   pth {pth}")
 

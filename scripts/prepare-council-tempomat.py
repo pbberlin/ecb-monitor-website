@@ -141,7 +141,7 @@ def convertPickleToJs(
             loopName = dta.iloc[idx1][keyColName]
             if (idx1 < 3) or (idx1 >= (len(dta)-3)):
                 print(f"\t     {idx1:3} key col '{keyColName}' val  - {loopName}")
-    
+
             # iterate columns for row
             row = {}
             for idx2, colName in enumerate(cols):
