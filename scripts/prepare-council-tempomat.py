@@ -60,9 +60,9 @@ def formatValue(key, vl):
 
     except Exception as exc:
         # print(f"Error in formatValue: {e} \n\t  -{key}-  -{vl}-")
-        tb = traceback.extract_tb(exc.__traceback__)[-1]
         print(f"\t formatValue() -{key}-  -{vl}-")
         print(f"\t {exc}")
+        tb = traceback.extract_tb(exc.__traceback__)[-1]
         print(f"\t {tb.filename}:{tb.lineno} | {tb.line}")
 
         return vl
@@ -186,8 +186,9 @@ def convertPickleToJs(
 
 
     except Exception as exc:
+        print(f"\t {exc}")
         tb = traceback.extract_tb(exc.__traceback__)[-1]
-        print(f"{exc} | {tb.filename}:{tb.lineno} | {tb.line}")
+        print(f"\t {tb.filename}:{tb.lineno} | {tb.line}")
         sys.exit(1)
 
 

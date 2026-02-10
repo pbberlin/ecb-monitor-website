@@ -7,6 +7,7 @@ import json
 import csv
 import re
 from pathlib import Path
+import traceback
 
 
 
@@ -182,35 +183,38 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
 
     try:
         jsText = jsFilePath.read_text(encoding="utf-8")
-    except Exception as ex:
-        print(f"Error reading file '{jsFilePath}': {ex}")
+    except Exception as exc:
+        print(f"Error reading file '{jsFilePath}': {exc}")
         return
 
     try:
         jsonText = extractJsonStringFromJs(jsText)
-    except Exception as ex:
-        print(f"Error extracting JSON from '{jsFilePath}': {ex}")
+    except Exception as exc:
+        print(f"Error extracting JSON from '{jsFilePath}': {exc}")
         return
 
     try:
         dataDict = json.loads(jsonText)
         if type(dataDict) is not dict:
-            # ecb-council-by-function.js
+            # ecb-council-by-function.js - contains list instead of dict
             print(f"skipping type {type(dataDict)} - '{jsFilePath}'")
             return
         if dbg:
             debugPrintNestedDict(dataDict)
 
-    except Exception as ex:
-        print(f"Error parsing JSON in '{jsFilePath}': {ex}")
+    except Exception as exc:
+        print(f"\t error parsing JSON in '{jsFilePath}'")
+        print(f"\t {exc}")
+        tb = traceback.extract_tb(exc.__traceback__)[-1]
+        print(f"\t {tb.filename}:{tb.lineno} | {tb.line}")
         return
 
     try:
         countryToYearToValue, yearKeysSet = buildCountryYearStructure(dataDict)
         if dbg:
             debugPrintNestedDict(countryToYearToValue)
-    except Exception as ex:
-        print(f"Error building country/year structure for '{jsFilePath}': {ex}")
+    except Exception as exc:
+        print(f"Error building country/year structure for '{jsFilePath}': {exc}")
         return
 
     sortedYearKeysList = sorted(list(yearKeysSet))
@@ -253,8 +257,8 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
 
         print(f"\tWrote CSV: {csvFilePath}")
 
-    except Exception as ex:
-        print(f"Error writing CSV for '{jsFilePath}': {ex}")
+    except Exception as exc:
+        print(f"Error writing CSV for '{jsFilePath}': {exc}")
 
 
 def processDirectory(inputDirPath):
