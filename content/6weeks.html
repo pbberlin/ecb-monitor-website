@@ -359,6 +359,20 @@
       /* border: 1px solid #444; */
   }
 
+  .gradient-illustation {
+    width: 17%;
+  }
+  .gradient-illustation-img1 {
+    /* align-self:   start; */
+    /* justify-self: start; */
+    translate:  -40%  +60%;
+    opacity: 0.7;
+  }
+  .gradient-illustation-img2 {
+    margin-left: auto;
+    translate: +40%   +60%;
+    opacity: 0.7;
+  }
 
 </style>
 
@@ -379,10 +393,10 @@
 
       <p style="font-size: 75%; line-height: 120%; margin-top: 2rem;">
         "Opinion Score" - ist das die Sprachregelung? <br>
-        "Opinion Score" Graph:  Das ZEW Gelb müsste auch hier durch den Farbverlauf Dovish-Hawkish 
+        "Opinion Score" Graph:  Das ZEW Gelb müsste auch hier durch den Farbverlauf Dovish-Hawkish
         variabel eingefärbt werden.
         <br>
-        Oder umstellen auf ZEW-blau ... ZEW-gelb
+        Überall umstellen auf ZEW-blau ... ZEW-gelb? Politische Frage - sollte nicht mit ZEW colors assoziiert werden.
       </p>
 
 
@@ -428,10 +442,20 @@
       </ul>
 
 
-      <br>
+      <div id="council_right"
+      ></div>
 
+      <div class="slider-group"
+          style="
+          margin-top: 0.5rem; margin-bottom: 0;
+          flex-direction: row;
+          "
+      >
+        <img class="gradient-illustation gradient-illustation-img1"  src="/static/img/dovish-hawkish/dove.png" alt="dove">
+        <img class="gradient-illustation gradient-illustation-img2"  src="/static/img/dovish-hawkish/hawk.png" alt="hawk">
+      </div>
 
-      <div class="gradientWrapper  invisible-x ">
+      <div class="gradientWrapper">
           <div class="gradient1" id="gradient1"></div>
       </div>
       <!--
@@ -514,9 +538,12 @@
     const myChartDom  = document.getElementById('echart_container');
     const myChart = echarts.init(myChartDom, null, {
       renderer: 'canvas',
+      // renderer: 'svg',
       useDirtyRect: false
     });
     myChart.showLoading();
+    console.log(`echart version is ${echarts.version}`)
+
 
     const currentYear = new Date().getFullYear();
 
@@ -550,10 +577,25 @@
       "council_by_6weeks": {
         "selected_data" : councilBy6Weeks,
         "formatter": (statsValue) => {
-          return  (Math.round(statsValue*10)/10).toString() + ' %'
+          return Math.round(statsValue).toString() + ' %'
         },
-        "color_ranges": [-2, 0, 2, 4],
-        "colors":       ["#FF0000", "#80A000", "#00A000", "#00A000"],
+        "formatter_legend": (vl) => {
+          vl = Math.round(vl).toString();
+          if(vl==="0"){
+            return "0\nNeutral";
+          }
+          if(vl==="1"){
+            return "1\nHaw- kish";
+          }
+            if(vl==="-1"){
+            return "-1\nDov- ish";
+          }
+          return vl;
+        },
+        // yellow - stingy -  blue - flood of liquidity
+        "color_ranges": [-1.0, 0.0 , 1.0],
+        "colors":       [ "#0000A0","#A0A0A0", "#A0A000"],
+
       } ,
     };
 
@@ -710,7 +752,7 @@
       console.log(opinionSeries);
       console.log(rateSeries);
 
-      
+
       let results = [
         {
             name: 'Opinion Score',
@@ -719,11 +761,28 @@
             data: opinionSeries.map((v, idx1) => {
                 return [dates[idx1], v];
             }),
-            symbol: 'circle',
-            symbolSize: 7,
+            symbol:     'circle',
+            symbolSize: 4,
+            itemStyle: {
+                color: function(params) {
+                    return valToPctToColor(params.value[1], selectedDataMeta[selectedVar]);
+                }
+            },
             lineStyle: {
-                width: 2
-            }
+                width: 3.5,
+                width: 1.5,
+
+                color: new echarts.graphic.LinearGradient(0, 0, 1, 0,
+                  opinionSeries.map((v, idx1) => {
+                    return {
+                      offset: idx1 / (opinionSeries.length - 1),
+                      color: valToPctToColor(v, selectedDataMeta[selectedVar])
+                    };
+                  })
+                ),
+
+            },
+            smooth: 0.4,  // 0 = straight lines, 1 = very round
         },
         {
             name: 'ECB Deposit Rate',
@@ -732,10 +791,13 @@
             data: rateSeries.map((v, idx1) => {
                 return [dates[idx1], v];
             }),
+            symbol: 'circle',
+            symbolSize: 3.0,
             showSymbol: false,
             lineStyle: {
-                type: 'dashed',
-                width: 2
+                // type: 'dashed',
+                width: 2.5,
+                width: 1.8,
             }
         }
       ]
@@ -749,10 +811,11 @@
 
     // global colors for series - taken from main-fonts.css
 
-    // factored out of the options object - 
-    //   so we can reference it in the yAxis 
+    // factored out of the options object -
+    //   so we can reference it in the yAxis
     const eChartCols = [
       'rgb(194, 211,   0)',
+      'rgba( 66, 66,  66, 30)',
       'rgb( 0,  105, 180)',
       'rgb(245, 245, 246)',
       'rgb(112, 111, 111)',
@@ -760,6 +823,21 @@
       'rgb(174, 215, 217)',
     ]
 
+
+          // [
+      //     { offset: 0, color: selectedDataMeta[selectedVar]["colors"][0] },
+      //     { offset: 1, color: selectedDataMeta[selectedVar]["colors"][2] },
+      // ],
+
+    const gradLabel1 = new echarts.graphic.LinearGradient(
+        0, 0, 0, 1,
+        [
+          { offset: 0, color: '#ff0000' },
+          { offset: 1, color: '#0000ff' },
+        ],
+    );
+    console.log(`grad created ${gradLabel1}`)
+    console.log(gradLabel1)
 
 
 
@@ -820,36 +898,76 @@
       color: eChartCols,
 
 
-     xAxis: {
-          type: 'time',
-          boundaryGap: false,
-          axisLabel: {
-            formatter: (value) => {
-                const d = new Date(value);
-                return String(d.getFullYear());
-            }
+      xAxis: {
+        type: 'time',
+        boundaryGap: false,
+        axisLabel: {
+          formatter: (value) => {
+            const d = new Date(value);
+            return String(d.getFullYear());
           }
+        },
+
+        axisLine: {
+          show:   false,     // shows axis at bottom
+          onZero: false,    // prevent crossing line at value=0
+          lineStyle: {
+            color: eChartCols[1],
+            width: 2.5,
+          },
+        }
+
       },
+
 
       yAxis: [
           {
             type: 'value',
-            name: 'Opinion Score',
+            // name: 'Opinion Score',
+            // nameTextStyle: {
+            //     color: eChartCols[0],
+            // },
+            // nameRotate: 90,
+            // nameLocation: 'middle',
+            // position: 'left',
+            // nameGap: 25,
+
             min:   -1.0,
             max:    1.0,
-            nameRotate: 90,
-            nameLocation: 'middle',
-            nameGap: 25,
-            // position: 'left',
-            nameTextStyle: {
-              color: eChartCols[0],
-            },            
-            axisLine: {
-              lineStyle: {
-                color: eChartCols[0],
-                // width: 2
-              }
+
+            // interval: 0.10,
+            interval: 0.25,
+
+            splitLine: {
+              // disable horizontal grid lines
+              show: false,
             },
+
+            axisLine: {
+                show: false,
+                lineStyle: {
+                    width: 1,
+                    color: eChartCols[0],
+                },
+                onZero: false,   // <--- prevents automatic horizontal line
+            },
+            axisTick: {
+                show: true,
+                lineStyle: {
+                    // color: eChartCols[0],   // color the tick lines
+                    color: function(vl) {
+                        // vl is the tick value
+                        return valToPctToColor(vl, selectedDataMeta[selectedVar]);
+                    }
+                }
+            },
+            axisLabel: {
+                fontSize: 12,
+                color: function(vl) {
+                    return valToPctToColor(vl, selectedDataMeta[selectedVar]);
+                },
+            },
+
           },
 
           {
@@ -857,21 +975,87 @@
             name: 'ECB Deposit Rate (%)',
             nameRotate: -270,
             nameLocation: 'middle',
-            nameGap: 25,
+            nameGap: 50,
             nameTextStyle: {
               color: eChartCols[1],
-            },            
+              fontSize: 14,
+            },
+
+            interval: 1,
+
+            axisLabel: {
+              formatter: (vl) => {
+                return Math.round(10*vl)/10 + ' %';
+              },
+              color: eChartCols[1]
+            },
+
             axisLine: {
+              // show: true,
+              show: false,
               lineStyle: {
                 color: eChartCols[1],
-                // width: 1
-              }
+                width: 0.5,
+              },
+              onZero: false,   // <--- prevents automatic horizontal line
+
             },
+
+            splitLine: {
+              // disable horizontal grid lines
+              // show: false,
+            },
+
+
+            // markLine: {
+            //   symbol: 'none',  // no arrow
+            //   data: [
+            //       { yAxis: 0 }   // baseline at Y=0
+            //   ],
+            //   lineStyle: {
+            //       color: '#A00',
+            //       width: 2,
+            //       type: 'solid'
+            //   }
+            // }
+
+
           },
 
       ],
 
-      
+
+      // instead of y-Axis name
+      graphic: [
+
+        //  text works fine - but no gradient
+
+        // {
+        //   type: 'text',
+        //   top:  'center',
+        //   rotation: Math.PI / 2,
+        //   style: {
+        //     text: 'Opinion Score',
+        //   },
+        // },
+
+
+        // pre-produced image
+        {
+          type: 'image',
+          left: 6,
+          top: 'middle',
+          // z: 100,
+          style: {
+            image: '/static/img/dovish-hawkish/label.png',
+            width:   24,
+            height: 500,
+          }
+        },
+
+
+
+      ],
 
 
       series: [
@@ -986,10 +1170,10 @@
       console.log(`selected ${selectedVar}`);
 
       createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
-      sliderConfig();      
+      sliderConfig();
       linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
       updateDesc();
-      
+
       myChart.setOption(optionsInit);
       arrowRedraw();
       myChart.hideLoading();
@@ -1203,7 +1387,7 @@
     </div>
     <div id="dlgCnt">
         <ul>
-          <li>  
+          <li>
             <br>
           </li>
 
