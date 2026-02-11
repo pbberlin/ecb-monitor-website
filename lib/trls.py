@@ -49,13 +49,13 @@ trlsRaw = [
             "en": "ECB-Monitor",
         },
     },
-
     {
-        "headline_ecb_council": {
-            "de": "EZB-Rat",
-            "en": "ECB Council",
+        "infobox_header":    {
+            "de": "Interpretationshilfe",
+            "en": "Interpretation assistance",
         },
     },
+
 
     {
         "headline_ecb_monetary_policy": {
@@ -442,38 +442,99 @@ trlsRaw = [
     },
 
 
+
     {
-        "headline_council_by_6weeks": {
-            "de": "Tauben und Falken – KI-Scores",
-            "en": "Doves and Hawsk - KI scores",
+        "headline_ecb_council": {
+            "de": "EZB-Rat",
+            "en": "ECB Council",
         },
     },
     {
-        "council_by_6weeks_label":    {
-            "de": "EZB Rat - durchschnittliche Einschätzung",
-            "en": "ECB council - average stance",
+        "ecb_council_desc":    {
+            "de": """ EZB-Rat ...""",
+            "en": """ ECB Council ...""",
+        },
+    },
+    {
+        "ecb_council_infobox":    {
+            "de": """ 
+                <ul>
+                    <li>KI Score Erklärung - todo</li>
+                    <li>Links die sechs überregionalen EZB-Mitglieder </li>
+                    <li>Mitte: 20 nationale Zentralbankpräsidenten </li>
+                    <li>Maus übers Land ziehen für Details</li>
+                </ul>
+            """,
+            "en": """ 
+                <ul>
+                    <li>KI Score Explanation - todo</li>
+                    <li>Left: Six supra-national ECB board members</li>
+                    <li>Center: 20 national central bank presidents</li>
+                    <li>Mouse over country for details</li>
+                </ul>
+            """,
+        },
+    },
+
+
+    {
+        "headline_council_by_6weeks": {
+            "de": "Median KI-Score für gesamten EZB-Rat",
+            "en": "Median KI score for the entire ECB-Council",
         },
     },
     {
         "council_by_6weeks_desc":    {
-            "de": "Durchschnittliche Einschätzung versus Zinssatz",
-            "en": "Opinion score vs ECB interest rate over time",
+            "de": "Zinssatz folgt der durchschnittlichen Einschätzung. Kausalbeziehung nicht beweisbar.",
+            "en": "ECB interest rate follows the opinion score. Causal relation cannot be proved.",
+        },
+    },
+    {
+        "council_by_6weeks_infobox":    {
+            "de": """ 
+                <ul>
+                    <li>
+                        <br>
+                    </li>
+
+                    <!--
+                        ● ➡ ↪
+                    -->
+                    <li> &nbsp; &nbsp; ● &nbsp; Dovish-hawkish Einschätzung der Ratsmitglieder per sechs Wochen</li>
+                    <li> &nbsp; &nbsp; ● &nbsp; EZB Zinssätze</li>
+                </ul>
+            """,
+            "en": """ 
+                <ul>
+                    <li>
+                        <br>
+                    </li>
+
+                    <!--
+                        ● ➡ ↪
+                    -->
+                    <li> &nbsp; &nbsp; ● &nbsp; Dovish-hawkish stance every 6-week period</li>
+                    <li> &nbsp; &nbsp; ● &nbsp; ECB interest rates</li>
+                </ul>
+            """,
         },
     },
 
 
     {
         "headline_council_tempomat": {
-            "de": "Mehrheitsverhältnisse",
-            "en": "Majorities",
+            "de": "Mehrheitsverhältnisse EZB-Rat",
+            "en": "Majorities ECB-Council",
         },
     },
     {
         "council_tempomat_desc": {
-            "de": "Durchschnittliche Position der Ratsmitglieder auf Jahresbasis ",
-            "en": "Average position of council members per year",
+            "de": "Position der Ratsmitglieder auf Jahresbasis ",
+            "en": "Position of council members per year",
         },
     },
+
+
 
 
     {
