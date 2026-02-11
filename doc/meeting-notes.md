@@ -67,3 +67,12 @@ https://geojson.org/
 https://github.com/echarts-maps
 https://github.com/echarts-maps/echarts-countries-js
 https://github.com/echarts-maps/echarts-countries-js
+
+
+## Meeting 2026-02-10
+
+* 2 Blogs
+
+* Übersetzung vorbereiten - Info-Texte
+
+* Keine - Navigations-Zwischenseiten aber Sek-Navi links

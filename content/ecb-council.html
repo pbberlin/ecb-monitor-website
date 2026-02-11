@@ -671,6 +671,9 @@
         "formatter": (statsValue) => {
           return Math.round(statsValue).toString() + ' %'
         },
+        // "formatter": (statsValue) => {
+        //   return  (Math.round(statsValue*10)/10).toString() + ' %'
+        // },
         "formatter_legend": (vl) => {
           vl = Math.round(vl).toString();
           if(vl==="0"){

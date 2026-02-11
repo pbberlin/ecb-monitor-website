@@ -360,6 +360,20 @@
   }
 
 
+  .gradient-illustation {
+    width: 17%;
+  }
+  .gradient-illustation-img1 {
+    /* align-self:   start; */
+    /* justify-self: start; */
+    translate:  -40%  +60%;
+    opacity: 0.7;
+  }
+  .gradient-illustation-img2 {
+    margin-left: auto;
+    translate: +40%   +60%;
+    opacity: 0.7;
+  }
 </style>
 
 
@@ -422,11 +436,22 @@
         {{i18n.council_tempomat_desc|safe}}
       </ul>
 
+      <div id="council_right"
+      ></div>
 
-      <br>
+      <div class="slider-group"
+          style="
+          margin-top: 0.5rem; margin-bottom: 0;
+          flex-direction: row;
+          "
+      >
+        <img class="gradient-illustation gradient-illustation-img1"  src="/static/img/dovish-hawkish/dove.png" alt="dove">
+        <img class="gradient-illustation gradient-illustation-img2"  src="/static/img/dovish-hawkish/hawk.png" alt="hawk">
+      </div>
 
 
-      <div class="gradientWrapper  invisible-x ">
+
+      <div class="gradientWrapper">
           <div class="gradient1" id="gradient1"></div>
       </div>
       <!--
@@ -513,19 +538,46 @@
     const centerX = 400;
     const centerY = 380;
     const radius  = 300;
-    const ring = 4
+    const ring    =  16;  // thickness
     const radiusArc  = radius + ring;
+
+
+
+    // arc gradient start
+    const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+    svg.appendChild(defs);
+
+    const grad = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+    grad.setAttribute("id", "arcGradientLin");
+    grad.setAttribute("gradientUnits", "userSpaceOnUse");
+    grad.setAttribute("x1", centerX - radiusArc);
+    grad.setAttribute("y1", centerY);
+    grad.setAttribute("x2", centerX + radiusArc);
+    grad.setAttribute("y2", centerY);
+    defs.appendChild(grad);
+
+    // todo: replace "99" with the UI transparency
+    const grCl1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+    grCl1.setAttribute("offset", "0%");
+    grCl1.setAttribute("stop-color", "#0000A099");
+    grad.appendChild(grCl1);
+
+    const grCl2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+    grCl2.setAttribute("offset", "50%");
+    grCl2.setAttribute("stop-color", "#A0A0A099");
+    grad.appendChild(grCl2);
+
+    const grCl3 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+    grCl3.setAttribute("offset", "100%");
+    grCl3.setAttribute("stop-color", "#A0A00099");
+    grad.appendChild(grCl3);
+    // arc gradient end
+
+
 
 
     // arc
     const arc = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    // arc.setAttribute(
-    //     "d",
-    //     `
-    //     M ${centerX - radius} ${centerY}
-    //     A ${radius} ${radius} 0 0 1 ${centerX + radius} ${centerY}
-    //     `
-    // );
     arc.setAttribute(
         "d",
         `
@@ -534,8 +586,11 @@
         `
     );
     arc.setAttribute("fill",   "none");
-    arc.setAttribute("stroke", "rgb( 0,  105, 180)");
-    arc.setAttribute("stroke-width", "4");
+    // arc.setAttribute("stroke", "rgb( 0,  105, 180)");  // mono color
+    arc.setAttribute("stroke", "url(#arcGradientLin)");
+
+    arc.setAttribute("stroke-width", "14");
+    arc.setAttribute("stroke-width", String(ring) );
     svg.appendChild(arc);
 
 
@@ -557,8 +612,10 @@
         needle.setAttribute("stroke-width", "3");
         svg.appendChild(needle);
     }
-    // drawNeedle(0.26);
+
+
     const median = councilTempomat[0]['median_total'];
+    // drawNeedle(0.26);
     drawNeedle( median );
 
 
@@ -599,14 +656,13 @@
         ellipse.setAttribute("cx", x);
         ellipse.setAttribute("cy", y);
         ellipse.setAttribute("rx", 25);
-        // ellipse.setAttribute("ry", 18);
         ellipse.setAttribute("ry", 10);
 
 
         const isMedianPos = Math.round(score*1000) === Math.round(median*1000); 
 
         if (isMedianPos) {
-          ellipse.setAttribute("fill", "#C2D30020");
+          ellipse.setAttribute("fill", "#C2D30040");
         } else if (entry.name_excel === "Christine Lagarde"){
             ellipse.setAttribute("fill", "#dfdfdf70");
         } else {
@@ -696,10 +752,25 @@
       "council_tempomat": {
         "selected_data" : councilTempomat,
         "formatter": (statsValue) => {
-          return  (Math.round(statsValue*10)/10).toString() + ' %'
+          return Math.round(statsValue).toString() + ' %'
         },
-        "color_ranges": [-2, 0, 2, 4],
-        "colors":       ["#FF0000", "#80A000", "#00A000", "#00A000"],
+        "formatter_legend": (vl) => {
+          vl = Math.round(vl).toString();
+          if(vl==="0"){
+            return "0\nNeutral";
+          }
+          if(vl==="1"){
+            return "1\nHaw- kish";
+          }
+            if(vl==="-1"){
+            return "-1\nDov- ish";
+          }
+          return vl;
+        },
+        // yellow - stingy -  blue - flood of liquidity
+        "color_ranges": [-1.0, 0.0 , 1.0],
+        "colors":       [ "#0000A0","#A0A0A0", "#A0A000"],
+
       } ,
     };
 
@@ -899,112 +970,7 @@
 
 
 
-    const optionsInit = {
-
-      tooltip: {
-        trigger: 'axis',
-        axisPointer: {
-            type: 'cross'
-        }
-      },
-      // tooltip: {},
-
-
-      legend: {
-        show: false,
-      },
-      legend: {
-        data: ['Opinion Score', 'ECB Deposit Rate'],
-        bottom: 10
-      },
-
-      grid: {
-          left: 70,
-          right: 70,
-          top: 60,
-          bottom: 70
-      },
-
-
-      //
-      toolbox: {
-        show:   true,
-        right: '0.125%',
-        top:   '0.125%',
-
-        itemSize: 10,
-        itemGap:   6,
-
-        iconStyle: {
-          borderColor: '#666',
-          borderWidth: 1
-        },
-
-        feature: {
-          restore: {
-            title: '🔍 100%'
-          },
-          saveAsImage: {
-            type: 'png',          // or 'jpeg', 'svg'
-            name: 'ecb-monitor-map-screenshot',
-            backgroundColor: '#fff',
-            pixelRatio: 2,
-          },
-        },
-      },
-
-      // global colors for series - taken from main-fonts.css
-      color: [
-        'rgb(194, 211,   0)',
-        'rgb( 0,  105, 180)',
-        'rgb(245, 245, 246)',
-        'rgb(112, 111, 111)',
-        'rgb(157, 157, 156)',
-        'rgb(174, 215, 217)',
-      ],
-
-
-     xAxis: {
-          type: 'time',
-          boundaryGap: false,
-          axisLabel: {
-            formatter: (value) => {
-                const d = new Date(value);
-                return String(d.getFullYear());
-            }
-          }
-      },
-
-      yAxis: [
-          {
-            type: 'value',
-            name: 'Opinion Score',
-            min:   -1.0,
-            max:    1.0,
-            nameRotate: 90,
-            nameLocation: 'middle',
-            nameGap: 25,
-            // position: 'left',
-          },
-
-          {
-            type: 'value',
-            name: 'ECB Deposit Rate (%)',
-            nameRotate: -270,
-            nameLocation: 'middle',
-            nameGap: 25
-          },
-
-      ],
-
-
-
-
-      series: [
-        ...manyCountriesShowStats(),
-      ]
-
-    };
+    const optionsInit = {};
 
 
     function subtractMonths(year, month, steps) {
