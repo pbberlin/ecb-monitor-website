@@ -388,15 +388,13 @@
 
       <!-- First (top, right) -->
       <h3> {{i18n.headline_council_by_6weeks}}
-        <a href="#" id="btnDlgIco" title="Interpretation assistance" >i</a>
+        <a href="#" id="btnDlgIco" title="{{i18n.infobox_header}}" >i</a>
       </h3>
 
       <p style="font-size: 75%; line-height: 120%; margin-top: 2rem;">
-        "Opinion Score" - ist das die Sprachregelung? <br>
-        "Opinion Score" Graph:  Das ZEW Gelb müsste auch hier durch den Farbverlauf Dovish-Hawkish
-        variabel eingefärbt werden.
+        "Opinion Score" oder "KI Score" - was ist die Sprachregelung? <br>
         <br>
-        Überall umstellen auf ZEW-blau ... ZEW-gelb? Politische Frage - sollte nicht mit ZEW colors assoziiert werden.
+        Kein ZEW-blau ... ZEW-gelb. Politische Frage - sollte nicht mit ZEW colors assoziiert werden.
       </p>
 
 
@@ -409,7 +407,7 @@
       <!-- option -->
       <div class="options-stat-vars invisible-x" >
         <label title="(Ameco)">
-          {{i18n.council_by_6weeks_label}}
+          {{i18n.headline_council_by_6weeks}}
           <input type="radio" name="stats_variable" value="council_by_6weeks" >
         </label>
       </div>
@@ -722,6 +720,9 @@
 
 
 
+    const dates = [];
+    const opinionSeries = [];
+    const rateSeries    = [];
 
 
     // creating debt numbers at the centroid of 27 eu countries
@@ -732,11 +733,6 @@
         fontSizeByDisplay = 10;
         // console.log(`displayType = ${displayType} - fontSize = ${fontSizeByDisplay}`)
       }
-
-
-      const dates = [];
-      const opinionSeries = [];
-      const rateSeries    = [];
 
       for (let idx1 = 0; idx1 < councilBy6Weeks.length; idx1 += 1) {
           const row = councilBy6Weeks[idx1];
@@ -769,8 +765,9 @@
                 }
             },
             lineStyle: {
-                width: 3.5,
-                width: 1.5,
+                width: 3.50,
+                width: 1.50,
+                width: 1.75,
 
                 color: new echarts.graphic.LinearGradient(0, 0, 1, 0,
                   opinionSeries.map((v, idx1) => {
@@ -783,23 +780,16 @@
 
             },
             smooth: 0.4,  // 0 = straight lines, 1 = very round
+
+            animation: true,
+            animationDuration:  1000,
+            animationEasing:   'cubicOut',
+            animationEasing:   'linear',
         },
-        {
-            name: 'ECB Deposit Rate',
-            type: 'line',
-            yAxisIndex: 1,
-            data: rateSeries.map((v, idx1) => {
-                return [dates[idx1], v];
-            }),
-            symbol: 'circle',
-            symbolSize: 3.0,
-            showSymbol: false,
-            lineStyle: {
-                // type: 'dashed',
-                width: 2.5,
-                width: 1.8,
-            }
-        }
+        // {
+        //   I wanted to only add the data points below - to achieve subsequent animations.
+        //   I had to move the _entire_ series into the setTimeout(... merge
+        // }
       ]
 
 
@@ -1178,8 +1168,47 @@
       arrowRedraw();
       myChart.hideLoading();
     }
-    initFunc()
+    initFunc();
 
+
+    setTimeout(() => {
+      myChart.setOption({
+        series:
+          [
+            // first  series - keep unchanged
+            {},
+            // second series
+            {
+              name: 'ECB Deposit Rate',
+              type: 'line',
+              yAxisIndex: 1,
+
+              data: rateSeries.map((v, idx1) => {
+                return [dates[idx1], v];
+              }),
+
+              symbol: 'circle',
+              symbolSize: 3.0,
+              showSymbol: false,
+              lineStyle: {
+                width: 2.5,
+                width: 1.8,
+              },
+
+              animation: true,
+              animationDuration: 2000,
+              animationEasing: 'linear',
+
+              // draw points left-to-right
+              animationDelay: function (idx1) {
+                return idx1 * 50; // 50ms per point
+              },
+
+            },
+          ]
+
+      }, false); // `false` merges
+    }, 1000); // wait for series0 animation to finish
 
 
 
@@ -1382,21 +1411,11 @@
 
 <dialog id="elDialog">
     <div id="dlgHead">
-        <span>Interpretation assistance</span>
+        <span>{{i18n.infobox_header}}</span>
         <button id="btnDlgClose">×</button>
     </div>
     <div id="dlgCnt">
-        <ul>
-          <li>
-            <br>
-          </li>
-
-          <!--
-            ● ➡ ↪
-          -->
-          <li> &nbsp; &nbsp; ● &nbsp; Dovish-hawkish stance every 6-week period</li>
-          <li> &nbsp; &nbsp; ● &nbsp; ECB interest rates</li>
-        </ul>
+        {{i18n.council_by_6weeks_infobox|safe}}
     </div>
 </dialog>
 

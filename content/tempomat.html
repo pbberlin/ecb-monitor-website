@@ -1,30 +1,25 @@
 <style>
-  :root {
-    --display-type: desktop;
-    /* used in javascript, no quotation marks */
 
-    --grad-height: 1.2rem;
-    --w01: max(20rem, 20vw);
-    /* width left and right column  */
-    --w01-min: calc(var(--w01) - 0.5rem);
-    --echartHeight: 75vh;
-    /* not 75% -  fails */
-    --marginHeight: calc(var(--echartHeight) - 1rem);
-    --initOpacity: 0.6;
-    /* minimize flickering */
+  :root{
+    --display-type:   desktop;               /* used in javascript, no quotation marks */
+
+    --grad-height:   1.2rem;
+    --w01:           max(20rem, 20vw);  /* width left and right column  */
+    --w01-min:       calc( var(--w01) - 0.5rem )  ;
+    --echartHeight:   75vh;              /* not 75% -  fails */
+    --marginHeight:  calc( var(--echartHeight) - 1rem);
+    --initOpacity:   0.6;               /* minimize flickering */
 
   }
 
 
   /* radio buttons 20% larger */
   input[type="radio"] {
-    transform: scale(1.34);
-    -webkit-transform: scale(1.34);
-    /* Safari / older WebKit */
-    -ms-transform: scale(1.34);
-    /* old IE/Edge */
-    transform-origin: center;
-    vertical-align: middle;
+    transform:         scale(1.34);
+    -webkit-transform: scale(1.34);    /* Safari / older WebKit */
+    -ms-transform:     scale(1.34);    /* old IE/Edge */
+    transform-origin:  center;
+    vertical-align:    middle;
 
     position: relative;
     top: -0.12rem;
@@ -33,7 +28,7 @@
 
 
   input[type="radio"] {
-    margin-left: 0.4rem;
+    margin-left:  0.4rem;
   }
 
   html,
@@ -44,9 +39,9 @@
 
 
   .layout h3 {
-    font-size: 140%;
-    text-align: left;
-    text-align: center;
+      font-size: 140%;
+      text-align: left;
+      text-align: center;
   }
 
 
@@ -59,14 +54,13 @@
     -           or right margin max(20rem, 20vw)
   */
   .layout {
-    width: calc(820px + 2* var(--w01));
+    width: calc( 820px + 2* var(--w01));
     margin: 0 auto;
 
     display: grid;
-    grid-template-columns: var(--w01) 820px var(--w01);
+    grid-template-columns:  var(--w01) 820px  var(--w01);
     column-gap: 0;
-    align-items: start;
-    /* vertical: top for all */
+    align-items: start;           /* vertical: top for all */
 
     /* border: 1px solid red; */
   }
@@ -74,16 +68,16 @@
   /* Ensure grid items can shrink if needed */
   .col {
     min-width: 0;
-    padding: 0;
-    margin: 0;
+    padding:   0;
+    margin:    0;
     /* margin: 2px; */
     /* border: 1px solid red; */
   }
 
 
   /* col1 - at least 20rem - 20% of screen width - */
-  .col--left {
-    height: var(--marginHeight);
+  .col--left   {
+    height:    var(--marginHeight);
     min-width: var(--w01-min);
 
     justify-self: end;
@@ -91,26 +85,26 @@
     text-align: right;
     /* width: max-content; */
 
-    align-content: end;
+    align-content:   end;
   }
 
   /* col2 -  fixed 820px, content centered */
   .col--center {
     justify-self: center;
-    align-self: start;
+    align-self:    start;
   }
 
   /* col3 - takes the residual space, content left */
-  .col--right {
-    height: var(--marginHeight);
+  .col--right  {
+    height:    var(--marginHeight);
     min-width: var(--w01-min);
     /* width: max-content; */
 
     justify-self: start;
-    align-self: start;
-    text-align: left;
+    align-self:   start;
+    text-align:   left;
 
-    align-content: end;
+    align-content:   end;
 
 
   }
@@ -136,32 +130,29 @@
 
   /* content styles, why was the z-index needed?  */
   .control-pad {
-    position: relative;
-    /*  z-index  */
-    z-index: 10;
+    position: relative;   /*  z-index  */
+    z-index:  10;
 
-    margin: 0.4rem;
+    margin:  0.4rem;
     padding: 0.5rem 1.1rem;
 
     border-radius: 0.2rem;
-    background-color: rgba(217, 233, 236, 0.25);
+    background-color: rgba(217,233,236,0.25);
   }
 
   .slider-group {
-    display: flex;
+    display:        flex;
     flex-direction: column;
-    gap: 0.01rem;
-    align-items: center;
-    /* contents centered horizontally */
-    height: auto;
-    width: max-content;
-    /* shrink container to content so it can sit right */
-    width: 100%;
+    gap:           0.01rem;
+    align-items:   center;   /* contents centered horizontally */
+    height:        auto;
+    width:         max-content;    /* shrink container to content so it can sit right */
+    width:         100%;
 
-    margin-top: 1.1rem;
+    margin-top:    1.1rem;
     margin-bottom: 1.1rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:   auto;
+    margin-right:  auto;
   }
 
   #yearSlider {
@@ -170,28 +161,24 @@
   }
 
   .options-stat-vars {
-    display: flex;
-    flex-direction: column;
-    /* vertical arrangement */
-    align-items: flex-end;
-    /* right  alignment */
-    gap: 0.9rem;
-    /* vertical spacing */
-    margin: 3.0rem 0;
+    display:        flex;
+    flex-direction: column;      /* vertical arrangement */
+    align-items:    flex-end;    /* right  alignment */
+    gap:            0.9rem;      /* vertical spacing */
+    margin:         3.0rem 0;
   }
 
 
   .play-and-download {
-    margin: 1.2rem;
+    margin:       1.2rem;
     margin-right: 0.4rem
   }
 
 
   .bullet-container {
-    margin: 0;
+    margin:  0;
     padding: 0;
   }
-
   .bullet-container li {
     list-style-type: circle;
     margin-left: 1rem;
@@ -205,186 +192,186 @@
   }
 
 
-  @media (max-width: 900px) {
-    /* smartphone */
+@media (max-width: 900px) {
+      /* smartphone */
 
-    :root {
-      /* also zooms the echart */
-      --echartHeight: 34vh;
-      --display-type: mobile;
-      /* used in javascript, no quotation marks */
-    }
+      :root {
+        /* also zooms the echart */
+        --echartHeight:   34vh;
+        --display-type:   mobile;               /* used in javascript, no quotation marks */
+      }
 
 
-    /* single column stack */
-    .layout {
-      width: 100%;
-      max-width: 100%;
+      /* single column stack */
+      .layout {
+        width:     100%;
+        max-width: 100%;
 
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto;
-      /* col--left, col--center, col--right */
-    }
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;  /* col--left, col--center, col--right */
+      }
 
-    /* allow cols to shrink nicely */
-    .col {
-      min-width: 0;
-      padding: 0;
-      margin: 0;
-    }
+      /* allow cols to shrink nicely */
+      .col {
+        min-width: 0;
+        padding:   0;
+        margin:    0;
+      }
 
-    /* stacked: top, middle, bottom
+      /* stacked: top, middle, bottom
         (HTML order already is: left -> center -> right) */
-    .col--left,
-    .col--center,
-    .col--right {
-      width: 100%;
-      min-width: 0;
-      height: auto;
+      .col--left,
+      .col--center,
+      .col--right {
+        width:     100%;
+        min-width:    0;
+        height:    auto;
 
-      justify-self: stretch;
-      align-self: start;
-      text-align: center;
-    }
+        justify-self: stretch;
+        align-self:     start;
+        text-align:    center;
+      }
 
-    .col--right {
-      /* height: 20rem;  */
-      height: auto;
-      padding: 1rem 2rem;
-      text-align: left;
-    }
+      .col--right {
+        /* height: 20rem;  */
+        height: auto;
+        padding: 1rem 2rem;
+        text-align: left;
+      }
 
-    /* center column: echart takes full width on phone */
-    #echart_container {
-      width: 100%;
-      max-width: 100%;
-      height: var(--echartHeight);
-      box-sizing: border-box;
+      /* center column: echart takes full width on phone */
+      #echart_container {
+        width:             100%;
+        max-width:         100%;
+        height:      var(--echartHeight);
+        box-sizing: border-box;
 
-      /* border-top: 2px solid red; */
-    }
+        /* border-top: 2px solid red; */
+      }
 
-    .slider-group {
-      align-self: center;
-      justify-self: center;
-    }
+      .slider-group {
+        align-self:   center;
+        justify-self: center;
+      }
 
-    #yearSlider {
-      width: 90%;
-      align-self: center;
-    }
+      #yearSlider {
+        width: 90%;
+        align-self: center;
+      }
 
-    .options-stat-vars {
-      /* align-items:    center;     */
-      margin: 0.93rem 0;
-      margin-right: max(2.1rem, 11%);
-    }
+      .options-stat-vars {
+        /* align-items:    center;     */
+        margin:         0.93rem 0;
+        margin-right: max(2.1rem, 11%) ;
+      }
 
-    input[type="radio"] {
-      margin-left: 0.9rem;
-    }
+      input[type="radio"] {
+        margin-left:  0.9rem;
+      }
 
-    .play-and-download {
-      display: inline-block;
-      margin: 0.2rem;
-      margin-top: 0.8rem;
-      margin-bottom: 0.8rem;
-      /* width: 40%  !important  ; */
-      width: 40%;
-      /* margin-right:0.4rem     */
-    }
-
-
-
-    .gradientWrapper {
-      margin: 0.1rem 0;
-    }
-
-    .layout h3 {
-      /* .layout to increase specifitiy */
-      text-align: center;
-      width: 90%;
-      margin: 1rem auto;
-      margin-bottom: 0;
-    }
+      .play-and-download {
+        display: inline-block;
+        margin: 0.2rem;
+        margin-top:    0.8rem;
+        margin-bottom: 0.8rem;
+        /* width: 40%  !important  ; */
+        width: 40%  ;
+        /* margin-right:0.4rem     */
+      }
 
 
 
-  }
+      .gradientWrapper {
+        margin: 0.1rem 0;
+      }
+
+      .layout h3 {
+        /* .layout to increase specifitiy */
+        text-align: center;
+        width:      90%;
+        margin: 1rem auto ;
+        margin-bottom: 0;
+      }
+
+
+
+}
+
+
 </style>
 
 <style>
+
   .gradientWrapper {
-    position: relative;
-    height: var(--grad-height);
-    width: 100%;
-    margin: 2rem 0;
-    /* margin-top:  0; */
-    /* border: 1px solid gray; */
+      position:    relative;
+      height:      var(--grad-height);
+      width:       100%;
+      margin:      2rem 0;
+      /* margin-top:  0; */
+      /* border: 1px solid gray; */
   }
 
   .gradient1 {
-    height: var(--grad-height);
-    width: 100%;
-    opacity: var(--initOpacity);
+      height:   var(--grad-height);
+      width:    100%;
+      opacity:  var(--initOpacity);
 
-    /* background is set dynamically by JS */
+      /* background is set dynamically by JS */
   }
 
 
   .tick {
-    position: absolute;
+      position: absolute;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 0.4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0.4rem;
 
-    height: 5px;
-    width: 1px;
-    top: calc(var(--grad-height) + 0.0rem);
+      height:  5px;
+      width:   1px;
+      top:     calc(var(--grad-height) + 0.0rem);
 
-    background: black;
-    text-align: center;
-    transform: translateX(calc(-50% + 1px));
-    font-size: 11px;
+      background: black;
+      text-align:   center;
+      transform:    translateX(calc(-50% + 1px));
+      font-size: 11px;
   }
-
   .tick:last-child {
-    transform: translateX(calc(-50% - 1px));
+      transform:    translateX(calc(-50% - 1px));
   }
 
 
 
   .gradientDebug {
-    height: var(--grad-height);
-    width: 100%;
-    opacity: var(--initOpacity);
-    background: linear-gradient(to right,
-        #00A000 0%,
-        #A08000 30%,
-        #A08000 30%,
-        #FF0000 90%,
-        #FF0000 100%);
-    /* border: 1px solid #444; */
+      height:   var(--grad-height);
+      width:    100%;
+      opacity:  var(--initOpacity);
+      background: linear-gradient(
+          to right,
+          #00A000   0%,
+          #A08000  30%,
+          #A08000  30%,
+          #FF0000  90%,
+          #FF0000 100%
+      );
+      /* border: 1px solid #444; */
   }
 
 
   .gradient-illustation {
     width: 17%;
   }
-
   .gradient-illustation-img1 {
     /* align-self:   start; */
     /* justify-self: start; */
-    translate: -40% +60%;
+    translate:  -40%  +60%;
     opacity: 0.7;
   }
-
   .gradient-illustation-img2 {
     margin-left: auto;
-    translate: +40% +60%;
+    translate: +40%   +60%;
     opacity: 0.7;
   }
 </style>
@@ -401,7 +388,7 @@
 
       <!-- First (top, right) -->
       <h3> {{i18n.headline_council_tempomat}}
-        <a href="#" id="btnDlgIco" title="Interpretation assistance" >i</a>
+        <a href="#" id="btnDlgIco" title="{{i18n.infobox_header}}" >i</a>
       </h3>
 
 
@@ -685,53 +672,6 @@
     
     
     
-    // arc ticks start
-    const tickOuterRadius = radiusArc + 12;   // outside arc
-    const tickInnerSmall  = tickOuterRadius - 8;
-    const tickInnerLarge  = tickOuterRadius - 16;
-
-    for (let val = -1.0; val <= 1.0001; val += 0.1) {
-
-      // avoid floating drift
-        const roundedVal = Math.round(val * 10) / 10;
-
-        const angle = scoreToAngle(roundedVal);
-
-        const isMajor = Math.abs(roundedVal % 0.5) < 0.001;
-
-        const innerRadius = isMajor ? tickInnerLarge : tickInnerSmall;
-
-        const x1 = centerX + Math.cos(angle) * innerRadius;
-        const y1 = centerY - Math.sin(angle) * innerRadius;
-
-        const x2 = centerX + Math.cos(angle) * tickOuterRadius;
-        const y2 = centerY - Math.sin(angle) * tickOuterRadius;
-
-        const tick = document.createElementNS("http://www.w3.org/2000/svg", "line");
-        tick.setAttribute("x1", x1);
-        tick.setAttribute("y1", y1);
-        tick.setAttribute("x2", x2);
-        tick.setAttribute("y2", y2);
-        tick.setAttribute("stroke", "#000");
-        tick.setAttribute("stroke-width", isMajor ? "2" : "1");
-
-        svg.appendChild(tick);
-
-        // labels only on major ticks (-1, -0.5, 0, 0.5, 1)
-        if (isMajor) {
-            const labelRadius = tickOuterRadius + 18;
-            const lx = centerX + Math.cos(angle) * labelRadius;
-            const ly = centerY - Math.sin(angle) * labelRadius;
-            const txt = document.createElementNS("http://www.w3.org/2000/svg", "text");
-            txt.setAttribute("x", lx);
-            txt.setAttribute("y", ly + 4);
-            txt.setAttribute("text-anchor", "middle");
-            txt.setAttribute("font-size", "12px");
-            txt.textContent = roundedVal.toFixed(1);
-            svg.appendChild(txt);
-        }
-    }
-    // arc ticks end
 
 
 
@@ -758,6 +698,51 @@
 
         // 'rgb(194, 211,   0)',
         // 'rgb( 0,  105, 180)',
+
+
+    // arc ticks start
+    const tickOuterRadius = radiusArc + 12;   // outside arc
+    const tickInnerSmall  = tickOuterRadius -  8;
+    const tickInnerLarge  = tickOuterRadius - 20;
+
+    for (let val = -1.0; val <= 1.0001; val += 0.1) {
+      // avoid floating drift
+      const roundedVal = Math.round(val * 10) / 10;
+      const angle = scoreToAngle(roundedVal);
+      const isMajor = Math.abs(roundedVal % 0.5) < 0.001;
+      const innerRadius = isMajor ? tickInnerLarge : tickInnerSmall;
+
+      const x1 = centerX + Math.cos(angle) * innerRadius;
+      const y1 = centerY - Math.sin(angle) * innerRadius;
+
+      const x2 = centerX + Math.cos(angle) * tickOuterRadius;
+      const y2 = centerY - Math.sin(angle) * tickOuterRadius;
+
+      const tick = document.createElementNS("http://www.w3.org/2000/svg", "line");
+      tick.setAttribute("x1", x1);
+      tick.setAttribute("y1", y1);
+      tick.setAttribute("x2", x2);
+      tick.setAttribute("y2", y2);
+      tick.setAttribute("stroke", "#000");
+      tick.setAttribute("stroke-width", isMajor ? "2" : "1");
+
+      svg.appendChild(tick);
+
+      // labels only on major ticks (-1, -0.5, 0, 0.5, 1)
+      if (isMajor) {
+        const labelRadius = tickOuterRadius + 18;
+        const lx = centerX + Math.cos(angle) * labelRadius;
+        const ly = centerY - Math.sin(angle) * labelRadius;
+        const txt = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        txt.setAttribute("x", lx);
+        txt.setAttribute("y", ly + 4);
+        txt.setAttribute("text-anchor", "middle");
+        txt.setAttribute("font-size", "12px");
+        txt.textContent = roundedVal.toFixed(1);
+        svg.appendChild(txt);
+      }
+    }
+    // arc ticks end
 
 
 
