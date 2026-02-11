@@ -568,7 +568,7 @@
     // console.log(` geo coords for centroid of France ${centroids["France"][0]} ${centroids["France"][1]}`)
 
 
-    const currentYear = new Date().getFullYear();
+    let currentYear = new Date().getFullYear();  // point in time shown when entering page
 
     // --- slider setup: 1960 .. (current year + 1) ---
     const sliderEl = document.getElementById('yearSlider');
@@ -630,6 +630,17 @@
     const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
     if (byUrlHash !== ""){
       selectedVar    = byUrlHash;
+      if(selectedVar === "eurostat_hicp"){
+        // regionsColoring() and manyCountriesShowStats() get executed while building optionsInit :-(
+        //   => 'current year' be set to '2025-12' 
+        const mp2 = selectedDataMeta[selectedVar]["selected_data"]["mapping2"];
+        const keys = Object.keys(mp2);
+        const lastKey = keys[keys.length - 1];
+        const lastVal = mp2[lastKey];
+        console.log(` for selected var ${selectedVar} ${lastKey} - ${lastVal}`);
+        currentYear = lastVal;
+        labelEl.textContent = lastVal;
+      }
     }
     // console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
 
@@ -1328,7 +1339,7 @@
           }
       });
 
-      console.log(`selected ${selectedVar}`);
+      console.log(`initFunc() selected ${selectedVar}`);
 
       createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
 
@@ -1400,7 +1411,7 @@
           selectedVar  = evt.target.value;
         }
 
-        console.log(`selected ${evt.target.value}`);
+        console.log(`selected radio ${evt.target.value}`);
 
         sliderConfig();
         const res = sliderToKey();
