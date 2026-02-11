@@ -423,7 +423,19 @@
 
   <div class="col col--center">
 
-    <svg id="gauge" width="800" height="450"></svg>
+    <svg id="gauge" width="800" height="400" style="border-bottom: 0.5px solid grey;"></svg>
+
+    <div  style="
+        background-color: #b0b0b0FF;
+        height: 2rem;
+        min-width:  8rem;
+        width:  min-content;
+        width:  max-content;
+        margin: 0 auto;
+      "> 
+      Median position, median board members
+
+    </div>
 
     <div id="echart_container" class="invisible-x">echart container content</div>
   </div>
@@ -520,190 +532,6 @@
     */
   (async () => {
 
-    // xxxxx
-    function scoreToAngle(score) {
-        // -1 = left (180°), +1 = right (0°)
-        return Math.PI * (1 - (score + 1) / 2);
-    }
-    function getScore(entry) {
-        if (entry.opinion_score === "" || entry.opinion_score === null) {
-            return entry.median_total;
-        }
-        return entry.opinion_score;
-    }
-
-
-
-    const svg = document.getElementById("gauge");
-    const centerX = 400;
-    const centerY = 380;
-    const radius  = 300;
-    const ring    =  16;  // thickness
-    const radiusArc  = radius + ring;
-
-
-
-    // arc gradient start
-    const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
-    svg.appendChild(defs);
-
-    const grad = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
-    grad.setAttribute("id", "arcGradientLin");
-    grad.setAttribute("gradientUnits", "userSpaceOnUse");
-    grad.setAttribute("x1", centerX - radiusArc);
-    grad.setAttribute("y1", centerY);
-    grad.setAttribute("x2", centerX + radiusArc);
-    grad.setAttribute("y2", centerY);
-    defs.appendChild(grad);
-
-    // todo: replace "99" with the UI transparency
-    const grCl1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-    grCl1.setAttribute("offset", "0%");
-    grCl1.setAttribute("stop-color", "#0000A099");
-    grad.appendChild(grCl1);
-
-    const grCl2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-    grCl2.setAttribute("offset", "50%");
-    grCl2.setAttribute("stop-color", "#A0A0A099");
-    grad.appendChild(grCl2);
-
-    const grCl3 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-    grCl3.setAttribute("offset", "100%");
-    grCl3.setAttribute("stop-color", "#A0A00099");
-    grad.appendChild(grCl3);
-    // arc gradient end
-
-
-
-
-    // arc
-    const arc = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    arc.setAttribute(
-        "d",
-        `
-        M ${centerX - radiusArc} ${centerY}
-        A ${radiusArc} ${radiusArc} 0 0 1 ${centerX + radiusArc} ${centerY}
-        `
-    );
-    arc.setAttribute("fill",   "none");
-    // arc.setAttribute("stroke", "rgb( 0,  105, 180)");  // mono color
-    arc.setAttribute("stroke", "url(#arcGradientLin)");
-
-    arc.setAttribute("stroke-width", "14");
-    arc.setAttribute("stroke-width", String(ring) );
-    svg.appendChild(arc);
-
-
-        // 'rgb(194, 211,   0)',
-        // 'rgb( 0,  105, 180)',
-
-
-
-    function drawNeedle(val) {
-        const angle = scoreToAngle(val);
-        const x = centerX + Math.cos(angle) * (radius - ring);
-        const y = centerY - Math.sin(angle) * (radius - ring);
-        const needle = document.createElementNS("http://www.w3.org/2000/svg", "line");
-        needle.setAttribute("x1", centerX);
-        needle.setAttribute("y1", centerY);
-        needle.setAttribute("x2", x);
-        needle.setAttribute("y2", y);
-        needle.setAttribute("stroke", 'rgb(194, 211,   0)');
-        needle.setAttribute("stroke-width", "3");
-        svg.appendChild(needle);
-    }
-
-
-    const median = councilTempomat[0]['median_total'];
-    // drawNeedle(0.26);
-    drawNeedle( median );
-
-
-    const angleBucketSize   =  0.28;           // radians (~3°)
-    const radialStep        = 21;              // px inward per collision
-    const minRadius         = radius - 220;    // do not collapse into center
-
-    const angleBuckets = {};
-    function getAngleBucket(angle) {
-        return Math.round(angle / angleBucketSize) * angleBucketSize;
-    }
-
-    for (const [idx1, entry] of councilTempomat.entries()) {
-        const score = getScore(entry);
-        const angle = scoreToAngle(score);
-
-        const bucketKey = getAngleBucket(angle);
-
-        if (angleBuckets[bucketKey] === undefined) {
-            angleBuckets[bucketKey] = 0;
-        }
-
-        const collisionIndex = angleBuckets[bucketKey];
-        angleBuckets[bucketKey] = angleBuckets[bucketKey] + 1;
-
-        let blobRadius = radius - 10 - (collisionIndex * radialStep);
-
-        if (blobRadius < minRadius) {
-            blobRadius = minRadius;
-        }
-
-        const x = centerX + Math.cos(angle) * blobRadius;
-        const y = centerY - Math.sin(angle) * blobRadius;
-
-        const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
-
-        const ellipse = document.createElementNS("http://www.w3.org/2000/svg", "ellipse");
-        ellipse.setAttribute("cx", x);
-        ellipse.setAttribute("cy", y);
-        ellipse.setAttribute("rx", 25);
-        ellipse.setAttribute("ry", 10);
-
-
-        const isMedianPos = Math.round(score*1000) === Math.round(median*1000); 
-
-        if (isMedianPos) {
-          ellipse.setAttribute("fill", "#C2D30040");
-        } else if (entry.name_excel === "Christine Lagarde"){
-            ellipse.setAttribute("fill", "#dfdfdf70");
-        } else {
-          ellipse.setAttribute("fill", "#ffffff88");
-        }
-
-        // label.textContent +=  " "; 
-        // label.textContent +=  String(Math.round(score*100)) ;
-
-        
-
-        ellipse.setAttribute("stroke", "#000");
-
-        const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
-        label.setAttribute("x", x);
-        label.setAttribute("y", y + 4);
-        label.setAttribute("text-anchor", "middle");
-        label.setAttribute("font-size", "11px");
-        label.textContent = entry.name_excel.split(" ").slice(-1)[0];
-
-        let angleDeg = (angle * 180 / Math.PI) - 90;
-        angleDeg = -angleDeg;
-        ellipse.setAttribute(
-            "transform",
-            `rotate(${angleDeg} ${x} ${y})`
-        );        
-        label.setAttribute(
-            "transform",
-            `rotate(${angleDeg} ${x} ${y})`
-        );        
-
-
-        group.appendChild(ellipse);
-        group.appendChild(label);
-        svg.appendChild(group);
-    }
-
-
-
-
-
 
     // init-1
     const root        = document.documentElement;
@@ -781,6 +609,249 @@
       selectedVar    = byUrlHash;
     }
     // console.log(` url hash '${byUrlHash}' - selected var ${selectedVar}`);
+
+
+
+
+
+
+
+    // xxxxx
+    function scoreToAngle(score) {
+        // -1 = left (180°), +1 = right (0°)
+        return Math.PI * (1 - (score + 1) / 2);
+    }
+    function getScore(entry) {
+        if (entry.opinion_score === "" || entry.opinion_score === null) {
+            return entry.median_total;
+        }
+        return entry.opinion_score;
+    }
+
+
+
+    const svg = document.getElementById("gauge");
+    const centerX = 400;
+    const centerY = 380;
+    const radius  = 300;
+    const ring    =  16;  // thickness
+    const radiusArc  = radius + ring;
+
+    const colMedianNeedle  = "#b0b0b0FF";
+    const colMedianElliBg  = "#d0d0d0D0";
+
+    // arc gradient start
+    const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+    svg.appendChild(defs);
+
+    const grad = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+    grad.setAttribute("id", "arcGradientLin");
+    grad.setAttribute("gradientUnits", "userSpaceOnUse");
+    grad.setAttribute("x1", centerX - radiusArc);
+    grad.setAttribute("y1", centerY);
+    grad.setAttribute("x2", centerX + radiusArc);
+    grad.setAttribute("y2", centerY);
+    defs.appendChild(grad);
+
+    // todo: replace "99" with the UI transparency
+    const grCl1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+    grCl1.setAttribute("offset", "0%");
+    grCl1.setAttribute("stop-color", "#0000A099");
+    grad.appendChild(grCl1);
+
+    const grCl2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+    grCl2.setAttribute("offset", "50%");
+    grCl2.setAttribute("stop-color", "#A0A0A099");
+    grad.appendChild(grCl2);
+
+    const grCl3 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+    grCl3.setAttribute("offset", "100%");
+    grCl3.setAttribute("stop-color", "#A0A00099");
+    grad.appendChild(grCl3);
+    // arc gradient end
+    
+    
+    
+    // arc ticks start
+    const tickOuterRadius = radiusArc + 12;   // outside arc
+    const tickInnerSmall  = tickOuterRadius - 8;
+    const tickInnerLarge  = tickOuterRadius - 16;
+
+    for (let val = -1.0; val <= 1.0001; val += 0.1) {
+
+      // avoid floating drift
+        const roundedVal = Math.round(val * 10) / 10;
+
+        const angle = scoreToAngle(roundedVal);
+
+        const isMajor = Math.abs(roundedVal % 0.5) < 0.001;
+
+        const innerRadius = isMajor ? tickInnerLarge : tickInnerSmall;
+
+        const x1 = centerX + Math.cos(angle) * innerRadius;
+        const y1 = centerY - Math.sin(angle) * innerRadius;
+
+        const x2 = centerX + Math.cos(angle) * tickOuterRadius;
+        const y2 = centerY - Math.sin(angle) * tickOuterRadius;
+
+        const tick = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        tick.setAttribute("x1", x1);
+        tick.setAttribute("y1", y1);
+        tick.setAttribute("x2", x2);
+        tick.setAttribute("y2", y2);
+        tick.setAttribute("stroke", "#000");
+        tick.setAttribute("stroke-width", isMajor ? "2" : "1");
+
+        svg.appendChild(tick);
+
+        // labels only on major ticks (-1, -0.5, 0, 0.5, 1)
+        if (isMajor) {
+            const labelRadius = tickOuterRadius + 18;
+            const lx = centerX + Math.cos(angle) * labelRadius;
+            const ly = centerY - Math.sin(angle) * labelRadius;
+            const txt = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            txt.setAttribute("x", lx);
+            txt.setAttribute("y", ly + 4);
+            txt.setAttribute("text-anchor", "middle");
+            txt.setAttribute("font-size", "12px");
+            txt.textContent = roundedVal.toFixed(1);
+            svg.appendChild(txt);
+        }
+    }
+    // arc ticks end
+
+
+
+
+
+
+    // arc
+    const arc = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    arc.setAttribute(
+        "d",
+        `
+        M ${centerX - radiusArc} ${centerY}
+        A ${radiusArc} ${radiusArc} 0 0 1 ${centerX + radiusArc} ${centerY}
+        `
+    );
+    arc.setAttribute("fill",   "none");
+    // arc.setAttribute("stroke", "rgb( 0,  105, 180)");  // mono color
+    arc.setAttribute("stroke", "url(#arcGradientLin)");
+
+    arc.setAttribute("stroke-width", "14");
+    arc.setAttribute("stroke-width", String(ring) );
+    svg.appendChild(arc);
+
+
+        // 'rgb(194, 211,   0)',
+        // 'rgb( 0,  105, 180)',
+
+
+
+    function drawNeedle(val) {
+        const angle = scoreToAngle(val);
+        const x = centerX + Math.cos(angle) * (radius - ring);
+        const y = centerY - Math.sin(angle) * (radius - ring);
+        const needle = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        needle.setAttribute("x1", centerX);
+        needle.setAttribute("y1", centerY);
+        needle.setAttribute("x2", x);
+        needle.setAttribute("y2", y);
+        needle.setAttribute("stroke", colMedianNeedle);
+        needle.setAttribute("stroke-width", "6");
+        svg.appendChild(needle);
+    }
+
+
+    const median = councilTempomat[0]['median_total'];
+    // drawNeedle(0.26);
+    drawNeedle( median );
+
+
+    const angleBucketSize   =  0.28;           // radians (~3°)
+    const radialStep        = 21;              // px inward per collision
+    const minRadius         = radius - 220;    // do not collapse into center
+
+    const angleBuckets = {};
+    function getAngleBucket(angle) {
+        return Math.round(angle / angleBucketSize) * angleBucketSize;
+    }
+
+    for (const [idx1, entry] of councilTempomat.entries()) {
+        const score = getScore(entry);
+        const angle = scoreToAngle(score);
+
+        const bucketKey = getAngleBucket(angle);
+
+        if (angleBuckets[bucketKey] === undefined) {
+            angleBuckets[bucketKey] = 0;
+        }
+
+        const collisionIndex = angleBuckets[bucketKey];
+        angleBuckets[bucketKey] = angleBuckets[bucketKey] + 1;
+
+        let blobRadius = radius - 10 - (collisionIndex * radialStep);
+
+        if (blobRadius < minRadius) {
+            blobRadius = minRadius;
+        }
+
+        const x = centerX + Math.cos(angle) * blobRadius;
+        const y = centerY - Math.sin(angle) * blobRadius;
+
+        const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
+
+        const ellipse = document.createElementNS("http://www.w3.org/2000/svg", "ellipse");
+        ellipse.setAttribute("cx", x);
+        ellipse.setAttribute("cy", y);
+        ellipse.setAttribute("rx", 25);
+        ellipse.setAttribute("ry", 10);
+
+
+        const isMedianPos = Math.round(score*1000) === Math.round(median*1000); 
+
+        if (isMedianPos) {
+          ellipse.setAttribute("fill", colMedianElliBg);
+        } else if (entry.name_excel === "xxx Christine Lagarde"){
+            ellipse.setAttribute("fill", "#dfdfdf70");
+        } else {
+          ellipse.setAttribute("fill", "#ffffff88");
+        }
+
+        // label.textContent +=  " "; 
+        // label.textContent +=  String(Math.round(score*100)) ;
+
+        
+
+        ellipse.setAttribute("stroke", "#000");
+
+        const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        label.setAttribute("x", x);
+        label.setAttribute("y", y + 4);
+        label.setAttribute("text-anchor", "middle");
+        label.setAttribute("font-size", "11px");
+        label.textContent = entry.name_excel.split(" ").slice(-1)[0];
+
+        let angleDeg = (angle * 180 / Math.PI) - 90;
+        angleDeg = -angleDeg;
+        ellipse.setAttribute(
+            "transform",
+            `rotate(${angleDeg} ${x} ${y})`
+        );        
+        label.setAttribute(
+            "transform",
+            `rotate(${angleDeg} ${x} ${y})`
+        );        
+
+
+        group.appendChild(ellipse);
+        group.appendChild(label);
+        svg.appendChild(group);
+    }
+
+
+
+
 
 
 
