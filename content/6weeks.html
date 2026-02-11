@@ -625,7 +625,7 @@
     }
 
 
-    function valToPctToColor(vl, config) {
+    function valToPctToColor(vl, config, opaBuff=0) {
 
         let opacity = initOpacity;
         if (elOpa){
@@ -633,6 +633,12 @@
           opacity = elOpa.value.toString(16);
           opacity = parseFloat(opacity);
         }
+
+        opacity += opaBuff;
+        if (opacity > 1.0) {
+          opacity = 1.0;
+        }
+
         let tmp = Math.floor(opacity * 255);
         let opacityHex = tmp.toString(16);
         if (opacityHex.length < 2) {
@@ -720,13 +726,21 @@
 
 
 
-    const dates = [];
-    const opinionSeries = [];
-    const rateSeries    = [];
+    let series1 = {};
+    let series2 = {};
+
+    let dates = [];
+    let opinionSeries = [];
+    let rateSeries    = [];
 
 
     // creating debt numbers at the centroid of 27 eu countries
-    function manyCountriesShowStats(yr=currentYear) {
+    function manyCountriesShowStats(yr = currentYear) {
+
+      dates = [];
+      opinionSeries = [];
+      rateSeries    = [];
+
 
       let fontSizeByDisplay = 12;
       if (displayType === "mobile") {
@@ -735,57 +749,86 @@
       }
 
       for (let idx1 = 0; idx1 < councilBy6Weeks.length; idx1 += 1) {
-          const row = councilBy6Weeks[idx1];
+        const row = councilBy6Weeks[idx1];
 
-          // keep date as string; ECharts handles time axis parsing
-          dates.push(row.date);
+        // keep date as string; ECharts handles time axis parsing
+        dates.push(row.date);
 
-          opinionSeries.push(row.opinion_score);
-          rateSeries.push(row.leitzins);
+        opinionSeries.push(row.opinion_score);
+        rateSeries.push(row.leitzins);
       }
 
 
       console.log(opinionSeries);
       console.log(rateSeries);
 
+      series1 = {
+        name: 'Opinion Score',
+        type: 'line',
+        yAxisIndex: 0,
+        data: opinionSeries.map((v, idx1) => {
+          return [dates[idx1], v];
+        }),
+        symbol: 'circle',
+        symbolSize: 4,
+        itemStyle: {
+          color: function (params) {
+            return valToPctToColor(params.value[1], selectedDataMeta[selectedVar], 0.2);
+          }
+        },
+        lineStyle: {
+          width: 3.50,
+          width: 1.50,
+          width: 1.75,
+
+          color: new echarts.graphic.LinearGradient(0, 0, 1, 0,
+            opinionSeries.map((v, idx1) => {
+              return {
+                offset: idx1 / (opinionSeries.length - 1),
+                color: valToPctToColor(v, selectedDataMeta[selectedVar], 0.2)
+              };
+            })
+          ),
+
+        },
+        smooth: 0.4,  // 0 = straight lines, 1 = very round
+        connectNulls: false,
+
+        animation: true,
+        animationDuration: 1000,
+        animationEasing: 'cubicOut',
+        animationEasing: 'linear',
+      };
+
+      series2 = {
+        name: 'ECB Deposit Rate',
+        type: 'line',
+        yAxisIndex: 1,
+
+        data: rateSeries.map((v, idx1) => {
+          return [dates[idx1], v];
+        }),
+
+        symbol: 'circle',
+        symbolSize: 3.0,
+        showSymbol: false,
+        lineStyle: {
+          width: 2.5,
+          width: 1.8,
+        },
+
+        animation: true,
+        animationDuration: 2000,
+        animationEasing: 'linear',
+
+        // draw points left-to-right
+        animationDelay: function (idx1) {
+          return idx1 * 2; // 12ms per point
+        },
+      }
 
       let results = [
-        {
-            name: 'Opinion Score',
-            type: 'line',
-            yAxisIndex: 0,
-            data: opinionSeries.map((v, idx1) => {
-                return [dates[idx1], v];
-            }),
-            symbol:     'circle',
-            symbolSize: 4,
-            itemStyle: {
-                color: function(params) {
-                    return valToPctToColor(params.value[1], selectedDataMeta[selectedVar]);
-                }
-            },
-            lineStyle: {
-                width: 3.50,
-                width: 1.50,
-                width: 1.75,
-
-                color: new echarts.graphic.LinearGradient(0, 0, 1, 0,
-                  opinionSeries.map((v, idx1) => {
-                    return {
-                      offset: idx1 / (opinionSeries.length - 1),
-                      color: valToPctToColor(v, selectedDataMeta[selectedVar])
-                    };
-                  })
-                ),
-
-            },
-            smooth: 0.4,  // 0 = straight lines, 1 = very round
-
-            animation: true,
-            animationDuration:  1000,
-            animationEasing:   'cubicOut',
-            animationEasing:   'linear',
-        },
+        series1,
         // {
         //   I wanted to only add the data points below - to achieve subsequent animations.
         //   I had to move the _entire_ series into the setTimeout(... merge
@@ -795,8 +838,9 @@
 
       return results;
 
-
     }
+
+
 
 
     // global colors for series - taken from main-fonts.css
@@ -814,20 +858,20 @@
     ]
 
 
-          // [
-      //     { offset: 0, color: selectedDataMeta[selectedVar]["colors"][0] },
-      //     { offset: 1, color: selectedDataMeta[selectedVar]["colors"][2] },
-      // ],
-
+    // this works for series graph and symbols - but not for axis label
     const gradLabel1 = new echarts.graphic.LinearGradient(
-        0, 0, 0, 1,
-        [
-          { offset: 0, color: '#ff0000' },
-          { offset: 1, color: '#0000ff' },
-        ],
+      0, 0, 0, 1,
+      [
+        { offset: 0, color: selectedDataMeta[selectedVar]["colors"][0] },
+        { offset: 1, color: selectedDataMeta[selectedVar]["colors"][2] },
+      ],
+      // [
+      //   { offset: 0, color: '#ff0000' },
+      //   { offset: 1, color: '#0000ff' },
+      // ],
     );
-    console.log(`grad created ${gradLabel1}`)
-    console.log(gradLabel1)
+    // console.log(`grad created ${gradLabel1}`)
+    // console.log(gradLabel1)
 
 
 
@@ -914,13 +958,14 @@
           {
             type: 'value',
             // name: 'Opinion Score',
-            // nameTextStyle: {
-            //     color: eChartCols[0],
-            // },
-            // nameRotate: 90,
-            // nameLocation: 'middle',
-            // position: 'left',
-            // nameGap: 25,
+            nameTextStyle: {
+                color:  eChartCols[0],
+                color: '#A0A0A0',
+            },
+            nameRotate: 90,
+            nameLocation: 'middle',
+            position:     'left',
+            nameGap:   45,
 
             min:   -1.0,
             max:    1.0,
@@ -947,14 +992,15 @@
                     // color: eChartCols[0],   // color the tick lines
                     color: function(vl) {
                         // vl is the tick value
-                        return valToPctToColor(vl, selectedDataMeta[selectedVar]);
+                        return valToPctToColor(vl, selectedDataMeta[selectedVar], 0.4);
                     }
                 }
             },
             axisLabel: {
-                fontSize: 12,
+                fontSize: 13,
+                fontWeight: 500,
                 color: function(vl) {
-                    return valToPctToColor(vl, selectedDataMeta[selectedVar]);
+                    return valToPctToColor(vl, selectedDataMeta[selectedVar], 0.4);
                 },
             },
 
@@ -998,17 +1044,7 @@
 
 
             // markLine: {
-            //   symbol: 'none',  // no arrow
-            //   data: [
-            //       { yAxis: 0 }   // baseline at Y=0
-            //   ],
-            //   lineStyle: {
-            //       color: '#A00',
-            //       width: 2,
-            //       type: 'solid'
-            //   }
             // }
-
 
           },
 
@@ -1033,17 +1069,15 @@
         // pre-produced image
         {
           type: 'image',
-          left: 6,
+          left: 10,
           top: 'middle',
-          // z: 100,
           style: {
-            image: '/static/img/dovish-hawkish/label.png',
-            width:   24,
-            height: 500,
+            image: '/static/img/dovish-hawkish/label-2.png',
+            width:  13,
+            height: 80,
+            opacity: initOpacity + 0.4,
           }
         },
-
-
 
       ],
 
@@ -1171,43 +1205,19 @@
     initFunc();
 
 
+
     setTimeout(() => {
       myChart.setOption({
-        series:
-          [
+        series: [
             // first  series - keep unchanged
             {},
-            // second series
-            {
-              name: 'ECB Deposit Rate',
-              type: 'line',
-              yAxisIndex: 1,
-
-              data: rateSeries.map((v, idx1) => {
-                return [dates[idx1], v];
-              }),
-
-              symbol: 'circle',
-              symbolSize: 3.0,
-              showSymbol: false,
-              lineStyle: {
-                width: 2.5,
-                width: 1.8,
-              },
-
-              animation: true,
-              animationDuration: 2000,
-              animationEasing: 'linear',
-
-              // draw points left-to-right
-              animationDelay: function (idx1) {
-                return idx1 * 50; // 50ms per point
-              },
-
-            },
+            series2,
           ]
-
-      }, false); // `false` merges
+        },         {
+          notMerge :   false,  // do merge
+          lazyUpdate : true,
+        },
+      )
     }, 1000); // wait for series0 animation to finish
 
 
@@ -1268,12 +1278,24 @@
 
 
         const optUpdate = {
-          series: [],
+          series:  [],
+          graphic: [
+            {
+              type: 'image',
+              style: {
+                // height:  180,
+                // opacity: initOpacity + 0.4,
+                opacity: elOpa.value + 0.4,
+              }
+            },
+          ],
         };
-        optUpdate.series = [
-          ...manyCountriesShowStats(res.yr),
-        ];
 
+        manyCountriesShowStats(res.yr),
+        optUpdate.series = [
+          series1,
+          series2,
+        ];
         myChart.setOption(
           optUpdate,
           {
@@ -1281,6 +1303,8 @@
             lazyUpdate : true,
           },
         );
+
+
 
         if (timerId > 0) {
           clearTimeout(timerId);
@@ -1441,3 +1465,28 @@
         }, 600);
     });
 </script>
+
+
+
+<style>
+  .gradientText {
+    font-size:   48px;
+    font-weight: bold;
+    background:  linear-gradient(to right, #0000A0, #A0A0A0, #A0A000);
+    /* Apply gradient to text */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Optional for other browsers */
+    background-clip: text;
+    color:  transparent;
+
+    width: max-content;
+    margin-left: 2rem;
+
+    /* Rotate text container */
+    display: inline-block;
+    /* transform: rotate(-90deg);     */
+  }
+</style>
+<!-- <div class="gradientText">Opinion Score </div> -->
