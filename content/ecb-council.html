@@ -490,7 +490,6 @@
           <li>Info box: Equal weight of Malta, Cyprus...</li>
         <li>Tenure ending-starting same year </li>
         <li>Dove-Hawk-Score for all years vs up to selected yr </li>
-        <li>Average score for euro area? For Frankft council? </li>
         <li>Mouse over - also over the numbers - Malta/Cyprus: rect </li>
       </ul>
 
@@ -671,9 +670,6 @@
         "formatter": (statsValue) => {
           return Math.round(statsValue).toString() + ' %'
         },
-        // "formatter": (statsValue) => {
-        //   return  (Math.round(statsValue*10)/10).toString() + ' %'
-        // },
         "formatter_legend": (vl) => {
           vl = Math.round(vl).toString();
           if(vl==="0"){
@@ -793,6 +789,29 @@
         return "#" + asHex.join("") + opacityHex;
     }
 
+
+    // geo shape - hide, visibility, display none
+    function makeInvisible(item){
+      item.itemStyle  =  {
+          areaColor:   'rgba(0,0,0,0)',
+          borderColor: 'rgba(0,0,0,0)',
+          borderWidth:  0
+      };
+      item.emphasis = {
+          disabled: true  // prevent hover
+      };
+      item.select = {
+          disabled: true  // prevent selection
+      }
+      item.label = {
+          show:     false,
+          disabled: true,
+      }
+      return item;
+    }
+
+
+
     function symbolsSeries(){
       let results = [];
 
@@ -817,7 +836,7 @@
             formatter: 'ECB Tower'
         }
       }
-      results.push(item1);
+      // results.push(item1);
 
 
       // text-only label at a geo position
@@ -851,78 +870,81 @@
             show: false
         }
       }
-      results.push(item2);
+      // results.push(item2);
 
       return results;
     }
 
+
+    // from the shape to the description text at the  right marginal column
     function arrowRedraw( startCoord=[8.6889, 50.1095] ) {
 
-        const posStart = myChart.convertToPixel({ geoIndex: 0 }, startCoord);
-        const maxX = myChart.getWidth();
+      const posStart = myChart.convertToPixel({ geoIndex: 0 }, startCoord);
+      const maxX = myChart.getWidth();
 
-        const containerWidth  = myChartDom.clientWidth;
-        const containerHeight = myChartDom.clientHeight;
+      const containerWidth  = myChartDom.clientWidth;
+      const containerHeight = myChartDom.clientHeight;
 
-        let p0x = posStart[0];
-        let p0y = posStart[1];
-        // tuning arrow below icon
-        // p0x = p0x -  8;
-        // p0y = p0y + 26;
-        p0x = p0x + 2;
-        p0y = p0y - 10;
+      let p0x = posStart[0];
+      let p0y = posStart[1];
+      // tuning arrow below icon
+      // p0x = p0x -  8;
+      // p0y = p0y + 26;
+      p0x = p0x + 2;
+      p0y = p0y - 10;
 
-        let endX = containerWidth + 0;
-        endX = maxX;
-        let  endY = p0y;
-        endY = 45;
+      let endX = containerWidth + 0;
+      endX = maxX;
+      let  endY = p0y;
+      endY = 45;
 
-        // const midX = (startX + endX) / 2;
-        let p1x = (p0x + endX) / 3.4;
-        let p1y =  p0y - 0;
+      // const midX = (startX + endX) / 2;
+      let p1x = (p0x + endX) / 3.4;
+      let p1y =  p0y - 0;
 
-        p1x = p0x + 100;
-        p1y = endY;
+      p1x = p0x + 100;
+      p1y = endY;
 
 
-        const pointsForPolyLine = [
-            [p0x, p0y],
-            [p1x, p1y],
-            [endX, endY]
-        ];
+      const pointsForPolyLine = [
+          [p0x, p0y],
+          [p1x, p1y],
+          [endX, endY]
+      ];
 
-        myChart.setOption({
-            graphic: [
-                {
-                    id: 'ecb-arrow-line',
-                    type: 'polyline',
-                    shape: {
-                        points: pointsForPolyLine
-                    },
-                    style: {
-                        stroke: '#333',
-                        lineWidth: 0.4
-                    },
-                    silent: true,  // no reaction to click, hover, drag...
-                },
-                {
-                    id: 'ecb-arrow-head',
-                    type: 'polygon',
-                    shape: {
-                        points: [
-                            [endX - 0, endY     ],    // right most
-                            [endX - 4, endY -  4],
-                            [endX - 4, endY +  4]
-                        ]
-                    },
-                    style: {
-                        fill: '#888'
-                    },
-                    silent: true
-                },
-            ]
-        });
+      myChart.setOption({
+        graphic: [
+          {
+            id: 'ecb-arrow-line',
+            type: 'polyline',
+            shape: {
+              points: pointsForPolyLine
+            },
+            style: {
+              stroke: '#333',
+              lineWidth: 0.4
+            },
+            silent: true,  // no reaction to click, hover, drag...
+          },
+          {
+            id: 'ecb-arrow-head',
+            type: 'polygon',
+            shape: {
+              points: [
+                [endX - 0, endY],    // right most
+                [endX - 4, endY - 4],
+                [endX - 4, endY + 4]
+              ]
+            },
+            style: {
+              fill: '#888'
+            },
+            silent: true
+          },
+        ]
+      });
     }
+
 
     function regionsColoring(yr=currentYear) {
 
@@ -1009,20 +1031,26 @@
 
 
         let item = {
-              name:    country,
-              yearEvt: yr,
-              tooltip: {
-                show:      true,
-                formatter: country,
-              },
-              itemStyle: {
-                areaColor:   areaCol,
-                borderWidth: 0.2,
-                // borderColor: '#444',
-              },
-          };
-          // console.log(`  regionsColoring()-3 ${country}`);
-          results.push(item);
+          name: country,
+          yearEvt: yr,
+          tooltip: {
+            show: true,
+            formatter: country,
+          },
+          itemStyle: {
+            areaColor: areaCol,
+            borderWidth: 0.2,
+            // borderColor: '#444',
+          },
+        };
+        // console.log(`  regionsColoring()-3 ${country}`);
+
+        if( country.includes('Euro area') ){
+            item = makeInvisible(item);
+        }
+
+        results.push(item);
+
       };
 
       return results;
@@ -1059,7 +1087,7 @@
 
       }
 
-      const item =
+      let item =
         {
           name: `${country} Inset Rectangle`,
           itemStyle: {
@@ -1106,6 +1134,11 @@
             },
           },
         }
+
+        if( country.includes('Euro area') ){
+            item = makeInvisible(item);
+        }
+
         return item;
     }
 
@@ -1317,13 +1350,13 @@
           ...regionsColoring(),
           extraRectangle('Cyprus', -14,-37),
           extraRectangle('Malta' ,  -6,-26),
-          extraRectangle('Euro area (20 countries)', -45,-51),        
-          // rectangles('Luxembourg' ,  0,0),          
+          extraRectangle('Euro area (20 countries)', -45,-51),
+          // rectangles('Luxembourg' ,  0,0),
         ],
 
       },   // end geo
 
-      
+
 
       series: [
         // adding chart elements
@@ -1567,39 +1600,38 @@
 
         }
     })
-    myChart.on('mouseout', function (param) {
-        if (param.componentType !== 'geo') {
-            return
-        }
-        const councilRight = document.getElementById("council_right");
-        councilRight.replaceChildren(); // reset
-        // console.log(`mouse leave ${params.name}`)
 
-        try {
-          // remove using id attr
-          myChart.setOption({
-              graphic: [
-                  {
-                      id: 'ecb-arrow-line',
-                      $action: 'remove',
-                  },
-                  {
-                      id: 'ecb-arrow-head',
-                      $action: 'remove',
-                  },
-              ]
-          })
-
-        } catch (error) {
-          // if the arrow does not exist?
+    function resetMemberInfo(param) {
+      if (param.componentType !== 'geo') {
+        return
+      }
+      const councilRight = document.getElementById("council_right");
+      councilRight.replaceChildren(); // reset
+      // console.log(`mouse leave ${params.name}`)
+      try {
+        // remove using id attr
+        myChart.setOption({
+          graphic: [
+            {
+              id: 'ecb-arrow-line',
+              $action: 'remove',
+            },
+            {
+              id: 'ecb-arrow-head',
+              $action: 'remove',
+            },
+          ]
+        })
+      } catch (error) {
+        if (error.message.includes("Cannot read properties of undefined")){
+          // arrow was not displayed in the first place
+        } else {
           console.log("removing arrow caused exception")
           console.log(error)
         }
-
-
-      })
-
-
+      }
+    }
+    myChart.on('mouseout', resetMemberInfo);
 
 
     // init-2
@@ -1621,6 +1653,11 @@
       labelEl.textContent = res.lbl;
 
       populateLeftPanel(res.yr)
+
+      const p = {
+        componentType: 'geo',
+      }
+      resetMemberInfo(p)
 
       // mutate option and re-apply
       // reset the stuff we want to update
