@@ -50,9 +50,54 @@ trlsRaw = [
         },
     },
     {
+        "hp_claim_p1":    {
+            "de": """
+                Ein Forschungsprojekt des ZEW - Leibniz-Zentrums für Europäische Wirtschaftsforschung 
+                mit Unterstützung der Stiftung Geld und Währung
+            """,
+            "en": """
+                A research project of ZEW – Leibniz Centre for European Economic Research
+                with support from the Foundation for Money and Currency
+            """,
+        },
+    },
+    {
+        "hp_claim_p2":    {
+            "de": """
+                Der "EZB-Monitor" informiert aus der unabhängigen wissenschaftlichen Perspektive 
+                des ZEW – Leibniz-Zentrums für Europäische Wirtschaftspolitik über die EZB und ihre geldpolitischen Entscheidungen. Der Monitor bietet Zugriff auf wichtige ökonomische und fiskalische Daten zum aktuellen Umfeld der Geldpolitik. 
+            """,
+            "en": """
+                The “ECB Monitor” provides information on the ECB and its monetary policy decisions 
+                from the independent academic perspective of ZEW – Leibniz Centre for European Economic Policy. The monitor offers access to key economic and fiscal data on the current monetary policy environment.
+            """,
+        },
+    },
+    {
         "infobox_header":    {
             "de": "Interpretationshilfe",
             "en": "Interpretation assistance",
+        },
+    },
+
+
+    {
+        "headline_news": {
+            "de": "Aktuell",
+            "en": "News",
+        },
+    },
+
+    {
+        "ecb_momentum_report_headline":    {
+            "de": "EZB-ZEW-Momentum-Indikator –  Quartals-Bericht",
+            "en": "ECB-ZEW-Momentum indicator – quartely report",
+        },
+    },
+    {
+        "ecb_watching_body_headline":    {
+            "de": "ECB-Watching – der Kommentar",
+            "en": "ECB-Watching – commentary",
         },
     },
 
@@ -82,12 +127,6 @@ trlsRaw = [
         },
     },
 
-    {
-        "ecb_watching_body_headline":    {
-            "de": "ECB-Watching – der aktuelle Kommentar",
-            "en": "ECB-Watching – commentary",
-        },
-    },
     {
         "all_posts":    {
             "de": "Alle Beiträge",
@@ -550,9 +589,28 @@ trlsRaw = [
 
 
     {
+        "headline_science_news": {
+            "de": "Neues aus der Forschung",
+            "en": "News from academia",
+        },
+    },
+
+    {
+        "headline_imprint": {
+            "de": "Impressum, Team",
+            "en": "Imprint, Team",
+        },
+    },
+    {
+        "headline_data_protection": {
+            "de": "Datenschutz",
+            "en": "Data protection",
+        },
+    },
+    {
         "headline_image_licenses": {
             "de": "Bildnachweis",
-            "en": "Image Credits (Licence Information)",
+            "en": "Image Licence Info",
         },
     },
 
