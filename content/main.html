@@ -1,237 +1,240 @@
+<style>
+
+
+    :root {
+        --element-space-1: 8px;
+    }
+
+    body main#main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3ch;
+
+        width:         clamp(40ch, 80vw, 95ch);
+        /* width:            80%;  */
+        /* min-width:      400px; */
+
+        margin-inline: auto;
+
+        padding:       0;
+        margin-bottom: 2.5rem;
+
+        justify-self:  center;   /* horizontal */
+        align-self:    top;      /* vertical */
+
+    }
+
+
+    div.box1,
+    div.box2,
+    div.box3,
+    dummy
+     {
+        margin:  0.8ch 0;
+        padding: 1.0ch 2.3ch;
+        padding-bottom: 0.2ch;
+    }
+
+
+    div.box1 {
+        background-color: var(--color-iceblue-3);
+        /* padding-bottom: 0; */
+        margin-bottom:  0;
+    }
+    div.box2 {
+        /* background-color: var(--color-grey-2); */
+        background-color: var(--color-grey-2-op5);
+        /* padding-top: 0; */
+        margin-top:  0;
+        padding-bottom: 0;
+    }
+    div.box2  p {
+        line-height: 1.4;
+    }
+
+
+    div.box3 {
+        border: 1px solid  var(--color-grey-2-op5);
+    }
+
+
+     .full-width  {
+        grid-column:   1 / -1;
+     }
+
+     .three-cols  {
+        grid-column:   1 / 3;
+     }
+
+     .claim  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1.3ch;
+     }
+
+
+    .claim p {
+        font-size:     130%;
+    }
+    .claim img {
+        width:        54%;
+        width:        66%;
+        width:        77%;
+        padding: 0;
+        margin: 0;
+        justify-self: center;   /* horizontal */
+        align-self:   center;   /* vertical */
+    }
+
+
+    body main#main p {
+        margin: 0;
+        hyphens: auto;
+    }
+
+
+
+    body main#main div.box1  a,
+    body main#main div.box2  a,
+    body main#main div.box3  a,
+    dummy {
+        margin-left: 2.2ch;
+    }
+
+    body main#main div a.first,
+    dummy {
+        margin-left: 0;
+        font-size: 120%;
+    }
+
+    body main#main div a.nolink,
+    dummy {
+        box-shadow: none;
+        cursor: default;
+    }
+    body main#main div a.nolink:hover,
+    dummy {
+        background-color: unset;
+        color: unset;
+    }
+
+
+    div.service-links {
+        display: grid;
+        width:  100%;
+
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+
+        justify-items: center;
+    }
+
+
+
+</style>
+
+
 <!-- xxxx content start  -->
 <main id="main">
 
 
-    <br>
-    <!-- <h3 class="c-heading--h3">
-        Überblick Inhalte EZB-Transparenz-Monitor
-    </h3> -->
-
-
-    <style>
-        .ce-link-box__link [class^=u-icon--icon] {
-            margin-top: var(--element-space-1);
-            pointer-events: none;
-        }
-    </style>
-
-
-
-    <div class="component @ce-cross-teaser" id="c19168" style="margin-bottom: 0;">
-
-        <div class="ce-cross-teaser ce-cross-teaser--1-column"
-                style="background-color: #D5ECF0;
-                    grid-template-columns: 1fr 1fr;
-                    gap: 10px;
-                    gap: 0;
-                    xx: center-content-horizontally-inside-each-cell;
-                    justify-items: center;   
-                    xx: center-content-vertically-inside-each-cell;
-                    align-items: center;     
-                    "
-        >
-
-            <p id="claim"  style="grid-column: 1 / -1; font-size: 130%; margin-bottom: 0; margin-bottom: 0.7rem;">
-                Ein Forschungsprojekt des ZEW - Leibniz-Zentrums für Europäische Wirtschaftsforschung
-                mit Unterstützung der Stiftung Geld und Währung
-            </p>
-
-            <img  src="./static/img/logos/guw.png" style="width: 90%;  width: 50%;" alt="">
-            <img  src="./static/img/logos/zew.svg" style="width: 80%;  width: 50%;" alt="">
-
-
-        </div>
+    <div class="box1 claim full-width"  style="grid-template-columns: 3fr 1fr 1fr;">
+        <p>
+            Ein Forschungsprojekt des ZEW - Leibniz-Zentrums für Europäische Wirtschaftsforschung
+            mit Unterstützung der Stiftung Geld und Währung
+        </p>
+        <img   src="./static/img/logos/guw.png"  alt=""  astyle="width: 60px;">
+        <img   src="./static/img/logos/zew.svg"  alt="">
     </div>
 
 
-<div class="o-grid">
-    <div class="component @ce-accordion" style="margin-bottom: 0;">
-        <div class="c-accordion" data-accordion="" id="publications">
-            <h3 class="c-accordion__header">
-                <button class="c-accordion__tab" data-acc="tab" id="publications-tab-0" type="button">
-                    <span class="c-accordion__toggle-icon">
-                        <span class="u-icon--icon-arrow-search-dropdown"> </span>
-                    </span>
-                    <span class="c-category-label">
-                        Informationen zum Forschungsprojekt 
-                    </span>
-                </button>
-            </h3>
-            <div class="c-accordion__panel " data-acc="tabpanel" id="publications-panel-0" astyle="height: 0">
-                <div class="c-accordion__panel-inner">
+    <div class="box2 full-width">
+        <!-- <h3>Informationen zum Forschungsprojekt </h3> -->
+        <p>
+            Der "EZB-Monitor" informiert aus der unabhängigen wissenschaftlichen Perspektive
+            des ZEW – Leibniz-Zentrums für Europäische Wirtschaftspolitik
+            über die EZB und ihre geldpolitischen Entscheidungen.
+            Der Monitor bietet Zugriff auf wichtige ökonomische und
+            fiskalische Daten zum aktuellen Umfeld der Geldpolitik.
 
-                    
-                    <div class="c-multi-teaser" >
-                        <!-- 
-                        <div class="c-multi-teaser__header">
-                            header
-                        </div>
-                        -->
-                        <div class="c-multi-teaser__body" >
-                        
-                            Der "EZB-Transparenz-Monitor" informiert aus der unabhängigen wissenschaftlichen Perspektive 
-                            des ZEW – Leibniz-Zentrums für Europäische Wirtschaftspolitik 
-                            über die EZB und ihre geldpolitischen Entscheidungen. 
-
-                            <!-- <br> -->
-
-                            Der Monitor bietet einen leichten Zugriff auf wichtige ökonomische und 
-                            fiskalische Daten zum aktuellen Umfeld der Geldpolitik. 
-                            
-                            <br>
-                            In jedem Quartal erfolgt die Publikation des EZB-Momentum-Indikators. 
-                            Dieser KI-gestützte Indikator gibt Auskunft über die Botschaft 
-                            aus den jüngsten Redebeiträgen von Mitgliedern des EZB-Rats. 
-                            Er dient als Frühindikator, ob die EZB eher in eine 
-                            expansive oder kontraktive Richtung in ihren geldpolitischen Entscheidungen neigt. 
-                            Der EZB-Transparenz-Monitor richtet sich an Akteure in den Medien, 
-                            der Finanzindustrie, der Politik und der interessierten Fachöffentlichkeit.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
+        </p>
+        <!--
+        <p>
+            In jedem Quartal erfolgt die Publikation des EZB-Momentum-Indikators.
+            Dieser KI-gestützte Indikator gibt Auskunft über die Botschaft
+            aus den jüngsten Redebeiträgen von Mitgliedern des EZB-Rats.
+            Er dient als Frühindikator, ob die EZB eher in eine
+            expansive oder kontraktive Richtung in ihren geldpolitischen Entscheidungen neigt.
+            Der EZB-Transparenz-Monitor richtet sich an Akteure in den Medien,
+            der Finanzindustrie, der Politik und der interessierten Fachöffentlichkeit.
+        </p>
+        -->
     </div>
-</div>    
-
-
-<style>
-    #xx a {
-        text-decoration: underline !important; 
-        color: var(--color-primary);
-    }
-
-</style>
-
-<div id="xx" style="white-space: pre; ">EZB-ZEW-Momentum-Indikator – der aktuelle Quartals-Bericht
-    So hat sich das geldpolitische Momentum in den Reden des EZB-Rats über die letzten Monate verändert.
-
-<a href="/blog-newest"  autofocus  >ECB-Watching</a> – der aktuelle Kommentar
-    Forschende und ECB-Watcher, die nicht für Notenbanken arbeiten, zu aktuellen geldpolitischen Fragestellungen.
-
-Block 1: Der EZB-Rat
-    <a href="/pg/ecb-council.html"      >Biographisches der Mitglieder</a> 
-    <a href="/pg/tempomat.html"         >{{i18n.headline_council_tempomat}}</a> 
-    <a href="/pg/6weeks.html"           >{{i18n.headline_council_by_6weeks}}</a> 
-     
-
-Block 2: Fakten zur EZB-Geldpolitik
-    Leitzinsen
-    Termine
-    Wertpapierkäufe
-
-Block 3: <a href="/pg/fiscal-landscape.html">Das fiskalische Umfeld</a> 
-    <a href="/pg/fiscal-landscape.html">Staatsverschuldung</a> 
-    <a href="/pg/fiscal-landscape.html#ameco_net_lending">Haushaltsdefizite</a> 
-    <a href="/pg/fiscal-landscape.html#ameco_interest_expenditure">Schuldentragfähigkeit</a> 
-    
-Block 4: <a href="/pg/economic-environment.html"  >Das ökonomische Umfeld</a>   
-    <a href="/pg/economic-environment.html#ameco_gdp_growth"  >Wachstum</a>
-    <a href="/pg/economic-environment.html#ameco_output_gap"       >Konjunktur</a>
-    <a href="/pg/economic-environment.html#eurostat_hicp"          >Inflation</a>
-
-Block 5: Einsichten Wissenschaft
-    <a href="/blog"  >Neue Einblicke aus der Forschung</a>
-    
 
 
 
-<a href="/image-licences"     >{{i18n.headline_image_licenses}}</a>
 
+    <div class="box3" >
+        <a href="#" class="first nolink" >Akuell</a>
+        <a href="/md/quarterly-report.md"    >EZB-ZEW-Momentum-Indikator –  Quartals-Bericht</a>
+        <!-- So hat sich das geldpolitische Momentum in den Reden des EZB-Rats über die letzten Monate verändert. -->
 
-</div>
-
-<!-- 
-
-<div class="component @ce-cross-teaser" id="c19168">
-    <div class="ce-cross-teaser ce-cross-teaser--2-column" style="background-color: #D5ECF0">
-        <div class="c-multi-teaser">
-            <div class="c-multi-teaser__header"></div>
-            <div class="c-multi-teaser__body">
-                <span class="c-category-label"></span>
-                <h3 class="c-heading c-heading--h3">
-                    EZB-ZEW-Momentum-Indikator – der aktuelle Quartals-Bericht
-                </h3>
-            </div>
-            <div class="c-multi-teaser__footer">
-                So hat sich das geldpolitische Momentum in den Reden des EZB-Rats über die letzten Monate verändert.
-            </div>
-        </div>
-        <div class="c-multi-teaser">
-            <div class="c-multi-teaser__header"></div>
-            <div class="c-multi-teaser__body">
-                <span class="c-category-label"></span>
-                <h3 class="c-heading c-heading--h3">
-                    ECB-Watching – der aktuelle Kommentar
-                </h3>
-            <div class="c-multi-teaser__footer">
-                Hier nehmen Forschende und ECB-Watcher, die nicht für Notenbanken arbeiten, Stellung zu aktuellen geldpolitischen Fragestellungen.
-            </div>
-        </div>
+        <a href="/blog-newest"  autofocus  >ECB-Watching – Kommentar </a>
+        <!-- Forschende und ECB-Watcher, die nicht für Notenbanken arbeiten, zu aktuellen geldpolitischen Fragestellungen. -->
     </div>
-</div>
 
-<br>
-<br>
-
-
-    <ul class="o-grid o-grid-1-1@sm o-grid-1-1-1@lg">
-        <li class="ce-link-box__item ce-link-box__item--external">
-            <div class="ce-link-box__category">
-                EZB-Rat
-            </div>
-            <a class="ce-link-box__link" href="/pg/ecb-council.html">
-                <i class="u-icon--icon-tag-arrow-default"></i>
-                <i class="u-icon--icon-tag-arrow-hover"></i>
-                Mehrheitsverhältnnisse, Hawk-dove über Zeit
-            </a>
-        </li>
-        <li class="ce-link-box__item ce-link-box__item--external">
-            <div class="ce-link-box__category">
-                Fiskaldaten
-            </div>
-            <a class="ce-link-box__link" href="/pg/fiscal-landscape.html">
-                <i class="u-icon--icon-tag-arrow-default"></i>
-                <i class="u-icon--icon-tag-arrow-hover"></i>
-                Schuldenstand und BIP der Mitgliedstaaten
-            </a>
-        </li>
-        <li class="ce-link-box__item ce-link-box__item--external">
-            <div class="ce-link-box__category">
-                Makrodaten
-            </div>
-            <a class="ce-link-box__link" href="/pg/03-macro-data.html">
-                <i class="u-icon--icon-tag-arrow-default"></i>
-                <i class="u-icon--icon-tag-arrow-hover"></i>
-                HVPI-Inflation - Outputlücke
-            </a>
-        </li>
-        <li class="ce-link-box__item ce-link-box__item--external">
-            <div class="ce-link-box__category">
-                Fakten EZB-Geldpolitik
-            </div>
-            <a class="ce-link-box__link" href="/pg/monetary-policy.html">
-                <i class="u-icon--icon-tag-arrow-default"></i>
-                <i class="u-icon--icon-tag-arrow-hover"></i>
-                Termine – Reden – <b>Indikator</b>
-            </a>
-        </li>
-        <li class="ce-link-box__item ce-link-box__item--external">
-            <div class="ce-link-box__category">
-                Externe wissenschaftliche Reflexionen
-            </div>
-            <a class="ce-link-box__link" href="/pg/05-research.html">
-                <i class="u-icon--icon-tag-arrow-default"></i>
-                <i class="u-icon--icon-tag-arrow-hover"></i>
-                Aktuelle Forschung
-            </a>
-        </li>
-    </ul>
-
- -->
-
-
-
-
-
+    <div class="box3">
+        <!-- Block 1: -->
+        <a href="#" class="first nolink" >{{i18n.section_ecb_council}}</a>
+        <a href="/pg/ecb-council.html"      >{{i18n.ecb_council_label}}</a>
+        <a href="/pg/tempomat.html"         >{{i18n.headline_council_tempomat}}</a>
+        <a href="/pg/6weeks.html"           >{{i18n.headline_council_by_6weeks}}</a>
     </div>
+
+
+    <div class="box3">
+        <!-- Block 2: -->
+        <a href="#" class="first nolink" >{{i18n.headline_ecb_monetary_policy}}</a>
+        <a href="#"    >Leitzinsen</a>
+        <a href="#"    >Termine</a>
+        <a href="#"    >Wertpapierkäufe</a>
+    </div>
+
+    <div class="box3">
+        <!-- Block 3: -->
+        <a href="/pg/fiscal-landscape.html" class="first" >{{i18n.headline_fiscal_data}}</a>
+        <a href="/pg/fiscal-landscape.html">Staatsverschuldung</a>
+        <a href="/pg/fiscal-landscape.html#ameco_net_lending">Haushaltsdefizite</a>
+        <a href="/pg/fiscal-landscape.html#ameco_interest_expenditure">Schuldentragfähigkeit</a>
+    </div>
+
+
+    <div class="box3">
+        <!-- Block 4: -->
+        <a href="/pg/economic-environment.html" class="first" >Das ökonomische Umfeld</a>
+        <a href="/pg/economic-environment.html#ameco_gdp_growth">Wachstum</a>
+        <a href="/pg/economic-environment.html#ameco_output_gap">Konjunktur</a>
+        <a href="/pg/economic-environment.html#eurostat_hicp">Inflation</a>
+    </div>
+
+
+    <div class="box3">
+        <!-- Block 5: -->
+        <a href="#" class="first nolink" >Einsichten Wissenschaft</a>
+        <a href="/blog">Neue Einblicke aus der Forschung</a>
+    </div>
+
+
+
+    <div class="box2 service-links full-width">
+        <a href="/md/team.md"             >Imprint, Team</a>
+        <a href="/md/data-protection.md"  >Datenschutz</a>
+        <a href="/image-licences"         >{{i18n.headline_image_licenses}}</a>
+    </div>
+
+
+
+
+
+</main>

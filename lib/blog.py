@@ -2,10 +2,7 @@ from   datetime   import datetime, timedelta
 import locale
 import markdown
 from   pathlib    import Path
-from   flask import g
-
-
-
+from   flask import g, render_template_string
 
 
 
@@ -78,8 +75,15 @@ def mdParts(pth: Path, idx: int):
 
 
 def renderMarkdown(markDownCnt):
+
+  # --- render Jinja
+  markDownCnt = render_template_string(markDownCnt)
+
   try:
-    htmlContent = markdown.markdown(markDownCnt)
+    htmlContent = markdown.markdown(
+      markDownCnt,
+      extensions=["tables"],
+    )
     return htmlContent
 
   except Exception as exc:
@@ -161,20 +165,6 @@ def imageLicenses():
     markDownCnt,
     extensions=["tables"],
   )
-
-
-  htmlContent = f""" 
-      <style>
-        table td {{
-           vertical-align: middle;
-           padding: 1rem;
-        }}
-
-      </style>
-
-      <div style='margin: 2rem 12rem;'>
-         {htmlContent} 
-      </div>"""
 
   return htmlContent
 

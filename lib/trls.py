@@ -444,9 +444,21 @@ trlsRaw = [
 
 
     {
+        "section_ecb_council": {
+            "de": "EZB-Rat",
+            "en": "ECB Council",
+        },
+    },
+    {
         "headline_ecb_council": {
             "de": "EZB-Rat",
             "en": "ECB Council",
+        },
+    },
+    {
+        "ecb_council_label": {
+            "de": "Biographisches der Mitglieder",
+            "en": "Board members data",
         },
     },
     {
@@ -479,14 +491,14 @@ trlsRaw = [
 
     {
         "headline_council_by_6weeks": {
-            "de": "Median KI-Score für gesamten EZB-Rat",
-            "en": "Median KI score for the entire ECB-Council",
+            "de": "Dovish-Hawkish Score für gesamten EZB-Rat",
+            "en": "Dovish-Hawkish score for entire ECB-Council",
         },
     },
     {
         "council_by_6weeks_desc":    {
-            "de": "Zinssatz folgt der durchschnittlichen Einschätzung. Kausalbeziehung nicht beweisbar.",
-            "en": "ECB interest rate follows the opinion score. Causal relation cannot be proved.",
+            "de": "Leitzins Entscheidungen folgen der Hawkish-Dovish Einschätzung der vorangegangenen Kommunikation. Plausibel. Kausalbeziehung nicht beweisbar.",
+            "en": "Rate settings follows Hawkish-Dovish score. Plausible, but causal relation cannot be proved.",
         },
     },
     {
