@@ -147,17 +147,16 @@
         </p>
         <img   src="./static/img/logos/guw.png"  alt=""  style=" margin-bottom: -0.2rem; ">
         <img   src="./static/img/logos/zew.svg"  alt="">
-    </div>
 
 
-    <div class="box2 full-width">
         <!-- <h3>Informationen zum Forschungsprojekt </h3> -->
-        <p>
+        <p  class="full-width"  style="font-size: 105%; line-height: 1.3;">
             {{i18n.hp_claim_p2}}
 
             <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
         </p>
-        <!--
+
+        <!--         
         <p>
             In jedem Quartal erfolgt die Publikation des EZB-Momentum-Indikators.
             Dieser KI-gestützte Indikator gibt Auskunft über die Botschaft
@@ -166,10 +165,17 @@
             expansive oder kontraktive Richtung in ihren geldpolitischen Entscheidungen neigt.
             Der EZB-Transparenz-Monitor richtet sich an Akteure in den Medien,
             der Finanzindustrie, der Politik und der interessierten Fachöffentlichkeit.
-        </p>
+        </p> 
         -->
+
     </div>
 
+
+    <!--     
+    <div class="box2 full-width">
+        <p>{{i18n.hp_claim_p2}}</p>
+    </div>
+    -->
 
 
 
@@ -216,26 +222,21 @@
         <!-- Block 3: -->
         <a href="/pg/fiscal-landscape.html" class="first" >{{i18n.headline_fiscal_data}}</a>
 
-        <!-- Staatsverschuldung -->
-        <a href="/pg/fiscal-landscape.html">{{i18n.ameco_debt_to_gdp_label}}</a>
+        <a href="/pg/fiscal-landscape.html">{{i18n.debt_to_gdp_label}}</a>
 
-        <!-- Haushaltsdefizite -->
-        <a href="/pg/fiscal-landscape.html#ameco_net_lending">{{i18n.ameco_net_lending_label}}</a>
+        <a href="/pg/fiscal-landscape.html#ameco_net_lending">{{i18n.net_lending_label}}</a>
 
         <!-- Schuldentragfähigkeit -->
-        <a href="/pg/fiscal-landscape.html#ameco_interest_expenditure">{{i18n.ameco_interest_expenditure_label}}</a>
+        <a href="/pg/fiscal-landscape.html#ameco_interest_expenditure">{{i18n.interest_expenditure_label}}</a>
     </div>
 
 
     <div class="box3">
         <!-- Block 4: -->
         <a href="/pg/economic-environment.html" class="first" >{{i18n.headline_economic_environment}}</a>
-
-        <!-- Wachstum -->
-        <a href="/pg/economic-environment.html#ameco_gdp_growth">{{i18n.ameco_gdp_growth_label}}</a>
-        <!-- Konjunktur -->
-        <a href="/pg/economic-environment.html#ameco_output_gap">{{i18n.ameco_output_gap_label}}</a>
-        <a href="/pg/economic-environment.html#eurostat_hicp">{{i18n.eurostat_hicp_label}}</a>
+        <a href="/pg/economic-environment.html#ameco_gdp_growth">{{i18n.gdp_growth_label}}</a>
+        <a href="/pg/economic-environment.html#ameco_output_gap">{{i18n.output_gap_label}}</a>
+        <a href="/pg/economic-environment.html#eurostat_hicp">{{i18n.hicp_label}}</a>
     </div>
 
 

@@ -68,8 +68,9 @@ trlsRaw = [
                 des ZEW über die EZB und ihre geldpolitischen Entscheidungen. Der Monitor bietet Zugriff auf wichtige ökonomische und fiskalische Daten zum aktuellen Umfeld der Geldpolitik. 
             """,
             "en": """
-                The “ECB Monitor” provides information on the ECB and its monetary policy decisions 
-                from the independent academic perspective of ZEW. The monitor offers access to key economic and fiscal data on the current monetary policy environment.
+                "ECB Monitor" provides information on the ECB and its monetary policy decisions 
+                from the independent academic perspective of ZEW. 
+                It offers key economic and fiscal data on the current monetary policy environment.
             """,
         },
     },
@@ -157,6 +158,12 @@ trlsRaw = [
         },
     },
     {
+        "debt_to_gdp_label":    {
+            "de": "Staatsverschuldung",
+            "en": "Government debt",
+        },
+    },
+    {
         "ameco_debt_to_gdp_desc":    {
             "de": """
                 <li>
@@ -187,6 +194,12 @@ trlsRaw = [
         "ameco_net_lending_label":    {
             "de": "Haushaltssaldo in % BIP",
             "en": "Government balance in % GDP",
+        },
+    },
+    {
+        "net_lending_label":    {
+            "de": "Haushaltsdefizite",
+            "en": "Budget deficits",
         },
     },
     {
@@ -251,6 +264,12 @@ trlsRaw = [
         "ameco_interest_expenditure_label":    {
             "de": "Zinszahlungen in % Staatsausgaben",
             "en": "Interest payments in % government expenditure",
+        },
+    },
+    {
+        "interest_expenditure_label":    {
+            "de": "Schuldentragfähigkeit",
+            "en": "Debt sustainability",
         },
     },
     {
@@ -386,6 +405,12 @@ trlsRaw = [
         },
     },
     {
+        "gdp_growth_label":    {
+            "de": "Wachstum ",
+            "en": "Growth",
+        },
+    },
+    {
         "ameco_gdp_growth_desc":    {
             "de": """
                 <li>
@@ -416,6 +441,12 @@ trlsRaw = [
         "ameco_output_gap_label":    {
             "de": "Outputlücke in % Potenzial-BIP",
             "en": "Output gap in % of potential GDP",
+        },
+    },
+    {
+        "output_gap_label":    {
+            "de": "Konjunktur",
+            "en": "Business cycle",
         },
     },
     {
@@ -451,6 +482,12 @@ trlsRaw = [
         "eurostat_hicp_label":    {
             "de": "HVPI-Inflation in %",
             "en": "HICP inflation in %",
+        },
+    },
+    {
+        "hicp_label":    {
+            "de": "Inflation",
+            "en": "Inflation",
         },
     },
     {
@@ -595,7 +632,7 @@ trlsRaw = [
             # "de": "Mehrheitsverhältnisse EZB-Rat",
             # "en": "Majorities ECB-Council",
             "de": "Mehrheitsverhältnisse",
-            "en": "Majority",
+            "en": "Panel majority",
         },
     },
     {
