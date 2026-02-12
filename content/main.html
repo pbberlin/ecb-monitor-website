@@ -11,8 +11,7 @@
         column-gap: 3ch;
 
         width:         clamp(40ch, 80vw, 95ch);
-        /* width:            80%;  */
-        /* min-width:      400px; */
+        width:         clamp(40ch, 78vw, 95ch);
 
         margin-inline: auto;
 
@@ -39,11 +38,12 @@
     div.box1 {
         background-color: var(--color-iceblue-3);
         /* padding-bottom: 0; */
+        margin-top:  0;
         margin-bottom:  0;
     }
     div.box2 {
         /* background-color: var(--color-grey-2); */
-        background-color: var(--color-grey-2-op5);
+        background-color: rgba(135,135,134, 0.12);
         /* padding-top: 0; */
         margin-top:  0;
         padding-bottom: 0;
@@ -54,7 +54,9 @@
 
 
     div.box3 {
-        border: 1px solid  var(--color-grey-2-op5);
+        border:     0.25px solid  var(--color-iceblue-2);
+        border-top: 1.55px solid  var(--color-iceblue-2);
+        /* border-bottom: none; */
     }
 
 
@@ -81,7 +83,7 @@
         width:        66%;
         width:        77%;
         padding: 0;
-        margin: 0;
+        margin:  0;
         justify-self: center;   /* horizontal */
         align-self:   center;   /* vertical */
     }
@@ -98,13 +100,14 @@
     body main#main div.box2  a,
     body main#main div.box3  a,
     dummy {
-        margin-left: 2.2ch;
+        margin-left: 0.8ch;
     }
 
     body main#main div a.first,
     dummy {
         margin-left: 0;
         font-size: 120%;
+        margin-bottom: 0.9ch;
     }
 
     body main#main div a.nolink,
@@ -142,7 +145,7 @@
         <p>
             {{i18n.hp_claim_p1}}
         </p>
-        <img   src="./static/img/logos/guw.png"  alt=""  astyle="width: 60px;">
+        <img   src="./static/img/logos/guw.png"  alt=""  style=" margin-bottom: -0.2rem; ">
         <img   src="./static/img/logos/zew.svg"  alt="">
     </div>
 
@@ -175,11 +178,24 @@
         <a href="/md/quarterly-report.md"    >{{i18n.ecb_momentum_report_headline}}</a>
         <!-- So hat sich das geldpolitische Momentum in den Reden des EZB-Rats über die letzten Monate verändert. -->
 
-        <a href="/blog-newest"  autofocus  >{{i18n.ecb_watching_body_headline}} </a>
+        <a href="/blog/{{curLg}}/newest"  autofocus  >{{i18n.ecb_watching_body_headline}} </a>
         <!-- Forschende und ECB-Watcher, die nicht für Notenbanken arbeiten, zu aktuellen geldpolitischen Fragestellungen. -->
     </div>
 
-    <div class="box3">
+    <div class="box3"
+
+        style="
+            background-image: url(/static/img/ecb/watching-ecb-on-monitor--bw.png);
+            background-image: url(/static/img/ecb/watching-ecb-on-monitor--iceblue-2b-sm.png);
+            background-repeat: no-repeat;
+            background-size:      cover;
+            background-size:      99px 99px;
+            background-position:  left -15px top -2px;
+            padding-left: 88px;
+
+        "
+
+    >
         <!-- Block 1: -->
         <a href="#" class="first nolink" >{{i18n.section_ecb_council}}</a>
         <a href="/pg/ecb-council.html"      >{{i18n.ecb_council_label}}</a>
@@ -214,7 +230,7 @@
     <div class="box3">
         <!-- Block 4: -->
         <a href="/pg/economic-environment.html" class="first" >{{i18n.headline_economic_environment}}</a>
-        
+
         <!-- Wachstum -->
         <a href="/pg/economic-environment.html#ameco_gdp_growth">{{i18n.ameco_gdp_growth_label}}</a>
         <!-- Konjunktur -->

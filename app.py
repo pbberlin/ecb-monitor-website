@@ -352,51 +352,6 @@ def markdownAny(lg=None, md=None):
 
 
 
-@app.route('/blog-newest')
-def blogNewest(lg=None, md=None):
-
-
-    showBreadCrumb = True
-    blogDir = Path("content/blog") / g.currentLanguage
-    markdowns = list(blogDir.glob("*.md"))
-    markdowns.sort(reverse=True)
-    pth = Path("content/blog") / g.currentLanguage / markdowns[0]
-    pth = markdowns[0]
-    # print(f"   pth {pth}")
-
-    h1, h2, tplName, restOfFile, dateLine, outerCnt = mdParts(pth, -1)
-    innerCnt = renderMarkdown(restOfFile)
-
-    if tplName:
-        tmp = Path(tplName)
-        if tmp.suffix == ".html":
-            tplName = tmp.with_suffix("")
-
-        expTpl = Path("templates/blog") / (tplName + ".html")
-        if expTpl.exists():
-            print(f"\texplicit blog template found {expTpl}")
-            innerCnt = render_template(
-                "blog/" + expTpl.name,
-                content = innerCnt,
-            )
-        else:
-            print(f"\texplicit blog template not found: -{expTpl}-")
-
-    outerCnt = render_template(
-        "blog-body.html",
-        breadCrumb = showBreadCrumb,
-        h1  =  h1,
-        h2  =  h2,
-        dateLine   =  dateLine,
-        content    = innerCnt,
-    )
-
-    return render_template(
-        "index.html",
-        content=outerCnt,
-    )
-
-
 
 
 @app.route('/blog')
@@ -432,10 +387,18 @@ def blog(lg=None, md=None):
 
         showBreadCrumb = True
 
-        # newest
+        # newest => find most recent blog
+        if md == "newest":
+            # blogDir = Path("content/blog") / g.currentLanguage
+            blogDir = Path("content/blog") / lg
+            markdowns = list(blogDir.glob("*.md"))
+            markdowns.sort(reverse=True)    
+            pth = markdowns[0]
 
-        pth = Path("content/blog") / g.currentLanguage / md
-        # print(f"   pth {pth}")
+        else:
+            pth = Path("content/blog") / g.currentLanguage / md
+
+        print(f"   pth {pth}")
 
         h1, h2, tplName, restOfFile, dateLine, outerCnt = mdParts(pth, -1)
 

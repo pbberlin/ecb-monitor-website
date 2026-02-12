@@ -65,11 +65,11 @@ trlsRaw = [
         "hp_claim_p2":    {
             "de": """
                 Der "EZB-Monitor" informiert aus der unabhängigen wissenschaftlichen Perspektive 
-                des ZEW – Leibniz-Zentrums für Europäische Wirtschaftspolitik über die EZB und ihre geldpolitischen Entscheidungen. Der Monitor bietet Zugriff auf wichtige ökonomische und fiskalische Daten zum aktuellen Umfeld der Geldpolitik. 
+                des ZEW über die EZB und ihre geldpolitischen Entscheidungen. Der Monitor bietet Zugriff auf wichtige ökonomische und fiskalische Daten zum aktuellen Umfeld der Geldpolitik. 
             """,
             "en": """
                 The “ECB Monitor” provides information on the ECB and its monetary policy decisions 
-                from the independent academic perspective of ZEW – Leibniz Centre for European Economic Policy. The monitor offers access to key economic and fiscal data on the current monetary policy environment.
+                from the independent academic perspective of ZEW. The monitor offers access to key economic and fiscal data on the current monetary policy environment.
             """,
         },
     },
@@ -510,18 +510,42 @@ trlsRaw = [
         "ecb_council_infobox":    {
             "de": """ 
                 <ul>
-                    <li>KI Score Erklärung - todo</li>
-                    <li>Links die sechs überregionalen EZB-Mitglieder </li>
-                    <li>Mitte: 20 nationale Zentralbankpräsidenten </li>
-                    <li>Maus übers Land ziehen für Details</li>
+                    <li>Dovish-Hawkish KI Score
+                        <ul>
+                            <li>Sammlung aller offiziellen Äußerungen des Ratsmitglieds</li>
+                            <li>Evaluation mittels LLM hinsichtlich expansiver oder restriktiver Fiskalpolitik</li>
+                            <li>Abbildung auf Zahlenbereich -1 (dovish) ... +1 (hawkish)</li>
+                            <li>Siehe <a href=#>Wissenschaftliche Veröffentlichung</a>  </li>
+                        </ul>
+                    </li>
+                    <li>Links: Sechs <i>überregionale</i> EZB-Mitglieder in Frankfurt</li>
+                    <li>Landkarte: 20 nationale Zentralbankpräsidenten 
+                        <ul>
+                            <li>Maus übers Land ziehen für Details</li>
+                        </ul>
+                    </li>
+                    <li>Malta und Zypern sind annähernd vollwertige Ratsmitglieder</li>
+                    
                 </ul>
             """,
             "en": """ 
                 <ul>
-                    <li>KI Score Explanation - todo</li>
-                    <li>Left: Six supra-national ECB board members</li>
-                    <li>Center: 20 national central bank presidents</li>
-                    <li>Mouse over country for details</li>
+                    <li>Dovish–Hawkish AI Score
+                        <ul>
+                            <li>Collection of all official statements by the council member</li>
+                            <li>Evaluation using an LLM regarding expansionary or restrictive fiscal policy</li>
+                            <li>Mapped to a numerical range of -1 (dovish) ... +1 (hawkish)</li>
+                            <li>See <a href=#>Scientific publication</a></li>
+                        </ul>
+                    </li>
+                   <li>Left: Six <i>supra-national</i>  ECB board members in Frankfurt/Germany</li>
+                   <li>Geo map: 20 national central bank presidents
+                        <ul>
+                           <li>Mouse over for details</li>
+                        </ul>
+                    </li>
+                    <li>Malta and Cyprus are mostly full members</li>
+                        
                 </ul>
             """,
         },
@@ -530,8 +554,10 @@ trlsRaw = [
 
     {
         "headline_council_by_6weeks": {
-            "de": "Dovish-Hawkish Score für gesamten EZB-Rat",
-            "en": "Dovish-Hawkish score for entire ECB-Council",
+            # "de": "Dovish-Hawkish Score - gesamter EZB-Rat",
+            # "en": "Dovish-Hawkish score - entire Council",
+            "de": "Dovish-Hawkish Score",
+            "en": "Dovish-Hawkish score",
         },
     },
     {
@@ -544,28 +570,20 @@ trlsRaw = [
         "council_by_6weeks_infobox":    {
             "de": """ 
                 <ul>
-                    <li>
-                        <br>
-                    </li>
-
                     <!--
                         ● ➡ ↪
                     -->
-                    <li> &nbsp; &nbsp; ● &nbsp; Dovish-hawkish Einschätzung der Ratsmitglieder per sechs Wochen</li>
-                    <li> &nbsp; &nbsp; ● &nbsp; EZB Zinssätze</li>
+                    <li>Dovish-hawkish Einschätzung der Ratsmitglieder per sechs Wochen</li>
+                    <li>EZB Zinssätze</li>
                 </ul>
             """,
             "en": """ 
                 <ul>
-                    <li>
-                        <br>
-                    </li>
-
                     <!--
                         ● ➡ ↪
                     -->
-                    <li> &nbsp; &nbsp; ● &nbsp; Dovish-hawkish stance every 6-week period</li>
-                    <li> &nbsp; &nbsp; ● &nbsp; ECB interest rates</li>
+                    <li>Dovish-hawkish stance every 6-week period</li>
+                    <li>ECB interest rates</li>
                 </ul>
             """,
         },
@@ -574,8 +592,10 @@ trlsRaw = [
 
     {
         "headline_council_tempomat": {
-            "de": "Mehrheitsverhältnisse EZB-Rat",
-            "en": "Majorities ECB-Council",
+            # "de": "Mehrheitsverhältnisse EZB-Rat",
+            # "en": "Majorities ECB-Council",
+            "de": "Mehrheitsverhältnisse",
+            "en": "Majority",
         },
     },
     {
@@ -584,6 +604,32 @@ trlsRaw = [
             "en": "Position of council members per year",
         },
     },
+    {
+        "council_tempomat_infobox":    {
+            "de": """ 
+                <ul>
+                    <!--
+                        ● ➡ ↪
+                    -->
+                    <li>Die Median-Position wird durch die graue Linie dargestellt</li>
+                    <li>Die Entscheidungen des Gremiums orientieren sich am Median der Ratsmitglieder</li>
+                    <li>Ratsmitglieder im Median sind grau hinterlegt</li>
+                </ul>
+            """,
+            "en": """ 
+                <ul>
+                    <!--
+                        ● ➡ ↪
+                    -->
+                    <li>The median stance is indicated by the grey line</li>
+                    <li>Panel decisions hinge around the median board member(s)</li>
+                    <li>Median board members have a grey background</li>
+                </ul>
+
+            """,
+        },
+    },
+
 
 
 
