@@ -40,6 +40,7 @@
 
   .layout h3 {
       font-size: 140%;
+      line-height: 1.35;
       text-align: left;
       text-align: center;
   }
@@ -1274,22 +1275,11 @@
 
 <dialog id="elDialog">
     <div id="dlgHead">
-        <span>Interpretation assistance</span>
+        <span>{{i18n.infobox_header}}</span>
         <button id="btnDlgClose">×</button>
     </div>
     <div id="dlgCnt">
-        <ul>
-          <li>
-            <br>
-          </li>
-
-          <!--
-            ● ➡ ↪
-          -->
-          <li> &nbsp; &nbsp; ● &nbsp; The median stance is indicated by the yellow line</li>
-          <li> &nbsp; &nbsp; ● &nbsp; Panel decisions hinge around the median board member(s)</li>
-          <li> &nbsp; &nbsp; ● &nbsp; Median board members have a slightly yellow background</li>
-        </ul>
+      {{i18n.council_tempomat_infobox|safe}}
     </div>
 </dialog>
 

@@ -64,9 +64,9 @@ def mdParts(pth: Path, idx: int):
     listEntry  = ""
     listEntry += " <li>"
     listEntry +=    f"<p class='date-line'>{dateLine}  </p> "
-    listEntry +=    f"<b>  <a href='{urlPth.as_posix() }?lang=en' {autofoc} > {h1} </a> </b>"
+    listEntry +=    f" <a class='blog-list-entry' href='{urlPth.as_posix() }?lang=en' {autofoc} > {h1} </a>"
     if h2:
-      listEntry +=    f"<br> "
+      # listEntry +=    f"<br> "
       listEntry +=    f"{h2} "
     listEntry += "</li>"
 

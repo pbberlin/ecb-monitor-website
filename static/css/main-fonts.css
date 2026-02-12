@@ -141,7 +141,7 @@ dummy  {
     height:     auto;
     box-sizing: border-box;
 
-    color:rgb(57, 72, 79);
+    color:rgb(87, 86, 86);
 
 
     /*
@@ -150,13 +150,13 @@ dummy  {
       0px    - blur radius
       0px    - spread radius    
     */
-    box-shadow: rgb(57, 72, 79) 0px 1.2px 0px 0px;
+    box-shadow: rgb(87, 86, 86) 0px 1.2px 0px 0px;
     /* keep the shadow close */
     line-height: 1.05;
     padding: 0;
     margin:  0;
     
-    margin-bottom:  1.6ch;
+    margin-bottom:  1.5ch;
 }
 body main#main a:hover,
 body div.blog-body a:hover,
@@ -166,6 +166,12 @@ dummy  {
     background-color: #888;
 }
 
+body main#main     a.blog-list-entry,
+body div.blog-body a.blog-list-entry,
+dummy  {
+    margin-bottom:  0.2ch;
+    font-weight: bold;
+}
 
 
 
@@ -236,7 +242,7 @@ dummy  {
       /* font-weight: 600; */
       font-weight: 400;
       background-color: #efefef;
-      height:      1.7rem;
+      height:      1.7ch;
   }
 
   #btnDlgClose {
@@ -252,9 +258,25 @@ dummy  {
       margin:      0;
       padding:     0.8rem 0.925rem;
       overflow:    auto;
-      height: calc(100% - 7.5rem);
-      font-size:  130%;
+      overflow-y:  auto;
+      height: calc(100% - 3.5ch);
+      font-size:  120%;
       line-height: 2.4;
+  }
+
+  #dlgCnt ul li {
+    list-style: circle;
+    line-height: 1.6;
+    margin: 0.3ch 0;
+    margin-left: 2ch;
+  }
+
+  #dlgCnt   ul ul {
+      margin-left:  2ch;     /*  indent */
+      padding-left: 2ch;    
+  }
+  #dlgCnt   ul ul li {
+    font-size: 90%;
   }
 
   @media (max-width: 768px) {
