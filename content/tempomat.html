@@ -388,7 +388,7 @@
 
       <!-- First (top, right) -->
       <h3> {{i18n.headline_council_tempomat}}
-        <a href="#" id="btnDlgIco" title="{{i18n.infobox_header}}" >i</a>
+        <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
       </h3>
 
 
@@ -1270,91 +1270,6 @@
 
 
 
-<style>
-
-    /* wobble */
-    @keyframes wobble {
-          0% { transform: rotate(  0deg); }
-         15% { transform: rotate(-10deg); }
-         30% { transform: rotate(  8deg); }
-         45% { transform: rotate( -6deg); }
-         60% { transform: rotate(  4deg); }
-         75% { transform: rotate( -2deg); }
-        100% { transform: rotate(  0deg); }
-    }
-    .wobble {
-        animation: wobble 0.6s ease-in-out;
-    }
-
-    #btnDlgIco {
-        width:         1.2rem;
-        height:        1.2rem;
-        font-size:     1.1rem;
-        font-weight:   600;
-        font-weight:   400;
-        line-height:   1;
-        display:       inline-grid;
-        place-items:   center;
-        border-radius: 44%;
-        border:        2px solid currentColor;
-        margin-left: 0.5rem;
-    }
-
-
-
-    dialog {
-        width:            66vw;
-        height:           66vh;
-        max-width:      1000px;
-        max-height:      800px;
-        border:           none;
-        border-radius:    12px;
-        padding:           0;
-        box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
-    }
-    dialog::backdrop {
-        background: rgba(0, 0, 0, 0.45);
-    }
-
-
-    #dlgHead {
-        display:         flex;
-        justify-content: space-between;
-        align-items:     center;
-        padding:          1rem 1.25rem;
-        padding-top:      1.25rem;
-        border-bottom:   1px solid #e5e7eb;
-        /* font-weight: 600; */
-        font-weight: 400;
-        background-color: #efefef;
-        height:      1.7rem;
-    }
-
-    #btnDlgClose {
-        background: none;
-        border:     none;
-        font-size:  1.15rem;
-        height:     1.35rem;
-        line-height: 1.1;
-        /* cursor: pointer; */
-    }
-
-    #dlgCnt {
-        margin:      0;
-        padding:     0.8rem 0.925rem;
-        overflow:    auto;
-        height: calc(100% - 7.5rem);
-        font-size:  130%;
-        line-height: 2.4;
-    }
-
-    @media (max-width: 768px) {
-        dialog {
-            width:  90vw;
-            height: 90vh;
-        }
-    }
-</style>
 
 
 <dialog id="elDialog">

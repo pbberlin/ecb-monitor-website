@@ -323,10 +323,32 @@ from lib.blog import renderMarkdown, mdParts, imageLicenses
 
 @app.route('/image-licences')
 def handlerImageLicencse():
-    return render_template(
-        "index.html",
+    outerCnt = render_template(
+        "markdown-body.html",
         content=  imageLicenses() ,
     )
+    return render_template(
+        "index.html",
+        content=outerCnt,
+    )
+
+
+@app.route('/md/<md>')
+def markdownAny(lg=None, md=None):
+    pth = Path("content/md") / g.currentLanguage / md
+    # print(f"   pth {pth}")
+    innerCnt = pth.read_text(encoding="utf-8")
+    rendered = renderMarkdown(innerCnt)
+    outerCnt = render_template(
+        "markdown-body.html",
+        content    = rendered,
+    )
+    return render_template(
+        "index.html",
+        content=outerCnt,
+    )
+
+
 
 
 

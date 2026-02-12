@@ -1,0 +1,28 @@
+<style>
+
+
+    .blog-body {
+        width:     clamp(40ch, 80vw, 95ch);
+        margin-inline: auto;
+        padding: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .blog-body h2 {
+        margin-bottom: 1.2rem;
+    }
+
+    table td {
+        vertical-align: middle;
+        padding: 1rem;
+    }
+</style>
+
+
+<!-- <div style='margin: 2rem 12rem;'> -->
+<div class="blog-body">
+
+
+    {{ content | safe }} 
+
+</div>
