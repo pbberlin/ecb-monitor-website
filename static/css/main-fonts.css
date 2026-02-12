@@ -131,6 +131,7 @@ a:hover {
 
 
 body main#main a,
+body div.blog-body a,
 dummy  {
     display:  block;       /* always starts new line  */
     width:    fit-content; /* shrink to content width */
@@ -158,6 +159,7 @@ dummy  {
     margin-bottom:  1.6ch;
 }
 body main#main a:hover,
+body div.blog-body a:hover,
 dummy  {
     text-decoration:    none;
     color:            #F8F8F8;

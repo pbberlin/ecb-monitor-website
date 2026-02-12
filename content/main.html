@@ -140,8 +140,7 @@
 
     <div class="box1 claim full-width"  style="grid-template-columns: 3fr 1fr 1fr;">
         <p>
-            Ein Forschungsprojekt des ZEW - Leibniz-Zentrums für Europäische Wirtschaftsforschung
-            mit Unterstützung der Stiftung Geld und Währung
+            {{i18n.hp_claim_p1}}
         </p>
         <img   src="./static/img/logos/guw.png"  alt=""  astyle="width: 60px;">
         <img   src="./static/img/logos/zew.svg"  alt="">
@@ -151,11 +150,7 @@
     <div class="box2 full-width">
         <!-- <h3>Informationen zum Forschungsprojekt </h3> -->
         <p>
-            Der "EZB-Monitor" informiert aus der unabhängigen wissenschaftlichen Perspektive
-            des ZEW – Leibniz-Zentrums für Europäische Wirtschaftspolitik
-            über die EZB und ihre geldpolitischen Entscheidungen.
-            Der Monitor bietet Zugriff auf wichtige ökonomische und
-            fiskalische Daten zum aktuellen Umfeld der Geldpolitik.
+            {{i18n.hp_claim_p2}}
 
             <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
         </p>
@@ -176,11 +171,11 @@
 
 
     <div class="box3" >
-        <a href="#" class="first nolink" >Akuell</a>
-        <a href="/md/quarterly-report.md"    >EZB-ZEW-Momentum-Indikator –  Quartals-Bericht</a>
+        <a href="#" class="first nolink" >{{i18n.headline_news}}</a>
+        <a href="/md/quarterly-report.md"    >{{i18n.ecb_momentum_report_headline}}</a>
         <!-- So hat sich das geldpolitische Momentum in den Reden des EZB-Rats über die letzten Monate verändert. -->
 
-        <a href="/blog-newest"  autofocus  >ECB-Watching – Kommentar </a>
+        <a href="/blog-newest"  autofocus  >{{i18n.ecb_watching_body_headline}} </a>
         <!-- Forschende und ECB-Watcher, die nicht für Notenbanken arbeiten, zu aktuellen geldpolitischen Fragestellungen. -->
     </div>
 
@@ -204,32 +199,42 @@
     <div class="box3">
         <!-- Block 3: -->
         <a href="/pg/fiscal-landscape.html" class="first" >{{i18n.headline_fiscal_data}}</a>
-        <a href="/pg/fiscal-landscape.html">Staatsverschuldung</a>
-        <a href="/pg/fiscal-landscape.html#ameco_net_lending">Haushaltsdefizite</a>
-        <a href="/pg/fiscal-landscape.html#ameco_interest_expenditure">Schuldentragfähigkeit</a>
+
+        <!-- Staatsverschuldung -->
+        <a href="/pg/fiscal-landscape.html">{{i18n.ameco_debt_to_gdp_label}}</a>
+
+        <!-- Haushaltsdefizite -->
+        <a href="/pg/fiscal-landscape.html#ameco_net_lending">{{i18n.ameco_net_lending_label}}</a>
+
+        <!-- Schuldentragfähigkeit -->
+        <a href="/pg/fiscal-landscape.html#ameco_interest_expenditure">{{i18n.ameco_interest_expenditure_label}}</a>
     </div>
 
 
     <div class="box3">
         <!-- Block 4: -->
-        <a href="/pg/economic-environment.html" class="first" >Das ökonomische Umfeld</a>
-        <a href="/pg/economic-environment.html#ameco_gdp_growth">Wachstum</a>
-        <a href="/pg/economic-environment.html#ameco_output_gap">Konjunktur</a>
-        <a href="/pg/economic-environment.html#eurostat_hicp">Inflation</a>
+        <a href="/pg/economic-environment.html" class="first" >{{i18n.headline_economic_environment}}</a>
+        
+        <!-- Wachstum -->
+        <a href="/pg/economic-environment.html#ameco_gdp_growth">{{i18n.ameco_gdp_growth_label}}</a>
+        <!-- Konjunktur -->
+        <a href="/pg/economic-environment.html#ameco_output_gap">{{i18n.ameco_output_gap_label}}</a>
+        <a href="/pg/economic-environment.html#eurostat_hicp">{{i18n.eurostat_hicp_label}}</a>
     </div>
 
 
     <div class="box3">
         <!-- Block 5: -->
-        <a href="#" class="first nolink" >Einsichten Wissenschaft</a>
-        <a href="/blog">Neue Einblicke aus der Forschung</a>
+        <!-- Einsichten Wissenschaft -->
+        <a href="#" class="first nolink" >{{i18n.headline_science}}</a>
+        <a href="/blog">{{i18n.headline_science_news}}</a>
     </div>
 
 
 
     <div class="box2 service-links full-width">
-        <a href="/md/team.md"             >Imprint, Team</a>
-        <a href="/md/data-protection.md"  >Datenschutz</a>
+        <a href="/md/team.md"             >{{i18n.headline_imprint}}</a>
+        <a href="/md/data-protection.md"  >{{i18n.headline_data_protection}}</a>
         <a href="/image-licences"         >{{i18n.headline_image_licenses}}</a>
     </div>
 
