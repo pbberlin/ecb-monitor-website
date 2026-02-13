@@ -100,36 +100,42 @@ def renderMarkdown(markDownCnt):
 
 
 
-def licenceString(fnParam):
-
-    fn = fnParam.lower()
-    if "adobe" in fn:
-        return "Licensed by our organisation from stock.adobe.com."
-    if ("zew" in fn) or ("fhe" in fn):
-        return "Produced by our organisation - ZEW (https://www.zew.de)."
-
-    return "Source: Wikimedia Commons (https://commons.wikimedia.org/wiki/Main_Page)."
-
-
 def thumb(fn):
-    baseDir = Path("/static/img/blog")
-    pth = baseDir / fn
+    baseDir = Path("/static/img")
+    pth = baseDir / Path(fn)
     if fn.lower().endswith(".mp4"):
         return f'<video src="{pth}" width="200" controls></video>'
+    # print(f"{fn:24} ->  {pth}")
     return f'<img src="{pth}" width="200">'
+
+
+
+def licenceString(fnParam):
+    fn = fnParam.lower()
+    if "adobe" in fn:
+        return "Licensed by our organisation from [Adobe Stock](https://stock.adobe.com)."
+    if ("zew" in fn) or ("fhe" in fn):
+        return "Produced by our organisation [ZEW](https://www.zew.de)."
+    return "Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)."
+
+
 
 
 def imageLicenses():
 
 
   imgs = [
-      "electronica-biftu-cash-register--iceblue-yell.png",
-      "European_Central_Bank_Headquarters_(model_01)-sm-fg2.png",
-      "fhe--grey.jpg",
-      "fhe--iceblue.jpg",
-      "adobe-political-economy.jpg",
-      "adobe-stock-1878624005-sm.gif",
-      "adobe-stock-529399345-ecb.jpg",
+      "homepage/logo_european_central_bank.png",
+      "homepage/supply_and_demand_diagram-orig.png",
+      "homepage/television_news_crew.jpg",
+  
+      "blog/electronica-biftu-cash-register--iceblue-yell.png",
+      "blog/European_Central_Bank_Headquarters_(model_01)-sm-fg2.png",
+      "blog/fhe--grey.jpg",
+      "blog/fhe--iceblue.jpg",
+      "blog/adobe-political-economy.jpg",
+      "blog/adobe-stock-1878624005-sm.gif",
+      "blog/adobe-stock-529399345-ecb.jpg",
     ]
 
 
@@ -145,17 +151,16 @@ def imageLicenses():
   lines.append("|---------|--------------|")
 
   for idx1, fn in enumerate(imgs):
+    try:
+      thumbnailHtml = thumb(fn)
+      legalText = licenceString( Path(fn).name )
+      row = f"| {thumbnailHtml} | **{Path(fn).name}** <br> {legalText} |"
+      lines.append(row)
 
-      try:
-          thumbnailHtml = thumb(fn)
-          legalText = licenceString(fn)
-          row = f"| {thumbnailHtml} | **{fn}** — {legalText} |"
-          lines.append(row)
-
-      except Exception as exc:
-          print("Error while processing:", fn)
-          print(exc)
-          raise
+    except Exception as exc:
+      print("Error while processing:", fn)
+      print(exc)
+      raise
 
   markDownCnt = "\n".join(lines)
 

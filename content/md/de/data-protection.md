@@ -8,7 +8,7 @@
 
 * Wir verwenden keine externen Javascript-Programme, Bilder oder Styles
 
-* Angaben gelten für für die  <i>sub</i>domains  `ecb-monitor.zew.de`  und  `ezb-monitor.zew.de`  <br>
-  Das Hauptportal unseres Instituts `www.zew.de` hat [abweichende Bestimmungen](https://www.zew.de/datenschutz)
+* Angaben gelten für für die  <i>sub</i>domains  `ecb-monitor.zew.de`  und  `ezb-monitor.zew.de`. <br>
+  Das Hauptportal unseres Instituts `www.zew.de` hat [abweichende erweiterte Bestimmungen](https://www.zew.de/datenschutz)
 
-  <!-- https://www.zew.de/en/commitment-to-data-protection -->
+  
