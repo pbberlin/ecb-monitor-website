@@ -1,11 +1,12 @@
 /* Demo data & behaviors in modern vanilla JS (no build step) */
+/* zew.de */
 
 const state = {
   cards: [
-    { id: 1, title: "Adaptive Layout", tag: "design", date: "2025-09-20", excerpt: "Mobile-first grid using CSS minmax and Pico containers.", liked: false },
+    { id: 1, title: "Adaptive Layout",   tag: "design", date: "2025-09-20", excerpt: "Mobile-first grid using CSS minmax and Pico containers.", liked: false },
     { id: 2, title: "Accessible Colors", tag: "design", date: "2025-08-12", excerpt: "Brand palette mapped to Pico variables with AA contrast.", liked: false },
-    { id: 3, title: "Microinteractions", tag: "dev", date: "2025-09-10", excerpt: "IntersectionObserver for subtle reveal-on-scroll.", liked: true },
-    { id: 4, title: "Command Palette", tag: "dev", date: "2025-07-01", excerpt: "⌘K / Ctrl+K quick actions without dependencies.", liked: false },
+    { id: 3, title: "Microinteractions", tag: "dev",    date: "2025-09-10", excerpt: "IntersectionObserver for subtle reveal-on-scroll.", liked: true },
+    { id: 4, title: "Command Palette",   tag: "dev",    date: "2025-07-01", excerpt: "⌘K / Ctrl+K quick actions without dependencies.", liked: false },
   ],
 };
 

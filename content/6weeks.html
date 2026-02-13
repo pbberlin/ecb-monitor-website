@@ -610,114 +610,6 @@
 
 
 
-    function mapToZeroOne(vl, ranges) {
-
-        let range0 = ranges[0];
-        let range1 = ranges[1];
-        let range2 = ranges[2];
-
-        if (vl <= range1) {
-            let t = (vl - range0) / (range1 - range0);
-            return Math.max(0, Math.min(1, t));
-        } else {
-            let t = (vl - range1) / (range2 - range1);
-            return Math.max(0, Math.min(1, t));
-        }
-    }
-
-
-    function valToPctToColor(vl, config, opaBuff=0) {
-
-        let opacity = initOpacity;
-        if (elOpa){
-          opacity = elOpa.value;
-          opacity = elOpa.value.toString(16);
-          opacity = parseFloat(opacity);
-        }
-
-        opacity += opaBuff;
-        if (opacity > 1.0) {
-          opacity = 1.0;
-        }
-
-        let tmp = Math.floor(opacity * 255);
-        let opacityHex = tmp.toString(16);
-        if (opacityHex.length < 2) {
-            opacityHex = "0" + opacityHex;
-        }
-
-        const gradWrap2 = document.getElementById("gradient1");
-        if (gradWrap2) {
-          gradWrap2.style.opacity = opacity;
-        }
-
-
-        const ranges = config["color_ranges"]
-        const colors = config["colors"]  //     ["#FF0000", "#80A000", "#00A000"]
-
-        function separateVals(hexColor) {
-            let cleanHex = hexColor.replace("#", "");
-            let componentArray = [];
-            for (let idx1 = 0; idx1 < cleanHex.length; idx1 += 2) {
-                let hexPair = cleanHex.substring(idx1, idx1 + 2);
-                let comp = parseInt(hexPair, 16);
-                componentArray.push(comp);
-            }
-            return componentArray;
-        }
-
-        let colorsSeparated = [];
-        for (let [idx1, color] of colors.entries()) {
-            let rgbComponents = separateVals(color);
-            colorsSeparated.push(rgbComponents);
-        }
-
-        // const colR0 = [0x00, 0xA0, 0x00]; // mostly green
-        // const colR1 = [0x80, 0x80, 0x00]; // yellow
-        // const colR2 = [0xff, 0x00, 0x00]; // red
-
-        const colR0 = colorsSeparated[0];
-        const colR1 = colorsSeparated[1];
-        const colR2 = colorsSeparated[2];
-
-
-        function interpolate(a, b, t) {
-            const out = [0, 0, 0];
-            for (let idx1 = 0; idx1 < 3; idx1++) {
-                out[idx1] = Math.round(a[idx1] + (b[idx1] - a[idx1]) * t);
-            }
-            return out;
-        }
-
-        let r0 = ranges[0];
-        let r1 = ranges[1];
-        let r2 = ranges[2];
-
-        let rgb;
-
-        if (vl <= r0) {
-            rgb = colR0.slice();
-        } else if (vl <= r1) {
-            let t = mapToZeroOne(vl, ranges);
-            rgb = interpolate(colR0, colR1, t);
-        } else if (vl <= r2) {
-            let t = mapToZeroOne(vl, ranges);
-            rgb = interpolate(colR1, colR2, t);
-        } else {
-            rgb = colR2.slice();
-        }
-
-        const asHex = rgb.map(function (v) {
-            const  h = v.toString(16);
-            return h.length === 1 ? "0" + h : h;
-        });
-
-        return "#" + asHex.join("") + opacityHex;
-    }
-
-
-
-
 
 
 
@@ -774,7 +666,7 @@
         symbolSize: 4,
         itemStyle: {
           color: function (params) {
-            return valToPctToColor(params.value[1], selectedDataMeta[selectedVar], 0.2);
+            return valToPctToColor(params.value[1], initOpacity, elOpa, selectedDataMeta[selectedVar], 0.2);
           }
         },
         lineStyle: {
@@ -787,7 +679,7 @@
             opinionSeries.map((v, idx1) => {
               return {
                 offset: idx1 / (opinionSeries.length - 1),
-                color: valToPctToColor(v, selectedDataMeta[selectedVar], 0.2)
+                color: valToPctToColor(v, initOpacity, elOpa, selectedDataMeta[selectedVar], 0.2)
               };
             })
           ),
@@ -994,7 +886,7 @@
                     // color: eChartCols[0],   // color the tick lines
                     color: function(vl) {
                         // vl is the tick value
-                        return valToPctToColor(vl, selectedDataMeta[selectedVar], 0.4);
+                        return valToPctToColor(vl, initOpacity, elOpa, selectedDataMeta[selectedVar], 0.4);
                     }
                 }
             },
@@ -1002,7 +894,7 @@
                 fontSize: 13,
                 fontWeight: 500,
                 color: function(vl) {
-                    return valToPctToColor(vl, selectedDataMeta[selectedVar], 0.4);
+                    return valToPctToColor(vl, initOpacity, elOpa, selectedDataMeta[selectedVar], 0.4);
                 },
             },
 
