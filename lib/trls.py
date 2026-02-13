@@ -643,8 +643,8 @@ trlsRaw = [
     },
     {
         "headline_council_tempomat": {
-            "de": "Positionen im EZB-Rat",
-            "en": "Positions of the ECB council",
+            "de": "Abstimmungs-Arithmetik. Positionen im EZB-Rat",
+            "en": "Panel arithmetics. Positions of the ECB council",
         },
     },
     {
