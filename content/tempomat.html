@@ -193,6 +193,12 @@
   }
 
 
+  /* value computed below by javascript */
+  .medianBgColorDYN {
+    color:  #b0b0b0FF;
+  }
+
+
 @media (max-width: 900px) {
       /* smartphone */
 
@@ -427,15 +433,16 @@
     <svg id="gauge" width="800" height="400" style="border-bottom: 0.5px solid grey;"></svg>
 
     <div  style="
-        background-color: #b0b0b0FF;
-        height: 2rem;
+        text-align: center;
         min-width:  8rem;
         width:  min-content;
         width:  max-content;
+        padding: 0.2ch 2ch;
         margin: 0 auto;
-      "> 
-      Median position, median board members
-
+        color: black;
+      " class="medianBgColorDYN" > 
+        {{i18n.council_tempomat_chart_label|safe}}
+        <span id="medianVal" ></span>
     </div>
 
     <div id="echart_container" class="invisible-x">echart container content</div>
@@ -638,9 +645,6 @@
     const ring    =  16;  // thickness
     const radiusArc  = radius + ring;
 
-    const colMedianNeedle  = "#b0b0b0FF";
-    const colMedianElliBg  = "#d0d0d0D0";
-
     // arc gradient start
     const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
     svg.appendChild(defs);
@@ -747,7 +751,7 @@
 
 
 
-    function drawNeedle(val) {
+    function drawNeedle(val, needleBgCol) {
         const angle = scoreToAngle(val);
         const x = centerX + Math.cos(angle) * (radius - ring);
         const y = centerY - Math.sin(angle) * (radius - ring);
@@ -756,15 +760,30 @@
         needle.setAttribute("y1", centerY);
         needle.setAttribute("x2", x);
         needle.setAttribute("y2", y);
-        needle.setAttribute("stroke", colMedianNeedle);
+        needle.setAttribute("stroke", needleBgCol);
         needle.setAttribute("stroke-width", "6");
         svg.appendChild(needle);
     }
 
 
+
     const median = councilTempomat[0]['median_total'];
-    // drawNeedle(0.26);
-    drawNeedle( median );
+    // const median = 0.66;
+
+
+    let colNeedle  = "#b0b0b0FF";
+    let colEllipsisBg  = "#d0d0d0D0";  // more transparence
+
+    colNeedle      = valToPctToColor(median, selectedDataMeta[selectedVar], +0.4)
+    colEllipsisBg  = valToPctToColor(median, selectedDataMeta[selectedVar], +0.2)
+
+
+    document.querySelectorAll('.medianBgColorDYN').forEach(function(element) {
+        element.style.backgroundColor = colNeedle;
+    });
+    document.getElementById('medianVal').innerHTML = median;
+
+    drawNeedle( median, colNeedle );
 
 
     const angleBucketSize   =  0.28;           // radians (~3°)
@@ -776,6 +795,7 @@
         return Math.round(angle / angleBucketSize) * angleBucketSize;
     }
 
+    // draw council member ellipsis
     for (const [idx1, entry] of councilTempomat.entries()) {
         const score = getScore(entry);
         const angle = scoreToAngle(score);
@@ -810,7 +830,7 @@
         const isMedianPos = Math.round(score*1000) === Math.round(median*1000); 
 
         if (isMedianPos) {
-          ellipse.setAttribute("fill", colMedianElliBg);
+          ellipse.setAttribute("fill", colEllipsisBg);
         } else if (entry.name_excel === "xxx Christine Lagarde"){
             ellipse.setAttribute("fill", "#dfdfdf70");
         } else {
@@ -872,7 +892,7 @@
     }
 
 
-    function valToPctToColor(vl, config) {
+    function valToPctToColor(vl, config, opaBuff=0) {
 
         let opacity = initOpacity;
         if (elOpa){
@@ -880,6 +900,12 @@
           opacity = elOpa.value.toString(16);
           opacity = parseFloat(opacity);
         }
+
+        opacity += opaBuff;
+        if (opacity > 1.0) {
+          opacity = 1.0;
+        }
+
         let tmp = Math.floor(opacity * 255);
         let opacityHex = tmp.toString(16);
         if (opacityHex.length < 2) {
@@ -954,6 +980,7 @@
 
         return "#" + asHex.join("") + opacityHex;
     }
+
 
 
 
