@@ -91,8 +91,10 @@ trlsRaw = [
 
     {
         "ecb_momentum_report_headline":    {
-            "de": "EZB-ZEW-Momentum-Indikator –  Quartals-Bericht",
-            "en": "ECB-ZEW-Momentum indicator – quartely report",
+            # "de": "EZB-ZEW-Momentum-Indikator –  Quartals-Bericht",
+            # "en": "ECB-ZEW-Momentum indicator – quartely report",
+            "de": "EZB-ZEW-Momentum-Indikator",
+            "en": "ECB-ZEW-Momentum indicator",
         },
     },
     {

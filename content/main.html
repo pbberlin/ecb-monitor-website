@@ -30,16 +30,19 @@
     dummy
      {
         margin:  0.8ch 0;
+
         padding: 1.0ch 2.3ch;
         padding-bottom: 0.2ch;
+
+        border-radius: 0.4ch;
     }
 
 
     div.box1 {
         background-color: var(--color-iceblue-3);
         /* padding-bottom: 0; */
-        margin-top:  0;
-        margin-bottom:  0;
+        margin-top:    0;
+        margin-bottom: 0.5ch;
     }
     div.box2 {
         /* background-color: var(--color-grey-2); */
@@ -57,6 +60,8 @@
         border:     0.25px solid  var(--color-iceblue-2);
         border-top: 1.55px solid  var(--color-iceblue-2);
         /* border-bottom: none; */
+        border: none;
+        background-color: rgba(135,135,134, 0.08);
     }
 
 
@@ -150,7 +155,7 @@
 
 
         <!-- <h3>Informationen zum Forschungsprojekt </h3> -->
-        <p  class="full-width"  style="font-size: 105%; line-height: 1.3;">
+        <p  class="full-width"  style="font-size: 90%; line-height: 1.25;">
             {{i18n.hp_claim_p2}}
 
             <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
@@ -179,7 +184,15 @@
 
 
 
-    <div class="box3" >
+    <div class="box3"
+        style="
+            background-image:     url(/static/img/homepage/television_news_crew-edit-1.png);
+            background-repeat:    no-repeat;
+            background-size:       102px 138px;
+            background-position:  left -13px top   -1px;
+            padding-left: 122px;
+        "
+    >
         <a href="#" class="first nolink" >{{i18n.headline_news}}</a>
         <a href="/md/quarterly-report.md"    >{{i18n.ecb_momentum_report_headline}}</a>
         <!-- So hat sich das geldpolitische Momentum in den Reden des EZB-Rats über die letzten Monate verändert. -->
@@ -191,13 +204,16 @@
     <div class="box3"
 
         style="
-            background-image: url(/static/img/ecb/watching-ecb-on-monitor--bw.png);
-            background-image: url(/static/img/ecb/watching-ecb-on-monitor--iceblue-2b-sm.png);
-            background-repeat: no-repeat;
+            background-image:     url(/static/img/homepage/watching-ecb-on-monitor--bw.png);
+            background-image:     url(/static/img/homepage/watching-ecb-on-monitor--iceblue-2b-sm-c.png);
+            background-repeat:    no-repeat;
             background-size:      cover;
-            background-size:      99px 99px;
-            background-position:  left -15px top -2px;
-            padding-left: 88px;
+            background-size:      115px 142px;
+            background-size:       92px 122px;
+            background-position:  left -4px top  -8px;
+            background-position:  left -2px top  12px;
+            background-position:  left -2px top   4px;
+            padding-left: 122px;
 
         "
 
@@ -210,7 +226,15 @@
     </div>
 
 
-    <div class="box3">
+    <div class="box3"
+        style="
+            background-image:     url(/static/img/homepage/monetary-policy--edit.png);
+            background-repeat:    no-repeat;
+            background-size:       111px 165px;
+            background-position:  left -22px top   -11px;
+            padding-left: 122px;
+        "
+    >
         <!-- Block 2: -->
         <a href="#" class="first nolink" >{{i18n.headline_ecb_monetary_policy}}</a>
         <a href="#"    >Leitzinsen</a>
@@ -218,20 +242,36 @@
         <a href="#"    >Wertpapierkäufe</a>
     </div>
 
-    <div class="box3">
+    <div class="box3"
+        style="
+            background-image:     url(/static/img/homepage/europe-thumb-3.png);
+            background-repeat:    no-repeat;
+            background-size:       111px 165px;
+            background-position:  left -22px top   -11px;
+            padding-left: 122px;
+        "
+    >
+
+        
         <!-- Block 3: -->
         <a href="/pg/fiscal-landscape.html" class="first" >{{i18n.headline_fiscal_data}}</a>
-
         <a href="/pg/fiscal-landscape.html">{{i18n.debt_to_gdp_label}}</a>
-
         <a href="/pg/fiscal-landscape.html#ameco_net_lending">{{i18n.net_lending_label}}</a>
-
-        <!-- Schuldentragfähigkeit -->
         <a href="/pg/fiscal-landscape.html#ameco_interest_expenditure">{{i18n.interest_expenditure_label}}</a>
     </div>
 
 
-    <div class="box3">
+    <div class="box3"
+        style="
+            background-image:     url(/static/img/homepage/europe-thumb-3-bw.png);
+            background-image:     url(/static/img/homepage/europe-thumb-3.png);
+            background-repeat:    no-repeat;
+            background-size:       111px 165px;
+            background-position:  left -22px top   -11px;
+            padding-left: 122px;
+        "
+    >
+
         <!-- Block 4: -->
         <a href="/pg/economic-environment.html" class="first" >{{i18n.headline_economic_environment}}</a>
         <a href="/pg/economic-environment.html#ameco_gdp_growth">{{i18n.gdp_growth_label}}</a>
@@ -240,16 +280,23 @@
     </div>
 
 
-    <div class="box3">
+    <div class="box3"
+        style="
+            background-image:     url(/static/img/homepage/supply-demand-edit.png);
+            background-repeat:    no-repeat;
+            background-size:       90px 128px;
+            background-position:  left -1px top   4px;
+            padding-left: 122px;
+        "
+    >
         <!-- Block 5: -->
-        <!-- Einsichten Wissenschaft -->
         <a href="#" class="first nolink" >{{i18n.headline_science}}</a>
         <a href="/blog">{{i18n.headline_science_news}}</a>
     </div>
 
 
 
-    <div class="box2 service-links full-width">
+    <div class="box2 service-links full-width" style="margin-top: 0.6ch;">
         <a href="/md/team.md"             >{{i18n.headline_imprint}}</a>
         <a href="/md/data-protection.md"  >{{i18n.headline_data_protection}}</a>
         <a href="/image-licences"         >{{i18n.headline_image_licenses}}</a>
