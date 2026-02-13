@@ -1,14 +1,15 @@
-## Datenschutz
+## Data Protection
 
-* Wir verwenden keine Cookies
+* We do not use cookies.
 
-* Ihre Farbsättigung wird im domänenspezifischen Speicher ihres Webbrowsers gespeichert.<br>
-  Nicht auf unseren Servern.<br>
-  Diese Angabe ist für Dritte (Google o.ä.) nicht lesbar.
+* Your color saturation setting is stored in the domain-specific storage of your web browser.
+Not on our servers.
+This information is not readable by third parties (e.g., Google).
 
-* Wir verwenden keine externen Javascript-Programme, Bilder oder Styles
+* We do not use external JavaScript programs, images, or styles.
 
-* Angaben gelten für für die  <i>sub</i>domains  `ecb-monitor.zew.de`  und  `ezb-monitor.zew.de`  <br>
-  Das Hauptportal unseres Instituts `www.zew.de` hat [abweichende Bestimmungen](https://www.zew.de/datenschutz)
+* These statements apply to the <i>sub</i>domains `ecb-monitor.zew.de` and `ezb-monitor.zew.de`.
+<br>
+The main portal of our institute `www.zew.de` has [different extended provisions](https://www.zew.de/en/commitment-to-data-protection)
 
-  <!-- https://www.zew.de/en/commitment-to-data-protection -->
+
