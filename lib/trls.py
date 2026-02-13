@@ -536,7 +536,7 @@ trlsRaw = [
     {
         "ecb_council_label": {
             "de": "Biographisches der Mitglieder",
-            "en": "Board members data",
+            "en": "Board members bio",
         },
     },
     {
@@ -592,11 +592,15 @@ trlsRaw = [
 
 
     {
-        "headline_council_by_6weeks": {
-            # "de": "Dovish-Hawkish Score - gesamter EZB-Rat",
-            # "en": "Dovish-Hawkish score - entire Council",
+        "council_by_6weeks_section": {
             "de": "Dovish-Hawkish Score",
             "en": "Dovish-Hawkish score",
+        },
+    },
+    {
+        "headline_council_by_6weeks": {
+            "de": "Dovish-Hawkish Score für den gesamten EZB-Rat",
+            "en": "Dovish-Hawkish score for the entire ECB-Council",
         },
     },
     {
@@ -630,11 +634,17 @@ trlsRaw = [
 
 
     {
-        "headline_council_tempomat": {
+        "tempomat_section": {
             # "de": "Mehrheitsverhältnisse EZB-Rat",
             # "en": "Majorities ECB-Council",
-            "de": "Mehrheitsverhältnisse",
-            "en": "Panel majority",
+            "de": "Positionen",
+            "en": "Policy positions ",
+        },
+    },
+    {
+        "headline_council_tempomat": {
+            "de": "Positionen im EZB-Rat",
+            "en": "Positions of the ECB council",
         },
     },
     {
@@ -646,7 +656,7 @@ trlsRaw = [
     {
         "council_tempomat_chart_label": {
             "de": "Ratsmitglieder auf Median-Position. <br>Median des Gremiums   ",
-            "en": "Median board members. <br> Median panel position, ",
+            "en": "Median board members. <br> Median panel position ",
         },
     },
     {
