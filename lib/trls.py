@@ -639,8 +639,14 @@ trlsRaw = [
     },
     {
         "council_tempomat_desc": {
-            "de": "Position der Ratsmitglieder auf Jahresbasis ",
-            "en": "Position of council members per year",
+            "de": "Position der Ratsmitglieder  im jeweiligen Jahr. Die Entscheidungen eines Gremiums konvergieren zur Median-Position.  ",
+            "en": "Position of  council members per year. Board decisions converge around the median position.",
+        },
+    },
+    {
+        "council_tempomat_chart_label": {
+            "de": "Ratsmitglieder auf Median-Position. <br>Median des Gremiums   ",
+            "en": "Median board members. <br> Median panel position, ",
         },
     },
     {
