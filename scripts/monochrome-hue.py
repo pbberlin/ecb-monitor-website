@@ -32,7 +32,6 @@ def clamp01(x: float) -> float:
     return x
 
 def applyMonochrome(inputPath: Path, outputPath: Path, targetRgb: Tuple[int, int, int],
-    quality: int,
     saturation: float,
     brightenFactor: float,
 ) -> None:
@@ -55,7 +54,7 @@ def applyMonochrome(inputPath: Path, outputPath: Path, targetRgb: Tuple[int, int
 
             outImg = Image.new("RGB", (width, height))
             grayPx = grayImg.load()
-            outPx = outImg.load()
+            outPx  = outImg.load()
 
             y = 0
             while y < height:
@@ -73,7 +72,7 @@ def applyMonochrome(inputPath: Path, outputPath: Path, targetRgb: Tuple[int, int
                 y += 1
 
             outputPath.parent.mkdir(parents=True, exist_ok=True)
-            outImg.save(outputPath, format="JPEG", quality=int(quality), subsampling="4:4:4", optimize=True)
+            outImg.save(outputPath, format="PNG", compress_level=2)
 
             print(f"Saved: {outputPath}")
             print(f"H={hT:.4f}  sT={sT:.4f}  vT={vT:.4f}  saturationMul={sMul:.3f}  brightenMul={bMul:.3f}")
@@ -83,9 +82,9 @@ def applyMonochrome(inputPath: Path, outputPath: Path, targetRgb: Tuple[int, int
         raise
 
 
-def applyLinearRgbTint(inputPath: Path, outputPath: Path, targetRgb: Tuple[int, int, int], quality: int) -> None:
+def applyLinearRgbTint(inpPth: Path, outPth: Path, targetRgb: Tuple[int, int, int]) -> None:
     try:
-        with Image.open(inputPath) as srcImg:
+        with Image.open(inpPth) as srcImg:
             if srcImg.mode not in ("RGB", "RGBA"):
                 srcImg = srcImg.convert("RGB")
 
@@ -112,11 +111,11 @@ def applyLinearRgbTint(inputPath: Path, outputPath: Path, targetRgb: Tuple[int, 
                     x += 1
                 y += 1
 
-            outputPath.parent.mkdir(parents=True, exist_ok=True)
-            outImg.save(outputPath, format="JPEG", quality=quality, subsampling="4:4:4", optimize=True)
+            outPth.parent.mkdir(parents=True, exist_ok=True)
+            outImg.save(outPth, format="PNG", compress_level=2)
 
             print(f"Tint applied linearly in RGB space. Target color: {targetRgb}")
-            print(f"Saved to {outputPath}")
+            print(f"Saved to {outPth}")
 
     except Exception as exc:
         print(f"Error in applyLinearRgbTint: {exc}")
@@ -144,7 +143,7 @@ def main() -> None:
 
     # zew cols
     colors = {
-        "grey-dark"        : ( 72,  72,  72) ,
+        # "grey-dark"        : ( 72,  72,  72) ,
         "grey-medium"      : (128, 128, 128) ,
         "grey-light"       : (192, 192, 192) ,
 
@@ -161,22 +160,23 @@ def main() -> None:
         saturation      = float(args.saturation)
         brightenFactor  = float(args.brighten)
 
-        out = inp.with_name(inp.stem + f"--{key}.jpg")
+        out1 = inp.with_name(inp.stem + f"--{key}.png")
+
         applyLinearRgbTint(
             inp, 
-            out, 
+            out1, 
             rgb, 
-            int(args.quality),
+            # int(args.quality),
             # saturation,
             # brightenFactor,        
         )
 
-        out = inp.with_name(inp.stem + f"--{key}--sat{saturation:3.1f}--{brightenFactor:3.1f}.jpg")
+        out2 = inp.with_name(inp.stem + f"--{key}--sat{saturation:3.1f}--{brightenFactor:3.1f}.png")
         applyMonochrome(
             inp, 
-            out, 
+            out2, 
             rgb, 
-            int(args.quality),
+            # int(args.quality),
             saturation,
             brightenFactor,        
         )

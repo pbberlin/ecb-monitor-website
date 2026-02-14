@@ -2,7 +2,7 @@
 
 * Wir verwenden keine Cookies
 
-* Ihre Farbsättigung wird im domänenspezifischen Speicher ihres Webbrowsers gespeichert.<br>
+* Ihre Farbsättigung wird im domänenspezifischen Speicher Ihres Webbrowsers gespeichert.<br>
   Unsere Server sehen den Wert nicht. Er bleibt im Browser.<br>
   Diese Angabe ist für Dritte (Google o.ä.) nicht lesbar.
 
@@ -14,7 +14,7 @@
 * Unser Webserver behält Ihre IP Adresse für __sieben Tage__ im Log.  
 Wir nutzen diese IP Daten ausschließlich zur Verteidigung gegen DOS Angriffe.  
 Beachten Sie, dass Ihre IP Adresse vermutlich ein dutzend Mal auf dem Weg zu uns gespeichert wird.  
-Von Ihrem Internet-Provider, verschiedenen Firewalls, und von "Diensten"
+Von Ihrem Internet-Provider, verschiedenen Firewalls, und von "Diensten".
 
 * Obige Angaben gelten für für die  <i>sub</i>domains  `ecb-monitor.zew.de`  und  `ezb-monitor.zew.de`. <br>
   Das Hauptportal unseres Instituts `www.zew.de` hat [abweichende erweiterte Bestimmungen](https://www.zew.de/datenschutz)<br>

@@ -254,3 +254,40 @@ function createGradientLegend(domEl, config) {
 
 }
 
+
+
+
+/**
+ * keydown listener  - triggering the link backspace-home click when Backspace is pressed —
+ *  exempt input fields - otherwise we break text editing
+ */
+document.addEventListener("keydown", function(event) {
+
+    if (event.key === "Backspace") {
+
+        const activeEl   = document.activeElement;
+        let   isEditable = activeEl &&
+            (
+                activeEl.tagName === "INPUT" ||
+                activeEl.tagName === "TEXTAREA" ||
+                activeEl.isContentEditable
+            );
+
+        if (activeEl.id === "yearSlider"){
+            isEditable = false;
+        }
+
+
+        if (isEditable === false) {
+            event.preventDefault();
+            const lnkBksp = document.getElementById("backspace-home");
+            if (lnkBksp) {
+                // console.log(`page keydown -  isEditable ${isEditable}`)
+                lnkBksp.click();
+            }
+        }
+
+    }
+
+
+});

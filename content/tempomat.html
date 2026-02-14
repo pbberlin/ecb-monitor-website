@@ -393,35 +393,35 @@
 
   <div class="col col--left control-pad">
 
-      <!-- First (top, right) -->
-      <h3> {{i18n.headline_council_tempomat}}
-        <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
-      </h3>
+    <!-- First (top, right) -->
+    <a href="/"  class="backspace-key" id="backspace-home"  tabindex="-1" > <img src="/static/img/symbols/backspace-edit-3--iceblue-lt-2.png"  class="backspace-key"  alt="Home" > </a>
+    <h3> {{i18n.headline_council_tempomat}}
+      <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
+    </h3>
 
 
+    <div id="slider-group" class="slider-group invisible-x">
+      <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
+      <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
+    </div>
 
-      <div id="slider-group" class="slider-group invisible-x">
-        <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
-        <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
-      </div>
-
-      <!-- option -->
-      <div class="options-stat-vars invisible-x" >
-        <label title="(Ameco)">
-          {{i18n.council_tempomat_label}}
-          <input type="radio" name="stats_variable" value="council_tempomat" >
-        </label>
-      </div>
+    <!-- option -->
+    <div class="options-stat-vars invisible-x" >
+      <label title="(Ameco)">
+        {{i18n.council_tempomat_label}}
+        <input type="radio" name="stats_variable" value="council_tempomat" >
+      </label>
+    </div>
 
 
-      <div class="slider-group  play-and-download invisible-x" >
-        <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
-      </div>
+    <div class="slider-group  play-and-download invisible-x" >
+      <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
+    </div>
 
-      <div class="slider-group play-and-download" >
-        <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
-        >{{i18n.download_data}}</a>
-      </div>
+    <div class="slider-group play-and-download" >
+      <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
+      >{{i18n.download_data}}</a>
+    </div>
 
 
 

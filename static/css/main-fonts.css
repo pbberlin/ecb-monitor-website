@@ -184,6 +184,16 @@ dummy  {
     top:  -9999px;
 }
 
+a.backspace-key {
+  display:      block;  
+  align-self:   center;
+  justify-self: center;
+  margin-bottom: 1.6ch;
+}
+img.backspace-key {
+  height:  3.1ch;
+  opacity: 0.8;
+}
 
 
 /* infobox start */

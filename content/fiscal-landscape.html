@@ -368,66 +368,62 @@
 
   <div class="col col--left control-pad">
 
+    <!-- First (top, right) -->
+    <a href="/"  class="backspace-key" id="backspace-home"  tabindex="-1" > <img src="/static/img/symbols/backspace-edit-3--iceblue-lt-2.png"  class="backspace-key"  alt="Home" > </a>
+    <h3> {{i18n.headline_fiscal_data}}</h3>
+
+    <div id="slider-group" class="slider-group">
+      <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
+      <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
+    </div>
+
+    <!-- option -->
+    <div class="options-stat-vars">
+      <label title="(Ameco)">
+        {{i18n.ameco_debt_to_gdp_label}}
+        <input type="radio" name="stats_variable" value="ameco_debt_to_gdp" >
+      </label>
+
+      <label title="(Ameco)">
+        {{i18n.ameco_net_lending_label}}
+        <input type="radio" name="stats_variable" value="ameco_net_lending">
+      </label>
+
+
+      <label title="(Ameco)">
+        {{i18n.ameco_total_expenditure_label}}
+        <input type="radio" name="stats_variable" value="ameco_total_expenditure">
+      </label>
+
+
+      <label title="(Ameco)">
+        {{i18n.ameco_interest_expenditure_label}}
+        <input type="radio" name="stats_variable" value="ameco_interest_expenditure">
+      </label>
+
       <!--
-      {{i18n["good_day"]}}
-      {{i18n.good_day}}
+      <label title="(Ameco)">
+        Zinszahlungen in % BIP
+        <input type="radio" name="stats_variable" value="ameco_interest_to_gdp">
+      </label>
       -->
 
-      <!-- First (top, right) -->
-      <h3> {{i18n.headline_fiscal_data}}</h3>
+      <label title="(Eurostat)">
+        {{i18n.eurostat_yields_10y_label}}
+        <input type="radio" name="stats_variable" value="eurostat_yields_10y">
+      </label>
 
-      <div id="slider-group" class="slider-group">
-        <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
-        <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
-      </div>
-
-      <!-- option -->
-      <div class="options-stat-vars">
-        <label title="(Ameco)">
-          {{i18n.ameco_debt_to_gdp_label}}
-          <input type="radio" name="stats_variable" value="ameco_debt_to_gdp" >
-        </label>
-
-        <label title="(Ameco)">
-          {{i18n.ameco_net_lending_label}}
-          <input type="radio" name="stats_variable" value="ameco_net_lending">
-        </label>
+    </div>
 
 
-        <label title="(Ameco)">
-          {{i18n.ameco_total_expenditure_label}}
-          <input type="radio" name="stats_variable" value="ameco_total_expenditure">
-        </label>
+    <div class="slider-group  play-and-download" >
+      <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
+    </div>
 
-
-        <label title="(Ameco)">
-          {{i18n.ameco_interest_expenditure_label}}
-          <input type="radio" name="stats_variable" value="ameco_interest_expenditure">
-        </label>
-
-        <!--
-        <label title="(Ameco)">
-          Zinszahlungen in % BIP
-          <input type="radio" name="stats_variable" value="ameco_interest_to_gdp">
-        </label>
-        -->
-
-        <label title="(Eurostat)">
-          {{i18n.eurostat_yields_10y_label}}
-          <input type="radio" name="stats_variable" value="eurostat_yields_10y">
-        </label>
-
-      </div>
-
-
-      <div class="slider-group  play-and-download" >
-        <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
-      </div>
-
-      <div class="slider-group play-and-download" >
-        <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
-        >{{i18n.download_data}}</a>
-      </div>
+    <div class="slider-group play-and-download" >
+      <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
+      >{{i18n.download_data}}</a>
+    </div>
 
 
 

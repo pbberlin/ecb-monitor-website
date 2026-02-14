@@ -11,8 +11,9 @@ This information is not readable by third parties (e.g., Google).
 * We only use a single self-hosted JavaScript library: [Apache Echarts](https://github.com/apache/echarts)
 
 * Our web server is keeping your IP address for __seven days__ in the system log.  
+  We dont use this data for anything but defense against DOS attacks.  
   Keep in mind, that your IP address is probably stored a dozen times on the way to us.  
-  With your internet provider, various firewalls and routers, "services"
+  With your internet provider, various firewalls and routers, and by "services".
 
 * Above statements apply to the <i>sub</i>domains `ecb-monitor.zew.de` and `ezb-monitor.zew.de`.
 <br>
