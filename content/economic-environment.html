@@ -370,49 +370,48 @@
 
   <div class="col col--left control-pad">
 
-      <!-- First (top, right) -->
-      <h3> {{i18n.headline_economic_environment}}
-        <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
-      </h3>
+    <!-- First (top, right) -->
+    <a href="/"  class="backspace-key" id="backspace-home"  tabindex="-1" > <img src="/static/img/symbols/backspace-edit-3--iceblue-lt-2.png"  class="backspace-key"  alt="Home" > </a>
+    <h3> {{i18n.headline_economic_environment}}
+      <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
+    </h3>
 
 
 
-      <div id="slider-group" class="slider-group">
-        <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
-        <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
-      </div>
+    <div id="slider-group" class="slider-group">
+      <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
+      <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
+    </div>
 
-      <!-- option -->
-      <div class="options-stat-vars">
-        <label title="(Ameco)">
-          {{i18n.ameco_gdp_growth_label}}
-          <input type="radio" name="stats_variable" value="ameco_gdp_growth" >
-        </label>
+    <!-- option -->
+    <div class="options-stat-vars">
+      <label title="(Ameco)">
+        {{i18n.ameco_gdp_growth_label}}
+        <input type="radio" name="stats_variable" value="ameco_gdp_growth" >
+      </label>
 
-        <label title="(Ameco)">
-          {{i18n.ameco_output_gap_label}}
-          <input type="radio" name="stats_variable" value="ameco_output_gap">
-        </label>
+      <label title="(Ameco)">
+        {{i18n.ameco_output_gap_label}}
+        <input type="radio" name="stats_variable" value="ameco_output_gap">
+      </label>
 
-        <!-- monthly -->
-        <label title="(Eurostat)">
-          {{i18n.eurostat_hicp_label}}
-          <input type="radio" name="stats_variable" value="eurostat_hicp">
-        </label>
+      <!-- monthly -->
+      <label title="(Eurostat)">
+        {{i18n.eurostat_hicp_label}}
+        <input type="radio" name="stats_variable" value="eurostat_hicp">
+      </label>
 
-      </div>
-
-
-      <div class="slider-group  play-and-download" >
-        <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
-      </div>
-
-      <div class="slider-group play-and-download" >
-        <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
-        >{{i18n.download_data}}</a>
-      </div>
+    </div>
 
 
+    <div class="slider-group  play-and-download" >
+      <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
+    </div>
+
+    <div class="slider-group play-and-download" >
+      <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
+      >{{i18n.download_data}}</a>
+    </div>
 
   </div>
 

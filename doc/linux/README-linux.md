@@ -201,10 +201,12 @@ sudo systemctl start app-scheduler.service
 ## Syslog max retention
 
 ```bash
-/etc/systemd/journald.conf
+sudo vim /etc/systemd/journald.conf
 
 MaxRetentionSec=7day     # Keep logs for 7 days
 sudo systemctl restart systemd-journald
+
+sudo journalctl --vacuum-time=7d
 ```
 
 

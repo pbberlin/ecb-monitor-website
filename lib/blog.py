@@ -125,6 +125,8 @@ def imageLicenses():
 
 
   imgs = [
+      "symbols/imag0021_backspace.jpg",
+
       "homepage/logo_european_central_bank.png",
       "homepage/supply_and_demand_diagram-orig.png",
       "homepage/television_news_crew.jpg",
