@@ -263,9 +263,21 @@ function createGradientLegend(domEl, config) {
  */
 document.addEventListener("keydown", function(event) {
 
-    if (event.key === "Backspace") {
+    const activeEl   = document.activeElement;
+ 
+ 
+    // alt-left should work - even if yearSlider is focussed
+    if (activeEl.id === "yearSlider"){
+        if (event.altKey && event.key === "ArrowLeft"){
+            console.log(`alt left detected`);
+            window.history.back();
+            return;
+        }
+    }
 
-        const activeEl   = document.activeElement;
+
+    // backspace triggers link to home
+    if (event.key === "Backspace") {
         let   isEditable = activeEl &&
             (
                 activeEl.tagName === "INPUT" ||
@@ -276,8 +288,6 @@ document.addEventListener("keydown", function(event) {
         if (activeEl.id === "yearSlider"){
             isEditable = false;
         }
-
-
         if (isEditable === false) {
             event.preventDefault();
             const lnkBksp = document.getElementById("backspace-home");
@@ -286,7 +296,6 @@ document.addEventListener("keydown", function(event) {
                 lnkBksp.click();
             }
         }
-
     }
 
 

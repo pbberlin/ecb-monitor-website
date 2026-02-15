@@ -471,7 +471,12 @@
   <div class="col col--left control-pad">
 
     <!-- First (top, right) -->
-    <a href="/"  class="backspace-key" id="backspace-home"  tabindex="-1" > <img src="/static/img/symbols/backspace-edit-3--iceblue-lt-2.png"  class="backspace-key"  alt="Home" > </a>
+    <div class="sec-navi-mini">
+      <a href="/"  class="backspace-key" id="backspace-home"  tabindex="-1"  title="{{i18n.back_home_hint}}" > <img src="/static/img/symbols/back-home-2.png"  class="backspace-key"  alt="{{i18n.back_home_hint}}" > </a>
+      <a href="/pg/tempomat.html"         >{{i18n.tempomat_section}}</a> 
+      <a href="/pg/6weeks.html"           >{{i18n.council_by_6weeks_section}}</a>
+    </div>
+
     <h3> {{i18n.ecb_council_label}}
       <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
     </h3>
