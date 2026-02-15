@@ -705,8 +705,8 @@ trlsRaw = [
         "tempomat_section": {
             # "de": "Mehrheitsverhältnisse EZB-Rat",
             # "en": "Majorities ECB-Council",
-            "de": "Positionen",
-            "en": "Policy positions ",
+            "de": "Mitlieder   Positionen",
+            "en": "Council member  positions",
         },
     },
     {
@@ -723,8 +723,8 @@ trlsRaw = [
     },
     {
         "council_tempomat_chart_label": {
-            "de": "Ratsmitglieder auf Median-Position. <br>Median des Gremiums   ",
-            "en": "Median council members. <br> Median panel position ",
+            "de": "Zeiger zeigt die Ratsmitglieder auf Median-Position. <br>Median des Gremiums   ",
+            "en": "Needle points to Median council members. <br> Median panel position ",
         },
     },
     {
@@ -734,9 +734,7 @@ trlsRaw = [
                     <!--
                         ● ➡ ↪
                     -->
-                    <li>Die Median-Position wird durch die graue Linie dargestellt</li>
                     <li>Die Entscheidungen des Gremiums orientieren sich am Median der Ratsmitglieder</li>
-                    <li>Ratsmitglieder im Median sind grau hinterlegt</li>
                 </ul>
             """,
             "en": """
@@ -744,9 +742,16 @@ trlsRaw = [
                     <!--
                         ● ➡ ↪
                     -->
-                    <li>The median stance is indicated by the grey line</li>
-                    <li>Panel decisions hinge around the median board member(s)</li>
-                    <li>Median council members have a grey background</li>
+                    <li>Panel decisions hinge around the median council member(s)</li>
+
+                    <li>Exchange blue-red direction</li> 
+                        <ul>
+                            <li>Also switch numbers scale -1 is hawkish, +1 is dovish</li>
+                            <li>Change color legend also in council members bio, dovish-hawkish for entire council. </li>
+                            <li>Need the countries in the Pickle file</li>
+                        </ul>
+                    
+
                 </ul>
 
             """,
