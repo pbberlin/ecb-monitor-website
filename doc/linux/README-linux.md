@@ -207,6 +207,14 @@ MaxRetentionSec=7day     # Keep logs for 7 days
 sudo systemctl restart systemd-journald
 
 sudo journalctl --vacuum-time=7d
+
+# no IP address
+sudo vim /etc/apache2/apache2.conf
+
+# comment out
+CustomLog ${APACHE_LOG_DIR}/access.log combined
+LogFormat "%t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" minimal
+
 ```
 
 

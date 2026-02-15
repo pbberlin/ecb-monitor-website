@@ -49,10 +49,19 @@ trlsRaw = [
             "en": "ECB-Monitor",
         },
     },
+
+    {
+        "back_home_hint": {
+            # ⌫ or ⇦
+            "de": "Zurück zur Hompage     ALT+ ⬅ oder   ⌫",
+            "en": "Back home              ALT+ ⬅ or     ⌫)",
+        },
+    },
+
     {
         "hp_claim_p1":    {
             "de": """
-                Ein Forschungsprojekt des ZEW - Leibniz-Zentrums für Europäische Wirtschaftsforschung 
+                Ein Forschungsprojekt des ZEW - Leibniz-Zentrums für Europäische Wirtschaftsforschung
                 mit Unterstützung der Stiftung Geld und Währung
             """,
             "en": """
@@ -64,16 +73,50 @@ trlsRaw = [
     {
         "hp_claim_p2":    {
             "de": """
-                Der "EZB-Monitor" informiert aus der unabhängigen wissenschaftlichen Perspektive 
-                des ZEW über die EZB und ihre geldpolitischen Entscheidungen. Der Monitor bietet Zugriff auf wichtige ökonomische und fiskalische Daten zum aktuellen Umfeld der Geldpolitik. 
+                Der "EZB-Monitor" informiert aus der unabhängigen wissenschaftlichen Perspektive
+                des ZEW über die EZB und ihre geldpolitischen Entscheidungen. Der Monitor bietet Zugriff auf wichtige ökonomische und fiskalische Daten zum aktuellen Umfeld der Geldpolitik.
             """,
             "en": """
-                "ECB Monitor" provides information on the ECB and its monetary policy decisions 
-                from the independent academic perspective of ZEW. 
+                "ECB Monitor" provides information on the ECB and its monetary policy decisions
+                from the independent academic perspective of ZEW.
                 It offers key economic and fiscal data on the current monetary policy environment.
             """,
         },
     },
+    {
+        "hp_infobox":    {
+            "de": """
+                <p>
+                    In jedem Quartal erfolgt die Publikation des EZB-Momentum-Indikators.
+                    Dieser KI-gestützte Indikator gibt Auskunft über die Botschaft
+                    aus den jüngsten Redebeiträgen von Mitgliedern des EZB-Rats.
+                    Er dient als Frühindikator, ob die EZB eher in eine
+                    expansive oder kontraktive Richtung in ihren geldpolitischen Entscheidungen neigt.                
+                </p>
+                <p>
+                    Der EZB-Transparenz-Monitor richtet sich an Akteure in den Medien,
+                    der Finanzindustrie, der Politik und der interessierten Fachöffentlichkeit.
+                </p>
+                
+            """,
+            "en": """
+                <p>
+                    In jedem Quartal erfolgt die Publikation des EZB-Momentum-Indikators.
+                    Dieser KI-gestützte Indikator gibt Auskunft über die Botschaft
+                    aus den jüngsten Redebeiträgen von Mitgliedern des EZB-Rats.
+                    Er dient als Frühindikator, ob die EZB eher in eine
+                    expansive oder kontraktive Richtung in ihren geldpolitischen Entscheidungen neigt.                
+                </p>
+                <p>
+                    Der EZB-Transparenz-Monitor richtet sich an Akteure in den Medien,
+                    der Finanzindustrie, der Politik und der interessierten Fachöffentlichkeit.
+                </p>
+                <!-- todo  fhe: english translation-->
+            """,
+        },
+    },
+
+
     {
         "infobox_header":    {
             "de": "Interpretationshilfe",
@@ -540,6 +583,12 @@ trlsRaw = [
         },
     },
     {
+        "ecb_council_section": {
+            "de": "Biographisches der Mitglieder",
+            "en": "Board members bio",
+        },
+    },
+    {
         "ecb_council_desc":    {
             "de": """ EZB-Rat ...""",
             "en": """ ECB Council ...""",
@@ -547,7 +596,7 @@ trlsRaw = [
     },
     {
         "ecb_council_infobox":    {
-            "de": """ 
+            "de": """
                 <ul>
                     <li>Dovish-Hawkish KI Score
                         <ul>
@@ -558,16 +607,16 @@ trlsRaw = [
                         </ul>
                     </li>
                     <li>Links: Sechs <i>überregionale</i> EZB-Mitglieder in Frankfurt</li>
-                    <li>Landkarte: 20 nationale Zentralbankpräsidenten 
+                    <li>Landkarte: 20 nationale Zentralbankpräsidenten
                         <ul>
                             <li>Maus übers Land ziehen für Details</li>
                         </ul>
                     </li>
                     <li>Malta und Zypern sind annähernd vollwertige Ratsmitglieder</li>
-                    
+
                 </ul>
             """,
-            "en": """ 
+            "en": """
                 <ul>
                     <li>Dovish–Hawkish AI Score
                         <ul>
@@ -584,12 +633,12 @@ trlsRaw = [
                         </ul>
                     </li>
                     <li>Malta and Cyprus are mostly full members</li>
-                        
-                    
+
+
                     <li>Discuss: Tenure ending-starting same year </li>
                     <li>Discuss: Dove-Hawk-Score for all years vs <i>up to selected</i> yr </li>
                     <li>Todo:    Mouse over - also over the numbers - Malta/Cyprus: rect </li>
-                    
+
                 </ul>
             """,
         },
@@ -616,7 +665,7 @@ trlsRaw = [
     },
     {
         "council_by_6weeks_infobox":    {
-            "de": """ 
+            "de": """
                 <ul>
                     <!--
                         ● ➡ ↪
@@ -625,7 +674,7 @@ trlsRaw = [
                     <li>EZB Zinssätze</li>
                 </ul>
             """,
-            "en": """ 
+            "en": """
                 <ul>
                     <!--
                         ● ➡ ↪
@@ -666,7 +715,7 @@ trlsRaw = [
     },
     {
         "council_tempomat_infobox":    {
-            "de": """ 
+            "de": """
                 <ul>
                     <!--
                         ● ➡ ↪
@@ -676,7 +725,7 @@ trlsRaw = [
                     <li>Ratsmitglieder im Median sind grau hinterlegt</li>
                 </ul>
             """,
-            "en": """ 
+            "en": """
                 <ul>
                     <!--
                         ● ➡ ↪

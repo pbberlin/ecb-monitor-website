@@ -161,18 +161,6 @@
             <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
         </p>
 
-        <!--         
-        <p>
-            In jedem Quartal erfolgt die Publikation des EZB-Momentum-Indikators.
-            Dieser KI-gestützte Indikator gibt Auskunft über die Botschaft
-            aus den jüngsten Redebeiträgen von Mitgliedern des EZB-Rats.
-            Er dient als Frühindikator, ob die EZB eher in eine
-            expansive oder kontraktive Richtung in ihren geldpolitischen Entscheidungen neigt.
-            Der EZB-Transparenz-Monitor richtet sich an Akteure in den Medien,
-            der Finanzindustrie, der Politik und der interessierten Fachöffentlichkeit.
-        </p> 
-        -->
-
     </div>
 
 
@@ -221,7 +209,7 @@
     >
         <!-- Block 1: -->
         <a href="#" class="first nolink" >{{i18n.section_ecb_council}}</a>
-        <a href="/pg/ecb-council.html"      >{{i18n.ecb_council_label}}</a>
+        <a href="/pg/ecb-council.html"      >{{i18n.ecb_council_section}}</a>
         <a href="/pg/tempomat.html"         >{{i18n.tempomat_section}}</a>
         <a href="/pg/6weeks.html"           >{{i18n.council_by_6weeks_section}}</a>
     </div>
@@ -308,3 +296,39 @@
 
 
 </main>
+
+
+
+
+<dialog id="elDialog">
+    <div id="dlgHead">
+        <span>{{i18n.infobox_header}}</span>
+        <button id="btnDlgClose">×</button>
+    </div>
+    <div id="dlgCnt">
+        {{i18n.hp_infobox|safe}}
+    </div>
+</dialog>
+
+<script>
+    const btnDlgIco     = document.getElementById("btnDlgIco");
+    const btnDlgClose   = document.getElementById("btnDlgClose");
+    const dlg           = document.getElementById("elDialog");
+
+    btnDlgIco.addEventListener("click", () => {
+        dlg.showModal();
+    });
+
+    btnDlgClose.addEventListener("click", () => {
+        dlg.close();
+    });
+
+    window.addEventListener("load", () => {
+        setTimeout(() => {
+            btnDlgIco.classList.add("wobble");
+            setTimeout(() => {
+                btnDlgIco.classList.remove("wobble");
+            }, 1400);
+        }, 600);
+    });
+</script>

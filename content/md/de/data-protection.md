@@ -11,8 +11,7 @@
 * Wir verwenden eine einzige, selbstgehostete JavaScript library: [Apache Echarts](https://github.com/apache/echarts)
 
 
-* Unser Webserver behält Ihre IP Adresse für __sieben Tage__ im Log.  
-Wir nutzen diese IP Daten ausschließlich zur Verteidigung gegen DOS Angriffe.  
+* Unser Webserver speichert nicht Ihre IP Adresse im Log.  
 Beachten Sie, dass Ihre IP Adresse vermutlich ein dutzend Mal auf dem Weg zu uns gespeichert wird.  
 Von Ihrem Internet-Provider, verschiedenen Firewalls, und von "Diensten".
 
