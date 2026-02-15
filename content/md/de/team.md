@@ -10,6 +10,21 @@
     td {
         vertical-align: top;
     }
+
+    td:nth-child(even) {
+        margin: 0;
+        margin-right: 2ch;
+        padding: 0;
+        padding-top: 6ch;
+    }
+
+    td:nth-child(odd) {
+        padding: 0;
+        padding-left:  4ch;
+        padding-top:   2ch;
+        padding-right: 0.8ch;
+    }
+
 </style>
 
 <table>
@@ -42,13 +57,6 @@
     </tr>
     <tr>
         <td>
-            <a href="https://www.zew.de/{{curLg|safe}}/team/pbu">Peter Buchmann </a> 
-            Technik  
-        </td>
-        <td>
-            <img src="/static/img/md/pbu.jpg">
-        </td>
-        <td>
             <a href="https://www.zew.de/{{curLg|safe}}/team/pau">Pascal Ausäderer </a> 
             Kommunikation  
         </td>
@@ -61,6 +69,13 @@
         </td>
         <td>
             <img src="/static/img/md/jgl.jpg">
+        </td>
+        <td>
+            <a href="https://www.zew.de/{{curLg|safe}}/team/pbu">Peter Buchmann </a> 
+            Technik  
+        </td>
+        <td>
+            <img src="/static/img/md/pbu.jpg">
         </td>
     </tr>
 

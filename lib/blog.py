@@ -26,14 +26,16 @@ def dateFormat( isoDate = "2026-01-26", lg="de" ):
 
 
 
-def mdParts(pth: Path, idx: int):
+
+# parsing a markdown file - see doc string inside
+def mdParts(blogType: str, lg: str, fn: str , paramAutofocus=False):
 
   """
     first three lines and markdown filename have special role.
     for list view
   """
 
-  urlPth    = Path("blog") / g.currentLanguage / Path(pth).name
+  pth         = Path("content/blog") / blogType / lg / fn
 
   with open(pth, "r", encoding="utf-8") as f:
 
@@ -47,31 +49,31 @@ def mdParts(pth: Path, idx: int):
     if len(h1) > 0:
       h2 = f.readline().strip()
 
-    tplName = ""
+    designTpl = ""
     if len(h2) > 0:
-      tplName = f.readline().strip()
-
+      designTpl = f.readline().strip()
 
     restOfFile = f.read()
 
     autofoc = ""
-    if idx == 0:
+    if paramAutofocus:
         # autofoc = "autofocus"
         autofoc = ""
 
-    dateLine = dateFormat(pth.stem, g.currentLanguage)
+    dateLine = dateFormat(pth.stem, lg)
 
     listEntry  = ""
     listEntry += " <li>"
     listEntry +=    f"<p class='date-line'>{dateLine}  </p> "
-    listEntry +=    f" <a class='blog-list-entry' href='{urlPth.as_posix() }?lang=en' {autofoc} > {h1} </a>"
+    itemPth = Path("blog") / blogType / lg / fn
+    listEntry +=    f" <a class='blog-list-entry' href='/{itemPth.as_posix() }?lang={lg}' {autofoc} > {h1} </a>"
     if h2:
       # listEntry +=    f"<br> "
       listEntry +=    f"{h2} "
     listEntry += "</li>"
 
 
-    return h1, h2, tplName, restOfFile, dateLine, listEntry
+    return h1, h2, designTpl, restOfFile, dateLine, listEntry
 
 
 def renderMarkdown(markDownCnt):

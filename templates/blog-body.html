@@ -92,7 +92,7 @@
 <div class="blog-body">
 
     {% if breadCrumb %}
-        <p  style="font-size:90%; margin-bottom: 0.2rem;"> <a  autofocus href="/blog">{{i18n.all_posts}}</a>   </p>
+        <p  style="font-size:90%; margin-bottom: 0.2rem;"> <a  autofocus href="/blog/{{blogType|safe}}">{{i18n.all_posts}}</a>   </p>
     {% endif %}
 
 
@@ -101,7 +101,11 @@
         <p  style="position: relative; top: -0.6rem;  margin: 0;font-size:80%;">{{dateLine}}</p>
     {% else %}
         <!-- <a href="/"  class="backspace-key" id="backspace-home"  tabindex="-1"  title="{{i18n.back_home_hint}}" > <img src="/static/img/symbols/back-home-2.png"  class="backspace-key"  alt="{{i18n.back_home_hint}}" > </a> -->
-        <h3> {{i18n.ecb_watching_body_headline}} </h3>
+        {% if blogType=='policy' %}
+            <h3> {{i18n.blog_policy_headline}} </h3>
+        {% else %}
+            <h3> {{i18n.headline_science_news}} </h3>
+        {% endif %}
     {% endif %}
 
     {% if h2 %}
