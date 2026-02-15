@@ -160,12 +160,6 @@ trlsRaw = [
             "en": "ECB-Watching – commentary",
         },
     },
-    {
-        "blog_science_headline":    {
-            "de": "ECB-Watching – der Kommentar",
-            "en": "ECB-Watching – commentary",
-        },
-    },
 
 
     {
@@ -599,13 +593,13 @@ trlsRaw = [
     {
         "ecb_council_label": {
             "de": "Biographisches der Mitglieder",
-            "en": "Board members bio",
+            "en": "Council members bio",
         },
     },
     {
         "ecb_council_section": {
             "de": "Biographisches der Mitglieder",
-            "en": "Board members bio",
+            "en": "Council members bio",
         },
     },
     {
@@ -730,7 +724,7 @@ trlsRaw = [
     {
         "council_tempomat_chart_label": {
             "de": "Ratsmitglieder auf Median-Position. <br>Median des Gremiums   ",
-            "en": "Median board members. <br> Median panel position ",
+            "en": "Median council members. <br> Median panel position ",
         },
     },
     {
@@ -752,7 +746,7 @@ trlsRaw = [
                     -->
                     <li>The median stance is indicated by the grey line</li>
                     <li>Panel decisions hinge around the median board member(s)</li>
-                    <li>Median board members have a grey background</li>
+                    <li>Median council members have a grey background</li>
                 </ul>
 
             """,
