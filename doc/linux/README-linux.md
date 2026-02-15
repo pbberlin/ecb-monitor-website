@@ -209,12 +209,18 @@ sudo systemctl restart systemd-journald
 sudo journalctl --vacuum-time=7d
 
 # no IP address
+# add minimal format into
 sudo vim /etc/apache2/apache2.conf
+LogFormat "%t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" minimal
 
 # comment out
 CustomLog ${APACHE_LOG_DIR}/access.log combined
-LogFormat "%t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" minimal
+# now replace in /etc/apache2/sites-enabled/*.conf
 
+ls -lAh /etc/apache2/sites-enabled/*.conf
+sudo vim /etc/apache2/sites-enabled/ecb-le-ssl.conf
+
+CustomLog ${APACHE_LOG_DIR}/access.log minimal
 ```
 
 
