@@ -354,64 +354,72 @@ def markdownAny(lg=None, md=None):
 
 
 
-@app.route('/blog')
-# @app.route('/blog/')
-# @app.route('/blog/<lg>')
-# @app.route('/blog/<lg>/')
-@app.route('/blog/<lg>/<md>')
-def blog(lg=None, md=None):
+@app.route('/blog/<blogType>')
+@app.route('/blog/<blogType>/<md>')
+@app.route('/blog/<blogType>/<lg>/<md>')
+def handlerBlog(blogType=None, lg=None, md=None):
+
+    if blogType is None:
+        blogType = "policy"
+
+    if lg is None:
+        lg = g.currentLanguage
 
     h1 = ""
     h2 = ""
-    dateLine = ""
+    da = ""
+
+    # list view of entries
     if md is None:
-        # list of entries
+
         showBreadCrumb = False
-        blogDir = Path("content/blog") / g.currentLanguage
-        markdowns = list(blogDir.glob("*.md"))
-        markdowns.sort(reverse=True)
+        blogDir   = Path("content/blog") / blogType / lg
+        mds = list(blogDir.glob("*.md"))  # markdown files
+        mds.sort(reverse=True)
 
         listItems = []
-        for idx1, pth in enumerate(markdowns):
+        for idx1, pth in enumerate(mds):
             if idx1 >= 10:
                 break
             try:
-                _, _, _, _, _, outerCnt = mdParts(pth, idx1)
+                _, _, _, _, _, outerCnt = mdParts(blogType, lg, Path(pth).name)
                 listItems.append(outerCnt)
             except Exception as exc:
                 return f"error processing {pth}: {exc}"
         innerCnt =  f"""<ul>
                              {''.join(listItems)} 
                         </ul>"""
+
     else:
 
         showBreadCrumb = True
 
         # newest => find most recent blog
         if md == "newest":
-            # blogDir = Path("content/blog") / g.currentLanguage
-            blogDir = Path("content/blog") / lg
-            markdowns = list(blogDir.glob("*.md"))
-            markdowns.sort(reverse=True)    
-            pth = markdowns[0]
+            blogDir = Path("content/blog")  / blogType / lg
+            mds = list(blogDir.glob("*.md"))
+            mds.sort(reverse=True)    
+            pth = mds[0]
 
         else:
-            pth = Path("content/blog") / g.currentLanguage / md
+            pth = Path("content/blog") / lg / md
 
-        print(f"   pth {pth}")
 
-        h1, h2, tplName, restOfFile, dateLine, outerCnt = mdParts(pth, -1)
+        print(f"   blog path  {pth}")
+
+
+        h1, h2, designTpl, restOfFile, da, outerCnt = mdParts(blogType, lg, Path(pth).name)
 
         innerCnt = renderMarkdown(restOfFile)
 
 
-        if tplName:
-
-            tmp = Path(tplName)
+        # third line can containe a custom template for graphic design
+        if designTpl:
+            tmp = Path(designTpl)
             if tmp.suffix == ".html":
-                tplName = tmp.with_suffix("")
+                designTpl = tmp.with_suffix("")
 
-            expTpl = Path("templates/blog") / (tplName + ".html")
+            expTpl = Path("templates/blog") / (designTpl + ".html")
             if expTpl.exists():
                 print(f"\texplicit blog template found {expTpl}")
                 innerCnt = render_template(
@@ -426,9 +434,10 @@ def blog(lg=None, md=None):
     outerCnt = render_template(
         "blog-body.html",
         breadCrumb = showBreadCrumb,
+        blogType   = blogType,
         h1  =  h1,
         h2  =  h2,
-        dateLine   =  dateLine,
+        dateLine   =  da,
         content    = innerCnt,
     )
 

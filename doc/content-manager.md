@@ -1,19 +1,25 @@
 # Adding blog articles
 
 * Blog articles are written as single files in  
-    `content/blog/de/`     
-    `content/blog/en/`
+    `content/blog/policy/de/`     
+    `content/blog/policy/en/`
+    or
+    `content/blog/science/de/`     
+    `content/blog/science/en/`
+
 
 * For editing use [VS Code](https://code.visualstudio.com/download)
 
 * `[year-month-day].md` files - written in [Markdown format](https://en.wikipedia.org/wiki/Markdown#Examples)
+
+* Create matching files in ...`/en` and in `/de`
 
 
 ## Run the Website on your notebook, so check results
 
 * (assuming one-time setup of Python and modules)
 
-* Open a `Termina` - a `command window`
+* Open a `Terminal` - a `command window`
     * Windows Explorer
     * Parent directory of    `ecb-monitor`
     * Right-click and choose `Open in Terminal`
@@ -22,7 +28,7 @@
 * Do `git pull` before starting work
 
 * Writing a blog post in English and German 
-    * Files go in `/content/blog/en` and -`de`
+    * Files go to  `/content/blog/[policy|science]/en` and -`de`
 
 * Title, subtitle, vignette
     * First  line is the blog title - appears in list and in detail view
@@ -61,10 +67,14 @@ git push
 
 ---
 
-## Images
+## Image sources
 
-https://stock.adobe.com/de
+* https://commons.wikimedia.org/wiki/Main_Page
 
+* https://stock.adobe.com/de
+
+
+Search for
 
 •	Geldpolitik 
     o	Expansiv versus restriktiv

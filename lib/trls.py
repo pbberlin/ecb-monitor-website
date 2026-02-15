@@ -53,8 +53,8 @@ trlsRaw = [
     {
         "back_home_hint": {
             # ⌫ or ⇦
-            "de": "Zurück zur Hompage     ALT+ ⬅ oder   ⌫",
-            "en": "Back home              ALT+ ⬅ or     ⌫)",
+            "de": "Zurück zur Hompage        ALT+ ⬅     oder     ⌫",
+            "en": "Back home        ALT+ ⬅     or      ⌫",
         },
     },
 
@@ -141,7 +141,27 @@ trlsRaw = [
         },
     },
     {
-        "ecb_watching_body_headline":    {
+        "ecb_momentum_report_hint":    {
+            "de": "So hat sich das geldpolitische Momentum in den Reden des EZB-Rats über die letzten Monate verändert",
+            "en": "This is how the monetary policy momentum in the speeches of the ECB Governing Council has changed over the past months.",
+        },
+    },
+    {
+        "ecb_watching_hint":    {
+            "de": "Forschende und ECB-Watcher, die nicht für Notenbanken arbeiten, zu aktuellen geldpolitischen Fragestellungen.",
+            "en": "Researchers and ECB watchers who do not work for central banks on current monetary policy issues.",
+        },
+    },
+
+
+    {
+        "blog_policy_headline":    {
+            "de": "ECB-Watching – der Kommentar",
+            "en": "ECB-Watching – commentary",
+        },
+    },
+    {
+        "blog_science_headline":    {
             "de": "ECB-Watching – der Kommentar",
             "en": "ECB-Watching – commentary",
         },

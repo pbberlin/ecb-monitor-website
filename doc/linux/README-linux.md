@@ -220,7 +220,11 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 ls -lAh /etc/apache2/sites-enabled/*.conf
 sudo vim /etc/apache2/sites-enabled/ecb-le-ssl.conf
 
+# insert
 CustomLog ${APACHE_LOG_DIR}/access.log minimal
+
+sudo systemctl reload apache2
+
 ```
 
 
