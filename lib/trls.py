@@ -634,7 +634,7 @@ trlsRaw = [
         "ecb_council_infobox":    {
             "de": """
                 <ul>
-                    <li>Dovish-Hawkish KI Score
+                    <li>Hawk-dove KI Score
                         <ul>
                             <li>Sammlung aller offiziellen Äußerungen des Ratsmitglieds</li>
                             <li>Evaluation mittels LLM hinsichtlich expansiver oder restriktiver Fiskalpolitik</li>
@@ -654,7 +654,7 @@ trlsRaw = [
             """,
             "en": """
                 <ul>
-                    <li>Dovish–Hawkish AI Score
+                    <li>Hawk-dove AI Score
                         <ul>
                             <li>Collection of all official statements by the council member</li>
                             <li>Evaluation using an LLM regarding expansionary or restrictive fiscal policy</li>
@@ -684,14 +684,14 @@ trlsRaw = [
 
     {
         "council_by_6weeks_section": {
-            "de": "Dovish-Hawkish Score",
-            "en": "Dovish-Hawkish score",
+            "de": "Hawk-dove Position",
+            "en": "Hawk-dove score",
         },
     },
     {
         "headline_council_by_6weeks": {
-            "de": "Dovish-Hawkish Score für den gesamten EZB-Rat",
-            "en": "Dovish-Hawkish score for the entire ECB-Council",
+            "de": "Hawk-dove Position für den gesamten EZB-Rat",
+            "en": "Hawk-dove score    for the entire ECB-Council",
         },
     },
     {
