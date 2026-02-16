@@ -129,6 +129,12 @@ trlsRaw = [
             "en": "Interpretation assistance",
         },
     },
+    {
+        "infobox_header_homepage":    {
+            "de": "Mehr",
+            "en": "More",
+        },
+    },
 
 
     {
