@@ -51,6 +51,12 @@ trlsRaw = [
     },
 
     {
+        "section_home":    {
+            "de": "Home",
+            "en": "Home",
+        },
+    },
+    {
         "back_home_hint": {
             # ⌫ or ⇦
             "de": "Zurück zur Hompage        ALT+ ⬅     oder     ⌫",
@@ -164,10 +170,26 @@ trlsRaw = [
 
     {
         "headline_ecb_monetary_policy": {
-            "de": "EZB-Geldpolitik",
-            "en": "ECB Monetary Policy",
+            # "de": "EZB-Geldpolitik",
+            # "en": "ECB Monetary Policy",
+            "de": "EZB Leitzinsen     & Termine",
+            "en": "ECB Interest Rates & Calendar",
         },
     },
+    {
+        "section_interest_rates": {
+            "de": "Leitzinsen",
+            "en": "Interest Rates",
+        },
+    },
+    {
+        "section_calendar": {
+            "de": "Sitzungskalender",
+            "en": "Calendar",
+        },
+    },
+
+
     {
         "headline_fiscal_data":    {
             "de": "Fiskaldaten",
@@ -647,6 +669,7 @@ trlsRaw = [
                         </ul>
                     </li>
                     <li>Malta and Cyprus are mostly full members</li>
+                    <li>Liechtenstein, Malta and Cyprus have been sized up for better mouse navigation</li>
 
 
                     <li>Discuss: Tenure ending-starting same year </li>
@@ -711,8 +734,8 @@ trlsRaw = [
     },
     {
         "headline_council_tempomat": {
-            "de": "Abstimmungs-Arithmetik. Positionen im EZB-Rat",
-            "en": "Panel arithmetics. Positions of the ECB council",
+            "de": "Falke-Taube-Positionen der EZB Ratsmitglieder und Median Position",
+            "en": "Hawk-dove positions of ECB Council members and median position",
         },
     },
     {
