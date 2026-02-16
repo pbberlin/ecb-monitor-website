@@ -741,7 +741,7 @@ trlsRaw = [
     {
         "council_tempomat_desc": {
             "de": "Position der Ratsmitglieder  im jeweiligen Jahr. Die Entscheidungen eines Gremiums konvergieren zur Median-Position.  ",
-            "en": "Position of  council members per year. Board decisions converge around the median position.",
+            "en": "Position of  council members per year. Council decisions converge around the median position.",
         },
     },
     {
