@@ -17,7 +17,7 @@
 
 ## Run the Website on your notebook, so check results
 
-* (assuming one-time setup of Python and modules)
+* (assuming one-time setup of Python and modules + git clone of repo)
 
 * Open a `Terminal` - a `command window`
     * Windows Explorer
@@ -57,6 +57,7 @@
 * Run `cls && python app.py` to check your new content 
     * `F5` or `CTRL+R` to reload 
 
+* Commit your changes and publish them  
 ```sh
 git add *
 git commit -a -m "[my short description]"

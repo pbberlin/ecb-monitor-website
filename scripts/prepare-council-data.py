@@ -196,7 +196,7 @@ def convertPickleToJs(
         if not isinstance(dta, pd.DataFrame):
             dta = pd.DataFrame(dta)
 
-        print(f"\t  found {len(dta)} records in data frame")
+        print(f"\t  found {len(dta)} records in data frame \n\t\t{pthPickle}")
 
         # columns and the key column values
         cols = dta.columns.tolist()

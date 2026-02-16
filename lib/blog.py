@@ -26,6 +26,24 @@ def dateFormat( isoDate = "2026-01-26", lg="de" ):
 
 
 
+def renderMarkdown(markDownCnt):
+
+  # --- render Jinja
+  markDownCnt = render_template_string(
+     markDownCnt
+  )
+
+  try:
+    htmlContent = markdown.markdown(
+      markDownCnt,
+      extensions=["tables"],
+    )
+    return htmlContent
+
+  except Exception as exc:
+    return f"error markdown rendering: {exc}"
+
+
 
 # parsing a markdown file - see doc string inside
 def mdParts(blogType: str, lg: str, fn: str , paramAutofocus=False):
@@ -76,20 +94,6 @@ def mdParts(blogType: str, lg: str, fn: str , paramAutofocus=False):
     return h1, h2, designTpl, restOfFile, dateLine, listEntry
 
 
-def renderMarkdown(markDownCnt):
-
-  # --- render Jinja
-  markDownCnt = render_template_string(markDownCnt)
-
-  try:
-    htmlContent = markdown.markdown(
-      markDownCnt,
-      extensions=["tables"],
-    )
-    return htmlContent
-
-  except Exception as exc:
-    return f"error markdown rendering: {exc}"
 
 
 
@@ -110,8 +114,6 @@ def thumb(fn):
     # print(f"{fn:24} ->  {pth}")
     return f'<img src="{pth}" width="200">'
 
-
-
 def licenceString(fnParam):
     fn = fnParam.lower()
     if "adobe" in fn:
@@ -121,10 +123,7 @@ def licenceString(fnParam):
     return "Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)."
 
 
-
-
 def imageLicenses():
-
 
   imgs = [
       "symbols/imag0021_backspace.jpg",
