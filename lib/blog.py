@@ -147,7 +147,7 @@ def imageLicenses():
 
   lines.append("### Image Credits (Licence Information)")
   lines.append("")
-  lines.append("This site uses [Apache Echarts](https://github.com/apache/echarts)")
+  lines.append("<br>This site uses [Apache Echarts](https://github.com/apache/echarts)")
   lines.append("")
   lines.append("Credits for the images used on this website.")
 
