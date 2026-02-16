@@ -22,16 +22,17 @@
 * previous last line should end with `...\ecb-council-by-function.js`
 
 
-* Run `cls && python app.py` to check your new content 
+* To check your new content<br>locally on your own notebook
+    * `cls && python app.py`
     * `F5` or `CTRL+R` to reload 
 
 
 * Commit your changes and publish them  
-```sh
-git add *
-git commit -a -m "[my short description]"
-git push
-```
+    ```sh
+    git add *
+    git commit -a -m "[my short description]"
+    git push
+    ```
 
 * Check your changes on [ecb-monitor.zew.de](https://ecb-monitor.zew.de)
 
