@@ -770,7 +770,7 @@ trlsRaw = [
         "tempomat_section": {
             # "de": "Mehrheitsverhältnisse EZB-Rat",
             # "en": "Majorities ECB-Council",
-            "de": "Mitlieder   Positionen",
+            "de": "Mitglieder   Positionen",
             "en": "Council member  positions",
         },
     },
