@@ -131,8 +131,8 @@ trlsRaw = [
     },
     {
         "infobox_header_homepage":    {
-            "de": "Mehr",
-            "en": "More",
+            "de": "Mehr Info",
+            "en": "More info",
         },
     },
 
