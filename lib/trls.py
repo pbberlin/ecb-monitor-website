@@ -209,6 +209,42 @@ trlsRaw = [
         },
     },
     {
+        "economic_environment_infobox":    {
+            "de": """
+                <ul>
+                    <!--
+                        ● ➡ ↪
+                    -->
+                    <li>Das wirtschaftliche Umfeld beeinflusst die Politik der EZB</li>
+                    <ul>
+                        <li> Schwaches   Wachstum ↪ geldpolitische Expansion</li>
+                        <li> Starkes Wachstum ↪ geldpolitische Kontraktion gegen „überhitzende“ Inflation</li>
+                        <li> Positive Produktionslücke &nbsp; ↪  &nbsp; Kontraktion gegen „Überhitzung“</li>
+                        <li> Inflation < 1 %   &nbsp; ↪  &nbsp; deflationäre Spirale ➡ Expansion</li>
+                        <li> Inflation > 4 %   &nbsp; ↪  &nbsp; inflationäre Spirale ➡  Kontraktion</li>
+                    </ul>
+                </ul>
+            """,
+            "en": """
+                <ul>
+                    <!--
+                        ● ➡ ↪
+                    -->
+                    <li>The economic environment influences ECB policy</li>
+                    <ul>
+                        <li> Weak   growth ↪ monetary expansion</li>
+                        <li> Strong growth ↪ monetary contraction against 'overheating' inflation</li>
+                        <li> Positive output gap &nbsp; ↪  &nbsp; contraction against 'overheating'</li>
+                        <li> Inflation < 1 pct   &nbsp; ↪  &nbsp; deflationary spiral ➡ expansion</li>
+                        <li> Inflation > 4 pct   &nbsp; ↪  &nbsp; inflationary spiral ➡  contraction</li>
+                    </ul>
+
+                    
+                </ul>
+            """,
+        },
+    },
+    {
         "headline_science":    {
             "de": "Wissenschaft",
             "en": "Science",
