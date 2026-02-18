@@ -46,26 +46,6 @@
   }
 
 
-  /*
-    container: left-to-right flow, top-aligned
-    3 columns
-    - col 1: 20% - at least 20vm
-    - col 2: exactly 820px
-    - col 3: 1fr - takes remaining width
-    -           or right margin max(20rem, 20vw)
-  */
-  .layout {
-    width: calc( 820px + 2* var(--w01));
-    margin: 0 auto;
-
-    display: grid;
-    grid-template-columns:  var(--w01) 820px  var(--w01);
-    column-gap: 0;
-    align-items: start;           /* vertical: top for all */
-
-    /* border: 1px solid red; */
-  }
-
   /* Ensure grid items can shrink if needed */
   .col {
     min-width: 0;
@@ -200,17 +180,6 @@
         /* also zooms the echart */
         --echartHeight:   34vh;
         --display-type:   mobile;               /* used in javascript, no quotation marks */
-      }
-
-
-      /* single column stack */
-      .layout {
-        width:     100%;
-        max-width: 100%;
-
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;  /* col--left, col--center, col--right */
       }
 
       /* allow cols to shrink nicely */
@@ -502,7 +471,6 @@
 <!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script> -->
 <script type="text/javascript" src="/static/js/echarts.min.js"                ></script>
 <script type="text/javascript" src="/static/js/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
-<script type="text/javascript" src="/static/js/funcs.js?v={{staticVersion}}"      ></script>
 <script type="text/javascript" src="/static/dl/council-by-6weeks.js?v={{staticVersion}}"          ></script>
 
 
@@ -743,7 +711,7 @@
 
 
 
-    // global colors for series - taken from main-fonts.css
+    // global colors for series - taken from ....css
 
     // factored out of the options object -
     //   so we can reference it in the yAxis

@@ -7,8 +7,9 @@
     <meta content="index, follow" name="robots" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <link href="/static/css/main-zew.css?v={{staticVersion}}"   media="all" rel="stylesheet" />
-    <link href="/static/css/main-fonts.css?v={{staticVersion}}" rel="stylesheet" />
+    <link    href="/static/css/ecb-mon-fonts.css?v={{staticVersion}}" rel="stylesheet" />
+    <link    href="/static/css/ecb-mon.css?v={{staticVersion}}" rel="stylesheet" />
+    <script  src="/static/js/funcs.js?v={{staticVersion}}"    type="text/javascript"  ></script>
 
     <!-- factoring out inline script causes complexity  -->
     <script>
@@ -22,121 +23,63 @@
 
 <body>
 
-    <header id="header">
-        <!-- xxxxx nav erste Zeile start -->
-        <div class="c-meta u-d:n u-d:f@md">
-            <nav class="c-meta__group">
+    <header>
+        <nav>
 
-                <a class="c-meta__link" title=""  style="margin-right: 3rem;"    
-                    href="/"          >{{i18n.app_title}}  </a>
+            <a class="c-meta__link" title=""  style="margin-right: 3rem;"    
+                href="/"          >{{i18n.app_title}}  </a>
+            
+            <a class="c-meta__link" title=""    
+                href="/pg/ecb-council.html"          >{{i18n.headline_ecb_council}}  </a>
 
-                
-                <a class="c-meta__link" title=""    
-                    href="/pg/ecb-council.html"          >{{i18n.headline_ecb_council}}  </a>
+            <a class="c-meta__link" title="" 
+                href="/md/interest-rates.md"      >{{i18n.section_ecb_monetary_policy}}  </a>
 
-                <a class="c-meta__link" title="" 
-                    href="/md/interest-rates.md"      >{{i18n.section_ecb_monetary_policy}}  </a>
+            <a class="c-meta__link" title=""    
+                href="/pg/fiscal-landscape.html"     >{{i18n.headline_fiscal_data}} </a>
 
-                <a class="c-meta__link" title=""    
-                    href="/pg/fiscal-landscape.html"     >{{i18n.headline_fiscal_data}} </a>
+            <a class="c-meta__link" title=""  
+                href="/pg/economic-environment.html" >{{i18n.section_economic_environment}} </a>
 
-                <a class="c-meta__link" title=""  
-                    href="/pg/economic-environment.html" >{{i18n.section_economic_environment}} </a>
-
-                <a class="c-meta__link" title="Aktuelle Forschung"     
-                    href="/blog/science/newest"     >{{i18n.headline_science}}  </a>
-
-                <a class="c-meta__link" title="ZEW"
-                    style="margin-left: 3rem;"            
-                    href="https://www.zew.de/das-zew/ueber-das-zew" >ZEW</a>
-
-            </nav>
+            <a class="c-meta__link" title="Aktuelle Forschung"     
+                href="/blog/science/newest"     >{{i18n.headline_science}}  </a>
 
 
-            <div class="c-meta__group">
-                <nav>
-                    <a 
-                        title="{{i18n.switch_language_hint}}"
-                        class="c-meta__link js-languageswitch" 
-                        href="{{switchLgUrl}}"
-                        accesskey="l"
-                    >
-                        {{i18n.switch_language_label}}
-                        <!-- {{switchLgCode}} -->
-                    </a>
-                </nav>
-            </div>
-        </div>
 
+            <a class="c-meta__link" title="ZEW"                    style="margin-left: 3rem;"            
+                href="https://www.zew.de/das-zew/ueber-das-zew" >ZEW</a>
+
+
+            <a class="c-meta__link"  title="{{i18n.switch_language_hint}}"  
+                href="{{switchLgUrl}}"
+                accesskey="l"
+            >{{i18n.switch_language_label}}  <!-- {{switchLgCode}} --></a>
+
+        </nav>
 
 
         <!-- xxxxx  nav zweite Zeile -->
-        <div class="c-menu-main c-menu-main--init ac-menu-main--sticky" id="c-menu-main">
+        <div class="c-menu-main" id="c-menu-main">
 
             <!-- burger -->
-            <button class="c-menu-main__btn c-menu-main__btn--with-icon c-menu-main__trigger js-offcanvas-trigger"
-                style="position: relative;"
-            >
+            <div></div>
 
-                <!-- 
-
-                    <span class="u-icon--icon-menu"></span>
-                    <span class="u-d:n u-d:b@lg" id="openMainMenuTrigger">
-                        {{i18n.our_topics | safe}}
-                    </span>
-                -->
-
-            </button>
-
-
-
-            <!-- xxxx  logo -->
-            <a class="c-menu-main__logo" href="/" target="_self">
-
-                <!-- EZB-Transparenz-Monitor -->
-                <!-- desktop -->
-                <span style="font-size: 2.6rem;"
-                    class="u-d:n u-d:b@sm"
-                >
-                    {{ i18n.app_title }}
-                </span>
-
-                <!-- mobile -->
-                <span style="font-size: 1.20rem;"
-                    class="u-d:n@sm u-d:b"
-                >
+            <a class="c-meta__link" href="/" target="_self">
+                <span style="font-size: 2.8rem;">
                     {{ i18n.app_title }}
                 </span>
             </a>
 
-
-            <ul class="c-menu-main__list u-d:f u-d:n@lg">
-                <li class="c-menu-main__list-item">
-                    <button class="c-menu-main__searchbtn c-menu-main__btn">
-                        <span class="u-typo:xl u-icon--icon-search"></span>
-                    </button>
-                </li>
-            </ul>
-            <nav class="u-d:n u-d:f@lg" id="c-menu-main__list">
-                <ul class="c-menu-main__list">
-                    <!-- rechts neben ZEW logo - empty -->
-                </ul>
-            </nav>
+            <div></div>
         </div>
-
 
     </header>
 
     <!-- xxxx content start  -->
-    <!-- Render HTML fragment as raw HTML -->
     {{ content | safe }}
 
+
     {% include "partials/footer-en.html" %}
-
-
-
-
-  <script src="/static/js/main.js?v={{staticVersion}}"></script>
 
 
   <!-- GoatCounter pixel: placed at the END of <body> -->
@@ -145,6 +88,8 @@
     alt="" width="1" height="1"
     referrerpolicy="no-referrer-when-downgrade"
   />
+
+
 
 </body>
 
