@@ -30,19 +30,19 @@
                 href="/"          >{{i18n.app_title}}  </a>
 
             <a class="c-meta__link" title=""
-                href="/pg/ecb-council.html"          >{{i18n.headline_ecb_council}}  </a>
+                href="/pg/ecb-council.html"          >{{i18n.headline_ecb_council|safe}}  </a>
 
             <a class="c-meta__link" title=""
-                href="/md/interest-rates.md"      >{{i18n.section_ecb_monetary_policy}}  </a>
+                href="/md/interest-rates.md"         >{{i18n.section_ecb_monetary_policy|safe}}  </a>
 
             <a class="c-meta__link" title=""
-                href="/pg/fiscal-landscape.html"     >{{i18n.headline_fiscal_data}} </a>
+                href="/pg/fiscal-landscape.html"     >{{i18n.headline_fiscal_data|safe}} </a>
 
             <a class="c-meta__link" title=""
-                href="/pg/economic-environment.html" >{{i18n.section_economic_environment}} </a>
+                href="/pg/economic-environment.html" >{{i18n.section_economic_environment|safe}} </a>
 
             <a class="c-meta__link" title="Aktuelle Forschung"
-                href="/blog/science/newest"     >{{i18n.headline_science}}  </a>
+                href="/blog/science/newest"          >{{i18n.headline_science|safe}}  </a>
 
 
 
@@ -53,7 +53,7 @@
             <a class="c-meta__link"  title="{{i18n.switch_language_hint}}"
                 href="{{switchLgUrl}}"
                 accesskey="l"
-            >{{i18n.switch_language_label}}  <!-- {{switchLgCode}} --></a>
+            >{{i18n.switch_language_label|safe}}  <!-- {{switchLgCode}} --></a>
 
         </nav>
 

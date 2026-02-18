@@ -182,8 +182,8 @@ trlsRaw = [
     },
     {
         "section_ecb_monetary_policy": {
-            "de": "Zinsen+Termine",
-            "en": "Rates+Calendar",
+            "de": "Zinsen&shy;+Termine",
+            "en": "Rates&shy;+Calendar",
         },
     },
 
@@ -203,8 +203,8 @@ trlsRaw = [
 
     {
         "headline_fiscal_data":    {
-            "de": "Fiskaldaten",
-            "en": "Fiscal Landscape",
+            "de": "Fiskal&shy;daten",
+            "en": "Fiscal Land&shy;scape",
         },
     },
     {
@@ -216,7 +216,7 @@ trlsRaw = [
     {
         "section_economic_environment":    {
             "de": "Ökon. Umfeld",
-            "en": "Econ. Landscape",
+            "en": "Econ. Land&shy;scape",
         },
     },
     {
@@ -257,7 +257,7 @@ trlsRaw = [
     },
     {
         "headline_science":    {
-            "de": "Wissenschaft",
+            "de": "Wissen&shy;schaft",
             "en": "Science",
         },
     },
