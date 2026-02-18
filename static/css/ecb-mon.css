@@ -236,7 +236,7 @@ nav a:last-child {
 
     padding: 0 var(--element-space-1);
 
-    align-items: center;
+    align-items:   center;
     justify-items: center;
 
 }
@@ -246,6 +246,11 @@ nav a:last-child {
         height:     var(--nav-height);
         padding: 0;
         font-size: 80%;
+
+
+        align-items:   start;
+        padding-top: calc(  var(--nav-height) / 3 );
+
     }
 }
 
