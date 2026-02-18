@@ -176,12 +176,17 @@ trlsRaw = [
 
     {
         "headline_ecb_monetary_policy": {
-            # "de": "EZB-Geldpolitik",
-            # "en": "ECB Monetary Policy",
             "de": "EZB Leitzinsen     & Termine",
             "en": "ECB Interest Rates & Calendar",
         },
     },
+    {
+        "section_ecb_monetary_policy": {
+            "de": "Zinsen+Termine",
+            "en": "Rates+Calendar",
+        },
+    },
+
     {
         "section_interest_rates": {
             "de": "Leitzinsen",
@@ -206,6 +211,12 @@ trlsRaw = [
         "headline_economic_environment":    {
             "de": "Ökonomisches Umfeld",
             "en": "Economic Landscape",
+        },
+    },
+    {
+        "section_economic_environment":    {
+            "de": "Ökon. Umfeld",
+            "en": "Econ. Landscape",
         },
     },
     {
