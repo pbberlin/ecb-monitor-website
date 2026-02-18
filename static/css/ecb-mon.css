@@ -136,6 +136,9 @@ nav {
     padding-left:  3rem;
     padding-right: 3rem;
     height:     var(--nav-height);
+
+    align-items: center;
+    justify-items: center;
 }
 nav > :nth-child(1) {
     margin-right: 3rem;
@@ -151,6 +154,7 @@ nav a:last-child {
     nav {
         padding: 0;
         column-gap: 0.1ch;
+        text-align: center;
     }
     nav > :nth-child(1),
     nav > :nth-child(7),
@@ -241,6 +245,7 @@ nav a:last-child {
         line-height: 1.2;
         height:     var(--nav-height);
         padding: 0;
+        font-size: 80%;
     }
 }
 
