@@ -338,7 +338,7 @@
 
     <!-- First (top, right) -->
     <a href="/"  class="backspace-key" id="backspace-home"  tabindex="-1"  title="{{i18n.back_home_hint}}" > <img src="/static/img/symbols/back-home-2.png"  class="backspace-key"  alt="{{i18n.back_home_hint}}" > </a>
-    <h3> {{i18n.headline_fiscal_data}}</h3>
+    <h3> {{i18n.headline_fiscal_data|safe}}</h3>
 
     <div id="slider-group" class="slider-group">
       <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
