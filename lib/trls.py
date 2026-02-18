@@ -860,7 +860,7 @@ trlsRaw = [
     {
         "headline_image_licenses": {
             "de": "Bildnachweis",
-            "en": "Image Licence Info",
+            "en": "Image Licence",
         },
     },
 
