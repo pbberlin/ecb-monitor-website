@@ -1,15 +1,37 @@
 # Flask web application
 
+## Local development web server 
+
 ```sh
 pip install -r requirements.txt
-
-# local development Flask server 
 cls && python app.py
 ```
 
-Use _localhost_ instead of 127.0.0.1
+* Use _localhost_ instead of 127.0.0.1
 
-Open in browser http://localhost:5000
+* Open in [browser](http://localhost:5000)
+
+
+## No Admin
+
+* If you dont have admin right
+
+* pip install <contents of requirements.txt>
+
+* python -m site --user-base yields
+    * C:\Users\<YourName>\AppData\Roaming\Python
+    * C:\Users\<YourName>\AppData\Roaming\Python\Python311
+
+
+```powershell
+[Environment]::SetEnvironmentVariable(
+    "Path",
+    $env:Path + ";C:\Users\<YourName>\AppData\Roaming\Python\Python311\Scripts",
+    "User"
+)
+# restart terminal
+echo $env:Path
+```
 
 
 ## Notes
