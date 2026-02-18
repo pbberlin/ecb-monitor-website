@@ -687,7 +687,7 @@ trlsRaw = [
         "ecb_council_infobox":    {
             "de": """
                 <ul>
-                    <li>Hawk-dove KI Score
+                    <li>Taube-Falke KI Score
                         <ul>
                             <li>Sammlung aller offiziellen Äußerungen des Ratsmitglieds</li>
                             <li>Evaluation mittels LLM hinsichtlich expansiver oder restriktiver Fiskalpolitik</li>
@@ -707,7 +707,7 @@ trlsRaw = [
             """,
             "en": """
                 <ul>
-                    <li>Hawk-dove AI Score
+                    <li>Dove-Hawk AI Score
                         <ul>
                             <li>Collection of all official statements by the council member</li>
                             <li>Evaluation using an LLM regarding expansionary or restrictive fiscal policy</li>
@@ -737,20 +737,20 @@ trlsRaw = [
 
     {
         "council_by_6weeks_section": {
-            "de": "Hawk-dove Position",
-            "en": "Hawk-dove score",
+            "de": "Taube-Falke Position",
+            "en": "Dove-Hawk score",
         },
     },
     {
         "headline_council_by_6weeks": {
-            "de": "Hawk-dove Position für den gesamten EZB-Rat",
-            "en": "Hawk-dove score    for the entire ECB-Council",
+            "de": "Taube-Falke Position für den gesamten EZB-Rat",
+            "en": "Dove-Hawk score    for the entire ECB-Council",
         },
     },
     {
         "council_by_6weeks_desc":    {
-            "de": "Leitzins Entscheidungen folgen der Hawkish-Dovish Einschätzung der vorangegangenen Kommunikation. Plausibel. Kausalbeziehung nicht beweisbar.",
-            "en": "Rate settings follows Hawkish-Dovish score. Plausible, but causal relation cannot be proved.",
+            "de": "Leitzins Entscheidungen folgen der Dovish-Hawkish Einschätzung der vorangegangenen Kommunikation. Plausibel. Kausalbeziehung nicht beweisbar.",
+            "en": "Rate settings follows Dovish-Hawkish score. Plausible, but causal relation cannot be proved.",
         },
     },
     {
@@ -760,7 +760,7 @@ trlsRaw = [
                     <!--
                         ● ➡ ↪
                     -->
-                    <li>Dovish-hawkish Einschätzung der Ratsmitglieder per sechs Wochen</li>
+                    <li>Dovish-Hawkish Einschätzung der Ratsmitglieder per sechs Wochen</li>
                     <li>EZB Zinssätze</li>
                 </ul>
             """,
@@ -787,8 +787,8 @@ trlsRaw = [
     },
     {
         "headline_council_tempomat": {
-            "de": "Falke-Taube-Positionen der EZB Ratsmitglieder und Median Position",
-            "en": "Hawk-dove positions of ECB Council members and median position",
+            "de": "Taube-Falke Positionen der EZB Ratsmitglieder und Median Position",
+            "en": "Dove-Hawk positions of ECB Council members and median position",
         },
     },
     {

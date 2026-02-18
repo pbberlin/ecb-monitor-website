@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "meta pro";
+  src:
+    url("/static/fonts/MetaProOTF/MetaPro-Normal.otf") format("opentype"),
+    url("/static/fonts/MetaProOTF/MtNoLFRo.ttf")       format("truetype");
+  font-weight:  400;
+  font-style:   normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-NormalItalic.otf") format("opentype");
+  font-weight:  400;
+  font-style:   italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-Book.otf") format("opentype");
+  font-weight:  300;
+  font-style:   normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-Medium.otf") format("opentype");
+  font-weight:  500;
+  font-style:   normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-MediumItalic.otf") format("opentype");
+  font-weight:  500;
+  font-style:   italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-Bold.otf") format("opentype");
+  font-weight:  700;
+  font-style:   normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "meta pro";
+  src: url("/static/fonts/MetaProOTF/MetaPro-Black.otf") format("opentype");
+  font-weight:  900;
+  font-style:   normal;
+  font-display: swap;
+}
+
+
+
+
+/* every element use meta pro */
+html {
+  /* font-family: "meta pro", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; */
+  /* font-family: "meta pro", Arial, sans-serif; */
+  font-family: "meta pro", Arial, sans-serif;
+  /* font-family: Arial; */
+  line-height: 1.6;
+  font-variant-ligatures: none;
+}
+
+/* form controls must inherit font */
+body,
+input,
+button,
+select,
+textarea {
+    font: inherit;
+}
+
+
+
+
+
+/* infobox start */
+
+  /* wobble */
+  @keyframes wobble {
+        0% { transform: rotate(  0deg); }
+        15% { transform: rotate(-10deg); }
+        30% { transform: rotate(  8deg); }
+        45% { transform: rotate( -6deg); }
+        60% { transform: rotate(  4deg); }
+        75% { transform: rotate( -2deg); }
+      100% { transform: rotate(  0deg); }
+  }
+  .wobble {
+      animation: wobble 0.6s ease-in-out;
+  }
+
+  #btnDlgIco,
+  .box1 a#btnDlgIco,     /*  homepage - extra specifity */
+  dummy {
+      width:         1.2rem;
+      height:        1.2rem;
+      font-size:     1.1rem;
+      font-weight:   400;
+      line-height:   1;
+      display:       inline-grid !important;
+      place-items:   center;
+      border-radius: 44%;
+      border:        2px solid currentColor;
+      margin-left:   0.5rem;
+      box-shadow: none !important;
+  }
+
+
+  dialog {
+      width:            66vw;
+      height:           66vh;
+      max-width:      1000px;
+      max-height:      800px;
+      border:           none;
+      border-radius:    12px;
+      padding:           0;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
+  }
+  dialog::backdrop {
+      background: rgba(0, 0, 0, 0.45);
+  }
+
+
+  #dlgHead {
+      display:         flex;
+      justify-content: space-between;
+      align-items:     center;
+      padding:          1rem 1.25rem;
+      padding-top:      1.25rem;
+      border-bottom:   1px solid #e5e7eb;
+      /* font-weight: 600; */
+      font-weight: 400;
+      background-color: #efefef;
+      height:      1.7ch;
+  }
+
+  #btnDlgClose {
+      background: none;
+      border:     none;
+      font-size:  1.15rem;
+      height:     1.35rem;
+      line-height: 1.1;
+      /* cursor: pointer; */
+  }
+
+  #dlgCnt {
+      margin:      0;
+      padding:     0.8rem 0.925rem;
+      overflow:    auto;
+      overflow-y:  auto;
+      height: calc(100% - 3.5ch);
+      font-size:  120%;
+      line-height: 2.4;
+  }
+
+  #dlgCnt ul li {
+    list-style: circle;
+    line-height: 1.6;
+    margin: 0.3ch 0;
+    margin-left: 2ch;
+  }
+
+  #dlgCnt   ul ul {
+      margin-left:  2ch;     /*  indent */
+      padding-left: 2ch;    
+  }
+  #dlgCnt   ul ul li {
+    font-size: 90%;
+  }
+
+  @media (max-width: 768px) {
+      dialog {
+          width:  90vw;
+          height: 90vh;
+      }
+  }
+
+
+/* infobox end */
