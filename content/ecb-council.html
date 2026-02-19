@@ -688,6 +688,7 @@
       let item1 = {
         name: 'ECB Tower large',
         type: 'scatter',
+        silent: true, // events pass through - to underlying geo Region, click, hover, drag…
         coordinateSystem: 'geo',
         symbol: 'circle',
         symbol: 'image:///static/img/ecb/ecb-tower-02.png',
@@ -713,6 +714,7 @@
       let item2 = {
         name: 'ECB building label',
         type: 'scatter',
+        silent: true, // events pass through - to underlying geo Region, click, hover, drag…
         coordinateSystem: 'geo',
         symbol: 'circle',
         symbolSize: 0,
@@ -1061,6 +1063,7 @@
 
         let item = {
           type: 'scatter',
+          silent: true, // events pass through - to underlying geo Region, click, hover, drag…
           coordinateSystem: 'geo',
           symbol: 'circle',
           symbolSize: 34,
