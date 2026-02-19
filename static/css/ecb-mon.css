@@ -425,6 +425,7 @@ footer > :nth-child(5) {
     footer {
         display: grid;
         grid-template-columns: 1fr;
+
         padding-top:     0 ;
         padding-left:    0 ;
         padding-right:   0 ;
