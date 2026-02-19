@@ -641,6 +641,7 @@
       let item1 = {
         name: 'ECB Tower',
         type: 'scatter',
+        silent: true, // events pass through - to underlying geo Region, click, hover, drag…
         coordinateSystem: 'geo',
         symbol: 'circle',
         symbol: 'image:///static/img/ecb/ecb-tower-02.png',
@@ -667,6 +668,7 @@
       let item2 = {
         name: 'ECB Tower large',
         type: 'scatter',
+        silent: true, // events pass through - to underlying geo Region, click, hover, drag…
         coordinateSystem: 'geo',
         symbol: 'circle',
         symbol: 'image:///static/img/ecb/ecb-tower-02.png',
@@ -693,6 +695,7 @@
         silent: true,  // no reaction to click, hover, drag...
         name: 'Euro Area',
         type: 'scatter',
+        silent: true, // events pass through - to underlying geo Region, click, hover, drag…
         coordinateSystem: 'geo',
         symbol: 'circle',
         symbol: 'image:///static/img/euro-area/02a-sm.png',
@@ -714,6 +717,7 @@
       let item4 = {
         name: 'Euro area Label',
         type: 'scatter',
+        silent: true, // events pass through - to underlying geo Region, click, hover, drag…
         coordinateSystem: 'geo',
         symbol: 'circle',
         symbolSize: 0,
@@ -919,7 +923,7 @@
         // console.log(` ${statsValue} ${ valToPctToColor(statsValue, initOpacity, elOpa, selectedDataMeta[selectedVar]) }  ${country}`);
         let item = {
           type: 'scatter',
-          silent: true,
+          silent: true, // events pass through - to underlying geo Region, click, hover, drag…
           coordinateSystem: 'geo',
           symbol: 'circle',
           // x14x14
