@@ -1,4 +1,12 @@
-# Adding blog articles
+# Adding blog articles to ecb-monitor.zew.de
+
+## One time preparations
+
+* (one-time setup of Python and modules + git clone of repo, usually done for you by pbu)
+
+* Install [VS Code](https://code.visualstudio.com/download)
+
+## Structure of the blog content
 
 * Blog articles are written as single files in  
     `content/blog/policy/de/`     
@@ -8,27 +16,43 @@
     `content/blog/science/en/`
 
 
+* Files are named `[year-month-day].md`
+
+* Files are Written in [Markdown format](https://en.wikipedia.org/wiki/Markdown#Examples)
+
 * For editing use [VS Code](https://code.visualstudio.com/download)
 
-* `[year-month-day].md` files - written in [Markdown format](https://en.wikipedia.org/wiki/Markdown#Examples)
+* Create English and German versions in ...`/en` and in `/de`
 
-* Create matching files in ...`/en` and in `/de`
+## Run the Website on your notebook, to check results
+
+* Windows Explorer
+
+* Navigatate to parent directory of    `ecb-monitor`
+    * Usually somewhere under "Documents" - "Meine Dokumente"
+
+* Right-click on folder icon - and choose `Open in Terminal`
+
+### In the `black` terminal window
+
+* Be sure, that the `prompt` line ends with ...`ecb-monitor>`
+
+* Enter `git pull`
+    * Usually resonse is `Already up to date.`
+
+* Keep the black window open
 
 
-## Run the Website on your notebook, so check results
+### Switch to Windows Explorer again
 
-* (assuming one-time setup of Python and modules + git clone of repo)
+* Navigatate to directory  `ecb-monitor/content/blog/[policy|science]/en` and -`de`
 
-* Open a `Terminal` - a `command window`
-    * Windows Explorer
-    * Parent directory of    `ecb-monitor`
-    * Right-click and choose `Open in Terminal`
+* Now create new files with extension `.md` 
+    * You can also copy an existing file and rename it
 
-
-* Do `git pull` before starting work
+* Open the new files with VS Code
 
 * Writing a blog post in English and German 
-    * Files go to  `/content/blog/[policy|science]/en` and -`de`
 
 * Title, subtitle, vignette
     * First  line is the blog title - appears in list and in detail view
@@ -48,46 +72,62 @@
     * [wikimedia commons](https://commons.wikimedia.org/wiki/Main_Page)
     * Self-created images - by using Google Gemini nanon banana LLM.
 
-
+<!-- 
 * (todo) Edit `copyright.md`
     * Insert small version of the image
     * Add license info
+-->
+
+## Check your new content
+
+* To check your new content<br>in the website locally on your own notebook
+
+* Switch to the `black` terminal window
+    * Start the website on your notebook
+    * Enter   `python app.py`
+    * Response should end with `* Running on http://192.168.178.80:5000`
+
+* Go to your web browser and open `http://localhost:5000/`
+    * Navigate to the `ECB-Watching – der Kommentar`
+    * Navigate to the `Neues aus der Forschung`
+    * Check your new blog content
 
 
-* To check your new content<br>locally on your own notebook
-    * `cls && python app.py`
+* Switch to VS Code - and change your blog conten (German and English)
+
+* Switch back to your web browser
     * `F5` or `CTRL+R` to reload 
+    * Check your changes
 
 
-* Commit your changes and publish them  
-    ```sh
+## Bring your changes live
+
+* Make your changes visible on [ecb-monitor.zew.de](https://ecb-monitor.zew.de)
+
+* Go to the black terminal window
+
+* Enter these three lines  
+```sh
     git add *
     git commit -a -m "[my short description]"
     git push
-    ```
+```
+
+* The last line `git push` should result in a 20 lines response
 
 * Check your changes on [ecb-monitor.zew.de](https://ecb-monitor.zew.de)
 
+
+
+
 ---
 
+
+
 ## Image sources
+
+Possible images for your blog content
 
 * https://commons.wikimedia.org/wiki/Main_Page
 
 * https://stock.adobe.com/de
-
-
-Search for
-
-•	Geldpolitik 
-    o	Expansiv versus restriktiv
-    o	„Falke“ versus „Taube“
-•	Zentralbank
-•	Eurozone
-•	Euro-Währung
-•	EZB-Rat
-•	EZB-Hauptsitz
-•	Staatsanleihen
-•	Anleihezinsen
-•	Wirtschaftswachstum
-•	Inflation
