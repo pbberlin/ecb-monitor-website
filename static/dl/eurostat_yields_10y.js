@@ -333,6 +333,7 @@ const yieldsTenYears = {
   "2026-01": {
     "Austria": 3.0763,
     "Belgium": 3.36,
+    "Bulgaria": 3.93,
     "Croatia": 2.94,
     "Cyprus": 2.96,
     "Czech Republic": 4.46,
