@@ -42,7 +42,7 @@ euCountries = [
 
 
 
-def main(inputFile, targetFilename, targetCode, targetUnit):
+def main(inputFile, targetFilename, targetCode, targetUnit, targetUnitNot="impossibleNonEmptyDefault"):
 
     filteredRows = []
     headerFields = None
@@ -85,7 +85,7 @@ def main(inputFile, targetFilename, targetCode, targetUnit):
                     #     print(f"\t  row{idx1:04} -  {codeVal:8}  {country:12}  {unitVal} ")
 
 
-                    if codeVal == targetCode  and (unitVal == targetUnit or targetUnit=="*"):
+                    if codeVal == targetCode  and (unitVal == targetUnit or targetUnit=="*")  and  (targetUnitNot not in unitVal):
 
                         hitCounter +=1
 
@@ -187,7 +187,8 @@ if True:
     unit     = "Mrd ECU/EUR"
     unit     = "Mrd ECU/EUR, Weighted mean of t/t-1 national growth rates (weights: t-1 current prices in ECU/EUR)"
     unit     = "*"
-    main(inpFile, outFileSuffix, code, unit)
+    notUnit  = "current prices in PPS"
+    main(inpFile, outFileSuffix, code, unit, notUnit)
 
 
     inpFile        = jobDirAmeco / "AMECO6.CSV"
@@ -213,7 +214,7 @@ except Exception as exc:
     print(exc)
     raise
 
-print(f"\tconverting GDP to growth" )
+print(f"\tconverting GDP to growth, computing" )
 
 
 outHeader = reader[0]
@@ -238,10 +239,15 @@ for idx1, row in enumerate(reader):
             out.append("0")
         else:
             try:
-                vl   = float(val)
-                prev = float(row[idx2-1])
-                pct  = (vl / prev) - 1
-                pct  = round(100 * pct, 4)
+                # (GDP(T)/(GDP(T-1)-1)*100
+                vlT1 = float(val)
+                vlT0 = float(row[idx2-1])
+                pc0  = (vlT1 / vlT0) - 1
+
+                #   rounding - i.e. Euro area
+                #                1.019571     +1.020
+                #                1.706894     +1.707
+                pct  = round(100 * pc0, 4)
                 out.append( str(pct).replace(".", ",")  )
 
                 if idx1 < 3 or idx1 > len(reader)-3:
@@ -250,6 +256,7 @@ for idx1, row in enumerate(reader):
                     if idx2 < 6:
                         # print(f" {vl:.2f} - {prev:.2f} - {pct:.3f}" , end=", ")
                         print(f"{pct:+.3f}" , end=", ")
+                        # print(f"pp{100*pc0:+10.6f}" , end=", ")
                     if idx2 == 5:
                         print("")
             except Exception as exc:

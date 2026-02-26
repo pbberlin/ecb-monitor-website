@@ -113,7 +113,12 @@
     git push
 ```
 
-* The last line `git push` should result in a 20 lines response
+* The last line `git push` should result in a 20 lines response 
+```sh
+remote:    github successful
+To https://git.zew.de/ub-public-finance/ecb-monitor.git
+   d106806..aa2ea37  main -> main
+```
 
 * Check your changes on [ecb-monitor.zew.de](https://ecb-monitor.zew.de)
 
