@@ -64,20 +64,24 @@
         background-color: rgba(135,135,134, 0.08);
     }
 
+    div.claim {
+        grid-template-columns: 3fr 1fr 1fr;        
+    }
 
-     .full-width  {
+
+    .full-width  {
         grid-column:   1 / -1;
-     }
+    }
 
-     .three-cols  {
+    .three-cols  {
         grid-column:   1 / 3;
-     }
+    }
 
-     .claim  {
+    .claim  {
         display: grid;
         grid-template-columns: 1fr 1fr;
         row-gap: 1.3ch;
-     }
+    }
 
 
     .claim p {
@@ -141,13 +145,70 @@
     body main#main {
         display: grid;
         grid-template-columns: 1fr;
-        column-gap: 0;
+        column-gap:    0;
         margin-bottom: 0;
     }
+    div.claim {
+        grid-template-columns: 3fr 1fr ;        
+        padding:       0.2ch 0.8ch;
+        margin-bottom: 0;
+    }
+    div.box1 p {
+        padding: 0;
+        margin:  0;
+    }
+    .claim img {
+        width:        99%;
+        padding:       0;
+        margin:        0;
+        justify-self: center;   /* horizontal */
+        align-self:   center;   /* vertical */
+
+        position: relative;
+        left: -1ch;
+    }
+        /* first element: p, spans 1 column and 2 rows */
+        div.claim p:first-of-type {
+            grid-column: 1 / 2;
+            grid-row:    1 / 3;
+            line-height: 1.35;
+
+            padding-right: 0.4ch;
+            padding-top:   0.6ch;
+        }
+
+        /* second element: img, first img, occupies column 2, row 1 */
+        div.claim img:nth-of-type(1) {
+            grid-column: 2 / 3;
+            grid-row:    1 / 2;
+
+            align-self: end;
+            padding-bottom: 0.8ch;
+        }
+
+        /* third element: img, second img, occupies column 2, row 2 */
+        div.claim img:nth-of-type(2) {
+            grid-column: 2 / 3;
+            grid-row:    2 / 3;
+
+            align-self: start;
+            padding-top: 0.8ch;
+        }
+
+        /* fourth element: p, spans 2 columns, row 3 */
+        div.claim p:last-of-type {
+            grid-column: 1 / 3;
+            grid-row:    3 / 4;
+        }
+
+
+
     div.service-links {
         grid-template-columns: 1fr;
         gap: 0;
     }
+
+
 }
 
 
@@ -158,7 +219,7 @@
 <main id="main">
 
 
-    <div class="box1 claim full-width"  style="grid-template-columns: 3fr 1fr 1fr;">
+    <div class="box1 claim full-width first-box" >
         <p>
             {{i18n.hp_claim_p1}}
         </p>
