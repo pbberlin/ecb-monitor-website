@@ -1,3 +1,13 @@
+import sys
+
+requiredVersion = (3, 11, 2)
+currentVersion = sys.version_info
+if currentVersion < requiredVersion:
+    print("Python version must be at least 3.11.2")
+    print(f"Current: {currentVersion.major}.{currentVersion.minor}.{currentVersion.micro}")
+    sys.exit(-1)
+
+
 import os
 import json
 import random

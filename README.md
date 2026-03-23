@@ -3,6 +3,7 @@
 ## Local development web server 
 
 ```sh
+# at least python 3.11.2
 pip install -r requirements.txt
 cls && python app.py
 ```
