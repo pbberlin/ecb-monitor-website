@@ -521,12 +521,6 @@
     const colGr2      = getComputedStyle(root).getPropertyValue('--color-grey-lt').trim();
     const colIB3      = getComputedStyle(root).getPropertyValue('--color-iceblue-3').trim();
 
-    const myChartDom  = document.getElementById('echart_container');
-    const myChart = echarts.init(myChartDom, null, {
-      renderer: 'canvas',
-      useDirtyRect: false
-    });
-    myChart.showLoading();
 
     const currentYear = new Date().getFullYear();
 
@@ -534,8 +528,8 @@
     const sliderEl = document.getElementById('yearSlider');
     const labelEl  = document.getElementById('yearLabel');
 
-    sliderEl.max         = String(currentYear+1);
-    sliderEl.value       = String(currentYear);
+    sliderEl.max         = String(currentYear-1);
+    sliderEl.value       = String(currentYear-1);
     labelEl.textContent  = sliderEl.value;
 
     const linkDownload   = document.getElementById("linkDownload")
@@ -602,250 +596,278 @@
         return Math.PI * (1 - (score + 1) / 2);
     }
     function getScore(entry) {
-        if (entry.opinion_score === "" || entry.opinion_score === null) {
-            return entry.median_total;
+        if (entry.mean_score === "" || entry.mean_score === null) {
+            return entry.median_score_year;
         }
-        return entry.opinion_score;
+        return entry.mean_score;
+    }
+
+    function getYear(entry) {
+        if (entry.year === "" || entry.year === null) {
+            return currentYear;
+        }
+        return entry.year;
     }
 
 
+    function drawTempomat(){
 
-    const svg = document.getElementById("gauge");
-    const centerX = 400;
-    const centerY = 380;
-    const radius  = 300;
-    const ring    =  16;  // thickness
-    const radiusArc  = radius + ring;
+      const res = sliderToKey();
+      const yrSlider  = res.yr;
 
-    // arc gradient start
-    const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
-    svg.appendChild(defs);
+      const svg = document.getElementById("gauge");
+      svg.innerHTML = "";  // reset
 
-    const grad = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
-    grad.setAttribute("id", "arcGradientLin");
-    grad.setAttribute("gradientUnits", "userSpaceOnUse");
-    grad.setAttribute("x1", centerX - radiusArc);
-    grad.setAttribute("y1", centerY);
-    grad.setAttribute("x2", centerX + radiusArc);
-    grad.setAttribute("y2", centerY);
-    defs.appendChild(grad);
+      const centerX = 400;
+      const centerY = 380;
+      const radius  = 300;
+      const ring    =  16;  // thickness
+      const radiusArc  = radius + ring;
 
-    // todo: replace "99" with the UI transparency
-    const grCl1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-    grCl1.setAttribute("offset", "0%");
-    grCl1.setAttribute("stop-color", "#0000A099");
-    grad.appendChild(grCl1);
+      // arc gradient start
+      const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+      svg.appendChild(defs);
 
-    const grCl2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-    grCl2.setAttribute("offset", "50%");
-    grCl2.setAttribute("stop-color", "#A0A0A099");
-    grad.appendChild(grCl2);
+      const grad = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+      grad.setAttribute("id", "arcGradientLin");
+      grad.setAttribute("gradientUnits", "userSpaceOnUse");
+      grad.setAttribute("x1", centerX - radiusArc);
+      grad.setAttribute("y1", centerY);
+      grad.setAttribute("x2", centerX + radiusArc);
+      grad.setAttribute("y2", centerY);
+      defs.appendChild(grad);
 
-    const grCl3 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-    grCl3.setAttribute("offset", "100%");
-    grCl3.setAttribute("stop-color", "#A0A00099");
-    grad.appendChild(grCl3);
-    // arc gradient end
+      // todo: replace "99" with the UI transparency
+      const grCl1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+      grCl1.setAttribute("offset", "0%");
+      grCl1.setAttribute("stop-color", "#0000A099");
+      grad.appendChild(grCl1);
 
+      const grCl2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+      grCl2.setAttribute("offset", "50%");
+      grCl2.setAttribute("stop-color", "#A0A0A099");
+      grad.appendChild(grCl2);
 
-
-
-
-
-
-
-
-    // arc
-    const arc = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    arc.setAttribute(
-        "d",
-        `
-        M ${centerX - radiusArc} ${centerY}
-        A ${radiusArc} ${radiusArc} 0 0 1 ${centerX + radiusArc} ${centerY}
-        `
-    );
-    arc.setAttribute("fill",   "none");
-    // arc.setAttribute("stroke", "rgb( 0,  105, 180)");  // mono color
-    arc.setAttribute("stroke", "url(#arcGradientLin)");
-
-    arc.setAttribute("stroke-width", "14");
-    arc.setAttribute("stroke-width", String(ring) );
-    svg.appendChild(arc);
+      const grCl3 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+      grCl3.setAttribute("offset", "100%");
+      grCl3.setAttribute("stop-color", "#A0A00099");
+      grad.appendChild(grCl3);
+      // arc gradient end
 
 
-        // 'rgb(194, 211,   0)',
-        // 'rgb( 0,  105, 180)',
 
 
-    // arc ticks start
-    const tickOuterRadius = radiusArc + 12;   // outside arc
-    const tickInnerSmall  = tickOuterRadius -  8;
-    const tickInnerLarge  = tickOuterRadius - 20;
 
-    for (let val = -1.0; val <= 1.0001; val += 0.1) {
-      // avoid floating drift
-      const roundedVal = Math.round(val * 10) / 10;
-      const angle = scoreToAngle(roundedVal);
-      const isMajor = Math.abs(roundedVal % 0.5) < 0.001;
-      const innerRadius = isMajor ? tickInnerLarge : tickInnerSmall;
 
-      const x1 = centerX + Math.cos(angle) * innerRadius;
-      const y1 = centerY - Math.sin(angle) * innerRadius;
 
-      const x2 = centerX + Math.cos(angle) * tickOuterRadius;
-      const y2 = centerY - Math.sin(angle) * tickOuterRadius;
 
-      const tick = document.createElementNS("http://www.w3.org/2000/svg", "line");
-      tick.setAttribute("x1", x1);
-      tick.setAttribute("y1", y1);
-      tick.setAttribute("x2", x2);
-      tick.setAttribute("y2", y2);
-      tick.setAttribute("stroke", "#000");
-      tick.setAttribute("stroke-width", isMajor ? "2" : "1");
 
-      svg.appendChild(tick);
+      // arc
+      const arc = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      arc.setAttribute(
+          "d",
+          `
+          M ${centerX - radiusArc} ${centerY}
+          A ${radiusArc} ${radiusArc} 0 0 1 ${centerX + radiusArc} ${centerY}
+          `
+      );
+      arc.setAttribute("fill",   "none");
+      // arc.setAttribute("stroke", "rgb( 0,  105, 180)");  // mono color
+      arc.setAttribute("stroke", "url(#arcGradientLin)");
 
-      // labels only on major ticks (-1, -0.5, 0, 0.5, 1)
-      if (isMajor) {
-        const labelRadius = tickOuterRadius + 18;
-        const lx = centerX + Math.cos(angle) * labelRadius;
-        const ly = centerY - Math.sin(angle) * labelRadius;
-        const txt = document.createElementNS("http://www.w3.org/2000/svg", "text");
-        txt.setAttribute("x", lx);
-        txt.setAttribute("y", ly + 4);
-        txt.setAttribute("text-anchor", "middle");
-        txt.setAttribute("font-size", "12px");
-        txt.textContent = roundedVal.toFixed(1);
-        svg.appendChild(txt);
+      arc.setAttribute("stroke-width", "14");
+      arc.setAttribute("stroke-width", String(ring) );
+      svg.appendChild(arc);
+
+
+          // 'rgb(194, 211,   0)',
+          // 'rgb( 0,  105, 180)',
+
+
+      // arc ticks start
+      const tickOuterRadius = radiusArc + 12;   // outside arc
+      const tickInnerSmall  = tickOuterRadius -  8;
+      const tickInnerLarge  = tickOuterRadius - 20;
+
+      for (let val = -1.0; val <= 1.0001; val += 0.1) {
+        // avoid floating drift
+        const roundedVal = Math.round(val * 10) / 10;
+        const angle = scoreToAngle(roundedVal);
+        const isMajor = Math.abs(roundedVal % 0.5) < 0.001;
+        const innerRadius = isMajor ? tickInnerLarge : tickInnerSmall;
+
+        const x1 = centerX + Math.cos(angle) * innerRadius;
+        const y1 = centerY - Math.sin(angle) * innerRadius;
+
+        const x2 = centerX + Math.cos(angle) * tickOuterRadius;
+        const y2 = centerY - Math.sin(angle) * tickOuterRadius;
+
+        const tick = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        tick.setAttribute("x1", x1);
+        tick.setAttribute("y1", y1);
+        tick.setAttribute("x2", x2);
+        tick.setAttribute("y2", y2);
+        tick.setAttribute("stroke", "#000");
+        tick.setAttribute("stroke-width", isMajor ? "2" : "1");
+
+        svg.appendChild(tick);
+
+        // labels only on major ticks (-1, -0.5, 0, 0.5, 1)
+        if (isMajor) {
+          const labelRadius = tickOuterRadius + 18;
+          const lx = centerX + Math.cos(angle) * labelRadius;
+          const ly = centerY - Math.sin(angle) * labelRadius;
+          const txt = document.createElementNS("http://www.w3.org/2000/svg", "text");
+          txt.setAttribute("x", lx);
+          txt.setAttribute("y", ly + 4);
+          txt.setAttribute("text-anchor", "middle");
+          txt.setAttribute("font-size", "12px");
+          txt.textContent = roundedVal.toFixed(1);
+          svg.appendChild(txt);
+        }
       }
-    }
-    // arc ticks end
+      // arc ticks end
 
 
 
-    function drawNeedle(val, needleBgCol) {
-        const angle = scoreToAngle(val);
-        const x = centerX + Math.cos(angle) * (radius - ring);
-        const y = centerY - Math.sin(angle) * (radius - ring);
-        const needle = document.createElementNS("http://www.w3.org/2000/svg", "line");
-        needle.setAttribute("x1", centerX);
-        needle.setAttribute("y1", centerY);
-        needle.setAttribute("x2", x);
-        needle.setAttribute("y2", y);
-        needle.setAttribute("stroke", needleBgCol);
-        needle.setAttribute("stroke-width", "6");
-        svg.appendChild(needle);
-    }
+      function drawNeedle(val, needleBgCol) {
+          const angle = scoreToAngle(val);
+          const x = centerX + Math.cos(angle) * (radius - ring);
+          const y = centerY - Math.sin(angle) * (radius - ring);
+          const needle = document.createElementNS("http://www.w3.org/2000/svg", "line");
+          needle.setAttribute("x1", centerX);
+          needle.setAttribute("y1", centerY);
+          needle.setAttribute("x2", x);
+          needle.setAttribute("y2", y);
+          needle.setAttribute("stroke", needleBgCol);
+          needle.setAttribute("stroke-width", "6");
+          svg.appendChild(needle);
+      }
 
 
 
-    const median = councilTempomat[0]['median_total'];
-    // const median = 0.66;
-
-
-    let colNeedle  = "#b0b0b0FF";
-    let colEllipsisBg  = "#d0d0d0D0";  // more transparence
-
-    colNeedle      = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.4)
-    colEllipsisBg  = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.2)
-
-
-    document.querySelectorAll('.medianBgColorDYN').forEach(function(element) {
-        element.style.backgroundColor = colNeedle;
-    });
-    document.getElementById('medianVal').innerHTML = median;
-
-    drawNeedle( median, colNeedle );
-
-
-    const angleBucketSize   =  0.28;           // radians (~3°)
-    const radialStep        = 21;              // px inward per collision
-    const minRadius         = radius - 220;    // do not collapse into center
-
-    const angleBuckets = {};
-    function getAngleBucket(angle) {
-        return Math.round(angle / angleBucketSize) * angleBucketSize;
-    }
-
-    // draw council member ellipsis
-    for (const [idx1, entry] of councilTempomat.entries()) {
-        const score = getScore(entry);
-        const angle = scoreToAngle(score);
-
-        const bucketKey = getAngleBucket(angle);
-
-        if (angleBuckets[bucketKey] === undefined) {
-            angleBuckets[bucketKey] = 0;
+      // the median of the entire year
+      // const median = 0.66;
+      let median = selectedDataMeta[selectedVar]["selected_data"][0]['median_score_year'];
+      for (const [idx1, entry] of selectedDataMeta[selectedVar]["selected_data"].entries()) {
+        const yr = getYear(entry);
+        if (yr != yrSlider) {
+          continue
         }
-
-        const collisionIndex = angleBuckets[bucketKey];
-        angleBuckets[bucketKey] = angleBuckets[bucketKey] + 1;
-
-        let blobRadius = radius - 10 - (collisionIndex * radialStep);
-
-        if (blobRadius < minRadius) {
-            blobRadius = minRadius;
+        if (entry.median_score_year !== "" && entry.median_score_year !== null) {
+            median =  entry.median_score_year;
+            break;
         }
-
-        const x = centerX + Math.cos(angle) * blobRadius;
-        const y = centerY - Math.sin(angle) * blobRadius;
-
-        const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
-
-        const ellipse = document.createElementNS("http://www.w3.org/2000/svg", "ellipse");
-        ellipse.setAttribute("cx", x);
-        ellipse.setAttribute("cy", y);
-        ellipse.setAttribute("rx", 25);
-        ellipse.setAttribute("ry", 10);
+      }
 
 
-        const isMedianPos = Math.round(score*1000) === Math.round(median*1000);
+      let colNeedle  = "#b0b0b0FF";
+      let colEllipsisBg  = "#d0d0d0D0";  // more transparence
 
-        if (isMedianPos) {
-          ellipse.setAttribute("fill", colEllipsisBg);
-        } else if (entry.name_excel === "xxx Christine Lagarde"){
-            ellipse.setAttribute("fill", "#dfdfdf70");
-        } else {
-          const indivCol  = valToPctToColor(score, initOpacity, elOpa, selectedDataMeta[selectedVar], -0.12)
-          ellipse.setAttribute("fill", indivCol);
-        }
-
-        // label.textContent +=  " ";
-        // label.textContent +=  String(Math.round(score*100)) ;
+      colNeedle      = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.4)
+      colEllipsisBg  = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.2)
 
 
+      document.querySelectorAll('.medianBgColorDYN').forEach(function(element) {
+          element.style.backgroundColor = colNeedle;
+      });
+      document.getElementById('medianVal').innerHTML = median;
 
-        ellipse.setAttribute("stroke", "#000");
-
-        const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
-        label.setAttribute("x", x);
-        label.setAttribute("y", y + 4);
-        label.setAttribute("text-anchor", "middle");
-        label.setAttribute("font-size", "11px");
-        label.textContent = entry.name_excel.split(" ").slice(-1)[0];
-
-        let angleDeg = (angle * 180 / Math.PI) - 90;
-        angleDeg = -angleDeg;
-        ellipse.setAttribute(
-            "transform",
-            `rotate(${angleDeg} ${x} ${y})`
-        );
-        label.setAttribute(
-            "transform",
-            `rotate(${angleDeg} ${x} ${y})`
-        );
+      drawNeedle( median, colNeedle );
 
 
-        group.appendChild(ellipse);
-        group.appendChild(label);
-        svg.appendChild(group);
+      const angleBucketSize   =  0.28;           // radians (~3°)
+      const radialStep        = 21;              // px inward per collision
+      const minRadius         = radius - 220;    // do not collapse into center
+
+      const angleBuckets = {};
+      function getAngleBucket(angle) {
+          return Math.round(angle / angleBucketSize) * angleBucketSize;
+      }
+
+      // draw council member ellipsis
+      for (const [idx1, entry] of selectedDataMeta[selectedVar]["selected_data"].entries()) {
+
+          const yr = getYear(entry);
+          if (yr != yrSlider) {
+            continue
+          }
+
+          const score = getScore(entry);
+          const angle = scoreToAngle(score);
+
+          const bucketKey = getAngleBucket(angle);
+
+          if (angleBuckets[bucketKey] === undefined) {
+              angleBuckets[bucketKey] = 0;
+          }
+
+          const collisionIndex    = angleBuckets[bucketKey];
+          angleBuckets[bucketKey] = angleBuckets[bucketKey] + 1;
+
+          let blobRadius = radius - 10 - (collisionIndex * radialStep);
+
+          if (blobRadius < minRadius) {
+              blobRadius = minRadius;
+          }
+
+          const x = centerX + Math.cos(angle) * blobRadius;
+          const y = centerY - Math.sin(angle) * blobRadius;
+
+          const group   = document.createElementNS("http://www.w3.org/2000/svg", "g");
+
+          const ellipse = document.createElementNS("http://www.w3.org/2000/svg", "ellipse");
+          ellipse.setAttribute("cx", x);
+          ellipse.setAttribute("cy", y);
+          ellipse.setAttribute("rx", 25);
+          ellipse.setAttribute("ry", 10);
+
+
+          const isMedianPos = Math.round(score*1000) === Math.round(median*1000);
+
+          if (isMedianPos) {
+            ellipse.setAttribute("fill", colEllipsisBg);
+          } else if (entry.name_excel === "xxx Christine Lagarde"){
+              ellipse.setAttribute("fill", "#dfdfdf70");
+          } else {
+            const indivCol  = valToPctToColor(score, initOpacity, elOpa, selectedDataMeta[selectedVar], -0.12)
+            ellipse.setAttribute("fill", indivCol);
+          }
+
+          // label.textContent +=  " ";
+          // label.textContent +=  String(Math.round(score*100)) ;
+
+
+
+          ellipse.setAttribute("stroke", "#000");
+
+          const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+          label.setAttribute("x", x);
+          label.setAttribute("y", y + 4);
+          label.setAttribute("text-anchor", "middle");
+          label.setAttribute("font-size", "11px");
+          label.textContent = entry.name_excel.split(" ").slice(-1)[0];
+          label.textContent = entry.country;
+
+          let angleDeg = (angle * 180 / Math.PI) - 90;
+          angleDeg = -angleDeg;
+          ellipse.setAttribute(
+              "transform",
+              `rotate(${angleDeg} ${x} ${y})`
+          );
+          label.setAttribute(
+              "transform",
+              `rotate(${angleDeg} ${x} ${y})`
+          );
+
+
+          group.appendChild(ellipse);
+          group.appendChild(label);
+          svg.appendChild(group);
+      }
+
+
     }
-
-
-
-
-
-
 
 
 
@@ -855,97 +877,6 @@
 
 
 
-
-
-    // creating debt numbers at the centroid of 27 eu countries
-    function manyCountriesShowStats(yr=currentYear) {
-
-      let fontSizeByDisplay = 12;
-      if (displayType === "mobile") {
-        fontSizeByDisplay = 10;
-        // console.log(`displayType = ${displayType} - fontSize = ${fontSizeByDisplay}`)
-      }
-
-
-      const dates = [];
-      const opinionSeries = [];
-      const rateSeries    = [];
-
-      for (let idx1 = 0; idx1 < councilTempomat.length; idx1 += 1) {
-          const row = councilTempomat[idx1];
-
-          // keep date as string; ECharts handles time axis parsing
-          dates.push(row.date);
-
-          opinionSeries.push(row.opinion_score);
-          rateSeries.push(row.leitzins);
-      }
-
-
-      console.log(opinionSeries);
-      console.log(rateSeries);
-
-
-      let results = [
-        {
-            name: 'Opinion Score',
-            type: 'line',
-            yAxisIndex: 0,
-            data: opinionSeries.map((v, idx1) => {
-                return [dates[idx1], v];
-            }),
-            symbol: 'circle',
-            symbolSize: 7,
-            lineStyle: {
-                width: 2
-            }
-        },
-        {
-            name: 'ECB Deposit Rate',
-            type: 'line',
-            yAxisIndex: 1,
-            data: rateSeries.map((v, idx1) => {
-                return [dates[idx1], v];
-            }),
-            showSymbol: false,
-            lineStyle: {
-                type: 'dashed',
-                width: 2
-            }
-        }
-      ]
-
-
-      return results;
-
-
-    }
-
-
-
-
-
-
-
-
-    const optionsInit = {};
-
-
-    function subtractMonths(year, month, steps) {
-      let newYear  = year;
-      let newMonth = month;
-      for (let idx1 = 0; idx1 < steps; idx1 += 1) {
-        newMonth -= 1;
-        if (newMonth === 0) {
-          newMonth = 12;
-          newYear -= 1;
-        }
-      }
-      const mnthFormatted = `${newMonth}`.padStart(2, "0");
-      // return `2025-09`;
-      console.log( String(newYear) + "-" + mnthFormatted );
-      return String(newYear) + "-" + mnthFormatted;
-    }
 
 
 
@@ -1040,9 +971,8 @@
       linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
       updateDesc();
 
-      myChart.setOption(optionsInit);
-      arrowRedraw();
-      myChart.hideLoading();
+      drawTempomat()
+
     }
     initFunc()
 
@@ -1051,31 +981,11 @@
 
 
     sliderEl.addEventListener('change', function () {
-
       const res = sliderToKey();
       labelEl.textContent = res.lbl;
-
-      // mutate option and re-apply
-      // reset the stuff we want to update
-      const optUpdate = {
-        series: [],
-      };
-      // re-populate
-      optUpdate.series = [
-        ...manyCountriesShowStats(res.yr),
-      ];
-
-
       console.log(` changing year to ${res.yr} `);
-      myChart.setOption(
-        optUpdate,
-        {
-          notMerge :   false,  // do merge
-          lazyUpdate : true,
-        },
-      );
+      drawTempomat()
     });
-
 
 
 
@@ -1104,21 +1014,6 @@
         updateDesc();
 
 
-        const optUpdate = {
-          series: [],
-        };
-        optUpdate.series = [
-          ...manyCountriesShowStats(res.yr),
-        ];
-
-        myChart.setOption(
-          optUpdate,
-          {
-            notMerge :   false,  // do merge
-            lazyUpdate : true,
-          },
-        );
-
         if (timerId > 0) {
           clearTimeout(timerId);
         }
@@ -1132,13 +1027,9 @@
 
 
     window.addEventListener('resize', function() {
-        myChart.resize();
         arrowRedraw();
     });
 
-    myChart.on('georoam', function() {
-        arrowRedraw();
-    });
 
 
 
