@@ -610,73 +610,128 @@
     }
 
 
-    function drawArcsAndTicks(svg, centerX, centerY, radius, ring) {
+    function drawArcsAndTicks(svg, centerX, centerY, radius, ring, colors) {
       const radiusArc  = radius + ring;
 
-      // arc gradient start
       const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
       svg.appendChild(defs);
 
-      const grad = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
-      grad.setAttribute("id", "arcGradientLin");
-      grad.setAttribute("gradientUnits", "objectBoundingBox");
-      grad.setAttribute("x1", "0");
-      grad.setAttribute("y1", "0");
-      grad.setAttribute("x2", "1");
-      grad.setAttribute("y2", "0");
-      defs.appendChild(grad);
+      // Left quadrant gradient (bottom-left to top-right)
+      const gradLeft = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+      gradLeft.setAttribute("id", "arcGradientLeft");
+      gradLeft.setAttribute("gradientUnits", "objectBoundingBox");
+      gradLeft.setAttribute("x1", "0");
+      gradLeft.setAttribute("y1", "1");
+      gradLeft.setAttribute("x2", "1");
+      gradLeft.setAttribute("y2", "0");
+      defs.appendChild(gradLeft);
 
-      // todo: replace "99" with the UI transparency
-      const grCl1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-      grCl1.setAttribute("offset", "0%");
-      grCl1.setAttribute("stop-color", "#0000A099");
-      grad.appendChild(grCl1);
+      const grLeft1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+      grLeft1.setAttribute("offset", "0%");
+      grLeft1.setAttribute("stop-color", colors[0] + "99");
+      gradLeft.appendChild(grLeft1);
 
-      const grCl2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-      grCl2.setAttribute("offset", "50%");
-      grCl2.setAttribute("stop-color", "#A0A0A099");
-      grad.appendChild(grCl2);
+      const grLeft2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+      grLeft2.setAttribute("offset", "100%");
+      grLeft2.setAttribute("stop-color", colors[1] + "99");
+      gradLeft.appendChild(grLeft2);
 
-      const grCl3 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-      grCl3.setAttribute("offset", "100%");
-      grCl3.setAttribute("stop-color", "#A0A00099");
-      grad.appendChild(grCl3);
-      // arc gradient end
 
-      // arc outer
-      const arcO = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      arcO.setAttribute(
+      // Right quadrant gradient (top-left to bottom-right)
+      const gradRight = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+      gradRight.setAttribute("id", "arcGradientRight");
+      gradRight.setAttribute("gradientUnits", "objectBoundingBox");
+      gradRight.setAttribute("x1", "0");
+      gradRight.setAttribute("y1", "0");
+      gradRight.setAttribute("x2", "1");
+      gradRight.setAttribute("y2", "1");
+      defs.appendChild(gradRight);
+
+      const grRight1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+      grRight1.setAttribute("offset", "0%");
+      grRight1.setAttribute("stop-color", colors[1] + "99");
+      gradRight.appendChild(grRight1);
+
+      const grRight2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+      grRight2.setAttribute("offset", "100%");
+      grRight2.setAttribute("stop-color", colors[2] + "99");
+      gradRight.appendChild(grRight2);
+
+
+      // Outer arc dimensions
+      const rOuterO = radiusArc + (ring / 2);
+      const rInnerO = radiusArc - (ring / 2);
+
+      // Outer arc - Left segment
+      const arcOLeft = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      arcOLeft.setAttribute(
           "d",
           `
-          M ${centerX - radiusArc} ${centerY}
-          A ${radiusArc} ${radiusArc} 0 0 1 ${centerX + radiusArc} ${centerY}
+          M ${centerX - rOuterO} ${centerY}
+          A ${rOuterO} ${rOuterO} 0 0 1 ${centerX} ${centerY - rOuterO}
+          L ${centerX} ${centerY - rInnerO}
+          A ${rInnerO} ${rInnerO} 0 0 0 ${centerX - rInnerO} ${centerY}
+          Z
           `
       );
-      arcO.setAttribute("fill",   "none");
-      // arc.setAttribute("stroke", "rgb( 0,  105, 180)");  // mono color
-      arcO.setAttribute("stroke", "url(#arcGradientLin)");
+      arcOLeft.setAttribute("fill",   "url(#arcGradientLeft)");
+      arcOLeft.setAttribute("stroke", "none");
+      svg.appendChild(arcOLeft);
 
-      arcO.setAttribute("stroke-width", "14");
-      arcO.setAttribute("stroke-width", String(ring) );
-      svg.appendChild(arcO);
+      // Outer arc - Right segment
+      const arcORight = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      arcORight.setAttribute(
+          "d",
+          `
+          M ${centerX} ${centerY - rOuterO}
+          A ${rOuterO} ${rOuterO} 0 0 1 ${centerX + rOuterO} ${centerY}
+          L ${centerX + rInnerO} ${centerY}
+          A ${rInnerO} ${rInnerO} 0 0 0 ${centerX} ${centerY - rInnerO}
+          Z
+          `
+      );
+      arcORight.setAttribute("fill",   "url(#arcGradientRight)");
+      arcORight.setAttribute("stroke", "none");
+      svg.appendChild(arcORight);
 
 
-      // inner arc
+      // Inner arc dimensions
       const innerRing = 70;
       const innerRadiusArc = 10 + (innerRing / 2);
-      // arc innner
-      const arcI = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      arcI.setAttribute(
+      const rOuterI = innerRadiusArc + (innerRing / 2);
+      const rInnerI = innerRadiusArc - (innerRing / 2);
+
+      // Inner arc - Left segment
+      const arcILeft = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      arcILeft.setAttribute(
           "d",
           `
-          M ${centerX - innerRadiusArc} ${centerY}
-          A ${innerRadiusArc} ${innerRadiusArc} 0 0 1 ${centerX + innerRadiusArc} ${centerY}
+          M ${centerX - rOuterI} ${centerY}
+          A ${rOuterI} ${rOuterI} 0 0 1 ${centerX} ${centerY - rOuterI}
+          L ${centerX} ${centerY - rInnerI}
+          A ${rInnerI} ${rInnerI} 0 0 0 ${centerX - rInnerI} ${centerY}
+          Z
           `
       );
-      arcI.setAttribute("fill",   "none");
-      arcI.setAttribute("stroke", "url(#arcGradientLin)");
-      arcI.setAttribute("stroke-width", String(innerRing) );
-      svg.appendChild(arcI);
+      arcILeft.setAttribute("fill",   "url(#arcGradientLeft)");
+      arcILeft.setAttribute("stroke", "none");
+      svg.appendChild(arcILeft);
+
+      // Inner arc - Right segment
+      const arcIRight = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      arcIRight.setAttribute(
+          "d",
+          `
+          M ${centerX} ${centerY - rOuterI}
+          A ${rOuterI} ${rOuterI} 0 0 1 ${centerX + rOuterI} ${centerY}
+          L ${centerX + rInnerI} ${centerY}
+          A ${rInnerI} ${rInnerI} 0 0 0 ${centerX} ${centerY - rInnerI}
+          Z
+          `
+      );
+      arcIRight.setAttribute("fill",   "url(#arcGradientRight)");
+      arcIRight.setAttribute("stroke", "none");
+      svg.appendChild(arcIRight);
 
 
       // radial gridlines
@@ -705,10 +760,9 @@
       }
 
 
-
       // arc ticks start
       const tickOuterRadius = radiusArc + 12;   // outside arc
-      const tickInnerSmall  = tickOuterRadius -  8;
+      const tickInnerSmall  = tickOuterRadius -  4;
       const tickInnerLarge  = tickOuterRadius - 20;
 
       for (let val = -1.0; val <= 1.0001; val += 0.1) {
@@ -753,7 +807,6 @@
 
 
 
-
     function drawTempomat(){
 
       const res = sliderToKey();
@@ -767,7 +820,9 @@
       const radius  = 300;
       const ring    =  16;  // thickness
 
-      drawArcsAndTicks(svg, centerX, centerY, radius, ring);
+      const colors = selectedDataMeta[selectedVar].colors;
+      drawArcsAndTicks(svg, centerX, centerY, radius, ring, colors);
+
 
       function drawNeedle(val, needleBgCol) {
 
@@ -826,12 +881,12 @@
       let colNeedle      = "#b0b0b0FF";
       let colEllipsisBg  = "#d0d0d0D0";  // more transparence
 
-      colNeedle      = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.4)
+      colNeedle      = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.3)
       colEllipsisBg  = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.2)
 
 
       document.querySelectorAll('.medianBgColorDYN').forEach(function(element) {
-          element.style.backgroundColor = colNeedle;
+          element.style.backgroundColor = colEllipsisBg;
       });
       document.getElementById('medianVal').innerHTML = median;
 
@@ -898,7 +953,7 @@
           } else if (entry.name_excel === "xxx Christine Lagarde"){
               ellipse.setAttribute("fill", "#dfdfdf70");
           } else {
-            const indivCol  = valToPctToColor(score, initOpacity, elOpa, selectedDataMeta[selectedVar], -0.12)
+            const indivCol  = valToPctToColor(score, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.01)
             ellipse.setAttribute("fill", indivCol);
           }
 
