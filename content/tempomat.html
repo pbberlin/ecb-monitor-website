@@ -611,7 +611,6 @@
 
 
     function drawArcsAndTicks(svg, centerX, centerY, radius, ring) {
-
       const radiusArc  = radius + ring;
 
       // arc gradient start
@@ -620,11 +619,11 @@
 
       const grad = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
       grad.setAttribute("id", "arcGradientLin");
-      grad.setAttribute("gradientUnits", "userSpaceOnUse");
-      grad.setAttribute("x1", centerX - radiusArc);
-      grad.setAttribute("y1", centerY);
-      grad.setAttribute("x2", centerX + radiusArc);
-      grad.setAttribute("y2", centerY);
+      grad.setAttribute("gradientUnits", "objectBoundingBox");
+      grad.setAttribute("x1", "0");
+      grad.setAttribute("y1", "0");
+      grad.setAttribute("x2", "1");
+      grad.setAttribute("y2", "0");
       defs.appendChild(grad);
 
       // todo: replace "99" with the UI transparency
@@ -644,39 +643,41 @@
       grad.appendChild(grCl3);
       // arc gradient end
 
-      // arc
-      const arc = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      arc.setAttribute(
+      // arc outer
+      const arcO = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      arcO.setAttribute(
           "d",
           `
           M ${centerX - radiusArc} ${centerY}
           A ${radiusArc} ${radiusArc} 0 0 1 ${centerX + radiusArc} ${centerY}
           `
       );
-      arc.setAttribute("fill",   "none");
+      arcO.setAttribute("fill",   "none");
       // arc.setAttribute("stroke", "rgb( 0,  105, 180)");  // mono color
-      arc.setAttribute("stroke", "url(#arcGradientLin)");
+      arcO.setAttribute("stroke", "url(#arcGradientLin)");
 
-      arc.setAttribute("stroke-width", "14");
-      arc.setAttribute("stroke-width", String(ring) );
-      svg.appendChild(arc);
+      arcO.setAttribute("stroke-width", "14");
+      arcO.setAttribute("stroke-width", String(ring) );
+      svg.appendChild(arcO);
 
 
       // inner arc
       const innerRing = 70;
       const innerRadiusArc = 10 + (innerRing / 2);
-      const arcInner = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      arcInner.setAttribute(
+      // arc innner
+      const arcI = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      arcI.setAttribute(
           "d",
           `
           M ${centerX - innerRadiusArc} ${centerY}
           A ${innerRadiusArc} ${innerRadiusArc} 0 0 1 ${centerX + innerRadiusArc} ${centerY}
           `
       );
-      arcInner.setAttribute("fill",   "none");
-      arcInner.setAttribute("stroke", "url(#arcGradientLin)");
-      arcInner.setAttribute("stroke-width", String(innerRing) );
-      svg.appendChild(arcInner);
+      arcI.setAttribute("fill",   "none");
+      arcI.setAttribute("stroke", "url(#arcGradientLin)");
+      arcI.setAttribute("stroke-width", String(innerRing) );
+      svg.appendChild(arcI);
+
 
       // radial gridlines
       const gridValues = [-1.0, -0.5, 0.0, 0.5, 1.0];
@@ -697,11 +698,13 @@
         gridLine.setAttribute("y1", y1);
         gridLine.setAttribute("x2", x2);
         gridLine.setAttribute("y2", y2);
-        gridLine.setAttribute("stroke", "#888");
-        gridLine.setAttribute("stroke-width", "0.4");
+        gridLine.setAttribute("stroke", "#80808015");
+        gridLine.setAttribute("stroke-width", "2.4");
 
         svg.appendChild(gridLine);
       }
+
+
 
       // arc ticks start
       const tickOuterRadius = radiusArc + 12;   // outside arc
@@ -750,6 +753,7 @@
 
 
 
+
     function drawTempomat(){
 
       const res = sliderToKey();
@@ -760,26 +764,48 @@
 
       const centerX = 400;
       const centerY = 380;
-      const radius  = 315;
+      const radius  = 300;
       const ring    =  16;  // thickness
 
       drawArcsAndTicks(svg, centerX, centerY, radius, ring);
 
-
       function drawNeedle(val, needleBgCol) {
+
           const angle = scoreToAngle(val);
-          const x = centerX + Math.cos(angle) * (radius - ring);
-          const y = centerY - Math.sin(angle) * (radius - ring);
-          const needle = document.createElementNS("http://www.w3.org/2000/svg", "line");
-          needle.setAttribute("x1", centerX);
-          needle.setAttribute("y1", centerY);
-          needle.setAttribute("x2", x);
-          needle.setAttribute("y2", y);
-          needle.setAttribute("stroke", needleBgCol);
-          needle.setAttribute("stroke-width", "6");
+          const angleDeg = -(angle * 180 / Math.PI);
+
+          const innerRing = 70;
+          const innerOuterEdge = 10 + innerRing;
+          const radiusArc = radius + ring;
+
+          const outerInnerEdge = radiusArc - (ring / 2);
+
+          const rStart = innerOuterEdge + 2;
+          const rEnd   = outerInnerEdge - 2;
+
+          const needleWidth    =  8;
+          const arrowTipLength = 12;
+          const arrowTipWidth  = 24;
+
+          const pts = [
+              `${centerX + rStart},${centerY - needleWidth / 2}`,
+              `${centerX + rEnd - arrowTipLength},${centerY - needleWidth / 2}`,
+              `${centerX + rEnd - arrowTipLength},${centerY - arrowTipWidth / 2}`,
+              `${centerX + rEnd},${centerY}`,
+              `${centerX + rEnd - arrowTipLength},${centerY + arrowTipWidth / 2}`,
+              `${centerX + rEnd - arrowTipLength},${centerY + needleWidth / 2}`,
+              `${centerX + rStart},${centerY + needleWidth / 2}`
+          ].join(" ");
+
+          const needle = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+          needle.setAttribute("points", pts);
+          needle.setAttribute("fill", needleBgCol);
+          needle.setAttribute("stroke", "#555");
+          needle.setAttribute("stroke-width", "0.1");
+          needle.setAttribute("transform", `rotate(${angleDeg} ${centerX} ${centerY})`);
+
           svg.appendChild(needle);
       }
-
 
 
       // the median of the entire year
@@ -845,7 +871,7 @@
           const collisionIndex    = angleBuckets[bucketKey];
           angleBuckets[bucketKey] = angleBuckets[bucketKey] + 1;
 
-          let blobRadius = radius - 10 - (collisionIndex * radialStep);
+          let blobRadius = radius - 24 - (collisionIndex * radialStep);
 
           if (blobRadius < minRadius) {
               blobRadius = minRadius;
@@ -878,7 +904,8 @@
 
 
 
-          ellipse.setAttribute("stroke", "#000");
+          ellipse.setAttribute("stroke", "#444");
+          ellipse.setAttribute("stroke-width", "0.4");
 
           const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
           label.setAttribute("x", x);
