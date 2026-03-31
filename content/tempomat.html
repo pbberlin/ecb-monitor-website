@@ -761,7 +761,7 @@
       }
 
 
-      let colNeedle  = "#b0b0b0FF";
+      let colNeedle      = "#b0b0b0FF";
       let colEllipsisBg  = "#d0d0d0D0";  // more transparence
 
       colNeedle      = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.4)
@@ -785,7 +785,10 @@
           return Math.round(angle / angleBucketSize) * angleBucketSize;
       }
 
-      // draw council member ellipsis
+
+
+
+      // council member blobs
       for (const [idx1, entry] of selectedDataMeta[selectedVar]["selected_data"].entries()) {
 
           const yr = getYear(entry);
@@ -820,7 +823,9 @@
           ellipse.setAttribute("cx", x);
           ellipse.setAttribute("cy", y);
           ellipse.setAttribute("rx", 25);
+          ellipse.setAttribute("rx", 12);  // small for country
           ellipse.setAttribute("ry", 10);
+
 
 
           const isMedianPos = Math.round(score*1000) === Math.round(median*1000);
@@ -861,8 +866,53 @@
           );
 
 
+
+          const yTt = y + 28;
+          const xTt = x - 12;
+
+          // tooltip for blob
+          const tt = document.createElementNS("http://www.w3.org/2000/svg", "text");
+          const lines = [
+            entry.name_excel,
+            entry.role,
+            entry.row_count,
+          ];
+          for (const [idx2, ln]  of lines.entries()) {
+            const tspan = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
+            tspan.setAttribute(  "x", xTt);
+            tspan.setAttribute( "dy", idx2 === 0 ? "0" : "0.95em");
+            tspan.textContent = ln;
+            tt.appendChild(tspan);
+          }
+          // x coord set via tspan
+          tt.setAttribute( "y", yTt);
+          tt.setAttribute("visibility", "hidden");
+
+
+          // show and hide for ellipse AND label
+          ellipse.addEventListener("mouseenter", (evt) => {
+            tt.setAttribute("visibility", "visible");
+          });
+          label.addEventListener("mouseenter", (evt) => {
+            tt.setAttribute("visibility", "visible");
+          });
+
+          ellipse.addEventListener("mouseleave", () => {
+            tt.setAttribute("visibility", "hidden");
+          });
+          label.addEventListener("mouseleave", () => {
+            tt.setAttribute("visibility", "hidden");
+          });
+
+
+
+
+
+
+
           group.appendChild(ellipse);
           group.appendChild(label);
+          group.appendChild(tt);
           svg.appendChild(group);
       }
 
