@@ -387,7 +387,7 @@
     </div>
 
 
-    <div class="slider-group  play-and-download invisible-x" >
+    <div class="slider-group  play-and-download" >
       <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
     </div>
 
@@ -789,6 +789,7 @@
 
 
       // council member blobs
+      let tts = []; // all tool tips, on top of all blobs
       for (const [idx1, entry] of selectedDataMeta[selectedVar]["selected_data"].entries()) {
 
           const yr = getYear(entry);
@@ -839,9 +840,6 @@
             ellipse.setAttribute("fill", indivCol);
           }
 
-          // label.textContent +=  " ";
-          // label.textContent +=  String(Math.round(score*100)) ;
-
 
 
           ellipse.setAttribute("stroke", "#000");
@@ -852,7 +850,7 @@
           label.setAttribute("text-anchor", "middle");
           label.setAttribute("font-size", "11px");
           label.textContent = entry.name_excel.split(" ").slice(-1)[0];
-          label.textContent = entry.country;
+          label.textContent = entry.country_code;
 
           let angleDeg = (angle * 180 / Math.PI) - 90;
           angleDeg = -angleDeg;
@@ -867,58 +865,97 @@
 
 
 
-          const yTt = y + 28;
-          const xTt = x - 12;
 
           // tooltip for blob
-          const tt = document.createElementNS("http://www.w3.org/2000/svg", "text");
           const lines = [
             entry.name_excel,
             entry.role,
-            entry.row_count,
+            entry.country,
+            `Score ${String(Math.round(score*100)/100)}`,
+            // `${entry.row_count} observations`, 
           ];
+
+          const xTt = x - 12;
+          const yTt = y + 28;
+
+          const ttGr = document.createElementNS("http://www.w3.org/2000/svg", "g");
+          const ttTx = document.createElementNS("http://www.w3.org/2000/svg", "text");
+          const ttBg = document.createElementNS("http://www.w3.org/2000/svg", "rect");  // background
+
+          // stupid 'tspan' element for multi line text
           for (const [idx2, ln]  of lines.entries()) {
             const tspan = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
+            // x coord set via tspan
+            // y coord set via text-element
             tspan.setAttribute(  "x", xTt);
-            tspan.setAttribute( "dy", idx2 === 0 ? "0" : "0.95em");
+            if (idx2 > 0){
+              tspan.setAttribute( "dy", "1.35em");  // displacement on previous line
+            }
             tspan.textContent = ln;
-            tt.appendChild(tspan);
+            ttTx.appendChild(tspan);
           }
           // x coord set via tspan
-          tt.setAttribute( "y", yTt);
-          tt.setAttribute("visibility", "hidden");
+          // y coord set via text-element
+          ttTx.setAttribute( "y", yTt);
+          ttGr.appendChild(ttTx);
 
 
-          // show and hide for ellipse AND label
+          if (false){
+            // computing a bounding box does not work - not rendered yet - 0 0 0 0
+            const bbox = ttTx.getBBox();
+            console.log(` bounding box of text ${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`)
+          }
+
+          const pad  = 5;
+          ttBg.setAttribute("x", xTt - pad);
+          ttBg.setAttribute("y", yTt - 20);   // why 20? I dont know
+
+          
+          ttBg.setAttribute("width",  140);
+          ttBg.setAttribute("height",  96);
+          
+          ttBg.setAttribute("rx", 8);
+          ttBg.setAttribute("fill", "#aaffff");
+          ttBg.setAttribute("fill", "#fff");
+          ttBg.setAttribute("fill", "#eee");
+
+          // ttBg behind ttTx
+          ttGr.insertBefore(ttBg, ttTx);
+          ttGr.setAttribute("visibility", "hidden");
+
+
+          // show and hide for ellipse and label
           ellipse.addEventListener("mouseenter", (evt) => {
-            tt.setAttribute("visibility", "visible");
+            ttGr.setAttribute("visibility", "visible");
           });
           label.addEventListener("mouseenter", (evt) => {
-            tt.setAttribute("visibility", "visible");
+            ttGr.setAttribute("visibility", "visible");
           });
 
           ellipse.addEventListener("mouseleave", () => {
-            tt.setAttribute("visibility", "hidden");
+            ttGr.setAttribute("visibility", "hidden");
           });
           label.addEventListener("mouseleave", () => {
-            tt.setAttribute("visibility", "hidden");
+            ttGr.setAttribute("visibility", "hidden");
           });
+          tts.push(ttGr);
 
-
-
-
-
-
-
+          
           group.appendChild(ellipse);
           group.appendChild(label);
-          group.appendChild(tt);
           svg.appendChild(group);
       }
 
 
-    }
+      // all tool tips, on top of all blobs
+      for (let idx1 = 0; idx1 < tts.length; idx1++) {
+            svg.appendChild(tts[idx1]);
+      }
 
+
+
+
+    } // end of func
 
 
     function arrowRedraw() {

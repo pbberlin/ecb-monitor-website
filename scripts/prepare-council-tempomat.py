@@ -86,16 +86,15 @@ def formatValue(key, vl):
 
 
 
-        if key == "country" :
+        if key == "role" :
             if  vl is None:
                 vl = ""
-                print(f"warning: country is None")
+                print(f"warning: role is None")
             elif vl == "":
-                print(f"warning: country is empty")
+                print(f"warning: role is empty")
                 vl = ""
             else:
-                if vl in nameToEuCode:
-                    vl = nameToEuCode[vl]
+                vl = str(vl).title()
             return vl
 
 
@@ -214,7 +213,25 @@ def convertPickleToJs(
                 vl = dta.iloc[idx1][colName]
                 vl = formatValue(colName, vl)
                 row[colName] = vl
+
+                # additional, derived column with country code
+                if colName == "country":
+                    if  vl is None:
+                        print(f"warning: country is None")
+                        row["country_code"] = "--"
+                    elif vl == "":
+                        print(f"warning: country is empty")
+                        row["country_code"] = "--"
+                    elif vl not in nameToEuCode:
+                        print(f"warning: country unknown  {vl}")
+                        row["country_code"] = "--"
+                    else:
+                        row["country_code"] = nameToEuCode[vl]
+
+
             out.append(row)
+
+
 
         print(f"\toutput-2 {len(out)} rows")
         print()
@@ -229,8 +246,11 @@ def convertPickleToJs(
                         val = f"{row[key]:4}"
                         if  idx2 == 1:
                             val = f"{row[key]:19}"
-                        if  idx2 == 3:
+                        elif  key == "row_count":
+                            continue
                             val = f"{row[key]:1}"
+                        elif  key == "country_code":
+                            key = ""
                         elif idx2 == 4:
                             val = f"{row[key]:8}"
                         elif key == "role":
