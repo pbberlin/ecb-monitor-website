@@ -175,6 +175,7 @@
   /* value computed below by javascript */
   .medianBgColorDYN {
     color:  #b0b0b0FF;
+    border-radius: 0.3rem;
   }
 
 
@@ -415,7 +416,6 @@
         color: black;
       " class="medianBgColorDYN" >
         {{i18n.council_tempomat_chart_label|safe}}
-        <span id="medianVal" ></span>
     </div>
 
     <div id="echart_container" class="invisible-x">echart container content</div>
@@ -610,89 +610,131 @@
     }
 
 
+
+    function createSvgImage(svg, url, x, y, width) {
+
+        const img = new Image();
+        img.onload = function () {
+
+            const aspectRatio = img.naturalHeight / img.naturalWidth;
+            const height = width * aspectRatio;
+
+            const svgImage = document.createElementNS("http://www.w3.org/2000/svg", "image");
+
+            svgImage.setAttribute("href", url);
+            svgImage.setAttribute("x", x);
+            svgImage.setAttribute("y", y);
+            svgImage.setAttribute("width", width);
+            svgImage.setAttribute("height", height);
+
+            svgImage.setAttribute("opacity", 0.65);
+            svgImage.setAttribute("opacity", 0.55);
+
+            svgImage.setAttribute("preserveAspectRatio", "xMidYMid meet");
+
+            svg.appendChild(svgImage);
+        };
+
+        img.onerror = function (err) {
+            console.log("Image load failed:", err);
+        };
+        img.src = url;
+    }
+
+
     function drawArcsAndTicks(svg, centerX, centerY, radius, ring, colors) {
       const radiusArc  = radius + ring;
 
       const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
       svg.appendChild(defs);
 
-      // Left quadrant gradient (bottom-left to top-right)
-      const gradLeft = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
-      gradLeft.setAttribute("id", "arcGradientLeft");
-      gradLeft.setAttribute("gradientUnits", "objectBoundingBox");
-      gradLeft.setAttribute("x1", "0");
-      gradLeft.setAttribute("y1", "1");
-      gradLeft.setAttribute("x2", "1");
-      gradLeft.setAttribute("y2", "0");
-      defs.appendChild(gradLeft);
+      function blendHex(c1, c2, ratio) {
+          const r1 = parseInt(c1.slice(1, 3), 16);
+          const g1 = parseInt(c1.slice(3, 5), 16);
+          const b1 = parseInt(c1.slice(5, 7), 16);
 
-      const grLeft1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-      grLeft1.setAttribute("offset", "0%");
-      grLeft1.setAttribute("stop-color", colors[0] + "99");
-      gradLeft.appendChild(grLeft1);
+          const r2 = parseInt(c2.slice(1, 3), 16);
+          const g2 = parseInt(c2.slice(3, 5), 16);
+          const b2 = parseInt(c2.slice(5, 7), 16);
 
-      const grLeft2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-      grLeft2.setAttribute("offset", "100%");
-      grLeft2.setAttribute("stop-color", colors[1] + "99");
-      gradLeft.appendChild(grLeft2);
+          const r = Math.round(r1 + (r2 - r1) * ratio).toString(16).padStart(2, '0');
+          const g = Math.round(g1 + (g2 - g1) * ratio).toString(16).padStart(2, '0');
+          const b = Math.round(b1 + (b2 - b1) * ratio).toString(16).padStart(2, '0');
 
+          return `#${r}${g}${b}`;
+      }
 
-      // Right quadrant gradient (top-left to bottom-right)
-      const gradRight = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
-      gradRight.setAttribute("id", "arcGradientRight");
-      gradRight.setAttribute("gradientUnits", "objectBoundingBox");
-      gradRight.setAttribute("x1", "0");
-      gradRight.setAttribute("y1", "0");
-      gradRight.setAttribute("x2", "1");
-      gradRight.setAttribute("y2", "1");
-      defs.appendChild(gradRight);
+      // 4 segments: 180->135, 135->90, 90->45, 45->0
+      const angles = [Math.PI, 3 * Math.PI / 4, Math.PI / 2, Math.PI / 4, 0];
+      
+      // 0.6 ratio pulls the 45-degree blends closer to colors[1] so it stays longer
+      const segColors = [
+          colors[0],
+          blendHex(colors[0], colors[1], 0.6),
+          colors[1],
+          blendHex(colors[1], colors[2], 0.4),
+          colors[2]
+      ];
 
-      const grRight1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-      grRight1.setAttribute("offset", "0%");
-      grRight1.setAttribute("stop-color", colors[1] + "99");
-      gradRight.appendChild(grRight1);
-
-      const grRight2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-      grRight2.setAttribute("offset", "100%");
-      grRight2.setAttribute("stop-color", colors[2] + "99");
-      gradRight.appendChild(grRight2);
-
+      function getPt(r, angle) {
+          return {
+              x: centerX + Math.cos(angle) * r,
+              y: centerY - Math.sin(angle) * r
+          };
+      }
 
       // Outer arc dimensions
       const rOuterO = radiusArc + (ring / 2);
       const rInnerO = radiusArc - (ring / 2);
+      const rMidO   = radiusArc;
 
-      // Outer arc - Left segment
-      const arcOLeft = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      arcOLeft.setAttribute(
-          "d",
-          `
-          M ${centerX - rOuterO} ${centerY}
-          A ${rOuterO} ${rOuterO} 0 0 1 ${centerX} ${centerY - rOuterO}
-          L ${centerX} ${centerY - rInnerO}
-          A ${rInnerO} ${rInnerO} 0 0 0 ${centerX - rInnerO} ${centerY}
-          Z
-          `
-      );
-      arcOLeft.setAttribute("fill",   "url(#arcGradientLeft)");
-      arcOLeft.setAttribute("stroke", "none");
-      svg.appendChild(arcOLeft);
+      for (let idx1 = 0; idx1 < 4; idx1++) {
+          const aStart = angles[idx1];
+          const aEnd   = angles[idx1 + 1];
 
-      // Outer arc - Right segment
-      const arcORight = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      arcORight.setAttribute(
-          "d",
-          `
-          M ${centerX} ${centerY - rOuterO}
-          A ${rOuterO} ${rOuterO} 0 0 1 ${centerX + rOuterO} ${centerY}
-          L ${centerX + rInnerO} ${centerY}
-          A ${rInnerO} ${rInnerO} 0 0 0 ${centerX} ${centerY - rInnerO}
-          Z
-          `
-      );
-      arcORight.setAttribute("fill",   "url(#arcGradientRight)");
-      arcORight.setAttribute("stroke", "none");
-      svg.appendChild(arcORight);
+          const gradId = `gradOuter_${idx1}`;
+          const grad = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+          grad.setAttribute("id", gradId);
+          grad.setAttribute("gradientUnits", "userSpaceOnUse");
+          
+          const ptGStart = getPt(rMidO, aStart);
+          const ptGEnd   = getPt(rMidO, aEnd);
+          grad.setAttribute("x1", ptGStart.x);
+          grad.setAttribute("y1", ptGStart.y);
+          grad.setAttribute("x2", ptGEnd.x);
+          grad.setAttribute("y2", ptGEnd.y);
+          defs.appendChild(grad);
+
+          const stop1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+          stop1.setAttribute("offset", "0%");
+          stop1.setAttribute("stop-color", segColors[idx1] + "99");
+          grad.appendChild(stop1);
+
+          const stop2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+          stop2.setAttribute("offset", "100%");
+          stop2.setAttribute("stop-color", segColors[idx1 + 1] + "99");
+          grad.appendChild(stop2);
+
+          const pOuterStart = getPt(rOuterO, aStart);
+          const pOuterEnd   = getPt(rOuterO, aEnd);
+          const pInnerStart = getPt(rInnerO, aStart);
+          const pInnerEnd   = getPt(rInnerO, aEnd);
+
+          const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+          path.setAttribute(
+              "d",
+              `
+              M ${pOuterStart.x} ${pOuterStart.y}
+              A ${rOuterO} ${rOuterO} 0 0 1 ${pOuterEnd.x} ${pOuterEnd.y}
+              L ${pInnerEnd.x} ${pInnerEnd.y}
+              A ${rInnerO} ${rInnerO} 0 0 0 ${pInnerStart.x} ${pInnerStart.y}
+              Z
+              `
+          );
+          path.setAttribute("fill", `url(#${gradId})`);
+          path.setAttribute("stroke", "none");
+          svg.appendChild(path);
+      }
 
 
       // Inner arc dimensions
@@ -700,38 +742,55 @@
       const innerRadiusArc = 10 + (innerRing / 2);
       const rOuterI = innerRadiusArc + (innerRing / 2);
       const rInnerI = innerRadiusArc - (innerRing / 2);
+      const rMidI   = innerRadiusArc;
 
-      // Inner arc - Left segment
-      const arcILeft = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      arcILeft.setAttribute(
-          "d",
-          `
-          M ${centerX - rOuterI} ${centerY}
-          A ${rOuterI} ${rOuterI} 0 0 1 ${centerX} ${centerY - rOuterI}
-          L ${centerX} ${centerY - rInnerI}
-          A ${rInnerI} ${rInnerI} 0 0 0 ${centerX - rInnerI} ${centerY}
-          Z
-          `
-      );
-      arcILeft.setAttribute("fill",   "url(#arcGradientLeft)");
-      arcILeft.setAttribute("stroke", "none");
-      svg.appendChild(arcILeft);
+      for (let idx1 = 0; idx1 < 4; idx1++) {
+          const aStart = angles[idx1];
+          const aEnd   = angles[idx1 + 1];
 
-      // Inner arc - Right segment
-      const arcIRight = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      arcIRight.setAttribute(
-          "d",
-          `
-          M ${centerX} ${centerY - rOuterI}
-          A ${rOuterI} ${rOuterI} 0 0 1 ${centerX + rOuterI} ${centerY}
-          L ${centerX + rInnerI} ${centerY}
-          A ${rInnerI} ${rInnerI} 0 0 0 ${centerX} ${centerY - rInnerI}
-          Z
-          `
-      );
-      arcIRight.setAttribute("fill",   "url(#arcGradientRight)");
-      arcIRight.setAttribute("stroke", "none");
-      svg.appendChild(arcIRight);
+          const gradId = `gradInner_${idx1}`;
+          const grad = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+          grad.setAttribute("id", gradId);
+          grad.setAttribute("gradientUnits", "userSpaceOnUse");
+          
+          const ptGStart = getPt(rMidI, aStart);
+          const ptGEnd   = getPt(rMidI, aEnd);
+          grad.setAttribute("x1", ptGStart.x);
+          grad.setAttribute("y1", ptGStart.y);
+          grad.setAttribute("x2", ptGEnd.x);
+          grad.setAttribute("y2", ptGEnd.y);
+          defs.appendChild(grad);
+
+          const stop1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+          stop1.setAttribute("offset", "0%");
+          stop1.setAttribute("stop-color", segColors[idx1] + "99");
+          grad.appendChild(stop1);
+
+          const stop2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+          stop2.setAttribute("offset", "100%");
+          stop2.setAttribute("stop-color", segColors[idx1 + 1] + "99");
+          grad.appendChild(stop2);
+
+          const pOuterStart = getPt(rOuterI, aStart);
+          const pOuterEnd   = getPt(rOuterI, aEnd);
+          const pInnerStart = getPt(rInnerI, aStart);
+          const pInnerEnd   = getPt(rInnerI, aEnd);
+
+          const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+          path.setAttribute(
+              "d",
+              `
+              M ${pOuterStart.x} ${pOuterStart.y}
+              A ${rOuterI} ${rOuterI} 0 0 1 ${pOuterEnd.x} ${pOuterEnd.y}
+              L ${pInnerEnd.x} ${pInnerEnd.y}
+              A ${rInnerI} ${rInnerI} 0 0 0 ${pInnerStart.x} ${pInnerStart.y}
+              Z
+              `
+          );
+          path.setAttribute("fill", `url(#${gradId})`);
+          path.setAttribute("stroke", "none");
+          svg.appendChild(path);
+      }
 
 
       // radial gridlines
@@ -806,7 +865,7 @@
     }
 
 
-
+    
     function drawTempomat(){
 
       const res = sliderToKey();
@@ -824,6 +883,9 @@
       drawArcsAndTicks(svg, centerX, centerY, radius, ring, colors);
 
 
+      createSvgImage(svg, "/static/img/dovish-hawkish/wet-1.png",  70, 30,  90);
+      createSvgImage(svg, "/static/img/dovish-hawkish/dry-1.png", 640, 30, 100);
+
       function drawNeedle(val, needleBgCol) {
 
           const angle = scoreToAngle(val);
@@ -838,9 +900,9 @@
           const rStart = innerOuterEdge + 2;
           const rEnd   = outerInnerEdge - 2;
 
-          const needleWidth    =  8;
-          const arrowTipLength = 12;
-          const arrowTipWidth  = 24;
+          const needleWidth    = 12;
+          const arrowTipLength = 14;
+          const arrowTipWidth  = 28;
 
           const pts = [
               `${centerX + rStart},${centerY - needleWidth / 2}`,
@@ -881,13 +943,15 @@
       let colNeedle      = "#b0b0b0FF";
       let colEllipsisBg  = "#d0d0d0D0";  // more transparence
 
-      colNeedle      = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.3)
-      colEllipsisBg  = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.2)
+      colNeedle      = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.25)
+      colEllipsisBg  = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.10)
+      let bgLegend       = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], -0.1)
 
 
       document.querySelectorAll('.medianBgColorDYN').forEach(function(element) {
-          element.style.backgroundColor = colEllipsisBg;
+          element.style.backgroundColor = bgLegend;
       });
+      // html element medianVal is in the translation key council_tempomat_chart_label
       document.getElementById('medianVal').innerHTML = median;
 
       drawNeedle( median, colNeedle );

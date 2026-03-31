@@ -798,9 +798,18 @@ trlsRaw = [
         },
     },
     {
+        # attention: must contain html span element - being updated via JavaScript
         "council_tempomat_chart_label": {
-            "de": "Zeiger zeigt die Ratsmitglieder auf Median-Position. <br>Median des Gremiums   ",
-            "en": "Needle points to Median council members. <br> Median panel position ",
+            "de": """
+                    Zeiger zeigt die Median-Position des Gremiums: <span id="medianVal" ></span>.         <br>
+                    Die Kreise zeigen die Postion der Länder.              <br> 
+                    Maus-Over, um den Vertreter des Landes zu sehen 
+                """,
+            "en": """
+                    Needle shows the median stance of the council:  <span id="medianVal" ></span>. <br> 
+                    The circles show the stance of the member countries. <br>
+                    Mouse-over, to see the representative of the country. 
+                """,
         },
     },
     {
