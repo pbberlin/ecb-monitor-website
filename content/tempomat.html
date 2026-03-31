@@ -610,18 +610,8 @@
     }
 
 
-    function drawTempomat(){
+    function drawArcsAndTicks(svg, centerX, centerY, radius, ring) {
 
-      const res = sliderToKey();
-      const yrSlider  = res.yr;
-
-      const svg = document.getElementById("gauge");
-      svg.innerHTML = "";  // reset
-
-      const centerX = 400;
-      const centerY = 380;
-      const radius  = 300;
-      const ring    =  16;  // thickness
       const radiusArc  = radius + ring;
 
       // arc gradient start
@@ -654,14 +644,6 @@
       grad.appendChild(grCl3);
       // arc gradient end
 
-
-
-
-
-
-
-
-
       // arc
       const arc = document.createElementNS("http://www.w3.org/2000/svg", "path");
       arc.setAttribute(
@@ -680,9 +662,46 @@
       svg.appendChild(arc);
 
 
-          // 'rgb(194, 211,   0)',
-          // 'rgb( 0,  105, 180)',
+      // inner arc
+      const innerRing = 70;
+      const innerRadiusArc = 10 + (innerRing / 2);
+      const arcInner = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      arcInner.setAttribute(
+          "d",
+          `
+          M ${centerX - innerRadiusArc} ${centerY}
+          A ${innerRadiusArc} ${innerRadiusArc} 0 0 1 ${centerX + innerRadiusArc} ${centerY}
+          `
+      );
+      arcInner.setAttribute("fill",   "none");
+      arcInner.setAttribute("stroke", "url(#arcGradientLin)");
+      arcInner.setAttribute("stroke-width", String(innerRing) );
+      svg.appendChild(arcInner);
 
+      // radial gridlines
+      const gridValues = [-1.0, -0.5, 0.0, 0.5, 1.0];
+      const gridInnerEdge = 10 + innerRing;
+      const gridOuterEdge = radiusArc - (ring / 2);
+
+      for (const [idx1, val] of gridValues.entries()) {
+        const angle = scoreToAngle(val);
+
+        const x1 = centerX + Math.cos(angle) * gridInnerEdge;
+        const y1 = centerY - Math.sin(angle) * gridInnerEdge;
+
+        const x2 = centerX + Math.cos(angle) * gridOuterEdge;
+        const y2 = centerY - Math.sin(angle) * gridOuterEdge;
+
+        const gridLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        gridLine.setAttribute("x1", x1);
+        gridLine.setAttribute("y1", y1);
+        gridLine.setAttribute("x2", x2);
+        gridLine.setAttribute("y2", y2);
+        gridLine.setAttribute("stroke", "#888");
+        gridLine.setAttribute("stroke-width", "0.4");
+
+        svg.appendChild(gridLine);
+      }
 
       // arc ticks start
       const tickOuterRadius = radiusArc + 12;   // outside arc
@@ -727,7 +746,24 @@
         }
       }
       // arc ticks end
+    }
 
+
+
+    function drawTempomat(){
+
+      const res = sliderToKey();
+      const yrSlider  = res.yr;
+
+      const svg = document.getElementById("gauge");
+      svg.innerHTML = "";  // reset
+
+      const centerX = 400;
+      const centerY = 380;
+      const radius  = 315;
+      const ring    =  16;  // thickness
+
+      drawArcsAndTicks(svg, centerX, centerY, radius, ring);
 
 
       function drawNeedle(val, needleBgCol) {
