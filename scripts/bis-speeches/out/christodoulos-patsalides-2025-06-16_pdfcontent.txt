@@ -91,13 +91,13 @@ Market still suffers from uneven implementation and regulatory inconsistencies,
 particularly in services, digital activity, and professional mobility. These barriers 
 significantly impede growth, limit scale economies, and reduce cross-border 
 competition. In response, the European Commission's upcoming Single Market 
-Strategy 2025  is set to provide a refreshed policy framework to eliminate remaining 1
+Strategy 2025   is set to provide a refreshed policy framework to eliminate remaining 1
 bottlenecks. It includes proposals for harmonized corporate rules, streamlined 
 procedures for cross-border activity, and improved enforcement mechanisms - all 
 aimed at making the internal market truly function as a single economic space.
 Second, the underdevelopment of capital markets in the EU remains a key constraint 
 on investment and innovation. Despite a substantial pool of private savings - estimated 
-at around €33 trillion  - Europe continues to lag behind other major economies in 2
+at around €33 trillion   - Europe continues to lag behind other major economies in 2
 converting those savings into productive investment. Fragmented regulatory regimes, 
 insufficient market depth, and relatively low cross-border participation hinder access to 
 finance, particularly for small and medium-sized enterprises. The Capital Markets Union 
@@ -112,25 +112,25 @@ States - in terms of risk capital availability and the ability of startups to gr
 competitive firms. Early-stage and growth-stage companies frequently face funding 
 gaps that limit their ability to scale, commercialize new technologies, and create high-
 quality jobs. A stronger, more integrated European venture capital market would help 
-address these issues. The European Commission's venture capital policy  outlines a 4
+address these issues. The European Commission's venture capital policy   outlines a 4
 range of initiatives to attract more private investment, reduce regulatory fragmentation, 
 and enhance access to equity finance across borders. These include reforms to 
 improve exit conditions through deeper capital markets, support for cross-border 
-venture funds, and initiatives like InvestEU, which crowd in private capital by sharing 5 
+venture funds, and initiatives like InvestEU , which crowd in private capital by sharing 5 
 risk. Building such an ecosystem is vital not only for economic competitiveness but also 
 for achieving Europe's strategic autonomy in key technologies.
 Fourth, Europe must ensure effective and coherent financial supervision across its 
 internal borders. Today, the supervision of capital markets and financial services 
 remains largely national, resulting in regulatory fragmentation and inconsistent 
 enforcement. To strengthen market integrity and investor confidence, it is essential to 
-upgrade the powers of the European Securities and Markets Authority (ESMA). A 6 
+upgrade the powers of the European Securities and Markets Authority (ESMA) . A 6 
 more empowered ESMA - ideally with authority akin to the Single Supervisory 
 
 4/8 BIS - Central bankers' speeches
 Mechanism (SSM) in the banking sector - would enable more consistent application of 
 EU law, reduce compliance complexity for cross-border operators, and reinforce the 
 EU's global standing as a safe and efficient capital market.
-Fifth, the Banking Unionremains unfinished without the introduction of a fully 7 
+Fifth, the Banking Union remains unfinished without the introduction of a fully 7 
 mutualised Deposit Guarantee Scheme (DGS). The absence of a common DGS 
 perpetuates the so-called "bank-sovereign nexus," whereby concerns about a country's 
 fiscal health can spill over into confidence in its banks. Completing this pillar would help 
@@ -138,7 +138,7 @@ ensure that depositors are protected uniformly across the euro area, reinforce f
 stability, and prevent fragmentation in times of stress. It would also further level the 
 playing field across member states, making the European banking sector more robust 
 and competitive.
-Finally, the creation of a safe European asset, such as a Eurobond, is critical to 8 
+Finally, the creation of a safe European asset , such as a Eurobond, is critical to 8 
 strengthening the transmission of monetary policy and providing a benchmark 
 instrument for EU-wide capital allocation. A safe asset would serve as a low-risk 
 investment vehicle for institutional investors, enhance the stability of the European 
@@ -156,16 +156,16 @@ European financial system is not only better integrated, but also well protected
 prepared to withstand new types of shocks in a rapidly evolving corporate and risk 
 environment. To this end, European authorities remain firmly committed to safeguarding 
 and strengthening financial system resilience and this commitment is reflected in the 
-ongoing completion of the Basel III framework, which emerged in response to the 9 
+ongoing completion of the Basel III framework , which emerged in response to the 9 
 2008 global financial crisis. The finalisation of these reforms ensures that banks remain 
 adequately capitalised, better manage liquidity risks, and are less vulnerable to future 
 shocks.
 In parallel, EU authorities are also prioritising the implementation of new regulatory 
 frameworks that respond to emerging structural challenges. The Digital Operational 
-Resilience Act (DORA)  introduces a harmonised EU framework to enhance the 10
+Resilience Act (DORA)   introduces a harmonised EU framework to enhance the 10
 digital resilience of financial institutions against ICT-related disruptions and cyber 
 threats. On the sustainability front, the Corporate Sustainability Reporting Directive 
-(CSRD) and the Sustainable Finance Disclosure Regulation (SFDR)  are being 11  12
+(CSRD) and the Sustainable Finance Disclosure Regulation (SFDR)   are being 11  12
 rolled out to improve transparency, accountability, and the integration of Environmental, 
 Social, and Governance (ESG) considerations into both corporate practices and 
 investment decisions.

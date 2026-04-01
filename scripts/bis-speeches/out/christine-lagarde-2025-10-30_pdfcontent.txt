@@ -38,7 +38,7 @@ This is, for example, the case in the pharmaceutical sector, where European affi
 pay royalties for intellectual property originating in the United States while supplying 
 finished products back to the US market.
 Moreover, Europe's overall current account surplus has been declining. It reached 
-almost 4% of GDP in 2018, but by the first half of this year it had halved to 2.1%and is 2 
+almost 4% of GDP in 2018, but by the first half of this year it had halved to 2.1% and is 2 
 projected to remain around that level.3
 By contrast, trends in other major economies are going in the opposite direction.
 China's current account surplus has risen from 0.2% of GDP in 2018 to 3.7% in the first 
@@ -84,13 +84,13 @@ With all this in mind, I will draw three main conclusions.
 First, coercive trade measures against Europe will not help resolve the United States' 
 external imbalances.
 Tariffs do not sustainably reduce current account deficits, as they have complex effects 
-on saving and investment decisions.They can only be effective when used to 7 
+on saving and investment decisions. They can only be effective when used to 7 
 encourage trading partners to remove distortionary policies that drive imbalances.
 Europe is no longer a reasonable target for such a strategy. Insofar as distortionary 
 policies once played a role, we have largely removed them. And the United States 
 already faces very low tariffs when exporting to the EU.
 Continuing to apply trade measures aggressively may even prove counterproductive. 
-Europe is roughly twice as open to trade as the United States.This means that 8 
+Europe is roughly twice as open to trade as the United States. This means that 8 
 constant trade policy volatility is more likely to raise uncertainty among European 
 households and firms than among their US counterparts.
 That uncertainty, in turn, could prompt higher precautionary savings, lower spending 
@@ -146,7 +146,7 @@ We have the will – and the means – to do so.
 
 5/5 BIS - Central bankers' speeches
 1 Emter, L., Fidora, M., Pastoris, F., Schmitz, M. and Schuler, T. (2025), "US trade 
-", policies and the activity of US multinational enterprises in the euro areaEconomic 
+", policies and the activity of US multinational enterprises in the euro area Economic 
 , Issue 4, ECB.Bulletin
 2 12-month moving sum.
 3 European Central Bank (2025), "ECB staff macroeconomic projections for the euro 
@@ -154,12 +154,12 @@ We have the will – and the means – to do so.
 4 Both the US deficit and the EU surplus would likely be smaller if the activities of US 
 multinationals were measured differently.
 5 Al-Haschimi, A., Emter, L., Gunnella, V., Ordoñez Martínez, I., Schuler, T. and Spital, 
-T. (2024), " ",  , Why competition with China is getting tougher than everThe ECB Blog
+T. (2024), " ",  , Why competition with China is getting tougher than ever The ECB Blog
 ECB, 3 September.
 6 International Monetary Fund (2025), " ", External Global Imbalances in a Shifting World
 Sector Report, July.
 7 Ibid.
 8 Measured by trade as a share of GDP.
 9 Baumann, A., Caprari, L., Dossche, M., Kocharkov, G. and Kouvavas, O. (2025), "
-", Consumer expectations and actions during the recent trade tensionsEconomic Bulletin
+", Consumer expectations and actions during the recent trade tensions Economic Bulletin
 , Issue 6, ECB.

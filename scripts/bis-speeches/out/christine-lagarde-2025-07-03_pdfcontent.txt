@@ -50,7 +50,7 @@ firms to adjust prices more frequently – thereby contributing to greater infla
 This is not simply an extrapolation from the most recent shock. Rather, it reflects a 
 structural shift in how firms operate under conditions of permanently higher uncertainty.
 Research shows that, in such an environment, firms tend to react more quickly to 
-shocks – especially supply ones – in order to protect against potential future losses.At 1 
+shocks – especially supply ones – in order to protect against potential future losses. At 1 
 the same time, they are more likely to adopt more flexible pricing strategies, which 
 means prices may respond not just to major shocks, but also to smaller frictions and 
 local disruptions.2
@@ -143,14 +143,14 @@ substitutes, both capable of delivering the necessary disinflation. But persiste
 particular, can help limit the economic and financial stability costs compared with 
 continued rate increases.
 This was borne out in our own experience. When we entered what I described as the 
-"holding phase", we placed greater weight on the persistence dimension.This allowed 6 
+"holding phase", we placed greater weight on the persistence dimension. This allowed 6 
 the disinflation process to advance at a steady pace, while the so-called "sacrifice ratio" 
 remained historically low compared with previous disinflation episodes.7
 
 5/6 BIS - Central bankers' speeches
 Reflecting this experience, the Governing Council considers that its reaction function is 
 best described as requiring "appropriately forceful or persistent monetary policy action 
-in response to large, sustained deviations of inflation from the target." in either direction
+in response to large, sustained deviations of inflation from the target ." in either direction
 To this end, all our instruments remain available in our toolkit. But the word 
 "appropriately" is important, as it underscores that the choice of instruments, and the 
 intensity with which we use them, must reflect proportionality.
@@ -177,7 +177,7 @@ is necessary to deliver on it – ensuring price stability for the people of Eur
 1 Kase, H. and Rigato, R. (2025), "Monetary Policy, Supply Shocks, and Input-Output 
 Linkages in the Euro Area", mimeo.
 2 Arndt, S. and Enders, Z. (2024), "The Transmission of Supply Shocks in Different 
-", , No 938, Banque de France, January; Khalil, Inflation Regimes Working Paper Series
+", , No 938, Banque de France, January; Khalil, Inflation Regimes  Working Paper Series
 M. and Lewis, V. (2024), "Product turnover and endogenous price flexibility in uncertain 
 ", , No 18941, Centre for Economic Policy times  CEPR Discussion Paper Series
 Research, Paris and London, 22 March.
@@ -194,5 +194,5 @@ inflation expectations",  , ECB, forthcoming.Working Paper Series
 6 Lagarde, C. (2024), " ", speech at The ECB and Building confidence in the path ahead
 its Watchers XXIV Conference, organised by the Institute for Monetary and Financial 
 Stability, Goethe University, Frankfurt am Main, 20March.
-7 Deutsche Bundesbank (2024), " ",The global disinflation process and its costs Monthly 
+7 Deutsche Bundesbank (2024), " ",The global disinflation process and its costs  Monthly 
 , July.Report

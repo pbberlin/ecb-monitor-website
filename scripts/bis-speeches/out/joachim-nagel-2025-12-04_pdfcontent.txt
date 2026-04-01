@@ -76,13 +76,13 @@ But that is precisely the risk, given geoeconomic fragmentation and the tendency
 shun multilateralism. Because, under these circumstances, countries will probably be 
 inclined to secure what they regard as competitive advantages by deregulating the 
 financial sector: in other words, regulatory arbitrage. The first signs of this are already in 
-evidence: There are still no indications that the newUS administration is fundamentally    
+evidence: There are still no indications that the new US administration is fundamentally    
 calling the finalisation of Basel III into question. Overall, though, the United States does 
 appear to be moving towards loosening financial regulation. For example, the United 
 States has made a regulatory pivot towards a far more pro-crypto stance. That shift also 
 
 3/7 BIS - Central bankers' speeches
-includes a call by a working group set up by theUS administration to revise global    
+includes a call by a working group set up by the US administration to revise global    
 standards on limiting the risks of crypto-assets. Those standards are already partially 
 applicable in the EU.
 In my view, it is crucial that we don't allow a global race to the bottom to happen in the 
@@ -134,7 +134,7 @@ requirements aim to ensure that a bank that finds itself in a gone concern situa
 is to say, it has become insolvent–can be resolved in an orderly manner. Orderly also 
 means that financial stability is not at risk and that there is no cost to public finances.
 Banks established in the European Union are subject to the minimum requirement for 
-own funds and eligible liabilities–orfor short. The legal experts among you, in  MREL,  
+own funds and eligible liabilities–or for short. The legal experts among you, in  MREL, 
 particular, will probably be familiar with acronyms like this, and supervisors and 
 regulators–some of whom are themselves lawyers–use them happily and liberally. I've 
 got one or two more acronyms lined up for you in just a few moments. The idea behind 
@@ -143,9 +143,9 @@ other words, capital that can be used to absorb losses. Here again, a distinctio
 made between risk-weighted and non-risk-weighted capital requirements. In addition, 
 banks can use certain debt capital instruments to meet the requirements under the 
 resolution regime.
-Global systemically important banks, known asare furthermore subject to the  G-SIBs, 
-globalTLAC standard–TLACmeans total loss absorbing capacity. The initiative for the       
-TLAC requirements came from the Unlike theTLAC requirements matter    G20.   MREL,      
+Global systemically important banks, known as are furthermore subject to the  G-SIBs, 
+global TLAC standard–TLAC means total loss absorbing capacity. The initiative for the       
+TLAC requirements came from the Unlike the TLAC requirements matter    G20.   MREL,     
 for just a very small number of big banks in Europe.
 All in all, credit institutions in the European Union have to comply with as many as nine 
 different own funds requirements. But that's not the end of this account of regulatory 
@@ -202,7 +202,7 @@ to use two examples to illustrate how the own funds requirements could be simpli
 My first example is about capital buffers. We could combine several capital buffers. 
 However, we should take into account the scope of the respective buffers and where 
 the responsibility for determining them lies. For example, the level of the countercyclical 
-capital buffer and systemic risk buffer is set byIt is clearly only sensible to  BaFin. 
+capital buffer and systemic risk buffer is set by It is clearly only sensible to  BaFin. 
 combine buffers within the existing areas of responsibility.
 In this context, it would make sense to combine the countercyclical capital buffer and 
 the systemic risk buffer into a single releasable buffer. The two buffers are the 
@@ -248,7 +248,7 @@ Let me briefly recap the two examples of simplification that I have talked about
 we could combine two macroprudential capital buffers–the countercyclical capital buffer 
 and the systemic risk buffer–into a single buffer. Second, a small bank regime without 
 risk-weighted rules but with a higher leverage ratio would greatly contribute to 
-simplifying banking regulation in theIn the High-Level Task Force, we are also  EU. 
+simplifying banking regulation in the In the High-Level Task Force, we are also  EU. 
 discussing other ways of simplifying banking regulation in Europe.
 You may recall that I referred to the Pareto principle at the beginning of my speech. 
 This principle states that 80% of outcomes can be achieved with 20% of the total effort. 
@@ -275,7 +275,7 @@ scienza sociale, Milan, Società Editrice Libraria.
 3 Simplification–European Commission
 4 What is the ECB High-Level Task Force on Simplification?
 5 SRB (2023),  Measures of banks' capital buffer usability under prudential and  
-,SRB Working Paper Series #2.resolution requirements in the banking union   
+, SRB Working Paper Series #2.resolution requirements in the banking union    
 6 Dossier on small banks | FINMA
 7 Some authors even argue in favour of making the leverage ratio the only requirement 
 in own funds regulation; see Admati, A. and M. Hellwig (2013), The Bankers' New 

@@ -9,7 +9,7 @@ Check against delivery 
 1 Introduction
 Ladiesandgentlemen, dear colleagues,
 It is a pleasure and an honour to welcome you today to the conference on "Artificial 
-Intelligence and the Future of Central Banking", jointly hosted by SUERF –The 
+Intelligence and the Future of Central Banking", jointly hosted by SUERF–The 
 European Money and Finance Forum–and the Deutsche Bundesbank.
 I am pleased to see so many people here in the room with us in Frankfurt today. And it 
 is wonderful that there are so many participants joining us virtually, too. This conference 
@@ -27,7 +27,7 @@ and perspectives on both.
 At the Bundesbank, we develop and use different AI applications that support 
 employees in a wide range of tasks. For example, we have released a platform 
 enabling staff throughout our institution to configure text-based intelligent assistants 
-TIAs(which we call TIAs) for their daily work. These  can even be used to process 
+TIAs(which we call TIAs) for their daily work. These   can even be used to process 
 confidential data. A second Bundesbank platform uses natural language processing 
 (NLP), allowing large volumes of documents to be pre-processed and analysed.
 Yet another example is MILA the Monetary-Intelligent Language Agent model, which we 
@@ -39,7 +39,7 @@ confidence that we will also master the challenges posed by the transformative p
 
 2/4 BIS - Central bankers' speeches
 AIof   for central banks and the economy in general. I would therefore like to use the 
-AInext few minutes to shed light on both the opportunities afforded by  and the 
+AInext few minutes to shed light on both the opportunities afforded by   and the 
 challenges it presents.
 2 The transformative potential of AI 
 The transformative potential of AI arises from different dimensions and promises of this 
@@ -63,19 +63,19 @@ formation. For example, it will impact on the diffusion of innovation and may th
 potential growth.
 The Bundesbank Survey of firms (BOP-F) for the second quarter of 2025 reflected the 
 impact of generative AI on the world of work.2 A majority of firms that already employ 
-AIgenerative  expected that its use would improve their profitability, customer 
+AIgenerative   expected that its use would improve their profitability, customer 
 satisfaction and employee satisfaction. For the year 2024, around one-half of the firms 
-AI AIthat had already employed  by that time reported that the use of generative 
+AI AIthat had already employed   by that time reported that the use of generative 
  increased their productivity. 
-However, expert opinions on the magnitudeof AI's impact on productivity vary greatly.  
+However, expert opinions on the magnitude of AI's impact on productivity vary greatly.  
 Understanding such forces and dynamics is crucial for central banks, as they assess 
 the medium-term economic outlook, structural change, and the transmission of 
 monetary policy.
-3 Challenges ofAI from a central banking perspective   
+3 Challenges of AI from a central banking perspective   
 Colleagues at the Bank for International Settlements have been looking more closely at 
 the use of AI applications in central banking.3 Their findings show that central banks 
-AIhave been early adopters of  and machine learning techniques for important tasks.4
-AI At the same time, the great potential of  poses several challenges for central banks. 
+AIhave been early adopters of   and machine learning techniques for important tasks.4
+AI At the same time, the great potential of   poses several challenges for central banks. 
 Let me explain this again using the two aspects I focused on before. 
 
 3/4 BIS - Central bankers' speeches
@@ -85,22 +85,22 @@ because it can be more difficult to fully understand how they achieve their outp
 compared to traditional approaches. However, for central banks, transparency and 
 credibility are key. Both are crucial in terms of how central banks work and how they 
 communicate with markets and the public. It is therefore important to invest in 
-AIexplainable  methods–some of which we will see in today's presentations.
+AIexplainable   methods–some of which we will see in today's presentations.
 The second issue concerns the challenges presented by the economic implications of 
 AI. The transformative power of AI might foster structural changes. Thus, monitoring the 
-AIimpact of  in its multiple dimensions and from different perspectives is crucial. This is 
-AIchallenging because  is progressing swiftly, and its macroeconomic impact might 
+AIimpact of   in its multiple dimensions and from different perspectives is crucial. This is 
+AIchallenging because   is progressing swiftly, and its macroeconomic impact might 
 change rapidly. 
 At the current juncture, we are seeing many firms in the euro area still using AI on a 
-AIlimited or experimental basis.5 Moreover, in many occupations,  is currently mainly 
+AIlimited or experimental basis.5 Moreover, in many occupations,   is currently mainly 
 supporting employees in various tasks, rather than fully taking over their jobs. However, 
-AIas we have seen, the capabilities of  are expanding quickly. And so are its potential 
+AIas we have seen, the capabilities of   are expanding quickly. And so are its potential 
 implications for labour markets and monetary policy transmission. 
 We must proceed with caution and take care to continually update our evaluation of the 
 impact of AI. To do so, we require, inter alia, information on the use of AI that is 
 representative and comparable across countries. Such data are scarce, however. In 
 view of this, the Bundesbank, Banca d'Italia and Banco d'España are working together 
-AIon harmonising questions on  in their representative firm surveys.
+AIon harmonising questions on   in their representative firm surveys.
 To sum up, I hope I have given you some insight into how we at the Bundesbank are 
 open to new technologies, how we try to leverage their potential and how we discuss 
 their advantages and disadvantages. 
@@ -126,12 +126,12 @@ mandate. This goal and our commitment to it remain as important as ever. 
 Thank you very much for your attention. 
 1 Deutsche Bundesbank (2025), Monetary policy communication according to artificial 
 , Monthly Report, March 2025.intelligence
-2 Deutsche Bundesbank (2025), Survey of firmsF), (BOP-  Q2 2025: Impact of 
+2 Deutsche Bundesbank (2025), Survey of firms F), (BOP-  Q2 2025: Impact of 
 .generative AI on the world of work
 3 Bank for International Settlements (2025), The use of artificial intelligence for policy 
-, Report submitted to theG20 Finance Ministers and Central Bank Governors, purposes    
+, Report submitted to the G20 Finance Ministers and Central Bank Governors, purposes    
 October 2025.
 4 Araujo, D., S. Doerr, L. Gambacorta and B. Tissot (2024), Artificial intelligence in 
-,BIS Bulletin, No 84, 23 January 2024.central banking   
+, BIS Bulletin, No 84, 23 January 2024.central banking    
 5 Deutsche Bundesbank (2025), ,  Use of artificial intelligence–a European comparison
 Monthly Report, May 2025. 

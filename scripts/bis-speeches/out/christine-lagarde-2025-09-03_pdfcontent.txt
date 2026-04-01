@@ -87,7 +87,7 @@ Independence is, at its core, a rule-of-law guarantee. By committing to independ
 law, countries around the world secure credibility for their monetary policy. And as we 
 have seen on several occasions, that credibility ultimately affords greater autonomy to 
 central banks – allowing, for example, policy tools to be adopted during crises without 
-de-anchoring inflation expectations.1
+de-anchoring inflation expectations .1
 In Europe, the EU Treaty explicitly protects the ECB and national central banks from 
 political instructions. Beyond the EU, the IMF promotes central bank independence, 
 sometimes making it an explicit component of financial programmes. Independence 
@@ -132,5 +132,5 @@ Thank you very much.
 see Nakamura, E., Riblier, V. and Steinsson, J. (2025), ,  Beyond the Taylor Rule
 Federal Reserve Bank of Kansas City, August.
 2 "Soyons assez puissants pour nous faire respecter et pour promouvoir nos valeurs de 
-liberté et de solidarité."See Delors, J. (1989), "  Speech at the opening session of the 
+liberté et de solidarité." See Delors, J. (1989), "  Speech at the opening session of the 
 ", Bruges, 17 October40th academic year of the College of Europe . 

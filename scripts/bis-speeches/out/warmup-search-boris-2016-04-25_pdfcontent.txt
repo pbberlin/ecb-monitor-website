@@ -124,7 +124,7 @@ differences in frequencies and amplitudes between real and financial cycles. Mor
 researchers from t he Bank for International Settlements have shown that the correlation 
 between real and financial cycles gets stronger over time as the duration and amplitude of 
 financial cycles increases. The main explanation for the increasing correlation between the 
-real and financial cycle is the so- called “unfinished recession”  phenomenon, according to 
+real and financial cycle is the so- called “unfinished recession” phenomenon, according to 
 which globalization and a more activist monetary policy, which fails to take into account the 
 state of the financial cycle, eventually cause a bigger recession down the road6. 
 We are left with two more interesting features of cyclical (co)movements. The degree to 
@@ -245,7 +245,7 @@ euro-area experience demonstrates strong incentives for sovereign fiscal policie
 no bail -out clause, wi th the implicit assumption that sovereign default will be politically 
 unacceptable, or through a direct support of common monetary authority through special 
 monetary operations. This uneasy triangle is usually referred to as the fiscal trilemma of the 
-monetary union. Such a “ holy trinity” makes impossible the cohabitation of the independent 
+monetary union. Such a “holy trinity” makes impossible the cohabitation of the independent 
 monetary policy of a supranational central bank, national fiscal sovereignty and the no bail -
 out clause 15. In order to ease the frictions stemming from national fiscal policies, the 
 monetary framework of the euro area was reconstructed by implementing the elements of the 

@@ -45,23 +45,23 @@ that weaken our ability to implement monetary policy effectively. We will ensure
 euro remains the dominating currency here in the euro area. 
 Furthermore, the financial stability must not be endangered. That means: First, we have 
 to make sure that large-value payments are settled in central bank money. They may 
-use but with wholesale central bank digital currenciesSecond, we have  DLT,   (CBDC). 
+use but with wholesale central bank digital currencies Second, we have  DLT,   (CBDC). 
 to ensure that new instruments and new infrastructures cannot create distorted 
 incentives that could contribute to potential bank runs or increased market volatility. 
 Third, all financial actors must be subject to proper regulation. A level playing field is 
 essential in regulation. Our current regulations–be it anti-money laundering (AML), 
-countering financing of terrorismprinciples of financial market infrastructures (CFT),   
+countering financing of terrorism principles of financial market infrastructures (CFT),   
 or anything else–must be applied equally to anyone who provides financial (PFMI), 
 services. These are my guardrails and guiding principles.
 To conclude, I would like to briefly mention the overwhelming efforts by central banks 
 and others towards dealing with these developments and finding the right answers to 
 the challenges they present. 
-Many central banks are exploring and testing digital forms of money, that is CBDC.  
+Many central banks are exploring and testing digital forms of money, that is CBDC. 
 Many are also discussing new forms of ledgers that could potentially support multiple 
 forms of digital money. Central banks are cooperating in a wide variety of technical 
-projects organised through theBIS Innovation Hub. Many of us are in almost constant    
+projects organised through the BIS Innovation Hub. Many of us are in almost constant    
 exchange with market participants and operators of Financial Market Infrastructures to 
 find the best solutions for the future of transaction banking.
 And that is why I and many of my fellow central bankers are here today. Please allow 
-me to express my appreciation toSWIFT for organising this week of exchange and    
+me to express my appreciation to SWIFT for organising this week of exchange and    
 discussion. I am sure that all of us are going to learn a lot. Thank you.

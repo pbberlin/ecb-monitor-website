@@ -29,7 +29,7 @@ evolving environment.
 * I would like to thank Stefano Siviero for his help in writing this speech.
 1 Prometeia and Banca d’Italia were among the pioneers in the development of econometric models in 
 Italy. In the 1960s, the Bank’s econometric efforts drew the attention of Beniamino Andreatta, who later 
-became one of Prometeia’s main advocates. In 1969, he wrote: “ The path forward is the one already 
+became one of Prometeia’s main advocates. In 1969, he wrote: “The path forward is the one already 
 pursued by our central bank for years: to refine its interpretative frameworks and develop an increasingly 
 sophisticated system for gathering the necessary statistical data.“ (B. Andreatta, “Il disegno della politica 
 della Banca centrale e l’uso di modelli econometrici di flussi monetari“, Bancaria, 1, 1969, p. 18).
@@ -280,7 +280,7 @@ adopted in the pre-pandemic period, contrary to some expectations, did not exace
 inequalities but rather produced moderately positive redistributive effects. 19
 The combination of micro and macro levels has also proven useful in other areas, 
 allowing for the estimation of potential output while avoiding the “aggregation 
-bias“, 20 and providing more accurate measures of the effects of credit rationing 
+bias“,20 and providing more accurate measures of the effects of credit rationing 
 during the sovereign debt crisis. 21
 17 Policymakers need an “economic narrative“ to judge the reliability of a forecast scenario; data alone 
 are not enough. 

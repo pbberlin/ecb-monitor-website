@@ -6,7 +6,7 @@ Conference, Dublin, 11 June 2024.
 * * *
 Slides accompanying the speech 
 Let me begin by offering some comments on the economic outlook, before discussing 
-our decision last week to cut the key ECB interest rates by 25 basis points.The latest 1 
+our decision last week to cut the key ECB interest rates by 25 basis points. The latest 1 
 Eurosystem staff macroeconomic projections foresee economic growth at 0.9 per cent 
 in 2024, 1.4 per cent in 2025 and 1.6 per cent in 2026, while inflation is projected to 
 average 2.5 per cent in 2024, 2.2 per cent in 2025 and 1.9 per cent in 2026. Relative to 
@@ -21,12 +21,12 @@ disinflation is secured, with inflation returning to our two per cent target in 
 manner and settling at this level on a sustainable basis.
 Rather than provide a full analysis of all the factors that determine inflation dynamics, 
 let me briefly discuss wage dynamics, which play an especially important role in the 
-final stages of the disinflation process.Wage growth is still elevated, primarily driven 2 
+final stages of the disinflation process. Wage growth is still elevated, primarily driven 2 
 by the ongoing adjustment to the past inflation surge. The growth rate of compensation 
 per employee ticked up from 4.9 per cent in the fourth quarter of 2023 to 5.0 per cent in 
 the first quarter, largely reflecting an increase in negotiated wage growth from 4.5 per 
 cent to 4.7 per cent. This stronger growth in the first quarter includes very large one-off 
-payments in the German public sector.More broadly, the design of some multi-year 3 
+payments in the German public sector. More broadly, the design of some multi-year 3 
 wage settlements specify large increases in 2024 (to compensate for the lack of earlier 
 pay adjustments to the inflation surge) but much smaller increases in 2025. The set of 
 forward-looking wage trackers also signal that wage dynamics will remain elevated in 
@@ -53,9 +53,9 @@ in keeping the disinflation process on track, even while the final stages of cat
 dynamics mean that wage growth remains elevated this year.
 Let me now turn to last week's monetary policy decision. After nine months of holding 
 the deposit facility rate (the primary policy rate that steers money market conditions) at 
-4.0 per cent, we cut it to 3.75 per cent.Over the interval since our September 2023 4 
+4.0 per cent, we cut it to 3.75 per cent. Over the interval since our September 2023 4 
 monetary policy meeting, the projected timely return of inflation to our target has been 
-reconfirmed in the December, March and June projection rounds.For instance, over 5 
+reconfirmed in the December, March and June projection rounds. For instance, over 5 
 the last four forecast rounds, the projected fourth quarter-on-fourth quarter HICP 
 inflation rate for 2025 has oscillated within the very narrow interval of 1.9 per cent to 2.0 
 per cent. As 2025 draws closer, the timeliness of the projected return to target looms 
@@ -94,7 +94,7 @@ baseline projections reflect the market yield curve, which envisages a set of ra
 2024 and 2025. However, at a still clearly restrictive level of 3.75 per cent for the 
 deposit facility rate, the realisation of even a substantial margin of upside shocks to 
 inflation could be addressed by a slower pace of rate reductions compared to the 
-baseline rate path embedded in the projections.At the same time, a policy rate level of 6 
+baseline rate path embedded in the projections. At the same time, a policy rate level of 6 
 3.75 per cent also offers more protection against downside shocks compared to 
 remaining at 4.0 per cent.
 It should be clear that the high level of uncertainty and the still-elevated price pressures 
@@ -117,13 +117,13 @@ target in a timely manner, and we will keep policy rates sufficiently restrictiv
 as necessary to achieve this aim. We are not pre-committing to a particular rate path 
 and will continue to take a meeting-by-meeting approach to determining the appropriate 
 level and duration of restriction.
- 1 See also Lagarde, C. (2024), "Why we adjusted interest rates",, 8 June.  The ECB Blog
+ 1 See also Lagarde, C. (2024), "Why we adjusted interest rates", , 8 June.  The ECB Blog
 In addition, a set of is available on the ECB website. background slides 
 2 For instance, see more detailed inflation analysis in Lane, P.R. (2024), "Inflation in the 
 euro area", Speech at the Institute of International and European Affairs, Dublin, 27 
 May.
 3 For details see Holton, S. and Koester, G. (2024), "Tracking euro area wages in 
-", , 23 May.exceptional times The ECB Blog
+", , 23 May.exceptional times  The ECB Blog
 4 The other key policy rates are the rates on the main refinancing operations and the 
 marginal lending facility at which banks can borrow from the ECB.
 5 Each projection round takes into account the prevailing market view of the future path 
@@ -137,4 +137,4 @@ assessment section of our monetary policy statement elaborates on the set of ris
 the economy and inflation.
 7 For instance, productivity growth is intertwined with cyclical recovery. See Arce, Ó. 
 and Sondermann, D. (2024), "Low for long? Reasons for the recent decline in 
-", , 6 May.productivity The ECB Blog
+", , 6 May.productivity  The ECB Blog

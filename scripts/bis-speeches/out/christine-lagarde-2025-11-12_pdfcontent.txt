@@ -26,11 +26,11 @@ I will now outline in more detail how we see the economy and inflation developin
 will then explain our assessment of financial and monetary conditions.
 Economic activity
 The economy grew by 0.2 per cent in the third quarter of the year, according to 
-Eurostat's preliminary flash estimate published today.The services sector continued to  
+Eurostat's preliminary flash estimate published today. The services sector continued to  
 grow, boosted by strong tourism and, especially, by a pick-up in digital services. 
 According to surveys, the pick-up reflects the fact that many firms have stepped up 
 efforts to modernise their IT infrastructures and integrate artificial intelligence into their 
-operations.Meanwhile, manufacturing was held back by higher tariffs, still-heightened  
+operations. Meanwhile, manufacturing was held back by higher tariffs, still-heightened  
 uncertainty and a stronger euro.
 The divergence between domestic and external demand is likely to persist in the near 
 term. The economy should benefit from consumers spending more as real incomes rise.
@@ -59,7 +59,7 @@ The Governing Council is committed to making retail and wholesale central bank m
 fit for the digital age. In this vein, the Governing Council today decided to move to the 
 next stage of the digital euro project. This will ensure technical readiness for potential 
 issuance and support Europe's digital sovereignty once the legislation has been 
-adopted. The details of this decision are available in a separate. press release
+adopted. The details of this decision are available in a separate . press release
 Inflation
 Annual inflation increased to 2.2 per cent in September, from 2.0 per cent in August. 
 This was mainly because energy prices fell by less than before. Energy price inflation 
@@ -69,7 +69,7 @@ excluding energy and food rose to 2.4 per cent, from 2.3 per cent in August, as 
 inflation ticked up from 3.1 per cent to 3.2 per cent, while goods inflation was again 
 unchanged at 0.8 per cent.
 Indicators of underlying inflation remain consistent with our two per cent medium-term 
-target.While firms' profits are recovering, labour costs are set to moderate further  
+target. While firms' profits are recovering, labour costs are set to moderate further  
 owing to rising productivity and an easing in wage growth. Forward-looking indicators, 
 such as the ECB's wage tracker and surveys on wage expectations, point to slower 
 wage growth over the remainder of the year and the first half of 2026.

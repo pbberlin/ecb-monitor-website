@@ -1,0 +1,92 @@
+1/3 BIS - Central bankers' speeches
+Olaf Sleijpen: Counting what's missing - building sustainability 
+statistics in a data-scarce world
+Speech by Mr Olaf Sleijpen, President of De Nederlandsche Bank, at the opening of the 
+Irving Fisher Committee Satellite Seminar on "Sustainability data issues and central 
+banks", Amsterdam, 4 October 2025.
+* * *
+A warm welcome to you all, welcome to De Nederlandsche Bank. And thank you for 
+giving me the opportunity to come to the office on a Saturday. I must say I don't do this 
+very often, except on very special occasions. And this is a very special occasion. We 
+are proud to host the Satellite Seminar of the Irving Fischer Committee on Sustainability 
+data issues and central banks' experience.
+And I think it is rather fitting to hold this seminar on World Animal Day. Because in a 
+way statisticians are like animals. There are many different species of you, you are 
+essential to the economic ecosystem, but you are not always treated very well. And 
+some of you are even under threat from some nasty examples of Homo sapiens.
+So on a day like this, and also on World Statistics Day later this month, it is good to 
+remind the world how crucial reliable data are for global progress. Good data, and good 
+statistics based on that data, are key to making informed decisions in a complex world 
+and a modern economy.
+Now let's zoom in a bit on the role of central banks. Central banks play an important 
+role in providing high-quality statistics on the economy and the financial sector. That is 
+because, as monetary authorities and often also as financial supervisors, central banks 
+gather a lot of data. And we have the skills and the knowledge to organise, analyse, 
+and interpret these data to draw meaningful conclusions.
+In this rapidly evolving world, there is a need for statistics that are both timely and 
+responsive to current developments. This is particularly the case for data on 
+sustainability and climate risk. Climate change and nature degradation form a risk for 
+financial institutions, financial stability and long-term economic development and may 
+impact price developments. And that's why climate change and nature degradation are 
+well within the mandate of central banks and prudential supervisors..
+There is huge demand for reliable statistics on climate risk. But sustainability data and 
+statistics are still a relatively new field. There are still significant data gaps. For financial 
+institutions, there are currently no global and consistent legal requirements to submit 
+sustainability data. Reporting mandates still differ greatly in terms of stringency and 
+scope across countries.
+So the situation is not ideal. But given the urgency of the climate problem and the 
+demand for data, we cannot wait for the perfect dataset. We need to get to work with 
+what we have and collect and make use of existing and available sustainability data. 
+
+2/3 BIS - Central bankers' speeches
+Over the past years, many of us have gained experience in unlocking the value of these 
+data. And today we are here to share these experiences and ideas for the future of 
+sustainability data and statistics.
+Alternative data sources can be of great value here, and looking at today's schedule I 
+am glad to see that multiple sources are being explored, from payment system data to 
+data from companies' balance sheets.
+A great example of an alternative data source that I recently became aware of is 
+PortWatch. This is an open platform designed by the IMF that uses satellite data to 
+monitor and simulate disruptions to maritime trade flows. It turns out you can use 
+PortWatch to simulate the effects of alternative climate scenarios on world trade. The 
+platform shows that the impact of climate change on the economy, and therefore on the 
+financial sector, is broad. Indeed, climate change is a many-headed monster.
+On top of using alternative data sources, new data science techniques can also help 
+generate better statistics and insights.
+For example, we rely on many different data sources to create sustainable finance 
+statistics, and these datasets often need to be combined. In many cases, a unique 
+identifier or clear definitions are still missing. So this is quite a complex task. New data 
+science techniques can be of great help here.
+Because one thing is really important. And that is that we should aim for consistency 
+and transparency in how data is collected and stored. Whether this means linking 
+macro to micro data, combining reported, satellite, modelled or proxy data, or merging 
+data from public and commercial sources. Because if we don't, we will only make it 
+harder to compile and harmonise statistics to enable comparison across countries.
+Another example of new data science techniques is nowcasting. This is a technique 
+that may help overcome specific challenges stemming from the dependency on data 
+that become available only following a delay. Commercial data on carbon emissions for 
+instance. At DNB and in cooperation with the ECB, we have therefore applied a data 
+science technique called 'nowcasting'. Thanks to this technique we can provide more 
+timely carbon statistics for the euro area, as users of our data have often requested.
+In a world that is scaling back on corporate sustainability reporting, there will obviously 
+be an impact on the availability of source data to compile statistics. One possible 
+outcome is that we will need to rely more on modelled and imputed data for the time 
+being. This makes it all the more important to base these data on transparent and 
+harmonised methods across jurisdictions.
+So, to wrap up, we need to be creative, we need to be smart, and we need to work 
+together. And that's also what this seminar is about. Climate change is a global 
+problem, and there is a global need for better data. The issue is new and complex and 
+we are all facing the same types of challenges, so cooperation is both logical and 
+necessary. The Data Gaps Initiative is a very good example of this. Also, committees 
+like the IFC provide a valuable platform for cooperation.
+
+3/3 BIS - Central bankers' speeches
+I understand this seminar is only the first stage of a true statistics tour through the 
+Netherlands. The ISI World Statistics Congress kicks off next Monday in The Hague. 
+But for some, a full week of statistics is still not enough. Here at DNB on the 13th and 
+14th of October, we will host the International Working Conference on primary 
+emissions data at the product level.
+But let's not get ahead of ourselves. Tonight, we are taking you on a boat tour along the 
+canals of Amsterdam. After all, somewhat in the spirit of World Animal Day, statisticians 
+can be seen as a special kind of animal, and we do care about your wellbeing.
+I wish you a wonderful day.

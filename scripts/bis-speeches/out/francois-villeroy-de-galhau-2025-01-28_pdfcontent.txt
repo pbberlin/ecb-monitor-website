@@ -47,7 +47,7 @@ coordinated algorithms that can amplify massive sell-offs.
 Post-market processes are keeping pace with this acceleration in trading: settlement is 
 getting ever faster. A few years ago, implementing T+2 (i.e. ensuring settlement within 
 two days of transaction execution) was a major step forward for all players, as 
-enshrined in the European CSDR regulation. Nowadays we are once again aiming for i
+enshrined in the European CSDR regulation.  Nowadays we are once again aiming for i
 more ambitious targets, with an objective of T+1 in Europe in 2027 – as has already 
 been the case in the United States, Canada and Mexico since end-May last year. 
 Interestingly, across the Atlantic, this evolution was driven by market players, who saw 
@@ -56,7 +56,7 @@ counterparty and operational risks. The American experience also shows that T+1
 yields direct financial benefits, in particular a significant lowering of CCP margins. T+1 
 therefore received overall support in ESMA's and the Commission's public 
 consultations. I trust that we are all well aware of the operational requirements and 
-challenges to be met:  preparatory work must start now, with the adaptation of IT ii
+challenges to be met:   preparatory work must start now, with the adaptation of IT ii
 systems and further automation of processes. It is also important to coordinate with the 
 United Kingdom and Switzerland, and to pay due attention to the consequences in 
 terms of shorter cut-offs – notably for FX transactions.
@@ -65,7 +65,7 @@ The tokenisation of assets is obviously another groundswell movement, which coul
 further enhance the straight-through processing of trade and post-trade activities, and 
 paves the way for yet another acceleration with a widespread implementation of T+0. It 
 has the potential to generate even greater savings both for the financial industry and 
-end-users. To date, the nascent DLT  finance has used new forms of commercial bank iii
+end-users. To date, the nascent DLT   finance has used new forms of commercial bank iii
 money as settlement assets, such as tokenised deposits or so-called stablecoins. As 
 experience has shown in the last few years, they are far from immune, and Europe has 
 made the right step by adopting the MiCA regulation. Failing to regulate crypto-assets 
@@ -83,11 +83,11 @@ II. A step further with the interlinking of fast-payment systems and a
 European shared ledger to meet the challenges of transition and 
 growth
  
-Central banks must therefore keep up with these developments,  in order to explore iv
+Central banks must therefore keep up with these developments,   in order to explore iv
 the potential of DLT and foster innovation while preserving the anchoring role of central 
 bank money. Building among others on the Banque de France's pioneering 
-experiments between 2020 and 2023,  the Eurosystem conducted a series of new v
-experiments on wholesale CBDC between April and November 2024,  with the active vi
+experiments between 2020 and 2023,   the Eurosystem conducted a series of new v
+experiments on wholesale CBDC between April and November 2024,   with the active vi
 involvement of the Banque de France, Banca d'Italia and Bundesbank as solution 
 providers. We witnessed active industry participation in the Eurosystem experiments, 
 
@@ -116,13 +116,13 @@ ensuring secure and reliable instant payments. The G20 roadmap also foresees, in
 longer term, the use of tokenisation to further enhance cross-border payments.
  
 We now need to bring all these advances together to create a global motion picture, in 
-a holistic manner. Here, the idea of a "unified ledger" put forward by the BIS  looks vii
+a holistic manner. Here, the idea of a "unified ledger" put forward by the BIS   looks vii
 like more than a promising technology: a rallying concept, or even a utopia. This next-
 generation market infrastructure would take one day in the future the shape of a shared, 
 seamless and programmable platform that integrates central bank money, commercial 
 bank money and tokenised financial assets – which would call for redefined and 
 improved public-private partnerships. Accordingly, in April 2024 the BIS launched 
-Project Agorá, to explore the tokenisation of cross-border payments to improve the viii 
+Project Agorá,  to explore the tokenisation of cross-border payments to improve the viii 
 existing correspondent banking model. This major project brings together seven central 
 banks worldwide, including the Banque de France which represents the Eurosystem, 
 and a large group of private financial firms. But a first and necessary step towards such 
@@ -158,7 +158,7 @@ Under this condition, our common technological breakthroughs could contribute to
 meeting our major challenges. Thank you for your attention. 
 i Regulation (EU) No 909/2014 on improving securities settlement in the European 
 Union and on central securities depositories
- iiESMA (European Securities and Markets Authority) proposes to move to T+1 by 
+ ii ESMA (European Securities and Markets Authority) proposes to move to T+1 by 
 , 18 November 2024.October 2027
 DLT stands for "distributed ledger technology", which underpins the tokenisation of iii 
 assets.

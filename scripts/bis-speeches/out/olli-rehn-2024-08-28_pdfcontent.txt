@@ -66,7 +66,7 @@ the market forces' view of the ECB's future rate path. [Not committing the ECB, 
 even the Bank of Finland!]
 Where then does this take us in the making of monetary policy?
 Looking ahead, the ECB Governing Council will continue to follow a data-dependent 
-approach. However, data dependence doesnotmean datapointdependence; that is to        
+approach. However, data dependence does not mean data point dependence; that is to        
 say, dependence on a specific data point or points. We look at a wide range of data, 
 analysis and forecasts. In our decision-making, we evaluate three factors in particular: 
 the inflation outlook, the dynamics of core inflation net of energy and food prices, and 
@@ -94,7 +94,7 @@ and enough flexibility both in terms of the temporal definition and the instrume
 This has allowed us to avoid taking any excessively drastic measures that the old 
 ['below but close to 2 percent'] target might have implied.
 Thus, the inflation itself does not, in my view, need re-consideration. But we  target 
-need to analyse the inflation of the recent years – and the functioning of the  dynamics  
+need to analyse the inflation of the recent years – and the functioning of the  dynamics 
 strategy – in more depth.
 Geopolitical challenges and geoeconomic fragmentation, in particular, will continue to 
 shape the operating environment of monetary policy in the years ahead. The changes 

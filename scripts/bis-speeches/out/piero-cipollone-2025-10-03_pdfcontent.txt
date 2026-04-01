@@ -76,7 +76,7 @@ paradigm shift occurred: streaming emerged and more or less completely replaced
 physical media in providing access to digital content.
 We cannot exclude that a similar shift might happen with the digitalisation of finance, 
 Markets are already experimenting with tokenised securities and distributed ledger 
-technologies (DLT), which promise efficiency gains, programmability and new 6
+technologies (DLT) , which promise efficiency gains, programmability and new 6
 possibilities for integrating trading, settlement and custody services. But without the 
 anchor of central bank money, these experiments risk creating new silos, new 
 
@@ -86,15 +86,15 @@ money remains available in this new environment, and in so doing prevent
 fragmentation that would strip this innovation of the benefits it offers.
 A year ago I outlined my vision of how to respond to this challenge. Today, we are 
 turning that vision into reality. The Eurosystem has successfully tested the settlement of 
-wholesale transactions in central bank money using distributed ledger technology.We 7 
+wholesale transactions in central bank money using distributed ledger technology. We 7 
 have now launched Project Pontes, which will provide a bridge between new DLT 
-platforms and TARGET settlement services.A first release will be available in a year's 8 
+platforms and TARGET settlement services. A first release will be available in a year's 8 
 time, allowing tokenised transactions to be settled in central bank money. We are also 
 working on how to make digital assets deployable as collateral for our monetary policy 
 operations.
 We have also launched Project Appia, which will explore longer-term approaches for 
 more efficient and integrated capital markets in Europe by leveraging distributed ledger 
-technologies.Appia could offer a shared ledger integrating central bank money, 9 
+technologies. Appia could offer a shared ledger integrating central bank money, 9 
 commercial bank money and other assets for market services. Alternatively, it could 
 take the form of a network of interoperable platforms to reduce market frictions and 
 foster innovation. This could lay the foundation for a truly European digital capital 
@@ -115,8 +115,8 @@ Sweden use these common platforms, with Norway also set to use them soon.12 
 Alternatively, we can interlink our fast payment systems. For instance, the Eurosystem 
 is exploring interlinking our TARGET Instant Payment Settlement (TIPS) system with 
 those of other countries. We started exploring this option with Project Nexus and India's 
-Unified Payments Interface.Similarly, we recently announced that we will start 13 
-working with our Swiss colleagues to link our fast payments systems,and we are 14 
+Unified Payments Interface. Similarly, we recently announced that we will start 13 
+working with our Swiss colleagues to link our fast payments systems, and we are 14 
 already discussing with other possible partners.
 Conclusion
 Our role as central banks has always been to provide the safest settlement asset at the 
@@ -135,26 +135,26 @@ using it to our advantage, we will have seized the moment, helping to maximise t
 opportunities and minimise the risks in the public's best interests.
 1 Cipollone, P. (2024), " ", keynote speech at the Towards a digital capital markets union
 Bundesbank Symposium on the Future of Payments, 7 October.
-2 See BIS (2025), " ",The next-generation monetary and financial system BIS Annual 
+2 See BIS (2025), " ",The next-generation monetary and financial system  BIS Annual 
 .Economic Report 2025
 3 Cipollone, P. (2025), " ", introductory The digital euro: legal tender in the digital age
 statement at the Committee on Economic and Monetary Affairs of the European 
 Parliament, Brussels, 14 July, and Cipollone, P. (2025), "The digital euro: ensuring 
 ", introductory statement at the Committee resilience and inclusion in digital payments
 on Economic and Monetary Affairs of the European Parliament, Brussels, 4 September.
-4 See Cipollone, P. (2025), " ",  , ECB, 4 Making euro cash fit for the futureThe ECB Blog
+4 See Cipollone, P. (2025), " ",  , ECB, 4 Making euro cash fit for the future The ECB Blog
 August.
 5 Bank for International Settlements (2012), Principles for financial market 
 , April.infrastructures
 6 For instance, global DLT-based fixed income issuance reached €3 billion in 2024, 
 which represented a 260% increase over the prior period. For more information, see 
 Association for Financial Markets in Europe (2025), "AFME Launches Data Report 
-", , 10 February.Series on DLT-Based Capital Market press release
+", , 10 February.Series on DLT-Based Capital Market  press release
 7 ECB (2025), The Eurosystem's exploratory work on new technologies for wholesale 
 , June.central bank money settlement
 8 See the for more details. ECB's webpage on Project Pontes 
 9 ECB (2025), "ECB commits to distributed ledger technology settlement plans with 
-",  , 1 July; and ECB (2025),dual-track strategypress release  Focus Session – 
+",  , 1 July; and ECB (2025),dual-track strategy press release  Focus Session – 
 .Advancing TARGET Services with DLT transactions in central bank money
 
 5/5 BIS - Central bankers' speeches
@@ -172,4 +172,4 @@ June.
 14 The Eurosystem and the Swiss National Bank will explore linking TIPS with the 
 Swiss Interbank Clearing Instant Payments (SIC IP) system. The project will run until 
 2026 and will test feasibility and benefits. See ECB (2025), "ECB and SNB explore link 
-", , 29 September.between instant payments systems MIP News
+", , 29 September.between instant payments systems  MIP News

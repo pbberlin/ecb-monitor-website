@@ -16,7 +16,7 @@ for Greece's remarkable economic transformation over the past decade.
 Greece has come a long way in recent years, overcoming significant challenges with 
 enduring determination. The implementation of difficult but necessary reform has been 
 instrumental in this progress. 
-Greece's economic performance has been impressive. In 2024,GDP grew by 2.3%, far    
+Greece's economic performance has been impressive. In 2024, GDP grew by 2.3%, far    
 outpacing the euro area average of 0.8%. Similar growth of around 2% is expected for 
 2025. 
 The Greek labour market, too, has shown remarkable improvement, with 
@@ -27,7 +27,7 @@ has been in line with the euro area average, and wage growth has been slightly
 stronger.
 The rapid reduction of the public debt ratio following the coronavirus pandemic stands 
 out as a notable achievement. While the largest contribution towards this came from 
-exceptionally strong nominalGDP growth, the role of primary surpluses was equally    
+exceptionally strong nominal GDP growth, the role of primary surpluses was equally    
 important. Maintaining a steady and solid fiscal course was key to restoring confidence. 
 Nevertheless, the debt ratio remains high. Greece's determination to stay on course, 
 however, is clear: the government plans to continue to achieve primary surpluses and 
@@ -78,7 +78,7 @@ provide appropriate funding for research and development whilst improving
 conditions for startups;
 secure skilled labour by strengthening work incentives for women and the elderly, 
 and by attracting skilled labour from abroad;
-advocate for a deeperEU single market, especially in services, and complete the    
+advocate for a deeper EU single market, especially in services, and complete the    
 Capital Markets Union to improve access to financing.
 Moreover, the digital transition offers immense possibilities for boosting productivity. 
 Technologies like artificial intelligence and automation hold the potential to unlock 

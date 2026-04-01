@@ -18,7 +18,7 @@ instability in current international markets, and the threat of a worldwide rece
 wake of russia's unprovoked invasion of Ukraine all make the discussions in which we 
 are about to engage in not only desirable but essential.
 To set the stage for our discussion, let me share a few of my thoughts.
-I consider Zeno's paradox, a philosophical fable, to be fitting when discussing 1
+I consider Zeno's paradox , a philosophical fable, to be fitting when discussing 1
 convergence. This fable tells of the swift Achilles racing against a slow-moving tortoise. 
 The paradox is that if the tortoise is given a head start in the race, Achilles will never 
 catch him, no matter how fast he runs. The argument for this paradox is rather 
@@ -35,7 +35,7 @@ theoretical and practical challenges. And that is why we are here.
 Allow me to illustrate my point with this chart depicting convergence trajectories of total 
 factor productivities (TFPs) of 23 EU economies since 1998.
 Countries in Europe grow at different speeds. They also appear to belong to different 
-convergence clubs. Even among Central European economies, more than one 2
+convergence clubs . Even among Central European economies, more than one 2
 convergence club could be discerned.
 
 2/3 BIS - Central bankers' speeches

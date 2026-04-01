@@ -80,7 +80,7 @@ American Economic Review, 53, 1, 1963, pp. 55-84.
 
 4 5
 The household saving rate began to decline in the 1980s; it then fell more rapidly 
-after 1992, and eventually stabilized at 10 per cent in this century.9
+after 1992, and eventually stabilized at 10 per cent in this century. 9
 There are several reasons behind this reduction in the propensity to save.
 In the 1980s, the presence of a very generous public pension system was an 
 important contributory factor. 
@@ -287,7 +287,7 @@ this goal at both European level and as part of the Financial Stability Board.
 The protection of savings does not end with the supervision of financial 
 intermediaries. It is also about ensuring the smooth operation and integrity of the 
 financial system as a whole.
-This means working to improve people’s financial skills, 26 and hence their ability 
+This means working to improve people’s financial skills,26 and hence their ability 
 to make sound investment decisions. It means offering tools to uphold savers’ 
 24 Banca d’Italia supervises insurance companies (89 at the end of 2023) through the Italian Insurance 
 Supervisory Authority (IV ASS). Other non-bank operators supervised by Banca d’Italia include 

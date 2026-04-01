@@ -42,7 +42,7 @@ big difference. Likewise, food and non-energy industrial goods prices increased 
 strongly in Europe than in the United States.
 The common feature is that inflation has been primarily due to supply disruptions and 
 sharp increases in the prices of food and energy, as concluded by Ben Bernanke and 
-Olivier Blanchard in their recent paper. Yet, the effects of these price shocks are 1
+Olivier Blanchard in their recent paper . Yet, the effects of these price shocks are 1
 fading out relatively quickly.
 DECOMPOSITION OF COMPENSATION PER EMPLOYEE (CPE) 
 GROWTH IN THE EURO AREA, 2021-2024
@@ -67,7 +67,7 @@ have contributed to the tightening of the labour market and increasing wage pres
 firmly increased labour market participation and labour-based migration have mitigated 
 these pressures in the euro area.
 Continued careful analysis of labour market developments is key to understanding 
-wage pressures going forward. One factor we need to dig deeper is,  immigration
+wage pressures going forward. One factor we need to dig deeper is ,  immigration
 which has increased in the euro area in recent years and is affecting the labour market. 
 In my view, this should be one important workstream in our forthcoming ECB strategy 
 review next year.
@@ -126,8 +126,8 @@ hitting growth and generating inflation, "back to the 70s". In that context, it 
 to take a timeout and once the clouds had somewhat cleared choose the policy stance. 
 – This context should be taken into account in all of the recent polycrises  post-mortems 
 years.
-More recently, however, some have argued for apolicy response when there is a  strong 
-lot of uncertainty, especially about future inflation.This can be seen as a risk 3 
+More recently, however, some have argued for a policy response when there is a  strong 
+lot of uncertainty, especially about future inflation. This can be seen as a risk 3 
 management approach to policymaking, where we aim at guarding against the worst 
 outcomes.
 For instance, during the recent inflation cycle, when inflation started to accelerate, it 

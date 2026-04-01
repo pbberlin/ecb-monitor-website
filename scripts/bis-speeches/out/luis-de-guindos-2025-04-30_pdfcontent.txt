@@ -62,7 +62,7 @@ To ensure our banking system remains resilient in this environment, we need a
 regulatory framework that is fit for purpose. Decisive action is required to move us 
 closer to completing the banking union. This includes an effective crisis management 
 and deposit insurance framework that extends to small and medium-sized banks, and 
-progress on a European deposit insurance scheme.The recent financial market turmoil  
+progress on a European deposit insurance scheme. The recent financial market turmoil  
 also highlights that non-banks must be subject to robust rules, and that gaps in the 
 regulatory framework need to be closed so they are not treated differently to regular 
 banks.
@@ -84,7 +84,7 @@ In addition to the pressing security challenges, investing in the green transiti
 digital innovation remains vital to boosting Europe's competitiveness and closing the 
 productivity gap with our global peers.
 Finally, the evolving global landscape underscores the need to strengthen trade within 
-the EU's Single Market, as emphasised by the European Commission.A more 1 
+the EU's Single Market, as emphasised by the European Commission. A more 1 
 integrated and deeper Single Market is essential if we are to achieve the scale required 
 for European firms to thrive and expand, thereby enhancing our resilience against 
 external shocks. We also need to ensure that innovative firms can access the financing 

@@ -124,7 +124,7 @@ and other emerging technologies – are in the pipeline.
 But these policies are still ultimately managed at the national level, demonstrating, 
 unfortunately, that national frameworks cannot deliver true independence.
 For example, the European Court of Auditors has judged it "very unlikely" that Europe 
-will reach its semiconductor target of 20% of global production by 2030.In batteries, 4 
+will reach its semiconductor target of 20% of global production by 2030. In batteries, 4 
 the EU holds just 10% of global capacity, whereas China's CATL alone controls 40%.5 
 And in AI, US institutions produced 40 notable models in 2024, compared with Europe's 
 three.6
@@ -142,7 +142,7 @@ Europe should extend qualified majority voting. As I have argued before, it is n
 weakening of democracy. It is the only way to exercise it fully: by pooling our resources 
 and our capacity to achieve the required scale in these strategic fields, we give citizens 
 back their ability to shape events, and Europe its independence in a world of rival 
-powers, where size and the scale effect are critical.This is how decisions are taken at 7 
+powers, where size and the scale effect are critical. This is how decisions are taken at 7 
 the ECB – and it works.
 Second, coherence.
 In this age of system power, weakness in one domain cannot be offset by strength in 
@@ -230,11 +230,11 @@ Bank, 27 January.
 R. (eds.), , Oxford University Press,  The Oxford Handbook of Modern Diplomacy
 August, pp. 559-574.
 3 Garcia-Macia, D., Kothari, S. and Tao, Y. (2025), "Industrial Policy in China: 
-", , No 2025/155, Quantification and Impact on Misallocation IMF Working Papers
+", , No 2025/155, Quantification and Impact on Misallocation  IMF Working Papers
 International Monetary Fund, 8 August.
 4 European Court of Auditors (2025), , 28  Microchips: EU off the pace in a global race
 April.
-5 Kang, L. (2025), " ",Global EV battery market share in 2024: CATL 37.9%, BYD 17.2% 
+5 Kang, L. (2025), " ",Global EV battery market share in 2024: CATL 37.9%, BYD 17.2%  
 , 11 February.CnEVPost
 6 Stanford University Human-Centered Artificial Intelligence (2024), Artificial Intelligence 
 .Index Report 2024

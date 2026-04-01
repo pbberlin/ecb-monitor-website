@@ -1,7 +1,7 @@
 1/3 BIS - Central bankers' speeches
 Frank Elderson: Energy performance data - a must-have for 
 managing climate-related credit risk
-Welcome address by Frank Elderson, Member of the Executive Board of the ECBand , 
+Welcome address by Frank Elderson, Member of the Executive Board of the ECB and , 
 Vice-Chair of the Supervisory Board of the ECB, at the European Central Bank
  conference on real estate climate data industry good practices, Frankfurt am Main, 23 
 September 2024.
@@ -53,7 +53,7 @@ forward.
 Legislative changes will improve the availability of energy 
 performance data
 Integrating climate-related data is also vitally important in view of impending legislative 
-changes. The revised Energy Performance of Buildings Directive, which includes 1
+changes. The revised Energy Performance of Buildings Directive , which includes 1
 common requirements for setting up national databases on the energy performance of 
 buildings, is an important development that should help narrow the data gap. In the 
 spirit of the Directive, further work is needed to ensure adequate data management and 

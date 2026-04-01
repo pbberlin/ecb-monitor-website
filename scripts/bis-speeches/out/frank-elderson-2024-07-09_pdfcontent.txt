@@ -22,19 +22,19 @@ intelligence outperformed financial analysts in predicting future earnings.1
 So, what does this avalanche of data and innovation mean for banking supervision? 
 And more importantly, how can prudential supervisors reap the benefits?
 Why embedding a strong data culture in supervision is crucial
-The question is no longer aboutwhether we should use these data. It is about how we  
+The question is no longer about whether we should use these data. It is about how we  
 can use them in the most effective way possible. And for this we need technology, as it 
 is simply not possible to analyse this avalanche of data manually. Embedding a strong 
 data culture and using appropriate technology therefore go hand in hand.
 The use of data and innovative tools in the banks we supervise is expanding at an 
 astonishing pace. As supervisors, we must remain at the forefront of these 
-technological developments.Data and technology do not only offer substantial 2 
+technological developments. Data and technology do not only offer substantial 2 
 efficiency gains. They also improve risk identification processes, helping us to keep a 
 closer grip on the risks in the banks we supervise.
 This is why we are making greater use of digital tools in our Supervisory Review and 
-Evaluation Process (SREP), which we recently updated.For instance, we are 3 
+Evaluation Process (SREP), which we recently updated. For instance, we are 3 
 exploring how supervisors can use artificial intelligence and large language models for 
-routine yet often time-consuming tasks.In an increasingly complex risk landscape, this 4 
+routine yet often time-consuming tasks. In an increasingly complex risk landscape, this 4 
 gives supervisors more time to focus on the most material risks facing banks.
 
 2/3 BIS - Central bankers' speeches
@@ -52,7 +52,7 @@ for supervisors" with a wide range of applications that supervisors can customis
 their tasks and preferences.
 Over the past three years, we have been working with national supervisors to develop 
 supervisory technology (suptech) tools in order to address a number of pressing 
-business needs.More than a dozen of these tools have already gone live and are 5 
+business needs. More than a dozen of these tools have already gone live and are 5 
 making the daily work of supervisors easier. Today, over 3,500 colleagues across 
 European banking supervision can use them to improve risk analysis, the consistency 
 of decision-making and collaboration.
@@ -97,15 +97,15 @@ Thank you for your attention.
 academic institutions, research centres and course providers such as MIT, INSEAD and 
 Coursera.
 3 Buch, C. (2024), "Reforming the SREP: an important milestone towards more efficient 
-", , 28 May.and effective supervision in a new risk environment The Supervision Blog
+", , 28 May.and effective supervision in a new risk environment  The Supervision Blog
 4 Supervisory technology tools such as Athena and Delphi, which make use of artificial 
 intelligence to understand and analyse text, are already being used to support 
-supervisors. See ECB (2023), " ",Suptech: thriving in the digital age Supervision 
+supervisors. See ECB (2023), " ",Suptech: thriving in the digital age  Supervision 
 , ECB, 15 November.Newsletter
 5 McCaul, E. (2024), " ", SSM digitalisation – from exploration to full-scale adoption
 presentation at Central Banking's Summer Meetings, 12 June.
 6 As the Bank for International Settlements also recently highlighted, noting that "central 
 banks need to come together and foster a "community of practice" to share knowledge, 
 data, best practices and AI tools". See Bank for International Settlements (2024), "
-",Artificial intelligence and the economy: implications for central banks BIS Annual 
+",Artificial intelligence and the economy: implications for central banks  BIS Annual 
 , 25 June.Economic Report

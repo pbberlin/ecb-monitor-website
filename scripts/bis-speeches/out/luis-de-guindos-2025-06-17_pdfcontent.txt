@@ -26,7 +26,7 @@ depends on us and us alone.
 While our conference is clearly centred on advancing financial integration, my main 
 message today is that we must make progress on all fronts. The Single Market is the 
 focal point and driving force of European integration, intrinsically linked to the EU's 
-strategic objectives.However, a true single market for goods and services within the 1 
+strategic objectives. However, a true single market for goods and services within the 1 
 EU remains elusive, hindered by persistent barriers and divergent national rules. 
 National markets still often represent a major impediment to growth and innovation in 
 sectors where global competition requires action on a European scale.
@@ -76,7 +76,7 @@ economy has, to a large extent, failed to prompt decisive integration in the ban
 sector and EU capital markets.
 Last year I lamented the fact that financial integration was back to the levels seen at the 
 start of the monetary union. Today I can say that we have recently observed a positive 
-trend in the price and quantity-based measures of financial integration.Importantly, 2 
+trend in the price and quantity-based measures of financial integration. Importantly, 2 
 this holds true for measures of integration in an equity market which is critical for 
 sourcing risk capital for innovative and high-growth companies. This improvement also 
 applies to the banking market, which is key to financing the small and medium-sized 
