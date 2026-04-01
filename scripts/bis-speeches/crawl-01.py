@@ -6,8 +6,8 @@ pip install playwright pandas
 python -m playwright install
 
 Usage:
-cls &&    python ./scripts/bis-speeches/crawl-01.py --input "./ecb-members.csv" --output "./ecb-members-out.csv" [--headless true]
-cls &&    python ./scripts/bis-speeches/crawl-01.py --input "./ecb-members.csv" --output "./ecb-members-out.csv" --headless false
+cls &&    python ./scripts/bis-speeches/crawl-01.py --input "./ecb-members-input.csv" --output "./ecb-members-urls.csv" [--headless true]
+cls &&    python ./scripts/bis-speeches/crawl-01.py --input "./ecb-members-input.csv" --output "./ecb-members-urls.csv"  --headless false
 
 
 """
@@ -23,46 +23,107 @@ from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
 
 from playwright.sync_api import sync_playwright
 
+# importing from ../../lib/trls.py
+parentDir = Path(__file__).resolve().parent.parent.parent
+libPath = parentDir / "lib"
+sys.path.insert(0, str(libPath))
+from util import stackTrace
+
+
 
 urlMain = "https://www.bis.org/cbspeeches/index.htm"
 
 
-def readInputCsv(inputPath: Path):
+def inputCsv(pthInp: Path):
 
-    lastError = None
+
     rows = []
 
-    for enc in ["utf-8"]:
-        try:
-            with inputPath.open("r", encoding=enc, newline="") as csvfile:
-                reader = csv.DictReader(csvfile, delimiter=";")
-                for row in reader:
-                    rows.append(row)
-            break
-        except Exception as e:
-            lastError = e
+    try:
 
-    if not rows:
-        print("Failed to read CSV. Last error: {}".format(lastError))
-        sys.exit(1)
+        """
+        excel put a UTF-8 BOM marker at the start of the file     
+          \ufeff  an invisible Unicode character 
 
-    print(f"found {len(rows)} rows")
-    for idx, row in enumerate(rows):
-        print(f"\t",end="")
-        for key in row:
+          utf-8-sig  deals with this
+        """
+
+        with pthInp.open("r", encoding="utf-8-sig", newline="") as csvfile:
+            reader = csv.DictReader(csvfile, delimiter=";")
+            for idx2, row in enumerate(reader):
+                rows.append(row)
+    except Exception as exc:
+        stackTrace(exc)
+        print("Failed to read CSV")
+
+
+    if not rows or len(rows) < 3:
+        print(f"CSV-1 is empty.")
+        sys.exit(-1)
+
+    print(f"\tfound {len(rows)} rows in {pthInp}")
+
+
+    for idx1, row in enumerate(rows):
+        print(f"\t ",end="")
+        for idx2, key in enumerate(row):
             if row[key] is None:
                 continue
             if row[key].strip() == "":
                 continue
             if key == "url":
                 continue
-            print(f"{key}: {row[key]}", end=", ")
+
+            if key == "name":
+                print(f"{key}: {row[key]:28}", end=", ")
+            else:
+                print(f"{key}: {row[key]}", end=", ")
+
         print("")
-        if idx>3:
+        if idx1>4:
             break
+
 
     return rows
 
+
+
+def previousCsv(pthPrev: Path):
+
+    byName = {}
+    if not pthPrev.exists():
+        print(f"did not find previous file: {pthPrev}")
+        sys.exit(-1)
+        return byName
+
+    try:
+        with pthPrev.open("r", encoding="utf-8-sig", newline="") as csvfile:
+            reader = csv.DictReader(csvfile, delimiter=";")
+
+            print(f"\tlooking for previous records in  {pthPrev}")
+
+            for idx2, row in enumerate(reader):
+                # print( row )
+                nm = row.get("name", "").strip()
+                if nm != "":
+                    if idx2<4:
+                        print(f"\t name: {nm}")
+                    byName[nm] = row
+
+            print(f"\tfound   {len(byName)} recs")
+
+
+        if len(byName) < 3:
+            print(f"CSV-2 is empty.")
+            sys.exit(-1)
+
+
+    except Exception as exc:
+        stackTrace(exc)
+        print("failed to read previous CSV")
+    
+
+    return byName
 
 
 def getResultUrlForAuthor(page, nm: str) -> str:
@@ -75,7 +136,7 @@ def getResultUrlForAuthor(page, nm: str) -> str:
         page.goto( urlMain, wait_until="domcontentloaded", timeout=20*1000)
         print("done")
     except Exception as exc:
-        print (f"exc1 -  {exc}")
+        stackTrace(exc)
         return None
 
 
@@ -93,17 +154,15 @@ def getResultUrlForAuthor(page, nm: str) -> str:
 
     try:
 
-        nm = nm.replace("Philip R. Lane", "Philip R Lane")
-
         searchInput = page.locator("css=input.select2-search__field").first
-        print(f"\t  found search input for {printExotic(nm)}")
+        print(f"\t  found search input for {nm}")
 
         searchInput.fill(nm, timeout=10000)
-        print(f"\t  filled {printExotic(nm)}")
+        print(f"\t  filled        {printExotic(nm)}")
 
 
         page.wait_for_timeout(1500)
-        print(f"\t  populated {printExotic(nm)}")
+        print(f"\t  populated     {printExotic(nm)}")
 
         # Press Enter to choose the first match
         searchInput.press("Enter")
@@ -111,14 +170,14 @@ def getResultUrlForAuthor(page, nm: str) -> str:
 
 
     except Exception as exc:
-        print(f"exc2 {exc}")
+        stackTrace(exc)
         return None
 
     # Wait for the URL to reflect the selection (authors=<id> present)
     # Sometimes the site updates content via pushState; we poll page.url.
     targetUrl = None
     try:
-        for i in range(5):
+        for idx1, i in enumerate(range(5)):
             print(f"\t  waiting for forward/reload {i:2}")
             page.wait_for_timeout(1250)
 
@@ -137,10 +196,12 @@ def getResultUrlForAuthor(page, nm: str) -> str:
                     if "authors=" in page.url:
                         targetUrl = page.url
             except Exception as exc:
-                print("Apply button not found/usable: {}".format(exc))
+                stackTrace(exc)
+                print("Apply button not found/usable")
 
     except Exception as exc:
-        print(f"exc3 {exc}")
+        stackTrace(exc)
+        print("exception in apply button pressing")
         return None
 
 
@@ -174,7 +235,7 @@ def spaceVariants(nm: str):
     exoticSpaces = [" "]
 
     variations = []
-    for sp in exoticSpaces:
+    for idx1, sp in enumerate(exoticSpaces):
         parts = nm.split(" ")
         if len(parts) >= 2:
             rebuilt = sp.join(parts)
@@ -198,14 +259,7 @@ def printExotic(s: str):
         "\u3000": "␣(IDEOGRAPHIC)" # full-width space
     }
 
-    outChars = []
-    for ch in s:
-        if ch in mapping:
-            outChars.append(mapping[ch])
-        else:
-            outChars.append(ch)
-
-    return "".join(outChars) 
+    return s.translate(str.maketrans(mapping))
 
 
 def main():
@@ -217,57 +271,93 @@ def main():
 
     inpPth   = Path(args.input).expanduser().resolve()
     outPth   = Path(args.output).expanduser().resolve()
-    headless = str(args.headless).strip().lower() == "true"
+    headless = str( args.headless).strip().lower() == "true"
 
-    rows = readInputCsv(inpPth)
+    rows  = inputCsv(inpPth)
+    prevs = previousCsv(outPth)
     results = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=headless)
         context = browser.new_context()
         page    = context.new_page()
-        print(f"browser started - warming up... ", end=" ", flush=True)
-        page.goto(urlMain, wait_until="domcontentloaded",     timeout=30*1000)
-        page.wait_for_selector("input.select2-search__field", timeout=10*1000)
-        print("ok", flush=True)
 
-        for idx, row in enumerate(rows):
+        timeOut1 = 180*1000
+        print(f"browser opened - loading {urlMain} ...  {timeOut1/1000}s", end="\n", flush=True)
+        page.goto(urlMain, wait_until="domcontentloaded",     timeout=timeOut1)
+        print("\tok", flush=True)
+
+        timeOut2 = 10*1000
+        print(f"waiting for selector... {timeOut2/1000}s ", end="\n", flush=True)
+
+        page.wait_for_selector("input.select2-search__field", timeout= timeOut2)
+        print("\tok", flush=True)
+
+        for idx1, row in enumerate(rows):
             try:
-                name = row.get("name", "").strip()
-                url  = row.get("url",  "").strip()
+                nameNrm = row.get("name", "").strip()
+                nameBis = row.get("name_bis", "").strip()
 
+                if nameNrm.strip() == "":
+                    print(f"name is empty")
+                    print(f"row {row}")
+                    sys.exit(-1)
+                
+                existingRow = prevs.get(nameNrm, {})
+                url = existingRow.get("url", "").strip()
+
+                searchName = nameNrm
+                if nameBis != "" and nameBis != "NA":
+                    searchName = nameBis
 
                 if len(url) > 30:
-                    print(f"\t  {idx:2}  skipping existing url  {name} \n\t      {url}")
-                    results.append({"name": name, "url": url, "status": "ok", "error": ""})
+                    print(f"\t  {idx1:2}  skipping existing url  {nameNrm} \n\t      {url}")
+                    newRow = row.copy()
+                    newRow["url"] = url
+                    newRow["status"] = existingRow.get("status", "ok")
+                    newRow["error"] = existingRow.get("error", "")
+                    results.append(newRow)
                     continue
 
-                url = getResultUrlForAuthor(page, name)
+                url = getResultUrlForAuthor(page, searchName)
 
                 # exotic spaces were *not* the reason - but page was not ready 
 
                 # if url is None:
-                #     for nm in spaceVariants(name):
+                #     for idx2, nm in enumerate(spaceVariants(searchName)):
                 #         url = getResultUrlForAuthor(page, nm)
                 #         if url is not None:
                 #             break
 
-                print(f"\t  {idx:2}  success for  {name} - {url}")
+                print(f"\t  {idx1:2}  success for  {nameNrm} - {url}")
 
-
-                results.append({"name": name, "url": url, "status": "ok", "error": ""})
+                newRow = row.copy()
+                newRow["url"] = url if url else ""
+                newRow["status"] = "ok" if url else "error"
+                newRow["error"] = "" if url else "URL not found"
+                results.append(newRow)
 
             except Exception as exc:
-                print(f" {exc}")
-                results.append({"name": name, "url": "", "status": "error", "error": str(exc)})
+                stackTrace(exc)
+                print("main loop error")
+                newRow = row.copy()
+                newRow["url"] = ""
+                newRow["status"] = "error"
+                newRow["error"] = str(exc)
+                results.append(newRow)
 
         browser.close()
 
-    with outPth.open("w", encoding="utf-8", newline="") as csvfile:
-        fieldnames = ["name", "url", "status", "error"]
+
+    with outPth.open("w", encoding="utf-8-sig", newline="") as csvfile:
+        if len(results) > 0:
+            fieldnames = list(results[0].keys())
+        else:
+            fieldnames = ["name", "url", "status", "error"]
+            
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=";")
         writer.writeheader()
-        for row in results:
+        for idx1, row in enumerate(results):
             writer.writerow(row)
 
 
