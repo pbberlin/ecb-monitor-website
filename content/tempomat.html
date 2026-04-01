@@ -172,6 +172,22 @@
   }
 
 
+  #barometer {
+
+    width:  800px;
+
+    display: block;
+    margin:  0;
+    padding: 0;
+  }
+
+  @media (max-width: 900px) {
+    #barometer {
+      width: 100vw;
+    }
+  }
+
+
   /* value computed below by javascript */
   .medianBgColorDYN {
     color:  #b0b0b0FF;
@@ -404,7 +420,12 @@
 
   <div class="col col--center">
 
-    <svg id="gauge" width="800" height="400" style="border-bottom: 0.5px solid grey;"></svg>
+    <svg id="barometer"  
+      viewBox="0 0 800 410"
+      preserveAspectRatio="xMidYMid meet"
+
+      style="border-bottom: 0.5px solid grey;"
+    ></svg>
 
     <div  style="
         text-align: center;
@@ -413,12 +434,12 @@
         width:  max-content;
         padding: 0.2ch 2ch;
         margin: 0 auto;
+        margin-top: 1ch;
         color: black;
       " class="medianBgColorDYN" >
         {{i18n.council_tempomat_chart_label|safe}}
     </div>
 
-    <div id="echart_container" class="invisible-x">echart container content</div>
   </div>
 
 
@@ -627,8 +648,9 @@
             svgImage.setAttribute("width", width);
             svgImage.setAttribute("height", height);
 
-            svgImage.setAttribute("opacity", 0.65);
             svgImage.setAttribute("opacity", 0.55);
+            svgImage.setAttribute("opacity", 0.65);
+            svgImage.setAttribute("opacity", 0.45);
 
             svgImage.setAttribute("preserveAspectRatio", "xMidYMid meet");
 
@@ -871,7 +893,7 @@
       const res = sliderToKey();
       const yrSlider  = res.yr;
 
-      const svg = document.getElementById("gauge");
+      const svg = document.getElementById("barometer");
       svg.innerHTML = "";  // reset
 
       const centerX = 400;
@@ -883,8 +905,11 @@
       drawArcsAndTicks(svg, centerX, centerY, radius, ring, colors);
 
 
-      createSvgImage(svg, "/static/img/dovish-hawkish/wet-1.png",  70, 30,  90);
-      createSvgImage(svg, "/static/img/dovish-hawkish/dry-1.png", 640, 30, 100);
+      createSvgImage(svg, "/static/img/dovish-hawkish/wet-4-1.png",  20, 1,  160);
+      
+      // createSvgImage(svg, "/static/img/dovish-hawkish/dry-1.png", 640, 30, 100);
+      
+      createSvgImage(svg, "/static/img/dovish-hawkish/dry-3-hawk-b-1.png", 650, 5, 140);
 
       function drawNeedle(val, needleBgCol) {
 
@@ -1058,7 +1083,11 @@
           ];
 
           const xTt = x - 12;
-          const yTt = y + 28;
+          let   yTt = y + 28;
+          if (y >300){
+            yTt = y - 88;
+          }
+
 
           const ttGr = document.createElementNS("http://www.w3.org/2000/svg", "g");
           const ttTx = document.createElementNS("http://www.w3.org/2000/svg", "text");
