@@ -12,10 +12,10 @@ by the late Alexandre Lamfalussy – the father, and still active Chair, of this
 child. Euro 50 is as old – or rather as young – as the euro itself. Let me start by 
 expressing a great satisfaction, which may be the best present for this anniversary: the 
 euro is a hugely popular success. 78% of euro area citizens and 74% of French citizens 
-support our single currency  – even more than the 68% at the start. Since its i
-introduction in 1999, the euro has become the second most important currency  in the ii
+support our single currency   – even more than the 68% at the start. Since its i
+introduction in 1999, the euro has become the second most important currency   in the ii
 international monetary system – and the ECB one of the most influential central banks 
-in the world. Yet, getting stronger throughout the challenging crises of the 21century st 
+in the world. Yet, getting stronger throughout the challenging crises of the 21 century st 
 has not always been plain sailing, and won't be in the next future. Today, I would like to 
 focus briefly about where we are and where we could be heading in the near future (I), 
 before coming back to the past ten years and what we learned on our unconventional 
@@ -38,7 +38,7 @@ belongs to a continuum ranging from full commitment to total silence.
 On one end of the spectrum, forward guidance worked rather well in the lowflation 
 period. However, past experience tells us that central bankers should not be 
 unconditionally pre-committed, at least beyond a few quarters. On shorter horizons, 
-date-contingent forward guidance might still be valid. On longer horizons, if needed,iii  
+date-contingent forward guidance might still be valid . On longer horizons, if needed,iii  
 
 2/5 BIS - Central bankers' speeches
 (and hence more humble) forward guidance would be more state-dependent 
@@ -73,10 +73,10 @@ have time and additional data to adjust for the second part. And this brings me 
 of this first part.pace 
 Which pace to remove the restrictive bias?  
 The name of the game here is and remains full optionality, combining the two 
-dimensions of pace which are the of rate cuts and their. We'll discuss in  frequency   size
+dimensions of pace which are the of rate cuts and their . We'll discuss in  frequency   size
 each of our next meetings, and look at data – be they actual or forecasts. That said, let 
 me give two indications:
-Seen from today, there is every reason to cut on December 12. Optionality th
+Seen from today, there is every reason to cut on December 12 . Optionality th
 should remain open on the of the cut, depending on incoming data, economic  size 
 projections and our risk assessment. 
 Optionality also means that, for the following meetings, we shouldn't exclude any 
@@ -95,7 +95,7 @@ two broad sets of "non-conventional" instruments. It will be a focus of our next
 Review. By the way, we should avoid the possible trap of the "immediate weather 
 forecast". In the previous 2021 Review, we were just exiting the period of lowflation and 
 even the risk of Covid deflation, and we were unconditionally positive about our non-
-conventional tools: "[The] assessment [conducted as part of the Strategic Review] vi 
+conventional tools : "[The] assessment [conducted as part of the Strategic Review] vi 
 found that each of the instruments (including negative interest rates, forward guidance, 
 asset purchases and longer-term refinancing operations) has been effective in raising 
 output, employment and inflation, and that the different instruments have reinforced 
@@ -117,9 +117,9 @@ the BoE's purchases in the Gilts crisis in September 2022, or could be for the T
 (Transmission Protection Instrument) of the ECB. There is no obligation to re-sell 
 at short notice – if so, the central bank would be under market dominance, and its 
 intervention less effective –; but there is an option open at any time.
-Second, when it is about further easing the monetary, we should  stance
+Second, when it is about further easing the monetary , we should  stance
 distinguish whether we aim to provide liquidity (i.e. volumes) or to reduce long 
-term rates (i.e. prices). When the primary objective is to inject, it should liquidity 
+term rates (i.e. prices). When the primary objective is to inject , it should liquidity 
 be done not through purchases of long-term bonds, but by lending short term or at 
 floating rates for LTROs. These were by the way a powerful and successful 
 innovation of the ECB, not used in the US. But the initial pricing of TLTRO III at 
@@ -127,7 +127,7 @@ quasi-fixed rates had been a mistake, which had to be later recalibrated.
 That leaves " – for the core QE" – purchasing and holding long-term bonds 
 purpose of reducing the term premium and therefore the long term yields. It 
 entails taking interest rate risk in central banks' balance sheet, and hence 
-possible losses as we have seen recently: we should however,the purpose is  if 
+possible losses as we have seen recently: we should however, the purpose is  if 
 clear and warranted, be ready to accept such risks, while looking more closely at 
 the average maturity of the purchased portfolio. Let me stress, on a positive note, 
 
@@ -139,7 +139,7 @@ that the exit of QE – quantitative tightening (QT) – has been proceeding smo
 in the recent past, without provoking a reverse rise in long-term yields contrary to 
 what many had feared.
 In our portfolio holdings, we should prioritize government and supranational 
-to limit our direct balance sheet exposure to the nonfinancial corporate bonds  
+to limit our direct balance sheet exposure to the nonfinancial corporate bonds 
 sector. That being said, such programmes are not and should never be designed 
 to fund governments nor to help fiscal stimulus.
 Fifth and finally, we should not condition one instrument on another. Doing so 
@@ -184,5 +184,5 @@ Policy Frankfurt, 20 March 2024.
 ECB, " ", ECB Strategy vi  An overview of the ECB's monetary policy strategy (europa.eu)
 Review Overview Note, 2021
 Newton (I.), Letter to Robert Hooke, 5 February 1675 (in Turnball (H.W.),vii   The 
-, , Cambridge University Press, Correspondence of Isaac Newton Volume I 1661-1675
+, , Cambridge University Press, Correspondence of Isaac Newton  Volume I 1661-1675
 1959)

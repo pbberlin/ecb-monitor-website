@@ -27,7 +27,7 @@ environment of trade barriers, and policy uncertainty and unpredictability is un
 and entails economic costs.
 In 2023, almost 17 per cent of Ireland's exports were to the US, with 36 and 12 per cent 
 to the rest of the EU and the UK, respectively. Around a quarter of employment in 
-Ireland is in US firms.So, as well as the ramifications of the wider trend towards more 2 
+Ireland is in US firms. So, as well as the ramifications of the wider trend towards more 2 
 fragmented global trade, understanding the implications of changes in US policy have 
 been key areas of focus for us at the Central Bank of Ireland. Some of the key findings 
 from our analysis offer lessons of broader relevance, particularly for small, open 
@@ -60,8 +60,8 @@ Ireland. Another is that US tariffs do not diminish Ireland's attractiveness as 
 platform to the rest of the EU or other non-US destinations.3
 More than half of Ireland's pharma exports are destined for the rest of the EU or other 
 non-US countries and so are not subject to any new tariffs. In addition, while we know 
-that US tariffs can affect theof pharma products, our analysis also shows that  pricing 
-the sensitivity of Irish pharma exportto tariffs is likely to be relatively low in the  volumes 
+that US tariffs can affect the of pharma products, our analysis also shows that  pricing 
+the sensitivity of Irish pharma export to tariffs is likely to be relatively low in the  volumes 
 short-run given the highly specialised nature of pharmaceuticals produced in Ireland.
 Irish-owned firms
 While MNEs understandably get a lot of attention, given they are the primary source of 
@@ -86,7 +86,7 @@ that less than 1 per cent of workers in Irish firms are directly tied to US expo
 A key question is whether such firms will be able to adapt to tariffs and potentially 
 diversify to other markets. Of course, the extent to which they have to do that will partly 
 depend on US importers and ultimately US consumers but recent survey evidence – 
-before the EU-US trade deal – suggests they will be able to do so. It found that one 4
+before the EU-US trade deal – suggests they will be able to do so.  It found that one 4
 third of manufacturing firms in the Irish market were already taking steps to diversify 
 towards other markets. Notably, Irish firms exporting to the US had lower production, 
 employment, and price expectations than other exporters, but this was entirely driven 
@@ -131,7 +131,7 @@ Geoeconomic fragmentation is one of a number of key structural changes – along
 population ageing, a changing climate change, and the ongoing march of digital 
 technologies – that the global economy will have to adapt to. In the case of Ireland, 
 capital investment and productivity have historically accounted for around 80 percent of 
-Irish economic growth. So, in fact, the main risk for Irish economy from this 6
+Irish economic growth.  So, in fact, the main risk for Irish economy from this 6
 fragmentation is lower investment flows.
 A geopolitical shift towards 'friend-shoring' in the EU could potentially help compensate 
 any reduction in future investment by US MNEs, although our research suggests that 
@@ -198,7 +198,7 @@ in it integrating further into that market  as well as  in overall European ec
 One year on from Mario Draghi and Enrico Letta's reports on the future of the 9 
 European economy, it remains essential that we make progress on their 
 recommendations, if we want to tap – and indeed realise – that potential.  As the 
-world's largest trade bloc – accounting for around 15.8 per cent of world trade– 10 
+world's largest trade bloc – accounting for around 15.8 per cent of world trade – 10 
 deepening the Single Market offers a hedge against broader global trade fragmentation, 
 helping to reduce an over-reliance on external dependencies, fostering innovation, and 
 promoting stable growth. That includes realising the potential of the EU's capital 
@@ -261,7 +261,7 @@ by the Central Bank of Ireland. See figure 10 in Signed Article Q3 2025.
 7 Clancy, Smith and Valenta, 2024
 8 Scenario analysis conducted as part of the ECB staff macroeconomic projections for 
 the euro area - September 2025
-9 See President Lagarde's remarks at the Bank of Finland's 4International Monetary th 
+9 See President Lagarde's remarks at the Bank of Finland's 4 International Monetary th 
 Policy Conference.
  10 The EU's role in global trade
  11 Governor Makhlouf remarks at NABE  

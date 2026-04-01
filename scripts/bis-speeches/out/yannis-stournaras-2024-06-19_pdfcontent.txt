@@ -46,7 +46,7 @@ possible.
 However, the persistently low level of productive capital accumulation has been a 
 significant obstacle to productivity growth and convergence with the EU average. In 
 particular, Greece has witnessed a sizeable investment gap vis-à-vis the EU since the 
-sovereign debt crisis. Specifically, according to the European Commission,investment 1 
+sovereign debt crisis. Specifically, according to the European Commission, investment 1 
 in real terms was almost 50% lower in 2022 relative to 2008. The investment-to-GDP 
 ratio, which hovered around 24% before 2008 (i.e. at a level comparable to the EU 
 average), collapsed during the crisis and averaged 11.9% in 2010-2020. A recent IMF 
@@ -62,7 +62,7 @@ context of the Golden Visa programme. However, the investment-to-GDP ratio still
 remains lower than the EU average (14.3% vs. 22.0% in the EU in 2023).
 However, it should be noted that it is not only the Greek economy that faces an 
 investment gap. Rather, this holds also for the EU as a whole compared to the US. 
-According to a recent EIB study, the investment gap between the EU and the US is 2
+According to a recent EIB study,  the investment gap between the EU and the US is 2
 attributed, among other things, to output dynamics, high cost of capital, financial 
 constraints, corporate leverage and uncertainty. The drivers behind the gap include 
 investment differences in machinery, equipment and innovation. In particular, there is a 
@@ -85,7 +85,7 @@ necessary to eliminate market-restrictive practices by removing barriers to entr
 opening goods and services markets to competition. 
 
 3/4 BIS - Central bankers' speeches
-Structural reforms will help attract foreign direct investment and facilitate greater 3
+Structural reforms will help attract foreign direct investment  and facilitate greater 3
 participation of Greek businesses in global value chains. This will contribute to the 
 adoption of innovative production methods and new technologies, enabling Greek 
 businesses to produce high value-added and knowledge-intensive products. This, in 

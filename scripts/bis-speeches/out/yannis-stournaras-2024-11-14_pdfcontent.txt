@@ -118,7 +118,7 @@ adverse macroeconomic, fiscal and financial sector shocks.
 The extended analysis reinforced the notion that safeguarding a favourable 
 to debt reduction is equally important as pursuing contribution of the snowball effect 
 a fiscal adjustment. Moreover, medium-term projections of structural   Gross Financing 
-(GFNs) are also important in identifying debt sustainability risks, because they Needs  
+(GFNs) are also important in identifying debt sustainability risks, because they Needs 
 reflect the underlying characteristics of the public debt structure. For example, high 
 levels of short-term debt or relatively high shares of floating-rate debt can make a 
 country more vulnerable to interest rate shocks and high liquidity risks. Such projections 
@@ -158,7 +158,7 @@ mandate to restructure sovereign debt if necessary.
 year must include . The use of CACs is a core  Collective Action Clauses (CACs)
 component of the new debt restructuring framework, designed to ensure that 
 restructuring can be carried out in an orderly manner, limiting market disruption.
-- The ESM and the EC play a central role in conductingbefore providing financial  DSA  
+- The ESM and the EC play a central role in conducting before providing financial  DSA 
 assistance. The framework is used to guide decisions on the necessity and the scale of 
 any potential debt restructuring.
 - The experience of the Greek debt restructuring highlighted the significance of the 
@@ -245,7 +245,7 @@ managing the delicate equilibrium between growth, inflation and fiscal sustainab
 Regardless of the near-term budget outlook, the current high levels of public debt 
 complicate the task of monetary policy, limit the room for manoeuvre and worsen the 
 trade-offs faced by central banks. Evidence from the recent crises in the euro area have 
-underscored theneed for alignment of monetary and fiscal policy objectives,  
+underscored the need for alignment of monetary and fiscal policy objectives,  
 . Risks of highlighting the benefits of complementarity between the two policies
 fiscal dominance could emerge if debt dynamics are left unchecked by the fiscal 
 framework, or if fiscal policies lack countercyclicality.

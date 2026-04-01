@@ -1,0 +1,203 @@
+ 
+ 
+Monetary Policymaking in a Context of Extreme Uncertainty 
+Biennial Conference on Global Risk, Uncertainty, and Volatility 
+Zurich 
+José Luis Escrivá 
+Governor 
+ 
+ 
+    
+13.05.2025 
+ 
+
+     1  
+Good morning, 
+First of all, I would like to extend my sincere gratitude to the Swiss National Bank and the 
+BIS for inviting me to this highly relevant and timely conference. One of the main challenges 
+we are currently facing as policymakers is finding the right adjective to describe the kind of 
+uncertainty we are dealing with: extreme, unprecedented, unpredictable? We are navigating 
+a very complex policymaking environment characteri sed by a high degree of uncertainty.  
+To begin with, let me explain why uncertainty is currently so high. The US Economic Policy 
+Uncertainty Index shows that the degree of uncertainty surrounding economic policy in the 
+United States is at extreme levels in general, and also in specific areas: monetary policy, 
+fiscal policy, regulation, and trade policy.  We are currently experiencing unprecedented 
+levels of uncertainty in all of these areas. Trade is a clear example, but fiscal policy in the 
+United States is similarly affected. The Congressional Budget Office projects, in the absence 
+of new fiscal policies, persistent deficits of over 5% of GDP for the next decade and a debt-
+to-GDP ratio rising from 100% to 150%.  
+No matter which area you look at, we are facing truly unprecedented developments. This is 
+something we must take into account in our decision -making. During the COVID -19 
+pandemic, we also faced unprecedented uncertainty, but this time the uncertainty is far 
+more of the Knightian kind.1 At that time, the shock, particularly the potential for adverse 
+scenarios, was huge, but the direction and the nature of the shock were clear-cut. It was a 
+significant negative supply shock. This time around is far more complex. Let me illustrate 
+this using a model-based decomposition of shocks  in the recent inflationary episode.2 It 
+basically shows that it was possible, even in real time, to identify the nature of the shock as 
+clearly supply-driven. 
+Today, while the impact on GDP is clearer, the impact on inflation is harder to predict due 
+to potentially opposing dynamics.  
+I will discuss three key issues arising from this extreme uncertainty and the challenges for 
+policymakers in relation to monetary policy. First, evaluation: we need to improve our tools 
+and methods to better understand and assess this uncertainty. This involves defining the 
+contours of uncertainty and structuring our internal work and decision-making in a way that 
+puts more emphasis on the balance of risks to the central scenario . Second, decision-
+making: we need to consider how to make decisions in such an uncertain environment. And 
+third, communication: we need to consider how to  effectively communicate our decisions 
+and the uncertainty to the public and the markets. 
+Evaluation 
+In the current environment, a central scenario is less informative than in past episodes of 
+tension. Instead, we should rely more on well-designed fully-fledged alternative scenarios. 
+The adoption of this approach is challenging, but steps were already being taken in this 
+ 
+1 Knightian uncertainty refers to a type of uncertainty where the probability of outcomes cannot be calculated or reliably 
+predicted. This concept contrasts with measurable risks, where the outcomes and their probabilities are known or can be 
+estimated. 
+ 
+2 See Kataryniuk, Martinez-Martin, Pappa and Rast (2025) “The heterogenous effects of demand and supply shocks”, Banco 
+de España Working Paper (forthcoming). 
+
+     2  
+direction even before the recent surge in uncertainty . A relevant example is the 2024 
+Bernanke review of the Bank of England’s forecasting3 which puts emphasis on managing 
+uncertainty and discussing the balance of risks. In my view, the relevance of this issue is 
+going to increase over time, for two main reasons. The first is related to the need to foster 
+robustness in response to a situation of uncertainty. In this respect, Sargent and Hansen4 
+have clearly explained the importance of robustness in modelling and for potential scenarios 
+to deal with uncertainty and model ambiguity. Secondly, we need to improve transparency 
+vis-à-vis the public, so that they know we are prepared for different scenarios. This means 
+focusing less on the central scenario and more on alternatives. 
+All central banks are currently working on scenarios to assess the potential impact of policy 
+shifts on tariffs. By way of illustration, at the Banco de España, we use different models to 
+analyse past data and predict new economic states if certain events occur. For example, to 
+evaluate the impact of the recent trade policy decisions taken by the new US Administration, 
+we have combined two models: the well-known large-scale multi-country model NiGEM, 
+and a n internal Banco de España  multi-sectoral, multi -country model. Using these two 
+models, we have simulated different scenarios  over a three -year horizon , considering 
+alternative tariffs configurations in the United States vis-à-vis the rest of the world and in 
+the rest of the world vis-à-vis the U nited States. T o better understand the impacts on 
+inflation and on the complexity of the situation, we have also added parallel channels that 
+might be more demand -driven, such as  negative confidence shocks and financial 
+uncertainty and volatility. This highlights the importance of combining different shocks and 
+scenarios. As we add more elements, we must choose some to create a simplified view of 
+potential new economic states. 
+Another key approach when facing an episode of high uncertainty is to monitor short-term 
+developments using high-frequency data. This helps us capture early dynamics that lower 
+frequency data might miss. For example, during the Valencia floods in Spain, we monitored 
+credit card data, ATM withdrawals, employment data, tax data, VAT billing and port data to 
+assess the impact. 
+Combining numbers with text and other non-structured information is challenging. By using 
+neural models and AI techniques, we can detect non-linear patterns and turning points that 
+traditional methods might miss. In the presence of high uncertainty, it is crucial to combine 
+standard models and forecasting techniques with high-frequency data. 
+Decision-making 
+Let me turn now to the issue of how to best take monetary policy decisions in a context of 
+high uncertainty.  
+Here the terms that we normally use, such as data-driven and full optionality, are more 
+apposite than ever.  Given the developments in recent months, our initial reaction in the 
+ 
+3 Bernanke, B. (n.d.). Forecasting for Monetary Policy Making and Communication at the Bank of England: A Review. Bank 
+of England. Retrieved from : https://www.bankofengland.co.uk/independent-evaluation-office/forecasting-for-monetary-
+policy-making-and-communication-at-the-bank-of-england-a-review/forecasting-for-monetary-policy-making-and-
+communication-at-the-bank-of-england-a-review  
+ 
+4 Hansen, L. P., & Sargent, T. J. (2008). Robustness. Princeton University Press. 
+
+     3  
+current situation should be cautious. This is because it  is extremely challenging to predict 
+the impact and direction of potential developments  and their net economic effects. 
+Therefore, a cautious approach, as suggested by Brainard,5 is appropriate in the short term. 
+At the same time, given the rapid pace at which developments evolve, the most likely 
+scenario can change swiftly, and alternative scenarios can quickly become the new central 
+one. Therefore, we need to act promptly. This requires us to be attentive and prepared to 
+make the appropriate decisions. 
+In the wording of the recent ECB monetary policy statement, we introduced the concept of 
+"agility", highlighting the need to be flexible and responsive. I view the current situation as 
+one in which we must balance caution with agility. We need more time to fully understand 
+various developments, but we also need to be ready to adapt swiftly. As is often the case 
+in monetary policymaking, achieving this balance is an art. 
+Communication 
+Let me finally deal with the issue of how to communicate our decisions in a context of high 
+uncertainty.  
+Communicating uncertainty is always a challenge for central bankers. There is a 
+fundamental dilemma: if we express too much doubt or present too many alternatives, we 
+risk appearing indecisive. Moreover, it is crucial for central banks to be seen as effective 
+and committed to maintaining price stability with the necessary tools at our disposal. 
+At the same time , the assessment of certain  situations takes time and requires additional 
+information. For the sake of transparency, we need to convey this need , but this must be 
+done in a way that maintains the perception of our commitment  and avoids appearing 
+somewhat lost in the current situation . This is especially challenging in a highly uncertain 
+environment. 
+Tools like the Bank of England’s fan charts have been used since the mid-1990s.6 However, 
+the use of probability distributions can sometimes suggest that anything is possible. This is 
+somewhat problematic and it may be difficult for certain observers to understand how these 
+charts are constructed and how they should be used. These are factors that limit the 
+usefulness of these tools for communication. Similarly, the Federal Reserve Board’s FOMC 
+dot plot charts show a range of future views , but they also involve communication 
+challenges.7 
+If we are moving towards relying more on alternative scenarios rather than a central one, we 
+need to communicate this shift effectively. This involves structuring our internal debates and 
+ 
+5 Brainard, W C (1967), “Uncertainty and the Effectiveness of Policy”, American Economic Review 57(2): 411-425. 
+ 
+6 Fan charts were pioneered by the Bank of England back in 1990.  They typically show the likelihood that a future inflation 
+outcome falls within a specified range. However, they are silent on the underlying contingencies and policy reaction. 
+ 
+7 The Fed dot plots report the median, central tendency and range across (anonymised) individual FOMC  members. The 
+uncertainty range is largely a measure of disagreement across individual members, and there is no mapping between the 
+individual FOMC members’ views about inflation, the economy and the interest rate. Thus, preventing inference about the 
+implicit reaction function. 
+ 
+
+     4  
+discussions on the balance of risks  with styli sed scenarios that reflect a few impactful 
+alternatives to the central scenario and have a significant likelihood of materialising.  
+The job of the decision-making body is to reach consensus on these alternative scenarios 
+and then to instruct staff to develop them in detail, presenting them alongside the central 
+scenario. In my opinion, relying more on alternative scenarios is a relatively straightforward 
+approach. 
+The challenge is how to communicate these alternative scenarios clearly and transparently 
+to the public. While transparency is desirable, it can also lead to misinterpretations or 
+confusion. The simplicity of a central scenario for projections is straightforward, but as we 
+de-emphasise it, we must find effective ways to communicate the shift. 
+Transparency is also desirable for our reaction function. Not only when we do (not) react to 
+the central scenario, but also to show determination and readiness to react to alternative 
+scenarios or to weigh them in our decision-making process, insofar as they are perceived 
+as relevant and have a significant likelihood of occurrence. Probably at a certain point in 
+time, to manage expectations and provide guidance on understanding the central bank 
+reaction function, it would be desirable to move in this direction. 
+But at the same time, this is not easy. Imagine how complex it would be to include this in a 
+formal statement. We are already sometimes criticised for being overly complex in how we 
+communicate our actions and assessments, whether these relate to the economy, inflation, 
+or policy decisions. Introducing discussions on alternative scenarios would make things 
+even more complex. It could even lead to misinterpretations. A full appreciation that these 
+are state-contingency commitments, and not exactly a central scenario, is by no means  
+guaranteed. 
+An additional source of both complexity and confusion has to do with  the time-varying 
+nature of the weight we give to alternative scenarios.  
+The appeal of a central scenario with projections lies in its simplicity and 
+straightforwardness. However, as we begin to de-emphasise these central scenarios, the 
+challenge becomes how to effectively communicate this shift. These are complex questions, 
+and while I do  not have all the answers, I firmly believe that more research should be 
+conducted on these critical issues. This is shaping up to be a very important debate for the 
+future. 
+Let me conclude. High uncertainty may become the new normal. Recent unprecedented 
+developments suggest that this high uncertainty could be long-lasting. Innovations related 
+to AI are accelerating and their impacts are extremely difficult to grasp. In parallel, we may 
+be experiencing significant structural changes in the geopolitical landscape, and in political 
+decision-making at the global level . As Nobel Prize winner Douglass North wrote 
+in Understanding the Process of Economic Change, “it is evident that we have been and we 
+are creating societies that are unique in comparison to anything in the past. […] To know 
+the future, we have to know today what will be known tomorrow.” Let me complement this 
+with another quotation from George Shackle: “What does not yet exist cannot be known.” 
+If we are in a new normal of uncertainty, we need to be prepared. This involves developing 
+
+     5  
+analytical tools, organi sing internal discussions, and making decisions that account for 
+alternative scenarios. Forward guidance may need to be reconsidered, and we must find 
+effective ways to communicate uncertainty to the public and markets. 
+Thank you very much. 
+ 
+ 
+ 
+ 

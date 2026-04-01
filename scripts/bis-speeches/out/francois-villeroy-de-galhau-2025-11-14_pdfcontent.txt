@@ -13,7 +13,7 @@ as the supervisory authority for financial institutions, the latter as a central
 "subject" to the Monetary and Financial Code. 
 I do admit that I forbid the use of "subject to" at the ACPR, and we prefer 'supervised'. 
 "Subject to" does not reflect what we really are: responsible partners, committed to a 
-joint battle against one of the greatest scourges of our time. A total of 230,000 reporting i
+joint battle against one of the greatest scourges of our time. A total of 230,000  reporting i
 entities – 400 of which are gathered here today – form our first line of defence. In this 
 war of movement that we are waging against increasingly inventive criminals, the 
 cooperation between Tracfin and the ACPR takes on its full meaning. Allow me, 
@@ -50,7 +50,7 @@ Staying ahead in the fight against crime first means detecting how it changes ov
 and focusing our efforts on what truly matters. With nearly 197,000 suspicious 
 transaction reports (STRs) filed by the financial sector in 2024, we have achieved an 
 unprecedented level of commitment. And the first quarter of 2025 would appear to have 
-witnessed a further increase of 22.5%. However, such a volume of information also ii
+witnessed a further increase of 22.5% . However, such a volume of information also ii
 carries a , especially whenrisk of dispersion   the quality of the flow of information is 
 . Too many superficial, insufficiently substantiated suspicious transaction not perfect
 reports – sometimes without any real suspicion – saturate the system. I welcome the 
@@ -76,7 +76,7 @@ the financial system, we should eventually see fewer suspicious transactions in
 standardised report on funds that have already vanished would simply play into the 
 hands of criminals. The study published by the ACPR last July on "pass-through 
 accounts" shows that institutions that engage in such practices are at least 100 times 
-more likely to be used by criminals. Our message is clear:these practices are  
+more likely to be used by criminals. Our message is clear: these practices are  
 . An STR only removes civil, criminal and disciplinary liability if it is made unacceptable
 in good faith and under the conditions provided for by law.
 The ACPR and Tracfin will use all the tools at their disposal to enforce the law. For 
@@ -105,7 +105,7 @@ delighted that the new European regulation provides an ambitious framework for �
 private-private and public-private – information-pooling partnerships as well as the 
 interconnection of European bank account registers, extended to crypto-assets by 2029 
 at the latest. Following the French Parliament's recent adoption of Deputy Labaronne's 
-bill, the Banque de France will deploy a new interbank platformto quickly  in 2026 
+bill, the Banque de France will deploy a new interbank platform to quickly  in 2026 
 identify fraudster bank accounts, thereby "making life difficult for the bad guys", to use 
 one of Antoine Magnant's favourite expressions. 
 Anticipation and cooperation

@@ -29,7 +29,7 @@ previously anticipated. However, growth is expected to be supported by higher in
 and lower borrowing costs. Additionally, exports should benefit from rising global 
 demand, though this remains contingent on developments in international trade 
 policies. The latest ECB staff projections expect the economy to grow by 0.9% in 2025, 
-1.2% in 2026 and 1.3% in 2027.These estimates are subject to considerable 1 
+1.2% in 2026 and 1.3% in 2027. These estimates are subject to considerable 1 
 uncertainty, also owing to the trade policy environment, which I will discuss in the 
 second part of my statement.
 Turning to price developments, the disinflation process is well on track. Headline 
@@ -68,8 +68,8 @@ The new US administration is changing direction in several policy areas, with tr
 being a focal point. As a result, uncertainty about the future path of trade policy has 
 soared to exceptionally high levels.
 In our interconnected world, increased trade frictions are detrimental to global growth 
-and welfare.They raise costs, disrupt production and often lead to an adjustment of 2 
-supply chains.This also encourages "tit-for-tat" retaliatory policies, further undermining 3 
+and welfare. They raise costs, disrupt production and often lead to an adjustment of 2 
+supply chains. This also encourages "tit-for-tat" retaliatory policies, further undermining 3 
 the benefits of free trade.
 The euro area, which is very open to trade and deeply integrated into global supply 
 chains, especially with the United States, is particularly exposed to shifts in trade 
@@ -104,7 +104,7 @@ trade, and swiftly finalising recent trade agreements with other international p
 would be a powerful signal.
 We must also use these developments as a catalyst for deepening trade between EU 
 Member States. The Single Market is estimated to have added between 12% and 22% 
-to long-run EU GDP in its first 30 years,and the level of trade between Member States 5 
+to long-run EU GDP in its first 30 years, and the level of trade between Member States 5 
 has doubled since its creation.6
 A deeper Single Market is crucial for reducing trade barriers within Europe and creating 
 the scale necessary for firms to thrive. In addition, the more we exploit our own market, 
@@ -118,7 +118,7 @@ only gain collectively.
 At the ECB, we will continue to carefully monitor global trade developments and take 
 their impact into account in our monetary policy deliberations. In the current 
 environment, it is important that we anticipate and assess implications of potential trade 
-policy changes.Careful analysis and communication are key, and we are exploring 7 
+policy changes. Careful analysis and communication are key, and we are exploring 7 
 both aspects further as part of our ongoing strategy assessment.
 
 4/4 BIS - Central bankers' speeches
@@ -140,15 +140,15 @@ first batch of bilateral tariffs between the United States and China. Other tari
 were not yet in place at the cut-off date and those that had been postponed or had only 
 recently been announced were not included in the baseline projections.
 2 See Attinasi, M.G. et al. (2024), "Navigating a fragmenting global trading system: 
-", , No 365, ECB; and Gunnella, V. insights for central banks Occasional Paper Series
+", , No 365, ECB; and Gunnella, V. insights for central banks  Occasional Paper Series
 and Quaglietti, L. (2019), "The economic implications of rising protectionism: a euro 
-", , Issue 3, ECB.area and global perspective Economic Bulletin
+", , Issue 3, ECB.area and global perspective  Economic Bulletin
 3 See Attinasi, M.G. et al. (2023), "Global production and supply chain risks: insights 
-", , Issue 7, ECB.from a survey of leading companies Economic Bulletin
+", , Issue 7, ECB.from a survey of leading companies  Economic Bulletin
 4 See ECB Working Group on Global Value Chains (2019), "The impact of global value 
-", , No 221, ECB, April.chains on the euro area economy Occasional Paper Series
+", , No 221, ECB, April.chains on the euro area economy  Occasional Paper Series
 5 See Lehtimäki, J. and Sondermann, D. (2020), "Baldwin vs. Cecchini revisited: the 
-", , No 2392, ECB, growth impact of the European Single Market Working Paper Series
+", , No 2392, ECB, growth impact of the European Single Market  Working Paper Series
 April.
 6 See European Commission (2023) "Communication from the Commission to the 
 European Parliament, the Council, the European Economic and Social Committee and 

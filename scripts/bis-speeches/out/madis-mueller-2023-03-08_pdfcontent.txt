@@ -118,7 +118,7 @@ Studies show that households on lower incomes are generally more exposed to the
 problems caused by high inflation than those with higher incomes.
 The difference between the levels of inflation experienced by different groups in society 
 was not that large when inflation was low, amounting to about one quarter of a 
-percentage point as shown by the ECB's research. The gap between the inflation rates 1
+percentage point as shown by the ECB's research . The gap between the inflation rates 1
 for households on higher and lower incomes had widened in the euro area though to 
 1.9 percentage points by September 2022. Calculations for January 2023 by the Bruegel
 think tank indicate that it had reached two or three percentage points in many 2 
@@ -132,17 +132,17 @@ target their support measures as accurately as possible.
 4/8 BIS - Central bankers' speeches
 The consequences of high inflation for public finances
 High inflation also affects the public finances, as the relationship works through 
-numerous channels and in both directions. Some of those channels are direct 3
+numerous channels and in both directions . Some of those channels are direct 3
 consequences of policy measures to alleviate the impact of high inflation, especially 
-higher energy prices. Bruegel estimatesthat countries in the European Union allocated 4 
+higher energy prices. Bruegel estimates that countries in the European Union allocated 4 
 a total of 657 billion euros to cutting energy taxes and supporting households and firms 
 between September 2021 and January 2023. This amounts to 4.5 per cent of GDP for 
 2021, a sizeable amount of extraordinary spending indeed. Some countries have raised 
-additional revenues to cover this by introducing windfall taxes on energy companies. 5
+additional revenues to cover this by introducing windfall taxes on energy companies . 5
 One positive side effect of higher inflation is that it reduces the ratio of government debt 
 to GDP because nominal GDP grows fast. This good news has been offset though by 
 the sharp rise in interest rates over the past year, and the most likely net effect is that 
-interest payments on government debt will be higher in the years to come.6
+interest payments on government debt will be higher in the years to come .6
 Inflation affects the fiscal balance through both revenues and spending and there are 
 both positive and negative effects. Higher inflation may bring in more tax revenue 
 relative to GDP if the brackets in the income tax system are left unchanged, but less 
@@ -162,7 +162,7 @@ needed when any additional fiscal support measures are designed.
 Ongoing research at Eesti Pank has attempted to estimate the extent to which an 
 unexpected rise in inflation would affect fiscal balances in the euro area using data from 
 the mid-1990s to 2021, and has found that inflation has a sizeable positive effect on the 
-fiscal balance as a percentage of GDP. The positive effect comes both from the 7
+fiscal balance as a percentage of GDP . The positive effect comes both from the 7
 expenditure side of the budget and from the revenue side. This is particularly true when 
 there is a significant positive inflation surprise, meaning when actual inflation turns out 
 to be higher than expected.

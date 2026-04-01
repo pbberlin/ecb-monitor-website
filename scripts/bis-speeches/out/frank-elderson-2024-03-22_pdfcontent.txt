@@ -29,7 +29,7 @@ degradation are more apparent than ever: 2023 was the hottest year ever recorded
 while extreme weather events are becoming more frequent and increasingly these 
 events also leave their mark on the economy.
 For instance, last year devastating floods in Slovenia showed that just a couple of days 
-of heavy rain can lead to damages, equivalent to 16% of GDP.1
+of heavy rain can lead to damages, equivalent to 16% of GDP .1
 Climate risk events are not just one of the many standalone risks that banks face. They 
 are instead a driver for each traditional type of risk reflected in the Basel framework, 
 from credit risk, liquidity risk and market risk to reputational and operational risk, 
@@ -96,7 +96,7 @@ that: managing risk through active client engagement and by offering transition 
 products, which also represent a business opportunity for banks.
 Since we first started discussing C&E risks with banks back in 2019, progress has 
 undoubtedly been made. Banks have taken steps to integrate C&E risks into their 
-strategy, governance and risk management. For example, we see thatbanks'  
+strategy, governance and risk management. For example, we see that banks'  
 materiality assessments and business environment scans are becoming more robust 
 compared with their initial submissions. However, it is also true that a number of banks 
 did not perform an adequate materiality assessment. As a result, they received binding 
@@ -139,7 +139,7 @@ Financial risks are not limited to climate change. We are currently witnessing a
 unprecedented decline in natural ecosystems and the vital services they provide such 
 as pollination, clean water or healthy soil. This also matters for banks, given that 75% of 
 all bank loans in the euro area are to companies that are highly dependent on at least 
-one ecosystem service.However, assessing nature-related risks is complex. Unlike for 7 
+one ecosystem service. However, assessing nature-related risks is complex. Unlike for 7 
 climate risk, which can be measured in terms of carbon emissions, there is no single 
 indicator that would facilitate quantification of nature-related risks.
 Encouragingly, several banks have already implemented risk management practices 
@@ -187,7 +187,7 @@ before transition plans become mandatory. The revised Capital Requirements Direc
 to prepare prudential plans to address C&E risks arising from the adjustment towards 
 climate neutrality by 2050.
 To prepare for these upcoming legal requirements, the best advice I can give to banks 
-is to start putting in place their Paris-compatible transition plans.By that, I mean 8 
+is to start putting in place their Paris-compatible transition plans. By that, I mean 8 
 realistic, credible, science-based and externally vetted transition plans that banks can 
 and actually do implement in a timely manner. They should include concrete 
 intermediate milestones between now and 2050. Banks should also develop key 
@@ -229,7 +229,7 @@ Supervision (2023), Newsletter on the implementation of the Principles for the 
 Legal Conference, 4 September; and Network for Greening the Financial System 
 (2023),  , September.Climate-related litigation: recent trends and developments
 7 Ceglar, A., Boldrini, S., Lelli, C., Parisi, L. and Heemskerk, I. (2023), "The impact of 
-", , No 335, the euro area economy and banks on biodiversity Occasional Paper Series
+", , No 335, the euro area economy and banks on biodiversity  Occasional Paper Series
 ECB.
 8 Elderson, F. (2024), ""Failing to plan is planning to fail'' – why transition planning is 
 , ECB, 23 January.essential for banks", The Supervision Blog

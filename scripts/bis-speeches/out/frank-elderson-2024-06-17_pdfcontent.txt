@@ -137,14 +137,14 @@ question is whether climate and nature shocks can be fully captured by the tradi
 categorisation of demand, supply and financial shocks used in most macroeconomic 
 models. In that vein, my fellow ECB Executive Board member Isabel Schnabel has 
 suggested thinking about the impact of climate change on inflation in terms of 
-"climateflation", "fossilflation" and "greenflation".Even if such concepts can be mapped 1 
+"climateflation", "fossilflation" and "greenflation". Even if such concepts can be mapped 1 
 analytically into the more traditional type of shocks, we need to learn more about the 
 exact mechanisms before being able to draw the appropriate conclusions for monetary 
 policy.
 Something similar applies on the banking supervision side. The Basel Committee on 
 Banking Supervision has established that climate-related risks translate into the 
-traditional types of risk that banks consider, covering credit risk, liquidity risk, market 2
-risk and operational risk, including litigation risk.However, here too, the exact 3 
+traditional types of risk that banks consider , covering credit risk, liquidity risk, market 2
+risk and operational risk, including litigation risk. However, here too, the exact 3 
 mechanisms of mapping actual hazards to risks needs to be analysed further to fully 
 capture climate and nature-related factors in quantifiable regulatory and supervisory 
 requirements.
@@ -158,7 +158,7 @@ Some of these themes will feature at this conference tomorrow. And on the moneta
 policy side, we recently established a new research network known as Challenges for 
 Monetary Policy Transmission in a Changing World (ChaMP). The ChaMP network 
 seeks to revisit our knowledge of monetary transmission channels in the context of 
-unprecedented shocks and structural changes.Through conferences such as this one, 5 
+unprecedented shocks and structural changes. Through conferences such as this one, 5 
 initiatives like the ChaMP network, and many other interactions with the research 
 community, we seek your inspiration, ideas and insights to address the challenges 
 facing monetary policy and banking supervision in the future.

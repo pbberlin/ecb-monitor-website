@@ -24,7 +24,7 @@ these periods had a specific set of inflation (or deflation!) drivers and price 
 anchors, and thus specific price dynamics and specific policy issues.
 The common feature in the advanced economies is that inflation has been mostly due 
 to supply disruptions and sharp increases in the prices of food and energy, as 
-concluded by Ben Bernanke and Olivier Blanchard in their recent paper. On the other i
+concluded by Ben Bernanke and Olivier Blanchard in their recent paper . On the other i
 hand, over time inflation became more broad-based and stickier, leading to higher wage 
 inflation on a tight labour market. Fiscal policy also played a role in fuelling demand-
 side inflation, especially in the United States. 
@@ -62,7 +62,7 @@ has provided a clear and comprehensible anchor, and enough flexibility both in t
 the temporal definition and the instruments used. This has allowed us to avoid taking 
 any excessively drastic measures that the old target might have implied.
 The inflation itself does not then, in my view, need re-consideration. But we need  target 
-to analyze inflation in the exceptional years – and the functioning of the  dynamics  
+to analyze inflation in the exceptional years – and the functioning of the  dynamics 
 strategy – in more depth.
 It is worth recalling that at the time we published our revised symmetric 2% inflation 
 target in July 2021, the operating environment for monetary policy was in considerable 
@@ -83,7 +83,7 @@ uncertainty and the ending of energy imports and trade with Russia seemed destin
 undermine Europe's economic recovery. Monetary policy was thus facing a major 
 dilemma.
 After a period of deliberation from March until June, the ECB began, in July 2022, a 
-series of policy rate increases that wasexceptionally rapid and consistent– due to the     
+series of policy rate increases that was exceptionally rapid and consistent – due to the     
 exceptionally high inflation rate. In line with our revised strategy, our goal was to tame 
 inflation over the medium term by preventing a wage-price spiral and thus keeping 
 inflation expectations anchored.
@@ -95,7 +95,7 @@ inflation has been stabilized over a period of 2–3 years (knock on wood).
 Some have argued that we did not hit the brakes early enough. Let me say that many of 
 us policymakers would in fact have been ready to raise rates already in March 2022 in 
 the face of soaring inflation, but Russia's invasion of Ukraine brought a return to the era 
-of brutal geopolitics and created amassive cloud of uncertaintyover Europe's economy.   
+of brutal geopolitics and created a massive cloud of uncertainty over Europe's economy.   
 My initial feeling – even in retrospect, a completely rational one – was that it would 
 probably have serious stagflationary consequences, hitting growth and generating 
 inflation, a kind of "back to the 70s". In that context, it made complete sense to pause 
@@ -105,21 +105,21 @@ This links very much to the ECB's upcoming strategy review. Given our primary
 mandate, the focus of the review should, in my view, be on achieving a better 
 understanding of the inflation dynamics of the past few years, and of the secular trends 
 that keep changing the operating environment of monetary policy going forward.
-To begin with, it is essential to analyze the large and persistentshocks that the  supply 
+To begin with, it is essential to analyze the large and persistent shocks that the  supply 
 euro area has encountered in recent years. But we must also have an open debate on 
-the role of shocks, including monetary and fiscal policies. The jury is still out  demand  
+the role of shocks, including monetary and fiscal policies. The jury is still out  demand 
 concerning the relative importance of their contribution to the period of high inflation.
-By the way, the same goes for the period ofinflation: did we come out of the  low 
+By the way, the same goes for the period of inflation: did we come out of the  low 
 liquidity trap as a result of our own policy actions, or was it due to the pandemic-related 
 supply shocks and strong fiscal stimulus?
 A further key question is whether we should react to supply shocks in a different way 
 than in the past few years. To what extent can we, as a central bank, even influence 
 supply-side issues? I think a good approach is to follow the established wisdom of 
-monitoring the extent to which supply shocks causesecond round effects. 
+monitoring the extent to which supply shocks cause second round effects. 
 
 4/5 BIS - Central bankers' speeches
 Turning to secular trends, one thing that has fundamentally changed since our last 
-strategy review is thegeopolitical landscape. 
+strategy review is the geopolitical landscape. 
 Geopolitics will continue to shape the operating environment of monetary policy in the 
 years ahead. The changes that are taking place in the world economy, from trade wars 
 to supply chain diversions, are likely to increase the probability of supply shocks and 
@@ -150,11 +150,11 @@ pace of investment. This would contribute to keeping real interest rates down. S
 trajectory of r* remains unclear for now – that's why we need to continue and dig 
 deeper.
 SLIDE 6. Hours worked and persons in employment
-Another focus of analysis should be thelabour market,not least since it is closely linked    
+Another focus of analysis should be the labour market, not least since it is closely linked    
 to the apparent slowdown in productivity growth.
 In recent years, euro area employment growth has been robust, and the unemployment 
-rate is at a historical low of 6.4%. However,the number of hours workedhas increased    
-at a significantly lower rate thanthe number of people in employment. This means that  
+rate is at a historical low of 6.4%. However, the number of hours worked has increased    
+at a significantly lower rate than the number of people in employment. This means that  
 the euro area labour market – when measured as hours worked – has not developed 
 particularly favourably, and correspondingly, productivity growth looks somewhat better 
 when measured per hour.
@@ -162,7 +162,7 @@ when measured per hour.
 5/5 BIS - Central bankers' speeches
 We also need to gain a better understanding of how demographics affect the labour 
 force participation rate and the development of the labour force in the future.
-During the past few years, we have seenlarge and exceptional shocks originating from  
+During the past few years, we have seen large and exceptional shocks originating from  
 the labour market. In addition to the sharp decrease in average hours that led to an 
 increase in the demand for labour, has increased labour supply and  immigration 
 helped to constrain wage pressure. Taking these shocks into account makes the 

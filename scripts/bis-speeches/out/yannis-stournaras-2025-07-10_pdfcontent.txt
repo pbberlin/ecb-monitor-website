@@ -88,7 +88,7 @@ adverse developments and with a safety margin against the risk of deflation. It 
 addresses issues like downward nominal rigidities and measurement bias.
 Several academics and policymakers have called for raising the target above 2%. 1 
 Such proposals have to be carefully weighed against potential risks to central bank 
-credibility.Frequent adjustments to the target risk undermining the credibility we have 2 
+credibility. Frequent adjustments to the target risk undermining the credibility we have 2 
 worked so hard to build. If markets expect the target to keep shifting, inflation 
 expectations could de-anchor, making our job much harder.
 Our focus on the medium term is equally important, as it gives us valuable flexibility. 
@@ -167,7 +167,7 @@ tariffs, will increase the rate of return on domestic investment, leading to a h
 investment ratio as suggested by the Draghi Report, thus closing the investment and 
 productivity gap with the US.
 More ambitious proposals, such as the one recently put forward by Olivier Blanchard 
-and Ángel Ubide,deserve consideration: they could help create a deep and liquid EU 3 
+and Ángel Ubide, deserve consideration: they could help create a deep and liquid EU 3 
 bond market that could achieve greater global significance.
 V. The Fiscal and Monetary interactions
 Let me elaborate more on the interplay between fiscal and monetary policy.

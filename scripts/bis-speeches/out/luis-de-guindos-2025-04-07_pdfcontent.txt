@@ -6,12 +6,12 @@ International Federation of Accountants' Chief Executives Forum, Amsterdam, 3 Ap
 * * *
 Introduction
 It is a pleasure to be taking part in the International Federation of Accountants' Chief 
-Executives Forum today.In line with the topic of the event, I will reflect on the risks and 1 
+Executives Forum today. In line with the topic of the event, I will reflect on the risks and 1 
 uncertainty that threaten financial stability and their implications for policymakers. I will 
 be brief to allow enough time to take your questions.
 Conceptually, risk is associated with situations where the exact outcome is unknown 
 but the possible outcomes can be identified and their probabilities can be estimated 
-reasonably well.For the ECB, financial stability is defined as a condition in which the 2 
+reasonably well. For the ECB, financial stability is defined as a condition in which the 2 
 financial system is capable of withstanding shocks and the unravelling of financial 
 imbalances. So, when assessing financial stability, we evaluate the likelihood of shocks 
 materialising and their potential impact. Uncertainty, by contrast, refers to scenarios 
@@ -23,9 +23,9 @@ high, in a world being reshaped by significant shifts in geopolitics, internatio
 cooperation, global trade policy, financial regulation and the role of crypto-assets. At the 
 same time, the scale of the defence investment foreseen in the EU is unprecedented 
 and adds another significant layer of uncertainty to the current environment.
-According to a news-based index, economic policy uncertainty in the euro area is 3
-currently more than three times the historical average.Similarly, an index of trade 4 
-policy uncertainty is more than eight times the historical average.These levels are well 5 
+According to a news-based index , economic policy uncertainty in the euro area is 3
+currently more than three times the historical average. Similarly, an index of trade 4 
+policy uncertainty is more than eight times the historical average. These levels are well 5 
 above those seen during the pandemic.
 Amid all of this uncertainty, the ECB's Governing Council decided to lower interest rates 
 by another 25 basis points in March. The deposit facility rate is now at 2.5%, 150 basis 

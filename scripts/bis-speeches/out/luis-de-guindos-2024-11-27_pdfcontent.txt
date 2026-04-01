@@ -1,7 +1,7 @@
 1/4 BIS - Central bankers' speeches
 Luis de Guindos: Financial stability in the euro area
 Speech by Mr Luis de Guindos, Vice-President of the European Central Bank, at the 
-Frankfurt Euro Finance Week, organised by theEuro Finance Group, Frankfurt am  dfv 
+Frankfurt Euro Finance Week, organised by the Euro Finance Group, Frankfurt am  dfv 
 Main, 18 November 2024. 
 * * *
 It is my great pleasure to continue the tradition of joining you at the Frankfurt Euro 
@@ -108,14 +108,14 @@ union. Our work on this front is not yet done. To complete the banking union, we
 address key gaps in our institutional framework. This includes finalising the crisis 
 management toolkit for EU large banks and making progress in other areas, such as 
 liquidity in resolution and a backstop to the Single Resolution Fund. A critical gap that 
-demands attention is the absence of a European deposit insurance scheme.Progress 1 
+demands attention is the absence of a European deposit insurance scheme. Progress 1 
 towards a full banking union that would remove barriers to greater financial system 
 integration across euro area countries remains a priority if we want to make our banking 
 system more efficient.
 It is also essential to strengthen the resilience of the NBFI sector, not only to protect 
 individual institutions but also to safeguard the broader stability of the financial system, 
 especially since a more resilient non-bank sector will reduce the likelihood of spillovers 
-to the banking sector.A sound NBFI sector is also a prerequisite for achieving deeper 2 
+to the banking sector. A sound NBFI sector is also a prerequisite for achieving deeper 2 
 financial integration in the euro area and completing of the capital markets union.
 Progress on the capital markets union should be central to a revised strategy to 
 enhance Europe's productivity and economic growth. Greater economic integration 
@@ -142,4 +142,4 @@ years ahead.
 ", speech at the Annual Joint Conference of the European Commission and the move on
 European Central Bank on European Financial Integration, Brussels, 7 June.
 2 See Franceschi, E. et. al., (2023), "Key linkages between banks and the non-bank 
-", , ECB, May.financial sector Financial Stability Review
+", , ECB, May.financial sector  Financial Stability Review

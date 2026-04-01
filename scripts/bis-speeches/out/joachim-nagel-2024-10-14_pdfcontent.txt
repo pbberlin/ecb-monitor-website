@@ -14,7 +14,7 @@ I am delighted to be here with you today, at this wonderful location, visiting t
 wonderful country – one of the cradles of world civilisation and culture. 
 The Reserve Bank of India is currently celebrating its foundation 90 years ago. My 
 heartfelt congratulations to all members of staff on this anniversary! Last year, Indian 
-real-time payment systems processed about 129 billion digital transactions.This 1 
+real-time payment systems processed about 129 billion digital transactions. This 1 
 means that 84% of electronic payment transactions took place in real time. During the 
 same period, only about 19% of electronic payments worldwide were real-time 
 transactions. In my view, this is impressive evidence of the excellent work the RBI has 
@@ -22,18 +22,18 @@ accomplished over the last few years.
 Payment systems and their cross-border interaction are also an important topic at this 
 conference. This is because cross-border payments are an integral part of our 
 globalised world. Historically, from the Renaissance to modern times, correspondent 
-banks have acted as the bedrock for cross-border payment transactions. However, 2
+banks have acted as the bedrock for cross-border payment transactions.  However, 2
 even today, transferring funds by means of correspondent banking is often slow, 
 involves many steps and may result in high and non-transparent fees. 
 Moreover, in the last two decades, correspondent banking has been subject to a 
 downward trend, mainly due to increasingly strict compliance requirements. Between 
 2011 and 2022, the number of active correspondents decreased by roughly one third, 
-while the value of cross-border payments increased by almost 40%.Obviously, this is 3 
+while the value of cross-border payments increased by almost 40%. Obviously, this is 3 
 an alarming trend in terms of market competition.
 To some extent, technical progress might be able to compensate for a tighter 
 correspondent banking market. In particular, in the last decade, a number of FinTech 
 companies have provided new opportunities to streamline cross-border payments using 
-innovative methods like blockchain and digital wallets.The FinTech revolution focused   
+innovative methods like blockchain and digital wallets. The FinTech revolution focused   
 
 2/5 BIS - Central bankers' speeches
 on private money. However, it now appears there may be another revolution on the 
@@ -55,7 +55,7 @@ cross-border transactions – by introducing new message standards and shorter p
 chains, for example.4
 Starting on a green field may be one major advantage of CBDCs. Experience shows 
 that, in particular, implementing common standards is not an easy task. Take ISO 
-20022, for example.The International Organisation for Standardisation proposed this 5 
+20022, for example. The International Organisation for Standardisation proposed this 5 
 common standard for financial messages in cross-border payments in 2004. It will be 
 probably more widely used in payment systems on a global level next year – 21 years 
 after the initial proposal. This period feels even longer when you think of all the 
@@ -140,7 +140,7 @@ can only estimate how large a role they will end up playing in payment transacti
 This is all the more true when it comes to cross-border payments.
 The scepticism about CBDCs in many quarters is not uncommon for many 
 technological innovations. For example, in the early 1980s, "computerphobia" was a 
-widespread phenomenon.This took a wide range of forms, even fear of physically 8 
+widespread phenomenon. This took a wide range of forms, even fear of physically 8 
 touching a computer or feeling threatened by those who worked with them. Today, this 
 may seem very strange to us. Computers have since become an essential day-to-day 
 tool for us.

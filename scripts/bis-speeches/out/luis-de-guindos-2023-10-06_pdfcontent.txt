@@ -27,7 +27,7 @@ In September ECB staff revised down projected GDP growth, particularly for this 
 and next, due to a greater contractionary effect from tightening financing conditions and 
 the weakening international trade environment. Beyond the near term, ECB staff expect 
 growth to recover owing to higher real disposable income thanks to rising wages and 
-falling inflation, which is set to underpin spending.ECB staff now expect the euro area  
+falling inflation, which is set to underpin spending. ECB staff now expect the euro area  
 economy to expand by 0.7% in 2023, 1.0% in 2024 and 1.5% in 2025.
 Inflation fell markedly from its double-digit peak last October, with the headline rate 
 having declined to 4.3% in September (flash estimate). In the coming months, the sharp 
@@ -85,7 +85,7 @@ based estimates continue to suggest that, owing to the typical lags in monetary
 transmission, the bulk of the impact of our tightening is expected to materialise only in 
 
 3/4 BIS - Central bankers' speeches
-the course of this year and thereafter.The downward impact of our tightening so far on 1 
+the course of this year and thereafter. The downward impact of our tightening so far on 1 
 GDP and inflation is estimated to average around 2 percentage points over the 2023-25 
 period, with the strongest effect expected on GDP growth this year and on inflation over 
 the next two years.
@@ -112,7 +112,7 @@ encourage firms, banks and households to be more cautious, thereby putting a str
 on bank credit supply, investment and consumer spending. The tightening impulse may 
 be transmitted more forcefully to the real economy in an environment of this kind owing 
 to acceleration effects that often operate during periods of subdued growth and high 
-uncertainty.Conversely, growth could be higher than projected if the strong labour 2 
+uncertainty. Conversely, growth could be higher than projected if the strong labour 2 
 market, rising real incomes and receding uncertainty mean that people and businesses 
 become more confident and spend more.
 On the inflation side, weaker demand owing to the stronger transmission of monetary 
@@ -156,7 +156,7 @@ lags. This reinforces the need for a data-dependent approach to determining the
 appropriate level and duration of a restrictive monetary policy stance.
 1 Darracq-Pariès, M., Motto, R., Montes-Galdón, C., Ristiniemi, A., Saint Guilhem, A. 
 and Zimic, S. (2023), "A model-based assessment of the macroeconomic impact of the 
-", , Issue 3, ECB's monetary policy tightening since December 2021 Economic Bulletin
+", , Issue 3, ECB's monetary policy tightening since December 2021  Economic Bulletin
 ECB.
 2 See, for example, Aastveit, K.A., Natvik, G.J. and Sola, S. (2017), "Economic 
 uncertainty and the influence of monetary policy", Journal of International Money and 

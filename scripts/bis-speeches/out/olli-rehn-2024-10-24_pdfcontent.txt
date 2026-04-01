@@ -50,7 +50,7 @@ designed to address persistently low inflation.
 Slide 4. The perceived de facto ceiling under the old target pushes inflation 
 expectations clearly below 2%
 Before the ECB's 2021 review, the price stability definition ('below but close to 2%') was 
-perceived assymmetric, as seen in this graph. a
+perceived as symmetric, as seen in this graph. a
 This perception is supported by several studies by the Bank of Finland and ECB staff. 
 The asymmetry set a virtual 2% ceiling for inflation, thus lowering the de facto inflation 
 target and leading to asymmetric policy responses and preferences.1
@@ -217,7 +217,7 @@ challenges cannot be solved by monetary policy tools, we know that investment is
 driven by many factors, not least by aggregate demand, which is obviously affected by 
 financial conditions. Thus, in the shadow of recent supply shocks and current slow 
 growth, an easing in financial conditions should help avoiding scarring effects in 
-investment that is needed to increase longer-term productivity.3
+investment that is needed to increase longer-term productivity .3
 The need to pursue stronger productivity growth on all fronts is the key message in the 
 recent report on EU competitiveness by ex-President of the ECB, Mario Draghi. The 
 Draghi report is a clear-eyed and even brutal diagnosis of Europe's weak growth and 

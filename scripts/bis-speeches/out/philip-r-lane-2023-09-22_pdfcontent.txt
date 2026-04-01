@@ -9,7 +9,7 @@ In my remarks this evening, I will assess the economic and inflation outlook in 
 area and explain last week's monetary policy decision taken by the Governing Council 
 of the ECB.
 Before I turn to the most recent developments, let me start by recalling how we got to 
-where we are today.The 2021-2022 inflation surge in Europe was driven 1 
+where we are today. The 2021-2022 inflation surge in Europe was driven 1 
 predominantly by an extraordinary combination of shocks. The pandemic generated a 
 staggered sequence of sectoral supply-demand mismatches. Especially in 2021, the 
 global rotation of spending from services towards goods - at a time when supply 
@@ -37,7 +37,7 @@ have normalised; and demand-supply mismatches in contact-intensive sectors have
 moderated.
 Inflation
 Inflation in August stood at 5.2 per cent, meaning that about 60 per cent of the peak 
-gap to our inflation target has faded away.Our latest ECB staff macroeconomic  
+gap to our inflation target has faded away. Our latest ECB staff macroeconomic  
 projections foresee inflation standing at 3.3 per cent in the final quarter of this year. 
 
 2/6 BIS - Central bankers' speeches
@@ -107,7 +107,7 @@ in financing conditions, even if rate increases are the primary tool for adjusti
 monetary policy stance. The global tightening of monetary policy is further adding to 
 disinflationary pressure through an array of international trade and financial spillovers.
 Our monetary policy tightening continues to be transmitted strongly to financing 
-conditions and is increasingly affecting the broader economy.The pass-through to 2 
+conditions and is increasingly affecting the broader economy. The pass-through to 2 
 bank funding costs has proceeded rapidly, most notably for yields on bank bonds. In 
 addition to the impact of the policy rate hikes, the phasing out of the ECB's TLTRO III 
 has also raised bank funding costs. After an initial sluggish response, transmission to 
@@ -249,7 +249,7 @@ address at the Enterprise Ireland Summit 2023, 19 April, and Lane, P.R. (2023), 
 ", Dow Lecture at the National Institute of euro area hiking cycle: an interim assessment
 Economic and Social Research, 16 February. See also the box entitled "A model-based 
 assessment of the macroeconomic impact of the ECB's monetary policy tightening 
-", , Issue 3, ECB, 2023.since December 2021 Economic Bulletin
+", , Issue 3, ECB, 2023.since December 2021  Economic Bulletin
 3 For extensive discussion of underlying inflation measures, see the box entitled 
 "Underlying inflation measures: an analytical guide for the euro area", Economic Bulletin
 , Issue 5, ECB, 2023.

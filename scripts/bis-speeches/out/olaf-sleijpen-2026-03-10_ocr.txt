@@ -1,0 +1,332 @@
+Economic resilience in an uncertain world
+Implications for Europe and the Netherlands
+Olaf Sleijpen
+DeNederlandscheBank 17 February 2026
+EUROSYSTEEM
+Thank you for the invitation.
+l’d like to talk about how the global economy is handling this period of exceptional
+uncertainty, and what it means for Europe and the Netherlands.
+And please note this is an economic analysis, not a forecast or political statement.
+Let’s start with an observation that might seem surprising...
+
+
+The puzzle: everything changed, yet nothing did
+o Geopolitical tensions have ‘
+gone up 3 — ——
+o Trade fragmentation went 2 | |
+up 1
+o Uncertainty went up °
+Yet g rowth 7 em ployment a nd 97 99 01 03 05 07 09 ll 13 15 17 19 21 23 25 sep-30
+markets remain resilient ie nb ong@ Financieel (Vix index)
+M@ Economisch beleid (EPU Index)
+— Samengestelde indicator Bron: Eigen berekeningen DNB.
+DeNederlandscheBank
+We are currently experiencing a period of exceptional geopolitical and economic
+uncertainty.
+Consider this graph — it shows an uncertainty index. And as you can see, the spikes in
+uncertainty — such as the war in Ukraine and the second Trump administration —
+consist of a mix of different factors, such as geopolitical risk and economic policy
+uncertainty.
+If you focus solely on the headlines, you would expect a much weaker economy.
+However, if you look only at macroeconomic data or the stock markets, the outlook
+seems stable.
+So, the key question isn’t the presence of risks, but understanding why these have
+not yet fully materialised.
+So how can these two views be reconciled? Economic theory can help us find an
+answer to this question.
+
+
+What would economic theory predict?
+Trade goes down
+O
+Inflation goes up
+O
+o Investments go down
+Volatility goes upO
+Geopolitical tensions are materialising in fragmentation, tariffs and greater
+uncertainty.
+Economic theory suggests that such shocks have a negative impact on growth,
+inflation, and markets.
+Typically, they:
+o Reduce trade and productivity
+o Increase inflation
+o Increase risk premia
+o Weaken investment and confidence
+So, the theory points in one direction but the outcomes look different, and we need
+to understand why.
+
+
+Transmission channels: how do shocks reach the economy?
+Economy
+ceopatcs! @) ac
+— maa VV
+Confidence & expectations
+eNederlandscheBank
+That brings us to the key question: how do these shocks impact the economy, and
+how quickly do they take effect?
+There are four main channels:
+1. Trade and supply chains: factors such as sanctions, tariffs, fragmentation,
+and bottlenecks play significant roles.
+2. Energy and commodities: price volatility, supply security, and transition
+risks all contribute.
+3. Financial markets: risk premia, capital movements, and fluctuations in
+foreign exchange rates affect outcomes.
+4. Confidence and expectations: uncertainty can cause businesses to
+postpone investments and consumers to become more cautious.
+While all four channels influence the economy, their effects vary in strength and
+timing. So, what is our level of exposure to these channels?
+
+
+The Netherlands is particularly exposed
+Oo um
+“<=
+Openness is a strength and a vulnerability
+And zooming in, what makes the Netherlands especially vulnerable?
+Small open economies like the Netherlands are particularly sensitive to external
+shocks due to our significant trade openness, our strong integration in global value
+chains, and heavy reliance on critical imported inputs.
+Dutch firms depend more heavily on the US market compared to many of their EU
+peers, with several vulnerable sectors directly affected by recently imposed US tariffs
+(DNB Financial Stability Report, Spring 2025).
+The DNB Spring Projections (June 2025) indicate that increasing trade tensions and
+US tariffs have already resulted in downward revisions to Dutch growth projections,
+primarily through weaker business investment and declining exports.
+While openness is an economic advantage, our elevated exposure means external
+shocks will impact the Netherlands sooner and more acutely, rendering the economy
+sensitive to shifts in global trade policy and geopolitical risks.
+Let’s illustrate this by looking at some examples and the first channel: trade.
+
+
+Trade fragmentation: why are the effects delayed?
+o Offsets mask costs
+o Firms absorb shocks
+o Adjustment take time
+Example 1: Trade is the first geopolitical channel. Even when trade disruptions occur,
+the damage tends to be limited. Why?
+o Tariffs and restrictions raise costs, but firms often respond by frontloading
+imports, absorbing part of the increased cost, and diverting trade towards
+lower-tariff partners. This delays the immediately visible impact. As a
+result, costs accumulate gradually, and inflation effects emerge at a later
+stage.
+o Longer-term effects like reshoring, duplicate capacity and reduced
+efficiency materialise only over time.
+Although fragmentation progresses gradually, it remains persistent. On the other
+hand, not every geopolitical event slows economic growth. In theory, some
+developments —such as higher defence spending — may actually boost growth.
+
+
+Higher defence spending: economic trade-offs
+Economic opportunities for Europe ...but constraints for the NL
+tT Tight labour market leads to
+inflation risks
+@
+Roughly half of defense spending
+leaks abroad through imports
+2)
+th
+Go ment spending multiplier
+nN
+co
+<5
+a
+co
+N
+co
+Small defense industry leads to
+limited national spillovers
+DeNederlandscheBank 7
+EUROSYSTEEM
+Example 2: is it possible that some geopolitical responses actually support growth —
+and therefore explain resilience?
+Historically, increased defence expenditure has been associated with economic
+growth, and higher average GDP figures across Europe (see left figure).
+In the short term it might boost demand, employment and GDP.
+But the economy has limited capacity, and countries like the Netherlands depend on
+imports from abroad.
+This leads to several challenges in the medium term, such as labour constraints and
+limited domestic defence capacity, both of which can create inflationary pressures.
+So, what may seem like economic stimulus now, could result in inflationary pressures
+or bottlenecks in the future.
+Long-term opportunities for the Netherlands are in targeted dual-use technologies
+that complement European expertise.
+
+
+But long-term goals can only be achieved with predictable policies and European
+cooperation.
+So, even strategically essential policies such as defence spending come with trade-
+offs.
+If adverse trade effects are delayed and fiscal expansion supports demand, it
+becomes easier to understand why financial markets still seem relatively stable.
+
+
+Why are financial markets calm?
+o Markets price expectations
+o AI: transformative, but profitable?
+o Fiscal support: cushioned shocks
+o Corrections happen suddenly, not
+gradually
+DeNederlandscheBank 
+8
+OSYSTEEM
+Example 3: Markets may appear stable because:
+o Markets reflect expectations rather than headlines.
+o Alis transformative, but profitability is essential, so there is a risk of over-
+optimism.
+o Fiscal support has cushioned shocks.
+o Inthe US, hopes of a more dovish Fed have supported markets, but
+financial markets often underestimate risks until sudden corrections occur.
+It’s important to emphasise that markets reflect expectations, not predictions of the
+future. So, apparent stability should not be confused with the absence of
+vulnerability.
+This can explain why the economy looks resilient, but we should not let our guard
+down.
+
+
+This is not a reason to relax
+o Inflation persistence through
+second round effects
+o Financial stability risks from a
+sudden repricing of risks
+o Dollar dependence and financial
+spillovers
+o Policy uncertainty becomes an
+economic shock
+DeNederlandscheBank
+Recent resilience reflects both stronger structural buffers, such as better -capitalised
+banks and lower leverage, alongside temporary factors such as delayed trade effects,
+fiscal support and stable markets, but some vulnerabilities remain.
+Several significant risks must be considered:
+o Persistent inflation due to second-round effects
+o Financial stability concerns arising from abrupt risk repricing
+o Reliance on the dollar and associated financial spillovers
+o Policy uncertainty translating into economic shocks
+It is crucial to recognise that the primary concern lies not with isolated shocks, but in
+the interaction of multiple factors. This is why waiting for definitive data signals can
+be costly.
+So, what does this mean for policy?
+
+
+Implications for central banking
+o Price stability & shocks
+o Financial stability risks
+o Importance of independence
+10
+As part of our mandate, we at DNB are responsible for maintaining price stability and
+financial stability.
+Geopolitical shocks typically exert inflationary pressure in the short to medium term,
+mainly through adverse supply shocks. The effects on demand are variable and tend
+to fluctuate over time.
+As a result, inflation dynamics are increasingly influenced by cost-push factors. While
+monetary policy can help mitigate these pressures, it may not be able to fully
+counteract them.
+Consequently, a credible and independent central bank is essential to anchor inflation
+expectations in the face of persistent supply-side uncertainties.
+10
+
+
+Fiscal space is tightening
+o Ageing and interest burden rising
+o Climate, defence, digital needs
+expanding
+o Crisis support raised debt levels ee
+y a.
+Fiscal policy constrained in uncertain times
+11DeNederlandscheBank
+But central banks cannot address these challenges alone. In a world of repeated
+supply shocks, resilience depends just as much on fiscal policy, and here, the room
+for manoeuvre has changed.
+o Fiscal support during the pandemic and the energy crisis prevented much
+deeper economic harm, but it also pushed public debt higher across several
+euro-area countries.
+o We face rising ageing costs, higher interest payments, and growing
+investment needs in climate, defence and digital.
+o And the new EU fiscal rules require credible medium-term plans.
+In other words: fiscal policy is becoming more constrained in a world where
+uncertainty is rising.
+This leads us to consider the European dimension. Fiscal constraints are not solely
+national concerns: they also influence Europe’s ability to respond effectively in an
+increasingly fragmented global environment.
+11
+
+
+Europe: less fragmentation, more integration
+o Completed single market
+o Savings and Investments Union
+o Faster and more effective decision making
+DeNederlandscheBank 12
+EUROSYSTEEM
+In this fragmented world, Europe cannot afford internal division. However, the need
+for decisive action now far outweighs the pace at which we make decisions together.
+Europe managed to withstand recent shocks by implementing effective and
+coordinated policy responses spanning fiscal, monetary, micro-prudential and
+macroprudential approaches. Coordinated action strengthens Europe’s ability to
+absorb global shocks and plays a vital role in its financial safety net.
+What Europe needs is:
+o A fully integrated single market in services, energy, digital, and defence
+production
+o A Savings and Investments Union to direct capital toward European
+priorities
+o Swift and efficient decision-making to respond to geopolitical and
+economic shocks
+12
+
+
+Europe will increasingly need innovative ways of working together, such as
+differentiated integration, coalitions of the willing, or even a separate 28th regime
+when full harmonization takes too long. Achieving strategic autonomy does not
+require everyone to progress at the same pace, but that those who are ready to
+advance more quickly should be enabled to do so.
+Many major challenges are best addressed at the European level, and this raises the
+question of how countries like the Netherlands can contribute to shaping this
+integration.
+12
+
+
+What should the Netherlands do?
+o Re-engage actively in Europe
+o Reduce domestic policy uncertainty
+o Think strategically at the product
+level
+Speed and clarity are economic assets
+13
+The Netherlands benefits from European integration, which is why we should assume
+an active leading role in shaping its development.
+There are three priorities for the Netherlands:
+o Actively re-engage in Europe:
+o urgency is high in defence cooperation and in industrial and
+technological capacity,
+© support coalitions of the willing and differentiated integration
+o Reduce domestic policy uncertainty
+o Think strategically at the product level, avoiding blunt sector-wide
+protectionism
+In an increasingly fragmented global economy, the ability to make swift and well-
+informed decisions has emerged as a critical economic advantage. It is essential for
+governments to reclaim their roles and enhance the effectiveness of European
+integration.
+13
+
+
+o The absence of a crisis in the numbers is not a proof of resilience
+o Good policy is about acting before risks crystallize
+o This applies to Europe, to the Netherlands and to central banking
+DeNederlandscheBank 14
+These choices matter not just for growth, but also for the stability of the economic
+system.
+o Just because the numbers don't show a crisis doesn't mean the system is
+resilient.
+o Effective policymaking means taking action before potential risks become
+reality.
+o This principle holds true in Europe, the Netherlands, and within central
+banking.
+14
+
+
+» Thank you #*
+‘
+=
+NederlandscheB:
+EUROSYSTEEM
+EUROSYSTEEM
+Thank you.
+Any questions?
+15

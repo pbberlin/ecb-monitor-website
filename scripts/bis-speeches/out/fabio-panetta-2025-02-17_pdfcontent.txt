@@ -47,7 +47,7 @@ this may partly reflect a temporary effect of a frontloading of foreign sales to
 any future US tariffs.1 
 Looking ahead, the International Monetary Fund expects global growth to 
 remain steady at just over 3 per cent in 2025 and 2026. The medium-term forecast 
-of 3.1 per cent remains contained from a historical standpoint.2 
+of 3.1 per cent remains contained from a historical standpoint. 2 
 The risks to growth remain tilted to the downside, mainly owing to 
 geopolitical tensions and persistent challenges in the Chinese economy. 
 Moreover, high global indebtedness could have a negative impact on economic 
@@ -61,7 +61,7 @@ Many countries are focusing their trade relations on trusted partners with
 whom they have long-standing relationships or common political and economic 
 affinities. This trend is reshaping the geography of commerce,  reducing trade 
 between countries from opposing geopolitical blocs and increasing it between 
-politically aligned economies (Figure 1).4 
+politically aligned economies (Figure 1). 4 
 1 T.R. Cook, M. Dzholos and J. Matschke, ‘Did importers try to front-run recent tariffs on China?’, 
 Federal Reserve Bank of Kansas City, Economic Bulletin, 17 January 2025. 
 2 IMF, World Economic Outlook Update, January 2025. The IMF and Eurosystem staff macroeconomic 
