@@ -90,7 +90,7 @@ def validateJsFile(jsPath):
         minNestedLocal = MIN_NESTED_KEYS 
         if Path(jsPath).name == "council-by-6weeks.js":
             minNestedLocal = 3
-        if Path(jsPath).name == "council-tempomat.js":
+        if Path(jsPath).name == "council_barometer.js":
             minNestedLocal = 4
 
 

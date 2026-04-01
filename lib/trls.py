@@ -778,7 +778,7 @@ trlsRaw = [
 
 
     {
-        "tempomat_section": {
+        "barometer_section": {
             # "de": "Mehrheitsverhältnisse EZB-Rat",
             # "en": "Majorities ECB-Council",
             "de": "Mitglieder   Positionen",
@@ -786,20 +786,20 @@ trlsRaw = [
         },
     },
     {
-        "headline_council_tempomat": {
+        "headline_council_barometer": {
             "de": "Taube-Falke Positionen der EZB Ratsmitglieder und Median Position",
             "en": "Dove-Hawk positions of ECB Council members and median position",
         },
     },
     {
-        "council_tempomat_desc": {
+        "council_barometer_desc": {
             "de": "Position der Ratsmitglieder  im jeweiligen Jahr. Die Entscheidungen eines Gremiums konvergieren zur Median-Position.  ",
             "en": "Position of  council members per year. Council decisions converge around the median position.",
         },
     },
     {
         # attention: must contain html span element - being updated via JavaScript
-        "council_tempomat_chart_label": {
+        "council_barometer_chart_label": {
             "de": """
                     Zeiger:  Median-Position des Gremiums:  &nbsp; <span id="medianVal" ></span>         <br>
                     Die Kreise zeigen die Position der Länder.              <br> 
@@ -813,7 +813,7 @@ trlsRaw = [
         },
     },
     {
-        "council_tempomat_infobox":    {
+        "council_barometer_infobox":    {
             "de": """
                 <ul>
                     <!--

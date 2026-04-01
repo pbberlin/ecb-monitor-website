@@ -385,7 +385,7 @@
       <a href="/pg/6weeks.html"           >{{i18n.council_by_6weeks_section}}</a>
     </div>
 
-    <h3> {{i18n.headline_council_tempomat}}
+    <h3> {{i18n.headline_council_barometer}}
       <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
     </h3>
 
@@ -397,9 +397,9 @@
 
     <!-- option -->
     <div class="options-stat-vars invisible-x" >
-      <label title="(Ameco)">
-        {{i18n.council_tempomat_label}}
-        <input type="radio" name="stats_variable" value="council_tempomat" >
+      <label title="(self generated)">
+        {{i18n.council_barometer_label}}
+        <input type="radio" name="stats_variable" value="council_barometer" >
       </label>
     </div>
 
@@ -437,7 +437,7 @@
         margin-top: 1ch;
         color: black;
       " class="medianBgColorDYN" >
-        {{i18n.council_tempomat_chart_label|safe}}
+        {{i18n.council_barometer_chart_label|safe}}
     </div>
 
   </div>
@@ -446,8 +446,8 @@
 
   <div class="col col--right control-pad">
 
-      <ul  style="display:none;" class="bullet-container stats-desc" id="council_tempomat_desc" >
-        {{i18n.council_tempomat_desc|safe}}
+      <ul  style="display:none;" class="bullet-container stats-desc" id="council_barometer_desc" >
+        {{i18n.council_barometer_desc|safe}}
       </ul>
 
       <div id="council_right"
@@ -507,7 +507,7 @@
 <!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script> -->
 <script type="text/javascript" src="/static/js/echarts.min.js"                ></script>
 <script type="text/javascript" src="/static/js/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
-<script type="text/javascript" src="/static/dl/council-tempomat.js?v={{staticVersion}}"          ></script>
+<script type="text/javascript" src="/static/dl/council_barometer.js?v={{staticVersion}}"          ></script>
 
 
 <!--
@@ -572,8 +572,8 @@
 
 
     let selectedDataMeta = {
-      "council_tempomat": {
-        "selected_data" : councilTempomat,
+      "council_barometer": {
+        "selected_data" : councilBarometer,
         "formatter": (statsValue) => {
           return Math.round(statsValue).toString() + ' %'
         },
@@ -597,7 +597,7 @@
       } ,
     };
 
-    let   selectedVar  = "council_tempomat";
+    let   selectedVar  = "council_barometer";
     const rawHash      = window.location.hash;
     const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
     if (byUrlHash !== ""){
@@ -632,7 +632,7 @@
 
 
 
-    function createSvgImage(svg, url, x, y, width) {
+    function drawImageSvg(svg, url, x, y, width) {
 
         const img = new Image();
         img.onload = function () {
@@ -651,6 +651,22 @@
             svgImage.setAttribute("opacity", 0.55);
             svgImage.setAttribute("opacity", 0.65);
             svgImage.setAttribute("opacity", 0.45);
+
+            const elOpa          = document.getElementById("color_opacity");
+            if (elOpa){
+                let opaStr  = elOpa.value.toString(16);
+                let opacity = parseFloat(opaStr);
+                opacity  += 0.03;
+                if (opacity > 1.0){
+                  opacity = 1;
+                }
+                if (opacity < 0.0){
+                  opacity = 0;
+                }
+
+                svgImage.setAttribute("opacity", opacity + 0.3 );
+            }
+
 
             svgImage.setAttribute("preserveAspectRatio", "xMidYMid meet");
 
@@ -888,7 +904,7 @@
 
 
     
-    function drawTempomat(){
+    function drawBarometer(){
 
       const res = sliderToKey();
       const yrSlider  = res.yr;
@@ -905,11 +921,11 @@
       drawArcsAndTicks(svg, centerX, centerY, radius, ring, colors);
 
 
-      createSvgImage(svg, "/static/img/dovish-hawkish/wet-4-1.png",  20, 1,  160);
+      drawImageSvg(svg, "/static/img/dovish-hawkish/wet-5-1.png",  2, 1,  160);
       
       // createSvgImage(svg, "/static/img/dovish-hawkish/dry-1.png", 640, 30, 100);
       
-      createSvgImage(svg, "/static/img/dovish-hawkish/dry-3-hawk-b-1.png", 650, 5, 140);
+      drawImageSvg(svg, "/static/img/dovish-hawkish/dry-3-hawk-b-2.png", 660, 5, 135);
 
       function drawNeedle(val, needleBgCol) {
 
@@ -952,31 +968,21 @@
 
       // the median of the entire year
       // const median = 0.66;
-      let median = selectedDataMeta[selectedVar]["selected_data"][0]['median_score_year'];
-      for (const [idx1, entry] of selectedDataMeta[selectedVar]["selected_data"].entries()) {
-        const yr = getYear(entry);
-        if (yr != yrSlider) {
-          continue
-        }
-        if (entry.median_score_year !== "" && entry.median_score_year !== null) {
-            median =  entry.median_score_year;
-            break;
-        }
-      }
-
+      let median = selectedDataMeta[selectedVar]["selected_data"][yrSlider][0]['median_score_year'];
+ 
 
       let colNeedle      = "#b0b0b0FF";
       let colEllipsisBg  = "#d0d0d0D0";  // more transparence
 
       colNeedle      = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.25)
       colEllipsisBg  = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], +0.10)
-      let bgLegend       = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], -0.1)
+      let bgLegend   = valToPctToColor(median, initOpacity, elOpa, selectedDataMeta[selectedVar], -0.1)
 
 
       document.querySelectorAll('.medianBgColorDYN').forEach(function(element) {
           element.style.backgroundColor = bgLegend;
       });
-      // html element medianVal is in the translation key council_tempomat_chart_label
+      // html element medianVal is in the translation key council_barometer_chart_label
       document.getElementById('medianVal').innerHTML = median;
 
       drawNeedle( median, colNeedle );
@@ -996,12 +1002,8 @@
 
       // council member blobs
       let tts = []; // all tool tips, on top of all blobs
-      for (const [idx1, entry] of selectedDataMeta[selectedVar]["selected_data"].entries()) {
+      for (const [idx1, entry] of selectedDataMeta[selectedVar]["selected_data"][yrSlider].entries()) {
 
-          const yr = getYear(entry);
-          if (yr != yrSlider) {
-            continue
-          }
 
           const score = getScore(entry);
           const angle = scoreToAngle(score);
@@ -1269,7 +1271,7 @@
       linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
       updateDesc();
 
-      drawTempomat()
+      drawBarometer()
 
     }
     initFunc()
@@ -1282,7 +1284,7 @@
       const res = sliderToKey();
       labelEl.textContent = res.lbl;
       console.log(` changing year to ${res.yr} `);
-      drawTempomat()
+      drawBarometer()
     });
 
 
@@ -1299,7 +1301,7 @@
           selectedVar  = evt.target.value;
         }
 
-        console.log(`selected ${evt.target.value}`);
+        console.log(`selected opa ${evt.target.value}`);
 
         sliderConfig();
         const res = sliderToKey();
@@ -1310,6 +1312,8 @@
         createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
 
         updateDesc();
+
+        drawBarometer()
 
 
         if (timerId > 0) {
@@ -1356,7 +1360,7 @@
         <button id="btnDlgClose">×</button>
     </div>
     <div id="dlgCnt">
-      {{i18n.council_tempomat_infobox|safe}}
+      {{i18n.council_barometer_infobox|safe}}
     </div>
 </dialog>
 

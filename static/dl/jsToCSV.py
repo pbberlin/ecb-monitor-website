@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-
-# replaces obsolete-reformat-csv-to-comma.py
-
 import sys
 import json
 import csv
@@ -16,6 +12,7 @@ parentDir = Path(__file__).resolve().parent.parent.parent
 libPath = parentDir / "lib"
 sys.path.insert(0, str(libPath))
 from trls import trlsByLg
+from util import stackTrace
 
 
 def debugPrintNestedDict(myDict, maxLevel=3, maxItemsPerLevel=3, indentLevel=1):
@@ -50,8 +47,9 @@ def debugPrintNestedDict(myDict, maxLevel=3, maxItemsPerLevel=3, indentLevel=1):
         else:
             try:
                 formattedValue = f"{float(value1):8.4f}"
-            except Exception as ex:
-                print(f"{indentText}\t\tException while formatting value: {ex}")
+            except Exception as exc:
+                stackTrace(exc)
+                print(f"{indentText}\t\tException while formatting value")
                 formattedValue = str(value1)
 
             print(f"{indentText}\t\t{formattedValue}")
@@ -102,29 +100,72 @@ def buildCountryYearStructure(dataDict):
 
     countryToYearToValue = {}
     yearKeysSet = set()
+    rowKeyName = "Country"
 
     if orientation == "year_first":
-        for yearKey, countryDict in dataDict.items():
+        for idx1, yearKey in enumerate(dataDict):
+            countryData = dataDict[yearKey]
 
             if isinstance(yearKey, str) and yearKey.startswith("mapping"):
                 continue
 
             yearKeysSet.add(yearKey)
 
-            if not isinstance(countryDict, dict):
-                continue
+            if isinstance(countryData, dict):
+                for idx2, countryName in enumerate(countryData):
+                    value = countryData[countryName]
+                    if isinstance(countryName, str) and countryName.startswith("mapping"):
+                        continue
 
-            for countryName, value in countryDict.items():
-                if isinstance(countryName, str) and countryName.startswith("mapping"):
-                    continue
+                    if countryName not in countryToYearToValue:
+                        countryToYearToValue[countryName] = {}
 
-                if countryName not in countryToYearToValue:
-                    countryToYearToValue[countryName] = {}
+                    countryToYearToValue[countryName][yearKey] = value
 
-                countryToYearToValue[countryName][yearKey] = value
+            elif isinstance(countryData, list):
+                for idx2, rowDict in enumerate(countryData):
+                    if not isinstance(rowDict, dict):
+                        continue
+
+                    rowKey = None
+                    if "name_excel" in rowDict:
+                        rowKey = rowDict["name_excel"]
+                        rowKeyName = "Name"
+                    elif "country" in rowDict:
+                        rowKey = rowDict["country"]
+                        rowKeyName = "Country"
+                    elif "name" in rowDict:
+                        rowKey = rowDict["name"]
+                        rowKeyName = "Name"
+                    else:
+                        for idx3, k in enumerate(rowDict):
+                            if isinstance(rowDict[k], str):
+                                rowKey = rowDict[k]
+                                rowKeyName = k.capitalize()
+                                break
+
+                    if rowKey is None:
+                        continue
+
+                    val = None
+                    if "mean_score" in rowDict:
+                        val = rowDict["mean_score"]
+                    elif "value" in rowDict:
+                        val = rowDict["value"]
+                    else:
+                        for idx3, k in enumerate(rowDict):
+                            if isinstance(rowDict[k], (int, float)):
+                                val = rowDict[k]
+                                break
+
+                    if rowKey not in countryToYearToValue:
+                        countryToYearToValue[rowKey] = {}
+
+                    countryToYearToValue[rowKey][yearKey] = val
 
     else:
-        for countryName, yearDict in dataDict.items():
+        for idx1, countryName in enumerate(dataDict):
+            yearDict = dataDict[countryName]
             if isinstance(countryName, str) and countryName.startswith("mapping"):
                 continue
 
@@ -134,11 +175,12 @@ def buildCountryYearStructure(dataDict):
             if countryName not in countryToYearToValue:
                 countryToYearToValue[countryName] = {}
 
-            for yearKey, value in yearDict.items():
+            for idx2, yearKey in enumerate(yearDict):
+                value = yearDict[yearKey]
                 yearKeysSet.add(yearKey)
                 countryToYearToValue[countryName][yearKey] = value
 
-    return countryToYearToValue, yearKeysSet
+    return countryToYearToValue, yearKeysSet, rowKeyName
 
 
 def cleanseForCsv(txt):
@@ -184,13 +226,15 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
     try:
         jsText = jsFilePath.read_text(encoding="utf-8")
     except Exception as exc:
-        print(f"Error reading file '{jsFilePath}': {exc}")
+        stackTrace(exc)
+        print(f"Error reading file '{jsFilePath}'")
         return
 
     try:
         jsonText = extractJsonStringFromJs(jsText)
     except Exception as exc:
-        print(f"Error extracting JSON from '{jsFilePath}': {exc}")
+        stackTrace(exc)
+        print(f"Error extracting JSON from '{jsFilePath}'")
         return
 
     try:
@@ -203,24 +247,23 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
             debugPrintNestedDict(dataDict)
 
     except Exception as exc:
+        stackTrace(exc)
         print(f"\t error parsing JSON in '{jsFilePath}'")
-        print(f"\t {exc}")
-        tb = traceback.extract_tb(exc.__traceback__)[-1]
-        print(f"\t {tb.filename}:{tb.lineno} | {tb.line}")
         return
 
     try:
-        countryToYearToValue, yearKeysSet = buildCountryYearStructure(dataDict)
+        countryToYearToValue, yearKeysSet, rowKeyName = buildCountryYearStructure(dataDict)
         if dbg:
             debugPrintNestedDict(countryToYearToValue)
     except Exception as exc:
-        print(f"Error building country/year structure for '{jsFilePath}': {exc}")
+        stackTrace(exc)
+        print(f"Error building country/year structure for '{jsFilePath}'")
         return
 
     sortedYearKeysList = sorted(list(yearKeysSet))
 
     csvHeader = []
-    csvHeader.append("Country")
+    csvHeader.append(rowKeyName)
 
     for idx1, yearKey in enumerate(sortedYearKeysList):
         csvHeader.append(yearKey)
@@ -258,7 +301,9 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
         print(f"\tWrote CSV: {csvFilePath}")
 
     except Exception as exc:
-        print(f"Error writing CSV for '{jsFilePath}': {exc}")
+        stackTrace(exc)
+        print(f"Error writing CSV for '{jsFilePath}'")
+
 
 
 def processDirectory(inputDirPath):

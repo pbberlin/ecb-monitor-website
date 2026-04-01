@@ -3,7 +3,6 @@ import pickle
 import pandas as pd
 import math
 from pathlib import Path
-import traceback
 import sys
 
 from pandas import Timestamp
@@ -21,6 +20,7 @@ if str(projectRoot) not in sys.path:
     sys.path.insert(0, str(projectRoot))
 
 from lib.util import toHtml
+from lib.util import stackTrace
 
 
 
@@ -121,11 +121,8 @@ def formatValue(key, vl):
 
 
     except Exception as exc:
-        # print(f"Error in formatValue: {e} \n\t  -{key}-  -{vl}-")
         print(f"\t formatValue() -{key}-  -{vl}-")
-        print(f"\t {exc}")
-        tb = traceback.extract_tb(exc.__traceback__)[-1]
-        print(f"\t {tb.filename}:{tb.lineno} | {tb.line}")
+        stackTrace(exc)
 
         return vl
 
@@ -159,7 +156,7 @@ def convertPickleToJs(
     pthPickle,
     outPthJs2,
     keyColName,
-    varName="councilTempomat",
+    varName="councilBarometer",
     printDbg=True,
 ):
 
@@ -265,11 +262,19 @@ def convertPickleToJs(
             out[idx1].pop("career_1",   None)
             out[idx1].pop("career_2",   None)
 
+        outGrouped = {}
+        for idx1, row in enumerate(out):
+            yearVal = str(row.get("year", "0"))
+            if yearVal not in outGrouped:
+                outGrouped[yearVal] = []
+            row.pop("year", None)
+            outGrouped[yearVal].append(row)
+
 
         #
         # byFunction = sortBy(out)
-        jsonString = json.dumps(out, indent=4)
-        jsContent  = f"{varName}={jsonString}; \n\n"
+        jsonString = json.dumps(outGrouped, indent=4)
+        jsContent  = f"const {varName} = {jsonString}; \n\n"
         with outPthJs2.open("w", encoding="utf-8") as fileHandle:
             fileHandle.write(jsContent)
         print(f"\tconverted \n\t  {pthPickle} to \n\t  {outPthJs2}")
@@ -280,10 +285,8 @@ def convertPickleToJs(
 
 
     except Exception as exc:
-        print(f"\t {exc}")
-        tb = traceback.extract_tb(exc.__traceback__)[-1]
-        print(f"\t {tb.filename}:{tb.lineno} | {tb.line}")
-        sys.exit(1)
+        stackTrace(exc)
+        sys.exit(-1)
 
 
 
@@ -296,17 +299,15 @@ print(f"\tscript     {Path(__file__).resolve()}   start")
 # testFormatValue()
 
 
-inp = "tmp-old-tempomat.pkl"
-inp = "tempomat.pkl"
+inp = "barometer.pkl"
 
 toHtml(
     Path( appDir / "scripts" / "council" / inp) ,
-    Path( appDir / "scripts" / "council" / "tempomat.html") ,
+    Path( appDir / "scripts" / "council" / "barometer.html") ,
 )
 
 convertPickleToJs(
     Path( appDir / "scripts" / "council" / inp) ,
-    Path( appDir / "static" / "dl"       / "council-tempomat.js") ,
+    Path( appDir / "static" / "dl"       / "council_barometer.js") ,
     "year",
 )
-
