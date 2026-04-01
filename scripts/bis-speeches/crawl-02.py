@@ -14,8 +14,8 @@ Usage:
 pip install playwright beautifulsoup4
 python -m playwright install
 
-cls &&    python ./scripts/bis-speeches/crawl-02.py --input "./ecb-members-out.csv" --output "./ecb-members-links.csv" --headless false
-cls &&    python ./scripts/bis-speeches/crawl-02.py --input "./ecb-members-out.csv" --output "./ecb-members-links.csv" [--headless true]
+cls &&    python ./scripts/bis-speeches/crawl-02.py --input "./ecb-members-urls.csv" --output "./ecb-members-links.csv" --headless false
+cls &&    python ./scripts/bis-speeches/crawl-02.py --input "./ecb-members-urls.csv" --output "./ecb-members-links.csv" [--headless true]
 
 Notes:
 - Input CSV must be semicolon-delimited and contain at least: name;url
@@ -40,7 +40,7 @@ def readInputCsv(inputPath: Path):
     lastError = None
     rows = []
 
-    for enc in ["utf-8"]:
+    for enc in ["utf-8-sig"]:
         try:
             with inputPath.open("r", encoding=enc, newline="") as csvfile:
                 reader = csv.DictReader(csvfile, delimiter=";")
@@ -53,6 +53,7 @@ def readInputCsv(inputPath: Path):
     if not rows:
         print("Failed to read CSV. Last error: {}".format(lastError))
         sys.exit(1)
+
 
     print(f"found {len(rows)} rows")
     for idx, row in enumerate(rows):
