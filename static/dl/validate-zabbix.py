@@ -82,7 +82,7 @@ def validateJsFile(jsPath):
 
     for idx1, key1 in enumerate(topLevelKeys):
 
-        if isinstance(jsDta, dict):
+        if   isinstance(jsDta, dict):
             val1 = jsDta[key1]
         elif isinstance(jsDta, list):
             val1 = jsDta[0]
@@ -94,14 +94,17 @@ def validateJsFile(jsPath):
             minNestedLocal = 4
 
 
-        keys2 = list(val1.keys())
-        if len(keys2) < minNestedLocal:
-            print(
-                f"[ERROR] Value for key '{key1}' in {jsPath} "
-                f"has only {len(keys2)} nested keys",
-                file=sys.stderr,
-            )
-            return False
+        if type(val1) is list:
+            val1 = val1[0]      # first element of list has dict 
+        else:
+            keys2 = list(val1.keys())
+            if len(keys2) < minNestedLocal:
+                print(
+                    f"[ERROR] Value for key '{key1}' in {jsPath} "
+                    f"has only {len(keys2)} nested keys",
+                    file=sys.stderr,
+                )
+                return False
 
 
     return True
