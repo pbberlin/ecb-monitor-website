@@ -442,7 +442,11 @@
 
     <!-- First (top, right) -->
     <div class="sec-navi-mini">
-      <a href="/"  class="backspace-key" id="backspace-home"  tabindex="-1"  title="{{i18n.back_home_hint}}" > <img src="/static/img/symbols/back-home-2.png"  class="backspace-key"  alt="{{i18n.back_home_hint}}" > </a>
+      <a href="/" class="sidebar-home-link" id="backspace-home" tabindex="-1" title="{{i18n.back_home_hint}}">
+        <img src="/static/img/symbols/back-home-2.png" class="sidebar-home-icon" alt="{{i18n.back_home_hint}}">
+        <span>Home</span>
+      </a>
+      <hr class="sidebar-divider">
       <a href="/pg/barometer.html"         >{{i18n.barometer_section}}</a> 
       <a href="/pg/6weeks.html"           >{{i18n.council_by_6weeks_section}}</a>
     </div>
