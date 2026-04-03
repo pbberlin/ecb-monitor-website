@@ -682,14 +682,16 @@ trlsRaw = [
     },
     {
         "ecb_council_label": {
-            "de": "Biographisches der Mitglieder",
-            "en": "Council members bio",
+            # "de": "Biographisches der Mitglieder",
+            "de": "EZB-Rat - Geographie",
+            "en": "ECB Council - geography",
         },
     },
     {
         "ecb_council_section": {
-            "de": "Biographisches der Mitglieder",
-            "en": "Council members bio",
+            # "de": "Biographisches der Mitglieder",
+            "de": "Nach Geographie",
+            "en": "By geography",
         },
     },
     {
@@ -752,14 +754,14 @@ trlsRaw = [
 
     {
         "council_by_6weeks_section": {
-            "de": "Taube-Falke Position",
-            "en": "Dove-Hawk score",
+            "de": "Timeline",
+            "en": "Timeline",
         },
     },
     {
         "headline_council_by_6weeks": {
-            "de": "Taube-Falke Position für den gesamten EZB-Rat",
-            "en": "Dove-Hawk score    for the entire ECB-Council",
+            "de": "EZB-Rat insgesamt - Taube-Falke Position über die Zeit ",
+            "en": "ECB Council - effective Dove-Hawk score timeline",
         },
     },
     {
@@ -795,15 +797,16 @@ trlsRaw = [
     {
         "barometer_section": {
             # "de": "Mehrheitsverhältnisse EZB-Rat",
-            # "en": "Majorities ECB-Council",
-            "de": "Mitglieder   Positionen",
-            "en": "Council member  positions",
+            # "en": "Majorities ECB Council",
+            "de": "Nach Ländern",
+            "en": "By country",
         },
     },
+
     {
         "headline_council_barometer": {
-            "de": "Taube-Falke Positionen der EZB Ratsmitglieder und Median Position",
-            "en": "Dove-Hawk positions of ECB Council members and median position",
+            "de": "EZB-Rat Taube-Falke Positionen - Länder und Median",
+            "en": "ECB Council Dove-Hawk positions - countries and median",
         },
     },
     {
