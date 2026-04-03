@@ -168,7 +168,7 @@ trlsRaw = [
 
     {
         "blog_policy_headline":    {
-            "de": "ECB-Watching – der Kommentar",
+            "de": "EZB-Watching – der Kommentar",
             "en": "ECB-Watching – commentary",
         },
     },
@@ -670,8 +670,8 @@ trlsRaw = [
 
     {
         "section_ecb_council": {
-            "de": "EZB-Rat",
-            "en": "ECB Council",
+            "de": "EZB-Rat Position",
+            "en": "ECB Council stance",
         },
     },
     {
