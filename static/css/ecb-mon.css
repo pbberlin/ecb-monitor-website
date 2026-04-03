@@ -1,3 +1,4 @@
+/* ecb-mon.css */
 :root {
     /* hotspot at top-left (0 0); adjust if needed */
     --app-cursor: url("/static/img/icon_cursor_default.cur") 0 0, auto;
@@ -106,6 +107,14 @@ dummy {
     border-radius:      2px;
 }
 
+/* 
+    light blue track and thumb color 
+    of slider and radio
+ */
+input[type="range"],
+input[type="radio"] {
+    accent-color: var(--color-logo);
+}
 
 
 
