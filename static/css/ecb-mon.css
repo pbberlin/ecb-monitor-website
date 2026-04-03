@@ -271,7 +271,7 @@ nav a:last-child {
 .sec-navi-mini {
   display:        flex;
   flex-direction: column;
-  align-items:    center; 
+  align-items:    center;
   font-size:      90%;
   line-height:    1.4;
   margin-bottom:  1.8ch;
@@ -280,7 +280,10 @@ nav a:last-child {
 
 .sec-navi-mini a {
   margin-bottom: 0.4ch;
+  /* align left or right */
   align-self: flex-end;
+  align-self: flex-start;
+  align-self: center;
 }
 
 .sidebar-home-link {
@@ -315,6 +318,14 @@ nav a:last-child {
 }
 
 
+/* H3 vertically between top nav and controls */
+.col--left h3 {
+    /* margin-top:    auto; */
+    margin-top:    5ch;
+    margin-bottom: auto;
+}
+
+
 /* content stuff start */
 
 /*
@@ -336,7 +347,7 @@ container: left-to-right flow, top-aligned
 
     align-items: stretch;         /* stretch to full height so children can center */
     align-items: start;
-    
+
     /* border: 1px solid red; */
 }
 @media (max-width: 768px) {

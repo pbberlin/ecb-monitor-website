@@ -45,7 +45,6 @@
       text-align: center;
   }
 
-
   /* Ensure grid items can shrink if needed */
   .col {
     min-width: 0;
@@ -61,12 +60,14 @@
     height:    var(--marginHeight);
     min-width: var(--w01-min);
 
-    justify-self: end;
-    align-self: start;
-    text-align: right;
-    /* width: max-content; */
-
+    /* flex -  vertical centering */
+    display:         flex;
+    flex-direction:  column;
     align-content:   end;
+
+    justify-content: flex-start;     /* top nav to top */
+
+    text-align: right;
   }
 
   /* col2 -  fixed 820px, content centered */
@@ -153,6 +154,12 @@
   .play-and-download {
     margin:       1.2rem;
     margin-right: 0.4rem
+  }
+  .play-and-download-first {
+    margin-bottom: 0.2rem ;
+  }
+  .play-and-download-last {
+    margin-top:    0.2rem;
   }
 
 
@@ -329,6 +336,7 @@
       /* border: 1px solid #444; */
   }
 
+
   .gradient-illustation {
     width: 17%;
   }
@@ -343,15 +351,11 @@
     translate: +40%   +60%;
     opacity: 0.7;
   }
-
 </style>
 
 
 
 
-<!-- id-1331qerwqrwqrq -->
-<!-- id-1331qerwqrwqrq -->
-<!-- id-1331qerwqrwqrq -->
 <div class="layout">
 
   <div class="col col--left control-pad">
@@ -371,13 +375,6 @@
       <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
     </h3>
 
-    <p style="font-size: 75%; line-height: 120%; margin-top: 2rem;">
-      <!-- "Opinion Score" oder "KI Score" - was ist die Sprachregelung? <br> -->
-      <br>
-      <!-- Kein ZEW-blau ... ZEW-gelb. Politische Frage - sollte nicht mit ZEW colors assoziiert werden. -->
-    </p>
-
-
 
     <div id="slider-group" class="slider-group invisible-x">
       <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
@@ -393,11 +390,11 @@
     </div>
 
 
-    <div class="slider-group  play-and-download invisible-x" >
+    <div class="slider-group  play-and-download play-and-download-first invisible-x" >
       <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
     </div>
 
-    <div class="slider-group play-and-download" >
+    <div class="slider-group play-and-download play-and-download-last" >
       <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
       >{{i18n.download_data}}</a>
     </div>
@@ -419,7 +416,6 @@
         {{i18n.council_by_6weeks_desc|safe}}
       </ul>
 
-
       <div id="council_right"
       ></div>
 
@@ -432,6 +428,8 @@
         <img class="gradient-illustation gradient-illustation-img1"  src="/static/img/dovish-hawkish/dove.png" alt="dove">
         <img class="gradient-illustation gradient-illustation-img2"  src="/static/img/dovish-hawkish/hawk.png" alt="hawk">
       </div>
+
+
 
       <div class="gradientWrapper">
           <div class="gradient1" id="gradient1"></div>
@@ -500,8 +498,6 @@
 
     */
   (async () => {
-
-    // xxxxx
 
 
     // init-1
@@ -1096,7 +1092,6 @@
 
 
     sliderEl.addEventListener('change', function () {
-
       const res = sliderToKey();
       labelEl.textContent = res.lbl;
 
@@ -1136,7 +1131,7 @@
           selectedVar  = evt.target.value;
         }
 
-        console.log(`selected ${evt.target.value}`);
+        console.log(`selected opa/radio ${evt.target.value}`);
 
         sliderConfig();
         const res = sliderToKey();
@@ -1209,6 +1204,7 @@
 
 
 </script>
+
 
 
 
