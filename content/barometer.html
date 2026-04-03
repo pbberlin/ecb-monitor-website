@@ -61,13 +61,23 @@
     height:    var(--marginHeight);
     min-width: var(--w01-min);
 
-    justify-self: end;
-    align-self: start;
-    text-align: right;
-    /* width: max-content; */
-
+    /* flex -  vertical centering */
+    display:         flex;
+    flex-direction:  column;
     align-content:   end;
+
+    justify-content: flex-start;     /* top nav to top */
+
+    text-align: right;
   }
+
+  /* H3 vertically between top nav and controls */
+  .col--left h3 {
+      margin-top:    auto;
+      margin-top:    4ch;
+      margin-bottom: auto;
+  }
+
 
   /* col2 -  fixed 820px, content centered */
   .col--center {
@@ -153,6 +163,12 @@
   .play-and-download {
     margin:       1.2rem;
     margin-right: 0.4rem
+  }
+  .play-and-download-first {
+    margin-bottom: 0.2rem ;
+  }
+  .play-and-download-last {
+    margin-top:    0.2rem;
   }
 
 
@@ -372,9 +388,6 @@
 
 
 
-<!-- id-1331qerwqrwqrq -->
-<!-- id-1331qerwqrwqrq -->
-<!-- id-1331qerwqrwqrq -->
 <div class="layout">
 
   <div class="col col--left control-pad">
@@ -382,8 +395,8 @@
     <!-- First (top, right) -->
     <div class="sec-navi-mini">
       <a href="/" class="sidebar-home-link" id="backspace-home" tabindex="-1" title="{{i18n.back_home_hint}}">
-        <img src="/static/img/symbols/back-home-2.png" class="sidebar-home-icon" alt="{{i18n.back_home_hint}}">
-        <span>Home</span>
+        <span class="sidebar-home-icon">⌂</span>
+        <span>{{i18n.section_home}}</span>
       </a>
       <hr class="sidebar-divider">
       <a href="/pg/ecb-council.html"      >{{i18n.ecb_council_section}}</a>
@@ -409,11 +422,11 @@
     </div>
 
 
-    <div class="slider-group  play-and-download" >
+    <div class="slider-group  play-and-download play-and-download-first" >
       <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
     </div>
 
-    <div class="slider-group play-and-download" >
+    <div class="slider-group play-and-download play-and-download-last" >
       <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
       >{{i18n.download_data}}</a>
     </div>
@@ -525,7 +538,7 @@
 -->
 <script type="module">
 
-  /*
+    /*
     Since we need `await fetch(...)` at top level
       -> we must wrap all logic in an async func.
 
@@ -1183,8 +1196,6 @@
 
 
 
-
-
     function sliderConfig(){
       if ("mapping2" in selectedDataMeta[selectedVar]["selected_data"]){
         const mp2 = selectedDataMeta[selectedVar]["selected_data"]["mapping2"];
@@ -1306,7 +1317,7 @@
           selectedVar  = evt.target.value;
         }
 
-        console.log(`selected opa ${evt.target.value}`);
+        console.log(`selected opa/radio ${evt.target.value}`);
 
         sliderConfig();
         const res = sliderToKey();

@@ -61,12 +61,21 @@
     height:    var(--marginHeight);
     min-width: var(--w01-min);
 
-    justify-self: end;
-    align-self: start;
-    text-align: right;
-    /* width: max-content; */
-
+    /* flex -  vertical centering */
+    display:         flex;
+    flex-direction:  column;
     align-content:   end;
+
+    justify-content: flex-start;     /* top nav to top */
+
+    text-align: right;
+  }
+
+  /* H3 vertically between top nav and controls */
+  .col--left h3 {
+      margin-top:    auto;
+      margin-top:    4ch;
+      margin-bottom: auto;
   }
 
   /* col2 -  fixed 820px, content centered */
@@ -154,7 +163,12 @@
     margin:       1.2rem;
     margin-right: 0.4rem
   }
-
+  .play-and-download-first {
+    margin-bottom: 0.2rem ;
+  }
+  .play-and-download-last {
+    margin-top:    0.2rem;
+  }
 
   .bullet-container {
     margin:  0;
@@ -332,7 +346,6 @@
 
 
 
-
 <div class="layout">
 
   <div class="col col--left control-pad">
@@ -340,12 +353,16 @@
     <!-- First (top, right) -->
     <div class="sec-navi-mini">
       <a href="/" class="sidebar-home-link" id="backspace-home" tabindex="-1" title="{{i18n.back_home_hint}}">
-        <img src="/static/img/symbols/back-home-2.png" class="sidebar-home-icon" alt="{{i18n.back_home_hint}}">
-        <span>Home</span>
+        <span class="sidebar-home-icon">⌂</span>
+        <span>{{i18n.section_home}}</span>
       </a>
       <hr class="sidebar-divider">
     </div>
-    <h3> {{i18n.headline_fiscal_data|safe}}</h3>
+    <h3> {{i18n.headline_fiscal_data|safe}}
+      <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
+    </h3>
+
+
 
     <div id="slider-group" class="slider-group">
       <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
@@ -391,11 +408,11 @@
     </div>
 
 
-    <div class="slider-group  play-and-download" >
+    <div class="slider-group  play-and-download play-and-download-first" >
       <a id="linkPlay" href="#" title="2000 till present">>> Play</a>
     </div>
 
-    <div class="slider-group play-and-download" >
+    <div class="slider-group play-and-download play-and-download-last" >
       <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
       >{{i18n.download_data}}</a>
     </div>
@@ -531,9 +548,7 @@
       3.) init/update code
 
     */
-(async () => {
-
-    // xxxxx
+  (async () => {
 
 
     // init-1
@@ -696,51 +711,6 @@
 
       return [ offsetX, offsetY ];
     }
-
-
-
-
-
-    // creating the 'series' config for a pie chart with three random number.
-    // Pie charts are easily positioned using either geo coordinates
-    // or geojson 'name' -  via line  `center: centerLabelOrCoords`.
-    // Other charts types dont have this feature - thus we have to
-    //   pull the centroids for countries out of the geojson
-    //     centroids['France']
-    //     centroids['Spain']
-    //     centroids[country][0], centroids[country][1]
-    //      [2.21, 46.23]
-    // The centroids have been finetuned in reshape-country.py
-    function randomPieSeries1(centerLabelOrCoords, radius) {
-
-      const data = ['A', 'B', 'C', 'D'].map((t) => {
-        return {
-          value: Math.round(Math.random() * 100),
-          name: 'Category ' + t
-        };
-      });
-
-      // map
-      return {
-        type: 'pie',
-        coordinateSystem: 'geo',
-        tooltip: {
-          formatter: '{b}: {c} ({d}%)'
-        },
-        label: {
-          show: false
-        },
-        labelLine: {
-          show: false
-        },
-        animation:         false,
-        animationDuration: 0,
-        radius: radius,
-        center: centerLabelOrCoords,
-        data: data,
-      };
-    }
-
 
 
     const ecbCoord = [8.6889, 50.1095];  // frankfurt
@@ -1210,10 +1180,6 @@
 
       series: [
         // gre-enwich  longitude, latitude
-        // randomPieSeries1([-1.6, 52.5], 25),
-
-        // randomPieSeries1('France',  25),
-        // randomPieSeries1('Germany', 35),
         ...manyCountriesShowStats(),
         ...symbolsSeries(),
       ]
@@ -1402,7 +1368,7 @@
           selectedVar  = evt.target.value;
         }
 
-        console.log(`selected radio ${evt.target.value}`);
+        console.log(`selected opa/radio ${evt.target.value}`);
 
         sliderConfig();
         const res = sliderToKey();
@@ -1479,3 +1445,36 @@
 
 
 
+
+<dialog id="elDialog">
+    <div id="dlgHead">
+        <span>{{i18n.infobox_header}}</span>
+        <button id="btnDlgClose">×</button>
+    </div>
+    <div id="dlgCnt">
+      {{i18n.fiscal_data_infobox|safe}}
+    </div>
+</dialog>
+
+<script>
+    const btnDlgIco     = document.getElementById("btnDlgIco");
+    const btnDlgClose   = document.getElementById("btnDlgClose");
+    const dlg           = document.getElementById("elDialog");
+
+    btnDlgIco.addEventListener("click", () => {
+        dlg.showModal();
+    });
+
+    btnDlgClose.addEventListener("click", () => {
+        dlg.close();
+    });
+
+    window.addEventListener("load", () => {
+        setTimeout(() => {
+            btnDlgIco.classList.add("wobble");
+            setTimeout(() => {
+                btnDlgIco.classList.remove("wobble");
+            }, 1400);
+        }, 600);
+    });
+</script>
