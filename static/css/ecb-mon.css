@@ -240,6 +240,16 @@ nav a:last-child {
     justify-items: center;
 
 }
+
+.c-meta__link--brand {
+    font-weight: 700;
+    color: var(--color-logo);
+}
+
+.c-meta__link--brand:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width:768px) {
     .c-meta__link {
         line-height: 1.2;
