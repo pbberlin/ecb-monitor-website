@@ -208,6 +208,21 @@ trlsRaw = [
         },
     },
     {
+        "fiscal_data_infobox":    {
+            "de": """
+                <ul>
+                    <li>...</li>
+                </ul>
+            """,
+            "en": """
+                <ul>
+                    <li>...</li>
+                </ul>
+            """,
+        },
+    },
+
+    {
         "headline_economic_environment":    {
             "de": "Ökonomisches Umfeld",
             "en": "Economic Landscape",
