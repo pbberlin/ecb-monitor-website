@@ -47,6 +47,7 @@
   font-style:   normal;
   font-display: swap;
 }
+/* MetaPro-Bold is utilized for the top-left Brand Anchor */
 
 @font-face {
   font-family: "meta pro";
@@ -171,7 +172,7 @@ textarea {
 
   #dlgCnt   ul ul {
       margin-left:  2ch;     /*  indent */
-      padding-left: 2ch;    
+      padding-left: 2ch;
   }
   #dlgCnt   ul ul li {
     font-size: 90%;
