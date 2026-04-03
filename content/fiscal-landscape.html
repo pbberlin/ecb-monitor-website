@@ -1,3 +1,4 @@
+<!-- fiscal-landscape.html -->
 <style>
 
   :root{
@@ -112,10 +113,10 @@
   .control-pad {
     position: relative;   /*  z-index  */
     z-index:  10;
-   
+
     margin:  0.4rem;
     padding: 0.5rem 1.1rem;
-    
+
     border-radius: 0.2rem;
     background-color: rgba(217,233,236,0.25);
   }
@@ -337,7 +338,13 @@
   <div class="col col--left control-pad">
 
     <!-- First (top, right) -->
-    <a href="/"  class="backspace-key" id="backspace-home"  tabindex="-1"  title="{{i18n.back_home_hint}}" > <img src="/static/img/symbols/back-home-2.png"  class="backspace-key"  alt="{{i18n.back_home_hint}}" > </a>
+    <div class="sec-navi-mini">
+      <a href="/" class="sidebar-home-link" id="backspace-home" tabindex="-1" title="{{i18n.back_home_hint}}">
+        <img src="/static/img/symbols/back-home-2.png" class="sidebar-home-icon" alt="{{i18n.back_home_hint}}">
+        <span>Home</span>
+      </a>
+      <hr class="sidebar-divider">
+    </div>
     <h3> {{i18n.headline_fiscal_data|safe}}</h3>
 
     <div id="slider-group" class="slider-group">
@@ -503,7 +510,7 @@
 
 <!-- <script type="text/javascript"> -->
 
-<!-- 
+<!--
   'module'
     runs after  HTML is fully parsed
     runs before DOMContentLoaded fires
@@ -661,7 +668,7 @@
       selectedVar    = byUrlHash;
       if(selectedVar === "eurostat_yields_10y"){
         // regionsColoring() and manyCountriesShowStats() get executed while building optionsInit :-(
-        //   => 'current year' be set to '2025-12' 
+        //   => 'current year' be set to '2025-12'
         const mp2 = selectedDataMeta[selectedVar]["selected_data"]["mapping2"];
         const keys = Object.keys(mp2);
         const lastKey = keys[keys.length - 1];
@@ -1076,7 +1083,7 @@
         show: false,
       },
 
-      // 
+      //
       toolbox: {
         show:   true,
         right: '0.125%',
@@ -1231,7 +1238,7 @@
     }
 
 
-    
+
     function sliderConfig(){
       if ("mapping2" in selectedDataMeta[selectedVar]["selected_data"]){
         const mp2 = selectedDataMeta[selectedVar]["selected_data"]["mapping2"];
@@ -1328,9 +1335,9 @@
       createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
 
       sliderConfig();
-      
+
       linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
-      
+
 
       updateDesc();
 

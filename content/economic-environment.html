@@ -339,7 +339,13 @@
   <div class="col col--left control-pad">
 
     <!-- First (top, right) -->
-    <a href="/"  class="backspace-key" id="backspace-home"  tabindex="-1"  title="{{i18n.back_home_hint}}" > <img src="/static/img/symbols/back-home-2.png"  class="backspace-key"  alt="{{i18n.back_home_hint}}" > </a>
+    <div class="sec-navi-mini">
+      <a href="/" class="sidebar-home-link" id="backspace-home" tabindex="-1" title="{{i18n.back_home_hint}}">
+        <img src="/static/img/symbols/back-home-2.png" class="sidebar-home-icon" alt="{{i18n.back_home_hint}}">
+        <span>Home</span>
+      </a>
+      <hr class="sidebar-divider">
+    </div>
     <h3> {{i18n.headline_economic_environment}}
       <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
     </h3>
@@ -599,7 +605,7 @@
       selectedVar    = byUrlHash;
       if(selectedVar === "eurostat_hicp"){
         // regionsColoring() and manyCountriesShowStats() get executed while building optionsInit :-(
-        //   => 'current year' be set to '2025-12' 
+        //   => 'current year' be set to '2025-12'
         const mp2 = selectedDataMeta[selectedVar]["selected_data"]["mapping2"];
         const keys = Object.keys(mp2);
         const lastKey = keys[keys.length - 1];
