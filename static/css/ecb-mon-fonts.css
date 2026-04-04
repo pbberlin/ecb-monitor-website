@@ -76,8 +76,13 @@ body,
 input,
 button,
 select,
+code,
 textarea {
     font: inherit;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 

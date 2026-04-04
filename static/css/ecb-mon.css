@@ -155,8 +155,8 @@ nav {
 
 /* links in nav */
 .c-meta__link {
-    color: #575756;
-    display: flex;
+    color:   #575756;
+    display:   flex;
     justify-content: center;
 
     line-height:     var(--nav-height);
@@ -179,8 +179,10 @@ dummy {
 
 
 .c-meta__link--brand {
-    font-weight: 700;
+    /* font-weight: 700; */
     color: var(--color-logo);
+    font-size:      100%;
+    letter-spacing: 0.1ch;
 }
 
 .c-meta__link--brand:hover {
