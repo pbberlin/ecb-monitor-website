@@ -103,8 +103,9 @@ a:focus,
 input[type=range],
 dummy {
     outline:            2px dotted var(--color-font);
-    outline-offset:     3px;                   /* distance element ...  rectangle  */
     border-radius:      2px;
+    
+    outline-offset:     3px;                   /* distance element ...  rectangle  */
 }
 
 /* 
@@ -144,21 +145,39 @@ nav {
 
     padding-left:  3rem;
     padding-right: 3rem;
-    height:     var(--nav-height);
+    height:         calc( var(--nav-height) +  1ch );
 
-    align-items: center;
+    align-items:   center;
     justify-items: center;
 }
-nav > :nth-child(1) {
+nav > a:nth-child(1) {
     margin-right: 3rem;
 }
-nav > :nth-child(7) {
-    margin-left: 2rem;
+
+/* zew link */
+nav > a:nth-child(7) {
+    /* margin-left: 15%; */
+    margin-left:  auto;
+    margin-right: 4rem;
+
 }
+
+
 /* last right-most */
 nav a:last-child {
-    margin-left: auto;
+    /* margin-left: auto; */
 }
+
+
+nav a:hover,
+nav a:focus,
+dummy {
+    outline-offset:     0px;                   /* distance element ...  rectangle  */
+}
+
+
+
+
 @media screen and (max-width:768px) {
     nav {
         padding: 0;
@@ -249,6 +268,14 @@ nav a:last-child {
     justify-items: center;
 
 }
+
+.c-meta__link:hover,
+.c-meta__link:focus,
+dummy {
+    outline-offset:     0px;                   /* distance element ...  rectangle  */
+}
+
+
 
 .c-meta__link--brand {
     font-weight: 700;
