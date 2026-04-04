@@ -303,7 +303,7 @@ inp = "barometer.pkl"
 
 toHtml(
     Path( appDir / "scripts" / "council" / inp) ,
-    Path( appDir / "scripts" / "council" / "barometer.html") ,
+    Path( appDir / "scripts" / "council" / "council-barometer.html") ,
 )
 
 convertPickleToJs(

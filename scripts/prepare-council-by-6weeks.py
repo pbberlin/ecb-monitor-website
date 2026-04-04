@@ -200,7 +200,7 @@ print(f"\tscript     {Path(__file__).resolve()}   start")
 
 toHtml(
     Path( appDir / "scripts" / "council" / "council-by-6weeks.pkl") ,
-    Path( appDir / "scripts" / "council" / "council-by-6weeks.html") ,
+    Path( appDir / "scripts" / "council" / "council-by-council-timeline.html") ,
 )
 
 convertPickleToJs(
