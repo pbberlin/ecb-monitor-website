@@ -739,12 +739,12 @@ trlsRaw = [
                         </ul>
                     </li>
                     <li>Malta and Cyprus are mostly full members</li>
-                    <li>Liechtenstein, Malta and Cyprus have been sized up for better mouse navigation</li>
+                    <li>Liechtenstein, Malta and Cyprus slightly sized up</li>
 
-
+                    <!--
                     <li>Discuss: Tenure ending-starting same year </li>
                     <li>Discuss: Dove-Hawk-Score for all years vs <i>up to selected</i> yr </li>
-                    <li>Todo:    Mouse over - also over the numbers - Malta/Cyprus: rect </li>
+                    -->
 
                 </ul>
             """,
