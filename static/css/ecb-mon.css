@@ -476,24 +476,115 @@ dummy  {
 }
 
 
-.gradient-illustation-img1 {
-    position: relative !important;
-    left: 2ch !important;
-}
-.gradient-illustation-img2 {
-    position: relative !important;
-    left: -2ch !important;
-}
+/* gradient - bottom right */
 
 .gradientWrapper {
-    margin-left:  2ch     !important;
-    margin-right: 2ch     !important;
-    width: calc(100% - 4ch) !important;
-    position: relative      !important;
-    left: -0.05ch              !important;
+
+    position:     relative;
+    height:       var(--grad-height);
+    width:        100%;
+    margin:       2rem 0;
+
+    margin-left:              1.2ch  ;
+    margin-right:             1.2ch  ;
+    width:        calc(100% - 2.4ch) ;
+    position: relative               ;
+
+    /* border: 1px solid red; */
+    left: -0.05ch                    ;
 }
 
 
+
+.gradient1 {
+    height:   var(--grad-height);
+    width:    100%;
+    opacity:  var(--initOpacity);
+    /* background is set dynamically by JS */
+}
+
+
+.tick {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.4rem;
+
+    height:  5px;
+    width:   1px;
+    top:     calc(var(--grad-height) + 0.0rem);
+
+    background: black;
+    text-align:   center;
+    transform:    translateX(calc(-50% + 1px));
+    font-size: 11px;
+}
+.tick:last-child {
+    transform:    translateX(calc(-50% - 1px));
+}
+
+
+
+.gradientDebug {
+    height:   var(--grad-height);
+    width:    100%;
+    opacity:  var(--initOpacity);
+    background: linear-gradient(
+        to right,
+        #00A000   0%,
+        #A08000  30%,
+        #A08000  30%,
+        #FF0000  90%,
+        #FF0000 100%
+    );
+    /* border: 1px solid #444; */
+}
+
+
+.gradient-illustation {
+    width: 17%;
+    width: 15%;
+}
+
+.gradient-illustation-img1 {
+    /* align-self:   start; */
+    /* justify-self: start; */
+    translate:  -40%  +60%;
+    opacity:     0.7;
+    position:    relative ;
+    left:        1.2ch ;
+}
+.gradient-illustation-img2 {
+    margin-left: auto;
+    translate: +40%   +60%;
+    opacity:    0.7;
+    position:   relative ;
+    left:      -1.4ch ;   /* hawk a little more */
+}
+
+
+
+
+@media (max-width: 900px) {
+      
+    .gradientWrapper {
+        margin-top:    0.1rem;
+        margin-bottom: 0.1rem;
+    }
+
+
+    .gradient-illustation {
+        position: relative;;
+        top: -3ch;
+        /* transform: scale(0.8); */
+        width: 12%;
+
+    }
+
+
+}
 
 
 

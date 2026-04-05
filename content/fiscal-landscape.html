@@ -255,12 +255,6 @@
         /* margin-right:0.4rem     */
       }
 
-
-
-      .gradientWrapper {
-        margin: 0.1rem 0;
-      }
-
       .layout h3 {
         /* .layout to increase specifitiy */
         text-align: center;
@@ -275,70 +269,6 @@
 
 
 </style>
-
-<style>
-
-  .gradientWrapper {
-      position:    relative;
-      height:      var(--grad-height);
-      width:       100%;
-      margin:      2rem 0;
-      /* margin-top:  0; */
-      /* border: 1px solid gray; */
-  }
-
-  .gradient1 {
-      height:   var(--grad-height);
-      width:    100%;
-      opacity:  var(--initOpacity);
-
-      /* background is set dynamically by JS */
-  }
-
-
-  .tick {
-      position: absolute;
-
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 0.4rem;
-
-      height:  5px;
-      width:   1px;
-      top:     calc(var(--grad-height) + 0.0rem);
-
-      background: black;
-      text-align:   center;
-      transform:    translateX(calc(-50% + 1px));
-      font-size: 11px;
-  }
-  .tick:last-child {
-      transform:    translateX(calc(-50% - 1px));
-  }
-
-
-
-  .gradientDebug {
-      height:   var(--grad-height);
-      width:    100%;
-      opacity:  var(--initOpacity);
-      background: linear-gradient(
-          to right,
-          #00A000   0%,
-          #A08000  30%,
-          #A08000  30%,
-          #FF0000  90%,
-          #FF0000 100%
-      );
-      /* border: 1px solid #444; */
-  }
-
-
-</style>
-
-
-
 
 <div class="layout">
 
