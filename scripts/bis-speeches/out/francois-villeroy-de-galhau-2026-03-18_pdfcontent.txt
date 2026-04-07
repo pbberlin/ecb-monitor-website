@@ -1,0 +1,374 @@
+ 
+ 
+ 
+ 
+ 
+Bloomberg Forum Future of Finance – 12 March 2026 
+“Private markets:  
+Three conditions to get the Good without the Bad or the Ugly” 
+Speech by François Villeroy de Galhau 
+Governor of the Banque de France
+
+
+Page 1 sur 8 
+ 
+Ladies and Gentlemen, 
+Three years after its inaugural edition, I am delighted to speak again at the 
+Bloomberg Forum – Future of Finance. Your Forum underscores the interest of 
+financial players in the Paris financial centre, which remains the leading centre 
+in the European Union (EU) and the 4 th largest worldwidei. Let me add that the 
+recent political uncertainties have not dented France’s attractiveness: the 
+number of foreign investment projects, excluding retail outlets, slightly increased 
+in 2025
+ii; French growth, French private savings and the leading position of  
+French financial ecosystem remain solid. I will not make today any comment on 
+monetary policy as I am in the so -called ECB “quiet period”. But looking to the 
+“future of finance”, I would like to address today an important shift in the financial 
+landscape: the rise of private markets, that is to say all non-bank intermediation 
+that provides financing to NFCs through equity or credit, using instruments that 
+are not publicly traded . This development has three main features: it is 
+significant, it is risky,  but it might also be welcome for the European economy  
+(I). Balancing innovation with financial stability is therefore essential, and I will 
+outline three conditions to get the Good without the Bad or the Ugly (II). 
+I. Three features of the rise of private markets: significant, risky… but 
+welcome? 
+1.1 Significant 
+Over the past two decades, t he rise of private markets has been significant: 
+global assets under management (AUM) in private market funds more than 
+tripled between 2004 and 2024 and reached USD 16.2 trillion in June 2025. 
+
+Page 2 sur 8 
+ 
+ 
+This rapid development has been fueled by numerous  factors. First, during a 
+period of relatively low interest rates and high valuation levels on public markets, 
+investors seeking higher returns shifted towards unlisted, less liquid and often 
+more risky assets. A decreasing interest for IPOs iii contributed to reinforce this 
+trend as well as post-crisis regulatory developments that, while fully warranted, 
+encouraged banks to focus on safer assets. Meanwhile private credit structures 
+stepped in to offer alternative financing to highly leveraged companies with 
+limited collateral. I shall focus today on two important unlisted asset classes: 
+private equity iv – 65% of the global  private AUM in June 2025 –, and private 
+creditv – 11%. 
+1.2. Risky 
+Second, the development of private markets may give rise to two main types of 
+vulnerabilities. First, the liquidity risk, is currently in the spotlight since Blue Owl 
+Capital, Blackstone and BlackR ock, recently faced significant redemptions 
+requests from investors, BlackRock’s flagship HPS fund activating its 5% gate 
+in response to these very large withdrawals. The growing use of  semi-liquid 
+vehicles, aimed at attracting retail investors, may fuel liquidity risk for funds 
+managers. Asset managers’ responses to the current developments will show 
+whether private credit can handle liquidity mismatch issues.  
+1
+THE SIGNIFICANT RISE OF PRIVATEMARKETS
+BLOOMBERG FORUM FUTURE OF FINANCE • 12 MARCH 2026
+Source: Preqin
+Graph 1 : Global private assets under management
+(USD bn)
+0
+2 000
+4 000
+6 000
+8 000
+10 000
+12 000
+14 000
+16 000
+18 000
+Dec-00
+Nov-01
+Oct-02
+Sep-03
+Aug-04
+Jul-05
+Jun-06
+May-07
+Apr-08
+Mar-09
+Feb-10
+Jan-11
+Dec-11
+Nov-12
+Oct-13
+Sep-14
+Aug-15
+Jul-16
+Jun-17
+May-18
+Apr-19
+Mar-20
+Feb-21
+Jan-22
+Dec-22
+Nov-23
+Oct-24
+Private equity Real estate Infrastructure Private debt Natural resources
+
+Page 3 sur 8 
+ 
+ 
+Second, private markets are exposed to valuation risk , as shown by the large 
+cap private equity deals of Kersia or Solina that failed in November 2025vi. But 
+more importantly, we currently see some markdowns by banks on private credit 
+investments, mostly to software companies, or declining trading prices of 
+Business Development Companies  on public markets, while funds maintain 
+their stale valuations. Moreover, difficulties of some borrowers of private loans 
+may be concealed by the use of bespoke arrangements such as payment -in-
+kind (PIK) or looser covenants. Debt strategies relying on complex, opaque and 
+increasingly leveraged financing structures, notably in private credit, can also 
+conceal the vulnerabilities of some borrowers, as shown by the collapse of First 
+Brands and Tricolor in September 2025 vii, or more recently Market Financial 
+Solutions, accused of double-pledging of collateral on some private credit loans. 
+These vulnerabilities may be amplified by the rising interconnectedness 
+between private markets and other financial institutions. 
+ 
+ 
+2
+NEW VULNERABILITIES – LIQUIDITY ISSUES
+BLOOMBERG FORUM FUTURE OF FINANCE • 12 MARCH 2026
+Source: France Invest, 2025 as of H1
+Graph 3 : Evolution of the number of VC sales in FranceGraph 2 : Evolution of the number of new ELTIF structures
+accessible to retail investors
+Source: ESMA
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+2019 2020 2021 2022 2023 2024 2025
+New ELTIF funds marketed Sum
+3
+NEW VULNERABILITIES - INTERCONNECTIONS
+BLOOMBERG FORUM FUTURE OF FINANCE • 12 MARCH 2026
+Source: Banque de France
+Diagram 1 : Transmission of a liquidity shock on the private credit market
+
+
+Page 4 sur 8 
+ 
+1.3. Welcome? 
+Yet, the development of private markets – and especially private equity – might 
+be a welcome opportunity to boost economic activity and innovation in Europe. 
+Private equity provides stable financing over long-term horizons and is better 
+suited to high-growth companies in frontier technologies than the more volatile 
+public markets. Among private equity strategies, venture capital (VC) is notably 
+central to supporting the creation and scaling of young companies with strong 
+growth potential
+viii.  
+At the same time , equity financing is one of the main levers to bridge our 
+productivity gap with the United States (US)ix. Let me quote some figures.  
+ 
+ 
+ 
+In 2025, Europe accounted for only 20% of the private equity capital raised 
+worldwide. Furthermore, Europe’s VC market is smaller than  that of the US in 
+all segments, from early to late-stage funding . Between 2019 and 2023, VC 
+investments amounted to EUR 65 billion in the EU, compared with EUR 739 
+billion in the US. In a fragmented European market, VC funds also struggle to 
+exit their positions, especially their stakes in start-ups. This weighs on VC funds’ 
+performance, thereby reducing incentives to finance innovation. 
+x  
+Faced with the US policy shift, Europe must now more than ever bolster its 
+support for innovation in strategically important sectors – digital and artificial 
+intelligence, energy and defen ce. We do not lack financial resources: for more 
+than a decade, the euro area has had a net financial savings surplus – EUR 400 
+4
+EUROPE IS LAGGING BEHIND, NOTABLYIN PRIVATEEQUITY
+BLOOMBERG FORUM FUTURE OF FINANCE • 12 MARCH 2026
+Sources: Pitchbook, Invest Europe
+Graph 4 : Private equity fundraising activity by region
+(USD bn)
+Graph 5 : Amounts invested in venture capital in the EU and the US
+(EUR bn, 2019-2023)
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Total Early-stage and
+seed
+Late-stage
+US EU
+Sources: Invest Europe, NVCA, Banque de France calculations
+0
+100
+200
+300
+400
+500
+600
+700
+2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Global US Europe France and Benelux
+
+Page 5 sur 8 
+ 
+billion last year. It is therefore time, within the framework of the “Savings and 
+Investments Union” (SIU), to prioritise five concrete levers xi with the central 
+objective of increasing equity and venture capital: 
+ 
+ 
+ 
+(1) A genuine European supervision for investment funds, to accelerate the shift 
+from national to “pan-European” funds.  
+(2) The creation of an optional “28
+th regime” by 2028, which could lower 
+administrative costs for firms, especially the “cost of failure”xii. 
+(3) The gradual development of European retirement savings and pension funds 
+that could provide long-term and patient savings in Europe. 
+(4) The development of ambitious public-private partnerships in VC. 
+(5) The launch of savings products that are accessible to households. 
+None of these levers is a “silver bullet”, but each can and must now be activated.  
+II) Three conditions to get the Good without the Bad or the Ugly  
+That said, to get its possible benefits for the financing of the European economy, 
+the rise of private markets must strike the right balance between innovation and 
+financial stability, by getting the Good without the Bad or the Ugly. The solution 
+is neither to deregulate the banking sector nor to transpose banking regulation 
+to private markets… but rather to pursue three specific priorities: transparency, 
+harmonisation and resilient liquidity. 
+2.1. From opacity to transparency 
+5
+FIVE LEVERS TO INCREASE EQUITY AND VENTURE CAPITAL
+BLOOMBERG FORUM FUTURE OF FINANCE • 12 MARCH 2026
+A genuine European supervisory framework for investment funds
+The creation of an optional « 28th regime » by 2028
+The gradual development of European retirement savings and pension funds
+The development of ambitious public-private partnerships in VC
+The launch of retail savings products
+
+Page 6 sur 8 
+ 
+ 
+First, we need greater  transparency on two main fronts: the opacity of private 
+market funds and their growing interconnections with the rest of the financial 
+system. These have been illustrated by the “credit cockroaches” of the fall 2025, 
+as diverse financial institutions, including banks, insurers and asset managers, 
+have suffered losses across multiple jurisdictions. A substantial improvement in 
+data availability for investors and authorities is therefore essential to reduce 
+information asymmetries on credit quality and to better assess the full amount 
+of leverage and aggregate exposures  of other financial institutions to private 
+assets
+xiii. European regulation is moving in the right direction xiv: the recent 
+AIFMD II directivexv introduces enhanced transparency requirements regarding 
+the reporting of funds to the supervisory authorities, that are already digging into 
+the issue. The Bank of France, echoing the Bank of England (BoE), has also 
+launched for the first time in the euro area a system-wide stress test exercise to 
+assess the vulnerabilities of the financial system as a whole and better 
+understand the interconnections between the various players. Another exercise 
+of this kind, initiated by the BoE in December 2025, will focus on private markets. 
+2.2. From fragmentation to harmonization 
+6
+Transparency
+A TRIANGLE OF THREE CONDITIONS
+BLOOMBERG FORUM FUTURE OF FINANCE • 12 MARCH 2026
+
+Page 7 sur 8 
+ 
+ 
+Second, we need greater harmonisation to promote a “European approach” to 
+private markets, which are both concentrated and cross-border. This could 
+involve establishing a macroprudential framework for funds at the European 
+level, combining reciprocation rules between authorities, elaboration of common 
+definitions, development of common indicators and improved data sharing.  
+Valuation methods  are another area where deeper standardisation would be 
+particularly beneficial. This harmonisation can and must go hand in hand with 
+simplification, which supports our competitiveness, and  with strengthened 
+international cooperation among supervisory authorities . At global level, the 
+Financial Stability Board (FSB) has (modestly) started to work by conducting a 
+deep dive into private credit.xvi 
+2.3. From benign neglect to resilient liquidity 
+ 
+Third, we must closely monitor the resilience of private market funds during 
+periods of economic stress since their footprint in the financial system has only 
+become significant over the past decade xvii. Particular attention should be paid 
+7
+Transparency
+A TRIANGLE OF THREE CONDITIONS
+Harmonisation
+BLOOMBERG FORUM FUTURE OF FINANCE • 12 MARCH 2026
+8
+Transparency
+A TRIANGLE OF THREE CONDITIONS
+Harmonisation Resilient liquidity
+BLOOMBERG FORUM FUTURE OF FINANCE • 12 MARCH 2026
+
+Page 8 sur 8 
+ 
+to the liquidity risk of funds, especially those intended for retail investors, to 
+ensure their ability to meet redemption requests. The European ELTIF 2.0 
+regulationxviii sets out liquidity risk management requirements; but its 
+implementation will need to be closely monitored to ensure that it remains fit for 
+purpose. As credit quality and high indebtedness of non -financial agents are a 
+matter of concern, default risk could increase in private credit portfolios. 
+*** 
+Let me conclude by borrowing a line from Sergio Leone’s classic, “The Good, 
+the Bad and the Ugly”: “You may run the risks, my friend, but I do the cutting”. 
+The significant development of private markets might be a welcome opportunity 
+for innovation and economic activity in Europe, especially through private equity. 
+But, as supervisors, we must remain vigilant and ready to act when needed, so 
+as to maintain the right balance between innovation and financial stability. Thank 
+you for your attention. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Page 9 sur 8 
+ 
+ 
+i Institut Louis Bachelier (2025), OFEX Ranking 2025 
+ii Business France (2026), Investissements internationaux en France – Bilan 2025, 29 January 
+iii Initial Public Offering 
+iv Funds which acquire equity stakes in unlisted companies. 
+v Funds which directly finance companies through non-bank, non-listed credit 
+vi Pitchbook (2025), “Kersia and Solina sale processes pulled amid valuation mismatches”, 27 November 
+vii Banque de France (2026), “The reshaping of the credit landscape in light of the development of private debt 
+and its implications for financial stability”, Financial Stability Report, January 
+viii Collet (L.), Gossé (J.-B.), Guével (F.), Jehle (C.) (2026), “How can Europe scale up its venture capital market ?”, 
+Eco Notepad 435, 18 February 
+ix Draghi (M.) (2024), The future of European competitiveness, September 
+x Collet (L.), Gossé (J.-B.), Guével (F.), Jehle (C.) (2026), “How can Europe scale up its venture capital market ?”, 
+Eco Notepad 435, 18 February 
+xi Villeroy de Galhau (F.) (2025), “The Savings and Investments Union : (Finally) turning an idea into actions”, 
+speech at the AEFR/REF Conference “Where Do Savings Go ? Paris, 11 September. 
+xii Coste, O. and Coatanlem, Y. (2024), “The Cost of Failure and the Quest for Competitiveness: Disruptive 
+Innovation as a Catalyst”. IEP Policy Brief No. 24, IEP Bocconi 
+xiii Banque de France (2026), “The reshaping of the credit landscape in light of the development of private debt 
+and its implications for financial stability”, Financial Stability Report, January 
+xiv Buch (C.) (2025), “Hidden leverage and blind spots : addressing banks’ exposures to private market funds”, 
+The Supervision Blog, 3 June 
+xv Directive (EU) 2024/927 AIFMD II 
+xvi FSB (2025), FSB publishes recommendations to address financial stability risks created by leverage in 
+nonbank financial intermediation - Financial Stability Board, 9 July : “In parallel, the FSB has also decided to 
+conduct an analytical deep dive on vulnerabilities in private credit, which will include the identification of data 
+challenges in this area.” 
+xvii European Central Bank (2024), “Private markets, public risk? Financial stability implications of alternative 
+funding sources”, Financial Stability Review, May 
+xviii Regulation (EU) 2023/606 ELTIF 2.0 
