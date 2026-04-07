@@ -1,0 +1,162 @@
+1/4 BIS - Central bankers' speeches
+Fabio Panetta: Closing remarks - Financial Stability Board cross-
+border payments summit
+Closing remarks by Mr Fabio Panetta, Governor of the Bank of Italy, at the Financial 
+Stability Board (FSB) Payments Summit, hosted by the Bank of England, London, 12 
+March 2026.
+* * *
+Ladies and gentlemen,
+Thank you to everyone who has contributed to today's meeting. All the conversations 
+have given me a lot to think about. Let me now try to pull together the threads.
+Delivering on the G20 Roadmap for enhancing cross-border payments remains a 
+central priority for the public sector. Governor Bailey set the tone this morning: the 
+Financial Stability Board is fully committed to its coordination role. So is the Committee 
+on Payments and Market Infrastructures (CPMI), which I chair - we remain squarely 
+focused on driving effective implementation of the Roadmap.
+But commitment is not enough. The Roadmap was always based on strong private-
+sector involvement. Without genuine public-private collaboration, this agenda risks 
+remaining just that - an agenda. Our goal is real-world outcomes, at system level.
+This is not just about trade efficiency or economic integration - as important as they are. 
+It is also about fairness. Ensuring that the most vulnerable populations have access to 
+fast, affordable and secure payment solutions is, in my view, as much a matter of 
+principle as of policy.
+So let me reflect on what I have heard today across the three sessions and where I 
+think it points us.
+The first session focused on a familiar story, but with sharper edges. Cost and speed 
+remain the two most pressing issues for end users - and they are closely connected to 
+our broader objectives of transparency and access.
+We have seen encouraging progress, but end-to-end speed still falls short, particularly 
+in retail payments.  Why? We identified several factors: outdated domestic 1
+infrastructures; limited access to payment systems; and insufficient standardization and 
+automation - especially in areas like anti-money laundering, combating the financing of 
+terrorism and capital controls.
+These bottlenecks slow cross-border payments and raise costs, which are then passed 
+on to end users. The average global cost remains stubbornly high, despite some 
+progress in the most expensive regions.
+A significant source of these costs is foreign exchange (FX). High FX conversion fees 
+are partly structural: limited liquidity in many local currency markets; over-reliance on 
+major reserve currencies; a market structure where a small number of players dominate 
+
+2/4 BIS - Central bankers' speeches
+conversion and account services; and limited transparency that weakens competitive 
+pressure, especially on retail pricing.
+The second session brought home something I think we all instinctively know but 
+sometimes understate: finding a solution for cross-border payments requires a genuine 
+spirit of shared responsibility. Not just parallel efforts - real coordination, real ownership 
+on both sides.
+With that in mind, let me outline five areas where I believe concerted action can make a 
+real difference.
+First, we need to strengthen and upgrade wholesale payment infrastructures. Extending 
+operating hours and expanding the global settlement window are critical to accelerating 
+the time it takes for funds to reach the beneficiary.2
+Second, jurisdictions must push forward on harmonized rules for collecting, storing and 
+sharing data - including common formats and messaging standards. ISO 20022 is the 
+payments' 'lingua franca', and its global adoption is a foundational step toward reducing 
+friction and enabling automated processing.  But its potential can only be realized if 3
+there is convergence in how data fields are populated. The Financial Action Task 
+Force's revised Recommendation 16 and the CPMI's harmonized ISO 20022 data 
+requirements have provided much-needed clarity here.  The CPMI's ISO 20022 report, 4
+developed jointly with the private sector, is a good example of what collaborative 
+harmonization efforts can achieve. We're aiming for harmonization by end-2027, with 
+earlier adoption where possible.
+Third, payment service providers should double down on automating compliance 
+checks - leveraging richer data and emerging technologies to accelerate screening 
+without compromising controls. Speed and security are not in tension. They should 
+advance together.
+Fourth, we need greater business interoperability. Solutions that allow participants to 
+connect to multiple domestic systems through a single interface - or route payments via 
+a common scheme - can reduce reliance on multiple intermediaries, widen access, and 
+deliver tangible benefits to end users.
+Fifth, transparency. On fees, FX rates and markups, execution timelines, and terms of 
+service. This can be advanced through robust regulation and voluntary private sector 
+disclosure - both are welcome and encouraged. More transparency means a stronger 
+competition in markets that have historically been concentrated, broader participation - 
+and of course, more informed decisions by end users.
+Policymakers have a key role in providing regulatory clarity, but without sustained 
+industry engagement and support, reforms stall. This is precisely why the CPMI has 
+invested in structured dialogue with market participants  - and why those partnerships 5
+are already paying off. Private sector stakeholders have been central to promoting 
+alignment with ISO 20022 harmonization requirements. That cooperative model - public 
+sector leadership, private sector expertise - is the right one.
+
+3/4 BIS - Central bankers' speeches
+Let me also add: this is not just about compliance and burden-sharing. There are 
+meaningful opportunities here for private firms. As central banks foster the interlinking 
+of payment systems,  the private sector can play a pivotal role as network service 6
+providers, FX providers, settlement agents, and as builders of the end-user services 
+that run along these new rails.
+Technology has run through all three sessions today - and rightly so. It is a powerful 
+enabler across all dimensions: speed, cost, transparency and access. But I want to be 
+clear about what it is and what it isn't.
+It isn't a silver bullet. Technology alone cannot remove structural barriers - market 
+concentration, data localization policies and insufficient transparency requirements. 
+These require policy action.
+But when paired with that policy action, and with a genuine commitment to openness, 
+technology can help us leapfrog legacy constraints. It can enable technical 
+interoperability, automate complex compliance processes, and harness artificial 
+intelligence and advanced analytics to strengthen controls while improving efficiency.
+The private sector has real scope to apply emerging technologies to new business 
+models for cross-border payments - through next-generation infrastructures like 
+interoperable ledger systems, or through instruments like tokenized deposits or well-
+regulated stablecoins. These are not distant prospects; they are live conversations.
+For central banks, the priority is ensuring these innovations evolve within a resilient two-
+tier monetary system.
+In an increasingly digital environment, trust and monetary stability require that central 
+bank money remains the ultimate settlement asset - and that it interacts safely and 
+effectively with private sector solutions.
+The Eurosystem and Banca d'Italia are moving in this direction. The digital euro aims to 
+safeguard the role of public money in retail payments; the Pontes and Appia initiatives 
+will extend the use of central bank money in interbank circuits through distributed ledger-
+based platforms.  Innovation is possible without dismantling the anchors of the financial 7
+system.
+Ultimately, the systems we build must be grounded in openness: effective within 
+domestic markets, and inherently interoperable across borders. Only then can 
+innovation strengthen - rather than fragment - the global payments landscape.
+We are here in London, one of the world's most interconnected cities. That feels apt. 
+The future of payments is collaborative. It is cross-border. And it is being shaped - in no 
+small part - by conversations like the ones we've had today.
+These discussions can get very technical. But as public and private stakeholders, we 
+should never lose sight of the human dimension: every improvement in speed, 
+transparency and cost efficiency translates into meaningful and tangible enhancements 
+to people's lives. That is a key reason why this work matters.
+
+4/4 BIS - Central bankers' speeches
+Carrying it forward will require both continued political support at the highest levels and 
+intensive private-public sector engagement. And it is the collective commitment of this 
+community that is making it happen.
+Thank you.
+1 FSB, G20 Roadmap for Enhancing Cross-border Payments: Consolidated progress 
+report for 2025, October 2025.
+ The global settlement window is the period when the largest number of real-time 2
+gross settlement (RTGS) systems operate simultaneously (see CPMI, Final report: 
+Extending and aligning payment system operating hours for cross-border payments, 
+May 2022).
+ Since 1-3 per cent of payments generate inquiries that typically require 5-10 manual 3
+touchpoints and rely heavily on free-format data, a harmonized and global 
+implementation of ISO 20022 significantly reduces manual effort and accelerates 
+investigations, cutting resolution times by up to 80 per cent (see E. Fitzgerald et 
+al., Moving on up: results of the 2024 cross-border payments monitoring survey, CPMI 
+Brief, 10, 2025).
+ CPMI, Harmonised ISO 20022 data requirements for enhancing cross-border 4
+payments - updated report, February 2026.
+ In 2023, the CPMI established the Cross-border Payments Interoperability and 5
+Extension (PIE) task force to support the G20 Cross-border Payments Roadmap by 
+providing expert advice on market conventions and industry practices. In 2025, to 
+support maintenance and encourage global adoption of the harmonized data 
+requirements, the CPMI established a joint panel with members from the ISO 20022 
+global market practice groups to promote and support industry efforts to adopt the 
+harmonization requirements and to maintain and, where appropriate propose, updates 
+to them.
+ On 29 September 2025, the Governing Council of the European Central Bank 6
+approved the start of an exploratory phase to evaluate the potential establishment of a 
+bilateral link between TIPS and the Swiss Interbank Clearing Instant Payments (SIC IP) 
+system. A similar decision was made on 21 October 2024 to explore the potential 
+benefits of establishing a bilateral link with India's Unified Payments Interface (UPI), an 
+instant payment system developed by the National Payments Corporation of India and 
+regulated by the Reserve Bank of India.
+ The Pontes project, operating on a short- to medium-term horizon and with 7
+experimentation planned by the end of 2026, aims to connect distributed ledger-based 
+(DLT) platforms with T2, the wholesale payment infrastructure currently used in the 
+euro area. The Appia project pursues the same objective from a longer-term 
+perspective, envisaging the creation of a fully DLT-based ecosystem for settling 
+wholesale transactions in central bank money, including cross-border payments.

@@ -137,6 +137,7 @@ def getResultUrlForAuthor(page, nm: str) -> str:
         print("done")
     except Exception as exc:
         stackTrace(exc)
+        print(f"failed to load urlMain {urlMain}")
         return None
 
 
@@ -153,6 +154,11 @@ def getResultUrlForAuthor(page, nm: str) -> str:
 
 
     try:
+
+        selectTrigger = page.locator(".select2-selection").first
+        selectTrigger.click(timeout=10000)
+        print(f"\t  clicked select2 trigger for {nm}")
+        page.wait_for_timeout(500)
 
         searchInput = page.locator("css=input.select2-search__field").first
         print(f"\t  found search input for {nm}")
@@ -171,6 +177,7 @@ def getResultUrlForAuthor(page, nm: str) -> str:
 
     except Exception as exc:
         stackTrace(exc)
+        print(f"failed to interact with select2 for {nm}")
         return None
 
     # Wait for the URL to reflect the selection (authors=<id> present)

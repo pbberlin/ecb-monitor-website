@@ -1,0 +1,354 @@
+V/ABANQUE DE FRANCE
+A\3EUROSYSTEME
+Speech
+Governor
+Disruptions in the international
+monetary landscape: threats or
+promises?
+Published on the 6th of January 2026
+G7 IMS Conference, Paris — 6 January 2026
+Speech by Francois Villeroy de Galhau, Governor of the Banque de
+France
+Dear and honored guests, Ladies and Gentlemen,
+
+
+| would like to start by extending, on behalf of the Banque de France, our
+warmest wishes to you and your loved ones. This year, France is taking
+on the G7 Presidency, with a number of priorities - addressing global
+imbalances but also delivering practical progress on six financial stability
+items: cross-border payments, NBFI, cybersecurity, Al, quantum
+technology and climate-related risks. It is therefore my pleasure to
+introduce today’s stimulating sessions dedicated to the challenges of
+digital innovation and the consequences for the International Monetary
+System (IMS).
+Let me first outline two major disruptions, a fast-moving technological
+one and a slow-moving geopolitical one — to quote Governor Panetta’s
+recent speech! — (1), before sharing with you a triangle of three
+objectives, three “S’s” that should guide us in the transition to a new
+global landscape for payments (2).
+1. Two major disruptions are affecting
+the international monetary landscape
+1.1. A technological disruption
+The first disruption is technological: financial innovations have the
+potential to reshape the IMS. Among them, tokenisation" is accelerating
+end-to-end transaction execution and reducing costs, notably through
+“smart contracts”. It can revolutionise cross-border payments and
+possibly domestic payments.
+Tokenisation could affect the IMS through two opposite forces'". On the
+one hand, it may reinforce the US dollar's centrality with a potentially
+rapid development of stablecoins”’ in USD held outside the United
+States. Supported by a resilient US financial sector and actively
+promoted by the US administration, stablecoins - 99% USD-backed so
+far — could reach a market capitalisation of between USD 500 billion and
+USD 2 trillion by 2028 according to some projections.”
+
+
+STABLECOIN MARKET CAPITALISATION HAS GROWN QUICKLY,
+DOMINATED BY USD-BACKED STABLECOINS
+Market capitalisation (actual and projected) and relative
+share of stablecoins within the crypto-asset ecosystem
+2000 4
+1800 3
+818 1600 >
+1400
+USD billions
+1200
+1000
+800
+600
+400
+200
+2022 2023 2024 2025 2028
+Source: Eikon, Banque de France staff calculations, JP Morgan, Bloomberg
+Note: Last point: December 2025. “Other” includes a total of 17 stablecoins.
+BANQUE DE FRANCE1 G7 CONFERENCE + 6 JANUARY 2026
+EUROSYSTEME
+Stablecoin market capitalisation has grown quickly, dominated by USD-backed
+stablecoins
+The very breadth of this range illustrates the uncertainty surrounding
+potential uses: will stablecoins remain confined to the realms of crypto
+and cross-border exchanges, or will they quickly expand to domestic
+financial or even “economic” transactions? On the other hand,
+innovations lowering the cost of cross-border payments may weaken the
+international role of the USD and strengthen multipolarity within the IMS
+by offering third countries the opportunity to develop exchanges in other
+currencies or in stablecoins backed by other currencies.
+1.2. A geopolitical disruption
+The second disruption is geopolitical, and the first days of 2026 already
+confirmed we live in a new geopolitical world. Let us say it upfront:
+despite a multipolar global economy, the IMS is still dominated by the
+USD in all the areas considered.
+
+
+| THE USD REMAINS AT THE CENTER OF THE INTERNATIONAL MONETARY SYSTEM
+Overview of the international monetary system
+(%, 2024)
+90
+10
+Foreign exchang
+reserves
+se Internationaldebt —_ International loans International
+deposits
+@ US Dollar @ Euro @ Japanese Yen @ Chinese Renminbi
+Source: ECB, 2024
+2 G7 CONFERENCE « 6 JANUARY 2026 BANQUE DE FRANCE
+The USD remains at the center of the international monetary system
+This strong inertia within the system is driven by powerful network
+externalities, which amplify the US dollar’s strong fundamentals.
+However, some recent US policies have undermined some pillars of the
+USD dominance by attacking the Fed’s independence, raising doubts as
+to US fiscal discipline, and imposing tariffs that diminish US integration
+with the global economy. Moreover, fears that the US could increasingly
+weaponise USD-based global payments are leading some jurisdictions to
+develop alternative payments systems”. These US policies are
+undermining global investors’ confidence in USD assets”! and will likely
+fuel the gradual trend toward diversification: between Q@2 2020 and Q2
+2025, the share of the USD in allocated official reserves declined by 5
+percentage points. Another sign of this erosion of confidence has been
+the decoupling, although transitory, between the EUR/USD exchange
+rate and the EA/US 2-year interest rates differential after the 2 April
+2025 US tariff announcement.
+
+
+| SOME EROSION OF THE USD DOMINANCE
+Breakdown of official FX reserves by currency EUR/USD exchange rate and interest rate
+(% of allocated reserves) differential
+75% 16% 1,20 -1,0
+70% |} a4 12% 1,15
+65% }
+60% F 4% 1,05
+55% —— 0% 1,00 -2,5
+1999 2003 2007 2011 2015 2019 2023 > » > >» & & & <>3 ¥ ¥ ¥ ¥ Vv Vv ¥
+comet OTH memes RMB SPP PEF“
+eee CHF wees CAD ° a 8 ‘ ° $ 8 *
+ues AUD ----USD (Ihs) ——— EUR/USD (Ihs) —— 2-year EA/US interest rate differential (rhs)
+== non-traditional reserve currencies (rhs)
+Sources: IMF COFER and Eichengreen, Chitu and Mehl (2015). Sources: Datastream, BIS.
+Note: Last observation: Q2 2025 Note: The EA interest rate series is constructed using the 2-year
+German federal bond yield. Last point: 19 December 2025
+3 G7 CONFERENCE + 6 JANUARY 2026 BANQUE DE FRANCE
+EUROSYSTEME
+Some erosion of the USD dominance
+2. How to address these disruptions?
+A “compatibility triangle” of 3 “S's”
+These two developments can be positive: tokenisation represents a
+highly promising innovation for payments, and the pursuit of
+diversification could make the IMS more balanced. Yet both
+developments also carry potential contradictions, and their combination
+may give rise to at least three threats: the privatisation, and/or the
+increased “Americanisation”, of money; the fragmentation of payments;
+and greater financial instability.
+
+
+| FROMA TRIANGLE OF THREATS...
+Privatisation
+Fragmentation Financial risks
+4 G7 CONFERENCE + 6 JANUARY 2026 BANQUE DE FRANCE
+EUROSYST EME
+From a triangle of threats...
+How can we get the best of the two worlds? | will now share with you a
+triangle of three objectives, which is for once a “compatibility triangle”,
+three “S’s”.
+| _..TO A"COMPATIBILITY TRIANGLE" OF THREE OBJECTIVES
+Sovereignty
+Privatisation
+Fragmentation Financial risks
+G7 CONFERENCE + 6 JANUARY 2026 BANQUE DE FRANCE
+EUROSYST EME
+...10 a "compatibility triangle" of three objectives
+2.1. Sovereignty
+
+
+Let me start with the first objective: preserving monetary sovereignty,
+understood as the ability of a jurisdiction to issue its own currency to
+finance its real economy, conduct monetary policy in line with its own
+objectives and maintain independence in payment systems. Launched
+more than 25 years ago, the euro is Europe's greatest leap towards
+sovereignty and a huge popular success“, with the support of 82%" of
+European citizens. But today this hard-won achievement could be
+threatened if we don’t secure the pivotal role of “sovereign” central bank
+money in the digital world. The Eurosystem has already taken steps to
+offer a digital euro for the general public and a wholesale central bank
+digital currency (CBDC) for the interbank market. The first project aims
+to issue a “digital banknote+” designed to transpose the features of cash
+to the digital world, while preserving the anchoring role of central bank
+money. Last month, the Council of the EU unanimously supported the
+project and agreed on a fully-fledged digital euro, covering both online
+and offline use cases, that would be accepted universally in the euro
+area and offer a high degree of privacy. After the vote expected in the
+European Parliament in May, we intend to run a pilot as early as 2027
+and to potentially launch the digital euro in 2029.
+The second project is less well-known than the first, but it is even more
+important. The Eurosystem and the Banque de France are actively
+working on it as part of the Pontes project: by the end of 2026, a pilot
+solution of wholesale CBDC in euro will enable financial intermediaries to
+settle their tokenised assets in central bank money via a distributed
+ledger which will be linked to the TARGET Services.” In parallel, as part
+of the Appia project, the Eurosystem will work on interoperability
+standards and how to deal with tokenised assets in collateral
+management for monetary policy purposes. In the longer run, building on
+both Pontes and Appia projects, the Eurosystem intends to design a new
+generation of critical infrastructures for the European post-trade market.
+This could be achieved via a European platform where public and private
+blockchains could communicate seamlessly, allowing atomic transactions
+between tokenised central bank money — i.e. CBDC -, tokenised
+commercial bank money and tokenised assets.
+
+
+While the provision of a CBDC is essential, it is not intended to cover all
+uses in the tokenised economy. It is also necessary to have tokenised
+commercial bank money! so that the European two-tier monetary
+system can adapt coherently to the tokenisation revolution, while fully
+preserving monetary sovereignty. The technical choice remains open
+between tokenised bank deposits or EUR-backed stablecoins issued by
+banks: we could have both, but we must not end up with neither.
+| _..TO A"COMPATIBILITY TRIANGLE" OF THREE OBJECTIVES
+Sovereignty
+Privatisation
+Fragmentation Financial risks
+Seamlessness ¢ re)
+G7 CONFERENCE « 6 JANUARY 2026 BANQUE DE FRANCE
+..10 a "Compatibility triangle" of three objectives
+2.2. Seamlessness of payment systems
+The second objective is the seamlessness of payment systems across
+currency blocks: a multi-polarisation of the IMS must not lead to
+monetary fragmentation. A lack of interoperability between each block’s
+payment systems may indeed fragment international liquidity and harm
+the Global Financial Safety Net (GFSN) by undermining reserves’
+convertibility. It may also threaten the “singleness*"” of each currency: in
+practice, the price of one USD could possibly differ in New-York,
+Frankfurt or Beijing."
+
+
+Central banks, which ensure the smooth functioning of payment
+systems, should therefore promote financial innovations enhancing
+cross-border payments, beyond tokenisation. A first avenue, in line with
+the G20 Roadmap, is the interlinking of fast-payment systems (FPS),
+already deployed domestically in over 100 jurisdictions worldwide. The
+Eurosystem is actively engaged in interlinking its FPS, TIPS*'”, with those
+of other countries, either bilaterally — with India’s UPI*” and Switzerland’s
+SIC IPX”! — or multilaterally, as we consider connecting TIPS to a network
+of instant payment systems through the Project Nexus, led by the BIS.
+Another promising avenue, explored by the BIS Project Agora — that will
+nevertheless require more time — is the development of shared ledgers
+to connect tokenised commercial bank monies and central bank digital
+currencies for the settlement of cross-border payments.
+image ImageThématique Governor Categorie Speech
+..10 a "compatibility triangle" of three objectives
+2.3. Stability
+The third corner of my triangle is stability. we need to ensure global
+financial stability in an increasingly multipolar and digitally transformed
+IMS.
+
+
+Stablecoin markets are expanding rapidly and may eventually represent
+a challenge to global financial stability due to their inherent
+vulnerabilities - chief among them is the risk of de-pegging — and their
+growing interconnectedness with the traditional financial system.
+Another concern for the stability of the IMS is that a new form of the
+“Gresham's law”*”"' might apply: the coexistence of several stablecoins
+and CBDCs could lead to an unbundling of the traditional “functions of
+money”*“", Lower switching costs may enable economic agents to retain
+CBDCs - benefitting from central bank credibility and safety — as a store
+of value, while using the riskier stablecoins as a medium of exchange. In
+such a scenario, a handful of dominant private issuers could exert
+disproportionate influence over global payments, raising concerns about
+market concentration and financial stability.
+How should we respond? Europe has a head start with the
+MiCA*TM regulation (MiCAR), but it does not fully address the risks that
+could arise from a rapid adoption of stablecoins issued by non-banking
+and non-European actors. Enhancing the MiCA regulatory framework is
+necessary to restrict the use of stablecoins for retail payments,
+particularly when they are backed by a currency other than the euro.
+MiCAR would also benefit from a much stricter regulation of the multi-
+issuance of the same stablecoin within and outside the EU to reduce
+regulatory arbitrage risks in times of stress”.
+But a more multipolar IMS could also be a more stable one. It would help
+deal with the modern version of the “Triffin dilemma’**': the supply of
+USD global safe assets is currently limited by the fiscal capacity of the
+US, while demand for these assets is bound to increase.
+image ImageThématique Governor Categorie Speech
+
+
+The new triffin dilemma
+In this context, the creation of a euro-denominated safe asset merits our
+renewed attentionTM". We can begin pragmatically by exploring three
+options — enhancing existing EU frameworks, transforming part of
+sovereign debt into supranational debt and/or merging existing
+supranational debt -, each of which would significantly increase the
+volume of available safe assets. If several options coexist for a time, they
+may later converge.
+Let me conclude: facing these disruptions in money and payments, it is
+common but too easy to oppose innovation and regulation, as well as
+private and public stakeholders. The truth is that real progress on the
+three “S’s” | have just outlined — sovereignty, seamlessness and stability —
+requires all these ingredients. It requires pragmatic, non-ideological
+public-private partnerships. “Agile pragmatism” is my favourite motto for
+monetary policy. Be assured we will also apply it rather than political
+systematism to the practical deliverables of the 2026 G7 French
+Presidency. Thank you for your attention.
+
+
+' Panetta (F.) (2025), “The struggle to reshape the international monetary
+system: slow- and fast-moving processes’, Whitaker Lecture 2025, Dublin,
+9 December
+'' Tokenisation is the process of issuing and registering a financial or non-
+financial asset in the form of a digital token, using distributed ledger
+technology, such as blockchain.
+ll Bénassy-Quéré (A.) (2025), “/s tokenization a game-changer for the
+International Monetary System?’, 15 September
+'’ Type of crypto asset whose value is designed to remain stable relative
+to one or more assets, such as an official currency or basket of
+currencies.
+Vv J.P. Morgan (2025), “What to know about stablecoins”, Global Research,
+4 September; Bloomberg (2025), “Stablecoin Sector May Reach $2 Trillion:
+Standard Chartered”, 15 April
+vi Amsellem (L.), Crespy (N.), Ishii (K.), Grieco (F.) (2025), “Can innovation
+in payment systems affect the ranking of international currencies?”, Banque
+de France Bulletin 258, Article 1, 11 July
+vil Villeroy de Galhau (2025), “Europe has the means to respond
+strategically to the currency revolution’, interview with “Le Grand
+Continent”, 25 September
+vill Banassy-Quéré (A.), Villeroy de Galhau (F.) (2025), “Stablecoins : The
+real economic or ideological disruption lies in the possible privatization of
+money”, Le Monde, 4 November
+xix Standard Eurobarometer 104 — Autumn 2025
+* ECB (2025), “ECB commits to distributed ledger technology settlement
+plans with dual-track strategy”, press release, 1 July
+Xj Villeroy de Galhau (F.) (2025), “Fintechs and sovereignty: three pillars to
+be strengthened together”, speech at the ACPR-AMF Fintech Forum, 9
+October.
+xil Singleness ensures that monetary exchange is not subject to
+fluctuating exchange rates between different forms of money, whether
+they be privately issued money (eg deposits) or publicly issued money
+(eg cash).
+xlll Bénassy-Quéré (A.) (2025), “Is tokenization a game-changer for the
+International Monetary System?’, 15 September
+XIV TARGET Instant Payment Settlement (TIPS)
+XV Unified Payments Interface
+Xvl ECB (2025), “ECB and SNB explore link between instant payments
+systems”, 29 September
+xvil According to Gresham's law, bad money tends to drive good money
+
+
+out of circulation.
+vill Brunnermeier (M.K.), James (H.), Landau (J.-P.) (2019), “The
+Digitalization of Money”, NBER Working Paper Series, Working Paper
+n°26300, September
+XIX Markets in Crypto-Assets (MICA), Regulation EU 2023/1114 of 31 May
+2023.
+XX Villeroy de Galhau (F.) (2025), “Fintechs and sovereignty: three pillars to
+be strengthened together’, speech at the ACPR-AMF Fintech Forum, 9
+October
+xxl Triffin (R.) (1960), Gold and the Dollar Crisis : The Future of
+Convertibility, Yale University Press ; Farhi (E.), Gourinchas (P.-O.) Rey
+(H.) (2011), “Quelle réforme pour le systeme monétaire international” in
+Bénassy-Quéré (A.) et al. (2011), Réformer le Systeme Monétaire
+International , rapport du Conseil d’analyse @conomique, n°99, pp. 51-94.
+xxll Villeroy de Galhau (F.) (2025), “The international role of the euro and
+the development of European safe assets’, speech at the ESM,
+Luxembourg, 2 October.
+Download the full publication
+Disruptions in the international monetary landscape: e
+threats or promis... (PDF - 655.9 KB)
+Updated on the 6th of January 2026

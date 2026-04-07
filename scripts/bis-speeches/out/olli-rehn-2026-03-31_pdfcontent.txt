@@ -1,0 +1,185 @@
+1/5 BIS - Central bankers' speeches
+Olli Rehn: How to navigate geopolitical turmoil in central banking? A 
+European perspective
+Speech by Mr Olli Rehn, Governor of the Bank of Finland, at "The ECB and Its 
+Watchers XXVI", organised by the Institute for Monetary and Financial Stability, 
+Frankfurt am Main, 25 March 2026.
+* * *
+ accompanying the speechPresentation
+Ladies and Gentlemen, Dear Friends,
+Thank you for the kind invitation to discuss with distinguished colleagues and an 
+influential audience. Our discussion on the global environment of central banking could 
+hardly be more timely – to my regret.
+Today, the escalating conflict in the Middle East is no longer just a geopolitical concern 
+and human tragedy - it is, as a deeply asymmetric war, an acute blow to the global 
+economy, not least to the euro area, which is on the receiving end of the collateral 
+economic damage caused by it. I have therefore revised my title to "How to navigate 
+constant geopolitical turmoil in central banking?: A European perspective".
+Slide 2. Geopolitics dominates the global economic outlook – uncertainty has yet 
+again increased
+Today, geopolitics affects every dimension of the economy - growth, inflation, financial 
+stability and international cooperation. Both long-term megatrends, such as AI and 
+climate change, and sudden political turns, such as the ongoing wars, are reshaping 
+our operating environment.
+And while all eyes look now to the Middle East, we should not lose sight of Ukraine. 
+Ukraine is fighting not only for its own freedom, but for the security of Europe and the 
+future of liberal democracy and civil liberties. Ukraine continues to need our support. 
+And Europe must get serious about reinforcing its common defence, as NATO's 
+European pillar.
+Let me divide my talk into three parts. I shall first discuss the ramifications of the Middle 
+East conflict and the energy crisis for the euro area economy. Second, I'll outline 
+options for making monetary policy on the basis of the ECB's recently revised strategy. 
+Third, I'll conclude with Europe's longer-term, largely structural economic challenges.
+Oil prices are now over 50% higher than month ago – or at least were before I started 
+this speech. Given the current volatility, I can't guarantee this is still the case. Natural 
+gas prices have roughly doubled. For Europe, as a net importer of energy, this is a 
+negative terms-of-trade shock.
+
+2/5 BIS - Central bankers' speeches
+We do not know how long the Strait of Hormuz will remain closed. We do not know how 
+much damage has been done to production infrastructure. These factors will determine 
+how long the shock to energy markets - and to the euro area economy - will last.
+Despite the uncertainty, the near-term risk assessment is quite clear. Risks to growth 
+are tilted to the downside. Risks to inflation are tilted to the upside. Inflation will increase 
+this year, while economic activity will weaken. The medium-term effects, however, are 
+still uncertain.
+The ECB's monetary policy strategy of 2025 (and 2021!) particularly underlines our 
+. Our is defined asmedium-term orientation  price stability objective   a symmetric 
+. That matters to policy-making in the inflation target of 2% over the medium term
+current context.
+As a medium-term-oriented central bank, we and keep a cool head   a broad 
+. What matters most is not the immediate increase in inflation, but whether perspective
+the shock has effects on inflation and general price level. That, in turn,  persistent 
+depends on the and of the shock and source   duration   its potential second-round 
+effects.
+And it depends also on . Any fiscal measures should be temporary,  fiscal policy
+targeted and tailored.
+Right now, the outlook is very foggy. That is why we are putting so much weight on 
+incoming data and continuous analysis with scenarios.
+The good news for monetary policy is that we are facing this new shock at a time when 
+inflation is close to target - 1.9% in February - and the euro area economy has shown 
+resilience despite tariffs and geopolitics.
+The euro area also has many decades of experience in dealing with different kinds of 
+shocks. To provide some perspective, let me briefly review four periods of inflation in 
+the euro era.
+Slide 3. Four periods of inflation in the euro era, 1999–2026
+In the first period, from 1999 to 2009, inflation was well anchored, near 2%. The euro 
+area experienced steady growth during what was often called the "Great Moderation". 
+This period marked the successful build-up of the euro and the ECB's credibility. The 
+target (since 2003) time was "below, but close to, 2%". Average inflation was 1.97%, 
+which prompted President Jean-Claude Trichet to ask - with a bit of a grin - whether we 
+could get any closer to the target than that. A good question.
+But then the situation changed. After the financial crisis, for about a decade, inflation 
+was clearly below target, around 1%. At times, there was even a risk of deflation - a fall 
+in the general price level.
+It was tackled by central banks with strong policy measures: very low or negative 
+interest rates, long-term refinancing operations, large-scale asset purchases, and 
+
+3/5 BIS - Central bankers' speeches
+forward guidance. These measures supported the recovery, together with the 
+strengthening global economy.
+Then, in 2021, inflation accelerated sharply as the global economy reopened after the 
+pandemic and production bottlenecks emerged. From February 2022 onwards, Russia's 
+war and the energy crisis pushed inflation even higher, exceeding 10% in October 
+2022. Since the summer of 2022, monetary policy was consistently tightened, and 
+inflation stabilised around the ECB's 2% target by 2024. Growth weakened, but the 
+euro area avoided the worst-case scenario of stagflation.
+In the fourth phase, from 2024 onwards, Europe has experienced stable inflation and 
+modest growth. – Now we may again be on the brink of a new period of turbulence, as 
+the Middle East is in turmoil and the energy shock once again hits the central nervous 
+system of the global economy.
+During these four periods, the drivers of inflation have changed - from demand-driven 
+growth to global supply chains and energy geopolitics. And although we have seen 
+energy shocks before, history does not repeat itself. Every shock is different. This time 
+is no exception.
+Which brings us to a familiar central banking question: should we look through an 
+energy price shock, or should we react to it, even forcefully?
+Slide 4. No two shocks/crises are alike
+Research at the Bank of Finland shows that geopolitical shocks are complex, multi-
+channel events. They do not only raise oil prices. They also increase uncertainty, 
+tighten financial conditions and disrupt international trade, which dampens growth. As a 
+result, the medium-term effects on inflation are not straight-forward.
+Many of us, no doubt, have in mind the 2022 shock following Russia's invasion of 
+Ukraine. That is OK - but it is also worth being prudent. Not every oil price spike 
+translates into the same inflation outcome.
+For example, between 2011 and 2014, oil prices rose above 100 dollars per barrel due 
+to strong global demand and supply disruptions related to the Arab Spring. Yet euro 
+area inflation and core inflation remained low. Demand was weak at the time because 
+of the euro area debt crisis, which limited the pass-through of energy prices to 
+underlying inflation. Do I need to remind us that the ECB's two subsequent rate hikes of 
+spring 2011 were reversed in November and December 2011?
+The reason for the relatively limited pass-through at the time was not unique as such: 
+the inflationary impact of an energy shock does not depend on the energy price move 
+alone. It is also shaped by the broader macroeconomic environment: prevailing demand 
+and supply conditions, existing price pressures, bottlenecks, expectations – and the 
+extent to which the shock spreads beyond energy into the rest of the economy.
+Thus, an energy price spike is always a drag, but its effect on overall inflation depends 
+on the state of the economy which it hits. That's why we do closely monitor second-
+round effects and inflation expectations.
+
+4/5 BIS - Central bankers' speeches
+Households and firms still remember the inflation surge of 2022–2023, and this may 
+influence expectations. Whether the current oil shock generates longer-term inflationary 
+pressure will again depend on overall economic and labour market conditions. In 2022, 
+rising energy prices coincided with strong post-pandemic demand. Now, in contrast, 
+geopolitical tensions and tariffs are weighing on growth.
+In line with the ECB's strategy, we analyse these risks using scenario analysis. 
+Scenarios help us assess both upside and downside risks in a structured way. Every 
+new day of war and every new destruction of energy infrastructure unfortunately brings 
+us closer to weaker scenarios.
+Yet, the key point is this: no two shocks are alike, and monetary policy must respond, 
+from the standpoint of medium-term price stability, to the overall macroeconomic 
+environment, not to oil prices alone.
+Slide 5. Energy costs burden euro area industry
+When we discuss the transmission channels of geopolitical shocks, we must also 
+recognise a structural vulnerability in Europe: our continued reliance on imported fossil 
+fuels. This affects both our resilience to shocks and our competitiveness relative to 
+other major economies.
+Europe has improved its resilience in recent years, and the share of fossil fuels in 
+energy production has declined. In this respect, our situation is better than in 2022. But 
+the energy transition is still ongoing, and energy costs for European producers have 
+remained relatively high since 2022. We cannot avoid significant direct effects of the 
+current energy shock on companies' production costs and households' purchasing 
+power. All the EU member states have not used the past years responsibly to reduce 
+their dependency on fossil fuels and to enhance their energy security.
+The impact of the energy shock varies across countries, depending on how far the 
+energy transition has progressed. Spain, for instance, has made solid progress thanks 
+to determined policy action. In Finland, likewise, 95% of electricity production is 
+emission-free - 55% renewables and 40% nuclear. This reduces the impact of energy 
+price shocks. But in many other European countries, the buffers are smaller.
+The Middle East war underlines that the green energy transition is essential for 
+Europe's strategic autonomy and competitiveness - and for the climate. Slowing the 
+green transition now would be a serious mistake.
+Slide 6. Conclusions: Europe's strategic triple test
+Let me now conclude.
+Joseph Schumpeter once wrote that the state of the monetary system reflects the state 
+of the nation. The same is true for Europe: the stability of the euro ultimately reflects the 
+strength of the European economy and European society.
+Today, Europe faces what I call a . strategic Triple Test
+
+5/5 BIS - Central bankers' speeches
+The first – and existential – test is security. Russia's war and changes in US policy 
+have made one thing clear: Europe must take greater responsibility for its own defence. 
+Common defence will also require common financing - and pave the way for European 
+safe assets that can strengthen our capital markets and support investment.
+The second test is energy and climate. The green transition is not a luxury. It is 
+Europe's only credible long-term energy strategy. Energy security, competitiveness and 
+climate policy now point in the same direction: clean energy, electrification, and energy 
+efficiency.
+The third test is growth and investment. Defence and green transition will require 
+massive investment. If done right, these investments can also raise productivity and 
+innovation. This is why completing the Savings and Investment Union is so important - 
+and why we should set a clear and ambitious timetable, for example by 1 January 2028.
+But above all, Europe must invest in its greatest strength: . Human capital -  its people
+education, research, skills and innovation - is the true foundation of long-term 
+prosperity. Talent will not come by accident. We need investment in education, smart 
+immigration, and a culture that values science, innovation and responsible risk-taking.
+So Europe's strategy is clear: invest in defence, invest in clean and digital 
+transition, deepen capital markets, and invest in people.
+With and , Europe can turn today's  the right policies   a long-term perspective
+challenges . into tomorrow's opportunities
+Rest assured, will do its part. We will keep inflation expectations  monetary policy 
+anchored and ensure price stability over the medium term.
+In a world of geopolitical shocks, this stability is more important than ever. We will 
+provide a steady hand, which is in short supply today.
+Thank you  

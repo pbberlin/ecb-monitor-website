@@ -1,0 +1,133 @@
+1/4 BIS - Central bankers' speeches
+Joachim Nagel: European monetary policy challenges in the new 
+geopolitical environment
+Dinner speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the 
+Euro50 Group meeting, London, 12 February 2026.
+* * *
+Check against delivery 
+1 Introduction
+Ladies and gentlemen,
+Some years ago, Dario Caldara and Matteo Iacoviello, economists at the Federal 
+Reserve, proposed a news-based measure of adverse geopolitical events and risks –a 
+metric that they dubbed the geopolitical risk index. Technically, the index is based on 1 
+the share of articles mentioning adverse geopolitical events in leading newspapers in 
+the United States, the United Kingdom and Canada. According to this index –and 
+unsurprisingly –we are currently living in a period of high geopolitical risk. For example, 
+last year, the index recorded an average level of 145, which is only slightly lower than 
+the reading of 158 we saw in 2022 –the year when Russia launched its full-scale 
+invasion of Ukraine. For comparison, back in the pandemic year 2020, the average 
+level was 78. And in the first month of this year, the index hit 164 already. This is almost 
+as high as the average for 2001. In recent decades, the index reached its peak in 2 
+2001, driven by the 9/11 terrorist attacks. 
+We all know that geopolitical events and risks affect the economic activities of 
+households and enterprises, particularly investment. However, in my speech, I would 3 
+like to touch on the potential challenges that the new geopolitical reality poses for 
+European monetary policy. In doing so, I will discuss three points: inflation volatility, 
+central bank independence and the rise of stablecoins.
+2 Inflation volatility
+Let me begin with the first one –inflation volatility. Adverse geopolitical shocks can 
+elevate inflation volatility. We observed this soon after Russia invaded Ukraine. At that 
+time, energy prices saw a remarkable spike. We observed disruptions in some supply 
+chains, especially for food products. This came on top of economic disruptions caused 
+by the pandemic and led to the largest inflation wave since the 1970s. Fortunately, 
+despite significant trade conflicts last year, we have successfully brought inflation under 
+control. However, there is no guarantee that similar shocks won't occur again in the 
+future. 
+In light of developments since the pandemic, the Eurosystem updated it monetary 
+policy strategy last year. It acknowledges that geopolitical and economic fragmentation 
+can lead to more volatile inflation dynamics. Being able to respond to new shocks in an 
+agile way is important. The revised strategy takes this need into account. 
+
+2/4 BIS - Central bankers' speeches
+In particular, it proposes forceful or persistent measures in response to strong or 
+sustained deviations from our inflation target in both positive and negative directions. 
+This point emphasises the symmetry of our inflation target and addresses the criticism 
+that our monetary policy strategy placed more emphasis on target undershooting in the 
+past. Last but not least, I believe it is crucial that we continue to reduce our balance 
+sheet size since that increases leeway to take monetary policy action in unexpected 
+scenarios.
+Moreover, the Eurosystem's newly revised strategy states that we will make more use 
+of scenario analysis in our forecasting exercises instead of focusing on a single, most 
+probable baseline scenario. This approach will allow us to account for risks and 
+uncertainty in a more comprehensive and systematic way.
+3 Central bank independence
+Let me move to the next item on my agenda: central bank independence. As we all 
+know, central bank independence is crucial for price stability. The theoretical basis for 
+this claim can be traced back to the seminal work of Kydland and Prescott, published 
+almost fifty years ago. Empirical studies reveal a negative relationship between the 4 
+degree of central bank independence and inflation levels as well: the more independent 
+a central bank is, the lower inflation will be –all other things being equal.5
+However, increasing geopolitical competition between countries may increase the 
+pressure on independent central banks to prioritise fiscal objectives over containing 
+inflation. Currently, we are observing considerable political pressure being exerted on 
+the Federal Reserve. If this political pressure succeeds, it could be taken as a blueprint 
+for politicians in other countries to pursue similar policies. If that were to happen, 
+inflation levels could increase all over the world.
+Since the world economy is interconnected, political pressure in one country could 
+make pursuing price stability more difficult for the Eurosystem as well. That is one of the 
+reasons why, for me, it is so important to clearly commit to the independence of central 
+banks. Well, in the Eurosystem's case, independence is enshrined in the primary law of 
+the European Union. However, we must not become overly self-confident. We will 
+always remain vigilant with regard to our own independence.
+4 The rise of stablecoins
+The last issue I would like to touch on concerns the rise of stablecoins. You have surely 
+heard that the US administration is officially promoting the market for crypto-assets,    
+specifically the market for stablecoins, denominated in US dollars. Stablecoins are    
+crypto-assets designed to maintain a stable value relative to a specified asset, which is 
+typically a national currency, a commodity or a financial asset. While stablecoins make 
+up only a small share of the market compared with other "money-like" assets such as 
+deposits, they have seen strong growth recently. Currently, depending on the definition, 
+their market volume amounts to just over 300 billionUS dollars.    6
+To be clear, stablecoins have benefits. For example, they open the door for 
+programmable transactions, which, by the way, are not an option in central bank money 
+
+3/4 BIS - Central bankers' speeches
+just yet. Furthermore, stablecoins could facilitate cross-border payments by reducing 
+transaction costs and payment duration. However, the rise of stablecoins could entail 
+risks for the euro area if stablecoins, particularly those denominated in a foreign 
+currency, were widely used as means of payment and store of value in the euro area.
+Currently, the share of stablecoins denominated in euros does not even amount to 
+1 percent. In contrast, the vast majority of stablecoins are denominated inUS dollars.    
+Thus, if this market composition persists, a hypothetical replacement of a domestic 
+currency with stablecoins would be equivalent to a dollarisation of the corresponding 
+economy. In this scenario, the effectiveness of domestic monetary policy could be 
+severely impaired, not to mention that European sovereignty could be weakened.
+To be fair, the euro is a stable currency supported by a secure financial system and an 
+attractive payment infrastructure. As a result, the risk of this scenario materialising 
+is small. However, to further reduce the likelihood of this scenario, we are considering 
+how to leverage new technological opportunities to best effect.
+First, in my view, this involves introducing a wholesale central bank digital 
+currency –CBDC. This would allow institutional actors on financial markets to execute 
+programmable transactions in central bank money. Moreover, the introduction of a 
+European wholesale CBDC would make our financial system more efficient and    
+resilient. The Eurosystem has already done the necessary exploratory work in this field 
+and is pushing ahead with two projects. The aim of one of these projects is to introduce 
+a wholesale CBDC interoperability solution in the current year. Second, the Eurosystem    
+could support based payment instruments not directly related to central bank  DLT-
+money, in particular, tokenised deposits and euro-denominated stablecoins. 
+These measures will allow us to utilise cutting-edge digital technologies to maintain our 
+monetary policy effectiveness in an uncertain geopolitical future. Additionally, they will 
+increase our sovereignty. 
+5 Concluding remarks
+Ladies and gentlemen, 
+Let me conclude. What will the average be for Caldara and Iacoviello's geopolitical risk 
+index this year? Will it exceed its 2001 level? Only time will tell. Should we take comfort 
+in the fact that we are well below the levels recorded during the world wars? I very 
+much hope that we do not reach those levels again. 
+What can central banks do? In my view, we should be strictly fulfilling our mandate 
+even in times of fundamental change. To do so, we need to focus on price stability, 
+preserve our independence and counteract any risks that may arise in the context of 
+new digital technologies.
+1 Caldara, D. and M. Iacoviello (2022),  , American Measuring Geopolitical Risk
+Economic Review, Vol. 112 No 4, pp. 1194-1225.
+2 https://www.matteoiacoviello.com/gpr.htm
+
+4/4 BIS - Central bankers' speeches
+3 See Caldara and Iacoviello (2022); Bondarenko et al. (2025), Geopolitical Risk in the 
+, mimeo. Euro Area: Measurement and Transmission
+4 Kydland, F. E. und E. C. Prescott (1977), Rules Rather than Discretion: The 
+Inconsistency of Optimal Plans, Journal of Political Economy, Vol. 85, pp. 473-492.
+5 Cukierman, A., Webb, S. B. and B. Neyapti, (1992), Measuring the Independence of 
+, World Bank Economic Review, Vol. 6 Central Banks and Its Effect on Policy Outcomes
+No 3, pp. 353-398.
+6 Stablecoin Market Opens 2026 at a New $310B Record –Crypto News Bitcoin News
