@@ -955,6 +955,8 @@
           const x = centerX + Math.cos(angle) * blobRadius;
           const y = centerY - Math.sin(angle) * blobRadius;
 
+          const ecbBoard = entry.role !== "Governor";
+
           const group   = document.createElementNS("http://www.w3.org/2000/svg", "g");
 
           const ellipse = document.createElementNS("http://www.w3.org/2000/svg", "ellipse");
@@ -964,7 +966,34 @@
           ellipse.setAttribute("rx", 12);  // small for country
           ellipse.setAttribute("ry", 10);
 
+          let boardMrk = null;
+          let boardTxt = null;
+          let boardMarkerPos = 2; // 0: Top, 1: Right, 2: Left
+          //    boardMarkerPos = 1; 
+          if (ecbBoard) {
+              boardMrk = document.createElementNS("http://www.w3.org/2000/svg", "path");
+              boardTxt = document.createElementNS("http://www.w3.org/2000/svg", "text");
+              
+              if (boardMarkerPos === 0) {
+                  boardMrk.setAttribute("d", `M ${x - 12} ${y} A 12 10 0 0 1 ${x + 12} ${y} Z`);
+                  boardTxt.setAttribute("x", x);
+                  boardTxt.setAttribute("y", y - 1.5);
+              } else if (boardMarkerPos === 1) {
+                  boardMrk.setAttribute("d", `M ${x} ${y - 10} A 12 10 0 0 1 ${x} ${y + 10} Z`);
+                  boardTxt.setAttribute("x", x + 6);
+                  boardTxt.setAttribute("y", y + 3.4);
+              } else if (boardMarkerPos === 2) {
+                  boardMrk.setAttribute("d", `M ${x} ${y + 10} A 12 10 0 0 1 ${x} ${y - 10} Z`);
+                  boardTxt.setAttribute("x", x - 6);
+                  boardTxt.setAttribute("y", y + 3.4);
+              }
+              boardMrk.setAttribute("fill", "#909990E0");  // e - mostly opaque
 
+              boardTxt.setAttribute("text-anchor", "middle");
+              boardTxt.setAttribute("font-size", "9.0px");
+              boardTxt.setAttribute("fill", "black");
+              boardTxt.textContent = "B";
+          }
 
           const isMedianPos = Math.round(score*1000) === Math.round(median*1000);
 
@@ -983,10 +1012,24 @@
           ellipse.setAttribute("stroke-width", "0.4");
 
           const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
-          label.setAttribute("x", x);
-          label.setAttribute("y", y + 4);
+          if (ecbBoard) {
+              if (boardMarkerPos === 0) {
+                  label.setAttribute("x", x);
+                  label.setAttribute("y", y + 7.5);
+              } else if (boardMarkerPos === 1) {
+                  label.setAttribute("x", x - 6);
+                  label.setAttribute("y", y + 2.7);
+              } else if (boardMarkerPos === 2) {
+                  label.setAttribute("x", x + 6);
+                  label.setAttribute("y", y + 2.7);
+              }
+              label.setAttribute("font-size", "9.5px");
+          } else {
+              label.setAttribute("x", x);
+              label.setAttribute("y", y + 4);
+              label.setAttribute("font-size", "11px");
+          }
           label.setAttribute("text-anchor", "middle");
-          label.setAttribute("font-size", "11px");
           label.textContent = entry.name_excel.split(" ").slice(-1)[0];
           label.textContent = entry.country_code;
 
@@ -996,6 +1039,16 @@
               "transform",
               `rotate(${angleDeg} ${x} ${y})`
           );
+          if (ecbBoard) {
+              boardMrk.setAttribute(
+                  "transform",
+                  `rotate(${angleDeg} ${x} ${y})`
+              );
+              boardTxt.setAttribute(
+                  "transform",
+                  `rotate(${angleDeg} ${x} ${y})`
+              );
+          }
           label.setAttribute(
               "transform",
               `rotate(${angleDeg} ${x} ${y})`
@@ -1073,6 +1126,14 @@
           label.addEventListener("mouseenter", (evt) => {
             ttGr.setAttribute("visibility", "visible");
           });
+          if (ecbBoard) {
+              boardMrk.addEventListener("mouseenter", (evt) => {
+                  ttGr.setAttribute("visibility", "visible");
+              });
+              boardTxt.addEventListener("mouseenter", (evt) => {
+                  ttGr.setAttribute("visibility", "visible");
+              });
+          }
 
           ellipse.addEventListener("mouseleave", () => {
             ttGr.setAttribute("visibility", "hidden");
@@ -1080,10 +1141,22 @@
           label.addEventListener("mouseleave", () => {
             ttGr.setAttribute("visibility", "hidden");
           });
+          if (ecbBoard) {
+              boardMrk.addEventListener("mouseleave", () => {
+                  ttGr.setAttribute("visibility", "hidden");
+              });
+              boardTxt.addEventListener("mouseleave", () => {
+                  ttGr.setAttribute("visibility", "hidden");
+              });
+          }
           tts.push(ttGr);
 
 
           group.appendChild(ellipse);
+          if (ecbBoard) {
+              group.appendChild(boardMrk);
+              group.appendChild(boardTxt);
+          }
           group.appendChild(label);
           svg.appendChild(group);
       }
