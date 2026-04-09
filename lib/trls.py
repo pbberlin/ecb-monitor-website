@@ -142,8 +142,8 @@ trlsRaw = [
 
     {
         "infobox_header":    {
-            "de": "Interpretationshilfe",
-            "en": "Interpretation assistance",
+            "de": "Kontext und Nutzerhilfe",
+            "en": "Context and user help",
         },
     },
     {
@@ -230,8 +230,19 @@ trlsRaw = [
                 </ul>
             """,
             "en": """
+                <p>
+                    The fiscal environment is important for the conduct of monetary policy. The Maastricht Treaty aimed to ensure that public debt levels remained sustainable in order to protect the ECB's effective independence. This page provides essential information on the fiscal positions of eurozone countries over time. 
+                </p>
                 <ul>
-                    <li>...</li>
+                    <li>
+                        Using the slider, you can select a time period.
+                    </li>
+                    <li>
+                        Press the play button to see how the respective variable changes over time.
+                    </li>
+                    <li>
+                        Press the download button to get an Excel file containing the respective variable’s data history for all eurozone countries.
+                    </li>
                 </ul>
             """,
         },
@@ -349,8 +360,12 @@ trlsRaw = [
                     <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
                         European Commission, AMECO Database, variable code: UDGG
                     </a>
-
                 </li>
+                <li>
+                    This variable quantifies the total public debt of all government levels and social security relative to Gross Domestic Product. 
+                    The data for the current and next year are forecasts provided by the European Commission.                
+                </li>
+
             """,
         },
     },
@@ -389,6 +404,12 @@ trlsRaw = [
                     European Commission, AMECO Database, variable code: UBLG
                     </a>
                 </li>
+                <li>
+                    This variable indicates whether the general government budget (relative to Gross Domestic Product) 
+                    is in surplus (a positive number) or in deficit (a negative number). The data for the current and 
+                    next year are forecasts provided by the European Commission.                
+                </li>
+
             """,
         },
     },
@@ -421,6 +442,11 @@ trlsRaw = [
                     European Commission, AMECO Database, variable code: UUTG
                     </a>
                 </li>
+                <li>
+                    This variable indicates the size of the general government in terms of total government expenditure relative 
+                    to the Gross Domestic Product. The data for the current and next year are forecasts provided by the European Commission.                
+                </li>
+
             """,
         },
     },
@@ -459,6 +485,11 @@ trlsRaw = [
                     European Commission, AMECO Database, variable code: UYIG/D.41
                     </a>
                 </li>
+                <li>
+                    This variable shows the share of interest payments on outstanding public debt in total government expenditure. 
+                    The data for the current and next year are forecasts provided by the European Commission.                
+                </li>
+
             """,
         },
     },
@@ -491,6 +522,13 @@ trlsRaw = [
                     Source: Eurostat, online data code: teimf050
                     </a>
                 </li>
+
+                <li>
+                    This variable provides information on borrowing costs for new government bonds. 
+                    It shows central government bond yields on the secondary market with a residual maturity of around 10 years. 
+                    Unlike the other fiscal variables which are reported on an annual basis, this variable is reported monthly.                
+                </li>
+
             """,
         },
     },
