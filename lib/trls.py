@@ -231,7 +231,10 @@ trlsRaw = [
             """,
             "en": """
                 <p>
-                    The fiscal environment is important for the conduct of monetary policy. The Maastricht Treaty aimed to ensure that public debt levels remained sustainable in order to protect the ECB's effective independence. This page provides essential information on the fiscal positions of eurozone countries over time. 
+                    The fiscal environment is important for the conduct of monetary policy. 
+                    The Maastricht Treaty aimed to ensure that public debt levels remained sustainable 
+                    in order to protect the ECB's effective independence. 
+                    This page provides essential information on the fiscal positions of eurozone countries over time. 
                 </p>
                 <ul>
                     <li>
@@ -241,7 +244,7 @@ trlsRaw = [
                         Press the play button to see how the respective variable changes over time.
                     </li>
                     <li>
-                        Press the download button to get an Excel file containing the respective variable’s data history for all eurozone countries.
+                        Press the download button to get an Excel file containing the respective variable's data history for all eurozone countries.
                     </li>
                 </ul>
             """,
@@ -270,28 +273,34 @@ trlsRaw = [
                     <li>Das wirtschaftliche Umfeld beeinflusst die Politik der EZB</li>
                     <ul>
                         <li> Schwaches   Wachstum ↪ geldpolitische Expansion</li>
-                        <li> Starkes Wachstum ↪ geldpolitische Kontraktion gegen „überhitzende“ Inflation</li>
-                        <li> Positive Produktionslücke &nbsp; ↪  &nbsp; Kontraktion gegen „Überhitzung“</li>
+                        <li> Starkes Wachstum ↪ geldpolitische Kontraktion gegen „überhitzende" Inflation</li>
+                        <li> Positive Produktionslücke &nbsp; ↪  &nbsp; Kontraktion gegen „Überhitzung"</li>
                         <li> Inflation < 1 %   &nbsp; ↪  &nbsp; deflationäre Spirale ➡ Expansion</li>
                         <li> Inflation > 4 %   &nbsp; ↪  &nbsp; inflationäre Spirale ➡  Kontraktion</li>
                     </ul>
                 </ul>
             """,
             "en": """
-                <ul>
                     <!--
                         ● ➡ ↪
                     -->
-                    <li>The economic environment influences ECB policy</li>
-                    <ul>
-                        <li> Weak   growth ↪ monetary expansion</li>
-                        <li> Strong growth ↪ monetary contraction against 'overheating' inflation</li>
-                        <li> Positive output gap &nbsp; ↪  &nbsp; contraction against 'overheating'</li>
-                        <li> Inflation < 1 pct   &nbsp; ↪  &nbsp; deflationary spiral ➡ expansion</li>
-                        <li> Inflation > 4 pct   &nbsp; ↪  &nbsp; inflationary spiral ➡  contraction</li>
-                    </ul>
 
-                    
+                <p>
+                    Monetary policy decisions reflect the economic environment. 
+                    Key variables that central banks consider are both the inflation rate and the growth rate. 
+                    Typically, central banks will opt for a more expansionary monetary policy 
+                    if inflation and economic growth are low, and a more restrictive policy if they are high.                
+                </p>
+                <ul>
+                    <li>
+                        Using the slider, you can select a time period.
+                    </li>
+                    <li>
+                        Press the play button to see how the respective variable changes over time.
+                    </li>
+                    <li>
+                        Press the download button to get an Excel file containing the respective variable's data history for all eurozone countries.
+                    </li>
                 </ul>
             """,
         },
@@ -634,7 +643,11 @@ trlsRaw = [
                     <a href="https://ec.europa.eu/economy_finance/db_indicators/ameco/documents/ameco0_CSV.zip">
                         European Commission, AMECO Database, variable code: OVGD
                     </a>
-
+                </li>
+                <li>
+                    This variable shows the real (i.e. inflation-adjusted) annual growth rate 
+                    of the Gross Domestic Product. The data for the current and next year are forecasts 
+                    provided by the European Commission.                
                 </li>
             """,
         },
@@ -674,6 +687,15 @@ trlsRaw = [
                     European Commission, AMECO Database, variable code: AVGDGP
                     </a>
                 </li>
+                <li>
+                    This variable shows the difference between actual and the potential Gross Domestic Product. 
+                    A positive number indicates a strong economic situation, 
+                    as the actual economic activity is above the level that can be sustained in the long term. 
+                    Conversely, a negative number indicates a weak economic situation, 
+                    as economic activity is below what is possible given the available production factors. 
+                    The data for the current and next year are forecasts provided by the European Commission.                
+                </li>
+
             """,
         },
     },
@@ -715,6 +737,12 @@ trlsRaw = [
                     Eurostat, Variablen-Code: prc_hicp_manr, CP00 - All-items HICP
                     </a>
                 </li>
+                <li>
+                    This variable shows the inflation rate according to the "Harmonised Index of Consumer Prices" (HICP). 
+                    The HICP inflation is the most prominent variable considered by the ECB Council since the ECB's primary 
+                    objective – "inflation of 2% over the medium term" – refers to the HICP. 
+                    The data for the current and next year are forecasts provided by the European Commission.                
+                </li>
             """,
         },
     },
@@ -724,7 +752,7 @@ trlsRaw = [
     {
         "section_ecb_council": {
             "de": "EZB-Rat Position",
-            "en": "ECB Council",
+            "en": "ECB Council Stance",
         },
     },
     {
@@ -736,7 +764,7 @@ trlsRaw = [
     {
         "ecb_council_label": {
             "de": "EZB-Rat - Geographie",
-            "en": "ECB Council - geography",
+            "en": "ECB Council dove-hawk positions – individuals' total history since appointment",
         },
     },
     {
@@ -780,61 +808,68 @@ trlsRaw = [
                 </ul>
             """,
             "en": """
-                <ul>
-                    <li>Dove-Hawk AI Score
-                        <ul>
-                            <li>Collection of all official statements by the council member</li>
-                            <li>Evaluation using an LLM regarding expansionary or restrictive fiscal policy</li>
-                            <li>Mapped to a numerical range of -1 (dovish) ... +1 (hawkish)</li>
-                            <li>See <a href=#>Scientific publication</a></li>
-                        </ul>
-                    </li>
-                   <li>Left: Six <i>supra-national</i>  ECB board members in Frankfurt/Germany</li>
-                   <li>Geo map: 20 national central bank presidents
-                        <ul>
-                           <li>Mouse over for details</li>
-                        </ul>
-                    </li>
-                    <li>Malta and Cyprus are mostly full members</li>
-                    <li>Liechtenstein, Malta and Cyprus slightly sized up</li>
+                <p>
+                    The map shows the hawkishness score of each ECB Council member. 
+                </p>
 
-                    <!--
-                    <li>Discuss: Tenure ending-starting same year </li>
-                    <li>Discuss: Dove-Hawk-Score for all years vs <i>up to selected</i> yr </li>
-                    -->
+                <p>
+                    It also provides biographical information on each member.
+                </p>
 
-                </ul>
+                <p>
+                    The hawkishness scores on the map are calculated using the full history of the individuals' speeches since their appointment to the ECB Council. The hawkishness scores for each speaker are the average over the hawkishness scores of all speeches held by this person while being a member of the ECB Council.
+                </p>
+
+                <p>
+                    Due to this method of calculation, differences in scores are influenced by the monetary policy environment during an individual's time on the Council.
+                </p>
+
+                <p>
+                    Hover over the map to view the names and biographical information of the individual members of the ECB Council.
+                </p>
+
+
+
             """,
         },
     },
 
 
     {
-        "council_by_6weeks_section": {
+        "council_timeline_section": {
             "de": "Timeline",
             "en": "Timeline ECB-ZEW-Momentum Indicator",
         },
     },
     {
-        "council_by_6weeks_section_subtitle": {
+        "council_timeline_section_subtitle": {
             "de": "(Reden letzte 6 Wochen)",
+            # "en": "(speeches last six weeks)",
             "en": "(speeches per six weeks)",
         },
     },
     {
-        "headline_council_by_6weeks": {
+        "headline_council_timeline": {
             "de": "EZB-Rat insgesamt - Taube-Falke Position über die Zeit ",
-            "en": "ECB Council - effective Dove-Hawk score timeline",
+            # "en": "Timeline ECB-ZEW-Momentum Indicator (speeches last six weeks)",
+            "en": "ECB-ZEW-Momentum Indicator and ECB deposit rate over time",
         },
     },
     {
-        "council_by_6weeks_desc":    {
+        "council_timeline_desc":    {
             "de": "Leitzins Entscheidungen folgen der Dovish-Hawkish Einschätzung der vorangegangenen Kommunikation. Plausibel. Kausalbeziehung nicht beweisbar.",
-            "en": "Rate settings follows Dovish-Hawkish score. Plausible, but causal relation cannot be proved.",
+            # "en": "Rate settings follows Dovish-Hawkish score. Plausible, but causal relation cannot be proved.",
+            "en": "ECB-ZEW Momentum Indicator and ECB deposit rate over time",
         },
     },
     {
-        "council_by_6weeks_infobox":    {
+        "council_timeline_chart_series":    {
+            "de": "ECB-ZEW Momentum Indikator",
+            "en": "ECB-ZEW Momentum Indicator",
+        },
+    },
+    {
+        "council_timeline_infobox":    {
             "de": """
                 <ul>
                     <!--
@@ -845,13 +880,26 @@ trlsRaw = [
                 </ul>
             """,
             "en": """
-                <ul>
-                    <!--
-                        ● ➡ ↪
-                    -->
-                    <li>Dovish-hawkish stance every 6-week period</li>
-                    <li>ECB interest rates</li>
-                </ul>
+                <p>
+                    The graph shows the ECB-ZEW Momentum Indicator alongside the ECB deposit rate.
+                </p>
+
+                <p>
+                    The deposit rate is the key rate among central bank rates, as determined by the ECB.
+                </p>
+
+                <p>
+                    The ECB-ZEW Momentum Indicator provides an average hawkishness score based on speeches given by all ECB Council members over the last six weeks.
+                </p>
+
+                <p>
+                    The indicator thus provides current information on the monetary policy stance revealed in the decision-makers' speeches.
+                </p>
+
+                <p>
+                    For more information on the methodology behind the ECB-ZEW-Momentum Indicator, please refer to the Method Paper.
+                </p>
+
             """,
         },
     },
@@ -874,7 +922,7 @@ trlsRaw = [
     {
         "headline_council_barometer": {
             "de": "EZB-Rat Taube-Falke Positionen - Länder und Median",
-            "en": "ECB Council Dove-Hawk positions - countries and median",
+            "en": "ECB Council dove-hawk positions one year – individuals and median",
         },
     },
     {
@@ -892,9 +940,16 @@ trlsRaw = [
                 Maus-Over, um den Vertreter des Landes zu sehen 
             """,
         "en": """
-                Needle shows the median stance of the council:  &nbsp;  <span id="medianVal" ></span> <br> 
-                The circles show the stance of the member countries. <br>
-                Mouse-over, to see the representative of the country. 
+                Needle shows the median score in the Council:  &nbsp;  <span id="medianVal" ></span> <br> 
+
+
+                The circles show the scores of the individual members of the ECB Council.    <br>
+                Hover over circles to see the individual representative of the country.   <br>
+                For the current year, scores are calculated based on speeches given over the last 12 months. <br>
+                For previous years, they are based on speeches given in the respective calendar year.   <br>
+                Values are missing for individuals for whom no speeches exist.   <br>
+
+
             """,
         },
     },
@@ -909,19 +964,24 @@ trlsRaw = [
                 </ul>
             """,
             "en": """
+
+                <p>
+                    The graph shows the hawkishness score for each member of the ECB Council, alongside the median score. 
+                </p>
+
+                <p>
+
+                    The median score divides individuals into two equal groups, one more hawkish and one less. 
+                </p>
+
+                <p>
+                    Thus, the graph conveys an impression of both the majority position and the variance of views in the ECB Council for each year.
+                </p>
+
                 <ul>
                     <!--
                         ● ➡ ↪
                     -->
-                    <li>Panel decisions hinge around the median council member(s)</li>
-
-                    <li>Exchange blue-red direction</li> 
-                        <ul>
-                            <li>Also switch numbers scale -1 is hawkish, +1 is dovish</li>
-                            <li>Change color legend also in council members bio, dovish-hawkish for entire council. </li>
-                            <li>Need the countries in the Pickle file</li>
-                        </ul>
-                    
 
                 </ul>
 

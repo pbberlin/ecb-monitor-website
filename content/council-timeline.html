@@ -282,11 +282,12 @@
         <span>{{i18n.section_home}}</span>
       </a>
       <hr class="sidebar-divider">
-      <a href="/pg/council-geography.html"      >{{i18n.ecb_council_section}}</a>
-      <a href="/pg/council-barometer.html"       autofocus  >{{i18n.barometer_section|safe}}</a>
+      <a href="/pg/council-barometer.html"      >{{i18n.barometer_section}}          <span  class="subtitle"> {{i18n.barometer_section_subtitle}}         </span class="subtitle"> </a>
+      <a href="/pg/council-geography.html"      >{{i18n.ecb_council_section}}        <span  class="subtitle"> {{i18n.ecb_council_section_subtitle}}       </span class="subtitle"> </a>
+
     </div>
 
-    <h3> {{i18n.headline_council_by_6weeks}}
+    <h3> {{i18n.headline_council_timeline}}
       <a href="#" id="btnDlgIco" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
     </h3>
 
@@ -299,8 +300,8 @@
     <!-- option -->
     <div class="options-stat-vars invisible-x" >
       <label title="(Ameco)">
-        {{i18n.headline_council_by_6weeks}}
-        <input type="radio" name="stats_variable" value="council_by_6weeks" >
+        {{i18n.headline_council_timeline}}
+        <input type="radio" name="stats_variable" value="council_timeline" >
       </label>
     </div>
 
@@ -327,8 +328,8 @@
 
   <div class="col col--right control-pad">
 
-      <ul  style="display:none;" class="bullet-container stats-desc" id="council_by_6weeks_desc" >
-        {{i18n.council_by_6weeks_desc|safe}}
+      <ul  style="display:none;" class="bullet-container stats-desc" id="council_timeline_desc" >
+        {{i18n.council_timeline_desc|safe}}
       </ul>
 
       <div id="council_right"
@@ -462,7 +463,7 @@
 
 
     let selectedDataMeta = {
-      "council_by_6weeks": {
+      "council_timeline": {
         "selected_data" : councilBy6Weeks,
         "formatter": (statsValue) => {
           return Math.round(statsValue).toString() + ' %'
@@ -487,7 +488,7 @@
       } ,
     };
 
-    let   selectedVar  = "council_by_6weeks";
+    let   selectedVar  = "council_timeline";
     const rawHash      = window.location.hash;
     const byUrlHash    = rawHash.slice(1);     // remove leading '#' -  ameco_debt_to_gdp or ""
     if (byUrlHash !== ""){
@@ -545,7 +546,7 @@
       console.log(rateSeries);
 
       series1 = {
-        name: 'Opinion Score',
+        name: '{{i18n.council_timeline_chart_series}}',
         type: 'line',
         yAxisIndex: 0,
         data: opinionSeries.map((v, idx1) => {
@@ -856,8 +857,8 @@
           top: 'middle',
           style: {
             image: '/static/img/dovish-hawkish/label-2.png',
-            width:  13,
-            height: 80,
+            width:   14,
+            height: 200,
             opacity: initOpacity + 0.4,
           }
         },
@@ -1136,7 +1137,7 @@
         <button id="btnDlgClose">×</button>
     </div>
     <div id="dlgCnt">
-        {{i18n.council_by_6weeks_infobox|safe}}
+        {{i18n.council_timeline_infobox|safe}}
     </div>
 </dialog>
 

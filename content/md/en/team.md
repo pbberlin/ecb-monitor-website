@@ -48,7 +48,7 @@
 <div class="team-container">
     <div class="team-member">
         <div class="member-info">
-            <a href="https://www.zew.de/{{curLg|safe}}/team/fhe">Friedrich Heinemann </a> 
+            <a href="https://www.zew.de/{{curLg|safe}}/team/fhe">Friedrich Heinemann </a> <br> 
             Scientific Lead
             <!-- Expertise in EU institutions <br> --> 
         </div>
@@ -58,7 +58,7 @@
     </div>
     <div class="team-member">
         <div class="member-info">
-            <a href="https://www.zew.de/{{curLg|safe}}/team/jkp">Jan Kemper </a> 
+            <a href="https://www.zew.de/{{curLg|safe}}/team/jkp">Jan Kemper </a> <br> 
             Researcher<br> 
             LLM Concept 
         </div>
@@ -68,7 +68,7 @@
     </div>
     <div class="team-member">
         <div class="member-info">
-            <a href="https://www.zew.de/{{curLg|safe}}/team/cmb">Carlo Birkholz </a> 
+            <a href="https://www.zew.de/{{curLg|safe}}/team/cmb">Carlo Birkholz </a> <br> 
             Researcher 
         </div>
         <div class="member-photo">
@@ -77,7 +77,7 @@
     </div>
     <div class="team-member">
         <div class="member-info">
-            <a href="https://www.zew.de/{{curLg|safe}}/team/pau">Pascal Ausäderer </a> 
+            <a href="https://www.zew.de/{{curLg|safe}}/team/pau">Pascal Ausäderer </a> <br> 
             Communication 
         </div>
         <div class="member-photo">
@@ -86,7 +86,7 @@
     </div>
     <div class="team-member">
         <div class="member-info">
-            <a href="https://www.zew.de/{{curLg|safe}}/team/jgl">Julia Glashauser </a> 
+            <a href="https://www.zew.de/{{curLg|safe}}/team/jgl">Julia Glashauser </a> <br> 
             Communication
         </div>
         <div class="member-photo">
@@ -95,7 +95,7 @@
     </div>
     <div class="team-member">
         <div class="member-info">
-            <a href="https://www.zew.de/{{curLg|safe}}/team/pbu">Peter Buchmann </a> 
+            <a href="https://www.zew.de/{{curLg|safe}}/team/pbu">Peter Buchmann </a> <br> 
             Technician 
         </div>
         <div class="member-photo">
