@@ -19,8 +19,11 @@ def dateFormat( isoDate = "2026-01-26", lg="de" ):
 
     elif lg=="de" or True:
         try:
+            # this only works on linux - not on windows - windows does not know "de_DE.UTF-8"
             locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
-            return typedDte.strftime("%d. %B %Y")
+            ret = typedDte.strftime("%d. %B %Y")
+            # print(f" auto date {ret} - vs März")
+            return ret
         except Exception as exc:
             return str(exc)
 

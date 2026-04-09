@@ -780,7 +780,7 @@ trlsRaw = [
     {
         "council_by_6weeks_section_subtitle": {
             "de": "(Reden letzte 6 Wochen)",
-            "en": "(speeches last six weeks)",
+            "en": "(speeches per six weeks)",
         },
     },
     {
@@ -828,7 +828,8 @@ trlsRaw = [
     {
         "barometer_section_subtitle": {
             "de": "(Reden über ein Jahr)",
-            "en": "(speeches over one year)",
+            # "en": "(speeches over one year)",
+            "en": "(speeches per year)",
         },
     },
 

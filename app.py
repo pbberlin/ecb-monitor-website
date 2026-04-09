@@ -451,11 +451,15 @@ def handlerBlog(blogType=None, lg=None, md=None):
         content    = innerCnt,
     )
 
-    return render_template(
+    html = render_template(
         "index.html",
         content=outerCnt,
     )
 
+    return Response(
+        html, 
+        content_type="text/html; charset=utf-8",
+    )
 
 
 
