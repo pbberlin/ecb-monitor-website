@@ -943,7 +943,8 @@ trlsRaw = [
                 Needle shows the median score in the Council:  &nbsp;  <span id="medianVal" ></span> <br> 
 
 
-                The circles show the scores of the individual members of the ECB Council.    <br>
+                The circles show the scores of the individual members of the ECB Council. <br>
+                "B" means board member.   <br>
                 Hover over circles to see the individual representative of the country.   <br>
                 For the current year, scores are calculated based on speeches given over the last 12 months. <br>
                 For previous years, they are based on speeches given in the respective calendar year.   <br>
