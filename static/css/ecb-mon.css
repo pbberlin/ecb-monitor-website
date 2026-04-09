@@ -343,6 +343,7 @@ dummy {
   align-self: flex-end;
   align-self: flex-start;
   align-self: center;
+  text-align: center;
 }
 
 .sidebar-home-link {
@@ -474,6 +475,11 @@ dummy  {
     margin-bottom:  0.3ch;
     font-weight: bold;
     font-size: 90%;
+}
+
+
+span.subtitle {
+    font-size: 85%;
 }
 
 
