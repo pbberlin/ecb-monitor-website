@@ -169,10 +169,17 @@ code {
       line-height: 2.4;
   }
 
+
+  #dlgCnt p {
+    margin-left: 1ch;
+    line-height: 1.6;
+  }
+
+
   #dlgCnt ul li {
     list-style: circle;
     line-height: 1.6;
-    margin: 0.3ch 0;
+    margin: 0.6ch 0;
     margin-left: 2ch;
   }
 
