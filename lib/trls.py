@@ -68,11 +68,11 @@ trlsRaw = [
         "hp_claim_p1":    {
             "de": """
                 Ein Forschungsprojekt des ZEW - Leibniz-Zentrums für Europäische Wirtschaftsforschung
-                mit Unterstützung der Stiftung Geld und Währung
+                mit Unterstützung der <a style='display:inline; margin: 0;'   target='_blank' href='https://www.stiftung-geld-und-waehrung.de/stiftung-de'> Stiftung Geld und Währung </a>
             """,
             "en": """
                 A research project of ZEW – Leibniz Centre for European Economic Research
-                with support from the Foundation for Money and Currency
+                with support from the <a style='display:inline; margin: 0;'  target='_blank' href='https://www.stiftung-geld-und-waehrung.de/stiftung-de'> Monetary Stability Foundation  </a>
             """,
         },
     },
@@ -83,9 +83,8 @@ trlsRaw = [
                 des ZEW über die EZB und ihre geldpolitischen Entscheidungen. Der Monitor bietet Zugriff auf wichtige ökonomische und fiskalische Daten zum aktuellen Umfeld der Geldpolitik.
             """,
             "en": """
-                "ECB Monitor" provides information on the ECB and its monetary policy decisions
-                from the independent academic perspective of ZEW.
-                It offers key economic and fiscal data on the current monetary policy environment.
+                The ECB Monitor provides background information on the ECB and its monetary policy decisions 
+                from the perspective of independent academic research
             """,
         },
     },
@@ -107,17 +106,35 @@ trlsRaw = [
             """,
             "en": """
                 <p>
-                    In jedem Quartal erfolgt die Publikation des EZB-Momentum-Indikators.
-                    Dieser KI-gestützte Indikator gibt Auskunft über die Botschaft
-                    aus den jüngsten Redebeiträgen von Mitgliedern des EZB-Rats.
-                    Er dient als Frühindikator, ob die EZB eher in eine
-                    expansive oder kontraktive Richtung in ihren geldpolitischen Entscheidungen neigt.                
+                    The ECB Monitor provides the following content
                 </p>
-                <p>
-                    Der EZB-Transparenz-Monitor richtet sich an Akteure in den Medien,
-                    der Finanzindustrie, der Politik und der interessierten Fachöffentlichkeit.
-                </p>
-                <!-- todo  fhe: english translation-->
+
+                <ul>
+                    <li>
+                        The quarterly ECB-ZEW-Momentum Indicator; this indicator presents a text-analytical score of the ECB Council's current monetary policy orientation, based on the most recent speeches by Council members
+                    </li>
+
+                    <li>
+                        Individual scores for the monetary policy positions of all ECB Council members together with bio information.
+                    </li>
+
+                    <li>
+                        Current analytics from ZEW experts.
+                    </li>
+
+                    <li>
+                        Current data on the fiscal and economic environment, including data history for eurozone countries, with easy downloads.
+                    </li>
+
+                    <li>
+                        Current new research insights on monetary policy from academic work.
+                    </li>
+
+                    <li>
+                        The ECB Monitor is intended for a broad audience, including the media, the financial industry, the public sector, and the general public, who are interested in independent background information on monetary policy.
+                    </li>
+
+                </ul>
             """,
         },
     },
@@ -146,10 +163,8 @@ trlsRaw = [
 
     {
         "ecb_momentum_report_headline":    {
-            # "de": "EZB-ZEW-Momentum-Indikator –  Quartals-Bericht",
-            # "en": "ECB-ZEW-Momentum indicator – quartely report",
             "de": "EZB-ZEW-Momentum-Indikator",
-            "en": "ECB-ZEW-Momentum indicator",
+            "en": "ECB-ZEW-Momentum Indicator ",
         },
     },
     {
@@ -169,7 +184,7 @@ trlsRaw = [
     {
         "blog_policy_headline":    {
             "de": "EZB-Watching – der Kommentar",
-            "en": "ECB-Watching – commentary",
+            "en": "Recent expert assessments",
         },
     },
 
@@ -190,7 +205,7 @@ trlsRaw = [
     {
         "section_interest_rates": {
             "de": "Leitzinsen",
-            "en": "Interest Rates",
+            "en": "Interest rates",
         },
     },
     {
@@ -671,7 +686,7 @@ trlsRaw = [
     {
         "section_ecb_council": {
             "de": "EZB-Rat Position",
-            "en": "ECB Council stance",
+            "en": "ECB Council",
         },
     },
     {
@@ -682,16 +697,20 @@ trlsRaw = [
     },
     {
         "ecb_council_label": {
-            # "de": "Biographisches der Mitglieder",
             "de": "EZB-Rat - Geographie",
             "en": "ECB Council - geography",
         },
     },
     {
         "ecb_council_section": {
-            # "de": "Biographisches der Mitglieder",
-            "de": "Nach Geographie",
-            "en": "By geography",
+            "de": "Nach EZB Ratsmitgliedern",
+            "en": "By ECB Council individuals",
+        },
+    },
+    {
+        "ecb_council_section_subtitle": {
+            "de": "(alle Reden)",
+            "en": "(full history of speeches)",
         },
     },
     {
@@ -755,7 +774,13 @@ trlsRaw = [
     {
         "council_by_6weeks_section": {
             "de": "Timeline",
-            "en": "Timeline",
+            "en": "Timeline ECB-ZEW-Momentum Indicator",
+        },
+    },
+    {
+        "council_by_6weeks_section_subtitle": {
+            "de": "(Reden letzte 6 Wochen)",
+            "en": "(speeches last six weeks)",
         },
     },
     {
@@ -796,10 +821,14 @@ trlsRaw = [
 
     {
         "barometer_section": {
-            # "de": "Mehrheitsverhältnisse EZB-Rat",
-            # "en": "Majorities ECB Council",
             "de": "Nach Ländern",
-            "en": "By country",
+            "en": "Majorities ECB Council",
+        },
+    },
+    {
+        "barometer_section_subtitle": {
+            "de": "(Reden über ein Jahr)",
+            "en": "(speeches over one year)",
         },
     },
 
@@ -818,16 +847,16 @@ trlsRaw = [
     {
         # attention: must contain html span element - being updated via JavaScript
         "council_barometer_chart_label": {
-            "de": """
-                    Zeiger:  Median-Position des Gremiums:  &nbsp; <span id="medianVal" ></span>         <br>
-                    Die Kreise zeigen die Position der Länder.              <br> 
-                    Maus-Over, um den Vertreter des Landes zu sehen 
-                """,
-            "en": """
-                    Needle shows the median stance of the council:  &nbsp;  <span id="medianVal" ></span> <br> 
-                    The circles show the stance of the member countries. <br>
-                    Mouse-over, to see the representative of the country. 
-                """,
+        "de": """
+                Zeiger:  Median-Position des Gremiums:  &nbsp; <span id="medianVal" ></span>         <br>
+                Die Kreise zeigen die Position der Länder.              <br> 
+                Maus-Over, um den Vertreter des Landes zu sehen 
+            """,
+        "en": """
+                Needle shows the median stance of the council:  &nbsp;  <span id="medianVal" ></span> <br> 
+                The circles show the stance of the member countries. <br>
+                Mouse-over, to see the representative of the country. 
+            """,
         },
     },
     {

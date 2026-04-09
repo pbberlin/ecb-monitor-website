@@ -434,16 +434,16 @@ dummy  {
 body     main#main a,
 body div.blog-body a,
 dummy  {
-    display:  block;       /* always starts new line  */
-    width:    fit-content; /* shrink to content width */
+
 
     text-size-adjust: 100%;
 
-    height:     auto;
-    box-sizing: border-box;
 
     color:rgb(87, 86, 86);
 
+    line-height: 1.05;
+    padding: 0;
+    margin:  0;
 
     /*
       0px    - horizontal offset (X-axis)
@@ -451,14 +451,15 @@ dummy  {
       0px    - blur radius
       0px    - spread radius
     */
-    box-shadow: rgb(87, 86, 86) 0px 1.2px 0px 0px;
+    /* box-shadow: rgb(87, 86, 86) 0px 1.2px 0px 0px; */
     /* keep the shadow close */
-    line-height: 1.05;
-    padding: 0;
-    margin:  0;
 
-    margin-bottom:  1.5ch;
+    text-decoration:       underline;
+    text-underline-offset:     3px;  
+    text-decoration-thickness: 0.8px;
+
 }
+
 body     main#main a:hover,
 body div.blog-body a:hover,
 dummy  {
