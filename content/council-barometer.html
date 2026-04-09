@@ -208,10 +208,21 @@
   }
 
 
-  /* value computed below by javascript */
   .medianBgColorDYN {
-    color:  #b0b0b0FF;
-    border-radius: 0.3rem;
+      /* value for background-color computed below by javascript */
+      color: black;
+      border-radius: 0.3rem;
+
+
+
+      text-align: center;
+      min-width:  8rem;
+      width:      min-content;
+      width:      max-content;
+      padding:    0.2ch 2ch;
+      margin:     0 auto;
+      margin-top: 1ch;
+
   }
 
 
@@ -301,6 +312,14 @@
       }
 
 
+      .medianBgColorDYN {
+          min-width:  unset;
+          width:      auto;
+          margin-top:    0.5ch;
+          margin-bottom: 2.5ch;
+
+      }
+
 
 }
 
@@ -356,16 +375,7 @@
       style="border-bottom: 0.5px solid grey;"
     ></svg>
 
-    <div  style="
-        text-align: center;
-        min-width:  8rem;
-        width:  min-content;
-        width:  max-content;
-        padding: 0.2ch 2ch;
-        margin: 0 auto;
-        margin-top: 1ch;
-        color: black;
-      " class="medianBgColorDYN" >
+    <div   class="medianBgColorDYN" >
         {{i18n.council_barometer_chart_label|safe}}
     </div>
 
