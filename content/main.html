@@ -30,7 +30,7 @@
         margin:  0.8ch 0;
 
         padding: 1.0ch 2.3ch;
-        padding-bottom: 0.2ch;
+        padding-bottom: 0.4ch;
 
         border-radius: 0.4ch;
         border-top-left-radius:  0;
@@ -65,7 +65,7 @@
     }
 
     div.claim {
-        grid-template-columns: 3fr 1fr 1fr;        
+        grid-template-columns: 3fr 1fr 1fr;
     }
 
 
@@ -104,21 +104,6 @@
     }
 
 
-
-    body main#main div.box1  a,
-    body main#main div.box2  a,
-    body main#main div.box3  a,
-    dummy {
-        margin-left: 0.8ch;
-    }
-
-    body main#main div a.first,
-    dummy {
-        margin-left: 0;
-        font-size: 120%;
-        margin-bottom: 0.9ch;
-    }
-
     body main#main div a.nolink,
     dummy {
         box-shadow: none;
@@ -141,6 +126,40 @@
     }
 
 
+    span.subtitle {
+        font-size:  90%;
+        line-height: 0.9;
+    }
+
+
+
+    body main#main p.first,
+    dummy {
+        display:  block;
+        position: relative;
+        top:      -0.24ch;
+        left:     -0.64ch;
+
+        font-size:     125%;
+        margin-bottom: 0.14ch;
+        xx-border: 1px solid green;
+    }
+
+
+    body main#main div a.first,
+    dummy {
+    }
+
+
+    body main#main  p.second,
+    dummy {
+        line-height:   1.2;
+        margin-bottom: 0.90ch;
+    }
+
+
+
+
 @media screen and (max-width:768px) {
     body main#main {
         display: grid;
@@ -149,7 +168,7 @@
         margin-bottom: 0;
     }
     div.claim {
-        grid-template-columns: 3fr 1fr ;        
+        grid-template-columns: 3fr 1fr ;
         padding:       0.2ch 0.8ch;
         margin-bottom: 0;
     }
@@ -221,7 +240,7 @@
 
     <div class="box1 claim full-width first-box" >
         <p>
-            {{i18n.hp_claim_p1}}
+            {{i18n.hp_claim_p1|safe}}
         </p>
         <img   src="./static/img/logos/guw.png"  alt=""  style=" margin-bottom: -0.2rem; ">
         <img   src="./static/img/logos/zew.svg"  alt="">
@@ -252,12 +271,18 @@
             background-repeat:    no-repeat;
             background-size:       102px 138px;
             background-position:  left -13px top   -1px;
-            padding-left: 122px;
+            padding-left: 103px;
         "
     >
-        <a href="#" class="first nolink" tabindex="-1">{{i18n.headline_news}}</a>
-        <a href="/md/quarterly-report.md"        title="{{i18n.ecb_momentum_report_hint}}"     >{{i18n.ecb_momentum_report_headline}}</a>
-        <a href="/blog/policy/{{curLg}}/newest"  title="{{i18n.ecb_watching_hint}}" autofocus  >{{i18n.blog_policy_headline}} </a>
+        <p class="first">
+            <a href="#" class="first nolink" tabindex="-1">{{i18n.headline_news}}</a>
+        </p>
+        <p class="second">
+            <a href="/md/quarterly-report.md"        title="{{i18n.ecb_momentum_report_hint}}"     >{{i18n.ecb_momentum_report_headline}}</a>
+        </p>
+        <p class="second">
+            <a href="/blog/policy/{{curLg}}/newest"  title="{{i18n.ecb_watching_hint}}" autofocus  >{{i18n.blog_policy_headline}} </a>
+        </p>
     </div>
 
     <div class="box3"
@@ -268,20 +293,38 @@
             background-repeat:    no-repeat;
             background-size:      cover;
             background-size:      115px 142px;
-            background-size:       92px 122px;
+            background-size:       92px 103px;
             background-position:  left -4px top  -8px;
             background-position:  left -2px top  12px;
             background-position:  left -2px top   4px;
-            padding-left: 122px;
+            padding-left: 103px;
 
         "
 
     >
         <!-- Block 1: -->
-        <a href="#" class="first nolink" tabindex="-1"   >{{i18n.section_ecb_council}}</a>
-        <a href="/pg/council-barometer.html"      >{{i18n.barometer_section}}</a>
-        <a href="/pg/council-geography.html"      >{{i18n.ecb_council_section}}</a>
-        <a href="/pg/council-timeline.html"       >{{i18n.council_by_6weeks_section}}</a>
+         <p class="first">
+            <a href="#" class="first nolink" tabindex="-1"           >{{i18n.section_ecb_council}}</a>
+        </p>
+
+         <p class="second">
+            <a href="/pg/council-barometer.html"                     >{{i18n.barometer_section|safe}}
+                <span class="subtitle"    >{{i18n.barometer_section_subtitle|safe}} </span>
+            </a>
+         </p>
+
+         <p class="second">
+            <a href="/pg/council-geography.html"                      >{{i18n.ecb_council_section|safe}}
+                <span class="subtitle"    >{{i18n.ecb_council_section_subtitle|safe}}  </span>
+            </a>
+        </p>
+
+        <p class="second">
+            <a href="/pg/council-timeline.html"                       >{{i18n.council_by_6weeks_section|safe}}
+                <span class="subtitle"    >{{i18n.council_by_6weeks_section_subtitle|safe}}</span>
+            </a>
+        </p>
+
     </div>
 
 
@@ -291,16 +334,26 @@
             background-repeat:    no-repeat;
             background-size:       111px 165px;
             background-position:  left -22px top   -11px;
-            padding-left: 122px;
+            padding-left: 103px;
         "
     >
 
 
         <!-- Block 3: -->
-        <a href="/pg/fiscal-landscape.html" class="first" >{{i18n.headline_fiscal_data|safe}}</a>
-        <a href="/pg/fiscal-landscape.html">{{i18n.debt_to_gdp_label}}</a>
-        <a href="/pg/fiscal-landscape.html#ameco_net_lending">{{i18n.net_lending_label}}</a>
-        <a href="/pg/fiscal-landscape.html#ameco_interest_expenditure">{{i18n.interest_expenditure_label}}</a>
+
+        <p class="first">
+            <a href="/pg/fiscal-landscape.html" class="first" >{{i18n.headline_fiscal_data|safe}}</a>
+        </p>
+        <p class="second">
+            <a href="/pg/fiscal-landscape.html">{{i18n.debt_to_gdp_label}}</a>
+        </p>
+        <p class="second">
+            <a href="/pg/fiscal-landscape.html#ameco_net_lending">{{i18n.net_lending_label}}</a>
+        </p>
+        <p class="second">
+            <a href="/pg/fiscal-landscape.html#ameco_interest_expenditure">{{i18n.interest_expenditure_label}}</a>
+        </p>
+
     </div>
 
 
@@ -311,32 +364,48 @@
             background-repeat:    no-repeat;
             background-size:       111px 165px;
             background-position:  left -22px top   -11px;
-            padding-left: 122px;
+            padding-left: 103px;
         "
     >
 
         <!-- Block 4: -->
-        <a href="/pg/economic-environment.html" class="first" >{{i18n.headline_economic_environment}}</a>
-        <a href="/pg/economic-environment.html#ameco_gdp_growth">{{i18n.gdp_growth_label}}</a>
-        <a href="/pg/economic-environment.html#ameco_output_gap">{{i18n.output_gap_label}}</a>
-        <a href="/pg/economic-environment.html#eurostat_hicp">{{i18n.hicp_label}}</a>
+        <p class="first">
+            <a href="/pg/economic-environment.html" class="first" >{{i18n.headline_economic_environment}}</a>
+        </p>
+        <p class="second">
+            <a href="/pg/economic-environment.html#ameco_gdp_growth">{{i18n.gdp_growth_label}}</a>
+        </p>
+        <p class="second">
+            <a href="/pg/economic-environment.html#ameco_output_gap">{{i18n.output_gap_label}}</a>
+        </p>
+        <p class="second">
+            <a href="/pg/economic-environment.html#eurostat_hicp">{{i18n.hicp_label}}</a>
+        </p>
+
     </div>
 
 
-    
+
     <div class="box3"
         style="
             background-image:     url(/static/img/homepage/monetary-policy--edit.png);
             background-repeat:    no-repeat;
             background-size:       111px 165px;
             background-position:  left -22px top   -11px;
-            padding-left: 122px;
+            padding-left: 103px;
         "
     >
-        <!-- Block 2: -->
-        <a href="#" class="first nolink" tabindex="-1">{{i18n.headline_ecb_monetary_policy}}</a>
-        <a href="/md/interest-rates.md"  >{{i18n.section_interest_rates}}</a>
-        <a href="/md/calendar-ecb.md"    >{{i18n.section_calendar}}</a>
+        <!-- Block 5: -->
+        <p class="first">
+            <a href="#" class="first nolink" tabindex="-1">{{i18n.headline_ecb_monetary_policy}}</a>
+        </p>
+        <p class="second">
+            <a href="/md/interest-rates.md"  >{{i18n.section_interest_rates}}</a>
+        </p>
+        <p class="second">
+            <a href="/md/calendar-ecb.md"    >{{i18n.section_calendar}}</a>
+        </p>
+
     </div>
 
 
@@ -347,12 +416,17 @@
             background-repeat:    no-repeat;
             background-size:       90px 128px;
             background-position:  left -1px top   4px;
-            padding-left: 122px;
+            padding-left: 103px;
         "
     >
-        <!-- Block 5: -->
-        <a href="#" class="first nolink" tabindex="-1">{{i18n.headline_science|safe}}</a>
-        <a href="/blog/science/newest">{{i18n.headline_science_news}}</a>
+        <!-- Block 6: -->
+        <p class="first">
+            <a href="#" class="first nolink" tabindex="-1">{{i18n.headline_science|safe}}</a>
+        </p>
+        <p class="second">
+            <a href="/blog/science/newest">{{i18n.headline_science_news}}</a>
+        </p>
+
     </div>
 
 
