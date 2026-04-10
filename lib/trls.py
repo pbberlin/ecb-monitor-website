@@ -1004,7 +1004,7 @@ trlsRaw = [
     {
         "headline_imprint": {
             "de": "Impressum, Team",
-            "en": "Imprint, Team",
+            "en": "Imprint, team",
         },
     },
     {
@@ -1016,7 +1016,7 @@ trlsRaw = [
     {
         "headline_image_licenses": {
             "de": "Bildnachweis",
-            "en": "Image Licence",
+            "en": "Image licence",
         },
     },
 
