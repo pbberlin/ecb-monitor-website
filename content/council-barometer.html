@@ -560,7 +560,8 @@
     }
     function getScore(entry) {
         if (entry.mean_score === "" || entry.mean_score === null) {
-            return entry.median_score_year;
+            return null;
+            // return entry.median_score_year;
         }
         return entry.mean_score;
     }
@@ -948,6 +949,10 @@
 
 
           const score = getScore(entry);
+          if (score === null) {
+            continue;
+          }
+
           const angle = scoreToAngle(score);
 
           const bucketKey = getAngleBucket(angle);
