@@ -10,7 +10,7 @@ from pandas import Timestamp
 from pandas import NaT # not a time
 NaTType = type(pd.NaT)
 
-from numpy import float64
+from numpy import float64, int32, int64
 
 from collections import defaultdict
 
@@ -42,10 +42,14 @@ def formatValue(key, vl):
         if vl is None:
             return ""
 
-        if isinstance(vl, (int, float)):
+        if isinstance(vl, (int, int32, int64, float)):
             if isinstance(vl, float) and math.isnan(vl):
                 return ""
             if isinstance(vl, int):
+                return f"{vl}"
+            if isinstance(vl, int32):
+                return f"{vl}"
+            if isinstance(vl, int64):
                 return f"{vl}"
             if isinstance(vl, float):
                 return round(float(vl),2)

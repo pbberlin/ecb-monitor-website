@@ -313,10 +313,11 @@
 
 
       .medianBgColorDYN {
-          min-width:  unset;
-          width:      auto;
-          margin-top:    0.5ch;
-          margin-bottom: 2.5ch;
+        border-radius: 0;
+        min-width:  unset;
+        width:      auto;
+        margin-top:    0.5ch;
+        margin-bottom: 2.5ch;
 
       }
 
@@ -488,8 +489,10 @@
     const sliderEl = document.getElementById('yearSlider');
     const labelEl  = document.getElementById('yearLabel');
 
-    sliderEl.max         = String(currentYear-1);
-    sliderEl.value       = String(currentYear-1);
+    // todo - max from data set
+    // todo - adapt the now-12 months
+    sliderEl.max         = String(currentYear-0);
+    sliderEl.value       = String(currentYear-0);
     labelEl.textContent  = sliderEl.value;
 
     const linkDownload   = document.getElementById("linkDownload")
@@ -979,11 +982,11 @@
           let boardMrk = null;
           let boardTxt = null;
           let boardMarkerPos = 2; // 0: Top, 1: Right, 2: Left
-          //    boardMarkerPos = 1; 
+          //    boardMarkerPos = 1;
           if (ecbBoard) {
               boardMrk = document.createElementNS("http://www.w3.org/2000/svg", "path");
               boardTxt = document.createElementNS("http://www.w3.org/2000/svg", "text");
-              
+
               if (boardMarkerPos === 0) {
                   boardMrk.setAttribute("d", `M ${x - 12} ${y} A 12 10 0 0 1 ${x + 12} ${y} Z`);
                   boardTxt.setAttribute("x", x);
