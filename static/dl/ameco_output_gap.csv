@@ -1,7 +1,13 @@
 Country;1999;2000;2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2020;2021;2022;2023;2024;2025;2026;2027
 Austria;1,22677;1,81213;0,70006;-0,06177;-1,1349;-0,87941;-0,84776;0,30644;2,17203;2,06517;-2,5345;-1,52699;0,44927;0,14105;-1,09625;-1,3309;-1,25976;-0,52539;0,4016;1,5486;2,0413;-5,34474;-1,82449;2,29672;0,20178;-1,11777;-1,31903;-1,15719;-0,66076;"Output gap: gap between actual and potential GDP in % of potential GDP
 Source:
-European Commission, AMECO Database, variable code: AVGDGP"
+European Commission, AMECO Database, variable code: AVGDGP
+This variable shows the difference between actual and the potential Gross Domestic Product.
+A positive number indicates a strong economic situation,
+as the actual economic activity is above the level that can be sustained in the long term.
+Conversely, a negative number indicates a weak economic situation,
+as economic activity is below what is possible given the available production factors.
+The data for the current and next year are forecasts provided by the European Commission."
 Belgium;0,96882;2,10441;0,70865;0,11986;-0,95342;0,39656;0,6148;1,2125;2,89445;1,57668;-1,63785;-0,36049;0,07234;-0,75372;-1,26093;-0,4902;-0,19406;-0,35696;-0,20554;0,15506;0,89217;-5,36918;-1,07148;0,87331;0,47864;-0,24979;-0,79746;-1,12408;-1,15379
 Bulgaria;-7,27602;-5,11188;-3,90462;-1,15929;-0,14349;0,42709;1,11346;2,0898;3,11916;3,98515;-1,77493;-0,76549;0,40487;0,50786;-0,87943;-1,9002;-1,21178;-0,58535;-0,23294;-0,28958;1,08284;-4,17289;0,57517;2,10887;0,93955;0,52482;0,29941;0,1776;-0,44717
 Croatia;;;-2,85096;-0,76803;0,73823;1,38006;2,19023;4,1976;6,84744;6,85064;-0,71252;-1,77883;-1,9401;-4,12104;-4,6703;-5,63686;-4,20002;-2,0036;0,25952;1,66652;2,53422;-7,84012;0,55121;4,09113;3,30805;2,33497;1,33097;0,62298;0,02215
