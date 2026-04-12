@@ -21,10 +21,24 @@
 }
 
 
-/* The floating “ECB” shape that text flows around */
+/* fake background - only for development */
+.xx-shapeImage::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    clip-path: var(--shared-polygon-shape);
+    background: rgba(255, 0, 0, 0.2);
+}
+
+
+
+/* The floating shape that text flows around */
 .shapeImage {
 
+    position: relative;  /*  only for fake background */
+    
     float:  left;
+    
     padding:         0;
     margin-left:     0;
     margin-right:    0;
@@ -66,7 +80,7 @@
 
 
     /* image clipping shape */
-    clip-path:    var(--shared-polygon-shape);
+    clip-path:     var(--shared-polygon-shape);
     /* text wrap shape */
     shape-outside: var(--shared-polygon-shape);
 
@@ -76,11 +90,11 @@
     background-size:     cover;
 
     background: url("/static/img/blog/fhe-jkp.jpg") no-repeat;
-    width:               280px;     /* or clamp(180px,  38vw, 340px)  */
-    height:              172px;     /* cropping, to align with text lines */
+    width:               272px;     /* or clamp(180px,  38vw, 340px)  */
+    height:              160px;     /* cropping, to align with text lines */
 
     /* scaling inside cropped area  */
-    background-size:      110% 110%;  
+    background-size:      105% 105%;  
     /* positioning */
     background-position: -17px -10px;
 
@@ -96,9 +110,14 @@
     .shapeImage {
         float: none;
         width: 100%;
+        /* Reset margins for mobile */
         margin: 0 0 1rem 0;
         clip-path: none;
         shape-outside: none;
+        height: auto;
+        /* Ensure it has height on mobile */
+        min-height: 200px;
+        border-radius: 0;
     }
 }
 
@@ -111,5 +130,3 @@
         {{ content | safe }}
     </div>
 </div>
-
-
