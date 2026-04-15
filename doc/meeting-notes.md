@@ -76,3 +76,21 @@ https://github.com/echarts-maps/echarts-countries-js
 * Übersetzung vorbereiten - Info-Texte
 
 * Keine - Navigations-Zwischenseiten aber Sek-Navi links
+
+## Presentation 2026-04-14
+
+* Coloration - an explicit third color for the mid range, for instance yellow between green and red?  
+  Alternatively - stretch the transition range where green merges into red - to provide more nuance
+
+* Accession years of Euro countries - create a list of countries and the years of their becoming Euro zone members.  
+  Filter all statistics javascript files through the accession year constraint. 
+
+* CSV download files for full-history and for 6-weeks-council-stance. 
+
+* Prevent repeated clicking on "play" button
+
+* Creative, artistic redesign based on current draft version
+
+* Speech crawler and LLM extraction automatically  on the server
+
+* ECB session dates and ECB rates should be automatic.
