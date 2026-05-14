@@ -1,0 +1,310 @@
+Speech by François Villeroy de Galhau, Governor of the Banque de
+France
+Sciences Po, 2 April 2026 
+Ladies and Gentlemen,
+Speech
+Published on 2nd of April 2026
+Monetary policy
+“Navigating an uncertain world:
+steering monetary policy in the right
+direction to hold our course”
+
+Thank you for welcoming me to this institution, where I unfortunately did
+not study, but where I had the privilege of teaching economic policy for
+nearly ten years. This evening, I’d like to talk to you about monetary
+policy: the subject may seem technical – I’ll do my best not to be dry and
+to explain it clearly – but it is undeniably essential. And since we set this
+date two months ago, monetary policy has once again become a burning
+issue: at the start of 2026, it was firmly in a good position” of “2+2” – 2%
+inflation and a 2% interest rate – and was almost boring. But today, the
+role of a central banker is to make decisions amid uncertainty, to
+distinguish information from noise, and to remain credible. And it is no
+small matter to discuss this at Sciences Po, where public policy needs to
+be both a technical matter and a question of judgement, trust and
+institutions.
+With the war in the Middle East, we are directly faced with an apparently
+simple question: are we seeing a repeat of 2022, with an energy price
+shock in the wake of a military attack, followed by a surge in inflation not
+seen for decades? (I) Then I will turn to an even less simple question:
+what should we do now? (II) 
+I. Why we are not witnessing a repeat
+of 2022
+Are we going through 2022 once again? The answer at this stage is no.
+But this “no” needs to be explained, as it shapes both our assessment
+and our course of action. Admittedly, the shock appears to be
+significant, particularly as regards oil, since the price of gas was lower
+before the shock of February 2026. 
+
+But we are not in 2022, first and foremost because the macroeconomic
+situation is different. The euro area economy, like that of France, is not
+facing post-pandemic imbalances: strong demand for durable goods,
+particularly in the United States thanks to fiscal support, coupled with
+supply chain pressures, was fuelling inflationary pressures at the time. In
+February 2022, inflation in the euro area was 5.9% (4.2% in France); in
+February 2026, it had fallen to 1.9% (1.1% in France).
+The monetary policy stance is also different today. We are not subject to
+any constraints relating to asset purchases, forward guidance or the
+proximity of the lower bound on interest rates. And the normalisation of
+monetary policy has led to a gradual and predictable reduction in the
+ECB’s balance sheet. 
+This strong starting position is largely due to the episode we went
+through between 2022 and 2025. At the time, there was strong
+inflationary pressure and many feared that a recession would be
+necessary to reduce it. Yet disinflation was achieved without a
+recession: economic activity slowed without collapsing, labour markets
+held up well, and, above all, inflation expectations remained firmly
+anchored. This episode taught us two things. 
+Sources: BCE, Refinitiv, Moyenne sur 3 jours, 31 mars.
+
+First, not all supply shocks are the same. Shocks to energy prices, for
+example, feed through to the prices of other consumer goods, such as
+food. But for energy-importing countries, this amounts to what is
+sometimes referred to as an implicit tax imposed on consumers from
+abroad, which dampens demand for other goods.  While tensions in
+goods transport have temporary effects, a shortage of intermediate
+goods has medium-term repercussions.  The lesson from 2022 is, first
+and foremost, that a supply shock is not necessarily inflationary in the
+long term: it all depends on its propagation. The problem is not just the
+initial impact on energy prices or supplies, but its gradual spillover into
+the domestic components of inflation: wages, service prices, core
+inflation – i.e. excluding energy and food – and inflation expectations. 
+The second lesson concerns the credibility of the central bank. When
+expectations remain anchored, there is no need to overreact by
+aggressively raising interest rates. Once credibility has been established,
+and expectations are therefore firmly anchored, monetary policy can
+respond in an unhurried manner, guided by analysis and judgement,
+rather than applying a mechanical response such as the Taylor rule,
+which recommends setting key interest rates above inflation (in Taylor’s
+original rule, key rates had to be raised by 1.5 percentage points for
+every 1 percentage point rise in inflation).
+i
+ii 
+iii
+Sources: BCE, Bloomberg.
+
+As I have already pointed out,  this could create a virtuous circle:
+because market participants believe in our determination, expectations
+remain more favourable; and because they remain more favourable,
+disinflation is less difficult and therefore less costly in terms of economic
+activity and employment. 
+Credibility is therefore not merely an additional source of comfort; it is a
+key factor in the effectiveness of monetary policy. And this channel of
+expectations does more than just make our task easier: it profoundly
+alters the dynamics of disinflation.  But the still vivid memory of the
+recent shock may have a mixed effect here. On the one hand, this
+memory can make price and wage-setting behaviour more responsive:
+economic agents are mindful of the recent bout of inflation, and their
+expectations may be more sensitive to a new energy shock. On the other
+hand, this same memory also serves as a reminder of the success of
+monetary policy: we have demonstrated our ability to bring inflation back
+towards the target.
+That is why 2026 is, at this stage, different from 2022. But we must
+remain vigilant. 
+II. What should we do now?
+iv
+Source: Bloomberg Note : Moyenne mobile sur 5 jours.
+v
+
+In these (highly) uncertain times, our good position has never been a
+comfortable one.  But we now find ourselves in a more uncomfortable
+situation, for two reasons: we are faced with a high degree of
+uncertainty, and we have to deal with a negative supply shock. 
+Dealing with uncertainty
+As early as 1921, the economist Frank Knight became famous for
+distinguishing between risk – which can be quantified – and uncertainty –
+which cannot. The Iranian crisis illustrates a situation where probabilities
+are ill-defined, where non-linear reactions are possible, and where
+market reactions can be swift and sometimes excessive. In an uncertain
+environment, the use of multiple scenarios is an important tool.  This is
+exactly what we stated in our monetary policy review last June: our
+decisions must take into account “not only the most likely path, but also
+the risks and uncertainties surrounding it”, in particular through “scenario
+and sensitivity analyses”. This is where we are today, thence the three
+scenarios published by the ECB and the Banque de France on 19 March
+and 25 March, respectively.
+vi
+Sources: Bloomberg, Baker et al. (2016)
+vii 
+viii 
+
+The “baseline” scenario would be a significant but temporary shock, with
+limited spillover and firmly anchored expectations. A more “adverse”
+scenario would witness much greater spillover with second-round
+effects, whereby oil prices would reach USD 119 per barrel in the second
+quarter of 2026. Lastly, a “more severe” but less likely scenario would
+combine a larger and more persistent shock with increased financial
+market volatility; oil prices would reach USD 145 per barrel and remain at
+higher levels for a sustained period. Both current and future oil prices
+now exceed USD 100 per barrel, bringing us closer to the intermediate
+“adverse” scenario.
+To identify the most probable scenario, monitoring indicators becomes
+crucial. As Christine Lagarde stressed at the press conference on 19
+March, we are closely tracking developments in the commodities and
+energy markets, as well as the possible re-emergence of supply
+bottlenecks. 
+Sources: BCE, Refinitiv.
+
+This uncertainty also calls for heightened vigilance concerning financial
+stability. Since early March, we have already witnessed tighter financial
+conditions in the markets. Investors have revised their forecasts for key
+interest rates upwards, with two to three rate increases expected by the
+end of the year. Market rates have risen for short term maturities; for
+example, the day-to-day interest rate benchmark for the euro area, the
+2-year €STR, has risen by around 70 basis points since the beginning of
+March, as has the 10-year composite bond yield. 
+Some of this financial tightening is therefore already underway. It is more
+pronounced in countries with greater fiscal vulnerabilities: spreads on
+10-year bonds have widened further – in France, unfortunately, and even
+more so in Italy and the United Kingdom. Unlike in 2022, this very
+fragility requires greater restraint in terms of fiscal support measures.
+Note: Décomposition du taux OIS 10 ans en une composante liée à l'évolution des taux
+courts futurs et une prime de terme estimée à l'aide d'un modèle de structure par terre.
+
+But this trend should not be confused with the current central bank
+action: it results from both a combination of higher inflation
+expectations, higher anticipated interest rates and rising risk premia. If
+this shock were to persist, there would be a risk that this pressure could
+spread to other segments: the equities market, the debt of the most
+vulnerable companies, certain sovereign markets, or non-bank financial
+institutions, including private credit markets. This could lead to financial
+instability. It could also raise another crucial issue, namely the potential
+transmission to the financing of the economy through a tightening of the
+credit conditions offered to households and businesses. 
+Dealing with a negative supply shock
+A second challenge relates to the course of action: such a negative
+supply shock pushes up inflation whilst slowing economic activity, as it
+also squeezes real income and demand. 
+Source: Bloomberg Source: Bloomberg, dernière mise à jour 01/04/2026
+
+The problem is to not let inflation get out of hand, whilst at the same
+time avoiding overreacting to a shock that is, in any case, already
+slowing down the economy. Obviously, our responsibility does not
+concern the price of oil or gas taken in isolation. Our responsibility lies
+more in how this shock will – or will not – feed through to core inflation,
+expectations, financial conditions, and ultimately to price stability over
+the medium term. Our policy response continues to be based around the
+three criteria we have outlined since 2023 – the outlook for inflation
+including inflation expectations –, core inflation and monetary policy
+transmission. In the face of the current supply shock, our focus is
+especially on the first two components. Aside from the initial shock to
+energy prices, the key issue is the pass-through to the domestic
+components of inflation: wages, service prices, inflation excluding
+energy and food, and their future trajectory. This is where persistence
+comes into play. We are therefore paying very close attention to firms’
+price expectations, particularly through our Banque de France monthly
+business surveys, which are excellent indicators of the frequency and
+magnitude of price adjustments. We are also tracking the inflation
+expectations of households as well as wage indicators. 
+Sources: BCE, Banque de France
+
+Monetary policy therefore works in two different stages: in the first
+stage, assessing the intensity and duration of the shock as accurately as
+possible and, crucially, limiting its contagion through second-round and
+indirect effects. 
+So, what can we say about the very latest developments, aside from
+the considerable volatility of statements and information? 
+First, that the prolongation of the conflict is obviously a negative
+factor. As of today, 2 April, we are closer to the intermediate adverse
+scenario than to the baseline scenario adopted by the ECB on 19
+March.
+Second, March inflation figures for the euro area and for France,
+published the day before yesterday, confirm a strong first-round
+effect: energy prices rose by 4.9% in the euro area, and
+consequently, headline inflation climbed by 2.5% in the euro area and
+by 1.9% in France. However, core inflation (excluding energy and
+food, which accounts for 73% of the price index in France) has so far
+remained firmly under control in France and the euro area, at 1.3%
+and 2.3%, respectively.
+Source: Bloomberg, calculs Banque de France. Dernière mise à jour: 27/03/2026
+
+Nevertheless, the utmost vigilance is required: market inflation
+expectations have risen sharply; we do not yet have those of
+businesses and households. And our macroeconomic models may
+underestimate more negative microeconomic consequences:
+disruption to certain supply chains for plastics or other related
+products; and the temptation for companies – even in other sectors
+not directly affected by the initial shock – to ‘pre-empt’ price
+increases.
+It is far too early to predict a timetable for ECB interest rate rises but
+it is clear that we have the capacity to act when and in whatever way
+necessary. Obviously, the next change in key interest rates is highly
+likely to be upwards.
+Finally, allow me to dispel a misconception: “monetary policy is not
+suited to France, which has the lowest inflation in the euro area.” Let us
+remember that monetary policy targets the entire euro area, not a single
+country. In France, the recent low level of inflation is an advantage for
+competitiveness and purchasing power. But this is attributable to
+specific and partly temporary factors: changes in electricity prices since
+February 2025 and French characteristics that result from the previous
+shock — less exposure to gas, the energy price shield, and more
+frequent wage negotiations, leading to faster disinflation in service
+prices. Moreover, France was less exposed than other euro area
+economies to the 2021–22 energy crisis: HICP inflation peaked at 10.6%
+in the euro area, compared with 7.3% in France. Above all, comparing a
+10-year rate with current monthly inflation is not the correct economic
+calculation. To gauge the real relevant rate, one must subtract expected
+inflation over the coming years. However, over a 5- or 10-year horizon,
+French inflation expectations are anchored to the same benchmark as
+those of the euro area. 
+
+I shall conclude by returning to the title of my speech: we must navigate
+in an increasingly uncertain world. As Edgar Morin so nicely put it, “We
+try to surround ourselves with as many certainties as possible, but living
+means navigating a sea of uncertainty, through small islands and
+archipelagos of certainties where we replenish our supplies.” Clearly,
+we cannot command the wind or the sea. We do not choose geopolitical
+conflicts, the conditions for navigation through the Strait of Hormuz or
+their impact on oil prices, but we do know our starting and finishing
+points. We started out from a good position, facing significantly less
+inflationary pressure than in 2022. At the finish, we have an unwavering
+determination to stabilise inflation at 2% in the medium term. Our course
+remains clear: price stability, because that is our mandate, and because
+that is what our fellow citizens expect, in the service of purchasing
+power, confidence in the currency and the strength of our economy.
+Households and businesses can have confidence in the central bank:
+between 2023 and 2025, we were able to bring inflation back towards
+our target without causing a recession. And mark my words, this time
+even more so, we will act without haste but without any hesitation if this
+proves necessary. Thank you for your attention.
+ ix 
+
+ Villeroy de Galhau (F.) (2024), Monetary Policy in Perspective (II): Three
+landmarks for a future of “Great Volatility”, Speech, London School of
+Economics, London, 30 October.
+ Kharroubi (E.), Smets (F.) (2024), “Energy shocks as Keynesian supply
+shocks: Implications for fiscal policy”, European Economic Review, 170,
+104875.
+ Elsayed (M.), Marx (M.), Grosse-Steffen (C.) (2025), Global sectoral
+supply shocks, inflation, and monetary policy, Banque de France Working
+Paper Series No. 1026, 22 December.
+ Villeroy de Galhau (F.) (2024), A Monetary Policy Perspective: Three
+lessons from the recent inflation surge, Speech, University of New York,
+New York, 22 October.
+ Dupraz (S.) and Marx (M.) (2025)The benefits of well-anchored inflation
+expectations, Blog post 396, Eco Notepad, Banque de France, 20 March.
+ Villeroy de Galhau (F.) (2025), “About our monetary policy: A good
+position but not a comfortable, nor a fixed one",  CEPR Paris Symposium
+2025, Paris, 5 December.
+  Knight (F.H) (1921) Risk, Uncertainty, and Profit, Boston, Hart,
+Schaffner & Marx; Houghton Mifflin Company, 1921, pp. 19-20.
+ ECB (2025) The ECB’s monetary policy strategy statement, June § 9:  
+“The Governing Council   […] takes into account not only the most likely
+path for inflation and the economy but also surrounding risks and
+uncertainty, including through the appropriate use of scenario and
+sensitivity analyses”.
+ Morin (E.) (2020), “Nous devons vivre avec l’incertitude" target="_blank",
+interview, CNRS Le Journal, 6 April
+Download the full publication
+Updated on the 2nd of April 2026
+i
+ii
+iii
+iv
+v
+vi
+vii
+viii
+ix
+“Navigating an uncertain world: steering monetary policy
+in the righ... (PDF - 510.08 KB)
+

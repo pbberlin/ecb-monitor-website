@@ -1,0 +1,613 @@
+TM
+Interconnect to stabilize: cross-border payments  
+in a fragmenting world 
+Keynote Speech by Fabio Panetta*  
+Governor of Banca d’Italia
+Chair of the Committee on Payments and Market Infrastructures
+Embassy of Italy to the United Kingdom, ‘Cross-border payments  
+at a turning point’
+London, 5 May 2026
+Introduction
+At the heart of every financial system lies its payments infrastructure, which enables money 
+to move safely and efficiently between people, firms, and governments, at home and across 
+borders. 
+But payments are far more than a technical utility. They are a critical enabler of the widespread 
+acceptance of money and its effective use in practice. 
+Without a reliable payment system, money cannot fully perform its role as a means of 
+payment – and trust in the financial system ultimately rests on that foundation. This is why 
+payments sit at the intersection of monetary policy, financial stability and financial inclusion. 
+Cross-border payments remain the most glaringly unfinished business of financial 
+modernization. Domestic payments have been transformed over the past two decades 
+– faster, cheaper and available around the clock. Yet the moment a payment crosses a 
+border, it often enters a world that still runs on slow rails, characterized by fragmented 
+rules and high costs.
+This is no longer just a test of financial efficiency. It is becoming a test of whether the global 
+economy can remain connected in a world increasingly exposed to strategic rivalry. 
+Today, I will examine why this gap persists and chart a course towards faster, cheaper and 
+more inclusive cross-border payments – one that can help jurisdictions navigate towards a 
+more open and interoperable global system. 
+* I would like to thank Alberto Di Iorio, Thomas Lammer and Antonio Perrella for their valuable insights 
+and contributions; Valentina Memoli for editorial support.
+
+2
+1. Why enhancing cross-border payments matters – the economic case
+Enhancing cross-border payments is not simply a matter of convenience. It is essential 
+for a more efficient and inclusive global economy. Two considerations stand out.
+First, more efficient cross-border payments support trade and integration. For a business serving 
+international customers or sourcing goods abroad, reliable payment channels are as vital as the 
+ships, trucks and planes that move the goods.  Households, too, increasingly transact across 
+borders – buying online or sending money to family members overseas. Yet these payments 
+too often still move through inefficient channels, constraining commerce and investment.
+Second, improvements in cross-border payments would make the greatest difference 
+for the most vulnerable. Over the last decade, remittances have increased by 60 
+per cent 1 and are likely to continue rising amid growing migration flows. In some 
+countries, more than one adult in three receives international remittances (Figure 1). 
+Low-value remittances can carry prohibitive fees. In Sub-Saharan Africa, sending 
+$200 through formal channels can cost $20 or more. These costs act as a shadow tax 
+on labour income earned abroad and discourage the use of formal channels, pushing 
+individuals towards informal and less secure alternatives. 2
+In 2024, remittances to low- and middle-income countries reached $650 billion, an 
+amount broadly comparable to the combined value of foreign direct investment and 
+official development assistance (Figure 2). 3 Lowering remittance costs to the G20 and 
+UN target of 3 per cent would generate savings of between $7 and $22 billion per 
+year,4 directly benefiting many low-income households and communities.
+Figure 1
+Share of adults who received an international remittance  
+in 2024 in selected countries
+(per cent)
+ 0
+10
+20
+30
+40
+50
+ 0
+10
+20
+30
+40
+50
+Senegal
+Tajikistan
+Kosovo
+Gambia
+Dominican
+Republic
+Honduras
+Comoros
+Lesotho
+Mauritania
+Venezuela
+Source: L. Klapper, D. Singer, L. Starita and A. Norris,  ‘The Global Findex Database 2025: Connectivity and Financial 
+Inclusion in the Digital Economy’ , World Bank, 2025. 
+
+2 3
+In some countries, corporates and households are turning to stablecoins for remittances 
+and cross-border payments. 5 The appeal is understandable: faster transfers and, for 
+users faced with weak currencies or capital controls, a store-of-value alternative outside 
+fragile domestic systems.
+Yet the evidence on their efficiency remains inconclusive. 6 A preliminary analysis by 
+Banca d’Italia shows that stablecoin-based solutions offer no systematic cost advantage. 
+Costs differ markedly across corridors and are strongly influenced by on- and off-ramp 
+fees, reaching 9 per cent in some cases. 7
+The risks, however, are real: vulnerability to runs, threats to monetary sovereignty in 
+smaller economies, irreversible losses from operational failures – due to lost keys, coding 
+flaws and cyberattacks – and serious financial integrity concerns where private wallets 
+operate on opaque networks. 8 And a fundamental question persists: who manages 
+disputes when payments occur on a borderless ledger with no jurisdictional anchor? 
+Nonetheless, these risks are not a reason to close the door on innovation. Several 
+jurisdictions are adopting dedicated regimes that help mitigate them, 9 and where 
+sound regulation is in place, stablecoins will have a role to play for specific corridors.
+However, regulation alone is not sufficient. We also need efficient payment solutions 
+anchored in the safety of central bank money. The answer is not regulation alone, but 
+better alternatives – and many are already operational, with more under development.
+2. Why cross-border payments underperform
+International payments face structural challenges rooted not just in technical limitations, 
+but also in the way cross-border arrangements are organized.
+Figure 2
+External financial flows to low and middle-income countries (1)
+(billions of US dollars)
+    0
+  250
+  500
+  750
+1,000
+    0
+  250
+  500
+  750
+1,000
+2016 2017 2018 2019 2020 2021 2022 2023 2024
+Foreign direct investment Official development assistance Remittances
+Source: World Bank, World Development Indicators.
+(1) Nominal values. Official Development Assistance data for 2024 are not yet available.
+
+4
+First, cross-border payments are inherently complex, involving multiple jurisdictions, 
+currencies and time zones. Transactions must navigate a patchwork of legal regimes, 
+compliance obligations, data protection rules, capital controls and supervisory 
+authorities. Where rules and procedures are not harmonized, establishing effective 
+governance frameworks is difficult. Moreover, sending money across regions with 
+large time zone differences can be particularly burdensome, as delays in clearing and 
+settlement raise liquidity costs and constrain international financial flows.
+Second, this complexity is compounded by the fragmentation of the technical 
+infrastructures underpinning cross-border payments. Unharmonized messaging 
+standards and legacy formats often lack the structured information needed for 
+straight-through processing and effective compliance screening, leading to delays, 
+manual interventions and false positives.
+Third, the correspondent banking model – long the backbone of international payments 
+– has become more concentrated and less competitive,10 keeping costs high and leaving 
+some markets underserved. 11 For geographically distant jurisdictions or thinly traded 
+currencies, transactions may have to travel through long chains of intermediaries. Each 
+link adds processing steps, compliance checks, reconciliation and costs. 12 
+Finally, foreign-exchange (FX) conversion costs remain a major obstacle. They reflect 
+limited liquidity in many local currency markets, the frequent use of major reserve 
+currencies as intermediaries, and limited competition in FX provision – the latter 
+compounded by insufficient transparency in retail pricing to individuals. These costs, often 
+passed on to end users, are further inflated by the significant funding challenges faced by 
+intermediaries due to the need to pre-position liquidity across multiple currencies.
+These problems cannot be solved by technology alone. They require action to harmonize 
+rules and standards, expand interoperability 13 and foster competition – supported, but 
+not substituted, by innovation.
+3. The G20 Roadmap on cross-border payments: the initial response 
+In 2020, the G20 launched a comprehensive programme to enhance cross-border 
+payments, known as the G20 Roadmap. 14 
+Six years on, considerable progress has been made in identifying the structural frictions 
+and shaping practical policy responses. 15 The Committee on Payments and Market 
+Infrastructures (CPMI) has played a leading role in strengthening messaging standards, 
+improving payment system design, and enhancing the arrangements that support  
+cross-border payments (see Appendix). 
+The CPMI has developed practical frameworks to help payment system operators extend 
+operating hours,16 broaden access to new participants, such as non-bank payment service 
+providers,17 harmonize application programming interfaces (APIs) 18 and strengthen the 
+governance and oversight of interlinking arrangements. 19 One major achievement has 
+been the development of harmonized ISO 2002220 message data requirements.21 
+
+4 5
+These policy efforts have started to yield tangible signs of change in payment systems 
+across the globe. According to the latest monitoring survey, 22 approximately 80 per cent 
+of payment systems have either already migrated to ISO 20022 messaging for domestic 
+payments or plan to do so (Figure 3). The proportion of fast payment systems (FPSs)23 and 
+real-time gross settlement (RTGS) systems24 providing direct access to non-bank payment 
+service providers has also increased, reaching 45 and 39 per cent respectively (Figure 4). 
+Figure 3
+ISO 20022 adoption (1)
+(per cent)
+FPS RTGS
+2023 2024 2025 2023 2024 2025
+  0
+ 25
+ 50
+ 75
+100
+  0
+ 25
+ 50
+ 75
+100
+Processes ISO 20022
+Plans to process
+Considering but no firm plans
+No plans and not considering
+Source: T. Lammer, F . Leppanen and F . Semorile, ‘Enhancing crossborder payments step by step: insights from the 2025 
+monitoring survey’ , CPMI Brief, forthcoming.
+(1) As a percentage of 45 FPSs for 2023 and 2024 and 57 FPSs for 2025, and 69 RTGS systems for 2023, 71 RTGS 
+systems for 2024 and 80 RTGS systems for 2025. The category ‘considering but no firm plans’ was not included as a 
+separate category in the 2023 survey.
+Figure 4
+Non-bank payment service providers’ access to payment systems (1)
+(per cent)
+FPS RTGS
+2024 2025 2024 2025
+  0
+ 25
+ 50
+ 75
+100
+  0
+ 25
+ 50
+ 75
+100
+Direct access
+(with or without access to credit)
+Can send directly
+without settlement account
+Can send indirectly
+without settlement account
+No access
+Source: T. Lammer, F . Leppanen and F . Semorile, forthcoming, op. cit.
+(1) As a percentage of 45 FPSs for 2024 and 56 FPSs for 2025, and 62 RTGS systems for 2024 and 69 RTGS systems for 2025.
+
+6
+Moreover, the number of FPSs planning to establish new cross-border links doubled in 
+2025 (Figure 5).
+Despite these positive developments at infrastructure level, none of the four G20 
+targets – speed, cost, transparency and access – has been achieved for remittances: 25 
+For example, the global average cost remains close to 6.4 per cent, more than double 
+the 3 per cent target set for end-2030. 26 
+The main obstacles are both structural and domestic. Structural because they stem from the 
+complexity of managing multiple currencies, time zones, fragmented rules, standards and 
+infrastructures across borders. Domestic because many bottlenecks reflect national policy 
+choices beyond the direct reach of central banks or international bodies such as the G20. 
+Yet the world in which the Roadmap was conceived is no longer the world in which it 
+must now be implemented. 
+4. The geopolitical complication 
+Cross-border payment infrastructures are not neutral channels. They are part of 
+the broader international monetary and financial system and reflect its underlying 
+distribution of economic weight. The central role of the dollar – and, to a lesser extent, of 
+the euro – means that a large share of global payment, clearing and settlement activity 
+is concentrated in a limited number of jurisdictions. This centrality has long supported 
+efficiency, liquidity and stability, but it also carries strategic implications.
+Figure 5
+FPS plans to establish interlinking arrangements (1)
+(per cent)
+  0
+ 25
+ 50
+ 75
+100
+  0
+ 25
+ 50
+ 75
+100
+2023 2024 2025
+Cross−border links
+are planned (2023)
+Cross−border links are planned
+or under preparation (2024 and 2025)
+Exploratory work
+is being conducted (2024 and 2025)
+No plans
+Source: T. Lammer, F . Leppanen and F . Semorile, forthcoming, op. cit.
+(1) As a percentage of 45 FPSs for 2023 and 2024, and 57 FPSs for 2025. The 2025 and 2024 surveys included categories 
+on ‘plans and preparations’ , ‘exploratory work’ and ‘no plans’ while the 2023 survey only included categories on ‘plans’ and 
+‘no plans’ .
+
+6 7
+This became particularly evident following Russia’s invasion of Ukraine. In response, a 
+broad coalition of countries introduced coordinated financial sanctions. Access to SWIFT 
+was suspended for designated financial institutions, and certain official reserve assets 
+held in sanctioning jurisdictions were immobilized.27 
+These measures were not arbitrary; they reflected the collective response of sovereign 
+states to an armed conflict widely regarded as a violation of international law. They 
+demonstrated that payment infrastructures are not merely technical arrangements, but 
+instruments of economic statecraft embedded in the geopolitical landscape.
+At the same time, some countries and regional groupings have stepped up their efforts 
+to strengthen monetary sovereignty and reduce external dependencies. New payment 
+arrangements, alternative messaging systems and regional settlement initiatives are 
+emerging – some driven by resilience, others by strategic autonomy.28
+This raises the risk of fragmentation. A proliferation of parallel systems – weakly 
+connected or politically segmented – would reduce interoperability, increase costs 
+and erode the efficiency gains the G20 Roadmap seeks to deliver, particularly for  
+low-income countries.
+These developments raise fundamental questions about whether the G20 Roadmap can 
+retain the political support and global relevance it needs. 
+5. Mapping the road ahead
+The answer is not to retreat behind parallel systems, but to reaffirm the Roadmap’s 
+purpose in a changed environment. Fragmentation would deliver neither resilience nor 
+sovereignty – only higher costs, shallower liquidity, and new divisions, with the heaviest 
+burden falling on the economies least able to bear it.
+These are not abstract concerns, and the political resolve needed to keep the global 
+payments system open and connected cannot be taken for granted. Yet precisely because 
+the stakes are high, the case for collective action is stronger, not weaker. 
+Advancing this agenda, however, also demands bold action at the domestic level. 
+Inefficiencies tend to concentrate in the first and last mile of international payments, 
+where domestic frameworks and policies apply, many of which lie beyond the remit 
+of central banks and international institutions. Progress therefore requires decisive 
+action at national level by a broad set of public authorities and industry.
+With this in mind, the CPMI and the Financial Stability Board (FSB) are encouraging 
+individual jurisdictions to volunteer and develop their own Multi-stakeholder Action 
+Plan – in short, a national MAP for cross-border payments. Each MAP should reflect 
+the jurisdiction’s unique starting point and domestic priorities, while setting out a 
+coherent strategy that builds on and complements the work already done at the 
+international level, in order to make cross-border payments faster, cheaper, more 
+transparent and more inclusive. 
+
+8
+Progress will be most effective if jurisdictions structure their MAPs around three key 
+coordinates. 
+First coordinate: National payment infrastructures
+First, strengthening national payment infrastructures. 29 Extending operating hours 
+and widening the global settlement window 30 are practical steps that can materially 
+improve end-to-end speed. Full adoption of ISO 20022 – the lingua franca  of payments 
+– will provide the common data foundation needed for straight-through processing, 
+greater automation, including in AML/CFT controls, and lower operational costs. 31
+Strengthening national payment infrastructures also means building tomorrow’s system 
+– one that fully harnesses new technologies. Even as digital transformation reshapes 
+the monetary architecture, its foundations remain intact. Technology can enhance how 
+money works, but it cannot be a substitute for the credibility of an independent central 
+bank or for the authority of the State, on which monetary trust ultimately rests.32 Central 
+bank money must remain the ultimate settlement asset, interacting with private payment 
+solutions seamlessly so that innovation is both efficient and safe.33
+Second coordinate: Regulation
+Second, improving regulation – with a particular focus on competition, transparency 
+and security. 
+Regulation must reinforce competition by creating a level playing field between 
+banks and non-bank providers of cross-border payments. 34 Transparency is equally 
+important: users should be able to compare fees, FX rates, mark-ups and execution 
+times at a glance. The harmonized implementation of the Financial Action Task Force 
+(FATF) ‘Travel Rule’ 35 will also reinforce security by reducing errors and fraud, while 
+helping detect financial crime. 
+Finally, data frameworks – the regulatory requirements for collecting, storing and 
+managing data – should enable data exchange across borders, while being anchored 
+in the highest standards of privacy and security. 36 This goal calls for the systematic 
+involvement of Data Protection Authorities, whose expertise is indispensable in aligning 
+payment efficiency and financial crime compliance with data protection principles. 
+Third coordinate: Global reach
+Third, safeguarding openness, interoperability and global reach. In an era of strategic 
+rivalry, lower costs and faster payments only matter if the underlying rails remain 
+accessible, resilient and trusted.
+Two interlinkage models are emerging – bilateral and multilateral – and a genuinely 
+multipolar architecture will need both. 
+
+98
+Regional hubs harness network effects and economies of scale where economic 
+integration and strategic alignment run deep; bilateral links offer simplicity, flexibility 
+and agile governance to connect major corridors and hubs with one another. 
+This layered structure lets jurisdictions recalibrate agreements as priorities and alliances 
+evolve, while preserving the autonomy of domestic systems and strengthening 
+resilience. Europe is already moving in this direction: TIPS, the Eurosystem instant 
+payment system, has become the regional platform for cross-border payments and is 
+being connected bilaterally with other countries. 37
+Completing the MAP: Collaboration and capacity building
+These three coordinates must be underpinned by two cross-cutting commitments. 
+First, public-private collaboration. 38 Policymakers can provide regulatory clarity, and 
+central banks can set common standards, but without sustained industry action – 
+automating compliance, advancing interoperability, and improving transparency for 
+end users – reforms will inevitably fall short.
+Second, capacity-building and technical assistance. International organizations can help 
+emerging and developing economies to upgrade their systems, adopt global standards 
+and connect to regional infrastructures. Economies with more mature systems have a 
+particular responsibility to lead by example – strengthening their own systems, linking 
+them across borders, and innovating within sound and open governance structures 
+– and technical cooperation can naturally evolve into broader regional integration. 39 
+Finally, it is important that jurisdictions share their experience with each other, within 
+and beyond the G20. 40 
+Conclusion
+The G20 Roadmap has set the course. Now, it is up to each jurisdiction to map its own 
+route by translating the global agenda into domestic action. For those economies still 
+lagging behind, multi-stakeholder action plans offer a concrete path to strengthen 
+domestic infrastructures, remove bottlenecks, and ensure that progress is not confined 
+to a few jurisdictions. For more advanced economies, the action plans represent an 
+opportunity – and a responsibility – to lead by example.
+Efficiency alone, however, is not enough. Faster, cheaper, more transparent and 
+more accessible payments are only meaningful if the underlying rails remain open, 
+interoperable, resilient and trusted. In an era of growing strategic rivalry, preserving a 
+global system that remains connected rather than divided is not simply desirable – it 
+is indispensable.
+Interconnect to stabilize. That is the guiding principle – and the only path forward.
+
+
+
+APPENDIX
+Overview the CPMI’s contribution to the G20 Roadmap  
+for enhancing cross-border payments
+Source: CPMI. 
+(1) CPMI, Enhancing cross-border payments: building blocks of a global roadmap. Stage 2 report to the G20, July 2020.
+
+(2) CPMI, Enhancing cross-border payments: building blocks of a global roadmap. Stage 2 report to the G20 – technical 
+background report, July 2020 . – (3) H. Attia, M. Glowka, A. Illes and T. Lammer, ‘Monitoring cross-border payment 
+developments: a regional analysis of AMF member countries’ , CPMI Brief, 2, 2024 . – (4) E. Fitzgerald, A. Illes and  
+T. Lammer, ‘Steady as we go: results of the 2023 CPMI cross-border payments monitoring survey’, CPMI Brief, 5, 2024. –  
+(5) E. Fitzgerald, A. Illes, T. Lammer, F . Leppanen and F . Semorile, ‘Moving on up: results of the 2024 cross-border 
+payments monitoring survey’, CPMI Brief, 10, 2025. – (6) T. Lammer, F . Leppanen and F . Semorile, ‘Enhancing cross-
+border payments step by step: insights from the 2025 monitoring survey’, CPMI Brief, forthcoming. – (7) CPMI, Harmonised 
+ISO 20022 data requirements for enhancing cross-border payments. Report to the G20 , October 2023. – (8) CPMI, 
+Harmonised ISO 20022 data requirements for enhancing cross-border payments. Updated report , February 2026. – 
+(9) Cross-border payments interoperability and extension taskforce, Fostering ISO 20022 harmonisation . Consolidated 
+report, January 2025. – (10) Cross-border payments interoperability and extension taskforce, Fostering ISO 20022 
+harmonisation. Follow-up report, February 2026. – (11) CPMI, Promoting the harmonisation of application programming 
+interfaces to enhance cross-border payments: recommendations and toolkit. Report to the G20 , October 2024. –  
+(12) D. Chamberlain, A. Ismail, M. Kroon, T. Lammer and P . Makgetsi, ‘Safety and efficiency through payment  
+pre-validation: spotting issues before money moves’, CPMI Brief, 9, 2025. – (13) CPMI, Improving access to payment 
+systems for cross-border payments: best practices for self-assessments , May 2022. – (14) CPMI, BIS Innovation Hub, 
+IMF and World Bank, Options for access to and interoperability of CBDCs for cross-border payments. Report to the 
+G20, July 2022. – (15) CPMI, Extending and aligning payment system operating hours for cross-border payments. 
+Final report, May 2022. – (16) CPMI, Operational and technical considerations for extending and aligning payment 
+system operating hours for cross-border payments: An analytical framework. T echnical report , February 2023. –  
+(17) J. Choolhun, C. Conesa, E. Fitzgerald, M.J. García Ravassa and T. Lammer, ‘Changing the clock: practical approaches 
+to extend payment system operating hours’ , CPMI Brief, 6, 2025. – (18) Cross-border payments interoperability and 
+extension taskforce, Extending and aligning RTGS operating hours , March 2025. – (19) CPMI, Interlinking payment 
+systems and the role of application programming interfaces: a framework for cross-border payments. Report to the 
+G20, July 2022. – (20) CPMI, Linking fast payment systems across borders: governance and oversight. Final report 
+to the G20 , October 2024. – (21) A. Di Iorio, E. Fitzgerald, T. Lammer and T. Rice, ‘Regional payment infrastructure 
+integration: insights for interlinking fast payment systems’ ,  CPMI Brief, 4, 2024. – (22) CPMI, BIS Innovation Hub, 
+IMF and World Bank, Central bank digital currencies for cross-border payments. Report to the G20 , July 2021 . –  
+(23) CPMI, Liquidity bridges across central banks for cross-border payments. Analysis and framework, September 2022. –  
+(24) CPMI, Facilitating increased adoption of payment versus payment (PvP). Final report , March 2023. – (25) CPMI, 
+BIS Innovation Hub, IMF and World Bank, Exploring multilateral platforms for cross-border payments , January 2023. –  
+(26) CPMI, Considerations for the use of stablecoin arrangements in cross-border payments. CPMI Report , October 
+2023. – (27) CPMI, Service level agreements for cross-border payment arrangements: recommendations and key 
+features. CPMI Report, April 2024. – (28) Cross-border payments interoperability and extension taskforce, FX settlement 
+risk mitigation in (wholesale) cross-border payments, March 2025.
+ENDNOTES
+1 Value of remittances, in nominal terms.
+2 For example, according to a recent study, between 17 and 25 per cent of migrants remit funds 
+via informal channels in some African jurisdictions (see O. Alper, M. Camino, A. Garcia Vargas and  
+B. Savonitto, ‘Remittance behaviors among migrant communities evidence from Ethiopian and 
+Nigerian senders’, September 2025).
+3 In 2023, the combined value of foreign direct investment and official development assistance received 
+by low- and middle-income countries amounted to approximately $650 billion (see World Bank, 
+World Development Indicator Database). Data on official development assistance for 2024 are not yet 
+available.
+4 Assuming an average cost of between 4.1 and 6.4 per cent. These estimates are based on the World 
+Bank’s Remittance Prices Worldwide report for Q3 2025, which reflects the average cost for sending 
+$500 and $200.
+5 For example, the total value of crypto-assets received by Sub-Saharan Africa, Latin America, and 
+Eastern Europe increased by approximately 40 per cent from 2023 to 2024, likely driven by stablecoin-
+based remittances (see IMF, ‘Crypto-assets monitor’, 23 May 2025). 
+6 Evidence on the cost of stablecoin-based cross-border payments is mixed. The 2024 Geography of 
+Crypto Report by Chainalysis indicates that, in Sub-Saharan Africa, some stablecoin transfers can be 
+considerably cheaper than traditional remittance channels. Certain industry sources also report very 
+low fees for stablecoin transactions (see the Coinbase Institute website, ‘ Crypto and Remittances ’).  
+However, other analyses find that these advantages are not consistent across corridors: FXC Intelligence, 
+for instance, shows that stablecoins only outperform traditional transfers in specific cases (L. Ingham,  
+C. Tyndall, A. Lawal and D. Webber, ‘The state of stablecoins in cross-border payments: the 2025 
+industry primer’, FXC Intelligence, 17 July 2025). Moreover, recent empirical work indicates that 
+12
+
+13
+stablecoin transactions – even before accounting for on-ramp fees – can exceed the G20 cost targets 
+and, in some instances, be significantly higher (L. Nestor, ‘Stablecoin performance in cross-border 
+payments: evidence from a digital dollar wallet’, September 2025). 
+7 A. Di Iorio, E. Di Stefano, M. Mascioli and G. Trebeschi, ‘Are stablecoins efficient for remittances? 
+Evidence from a mystery shopping exercise by the Bank of Italy’, Banca d’Italia, mimeo, 2026. 
+8 P. Angelini, ‘Crypto-assets, stablecoins, and anti-money laundering’, opening remarks at the 5th UIF 
+Bocconi Workshop on ‘Quantitative Methods and Fighting Economic Crime’, Rome, 28 November 
+2025.
+9 Notably Europe’s MiCAR and the United States’ GENIUS Act.
+10 Between 2011 and 2022 the number of active correspondent banks fell by 30 per cent globally, with 
+some regions experiencing reductions of up to 50 per cent (see the CPMI quantitative review of 
+correspondent banking data).
+11 Post-crisis prudential and AML/CFT reforms have strengthened financial integrity but, together with 
+low margins, have reduced banks’ participation in less profitable corridors. See FSB, Report to the G20 
+on actions taken to assess and address the decline in correspondent banking, 6 November 2015; T. Rice,  
+G. von Peter and C. Boar, ‘On the global retreat of correspondent banks’, BIS Quarterly Review, March 
+2020.
+12 In a correspondent banking arrangement, the correspondent bank holds deposits owned by a foreign 
+bank (the respondent bank) and provides this respondent bank with payment and other services. See 
+CPMI, Correspondent banking, July 2016. If the bank does not hold an account with a correspondent 
+bank in the destination country, the transaction must be routed through a third party (typically a large 
+international bank that maintains links with both sides). This arrangement adds layers of complexity 
+and cost: multiple currency conversions, mismatched operating hours across time zones, repeated 
+know-your-customer checks, and other bureaucratic hurdles that slow down the process and make it 
+more expensive. 
+13 Interoperability refers to the ability of end users to transact with each other seamlessly across payment 
+systems (see C. Boar, S. Claessens, A. Kosse, R. Leckow and T. Rice, ‘Interoperability between payment 
+systems across borders’, BIS Bulletin, 49, 2021). It operates at three levels: at the technical level, systems 
+share common standards and formats so they can physically connect; at the semantic level, they speak 
+the same language so that data are interpreted consistently across all of them; and at the business 
+level, they agree on the rules – who can participate, under what conditions, and how to handle failures. 
+14 The G20 Roadmap aims to make cross-border payments faster, cheaper, more transparent and more 
+inclusive. Specifically, it seeks to achieve quantitative targets for each of these four objectives and 
+for three different market segments: wholesale, retail and remittances. For the wholesale segment, 
+however, it was deliberately decided not to set a quantitative cost target.
+15 In February 2023, the work was reprioritized around three main priority themes: (a) payment system 
+interoperability and extension, (b) legal, regulatory and supervisory frameworks, and (c) data exchange 
+and message standards.
+16 CPMI, Extending and aligning payment system operating hours for cross-border payments. Final report, 
+May 2022.
+17 CPMI, Improving access to payment systems for cross-border payments: best practices for  
+self-assessments, May 2022.
+18 APIs are a set of rules and specifications to enable software programmes to communicate with each 
+other, which form an interface between different programmes to facilitate their interaction. See CPMI, 
+Promoting the harmonisation of application programming interfaces to enhance cross-border payments: 
+recommendations and toolkit. Report to the G20, October 2024.
+19 CPMI, Linking fast payment systems across borders: governance and oversight. Final report to the G20 , 
+October 2024.
+20 ISO 20022 is a global messaging standard for financial communications, launched by the International 
+Organization for Standardization (ISO) in 2004. It standardizes data objects, rules, and processes to 
+enhance interoperability between financial institutions, market infrastructures, and end users across 
+business domains such as payments, securities, and treasury. ISO 20022 is recognized  in the G20 
+Roadmap for enhancing cross-border payments as a solution to harmonize fragmented messaging 
+12
+
+14
+standards, and improves processing efficiency, reduces costs, accelerates transactions, and strengthens 
+compliance, fraud prevention, and risk management in financial infrastructures.
+21 CPMI, Harmonised ISO 20022 data requirements for enhancing cross-border payments. Updated report, 
+February 2026. 
+22 T. Lammer, F. Leppanen and F. Semorile, ‘Enhancing cross-border payments step by step: insights from 
+the 2025 monitoring survey’, CPMI Brief, forthcoming.
+23 An FPS, also referred to as an instant payment system, is a retail payment system that clears and/
+or settles end-user (or retail) payments in which the transmission of the payment message and the 
+availability of ‘final’ funds to the payee occur in real time or near real time, and on as near to a 24-hour 
+and seven-day (24/7) basis as possible.
+24 An RTGS system is defined as a wholesale payment system that enables the real-time gross settlement 
+of predominantly interbank (or wholesale) payments. RTGS is the continuous process of settling 
+payments on an individual order basis, without netting debits with credits.
+25 FSB, G20 Roadmap for enhancing cross-border payments. Consolidated progress report for 2025 , 9 
+October 2025.
+26 World Bank, Remittance Prices Worldwide Quarterly, 54, September 2025.
+27 Similarly, several Iranian banks were disconnected in 2012, following coordinated sanctions by 
+the European Union and the United States, adopted in response to the expansion of Iran’s nuclear 
+programme in contravention of international agreements.
+28 In 2014, Russia introduced a proprietary messaging system (SPFS) and, in 2015, a card network (Mir) 
+to process domestic payments in the absence of access to SWIFT and international card schemes, 
+respectively. In 2015, China launched the Cross-Border Interbank Payment System (CIPS) to support 
+renminbi internationalization, operating both on SWIFT standards and a parallel proprietary messaging 
+system. Other examples of proprietary messaging systems are India’s Structured Financial Messaging 
+System and Iran’s SEPAM. More recently, BRICS members have also announced new multilateral 
+initiatives – such as the BRICS Cross-Border Payments Initiative and the DLT-based BRICS Pay – aimed 
+at enhancing interoperability among domestic payment systems. See C. Di Luigi and A. Perrella, ‘The 
+architecture of cross-border finance’, Mercati, infrastrutture, sistemi di pagamento, Banca d’Italia, 
+forthcoming.
+29 Recent empirical evidence shows that implementing a domestic fast payment system can also benefit 
+remittances by reducing costs for end users by up to 1 percentage point. See M. Brandi, A. Di Iorio 
+and A. Nobili, ‘Send me money ASAP: fast payment systems and the cost of remittances’, Mercati, 
+infrastrutture, sistemi di pagamento, Banca d’Italia, forthcoming.
+30 The global settlement window is the time period during which the largest number of RTGS systems are 
+operating simultaneously. At present, the global settlement window is generally defined as the time 
+span from 06:00 to 11:00 Greenwich Mean Time (GMT) on business days.
+31 Since 1-3 per cent of payments generate inquiries that typically require 5-10 manual touchpoints 
+and rely heavily on free-format data, a harmonized and global implementation of ISO 20022 will 
+significantly reduce manual effort and accelerate investigations, cutting resolution times by up to 80 
+per cent (see E. Fitzgerald, A. Illes, T. Lammer, F. Leppanen and F. Semorile, ‘Moving on up: results of 
+the 2024 cross-border payments monitoring survey’, CPMI Brief, 10, 2025).
+32 In a two-tier monetary system, central bank money serves as the common settlement asset that 
+eliminates credit risk among private institutions and anchors trust in the broader financial system. 
+Digital transformation does not alter this logic – it reinforces it. What will change is the technological 
+form of this architecture: retail and wholesale central bank digital currencies, tokenized bank deposits 
+and modernized settlement infrastructures will allow it to evolve while preserving its core principles. 
+As payment systems grow more sophisticated and interconnected, the stabilizing role of central bank 
+money becomes more, not less, important. For a fuller discussion, see F. Panetta, ‘The struggle to 
+reshape the international monetary system: slow- and fast-moving processes’, Whitaker Lecture, 
+Central Bank of Ireland, Dublin, 9 December 2025.
+33 The Eurosystem and Banca d’Italia are already moving in this direction, with initiatives such as the digital 
+euro and the Pontes and Appia projects. The digital euro aims to safeguard the role of public money in 
+retail payments. It is an electronic equivalent to cash and would therefore complement banknotes and 
+coins for retail use. The Pontes project, operating on a short- to medium-term horizon and with a Pilot 
+phase planned for 2026, aims to connect DLT platforms with T2, the wholesale payment infrastructure 
+currently used in the euro area, thus extending the use of central bank money to interbank DLT-
+based transactions. The Appia project has a broader, longer-term perspective, envisaging the creation 
+
+14 15
+of a fully DLT-based ecosystem for settling wholesale transactions in central bank money, including 
+cross-border payments.
+34 FSB, Recommendations for regulating and supervising bank and non-bank payment service providers 
+offering cross-border payment services. Final report, 12 December 2024.
+35 The revised FATF Recommendation 16 on payment transparency specifies the information required in 
+payment messages to improve transparency and traceability.
+36 FSB, Recommendations to promote alignment and interoperability across data frameworks related to 
+cross-border payments. Final report, 12 December 2024.
+37 TIPS already settles instant payments in euros, Swedish krona and Danish kroner, with the Norwegian 
+krone expected to join in 2028. On 29 September 2025, the Governing Council of the European 
+Central Bank approved the launch of an exploratory phase to evaluate the potential establishment of 
+a bilateral link between TIPS and the Swiss Interbank Clearing Instant Payments (SIC IP) system. In the 
+same vein, on 20 November 2025, it decided to start the realization phase for interlinking with India’s 
+Unified Payments Interface (UPI), an instant payment system developed by the National Payments 
+Corporation of India and regulated by the Reserve Bank of India.
+38 In Europe, effective examples of stakeholder engagement in the payments sector include cooperative 
+bodies such as the Euro Retail Payments Board (ERPB), the Advisory Group on Market Infrastructures 
+for Payments (AMI-Pay), and national payments committees – such as Italy’s Comitato Pagamenti Italia 
+– where public authorities and market participants jointly address issues relevant to the evolution of the 
+payments ecosystem, under the aegis of central banks. At global level, the FSB brings together senior 
+policymakers and industry leaders through the Payments Summit and legal experts from the private 
+sector through the Legal, Regulatory and Supervisory Task Force. The CPMI provides the platform for 
+two industry groups: the Cross-border Payments Interoperability and Extension (PIE) task force, which 
+provides expert advice on market conventions and industry practices, and the Harmonization Panel on 
+ISO 20022, which promotes and supports industry efforts to adopt the harmonization requirements, 
+to maintain them and, where appropriate, propose updates. 
+39 A concrete illustration is Banca d’Italia’s work with Western Balkan countries to modernize domestic 
+payment infrastructures and lay the foundations for more seamless cross-border payments. As 
+the operator of TIPS, Banca d’Italia is collaborating with the central banks of Albania, Bosnia and 
+Herzegovina, Kosovo, Montenegro and North Macedonia, to provide a TIPS clone. This platform will 
+enable domestic instant payments both in local currencies (where applicable) and in euros (commercial 
+bank money), alongside cross-border and cross-currency functionalities. In addition, the TIPS clone 
+can easily be bilaterally linked with TIPS, highlighting how technical cooperation can evolve into 
+broader regional collaboration by revealing shared priorities and integration opportunities.
+40 For example, the CPMI’s Community of Practice on Payment Systems is a forum for central banks to 
+exchange views on developing or upgrading payment systems, including an international dimension in 
+their desing, and discussing innovative developments. The community brings together representatives 
+from over 60 jurisdictions as well as from regional and international organizations. It was launched in 
+2023 with the aim of strengthening the involvement of both G20 and non-G20 central banks in the  
+cross-border payments programme and supporting the implementation of payment system 
+enhancements.
+
+Printed on EU-Ecolabel certified paper 
+(registration number FI/011/001)
+The life-cycle environmental footprint of the paper used  
+was offset by purchasing carbon credits and planting trees in Italy.
+Designed and printed by the Printing and Publishing Division of Banca d’Italia

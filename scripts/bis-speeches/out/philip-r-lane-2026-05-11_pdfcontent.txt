@@ -1,0 +1,1634 @@
+SPEECH
+Climate change and monetary policy
+Keynote speech by Philip R. Lane, Member of the Executive Board of
+the ECB, at the Climate, Nature and Monetary Policy Conference jointly
+organised by the ECB, the Centre for Economic Transition Expertise
+and the Frankfurt School of Finance and Management
+Frankfurt am Main, 5 May 2026
+Introduction
+Global warming is no longer a distant threat.[ ] The Copernicus Climate Change Service has confirmed that
+2023, 2024 and 2025 were the hottest years in recorded human history (Chart 1, panel a).[ ] The changing
+climate has also increased the frequency and intensity of extreme weather events: more severe
+heatwaves, longer-lasting droughts, heavier rainfall and flooding, and more destructive wildfires, to name
+just some cases (Chart 1, panel b). The evidence indicates that global warming has accelerated, with
+recent studies indicating that the planet is heating faster than at any point since the start of the available
+observational time series in the 1880s.[ ] While climate change transition policies have been implemented
+and are planned in many countries, the world is on a trajectory towards a warming of around 2.8 degrees
+by 2100 under current policies and 2.3-2.5 degrees if all Paris Agreement policy commitments are
+delivered.[ ]
+1
+2
+3
+4
+
+Global warming and the increase in extreme weather events cause substantial economic damage.
+Recent analysis suggests that global GDP per capita would be more than 20% higher today had no
+warming occurred between 1960 and 2019: this corresponds to a 0.3% reduction in the annual growth rate
+over this period.[ ] While climate change might account for only a limited proportion of the annual variation
+in growth rates, its persistence means that its cumulative impact is substantial.
+In response, the European Union has agreed to ambitious climate policy targets, anchored by the Fit for 55
+package - a set of laws adopted in 2023 committing the EU to reducing greenhouse gas emissions by at
+Chart 1
+Climate change and EU climate policies
+Sources: World Meteorological Organization (WMO), International Foundation Big Data and Artificial Intelligence for
+Human Development (IFAB), European Environment Agency (EEA) and ECB staff calculations.
+Notes: Panel a): Average across nine global temperature datasets. Panel b): European Extreme Events Climate Index
+(E3CI), combining seven extremes, including extreme max/min temperature, drought, extreme precipitation, hail, fire,
+extreme wind. Standardised anomaly with respect to the reference values (1981-2010). For each individual category,
+an index above 1 indicates an extreme event. The chart shows the arithmetic average across all seven categories. An
+increasing average score indicates increasingly frequent and severe extreme events. Panel c): As of 2024, 14 EU
+countries have implemented carbon pricing. The red dots refer to EU emission targets. The latest observations are for
+left-hand side chart - 2025, middle chart - 2024 and right-hand side chart - 2024.
+a) Global mean
+temperature anomalies
+b) Extreme weather
+event index
+c) EU greenhouse gas
+emissions and EU
+targets
+(°C compared with 1850-1900
+average)
+(index) (million tonnes of CO2
+equivalent)
+5
+
+least 55% by 2030, on the path to full climate neutrality by 2050 (Chart 1, panel c).[ ] The EU commitment
+to the green transition not only contributes to the required global slowdown in greenhouse gas emissions
+but also increases the resilience of the European economy, including by reducing dependence on imported
+fossil fuels.[ ]
+Overall, both climate change and transition policies are highly relevant for central banks through their
+impact on output and inflation dynamics, together with their impact on asset prices, financial intermediation
+and financial stability.[ ]
+For these reasons, in its 2021 Monetary Policy Strategy Review, the Governing Council committed – within
+its mandate – to ensuring that the Eurosystem fully takes into account the implications of climate change
+and the green transition for monetary policy and central banking.[ ] In line with this commitment, the ECB
+and the Eurosystem have undertaken significant efforts to integrate climate change into their economic
+analysis, modelling and forecasting and their assessment of the transmission, stance and design of
+monetary policy.
+In today's speech, I will describe how the ECB delivers on these commitments in the ways we monitor the
+economy and formulate our monetary policy. In the first part of my speech, I will discuss the economic
+analysis of climate change and the green transition at the ECB. In the second part, I will turn to the
+implications for monetary policy.[ ]
+Economic analysis of climate change and the green transition at the
+ECB
+In this section, I will first discuss how a changing climate affects output and inflation, in the near term and at
+longer horizons. I will then examine the implications of the green transition for the euro area economy.
+Finally, I will discuss how the ECB has expanded its macroeconomic modelling toolkit to incorporate these
+factors and how it applies these expanded models in economic analysis and forecasting.
+The impact of climate change on the euro area economy
+Impact on output
+Extreme weather events disrupt production, affect energy demand and supply, damage property and
+infrastructure, and reduce labour supply. While any individual extreme weather event can be viewed as a
+temporary shock to the economy, the cumulative effects of global warming can lower potential output
+through the degradation and loss of agricultural land, shifts in tourism, higher rates of mortality and
+sickness, climate-induced migration and reduced labour efficiency from higher temperatures.[ ] In addition,
+the uncertainty associated with more frequent extreme events can dampen investment and innovation,
+weighing on future growth trajectories.[ ] As discussed above, the overall weight of analytical and empirical
+research indicates substantial long-run economic damages from climate change, even if the range of
+estimates varies widely.
+6
+7
+8
+9
+10
+11
+12
+
+The slow-moving negative trend contribution of climate change to output is relevant for monetary policy to
+the extent that the trend in potential output anchors the analysis of shocks around the trend: mis-
+identification of the trend in potential output can lead to mis-diagnosis of cyclical shocks. At the same time,
+the primary focus of monetary policy is in managing cyclical shocks. In particular, purely transitory shocks
+need not trigger a monetary policy reaction, whereas longer-lasting persistent shocks may call for an
+adjustment in the monetary policy stance. It follows that, in analysing the cyclical impact of extreme
+weather events, the persistence of the shock plays a central role in determining the implications for
+monetary policy.
+The effects of different types of extreme weather events also vary across countries and sectors. A detailed
+study that assesses impacts from extreme weather in the short-term for Germany, France, Italy and Spain
+reveals that activity in the pharmaceuticals sector appears to suffer especially under extreme heat.[ ] By
+contrast, electricity and gas benefit from a boost in demand due to extreme cold snaps, while supply
+disruptions or efficiency losses under extremely high temperatures curb activity at longer horizons.
+Moreover, mining and construction appear to be particularly vulnerable to extreme rainfall, whereas these
+sectors tend to be favoured by extreme droughts, reflecting the high exposure of their operations to
+precipitation extremes.
+In line with the findings in these studies, firms participating in the Survey on the Access to Finance of
+Enterprises (SAFE) report somewhat heterogeneous views on how important are the consequences of
+climate change (Chart 2). Firms located in parts of southern European countries attribute a higher
+importance to the risk of extreme events (“natural hazard risk” in Chart 2), whereas the risks from nature
+degradation are also assessed as high in parts of Germany and France (“degradation risk” in Chart 2).
+13
+
+Due to relatively low levels of insurance coverage, many firms in the euro area currently have to bear most
+of the costs resulting from such extreme weather events (Chart 3, panel a). Recent research finds that
+closing this climate insurance protection gap could help to lower the impact of natural catastrophes on GDP
+(Chart 3, panel b).[ ]
+Chart 2
+Firms’ assessment of the importance of consequences of climate change for the next
+five-years
+Sources: ECB and European Commission Survey on the access to finance of enterprises (SAFE).
+Notes: The maps show the weighted average score for the importance of consequences of climate change for firms
+over the next five years by main socio-economic regions based on NUTS1 (2016 classification) in the euro area. Firms
+were asked to indicate how important the consequences of climate change (natural hazards, environmental
+degradation, and stricter climate standards) are for their current business model five years ahead on a scale of 1 (not at
+all important) to 10 (extremely important). The weighted average scores at NUTS1 level are averages of the responses
+within each bracket weighted by size class, economic activity, and country to reflect the economic structure of the
+underlying population of firms.
+a) Natural hazard risk b) Degradation risk
+(1980-2023 average; percentages) (x-axis: quarter, y-axis: percentage points)
+14
+
+Impact on Inflation
+Extreme weather events also matter for inflation volatility – with the most direct effect found for the impact
+of summer heatwaves on food prices.[ ] The heatwave during the summer of 2025 is estimated to have
+Chart 3
+Share of insured economic losses related to natural catastrophes in Europe, and impact
+of large-scale disasters on annual GDP growth rate by share of insured loss
+Sources: European Insurance and Occupational Pensions Authority (EIOPA) dashboard on insurance protection gap
+for natural catastrophes, European Environment Agency (EEA) Damaging earthquakes and secondary effects
+database (CATDAT), Emergency Events Database (EM-DAT), Organisation for Economic Co-operation and
+Development (OECD) and authors’ calculations. Giuzio, M., Rousová, L., Kapadia, S., Kumar, H., Mazzotta, L., Parker,
+M. and D. Zafeiris (2026): “Climate change, catastrophes, insurance and the macroeconomy” European Economic
+Review, Volume 182.
+Notes: Chart a - data are available for countries of the European Economic Area. Chart b - based on quarterly panel
+regressions for 45 OECD countries. The two panels in the right-hand side shows the percentage point impact of the
+disaster on the year-on-year annual growth rate at the end of each quarter, from the disaster quarter (t=0) through the
+following three quarters. Large-scale natural disasters are defined as events with total damages exceeding 0.1% of the
+country GDP. The share of insured losses is defined as high when it exceeds the sample median of 35% (right-hand
+side, left panel) and low when it falls below this threshold (right-hand side, right panel). The sample includes 45
+countries for which the OECD provides quarterly GDP data from 1996 to 2019.
+a) Share of insured economic losses
+related to natural catastrophes
+b) Impact of a large-scale disaster
+on the annual GDP growth rate
+(1980-2023 average; percentages) (x-axis: quarter, y-axis: percentage points)
+15
+
+increased unprocessed food prices in the euro area by 0.4 to 0.7 percentage points over the course of one
+year (Chart 5, panel a).[ ] The integration of weather data into non-linear machine learning models
+improves the near-term forecast for unprocessed food inflation, even after accounting for a wide range of
+commodity prices relevant for the agricultural sector (Chart 4).[ ]
+Looking ahead, a 2024 study estimated that future projected temperature increases could push up the
+response of food prices to summer heat further: food prices in Europe could rise by around 1.8 percentage
+points after an extreme summer in the climate that is expected to prevail in the 2060s, relative to a
+hypothetic scenario without any climate change (Chart 5, panel b).[ ] More frequent and more intense
+shocks to food prices in a hotter climate would consequently also increase the volatility of food inflation.
+Food inflation plays an outsized role in determining the perceptions of households about the prevailing
+inflation rate and their near-term inflation expectations.[ ]
+16
+17
+Chart 4
+Forecasting unprocessed food inflation with a Random Forest model: the role of weather
+variables
+(percentage point deviations from long-term model average)
+Sources: Kuik, F., Osbat, C. and Vidal-Quadras Costa, I., forthcoming: Earth, Wind, Fire and grocery bills: exploring the
+forecasting power of weather variables for euro area food inflation, forthcoming.
+Notes: 6-months ahead forecast of unprocessed food inflation using a Random Forest model, with hyperparameters
+tuned based on a training sample from 2000-2015, and the model re-trained with each month of additional data. The
+model uses a wide set of explanatory variables, including weather indicators, global commodity prices relevant for the
+food sector, energy commodity prices, EU agricultural commodity prices, producer prices in the food sector. Each
+variable enters with 1-12 lags, and 12 lags of the target variable (unprocessed food inflation) as well as monthly
+dummies are added. All variables enter without seasonal adjustment. The chart shows 12-months moving averages.
+18
+19
+
+At the same time, the overall impact of climate change on headline inflation is not obvious, since the
+upward impact of negative supply shocks on agriculture and food prices might be offset by climate change
+related negative demand shocks in other components.[ ] A study of the four largest euro area countries
+Chart 5
+Impact of summer heatwaves on food prices
+Sources: ECB analysis based on Kotz, M., Kuik, F., Lis, E. and C. Nickel (2024): 
+ Commun Earth Environ 5, 116.
+Notes: Both charts show the cumulative deviation of prices from baseline after 12 months due to extreme
+June/July/August temperatures. The charts are based on combining elasticities of a 1°C increase in temperatures with
+realised 2025 summer temperatures (chart a) and results from 21 global climate models (chart b). Elasticities are
+estimated with a global panel regression approach, using monthly prices and high-resolution climate data. Chart b:
+Projected temperatures of an extreme summer (i.e., in the upper tail of the temperature distribution) in future climates
+are retrieved from climate model results under an optimistic (“below 2°C by 2100”, Representative Concentration
+Pathway 2.6) and a pessimistic (“hot house world”, Representative Concentration Pathway 8.5) emissions scenario.
+The estimates can be understood as the additional impact on food inflation attributed to future higher temperatures.
+The approach does not make any assumptions about future inflation dynamics, macroeconomic factors or adaptation
+to climate change and can therefore be understood as a stylised sensitivity analysis.
+a) Impact of the 2025 heatwave on
+euro area unprocessed food prices
+after 12 months
+b) Estimated impact of a typical
+summer heatwave on food prices in
+Europe under future projected
+climate
+(percentage points) (percentage points)
+“Global warming and heat
+extremes to enhance inflationary pressures.”
+20
+
+points to generally asymmetric and heterogeneous impacts of higher temperatures on inflation, depending
+on the component, country and timing of the shock.[ ] In particular, increases in inflation rates following
+higher summer temperatures are contrasted with an overall deflationary effect from higher temperatures
+during the other seasons of the year. This is especially pronounced for energy inflation, which drops in
+response to higher winter and spring temperatures, likely linked to a reduction in energy demand for
+heating during warmer spring and winter seasons. The evidence in the literature is also mixed when it
+comes to the impact of other types of extreme weather events or environmental degradation on different
+inflation components and the medium-term outlook for inflation.[ ]
+Looking to the future, the climate-economy relation is non-linear.[ ] The crossing of climate "tipping points"
+could trigger economic disruptions far larger than observed so far if self-reinforcing climate changes
+become irreversible.[ ] How well economies adapt to a warmer climate will also affect the extent to which
+climate change affects the level and volatility of output and inflation, adding a further layer of uncertainty.[ ]
+Challenges and opportunities of the green transition for the euro area economy
+The adverse consequences of climate change underline the urgency of transitioning to net-zero emissions.
+Decisive action to reduce greenhouse gas emissions will most likely be less costly than the macroeconomic
+and societal burden of a world that continues to get hotter.[ ] In the EU, policies and actions to spur a
+green transition are starting to take effect. In addition to the policies at EU level, countries have
+implemented national climate policies.
+Transition policies to meet the EU’s 2030 emissions target are likely to reduce growth and push up inflation
+in the short term. The impact of additional policies needed to meet the EU’s 2030 emission reduction
+target, on top of those that have already been implemented, can be assessed using scenario analysis.
+For instance, the December 2025 Eurosystem macroeconomic projections included scenario analysis to
+trace out the impact of alternative EU transition policies.[ ] If the 2030 target is met solely through higher
+carbon taxes (Chart 6, blue bars), the impact on inflation peaks at 0.4 percentage points above the
+baseline in 2027 and remains elevated until 2030.[ ] However, such a surcharge on the price of dirty
+energy alone cannot deliver the Fit for 55 targets for energy use and clean energy. In the Fit for 55 policy
+mix scenario (Chart 6, yellow bars), which considers a mix of carbon taxes and non-carbon tax elements to
+meet the 2030 emission reduction target, HICP inflation increases to a somewhat lesser extent in 2027 and
+2028.
+At the same time, the higher level of clean energy productivity assumed in this scenario increases the clean
+energy share, and greater substitution elasticities reduce energy consumption, in line with EU targets. This
+higher clean energy efficiency reduces the required carbon tax rates, mitigating both the fall in GDP and
+the increase in inflation. This supports the view that the macroeconomic impacts of transition policies are
+policy mix-dependent, which is also consistent with findings in the broader literature.[ ]
+21
+22
+23
+24
+25
+26
+27
+28
+29
+
+In general, the impact of the green transition on inflation remains uncertain, given that the green transition
+likely incorporates short-run negative supply shocks but longer-run positive supply shocks and also
+operates as multi-layered demand shock (positive for investment but negative for consumption).
+In terms of positive supply shocks, large declines in the costs of transition technologies – notably wind,
+solar and batteries – have resulted in increasingly competitive alternatives to carbon-intensive production
+and power generation (Chart 7). Over time, the greater share of low-carbon electricity sources, and the
+switch of passenger transport away from fossil fuels, is likely to affect the relative price and weight of
+Chart 6
+Impact of climate policy scenarios on output and inflation
+Source: Aguilar García, P., Durero, F., Ferdinandusse, M., Kuik, F. and Priftis, R. (2025): 
+, Eurosystem Staff Macroeconomic Projections for the Euro Area.
+Notes: Charts show the impact of additional measures needed to meet the EU’s 2030 emission reduction target, on top
+of those already implemented at national and EU level, using the New Area-Wide Model (NAWM-E). Scenarios are
+based on the effective carbon price as calculated by the OECD, with the “Fit for 55: carbon tax” scenario satisfying the
+target only through higher carbon prices and the “Fit for 55: policy mix” scenario considering a mix of carbon taxes and
+non-carbon tax elements. The policy mix scenario also meets secondary targets on the clean energy share and energy
+consumption, proxied through a 1.2% increase in clean energy total factor productivity, higher elasticities of substitution
+between dirty and clean energy, as well as between energy and other inputs of production and consumption. The
+impacts are reported relative to the December 2025 projections baseline. Simulations start in 2026 and assume that
+economic agents have perfect foresight regarding the expected future path of the carbon tax and any productivity
+changes. The policy rate remains constant throughout the projection horizon.
+a) Euro area real GDP b) Euro area headline inflation
+(percentages) (percentage points)
+The macroeconomic impact
+of climate change policies in the euro area
+
+electricity and motor fuel within HICP energy, and possibly the weight of energy in the overall basket. For
+example, greater installation of renewable energy capacity is estimated to have already substantially
+lowered electricity costs in Spain.[ ]
+In terms of demand dynamics, some studies find a negative impact, since expectations of lower future
+income depress current demand, driven by the anticipation of higher carbon prices in the future or if the
+costs of the transition are expected to turn out to be higher than the gains in energy efficiency.[ ]
+30
+31
+Chart 7
+Costs of renewable energy
+Sources: Parker and Rodrigues: , ECB Economic Bulletin
+Issue 1/2026, based on International Renewable Energy Agency (IRENA).
+Notes: panel a) levelised costs incorporate the cost of financing, building and operating a new power plant over the
+course of its projected lifespan. The fossil fuel range shown in the chart incorporates the worldwide average levelised
+costs of coal and combined-cycle gas turbines. panel b) for each year, the project-level levelised cost of electricity
+generation for newly deployed renewable energy is compared with the counterpart country or regional-weighted
+average from fossil fuel sources. Where the levelised cost for renewable sources is below that of fossil fuels, the
+project is labelled competitive, whereas it is labelled as needing support when it is above such levels.
+a) Plummeting costs of renewable
+sources of electricity
+b) Worldwide additions of utility
+scale renewable electricity
+(2024 USD/kWh, levelised costs) (gigawatts)
+Overcoming structural barriers to the green transition
+
+Two recent events have provided a stark demonstration of how the green transition generates a wider set
+of gains beyond the decarbonisation of the economy.[ ] Europe was highly vulnerable to the supply
+disruptions and price spikes in fossil energy prices seen when Russia invaded Ukraine in 2022, and again
+at the start of the Iran war in spring 2026. In 2022, this vulnerability led to euro area energy inflation
+peaking above 40%, pushing up headline inflation and subsequently passing through to core inflation.
+Since the start of the Iran war at the end of February 2026, the prices of crude oil, natural gas and refined
+diesel have increased sharply. While the overall impact on euro area inflation will depend on the scale and
+persistence of the shock (together with the strength of indirect and second-round effects), consumer liquid
+fuel prices have already increased rapidly following the developments in wholesale prices, driving up euro
+area energy price inflation sharply from -3.1% in February 2026 to 5.1% in March and 10.9% in April 2026.
+Yet the current energy crisis also shows the potential of renewable and nuclear electricity to shield
+European consumers from fossil fuel price shocks: whereas wholesale – and then consumer – electricity
+prices closely followed developments in gas prices during the 2021/2022 energy shock, their reaction to the
+latest shock has been more muted in countries that have higher shares of renewable or nuclear electricity
+(Chart 8).
+32
+Chart 8
+Low-carbon electricity generation and electricity prices
+Sources: ENTSO-E (European Network of Transmission System Operations for Electricity), Refinitiv and ECB
+calculations
+Notes: The chart illustrates that wholesale electricity prices tend to have reacted less to higher gas prices since the
+start of the Iran war in countries where the share of renewable and nuclear electricity generation is higher. Chart based
+on daily data. Germany, Italy: yellow bars show electricity generation with renewables (no nuclear power in the energy
+mix). Chart shows 7-day moving averages. The “2026 Iran war” vertical line refers to 28 February 2026. The latest
+observations are from 22 April 2026.
+
+Beyond the immediate impact on energy prices, a green transition that reduces dependence on foreign
+inputs and on fossil fuels may eventually help to reduce inflation volatility.[ ] Model-based simulations
+suggest that by reducing the reliance of the services and manufacturing sectors on fossil energy, the
+sensitivity of consumer prices to changes in the prices of energy commodities would fall (Chart 9, panel a).
+With a share of fossil energy 50 per cent lower than under the baseline, inflation volatility decreases
+substantially (Chart 9, panel b). While both the services and manufacturing sectors benefit, it is particularly
+the energy-intensive industrial sectors for which volatility is reduced.
+It follows that a green transition leading to lower dependence on fossil fuel imports could have a triple
+dividend: (a) cutting greenhouse emissions; (b) reducing the impact of global energy shocks on inflation;
+and (c) and increasing energy security.
+33
+
+The additional investment required to overcome the barriers to the green transition is substantial. According
+to recent estimates, changing technologies from carbon-intensive to carbon-free equivalents requires
+additional investment of between 2.7 and 3.7 percent of EU GDP each year until 2030.[ ] These are not
+marginal adjustments and represent a fundamental reorientation of the capital stock of the European
+economy, with ancillary implications for the optimal public financial management.
+In recent years, central bank analysis documents that the Next Generation EU (NGEU) programme, aimed
+at supporting the green and digital transition, led to increased capital expenditure, both through direct
+Chart 9
+Change in inflation volatility and transmission of shocks after the green transition
+Source: ECB staff calculations based on Chafwehe, B., Colciago. A., and Priftis, R. (2025): 
+, European Economic Review Volume 173.
+Notes: The green transition is modelled as an environment where the share of energy from fossil fuels (“dirty energy”)
+is 50% lower (35%) and the elasticity of substitution between dirty and clean energy is 50% higher. Chart a: deviation
+from baseline response without a green transition. The inflationary consequences of a fossil energy price shock are
+lower: as manufacturing relies more on (dirty) energy, the inflationary response after a green transition is relatively
+weaker. Chart b: A green transition lowers inflation volatility by reducing the reliance of the services and manufacturing
+sectors on fossil energy.
+a) Response of inflation to energy
+shocks after a green transition
+b) Inflation volatility before and after
+a green transition
+(x-axis: quarter after the shock, y-axis:
+percentage point deviation from baseline)
+(percentages)
+Reallocation,
+productivity, and monetary policy in an energy crisis
+34
+
+government investment and via transfers to firms.[ ] In the period since the launch of NGEU in 2020, euro
+area firms have overall associated the green transition with positive sentiment for investment, according to
+text analysis of earnings calls in this period.[ ]
+This is consistent with evidence from the ECB’s Corporate Telephone Survey, suggesting that the actions
+needed to address climate change should be supportive of investment. In 2022, the ECB carried out a
+survey of large corporates about the impact of climate change on activity and prices.[ ] The responses at
+the time indicated that climate change and related policies are expected to increase investment, especially
+during the transition phase (Chart 10, panel a). At the time, more than 90% of respondents anticipated
+higher investment during the transition phase, with two-thirds expecting this increase to be significant. And
+even following the transition, 50% thought that investment would still be higher than in a hypothetical
+baseline without any climate change or climate-related policies.[ ]
+In a more recent survey in 2025, the firms identified, on average, more than 10% of their investment as
+being dedicated to the energy transition.[ ] This was broadly comparable to the shares dedicated to
+developing new products and services, rationalisation and efficiency, and the digital transition. Moreover,
+after rationalisation and efficiency and the digital transition, the energy transition was seen as the third most
+important driver of their investment growth in the euro area; ahead of the development of new products and
+services, and ahead of traditional replacement and expansion investment (Chart 10, panel b).
+In the same survey, around three quarters of the firms said that the climate crisis had been important in
+causing them to rethink their investment strategies, although a similar share also cited climate regulation
+and energy costs as factors constraining their investment in the euro area. More broadly, regular contacts
+in the context of the Corporate Telephone Survey also suggest that the energy transition is a very
+prominent factor in firms investment decisions. An analysis of interview summaries of past discussions
+using ECB internal AI tools suggests a sharp increase in references to the energy transition and
+decarbonisation around the turn of the decade whenever firms talked about investment.[ ] Roughly
+speaking, since 2020, if investment was discussed in one or more calls with a particular company in any
+particular year, the chance that the energy transition featured in at least one of these discussions has been
+about one-third, whereas a decade or so ago it was less than one-tenth (Chart 10 panel c).
+35
+36
+37
+38
+39
+40
+
+In terms of overall investment dynamics, there are potential interactions between the green transition and
+the AI transition.[ ] In one direction, if the energy demand of AI is met by fossil fuels – as may be the case
+in the short run, given the pace of renewable deployment – the digital transition could complicate the green
+transition. Conversely, AI itself could be a powerful tool for optimising energy systems, accelerating clean
+Chart 10
+Climate change and investment: insights from the ECB contacts with large firms
+Sources: ECB.
+Notes: Chart a - Respondents were asked in 2022 to assess the overall impact of climate change on different metrics
+against a hypothetical baseline without any climate change or climate-related policies. Chart b - Respondents were
+asked in 2025, “Of your total euro area investment, roughly what share is dedicated to each of the following areas?”
+and “How do you expect your euro area investment in each of these areas to evolve over the next 3 years?”. The
+evolution over the next three years is derived by aggregating the shares of firms replying “decrease by more than 20%”
+(rounded to -20%), “decrease by 5-20%” (averaged to -12.5%), “roughly the same (±5%)” (averaged to 0%), “increase
+by 5-20%” (averaged to 12.5%), and “increase by more than 20%” (rounded to 20%). Chart c - Share of write-ups of
+Corporate Telephone Survey calls featuring references to decarbonisation-related investment as a share of those
+referring to investment generally.
+a) Impact of the green
+transition on
+investment
+b) Investment by asset:
+expected evolution over
+the next three years
+c) References to
+decarbonisation
+investment over total
+investment
+(percentage of responses)(percentage changes over the
+next three years)
+(share of investment
+discussions referring to
+investment in decarbonisation)
+41
+
+technology development, and improving climate modelling.[ ] Understanding their interaction – synergistic
+in some respects, conflicting in others – is essential to enable an accurate medium-term assessment.
+Modelling the impact of climate change and the green transition
+The empirical evidence on the importance of climate change for macroeconomic developments creates a
+clear demand: central banks need macroeconomic models and forecasting procedures that can reflect the
+impact of a changing climate and keep track of the changing structure of the economy.[ ]
+42
+43
+Chart 11
+December 2025 projections: effects of transition policies on headline HICP
+Source: Aguilar García, P., Durero, F., Ferdinandusse, M., Kuik, F. and Priftis, R. (2025): 
+, Eurosystem Staff Macroeconomic Projections for the Euro Area.
+Notes: Chart a – based on Eurosystem National Central Banks’ assessment. Chart b - in the projections baseline,
+country-specific assumptions have been made regarding the speed and timing of the pass-through to consumer prices,
+largely in line with historical patterns, and regarding the way ETS2 is introduced in each country. The scenario analysis
+assumes full and immediate pass-through, and a replacement of national carbon pricing schemes by ETS2 in all
+countries.
+a) Impact of national discretionary
+green fiscal policy measures euro
+area headline HICP
+b) Impact of ETS2 on euro area
+headline HICP in 2028
+(percentage points) (percentage points)
+The macroeconomic impact
+of climate change policies in the euro area
+
+Since 2022, the effects of climate policy measures in the near-term and medium-term are regularly
+assessed in the context of the ECB macroeconomic projections exercises.[ ] The most recent assessment
+– based on the models and data maintained by the national central banks – points to relatively small effects
+on growth and inflation over 2026-2028 from changes in nationally-implemented green discretionary fiscal
+policy measures (Chart 11, panel a).[ ]
+Additional effects come from policies implemented at European level. As regards the existing EU Emissions
+Trading Scheme (EU ETS1), assumptions on its prices are included in the information set underpinning the
+staff projections. Its impact on the euro area economy materialises indirectly, as the ETS1 mainly affects
+the production costs of firms, including production costs in the electricity sector. However, the aggregate
+impact of recent changes in the carbon price under the EU ETS1 on euro area headline inflation has been
+limited.[ ]
+The most notable effect is expected to arise from the planned introduction in 2028 of the new EU
+Emissions Trading System for emissions from transport, building heating and small industrial installations,
+the ETS2. The prices will be determined by the market and there is still uncertainty around how they will
+evolve. Assuming a price of 46 EUR per ton of CO2 in 2028, the Eurosystem staff baseline estimate from
+the December 2025 projections was that the introduction of the ETS2 will add around 0.2 percentage points
+to headline inflation in 2028 (Chart 11, panel b).
+Scenario analysis is a particularly useful tool when it comes to assessing the risks and uncertainties
+surrounding the macroeconomic impacts of climate change: the trajectory and effects of climate change
+crucially depend on how successfully emissions will be reduced, but also on how effectively the economy
+adapts to a warmer climate and more extreme weather. At the same time, there is also still uncertainty
+about the evolution of EU climate policies, in particular carbon price pathways. As an example, the
+December 2025 Eurosystem staff macroeconomic projections assessed the range of likely impacts from
+the introduction of the ETS2 (Chart 11, panel b). Extreme weather events affecting food commodity prices
+were also considered as a risk factor that could push up food prices.
+The ECB has also made considerable progress in developing macroeconomic models that can be used to
+explore the impacts of climate transition policies and their implications for monetary policy conduct.
+Examples include an extension of the main structural models: the New Area Wide Model (NAWM-E), and
+its multi-country counterpart DREAM.[ ] These models include a disaggregated energy sector, where
+energy is used for consumption and production. Energy is produced using a “dirty” composite and a “clean”
+composite, where each composite in turn uses natural resources. Production of dirty energy leads to
+carbon emissions being released as a byproduct.
+The NAWM-E is regularly used to complement the assessment of different climate-related policies in the
+macroeconomic projections (see Chart 7). This analysis complements the assessment of the Eurosystem
+National Central Banks of the impacts of policies implemented at national and EU level, and makes it
+possible to derive the potential effect of additionally necessary climate policy measures in a more stylised
+44
+45
+46
+47
+
+way. Its starting point is the finding of an “emissions gap” – a gap between the likely emission reductions of
+implemented policies, and those needed to meet the EU’s climate goals.
+In order to make the modelling approach more robust, improve our understanding of transmission
+channels, and account for heterogeneity across different models, ECB staff contributed to two model
+comparison exercises to assess the macroeconomic impacts of carbon transition policies and fossil fuel
+price increases: one exercise examined the NAWM-E and other satellite models at the ECB; the other
+exercise ran comparisons with models from other institutions as part of the Network For Greening The
+Financial System (NGFS).[ ] Both exercises indicate that higher carbon prices are associated with a
+moderate decline in output and upward pressure on inflation, with the magnitude of these effects highly
+sensitive to assumptions about the degree to which households are forward or backward looking, energy
+substitutability, renewable supply responsiveness and capital adjustment.
+In the ECB exercise, a stylised carbon tax path aligned with an international net-zero scenario leads to a
+gradual and limited but persistent drop in GDP by 2030 and a moderate, fading inflation impact with some
+differences in near-term inflation dynamics (Chart 12).[ ] In the NGFS exercise, the responses to
+temporary increases in the price of fossil fuel are short-lived for both output and inflation, whereas
+permanent increases cause more persistent output losses and inflation dynamics that depend crucially on
+monetary policy and expectation formation.
+48
+49
+
+While there has been important progress in modelling the macroeconomic impact of transition policies, it
+remains challenging to integrate long-run climate change into higher-frequency macroeconomic models.
+However, it is essential that the two-way interaction between longer-run and shorter-run frequencies is
+properly recognised. For instance, the design of transition policies should take into account not only their
+long-run impact but also their interaction with near-term output and inflation dynamics, taking into account
+the nominal rigidities that shape the immediate responses to policy shifts.[ ] In addition, specific aspects of
+climate change can be captured via dedicated satellite models.
+Chart 12
+Macroeconomic effects of carbon taxes
+Sources: Brand, C., Coenen, G., Hutchinson, J. and A, Saint Guilhem (2023): 
+, ECB Economic Bulletin Issue 5/2023
+Notes: These charts show the impact (range and median) that the carbon tax scenario has on euro area real GDP and
+headline inflation between 2022 and 2030. The scenario is compared with a baseline which assumes that there is no
+further change in the carbon tax and that no climate events occur. Fiscal policy is sufficiently passive and, depending
+on the model, carbon tax revenues are paid back to households as a lump sum or used to reduce public debt. The
+model-specific interest rate responds to a measure of inflation and activity. Panel b): differences in near-term inflation
+dynamics depend on the model type. In DSGE models used, the impact is more frontloaded, with firms setting their
+prices in a more forward-looking manner, also factoring in energy price increases in the future. In other models with
+more backward-looking price-setting behaviour of firms, the inflation impact is more gradual.
+a) Euro area real GDP b) Euro area headline HICP
+(percentage/percentage point deviations from steady
+state)
+(percentage/percentage point deviations from steady
+state)
+The macroeconomic implications of
+the transition to a low-carbon economy
+50
+
+In order to keep up with the changing reality of climate change and the adjusting economy, the Eurosystem
+will need to continue to assess and incorporate the impact of transition policies in its forecasting and
+models.[ ] As the ambitious “Fit-for-55” policies are gradually phased in between 2026 and 2030, it will be
+important to regularly re-assess the macroeconomic effects of these policies in the projections for the euro
+area. Amid a highly uncertain environment, alternative climate scenarios to reflect climate-related risks
+should also increasingly be integrated into macroeconomic models and the analytical framework used for
+the macroeconomic projections for the euro area. And it will be increasingly important to better understand
+the macroeconomic effects of the evolving climate crisis, including climate change adaptation. This includes
+the structural consequences of the green transition, and its linkages with other structural developments
+such as geopolitical fragmentation, fossil energy price shocks, and AI – drawing not only on Eurosystem
+research but also findings from the wider research community.
+Monetary policy implications
+Let me now examine how climate change and the green transition affect our thinking about monetary
+policy. I will first discuss how climate factors can affect the strength of monetary transmission. I will then
+turn to how climate factors can influence the monetary policy stance, both through their contribution of
+macroeconomic shocks and their impact on the neutral rate. Finally, I will outline how climate factors
+influence the design of our monetary policy instruments.
+Monetary policy transmission
+A precondition for monetary policy to be effective is that it transmits smoothly and reliably through the
+financial system and to the spending decisions of firms and households. Climate change and the green
+transition can affect the transmission mechanism in two ways: (i) by independently influencing financial
+conditions that can either reinforce or work against the monetary policy stance; and (ii) by altering the
+sensitivity of firms, households and financial intermediaries to the monetary policy stance.
+Economic research and survey evidence, much of which has been produced at the ECB, provide some
+initial insights into how climate-related factors can affect transmission. Even if the quantitative scale of
+these effects might be limited today, their impact may strengthen in the future as the climate deteriorates
+and the green transition advances. Accordingly, it is appropriate to embed these climate factors into the
+information set underlying our integrated and comprehensive assessment of the transmission process.[ ]
+51
+52
+
+One key transmission channel works through asset prices. Evidence from the earnings calls of a sample of
+US and European firms suggests that the perceived cost of capital has declined for green firms relative to
+brown firms since 2016.[ ] In a related vein, recent ECB research indicates that climate risk weighs
+significantly on long-term corporate bond returns (see Chart 13).[ ] Conversely, bonds that are either
+explicitly labelled as green or issued by firms with strong environmental scores benefit from lower yields
+than otherwise similar securities. This green premium, or “greenium”, varies over time, for instance in
+response to uncertainty about transition policies or the physical effects of climate change.[ ]
+Besides creating an independent source of variation in financial conditions, climate factors may also to
+directly shape the transmission of monetary policy. For instance, some recent evidence for the euro area
+suggests that monetary policy shocks have asymmetric effects on the equity valuations of green and brown
+firms.[ ] This means climate factors may act as a self-standing source of heterogeneity (across firms,
+sectors and regions) in monetary policy transmission.
+Chart 13
+Cumulative returns of long-term bonds regressed on physical risk beta after Paris
+Agreement
+(percentages, out of sample cumulative returns)
+Sources: Bats, J., Bua, G. and Kapp, D. (2024), Bloomberg, iBoxx.
+Notes: Fama-Macbeth cross-sectional regressions of the future cumulative excess returns of long-term bonds. To
+facilitate the economic interpretation of the results, the y-axis shows the average Fama-Macbeth slope coefficients
+multiplied by the difference in the average physical risk beta between lowest and highest portfolios. The data cover the
+period from January 2015 to September 2021, after the (anticipation of the) Paris Agreement. The dotted lines
+represent the 90% confidence intervals using Newey-West adjusted standard errors.
+53
+54
+55
+56
+
+Climate considerations are also relevant for the bank lending channel of monetary policy transmission. In
+particular, banks in the euro area account for climate considerations when deciding on the allocation of
+credit. According to the results of our bank lending survey, lending conditions are easier for firms with low
+carbon emissions or credible decarbonisation plans and tighter for high-emitting firms that lack such plans
+(Chart 14, left panel).[ ]
+Similarly, banks also tend to charge higher lending rates to high-emission than low-emission firms and
+higher rates to firms that lack credible emission reduction targets compared with those firms which have
+committed to reduce carbon emissions (Chart 15).[ ] In addition, the contractionary effect of tighter
+monetary policy on lending is milder for low-emission firms, in terms of both credit standards and loan
+volumes.[ ]
+57
+Chart 14
+Impact of climate change on banks’ credit standards
+(net percentages of banks; over the past 12 months and the next 12 months)
+Sources: ECB Bank Lending Survey (BLS) and Köhler-Ulbrich, P., Schuster Y. and Tushteva, N. (2025), "
+", The ECB Blog, 10 November.
+Notes: Net percentages are defined as the difference between the percentages of banks responding “contributed
+considerably/somewhat to tightening” and the percentages of banks responding “contributed somewhat/considerably to
+easing”. The striped bars denote expectations indicated by banks in the latest round.
+Climate
+performance matters for bank credit in the euro area
+58
+59
+
+Banking supervision plays an important role in this context.[ ] Banks under the ECB’s supervision have
+started to implement frameworks to monitor and manage climate risk and have included climate risk in their
+stress testing frameworks. This encourages banks to take climate risk into account in their credit risk
+management.
+Credit ratings may add to this disciplining effect. In particular, recent research shows that firms with high
+carbon emissions have seen a deterioration in their ratings following the Paris agreement.[ ] At the same
+time, the same analysis indicates that firms can mitigate this adverse effect on ratings by disclosing
+emissions and committing to reduce them.
+While much of the emphasis has been on firms, similar patterns emerge for the household sector. In
+particular, bank lending conditions for residential mortgages are now bifurcated by energy performance:
+conditions are easier for high-performance buildings and tighter for low-performance buildings (Chart 14,
+right panel).[ ] As these differentials widen and are reflected in house prices, the real-estate collateral
+Chart 15
+Average interest rates charged on bank loans
+Source: Altavilla, C., Boucinha, M., Pagano, M. and Polo, A., (2024), “
+”, Working Paper Series, No 2969, ECB .
+a) to low and high carbon-emission
+firms
+b) to firms with and without
+emission reduction targets
+(percentages) (percentages)
+Climate risk, bank lending and monetary
+policy
+60
+61
+62
+
+underpinning much of household credit becomes more climate-sensitive, adding volatility to the wealth and
+balance-sheet channels of transmission.
+Just like for the direct transmission to financial markets, climate factors also affect the bank lending channel
+in two ways: first, climate factors introduce an additional source of variation we need to understand in order
+to judge the prevailing ease or tightness of financing conditions for firms and households; and, second,
+climate factors alter how financing conditions react to a given change in monetary policy.
+Finally, banks are themselves affected. In particular, banks with higher exposure to transition risk face
+elevated borrowing costs in interbank repo markets, a premium that intensifies during periods of financial
+stress (Chart 16). This bank-level fragility can amplify or attenuate the pass-through of the policy rate
+depending on the exact circumstances.
+Chart 16
+Estimated increase in the repo rates of banks associated with a one-standard-deviation
+increase in financed emissions, by repo collateral type
+(basis points)
+Sources: MMSR, AnaCredit, RIAD, EU Emissions Trading System, Eurostat air emissions accounts, Office of Financial
+Research and Giuzio, M., Kahraman, B. and Knyphausen, J. (2026), “
+”, Working Paper Series, No 3168, ECB.
+Notes: Estimates are based on a panel regression in which the dependent variable is the repo rate spread over the
+deposit facility rate of the ECB. The full sample includes all O/N, S/N, and T/N transactions. Results are also reported
+for subsamples of transactions collateralised by bonds issued by non-financial corporations, financial corporations, and
+general government. Financed emissions are measured as banks’ volume-weighted emission intensities at the bank-
+year level, computed from all commercial loans exceeding €25,000 and scaled by bank revenues. Control variables
+include bank size, leverage ratio, liquidity ratio, capital ratio, and return on assets. Periods of financial stress are
+defined as observations in which the Office of Financial Research Financial Stress Index falls within the top tercile of its
+distribution over the period 2019-22.
+Climate change, bank liquidity and systemic
+risk
+
+Over a longer horizon, it is important to recognise that the structure of the European financial system may
+adapt in response to the structural financing needs generated by climate change and the green transition.
+In particular, innovative green technologies inherently carry higher risk, making bank funding more costly
+and less available. The enhanced provision of risk capital via financial markets, supported by progress with
+the EU Savings and Investment Union, could mitigate this challenge.
+This includes expanded roles for equity funding and state-contingent bond funding. For instance, in the
+ECB’s SAFE, firms reported that they consider the equity market as a relevant source for financing the
+green transition.[ ] Conversely, greater use of equity finance tends to go along with lower CO2 emissions,
+in particular by inducing carbon-intensive sectors to reduce emissions relative to output, and potentially
+also by reallocating investment towards less polluting sectors.[ ]
+In relation to the bond market, while the euro area issuance of sustainable bonds has increased in recent
+years, its share in the overall issuance of euro area debt securities has remained limited, standing at
+around 6% in early 2026 (Chart 17). At the same time, the EU is set to become the world’s largest issuer of
+green bonds which may benefit both the environment and the EU if investors are willing to pay a
+“greenium”. As part of the NGEU, the European Commission has pledged to issue up to €250 billion or
+30% of the NGEU bonds, as green bonds, confirming its commitment to sustainable finance and supporting
+the transition towards a greener Europe.[ ] Thus, the EU is not only entering the green bond market, but it
+is also set to become one of the biggest green bond issuers globally.[ ] So far, the EU has issued five
+green bonds that have been absorbed well by investors and amount to €80 billion, while the outstanding
+amount of conventional EU bonds stands at around €674 billion. This suggests that green bonds not only
+support climate-related projects, but also benefit from favourable pricing dynamics, reinforcing their
+importance for the EU in the transition to a sustainable economy.
+If such structural changes in the euro area financial system, like more equity funding and a larger green
+bond market, take place, these will alter the transmission mechanism of monetary policy, with a lower
+relative role for the bank lending channel and a larger relative role for market-based transmission.
+Finally, public support mechanisms, such as subsidised loans and public guarantees, could boost progress
+in the green transition.[ ] While transition and physical risk tighten lending conditions by generating higher
+credit risk, climate-related fiscal support can have an easing impact on bank lending conditions, supporting
+loan demand and fixed investment (Chart 18).
+63
+64
+65
+66
+67
+
+Chart 17
+Euro area issuances of sustainable debt securities
+(Left-hand scale: EUR, outstanding amounts at face value; right-hand scale: percentages)
+Source: Centralised Securities Database (CSDB).
+Notes: Issuance for all levels of assurance. “Share of total euro area debt securities issuance” refers to the amount of
+all sustainable securities categories as a share of all debt securities issued in the euro area. Green bonds are debt
+securities whose proceeds are used to finance projects with clear environmental benefits. Sustainability bonds are debt
+securities whose proceeds are used to finance a combination of both green and social projects. Sustainability-linked
+bonds are debt securities for which the financial and/or structural characteristics can vary depending on whether the
+issuer achieves predefined sustainability/environmental, social and governance (ESG) objectives. Social bonds are
+excluded; these are debt securities whose proceeds are used to finance projects that address social issues and seek
+to achieve positive social outcomes.
+
+The monetary policy stance
+Beyond transmission, climate change and the green transition alter the strategic environment for monetary
+policy in three dimensions: the frequency of shocks; the trade-offs these shocks entail over typical policy
+horizons; and the neutral policy rate.[ ]
+Besides raising the frequency of shocks, the nature of the shocks originating from climate factors poses a
+challenge for the monetary policy stance. This is because physical climate events tend to generate adverse
+supply conditions, at least initially.[ ] For instance, examining extreme temperature events across Europe
+for over a century, recent research documents a tendency for output to fall and inflation to rise, thus
+creating a dilemma between price stability and supporting the economy.[ ]
+At the same time, supply contractions are not the only mechanism through which climate shocks may affect
+the economy. For example, by reducing wealth and income – and thereby causing a risk-induced tightening
+Chart 18
+Impact of selected climate-related factors on bank lending conditions and loan demand
+from firms
+(net percentages of banks)
+Source: ECB Bank Lending Survey (BLS).
+Notes: The chart shows how climate-related factors contribute, according to the banks, to the impact of climate change
+on bank lending conditions and loan demand from firms. For bank lending conditions, positive values denote a
+tightening impact, while negative values denote an easing impact. For loan demand, positive values denote a
+supportive impact, while negative values denote a dampening impact of the respective factors. The last period denotes
+banks’ expectations for the coming 12 months, reported in the third quarter of 2025.
+68
+69
+70
+
+of financing conditions and falling collateral values, as well as a generalised deterioration of confidence, the
+initial supply shock may also weigh on demand.[ ] That may explain why the historical pattern has been for
+central banks to ease monetary policy in response to episodes of abnormally high temperature, in order to
+offset the loss in output rather than leaning against the rise in inflation.[ ]
+However, uniform policy prescriptions cannot be derived from these historical patterns. For instance, if
+climate-related shocks grow more frequent and salient, the risk of de-anchored inflation expectations
+becomes more acute. If so, always looking through climate-driven supply shocks may not always present
+the most appropriate choice.[ ]
+How climate-related disruptions in general, and specific climate events in particular, feed through to
+inflation and the economy in the medium-term remains highly uncertain and dependent on the scale,
+persistence and type of shock, as well as the conditions prevailing at its inception. This uncertainty calls for
+a data-dependent, case-by-case approach to determining the policy response.
+The nature of shocks may also become harder to disentangle as climate change is accompanied by
+mitigation measures. As discussed above, the direct impact of climate change can be viewed as an
+adverse supply shock. While transition measures add to cost-push dynamics (e.g. rising carbon-related
+taxes) to some degree, but also can constitute a positive demand shock through the associated higher
+investment in abatement and mitigation measures.[ ] Furthermore, uncertainty about the future path of
+climate policies is an additional dimension of macroeconomic risk.[ ]
+In terms of the impact of monetary policy on the green transition, monetary policy tightening both slows
+down the transition away from fossil fuels (by lowering oil and gas prices) and worsens the financing
+conditions for green innovators, which tend to be disproportionately reliant on external finance.[ ] Subject
+to the robust anchoring of inflation expectations (as discussed above) and within the context of a medium-
+term inflation-targeting framework, such considerations can be relevant in determining the speed at which a
+central bank returns inflation to target following an inflation shock.[ ]
+At the same time, the scale of the impact of the green transition on inflation and output dynamics is likely to
+remain moderate under realistic policy scenarios. As discussed earlier, ECB analysis of carbon price paths
+consistent with the International Energy Agency’s net-zero scenario finds that their impact on euro area
+GDP and inflation over the current decade would be moderate, with only modest inflation-output trade-offs
+for monetary policy as it seeks to preserve price stability (Chart 19).[ ] However, the flip side of this finding
+is equally important: the estimated reductions in carbon emissions by 2030 under such a path would be
+limited, amounting to around one-quarter of the EU’s intermediate emissions target. Achieving the deeper
+cuts to emissions required to stay on track with EU climate commitments would require substantially higher
+carbon prices, with correspondingly larger effects on inflation and output and more significant trade-offs for
+monetary policy.
+71
+72
+73
+74
+75
+76
+77
+78
+
+Climate change and transition policies may also affect the neutral real interest rate which – in the absence
+of major shocks – stabilises inflation around target and closes the output gap. In particular, key structural
+drivers of the neutral rate, such as productivity growth and the saving-investment balance, are likely to be
+affected by climate change.
+However, the direction of this impact is uncertain in net terms.[ ] For instance, climate damages divert
+resources from innovation and reduce total factor productivity growth.[ ] Moreover, they increase
+precautionary saving as households and firms seek to insure against risk, especially if insurance
+companies retreat following natural catastrophes.[ ] Both effects would tend to depress the neutral rate,
+especially if the supply of safe assets is structurally scarce and inelastic.[ ] By contrast, the massive
+Chart 19
+Monetary policy response to carbon tax policy
+(percentage point deviations from baseline)
+Sources: Brand et al., (2023), op. cit.. Based on results from Coenen, G., Lozej, M. and Priftis, R. (2023),
+“Macroeconomic effects of carbon transition policies: an assessment based on the ECB’s New Area-Wide Model with a
+disaggregated energy sector”, Working Paper Series, No 2819, ECB; May; Priftis, R. and Schoenle, R., “
+”, European Economic Review, Vol 179, October 2025; E Ferrari,
+A. and Nispi Landi, V., (2023), “
+”, International Journal of Central Banking, Vol 19, No 5, December; McKibbin, W.J. and Wilcoxen, P.J.,
+“ ”, Economic Modelling, Vol 16, No 1, January
+1998, pp. 123-148; Hantzsche, A., Lopresto, M. and Young, G. (2018), “
+”, National Institute Economic Review, Vol 244, May, pp. 1-14; and Oxford
+Economics’ .
+Note: The chart displays the impacts (range and median) of the carbon tax scenario on the short-term nominal interest
+rate between 2022 and 2030.
+Fiscal and
+macroprudential policies during an energy crisis
+Toward a green economy: the role of central bank’s asset
+purchases
+The theoretical and empirical structure of the G-Cubed model
+Using NiGEM in uncertain times:
+Introduction and overview of NiGEM
+Global Economic Model
+79
+80
+81
+82
+
+investment needs of the green transition and adaptation, including from fiscal authorities, and the
+innovation incentives created by the deployment of clean technology could raise productivity and push the
+neutral rate upwards.[ ] Given these opposing forces, the net impact on the neutral rate is an empirical
+matter that will be closely monitored by ECB staff.[ ]
+Monetary policy design: greening the ECB’s instruments
+The ECB has so far revised two components in the design of its toolbox of monetary policy instruments.
+First, the Eurosystem introduced a tilting framework for corporate asset purchases that steered
+reinvestments toward issuers with better climate performance. Financial disclosures show that this has
+played a meaningful role in reducing financed emissions in monetary policy portfolios since 2021.[ ]
+Second, in July 2025, the Governing Council decided to introduce a new measure within the collateral
+framework to better manage financial risks related to the climate transition. This will be applicable to
+marketable assets issued by non-financial corporations from the second half of 2026.
+The case for these steps is grounded in risk management as well as in the ECB’s mandate to support,
+without prejudice to price stability, the general economic policies in the EU, including environmental
+protection.[ ] In particular, climate-related risks may weigh on the value of collateral, asset prices and
+credit risk, potentially exposing the Eurosystem balance sheet and affecting the transmission of monetary
+policy. For these reasons, adjusting the portfolio composition and collateral framework to reflect these risks
+is a mandate-consistent response, not an extension of the mandate. The design of the operational
+framework will also aim to incorporate climate change-related considerations into structural monetary policy
+operations.[ ]
+Conclusion
+Let me summarise the main points. First, climate change both reduces the trend level of output and
+increases the volatility of output and inflation, including through the increased frequency and severity of
+extreme weather events. Second, the investment requirements associated with the green transition are
+making a material contribution to investment dynamics. Third, while the rise in carbon-related taxes
+imposes some short-term costs, the shift towards renewables will make the euro area more resilient by
+reducing dependence on fossil fuel imports and should also ultimately reduce the volatility of inflation.
+Fourth, there have been major advances in Eurosystem’s analytical toolkit for assessing the impact of
+climate change on inflation and growth especially in scenario analyses, even if the full incorporation of
+climate change into the ECB’s macroeconomic models is still a work in progress.
+Fifth, in relation to the calibration of the monetary policy stance, the joint impact of climate risk and the
+green transition is both an independent source of variation in financing conditions and also alters the
+sensitivity of the financial system and the economy to shifts in the monetary policy stance.
+Sixth, both physical climate events and transition measures can generate cyclical dynamics that may call
+for a monetary policy response: however, there is no “one size fits all” playbook in terms of determining the
+83
+84
+85
+86
+87
+
+net impact on the stance. Seventh, in related manner, climate risks and transition policies may also
+influence the neutral rate but the net impact remains unclear.
+In the context of high uncertainty about the precise timeline for global warming, a data-dependent approach
+provides the best framework for monetary policy decisions. But the information set we need to track is
+increasingly shaped by the physical and transition dynamics of climate change. That is the challenge and
+the commitment that guides our work.
+1.
+I am grateful to Malin Andersson, Leonardo Carrai, Günter Coenen, Marien Ferdinandusse, Johannes
+Gross, Margherita Giuzio, Federic Holm-Hadulla, Sujit Kapadia, Petra Köhler-Ulbrich, Gerrit Koester,
+Friderike Kuik, Noëmie Lisack, Cristian Marques, Alexandros Melemenidis, Richard Morris, Carolin Nerlich,
+Christiane Nickel, Virginia di Nino, Miles Parker and Romanos Priftis, for their contributions to this speech.
+For previous ECB speeches on climate change and nature degradation, see, amongst other contributions,
+Cœuré, B. (2018), “ ”, speech at a conference on “Scaling up Green
+Finance: The Role of Central Banks”, organised by the Network for Greening the Financial System, the
+Deutsche Bundesbank and the Council on Economic Policies, Berlin, 8 November; Schnabel, I. (2022), “
+”, speech at a panel on “Monetary
+Policy and Climate Change” at The ECB and its Watchers XXII Conference, Frankfurt am Main, 17 March;
+Lagarde, C. (2024), “
+”, speech at the Maurice Allais Foundation, Paris, 7 June; Elderson, F. (2024), “
+”, keynote speech at
+the ESCB Legal Conference, Frankfurt am Main, 6 September; Lagarde, C. (2025), “
+”, speech at Norges Bank’s Climate Conference, Oslo, 21 October. The implications of climate
+change for monetary policy was also extensively studied by Eurosystem staff during the 2021 Monetary
+Policy Strategy Review: see Workstream on climate change (2021), “
+,” ECB Occasional Paper No. 271.
+2.
+The current level of global warming is around 1.4 degrees Celsius above the pre-industrial level. At current
+warming rates, the limit of 1.5 degrees Celsius above pre-industrial levels targeted in the Paris Agreement
+could be reached by the end of this decade. Europe is also warming faster than the global average. See
+Copernicus Climate Change Service (2025), ; Copernicus Climate Change
+Service and World Meteorological Organization (2026), ; and the 
+, the climate change treaty adopted at the UN Climate Change Conference (COP21) in Paris on
+12 December 2015.
+Monetary policy and climate change
+A
+new age of energy inflation: climateflation, fossilflation and greenflation
+Central banks in a changing world: the role of the ECB in the face of climate and
+environmental risks Nature-
+related risk: legal implications for central banks, supervisors and financial institutions
+Europe’s road to
+renewables
+Climate change and monetary policy
+in the euro area
+Global Climate Highlights 2024
+European State of the Climate 2025 Paris
+Agreement
+
+3.
+Foster, G. and Rahmstorf, S. (2026), “ ”, Geophysical
+Research Letters, Vol. 53, No 5, March.
+4.
+United Nations Environment Programme (2025), , 4 November.
+5.
+See Bilal, A. and Känzig, D. (2026), “
+”, The Quarterly Journal of Economics, Vol. 141, No 2. At the same time, there is a wide range
+of estimates of the economic damage from climate change: see also Lemoine, D., Hausman, C. and
+Shrader, J.G. (2026), “ ”: A Guide to Climate Damages,” Journal of
+Economic Literature, forthcoming. Burke, M., Zahid, M., Diffenbaugh, N. and Hsiang, S. (2023),
+“ ”,
+NBER Working Paper Series, No 31658, National Bureau of Economic Research; and Moore, F.C., Drupp,
+M.A., Rising, J., Dietz, S., Rudik, I. and Wagner, G. (2024), “
+”, Proceedings of the National Academy of
+Sciences, Vol. 121, No 52.. Other prominent contributions include: Nordhaus, W.D. (1992), “
+,” Science, Vol. 258, No 5086, pp. 1315-1319; Dell, M.,
+Jones, B. and Olken, B. (2012), “
+”, American Economic Journal: Macroeconomics, Vol. 4, No 3, pp. 66-95; Moore, F.C. and Diaz,
+D.B. (2015), “ ,” Nature Climate
+Change, Vol. 5, pp. 127-131.; Burke, M., Hsiang, S.M. and Miguel, E. (2015), “
+”, Nature, Vol. 527, pp. 235-239. Other related work has focused on
+the economic impact of natural disasters such as storms, heatwaves and El Niño; see, for example, Roth
+Tran, B. and Wilson, D.J. (2024), “ ”, Federal Reserve Bank
+of San Francisco Working Paper Series, No 2020-34; Callahan, C.W. and Mankin, J.S. (2023), “
+”, Science, Vol. 380, No 6649, pp. 1064-1069; or Dingel, J.I.,
+Meng, K.C. and Hsiang, S.M. (2023), “
+”, NBER Working Paper Series, No 25447, National Bureau of Economic Research. See, among
+many others, Fernández-Villaverde, J., Gillingham, K. and Scheidegger, S. (2024), “
+”, NBER Working Paper Series, No 32963; Bilal, A. and
+Stock, J.H. (2026), “ ”, NBER Working Paper Series, No
+33567; Dell, M., Jones, B.F. and Olken, B.A. (2014), “
+”, Journal of Economic Literature, Vol. 52, No 3, pp. 740-798; Hassler, J.,
+Global Warming Has Accelerated Significantly
+Emissions Gap Report 2025
+The Macroeconomic Impact of Climate Change: Global Versus Local
+Temperature
+Navigating the “Problem from Hell
+Quantifying Climate Change Loss and Damage Consistent with a Social Cost of Greenhouse Gases
+Synthesis of evidence yields high social cost of
+carbon due to structural model variation and uncertainties
+An Optimal
+Transition Path for Controlling Greenhouse Gases
+Temperature Shocks and Economic Growth: Evidence from the Last Half
+Century
+Temperature impacts on economic growth warrant stringent mitigation policy
+Global non-linear effect of
+temperature on economic production
+The Local Economic Impact of Natural Disasters
+Persistent
+effect of El Niño on global economic growth
+Spatial correlation, trade, and inequality: Evidence from the global
+climate
+Climate Change
+through the Lens of Macroeconomic Modeling
+A Guide to Macroeconomics and Climate Change
+What Do We Learn from the Weather? The New
+Climate-Economy Literature
+
+Krusell, P. and Olovsson, C. (2024), “
+”, Working Paper, No 24-8, Peterson Institute for International Economics;
+Barrage, L. and Nordhaus, W. (2024), “
+”, Proceedings of the National Academy of Sciences, Vol. 121, No 13; Kahn, M.E.,
+Mohaddes, K., Ng, R.N.C., Pesaran, M.H., Raissi, M. and Yang, J.-C. (2021), “
+”, Energy Economics, Vol. 104; Newell, R.G., Prest, B.C.
+and Sexton, S.E. (2021), “ ”,
+Journal of Environmental Economics and Management, Vol. 108; and the Cross-Working Group Box on
+“ ” in Intergovernmental Panel on Climate
+Change (2022), Assessment Report 6, Working Group 2 on Impacts, Vulnerability and Adaptation, Chapter
+16.
+6.
+The package operates through interlocking instruments. These include strengthened Emissions Trading
+Systems that, taken together, are set to cover around 75 per cent of the European Union’s greenhouse gas
+emissions. The current agreement foresees an expansion of the existing European Emissions Trading
+System (ETS1), and the start of a new, complementary Emissions Trading System (ETS2) to cover
+emissions from road transport, building heating and small industrial installations. A political debate is
+ongoing to review the ETS1 in light of high energy prices, with the European Commission set to present a
+proposal in July 2026. See European Commission (2026), “
+”, press release, 1 April. The ETS1 is complemented by a Carbon Border Adjustment
+Mechanism to impose the same carbon costs on imported goods as faced by European producers. A Social
+Climate Fund will support vulnerable households through the adjustment.
+7.
+Notwithstanding the externality characteristic (whereby the global benefits exceed the domestic benefits),
+Bilal and Känzig (op. cit) calculate that unilateral decarbonisation by a sufficiently-large country may be
+cost effective, in view of the scale of the damages caused by rising global temperatures.
+8.
+See, for example, Kuik, F., Nickel, C., Parker, M. and Modery, W. (2023), “
+”, The ECB Blog, ECB, 18 December.
+9.
+See ECB (2021), “ ”. In its 2025 assessment of its
+monetary policy strategy, the Governing Council extended this commitment to incorporate the impact of
+The macroeconomics of climate change: Starting points, tentative
+results, and a way forward
+Policies, projections, and the social cost of carbon: Results from the
+DICE-2023 model
+Long-term macroeconomic
+effects of climate change: A cross-country analysis
+The GDP-Temperature relationship: Implications for climate change damages
+Estimating Global Economic Impacts from Climate Change
+EU reinforces the stability and predictability of
+its carbon market
+The price of inaction: what a
+hotter climate means for monetary policy
+An overview of the ECB’s monetary policy strategy – 2021
+
+nature degradation. The same externalities that generate unsustainable climate change also threaten
+biodiversity and erode “natural” capital. See also Dasgupta, P. (2021), ,
+Independent Report to the UK Government.
+10.
+My focus is on monetary policy; I do not cover the financial stability risks, nor the implications for banking
+supervision.
+11.
+Parker, M. (2023), “ ”, Economic Bulletin, Issue 6, ECB. In
+addition, the impact of severe weather events at the regional level can far exceed the impact at the national
+level, as illustrated in Usman, S., González-Torres Fernández, G. and Parker, M. (2025), “
+”, European Economic Review, Vol. 178;
+Frost, J., Madeira, C. and Martínez Jaramillo, S. (2025), “ ”, BIS Working
+Papers, No 1314, Bank for International Settlements. For an integrated perspective on regional and global
+developments, see Krusell, P. and Smith, A.A. (2022), “ ”, NBER Working
+Paper Series, No 30338, National Bureau of Economic Research.
+12.
+An increase in the frequency and intensity of extreme weather events translates into a higher-variance
+shock process and, through standard propagation, raises the unconditional variance of output. See also
+Alessandri, P. and Mumtaz, H. (2025), “ ”, Journal of
+International Economics, Vol. 158; Cantelmo, A., Fatouros, N., Melina, G. and Papageorgiou, C. (2024),
+“ ”, International Economic Review, Vol. 65, No 3, pp. 1441-
+1497; Cevik, S. and Jalles, J.T. (2023), “
+”, IMF Working Papers, No 2023/087, International Monetary Fund.
+13.
+Andersson, M., Battistini, N. and Bobasu, A. (2026), “
+”, Working Paper Series, No 3203, ECB.
+14.
+Giuzio, M., Rousová, L., Kapadia, S., Kumar, H., Mazzotta, L., Parker, M. and Zafeiris, D. (2026), “
+”, European Economic Review, Vol. 182; ECB and
+EIOPA (2024), “ ”, Discussion Paper.
+In addition, recent research finds that fiscal transfers to regions or states hit by natural disasters can also
+The Economics of Biodiversity
+How climate change affects potential output
+Going NUTS: the
+regional impact of extreme climate events over the medium term
+The economics of water scarcity
+Climate Change Around the World
+The macroeconomic cost of temperature risk
+Monetary Policy under Natural Disaster Shocks
+Eye of the Storm: The Impact of Climate Shocks on Inflation and
+Growth
+Heatwaves, coldwaves, floods, and droughts: the
+short-term impact of extreme weather events on economic activity
+Climate
+change, catastrophes, insurance and the macroeconomy
+Towards a European system for natural catastrophe risk management
+
+support recoveries. See Fernandez-Gallardo, A. and Pappa, E. (forthcoming), (2026): “
+”, Working Papers, No. 2612, Banco de España.
+15.
+See also Wegner, O., Dees, S., Boullot, M., Lesterquy, P., Serfaty, C., Thubin, C., Ulgazi, Y., Boitout, A. and
+Gabet, M. (2025) “ ”,
+Working Paper, No. 1006, Banque de France..
+16.
+Bates, C., Kuik, F., Wieland, E. and Zekaite, Z. (2025), “
+”, Economic Bulletin, Issue 8, ECB. Food inflation in the euro area can also be affected through
+the commodity price channel, making it vulnerable to extreme weather in different parts of the world, as
+observed for example with the rise in coffee and cocoa prices in 2023-24. See Kotz, M., Donat, M.G.,
+Lancaster, T., Parker, M., Smith, P., Taylor A. and Vetter, S.H. (2025),“
+”, Environmental Research Letters, Vol. 20, July. Effects can also arise through
+natural modes of climate variability, such as El Niño, see Adolfsen, J. F. and Lappe, M.-S., “
+”, ECB Economic Bulletin, Issue 6, 2023.
+17.
+Kuik, F., Osbat, C. and Vidal-Quadras Costa, I. (forthcoming), “Earth, Wind, Fire and grocery bills: exploring
+the forecasting power of weather variables for euro area food inflation”.
+18.
+Kotz, M., Kuik, F., Lis, E. and Nickel, C. (2024), “
+”, Communications Earth & Environment, Vol. 5, No 116. The study uses state-of-the-art climate
+data combined with monthly price data from 121 countries to assess the response of different inflation
+components to increases in temperature, temperature variability, heavy precipitation and drought, using
+global panel regressions with country, month and country-month fixed effects. In addition to the climate
+variables, the regression includes interaction terms to capture the dependence of the impacts on historical
+average temperature and temperature variability. The empirical responses of food inflation to higher
+temperatures are then used to calculate the impact of extremely hot summers in the future, making use of
+the fact that climate change will alter the distribution of future summer temperatures predominantly by
+shifting their mean. Two climate scenarios that are commonly referred to are used to evaluate potential
+future impacts, representing a high and a low emissions scenario. The resulting estimates can be
+understood as the additional impact on food inflation attributed to future higher temperatures. The approach
+Natural disasters
+and fiscal shelters
+Seeds of Inflation: Macro Modelling of Nature-Related Risks through Agricultural Prices
+Inside the food basket: what is behind recent food
+inflation?
+Climate extremes, food price spikes,
+and their wider societal risks
+Risks to global
+food commodity prices from El Niño
+Global warming and heat extremes to enhance inflationary
+pressures
+
+does not make any assumptions about future inflation dynamics or macroeconomic factors affecting those
+and can therefore be understood as a stylised sensitivity analysis.
+19.
+Bobeica, E., Koester, G. and Nickel, C. (2025), “
+”, The ECB Blog, ECB, 25 September.
+20.
+Ciccarelli, M. and Marotta, F. (2024), “
+”, Energy Economics, Vol. 129.
+21.
+Ciccarelli, M., Kuik, F. and Martínez Hernández, C. (2024), “
+”, European Economic Review, Vol. 168.
+22.
+Parker M. (2018), “ ”, Economics of Disasters of Climate Change, Vol.
+2, No 1, pp. 21-48.
+23.
+Faccia, D., Parker, M. and Stracca, L. (2021), “ ”,
+Working Paper Series, No 2626, ECB; Ciccarelli, M., Kuik, F. and Martínez Hernández, C. (2024): “
+”, European
+Economic Review, Vol. 168; Andersson, M., Battistini, N. and Bobasu, A. (2026): “
+”, Working
+Paper Series, No 3203, ECB.
+24.
+See, for example, Armstrong McKay, D.I. et al. (2022), “
+”. The study finds that six tipping points become likely and another four
+possible even within the Paris Agreement warming range of 1.5 to below 2°C. These include the collapse of
+the Greenland and West Antarctic ice sheets, die-off of coral reefs around the equator, and widespread
+abrupt permafrost thawing. A recent study finds a significantly higher than previously assumed risk that the
+Atlantic Meridional Overturning Circulation (which is crucial for mild weather in Europe) slows down already
+as of mid-century, and under the current emission trajectory, see Portmann, V. et al. (2026), “
+”, ScienceAdvances, Vol. 12.
+25.
+When groceries bite: the role of food prices for inflation in
+the euro area
+Demand or Supply? An empirical exploration of the effects of climate
+change on the macroeconomy
+The asymmetric effects of temperature shocks
+on inflation in the largest euro area countries
+The impact of Disasters on Inflation
+Feeling the heat: extreme temperatures and price stability
+The
+asymmetric effects of temperature shocks on inflation in the largest euro area countries
+Heatwaves, coldwaves,
+floods, and droughts: the short-term impact of extreme weather events on economic activity
+Exceeding 1.5°C global warming could trigger
+multiple climate tipping points
+Observational
+constraints project a ~50% AMOC weakening by the end of this century
+
+This high level of uncertainty may also influence the beliefs of households about medium-term inflation
+dynamics: survey evidence shows that consumers exposed to temperature rise scenarios revise their five-
+year-ahead inflation expectations upward significantly. See Georgarakos, D., Kenny, G., Meyer, J. and van
+Rooij, M. (2025), “ ”, Working Paper Series, No
+3132, ECB. The authors use randomised temperature scenarios within the ECB’s Consumer Expectations
+Survey. However, other surveys find that climate-concerned households have somewhat lower inflation
+expectations; see Meinerding, C., Poinelli, A. and Schüler, Y. (2023), “
+”, European Journal of Political Economy, Vol. 80, December. The
+results of these two studies are not necessarily contradictory: the German survey taps a narrower concept
+of climate concern, while the CES experiment captures expectations under a concrete temperature
+scenario.
+26.
+See, for example, UK Climate Change Committee (2026), “
+”; Golosov, M., Hassler, J., Krusell, P. and Tsyvinski, A. (2014), “
+”, Econometrica, Vol. 82, No 1, pp. 41-88; Pindyck, R.S. (2013), “
+”, Journal of Economic Literature, Vol. 51, pp. 860-872; or
+Miftakhova, A. (2021), “ ”,
+Economic Modelling, Vol. 105.
+27.
+See Aguilar García, P., Durero, F., Ferdinandusse, M., Kuik, F. and Priftis, R. (2025), “
+”, Eurosystem staff macroeconomic projections for the
+euro area, December.
+28.
+The model used for this analysis was the New Area-Wide Model (NAWM-E); see the section on “Modelling
+the impact of climate change and the green transition”. In particular, the model does not distinguish
+between a carbon tax and a carbon price under an emissions trading scheme. Both instruments would be
+captured as surcharges on the price of dirty energy. The findings in the empirical literature on the impact of
+carbon pricing and emissions trading schemes are mixed in terms of the findings of impacts on inflation and
+output, see for example Bilal, A. and Stock, J.H. (2025), “ ”,
+NBER Working Paper Series, No 33567, and references therein. But, notably, Känzig and Konradt (2024)
+study the difference in impacts of carbon pricing and emissions trading in Europe and find that a positive
+shock to EU ETS prices leads to a significant rise in headline HICP and HICP energy, with impacts on
+headline HICP peaking just below 0.4 percentage points after three years. It also finds a significant fall in
+How do rising temperatures affect inflation expectations?
+Households’ inflation expectations
+and concern about climate change
+Cost of Net Zero by 2050 less than a single
+fossil fuel price shock Optimal taxes on
+fossil fuel in general equilibrium Climate
+change policy: What do the models tell us?
+Global sensitivity analysis for optimal climate policies: Finding what truly matters
+The macroeconomic
+impact of climate change policies in the euro area
+A guide to macroeconomics and climate change
+
+industrial production, and higher unemployment. On the other hand, they find that higher national carbon
+taxes are only associated with a limited increase in prices and a short-lived economic downturn. Their
+findings suggest that the difference in how tax revenues are recycled in the ETS and national carbon taxes
+plays an important role in explaining the differing results. See Känzig, D. and Konradt, M. (2024), “
+”, IMF Economic Review, Vol.
+72. Other studies find only a limited impact of carbon taxes on inflation, for example in Konradt, M. and
+Weder di Mauro, B. (2023), “ ”,
+Journal of the European Economic Association, Vol. 21, No 6, December, pp. 2518-2546. Further research
+suggests that an additional cornerstone of successful transition policies is the cooperation across countries,
+see Ferrari Minesso, M. and Pagliari, M. S., “
+”, Journal of International Economics, Volume 145.
+29.
+For a discussion of the best policy mix, see for example Blanchard, O., Gollier, C. and Tirole, J. (2023),
+“ ”, Annual Review of Economics, Vol. 15,
+pp. 689-722; Acemoglu, D., Aghion, P., Bursztyn, L. and Hemous, D. (2012), “
+”, American Economic Review, Vol. 102, No 1, pp. 131-166; and Degasperi, R.,
+Natoli, F. and Pallara, K. (2024), “ ”, Banca d’Italia
+Working Paper, No 1531.
+30.
+Quintana, J. (2024), “ ”, Economic Bulletin,
+Banco de España, September.
+31.
+Bartocci, A., Notarpietro, A. and Pisani, M. (2024), “
+”,Economic Modelling, Vol. 136; Ferrari, A. and Nispi Landi, V. (2022), “
+”, Banca d’Italia Occasional Paper, No 686;
+Olovsson C. and Vestin, D. (2023), “ ”, Sveriges Riksbank Working Paper Series, No 420.
+32.
+See also Elderson, F. (2026), “ ”, Financial
+Times, 7 April; and Lagarde, C. (2025), “ ”, speech at Norges Bank’s Climate
+Conference, Oslo, 21 October.
+33.
+Climate
+Policy and the Economy: Evidence from Europe’s Carbon Pricing Initiatives
+Carbon Taxation and Greenflation: Evidence from Europe and Canada
+No country is an island. International cooperation and climate
+change
+The portfolio of economic policies needed to fight climate change
+The environment and
+directed technical change
+The Macroeconomic Effects of the Green Transition
+The impact of renewable energies on wholesale electricity prices
+“Green” fiscal policy measures and nonstandard
+monetary policy in the euro area Will
+the green transition be inflationary? Expectations matter
+Greenflation?
+Europe’s fossil fuel dependence poses risks to price stability
+Europe’s road to renewables
+
+Domínguez-Díaz, R. and Hurtado, S. (2024), “ ”,
+Working Papers, No 2425, Banco de España; Chafwehé, B., Colciago, A. and Priftis, R. (2025),
+“ ”, European Economic Review, Vol.
+173(C). See Section 3.3 in Nickel et al. (2025): A strategic view on the economic and inflation environment
+in the euro area, ECB Occasional Paper No 371.
+34.
+Nerlich, C. et al. (2025), “
+”, Occasional Paper Series, No 367, ECB; Pisani-Ferry, J. (2021), “
+”, Policy Brief, Peterson Institute for
+International Economics, August.
+35.
+Bańkowski, K., Benalal, N., Bouabdallah, O., De Stefani, R., Huber, C., Jacquinot, P., Nerlich, C.,
+Rodríguez-Vives, M., Szörfi, B., Zorell, N. and Zwick, C. (2024), “
+”, Economic Bulletin, Issue 8, ECB.
+36.
+This results from an ECB staff analysis, using NL Analytics, retrieving the net sentiment of firms (number of
+sentences containing positive minus negative sentiment) related to investment and green transition or
+green policy or transition risk.
+37.
+Kuik, F., Morris, R. and Sun, Y. (2022), “
+”, Economic Bulletin, Issue 4, ECB.
+38.
+A similar pattern of responses was observed for input costs and prices, which probably reflects to some
+degree how firms see these investments as necessary but also costly.
+39.
+Andersson, M., Jarvis, V., Le Breton, G. and Morris, R. (2025), “
+”, Economic Bulletin, Issue 4, ECB.
+40.
+Freier, M., Melemenidis, A. and Morris, R. (2026), “
+”, The ECB Blog, ECB, 16 February.
+41.
+Green energy transition and vulnerability to external shocks
+Reallocation, productivity, and monetary policy in an energy crisis
+Investing in Europe’s green future – Green investment needs, outlook and
+obstacles to funding the gap Climate
+policy is macroeconomic policy and the implications will be significant
+Four years into the Next Generation EU
+programme: an updated preliminary evaluation of its economic impact
+The impact of climate change on activity and prices – insights from
+a survey of leading firms
+The outlook for euro area business
+investment – findings from an ECB survey of large firms
+Using AI to transform the ECB’s Corporate Telephone
+Survey
+
+See Lane, P. R. (2026), “ ” keynote speech at ECB-SAFE-RCEA International
+Conference on the Climate-Macro-Finance Interface (3CMFI), Frankfurt, 23 March; and Parker, M. (2025),
+“ “, The ECB Blog; 25 March.
+42.
+See, for example, Brynskov, M. (2025), , European Commission,
+June.
+43.
+For a discussion of modelling the impact of climate change on the economy through integrated assessment
+models, see Fernández-Villaverde, J., Gillingham, K.T. and Scheidegger, S. (2025), “
+”, Annual Review of Economics, Vol. 17; pp 125-150.
+44.
+Ferdinandusse, M., Kuik, F., Lis, E. and Sun, Y. ( 2023), “
+”, Economic Bulletin, Issue 1, ECB; Ferdinandusse, M., Kuik, F. and Priftis, R. (2024), “
+, Economic Bulletin, Issue 1, ECB;
+Ferdinandusse, M. and Delgado-Tellez, M. (2024), “
+”, Economic Bulletin, Issue 1, ECB; and ECB (2024), “
+”, Eurosystem staff macroeconomic
+projections for the euro area, December.
+45.
+The largest contribution to inflation comes from increases in national carbon prices or pollution-based
+indirect taxes. See Aguilar García, P., Durero, P., Ferdinandusse, M., Kuik, F. and Priftis, R. (2025), “
+”, Eurosystem staff macroeconomic
+projections for the euro area, December.
+46.
+This finding is also consistent with an assessment carried out by European Commission staff in the context
+of their Autumn 2025 forecast; see European Commission (2025), “
+”, European Economic Forecast – Autumn 2025,
+November. Also see Ref. 30.
+47.
+Coenen, G., Lozej, M. and Priftis, R. (2024), “
+”, European
+AI and the euro area economy
+AI versus green: clash of the transitions?
+Novel AI applications in the energy sector
+Climate Change
+through the Lens of Macroeconomic Modeling
+Climate-related policies in the Eurosystem/ECB
+staff macroeconomic projections for the euro area and the macroeconomic impact of green fiscal
+measures Assessing
+the macroeconomic effects of climate change transition policies
+Fiscal policy measures in response to the energy and
+inflation shock and climate change Assessing the
+impact of climate change transition policies on growth and inflation
+The
+macroeconomic impact of climate change policies in the euro area
+Trends in carbon intensity and the
+macroeconomic role of the EU Emissions Trading System
+Macroeconomic effects of carbon transition policies: An
+assessment based on the ECB’s New Area-Wide Model with a disaggregated energy sector
+
+Economic Review, Vol. 167, August.
+48.
+Brand, C., Coenen, G., Hutchinson, J. and Saint Guilhem, A. (2023), “
+”, Economic Bulletin, Issue 5, ECB; Box 3 in Ciccarelli, M., Darracq
+Parries, M. and Priftis, R. (2024), “ ”,
+Occasional Paper Series, No 344, ECB; and Burgert, M. et al. (2026), “
+”, Working Paper Series, No 3192, ECB, February.
+49.
+In this exercise, this pathway does not deliver sufficient reductions in emissions. The structures of the
+models matter greatly for the size of emission cuts achieved.
+50.
+Sahuc, J.-G., Smets, F. and Vermandel, G. (2024), “ ”, CEPR Discussion
+Paper, No 19745, CEPR Press.
+51.
+See also the .
+52.
+For the link between financial conditions and green investment, see Phan, T., Necchio, F., Jordà, O. and
+Schwartzman, F. (2026), “ ”, Federal Reserve Bank of
+San Francisco Working Paper 2026-05.
+53.
+See Gormsen, N., Huber, K. and Oh, S. (2025), “Climate Capitalists”, mimeo, University of Chicago. Cross-
+validation of this result is provided by the empirical pattern that firms with expected high future emissions
+have lower equity values: see Pastor, L., Stambaugh, R. and Taylor, L. (2026), “The Carbon Burden,”
+mimeo, University of Chicago. However, if investors perceive that governments might, under adverse
+economic conditions, pull back from commitments to raise carbon taxes, this can motivate investors to hold
+brown stocks for hedging reasons: see Garleanu, N. and Pedersen, L. (2025), “Carbon Risk Pricing,”
+mimeo, Copenhagen Business School.
+54.
+Bua, G., Kapp, D., Ramella, L., and Rognone, F. (2024), “
+h”, The European Journal of Finance, Vol. 30, Issue 17;
+Bats, J., Bua, G. and Kapp, D., (2024), “
+”, Working Paper Series, No 2899, ECB.
+The macroeconomic implications of
+the transition to a low-carbon economy
+ECB macroeconometric models for forecasting and policy analysis
+Macroeconomic effects of carbon-
+intensive energy price changes: a model comparison
+The New Keynesian Climate Model
+ECB’s climate and nature plan 2024-2025
+Financial conditions and capital investment choices
+Transition versus physical climate risk pricing in
+European financial markets: a text-based approac
+Physical and transition risk premiums in euro area corporate bond
+markets
+
+55.
+Fornari, F., Pianeselli, D., and Zaghini, A. (2026), “
+”, Journal of International Money and Finance, Vol. 161. Pietsch, A. and Salakhova, D.
+(2024), “ ”, Working Paper Series, No. 2728,
+ECB.
+56.
+There are contrasting results on whether green firms or brown firms are more affected by monetary policy
+shocks. In Fornari, F. and Groß, J. (2024), “Green and Glowing or Brown in Disguise? How do monetary
+policy shocks shape the cross section of equity returns?”, the authors find that monetary policy shocks
+have larger effects on the equity valuations of green firms than those of brown firms and firms that do not
+disclose their emissions in the euro area. By contrast, Bauer, M., Rudebusch, E. and Offner, G. (2025),
+“ ”, European Economic Review, Vol 177,
+August, the authors report evidence that green firms may be less sensitive to monetary policy shocks than
+brown firms.
+57.
+Köhler-Ulbrich, P., Schuster, Y. and Tushteva, N., (2025),“
+”, The ECB Blog, 10 November. See also Sections 5.4 and 5.5 on the ad hoc question on the
+impact of climate change on bank lending to firms and housing loans in ECB (2025), The euro area bank
+lending survey – Second quarter of 2025, July.
+58.
+Altavilla, C., Boucinha, M., Pagano, M. and Polo, A., (2024), “
+”, Working Paper Series, No 2969, ECB. The underlying mechanism is a climate risk-taking channel
+by which banks respond to monetary policy tightening by increasing monitoring efforts and restricting
+lending to riskier borrowers (and vice versa for monetary policy easing), where the dimensions of risk
+considered include those related to climate.
+59.
+Altavilla, C., Boucinha, M., Pagano, M. and Polo, A., op. cit.
+60.
+See Section 2.2. of ECB (2026), Supervisory priorities 2026-28, November. See also Elderson, F. (2025),
+“ ”,
+keynote speech at the ECB industry dialogue on “Climate and nature risk management: taking stock and
+looking ahead”, 1 October.
+Environmental score and bond pricing: it better be good,
+it better be green
+Pricing of green bonds: drivers and dynamics of the greenium
+Green stocks and monetary policy shocks: Evidence from Europe
+Climate performance matters for bank credit in
+the euro area
+Climate risk, bank lending and monetary
+policy
+From charting the course to staying the course: the path ahead for climate and nature risk supervision
+
+61.
+Carbone, S. et al., (2025), “ ”, SAFE
+Working Paper Series, No 442, Leibniz Institute for Financial Research.
+62.
+ECB, (2025), The euro area bank lending survey – Second quarter of 2025, July.
+63.
+Nerlich, C., Köhler-Ulbrich, P. and Andersson, M. et al., op. cit.
+64.
+See De Haas, R. and Popov, A. (2023): “Finance and green growth”, The Economic Journal, Vol. 133, No
+650, pp. 637-668.
+65.
+European Commission (2021), “
+”, press release, 7 September. For a recent update see European
+Commission (2025), “ ”, press release, 10 December.
+66.
+Hinsche, I. (2021), “
+”, CFS Working Paper Series, No 663, Center for Financial Studies.
+67.
+See Section 3.2 of Nerlich, C. et al. (2025), “
+”, Occasional Paper Series, No 367, ECB. See also Ferrando, A.,
+Groß, J. and Rariga, J. (2023), “
+”, Economic Bulletin, Issue 6, ECB, who highlight the important role played by public
+loan guarantees and private sector funds in directing resources towards the greening of the economy.
+68.
+For a recent survey, see Bilal, D. and Stock, J. H. (2025), “
+”, Series on Central Banking Analysis and Economic
+Policies, No 31, Banco Central de Chile, October.
+69.
+NGFS Workstream on Monetary Policy (2024), “
+”, Technical document, NGFS, August.
+70.
+The low-carbon transition, climate commitments and firm credit risk
+NextGenerationEU: European Commission gearing up for issuing €250
+billion of NextGenerationEU green bonds
+EU becomes major Green Bond issuer
+A greenium for the next generation EU green bonds: Analysis of a potential green bond
+premium and its drivers
+Investing in Europe's green future – Green investment needs,
+outlook and obstacles for funding the gap
+Climate change and euro area firms’ green investment and financing –
+results from the SAFE
+The short-run macroeconomics of the energy
+transition: a review and directions for research
+Acute physical impacts from climate change and monetary
+policy
+
+Baleyte, J., Bazot, G., Monnet, E. and Morys, M. (2024), “
+”, CEPR Discussion Paper, No 19682, November.
+71.
+NGFS (2024), op. cit. The nature of shocks may also become harder to disentangle as climate change is
+accompanied by mitigation measures. In particular, in Sahuc, J.-G., Smets, F. and Vermandel, G. (2024),
+“ ”, CEPR Discussion Paper, No. 19745, CEPR Press, the authors show
+that, in this case, the direct impact of climate change, which acts as an adverse supply shock, is
+accompanied by a mix of shocks related to transition measures, which partly add to the cost-push
+dynamics, but also in part constitute a positive demand shock owing to higher abatement expenditures in
+the economy. Moreover, the effect of climate policies may arise not only in relation to their implementation,
+but also to uncertainties surrounding their future path, which may lower output and emissions at the cost of
+higher commodity and consumer prices, again altering the context in which monetary policy operates (see
+Gavriilidis, K., Känzig, D.R., Raghavan, R., and Stock, J.H., (2026), “
+”, NBER Working Paper Series, No 34762, National Bureau of Economic
+Research).
+72.
+Baleyte, J., Bazot, G., Monnet, M., and Morys, E. (2024), op. cit.
+73.
+See also Lane, P.R. (2025), “ ”, keynote speech at the 15th
+workshop on exchange rates, co-organised by Banka Slovenije with the Banca d’Italia, the Bank for
+International Settlements, the European Central Bank and the Nationale Bank van België/Banque
+Nationale de Belgique, 3 December.
+74.
+Sahuc, J.-G., Smets, F. and Vermandel, G (2024), “ ”, CEPR Discussion
+Paper No. 19745.
+75.
+Gavriilidis, K., Känzig, D.R., Raghavan, R., and Stock, J.H., (2026), op. cit.
+76.
+See Fornaro, L., Guerrieri, V. and Reichlin, L. (2025), “ ”, BIS
+Papers, No. 61. See also Serebriakova, S., Polzin, F. and Sanders, M. (2026), “
+”, Energy Economics, Vol. 155, March.
+77.
+High Temperature Shocks are Supply Shocks:
+Evidence from One Century of Monthly Data
+The New Keynesian Climate Model
+The Macroeconomic Effects of
+Climate Policy Uncertainty
+Inflation Deviations and Monetary Policy
+The New Keynesian Climate Model
+Monetary Policy for the Green Transition
+Monetary policy and energy
+installation: Implications for the European green transition
+
+For further discussion of the underlying trade-offs, see Benatiya Andaloussi., M., Carton, B., Evans, C.,
+Jaumotte, F., Muir, D., Natal, J.M., Panton. A.J., and Voigts, S. (2022), “
+”, World Economic Outlook: Countering the Cost-of-Living Crisis, International
+Monetary Fund, October.
+78.
+Brand, C., Coenen, G., Hutchinson, J., and Saint Guilhem, A., (2023), “
+”, Economic Bulletin, Issue 5, ECB.. A qualitatively similar conclusion
+for the historical effects of carbon taxes emerges from McKibbin, W., Konradt, M. and Weder di Mauro, B.
+(2021), “ ”, Beyond the pandemic: the future of
+monetary policy – ECB Forum on Central Banking 28-29 September 2021, ECB. For a study of the effects
+of the green transition on the US economy, see Del Negro, M., di Giovanni, J., and Dogra, K. (2023), “
+” Staff Reports, No 1053, Federal Reserve Bank of New York. While the latter
+paper points to the inflation-output trade-off being sizeable, it is assessed to be short-lived, fading out over
+a one-year horizon.
+79.
+Section 3.6.3 of ECB (2025), “ ”,
+Occasional Paper Series, No. 371.
+80.
+Parker, M. (2023), “ ”, Economic Bulletin, Issue 6, ECB; Kahn,
+M.E., Mohaddes, K., Ng, R.N.C., Pesaran, M.H., Raissi, M. and Yang, J.-C. (2021), “
+”, Energy Economics, Vol. 104.
+81.
+Giuzio, M., Rousová, L., Kapadia, S., Kumar, H., Mazzotta, L., Parker, M. and Zafeiris, D. (2026), “
+”, European Economic Review, Volume 182,
+February.
+82.
+Rachel, L. and Smith, T. (2017), “ ”, Staff Working Papers, No.
+571; Bank of England, December; Caballero, R.J. and Farhi, E. (2018): “ ”, The Review of
+Economic Studies, Vol. 85, No 1, pp. 223–274.
+83.
+For instance, in Sahuc, J.-G., Smets, F., and Vermandel, G., (op. cit.) abatement spending raises the
+natural rate of interest. For a comprehensive overview of the channels involved, see also Pisani-Ferry, J.
+Near-term macroeconomic impact
+of decarbonization policies
+The macroeconomic implications of
+the transition to a low-carbon economy
+Monetary policy and climate policies: Implications for Europe
+Is the
+Green Transition Inflationary?
+A strategic view on the economic and inflation environment in the euro area
+How climate change affects potential output
+Long-term
+macroeconomic effects of climate change: A cross-country analysis
+Climate
+change, catastrophes, insurance and the macroeconomy
+Secular drivers of the global real interest rate
+The Safety Trap
+
+(2021), “ ”, Policy Briefs, No
+21-20, Peterson Institute for International Economics.
+84.
+A recent ECB survey suggests that the weight of model-based analyses would argue that downward forces
+dominate, lowering r* and constraining the effective scope of conventional monetary policy to react to
+disinflationary shocks. However, the analysis also confirms that the sign and magnitude of the net effect is
+hard to predict, with results sensitive to assumptions about the speed of the transition and the potency of
+new technologies. See Mongelli, F.P., Pointner, W. and van den End, J.W., (2022) “
+”, Working Paper Series, No. 2744, ECB, November.
+85.
+ECB (2025), “ECB adds indicator of nature loss in climate-related financial disclosures as portfolio
+emissions continue to decline”, press release, 12 June. The tilting framework has been responsible for
+around one-quarter of emission reductions in the monetary policy corporate bond holdings of the
+Eurosystem since 2021. Quantitative interim emission reduction targets are set for corporate bond holdings
+in the asset purchase programme (APP) and the pandemic emergency purchase programme (PEPP).
+86.
+For a formal analysis of how the tilting of corporate bond purchases supports the green transition, see
+Nakov, A. and Thomas, C. (2026), “Climate-conscious monetary policy”, Journal of Political Economy
+Macroeconomics, forthcoming.
+87.
+For the outcome of the 2024 operational framework review, see ECB (2024), “Changes to the operational
+framework for implementing monetary policy”, Statement by the Governing Council, 13 March.
+Climate policy is macroeconomic policy, and the implications will be significant
+The effects of climate
+change on the natural rate of interest: a critical survey
+CONTACT
+European Central Bank
+
+Directorate General Communications
+Reproduction is permitted provided that the source is acknowledged.
+Sonnemannstrasse 20
+60314 Frankfurt am Main, Germany
+ +49 69 1344 7455
+ media@ecb.europa.eu
+Media contacts
+Copyright 2026,
+European Central Bank
