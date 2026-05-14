@@ -1,0 +1,177 @@
+1/5 BIS - Central bankers' speeches
+Christodoulos Patsalides: Keynote speech - Eurofi High Level 
+Seminar
+Keynote speech by Mr Christodoulos Patsalides, Governor of the Central Bank of 
+Cyprus, at the Eurofi High Level Seminar Digital Euro, Nicosia, 27 March 2026.
+* * *
+Esteemed guests, ladies and gentlemen, colleagues, and friends,
+I am delighted to participate once again in the Eurofi High Level Seminar.  I am 
+speaking to you from the general vicinity of the venetian walls of Nicosia. These walls 
+were raised in the 16th century to defend the island from invaders and to protect civil 
+life and commerce against hostile forces beyond Cyprus' shores. These walls were not 
+symbols of division; they were structures of protection, resilience, and strategic 
+foresight.
+Today, Europe, as the rest of the world, is facing unprecedented turbulence. The 
+threats we confront no longer arrive on wooden hulls, but through shifting global 
+currents and fragmentation, competitive pressures, technologies shaped outside our 
+borders and, unfortunately, armed conflicts.   It is thus imperative to strengthen the 
+safeguards that protect our economic life - not with stone bastions, but with digital 
+foundations; not with walls that divide, but with systems that secure; not with fortresses 
+of the past, but with architectures and infrastructures of trust for the future.  We must 
+renew and deepen the European project, shaping it into an even more resilient, 
+autonomous, united and forward-looking union that delivers for all its citizens.
+Colleagues,
+At Eurofi, I am addressing people who already understand the strategic importance of a 
+digital euro; knowledgeable experts involved in technical and political discussions; and 
+as we meet today, the picture is still evolving. Whereas the Council of the European 
+Union has agreed its general approach since last December, the European Parliament 
+is debating extensive compromise amendments, and the ECB continues the 
+preparatory work with speed and determination.
+What we can say with confidence is this: from idea to policy, and now to legislation in 
+2026 - the digital euro is on a well-defined trajectory to becoming a reality in 2029. 
+The Council has set out a clear direction. It sees the digital euro as complementary to 
+cash, available both online and offline, and designed to strengthen Europe's strategic 
+autonomy and payments' resilience. 
+Parliament, meanwhile, has been navigating an enormous volume of amendments to 
+the European Commission's proposal - more than 1,400 - reflecting a wide spectrum of 
+positions on privacy, governance, legal tender, and distribution. Last November, the 
+rapporteur, Mr. Fernando Navarette, tabled his long-awaited draft report in the 
+European Parliament's ECON Committee. The draft was cautious. It questioned online 
+functionality. It proposed conditionality - a "market test" to determine whether an online 
+
+2/5 BIS - Central bankers' speeches
+digital euro should ever exist. It leaned heavily towards an offline only, token-based 
+instrument. It reflected concerns about privacy, financial stability, and private sector 
+displacement - concerns that deserve respect and engagement. 
+However, it appears that the rapporteur is currently working on a new draft that 
+removes his proposal that an online version should only be launched if European 
+private sector alternatives fail. This is good news.
+It is a fact though, that the debate in Parliament is still maturing. It is a fact that the 
+Cypriot Presidency stands ready to launch the trilogues later this semester. And it is a 
+fact that, once the co-legislators come together, convergence will come - swiftly and 
+constructively. And I have no doubt that everyone here at Eurofi understands the 
+importance of getting this right and with urgency.
+Today I want to keep my message simple. So let me focus on only three themes that 
+will shape the success of the project: trust, balance, and implementation.
+A digital euro will only succeed if people trust it as much as they trust cash today. And 
+trust here means two things: (i) privacy, and (ii) clarity.
+ has emerged as one of the most sensitive issues. The Council speaks of Privacy
+ensuring "a high degree of privacy" for digital euro transactions. Parliament goes 
+further, particularly on the offline version, emphasising that it should function as closely 
+as possible to cash - a form of payment that leaves no trace. 
+These are different expressions of the same concern: Europeans want to know that the 
+digital euro is on their side.
+Co-legislators will need to remember three things: (a) that the ECB will track no one; (b) 
+that the digital euro design will protect our privacy; (c) that personal data will be 
+pseudonymised and stay personal. Co-legislators must decide what will be enshrined in 
+the law and what will be set out in the ECB's scheme rulebook - but let's be clear about 
+what people expect:
+to feel safe, not watched.
+to feel free, not monitored.
+ to feel empowered, not constrained.
+ will also matter. Citizens are asking: "What is the digital euro for?"; "Will it Clarity
+replace cash?"; "Will my bank account be affected?"
+The Council is clear that the digital euro will complement, not replace, cash. 
+Parliament seems broadly aligned, but with stronger attention around legal tender and 
+acceptance obligations. Mandatory acceptance matters. Without it, there is no inclusion, 
+no resilience, no sovereignty. Exemptions must stay exceptional - otherwise legal 
+tender loses meaning. And let's be pragmatic: if a merchant already accepts digital 
+payments, they can also accept the digital euro - the infrastructure is there, the cost is 
+minimal, and the obligation is proportionate.
+This leads us to the second theme: balance.
+
+3/5 BIS - Central bankers' speeches
+Designing the digital euro is not simply a technological challenge. It is an economic 
+balancing act.
+Both the Council and Parliament agree that the digital euro must be distributed through 
+private intermediaries: banks, payment institutions, electronic money institutions, and 
+other service providers. 
+And that is important. Europe is not trying to bypass the market. It is trying to strengthen 
+it by ensuring that central bank money can function in the digital sphere. 
+But co-legislators will have to grapple with the question: What does "intermediation" 
+really mean in practice?
+Does it mean protecting banks from deposit flight?
+Does it mean ensuring space for private innovation?
+Does it mean safeguarding the relationship between citizens and their payment 
+providers?
+In truth, it means all of the above. And it means doing so in a way that maintains the 
+fundamentality of financial stability and monetary policy transmission. It keeps banks 
+strong, keeps innovation alive, and keeps citizens firmly in control of their money. 
+In all these debates, a simple principle stands out: we need a digital euro that 
+strengthens Europe's payments ecosystem, not one that fragments it. In fact, it is 
+envisaged as a platform for innovation and growth; exploiting existing standards and 
+infrastructures for efficiency and cost minimisation, combined with being technology 
+neutral.
+The trilogues will need to find a balance that is firm but flexible; strong enough to 
+protect the public interest, but agile enough to allow innovation.
+The final theme is implementation. And here we are talking about sequencing, testing 
+and governance. The Council sets out a structured path: establish the legal framework, 
+empower the ECB, safeguard financial stability, and ensure both the online and offline 
+versions are ready from day one. Parliament, by contrast, is leaning toward a more 
+explicit set of pre conditions - calling for robust pre issuance testing, cyber resilience 
+checks, liability allocation, and a phased or conditional roll out.
+These questions stem from a reasonable concern: before we ask 350 million 
+Europeans to use a new form of money, we must test it thoroughly and get the 
+'mechanics' right. The trilogue question, then, is straightforward: which implementation 
+details belong in primary legislation, and which belong in secondary acts or the ECB's 
+scheme rulebook? The art will be in deciding where to draw that line, while ensuring 
+legal certainty and flexibility in responding to evolving market and technological 
+developments.
+Ladies and gentlemen, 
+The euro remains the world's second most important currency; but stability is not 
+destiny. A stronger euro tomorrow needs stronger markets, stronger infrastructure, 
+cross-border payment links, and a digital euro today. And I hasten to add that, in due 
+
+4/5 BIS - Central bankers' speeches
+course, the digital euro will reinforce the importance of Europe in the international 
+arena. The exploration of new technologies in payment and settlement, in which the 
+Eurosystem is at the forefront, will bring opportunities to establish further the credibility 
+of the euro as a currency of choice for trade, settlement and store of value. The digital 
+euro will not chase reserve status abroad; it will build trust at home; and a stronger euro 
+at home becomes a stronger euro in the world.
+That's why we cannot slow down. Not now. Not when others are moving. I am confident 
+that co-legislators will accelerate the legislative debate and keep 2029 on track - not as 
+a hope, but as a commitment. Because every delay weakens us. And every step 
+forward strengthens Europe.
+Here in Nicosia, the symbolism is impossible to ignore.
+Cyprus knows what it means to negotiate under pressure.
+Cyprus knows what it means to preserve unity, even when the landscape is 
+divided.
+And so, perhaps from no other capital is the message clearer: 'Europe must design its 
+digital currency with purpose – knowing that our monetary union is only as strong as the 
+trust we build together.' 
+As we move into the trilogues, we must keep the conversation open and the details 
+proportionate: 
+We have seen that Parliament's early concerns on privacy and stability are being 
+answered: through cash-like offline design and a fully intermediated model. 
+We have seen that the Commission's approach for 'both online and offline 
+modalities' is emerging as the practical path to universal use from day one. 
+We have seen the ECB respond to Parliament's request for modelling from 500 
+up to 3.000 euros per user, and Mr Cipollone's message to ECON Committee was 
+unambiguous: holding limits are being calibrated with scientific precision, 
+grounded in usability, monetary policy, and financial stability. The calibration 
+mechanism is technocratic, and it will continue to be transparent.
+And on banks' investment costs, the ECB's own analysis shows that once 
+synergies and cost-sharing are accounted for, the burden aligns with past pan-
+European payment projects - far from the costs of individual banks stand-alone 
+investments some had feared. 
+While the democratic debate will continue to deep dive into issues that are highly 
+technical, it ultimately returns to something profoundly human: the need for digital public 
+money that is safe, simple, and trusted.
+This is the era of unprecedented digital innovation and change. The future will be 
+shaped by those who design its rules. The lesson for today is clear; we must lead, not 
+be led. Cyprus offers an ancient example of this mindset. In the 4th century BC, 
+Evagoras, King of Salamis asserted political and economic authority by issuing his own 
+coinage, an act that symbolized authority, confidence and participation in the wider 
+Hellenic region defining his own terms.  The lesson endures: those who mint their own 
+course in history define their future.,
+
+5/5 BIS - Central bankers' speeches
+Ladies and gentlemen, let me close with an important message:
+Today, as global conditions remain volatile and our Union is once again tested, it is 
+essential that we sustain this momentum. Strengthening the foundations of our 
+economic and financial architecture is more important than ever.
+In this context, I firmly believe that Europe's digital transition, and in particular the work 
+on the Digital Euro, can become a key pillar of our resilience and strategic autonomy 
+reinforcing confidence in our common currency in an increasingly digital world.
+Thank you.

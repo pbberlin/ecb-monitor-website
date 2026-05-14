@@ -1,0 +1,109 @@
+1/3 BIS - Central bankers' speeches
+Olli Rehn: A European safe asset - from crisis pragmatism to 
+strategic necessity
+Welcome address by Mr Olli Rehn, Governor of the Bank of Finland and First Vice-
+Chair of the European Systemic Risk Board, at the High-level ESRB workshop on 
+European safe assets, Frankfurt am Main, 22 April 2026.
+* * *
+Dear Colleagues and Friends,
+It is my great pleasure and honour to welcome you to this ESRB Joint Workshop on 'A 
+European safe asset and financial stability'. Let me first thank the organisers and 
+warmly welcome our distinguished speakers and panellists – and all of you joining us, 
+both in-person and online.
+I am particularly pleased to see such a strong group of policymakers, academics, and 
+market practitioners gathered here. When it comes to safe assets, both the design 
+specifics and market plumbing are essential in determining whether good ideas become 
+practical successes.
+This workshop takes place at a moment when geopolitics and economic policies are 
+tightly interconnected. The world has become more power-based than rules-based, and 
+events from Russia's illegal war in Ukraine to the Iran war are reshaping the entire 
+world order. Uncertainty and unpredictability are defining features of these times, 
+spilling over into financial markets through liquidity, collateral and risk-off dynamics.
+In this context, the debate on a European safe asset is no longer a niche – in my view, 
+it is particularly timely and relevant. The need for strong anchors and havens is greater 
+than ever and potentially rising.
+Why so? Let me make three points.
+First, it has become clear that we need truly substantial investments in European public 
+goods, especially in common defence and the green transition. If done well, they can 
+boost productivity and innovation. But they require financing that is stable, efficient and 
+scalable.
+Common European instruments can be part of the solution and help catalyse private 
+investment, in line with the Savings and Investments Union. This combination is 
+particularly important as many EU Member States are highly indebted, with little fiscal 
+space.
+Second, a European safe asset would reinforce the international role of the euro. One 
+key requirement for a truly global currency is that financial markets should be deep and 
+liquid with a reliable benchmark asset. The United States benefits from the large scale 
+and high liquidity of its Treasury market and the global role of the dollar. This is the well-
+known ' – and Europe, by exporting a major part of its savings to the exorbitant privilege' 
+US, is contributing to this privilege.
+
+2/3 BIS - Central bankers' speeches
+Recent geopolitical uncertainty has reminded investors not to take any single anchor for 
+granted. This creates a window of opportunity for the euro, but only if Europe can 
+reinforce its common institutional and financial architecture to match the size of its 
+economy.
+Smartly designed, a European safe asset can deepen our capital markets and bring 
+many benefits. These will be discussed in the first panel today.
+This moment is a call to 'all hands on deck' for all European stakeholders. The ECB, for 
+its part, has recently decided to enhance the Eurosystem repo facility for foreign central 
+banks ( ) – and not just for European central banks. EUREP 2.0 will provide to EUREP
+interested and qualifying foreign central banks broader standing access to euro liquidity, 
+against high-quality collateral, from the third quarter of 2026. The international response 
+to this enhanced facility has been promising.
+And this brings me to my point, the 'market plumbing', which matters most in  third 
+stress conditions. To borrow a line from Sir Alex Ferguson: "Attack wins you games, 
+."defence wins you titles
+In financial markets, ' ' means a resilient infrastructure that preserves stability defence
+when shocks hit – a safe asset is expected to remain liquid when other assets turn 
+volatile. It can serve as a pricing benchmark and the backbone of collateral in repo and 
+derivatives markets. Thus, a reliable and liquid benchmark can support financial stability 
+and monetary policy transmission. This will be one subject of the final panel today.
+Taken together, these three points explain why today's workshop is structured as it is, 
+following the keynote speech.
+Panel 1 focuses on : why Europe needs a safe asset now, and what  the rationale
+problems we are trying to solve.
+Panel 2 turns to : different ways of crafting a European safe asset,  the design choices
+and the trade-offs that come with each approach.
+Panel 3 then goes into : what market practitioners need for a safe  the engine room
+asset to work as a reliable benchmark and as collateral.
+Before concluding, let me make a brief but relevant historical note.
+European integration has often progressed through pragmatic, functionalist responses 
+to crises rather than through grand institutional designs. Let's recall the case of the 
+European Stability Mechanism.
+In May 2010, at the height of the sovereign debt crisis, the European Commission 
+proposed a stability mechanism based on joint and several guarantees. The proposal 
+did not gain sufficient support among Member States. What followed instead was a 
+classical 'muddling through' solution: the creation of the European Financial Stability 
+Facility, backed by euro area member states at that time, alongside the EU-based 
+EFSM .1
+
+3/3 BIS - Central bankers' speeches
+These temporary arrangements, initially (and correctly) seen as second-best, ultimately 
+evolved into the European Stability Mechanism. The ESM today is a permanent, well-
+capitalised intergovernmental institution at the core of the euro area's crisis 
+management framework.
+This episode illustrates a recurring feature of European policymaking: when more 
+ambitious proposals prove politically unviable, in some cases functional alternatives can 
+still deliver meaningful progress.
+However, today this method has, in my view, reached its limits – simply because the 
+rest of the world will not wait for Europe to get its act together and take decisive action. 
+We don't have the luxury of time anymore.
+Europe has debated a common safe asset for soon two decades – from proposals for 
+synthetic structures such as ESBies or SBBSs, and from tranche ideas like Blue and 
+Red bonds, all the way to common EU issuance. And recent crises have triggered 
+European supranational issuance expanding at scale, such as through the NextGenEU.
+But we also know that a truly deep and liquid benchmark asset remains a work in 
+progress. At the same time, and partly because of the increased investment needs in 
+European public goods, the policy debate has clearly moved from 'whether' to 'how'. 
+Today's workshop is meant to address that 'how' – soberly, technically and with 
+financial stability at its core.
+Thus, this workshop is very much a call for serious European thinking and genuine, 
+solid European solutions. The time is right for moving on to analytically sustainable 
+design – and then to decisive, credible delivery.
+Let me once again wish you all a very warm welcome, and I look forward to a 
+constructive and creative exchange.
+Thank you.
+1 EFSM = European Financial Stability Mechanism, financed from the EU budget; EFSF 
+= European Financial Stability Facility, financed through euro area member states' 
+separate ('pro rata') loan guarantees.
