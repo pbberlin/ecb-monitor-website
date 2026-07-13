@@ -769,14 +769,22 @@
       let results = [];
 
       for (let country of Object.keys(countryDates)) {
-        if (country === "Euro area (20 countries)") continue;
+        // if (country === "Euro area (20 countries)") continue;
 
         let statsValue = null;
         try {
             statsValue = selectedDataMeta[selectedVar]["selected_data"][yr][country];
         } catch (error) {}
 
-        const props = getCountryDisplayProps(country, yr, statsValue, countryDates, selectedDataMeta[selectedVar], initOpacity, elOpa);
+        const props = getCountryDisplayProps(
+            country,
+            yr,
+            statsValue,
+            countryDates,
+            selectedDataMeta[selectedVar],
+            initOpacity,
+            elOpa,
+          );
 
         let item = {
           name: country,
@@ -785,7 +793,7 @@
             formatter: props.tooltipText,
           },
           itemStyle: {
-            areaColor: props.areaColor,
+            areaColor:   props.areaColor,
             borderWidth: props.status === "non-eu" ? 0.4 : 0.2,
             borderColor: '#ccc'
           },
@@ -890,7 +898,8 @@
       let results = [];
 
       for (let country of Object.keys(countryDates)) {
-        if (country === "Euro area (20 countries)") continue;
+        // if (country === "Euro area (20 countries)") continue;
+
         if (!centroids[country]) continue;
 
         let statsValue = null;
@@ -898,7 +907,15 @@
             statsValue = selectedDataMeta[selectedVar]["selected_data"][yr][country];
         } catch (error) {}
 
-        const props = getCountryDisplayProps(country, yr, statsValue, countryDates, selectedDataMeta[selectedVar], initOpacity, elOpa);
+        const props = getCountryDisplayProps(
+            country,
+            yr,
+            statsValue,
+            countryDates,
+            selectedDataMeta[selectedVar],
+            initOpacity,
+            elOpa,
+        );
 
         if (!props.showLabel) continue;
 
@@ -1234,7 +1251,7 @@
       ];
 
 
-      console.log(` changing year to ${res.yr} `);
+      // console.log(` changing year to ${res.yr} `);
       myChart.setOption(
         optUpdate,
         {

@@ -257,22 +257,36 @@ function createGradientLegend(domEl, config) {
 
 // evaluating temporal membership status for styling and labels
 // extracted to global funcs.js to prevent code duplication across templates
-function getCountryDisplayProps(country, timeKey, statsValue, countryDates, config, initOpacity, elOpa) {
-    
-    // discarding secondary values if the python importer created duplicate records
-    if (Array.isArray(statsValue)) {
-        console.log(`Secondary values discarded for ${country} in ${timeKey}:`, statsValue);
-        statsValue = statsValue[0];
-    }
+function getCountryDisplayProps(
+    country,
+    timeKey,
+    vl,
+    countryDates,
+    config,
+    initOpacity,
+    elOpa,
+) {
+
 
     const dates = countryDates[country];
     if (!dates) {
-        return { status: "non-eu", areaColor: '#eee', tooltipText: country + "\n(non EU)", showLabel: false };
+        console.log(` did not find ${country}`)
+        return {
+            status: "non-eu",
+            areaColor: '#eee',
+            tooltipText: country + "\n(non EU)",
+            showLabel: false,
+            labelText: " ",
+        };
+    }
+
+    if ( country === "Euro area (20 countries)") {
+        console.log(` did find Euro area`)
     }
 
     // extracting year from timeKey (handles both YYYY and YYYY-MM)
     const currentYear = parseInt(String(timeKey).substring(0, 4), 10);
-    
+
     let isEu = false;
     if (dates.euJoin) {
         const joinYear = parseInt(dates.euJoin.substring(0, 4), 10);
@@ -306,12 +320,13 @@ function getCountryDisplayProps(country, timeKey, statsValue, countryDates, conf
             status: "non-eu",
             areaColor: '#eee',
             tooltipText: country + "\n(non EU)",
-            showLabel: false
+            showLabel: false,
+            labelText: " ",
         };
     }
 
     if (!isEuro) {
-        let lblText = statsValue !== null && statsValue !== undefined && statsValue !== "" ? config.formatter(statsValue) : "N/A";
+        let lblText = vl !== null && vl !== undefined && vl !== "" ? config.formatter(vl) : "N/A";
         return {
             status: "non-euro",
             areaColor: 'rgb(238, 245, 245)',
@@ -323,8 +338,8 @@ function getCountryDisplayProps(country, timeKey, statsValue, countryDates, conf
     }
 
     // euro
-    let lblText = statsValue !== null && statsValue !== undefined && statsValue !== "" ? config.formatter(statsValue) : "N/A";
-    let color = statsValue !== null && statsValue !== undefined && statsValue !== "" ? valToPctToColor(statsValue, initOpacity, elOpa, config) : '#ccc';
+    let lblText = vl !== null && vl !== undefined && vl !== "" ? config.formatter(vl) : "N/A";
+    let color   = vl !== null && vl !== undefined && vl !== "" ? valToPctToColor(vl, initOpacity, elOpa, config) : '#ccc';
     return {
         status: "euro",
         areaColor: color,
@@ -343,8 +358,8 @@ function getCountryDisplayProps(country, timeKey, statsValue, countryDates, conf
 document.addEventListener("keydown", function(event) {
 
     const activeEl   = document.activeElement;
- 
- 
+
+
     // alt-left should work - even if yearSlider is focussed
     if (activeEl.id === "yearSlider"){
         if (event.altKey && event.key === "ArrowLeft"){
