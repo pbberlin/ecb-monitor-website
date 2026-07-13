@@ -417,7 +417,7 @@
 
 <!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script> -->
 <script type="text/javascript" src="/static/js/echarts.min.js"                ></script>
-<script type="text/javascript" src="/static/js/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
+<script type="text/javascript" src="/static/dl/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
 <script type="text/javascript" src="/static/dl/ameco_debt_to_gdp.js?v={{staticVersion}}"          ></script>
 <script type="text/javascript" src="/static/dl/ameco_net_lending.js?v={{staticVersion}}"          ></script>
 <script type="text/javascript" src="/static/dl/ameco_total_expenditure.js?v={{staticVersion}}"    ></script>
@@ -765,68 +765,108 @@
     }
 
 
+    // evaluating temporal membership status for styling and labels
+    function getCountryDisplayProps(country, timeKey, statsValue) {
+        const dates = countryDates[country];
+        if (!dates) {
+            return { status: "non-eu", areaColor: '#eee', tooltipText: country + "\n(non EU)", showLabel: false };
+        }
+
+        // extracting year from timeKey (handles both YYYY and YYYY-MM)
+        const currentYear = parseInt(String(timeKey).substring(0, 4), 10);
+        
+        let isEu = false;
+        if (dates.euJoin) {
+            const joinYear = parseInt(dates.euJoin.substring(0, 4), 10);
+            if (currentYear >= joinYear) {
+                isEu = true;
+            }
+        }
+        if (dates.euLeave) {
+            const leaveYear = parseInt(dates.euLeave.substring(0, 4), 10);
+            if (currentYear >= leaveYear) {
+                isEu = false;
+            }
+        }
+
+        let isEuro = false;
+        if (dates.euroJoin) {
+            const joinYear = parseInt(dates.euroJoin.substring(0, 4), 10);
+            if (currentYear >= joinYear) {
+                isEuro = true;
+            }
+        }
+        if (dates.euroLeave) {
+            const leaveYear = parseInt(dates.euroLeave.substring(0, 4), 10);
+            if (currentYear >= leaveYear) {
+                isEuro = false;
+            }
+        }
+
+        if (!isEu) {
+            return {
+                status: "non-eu",
+                areaColor: '#eee',
+                tooltipText: country + "\n(non EU)",
+                showLabel: false
+            };
+        }
+
+        if (!isEuro) {
+            let lblText = statsValue !== null && statsValue !== undefined ? selectedDataMeta[selectedVar]["formatter"](statsValue) : "N/A";
+            return {
+                status: "non-euro",
+                areaColor: 'rgb(238, 245, 245)',
+                tooltipText: country + "\n(no €)",
+                showLabel: true,
+                labelColor: '#666',
+                labelText: lblText
+            };
+        }
+
+        // euro
+        let lblText = statsValue !== null && statsValue !== undefined ? selectedDataMeta[selectedVar]["formatter"](statsValue) : "N/A";
+        let color = statsValue !== null && statsValue !== undefined ? valToPctToColor(statsValue, initOpacity, elOpa, selectedDataMeta[selectedVar]) : '#ccc';
+        return {
+            status: "euro",
+            areaColor: color,
+            tooltipText: country,
+            showLabel: true,
+            labelColor: color,
+            labelText: lblText
+        };
+    }
 
 
     function regionsColoring(yr=currentYear) {
-
       let results = [];
 
-      for (const [idx, country] of nonMembers.entries()) {
-          let item = {
-            name:  country,
-            tooltip: {
-              show:      true,
-              formatter: country + "\n(non EU)",
-            },
-            itemStyle: {
-              areaColor:   '#eee',
-              borderWidth:  0.4,
-              borderColor: '#ccc'
-            },
-            emphasis: {
-              disabled: true,
-            },
-           };
-          // console.log(`  regionsColoring()-1 ${country}`);
-          results.push(item);
-      };
+      for (let country of Object.keys(countryDates)) {
+        if (country === "Euro area (20 countries)") continue;
 
-
-      for (const [idx, country] of notInEuro.entries()) {
-          let item = {
-              name: country,
-              tooltip: {
-                show:      true,
-                formatter: country + "\n(no €)",
-              },
-              itemStyle: {
-                areaColor: 'rgb(238, 245, 245)',
-                borderWidth: 0.2,
-                aaborderColor: '#ccc',
-              },
-              emphasis: { disabled: true },
-          };
-          // console.log(`  regionsColoring()-2 ${country}`);
-          results.push(item);
-      };
-
-
-
-      for (const [idx, country] of euCountriesEuro.entries()) {
+        let statsValue = null;
         try {
-          const statsValue    = selectedDataMeta[selectedVar]["selected_data"][yr][country];
-          const statsColoring = valToPctToColor(statsValue, initOpacity, elOpa, selectedDataMeta[selectedVar]  );
-          // console.log(` ${statsValue} ${ valToPctToColor(statsValue, initOpacity, elOpa, selectedDataMeta[selectedVar]) }  ${country}`);
-          // let item = { name: country, itemStyle: { areaColor: 'rgb(194, 225, 227)', borderColor: '#ccc' } };
-          let item = { name: country, itemStyle: { areaColor: statsColoring,} };
-          results.push(item);
-          // console.log(`  regionsColoring()-3 ${country} - ${statsValue}`);
-        } catch (error) {
-          console.log(`no stats value for ${country} for ${yr}`)
-        }
-      };
+            statsValue = selectedDataMeta[selectedVar]["selected_data"][yr][country];
+        } catch (error) {}
 
-      // for (const [idx, country] of notInEuro.entries()) {
+        const props = getCountryDisplayProps(country, yr, statsValue);
+
+        let item = {
+          name: country,
+          tooltip: {
+            show: true,
+            formatter: props.tooltipText,
+          },
+          itemStyle: {
+            areaColor: props.areaColor,
+            borderWidth: props.status === "non-eu" ? 0.4 : 0.2,
+            borderColor: '#ccc'
+          },
+          emphasis: { disabled: props.status !== "euro" }
+        };
+        results.push(item);
+      }
+
       return results;
     }
 
@@ -915,49 +955,51 @@
 
     // creating debt numbers at the centroid of 27 eu countries
     function manyCountriesShowStats(yr=currentYear) {
-
       let fontSizeByDisplay = 12;
       if (displayType === "mobile") {
         fontSizeByDisplay = 10;
-        // console.log(`displayType = ${displayType} - fontSize = ${fontSizeByDisplay}`)
       }
 
       let results = [];
-      for (let country in selectedDataMeta[selectedVar]["selected_data"][yr]) {
-        const statsValue = selectedDataMeta[selectedVar]["selected_data"][yr][country];
-        // console.log(` ${statsValue} ${ valToPctToColor(statsValue, initOpacity, elOpa, selectedDataMeta[selectedVar]) }  ${country}`);
+
+      for (let country of Object.keys(countryDates)) {
+        if (country === "Euro area (20 countries)") continue;
+        if (!centroids[country]) continue;
+
+        let statsValue = null;
+        try {
+            statsValue = selectedDataMeta[selectedVar]["selected_data"][yr][country];
+        } catch (error) {}
+
+        const props = getCountryDisplayProps(country, yr, statsValue);
+
+        if (!props.showLabel) continue;
+
         let item = {
           type: 'scatter',
           silent: true, // events pass through - to underlying geo Region, click, hover, drag…
           coordinateSystem: 'geo',
           symbol: 'circle',
-          // x14x14
-          symbolSize: 34,
           symbolSize:  0,
-          // symbolOffset: [10, -15],   // moves symbol and label
-          color: valToPctToColor(statsValue, initOpacity, elOpa, selectedDataMeta[selectedVar]),  // only if symbolSize > 0
-          animation:         false,
+          color: props.labelColor,
+          animation: false,
           animationDuration: 0,
           label: {
             show: true,
-            formatter:  Math.round(statsValue).toString() + ' %',
-            formatter:  selectedDataMeta[selectedVar]["formatter"](statsValue),
-            fontSize:    14,
-            fontSize:    fontSizeByDisplay,
+            formatter: props.labelText,
+            fontSize: fontSizeByDisplay,
             fontWeight: 300,
             color: '#000',
             align: 'center',
             verticalAlign: 'middle',
-            // offset:    [32, 0],
-            // offset:    [0, 12],
           },
-          data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], statsValue] }],
-          tooltip:  { show: true, formatter: `${statsValue}` },
-          tooltip:  { show: false },
+          data: [{ name: 'value', value: [centroids[country][0], centroids[country][1], statsValue || 0] }],
+          tooltip: { show: false },
           z: 10,
         };
         results.push(item);
       }
+
       return results;
     }
 

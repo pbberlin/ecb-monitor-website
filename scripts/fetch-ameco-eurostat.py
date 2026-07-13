@@ -122,7 +122,7 @@ def runAmecoPipeline() -> bool:
 
 
     # JS and CSV outputs are filtered
-    if runPythonScript(scriptDir / "mask-pre-accession.py", cwdPath=scriptDir) != 0:
+    if runPythonScript(scriptDir / "eu-and-euro-countries.py", cwdPath=scriptDir) != 0:
         return False
 
 
