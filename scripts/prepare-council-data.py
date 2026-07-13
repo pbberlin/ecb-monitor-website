@@ -403,8 +403,8 @@ toHtml(
 
 convertPickleToJs(
     Path( appDir / "scripts" / "council" / "ecb-council-data.pkl") ,
-    Path( appDir / "static" / "dl" / "ecb-council-by-name.js") ,
-    Path( appDir / "static" / "dl" / "ecb-council-by-function.js") ,
+    Path( appDir / "static" / "dl" / "council-by-name.js") ,
+    Path( appDir / "static" / "dl" / "council-by-function.js") ,
     "name",
 )
 
