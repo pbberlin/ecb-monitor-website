@@ -157,9 +157,15 @@ as its shapes and gradients have salient aesthetics and characteristics that des
 
 ## Format
 
-SVG or Vector graphics welcome.
+* SVG or Vector graphics welcome.
 
-PNG or any other pixel format also nice, sufficient resolution 1600 x 1600 pixel or higher
+* SVGator creations highly welcome
+    * SVGator source file (.svgator project file)
+    * SVG output created by SVGator
+
+
+* PNG or any other pixel format also nice, sufficient resolution 1600 x 1600 pixel or higher
+
 
 
 # Website Screens {#website-screens}

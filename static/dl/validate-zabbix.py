@@ -41,9 +41,11 @@ def extractJsonFromJs(jsText):
 
 
 def validateJsFile(jsPath):
+    
     """
     Return True if valid enough, False otherwise.
     """
+    
     try:
         jsText = jsPath.read_text(encoding="utf-8")
     except Exception as exc:
@@ -91,6 +93,8 @@ def validateJsFile(jsPath):
         if Path(jsPath).name == "council-by-6weeks.js":
             minNestedLocal = 3
         if Path(jsPath).name == "council_barometer.js":
+            minNestedLocal = 4
+        if Path(jsPath).name == "eu-and-euro-countries.js":
             minNestedLocal = 4
 
 
@@ -177,6 +181,7 @@ def main():
 
     for idx1, jsPath in enumerate(jsFileList):
         print(f"\t  validating {jsPath}")
+
         isOk = validateJsFile(jsPath)
         if not isOk:
             allOk = False
