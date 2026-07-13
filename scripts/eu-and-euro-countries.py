@@ -11,7 +11,8 @@ from lib.util import stackTrace
 # mapping of EU and Euro member states to their accession and leave dates
 # serving as single source of truth for frontend and CSV generation
 countryDates = {
-    "Euro area (20 countries)": {"euJoin": "1999-01-01", "euLeave": None, "euroJoin": "1999-01-01", "euroLeave": None},
+    "Euro area (20 countries)":
+                      {"euJoin": "1999-01-01", "euLeave": None, "euroJoin": "1999-01-01", "euroLeave": None},
     "Austria":        {"euJoin": "1995-01-01", "euLeave": None, "euroJoin": "1999-01-01", "euroLeave": None},
     "Belgium":        {"euJoin": "1958-01-01", "euLeave": None, "euroJoin": "1999-01-01", "euroLeave": None},
     "Bulgaria":       {"euJoin": "2007-01-01", "euLeave": None, "euroJoin": "2025-01-01", "euroLeave": None},
@@ -46,7 +47,8 @@ countryDates = {
     "Ukraine":        {"euJoin": None,         "euLeave": None, "euroJoin": None,         "euroLeave": None},
     "Moldova":        {"euJoin": None,         "euLeave": None, "euroJoin": None,         "euroLeave": None},
     "Belarus":        {"euJoin": None,         "euLeave": None, "euroJoin": None,         "euroLeave": None},
-    "Bosnia and Herzegovina": {"euJoin": None, "euLeave": None, "euroJoin": None,         "euroLeave": None},
+    "Bosnia and Herzegovina":
+                      {"euJoin": None, "euLeave": None, "euroJoin": None,         "euroLeave": None},
     "Albania":        {"euJoin": None,         "euLeave": None, "euroJoin": None,         "euroLeave": None},
     "Montenegro":     {"euJoin": None,         "euLeave": None, "euroJoin": None,         "euroLeave": None},
     "Macedonia":      {"euJoin": None,         "euLeave": None, "euroJoin": None,         "euroLeave": None},
@@ -57,11 +59,11 @@ def isPreAccession(countryName, timeKey):
     # checking if the data point predates the country's accession date
     if countryName not in countryDates:
         return False
-    
+
     dates = countryDates[countryName]
     if not dates["euJoin"]:
         return True
-        
+
     accDate = dates["euJoin"]
     accYear = accDate[0:4]
     accMonth = accDate[0:7]
@@ -72,7 +74,7 @@ def isPreAccession(countryName, timeKey):
     elif len(timeKey) == 7:
         if timeKey < accMonth:
             return True
-    
+
     return False
 
 def extractJsonStringFromJs(jsText):
@@ -110,7 +112,7 @@ def processJsFile(pth):
         jsText = pth.read_text(encoding="utf-8")
         varDeclaration, jsonText = extractJsonStringFromJs(jsText)
         dataDict = json.loads(jsonText)
-        
+
         if not isinstance(dataDict, dict):
             return
 
@@ -167,9 +169,9 @@ def generateCountryJs(pth):
 
 def main():
     dlDir = parentDir / "static" / "dl"
-    
+
     generateCountryJs(dlDir / "eu-and-euro-countries.js")
-    
+
     jsFilesList = []
     for idx1, pth in enumerate(sorted(dlDir.glob("*.js"))):
         # skipping council files as they do not contain economic time series
