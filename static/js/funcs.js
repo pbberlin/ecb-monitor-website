@@ -255,6 +255,85 @@ function createGradientLegend(domEl, config) {
 }
 
 
+// evaluating temporal membership status for styling and labels
+// extracted to global funcs.js to prevent code duplication across templates
+function getCountryDisplayProps(country, timeKey, statsValue, countryDates, config, initOpacity, elOpa) {
+    
+    // discarding secondary values if the python importer created duplicate records
+    if (Array.isArray(statsValue)) {
+        console.log(`Secondary values discarded for ${country} in ${timeKey}:`, statsValue);
+        statsValue = statsValue[0];
+    }
+
+    const dates = countryDates[country];
+    if (!dates) {
+        return { status: "non-eu", areaColor: '#eee', tooltipText: country + "\n(non EU)", showLabel: false };
+    }
+
+    // extracting year from timeKey (handles both YYYY and YYYY-MM)
+    const currentYear = parseInt(String(timeKey).substring(0, 4), 10);
+    
+    let isEu = false;
+    if (dates.euJoin) {
+        const joinYear = parseInt(dates.euJoin.substring(0, 4), 10);
+        if (currentYear >= joinYear) {
+            isEu = true;
+        }
+    }
+    if (dates.euLeave) {
+        const leaveYear = parseInt(dates.euLeave.substring(0, 4), 10);
+        if (currentYear >= leaveYear) {
+            isEu = false;
+        }
+    }
+
+    let isEuro = false;
+    if (dates.euroJoin) {
+        const joinYear = parseInt(dates.euroJoin.substring(0, 4), 10);
+        if (currentYear >= joinYear) {
+            isEuro = true;
+        }
+    }
+    if (dates.euroLeave) {
+        const leaveYear = parseInt(dates.euroLeave.substring(0, 4), 10);
+        if (currentYear >= leaveYear) {
+            isEuro = false;
+        }
+    }
+
+    if (!isEu) {
+        return {
+            status: "non-eu",
+            areaColor: '#eee',
+            tooltipText: country + "\n(non EU)",
+            showLabel: false
+        };
+    }
+
+    if (!isEuro) {
+        let lblText = statsValue !== null && statsValue !== undefined && statsValue !== "" ? config.formatter(statsValue) : "N/A";
+        return {
+            status: "non-euro",
+            areaColor: 'rgb(238, 245, 245)',
+            tooltipText: country + "\n(no €)",
+            showLabel: true,
+            labelColor: '#666',
+            labelText: lblText
+        };
+    }
+
+    // euro
+    let lblText = statsValue !== null && statsValue !== undefined && statsValue !== "" ? config.formatter(statsValue) : "N/A";
+    let color = statsValue !== null && statsValue !== undefined && statsValue !== "" ? valToPctToColor(statsValue, initOpacity, elOpa, config) : '#ccc';
+    return {
+        status: "euro",
+        areaColor: color,
+        tooltipText: country,
+        showLabel: true,
+        labelColor: color,
+        labelText: lblText
+    };
+}
 
 
 /**
