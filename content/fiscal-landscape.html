@@ -917,20 +917,21 @@
             elOpa,
         );
 
-        if (!props.showLabel) continue;
-
+        // keeping the series in the array ensures ECharts overwrites the previous state
+        // rather than leaving a stale series behind due to index-based merging.
         let item = {
+          name: country + '_label', // explicit name for deterministic series merging
           type: 'scatter',
           silent: true, // events pass through - to underlying geo Region, click, hover, drag…
           coordinateSystem: 'geo',
           symbol: 'circle',
           symbolSize:  0,
-          color: props.labelColor,
+          color: props.labelColor || '#000',
           animation: false,
           animationDuration: 0,
           label: {
-            show: true,
-            formatter: props.labelText,
+            show: props.showLabel, // dynamically hide/show instead of omitting the series
+            formatter: props.labelText || '',
             fontSize: fontSizeByDisplay,
             fontWeight: 300,
             color: '#000',

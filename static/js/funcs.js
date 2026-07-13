@@ -276,7 +276,7 @@ function getCountryDisplayProps(
             areaColor: '#eee',
             tooltipText: country + "\n(non EU)",
             showLabel: false,
-            labelText: " ",
+            labelText: "",
         };
     }
 
@@ -321,7 +321,7 @@ function getCountryDisplayProps(
             areaColor: '#eee',
             tooltipText: country + "\n(non EU)",
             showLabel: false,
-            labelText: " ",
+            labelText: ""
         };
     }
 
