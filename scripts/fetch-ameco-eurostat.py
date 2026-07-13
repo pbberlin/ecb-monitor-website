@@ -119,6 +119,13 @@ def runAmecoPipeline() -> bool:
 
     # 
     # ameco and eurostat
+
+
+    # JS and CSV outputs are filtered
+    if runPythonScript(scriptDir / "mask-pre-accession.py", cwdPath=scriptDir) != 0:
+        return False
+
+
     if runPythonScript(dlDir / "jsToCSV.py",         cwdPath=dlDir) != 0:
         return False
 
