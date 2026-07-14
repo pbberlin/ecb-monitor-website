@@ -114,8 +114,9 @@ def parseRatesData(htmlContent):
 
         dayMonthStr = tdElements[1].text_content().strip()
 
-        depositRate = tdElements[2].text_content().strip()
-        fixedRate = tdElements[3].text_content().strip()
+        depositRate  = tdElements[2].text_content().strip()
+        fixedRate    = tdElements[3].text_content().strip()
+        variableRate = tdElements[4].text_content().strip()
         marginalRate = tdElements[5].text_content().strip()
 
         # extracting only day digits and month letters using regex
@@ -137,9 +138,10 @@ def parseRatesData(htmlContent):
             print(f"Failed parsing date {cleanDateStr}")
             continue
 
-        # reconstructing original display string for the markdown table
-        displayDateStr = f"{yearStr} {dayMonthStr}"
-        tpl = (parsedDate, displayDateStr, depositRate, fixedRate, marginalRate)
+        # formatting output date to dd.mm.yyyy to match calendar format
+        formattedDateStr = parsedDate.strftime("%d.%m.%Y")
+        
+        tpl = (parsedDate, formattedDateStr, depositRate, fixedRate, variableRate, marginalRate)
         records.append(tpl)
 
     # sorting descending by date object
@@ -175,12 +177,13 @@ def buildCalendarMarkdown(records, sourceUrl, lastUpdated):
 
 def buildRatesMarkdown(records, sourceUrl, lastUpdated):
     lines = []
-    lines.append("| Date (with effect from) | Deposit facility | Main refinancing operations (Fixed rate) | Marginal lending facility |")
-    lines.append("|---|---|---|---|")
+    # lines.append("| Date (with effect from) | Deposit facility | Main refinancing operations <br>Fixed rate tenders<br> Fixed rate | Main refinancing operations <br>Variable rate tenders <br> Minimum bid rate | Marginal lending facility |")
+    lines.append("| Date  | Deposit facility | Main refinancing operations <br>Fixed rate tenders<br> Fixed rate | Main refinancing operations <br>Variable rate tenders <br> Minimum bid rate | Marginal lending facility |")
+    lines.append("|---|---|---|---|---|")
 
     for idx1, tpl in enumerate(records):
-        _, dateStr, depRate, fixRate, margRate = tpl
-        lines.append(f"| {dateStr} | {depRate} | {fixRate} | {margRate} |")
+        _, dateStr, depRate, fixRate, varRate, margRate = tpl
+        lines.append(f"| {dateStr} | {depRate} | {fixRate} | {varRate} | {margRate} |")
 
     lines.append("")
     lines.append(f"[To source]({sourceUrl})")
@@ -210,9 +213,9 @@ def writeOutput(content, filename):
     for idx1, lg in enumerate(langs):
         pth = basePth / lg / filename
         pth.parent.mkdir(parents=True, exist_ok=True)
-        # pth.write_text(content, encoding="utf-8")
-        # print(f"Wrote {pth}")
-        print(f"Skipping  {pth}")
+        pth.write_text(content, encoding="utf-8")
+        print(f"\t wrote {pth}")
+        # print(f"Skipping  {pth}")
 
 
 def main():
@@ -224,7 +227,7 @@ def main():
 
     # processing calendar
     try:
-        print("Fetching calendar data...")
+        print("\nFetching calendar data...")
         calHtml    = fetchHtml(calendarUrl)
         calRecords = parseCalendarData(calHtml)
         calMd      = buildCalendarMarkdown(calRecords, calendarUrl, lastUpdated)
@@ -237,7 +240,7 @@ def main():
 
     # processing rates
     try:
-        print("Fetching rates data...")
+        print("\nFetching rates data...")
         ratesHtml    = fetchHtml(ratesUrl)
         ratesRecords = parseRatesData(ratesHtml)
         ratesMd      = buildRatesMarkdown(ratesRecords, ratesUrl, lastUpdated)
