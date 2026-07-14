@@ -287,9 +287,15 @@
 
 
 
-    <div id="slider-group" class="slider-group">
+    <div id="slider-group" class="slider-group" style="margin-bottom:0">
       <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
       <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
+    </div>
+
+    <div class="slider-group" style="margin-top: 0.2rem; margin-bottom: 1.5rem;">
+      <label title="Absolute numbers or difference from Eurozone average" style="cursor: pointer;">
+        <input type="checkbox" id="cbRelativeToAvg" name="cbRelativeToAvg"> {{i18n.abs_or_rel}}
+      </label>
     </div>
 
     <!-- option -->
@@ -484,11 +490,16 @@
     sliderEl.value       = String(currentYear);
     labelEl.textContent  = sliderEl.value;
 
+    const cbRel          = document.getElementById("cbRelativeToAvg");
+    let isRelative       = localStorage.getItem("isRelative") === "true";
+    cbRel.checked        = isRelative;
+
     const statRadios     = document.querySelectorAll('input[name="stats_variable"]');
     const linkDownload   = document.getElementById("linkDownload")
     const elOpa          = document.getElementById("color_opacity");
     const extendableList = Array.from(statRadios);
     extendableList.push(elOpa);
+    extendableList.push(cbRel);
 
 
     let initOpacity = 0.6;
@@ -506,29 +517,44 @@
     let selectedDataMeta = {
       "ameco_gdp_growth": {
         "selected_data" : gdpGrowthReal,
-        "formatter": (statsValue) => {
-          return  (Math.round(statsValue*10)/10).toString() + ' %'
+        "abs": {
+          "formatter": (vl) => (Math.round(vl*10)/10).toString() + ' %',
+          "color_ranges": [-2, 0, 2, 4],
+          "colors":       ["#FF0000", "#80A000", "#00A000", "#00A000"],
         },
-        "color_ranges": [-2, 0, 2, 4],
-        "colors":       ["#FF0000", "#80A000", "#00A000", "#00A000"],
-      } ,
+        "rel": {
+          "formatter": (vl) => (vl > 0 ? '+' : '') + (Math.round(vl*10)/10).toString() + ' pp',
+          "color_ranges": [-3, 0, 3],
+          "colors":       ["#FF0000", "#80A000", "#00A000"],
+        }
+      },
       "ameco_output_gap": {
         "selected_data" : outputGap,
-        "formatter": (statsValue) => {
-          return  (Math.round(statsValue*10)/10).toString() + ' %'
+        "abs": {
+          "formatter": (vl) => (Math.round(vl*10)/10).toString() + ' %',
+          "color_ranges":  [-4, 0, 4],
+          "colors":        ["#00A000", "#80A000", "#FF0000"],
         },
-        "color_ranges":  [-4, 0, 4],
-        "colors":        ["#00A000", "#80A000", "#FF0000"],
+        "rel": {
+          "formatter": (vl) => (vl > 0 ? '+' : '') + (Math.round(vl*10)/10).toString() + ' pp',
+          "color_ranges":  [-3, 0, 3],
+          "colors":        ["#00A000", "#80A000", "#FF0000"],
+        }
       },
       // monthly
       "eurostat_hicp": {
         "selected_data" : hicp,
-        "formatter": (statsValue) => {
-          return  (Math.round(statsValue*10)/10).toString() + ' %'
+        "abs": {
+          "formatter": (vl) => (Math.round(vl*10)/10).toString() + ' %',
+          "color_ranges": [ 1,  2.5, 5, ],
+          "colors":        ["#00A000", "#80A000", "#FF0000"]
         },
-        "color_ranges": [ 1,  2.5, 5, ],
-        "colors":        ["#00A000", "#80A000", "#FF0000"]
-      } ,
+        "rel": {
+          "formatter": (vl) => (vl > 0 ? '+' : '') + (Math.round(vl*10)/10).toString() + ' pp',
+          "color_ranges": [-2, 0, 2],
+          "colors":       ["#00A000", "#80A000", "#FF0000"]
+        }
+      }
     };
 
     let   selectedVar  = "ameco_gdp_growth";
@@ -700,6 +726,14 @@
 
     function regionsColoring(yr=currentYear) {
       let results = [];
+      const isRel = cbRel.checked;
+      let baseline = null;
+      if (isRel) {
+          try {
+              baseline = selectedDataMeta[selectedVar]["selected_data"][yr]["Euro area (20 countries)"];
+          } catch(e) {  console.err(e) }
+      }
+      const modeConfig = isRel ? selectedDataMeta[selectedVar]["rel"] : selectedDataMeta[selectedVar]["abs"];
 
       for (let country of Object.keys(countryDates)) {
         // if (country === "Euro area (20 countries)") continue;
@@ -709,14 +743,24 @@
             statsValue = selectedDataMeta[selectedVar]["selected_data"][yr][country];
         } catch (error) {}
 
+        // calculating relative difference if mode is active and country is not the baseline
+        if (isRel && country !== "Euro area (20 countries)") {
+            if (statsValue !== null && baseline !== null && statsValue !== undefined && baseline !== undefined) {
+                statsValue = statsValue - baseline;
+            } else {
+                statsValue = null;
+            }
+        }
+
         const props = getCountryDisplayProps(
             country,
             yr,
             statsValue,
             countryDates,
-            selectedDataMeta[selectedVar],
+            modeConfig,
             initOpacity,
             elOpa,
+            isRel
           );
 
         let item = {
@@ -829,9 +873,18 @@
       }
 
       let results = [];
+      const isRel = cbRel.checked;
+      let baseline = null;
+      if (isRel) {
+          try {
+              baseline = selectedDataMeta[selectedVar]["selected_data"][yr]["Euro area (20 countries)"];
+          } catch(e) {  console.err(e) }
+      }
+      const modeConfig = isRel ? selectedDataMeta[selectedVar]["rel"] : selectedDataMeta[selectedVar]["abs"];
 
       for (let country of Object.keys(countryDates)) {
         // if (country === "Euro area (20 countries)") continue;
+
         if (!centroids[country]) continue;
 
         let statsValue = null;
@@ -839,14 +892,24 @@
             statsValue = selectedDataMeta[selectedVar]["selected_data"][yr][country];
         } catch (error) {}
 
+        // calculating relative difference if mode is active and country is not the baseline
+        if (isRel && country !== "Euro area (20 countries)") {
+            if (statsValue !== null && baseline !== null && statsValue !== undefined && baseline !== undefined) {
+                statsValue = statsValue - baseline;
+            } else {
+                statsValue = null;
+            }
+        }
+
         const props = getCountryDisplayProps(
             country,
             yr,
             statsValue,
             countryDates,
-            selectedDataMeta[selectedVar],
+            modeConfig,
             initOpacity,
             elOpa,
+            isRel
         );
 
         // keeping the series in the array ensures ECharts overwrites the previous state
@@ -1089,30 +1152,7 @@
         sliderEl.dispatchEvent(new Event("input"));    // trigger input event
     });
 
-    document.getElementById("linkPlay").addEventListener("click", function (ev) {
-        ev.preventDefault();
-
-        const sliderElem = document.getElementById("yearSlider");
-        const minVal = parseInt(sliderElem.min, 10);
-        const maxVal = parseInt(sliderElem.max, 10);
-
-        let currentVal = minVal;
-        sliderElem.value = currentVal;
-        sliderElem.dispatchEvent(new Event("change"));
-
-        const stepTimer = setInterval(function () {
-
-            currentVal += 1;
-            sliderElem.value = currentVal;
-            // we need to send the event to slider - to trigger its change event
-            sliderElem.dispatchEvent(new Event("change"));
-
-            if (currentVal >= maxVal) {
-                clearInterval(stepTimer);
-            }
-
-        }, 550);
-    });
+    setupSliderAutoplay("linkPlay", "yearSlider");
 
     function updateDesc(){
       let descs = document.querySelectorAll(".stats-desc");
@@ -1139,7 +1179,9 @@
 
       console.log(`initFunc() selected ${selectedVar}`);
 
-      createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
+      const isRel = cbRel.checked;
+      const modeConfig = isRel ? selectedDataMeta[selectedVar]["rel"] : selectedDataMeta[selectedVar]["abs"];
+      createGradientLegend("gradient1", modeConfig);
 
       sliderConfig();
 
@@ -1205,11 +1247,13 @@
 
         if (evt.target.name === "color_opacity") {
           localStorage.setItem("initOpacity", evt.target.value.toString());
+        } else if (evt.target.name === "cbRelativeToAvg") {
+          localStorage.setItem("isRelative", evt.target.checked ? "true" : "false");
         } else {
           selectedVar  = evt.target.value;
         }
 
-        console.log(`selected opa/radio ${evt.target.value}`);
+        console.log(`selected opa/radio/checkbox ${evt.target.value}`);
 
         sliderConfig();
         const res = sliderToKey();
@@ -1217,7 +1261,9 @@
 
         linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
 
-        createGradientLegend("gradient1", selectedDataMeta[selectedVar]);
+        const isRel = cbRel.checked;
+        const modeConfig = isRel ? selectedDataMeta[selectedVar]["rel"] : selectedDataMeta[selectedVar]["abs"];
+        createGradientLegend("gradient1", modeConfig);
 
         updateDesc();
 

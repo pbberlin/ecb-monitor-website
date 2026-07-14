@@ -1241,31 +1241,11 @@
         sliderEl.dispatchEvent(new Event("input"));    // trigger input event
     });
 
-    document.getElementById("linkPlay").addEventListener("click", function (ev) {
-        ev.preventDefault();
+    
 
-        const sliderElem = document.getElementById("yearSlider");
-        const minVal = parseInt(sliderElem.min, 10);
-        const maxVal = parseInt(sliderElem.max, 10);
-
-        let currentVal = minVal;
-        sliderElem.value = currentVal;
-        sliderElem.dispatchEvent(new Event("change"));
-
-        const stepTimer = setInterval(function () {
-
-            currentVal += 1;
-            sliderElem.value = currentVal;
-            // we need to send the event to slider - to trigger its change event
-            sliderElem.dispatchEvent(new Event("change"));
-
-            if (currentVal >= maxVal) {
-                clearInterval(stepTimer);
-            }
-
-        }, 550);
-    });
-
+    setupSliderAutoplay("linkPlay", "yearSlider");
+    
+    
     function updateDesc(){
       let descs = document.querySelectorAll(".stats-desc");
       descs.forEach(function(desc) {
