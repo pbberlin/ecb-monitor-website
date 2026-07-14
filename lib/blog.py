@@ -129,19 +129,20 @@ def licenceString(fnParam):
 def imageLicenses():
 
   imgs = [
-      "symbols/imag0021_backspace.jpg",
+      # "symbols/imag0021_backspace.jpg",
 
+      "homepage/television_news_crew.jpg",
       "homepage/logo_european_central_bank.png",
       "homepage/supply_and_demand_diagram-orig.png",
-      "homepage/television_news_crew.jpg",
   
-      "blog/electronica-biftu-cash-register--iceblue-yell.png",
+      # "blog/electronica-biftu-cash-register--iceblue-yell.png",
       "blog/European_Central_Bank_Headquarters_(model_01)-sm-fg2.png",
       "blog/fhe--grey.jpg",
       "blog/fhe--iceblue.jpg",
-      "blog/adobe-political-economy.jpg",
-      "blog/adobe-stock-1878624005-sm.gif",
-      "blog/adobe-stock-529399345-ecb.jpg",
+
+      # "blog/adobe-political-economy.jpg",
+      # "blog/adobe-stock-1878624005-sm.gif",
+      # "blog/adobe-stock-529399345-ecb.jpg",
     ]
 
 
