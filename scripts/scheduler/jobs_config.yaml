@@ -12,6 +12,10 @@ jobs:
     # sudo systemctl restart app-scheduler
     script: "../fetch-ameco-eurostat.py"
 
+  - id: "fetchRatesAndDates"
+    cron: "10 2 * * *"
+    script: "../fetch-rates-and-dates.py"
+
 
   - id: "dailyFetch"
     cron: "0 3 * * *"
