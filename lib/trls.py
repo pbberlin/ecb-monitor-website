@@ -848,40 +848,40 @@ trlsRaw = [
 
 
     {
-        "council_timeline_section": {
+        "council_by_6weeks_section": {
             "de": "Timeline",
             "en": "Timeline ECB-ZEW-Momentum Indicator",
         },
     },
     {
-        "council_timeline_section_subtitle": {
+        "council_by_6weeks_section_subtitle": {
             "de": "(Reden letzte 6 Wochen)",
             # "en": "(speeches last six weeks)",
             "en": "(speeches per six weeks)",
         },
     },
     {
-        "headline_council_timeline": {
+        "headline_council_by_6weeks": {
             "de": "EZB-Rat insgesamt - Taube-Falke Position über die Zeit ",
             # "en": "Timeline ECB-ZEW-Momentum Indicator (speeches last six weeks)",
             "en": "ECB-ZEW-Momentum Indicator and ECB deposit rate over time",
         },
     },
     {
-        "council_timeline_desc":    {
+        "council_by_6weeks_desc":    {
             "de": "Leitzins Entscheidungen folgen der Dovish-Hawkish Einschätzung der vorangegangenen Kommunikation. Plausibel. Kausalbeziehung nicht beweisbar.",
             # "en": "Rate settings follows Dovish-Hawkish score. Plausible, but causal relation cannot be proved.",
             "en": "ECB-ZEW Momentum Indicator and ECB deposit rate over time",
         },
     },
     {
-        "council_timeline_chart_series":    {
+        "council_by_6weeks_chart_series":    {
             "de": "ECB-ZEW Momentum Indikator",
             "en": "ECB-ZEW Momentum Indicator",
         },
     },
     {
-        "council_timeline_infobox":    {
+        "council_by_6weeks_infobox":    {
             "de": """
                 <ul>
                     <!--

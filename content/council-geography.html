@@ -258,6 +258,7 @@
 
   #council_right {
     min-height: 60%;
+    min-height: 57%;
     /* keep at 60%  or switch container to vertical-align: top */
   }
 
@@ -387,8 +388,8 @@
         <span>{{i18n.section_home}}</span>
       </a>
       <hr class="sidebar-divider">
-      <a href="/pg/council-barometer.html"      >{{i18n.barometer_section}}          <span  class="subtitle"> {{i18n.barometer_section_subtitle}}         </span class="subtitle"> </a>
-      <a href="/pg/council-timeline.html"       >{{i18n.council_timeline_section}}  <span  class="subtitle"> {{i18n.council_timeline_section_subtitle}} </span class="subtitle"> </a>
+      <a href="/pg/council-barometer.html"      >{{i18n.barometer_section}}           <span  class="subtitle"> {{i18n.barometer_section_subtitle}}         </span class="subtitle"> </a>
+      <a href="/pg/council-by-6weeks.html"       >{{i18n.council_by_6weeks_section}}  <span  class="subtitle"> {{i18n.council_by_6weeks_section_subtitle}} </span class="subtitle"> </a>
 
 
 
@@ -468,6 +469,15 @@
         >
       </div>
 
+
+      <div class="slider-group play-and-download play-and-download-last" >
+        <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
+        >{{i18n.download_data}}</a>
+      </div>
+      <script>
+            const linkDownload   = document.getElementById("linkDownload")
+            linkDownload.setAttribute("href", `/static/dl/council-by-geography.csv`)
+      </script>
 
 
 
