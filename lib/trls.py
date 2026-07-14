@@ -550,7 +550,7 @@ trlsRaw = [
     {
         "abs_or_rel_help":    {
             "de": "Absolute Zahlen   - oder relativ zur Eurozone",
-            "en": "Absolute numbers - or difference from Eurozone average",
+            "en": "Absolute numbers - or difference from Euro area average",
         },
     },
     {

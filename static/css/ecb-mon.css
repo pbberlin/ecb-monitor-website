@@ -113,11 +113,20 @@ dummy {
     of slider and radio
  */
 input[type="range"],
+input[type="checkbox"],
 input[type="radio"] {
     accent-color: var(--color-logo);
 }
 
 
+input[type="checkbox"] {
+    position: relative;
+    top:  0.22ch;
+
+    /* Default is usually around 13px */
+    width:  16px;  
+    height: 16px;
+}
 
 
 
@@ -381,7 +390,7 @@ dummy {
 /* H3 vertically between top nav and controls */
 .col--left h3 {
     /* margin-top:    auto; */
-    margin-top:    5ch;
+    margin-top:    2.5ch;
     margin-bottom: auto;
 }
 
