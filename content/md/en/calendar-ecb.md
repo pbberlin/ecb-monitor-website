@@ -1,5 +1,5 @@
 | Date | Meeting Title |
-|---|---|
+|:---:|---|
 | 22.07.2026 | Governing Council of the ECB: monetary policy meeting in Frankfurt (Day 1) |
 | 23.07.2026 | Governing Council of the ECB: monetary policy meeting in Frankfurt (Day 2), followed by press conference |
 | 23.07.2026 | Press conference following the Governing Council meeting of the ECB in Frankfurt |
@@ -13,4 +13,4 @@
 
 [To source](https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html)
 
-*Last updated: 2026-07-14 21:16:29*
+*Last updated: 2026-07-14 21:24:11*

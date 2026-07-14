@@ -1,5 +1,5 @@
-| Date  | Deposit facility | Main refinancing operations <br>Fixed rate tenders<br> Fixed rate | Main refinancing operations <br>Variable rate tenders <br> Minimum bid rate | Marginal lending facility |
-|---|---|---|---|---|
+| Date | Deposit facility |  &nbsp;&nbsp;&nbsp;Main refinancing operations&nbsp;&nbsp;&nbsp; <br>Fixed rate tenders<br> Fixed rate |  &nbsp;&nbsp;&nbsp;Main refinancing operations&nbsp;&nbsp;&nbsp; <br>Variable rate tenders <br> Minimum bid rate | Marginal lending facility |
+|:---:|:---:|:---:|:---:|:---:|
 | 17.06.2026 | 2.25 | 2.40 | - | 2.65 |
 | 11.06.2025 | 2.00 | 2.15 | - | 2.40 |
 | 23.04.2025 | 2.25 | 2.40 | - | 2.65 |
@@ -13,4 +13,4 @@
 
 [To source](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html)
 
-*Last updated: 2026-07-14 21:16:29*
+*Last updated: 2026-07-14 21:24:11*

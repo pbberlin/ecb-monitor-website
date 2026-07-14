@@ -159,7 +159,8 @@ def parseRatesData(htmlContent):
 def buildCalendarMarkdown(records, sourceUrl, lastUpdated):
     lines = []
     lines.append("| Date | Meeting Title |")
-    lines.append("|---|---|")
+    # applying native markdown center alignment to both columns
+    lines.append("|:---:|---|")
 
     for idx1, tpl in enumerate(records):
         _, dateStr, descStr = tpl
@@ -178,8 +179,9 @@ def buildCalendarMarkdown(records, sourceUrl, lastUpdated):
 def buildRatesMarkdown(records, sourceUrl, lastUpdated):
     lines = []
     # lines.append("| Date (with effect from) | Deposit facility | Main refinancing operations <br>Fixed rate tenders<br> Fixed rate | Main refinancing operations <br>Variable rate tenders <br> Minimum bid rate | Marginal lending facility |")
-    lines.append("| Date  | Deposit facility | Main refinancing operations <br>Fixed rate tenders<br> Fixed rate | Main refinancing operations <br>Variable rate tenders <br> Minimum bid rate | Marginal lending facility |")
-    lines.append("|---|---|---|---|---|")
+    lines.append("| Date | Deposit facility |  &nbsp;&nbsp;&nbsp;Main refinancing operations&nbsp;&nbsp;&nbsp; <br>Fixed rate tenders<br> Fixed rate |  &nbsp;&nbsp;&nbsp;Main refinancing operations&nbsp;&nbsp;&nbsp; <br>Variable rate tenders <br> Minimum bid rate | Marginal lending facility |")
+    # applying native markdown center alignment to all five columns
+    lines.append("|:---:|:---:|:---:|:---:|:---:|")
 
     for idx1, tpl in enumerate(records):
         _, dateStr, depRate, fixRate, varRate, margRate = tpl
