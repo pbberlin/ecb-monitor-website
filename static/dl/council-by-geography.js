@@ -1,4 +1,4 @@
-councilByFunction=[
+councilGeography=[
     {
         "name": "Mario Draghi",
         "country": "Italy",

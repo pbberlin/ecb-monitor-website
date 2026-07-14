@@ -370,7 +370,7 @@ def convertPickleToJs(
         #
         byFunction = sortByFunction(out)
         jsonString = json.dumps(byFunction, indent=4)
-        jsContent  = f"councilByFunction={jsonString}; \n\n"
+        jsContent  = f"councilGeography={jsonString}; \n\n"
         with outPthJs2.open("w", encoding="utf-8") as fileHandle:
             fileHandle.write(jsContent)
         print(f"\tconverted \n\t  {pthPickle} to \n\t  {outPthJs2}")
@@ -404,7 +404,7 @@ toHtml(
 convertPickleToJs(
     Path( appDir / "scripts" / "council" / "ecb-council-data.pkl") ,
     Path( appDir / "static" / "dl" / "council-by-name.js") ,
-    Path( appDir / "static" / "dl" / "council-by-function.js") ,
+    Path( appDir / "static" / "dl" / "council-by-geography.js") ,
     "name",
 )
 

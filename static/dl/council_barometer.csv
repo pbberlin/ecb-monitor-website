@@ -1,1 +1,534 @@
-Name;1997;1998;1999;2000;2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2020;2021;2022;2023;2024;2025;2026
+Year;name_excel;mean_score;row_count;country;country_code;role;median_score_year
+1997;Antonio Fazio;0,9;2;Italy;IT;Governor;0,76
+1997;Jean-Claude Trichet;0,8;1;France;FR;Governor;0,76
+1997;Maurice O’Connell;0,8;1;Ireland;IE;Governor;0,76
+1997;Nout Wellink;0,7;2;Netherlands;NL;Governor;0,76
+1997;Sirkka Hämäläinen;-0,7;1;Finland;FI;Governor;0,76
+1997;Willem F Duisenberg;0,72;4;Netherlands;NL;Governor;0,76
+1998;Antonio Fazio;0,85;2;Italy;IT;Governor;0,6
+1998;Klaus Liebscher;0,6;1;Austria;AT;Governor;0,6
+1998;Nout Wellink;0,03;3;Netherlands;NL;Governor;0,6
+1998;Sirkka Hämäläinen;0,7;2;Finland;FI;Governor;0,6
+1998;Willem F Duisenberg;0,19;10;Netherlands;NL;President;0,6
+1999;Antonio Fazio;0,45;2;Italy;IT;Governor;0,53
+1999;Christian Noyer;0,62;12;France;FR;Vice-President;0,53
+1999;Einars Repše;0,35;2;Latvia;LV;Governor;0,53
+1999;Ernst Welteke;;0;Germany;DE;Governor;0,53
+1999;Guy Quaden;0,6;1;Belgium;BE;Governor;0,53
+1999;Jean-Claude Trichet;0,7;3;France;FR;Governor;0,53
+1999;Klaus Liebscher;0,15;2;Austria;AT;Governor;0,53
+1999;Nout Wellink;;0;Netherlands;NL;Governor;0,53
+1999;Otmar Issing;0,8;1;Germany;DE;Chief Economist;0,53
+1999;Willem F Duisenberg;0,47;33;Netherlands;NL;President;0,53
+2000;Antonio Fazio;0,7;1;Italy;IT;Governor;0,64
+2000;Christian Noyer;0,61;13;France;FR;Vice-President;0,64
+2000;Einars Repše;0,6;1;Latvia;LV;Governor;0,64
+2000;Ernst Welteke;0,65;4;Germany;DE;Governor;0,64
+2000;Guy Quaden;0,0;1;Belgium;BE;Governor;0,64
+2000;Jean-Claude Trichet;0,62;5;France;FR;Governor;0,64
+2000;Klaus Liebscher;0,57;4;Austria;AT;Governor;0,64
+2000;Luis Ángel Rojo;0,7;1;Spain;ES;Governor;0,64
+2000;Maurice O’Connell;0,8;2;Ireland;IE;Governor;0,64
+2000;Nout Wellink;0,55;2;Netherlands;NL;Governor;0,64
+2000;Otmar Issing;0,8;2;Germany;DE;Chief Economist;0,64
+2000;Willem F Duisenberg;0,72;28;Netherlands;NL;President;0,64
+2001;Antonio Fazio;-0,6;1;Italy;IT;Governor;0,4
+2001;Christian Noyer;0,49;11;France;FR;Vice-President;0,4
+2001;Einars Repše;0,6;1;Latvia;LV;Governor;0,4
+2001;Ernst Welteke;0,25;8;Germany;DE;Governor;0,4
+2001;Guy Quaden;0,47;3;Belgium;BE;Governor;0,4
+2001;Jaime Caruana ;0,7;1;Spain;ES;Governor;0,4
+2001;Jean-Claude Trichet;0,4;6;France;FR;Governor;0,4
+2001;Klaus Liebscher;0,38;5;Austria;AT;Governor;0,4
+2001;Lucas Papademos;0,0;1;Greece;EL;Governor;0,4
+2001;Matti Vanhala;0,7;1;Finland;FI;Governor;0,4
+2001;Maurice O’Connell;0,2;1;Ireland;IE;Governor;0,4
+2001;Michael Bonello;0,8;1;Malta;MT;Governor;0,4
+2001;Nout Wellink;0,0;3;Netherlands;NL;Governor;0,4
+2001;Otmar Issing;0,62;4;Germany;DE;Chief Economist;0,4
+2001;Tommaso Padoa-Schioppa;;0;Italy;IT;Executive Board;0,4
+2001;Willem F Duisenberg;0,18;19;Netherlands;NL;President;0,4
+2002;Christian Noyer;0,39;7;France;FR;Vice-President;0,47
+2002;Ernst Welteke;0,5;3;Germany;DE;Governor;0,47
+2002;Guy Quaden;0,1;2;Belgium;BE;Governor;0,47
+2002;Jaime Caruana ;0,45;2;Spain;ES;Governor;0,47
+2002;Jean-Claude Trichet;0,6;5;France;FR;Governor;0,47
+2002;John Hurley;0,6;1;Ireland;IE;Governor;0,47
+2002;Klaus Liebscher;0,7;4;Austria;AT;Governor;0,47
+2002;Lucas Papademos;0,0;1;Greece;EL;Vice-President;0,47
+2002;Michael Bonello;0,6;3;Malta;MT;Governor;0,47
+2002;Nicholas C Garganas;;0;Greece;EL;Governor;0,47
+2002;Nout Wellink;0,36;8;Netherlands;NL;Governor;0,47
+2002;Otmar Issing;0,5;3;Germany;DE;Chief Economist;0,47
+2002;Tommaso Padoa-Schioppa;0,0;1;Italy;IT;Executive Board;0,47
+2002;Willem F Duisenberg;0,35;25;Netherlands;NL;President;0,47
+2002;Yves Mersch;1,0;1;Luxembourg;LU;Governor;0,47
+2003;Antonio Fazio;0,7;1;Italy;IT;Governor;0,37
+2003;Ernst Welteke;0,6;3;Germany;DE;Governor;0,37
+2003;Guy Quaden;0,0;2;Belgium;BE;Governor;0,37
+2003;Jaime Caruana ;0,35;2;Spain;ES;Governor;0,37
+2003;Jean-Claude Trichet;0,38;6;France;FR;President;0,37
+2003;John Hurley;0,33;3;Ireland;IE;Governor;0,37
+2003;Klaus Liebscher;0,3;3;Austria;AT;Governor;0,37
+2003;Lucas Papademos;0,1;6;Greece;EL;Vice-President;0,37
+2003;Marián Jusko;0,0;1;Slovakia;SK;Governor;0,37
+2003;Matti Vanhala;0,6;1;Finland;FI;Governor;0,37
+2003;Michael Bonello;0,47;3;Malta;MT;Governor;0,37
+2003;Nicholas C Garganas;0,8;2;Greece;EL;Governor;0,37
+2003;Nout Wellink;0,6;1;Netherlands;NL;Governor;0,37
+2003;Otmar Issing;0,8;2;Germany;DE;Chief Economist;0,37
+2003;Willem F Duisenberg;0,08;15;Netherlands;NL;President;0,37
+2003;Yves Mersch;0,28;4;Luxembourg;LU;Governor;0,37
+2004;Antonio Fazio;0,03;4;Italy;IT;Governor;0,36
+2004;Axel Weber;0,7;6;Germany;DE;Governor;0,36
+2004;Christian Noyer;0,3;1;France;FR;Governor;0,36
+2004;Erkki Liikanen;0,25;2;Finland;FI;Governor;0,36
+2004;Ernst Welteke;-0,3;1;Germany;DE;Governor;0,36
+2004;Guy Quaden;0,17;3;Belgium;BE;Governor;0,36
+2004;Jaime Caruana ;0,4;4;Spain;ES;Governor;0,36
+2004;Jean-Claude Trichet;0,5;44;France;FR;President;0,36
+2004;John Hurley;0,42;4;Ireland;IE;Governor;0,36
+2004;Klaus Liebscher;0,36;7;Austria;AT;Governor;0,36
+2004;Lucas Papademos;0,36;7;Greece;EL;Vice-President;0,36
+2004;Michael Bonello;0,53;7;Malta;MT;Governor;0,36
+2004;Nicholas C Garganas;1,0;1;Greece;EL;Governor;0,36
+2004;Nout Wellink;0,2;2;Netherlands;NL;Governor;0,36
+2004;Otmar Issing;0,73;3;Germany;DE;Chief Economist;0,36
+2004;Vítor Constâncio;0,0;1;Portugal;PT;Governor;0,36
+2004;Yves Mersch;0,0;1;Luxembourg;LU;Governor;0,36
+2005;Antonio Fazio;0,35;4;Italy;IT;Governor;0,44
+2005;Axel Weber;0,48;4;Germany;DE;Governor;0,44
+2005;Christian Noyer;0,0;1;France;FR;Governor;0,44
+2005;Erkki Liikanen;;0;Finland;FI;Governor;0,44
+2005;Guy Quaden;0,6;1;Belgium;BE;Governor;0,44
+2005;Jaime Caruana ;0,15;4;Spain;ES;Governor;0,44
+2005;Jean-Claude Trichet;0,39;36;France;FR;President;0,44
+2005;John Hurley;0,44;5;Ireland;IE;Governor;0,44
+2005;Klaus Liebscher;0,53;4;Austria;AT;Governor;0,44
+2005;Lorenzo Bini Smaghi;0,9;1;Italy;IT;Executive Board;0,44
+2005;Lucas Papademos;0,44;9;Greece;EL;Vice-President;0,44
+2005;Michael Bonello;0,57;3;Malta;MT;Governor;0,44
+2005;Nicholas C Garganas;0,0;1;Greece;EL;Governor;0,44
+2005;Nout Wellink;0,1;3;Netherlands;NL;Governor;0,44
+2005;Yves Mersch;;0;Luxembourg;LU;Governor;0,44
+2006;Axel Weber;0,56;9;Germany;DE;Governor;0,49
+2006;Christian Noyer;0,58;5;France;FR;Governor;0,49
+2006;Erkki Liikanen;0,16;5;Finland;FI;Governor;0,49
+2006;Guy Quaden;0,2;2;Belgium;BE;Governor;0,49
+2006;Jaime Caruana ;0,47;3;Spain;ES;Governor;0,49
+2006;Jean-Claude Trichet;0,63;42;France;FR;President;0,49
+2006;John Hurley;0,53;7;Ireland;IE;Governor;0,49
+2006;Klaus Liebscher;0,0;1;Austria;AT;Governor;0,49
+2006;Lucas Papademos;0,49;12;Greece;EL;Vice-President;0,49
+2006;Mario Draghi;0,65;4;Italy;IT;Governor;0,49
+2006;Michael Bonello;0,6;3;Malta;MT;Governor;0,49
+2006;Miguel Fernandez Ordonez;0,7;1;Spain;ES;Governor;0,49
+2006;Nicholas C Garganas;1,0;1;Greece;EL;Governor;0,49
+2006;Nout Wellink;0,0;1;Netherlands;NL;Governor;0,49
+2006;Otmar Issing;0,47;3;Germany;DE;Chief Economist;0,49
+2006;Vítor Constâncio;0,4;2;Portugal;PT;Governor;0,49
+2006;Yves Mersch;0,35;2;Luxembourg;LU;Governor;0,49
+2007;Andres Lipstok;0,6;1;Estonia;EE;Governor;0,49
+2007;Axel Weber;0,8;6;Germany;DE;Governor;0,49
+2007;Christian Noyer;0,53;12;France;FR;Governor;0,49
+2007;Erkki Liikanen;0,32;5;Finland;FI;Governor;0,49
+2007;Gertrude Tumpel-Gugerell;0,3;2;Austria;AT;Executive Board;0,49
+2007;Guy Quaden;0,6;3;Belgium;BE;Governor;0,49
+2007;Jean-Claude Trichet;0,62;49;France;FR;President;0,49
+2007;John Hurley;0,28;5;Ireland;IE;Governor;0,49
+2007;Jose Manuel Gonzalez-Paramo;0,4;2;Spain;ES;Executive Board;0,49
+2007;Jürgen Stark;0,8;4;Germany;DE;Chief Economist;0,49
+2007;Klaus Liebscher;0,54;5;Austria;AT;Governor;0,49
+2007;Lorenzo Bini Smaghi;0,4;2;Italy;IT;Executive Board;0,49
+2007;Lucas Papademos;0,49;14;Greece;EL;Vice-President;0,49
+2007;Mario Draghi;0,62;6;Italy;IT;Governor;0,49
+2007;Michael Bonello;0,43;4;Malta;MT;Governor;0,49
+2007;Miguel Fernandez Ordonez;0,65;6;Spain;ES;Governor;0,49
+2007;Nicholas C Garganas;0,0;1;Greece;EL;Governor;0,49
+2007;Nout Wellink;0,17;4;Netherlands;NL;Governor;0,49
+2007;Yves Mersch;0,0;1;Luxembourg;LU;Governor;0,49
+2008;Axel Weber;0,66;10;Germany;DE;Governor;0,35
+2008;Christian Noyer;0,31;8;France;FR;Governor;0,35
+2008;Erkki Liikanen;0,35;4;Finland;FI;Governor;0,35
+2008;George A Provopoulos;1,0;1;Greece;EL;Governor;0,35
+2008;Gertrude Tumpel-Gugerell;0,23;6;Austria;AT;Executive Board;0,35
+2008;Guy Quaden;-0,35;2;Belgium;BE;Governor;0,35
+2008;Ivan Šramko;;0;Slovakia;SK;Governor;0,35
+2008;Jean-Claude Trichet;0,53;60;France;FR;President;0,35
+2008;John Hurley;0,56;5;Ireland;IE;Governor;0,35
+2008;Jose Manuel Gonzalez-Paramo;0,14;10;Spain;ES;Executive Board;0,35
+2008;Jürgen Stark;0,57;16;Germany;DE;Chief Economist;0,35
+2008;Lorenzo Bini Smaghi;0,34;14;Italy;IT;Executive Board;0,35
+2008;Lucas Papademos;0,58;11;Greece;EL;Vice-President;0,35
+2008;Mario Draghi;0,16;9;Italy;IT;Governor;0,35
+2008;Michael Bonello;-0,17;4;Malta;MT;Governor;0,35
+2008;Miguel Fernandez Ordonez;0,5;8;Spain;ES;Governor;0,35
+2008;Nicholas C Garganas;0,55;4;Greece;EL;Governor;0,35
+2008;Nout Wellink;0,35;4;Netherlands;NL;Governor;0,35
+2008;Yves Mersch;0,0;3;Luxembourg;LU;Governor;0,35
+2009;Andres Lipstok;-0,27;3;Estonia;EE;Governor;0,0
+2009;Axel Weber;0,5;9;Germany;DE;Governor;0,0
+2009;Christian Noyer;-0,32;5;France;FR;Governor;0,0
+2009;Erkki Liikanen;0,0;1;Finland;FI;Governor;0,0
+2009;Ewald Nowotny;-0,64;5;Austria;AT;Governor;0,0
+2009;George A Provopoulos;0,2;3;Greece;EL;Governor;0,0
+2009;Gertrude Tumpel-Gugerell;-0,01;7;Austria;AT;Executive Board;0,0
+2009;Guy Quaden;0,0;1;Belgium;BE;Governor;0,0
+2009;Jean-Claude Trichet;0,09;50;France;FR;President;0,0
+2009;John Hurley;-0,84;5;Ireland;IE;Governor;0,0
+2009;Jose Manuel Gonzalez-Paramo;0,16;7;Spain;ES;Executive Board;0,0
+2009;Jürgen Stark;0,3;10;Germany;DE;Chief Economist;0,0
+2009;Lorenzo Bini Smaghi;0,33;13;Italy;IT;Executive Board;0,0
+2009;Lucas Papademos;-0,06;8;Greece;EL;Vice-President;0,0
+2009;Mario Draghi;-0,55;4;Italy;IT;Governor;0,0
+2009;Michael Bonello;0,7;2;Malta;MT;Governor;0,0
+2009;Miguel Fernandez Ordonez;-0,04;7;Spain;ES;Governor;0,0
+2009;Nout Wellink;0,7;1;Netherlands;NL;Governor;0,0
+2009;Patrick Honohan;-0,7;1;Ireland;IE;Governor;0,0
+2009;Yves Mersch;-0,1;4;Luxembourg;LU;Governor;0,0
+2009;Željko Rohatinski;1,0;1;Croatia;HR;Governor;0,0
+2010;Axel Weber;0,52;6;Germany;DE;Governor;0,13
+2010;Christian Noyer;0,14;7;France;FR;Governor;0,13
+2010;Erkki Liikanen;0,05;4;Finland;FI;Governor;0,13
+2010;Ewald Nowotny;0,0;1;Austria;AT;Governor;0,13
+2010;George A Provopoulos;-0,25;2;Greece;EL;Governor;0,13
+2010;Gertrude Tumpel-Gugerell;0,05;6;Austria;AT;Executive Board;0,13
+2010;Guy Quaden;;0;Belgium;BE;Governor;0,13
+2010;Ilmārs Rimšēvičs;0,7;1;Latvia;LV;Governor;0,13
+2010;Jean-Claude Trichet;0,32;56;France;FR;President;0,13
+2010;Jose Manuel Gonzalez-Paramo;0,12;5;Spain;ES;Executive Board;0,13
+2010;Jürgen Stark;0,6;8;Germany;DE;Chief Economist;0,13
+2010;Lorenzo Bini Smaghi;0,53;14;Italy;IT;Executive Board;0,13
+2010;Lucas Papademos;0,0;1;Greece;EL;Vice-President;0,13
+2010;Mario Draghi;0,22;5;Italy;IT;Governor;0,13
+2010;Michael Bonello;0,38;4;Malta;MT;Governor;0,13
+2010;Miguel Fernandez Ordonez;-0,13;3;Spain;ES;Governor;0,13
+2010;Nout Wellink;0,65;2;Netherlands;NL;Governor;0,13
+2010;Patrick Honohan;-0,14;7;Ireland;IE;Governor;0,13
+2010;Vítor Constâncio;0,05;6;Portugal;PT;Vice-President;0,13
+2010;Yves Mersch;0,13;6;Luxembourg;LU;Governor;0,13
+2011;Andres Lipstok;1,0;1;Estonia;EE;Governor;0,34
+2011;Athanasios Orphanides;0,6;2;Cyprus;CY;Governor;0,34
+2011;Axel Weber;0,52;5;Germany;DE;Governor;0,34
+2011;Carlos da Silva Costa;-0,6;1;Portugal;PT;Governor;0,34
+2011;Christian Noyer;0,12;10;France;FR;Governor;0,34
+2011;Erkki Liikanen;-0,02;4;Finland;FI;Governor;0,34
+2011;Ewald Nowotny;0,15;2;Austria;AT;Governor;0,34
+2011;George A Provopoulos;-0,6;2;Greece;EL;Governor;0,34
+2011;Gertrude Tumpel-Gugerell;0,6;4;Austria;AT;Executive Board;0,34
+2011;Ignazio Visco;0,0;1;Italy;IT;Governor;0,34
+2011;Jean-Claude Trichet;0,49;58;France;FR;President;0,34
+2011;Jens Weidmann;0,78;5;Germany;DE;Governor;0,34
+2011;Jose Manuel Gonzalez-Paramo;0,34;12;Spain;ES;Executive Board;0,34
+2011;Josef Bonnici;0,4;1;Malta;MT;Governor;0,34
+2011;Jürgen Stark;0,72;10;Germany;DE;Chief Economist;0,34
+2011;Klaas Knot;0,7;1;Netherlands;NL;Governor;0,34
+2011;Lorenzo Bini Smaghi;0,38;19;Italy;IT;Executive Board;0,34
+2011;Luc Coene;0,9;1;Belgium;BE;Governor;0,34
+2011;Mario Draghi;0,21;13;Italy;IT;President;0,34
+2011;Michael Bonello;0,0;1;Malta;MT;Governor;0,34
+2011;Miguel Fernandez Ordonez;-0,15;4;Spain;ES;Governor;0,34
+2011;Nout Wellink;;0;Netherlands;NL;Governor;0,34
+2011;Patrick Honohan;-0,1;2;Ireland;IE;Governor;0,34
+2011;Peter Praet;0,17;3;Belgium;BE;Chief Economist;0,34
+2011;Vítor Constâncio;0,3;9;Portugal;PT;Vice-President;0,34
+2011;Yves Mersch;0,75;6;Luxembourg;LU;Governor;0,34
+2012;Andres Lipstok;0,6;1;Estonia;EE;Governor;0,0
+2012;Benoît Cœuré;-0,03;15;France;FR;Executive Board;0,0
+2012;Carlos da Silva Costa;0,0;1;Portugal;PT;Governor;0,0
+2012;Christian Noyer;0,0;10;France;FR;Governor;0,0
+2012;Erkki Liikanen;0,07;3;Finland;FI;Governor;0,0
+2012;Ewald Nowotny;0,25;2;Austria;AT;Governor;0,0
+2012;George A Provopoulos;-0,9;1;Greece;EL;Governor;0,0
+2012;Ignazio Visco;-0,62;4;Italy;IT;Governor;0,0
+2012;Jens Weidmann;0,83;12;Germany;DE;Governor;0,0
+2012;Jose Manuel Gonzalez-Paramo;0,23;3;Spain;ES;Executive Board;0,0
+2012;Josef Bonnici;-0,4;2;Malta;MT;Governor;0,0
+2012;Jörg Asmussen;0,09;9;Germany;DE;Executive Board;0,0
+2012;Klaas Knot;0,07;3;Netherlands;NL;Governor;0,0
+2012;Luis María Linde;-0,36;5;Spain;ES;Governor;0,0
+2012;Mario Draghi;-0,14;37;Italy;IT;President;0,0
+2012;Miguel Fernandez Ordonez;-0,52;6;Spain;ES;Governor;0,0
+2012;Patrick Honohan;0,08;5;Ireland;IE;Governor;0,0
+2012;Peter Praet;-0,11;10;Belgium;BE;Chief Economist;0,0
+2012;Vítor Constâncio;0,22;6;Portugal;PT;Vice-President;0,0
+2012;Željko Rohatinski;-0,6;1;Croatia;HR;Governor;0,0
+2013;Ardo Hansson;0,0;1;Estonia;EE;Governor;-0,27
+2013;Benoît Cœuré;-0,37;25;France;FR;Executive Board;-0,27
+2013;Carlos da Silva Costa;0,0;2;Portugal;PT;Governor;-0,27
+2013;Christian Noyer;-0,64;5;France;FR;Governor;-0,27
+2013;Erkki Liikanen;-0,3;3;Finland;FI;Governor;-0,27
+2013;Ewald Nowotny;-0,15;2;Austria;AT;Governor;-0,27
+2013;George A Provopoulos;;0;Greece;EL;Governor;-0,27
+2013;Ignazio Visco;-0,34;7;Italy;IT;Governor;-0,27
+2013;Jens Weidmann;0,68;14;Germany;DE;Governor;-0,27
+2013;Josef Bonnici;-0,6;1;Malta;MT;Governor;-0,27
+2013;Jörg Asmussen;0,07;12;Germany;DE;Executive Board;-0,27
+2013;Klaas Knot;0,7;1;Netherlands;NL;Governor;-0,27
+2013;Luis María Linde;-0,51;9;Spain;ES;Governor;-0,27
+2013;Mario Draghi;-0,51;41;Italy;IT;President;-0,27
+2013;Panicos Demetriades;;0;Cyprus;CY;Governor;-0,27
+2013;Patrick Honohan;-0,25;2;Ireland;IE;Governor;-0,27
+2013;Peter Praet;-0,43;12;Belgium;BE;Chief Economist;-0,27
+2013;Vítor Constâncio;-0,27;7;Portugal;PT;Vice-President;-0,27
+2013;Yves Mersch;0,06;12;Luxembourg;LU;Executive Board;-0,27
+2014;Ardo Hansson;0,3;2;Estonia;EE;Governor;-0,63
+2014;Benoît Cœuré;-0,67;26;France;FR;Executive Board;-0,63
+2014;Boštjan Jazbec;;0;Slovenia;SI;Governor;-0,63
+2014;Carlos da Silva Costa;-0,8;1;Portugal;PT;Governor;-0,63
+2014;Christian Noyer;-0,63;9;France;FR;Governor;-0,63
+2014;Erkki Liikanen;-0,4;2;Finland;FI;Governor;-0,63
+2014;Ewald Nowotny;0,07;4;Austria;AT;Governor;-0,63
+2014;George A Provopoulos;-0,73;4;Greece;EL;Governor;-0,63
+2014;Ignazio Visco;-0,88;5;Italy;IT;Governor;-0,63
+2014;Jens Weidmann;0,54;18;Germany;DE;Governor;-0,63
+2014;Josef Bonnici;-1,0;1;Malta;MT;Governor;-0,63
+2014;Klaas Knot;0,0;2;Netherlands;NL;Governor;-0,63
+2014;Luis María Linde;-0,67;7;Spain;ES;Governor;-0,63
+2014;Mario Draghi;-0,78;37;Italy;IT;President;-0,63
+2014;Patrick Honohan;-0,25;4;Ireland;IE;Governor;-0,63
+2014;Peter Praet;-0,63;12;Belgium;BE;Chief Economist;-0,63
+2014;Sabine Lautenschläger;-0,42;6;Germany;DE;Executive Board;-0,63
+2014;Vítor Constâncio;-0,7;14;Portugal;PT;Vice-President;-0,63
+2014;Yannis Stournaras;-0,4;2;Greece;EL;Governor;-0,63
+2014;Yves Mersch;-0,4;11;Luxembourg;LU;Executive Board;-0,63
+2015;Ardo Hansson;0,0;1;Estonia;EE;Governor;-0,7
+2015;Benoît Cœuré;-0,7;27;France;FR;Executive Board;-0,7
+2015;Carlos da Silva Costa;0,0;1;Portugal;PT;Governor;-0,7
+2015;Christian Noyer;-0,83;3;France;FR;Governor;-0,7
+2015;Erkki Liikanen;-0,83;6;Finland;FI;Governor;-0,7
+2015;Ewald Nowotny;-0,43;4;Austria;AT;Governor;-0,7
+2015;François Villeroy de Galhau;0,3;1;France;FR;Governor;-0,7
+2015;Gaston Reinesch;-0,8;2;Luxembourg;LU;Governor;-0,7
+2015;Ignazio Visco;-0,7;10;Italy;IT;Governor;-0,7
+2015;Ilmārs Rimšēvičs;-0,9;1;Latvia;LV;Governor;-0,7
+2015;Jens Weidmann;0,58;14;Germany;DE;Governor;-0,7
+2015;Josef Bonnici;-0,8;1;Malta;MT;Governor;-0,7
+2015;Klaas Knot;0,0;1;Netherlands;NL;Governor;-0,7
+2015;Luis María Linde;-0,79;9;Spain;ES;Governor;-0,7
+2015;Mario Draghi;-0,88;32;Italy;IT;President;-0,7
+2015;Patrick Honohan;0,2;4;Ireland;IE;Governor;-0,7
+2015;Peter Praet;-0,92;21;Belgium;BE;Chief Economist;-0,7
+2015;Sabine Lautenschläger;-0,34;5;Germany;DE;Executive Board;-0,7
+2015;Vítor Constâncio;-0,83;18;Portugal;PT;Vice-President;-0,7
+2015;Yannis Stournaras;-0,55;2;Greece;EL;Governor;-0,7
+2015;Yves Mersch;-0,61;9;Luxembourg;LU;Executive Board;-0,7
+2016;Benoît Cœuré;-0,61;26;France;FR;Executive Board;-0,41
+2016;Boris Vujčić;0,35;2;Croatia;HR;Governor;-0,41
+2016;Boštjan Jazbec;-0,8;1;Slovenia;SI;Governor;-0,41
+2016;Carlos da Silva Costa;-0,4;1;Portugal;PT;Governor;-0,41
+2016;Erkki Liikanen;-0,25;6;Finland;FI;Governor;-0,41
+2016;Ewald Nowotny;0,5;2;Austria;AT;Governor;-0,41
+2016;François Villeroy de Galhau;-0,68;17;France;FR;Governor;-0,41
+2016;Ignazio Visco;-0,83;9;Italy;IT;Governor;-0,41
+2016;Jens Weidmann;0,41;14;Germany;DE;Governor;-0,41
+2016;Klaas Knot;;0;Netherlands;NL;Governor;-0,41
+2016;Luis María Linde;-0,74;5;Spain;ES;Governor;-0,41
+2016;Mario Draghi;-0,88;33;Italy;IT;President;-0,41
+2016;Mario Vella;0,5;1;Malta;MT;Governor;-0,41
+2016;Peter Praet;-0,8;23;Belgium;BE;Chief Economist;-0,41
+2016;Philip R, Lane;-0,38;4;Ireland;IE;Governor;-0,41
+2016;Sabine Lautenschläger;-0,16;7;Germany;DE;Executive Board;-0,41
+2016;Vítor Constâncio;-0,63;12;Portugal;PT;Vice-President;-0,41
+2016;Yannis Stournaras;-0,42;10;Greece;EL;Governor;-0,41
+2016;Yves Mersch;-0,36;14;Luxembourg;LU;Executive Board;-0,41
+2017;Benoît Cœuré;-0,38;28;France;FR;Executive Board;-0,28
+2017;Boris Vujčić;;0;Croatia;HR;Governor;-0,28
+2017;Carlos da Silva Costa;0,2;1;Portugal;PT;Governor;-0,28
+2017;Erkki Liikanen;0,05;4;Finland;FI;Governor;-0,28
+2017;Ewald Nowotny;;0;Austria;AT;Governor;-0,28
+2017;François Villeroy de Galhau;-0,21;19;France;FR;Governor;-0,28
+2017;Ignazio Visco;-0,83;6;Italy;IT;Governor;-0,28
+2017;Jens Weidmann;0,6;15;Germany;DE;Governor;-0,28
+2017;Klaas Knot;0,38;5;Netherlands;NL;Governor;-0,28
+2017;Luis María Linde;-0,26;10;Spain;ES;Governor;-0,28
+2017;Mario Draghi;-0,77;26;Italy;IT;President;-0,28
+2017;Mario Vella;-0,3;4;Malta;MT;Governor;-0,28
+2017;Peter Praet;-0,74;29;Belgium;BE;Chief Economist;-0,28
+2017;Philip R, Lane;-0,53;3;Ireland;IE;Governor;-0,28
+2017;Sabine Lautenschläger;0,02;6;Germany;DE;Executive Board;-0,28
+2017;Vitas Vasiliauskas ;;0;Lithuania;LT;Governor;-0,28
+2017;Vítor Constâncio;-0,63;15;Portugal;PT;Vice-President;-0,28
+2017;Yannis Stournaras;-0,76;5;Greece;EL;Governor;-0,28
+2017;Yves Mersch;-0,06;18;Luxembourg;LU;Executive Board;-0,28
+2018;Benoît Cœuré;-0,36;22;France;FR;Executive Board;-0,06
+2018;Boris Vujčić;;0;Croatia;HR;Governor;-0,06
+2018;Carlos da Silva Costa;;0;Portugal;PT;Governor;-0,06
+2018;Erkki Liikanen;0,3;1;Finland;FI;Governor;-0,06
+2018;Ewald Nowotny;0,0;1;Austria;AT;Governor;-0,06
+2018;François Villeroy de Galhau;0,21;15;France;FR;Governor;-0,06
+2018;Ignazio Visco;-0,2;8;Italy;IT;Governor;-0,06
+2018;Jan Smets;-0,08;5;Belgium;BE;Governor;-0,06
+2018;Jens Weidmann;0,45;19;Germany;DE;Governor;-0,06
+2018;Klaas Knot;0,1;2;Netherlands;NL;Governor;-0,06
+2018;Luis María Linde;-0,51;7;Spain;ES;Governor;-0,06
+2018;Luis de Guindos;0,06;7;Spain;ES;Vice-President;-0,06
+2018;Mario Draghi;-0,51;20;Italy;IT;President;-0,06
+2018;Mario Vella;0,0;1;Malta;MT;Governor;-0,06
+2018;Olli Rehn;-0,38;6;Finland;FI;Governor;-0,06
+2018;Pablo Hernández de Cos;0,18;5;Spain;ES;Governor;-0,06
+2018;Peter Praet;-0,75;16;Belgium;BE;Chief Economist;-0,06
+2018;Philip R, Lane;-0,1;9;Ireland;IE;Governor;-0,06
+2018;Sabine Lautenschläger;0,42;5;Germany;DE;Executive Board;-0,06
+2018;Vitas Vasiliauskas ;;0;Lithuania;LT;Governor;-0,06
+2018;Vítor Constâncio;-0,6;7;Portugal;PT;Vice-President;-0,06
+2018;Yannis Stournaras;-0,37;7;Greece;EL;Governor;-0,06
+2018;Yves Mersch;-0,04;16;Luxembourg;LU;Executive Board;-0,06
+2019;Benoît Cœuré;-0,5;21;France;FR;Executive Board;-0,32
+2019;Carlos da Silva Costa;0,03;6;Portugal;PT;Governor;-0,32
+2019;Christine Lagarde;-0,52;5;France;FR;President;-0,32
+2019;François Villeroy de Galhau;-0,27;15;France;FR;Governor;-0,32
+2019;Gabriel Makhlouf;-0,13;3;Ireland;IE;Governor;-0,32
+2019;Ignazio Visco;-0,88;9;Italy;IT;Governor;-0,32
+2019;Jens Weidmann;0,6;10;Germany;DE;Governor;-0,32
+2019;Jozef Makúch;0,0;1;Slovakia;SK;Governor;-0,32
+2019;Klaas Knot;-0,23;6;Netherlands;NL;Governor;-0,32
+2019;Luis de Guindos;-0,72;20;Spain;ES;Vice-President;-0,32
+2019;Mario Draghi;-0,72;21;Italy;IT;President;-0,32
+2019;Mario Vella;;0;Malta;MT;Governor;-0,32
+2019;Olli Rehn;-0,55;13;Finland;FI;Governor;-0,32
+2019;Pablo Hernández de Cos;-0,35;10;Spain;ES;Governor;-0,32
+2019;Peter Praet;-0,55;4;Belgium;BE;Chief Economist;-0,32
+2019;Philip R, Lane;-0,66;17;Ireland;IE;Governor;-0,32
+2019;Robert Holzmann;0,2;1;Austria;AT;Governor;-0,32
+2019;Sabine Lautenschläger;-0,06;5;Germany;DE;Executive Board;-0,32
+2019;Vitas Vasiliauskas ;-0,3;1;Lithuania;LT;Governor;-0,32
+2019;Yannis Stournaras;-0,56;5;Greece;EL;Governor;-0,32
+2019;Yves Mersch;-0,03;12;Luxembourg;LU;Executive Board;-0,32
+2020;Carlos da Silva Costa;;0;Portugal;PT;Governor;-0,67
+2020;Christine Lagarde;-0,76;28;France;FR;President;-0,67
+2020;Fabio Panetta;-0,67;6;Italy;IT;Executive Board;-0,67
+2020;François Villeroy de Galhau;-0,49;13;France;FR;Governor;-0,67
+2020;Gabriel Makhlouf;-0,66;5;Ireland;IE;Governor;-0,67
+2020;Ignazio Visco;-0,72;9;Italy;IT;Governor;-0,67
+2020;Isabel Schnabel;-0,62;16;Germany;DE;Executive Board;-0,67
+2020;Jens Weidmann;0,41;12;Germany;DE;Governor;-0,67
+2020;Klaas Knot;-0,44;5;Netherlands;NL;Governor;-0,67
+2020;Luis de Guindos;-0,8;10;Spain;ES;Vice-President;-0,67
+2020;Mario Vella;;0;Malta;MT;Governor;-0,67
+2020;Mário Centeno;-0,8;2;Portugal;PT;Governor;-0,67
+2020;Olli Rehn;-0,63;6;Finland;FI;Governor;-0,67
+2020;Pablo Hernández de Cos;-0,72;20;Spain;ES;Governor;-0,67
+2020;Philip R, Lane;-0,8;11;Ireland;IE;Chief Economist;-0,67
+2020;Robert Holzmann;0,05;2;Austria;AT;Governor;-0,67
+2020;Vitas Vasiliauskas ;-0,8;1;Lithuania;LT;Governor;-0,67
+2020;Yannis Stournaras;-0,78;5;Greece;EL;Governor;-0,67
+2020;Yves Mersch;-0,08;6;Luxembourg;LU;Executive Board;-0,67
+2021;Christine Lagarde;-0,36;22;France;FR;President;-0,29
+2021;Edward Scicluna;-0,6;1;Malta;MT;Governor;-0,29
+2021;Fabio Panetta;-0,95;4;Italy;IT;Executive Board;-0,29
+2021;Frank Elderson;;0;Netherlands;NL;Executive Board;-0,29
+2021;François Villeroy de Galhau;-0,18;10;France;FR;Governor;-0,29
+2021;Gabriel Makhlouf;-0,33;3;Ireland;IE;Governor;-0,29
+2021;Gediminas Šimkus;-0,3;1;Lithuania;LT;Governor;-0,29
+2021;Ignazio Visco;-0,2;9;Italy;IT;Governor;-0,29
+2021;Isabel Schnabel;-0,58;10;Germany;DE;Executive Board;-0,29
+2021;Jens Weidmann;0,58;10;Germany;DE;Governor;-0,29
+2021;Klaas Knot;-0,22;5;Netherlands;NL;Governor;-0,29
+2021;Luis de Guindos;-0,1;5;Spain;ES;Vice-President;-0,29
+2021;Mário Centeno;-0,3;5;Portugal;PT;Governor;-0,29
+2021;Olli Rehn;-0,54;5;Finland;FI;Governor;-0,29
+2021;Pablo Hernández de Cos;-0,29;17;Spain;ES;Governor;-0,29
+2021;Philip R, Lane;-0,68;6;Ireland;IE;Chief Economist;-0,29
+2021;Robert Holzmann;0,0;2;Austria;AT;Governor;-0,29
+2021;Vitas Vasiliauskas ;0,3;1;Lithuania;LT;Governor;-0,29
+2021;Yannis Stournaras;-0,15;2;Greece;EL;Governor;-0,29
+2022;Christine Lagarde;0,82;22;France;FR;President;0,7
+2022;Edward Scicluna;0,7;3;Malta;MT;Governor;0,7
+2022;Fabio Panetta;0,47;12;Italy;IT;Executive Board;0,7
+2022;Frank Elderson;0,68;4;Netherlands;NL;Executive Board;0,7
+2022;François Villeroy de Galhau;0,72;22;France;FR;Governor;0,7
+2022;Gabriel Makhlouf;0,62;12;Ireland;IE;Governor;0,7
+2022;Gediminas Šimkus;0,7;1;Lithuania;LT;Governor;0,7
+2022;Ignazio Visco;0,59;10;Italy;IT;Governor;0,7
+2022;Isabel Schnabel;0,95;8;Germany;DE;Executive Board;0,7
+2022;Joachim Nagel;0,95;17;Germany;DE;Governor;0,7
+2022;Klaas Knot;0,7;9;Netherlands;NL;Governor;0,7
+2022;Luis de Guindos;0,81;8;Spain;ES;Vice-President;0,7
+2022;Mário Centeno;0,36;7;Portugal;PT;Governor;0,7
+2022;Olli Rehn;0,9;8;Finland;FI;Governor;0,7
+2022;Pablo Hernández de Cos;0,72;20;Spain;ES;Governor;0,7
+2022;Philip R, Lane;0,78;6;Ireland;IE;Chief Economist;0,7
+2022;Pierre Wunsch;0,8;1;Belgium;BE;Governor;0,7
+2022;Robert Holzmann;0,7;1;Austria;AT;Governor;0,7
+2022;Yannis Stournaras;0,32;10;Greece;EL;Governor;0,7
+2023;Boris Vujčić;0,47;3;Croatia;HR;Governor;0,77
+2023;Boštjan Vasle;0,78;4;Slovenia;SI;Governor;0,77
+2023;Christine Lagarde;0,87;30;France;FR;President;0,77
+2023;Constantinos Herodotou;0,85;2;Cyprus;CY;Governor;0,77
+2023;Edward Scicluna;1,0;1;Malta;MT;Governor;0,77
+2023;Fabio Panetta;0,6;8;Italy;IT;Executive Board;0,77
+2023;Frank Elderson;0,5;4;Netherlands;NL;Executive Board;0,77
+2023;François Villeroy de Galhau;0,61;15;France;FR;Governor;0,77
+2023;Gabriel Makhlouf;0,86;11;Ireland;IE;Governor;0,77
+2023;Ignazio Visco;0,66;10;Italy;IT;Governor;0,77
+2023;Isabel Schnabel;0,88;6;Germany;DE;Executive Board;0,77
+2023;Joachim Nagel;0,95;22;Germany;DE;Governor;0,77
+2023;Klaas Knot;0,56;10;Netherlands;NL;Governor;0,77
+2023;Luis de Guindos;0,77;10;Spain;ES;Vice-President;0,77
+2023;Madis Müller;1,0;1;Estonia;EE;Governor;0,77
+2023;Olli Rehn;0,47;4;Finland;FI;Governor;0,77
+2023;Pablo Hernández de Cos;0,68;12;Spain;ES;Governor;0,77
+2023;Philip R, Lane;0,85;6;Ireland;IE;Chief Economist;0,77
+2023;Robert Holzmann;0,9;1;Austria;AT;Governor;0,77
+2023;Yannis Stournaras;0,4;2;Greece;EL;Governor;0,77
+2024;Boris Vujčić;0,15;2;Croatia;HR;Governor;0,43
+2024;Boštjan Vasle;0,5;1;Slovenia;SI;Governor;0,43
+2024;Christine Lagarde;0,44;16;France;FR;President;0,43
+2024;Fabio Panetta;-0,2;13;Italy;IT;Governor;0,43
+2024;Frank Elderson;0,33;6;Netherlands;NL;Executive Board;0,43
+2024;François Villeroy de Galhau;-0,1;13;France;FR;Governor;0,43
+2024;Gabriel Makhlouf;0,17;10;Ireland;IE;Governor;0,43
+2024;Gediminas Šimkus;;0;Lithuania;LT;Governor;0,43
+2024;Isabel Schnabel;0,67;10;Germany;DE;Executive Board;0,43
+2024;Joachim Nagel;0,43;20;Germany;DE;Governor;0,43
+2024;Klaas Knot;0,5;10;Netherlands;NL;Governor;0,43
+2024;Luis de Guindos;0,56;10;Spain;ES;Vice-President;0,43
+2024;Olli Rehn;-0,05;10;Finland;FI;Governor;0,43
+2024;Pablo Hernández de Cos;0,43;3;Spain;ES;Governor;0,43
+2024;Philip R, Lane;0,58;12;Ireland;IE;Chief Economist;0,43
+2024;Piero Cipollone;0,22;4;Italy;IT;Executive Board;0,43
+2024;Pierre Wunsch;0,63;3;Belgium;BE;Governor;0,43
+2024;Robert Holzmann;0,45;4;Austria;AT;Governor;0,43
+2024;Yannis Stournaras;0,33;8;Greece;EL;Governor;0,43
+2025;Boris Vujčić;;0;Croatia;HR;Governor;0,2
+2025;Christine Lagarde;0,2;22;France;FR;President;0,2
+2025;Dimitar Radev;0,1;2;Bulgaria;BG;Governor;0,2
+2025;Edward Scicluna;0,2;1;Malta;MT;Governor;0,2
+2025;Fabio Panetta;0,04;10;Italy;IT;Governor;0,2
+2025;Frank Elderson;0,0;3;Netherlands;NL;Executive Board;0,2
+2025;François Villeroy de Galhau;-0,07;13;France;FR;Governor;0,2
+2025;Gabriel Makhlouf;0,23;8;Ireland;IE;Governor;0,2
+2025;Gediminas Šimkus;;0;Lithuania;LT;Governor;0,2
+2025;Isabel Schnabel;0,8;2;Germany;DE;Executive Board;0,2
+2025;Joachim Nagel;0,42;10;Germany;DE;Governor;0,2
+2025;José Luis Escrivá;0,4;2;Spain;ES;Governor;0,2
+2025;Klaas Knot;0,43;3;Netherlands;NL;Governor;0,2
+2025;Luis de Guindos;-0,04;7;Spain;ES;Vice-President;0,2
+2025;Madis Müller;0,0;1;Estonia;EE;Governor;0,2
+2025;Martin Kocher;0,0;1;Austria;AT;Governor;0,2
+2025;Mário Centeno;;0;Portugal;PT;Governor;0,2
+2025;Mārtiņš Kazāks;;0;Latvia;LV;Governor;0,2
+2025;Olaf Sleijpen;0,4;3;Netherlands;NL;Governor;0,2
+2025;Olli Rehn;-0,23;12;Finland;FI;Governor;0,2
+2025;Philip R, Lane;0,33;6;Ireland;IE;Chief Economist;0,2
+2025;Piero Cipollone;0,47;4;Italy;IT;Executive Board;0,2
+2025;Yannis Stournaras;0,07;6;Greece;EL;Governor;0,2
+2025;Álvaro Santos Pereira;;0;Portugal;PT;Governor;0,2
+2026;Christine Lagarde;;0;France;FR;President;0,35
+2026;Christodoulos Patsalides;0,35;2;Cyprus;CY;Governor;0,35
+2026;Dimitar Radev;-0,15;2;Bulgaria;BG;Governor;0,35
+2026;Fabio Panetta;0,15;2;Italy;IT;Governor;0,35
+2026;Frank Elderson;0,65;2;Netherlands;NL;Executive Board;0,35
+2026;François Villeroy de Galhau;0,0;1;France;FR;Governor;0,35
+2026;Gabriel Makhlouf;0,4;2;Ireland;IE;Governor;0,35
+2026;Isabel Schnabel;0,7;1;Germany;DE;Executive Board;0,35
+2026;Joachim Nagel;0,24;5;Germany;DE;Governor;0,35
+2026;José Luis Escrivá;;0;Spain;ES;Governor;0,35
+2026;Luis de Guindos;0,0;1;Spain;ES;Vice-President;0,35
+2026;Olaf Sleijpen;0,6;1;Netherlands;NL;Governor;0,35
+2026;Olli Rehn;0,4;1;Finland;FI;Governor;0,35
+2026;Philip R, Lane;0,35;2;Ireland;IE;Chief Economist;0,35
+2026;Piero Cipollone;0,2;2;Italy;IT;Executive Board;0,35
+2026;Primož Dolenc;;0;Slovenia;SI;Governor;0,35
+2026;Yannis Stournaras;0,5;2;Greece;EL;Governor;0,35

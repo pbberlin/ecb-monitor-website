@@ -74,15 +74,36 @@ def extractJsonStringFromJs(jsText):
     if equalsIndex == -1:
         raise ValueError("Could not find '=' in JS file")
 
-    braceIndex = jsText.find("{", equalsIndex)
-    if braceIndex == -1:
-        raise ValueError("Could not find '{' after '=' in JS file")
+    braceIndex   = jsText.find("{", equalsIndex)
+    bracketIndex = jsText.find("[", equalsIndex)
 
-    lastBraceIndex = jsText.rfind("}")
-    if lastBraceIndex == -1:
-        raise ValueError("Could not find closing '}' in JS file")
+    # finding the first occurrence of either { or [ to support both dicts and lists
+    if braceIndex == -1 and bracketIndex == -1:
+        raise ValueError("Could not find '{' or '[' after '=' in JS file")
 
-    jsonText = jsText[braceIndex:lastBraceIndex + 1]
+    if braceIndex != -1 and bracketIndex != -1:
+        if braceIndex < bracketIndex:
+            firstCharIndex = braceIndex
+        else:
+            firstCharIndex = bracketIndex
+    elif braceIndex != -1:
+        firstCharIndex = braceIndex
+    else:
+        firstCharIndex = bracketIndex
+
+    lastBraceIndex   = jsText.rfind("}")
+    lastBracketIndex = jsText.rfind("]")
+
+    # finding the last occurrence of either } or ]
+    if lastBraceIndex > lastBracketIndex:
+        lastCharIndex = lastBraceIndex
+    else:
+        lastCharIndex = lastBracketIndex
+
+    if lastCharIndex == -1:
+        raise ValueError("Could not find closing '}' or ']' in JS file")
+
+    jsonText = jsText[firstCharIndex:lastCharIndex + 1]
     return jsonText
 
 
@@ -226,6 +247,76 @@ def appendAfterLastCol(csvFilePath, row):
     return row
 
 
+def writeCsvForCouncilList(pth, dataList):
+    # handling flat list of dictionaries for council geography and 6weeks
+    if not isinstance(dataList, list):
+        print(f"Expected list for {pth.name}")
+        return
+
+    headerKeys = []
+    for idx1, rowDict in enumerate(dataList):
+        for idx2, key in enumerate(rowDict.keys()):
+            if key not in headerKeys:
+                headerKeys.append(key)
+
+    csvFilePath = pth.with_suffix(".csv")
+    try:
+        with csvFilePath.open("w", encoding="utf-8", newline="") as csvFile:
+            csvWriter = csv.writer(csvFile, delimiter=";")
+            csvWriter.writerow(headerKeys)
+
+            for idx1, rowDict in enumerate(dataList):
+                row = []
+                for idx2, key in enumerate(headerKeys):
+                    val = rowDict.get(key, "")
+                    row.append(formatValueForCsv(val))
+                csvWriter.writerow(row)
+        print(f"\tWrote CSV: {csvFilePath}")
+    except Exception as exc:
+        stackTrace(exc)
+        print(f"Error writing CSV for '{pth}'")
+
+
+def writeCsvForCouncilBarometer(pth, dataDict):
+    # handling nested dictionary where level 1 is year and level 2 is list of records
+    if not isinstance(dataDict, dict):
+        print(f"Expected dict for {pth.name}")
+        return
+
+    headerKeys = ["Year"]
+    for idx1, yearKey in enumerate(dataDict):
+        yearList = dataDict[yearKey]
+        if not isinstance(yearList, list):
+            continue
+        for idx2, rowDict in enumerate(yearList):
+            for idx3, key in enumerate(rowDict.keys()):
+                if key not in headerKeys:
+                    headerKeys.append(key)
+
+    csvFilePath = pth.with_suffix(".csv")
+    try:
+        with csvFilePath.open("w", encoding="utf-8", newline="") as csvFile:
+            csvWriter = csv.writer(csvFile, delimiter=";")
+            csvWriter.writerow(headerKeys)
+
+            for idx1, yearKey in enumerate(dataDict):
+                yearList = dataDict[yearKey]
+                if not isinstance(yearList, list):
+                    continue
+                for idx2, rowDict in enumerate(yearList):
+                    row = []
+                    for idx3, key in enumerate(headerKeys):
+                        if key == "Year":
+                            row.append(yearKey)
+                        else:
+                            val = rowDict.get(key, "")
+                            row.append(formatValueForCsv(val))
+                    csvWriter.writerow(row)
+        print(f"\tWrote CSV: {csvFilePath}")
+    except Exception as exc:
+        stackTrace(exc)
+        print(f"Error writing CSV for '{pth}'")
+
 
 def writeCsvForJsFile(jsFilePath, dbg=False):
 
@@ -244,18 +335,27 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
         return
 
     try:
-        dataDict = json.loads(jsonText)
-        if type(dataDict) is not dict:
-            # council-by-function.js - contains list instead of dict
-            print(f"skipping type {type(dataDict)} - '{jsFilePath}'")
-            return
-        if dbg:
-            debugPrintNestedDict(dataDict)
-
+        dataParsed = json.loads(jsonText)
     except Exception as exc:
         stackTrace(exc)
         print(f"\t error parsing JSON in '{jsFilePath}'")
         return
+
+    # routing to specific handlers based on file name
+    if jsFilePath.name in ["council-by-6weeks.js", "council-by-geography.js"]:
+        writeCsvForCouncilList(jsFilePath, dataParsed)
+        return
+    elif jsFilePath.name == "council_barometer.js":
+        writeCsvForCouncilBarometer(jsFilePath, dataParsed)
+        return
+
+    dataDict = dataParsed
+    if type(dataDict) is not dict:
+        # council-by-geography.js - contains list instead of dict
+        print(f"skipping type {type(dataDict)} - '{jsFilePath}'")
+        return
+    if dbg:
+        debugPrintNestedDict(dataDict)
 
     try:
         countryToYearToValue, yearKeysSet, rowKeyName = buildCountryYearStructure(dataDict)

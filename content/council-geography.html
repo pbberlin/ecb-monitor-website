@@ -482,7 +482,7 @@
 
 <script type="text/javascript" src="/static/js/echarts.min.js"                                    ></script>
 <script type="text/javascript" src="/static/dl/eu-and-euro-countries.js?v={{staticVersion}}"      ></script>
-<script type="text/javascript" src="/static/dl/council-by-function.js?v={{staticVersion}}"    ></script>
+<script type="text/javascript" src="/static/dl/council-by-geography.js?v={{staticVersion}}"    ></script>
 
 
 <!--
@@ -585,7 +585,7 @@
 
     let selectedDataMeta = {
       "main": {
-        "selected_data" : councilByFunction,
+        "selected_data" : councilGeography,
         "formatter": (statsValue) => {
           return (Math.round(statsValue*100)/100).toString();
         },
@@ -769,7 +769,7 @@
       let results = [];
 
       let activeScores = {};
-      for (const rec of Object.values(councilByFunction)) {
+      for (const rec of Object.values(councilGeography)) {
         if (rec["organisation_euro"] === "ecb") {
             continue;
         }
@@ -922,7 +922,7 @@
       let results = [];
 
       let activeScores = {};
-      for (const rec of Object.values(councilByFunction)) {
+      for (const rec of Object.values(councilGeography)) {
         if (rec["organisation_euro"] === "ecb") {
             continue;
         }
@@ -1278,10 +1278,10 @@
       const councilList = document.getElementById("council_list");
       councilList.replaceChildren(); // reset
 
-      let namesSorted = Object.keys(councilByFunction);  // sorting is done in python pre-processing
+      let namesSorted = Object.keys(councilGeography);  // sorting is done in python pre-processing
       namesSorted.forEach(function (name) {
 
-        const rec = councilByFunction[name];
+        const rec = councilGeography[name];
 
         let role1 = rec["organisation_euro"]
         if(role1 !== "ecb"){
@@ -1333,9 +1333,9 @@
           const councilRight = document.getElementById("council_right");
           councilRight.replaceChildren(); // reset
 
-          let namesSorted = Object.keys(councilByFunction);  // sorting is done in python pre-processing
+          let namesSorted = Object.keys(councilGeography);  // sorting is done in python pre-processing
           namesSorted.forEach(function (name) {
-            const rec = councilByFunction[name];
+            const rec = councilGeography[name];
             let role1 = rec["organisation_euro"]
             if(role1 === "ecb"){
               return;

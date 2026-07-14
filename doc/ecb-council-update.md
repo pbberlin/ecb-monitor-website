@@ -19,7 +19,7 @@
 
 * last line should be  ` output-3 [number over 100] rows`
 
-* previous last line should end with `...\council-by-function.js`
+* previous last line should end with `...\council-by-geography.js`
 
 
 * To check your new content<br>locally on your own notebook
