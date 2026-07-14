@@ -542,6 +542,18 @@ trlsRaw = [
         },
     },
     {
+        "abs_or_rel":    {
+            "de": "Relativ zur Eurozone",
+            "en": "Relative to Euro area",
+        },
+    },
+    {
+        "abs_or_rel_help":    {
+            "de": "Absolute Zahlen   - oder relativ zur Eurozone",
+            "en": "Absolute numbers - or difference from Eurozone average",
+        },
+    },
+    {
         "download_data":    {
             "de": "Daten herunterladen",
             "en": "Download data",

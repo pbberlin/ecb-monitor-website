@@ -2,7 +2,7 @@
 
 * We do not use cookies.
 
-* Your color saturation setting is stored in the domain-specific storage of your web browser.
+* Your settings for `Relative to Euro area` and  `color saturation` are stored in the domain-specific storage of your web browser.
   Our servers dont even see this value. It remains with the browser.<br>
 This information is not readable by third parties (e.g., Google).
 

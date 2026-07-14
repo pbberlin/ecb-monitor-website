@@ -2,7 +2,7 @@
 
 * Wir verwenden keine Cookies
 
-* Ihre Farbsättigung wird im domänenspezifischen Speicher Ihres Webbrowsers gespeichert.<br>
+* Ihre Werte für `Relativ zur Eurozone` und  `Farbsättigung` werden im domänenspezifischen Speicher Ihres Webbrowsers gespeichert.<br>
   Unsere Server sehen den Wert nicht. Er bleibt im Browser.<br>
   Diese Angabe ist für Dritte (Google o.ä.) nicht lesbar.
 

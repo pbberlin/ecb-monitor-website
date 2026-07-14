@@ -587,7 +587,7 @@
       "main": {
         "selected_data" : councilByFunction,
         "formatter": (statsValue) => {
-          return Math.round(statsValue).toString() + ' %'
+          return (Math.round(statsValue*100)/100).toString();
         },
         "formatter_legend": (vl) => {
           vl = Math.round(vl).toString();
@@ -766,111 +766,58 @@
 
 
     function regionsColoring(yr=currentYear) {
-
       let results = [];
 
-      for (const [idx, country] of nonMembers.entries()) {
-          let item = {
-            name:  country,
-            tooltip: {
-              show:      true,
-              formatter: country + "\n(non EU)",
-            },
-            itemStyle: {
-              areaColor:   '#eee',
-              borderWidth:  0.4,
-              borderColor: '#ccc'
-            },
-            emphasis: {
-              disabled: true,
-            },
-           };
-          // console.log(`  regionsColoring()-1 ${country}`);
-          results.push(item);
-      };
-
-
-      for (const [idx, country] of notInEuro.entries()) {
-          let item = {
-              name: country,
-              tooltip: {
-                show:      true,
-                formatter: country + "\n(no €)",
-              },
-              itemStyle: {
-                areaColor: 'rgb(238, 245, 245)',
-                borderWidth: 0.2,
-                aaborderColor: '#ccc',
-              },
-              emphasis: { disabled: true },
-          };
-          // console.log(`  regionsColoring()-2 ${country}`);
-          results.push(item);
-      };
-
-
-
-      for (const [idx, country] of euCountriesEuro.entries()) {
-
-        const colorNoData = 'rgba(224, 224, 224, 0.28)';
-        let areaCol = colorNoData;
-
-        let countryVals = {}
-        for (const rec of councilByFunction) {
-
-          let role1 = rec["organisation_euro"]
-          if(role1 === "ecb"){
+      let activeScores = {};
+      for (const rec of Object.values(councilByFunction)) {
+        if (rec["organisation_euro"] === "ecb") {
             continue;
-          }
-
-          let countryEcb= rec["country"];
-          let yearStart = rec["year_start"]
-          let yearStop  = rec["year_stop"]
-          if (yearStop === 0) {
-            yearStop = 9999;
-          }
-          if(yearStart <= yr  &&  yearStop >= yr){
-            // is current
-          } else {
-            continue;
-          }
-
-          if(countryVals[countryEcb]){
-              continue;
-          } else {
-            countryVals[countryEcb] = true;
-          }
-
-          if(country===countryEcb){
-            let statsValue = rec["hawkish_score"];
-            // areaCol = 'rgba(199, 199, 244, 0.28)';
-            areaCol = valToPctToColor(statsValue, initOpacity, elOpa, selectedDataMeta["main"])
+        }
+        let c = rec["country"];
+        let yStart = rec["year_start"];
+        let yStop = rec["year_stop"] === 0 ? 9999 : rec["year_stop"];
+        if (yStart <= yr && yStop >= yr) {
+          if (!(c in activeScores)) {
+            activeScores[c] = rec["hawkish_score"];
           }
         }
+      }
 
+      for (let country of Object.keys(countryDates)) {
+        let statsValue = activeScores[country] !== undefined ? activeScores[country] : null;
+
+        const props = getCountryDisplayProps(
+            country,
+            yr,
+            statsValue,
+            countryDates,
+            selectedDataMeta["main"],
+            initOpacity,
+            elOpa,
+            false
+        );
 
         let item = {
           name: country,
           yearEvt: yr,
           tooltip: {
             show: true,
-            formatter: country,
+            formatter: props.tooltipText,
           },
           itemStyle: {
-            areaColor: areaCol,
-            borderWidth: 0.2,
-            // borderColor: '#444',
+            areaColor: props.areaColor,
+            borderWidth: props.status === "non-eu" ? 0.4 : 0.2,
+            borderColor: '#ccc'
           },
+          emphasis: { disabled: props.status !== "euro" }
         };
-        // console.log(`  regionsColoring()-3 ${country}`);
 
         if( country.includes('Euro area') ){
             item = makeInvisible(item);
         }
 
         results.push(item);
-
-      };
+      }
 
       return results;
     }
@@ -974,67 +921,67 @@
 
       let results = [];
 
-      let countryVals = {};
-
-      // xxxxx
-      for (const rec of councilByFunction) {
-
-
-        let role1 = rec["organisation_euro"]
-        if(role1 === "ecb"){
-          continue;
-        }
-
-        let country   = rec["country"]
-        let yearStart = rec["year_start"]
-        let yearStop  = rec["year_stop"]
-        if (yearStop === 0) {
-          yearStop = 9999;
-        }
-        if(yearStart <= yr  &&  yearStop >= yr){
-          // is current
-        } else {
-          continue;
-        }
-
-        if(countryVals[country]){
+      let activeScores = {};
+      for (const rec of Object.values(councilByFunction)) {
+        if (rec["organisation_euro"] === "ecb") {
             continue;
-        } else {
-          countryVals[country] = true;
+        }
+        let c = rec["country"];
+        let yStart = rec["year_start"];
+        let yStop = rec["year_stop"] === 0 ? 9999 : rec["year_stop"];
+        if (yStart <= yr && yStop >= yr) {
+          if (!(c in activeScores)) {
+            activeScores[c] = rec["hawkish_score"];
+          }
+        }
+      }
+
+      for (let country of Object.keys(countryDates)) {
+        if (!centroids[country]) {
+            continue;
         }
 
-        let statsValue = rec["hawkish_score"];
+        let statsValue = activeScores[country] !== undefined ? activeScores[country] : null;
 
-        // console.log(` ${country}  ${statsValue} `)
-        // console.log(`   coords ${centroids[country][0]}  ${centroids[country][1]}  `)
+        const props = getCountryDisplayProps(
+            country,
+            yr,
+            statsValue,
+            countryDates,
+            selectedDataMeta["main"],
+            initOpacity,
+            elOpa,
+            false
+        );
 
         let item = {
+          name: country + '_label',
           type: 'scatter',
           silent: true, // events pass through - to underlying geo Region, click, hover, drag…
           coordinateSystem: 'geo',
           symbol: 'circle',
-          symbolSize: 34,
           symbolSize:  0,
-          color: valToPctToColor(statsValue, initOpacity, elOpa, selectedDataMeta["main"]),  // only if symbolSize > 0
+          color: props.labelColor || '#000',
           animation:         false,
           animationDuration: 0,
           label: {
-            show: true,
-            // formatter:      statsValue,
-            // formatter:      Math.round(statsValue*100).toString(),
-            formatter:      (Math.round(statsValue*100)/100).toString(),
-            fontSize:       14,
+            show: props.showLabel,
+            formatter: props.labelText || '',
             fontSize:       fontSizeByDisplay,
             fontWeight:     300,
             color:         '#000',
             align:         'center',
             verticalAlign: 'middle',
           },
-          data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], statsValue] }],
-          tooltip:  { show: true, formatter: `${statsValue}` },
+          data: [{ name: 'value', value: [   centroids[country][0], centroids[country][1], statsValue || 0] }],
           tooltip:  { show: false },
           z: 10,
         };
+
+        if( country.includes('Euro area') ){
+            item = makeInvisible(item);
+        }
+
         results.push(item);
       }
       return results;

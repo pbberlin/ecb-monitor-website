@@ -255,6 +255,60 @@ function createGradientLegend(domEl, config) {
 }
 
 
+/**
+ * Attaches a play animation to a button and a slider.
+ * 
+ * @param {string|HTMLElement} button - The button element or its ID.
+ * @param {string|HTMLElement} slider - The slider element or its ID.
+ * @param {number} [interval=550] - The speed of the animation in milliseconds.
+ */
+function setupSliderAutoplay(button, slider, interval = 550) {
+
+    // Resolve elements whether an ID string or DOM element was passed
+    const btnElem = typeof button === "string" ? document.getElementById(button) : button;
+    const sliderElem = typeof slider === "string" ? document.getElementById(slider) : slider;
+
+    if (!btnElem || !sliderElem) {
+        console.warn("setupSliderAutoplay: Button or Slider element not found.");
+        return;
+    }
+
+    let stepTimer = null;
+    let isPlaying = false; // Flag to track if the animation is currently active
+
+    btnElem.addEventListener("click", function (ev) {
+        ev.preventDefault();
+
+        // Prevent multiple clicks: exit early if already playing
+        if (isPlaying) return;
+        isPlaying = true;
+
+        // Optional: Add a CSS class if you want to visually style the button as disabled
+        btnElem.classList.add("is-playing");
+
+        const minVal = parseInt(sliderElem.min, 10);
+        const maxVal = parseInt(sliderElem.max, 10);
+        let currentVal = minVal;
+
+        sliderElem.value = currentVal;
+        sliderElem.dispatchEvent(new Event("change"));
+
+        stepTimer = setInterval(function () {
+            currentVal += 1;
+            sliderElem.value = currentVal;
+            sliderElem.dispatchEvent(new Event("change"));
+
+            // Stop condition
+            if (currentVal >= maxVal) {
+                clearInterval(stepTimer);
+                isPlaying = false; // Reset the flag so it can be clicked again
+                btnElem.classList.remove("is-playing");
+            }
+        }, interval);
+    });
+}
+
+
 // evaluating temporal membership status for styling and labels
 // extracted to global funcs.js to prevent code duplication across templates
 function getCountryDisplayProps(
@@ -265,6 +319,7 @@ function getCountryDisplayProps(
     config,
     initOpacity,
     elOpa,
+    isRelative = false
 ) {
 
 
@@ -281,7 +336,7 @@ function getCountryDisplayProps(
     }
 
     if ( country === "Euro area (20 countries)") {
-        console.log(` did find Euro area`)
+        // console.log(` did find Euro area`)
     }
 
     // extracting year from timeKey (handles both YYYY and YYYY-MM)
@@ -315,6 +370,12 @@ function getCountryDisplayProps(
         }
     }
 
+    // appending context to tooltip if relative mode is active and country is not the baseline
+    let tooltipSuffix = "";
+    if (isRelative && isEuro  && country !== "Euro area (20 countries)") {
+        tooltipSuffix = "\n(Difference from Eurozone)";
+    }
+
     if (!isEu) {
         return {
             status: "non-eu",
@@ -326,11 +387,12 @@ function getCountryDisplayProps(
     }
 
     if (!isEuro) {
-        let lblText = vl !== null && vl !== undefined && vl !== "" ? config.formatter(vl) : "N/A";
+        // let lblText = vl !== null && vl !== undefined && vl !== "" ? config.formatter(vl) : "N/A";
+        let lblText = vl !== null && vl !== undefined && vl !== "" ? config.formatter(vl) : " ";
         return {
             status: "non-euro",
             areaColor: 'rgb(238, 245, 245)',
-            tooltipText: country + "\n(no €)",
+            tooltipText: country + "\n(no €)" + tooltipSuffix,
             showLabel: true,
             labelColor: '#666',
             labelText: lblText
@@ -343,7 +405,7 @@ function getCountryDisplayProps(
     return {
         status: "euro",
         areaColor: color,
-        tooltipText: country,
+        tooltipText: country + tooltipSuffix,
         showLabel: true,
         labelColor: color,
         labelText: lblText
