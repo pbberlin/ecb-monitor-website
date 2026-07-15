@@ -3,10 +3,15 @@ import subprocess
 import sys
 # pip install pyyaml
 import yaml
+import os
 
 # apscheduler
 from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.triggers.cron       import CronTrigger
+
+
+# 2026-07-15: force /home/pbu/.git-credentials
+os.environ['HOME'] = '/home/pbu'
 
 
 def loadJobConfig(configPath: Path) -> list:
