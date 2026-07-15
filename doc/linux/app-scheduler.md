@@ -27,6 +27,35 @@ WantedBy=multi-user.target
 ```
 
 
+## git credentials - via  password
+
+```bash
+git config --local credential.helper 'store --file=/home/pbu/.git-credentials'
+```
+
+```python
+os.environ['HOME'] = '/home/pbu'
+```
+
+
+## git credentials - via  token
+
+* gitea - user - applications
+
+* token permissions limit "repository" - second last
+
+* [token-pbu-gitea-ecb-monitor]
+
+```bash
+git remote set-url origin https://pbu:[token-pbu-gitea-ecb-monitor]@git.zew.de/ub-public-finance/ecb-monitor.git
+git remote -v
+```
+
+
+
+
+## service and log
+
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl enable app-scheduler
@@ -43,6 +72,8 @@ sudo journalctl -u app-scheduler.service -o cat --no-pager | less
 
 sudo -u www-data test -r /var/www/ecb-app/scripts && echo "read ok"    || echo "read denied"
 sudo -u www-data test -x /var/www/ecb-app/scripts && echo "execute ok" || echo "execute denied"
+
+
 
 
 ```
@@ -62,8 +93,8 @@ sudo apt install zabbix-sender
 # or sudo apt install zabbix-agent
 
 
-# for data sent with zabbix_sender 
-#   =>  we need to create an item of type "zabbix trapper" 
+# for data sent with zabbix_sender
+#   =>  we need to create an item of type "zabbix trapper"
 http://monitor2.zew.de/zabbix/zabbix.php?action=item.list&filter_set=1&filter_hostids%5B%5D=10672&context=host
 
 
