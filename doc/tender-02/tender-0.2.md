@@ -32,7 +32,7 @@ The best three applications will each receive a €50 thank-you payment.
 
 Then we will choose the best bid among those leading three. The best bid will be awarded the full contract of 400€.
 
-The full contract consists of EIGHT distinct images / illustrations. You can pick two color schemes of your choice. The most important images are the symbols for "dovish" and "hawkish" monetary policy. Details below. Of those two images, we need a simplified version for the legend bottom right. For the two competitive illustrations, at least one should be for "dovish" or "hawkish". You have three weeks time.
+The full contract consists of EIGHT distinct images / illustrations. You have three weeks time.
 
 Additional reward: Your name and picture will be listed at third position at the "team" page.  
 We will write a two sentence statement - explaining and recommending your contribution.
@@ -52,7 +52,6 @@ Chances are, your work will be seen by many media people and financial professio
 
 You must give us full exclusive copyright buyout though.
 Your works will only be used for the aforementioned project.
-As we are a research institute, we will not use your works for any commercial purpose.
 
 Payment will be made within 10 business days.
 
@@ -106,7 +105,7 @@ Again: Look at the examples in at the Economist website.
 
 The most important challenge here is to find illustrations for the actual content of the sections. 
 
-For instance: The second section should easily convey the topic "Inside the brains of ECB directors" or "Inside the mechanism of the ECB" - or "credit expansion and contraction". Do not use commonplace symbols like the percentage sign to symbolize interest rates - or the Euro symbol to symbolize "money supply". We make this tender to get creative yet intuitive illustrations. 
+For instance: The second section should easily convey the topic "Inside the brains of ECB directors" or "Inside the mechanism of the ECB" - or "credit expansion and contraction".
 
 Do not try to trace or copy *The Economist* illustrations - this is easily detectable and will disqualify you.
 
@@ -241,14 +240,3 @@ as its shapes and gradients have salient aesthetics and characteristics that des
 
 
 
-----
-
-## Possible platforms
-
-*   **Upwork**         (Best for milestone-based escrow and global reach)
-*   **Fiverr**         (Best for fixed-price, specific deliverables)
-
-*   **Freelancer.com** (Suitable for the contest-style Stage 1 approach)
-*   **Behance Jobs**   (Higher quality, portfolio-driven)
-*   **Dribbble Jobs**  (High quality UI/UX and vector illustrators)
-*   **99designs**      (Built specifically for the contest/spec-work model you proposed for Stage 1)
