@@ -117,7 +117,7 @@ def runAmecoPipeline() -> bool:
 
 
 
-    # 
+    #
     # ameco and eurostat
 
 
@@ -146,14 +146,18 @@ def runGitCommitPush() -> None:
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     import socket
-    hostName = socket.gethostname()    
+    hostName = socket.gethostname()
 
     commitMessage = f"ameco-eurostat update {timestamp} {hostName}"
 
     runShellCommand(["git", "add", str(dlDir)], cwdPath=appDir)
     runShellCommand(["git", "commit", "-a", "-m", commitMessage], cwdPath=appDir)
-    runShellCommand(["git", "push"], cwdPath=appDir)
 
+    #  no access to credential helper
+    #  Jul 17 02:15:13 ecb-watch python[1946681]: Schwerwiegend: konnte Sperre für Zugangsdatenspeicher nicht in 1000 ms bekommen: Keine Berechtigung
+    print("\tgit push start")
+    runShellCommand(["git", "-c", "credential.helper=", "push"], cwdPath=appDir)
+    print("\tgit push end")
 
 def main() -> None:
     isSuccess = runAmecoPipeline()
