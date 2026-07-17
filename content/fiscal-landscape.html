@@ -572,6 +572,11 @@
           "formatter": (vl) => Math.round(vl).toString() + ' %',
           "color_ranges": [0, 60, 180, 200],
           "colors":       ["#00A000", "#80A000", "#FF0000", "#FF0000"],
+
+          //"color_ranges": [      0 ,        60 ,       61 ,      120 ,       200 ,],
+          //"colors":       ["#008900", "#00FF00", "#FF0000", "#800000",  "#800000",],
+          
+          
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Math.round(vl).toString() + ' pp',
@@ -582,12 +587,12 @@
       "ameco_net_lending": {
         "selected_data" : netLendingPercentToGDP,
         "abs": {
-          "formatter": (vl) => (Math.round(vl*10)/10).toString() + ' %',
+          "formatter": (vl) => Number(vl).toFixed(1) + ' %',
           "color_ranges":  [-6, -2, 0, 2],
           "colors":        ["#FF0000", "#80A000", "#00A000", "#00A000"]
         },
         "rel": {
-          "formatter": (vl) => (vl > 0 ? '+' : '') + (Math.round(vl*10)/10).toString() + ' pp',
+          "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
           "color_ranges":  [-4, 0, 4],
           "colors":        ["#FF0000", "#80A000", "#00A000"]
         }
@@ -608,12 +613,12 @@
       "ameco_interest_expenditure": {
         "selected_data" : interestExpenditure,
         "abs": {
-          "formatter": (vl) => (Math.round(vl*10)/10).toString() + ' %',
+          "formatter": (vl) => Number(vl).toFixed(1) + ' %',
           "color_ranges": [ 1, 2.5, 6, ],
           "colors":        ["#00A000", "#80A000", "#FF0000"]
         },
         "rel": {
-          "formatter": (vl) => (vl > 0 ? '+' : '') + (Math.round(vl*10)/10).toString() + ' pp',
+          "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
           "color_ranges": [-2, 0, 2],
           "colors":       ["#00A000", "#80A000", "#FF0000"]
         }
@@ -621,12 +626,12 @@
       "eurostat_yields_10y": {
         "selected_data" : yieldsTenYears,
         "abs": {
-          "formatter": (vl) => (Math.round(vl*10)/10).toString() + ' %',
+          "formatter": (vl) => Number(vl).toFixed(2) + ' %',
           "color_ranges": [ 1,  2.5, 5, ],
           "colors":        ["#00A000", "#80A000", "#FF0000"]
         },
         "rel": {
-          "formatter": (vl) => (vl > 0 ? '+' : '') + (Math.round(vl*10)/10).toString() + ' pp',
+          "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(2) + ' pp',
           "color_ranges": [-2, 0, 2],
           "colors":       ["#00A000", "#80A000", "#FF0000"]
         }
