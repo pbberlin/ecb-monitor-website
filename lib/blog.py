@@ -87,10 +87,10 @@ def mdParts(blogType: str, lg: str, fn: str , paramAutofocus=False):
     listEntry += " <li>"
     listEntry +=    f"<p class='date-line'>{dateLine}  </p> "
     itemPth = Path("blog") / blogType / lg / fn
-    listEntry +=    f" <a class='blog-list-entry' href='/{itemPth.as_posix() }?lang={lg}' {autofoc} > {h1} </a>"
+    listEntry +=    f" <a class='blog-list-entry' href='/{itemPth.as_posix() }?lang={lg}' {autofoc} >{h1}</a>"
     if h2:
       # listEntry +=    f"<br> "
-      listEntry +=    f"{h2} "
+      listEntry +=    f" <div style='font-size: 90%; margin-top: 0.4ch'>{h2}<div> "
     listEntry += "</li>"
 
 
