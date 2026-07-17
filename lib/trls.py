@@ -543,8 +543,8 @@ trlsRaw = [
     },
     {
         "abs_or_rel":    {
-            "de": "Relativ zur Eurozone",
-            "en": "Relative to Euro area",
+            "de": "Relativ zum Durchschnitt Eurozone",
+            "en": "Relative to euro area average",
         },
     },
     {
