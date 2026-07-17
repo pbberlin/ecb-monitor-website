@@ -6,22 +6,6 @@
 
 
 // color funcs start
-function mapToZeroOne(vl, ranges) {
-
-    let range0 = ranges[0];
-    let range1 = ranges[1];
-    let range2 = ranges[2];
-
-    if (vl <= range1) {
-        let t = (vl - range0) / (range1 - range0);
-        return Math.max(0, Math.min(1, t));
-    } else {
-        let t = (vl - range1) / (range2 - range1);
-        return Math.max(0, Math.min(1, t));
-    }
-}
-
-
 function valToPctToColor(vl, initOpacity, elOpa, config, opaBuff=0) {
 
     let opacity = initOpacity;
@@ -71,15 +55,6 @@ function valToPctToColor(vl, initOpacity, elOpa, config, opaBuff=0) {
         colorsSeparated.push(rgbComponents);
     }
 
-    // const colR0 = [0x00, 0xA0, 0x00]; // mostly green
-    // const colR1 = [0x80, 0x80, 0x00]; // yellow
-    // const colR2 = [0xff, 0x00, 0x00]; // red
-
-    const colR0 = colorsSeparated[0];
-    const colR1 = colorsSeparated[1];
-    const colR2 = colorsSeparated[2];
-
-
     function interpolate(a, b, t) {
         const out = [0, 0, 0];
         for (let idx1 = 0; idx1 < 3; idx1++) {
@@ -88,22 +63,40 @@ function valToPctToColor(vl, initOpacity, elOpa, config, opaBuff=0) {
         return out;
     }
 
-    let r0 = ranges[0];
-    let r1 = ranges[1];
-    let r2 = ranges[2];
-
     let rgb;
 
-    if (vl <= r0) {
-        rgb = colR0.slice();
-    } else if (vl <= r1) {
-        let t = mapToZeroOne(vl, ranges);
-        rgb = interpolate(colR0, colR1, t);
-    } else if (vl <= r2) {
-        let t = mapToZeroOne(vl, ranges);
-        rgb = interpolate(colR1, colR2, t);
-    } else {
-        rgb = colR2.slice();
+    // handling out of bounds lower
+    if (vl <= ranges[0]) {
+        rgb = colorsSeparated[0].slice();
+    } 
+    // handling out of bounds upper
+    else if (vl >= ranges[ranges.length - 1]) {
+        rgb = colorsSeparated[colorsSeparated.length - 1].slice();
+    } 
+    // finding the correct bracket for interpolation dynamically
+    else {
+        for (let idx1 = 0; idx1 < ranges.length - 1; idx1++) {
+            let r0 = ranges[idx1];
+            let r1 = ranges[idx1 + 1];
+
+            if (vl >= r0 && vl <= r1) {
+                // checking for hard break to prevent division by zero
+                // if bounds are identical, bypass interpolation and snap to upper bound color
+                if (r1 - r0 === 0) {
+                    rgb = colorsSeparated[idx1 + 1].slice();
+                } else {
+                    let t = (vl - r0) / (r1 - r0);
+                    t = Math.max(0, Math.min(1, t));
+                    rgb = interpolate(colorsSeparated[idx1], colorsSeparated[idx1 + 1], t);
+                }
+                break;
+            }
+        }
+    }
+
+    // fallback in case rgb is undefined due to floating point edge cases
+    if (!rgb) {
+        rgb = colorsSeparated[colorsSeparated.length - 1].slice();
     }
 
     const asHex = rgb.map(function (v) {
