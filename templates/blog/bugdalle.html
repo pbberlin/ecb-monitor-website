@@ -1,0 +1,131 @@
+<style>
+
+.wrap {
+}
+
+.wrap p {
+    text-align: justify;
+    margin-bottom: 0;
+    hyphens: auto;
+}
+
+.wrap h3 {
+    font-size:     150%;
+    font-weight:   700;
+
+    text-align:    left;
+    word-spacing:  0.2rem;
+
+    margin: 0;
+
+}
+
+
+/* fake background - only for development */
+.xx-shapeImage::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    clip-path: var(--shared-polygon-shape);
+    background: rgba(255, 0, 0, 0.2);
+}
+
+
+
+/* The floating shape that text flows around */
+.shapeImage {
+
+    position: relative;  /*  only for fake background */
+    
+    float:  left;
+    
+    padding:         0;
+    margin-left:     0;
+    margin-right:    0;
+    margin-top:      0.35rem;
+    margin-bottom:   0;
+
+    /* border: 1px solid red; */
+
+    border-radius:   0.4rem;
+
+    /* 
+        x-axis increment 
+        similar to adding 4% to each shape-outside x-coord
+    */
+    shape-margin: 0.8rem;
+
+    /* default background: blue gradient rectangle - overwritten below */
+    background:
+        linear-gradient(
+            217deg,
+            oklch(0.72 0.09 225) 50%,
+            oklch(0.92 0.06 225) 90%,
+            transparent  99%
+        )
+    ;
+    
+    /* clipping polygon */
+    /* x-coord, y-coord - top left - top right */
+    --shared-polygon-shape: polygon(
+         0%       0%,
+        44%       0%,
+        60%      30%,
+        90%      55%,
+        90%      95%,
+        97%     100%,
+         0%     100%
+    );
+
+
+    /* image clipping shape */
+    clip-path:     var(--shared-polygon-shape);
+    /* text wrap shape */
+    shape-outside: var(--shared-polygon-shape);
+
+
+
+    /* background: image file */
+    background-size:     cover;
+
+    background: url("/static/img/blog/bugdalle.jpg") no-repeat;
+    width:               272px;     /* or clamp(180px,  38vw, 340px)  */
+    height:              170px;     /* cropping, to align with text lines */
+
+    /* scaling inside cropped area  */
+    background-size:      105% 105%;  
+    /* positioning */
+    background-position: -17px -10px;
+
+
+
+}
+
+
+
+
+/* Mobile: stack image on top; disable float/shape for readability */
+@media (max-width: 720px) {
+    .shapeImage {
+        float: none;
+        width: 100%;
+        /* Reset margins for mobile */
+        margin: 0 0 1rem 0;
+        clip-path: none;
+        shape-outside: none;
+        height: auto;
+        /* Ensure it has height on mobile */
+        min-height: 200px;
+        border-radius: 0;
+    }
+}
+
+</style>
+
+
+<div class="wrap">
+    <figure class="shapeImage" role="img"></figure>
+    <div  class="flowing-text">
+        {{ content | safe }}
+    </div>
+</div>
