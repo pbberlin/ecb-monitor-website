@@ -68,11 +68,11 @@ function valToPctToColor(vl, initOpacity, elOpa, config, opaBuff=0) {
     // handling out of bounds lower
     if (vl <= ranges[0]) {
         rgb = colorsSeparated[0].slice();
-    } 
+    }
     // handling out of bounds upper
     else if (vl >= ranges[ranges.length - 1]) {
         rgb = colorsSeparated[colorsSeparated.length - 1].slice();
-    } 
+    }
     // finding the correct bracket for interpolation dynamically
     else {
         for (let idx1 = 0; idx1 < ranges.length - 1; idx1++) {
@@ -198,6 +198,57 @@ function buildTicks(config, elParent, color_ranges, minValue, maxValue, fullRang
     }
 }
 
+function buildThresholds(config, elParent, minValue, maxValue, fullRange) {
+
+    // removing old threshold markers to prevent duplication on re-render
+    const oldThresholds = elParent.querySelectorAll(".threshold-marker");
+    for (let idx1 = 0; idx1 < oldThresholds.length; idx1 += 1) {
+        oldThresholds[idx1].remove();
+    }
+
+    if (!config.threshold_values || !config.threshold_labels) {
+        return;
+    }
+
+    for (let idx1 = 0; idx1 < config.threshold_values.length; idx1 += 1) {
+        const val = config.threshold_values[idx1];
+        const lbl = config.threshold_labels[idx1];
+
+        const positionPercent = ((val - minValue) / fullRange) * 100;
+
+        // skipping thresholds that fall outside the current visual bounds
+        if (positionPercent < 0 || positionPercent > 100) {
+            continue;
+        }
+
+        // creating the vertical stroke container
+        const markerWrap = document.createElement("div");
+        markerWrap.className = "threshold-marker";
+        markerWrap.style.position   = "absolute";
+        markerWrap.style.left       = positionPercent + "%";
+        markerWrap.style.top        = "-8px";
+        // calculating height dynamically based on CSS variable to intersect gradient and extend 6px above
+        markerWrap.style.height     = "calc(var(--grad-height, 1.2rem) + 8px )";
+        markerWrap.style.borderLeft = "2px solid rgba(0, 0, 0, 0.4)";
+        markerWrap.style.zIndex     = "10";
+        markerWrap.style.pointerEvents = "none"; // preventing interference with tooltips/clicks
+
+        // creating the label positioned above the stroke
+        const labelEl = document.createElement("div");
+        labelEl.style.position      = "absolute";
+        labelEl.style.left          = "3px";       // 2px padding from the stroke
+        labelEl.style.bottom        = "87%";       // pushing text above the stroke container
+        labelEl.style.fontSize      = "0.62rem";
+        labelEl.style.lineHeight    = "1";
+        labelEl.style.whiteSpace    = "nowrap";
+        labelEl.style.color         = "#000";
+        labelEl.textContent         = lbl;
+
+        markerWrap.appendChild(labelEl);
+        elParent.appendChild(markerWrap);
+    }
+}
+
 function gradientCss(gradientElement, color_ranges, colors, minValue, maxValue, fullRange) {
 
     const stops = [];
@@ -229,6 +280,9 @@ function createGradientLegend(domEl, config) {
     const elGradient = document.getElementById(domEl);
     const elParent   = elGradient.parentElement;
 
+    // ensuring the parent has relative positioning so absolute threshold markers align correctly
+    elParent.style.position = "relative";
+
     const color_ranges = config.color_ranges.slice().sort((a, b) => a - b);  // ensure ascending
     const colors       = config.colors;
 
@@ -245,12 +299,14 @@ function createGradientLegend(domEl, config) {
 
     buildTicks(config, elParent, color_ranges, minValue, maxValue, fullRange);
 
+    buildThresholds(config, elParent, minValue, maxValue, fullRange);
+
 }
 
 
 /**
  * Attaches a play animation to a button and a slider.
- * 
+ *
  * @param {string|HTMLElement} button - The button element or its ID.
  * @param {string|HTMLElement} slider - The slider element or its ID.
  * @param {number} [interval=550] - The speed of the animation in milliseconds.

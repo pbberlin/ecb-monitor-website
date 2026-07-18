@@ -521,6 +521,8 @@
           "formatter": (vl) => Number(vl).toFixed(1) + ' %',
           "color_ranges": [      -2 ,        0 ,      0.5 ,      1.2 ,        4 , ],
           "colors":       ["#F00000", "#B00000", "#805000", "#508000", "#00F000", ],
+          "threshold_values": [ 1 ],
+          "threshold_labels": [ "{{i18n.threshold_potential_growth}}" ],
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
@@ -548,6 +550,8 @@
           "formatter": (vl) => Number(vl).toFixed(1) + ' %',
           "color_ranges": [       1  ,      1.8  ,      2.2  ,       2.6  ,         3  ,        5  ,],
           "colors":       ["#00F000" , "#00B000" , "#508000" ,  "#805000" ,  "#B00000" , "#F00000" ,],
+          "threshold_values": [ 2 ],
+          "threshold_labels": [ "ECB Target" ],
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
