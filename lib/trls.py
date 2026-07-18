@@ -549,8 +549,14 @@ trlsRaw = [
     },
     {
         "abs_or_rel_help":    {
-            "de": "Absolute Zahlen   - oder relativ zur Eurozone",
-            "en": "Absolute numbers - or difference from Euro area average",
+            "de": "Absolute Zahlen  - oder relativ zur Eurozone",
+            "en": "Absolute numbers - or difference to euro area average",
+        },
+    },
+    {
+        "threshold_potential_growth":    {
+            "de": "durchschn. Potenzialwachstum 1%",
+            "en": "avg. growth potential of 1%",
         },
     },
     {
