@@ -570,11 +570,8 @@
         "selected_data" : debtPercentToGDP,
         "abs": {
           "formatter": (vl) => Math.round(vl).toString() + ' %',
-          "color_ranges": [0, 60, 180, 200],
-          "colors":       ["#00A000", "#80A000", "#FF0000", "#FF0000"],
-
           "color_ranges": [       0  ,       60  ,       70  ,       100  ,       120  ,      200  ,],
-          "colors":       ["#00B000" , "#00B000" , "#408000" ,  "#B04000" ,  "#F00000" , "#F00000" ,],
+          "colors":       ["#00B000" , "#00B000" , "#508000" ,  "#B05000" ,  "#F00000" , "#F00000" ,],
           
           
         },
@@ -588,8 +585,10 @@
         "selected_data" : netLendingPercentToGDP,
         "abs": {
           "formatter": (vl) => Number(vl).toFixed(1) + ' %',
-          "color_ranges":  [-6, -2, 0, 2],
-          "colors":        ["#FF0000", "#80A000", "#00A000", "#00A000"]
+          "color_ranges": [      -6  ,       -4  ,       -3  ,       -2  ,          0  ,        2  ,],
+          "colors":       ["#F00000" , "#B00000" , "#805000" ,  "#508000" ,  "#00B000" , "#00F000" ,],
+
+
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
