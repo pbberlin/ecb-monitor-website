@@ -83,7 +83,7 @@ trlsRaw = [
                 des ZEW über die EZB und ihre geldpolitischen Entscheidungen. Der Monitor bietet Zugriff auf wichtige ökonomische und fiskalische Daten zum aktuellen Umfeld der Geldpolitik.
             """,
             "en": """
-                The ECB Monitor provides background information on the ECB and its monetary policy decisions 
+                The ECB-Monitor provides background information on the ECB and its monetary policy decisions
                 from the perspective of independent academic research
             """,
         },
@@ -96,17 +96,17 @@ trlsRaw = [
                     Dieser KI-gestützte Indikator gibt Auskunft über die Botschaft
                     aus den jüngsten Redebeiträgen von Mitgliedern des EZB-Rats.
                     Er dient als Frühindikator, ob die EZB eher in eine
-                    expansive oder kontraktive Richtung in ihren geldpolitischen Entscheidungen neigt.                
+                    expansive oder kontraktive Richtung in ihren geldpolitischen Entscheidungen neigt.
                 </p>
                 <p>
                     Der EZB-Transparenz-Monitor richtet sich an Akteure in den Medien,
                     der Finanzindustrie, der Politik und der interessierten Fachöffentlichkeit.
                 </p>
-                
+
             """,
             "en": """
                 <p>
-                    The ECB Monitor provides the following content
+                    The ECB-Monitor provides the following content
                 </p>
 
                 <ul>
@@ -131,7 +131,7 @@ trlsRaw = [
                     </li>
 
                     <li>
-                        The ECB Monitor is intended for a broad audience, including the media, the financial industry, the public sector, and the general public, who are interested in independent background information on monetary policy.
+                        The ECB-Monitor is intended for a broad audience, including the media, the financial industry, the public sector, and the general public, who are interested in independent background information on monetary policy.
                     </li>
 
                 </ul>
@@ -162,31 +162,61 @@ trlsRaw = [
     },
 
     {
-        "ecb_momentum_report_headline":    {
-            "de": "EZB-ZEW-Momentum-Indikator",
-            "en": "ECB-ZEW-Momentum Indicator ",
+        "ecb_quarterly_report_headline":    {
+            "de": "EZB Monitor - Quartalsbericht",
+            "en": "ECB-Monitor - Quarterly report",
         },
     },
     {
-        "ecb_momentum_report_hint":    {
+        "ecb_quarterly_report_hint":    {
             "de": "So hat sich das geldpolitische Momentum in den Reden des EZB-Rats über die letzten Monate verändert",
             "en": "This is how the monetary policy momentum in the speeches of the ECB Governing Council has changed over the past months.",
         },
     },
+
     {
-        "ecb_watching_hint":    {
+        "ecb_quarterly_report_archive_headline":    {
+            "de": "...frühere Ausgaben",
+            "en": "...past issues",
+        },
+    },
+    {
+        "ecb_quarterly_report_archive_hint":    {
+            "de": "Frühere Quartalsberichte",
+            "en": "Past quarterly reports",
+        },
+    },
+
+
+
+
+
+
+    {
+        "blog_special_analyses_headline":    {
+            "de": "EZB Monitor - Spezialanalysen",
+            "en": "ECB-Monitor - Special analyses",
+        },
+    },
+    {
+        "blog_special_analyses_hint":    {
             "de": "Forschende und ECB-Watcher, die nicht für Notenbanken arbeiten, zu aktuellen geldpolitischen Fragestellungen.",
             "en": "Researchers and ECB watchers who do not work for central banks on current monetary policy issues.",
         },
     },
 
 
+
+
+    #  insider blog template
     {
         "blog_policy_headline":    {
             "de": "EZB-Watching – der Kommentar",
             "en": "Recent expert assessments",
         },
     },
+
+
 
 
     {
@@ -231,10 +261,10 @@ trlsRaw = [
             """,
             "en": """
                 <p>
-                    The fiscal environment is important for the conduct of monetary policy. 
-                    The Maastricht Treaty aimed to ensure that public debt levels remained sustainable 
-                    in order to protect the ECB's effective independence. 
-                    This page provides essential information on the fiscal positions of eurozone countries over time. 
+                    The fiscal environment is important for the conduct of monetary policy.
+                    The Maastricht Treaty aimed to ensure that public debt levels remained sustainable
+                    in order to protect the ECB's effective independence.
+                    This page provides essential information on the fiscal positions of eurozone countries over time.
                 </p>
                 <ul>
                     <li>
@@ -286,10 +316,10 @@ trlsRaw = [
                     -->
 
                 <p>
-                    Monetary policy decisions reflect the economic environment. 
-                    Key variables that central banks consider are both the inflation rate and the growth rate. 
-                    Typically, central banks will opt for a more expansionary monetary policy 
-                    if inflation and economic growth are low, and a more restrictive policy if they are high.                
+                    Monetary policy decisions reflect the economic environment.
+                    Key variables that central banks consider are both the inflation rate and the growth rate.
+                    Typically, central banks will opt for a more expansionary monetary policy
+                    if inflation and economic growth are low, and a more restrictive policy if they are high.
                 </p>
                 <ul>
                     <li>
@@ -371,8 +401,8 @@ trlsRaw = [
                     </a>
                 </li>
                 <li>
-                    This variable quantifies the total public debt of all government levels and social security relative to Gross Domestic Product. 
-                    The data for the current and next year are forecasts provided by the European Commission.                
+                    This variable quantifies the total public debt of all government levels and social security relative to Gross Domestic Product.
+                    The data for the current and next year are forecasts provided by the European Commission.
                 </li>
 
             """,
@@ -414,9 +444,9 @@ trlsRaw = [
                     </a>
                 </li>
                 <li>
-                    This variable indicates whether the general government budget (relative to Gross Domestic Product) 
-                    is in surplus (a positive number) or in deficit (a negative number). The data for the current and 
-                    next year are forecasts provided by the European Commission.                
+                    This variable indicates whether the general government budget (relative to Gross Domestic Product)
+                    is in surplus (a positive number) or in deficit (a negative number). The data for the current and
+                    next year are forecasts provided by the European Commission.
                 </li>
 
             """,
@@ -452,8 +482,8 @@ trlsRaw = [
                     </a>
                 </li>
                 <li>
-                    This variable indicates the size of the general government in terms of total government expenditure relative 
-                    to the Gross Domestic Product. The data for the current and next year are forecasts provided by the European Commission.                
+                    This variable indicates the size of the general government in terms of total government expenditure relative
+                    to the Gross Domestic Product. The data for the current and next year are forecasts provided by the European Commission.
                 </li>
 
             """,
@@ -495,8 +525,8 @@ trlsRaw = [
                     </a>
                 </li>
                 <li>
-                    This variable shows the share of interest payments on outstanding public debt in total government expenditure. 
-                    The data for the current and next year are forecasts provided by the European Commission.                
+                    This variable shows the share of interest payments on outstanding public debt in total government expenditure.
+                    The data for the current and next year are forecasts provided by the European Commission.
                 </li>
 
             """,
@@ -533,9 +563,9 @@ trlsRaw = [
                 </li>
 
                 <li>
-                    This variable provides information on borrowing costs for new government bonds. 
-                    It shows central government bond yields on the secondary market with a residual maturity of around 10 years. 
-                    Unlike the other fiscal variables which are reported on an annual basis, this variable is reported monthly.                
+                    This variable provides information on borrowing costs for new government bonds.
+                    It shows central government bond yields on the secondary market with a residual maturity of around 10 years.
+                    Unlike the other fiscal variables which are reported on an annual basis, this variable is reported monthly.
                 </li>
 
             """,
@@ -663,9 +693,9 @@ trlsRaw = [
                     </a>
                 </li>
                 <li>
-                    This variable shows the real (i.e. inflation-adjusted) annual growth rate 
-                    of the Gross Domestic Product. The data for the current and next year are forecasts 
-                    provided by the European Commission.                
+                    This variable shows the real (i.e. inflation-adjusted) annual growth rate
+                    of the Gross Domestic Product. The data for the current and next year are forecasts
+                    provided by the European Commission.
                 </li>
             """,
         },
@@ -706,12 +736,12 @@ trlsRaw = [
                     </a>
                 </li>
                 <li>
-                    This variable shows the difference between actual and the potential Gross Domestic Product. 
-                    A positive number indicates a strong economic situation, 
-                    as the actual economic activity is above the level that can be sustained in the long term. 
-                    Conversely, a negative number indicates a weak economic situation, 
-                    as economic activity is below what is possible given the available production factors. 
-                    The data for the current and next year are forecasts provided by the European Commission.                
+                    This variable shows the difference between actual and the potential Gross Domestic Product.
+                    A positive number indicates a strong economic situation,
+                    as the actual economic activity is above the level that can be sustained in the long term.
+                    Conversely, a negative number indicates a weak economic situation,
+                    as economic activity is below what is possible given the available production factors.
+                    The data for the current and next year are forecasts provided by the European Commission.
                 </li>
 
             """,
@@ -756,10 +786,10 @@ trlsRaw = [
                     </a>
                 </li>
                 <li>
-                    This variable shows the inflation rate according to the "Harmonised Index of Consumer Prices" (HICP). 
-                    The HICP inflation is the most prominent variable considered by the ECB Council since the ECB's primary 
-                    objective – "inflation of 2% over the medium term" – refers to the HICP. 
-                    The data for the current and next year are forecasts provided by the European Commission.                
+                    This variable shows the inflation rate according to the "Harmonised Index of Consumer Prices" (HICP).
+                    The HICP inflation is the most prominent variable considered by the ECB Council since the ECB's primary
+                    objective – "inflation of 2% over the medium term" – refers to the HICP.
+                    The data for the current and next year are forecasts provided by the European Commission.
                 </li>
             """,
         },
@@ -827,7 +857,7 @@ trlsRaw = [
             """,
             "en": """
                 <p>
-                    The map shows the hawkishness score of each ECB Council member. 
+                    The map shows the hawkishness score of each ECB Council member.
                 </p>
 
                 <p>
@@ -954,11 +984,11 @@ trlsRaw = [
         "council_barometer_chart_label": {
         "de": """
                 Zeiger:  Median-Position des Gremiums:  &nbsp; <span id="medianVal" ></span>         <br>
-                Die Kreise zeigen die Position der Länder.              <br> 
-                Maus-Over, um den Vertreter des Landes zu sehen 
+                Die Kreise zeigen die Position der Länder.              <br>
+                Maus-Over, um den Vertreter des Landes zu sehen
             """,
         "en": """
-                Needle shows the median score in the Council:  &nbsp;  <span id="medianVal" ></span> <br> 
+                Needle shows the median score in the Council:  &nbsp;  <span id="medianVal" ></span> <br>
 
 
                 The circles show the scores of the individual members of the ECB Council. <br>
@@ -985,12 +1015,12 @@ trlsRaw = [
             "en": """
 
                 <p>
-                    The graph shows the hawkishness score for each member of the ECB Council, alongside the median score. 
+                    The graph shows the hawkishness score for each member of the ECB Council, alongside the median score.
                 </p>
 
                 <p>
 
-                    The median score divides individuals into two equal groups, one more hawkish and one less. 
+                    The median score divides individuals into two equal groups, one more hawkish and one less.
                 </p>
 
                 <p>
