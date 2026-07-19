@@ -462,7 +462,81 @@ def handlerBlog(blogType=None, lg=None, md=None):
     )
 
 
+@app.route('/quarterly-reports-latest')
+def quarterlyReportsLatest():
+    dirPth = Path(app.static_folder) / "pdf" / "quarterly-reports"
+    if not dirPth.exists():
+        abort(404, description="Directory not found")
 
+    pdfFiles = []
+    try:
+        # iterating over pdf files to find latest
+        for idx1, pth in enumerate(dirPth.glob("*.pdf")):
+            if idx1 % 100 == 0:
+                print(f"\t{idx1:3} of {pth.name} of {dirPth}")
+            pdfFiles.append(pth)
+    except Exception as exc:
+        from lib.util import stackTrace
+        stackTrace(exc)
+        print("[quarterlyReportsLatest - reading pdf directory]")
+        abort(500)
+
+    if not pdfFiles:
+        abort(404, description="No reports found")
+
+    # sorting descending by filename relies on YYYY-QX format ensuring chronological order
+    pdfFiles.sort(reverse=True)
+    latestPdf = pdfFiles[0]
+
+    return send_from_directory(
+        dirPth.as_posix(),
+        latestPdf.name,
+        mimetype="application/pdf"
+    )
+
+
+@app.route('/quarterly-reports-past')
+def quarterlyReportsPast():
+    dirPth = Path(app.static_folder) / "pdf" / "quarterly-reports"
+    if not dirPth.exists():
+        abort(404, description="Directory not found")
+
+    pdfFiles = []
+    try:
+        for idx1, pth in enumerate(dirPth.glob("*.pdf")):
+            if idx1 % 100 == 0:
+                print(f"\t{idx1:3} of {pth.name} of {dirPth}")
+            pdfFiles.append(pth)
+    except Exception as exc:
+        from lib.util import stackTrace
+        stackTrace(exc)
+        print("[quarterlyReportsPast - reading pdf directory]")
+        abort(500)
+
+    pdfFiles.sort(reverse=True)
+
+    listItems = []
+    for idx1, pth in enumerate(pdfFiles):
+        # replacing hyphens with spaces for cleaner display name
+        displayName = pth.stem.replace("-", " ")
+        itemHtml = f"""
+            <li style='margin-bottom: 0.5ch;'>
+                <a href="/static/pdf/quarterly-reports/{pth.name}">{displayName}</a>
+            </li>
+        """
+        listItems.append(itemHtml)
+
+    innerCnt = f"<ul>{''.join(listItems)}</ul>"
+
+    outerCnt = render_template(
+        "markdown-body.html",
+        content=innerCnt,
+    )
+
+    return render_template(
+        "index.html",
+        content=outerCnt,
+    )
 
 
 if __name__ == '__main__':
