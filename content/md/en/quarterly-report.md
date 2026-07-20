@@ -11,7 +11,7 @@
 <br>
 
 
-* <a id="linkDownload"      href="/static/dl/council_barometer.csv"      title="European CSV, semikolon delimited,  decimal separator: comma, UTF-8"   download="" >ECB Council Stance Timeline -  ECB-ZEW-Momentum Indicator  &nbsp; (CSV)</a>
+* <a id="linkDownload"      href="/static/dl/council-by-6weeks.csv"      title="European CSV, semikolon delimited,  decimal separator: comma, UTF-8"   download="" >ECB Council Stance Timeline -  ECB-ZEW-Momentum Indicator  &nbsp; (CSV)</a>
 
-* <a id="linkDownload"      href="/static/dl/council-by-6weeks.csv"      title="European CSV, semikolon delimited,  decimal separator: comma, UTF-8"   download="" >ECB Council Majorities Stance  &nbsp; (CSV)</a>
+* <a id="linkDownload"      href="/static/dl/council_barometer.csv"      title="European CSV, semikolon delimited,  decimal separator: comma, UTF-8"   download="" >ECB Council Majorities Stance  &nbsp; (CSV)</a>
 
