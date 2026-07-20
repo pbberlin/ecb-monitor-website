@@ -77,13 +77,18 @@ def main():
                 print(f"[{idx1}] Download failed for {pdfUrl} -> {localPdfPath}: {exc}")
                 continue
 
+
+        txtOutPath = outDir / f"{baseName}_pdfcontent.txt"
+        if txtOutPath.exists() and txtOutPath.is_file() and txtOutPath.stat().st_size > 10:
+            print(f"\t  [{idx1:4}] text extract already exists {txtOutPath}")
+            continue
+
         try:
             textContent = extractText(localPdfPath)
         except Exception as exc:
             print(f"\t  [{idx1}] Text extraction failed for {localPdfPath}: {exc}")
             continue
 
-        txtOutPath = outDir / f"{baseName}_pdfcontent.txt"
         try:
             with txtOutPath.open("w", encoding="utf-8", newline="") as f:
                 f.write(textContent if textContent is not None else "")
