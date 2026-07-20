@@ -209,7 +209,7 @@ toHtml(
 
 convertPickleToJs(
     Path( appDir / "scripts" / "council" / "council-by-6weeks.pkl") ,
-    Path( appDir / "static" / "dl"       / "council-by-6weeks.js") ,
+    Path( appDir / "static" /  "dl"      / "council-by-6weeks.js") ,
     "date",
 )
 
