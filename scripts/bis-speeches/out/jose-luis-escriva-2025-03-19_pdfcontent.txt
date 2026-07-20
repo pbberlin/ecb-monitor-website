@@ -72,7 +72,7 @@ As a result of the initial Basel III reforms, which were implemented in Europe i
 today the European banking system is clearly more resilient. According to the Basel 
 Committee on Banking Supervision, on the latest data available, since 2011 the 
 average CET1 ratio has risen from 6.4% to 14.5%, while the leverage ratio has 
-increased from 2.7% to 5%.  The liquidity indicators (LCR and NSFR) are also 1
+increased from 2.7% to 5%. The liquidity indicators (LCR and NSFR) are also 1
 comfortably above the required minimum of 100%.
 Notwithstanding the monetary policy measures taken by central banks or the actions 
 taken by governments, this greater resilience of European banks has been evidenced 
@@ -194,7 +194,7 @@ One of the most urgent aspects within the SIU is the revival of the securitisati
 Securitisation allows banks to transfer credit risk off their balance sheets towards non-
 bank investors, releasing capital for new loans. However, it is underdeveloped in 
 Europe. In 2022 the volume of securitisations issued in Europe was 0.3% of GDP, 
-compared with 4% in the United States.  Although there are particularities in both 2
+compared with 4% in the United States. Although there are particularities in both 2
 markets – such as the role of government mortgage agencies in the United States or 
 the importance of covered bonds in Europe – this difference is significant and calls for 
 urgent action.

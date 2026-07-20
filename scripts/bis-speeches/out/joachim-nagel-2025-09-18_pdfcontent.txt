@@ -38,7 +38,7 @@ stressing over and again. But an honest stocktake also means acknowledging that
 banking regulation today is more complex than it ever was. 
 
 2/8 BIS - Central bankers' speeches
-Just over six months ago, I joined my ECB Governing Council colleagues José Luis 
+Just over six months ago, I joined my ECB  Governing Council colleagues José Luis 
 Escrivá (Banco de España), Fabio Panetta (Banca d'Italia) and François Villeroy de 
 Galhau (Banque de France) in writing a letter to Maria Luís Albuquerque, the European 
 Commissioner responsible for Financial Services and the Savings and Investments 
@@ -277,10 +277,10 @@ banking regulation
 2 What is the ECB High-Level Task Force on Simplification?
 3 See for a detailed explanation of the various types  Own funds | Deutsche Bundesbank 
 of capital.
-4 See, for example, ESRB (2021), Report of the Analytical Task Force on the overlap    
+4 See, for example,ESRB (2021), Report of the Analytical Task Force on the overlap    
 between capital buffers and minimum requirements, December 2021, orBCBS (2022),    
 Buffer Usability and Cyclicality in the Basel Framework, 5 October 2022.
-5 See BCBS (2022): Evaluation of the impact and efficacy of the Basel III reforms,    
+5 SeeBCBS (2022): Evaluation of the impact and efficacy of the Basel III reforms,    
 14 December 2022.
 6 BCBS (2023), Report on the 2023 banking turmoil, 5 October 2023. 
 

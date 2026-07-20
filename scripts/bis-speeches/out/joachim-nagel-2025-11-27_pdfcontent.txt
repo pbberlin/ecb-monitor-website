@@ -114,7 +114,7 @@ First, there are still considerable obstacles in our internal market. This is pa
 true in the services sector. And we do not have a common energy market. Around 
 450 million people are an immense economic area whose potential can be better 
 harnessed. 
-The reports by Mario Draghi and Enrico Letta have been available for more than a 3  4 
+The reports by Mario Draghiand Enrico Lettahave been available for more than a 3  4 
 year now. They contain plenty of good proposals. But there is a lack of implementation. 
 The European single market is a success story that we should definitely continue–as 
 also shown by a recent Bundesbank study.5
@@ -136,21 +136,21 @@ systems. Two forms have been proposed: one for large-value payments that only ba
 can use; and one for everyone to use as a complement to cash, transferring its benefits 
 to the digital payment world. This digital euro would be accessible to all citizens free of 
 charge and would be accepted throughout the euro area. It would be based on 
-European infrastructure. This would make us more independent of US payment service    
+European infrastructure. This would make us more independent ofUS payment service    
 providers such as Visa, Mastercard or PayPal. 
 The introduction of the digital euro will depend on the adoption of the relevant legal 
 basis in Brussels. Provided that the legislation enters into force in 2026, the Eurosystem 
-should be able to introduce the digital euro in 2029. European central bank digital 6 
-currency would, not least, also be a sensible response to US dollar-denominated    
+should be able to introduce the digital euro in 2029.European central bank digital 6 
+currency would, not least, also be a sensible response toUS dollar-denominated    
 stablecoins. This is because it would strengthen the attractiveness of the euro.
 The emergence of stablecoins is a recent and, to some extent, worrying development. 
 These are digital tokens from private issuers that aim to maintain a stable value and are 
 backed by assets such as government bonds for this purpose. Stablecoins, which 
-currently mean almost exclusively US dollar-denominated stablecoins, could become    
+currently mean almost exclusivelyUS dollar-denominated stablecoins, could become    
 more widespread: This is because they offer advantages over existing solutions in 
 certain fields of application, such as payments between firms or between different 
-currency areas. And also because US regulation aims to safeguard or further expand    
-the dominance of the US dollar through stablecoins.   
+currency areas. And also becauseUS regulation aims to safeguard or further expand    
+the dominance of theUS dollar through stablecoins.   
 In plain terms: Europe's sovereignty in payments would be at risk if stablecoins issued 
 by US companies were used extensively here. European central bank digital currency    
 alone would certainly not prevent this from happening. This makes euro-pegged 
@@ -158,12 +158,12 @@ stablecoins from European issuers all the more important. At present, these are 
 and far between.
 5 Central bank independence is a precious asset
 Another current development is giving pause for thought. Namely how the 
-independence of the US Federal Reserve is under pressure. Likewise, the lawyers    
+independence of theUS Federal Reserve is under pressure. Likewise, the lawyers    
 among you are probably watching with particular concern wherever the independence 
 of the judiciary is at risk. Central bank independence is a major achievement. It's part of 
 
 5/6 BIS - Central bankers' speeches
-the DNA of a successful, effective monetary policy. While public debates and differing    
+theDNA of a successful, effective monetary policy. While public debates and differing    
 opinions on the course of monetary policy are useful, there shouldn't be political 
 interference.
 A look back at history provides cautionary tales of what can happen if central banks do 
@@ -179,15 +179,15 @@ account the increasing risks posed by climate change. This is because they, too,
 relevant for price and financial stability.
 Before I conclude, you will probably want to hear me say something about European 
 monetary policy. Euro area inflation has stabilised close to 2% in recent months. 
-According to previous ECB staff projections, inflation is likely to be close to the 2%    
+According to previousECB staff projections, inflation is likely to be close to the 2%    
 target over the medium term.
 However, some aftereffects of the wave of inflation are still being felt. Take supermarket 
 inflation, for example. For food, in particular, price increases were above average and 
-remain persistent. The ECB recently wrote that to put a meal on the table, consumers    
-are paying roughly a third more than before the pandemic. At their regular trips to the 7 
+remain persistent. TheECB recently wrote that to put a meal on the table, consumers    
+are paying roughly a third more than before the pandemic.At their regular trips to the 7 
 supermarket, people perceive the increased cost of living particularly clearly. And their 
-concerns about further price rises are reflected in survey results. The Governing 8 
-Council of the ECB is, of course, keeping a close eye on this and the continued strong    
+concerns about further price rises are reflected in survey results.The Governing 8 
+Council of theECB is, of course, keeping a close eye on this and the continued strong    
 services inflation.
 We are in a good position and should continue to follow a data-dependent and flexible 
 approach and take our decisions on a meeting-by-meeting basis. In December, we will 

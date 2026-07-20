@@ -60,7 +60,7 @@ We are not pre-committing to a particular rate path.
 The instruments in the ECB's toolkit
 Let me now turn to the ECB's instruments.
 As reconfirmed in our recent strategy assessment, we are committed to setting 
-monetary policy such that inflation stabilises at our 2% target in the medium term. Our 2 
+monetary policy such that inflation stabilises at our 2% target in the medium term.Our 2 
 primary monetary policy instrument is the set of three key ECB interest rates. However, 
 we may also employ other instruments, as appropriate, to preserve the smooth 
 functioning of monetary policy transmission and provide additional accommodation 
@@ -73,8 +73,8 @@ impaired. To address such concerns, we have developed tools to safeguard the smo
 transmission of our monetary policy.
 I will now briefly outline three key instruments in our monetary policy toolkit: Outright 
 Monetary Transactions (OMTs), the technical features of which were announced in 
-August and September 2012; the Transmission Protection Instrument (TPI) announced 3 
-in July 2022; and the pandemic emergency purchase programme (PEPP) announced 4 
+August and September 2012;the Transmission Protection Instrument (TPI) announced 3 
+in July 2022;and the pandemic emergency purchase programme (PEPP) announced 4 
 in March 2020.5
 Outright Monetary Transactions are designed to safeguard the transmission of 
 monetary policy in all euro area countries. OMTs enable us to address severe 
@@ -101,7 +101,7 @@ to price stability posed by the pandemic.
 In the face of the extraordinary economic and financial shock, the programme's 
 flexibility – which allowed the pace and composition of purchases to be adjusted – 
 proved critical in stabilising markets, addressing impediments to transmission, 
-supporting the economic recovery and safeguarding price stability. As circumstances 7 
+supporting the economic recovery and safeguarding price stability.As circumstances 7 
 evolved, the size and pace of the PEPP were recalibrated, and reinvestments of 
 maturing bonds were fully discontinued as of December 2024, contributing to the 
 normalisation of our balance sheet.8
@@ -133,12 +133,12 @@ There are clear solutions at hand – now is the time to implement them.
 policy meeting of the Governing Council on 2 August; ECB (2012), Introductory 
 following the monetary policy meeting of the statement to the press conference 
 Governing Council on 6 September; ECB (2012), "Technical features of Outright 
-", , 6 September.Monetary Transactions  press release
-4 ECB (2022), " ", , 21 July.The Transmission Protection Instrument  press release
+", , 6 September.Monetary Transactions press release
+4 ECB (2022), " ", , 21 July.The Transmission Protection Instrument press release
 5 ECB (2020), "ECB announces €750 billion Pandemic Emergency Purchase 
 ", , 18 March.Programme (PEPP)  press release
 6 ECB (2012), " ", op. cit.Technical features of Outright Monetary Transactions
 7 Böninghausen, B. et al. (2022), "The pandemic emergency purchase programme – an 
-", , Issue 8, ECB.initial review  Economic Bulletin
+", , Issue 8, ECB.initial review Economic Bulletin
 8 For a detailed overview of holdings and expected redemption amounts, see the 
 page on the ECB's website.pandemic emergency purchase programme 

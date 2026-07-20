@@ -5,7 +5,7 @@ Bank for International Settlements Innovation Summit, Basel, 9 September 2024.
 * * *
 Check against delivery 
 Ladies and Gentlemen, dear colleagues, 
-It is a great honor to address you today at the BIS Innovation Summit. I would like to    
+It is a great honor to address you today at theBIS Innovation Summit. I would like to    
 extend my sincere gratitude to the Bank for International Settlements for hosting this 
 important event and for bringing together such a distinguished group of experts, 
 policymakers and innovators. 
@@ -22,43 +22,43 @@ navigating uncertainty. Each of these areas is vital in its own right, but toget
 form the foundation of a forward-looking and resilient central banking system. 
 Harnessing the Power of Artificial Intelligence 
 Let me begin with artificial intelligence, a technology that is reshaping industries and 
-societies around the globe. For central banks, AI offers immense potential to enhance    
+societies around the globe. For central banks,AIoffers immense potential to enhance    
 our capabilities. It allows us to analyze vast amounts of data with unprecedented speed 
 and precision, improving our ability to forecast economic trends, assess risks, and 
 make informed decisions. 
 At the Bundesbank, generative AI is now broadly available for our staff to use. This 
 technology is already augmenting existing processes in almost every business area and 
 complementing previous work [that relied only on machine learning]. From document 
-AIdrafting to advanced data analysis,   applications are not only supporting us in areas 
+AIdrafting to advanced data analysis,  applications are not only supporting us in areas 
 like banking supervision or economics, but also in a wide range of internal and 
 administrative services. 
 The potential of AI is vast, and it is enhancing the way we work as a symbiosis between 
-AIefficiency and responsibility. But the potential of   goes far beyond operational 
+AIefficiency and responsibility. But the potential of  goes far beyond operational 
 improvements. It opens up entirely new possibilities for how we approach our core 
 mandates. Consider monetary policy: AI-driven models can help us better understand 
 the complex interactions between economic variables, allowing us to fine-tune our 
 
 2/4 BIS - Central bankers' speeches
-AIpolicy responses. In financial supervision,   can help us identify emerging risks in real 
+AIpolicy responses. In financial supervision,  can help us identify emerging risks in real 
 time, enabling us to act proactively rather than reactively. 
 Today, AI acts as an assistant–supporting our experts, but not replacing them. At the 
 same time, we are moving from relatively simple systems to more sophisticated agentic 
 AI, capable of handling increasingly complex tasks. Yet, human experts and their 
-AIresponsibilities remain firmly in the loop.   is a powerful tool, not a decision-maker. 
+AIresponsibilities remain firmly in the loop.  is a powerful tool, not a decision-maker. 
 This distinction is crucial, especially in the context of central banking, where trust, 
 accountability and sound judgment are paramount.
 As we embrace these technologies, we must also remain vigilant. AI is not without its 
 risks. Issues such as data privacy, cyber security and ethical considerations must be 
-AIaddressed with care. How do we ensure that outputs from   systems are transparent 
+AIaddressed with care. How do we ensure that outputs from  systems are transparent 
 and accountable? How do we prevent unintended consequences, biased results due to 
-AIthe training and origin of   systems, or new systemic vulnerabilities being created? 
+AIthe training and origin of  systems, or new systemic vulnerabilities being created? 
 The European Union has taken a significant step in addressing these challenges 
-through the AI AI Act. This regulatory framework aims to ensure that   systems are 
+through the AI AI Act. This regulatory framework aims to ensure that  systems are 
 AIdeveloped and deployed in a way that is both safe and trustworthy. By categorizing 
  applications based on their risk levels, the Act provides a structured approach to 
 AImitigating potential harm while fostering innovation. Time will tell whether global 
-EU AI regulatory efforts will follow in the footsteps of the  's   Act. I believe transparency, 
-AIaccountability and fairness should be at the core of our   strategies, not only to comply 
+EU AI regulatory efforts will follow in the footsteps of the 's   Act. I believe transparency, 
+AIaccountability and fairness should be at the core of our  strategies, not only to comply 
 with regulations but also to uphold public trust in our institutions.
 Striking the right balance between innovation and caution will be crucial. This requires 
 not only robust governance frameworks but also a commitment to ongoing research 
@@ -83,7 +83,7 @@ nature. They require global solutions. 
 
 3/4 BIS - Central bankers' speeches
 This is why international collaboration is not just beneficial, but essential. The work of 
-the BIS Innovation Hub stands as a testament to what we can achieve when we join    
+theBIS Innovation Hub stands as a testament to what we can achieve when we join    
 forces. The Hub's initiatives have been most valuable when they have brought together 
 central banks to explore new solutions and applications–proactively challenging the 
 status quo and pushing the boundaries of what is possible in and among our institutions.
@@ -91,7 +91,7 @@ Central banks are unique in that, while we may operate in different jurisdiction
 core use cases are often remarkably similar. We are not in competition with one 
 another; rather, we share a common mission to ensure monetary and financial stability, 
 ensure the smooth functioning of payment systems, and to serve the public good in a 
-trusted way. The BIS Innovation Hub plays a crucial role in identifying these common    
+trusted way. TheBIS Innovation Hub plays a crucial role in identifying these common    
 use cases and facilitating the development of applications that benefit us all.
 By working together, we can pool our expertise, share lessons learned, and create 
 synergies. This collaborative approach not only accelerates innovation but also helps us 

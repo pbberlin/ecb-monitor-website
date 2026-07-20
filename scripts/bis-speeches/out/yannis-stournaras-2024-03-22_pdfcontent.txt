@@ -48,7 +48,7 @@ The ECB developed bold standard and non-standard measures aiming to guide
 inflation to the two percent target in the medium term, as well as to safeguard 
 stability in the euro area financial system.
 Between 2008 and 2019, the Governing Council made sharp cuts in the ECB's 
-key policy rates, bringing the main refinancing rate gradually to zero [in March 1 
+key policy rates,bringing the main refinancing rate gradually to zero [in March 1 
 2016], and even setting a negative interest rate on reserves held by commercial 
 banks with the central bank at the deposit facility [in June 2014]. Lowering interest 
 rates was essential, in order to reduce financing costs, boost spending on 
@@ -65,21 +65,21 @@ essentially exhausted. Therefore, facing the threat of a deflationary spiral,
 additional bold measures were deemed necessary in the period between 2010 
 and 2021, in order to influence the financial conditions in the euro area.
 These measures can be grouped in two broad categories:
-The first group included the provision of ample liquidity to banks (at longer 2  
+The first group included the provision of ample liquidityto banks (at longer 2  
 maturities against a broader set of collateral). Targeted refinancing operations3 
 were specifically designed to support bank lending to businesses and individuals. 
 These operations supported the functioning of the financial markets, amid 
 increased counterparty credit risk and heightened fragmentation.
-The second group of measures included large-scale purchases of securities 4 
+The second group of measures included large-scale purchasesof securities 4 
 issued by the public and the private sector in the euro area.
 Starting late 2014, the ECB embarked on Quantitative Easing (QE) programmes 
-[namely the APP and later the PEPP ]. Purchases of securities lowered risk-free 5  6
+[namely the APPand later the PEPP]. Purchases of securities lowered risk-free 5  6
 interest rates, compressed risk premia across financial assets over the whole 
 range of the yield curve and encouraged portfolio rebalancing towards lending to 
 households and firms. Thus, the purchases supported the smooth functioning of 
 the transmission mechanism, and the progress towards our inflation aim.
 As a result, financing conditions improved considerably, with a positive impact on 
-macroeconomic performance. In this regard, various studies provide evidence 7 
+macroeconomic performance. In this regard, various studiesprovide evidence 7 
 that the negative interest rate policy had a positive impact on the growth of loans 
 provided to firms. At the same time, the positive effects of low rates on economic 
 activity have led to fewer non-performing loans, rising property values and to a 
@@ -89,7 +89,7 @@ each other, inflation and growth would have been much lower, while the resilienc
 of the financial system would have been compromised. As Mario Draghi put it in 
 2016 , "if we had not acted in recent years, the counterfactual would have been a 8
 disastrous deflation."
-According to ECB estimations over a counterfactual exercise, inflation, in the 9 
+According to ECB estimationsover a counterfactual exercise, inflation, in the 9 
 absence of non-standard measures, would have been between 0.3 and 0.5 
 percentage points lower per year in the period 2015-2019, while real GDP would 
 
@@ -125,7 +125,7 @@ shortages and imperiled financial stability.
 However, such extensive measures do not come without potential costs or side 
 effects for banks. In the following, I will refer to some of them:
 Side effects of monetary stimulus in a low interest rate environment. Given the 
-existence of a zero-lower bound on deposit interest rates , a policy rate cut 10 
+existence of a zero-lower bound on deposit interest rates, a policy rate cut 10 
 translates into a lower interest rate margin and reduces the net worth of banks. In 
 turn, this reduction in bank net worth may lead to (a) a contraction in lending as 
 banks try to avoid breaching regulatory ratios, (b) lower underwriting standards 
@@ -205,7 +205,7 @@ central banks to deliver on their mandate.
 Therefore, the independence of central banks is not affected by losses, since they 
 were in part covered by profits generated in the past and would be offset in future 
 years.
-As President Lagarde has said , central banks could neither go bankrupt nor run 11
+As President Lagarde has said, central banks could neither go bankrupt nor run 11
 out of money.
 In the case of the ECB and of several other central banks, losses would only be 
 temporary and significantly lower compared to the potential macroeconomic costs 

@@ -137,7 +137,7 @@ Looking ahead, the IMF forecasts that global growth will remain roughly constant
 3.2 per cent for the next two years, with a significant gap between the US and the euro 
 area. The IMF’s medium-term forecast of 3.1 per cent remains close to its historical 
 minimum.
-2.	 The	euro 	area:	a	shaky	recovery	with	falling	inflation
+2.	 The	euro	area:	a	shaky	recovery	with	falling	inflation
 Inflation in the euro area is in line with or ahead of the global trend. The disinflation 
 process has been faster and smoother than some had anticipated: medium-term 
 inflation expectations remained anchored, generalized second-round effects through 
@@ -355,7 +355,7 @@ annual economics conference on ‘A European path to higher economic growth’, 
 15 November 2024.
 7 These may be driven by fiscal rules (such as the debt brake in Germany) and/or efforts to rein in high 
 deficits (e.g. in Italy and France). 
-8 Sluggish items (or ‘latecomers’), such as insurance policies or health services,  account for around 40 
+8 Sluggish items (or ‘latecomers’) , such as insurance policies or health services,  account for around 40 
 per cent of the total services basket and 20 per cent of the total HICP basket. Last September, they 
 contributed 1.7 percentage points to an overall services inflation of 3.9 per cent.
 9 F. Panetta, ‘Monetary policy after a perfect storm: festina lente’, speech delivered at the Bank of Finland 

@@ -1,0 +1,128 @@
+1/4 BIS - Central bankers' speeches
+Gabriel Makhlouf: Opening remarks - "10th Annual Macroprudential 
+Conference"
+Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at 
+the 10th Annual Macroprudential Conference, jointly organised with the Deutsche 
+Bundesbank, the Nederlandsche Bank, and the Sveriges Riksbank, Dublin, 22 June 
+2026.
+* * *
+Good morning.
+It is a pleasure to welcome you this morning to the Central Bank of Ireland and to the 
+tenth annual Macroprudential Conference, organised jointly with the Deutsche 
+Bundesbank, the Nederlandsche Bank, and the Sveriges Riksbank.
+Let me begin by thanking the scientific committee for bringing together such a 
+distinguished group of policymakers and researchers, and for developing a programme 
+that is both ambitious and timely. Let me also note that it is the first time the conference 
+is held in Ireland and that we are honoured to welcome you in Dublin today.
+A tenth anniversary is an opportunity to take stock.
+Since this conference first met in Stockholm in 2015, the financial system has changed 
+significantly. Yet the fundamental purpose of macroprudential policy remains constant: 
+to protect society from the wider costs of financial instability.
+Households and businesses rely on the financial system to make payments, safeguard 
+savings, manage risks, and finance investment. When the system functions well, it 
+supports economic activity and enhances prosperity. When it fails, the consequences 
+extend far beyond financial markets and financial institutions, affecting communities 
+across society, and often falling most heavily on those least able to bear them.
+Ireland's experience leaves us in little doubt about those costs.
+It also however shows the value of building resilience before it is needed. Our 
+macroprudential framework, introduced as Ireland emerged from the financial crisis 
+more than ten years ago, now encompasses borrower-based measures, bank capital 
+buffers, and measures for non-bank finance. These policies cannot prevent every 
+shock, neither should they seek to prevent all risk-taking. Their role is to reduce the 
+likelihood that shocks are amplified by the financial system and to ensure that essential 
+services can continue when shocks occur.
+Over the past decade, macroprudential policy has moved from a young discipline 
+towards a more established part of our policy frameworks. And, over this period, our 
+collective understanding of this relatively new field of policy has advanced significantly. 
+Indeed, many of the attendees here today have been influential contributors to this 
+advancement. But maturity must not mean complacency. The financial system is 
+changing quickly, and our frameworks must continue to evolve with it.
+
+2/4 BIS - Central bankers' speeches
+The programme for the next two days illustrates the scale of that change.
+It ranges from bank supervision and non-bank finance to cross-border payments, 
+central bank balance sheets, resolution, stablecoins and cryptocurrencies. These may 
+appear to be quite different subjects. Together, however, they describe a financial 
+system in which risks can emerge in new places, move through new channels and 
+crystallise with greater speed.
+The opening session on Silicon Valley Bank is a reminder that vulnerabilities can build 
+over time beneath apparently reassuring indicators. It asks us to distinguish between 
+reacting to losses once they are incurred and responding to risks as they are taken.
+That distinction captures a central challenge for financial stability policy. We need to be 
+able to see risks forming before they crystallise, while recognising the limits of our 
+knowledge and the costs of acting under uncertainty. This requires good data, sound 
+models and effective supervision. It also requires intellectual openness: the willingness 
+to test our assumptions, to draw lessons from experience, and to recognise where our 
+understanding is incomplete.
+But identifying risk within individual institutions is only part of the task.
+Many of the boundaries around which financial policy was built are becoming 
+increasingly blurry. Risks move between banks and non-banks, across markets and 
+jurisdictions, and between the traditional financial system and new forms of digital 
+finance. Cross-border payments remind us that the infrastructure through which finance 
+operates is itself a source of both opportunity and risk.
+The frontier of macroprudential research is increasingly found in these connections. We 
+need to understand not only individual nodes, but also the network; not only first-round 
+effects, but also amplification and feedback; not only the amount of risk, but where it is 
+held, how it is financed and how it may move under stress.
+This has practical consequences for policymaking.
+Frameworks built for one structure of finance may become less effective as activity 
+migrates elsewhere. Measures intended to strengthen one part of the system may shift 
+risk into another. And new technologies can change behaviour more quickly than our 
+data, models or rules can adapt.
+The answer is not to pursue a financial system without change or without risk. 
+Innovation, risk-taking and the movement of capital are essential to a productive 
+economy. The task is to ensure that the financial system can adapt and innovate while 
+remaining resilient.
+Research is central to that task.
+Historical research can reveal recurring patterns beneath apparently novel 
+developments. Conceptual work can identify risks before the data are sufficient for 
+precise measurement. Empirical work can map connections and test how shocks 
+propagate. And policy evaluation can tell us whether measures work as intended, 
+
+3/4 BIS - Central bankers' speeches
+where costs arise and how frameworks can be made simpler without weakening 
+resilience.
+No central bank can answer these questions alone.  In fact today, we are publishing 
+proposals to enhance the evaluation of our policy-making toolkit. Underpinned by 
+serious research, careful analysis and wide engagement and consultation, we want to 
+support robust, evidence-based decision-making and ensure that our policy 
+interventions are proportionate, transparent, predictable, connected, forward-looking 
+and agile, and support appropriate consideration of their impacts on the functioning of 
+the wider financial system. I would welcome feedback on these from a range of 
+stakeholders.
+Finance is global, while our ability to observe and address vulnerabilities remains, in 
+important respects, national and sectoral. Shared standards, comparable data, candid 
+exchange and mutual trust allow national action to add up to global resilience. At a time 
+when the international order is under strain, we should not take that infrastructure for 
+granted. We should invest in it.
+The same is true of cooperation between policymakers and academia. Good policy 
+research combines institutional knowledge, high-quality data, methodological rigour and 
+the freedom to challenge established thinking. No institution has a monopoly on those 
+qualities.
+At the Central Bank of Ireland, our Research Exchange Program is intended to make 
+that cooperation practical. Through visiting scholars, research affiliates, scientific 
+advisers and other partnerships, it connects our researchers and policy work with the 
+wider research community. Applications for the next intake of visiting scholars are 
+currently open and, given the expertise in this room, I would be delighted to see your 
+engagement with the Central Bank of Ireland continue to flourish into the future.
+This conference is itself an example of cooperation in practice. It brings together four 
+central banks, an exceptional scientific committee, and participants with deep 
+experience of research and policymaking. The fact that it has reached its tenth edition is 
+an achievement. More importantly, it demonstrates a sustained commitment to learning 
+together.
+Over the past decade, macroprudential policy has become a more established part of 
+the policy framework. The next decade will bring risks and innovations that we cannot 
+fully anticipate today. Our enduring purpose must therefore be matched by a continued 
+willingness to question, to adapt and to cooperate.
+The discussions over the next two days will not resolve every question on the 
+programme. Indeed, a successful research conference usually identifies new questions 
+as quickly as it answers existing ones. But it can sharpen our understanding, challenge 
+our assumptions and improve the choices we make.
+The ambition of our research should match the importance of our responsibilities. 
+Through rigorous research, honest reflection and international cooperation, we can 
+
+4/4 BIS - Central bankers' speeches
+build a financial system better able to absorb shocks rather than amplify them, and 
+better able to serve households, businesses and communities through periods of 
+change.
+Thank you. I wish you a productive and enjoyable conference

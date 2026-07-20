@@ -214,7 +214,7 @@ the Eurosystem. The costs incurred for developing and operating the platforms ar
 reimbursed by the other euro-area central banks; over the past five years, around €400 
 million were reimbursed, plus €180 million in fees paid by market participants.
 We are also actively involved in the Eurosystem's strategic projects, in particular Pontes 
-and Appia,  which are designed to enable the settlement of DLT-based transactions in 2
+and Appia, which are designed to enable the settlement of DLT-based transactions in 2
 central bank money. These initiatives seek to facilitate interoperability across existing 
 infrastructures in the short term and to foster a more integrated and innovative 
 European financial ecosystem in the medium term.

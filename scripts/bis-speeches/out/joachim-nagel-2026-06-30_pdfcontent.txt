@@ -1,0 +1,223 @@
+1/6 BIS - Central bankers' speeches
+Joachim Nagel: The digital euro - promoting innovation, safeguarding 
+sovereignty, strengthening Europe
+Speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the 
+International Bankers Forum, Frankfurt am Main, 24 June 2026.
+* * *
+Check against delivery 
+1 Introduction
+Ladies and gentlemen, 
+I'm delighted to be able to speak to you here today. I would have liked to have been 
+there in person, but an important personal occasion means that unfortunately I can't. I'm 
+therefore all the more pleased to be able to send you a few thoughts via video message.
+In case some of you were watching England play until almost midnight last night or 
+Croatia until just before 3:00 this morning, I am relying on your sense of fair play to 
+nevertheless now get back into the zone and concentrate. I promise you: my speech 
+won't go on for 90 minutes! 
+This International Bankers Forum conference is being held under the title "Payments & 
+Banking made in Europe 2026". This title hits a nerve because although making a 
+payment is one of the most common economic activities there is, it's one that is 
+currently undergoing fundamental change. 
+What used to involve reaching for your wallet or purse now oftens entails a click, a 
+swipe or your account being debited in the background. This changes not only the way 
+we pay, but also the infrastructure that supports our monetary system on a day-to-day 
+basis.
+All this is happening at a time when Europe is reassessing its strategic dependencies. 
+Developments in recent years have shown how vulnerable strategic dependencies 
+are – for example, in the areas of energy and defence. The question of Europe's 
+capacity to act is increasingly also being raised in the domain of payments. That's why 
+"Payments & Banking made in Europe" is more than just a conference title. It's a 
+strategic task.
+In my speech, I would like to explain why the digital euro should become a central 
+element of the payments system in Europe. My core message is that the digital euro 
+isn't an end in itself – it's rather a response to three developments: First, the 
+digitalisation of our day-to-day payments, second, the growing importance of European 
+sovereignty and third, global competition in the digital financial world. I would now like to 
+go into these three points in more detail.
+2 Propelling central bank money into the digital age and promoting 
+innovation
+
+2/6 BIS - Central bankers' speeches
+My first point is that the digital euro would propel central bank money into the digital age 
+and promote innovation.1
+The starting point for reflections on the digital euro is the change that we are all 
+experiencing in our everyday lives. Each of us can probably confirm this for ourselves: 
+The way we pay has changed fundamentally in recent years. Cash remains important, 
+but we have observed over many years that it's being used less and less frequently for 
+payments. 
+In the euro area, only two-fifths of the total value of payments at the point of sale were 
+made in cash in 2024.2 By comparison, this share was almost one-half in 2019. At the 
+same time, the share of online purchases – which by their very nature are 
+cashless – doubled in value terms from 18% to 36%. And the share of outlets in the 
+euro area that do not accept cash tripled between 2021 and 2024 to 12%.3
+This shows that the payments system is undergoing profound change. It's becoming 
+more digital and more mobile. In addition, payment processes are becoming 
+increasingly intertwined with digital business processes. This is why we, as a central 
+bank, are faced with a fundamental question: How can we ensure that central bank 
+money also remains accessible and relevant in this digital world?
+This is precisely where the digital euro comes into play. It's not a rejection of cash. It's a 
+digital complement. It's about further developing central bank money in an increasingly 
+digital world. This is because central bank money is and remains the anchor of our 
+monetary system. 
+Currently, in their day-to-day lives, people only hold and use central bank money in the 
+form of cash. The digital euro would ensure that, in future, central bank money would 
+remain available in everyday life not only as cash, but also in digital form. Like cash, it 
+could be used as legal tender throughout the euro area with the aim of being universally 
+accepted.
+Or to put it in a nutshell: The digital euro would propel central bank money into the 
+digital age. 
+It's important to me to make it clear here that central bank money and private payment 
+solutions have long existed side by side. They fulfil different functions to some extent. 
+That is precisely why they complement each other in a meaningful way. The 
+introduction of the digital euro would not change this. 
+The Eurosystem would provide the basic public infrastructure for the digital euro. The 
+digital euro isn't intended to crowd out private solutions, but to complement and support 
+them. It aims to create trust, facilitate access to consumers throughout the euro area 
+and promote common technical standards in the payments system. On this basis, 
+private sector providers can develop tailored and innovative services.
+The digital euro isn't therefore intended to be developed in opposition to the financial 
+sector, but in conjunction with it. Banks and payment service providers will continue to 
+play a central role in the payments system. They will continue to be the interface with 
+
+3/6 BIS - Central bankers' speeches
+clients. The digital euro isn't intended to create a parallel world. It's intended to fit into 
+the existing financial system.
+When I look at the current technical developments, I am certain that the digital euro can 
+serve as a basis for new business opportunities for the financial sector. Consider, for 
+example, conditional payments, which are triggered automatically when certain 
+conditions are met. For example, the automatic payment of an insurance settlement as 
+soon as a claim has been digitally confirmed. 
+It's also clear that the digital euro must be designed in a way that preserves financial 
+stability and does not impair bank lending. Holding limits for credit balances in digital 
+euro and the absence of interest payments on digital euro holdings are important levers 
+in this regard.
+Despite holding limits, payments of higher amounts should of course be 
+possible – namely through the so-called waterfall approach. For payment amounts 
+above the holding limit, the difference would be automatically transferred from the bank 
+account linked to the wallet.
+The digital euro is intended to serve as a means of payment – not as a form of 
+investment and not as a substitute for bank deposits. From a European perspective, the 
+digital euro could also help domestic payment service providers to increase their reach. 
+And that brings me to my second point: The digital euro can safeguard European 
+sovereignty in payments.
+3 Securing digital sovereignty
+Recent geopolitical developments have made it very clear to us in Europe that 
+dependencies in critical areas pose high risks. Many people will immediately think of 
+energy and defence. However, the payments system isn't just a service running in the 
+background either. It's critical infrastructure.
+And this is where the crux of the matter lies: Europe's payment system is heavily 
+dependent on non-European providers in important segments.4 At present, more than 
+two-thirds of all card payments in the euro area are settled via non-European systems. 
+13 out of 21 euro area countries do not have a national payment solution. They depend 
+entirely on international payment service providers.
+Of course, this does not mean that the international providers currently present in 
+Europe are providing a poor service. On the contrary, many of these solutions are 
+convenient, reliable and have become well established. But convenience must not be at 
+the expense of sovereignty. 
+Recent geopolitical developments have shown us very clearly that it's not enough for 
+something to function well under normal circumstances. Crucially, Europe must also 
+remain capable of taking action if the worst comes to the worst. This also applies to the 
+payments system. 
+Anyone making a payment is using infrastructure. And those who provide the payment 
+infrastructure shape standards, availability and scope for action. The digital euro would 
+
+4/6 BIS - Central bankers' speeches
+therefore be a central and concrete step towards greater European sovereignty in 
+payments. Or, linking back to the title of this conference, it would be a key component 
+for "Payments & Banking made in Europe". 
+Not in the sense of isolation or self-sufficiency. Not as a vote of no confidence in private 
+sector providers. But as an autonomous European basic infrastructure. An 
+infrastructure that can be used throughout the euro area, that is under European control 
+and that fosters private innovation. 
+But it's not only a matter of technical sovereignty. It's also about strengthening 
+important values in digital payments. Data protection, privacy, inclusion and a clear 
+legal framework are not merely added extras. They are among the key specifications of 
+the digital euro's design. 
+In concrete terms, this means, for example, that the Eurosystem can only see holdings 
+and transaction patterns of pseudonymised users. It therefore cannot link payment data 
+to a specific person and cannot create individual payment profiles. The offline mode of 
+the digital euro actually provides a level of privacy that is almost as high as that of cash. 
+This is because such payments are made, for example, directly from smartphone to 
+smartphone, without having to use central systems.
+The digital euro would therefore not result in people's transactions being laid bare. 
+Rather, its design aims to ensure the best possible technical and organisational 
+safeguards for data protection and privacy. The digital euro can thus play a decisive 
+role in safeguarding Europe's sovereignty in payments – based on European values.
+4 Strengthening Europe's role in the digital financial world
+Let me now turn to my third point: Europe's role in a changing digital financial world. 
+The digital euro isn't the only response to these changes. It's an important building 
+block in a broader European payments strategy.
+This is because money is never just a technical payment instrument. The value of a 
+currency always reflects trust as well. Trust in institutions, in stability, in the rule of law 
+and in the economic performance of a currency area. 
+Over the past few decades, the euro has established itself as a currency that is stable 
+both internally and externally. The average inflation rate since the introduction of the 
+euro has been around 2%. The euro exchange rate is flexible but without major 
+fluctuations. And the euro is the second most important currency in the international 
+monetary system, for example in foreign reserve assets, international bond issuances 
+and payment transactions.5
+This status isn't a given. Trade, financial markets and value chains are becoming 
+increasingly digital. That is why the euro's infrastructure also needs to be further 
+developed. After all, the attractiveness of a currency isn't based solely on its stability in 
+the traditional sense. It also depends on whether payments can be settled securely, 
+efficiently and innovatively – in retail payments, but also in financial markets.
+
+5/6 BIS - Central bankers' speeches
+This is precisely why the Eurosystem's comprehensive payments strategy is 
+deliberately broad-based.6 The aim is to create a European payments system that is 
+innovative, competitive and resilient. In this overall picture, the digital euro is – first and 
+foremost – modern digital central bank money for day-to-day payments in the euro 
+area. 
+At the same time, the digital euro can be used to create new offerings that strengthen 
+Europe as a financial location in the broader sense. This includes better interfaces for 
+enterprises and more efficient payment processes. In this way, the digital euro could 
+indirectly increase the attractiveness of the euro. 
+At the same time, new digital solutions are emerging around the world. Tokenised 
+market environments, in which assets are digitally represented, transferred and settled, 
+are one important development here. They give rise to new requirements for how such 
+transactions are settled.
+In addition, privately issued digital forms of money such as stablecoins are becoming 
+more widespread. They can enable new forms of payment and settlement, but at the 
+same time raise questions about regulation, financial stability and monetary 
+sovereignty. 
+Europe should play an active role in shaping these developments. This applies to 
+technical standards, market structures and regulatory requirements. This way, the euro 
+will remain competitive and practical to use in the digital financial world, too.
+For example, the Eurosystem is currently working on making central bank money 
+usable in new  based market environments. Specifically, the Pontes project is DLT-
+providing a solution for the settlement of large-value payments and securities 
+transactions in central bank money.7 In contrast to the digital euro, which is geared 
+towards day-to-day payments, this is tokenised central bank money for the wholesale 
+sector.
+Taken together, it's about more than just a new way of paying. It's about Europe's place 
+in a digital world economy. The digital euro isn't the whole answer here. But as part of a 
+broader strategy, it will help to transfer the strength of our currency into the next 
+technological era.
+5 Closing remarks
+And that brings me to the end of my speech. Before you jump straight into the 
+discussion, I would like to briefly summarise my main messages once again. 
+Our monetary system is evolving. I believe that the digital euro is the logical answer to 
+this – for three reasons: First, it would propel central bank money into the digital age 
+and promote innovation. Second, it would secure Europe's sovereignty in payments. 
+And third, it would help to consolidate Europe's role in the digital financial world.
+
+6/6 BIS - Central bankers' speeches
+The digital euro isn't a substitute for cash and not a counterproject to the financial 
+sector. It's a European basic public infrastructure for the digital age – sovereign and 
+open to private innovation.
+I am very grateful for the opportunity to speak to you today. This event brings together 
+representatives from all relevant areas of the financial sector. Your ideas and critical 
+objections will help us to further refine the digital euro project.
+With this in mind, I would like to close with an appeal: Let's make the digital euro a joint 
+project and shape it together.
+I wish you a productive discussion. Thank you very much for your attention.
+1 See Deutsche Bundesbank (2026), The digital euro: key elements and outlook, 
+Monthly Report, March.
+2 See: European Central Bank (2024a), Study on the payment attitudes of consumers 
+in the euro area 2024, December.
+3 See: European Central Bank (2024b), Use of cash by companies in the euro area in 
+2024, September.
+4 SeeECB (2026), The Eurosystem's comprehensive payments strategy, March.   
+5 SeeECB (2026), The international role of the euro, June.   
+6 SeeECB (2026), op. cit.   
+7 See theECB's website on   Pontes

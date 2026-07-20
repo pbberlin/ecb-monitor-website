@@ -38,7 +38,7 @@ labour market, with unemployment close to its historical low.
 Compared with earlier projections, economic growth has been revised up to stand 
 above 1% this year and rise to 1.4% in the following years. Given the challenging 
 environment for global trade, domestic demand is seen as the main engine of growth in 
-the coming quarters. Business investment and substantial government spending on  
+the coming quarters.Business investment and substantial government spending on  
 infrastructure and defence should increasingly underpin the economy. Consumption is 
 
 2/4 BIS - Central bankers' speeches
@@ -49,7 +49,7 @@ savings by euro area households include the fear of higher taxes in the future
 Ricardian saving motives are linked to consumers' expectations about future 
 developments in taxes and welfare spending. Saving scores are thus higher in euro 
 area countries with weaker fiscal positions, such as those with public debt-to-GDP 
-ratios above 100%. Precautionary saving motives are linked to income risk, which is 2   
+ratios above 100%.Precautionarysaving motives are linked to income risk, which is 2   
 strongly influenced by differences in individual perceptions about uncertainty. Elevated 
 uncertainty and geopolitical developments also pose risks to business investment, with 
 significant repercussions for euro area exports.
@@ -60,11 +60,11 @@ stemming from geopolitical and trade developments. China has become increasingly
 competitive in key export sectors of euro area countries, with its share of global exports 
 rising steadily, particularly in advanced manufacturing and green technology sectors.
 But high uncertainty in the global environment does not appear to be reflected in current 
-market pricing. In fact, negative surprises – such as a re-escalation of trade or other 3 
+market pricing.In fact, negative surprises – such as a re-escalation of trade or other 3 
 geopolitical tensions, setbacks in AI advances with asset price adjustments or 
 intensifying doubts regarding US fiscal credibility – could trigger abrupt shifts in 
 sentiment, with spillovers across asset classes and geographies.
-Geopolitical risk noticeably raises downside risks to growth. Countries more reliant on 4 
+Geopolitical risk noticeably raises downside risks to growth.Countries more reliant on 4 
 trade, or burdened with higher levels of public debt, are at greater risk of amplification 
 effects and resulting downside pressures.
 Inflation could be affected in different directions: it could be lower if the rise in US tariffs 
@@ -86,7 +86,7 @@ challenges to euro area non-banks, especially given their liquidity and leverage
 vulnerabilities, increasing the risk of fire sales. And opaque private equity and private 
 markets could easily cause or amplify market downturns.
 Second, growing interlinkages between banks and the non-bank financial sector could 
-expose funding vulnerabilities in stressed market conditions. As non-banks provide 6 
+expose funding vulnerabilities in stressed market conditions.As non-banks provide 6 
 short-term funding to banks while banks provide credit for the leveraged activities of the 
 non-bank sector, exposures are at risk on both sides of banks' balance sheets.
 Third, fiscal challenges in some advanced economies could test investor confidence, 
@@ -131,12 +131,12 @@ of habit, are also significant, they scored slightly lower in importance.
 reporting trust in their national government assign a significantly lower importance to 
 the Ricardian saving motive relative to respondents who distrust their government. 
 These survey results are consistent with those of Tabellini, G. (2010), "Culture and 
-", Institutions: Economic Development in the Regions of Europe Journal of the European 
+", Institutions: Economic Development in the Regions of EuropeJournal of the European 
 , Vol. 8, No 4, pp. 677-716.Economic Association
 3 See , ECB, November 2025. Financial Stability Review
 4 See ECB/ESRB report on the financial stability risks from geoeconomic risks, 
 forthcoming January 2026.
 5 See footnote 3.
 6 Bochmann, P., Dieckelmann, D., Grodzicki, M., Horan, A., Larkou, C. and Lenoci, F. 
-(2025), " ",Systemic risks in linkages between banks and the non-bank financial sector  
+(2025), " ",Systemic risks in linkages between banks and the non-bank financial sector 
 , ECB, November.Financial Stability Review

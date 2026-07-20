@@ -1,0 +1,235 @@
+1/6 BIS - Central bankers' speeches
+Gabriel Makhlouf: Monetary policy and the economic outlook
+Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the 
+European Chamber of Ireland, Dublin, 16 June 2026.
+* * *
+Good afternoon and thank you for inviting me to speak today.
+Last week, the ECB's Governing Council decided to raise interest rates by 0.25%. This 
+is the first change since June 2025 – the first increase since 2023 – and brings the main 
+policy rate, the Deposit Facility Rate, to 2.25%.
+Our decision is a response to inflation pressures from higher oil prices and other supply 
+disruptions arising from the war in the Middle East. My colleagues and I on the 
+Governing Council were unanimous in making the decision; all of us are committed to a 
+monetary policy that delivers our 2% inflation target over the medium term.
+In the first part of my speech, I set out the context for last week's decision, outlining the 
+economic outlook for the euro area. The experience of inflation in 2022 showed that net 
+energy importers like Europe - and Ireland in particular, where 80% of our energy is 
+imported, compared to an EU average of 60% - are very exposed to energy price 
+shocks. As our latest put it, if the conflict in the Middle East is  Financial Stability Review 
+unresolved, rising inflation and slower growth will be acutely felt by households and 
+businesses.
+In the second part of my remarks I focus more closely on Ireland, covering the 
+implications of the energy price shock for the Irish economy and  my take on the 
+extremely volatile GDP data we saw recently. On Thursday this week, we will publish 
+our second Quarterly Bulletin of the year which will set our views on the outlook for the 
+Irish economy more fully.
+The outlook for the euro area economy
+The conflict in the Middle East has delivered a significant supply-side shock to the 
+global economy. Oil prices rose sharply at the onset of the war and remain 
+exceptionally volatile, driven in-part by reporting around how an agreement to end the 
+war might work in practice. The price of energy-intensive products, particularly where 
+production is concentrated in the Gulf region such as fertiliser and helium have also 
+jumped. More generally, rising petrochemical prices, a key factor in the production of 
+many everyday items we consume from food packaging to cosmetics and clothing, are 
+contributing to upward price pressures across the supply chain.
+The direct effects of the energy shock have already shown up in consumer prices, while 
+the indirect effects are beginning to emerge. The flash estimate for euro area headline 
+inflation in May was 3.2%, up from 3% in April and 1.9% in February. Energy inflation 
+alone was close to 11% in May.
+
+2/6 BIS - Central bankers' speeches
+Global supply chain pressures intensified in March and April, pointing to further upward 
+pressure on goods prices in the months ahead. Other upstream indicators reinforce this 
+picture: surveys show rising input prices and lengthening supplier delivery times and 
+firms are telling us they expect selling prices to increase in the next three months. All of 
+this shows that the initial energy shock is spreading and, notably, these patterns are 
+broad-based, across all sectors, that is, retail, services, industry, and construction.
+These are not comfortable numbers, and they are moving in the wrong direction. The 
+question is whether this is a repeat of the 2022 experience that followed Russia's 
+invasion of Ukraine. The two shocks rhyme – in that they are both geopolitical events 
+that push up energy prices – but it is also that case that starting economic backdrop 
+today is quite different, and this could matter for how the initial shock transmits to the 
+broader economy.
+In 2022, the energy shock arrived into an economy recovering strongly from the 
+pandemic, with demand momentum and labour markets exceptionally tight. The 
+inflation that followed was a combination of supply disruption and demand pressure. 
+The policy response was a rapid sequence of rate increases calibrated to cool demand 
+as well as anchor expectations.
+Today, demand is well below the levels we experienced coming out of the pandemic. 
+And since the start of the war, euro area GDP growth has been revised down. 
+Consumer confidence has fallen and private investment is hesitant in the face of 
+ongoing uncertainty. The latest shock also arrives at a challenging time for European 
+manufacturers, who are impacted by China's transition to a producer and exporter of 
+complex, high-tech goods that directly compete with Europe's core industrial sectors.
+This relatively weaker economic matters, because we know from previous episodes
+the pass-through of oil shocks to consumer prices tends to be Opens in new window 
+weaker in low-inflation or weaker demand environments. This can happen because, in 
+the face of weaker demand, firms find it harder to pass-on extra costs and workers have 
+weaker bargaining power when it comes to wage demands.
+The timing and scale of the impact on core consumer goods and services will also 
+depend on the persistence and scale of the shock itself, which remains highly uncertain, 
+notwithstanding this weekend's news. In addition, how wages and profit margins 
+respond to the initial inflation shock - so-called 'second-round effects' - could contribute 
+to stickier services inflation.
+While conscious of the economic backdrop, I am also wary of taking too much comfort 
+from a 'this time is different' narrative, for a few reasons. As I already indicated, the 
+incoming hard and soft data shows clear upward price pressures. Another concern I 
+have is the potential for longer-term energy supply disruption relating to the destruction 
+of infrastructure, on which we have little clarity at this stage.
+And of course, a channel I pay close attention to is what is happening to inflation 
+expectations. We track expectations because the prices that businesses and 
+consumers expect in the future can shape price-setting and wage demands today.
+
+3/6 BIS - Central bankers' speeches
+ECB researchOpens in new window shows that after the outbreak of the latest Middle 
+East conflict in February, euro area consumers revised their short-term inflation 
+expectations upward sharply while simultaneously marking down their growth 
+expectations. At the median, consumers' twelve-month ahead expected inflation rose 
+from just over 2.5 to 4 per cent in March and has remained there since. Short-term 
+inflation expectations tend to react quickly to spikes in energy prices, and if the initial 
+shock fades, these expectations can revert. This is why we also pay attention to 
+medium-term expectations, which have been more stable of late, across consumers, 
+firms, and financial markets. For example, data from inflation swaps that allows us to 
+gauge average inflation over the coming five years showed little movement since the 
+onset of the war, currently sitting just above 2.1%.
+Despite this, we also need to account for the fact that households are encountering this 
+new shock already carrying the memory of the post-pandemic inflation surge. That 
+accumulated experience has made them more sensitive to price developments: even as 
+inflation had returned close to our 2% target last year, close to 41% of consumers 
+surveyed in the ECB Consumer Expectations Survey said they were still paying close 
+attention to price changes. When the conflict escalated at the end of February, that 
+figure rose again to 50%. The message is clear: consumers have not forgotten, and 
+they are watching closely.
+Let me be clear about what raising rates in this environment does and does not mean.
+It does not automatically mean we are embarking on a new extended tightening cycle 
+equivalent to 2022 and 2023. The context is different, the starting point is different, and 
+the calibration should be different. Yet we know from the past, as well as from the 
+incoming data, that supply shocks cannot simply be accommodated when they risk 
+being persistent and when expectations are as sensitive as the data suggest they 
+currently are.
+It does mean that the path ahead remains genuinely uncertain and, for policy, data-
+dependent. The latest staff projections have inflation in the baseline averaging 3% in 
+2026 but peaking in the second half of the year at 3.4%. For 2027 and 2028 it averages 
+2.3 and 2.0%, respectively. It is worth comparing these with the projections from June 
+2022, where the communication from the Governing Council at the time was that this 
+was the start of a hiking cycle: inflation was projected to average 6.8% in 2022, 3.5% in 
+2023, and 2.1% in 2024. 
+Reflecting uncertainty around energy prices, the June 2026 projections also consider 
+the impact of , and energy scenarios on inflation. In these  milder adverse,   severe 
+scenarios, inflation ranges from 2.9 to 4.0% in 2026, 1.8 to 5.0% in 2027, and 1.8 to 
+3.0% in 2028.
+Prior to the weekend's announcements, my view was that we were tracking closer to a 
+scenario where oil prices only come down slowly through 2027 and 2028 but remain 
+above pre-war levels. The 'milder' scenario had a faster decline through the second half 
+of 2026, returning to pre-war levels by mid-2027.
+
+4/6 BIS - Central bankers' speeches
+While much remains unclear, I welcome news of the proposed memorandum of 
+understanding to end the war, in particular for the people and families in the region 
+directly impacted by the conflict.
+But let me be clear: an end to the conflict does not necessarily mean an immediate end 
+to the shock. The balance of risk in staff projections – that is considering the mild-to-
+severe scenarios I outlined – showed that a rate increase in June was the right 
+approach to bring inflation back to our 2% target over the medium term. It remains to be 
+seen how quickly supply chains normalise and energy prices adjust. The direct price 
+pressures might not fade so quickly if the infrastructure damage from the war means 
+production only recovers with a lag. Then there is the question of shipping through the 
+Strait of Hormuz, on which there remains little clarity.
+So, despite the recent and relatively positive news, we really need clarity around energy 
+supply. And until then, I continue to monitor the pass-through of the shock, focusing on 
+the indirect and second-round effects I have described.
+What might this latest shock mean for Ireland?
+For Ireland, Modified Domestic Demand, our preferred measure of underlying activity, is 
+expected to slow to a more moderate pace compared to more recent years.
+Our March projections incorporated the initial effects of the Middle East war on 
+international energy prices. This resulted in inflation being revised significantly higher, 
+prompting knock-on downward revisions to households' real disposable income and 
+consumption.
+Working in the opposite direction, the outlook for modified investment has improved on 
+the strength of double digit, broad-based growth in 2025 and a continued robust 
+performance in the first quarter of 2026.
+Compared to our projections from March, and up until the recent announcement, we 
+had been moving closer to the oil price assumptions embedded in the 'adverse' 
+scenario set out in those projections. That is, where oil prices remain about $90/barrel 
+through 2026, and only come down very gradually to around $70/barrel through 2027 
+and 2028. In this scenario, inflation was closer to 3.6% on average in 2026 as opposed 
+to the baseline projection of 2.9% (2.3%) from March (December). Growth was also 
+marginally weaker in a more adverse energy scenario, averaging 2.7% in 2026. Later 
+this week, we will publishing our updated projections and fuller assessment of the 
+outlook for the Irish economy.
+Ireland's Q1 GDP in the spotlight
+Finally, I want to highlight recent developments in the Irish economic data which have 
+been the subject of much discussion among economists and others.
+Ireland's Q1 2026 GDP figures showed a striking 12.1 per cent quarterly decline, which 
+was significant enough to drag overall euro area GDP growth into negative territory for 
+the quarter. But as is often the case with Irish data, the headline figure reflects the 
+
+5/6 BIS - Central bankers' speeches
+outsized role of foreign-owned multinationals in the Irish accounts rather than a genuine 
+deterioration in domestic economic conditions. Foreign multinationals account for 
+around half of measured Irish GDP, and trade equates to 230 per cent of GDP, 
+reflecting Ireland's role as a globalised production and export hub, particularly in 
+pharmaceuticals and ICT.
+The Q1 decline had two distinct drivers. First, a base effect: an exceptional surge in 
+exports of polypeptide hormones (a high-value input into diabetes and weight-loss 
+medicines) during Q1 2025 made for a difficult comparison this year, an effect that had 
+already been anticipated. Second, and more of a surprise, was a sharp fall in net trade 
+related to "merchanting" and contract manufacturing (activity undertaken abroad on 
+behalf of Irish-resident companies as part of their global value chains). This is the main 
+driver of the decline.
+Importantly, Modified Domestic Demand, the measure that strips out these globalised 
+factors and captures consumer spending, investment, and government spending within 
+Ireland, actually rose by 0.6 per cent over the same quarter. This divergence underlines 
+why modified measures, rather than headline GDP, are the better guide to underlying 
+conditions facing Irish households and businesses, and why this volatility, while 
+dramatic, does not, in my view, signal a material change in the fundamentals relevant to 
+the broader economic outlook.
+The financial sector
+My speech this evening focuses on economic developments.
+But, before I conclude, allow me to say a word about our approach to regulating the 
+financial sector. The volatile and uncertain environment I have just described has direct 
+implications for how we think about regulation and supervision.
+Our report set out our priorities for  Regulatory and Supervisory Outlook (PDF 1.85MB) 
+the year ahead, shaped by three themes: building resilience to geopolitical risk and 
+macro-financial uncertainty, protecting consumers and investors in a rapidly changing 
+world, and responding to technology-driven transformation across the financial sector. 
+These are, in many respects, the same forces I have been describing throughout this 
+speech, viewed through a different lens.
+Alongside this, we continue to deliver on our roadmap for regulating and supervising 
+, making our framework more effective, more proportionate, and well (PDF 440.55KB)
+easier to navigate, without compromising resilience. We will shortly consult on a 
+refreshed framework for how we assess the impact of our regulatory decisions, to 
+ensure that approach is evidence-based and transparent. In a world that is becoming 
+less predictable, firms and consumers need a regulatory environment that is a source of 
+stability, clear, and proportionate and consistent in its approach to managing evolving 
+risks.
+Conclusion
+Let me close by connecting the threads of what I have covered this evening.
+
+6/6 BIS - Central bankers' speeches
+Europe is navigating a serious near-term shock. The energy price surge driven by the 
+Middle East conflict has pushed near-term inflation higher, is softening growth and 
+putting real pressure on households and businesses. This is acutely so in Ireland, given 
+our energy import dependency. Last week's rate rise was necessary to prevent 
+temporary energy-driven inflation from becoming embedded in wage and price 
+expectations, reflecting the ECB's primary mandate to maintain price stability across the 
+eurozone.
+This latest shock is a reminder of just how exposed a small open economy such as 
+Ireland is to these sorts of increasingly frequent geoeconomic fragmentation shocks. 
+The volatility I highlight, in energy prices and in our own national accounts, underlines 
+why building economic resilience domestically remains so important, and increasingly 
+urgent.
+Earlier this year, in my , I set out a number of  letter to the Tánaiste (PDF 3.24MB)
+domestic priorities for exactly this reason: growing the supply-side capacity of our 
+economy (including energy infrastructure), strengthening the indigenous business 
+sector alongside FDI, building fiscal buffers for the investment still needed, and 
+enabling greater household participation in financial markets.
+None of those priorities were written with these particular events in mind, but they 
+illustrate precisely why they matter. An economy with deeper buffers, energy 
+independence, and more diversified sources of growth is better placed to absorb 
+shocks, whatever their origin.
+I will return to these themes, and to the outlook for the public finances specifically, in my 
+annual pre-budget letter to the Minister. For now, the lesson from recent weeks is a 
+familiar one, but worth repeating: resilience is not something built once and then set 
+aside. It needs to be tended to and reinforced, particularly in a world where the shocks 
+keep coming, and where their origin is increasingly hard to predict.

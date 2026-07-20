@@ -40,7 +40,7 @@ context of lingering supply constraints and rising geopolitical uncertainty has 
 on economic activity, investment and consumption. Growth over this period has 
 remained lacklustre, averaging just below 0.2 percent quarter-on-quarter. Although 
 recovery turned out stronger than expected in the third quarter of this year, downside 
-risks remain. Research studies by the Fed and the ECB have shown that soft 1  2 
+risks remain. Research studies by the Fedand the ECB have shown that soft 1  2 
 
 2/7 BIS - Central bankers' speeches
 landings, in which inflation is contained without inducing recessions, have historically 
@@ -155,13 +155,13 @@ Central banks need to develop new tools which are able to identify the nature of
 shock (supply vs demand) in real time and assess its implications for inflation.
 To this end, the Bank of Greece is developing forecasting models of inflation based on 
 textual indicators of supply and demand disturbances in commodity markets from news 
-articles of Reuters and Dow Jones.  With the help of AI, these indicators can be 3
+articles of Reuters and Dow Jones. With the help of AI, these indicators can be 3
 updated on a daily basis and help predict inflation more accurately.
 Preliminary findings of this research project, suggest that these indicators provide 
 distinct information about future inflation movements relative to existing predictors, 
 inflation expectations and survey forecasts. Overall, they reduce out-of-sample inflation 
 forecast errors by up to 30 percent.
-For energy-importing economies, like Greece, the of energy price shocks, either  nature 
+For energy-importing economies, like Greece, theof energy price shocks, either  nature 
 supply- or demand-driven, is less relevant when assessing their overall economic 
 impact. In particular, research shows that in European economies both types of global 
 energy price shocks tend to influence wages similarly, with largely short-lived and 

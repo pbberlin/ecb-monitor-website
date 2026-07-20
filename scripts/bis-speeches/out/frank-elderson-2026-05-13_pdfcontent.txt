@@ -47,7 +47,7 @@ Europe's real economy doesn't need a short-term investment boom, but rather stea
 persistent, through-the-cycle support. This requires a resilient banking sector, one that 
 takes risks responsibly and manages them prudently,
 In this light, the ECB's recent response to the Commission's consultation on banking 
-sector competitiveness highlights that sound regulation and effective supervision have 1 
+sector competitivenesshighlights that sound regulation and effective supervision have 1 
 made European banks stronger.
 Today's banks are better capitalised, more liquid and have better risk management. 
 Banks have better governance and improved operational resilience, for example 
@@ -92,7 +92,7 @@ large, cross-border projects and to support investment where it is needed most.
 These constraints matter, particularly at a time when Europe faces unprecedented 
 investment needs – in defence, the energy transition and digital infrastructure. Consider 
 that the green transition alone requires €1.2 trillion of financing – not in total but every 
-single year until 2030. Financing of this scale requires banks that can operate 2 
+single year until 2030.Financing of this scale requires banks that can operate 2 
 seamlessly across borders, pool risks and mobilise capital beyond national boundaries. 
 Put simply: fragmentation prevents the banking sector from fulfilling this role effectively.
 Any serious competitiveness agenda must therefore begin with a time-bound roadmap 
@@ -171,8 +171,8 @@ regulatory framework and the ECB's supervisory approach – the intensity of sup
 interventions is commensurate with the different sizes and business models of 
 individual banks, and differences in their underlying risks.
 Even if proportionality is already embedded in the European regulatory and supervisory 
-approach, we see room for further embracing proportionality. To do so the small and  
-non-complex institutions (SNCI) regime, is the natural starting point, while maintaining  
+approach, we see room for further embracing proportionality. To do so thesmall and  
+non-complex institutions(SNCI) regime, is the natural starting point, while maintaining  
 the Single Rulebook, which ensures the risk-based nature of the prudential framework 
 is retained for all banks. One could consider, for example, increasing the scope of 
 eligible small banks through an increase of the €5 billion threshold of the SNCI regime 
@@ -215,7 +215,7 @@ resilience to be approved more quickly, so we can focus on complex, higher-risk 
 Take fast-tracking simple capital-related decisions as an example. In the first quarter of 
 2026, 80% of such decisions were approved within one week on average, where 
 previously they would have taken months.
-Or take our new fast-track process for simple securitisations, which in 2026 cut  
+Or take ournew fast-track process for simple securitisations, which in 2026 cut  
 approval times from three months to less than ten working days.
 Another streamlining initiative, is our review of the fairly large body of supervisory 
 guides that have accumulated over more than a decade of European banking 
@@ -254,4 +254,4 @@ Thank you for your attention.
 , April.the competitiveness of the EU banking sector
 2 European Commission (2024), "Securing our future – Europe's 2040 climate target 
 and path to climate neutrality by 2050 building a sustainable, just and prosperous 
-",  , 6 February.society Commission Staff Working Document
+",  , 6 February.societyCommission Staff Working Document

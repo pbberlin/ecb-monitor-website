@@ -41,7 +41,7 @@ tensions or a further increase in defence and infrastructure spending could spur
 by more than expected.
 The global economic outlook continues to face exceptionally high economic and 
 political uncertainty, but as I said recently, "moments of change can also be moments of 
-opportunity". Support for the euro has reached an all-time high. Now is the time to 1  2 
+opportunity".Support for the euro has reached an all-time high.Now is the time to 1  2 
 make the euro area economy more productive, competitive and resilient. We need to 
 see targeted fiscal and structural policies and strategic investments. The proposals in 
 the Competitiveness Compass should be adopted swiftly. The savings and investment 
@@ -88,9 +88,9 @@ speculation and extreme price volatility. These characteristics render such asse
 unsuitable as a reliable means of exchange and expose investors to significant risks.
 For now, risks to the euro area's financial stability from crypto-assets appear limited. 
 However, the rapid pace of developments, combined with data gaps that may create 
-blind spots require closer monitoring. Survey data from selected euro area countries 4 
+blind spots require closer monitoring.Survey data from selected euro area countries 4 
 suggest that around 10% of households hold crypto-assets, with around 14% 
-expressing an interest in future purchases. As holdings and valuations of crypto-assets 5 
+expressing an interest in future purchases.As holdings and valuations of crypto-assets 5 
 rise, the risk for investors from sharp price corrections increases and could reverberate 
 across the financial system.6
 As unbacked crypto-assets have risen in capitalisation, so have stablecoins. This 
@@ -141,7 +141,7 @@ Thank you. I now stand ready to take your questions.
 Jacques Delors Centre at Hertie School in Berlin, Germany, 26 May.
 2 European Commission (2025), " ", May.Standard Eurobarometer 103 - Spring 2025
 3 ECB (2025), June. The international role of the euro, 
-4 Aerts, S. et al. (2025), " ",Just another crypto boom? Mind the blind spots  Financial 
+4 Aerts, S. et al. (2025), " ",Just another crypto boom? Mind the blind spots Financial 
 , ECB, May.Stability Review
 5 The ECB Consumer Expectations Survey – November 2024 covering selected euro 
 area countries indicated that, on average, 9.7% of survey respondents (or at least one 

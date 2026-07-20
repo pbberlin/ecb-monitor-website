@@ -21,7 +21,7 @@ Estonia, and the euro area economy as a whole, has shown resilience in navigatin
 these shocks. Over the course of 2025, the euro area grew by 1.5% on the back of 
 higher domestic demand, with low unemployment and rising real incomes supporting 
 consumer spending, coupled with buoyant investment in research and development, 
-software and databases. Survey data ahead of the war in the Middle East suggest that 1 
+software and databases.Survey data ahead of the war in the Middle East suggest that 1 
 this growth continued into the beginning of 2026.
 Strikingly, this resilience has been achieved amid profound uncertainty and geopolitical 
 transformations that have by no means run their course. Over the past year, we have 
@@ -93,7 +93,7 @@ As an open economy deeply integrated into global trade and financial markets, th
 area is highly exposed to external shocks. The current war in the Middle East and 
 continued dependence on fossil fuels underscores the EU's vulnerability to energy 
 shocks, while other recent developments, including tariffs and supply chain disruptions, 
-have highlighted the risks of relying heavily on external trade. Dependence on third 2 
+have highlighted the risks of relying heavily on external trade.Dependence on third 2 
 countries applies to digital payments too, with non-European companies processing 
 almost two-thirds of card transactions in the euro area.3
 Besides limiting the EU's ability to shape its own future, these vulnerabilities expose our 
@@ -115,7 +115,7 @@ services sector. Services account for three-quarters of the EU's economy, yet in
 trade in services remains underdeveloped. ECB analysis shows that if internal barriers 
 were as low across all Member States as they are in the best-performing ones, intra-EU 
 trade in services could expand by almost 15%, with effects on GDP roughly four times 
-greater than the estimated losses from US tariffs. A true single market for goods and 4 
+greater than the estimated losses from US tariffs.A true single market for goods and 4 
 services would present more attractive opportunities and incentives to invest in the EU. 
 Creating a 28th regime as proposed by the European Commission last week – allowing 
 businesses to operate across the EU under a single harmonised rulebook – would be a 
@@ -131,7 +131,7 @@ own transformation. Harmonising regulatory frameworks and removing national
 divergences in tax, insolvency, labour and corporate law are essential to reduce 
 frictions for cross-border investment. More integrated capital markets supervision would 
 level the playing field, enhance the resilience of the system over the cycle and help 
-remove barriers to capital market integration. The European Commission's market 5 
+remove barriers to capital market integration.The European Commission's market 5 
 integration package is an important step in this direction.6
 The third priority is to secure . At present, no single EU  technological sovereignty
 country has the resources required to develop critical technologies at scale. The EU 
@@ -175,10 +175,10 @@ December.
 States.
 3 European Central Bank (2025), , February. Report on card schemes and processors
 4 Bernasconi, R., Cordemans, N., Gunnella, V., Pongetti, G. and Quaglietti, L. (2025), "
-",  , Issue 8, What is the untapped potential of the EU Single Market? Economic Bulletin
+",  , Issue 8, What is the untapped potential of the EU Single Market?Economic Bulletin
 ECB.
 5 Ceh, A.M., Daly, P., Evrard, J., Grill, M., Martino, A., Wedow, M. and Weistroffer, C. 
-(2026), " ",Why we need an EU perspective in the supervision of large asset managers  
+(2026), " ",Why we need an EU perspective in the supervision of large asset managers 
 , 13 February.The ECB Blog
 6 European Commission (2025), " ", 4 December.Market integration package
 7 European Central Bank (2025), Simplification of the European prudential regulatory, 

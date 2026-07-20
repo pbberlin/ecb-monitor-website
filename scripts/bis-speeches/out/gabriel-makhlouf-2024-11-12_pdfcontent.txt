@@ -51,13 +51,13 @@ firms and consumers to adapt, transform and evolve to meet the challenge that it
 The Singapore Fintech Festival showcases and highlights the sheer breadth and depth 
 of the innovation that is happening in financial systems across the globe and give policy-
 makers an insight into the future.
-Since the latter stages of the 17 century, when the world's oldest central bank, th 
+Since the latter stages of the 17century, when the world's oldest central bank, th 
 Sweden's Riskbank was founded, price stability, mitigating crises and stabilising 
 economies have represented a central bank's primary mandate.
 While change and challenge has been constant throughout the history of central 
 banking, the challenges and changes that central banks face today are more complex, 
 more connected and more multifaceted than ever before.
-We are living in a world of unprecedented innovation , change, complexity and 1
+We are living in a world of unprecedented innovation, change, complexity and 1
 uncertainty.
 In the past five years, we have endured a global pandemic and witnessed Russia's war 
 on Ukraine and its people, as well as an escalating conflict in the Middle East and an 
@@ -154,13 +154,13 @@ How are we working towards adapting, anticipating and responding proactively to
 changes in the economy and financial system at the Central Bank of Ireland?
 
 5/7 BIS - Central bankers' speeches
-A central theme of our Strategy is being .  Among other things, we want  Future Focused 4
+A central theme of our Strategy is being .  Among other things, we want  Future Focused4
 to anticipate, support and manage the risks of innovation in central banking and 
 financial services, while ensuring that innovation is harnessed for the public good.
 As a result, technological innovation continues to be a key focus for us. We want to 
 better understand the opportunities and risks for consumers and the economy.
 This is one of the reasons why we have enhanced our innovation facilities – with the 
-establishment of a new innovation sandbox programme  – so that we can remain5  agile 
+establishment of a new innovation sandbox programme – so that we can remain5  agile 
 learning and developing a deeper understanding of the and forward looking by 
 ecosystem.
 This new engagement will enable the Central Bank of Ireland to; anticipate and to 
@@ -181,7 +181,7 @@ technical standards and engaging with firms seeking authorisation under the new
 regime.
 In 2025 we will also:
 Continue to modernise our other frameworks, both domestically in terms of our 
-Consumer Protection code , as well as at EU level, including work on the Digital 6
+Consumer Protection code, as well as at EU level, including work on the Digital 6
 Euro and on negotiations regarding the new EU Financial Data Access 
 Regulation, which will enable data sharing within the financial sector and other 
 sectors.

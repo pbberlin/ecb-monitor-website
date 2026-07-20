@@ -8,7 +8,7 @@ Latvijas Banka, Riga, 1 April 2026.
 Thank you, Governor Kazks. I am grateful to the Stockholm School of Economics in 
 Riga and to Latvijas Banka for hosting this event and letting me explain how the digital 
 euro can ensure Europe's resilience and autonomy in payments in a fragmenting world.
-Latvia's relationship with the euro goes well beyond monetary policy. On adopting the 1 
+Latvia's relationship with the euro goes well beyond monetary policy.On adopting the 1 
 single currency in 2014, at the height of the euro area crisis, Latvia made a strategic 
 choice. When Prime Minister Valdis Dombrovskis asked his fellow Latvians if they 
 wanted "to belong to core Europe", the answer was yes.2
@@ -63,17 +63,17 @@ Consumers and merchants across Europe must therefore adhere to the terms, prices
 and data practices set by a few, mostly non-European, private companies and have 
 limited scope for negotiating or switching.
 Between 2018 and 2022, the average net merchant service charges in the EU almost 
-doubled, despite regulatory efforts to contain them. The EU's Interchange Fee 5 
+doubled, despite regulatory efforts to contain them.The EU's Interchange Fee 5 
 Regulation, adopted in 2015, capped consumer interchange fees at 0.2% for debit 
 cards and 0.3% for credit cards. But the international card schemes have responded by 
 expanding fee categories that fall outside the Regulation – scheme fees, processing 
-fees, compliance penalties – effectively eroding the intended benefits of the cap. And 6 
+fees, compliance penalties – effectively eroding the intended benefits of the cap.And 6 
 the burden falls disproportionately on smaller retailers, who face charges three to four 
 times higher than those paid by larger counterparts. This eventually pushes up prices 
 for consumers and reduces their purchasing power.
 Moreover, schemes are still adjusting rules and costs unilaterally. In recent years, for 
 instance, international card schemes started charging merchants additional costs for 
-transactions that do not use the scheme's tokens. In May 2025 a coalition of major 7 
+transactions that do not use the scheme's tokens.In May 2025 a coalition of major 7 
 European retailers wrote to three European Commissioners warning that international 
 schemes had made their fee systems "so complex and opaque" that merchants "cannot 
 understand, let alone challenge, what they are paying and why".8
@@ -200,17 +200,17 @@ their comments.
 2 The Guardian (2013), " ", For Latvia, euro still attractive despite Europe's financial crisis
 16 July.
 3 European Commission (2025),"Baltic States join the European continental electricity 
-", , 9 grid after fully disconnecting from Russian and Belarussian networks  press release
+", , 9 grid after fully disconnecting from Russian and Belarussian networks press release
 February.
 4 Ambos, K. (2025), "The Sanctioning of Law: On the US Government's Sanctions 
-" , 18 December.Policy Against the International Criminal Court , Verfassungsblog
+" , 18 December.Policy Against the International Criminal Court, Verfassungsblog
 
 6/6 BIS - Central bankers' speeches
 5 Cipollone, P. (2025), " ", The role of the digital euro in digital payments and finance
 contribution based on remarks at the Crypto Asset Lab Conference on 
 17 January 2025, 28 February.
 6 EuroCommerce (2020), "Benefit of Interchange Fee Regulation now nullified by fee 
-", , 7 December.increases  press release
+", , 7 December.increases press release
 7 Ecommerce Europe (2024), , 26 November. Position Paper on the cost of payments
 8 Reuters (2025), "Retailers urge European Commission to crack down on Visa, 
 ", 14 May.Mastercard

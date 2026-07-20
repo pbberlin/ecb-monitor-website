@@ -57,7 +57,7 @@ with higher risk on its balance sheet.
 And these financial risks are not related solely to climate change. Last year, when 
 looking at more than 4.2 million individual companies that account for over €4.2 trillion 
 in corporate loans, we found that nearly 75% of all bank loans in the euro area are to 
-companies that are highly dependent on at least one ecosystem service. Examples of 3 
+companies that are highly dependent on at least one ecosystem service.Examples of 3 
 these services include the products we obtain from ecosystems, such as food, drinking 
 water, timber and minerals; protection against natural hazards; or carbon uptake and 
 storage by vegetation. If these ecosystem services continue to experience the level of 
@@ -143,7 +143,7 @@ economy and the financial system, very much like the "Pororoca" overflows the Am
 basin. Even if mitigation and adaptation measures are taken, one thing is certain: the 
 world, the global economy and the financial system will see profound change.
 In the words of Brazilian author Paulo Coelho: "You drown not from plunging into the 
-water, but from staying submerged in it." Emerging from the climate and nature crises  
+water, but from staying submerged in it."Emerging from the climate and nature crises  
 requires action from all authorities within their mandate. For central banks and 
 supervisors, this means taking climate and nature into account in the pursuit of their 
 monetary policy and supervisory objectives. If they failed to do so, they would be failing 
@@ -151,8 +151,8 @@ on their mandate. The work that we are doing individually and collectively prove
 we will not allow this to happen.
 Thank you for your attention. 
 1 Emambakhsh, T. et al. (2023), "The Road to Paris: stress testing the transition 
-", , No 328, ECB.towards a net-zero economy  Occasional Paper Series
+", , No 328, ECB.towards a net-zero economy Occasional Paper Series
 2 Basel Committee on Banking Supervision (2021), Climate-related risk drivers and 
 , April.their transmission channels
 3 Boldrini, S. et al. (2023), "Living in a world of disappearing nature: physical risk and 
-", , No 333, ECB.the implications for financial stability  Occasional Paper Series
+", , No 333, ECB.the implications for financial stability Occasional Paper Series

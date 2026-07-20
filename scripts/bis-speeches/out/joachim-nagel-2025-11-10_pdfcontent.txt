@@ -32,7 +32,7 @@ countries to become the plaything of the major powers. More sovereignty is somet
 we gain mainly by acting together. If we stand as one in Europe, we have the 
 opportunity to determine our future for ourselves.
 Though it may still be incomplete, the European Union's single market carries great 
-economic weight internationally. That's something the EU can put in the balance in    
+economic weight internationally. That's something theEU can put in the balance in    
 negotiations. But what if the other side uses different weights altogether to tilt the scales 
 in its favour–like special types of semiconductors or rare earths? Then the situation 
 changes: dependencies in critical areas weaken our negotiating position. For Europe to 
@@ -44,15 +44,15 @@ using two examples. 
 3 Strengthening Europe together
 3.1 Improving defence capabilities together
 Europe needs stronger muscles, first, in terms of its defence capabilities. This is where 
-two developments come together: one, EU Member States are facing the gravest threat    
-to their security in decades. Two, the United States, the strongest partner in the NATO   
+two developments come together: one,EU Member States are facing the gravest threat    
+to their security in decades. Two, the United States, the strongest partner in theNATO   
 alliance, is calling on us to contribute much, much more to our own security than before. 
 Taken together, this means that Europe will have to build up its defence capabilities 
 through its own efforts–and do so quickly. Ambition and reality lie far apart.
 I'm a central banker, not a defence expert. It does seem clear to me, though, that close 
 cooperation and coordination in Europe are crucial to live up to that ambition. And I say 
 "Europe" deliberately. Because the door should also be open to countries outside the 
-EU if they have similar security interests, like the UK and Norway.     
+EU if they have similar security interests, like theUK and Norway.     
 We should take a joint approach to large-scale defence projects that promise to protect 
 the whole of Europe, for example. Various joint initiatives have been undertaken, but 
 defence procurement has, for the most part, been a national matter to date. In small-
@@ -74,9 +74,9 @@ obsolescence of systems that are considered state of the art today, and the enor
 throughput of materials.
 What matters now is to find suitable structures for this closer cooperation. The clock is 
 ticking. We need to start making things happen. In this case, the solution cannot be to 
-seek the lowest common denominator within the Member States that want to move  EU. 
-ahead quickly should get together–ideally, with non-EU countries that share the same  
-security and defence interests. Because security issues do not stop at the EU's external  
+seek the lowest common denominator within theMember States that want to move  EU. 
+ahead quickly should get together–ideally, with non-EUcountries that share the same  
+security and defence interests. Because security issues do not stop at theEU's external  
 border. 
 
 3/4 BIS - Central bankers' speeches
@@ -102,7 +102,7 @@ handful of non-European enterprises in the field of electronic payments. At pres
 around two-thirds of card payments in the euro area are made via non-European 
 providers such as Visa or Mastercard–meaning they are often routed through servers 
 outside Europe. And ifUS dollar stablecoins were to spread, this could leave Europe    
-more dependent still on US firms.   
+more dependent still onUS firms.   
 With the digital euro, we are helping Europe gain more sovereignty in a critical 
 infrastructure. What is still lacking is a legal basis. The ball is now in the European 
 Parliament's and the Council's court. I very much hope to see progress in this front 

@@ -49,7 +49,7 @@ Third, it is a . It preserves purchasing power over time. The store should  sto
 not be taken for granted though. Inflation may eat away at it. Panics and scares can 
 undermine it. But the point is simple: money ought to hold its worth well enough that 
 people can save, investment can grow, and everyone can sleep soundly at night.
-These three functions of money stand on one foundation: . Trust that the coin is  trust
+These three functions of money stand on one foundation:. Trust that the coin is  trust
 true. Trust that the banknote will be honoured. Trust that the deposit can be redeemed.
 Trust does not appear by magic. It is earned and guarded by institutions and through 
 rules and regulations - mints, central banks, courts, laws, regulated practices and 
@@ -71,11 +71,11 @@ next elaborate on this by focusing on Case Finland.
 Slide 4. Finnish currency arrangements: 1811, 1860, 1865, 1878
 
 3/13 BIS - Central bankers' speeches
-Finland's monetary story begins, in modern form, in , when Tsar Alexander I of  1811
+Finland's monetary story begins, in modern form, in, when Tsar Alexander I of  1811
 Russia established the central banking office that later became the Bank of Finland. 
 This makes us the fourth oldest still existing central bank in the world.
 Furthermore, we can also say that we have a claim for the world's oldest central bank, 
-the Riksbank, because when that institution started its operations in , Finland was  1668
+the Riksbank, because when that institution started its operations in, Finland was  1668
 still an integral part of Sweden!
 The creation of a central bank for Finland was discussed at , which  the Diet of Porvoo
 was a gathering of the four estates of Finland convened in 1809 after Sweden lost 
@@ -90,14 +90,14 @@ The political purpose was clear. Following its crushing defeat in the War of Fin
 18081809, Sweden had ceded Finland to Russia in the Peace Treaty of Hamina in 
 1809. St Petersburg wanted a measure of monetary order in the new Grand Duchy  and 
 to replace the Swedish currency in circulation with Russian roubles.
-However, in the first decades after 1809, both Swedish and Russian paper  riksdalers 
-roubles circulated in Finland. Eventually, the dominated, but it was no model of  rouble 
+However, in the first decades after 1809, both Swedishand Russian paper  riksdalers 
+roubles circulated in Finland. Eventually, thedominated, but it was no model of  rouble 
 stability. In particular, it was badly shaken by the Crimean War of 18531856. In Finland, 
-the need for a domestic anchor became plain. So, in , Finland introduced the 1860  
-as a national unit.markka 
-At first the markka was defined as ¼ of the paper rouble. The key break came in ,  1865
+the need for a domestic anchor became plain. So, in, Finland introduced the 1860  
+as a national unit.markka  
+At first the markka was defined as ¼ of the paper rouble. The key break came in,  1865
 when the markka was and thus freed from the instability of the rouble.  pegged to silver 
-It was a polite way of saying: "Thank you, but we'll do this ." our way
+It was a polite way of saying: "Thank you, but we'll do this." our way
 There was a parallel plan in St. Petersburg to stabilize the rouble too, but that plan was 
 derailed by the uprising in Poland and the ensuing costly war. Finland was unaffected, 
 however, and so managed to establish a national monetary system of its own.
@@ -115,7 +115,7 @@ influenced the intellectual climate that made such reform possible. The law thus
 4/13 BIS - Central bankers' speeches
 realized, in practice, the Enlightenment ideals of economic freedom that Chydenius had 
 articulated more than a century before.
-The final currency step of this era came in , when Finland joined the European  1878
+The final currency step of this era came in, when Finland joined the European  1878
 trend of the 1870's and , with the markka at parity with the  adopted the gold standard
 French franc. By pegging to gold at the same gold content as the franc, Finland 
 effectively became integrated with the as a kind of 'associate  Latin Monetary Union 
@@ -129,7 +129,7 @@ The benefit was concrete: the country could raise funds in Frankfurt, Paris and
 elsewhere  for example, for railway routes like the important Savonian line in Eastern 
 Finland.
 A currency is not a mere symbol. It is a bridge to the world – and to the future.
-Slide 5. Currency regimes in the 20 centuryth 
+Slide 5. Currency regimes in the 20centuryth 
 Fast-forward into the 20th century and we see a collection – if not a cavalcade – of 
 monetary architectures. And Finland experienced most of them up close.
 1915–1926: Paper standard. The First World War brought a suspension of gold 
@@ -160,7 +160,7 @@ account convertibility (from 1959) tied Finland into the post-war Western econom
 order. These were years of fast growth, industrialisation and the expansion of the 
 welfare state.
 Between , Finland moved from postwar exchange controls to full  1959 and 1961
-participation in the Bretton Woods monetary system. In , the government ended  1959
+participation in the Bretton Woods monetary system. In, the government ended  1959
 foreign-exchange rationing and restored current-account convertibility, aligning with the 
 broader European liberalization of payments. Over the next two years, the Bank of 
 strengthened reserves in preparation for formal entry into the IMF's framework. Finland 
@@ -176,10 +176,10 @@ of productivity.
 shocks occurred, Europe and the world were compelled to improvise. Finland pegged 
 the markka to a that reflected trade shares. currency basket 
 In Western Europe the European Monetary System and the Exchange Rate 
-Mechanism, the emerged under a de facto Deutsche mark anchor – the  EMS/ERM, 
+Mechanism, the emerged under a de facto Deutsche mark anchor – the  EMS/ERM,  
 Bundesbank was the European leader in monetary policy.
 1991: European Currency Unit peg. In June 1991, Finland shifted from the trade-
-weighted currency basket to a peg against the , a composite of EU currencies,  ECU
+weighted currency basket to a peg against the, a composite of EU currencies,  ECU
 thereby tightening our link to Europe. It was as much a political as an economic 
 decision, if not more.
 The decision to peg the markka was taken after a serious stand-off between the new 
@@ -281,7 +281,7 @@ member of the euro.
 1999–today: The euro. First as a fixed euro conversion rate used only for accounting 
 purposes and electronic payments; then the launch of euro coins and banknotes in 
 2002.
-Over time the euro's institutions have moved from to the more robust EMU 1.0   EMU 2.0
+Over time the euro's institutions have moved fromto the more robust EMU 1.0   EMU 2.0
 , including a sturdier framework for European economic governance, a permanent crisis 
 fund (the European Stability Mechanism, ESM), new legislation for banking regulation, 
 supervision and resolution, as well as the creation of the euro area banking union under 
@@ -293,17 +293,17 @@ peripheral volatility to European stability.
 Slide 9. The euro and why it was introduced
 The euro was not born of romance. It was born of hard problems.
 After Bretton Woods collapsed, Europe faced recurring exchange-rate crises. The EMS
-/ERM worked  until it did not. In , currency pressures swept the system. German  1992
+/ERM worked  until it did not. In, currency pressures swept the system. German  1992
 unification had shifted the centre of gravity. Capital was mobile. National politics 
 clashed with monetary constraints. Competitive devaluations returned and sapped trust.
-At the same time, in 1993, the European market was established. Goods,  single 
+At the same time, in 1993, the Europeanmarket was established. Goods,  single 
 services, labour, people and capital were to move freely. But a market without monetary 
 stability is a table with one leg short. Prices, wages and interest rates cannot be 
 compared if exchange rates fluctuate. Finance cannot be well integrated if currency risk 
 dominates.
-The euro promised three things. , to end the game of beggar-thy-neighbour  First
+The euro promised three things., to end the game of beggar-thy-neighbour  First
 devaluations inside Europe. , to deliver price stability under a rules-based,  Second
-independent central bank system. , to deepen the single market by stripping out  Third
+independent central bank system., to deepen the single market by stripping out  Third
 exchange-rate costs and noise.
 There were too. After the Cold War, Europe needed anchors. A  political goals 
 common currency, run by a supranational central bank and embedded in law, was seen 
@@ -329,7 +329,7 @@ Stability, first of all. Compared with the early 1990s, the euro years – since
 in 1999 – have delivered low and predictable inflation, lower interest rates, and a more 
 even cost of capital.
 Trade and investment have benefited from the removal of currency risk within the euro 
-area. have gained from price transparency and ease of payments. Households   
+area. have gained from price transparency and ease of payments. Households    
 have gained from a deeper market for finance and customers.Businesses 
 Slide 11. Responses to the financial crises
 After almost a decade of the euro, came the litmus test – or the moment of truth.
@@ -338,7 +338,7 @@ The global financial crisis and the euro area sovereign debt crisis exposed the�
 systems and national fiscal policies can breed imbalances when credit flows too quickly 
 in some parts of the network. When the tide went out, such imbalances left weak banks, 
 fragile sovereign finances, and a dangerous feedback loop between the two.
-Europe's answer, though slow, was real and resolute. It built a with  banking union 
+Europe's answer, though slow, was real and resolute. It built awith  banking union 
 common supervision and resolution. It created a permanent crisis fund, the 
 . The ECB acted as a central bank should in a European Stability Mechanism (ESM)
 crisis: lender of last resort to the system, guardian of the payments backbone, and, in 
@@ -373,7 +373,7 @@ Escalating geopolitical tensions, trade wars and volatile policy shifts are resh
 rules of global finance. While the US dollar will likely remain dominant, its supremacy 
 may become somewhat less hegemonic in the evolving more multipolar world economy.
 As to the euro, it is a solid regional reserve currency, and globally distant second – for 
-the euro to become , Europe will need to act  a more broadly used global anchor   
+the euro to become , Europe will need to act  a more broadly usedglobalanchor   
 strategically and reduce its dependencies.
 Europe must not simply drift in this global environment. It must strengthen its economic 
 base, reduce strategic dependencies and be able to stand on its own feet - while 
@@ -403,7 +403,7 @@ to move to the next phase, ensuring technical readiness. A digital euro will be
 legal tender in digital form, the monetary anchor in the digital world, available to 
 households and businesses, designed to be private by default for small payments 
 and safe by design for all. It would . It would  complement, not replace, cash
-ensure that in a digital age the basic unit of money remains a , not a  public good
+ensure that in a digital age the basic unit of money remains a, not a  public good
 private monopoly.
 Slide 13. A stronger international role for the euro
 A stronger international role for the euro is increasingly seen as desirable. But it 
@@ -414,17 +414,17 @@ Digital Sovereignty.
 The first D is Defence  and security as an economic asset. Russia's war of 
 aggression in Ukraine has reminded us, painfully, that security and economics are 
 .inseparable
-The second D is  the engine of Europe's prosperity and the foundation of  Dynamism 
+The second D is  the engine of Europe's prosperity and the foundation of  Dynamism  
 the euro's strength. The lesson is simple: a currency cannot be stronger than the 
 economy it represents.
 The third D is  perhaps the most strategic frontier of all. In this  Digital Sovereignty 
 arena, Europe is far too dependent on non-European platforms and payment systems.
 At the same time, are spreading rapidly, aiming at  US dollar-backed stablecoins 
 extending dollar dominance into digital finance.
-Europe is not ignoring this shift. That's why the is important. digital euro 
+Europe is not ignoring this shift. That's why theis important. digital euro 
 Together, the three Ds form a coherent strategy for a stronger Europe and a 
 . And all three support one another: requires a stronger euro  a credible defence 
-dynamic economy to fund it; benefits from digital innovation; and economic dynamism   
+dynamic economy to fund it; benefits from digital innovation; and economic dynamism    
 , in turn, depends on both secure infrastructure and economic scale.digital sovereignty
 Technology also changes power. If the rails of payments are controlled from afar, 
 sovereignty is eroded. If key platforms are private and foreign, policy levers shrink. This 
@@ -447,7 +447,7 @@ Institutions and credibility do the heavy lifting. However, there is .  no per
 Fixed exchange rates bring discipline but can become a straitjacket. Floating rates bring 
 flexibility but can tempt drift and reduce credibility. A currency union brings stability of 
 prices and payments, but it demands that members keep their own houses in order.
-Second, Finland's path shows that , not fate.  currency choice is the result of policy
+Second , Finland's path shows that , not fate.  currency choice is the result of policy
 We moved from rouble instability to silver, from silver to gold, from pegs to floats, from 
 baskets to the euro.
 Each shift matched a need: to attract capital, to stabilise trade, to escape crisis, or to 

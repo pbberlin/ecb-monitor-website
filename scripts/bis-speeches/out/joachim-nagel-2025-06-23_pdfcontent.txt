@@ -26,12 +26,12 @@ at the end of last year. The expansion in the first quarter was surprisingly sig
 was due, in part, to anticipatory effects related to tariffs, while the underlying cyclical 
 trend remains weak at present.
 In the second quarter, economic activity is likely to more or less stagnate. Export 
-business is undoubtedly suffering from US tariff policy. In addition, industry is seeing    
+business is undoubtedly suffering fromUS tariff policy. In addition, industry is seeing    
 comparatively low capacity utilisation. Accordingly, firms have relatively little incentive to 
 invest. Furthermore, household consumption is currently subdued. This is because the 
 labour market is trending downward and wages are no longer rising as sharply.
 According to our new Forecast for Germany, the economy will tread water on average 
-this year. However, the forecast was not able to take account of the fact that the 2 
+this year.However, the forecast was not able to take account of the fact that the 2 
 revised rate of growth for the first quarter is now twice as high as originally reported. A 
 slight increase in aggregate output therefore appears to be well within the realms of 
 possibility on annual average.
@@ -44,17 +44,17 @@ domestic product will see a noticeable rise of 0.7% in calendar-adjusted terms n
 year. For 2027, they are projecting a growth rate of 1.2%.
 This means that, after this long drought, we have not quite reached a lush green oasis 
 just yet. Instead, Germany's path forward remains challenging–between the tariff shock 
-and shaping the future. On the one hand, US trade policy and geopolitical uncertainty    
+and shaping the future. On the one hand,US trade policy and geopolitical uncertainty    
 are burdens. On the other hand, the fiscal package is bolstering economic activity.
 On their own, the tariff hikes factored into the baseline scenario of the forecast and the 
 heightened level of uncertainty could cost Germany around ¾ percentage point of 
 economic growth over the medium term. There are three key factors here. First, tariffs 
-are making German products less competitive in the key US sales market. Second,    
+are making German products less competitive in the keyUS sales market. Second,    
 export business is suffering from the overall weakening of global economic growth 
 caused by tariffs. Third, elevated uncertainty is dampening economic growth. The lack 
 of planning certainty is paralysing firms' investment, in particular.
 Alongside tariffs and greater uncertainty, the changes in exchange rates, financial 
-market responses and commodity prices triggered by US economic policy are also    
+market responses and commodity prices triggered byUS economic policy are also    
 having an impact on economic growth. But I would like to point out the following: the 
 estimated growth losses for Germany of ¾ percentage point over the medium term 
 represent just a snapshot of trade policy. It appears possible that the tariff dispute could 
@@ -71,7 +71,7 @@ the June Eurosystem staff projections, euro area economic output will rise by 0.
 year. Next year and the year after, the pace of growth is expected pick up slightly to 3 
 1.1% and 1.3%, respectively.
 I recently gave an entire speech on the topic of monetary policy in times of high 
-. At this point, I would like to emphasise one thing in particular: the uncertainty 4 
+. At this point, I would like to emphasise one thing in particular: the uncertainty4 
 economic outlook is extremely uncertain at present. But it already seems as if 
 exceptional uncertainty is almost becoming the new norm.
 It is still very difficult to assess how the situation in the Middle East will develop 
@@ -97,17 +97,17 @@ demand and, indirectly, consumer prices over the medium term.
 It is clear that the broad-based decline in commodity prices is already putting the brakes 
 on inflation. And it is also clear that a stronger euro will reduce price inflation in both 
 Germany and the euro area as a whole. The recent exchange rate movements were 
-atypical for periods of heightened uncertainty in the financial markets. Unusually, the US 
+atypical for periods of heightened uncertainty in the financial markets. Unusually, theUS 
 dollar did not benefit from its status as a safe haven, but depreciated instead.  
-Immediately after the announcements of US tariffs at the beginning of April, there was a    
+Immediately after the announcements ofUS tariffs at the beginning of April, there was a    
 slump in risk appetite amongst investors, leading to significant losses in the stock 
-market amid high financial market volatility. The prices of US Treasuries also fell    
+market amid high financial market volatility. The prices ofUS Treasuries also fell    
 markedly. 
 In the new Eurosystem staff projections, exchange rate developments are another 
 reason why the inflation forecast was revised downwards over the shorter term. For this 
 year, the economists now expect euro area inflation of 2%. Next year, it is expected to 
 temporarily fall markedly to 1.6%, before rising to 2% again in 2027.
-In contrast to the projections that the ECB released in March, we are pleased to say    
+In contrast to the projections that theECB released in March, we are pleased to say    
 that we are now likely to achieve the 2% target this year. According to initial estimates, 
 euro area inflation declined to 1.9% in May. We are expecting comparable figures for 
 the coming months. I am therefore confident that inflation will stabilise at 2% on a 
@@ -118,24 +118,24 @@ target. Underlying inflation and, above all, services inflation are too high for
 happen. According to initial estimates, services inflation declined significantly in May, 
 but still stands at 3.2%.
 4 No reason for monetary policy to let up
-At the most recent meeting of the ECB Governing Council, we lowered the key ECB       
+At the most recent meeting of theECB Governing Council, we lowered the keyECB       
 interest rates for the eighth time by 25 basis points. Due to the improved price outlook, I 
 believe that this decision was appropriate. The key interest rate now stands at 2%. It is 
 
 4/5 BIS - Central bankers' speeches
 thus exactly in the middle of the range for the natural rate of interest calculated by 
-Eurosystem experts. Despite all of the conceptual difficulties and uncertainty 5 
-surrounding the natural rate of interest: monetary policy is certainly no longer having a 6 
+Eurosystem experts.Despite all of the conceptual difficulties and uncertainty 5 
+surrounding the natural rate of interest:monetary policy is certainly no longer having a 6 
 restrictive effect with the current key interest rates. In my view, this level of interest 
 rates provides us with a very good starting position from which to respond to a wide 
 variety of developments. 
 Current price data and inflation forecasts are signalling  . We on mission accomplished
-the ECB Governing Council can certainly be satisfied with this. However, we cannot    
+theECB Governing Council can certainly be satisfied with this. However, we cannot    
 simply sit back and take it easy. Instead, it is vital that we keep our eyes and ears open 
 for any risks to price stability. This also holds true given the current developments in the 
 Middle East.
 In light of the present uncertainty, cautious monetary policy and communication remain 
-appropriate. The degree of uncertainty is already far too high. The ECB Governing    
+appropriate. The degree of uncertainty is already far too high. TheECB Governing    
 Council should not add to this itself. As critical factors can change quickly in the current 
 environment, we would be well advised to stay flexible. In other words, it is not sensible 
 to make pre-commitments–neither for cutting interest rates again nor for keeping 
@@ -148,7 +148,7 @@ the path ahead will not lead us straight to a green oasis, but will remain
 challenging–between growth-damaging tariff effects and growth-enhancing fiscal policy. 
 Even if euro area inflation is back around 2% and will likely remain there in the medium 
 term again after a dip, too, monetary policymakers have no reason to let up. Given the 
-very high degree of uncertainty, the ECB Governing Council needs to be especially    
+very high degree of uncertainty, theECB Governing Council needs to be especially    
 responsive and cautious.
 Furthermore, with regard to economic policy, I would like to convey the following 
 message: spending alone is by no means enough. Persistently higher growth in 
@@ -173,7 +173,7 @@ Berlin, 10 March 2025.
 , lecture at –Leibniz Centre for European Economic Research, Bundesbank  ZEW
 27 May 2025.
 5 See Brand, C., N. Lisack and F. Mazelis (2025), Natural rate estimates for the euro 
-area: insights, uncertainties and shortcomings, ECB Economic Bulletin, 1/2025.   
+area: insights, uncertainties and shortcomings,ECB Economic Bulletin, 1/2025.   
 6 Nagel, J., r* in the monetary policy universe: navigational star or dark matter? | 
 , lecture at the London School of Economics and Political Deutsche Bundesbank
 Science, 12 February 2025.

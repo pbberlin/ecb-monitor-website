@@ -175,7 +175,7 @@ estimates for this country are readily available. As can be seen, however, uncer
 both within and across models. “Within model  uncertainty” means that the confidence 
 intervals for r* estimates are typically qui te wide. It is not uncommon to see a 90% 
 confidence interval as wide as 2 percentage points below and above the estimates. “Across 
-model uncertainty” means that r* estimate s are model-dependent, so that different models 
+model uncertainty” means that r* estimates are model-dependent, so that different models 
 yield different r* estimates. Overall, the level of uncertainty is so overwhelming that central 
 bankers should acknowledge that they don’t know precisely where r* is.7 
 Second, the relationship between interest rates and inflation may not be so stable. The idea 
@@ -258,7 +258,7 @@ While this outlook is possible, I believe it to be overly optimistic.
 On the other hand, if you believe in the regime shift narrative, the situation is potentially 
 more complicated. Broadly speaking, there ar e two types of regime shifts: one related to 
 fundamentals and the other to inflation dynami cs. In the former, the supply shocks we are 
-experiencing could have persistent – or even permanent – effects. Whether this will be the 
+experiencing could have persistent – or even per manent – effects. Whether this will be the 
 case depends on known unknowns: a resurgence of the pandemic, spillovers from the war 
 in Ukraine on global value chains, a rocky e nergy transition, degl obalisation and/or 
 unsustainable fiscal trajectories.  
@@ -397,7 +397,7 @@ Borio C. (2022), “Monetary policy: past, present and future”, speech at the 
 Borio C., P. Disyatat, M. Juselius and P. Rungcharoenkitkula (2022), “Why So Low for So 
 Long? A Long-Term View of Real Interest Rates”, International Journal of Central Banking, 
 18(3), 47-87. 
-Borio C. and B. Hofmann (2017), “Is monetary pol icy less effective when interest rates are 
+Borio C. and B. Hofmann (2017), “Is monetary policy less effective when interest rates are 
 persistently low?”, BIS Working Paper 628. 
 Brand C., M. Bielecki and A. Penalver (2018), “T he natural rate of interest: estimates, 
 drivers, and challenges to monetary policy”, ECB Occasional Paper Series, December. 

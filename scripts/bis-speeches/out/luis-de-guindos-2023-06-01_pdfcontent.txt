@@ -7,7 +7,7 @@ Bank, to the Committee on Economic and Monetary Affairs of the European Parliame
 Brussels, 25 May 2023.
 * * *
 I am pleased to be back before the ECON Committee to present the ECB's Annual 
-Report for 2022 , which we have published today together with our written feedback on 1
+Report for 2022, which we have published today together with our written feedback on 1
 the resolution on our activities you adopted earlier this year.2
 These documents, as well as today's hearing, are fundamental for the ECB's 
 accountability relationship with this Parliament. We greatly value this dialogue with you 
@@ -66,7 +66,7 @@ Tighter credit conditions are testing the resilience of euro area firms, househo
 sovereigns, while the possibility of sudden changes in property prices, especially in 
 commercial real estate, remains a concern. We are also closely monitoring non-banks, 
 which – given their interconnections with banks  can amplify shocks within the financial 
-system. This highlights the need to strengthen the regulation of non-banks, in part by  
+system.This highlights the need to strengthen the regulation of non-banks, in part by  
 taking a more comprehensive macroprudential approach that would ensure their 
 resilience while avoiding the risk of creating blind spots within the financial system.4
 Our banking sector is strong today, largely thanks to the reforms and prudential policies 
@@ -75,7 +75,7 @@ consistently attune our regulatory framework to the times – doing so, among ot
 ways, by monitoring and reacting to new developments such as crypto-assets, 
 digitalisation and the impact of social media.5
 For our part, we have been working at international level with the Basel Committee on 
-Banking Supervision (BCBS) and the Financial Stability Board to assess what can be 6  7 
+Banking Supervision (BCBS)and the Financial Stability Boardto assess what can be 6  7 
 learned from the recent events. We have also helped to define the BCBS standard for 
 the prudential treatment of banks' crypto-asset exposures.8
 Your role as co-legislators will be crucial in keeping our framework robust.
@@ -127,7 +127,7 @@ points on average over the period 2023-25 compared with a situation where policy
 remained unchanged. The bulk of this impact can be attributed to rate policy, with a less 
 material, though non-negligible contribution stemming from the reduction in the APP 
 portfolio. See ECB (2023), "A model-based assessment of the macroeconomic impact 
-", , of the ECB's monetary policy tightening since December 2021  Economic Bulletin
+", , of the ECB's monetary policy tightening since December 2021 Economic Bulletin
 Issue 3.
 4 .ECB Annual Report 2022
 5 ibid.

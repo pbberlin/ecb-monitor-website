@@ -4,7 +4,7 @@ euro area
 Speech by Mr Luis de Guindos, Vice-President of the European Central Bank, at the 
 15th edition of Spain Investors Day, Madrid, 15 January 2025. 
 * * *
-It is a pleasure to speak here again this year. In my remarks last year, I expanded on 1 
+It is a pleasure to speak here again this year.In my remarks last year, I expanded on 1 
 monetary policy in the face of high inflation risks. The outlook was then still being 
 shaped by the easing of pandemic-related supply constraints and by the energy price 
 shock. Inflation had fallen rapidly from its peak in autumn 2022, but we needed to keep 
@@ -72,7 +72,7 @@ over the past year the European Commission's uncertainty index has reached its
 highest level to date. Furthermore, with formal budget submissions from several euro 
 area countries still pending, projecting the future fiscal policy stance is challenging.
 This environment of very high uncertainty could dent confidence and dampen the 
-recovery in consumption and investment. Such pessimism is visible, for instance, in  
+recovery in consumption and investment. Such pessimismis visible, for instance, in  
 consumer expectations. While real household income increased both in 2023 and 2024 
 according to national accounts, only little more than a third of respondents to our latest 
 Consumer Expectations Survey see their real income as having increased or at least 

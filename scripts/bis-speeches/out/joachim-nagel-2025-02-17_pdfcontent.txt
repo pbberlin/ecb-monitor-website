@@ -31,19 +31,19 @@ I know that answering these questions seems like a tough challenge–a taughy fl
 tae scoor. But I will do my best to illustrate my points with clear, practical examples. 
 Along the way, I will discuss electric cars and heating systems to help us understand 
 the issues. 
-My remarks will focus on the European Union borrowing some detailed insights  (EU), 
-from Germany. Unfortunately, these data do not cover the United Kingdom But I  (UK). 
-will do my best to infer some insights for the UK as well.   
+My remarks will focus on the European Unionborrowing some detailed insights  (EU), 
+from Germany. Unfortunately, these data do not cover the United KingdomBut I  (UK). 
+will do my best to infer some insights for theUK as well.   
 2 How much needs to be invested?
 
 2/6 BIS - Central bankers' speeches
-Let me start with the question of how much the EU needs to invest to achieve    
-greenhouse gas neutrality. The EU's Fit for 55 package aims to reduce greenhouse gas  
+Let me start with the question of how much theEU needs to invest to achieve    
+greenhouse gas neutrality. TheEU's Fit for 55 package aims to reduce greenhouse gas  
 emissions by at least 55 per cent by 2030. These reductions are benchmarked against 
 1990 emission levels. This is an intermediate step towards full greenhouse gas 
-neutrality, for which the EU still needs to pass legislation.   
-From 2021 to 2030, the European Commission estimates that EU countries need to    
-invest over €1.2 trillion annually. This amounts to nearly 8 per cent of theEU's1     GDP. 
+neutrality, for which theEU still needs to pass legislation.   
+From 2021 to 2030, the European Commission estimates thatEU countries need to    
+invest over €1.2 trillion annually.This amounts to nearly 8 per cent of theEU's1     GDP.  
 The private sector must take on the bulk of these investments. The investment needs 
 are significantly more than the actual annual investment of €760 billion in the previous 
 decade. 
@@ -51,7 +51,7 @@ The European Commission defines the difference between the investment required a
 the actual investment as the "additional" investment need. This additional investment 
 need amounts to €480 billion, or around 3 per cent of GDP.
 This definition of "additional" investment is very useful from an accounting perspective. 
-It gives a clear picture of how much more the EU needs to invest to meet its climate    
+It gives a clear picture of how much more theEU needs to invest to meet its climate    
 goals. However, from a financing perspective, it helps to define additional investment 
 differently.
 There are two types of investment needed to achieve greenhouse gas neutrality. The 
@@ -70,18 +70,18 @@ combustion engine car to an electric vehicle. Let us say a comparable electric c
 €5,000 requires additional financing.
 Contrast this with how the European Commission defines additional investment: They 
 subtract the annual average value of electric cars bought in the past from the value of 
-electric vehicles needed to meet the EU's intermediate greenhouse gas reduction  
+electric vehicles needed to meet theEU's intermediate greenhouse gas reduction  
 goals. Past registrations of electric vehicles fell significantly short of what is needed. 
 Accordingly, the additional investments, as defined by the European Commission's 
 accounting perspective, are presumably much higher than the additional financing 
 needs. 
 How great could the additional financing needs be? While we do not yet have specific 
-figures for the there are some numbers for Germany. A recent study estimates that  EU, 
+figures for thethere are some numbers for Germany. A recent study estimates that  EU, 
 
 3/6 BIS - Central bankers' speeches
 Germany needs to invest around €390 billion annually from 2021 to 2030 to reduce 
-emissions by 65 per cent compared to 1990. They measure this absolute sum in 2020 2 
-prices. Relative to the investment amounts to 11 per cent.  GDP, 
+emissions by 65 per cent compared to 1990.They measure this absolute sum in 2020 2 
+prices. Relative to the investment amounts to 11 per cent.  GDP,  
 This is fairly close to the 8 per cent investment needs calculated by the European 
 Commission for the However, only around 30 per cent of this investment requires  EU.3 
 additional financing. In absolute terms, this amounts to about €120 billion. 
@@ -122,7 +122,7 @@ funds from external sources by issuing debt securities. Only firms have a more
 
 4/6 BIS - Central bankers' speeches
 diversified financing mix. Equity and bank loans play prominent roles here. Note that 
-these observations hold for the the UK and Germany alike.  EU,     
+these observations hold for thetheUK and Germany alike.  EU,     
 So, what might the financing mix for the transition to a greenhouse gas-neutral 
 economy look like? To estimate these figures, we need two key components: First, the 
 respective shares of households, firms and the public sector in total investment. 
@@ -130,7 +130,7 @@ According to rough estimates by Bundesbank staff for Germany, households might
 have to cover about one-third of the investment, the public sector around 20 per cent, 
 and firms just under half.4
 Second, estimates for the future financing structure of the sectors. We assume that 
-future financing structures will remain unchanged from today. This implies that past 5 
+future financing structures will remain unchanged from today.This implies that past 5 
 financing structures are suitable for future climate investment. If this were not the case, 
 perhaps due to the need for innovative financing instruments, the financing structure 
 may differ. 
@@ -146,14 +146,14 @@ be equity financing, comprising around one-sixth. Firms are the only users of th
 financing source, as households and the public sector do not issue equity. Different 
 instruments, like loans from non-bank financial intermediaries, might cover the final 
 sixth of the overall investment needs. 
-So, what does this mean for the EU and the Can the findings for Germany be      UK? 
+So, what does this mean for theEU and the Can the findings for Germany be      UK?  
 generalised? Fortunately, the financing structures of households, firms and 
-governments are largely comparable across these regions.  Therefore, one of the two 6
+governments are largely comparable across these regions. Therefore, one of the two 6
 components in the calculations is roughly equal.
 The second component–the sectoral investment needs–is less certain. I am not aware 
-of any studies for the EU or the UK that divide the investment needs across        
-households, firms and the public sector. Without a better alternative, the findings for 7 
-Germany may provide a reasonable initial estimate for both the EU and the     UK.
+of any studies for theEU or theUK that divide the investment needs across        
+households, firms and the public sector.Without a better alternative, the findings for 7 
+Germany may provide a reasonable initial estimate for both theEU and the     UK.
 4 Concluding remarks
 Let me summarise and conclude. I have three main takeaways to share.
 First, "additional" investment needs to become greenhouse gas-neutral can also be 
@@ -181,11 +181,11 @@ to greenhouse gas neutrality is planned stringently and for the long term. Why?
 Because it provides incentives to avoid investments in fossil fuel technologies that may 
 not be fully depreciated before they become non-viable. 
  1 See European Commission (2023), Investment needs assessment and funding 
-availabilities to strengthen EU's Net-Zero technology manufacturing capacity, SWD  
+availabilities to strengthenEU's Net-Zero technology manufacturing capacity, SWD  
 (2023) 68 final. 
 2 Kemmler et al. (2024), Klimaschutzinvestitionen für die Transformation des 
 , Prognos. This study is only available in German.Energiesystems
-3 One reason why Germany's investment needs relative to GDP are higher than the     
+3 One reason why Germany's investment needs relative toGDP are higher than the     
 EU's is that Germany intends to achieve greenhouse gas neutrality sooner (in 2045 
 rather than 2050).
 4 The estimates are based on the public sector shares provided in Brand and Römer 
@@ -199,18 +199,18 @@ external financing flows over the period 2018 to 2022. This averaging smooths ou
 term fluctuations and centres on the reference year of 2020 used in the Kemmler et al 
 (2024) study. Internal financing enters the calculation on a net basis, assuming that the 
 depreciation inflows finance the replacement investments.
-6 In the EU and households rely slightly less on bank loans than in Germany, but      UK, 
+6 In theEU and households rely slightly less on bank loans than in Germany, but      UK, 
 the share is still high. In the public sector, Germany has a significantly higher share of 
-debt security financing, particularly compared to the In the non-financial firms  EU.   UK, 
+debt security financing, particularly compared to theIn the non-financial firms  EU.   UK, 
 
 6/6 BIS - Central bankers' speeches
 have a significantly lower share of equity financing and a higher share of (bank) loans 
-compared to Germany. In contrast, in the non-financial firms have a slightly higher  EU, 
+compared to Germany. In contrast, in thenon-financial firms have a slightly higher  EU, 
 share of equity financing and a smaller share of (bank) loans compared to Germany. All 
 figures are based on average financial flows from 2018 to 2022.
-7 European Commission, op. cit., estimates that, in the the public sector could  EU, 
+7 European Commission, op. cit., estimates that, in thethe public sector could  EU, 
 account for 17 to 20 per cent of total investment. However, it does not clarify how this 
-investment will be split between households and firms. For the HM Government  UK, 
+investment will be split between households and firms. For theHM Government  UK, 
 (2023), Mobilising Green Investment–2023 Green Finance Strategy, mentions that most 
 investment must come from the private sector. However, it likewise does not provide 
 any details on how this investment will be split between households and firms.

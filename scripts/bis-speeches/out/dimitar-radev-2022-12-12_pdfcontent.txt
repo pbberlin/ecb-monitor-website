@@ -44,7 +44,7 @@ economic developments and policies, in this particular case, with the monetary p
 pursued by the ECB. The more specific reason is related to the particular features of 
 Bulgaria's system of fixed exchange rate of the Bulgarian lev to the euro, and to the 
 high level of synchronization of our business cycle with that of the euro area.
-While the monetary policy direction is quite clear, the outlook raises more  fiscal policy 
+While the monetary policy direction is quite clear, theoutlook raises more  fiscal policy 
 questions. In the context of the euro area this is due to the absence of a fiscal union, 
 the different fiscal positions of the individual countries, and the different, but on the 
 whole high, levels of their debt burden.
@@ -128,7 +128,7 @@ obligations is sometimes overestimated. That is why the supervisory policy will
 continue to aim at ensuring that credit institutions act conservatively.
 
 4/5 BIS - Central bankers' speeches
-The profitability of the banks is put at risk along two lines simultaneously. ,  First
+The profitability of the banks is put at risk along two lines simultaneously.,  First
 due to the need to set aside additional provisions under a growing probability of 
 non-performing loans; and , due to limitation of the banks' scope to  secondly
 generate income from core activities. For example, rising interest rates carry the 

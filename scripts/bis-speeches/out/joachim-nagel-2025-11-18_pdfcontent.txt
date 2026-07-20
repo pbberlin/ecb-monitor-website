@@ -38,7 +38,7 @@ In his book, Bagehot recommended that the central bank should systematically
 intervene in the event of bank runs and liquidity shortages so as to preserve trust in the 
 financial system and prevent a collapse. These recommendations are now known as 
 the lender-of-last-resort principle.2
-The US Federal Reserve System was also founded, in 1913, as a direct response to 
+The US  Federal Reserve System was also founded, in 1913, as a direct response to 
 repeated banking panics.3 So we can see that the link between central banks and the 
 objective of financial stability is a very long-standing one. 
 Midway through the 20th century, central banks began to increasingly pivot their focus 
@@ -48,7 +48,7 @@ became a rarity.5 But this phase was not destined to last.
 On the heels of deregulation and liberalisation of the financial system in the 1980s 
 came the financial crises and turmoil of the 1990s and early 2000s. The Tequila Crisis 
 in Mexico, the Asian crisis, the collapse of the Long-Term Capital Management hedge 
-fund (LTCM for short), and the implosion of the dot-com bubble were striking 
+fund (LTCM  for short), and the implosion of the dot-com bubble were striking 
 demonstrations of how vulnerable the international financial system had become. And 
 how quickly financial stability can be forfeited again. 
 Partly in response to this, central banks around the world started paying more attention 
@@ -96,7 +96,7 @@ for financial stability. 
 Since then, the three institutions have come together regularly in the shape of the 
 German Financial Stability Committee (FSC). The Bundesbank is charged, especially, 
 with monitoring and analysing developments that have a bearing on financial stability. 
-The FSC can make recommendations for the introduction of macroprudential 
+The FSC  can make recommendations for the introduction of macroprudential 
 instruments and activation of macroprudential measures. 
 But it's not just in Germany that things have changed–the global financial crisis has led 
 to far-reaching institutional adjustments at the international level, too. The Financial 
@@ -119,8 +119,8 @@ roots.
 At the same time, it's important to remember that the work is never done. The 
 challenges to financial stability are constantly changing. The latest reports coming out 
 of the United States are a clear illustration of that.
-September saw both a US auto financing provider and a manufacturer of car parts file 
-USfor bankruptcy protection. In October, two   regional banks ran into difficulties due to 
+September saw both a US  auto financing provider and a manufacturer of car parts file 
+USfor bankruptcy protection. In October, two  regional banks ran into difficulties due to 
 fraud.13 We are following what's happening very closely–of that you can be sure!
 New risks could also arise as a result of the structural change unfolding in the real 
 economy and the financial system, the rapid development of artificial intelligence, and 
@@ -141,8 +141,8 @@ Experience, Federal Reserve Bank of Richmond, Economic Review, January
 4 See Bordo, M. (2007), A Brief History of Central Banks, Federal Reserve Bank of 
 Cleveland, Economic Commentary.
 5 See Reinhart, C. and K. Rogoff (2008), This Time is Different: A Panoramic View of 
-Eight Centuries of Financial Crises, NBER Working Paper No 13882 and Laeven, L.    
-and F. Valencia (2013), Systemic Banking Crises Database, IMF Economic Review,    
+Eight Centuries of Financial Crises,NBER Working Paper No 13882 and Laeven, L.    
+and F. Valencia (2013), Systemic Banking Crises Database,IMF Economic Review,    
 Vol. 61(2), pp. 225-270.
 6 Bank of England (1996), Financial Stability Review, Issue One, Autumn 1996.
 7 Deutsche Bundesbank (2005), , November 2005, p. 6 Financial Stability Review
@@ -154,8 +154,8 @@ a state in which the financial system is able to perform its economic functions 
 . See Deutsche Bundesbank (2025), , November 2025. Financial Stability Review
 10 See, for example, Bank for International Settlements (2007), 77th Annual Report 
 2006/07 and Borio, C. and W. White (2004), Whither monetary and financial stability? 
-The implications of evolving policy regimes, BIS Working Papers No 147.   
-11 See Rajan, R. (2005), Has Financial Development Made the World Riskier?, NBER   
+The implications of evolving policy regimes,BIS Working Papers No 147.   
+11 See Rajan, R. (2005), Has Financial Development Made the World Riskier?,NBER   
 Working Paper No 11728.
 12 See Deutsche Bundesbank (2010), , p. 91. Annual Report 2009
 13 The auto lender Tricolor applied for bankruptcy protection on 10 September 2025, 

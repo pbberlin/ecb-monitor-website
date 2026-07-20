@@ -2,7 +2,7 @@
 Luis de Guindos: From crisis to collective strength - a successful 
 decade of the Single Resolution Mechanism and the road ahead
 Opening address by Mr Luis de Guindos, Vice-President of the European Central Bank, 
-at the SRM 10th Anniversary Conference, Brussels, 15 October 2025. 
+at the SRM 10thAnniversary Conference, Brussels, 15 October 2025. 
 * * *
 Introduction
 A decade ago, the SRM was established as a direct response to the global financial 
@@ -11,7 +11,7 @@ banking union, it has the ambitious remit of improving how bank failures are man
 while safeguarding the public interest and limiting recourse to taxpayer money. 
 Together with the Single Supervisory Mechanism, it has played a pivotal role in 
 protecting financial stability in the EU.
-Ten years on, we once again find ourselves in a challenging environment, marked by  
+Ten years on,we once again find ourselves in a challenging environment, marked by  
 significant uncertainty and geopolitical risk. The banking union remains incomplete, at a 
 time when the EU needs to uphold its fundamental values and defend its interests. We 
 cannot wait until the next crisis to move towards strengthening the EU project.
@@ -22,13 +22,13 @@ The pandemic and Russia's full-scale invasion of Ukraine affected many parts of 
 daily lives, yet the banking sector remained strong. The pandemic brought the economy 
 to a virtual standstill, while Russia's invasion was followed by an unprecedented surge 
 in inflation, which called for an equally unprecedented period of monetary policy 
-tightening. The banking sector proved resilient to those two shocks, managing to  
+tightening.The banking sector proved resilient to those two shocks, managing to  
 restore profitability and adapt swiftly as we emerged from the low-interest rate 
 environment.
 Over the past ten years, the SRM has helped strengthen the banking sector and 
 prevent systemic crises. It has brought about something that was once unthinkable: a 
 European approach to bank resolution. Through the SRM, you have overseen the build-
-up of liabilities to absorb losses and recapitalise a bank in resolution. You also set up  
+up of liabilities to absorb losses and recapitalise a bank in resolution.You also set up  
 the €80 billion Single Resolution Fund for the orderly resolution of banks in more 
 challenging scenarios.
 The SRM has shown that decisive European action can ensure the continuity of banks' 
@@ -69,7 +69,7 @@ These issues have been on the table for a long time now. I am optimistic that we
 see progress. First, because they are essential for the EU project and, second, because 
 their ultimate goal is to protect the banking system, savings and access to finance in the 
 EU. The recent agreement on the reform of the crisis management and deposit 
-insurance framework is an important step forward, but it does not replace EDIS. I do,  
+insurance framework is an important step forward, but it does not replace EDIS.I do,  
 however, recognise the politically contentious nature of the topic and co-legislators' 
 work in hammering out the necessary compromises to improve EU rules for bank crisis 
 management.
