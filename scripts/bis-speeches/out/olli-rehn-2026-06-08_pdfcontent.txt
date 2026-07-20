@@ -1,0 +1,222 @@
+1/6 BIS - Central bankers' speeches
+Olli Rehn: Europe's economy under the weight of power politics
+Speech by Mr Olli Rehn, Governor of the Bank of Finland and First Vice-Chair of the 
+European Systemic Risk Board, at the EU Heads of Mission lunch seminar, Helsinki, 2 
+June 2026.
+* * *
+ accompanying the speechPresentation
+Your Excellencies, Dear Colleagues and Friends,
+Welcome to the Bank of Finland! It is really nice to see so many of you again.
+Today I will discuss the euro area economic outlook and the European Central Bank's 
+monetary policy under the weight of power politics. As Elisa Newby mentioned, our 
+Head of Forecasting, Juuso Vanhala, and his colleagues have the unenviable task of 
+evaluating Finland's growth outlook under these difficult conditions.
+I feel there are certain similarities between diplomacy and monetary policymaking in 
+these testing times, when geopolitical rivalry and geoeconomic fragmentation are 
+increasingly shaping global affairs and the economic outlook.
+Both diplomacy and monetary policy require humility and judgement: the ability to 
+distinguish between what we know and what we do not yet know, and to recognize 
+which signals truly matter amidst the surrounding cacophony. In times such as these, 
+resilience depends not only on decisive action, but also on balanced judgement and the 
+capacity to maintain trust under conditions of uncertainty.
+Slide 2: Geopolitics is casting a shadow over Europe's economic 
+performance
+Since the beginning of this year, the intensification of power politics has added to global 
+uncertainty. Sudden spikes in energy prices and terms-of-trade shocks have weakened 
+confidence and raised financing costs.
+The countries involved in the Iran war are engaged in a struggle of economic and 
+political attrition. As you are aware, each side operates according to a very different 
+rationality from that of traditional diplomacy.
+We should therefore be prepared for a prolonged conflict over control of the Strait of 
+Hormuz, despite recent optimism. That is not a good prospect for Europe, but it is one 
+for which we must be prepared. Should developments evolve more positively – and I'd 
+be more than glad to be proven wrong – adjustment will be easier.
+By contrast, markets are behaving almost as if there were no war. AI-related 
+investments and strong corporate profits in the US have driven the country's equity 
+markets to new record highs.
+
+2/6 BIS - Central bankers' speeches
+Economists are increasingly highlighting the prospect of strong productivity gains 
+associated with AI. Comparisons with earlier technological revolutions, from the railway 
+boom to the rise of the internet, have become commonplace.
+History reminds us that such transformations are rarely smooth, however. Both the 
+industrial revolution and the internet era were marked by sharp booms and busts, the 
+rapid rise of new companies, and equally fierce processes of elimination. Yet despite 
+failures along the way, technological progress continued and productivity ultimately 
+increased.
+Will this time be different? My expectation is that, in the short term, we are likely to 
+overestimate the transformative power of AI, while in the long term we may 
+underestimate it. That is worth reflecting upon, because the consequences will affect us 
+all.
+At the same time, the political climate in the United States has become increasingly 
+unpredictable, both in geopolitics and in trade policy. Together with Russia's aggressive 
+actions, this underlines the need for Europe to strengthen its common capabilities, 
+particularly in defence and in the energy economy.
+Slide 3: War in the Middle East slows euro area growth and 
+accelerates inflation
+The war in Iran is essentially a stagflationary shock: growth prospects have weakened 
+while inflation has risen, at least in the short term.
+This does not mean we are facing a return to the stagflation of the 1970s. But the 
+nature of the shock is similar: weaker growth combined with higher inflation.
+Both the ECB and the Bank of Finland have been working with two alternative 
+scenarios in addition to a baseline, rather than a single forecast path. I view these 
+scenarios as structured representations of possible futures. They help us organise our 
+thinking and assess alternative policy responses.
+At present, developments appear to be moving us closer to an adverse scenario, 
+particularly when viewed through the lens of oil prices. Natural gas prices have risen 
+less dramatically.
+By our meeting next week, we will receive a new set of Eurosystem staff projections. I 
+am therefore looking forward to fresh data and a deeper assessment of the inflation and 
+growth outlook.
+Going forward, I see in principle three possible paths.
+The first is that the energy shock proves temporary. Inflation rises for a period but the 
+effect remains largely confined to energy prices and then fades. In this case, monetary 
+policy should avoid overreacting to the shock. This path appears less and less likely, 
+day-by-day.
+
+3/6 BIS - Central bankers' speeches
+The second possibility is that inflation rises more significantly and remains above target 
+for longer, but without generating broad-based second-round effects through wages or 
+profit margins. In such circumstances, vigilance would be required, and the policy rate 
+could, if deemed warranted, be increased as an insurance to ensure that inflation 
+expectations stay anchored. But it would not imply a start of a hiking cycle or lead to a 
+more forceful monetary policy response.
+The third possible path is that the conflict becomes prolonged, energy prices remain 
+elevated and inflationary pressures spread more broadly through the economy. If we 
+were to see convincing evidence that inflation expectations were becoming de-
+anchored and that wage-setting behaviour was adjusting to persistently higher inflation, 
+then monetary policy would need to respond decisively and quickly.
+Thus, the conditions that justify tighter monetary policy are not higher oil prices alone. 
+What matters for monetary policy is whether the shock risks getting embedded in the 
+inflationary process.
+What does fresh data tell us, for now?
+Slide 4: Euro area medium-term inflation expectations derived from 
+swaps remain anchored near 2%
+Inflation expectations derived from euro area inflation swaps remain well anchored 
+around the ECB's 2% target at short-to-medium-term horizons, regardless of the 
+measure considered (2.02% – 2.16%). Over the past week, inflation expectations have 
+edged down somewhat, but the change has been modest; expectations have remained 
+anchored despite the temporary uptick that followed the outbreak of the conflict.
+At the same time, the ECB's inflation forecast remains challenging, with inflation 
+projected at 3.5% this year in an adverse scenario . That said, part of this forecast 
+reflects mechanical factors, and increases in oil and other energy prices do not 
+automatically translate one-for-one into broader inflation.
+It is noteworthy that euro area swap-based inflation expectations remain lower than 
+those in the United States. Besides, the recent decline in inflation expectations seen in 
+the euro area has not been mirrored in U.S. markets over the past few weeks. The 
+demand situation in the United States is generally stronger than in the euro area. 
+Moreover, unlike in Europe, higher oil prices do not cause a negative terms-of-trade 
+shock for the United States that nowadays is an oil exporting country.
+Against that backdrop, while inflation risks have increased, a rate increase in June 
+would be an insurance one, but not due to entrenched inflationary pressures.
+That assessment could change if the conflict becomes prolonged and if the 
+transmission from energy prices to wages and broader inflation proves stronger than 
+currently witnessed. It is therefore critical to monitor incoming data exceptionally closely.
+Slide 5: Every crisis is unique – no two crises are alike
+
+4/6 BIS - Central bankers' speeches
+Research by the Bank of Finland shows that geopolitical shocks have complex affects 
+for the economy. This is why every crisis is ultimately unique, despite having some 
+similarities with other crises. The same increase in energy prices can produce very 
+different inflation outcomes, depending on the economic conditions at the time. Rising 
+energy prices had very different impacts on euro area inflation in 2022 than in 2011, for 
+example, when oil prices increased amid the Arab Spring.
+The comparison with 2022 is instructive. At that time, the euro area economy was 
+emerging from the COVID-19 pandemic. Demand was strong, fiscal and monetary 
+policy remained very supportive, labour markets were tight, and supply chains 
+constrained. Inflation had already accelerated substantially before the outbreak of 
+Russia's war in Ukraine. The environment was therefore highly conducive to persistent 
+inflation.
+Today, the picture is different. Growth is weaker, labour markets are less tight, fiscal 
+support is more limited, and inflation had largely returned close to target before the 
+current conflict began.
+Another useful point of comparison is 2011. Energy prices rose sharply following the 
+Arab Spring and the Libyan civil war. Headline inflation increased significantly, but 
+underlying inflationary pressures remained relatively subdued because the euro area 
+economy was weak and burdened by the sovereign debt crisis.
+The lesson from 2011 is not that central banks should ignore energy shocks. The 
+lesson is that monetary policy must distinguish between a temporary relative-price 
+shock and a persistent inflation process. That distinction remains just as important 
+today.
+This is why the ECB's monetary policy strategy emphasises both symmetry and a 
+medium-term orientation. Inflation can fluctuate significantly in the short run, especially 
+when energy prices are volatile. Our task is not to react mechanically to every 
+fluctuation. Our task is to ensure that inflation stabilises sustainably at 2% over the 
+medium term.
+Slide 6: More than four years of full-scale war have changed 
+Ukraine's economy
+Before I conclude, I would like to share a few thoughts on Ukraine. More than four years 
+of full-scale war have profoundly reshaped the Ukrainian economy.
+The scale of the shock is difficult to overstate. Russia occupies around a fifth of 
+Ukraine's territory, roughly 15% of the population have fled abroad since the invasion 
+began, and by the end of 2025 the economy was about 20% smaller than in 2021. Last 
+winter, Russia again systematically targeted energy infrastructure, causing prolonged 
+power outages during one of the coldest winters in recent memory.
+Yet Ukraine's economy has continued to grow. GDP expanded by around 2% in 2025, 
+with the IMF projecting similar growth in 2026. The European Bank for Reconstruction 
+
+5/6 BIS - Central bankers' speeches
+and Development attributes this resilience to macroeconomic stability supported by 
+substantial external financing. For comparison, Russia's economy is forecast to grow by 
+only 0.8% in 2026  the aggressor is not winning the economic war.
+The war has also transformed the structure of Ukraine's economy. Agriculture now 
+accounts for around 60% of exports, up from 40% before the war, while defence 
+manufacturing has nearly tripled since 2021.
+Moreover, in just three years, Ukraine has built a thriving drone industry from a very 
+limited base.
+This experience provides four macroeconomic lessons. These lessons are relevant not 
+only for Ukraine, but also for Europe's thinking on resilience, defence industrial policy 
+and the role of international financial support in modern conflict.
+Slide 7: Lessons from Ukraine
+Gradual, sequenced deregulation stabilises a crisis economy
+A common wartime instinct is to impose price controls and restrict capital. Ukraine has 
+largely resisted this, and the results support that choice. Emergency capital controls 
+introduced after the invasion were gradually unwound as conditions stabilised, with 
+some forex operations and capital flows restored already in 2023. This measured 
+deregulation strengthened confidence among both citizens and foreign investors that 
+Ukraine could maintain a functioning financial system even in wartime. Ukrainians 
+largely kept their savings in the banking system and in the national currency, Ukrainian 
+hryvnia, helping preserve financial stability.
+Crises catalyse innovation and speed up how things are done.
+Ukraine's drone industry shows not only what can be produced under pressure, but how 
+quickly systems can adapt.
+Traditional defence procurement is often slow and centralised. Ukraine developed a 
+different model: rapid battlefield feedback, continuous design updates, and a network of 
+around 500 agile manufacturers able to respond in real time.
+The economy is the second frontline
+Modern wars are sustained not only by weapons, but by industrial capacity, supply 
+chains, public finances and social resilience. Ukraine's defence manufacturing has 
+nearly tripled since 2021, supported by a functioning market economy that has kept 
+businesses and workers operating. Ukraine's fiscal deficit in 2025 was 25% of GDP, 
+financed largely through more than $50 billion in external support. This means that 
+international budget assistance has become a strategic contribution to the war effort 
+itself.
+Institutional reform under pressure is hard but failure is costlier
+
+6/6 BIS - Central bankers' speeches
+Wartime conditions create fertile ground for corruption through opaque procurement 
+and emergency powers. Much of Ukraine's external financing is tied to reform and anti-
+corruption progress, reflecting the reality that corruption weakens defence capacity and 
+undermines reconstruction.
+Ukrainians themselves have shown strong support for accountability, including public 
+protests in 2025 after the country's parliament moved to limit the independence of key 
+anti-corruption agencies.
+Slide 8: Europe's strategic triple test
+Let me now conclude. Europe's ability to navigate in the world of power politics will 
+depend above all on its capacity to reform and stay united. Europe faces a triple test: 
+defence, energy and productivity.
+First, Europe must take greater responsibility for its own defence – preferably as the 
+European pillar of NATO. This will require stronger joint investment and procurement, in 
+order to ensure that the increased resources are used efficiently and capabilities 
+genuinely strengthened.
+Second, the latest energy crisis underlines the need to consistently continue advancing 
+the green energy transition. This is not "only" a matter of climate, but essential for our 
+energy resilience and security policy.
+Third, Europe must invest in human capital, deepen its capital markets, cut the red 
+tape, and promote innovation. Without stronger productivity growth, our long-term 
+prosperity will not rest on a sustainable foundation.
+The choices made in these three areas, both at EU level and by Member States, will 
+shape Europe's economic future and strategic capacity to act.
+In this context, monetary policy will act with a steady hand and ensure price stability, 
+thus supporting sustainable growth and job creation.
+Thank you very much for your attention.

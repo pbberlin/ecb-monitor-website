@@ -10,7 +10,7 @@ When John Connally, President Nixon's Treasury Secretary, spoke these words in t
 little choice but to bear the consequences of US policies.
 Half a century later, these words still resonate. Earlier this year, when turbulence was 
 emanating from the United States, investors turned to the euro as a safe haven. This 
-was of course a sign of confidence in Europe. But we also felt the costs, in the form of  
+was of course a sign of confidence in Europe.But we also felt the costs, in the form of  
 upward pressure on the exchange rate.
 Europe is more open than any other major economy. Our exports reached nearly €4 
 trillion last year. But this openness also makes us more exposed in a world where trade 
@@ -41,7 +41,7 @@ productivity of its businesses and its geopolitical weight.
 The same is true of the euro.
 In the first two decades of the euro's existence, its global role and exchange rate often 
 moved almost in lockstep – rising together in the first decade, and declining together 
-after the global financial crisis. But since the start of the third decade, the link between 2 
+after the global financial crisis.But since the start of the third decade, the link between 2 
 them has broken apart.
 Of course, in periods of transition between dominant currencies, there may be upward 
 pressure on the exchange rate as investors accumulate assets. But such shifts are 
@@ -55,11 +55,11 @@ Consider the United States. When the dollar receives safe-haven inflows, the unr
 depth of US financial markets both limits the extent of appreciation and channels those 
 inflows in ways which offset their contractionary effects.
 US Treasury yields decline when foreign investors seek US dollar-denominated fixed-
-income assets. Research shows that global demand for these safe assets compresses 3 
+income assets.Research shows that global demand for these safe assets compresses 3 
 Treasury yields by up to 2 percentage points in the long run, which is known as the 
-infamous "exorbitant privilege". Lower yields then reduce financing costs across the 4 
+infamous "exorbitant privilege".Lower yields then reduce financing costs across the 4 
 economy and support productive investment.5
-At the same time, because around 95% of US imports are invoiced in dollars , 6
+At the same time, because around 95% of US imports are invoiced in dollars, 6
 American exporters are largely shielded in the near term from exchange rate swings on 
 their foreign inputs and energy.
 However, in economies that are less globalised yet still seen as safe havens, the 
@@ -130,7 +130,7 @@ rules and incomplete capital markets. Structural challenges such as high energy 
 low productivity and reluctance to finance common projects are also, to a large extent, 
 within our own control.
 Today, almost three-quarters of EU firms at the forefront of innovation say that 
-fragmentation limits their opportunities. If we cap the potential of our own innovators, 8 
+fragmentation limits their opportunities.If we cap the potential of our own innovators, 8 
 how can we expect outsiders to invest here with confidence that their capital will grow?
 Unless we complete the Single Market and build a genuine savings and investments 
 union, Europe will not be capable of either absorbing or channelling capital inflows 
@@ -160,10 +160,10 @@ support financial stability and protect the smooth transmission of our monetary 
 Finally, we need to uphold our institutional integrity.
 If we want investors to place their capital in Europe, or our partners to use the euro for 
 trade, they must have full trust in our institutions.
-In this respect, Europe has a major advantage: our democratic checks and balances,  
+In this respect,Europe has a major advantage: our democratic checks and balances,  
 and the independence of our central bank. These are powerful tokens of stability in a 
 world where institutional integrity is increasingly being put to the test. Today, trust in the 
-EU is at its highest since 2007, while many U.S. institutions have fallen to their lowest 10 
+EU is at its highest since 2007,while many U.S. institutions have fallen to their lowest 10 
 levels over the same period.11
 But our institutions must also show that they can act to remain credible – and this is 
 where our biggest challenge lies.
@@ -195,7 +195,7 @@ the euro will continue to stand as a pillar of stability and strength for Europe
 more uncertain world.
 1 Net of mechanical valuation effects.
 2 ECB (2024), " ", JuneThe international role of the euro
-3 Rey, H. et al. (2024), " ", , No 32756, Elephants in Equity Markets  NBER Working Paper
+3 Rey, H. et al. (2024), " ", , No 32756, Elephants in Equity Markets NBER Working Paper
 July.
 4 For example, research indicates that the US Government saves up to 2% in interest 
 costs per year on foreigners' Treasury holdings. See Jiang, Z., Krishnamurthy, A. and 
@@ -203,7 +203,7 @@ Lustig, H. (2021), "Foreign Safe Asset Demand and the Dollar Exchange Rate", Th
 , Vol. 76, No 3, pp. 1049-1089, June.Journal of Finance
 5 Chen, Z. et al. (2025), " ", 30 January.The US as the Global Equity Safe Haven
 6 Swegal, H. ( 2025), "The role of foreign currencies in BLS import and export price 
-", , U.S. Bureau of Labor Statistics, September.indices  Monthly Labor Review
+", , U.S. Bureau of Labor Statistics, September.indices Monthly Labor Review
 7 The United States accounts for 10% of total euro area exports, and the new tariffs are 
 expected to reduce euro area exports to the United States by approximately 9%, 
 translating to a 0.9% decline in overall euro area exports – roughly €66 billion. Making 
@@ -214,6 +214,6 @@ all other things being equal.
 9 Joint Research Centre (2024), "New trade agreements to result in positive cumulative 
 ", 22 February.impact on EU agri-food trade balance
 10 European Commission (2025), "Eurobarometer shows record high trust in the EU, 
-",and strong support for the euro and a common defence and security policy  press 
+",and strong support for the euro and a common defence and security policy press 
 , Brussels, 28 May.release
 11 Gallup, . Confidence in Institutions

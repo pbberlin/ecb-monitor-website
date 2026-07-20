@@ -1,0 +1,220 @@
+1/6 BIS - Central bankers' speeches
+Gabriel Makhlouf: One single market - goods, services and capital
+Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the AFME 
+European Financial Integration Conference, Frankfurt am Main, 19 May 2026.
+* * *
+Thank you for the invitation to speak this afternoon.
+I want to talk about the Single Market, which is one of Europe's greatest political and 
+economic achievements. Over more than three decades, it has been an engine of 
+European growth and resilience, delivering scale, opportunity, and tangible benefits for 
+citizens and businesses across the Union. As has pointed out, it  António Costa 
+connects 450 million consumers and 32 million companies, supporting around 56 
+million jobs through trade within the EU.
+But we have taken too narrow a view of what the Single Market should be at a cost of 
+missing out on greater growth, greater resilience and greater opportunities for the 
+citizens of Europe. What follows is an argument for more ambition for Europe's Single 
+Market, building on what already exists in order to continue to grow the income per 
+capita of our citizens, and at the same time build resilience to the new geoeconomic 
+context we are facing.
+The title of my speech, "One Single Market: Goods, Services and Capital", captures the 
+point I want to emphasise. A well-designed Savings and Investments Union (SIU) is 
+important, and I have spoken about it before, including at Eurofi in March. But the SIU 
+alone will not deliver the productivity boost Europe requires if the Single Market it sits 
+within is not working as it should.
+So my question for today is this: what would Europe actually look like if it were 
+operating as a genuine Single Market in goods, services and capital simultaneously, 
+and what will it take to get there?
+Single Market ambitions
+The that the Single Market has already raised EU  European Commission estimates 
+GDP by 3-4%. Completing it – that is, removing outdated rules, standards and 
+inconsistent national regulations that hamper trade in goods and services within the 
+bloc – could double these gains.
+The biggest upside is in services, which account for around 75% of EU GDP and the 
+largest share of European jobs, yet intra-EU trade in services stands at just 7.6% of EU 
+GDP. Notably, this figure is no higher than Europe's services trade with countries 
+outside the bloc. Many of the barriers that produce this outcome are long-standing, well-
+known, and persistent.
+
+2/6 BIS - Central bankers' speeches
+The European Commission's recent identified the ten most  Single Market Strategy 
+harmful barriers holding back intra-EU trade and investment. They include restrictive 
+national regulations on services that prevent companies from operating across borders, 
+lack of common standards, and complicated business establishment rules.
+The Commission also identified a lack of single market ownership by national 
+governments as contributing to an inconsistent implementation of already agreed rules. 
+In other words, the rules exist, the political commitment was made, but the 
+implementation has lagged. This is not a problem that more EU legislation will solve on 
+its own. It requires national governments to take active ownership of the Single Market 
+agenda.
+I was very pleased to see that last week the Irish Government acted on this ownership 
+challenge and launched a comprehensive new national framework for Single Market 
+. This includes a new dedicated Single Market Office, an Advisory Panel implementation
+from the private and public sector, and a senior official appointed as Ireland's Single 
+Market 'Sherpa' to translate political direction into practical action. This positive 
+development reflects something important: that a key step in truly completing the Single 
+Market will be Member States taking responsibility to deliver it at home.
+Why does all of this matter for a room of financial services professionals? Because 
+financial services are a services sector. The barriers that limit a law firm or an 
+accounting practice from operating seamlessly across EU borders are close relation of 
+the barriers that fragment European capital markets, raise the cost of cross-border 
+investment, and keep European savings trapped in national systems (or outside of the 
+EU) rather than flowing to their most productive use within Europe. The single market 
+for capital cannot be separated from the single market for services. The cost of this 
+unfinished project falls on every business, every household, and every citizen in Europe.
+Capital markets diagnosis
+The EU banking sector has assets of around . Debt securities add a further €33 trillion  
+, with the bulk of this public or banking sector debt. Europe has a substantial €24 trillion
+financial system, yet when it comes to debt or equity-financing for non-financial firms – 
+the part of the financial system most directly associated with risk capital, innovation, 
+and growth – the picture changes. We see this in EU stock market capitalisation, which 
+at is around a quarter of the size of the US equivalent. This is a  73% of GDP in 2024 
+structural feature of how Europe's financial system is built, and it has consequences.
+As Mario makes clear, the capital market gap and the innovation gap Draghi's Report 
+are two sides of the same coin. EU venture capital investment in 2025 totalled around 
+, or around one-fifth the equivalent figure in the United States, and the gap €66 billion
+widens sharply as firms mature: at the scale-up stage, EU venture capital drops below 
+10% of US levels. As Draghi points out, Europe has no shortage of innovative start-up 
+firms. Rather, what it lacks is a deep capital market to grow them into large ones.
+A common response to this diagnosis points to regulatory fragmentation. This matters, 
+of course, but I see it as a symptom as much as a cause. We need to address the 
+underlying constraint, which is that we do not yet have a genuine Single Market, 
+
+3/6 BIS - Central bankers' speeches
+especially for trade in services. And without one, regulatory harmonisation alone will not 
+close the gap.
+The SIU addresses part of the gap. It is welcome, it is necessary, and I support the 
+Commission's work on it. In the next section I mention two conditions that need to be 
+met to deliver SIU. But we also need to remember that SIU operates within the Single 
+Market as it currently exists. If that market remains fragmented then the SIU's ambitions 
+will be constrained by the architecture it sits within.
+Single capital market - what would it actually take
+I see two primary conditions that need to be met.
+The first is completing the regulatory architecture, including harmonised insolvency 
+frameworks, convergent tax treatment of cross-border investment, and deeper and 
+more liquid post-trade settlement infrastructure. The Commission's Market Integration 
+, published last December, moves in the right direction, as do thePackage  ongoing SIU 
+.initiatives
+The second condition is that a genuine single capital market requires a single safe 
+asset – something I and my colleagues on the Governing Council have pointed out 
+before. This is the foundation for the architecture of the SIU. In its absence, pricing and 
+collateral remain fragmented, and the prospect of building a deep European capital 
+market at scale is hampered from the outset.
+The NextGenerationEU (NGEU) programme demonstrated that Europe could issue 
+common bonds at scale, backed collectively by member states, and that when it does, 
+markets respond. Outstanding debt now stands at close to €800 billion, carrying a AAA 
+rating, with secondary market liquidity that has deepened over time.
+And yet, NGEU bonds do not yet fully behave like safe assets. The spread over 
+German Bunds has averaged around 50 basis points since 2022, although this is not 
+too different from GDP-weighted spread on European Sovereigns. Their one-off and 
+time-limited nature means they are also excluded from the main sovereign bond 
+indices, limiting the investor base. NGEU showed that when there is a will there is a 
+way, but it should not be viewed as the end goal. We need to look further, to create the 
+infrastructure for a genuine common safe asset.
+So, what could the end goal look like? One option is a permanent, scaled European 
+safe asset to finance investment in European public goods, as proposed by Joachim 
+and, more recently, . Examples include the green transition, digital Nagel   Philip Lane
+infrastructure, and security and energy independence. Olivier Blanchard and Ángel 
+Uribe have argued persuasively for the creation of a deep, large and liquid market for 
+Eurobonds in order to deliver the financial strength needed for its strategic 
+autonomy.  As the showed, financing the required level of spend through  Draghi Report 
+fragmented national bond markets, each priced differently and held in national 
+portfolios, is both less efficient and less resilient than the alternative. Europe has shown 
+it can do the alternative. The question is whether this can be moved onto a more 
+permanent basis, and not just crisis-linked and time-limited cases. 
+
+4/6 BIS - Central bankers' speeches
+A safe asset would also support the greater internationalisation of the euro, building on 
+the ECB Governing Council's recent revisions to the ECB's repo facility () to EUREP
+make euro-denominated assets more attractive to global investors.
+I acknowledge that this is not all a 'win-win' proposition. If it was, we would not be in a 
+situation where the barriers to completing the Single Market are acting as a structural 
+drag on European competitiveness, as puts it, or its productivity as I prefer  Enrico Letta 
+to put it. There are trade-offs involved, not least that more integration could mean less 
+national flexibility. But the question is not whether there are trade-offs – there always 
+are – but whether the cost of not acting now exceeds the cost of acting. And on that 
+question, I believe the evidence is clear. The productivity gap with other countries such 
+as the US is widening, not narrowing. And the longer we delay, the more expensive the 
+adjustment becomes and the less competitive Europe will be in a world where capital, 
+talent, and innovation remain mobile.
+Ireland as illustration: the demand side
+Let me bring this closer to home, because the Irish experience illustrates another 
+aspect of the European challenge: the demand side.
+Ireland is a major global financial hub, home to both a large funds sector and a growing 
+fintech sector. And yet on the retail or household side participation in capital markets 
+remains among the lowest in Europe (e.g. see recent Central Bank of Ireland research 
+on Irish households' and ). As of March this year, Irish  fund holdings   savings behaviour
+households had €172 billion on deposit with banks, with around 85% of it in overnight 
+accounts earning little interest. Household wealth stands at a new high, averaging 
+around €724,000 per household, with two-thirds concentrated in housing.
+Why do we see this gap between what the Irish financial sector is providing at a global 
+level and what households are choosing to participate in? The answers go beyond the 
+supply-side fragmentation I have previously mentioned. One issue is uneven tax 
+treatment, which tends to incentivise deposits or property over other investments. 
+Another is financial literacy, which is a . Cultural norms and attitudes to  national priority
+savings and investment that are focused on real assets – i.e. housing – are also an 
+important factor.
+These are not problems that harmonising EU regulations will fix. They also require 
+national action on a range of fronts. Last month the Irish Government brought together 
+industry and regulators to begin addressing these barriers in a structured way. The 
+Government has committed to legislating for a new Personal Investment Account 
+framework by 2027, alongside a retail investment tax roadmap. Pension auto-enrolment 
+is also now live.
+These changes represent significant structural interventions to channel household 
+savings into long-term investment, with auto-enrolment alone bringing many Irish 
+workers into pension saving for the first time, through default funds invested in 
+diversified asset classes.
+The point I want to make is this. Even if everything at the European level goes right, the 
+SIU will still fall short of its potential if national barriers like these are not addressed 
+
+5/6 BIS - Central bankers' speeches
+alongside it. Europe cannot build a single capital market if its citizens are not active 
+participants in it. Progress on the demand side will not be swift – changing cultural 
+attitudes to investment is not something that moves quickly – but it needs to start.
+The Central Bank of Ireland: what we're doing
+Central banks underpin stable capital markets through delivering monetary and financial 
+stability – an essential pre-requisite for successful capital markets. Regulators also play 
+a key role in ensuring the market is well-functioning and that investors are protected.
+I am conscious that arguments for deeper European integration can sometimes sound 
+better from a podium than they look in practice. So let me say something about what 
+the Central Bank of Ireland is doing to advance this agenda, because it matters that 
+words and actions point in the same direction. I'll mention two things.
+First, supervisory convergence, and here I want to be precise about what I mean. There 
+is broad agreement that Europe needs more convergent supervision. This means that 
+the same rules should be applied in the same way across Member States, that 
+regulatory arbitrage is avoided, that compliance costs for cross-border groups are 
+minimised, and that supervisory processes are faster and more predictable.
+I share those objectives fully, and we prioritise and actively contribute to supervisory 
+convergence at the European Supervisory Agencies, promoting best practices in 
+authorisation, supervision and a common approach to risk identification across the EU, 
+among other things.
+But having said that, I would add a note of nuance on the question of how convergence 
+is best achieved. The answer is not necessarily always more centralisation. It can also 
+be achieved through even greater collaboration between national and European 
+authorities, through stronger common standards applied consistently at a national level, 
+and through the kind of mutual trust and shared supervisory culture that takes time to 
+build but, once built, is likely to be more effective and more durable than any 
+institutional restructuring. Convergence in outcomes is what matters.
+Second, regulatory simplification. Last December we published our roadmap, 
+, a multi-year programme to make our Regulating and Supervising Well (PDF 440.55KB)
+framework more effective, clearer to navigate, and more proportionate, without 
+compromising resilience. It covers four areas: supervision, regulation, gatekeeping, and 
+data reporting. Specific commitments include retiring domestic AML publications that 
+duplicate the new EU rulebook, streamlining authorisation processes for funds and 
+market participants, and introducing "discipline-by-design" tests for any new reporting 
+requirement, checking necessity, proportionality, and potential for re-use before a 
+request is made. Our guiding principle is implementation before legislation: simplify the 
+application of existing rules before layering on new ones. Simplification is not the 
+enemy of robust regulation. Done properly, it is what makes robust regulation credible 
+and durable.
+Conclusion
+
+6/6 BIS - Central bankers' speeches
+Europe has the talent and the institutional foundations it needs to grow. But that 
+potential is not self-realising.
+We have seen that Europe can, when it chooses to, build common instruments that 
+work. The starting point for doing that well is not to take a narrow view of what the 
+Single Market should be. The Single Market for Capital cannot be separated from the 
+Single Market for Services. If Europe's Single Market continues to remain fragmented 
+then the ambitions we all have for a successful Savings and Investment Union will 
+remain contained. We all know we can do better.
+Thank you.

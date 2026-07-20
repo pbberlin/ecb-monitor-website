@@ -17,7 +17,7 @@ The world of crypto, developed mostly over the last decade, has radically challe
 our way of thinking about financial assets, about the concept of money and about the 
 set up of market infrastructures that support payment and settlement systems.
 We all see the impressive figures involved in the crypto industry: The stablecoin sector 
-only, constitutes a 250 billion dollar  market today. It is assessed that 27 trillion dollars 1
+only, constitutes a 250 billion dollar market today. It is assessed that 27 trillion dollars 1
 moved through stablecoins last year – more than VISA and Mastercard combined. And 
 the initial public offering (IPO) of a stablecoin giant last June was followed by an 
 immediate sharp surge of its share prices.
@@ -29,8 +29,8 @@ perspective.
 Blockchain technology was for years considered a synonym to crypto assets (like 
 bitcoin) and was associated with increased risks for investors and for the financial 
 sector. And perhaps rightly so, as the crypto world had developed in a regulatory 
-vacuum that is only now being contained by legislation – however, only in certain   
-jurisdictions and in different ways.   
+vacuum that is only now being contained by legislation – however, only incertain   
+jurisdictions and indifferentways.   
 In the last few years, blockchains and the wider Distributed Ledger Technology have 
 gained momentum in the financial sector, both in the so-called Decentralized Finance 
 (or DeFi), but also in institutional financial activities. Distributed ledger technology is 
@@ -63,14 +63,14 @@ financial services. Similar to key monetary innovations of centuries past, the
 tokenisation of money and financial assets has the potential to expand the universe of 
 possible contracting outcomes to support economic growth. However, significant 
 challenges remain, notably the need for scalable platforms, regulatory clarity and robust 
-infrastructure .2
+infrastructure.2
 Many issues and questions emerge in the context of the crypto-space: For example, 
 regarding holders' rights and protections, governance, and private law provisions. 
 Public attention on such issues became greater as certain fraud episodes occurred, 
 revealing severe weaknesses in the crypto ecosystem.  Legislation does not address all 
 issues or addresses them differently across jurisdictions. Various countries have 
 introduced ambitious rules for the crypto market: the European Union (with the "MiCA" 
-Regulation), the US (with the GENIUS Act), as well as certain major Asian countries .3
+Regulation), the US (with the GENIUS Act), as well as certain major Asian countries.3
 The European Union rules (MiCA) put more emphasis on conduct obligations, 
 consumer protection and liability regimes. The DLT Pilot regime, another piece of 
 relevant European legislation, facilitates trading and settlement of financial instruments 
@@ -169,7 +169,7 @@ Market infrastructures for payment and settlement constitute an area where radi
 transformation is taking place. Central banks focus more on the infrastructures 
 underlying wholesale transactions and are currently taking actions for reforms, following 
 market trends. In previous decades, reforms in the area of infrastructures referred to 
-dematerialization and digitalization; now the next major leap forward is ,  tokenization
+dematerialization and digitalization; now the next major leap forward is,  tokenization
 
 5/6 BIS - Central bankers' speeches
 which introduces a programmable platform where claims are processed, removing the 
@@ -186,7 +186,7 @@ results of this work were very successful: More than 200 transactions were reali
 within a 6-month period, with 60 market participants, with a total value of 1.6 billion 
 euros. Following that successful exercise, the Eurosystem has announced that it 
 continues with a view to provide wholesale settlement on Central Bank Money for DLT-
-based use cases with a so-called "dual strategy" . In specific:4
+based use cases with a so-called "dual strategy". In specific:4
 The Eurosystem is to provide a based on interoperability that  short-term solution 
 pilots a link between distributed ledger technology platforms and TARGET Services. 
 That solution will in practice offer central bank money settlement for DLT-based 
@@ -198,7 +198,7 @@ In parallel, the Eurosystem is developing a workstream towards a long-term solut
 involving DLT-based infrastructure. This workstream is focused on the concept of a 
 European hub that will shape an innovative, integrated financial ecosystem.
 Both these actions are given priority: Considering that over 60% of European banks are 
-using or exploring DLT and that securities issuances in DLT are increasing , we as 5
+using or exploring DLT and that securities issuances in DLT are increasing, we as 5
 central bankers feel that we in some way need to "re-imagine" central bank money. The 
 innovations are to enable market participants to manage trading, settlement and 
 custody on a single platform, available 24/7, 365 days a year. Trading and settlement 

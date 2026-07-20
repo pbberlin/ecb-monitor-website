@@ -26,7 +26,7 @@ The first session focused on a familiar story, but with sharper edges. Cost and 
 remain the two most pressing issues for end users - and they are closely connected to 
 our broader objectives of transparency and access.
 We have seen encouraging progress, but end-to-end speed still falls short, particularly 
-in retail payments.  Why? We identified several factors: outdated domestic 1
+in retail payments. Why? We identified several factors: outdated domestic 1
 infrastructures; limited access to payment systems; and insufficient standardization and 
 automation - especially in areas like anti-money laundering, combating the financing of 
 terrorism and capital controls.
@@ -52,10 +52,10 @@ the time it takes for funds to reach the beneficiary.2
 Second, jurisdictions must push forward on harmonized rules for collecting, storing and 
 sharing data - including common formats and messaging standards. ISO 20022 is the 
 payments' 'lingua franca', and its global adoption is a foundational step toward reducing 
-friction and enabling automated processing.  But its potential can only be realized if 3
+friction and enabling automated processing. But its potential can only be realized if 3
 there is convergence in how data fields are populated. The Financial Action Task 
 Force's revised Recommendation 16 and the CPMI's harmonized ISO 20022 data 
-requirements have provided much-needed clarity here.  The CPMI's ISO 20022 report, 4
+requirements have provided much-needed clarity here. The CPMI's ISO 20022 report, 4
 developed jointly with the private sector, is a good example of what collaborative 
 harmonization efforts can achieve. We're aiming for harmonization by end-2027, with 
 earlier adoption where possible.
@@ -74,7 +74,7 @@ competition in markets that have historically been concentrated, broader partici
 and of course, more informed decisions by end users.
 Policymakers have a key role in providing regulatory clarity, but without sustained 
 industry engagement and support, reforms stall. This is precisely why the CPMI has 
-invested in structured dialogue with market participants  - and why those partnerships 5
+invested in structured dialogue with market participants - and why those partnerships 5
 are already paying off. Private sector stakeholders have been central to promoting 
 alignment with ISO 20022 harmonization requirements. That cooperative model - public 
 sector leadership, private sector expertise - is the right one.
@@ -82,7 +82,7 @@ sector leadership, private sector expertise - is the right one.
 3/4 BIS - Central bankers' speeches
 Let me also add: this is not just about compliance and burden-sharing. There are 
 meaningful opportunities here for private firms. As central banks foster the interlinking 
-of payment systems,  the private sector can play a pivotal role as network service 6
+of payment systems, the private sector can play a pivotal role as network service 6
 providers, FX providers, settlement agents, and as builders of the end-user services 
 that run along these new rails.
 Technology has run through all three sessions today - and rightly so. It is a powerful 
@@ -107,7 +107,7 @@ effectively with private sector solutions.
 The Eurosystem and Banca d'Italia are moving in this direction. The digital euro aims to 
 safeguard the role of public money in retail payments; the Pontes and Appia initiatives 
 will extend the use of central bank money in interbank circuits through distributed ledger-
-based platforms.  Innovation is possible without dismantling the anchors of the financial 7
+based platforms. Innovation is possible without dismantling the anchors of the financial 7
 system.
 Ultimately, the systems we build must be grounded in openness: effective within 
 domestic markets, and inherently interoperable across borders. Only then can 

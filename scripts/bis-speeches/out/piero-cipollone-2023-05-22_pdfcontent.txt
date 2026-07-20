@@ -22,7 +22,7 @@ payment options available to households, businesses and financial institutions b
 we know that this makes our economies more inclusive, productive and resilient.1
 In the payments sector, the advances in digitalization and telecommunications are 
 transforming the user experience, business models and infrastructure. Fintech 
-operators, e-commerce providers and telecom companies have entered the scene.  2
+operators, e-commerce providers and telecom companies have entered the scene. 2
 Digital wallets, instant payments and the integration of payment services into non-
 financial services are driving innovation.
 What will the payments ecosystem look like in ten years? It is hard to say, but it will 
@@ -34,7 +34,7 @@ educated have access to payment solutions; where remittances and cross-border
 payments are as seamless as domestic payments; where financial and non-financial 
 services can be easily bundled in new ways; where banks and non-bank providers work 
 together and compete on a level playing field.
-This is our vision. Will it remain wishful thinking? Obviously, there are obstacles.  For 3
+This is our vision. Will it remain wishful thinking? Obviously, there are obstacles. For 3
 domestic payments costs and inclusion seem to be the key problems we are confronted 
 with. Indeed many people who are unbanked or offline still have limited or no access to 
 payments. Cross-border payments remain expensive and inefficient. The regulatory 

@@ -30,7 +30,7 @@ Inflation declined from 5.2% last August (the month immediately prior to the las
 rate hike at the September meeting on monetary policy), to 2.5% in June 2024.
 Underlying inflation has also eased, reinforcing the signs that price pressures 
 have weakened.
-Core inflation has sharply decreased from 6.2%  in August 2023 to 2.9% in June 2
+Core inflation has sharply decreased from 6.2% in August 2023 to 2.9% in June 2
 2024 .3
 In June, the highest contribution to the inflation rate came from services. Services 
 inflation remains elevated, but it has followed a broadly declining path since last 
@@ -69,7 +69,7 @@ have been the peak, and that wage growth will ease during the remainder of
 According to the ECB wage tracker data for the first few months of the year, 
 when most agreements take place, negotiated wage pressures are 
 moderating. This is supported by other indicators of wage pressures such as 
-the Indeed wage tracker  based on job postings, which has materially 4
+the Indeed wage tracker based on job postings, which has materially 4
 decelerated in recent months (from a peak of 5.4% in October 2022 to 3.7% 
 in June 2024.)
 The impact of higher wages on price pressures depends on the rate of labour 
@@ -228,7 +228,7 @@ We need to focus firmly on domestic conditions, taking into account any impact
 from the expected path of U.S. interest rates. Domestic conditions provide the 
 guideposts on our decisions.
 Furthermore, as Philip Lane, Chief Economist of the ECB, said in a 
-recent  interview with the Financial Times,  delays in the expected timing of Fed 5
+recent  interview with the Financial Times, delays in the expected timing of Fed 5
 
 6/7 BIS - Central bankers' speeches
 rate cuts have pushed up U.S. bond yields and this has also lifted long-term yields 
@@ -277,7 +277,7 @@ First, the institutional independence of the ECB and the national central banks
 comprising the Eurosystem.
 
 7/7 BIS - Central bankers' speeches
-Second, the commitment to the 2% inflation target, using key interest rates as the 
+Second , the commitment to the 2% inflation target, using key interest rates as the 
 primary monetary policy tool, together with non-standard measures, when required by 
 macroeconomic and monetary conditions.
 Third, a pragmatic, flexible and gradual approach, in an environment of heightened 

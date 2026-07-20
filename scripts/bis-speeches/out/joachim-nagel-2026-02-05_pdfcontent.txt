@@ -12,7 +12,7 @@ with experts in their fields and with our guests.
 The focus of our first Spotlight will be the digital euro. For this event, we have invited 
 two guests to the podium, and I am delighted that they are able to be here today: 
 Ramona Pop from the Federation of German Consume Organisations, and Christian 
-Sewing–who will engage in today's discussion not only in his capacity as CEO of    
+Sewing–who will engage in today's discussion not only in his capacity asCEO of    
 Deutsche Bank but also as President of the Association of German Banks. 
 By introducing the digital euro, we want to make our single currency, the euro, fit for the 
 future. Our vision is to create a single European payment solution that is state of the art 
@@ -78,7 +78,7 @@ Visa and Mastercard currently account for almost two-thirds of all card payments
 euro area. 13 out of 21 euro area countries do not have an own national card system 
 like we have girocard in Germany. 
 These countries therefore rely entirely on non-European card systems, including within 
-their own country's borders. To put it bluntly, we are very dependent on US corporations    
+their own country's borders. To put it bluntly, we are very dependent onUS corporations    
 in payments today–too dependent.
 Payments are part of our critical infrastructure. And we really ought to stand on our own 
 two feet when it comes to critical infrastructure. The digital euro would be the first and 

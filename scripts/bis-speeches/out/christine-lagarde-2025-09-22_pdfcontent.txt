@@ -20,7 +20,7 @@ pace has only accelerated with advances in technology. And second, what appears
 new often reflects old risks in a different form.
 Here I am reminded of Carmen Reinhart and Kenneth Rogoff's history of financial 
 crises, "This Time Is Different". The book's subtitle, tellingly, is "Eight Centuries of 
-Financial Folly". After eight centuries of experience, I think it is fair to say that this time 1 
+Financial Folly".After eight centuries of experience, I think it is fair to say that this time 1 
 is never different.
 And that is why research plays such an important role in helping to safeguard financial 
 stability. Through rigorous analysis and a solid understanding of the past, research 
@@ -40,7 +40,7 @@ about 140% of GDP in 1999 to close to 400% today.2
 Accordingly, they play an increasingly important role in financing the real economy and 
 in managing the savings of households and firms. Non-banks now account for over 
 60% of the euro area financial sector.3
-The banking sector – the focus of today's second session – is also operating in a fast- 
+The banking sector– the focus of today's second session – is also operating in a fast- 
 changing landscape driven both by technological innovation and by the emergence of 
 non-banks.
 For starters, technology challenges banks' business models through the rise of fintechs4
@@ -48,7 +48,7 @@ as well as new innovations like stablecoins if they gain substantial traction. 
 On top of this, technology also amplifies both the speed and scale at which these risks 
 can materialise.
 The events of March 2023, when three US banks collapsed in five days, highlighted 
-how social media can act as a powerful conduit for panic and contagion – all the more 6 
+how social media can act as a powerful conduit for panic and contagion– all the more 6 
 so now that banking services are available on smartphones.7
 The bank and non-bank sectors are not just changing rapidly, they are also highly 
 interconnected. In the euro area, for example, banks' asset exposures to non-banks are 
@@ -70,7 +70,7 @@ innovation can take root and thrive.
 With this in mind, Europe is now implementing an ambitious simplification agenda under 
 the direction of the European Commission.
 Simplification does not necessarily mean deregulation. It means maintaining resilience 
-with a more effective and efficient supervisory and regulatory framework. And the 9 
+with a more effective and efficient supervisory and regulatory framework.And the 9 
 discussions over the next two days will add insights to the debate on the efficient design 
 of supervision.
 
@@ -97,18 +97,18 @@ Thank you.
 30 June – 2 July.
 3 Pelizzon, L. et al. (2025), op. cit.
 4 Garcia, T. et al. (2025), "Digital banking: how new bank business models are 
-", , ECB, May.disrupting traditional banks  Financial Stability Review
+", , ECB, May.disrupting traditional banks Financial Stability Review
 5 Flannery, M.J. (2023), "How the Rise of Stablecoins Could Threaten Traditional 
 ", 10 January; see also Lannquist, A. (2025), "Banks' Lending Capacity Stablecoins are 
 ", Atlantic Council, 8 July.trending, but what frictions and risks are getting overlooked?
 6 Board of Governors of the Federal Reserve System (2023), "Review of the Federal 
 ", 28 April; see also Reserve's Supervision and Regulation of Silicon Valley Bank
 Dosumu, O.E. et al. (2023), "Panic bank runs, global market contagion and the financial 
-", , Vol. 228, July.consequences of social media  Economics Letters
+", , Vol. 228, July.consequences of social media Economics Letters
 7 Garcia, T. et al. (2025), "Digital banking: how new bank business models are 
-", , ECB, May.disrupting traditional banks  Financial Stability Review
+", , ECB, May.disrupting traditional banks Financial Stability Review
 8 Franceschi, E. et al. (2023), "Key linkages between banks and the non-bank financial 
-", , ECB, May.sector  Financial Stability Review
+", , ECB, May.sector Financial Stability Review
 
 4/4 BIS - Central bankers' speeches
 9 Buch, C. (2025), "Simplification without deregulation: European supervision, 

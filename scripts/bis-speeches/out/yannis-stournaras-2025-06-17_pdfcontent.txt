@@ -60,7 +60,7 @@ First, administrative data or data from the ECB's Consumer Expectations Survey c
 complement the information collected by the HFCS to further deepen our understanding 
 of the above questions.
 Second, a somewhat unexplored topic, and a natural next step, would be to move from 
-documenting heterogeneity to understanding the of heterogeneity.  For  causes 
+documenting heterogeneity to understanding theof heterogeneity.  For  causes 
 instance, at the Bank of Greece we included a short module in the fifth wave of the 
 HFCS, to examine whether people with a refugee background have different 
 inclinations towards the accumulation of immovable assets. Going forward, it would be 

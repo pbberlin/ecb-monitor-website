@@ -12,15 +12,15 @@ May I also welcome you all and thank the secretariat for putting together an imp
 programme for this ESRB flagship event.
 Today, I would like to reflect on the role of the ESRB and its mandate regarding 
 financial stability and macroprudential policy in the EU.
-Slide 2: The ESRB's track record & new frontiers 
+Slide 2:The ESRB's track record & new frontiers 
 I will discuss three interlinked issues. Firstly, the ESRB at 15, an adolescent, with a 
 solid record. Secondly, key starting points for the forthcoming ESRB review. And thirdly, 
 new frontiers, especially dealing with non-banks and better use of data and analysis.
 Let's look at where we have come from. Since the global financial crisis, major efforts 
 have been made to ensure financial stability in the EU and globally through better 
-regulation and supervision. I think it is indeed fair to say that has  financial stability   
+regulation and supervision. I think it is indeed fair to say thathas  financialstability   
 risen forcefully up the agenda of central banks, not least as it provides essential support 
-for the central banks' primary goal of . price stability 
+for the central banks' primary goal of . pricestability 
 In recent years, financial systems and financial stability measures have been subject to 
 real-life stress tests, with the global economy being hit by a series of major shocks over 
 just a short period of time. Primarily, that is, the COVID-19 pandemic, Russia's illegal, 
@@ -29,7 +29,7 @@ In my view, the financial systems in the EU and elsewhere have withstood these s
 rather well. The Basel Committee on Banking Supervision points out that the strong 
 resilience has been largely thanks to the tightened capital and liquidity requirements for 
 banks.
-Slide 3: Sturdy capital buffers provide banking resilience 
+Slide 3:Sturdy capital buffers provide banking resilience 
 True, the capital ratios of European banks have roughly doubled since the global 
 financial crisis. The increased capital buffers have been – and will continue to be – 
 necessary in the current operating environment, which is filled with geopolitical and 
@@ -45,8 +45,8 @@ In our recent systemic risk assessment, we conclude that while disinflation in t
 on track, financial stability risks remain elevated amid heightened geopolitical risks and 
 the still fragile recovery of the EU economy. In the latest ECB projection, growth outlook 
 was revised down, and the risks to the growth outlook are tilted to the downside.
-In particular, we have to be aware of both the and impacts of direct   indirect   current 
-on the EU financial system. Geopolitical events may impact geopolitical risks   directly 
+In particular, we have to be aware of both theand impacts of direct   indirect   current 
+on the EU financial system. Geopolitical events mayimpact geopolitical risks   directly 
 financial markets by increasing volatility, affecting capital flows, exchange rates, and 
 credit spreads. , they can disrupt global trade and increase commodity prices,  Indirectly
 challenging households and businesses in the EU.
@@ -111,7 +111,7 @@ The work done by the ESRB over the years is considered especially valuable with
 regard to the definition of macroprudential policies and the development of a 
 for macroprudential policies in Europe, particularly in the comprehensive framework 
 banking sector.
-And this work has had a significant impact: , through its determined efforts, the ESRB  
+And this work has had a significant impact:, through its determined efforts, the ESRB  
 has helped to pre-emptively identify and mitigate the build-up of systemic risks in 
 .Europe
 Going forward, the ESRB could, in my view, play an even stronger role in the holistic 
@@ -139,7 +139,7 @@ EU collaboration in this field would contribute to strengthening economic stabil
 particular Member State and/or the EU in its entirety.
 The feedback we received also highlighted that, in its systemic risk assessment, the 
 ESRB should be able to incorporate a range of new emerging risks and 
-. underlined the need to better understandvulnerabilities  Several members  systemic  
+. underlined the need to better understandvulnerabilities Several members  systemic  
 . Other increasingly risks related to the non-bank financial institutions (NBFIs)
 relevant risks include . climate change, AI and cybersecurity
 The ESRB has already engaged in risk monitoring and analysis of the non-bank 
@@ -196,7 +196,7 @@ them to broaden the ESRB's access to information from supervisors, so that the d
 can be shared with the ESRB by default.
 This is extremely important for the ESRB to be able to effectively fulfil its mandate in 
 assessing the systemic risks and to promptly react in instances of projected instability.
-As the volume of data increases, we must also invest in new high-level analysis  
+As the volume of data increases, we must alsoinvest in new high-level analysis  
 . Modern methods of risk assessment make use of advanced tools and methods
 technologies, such as AI and machine learning, which enable better forecasting and 
 analysis. With these technologies, it is possible to process large amounts of data.

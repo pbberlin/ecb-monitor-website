@@ -27,7 +27,7 @@ This sector includes, amongst others, insurers, investment funds, and money mark
 and hedge funds. It is strongly interconnected, both with other sectors and across 
 countries. Its share of the global financial system, as measured by total financial assets, 
 is almost one-half.
-Clearly, it could be a source of systemic risks. But the risks presented by NBFIs often    
+Clearly, it could be a source of systemic risks. But the risks presented byNBFIs often    
 lie out of view. This makes them more difficult to monitor and assess. All the more 
 important, then, to close data gaps and strengthen the resilience of the sector.
 One particular source of vulnerability are fire sales of open-ended funds. These are the 
@@ -46,8 +46,8 @@ In times of stress, investors also try to protect their capital by shifting it i
 However, this flight to safety can intensify the downward pressure on the prices of 
 riskier assets as demand for the latter declines.
 The Financial Stability Board is doing important work in this field. But it is currently 
-focused on microprudential regulation. I think the FSB's work on this front needs to be  
-complemented by the development of macroprudential regulation for the NBFI sector.   
+focused on microprudential regulation. I think theFSB's work on this front needs to be  
+complemented by the development of macroprudential regulation for theNBFI sector.   
 In any case, we should not jeopardise what we have achieved in the banking regulation 
 space by allowing stability risks to build up elsewhere in the financial system.
 3 Central bank digital currencies
@@ -58,25 +58,25 @@ As the world turns increasingly digital, the digital euro would provide a secure
 efficient digital payment option that complements cash. It aims to strengthen Europe's 
 strategic autonomy by building on European infrastructures, and to promote innovation 
 in the private sector.
-However, introducing a CBDC could also have unintended side effects. If bank    
+However, introducing aCBDC could also have unintended side effects. If bank    
 customers were allowed to hold it in large amounts, periods of banking distress could 
-trigger large, sudden shifts out of deposits into This could lead to financial  CBDC. 
+trigger large, sudden shifts out of deposits intoThis could lead to financial  CBDC.  
 instability.
-And if CBDC were too attractive a substitute for deposits, commercial banks' access to    
+And ifCBDC were too attractive a substitute for deposits, commercial banks' access to    
 retail deposits could erode over time. Which could lead to structural disintermediation 
 and call into question our proven two-tier banking system. It is therefore of the essence 
-to design CBDC in a way that prevents these risks from materialising.   
-The challenge is to optimise the usability of CBDC as a means of payment while at the    
+to designCBDC in a way that prevents these risks from materialising.   
+The challenge is to optimise the usability ofCBDC as a means of payment while at the    
 same time limiting its effects on the market for bank deposits. Two decisive factors in 
 this regard are remuneration and holding limits. Let me say a few words on each of 
 these.
 
 3/5 BIS - Central bankers' speeches
-Remuneration means the rate of interest on people's holdings of If that rate of  CBDC. 
-interest were positive, holding CBDC would be more attractive. But at the same time,    
+Remuneration means the rate of interest on people's holdings ofIf that rate of  CBDC.  
+interest were positive, holdingCBDC would be more attractive. But at the same time,    
 that would lead to outflows out of bank deposits.
 Based on a welfare-maximising model setting, Pascal Paul will argue later this 
-afternoon that central banks should allow for a positive interest rate. This stands in 3 
+afternoon that central banks should allow for a positive interest rate.This stands in 3 
 contrast to the intention of the Governing Council not to remunerate digital euro 
 holdings.4
 Why are we not in favour of remuneration?
@@ -86,29 +86,29 @@ for deposits, nor do we want to employ the digital euro as a monetary policy ins
 The second, perhaps even more important, factor is holding limits. We intend to limit 
 digital euro holdings to a certain amount, because we want to ensure the digital euro 
 does not lead to large sudden shifts or disintermediation.
-The limits currently under discussion range from €500 to €3,000. A recent Bundesbank 5 
+The limits currently under discussion range from €500 to €3,000.A recent Bundesbank 5 
 paper finds that an optimal holding limit would be in a range between €1,500 and 
 €2,500. On the Governing Council, we have not yet taken a decision on the exact 6 
-amount. What is more, EU legislators might be involved here.   
+amount. What is more,EU legislators might be involved here.   
 But as regards the practical usability of the digital euro, the exact limit does not play a 
 major role anyway. This is because a reverse waterfall system, as it is called, would 
 allow users to link their digital euro wallet to their bank account. They can then convert 
 their bank deposits into digital euro automatically and instantly if their holdings are 
 insufficient to make a payment.
 4 Banking and deposit flows
-Allowing users to convert an unlimited amount of deposits into CBDC would expose    
+Allowing users to convert an unlimited amount of deposits intoCBDC would expose    
 commercial banks to substantial run risk. In any case, zero or lower interest rates will 
 not discourage them from doing that in times of crisis. However, digital bank runs can 
 happen even without CBDC.
 The failure of Silicon Valley Bank and other regional banks in March 2023 showed how 
 quickly customers can withdraw their deposits these days. At Silicon Valley Bank alone, 
-customers pulled out USD 42 billion within the space of a single day, which equated to    
-around one-quarter of total deposits. And another USD 100 billion would have been    
-withdrawn a day later. The depositors on the run were apparently account holders with 7 
+customers pulled outUSD 42 billion within the space of a single day, which equated to    
+around one-quarter of total deposits. And anotherUSD 100 billion would have been    
+withdrawn a day later.The depositors on the run were apparently account holders with 7 
 uninsured deposits.
 Banking and deposit flows are the subject of Session 3. Dominic Cucic will present a 
 paper showing that bank customers do indeed redistribute their deposits when deposit 
-insurance limits change. Credible and reliable deposit insurance helps to prevent bank 8 
+insurance limits change.Credible and reliable deposit insurance helps to prevent bank 8 
 runs and preserve financial stability.
 
 4/5 BIS - Central bankers' speeches
@@ -120,7 +120,7 @@ As a European layer should be risk-based, large exposures of banks to individual
 sovereigns are an issue. Currently, many banks hold a disproportionately large number 
 of bonds issued by their domestic governments. If this were to continue, a common 
 deposit insurance arrangement could lead to a redistribution of sovereign solvency risks.
-In my view, the new EU legislative session provides a good opportunity to move forward    
+In my view, the newEU legislative session provides a good opportunity to move forward    
 on both issues: with a reduction in banks' exposures to individual sovereigns, and a 
 common European deposit insurance system.
 5 Central bank interventions and market behaviour
@@ -141,8 +141,8 @@ prejudging the outcome of the review, I think their use should be limited to exc
 circumstances.
 6 Conclusion
 Ladies and gentlemen,
-The conference concludes with a panel discussion on the ECB's new operational  
-framework. As I have already expressed my views on this on a different occasion, I 10 
+The conference concludes with a panel discussion on theECB's new operational  
+framework. As I have already expressed my views on this on a different occasion,I 10 
 will end my speech by expressing my gratitude.
 Thanks to the organisers from the Bundesbank and Humboldt University for setting up 
 this conference. Thanks to the presenters, discussants and panellists for sharing their 
@@ -174,5 +174,5 @@ Limiting Arbitrage: Evidence from the Term Asset-Backed Securities Loan Facility
 mimeo.
 10 Nagel, J. (2024), ,  Reflections on the Eurosystem's new operational framework
 Speech at the Konstanz Seminar on Monetary Theory and Monetary Policy, 16 May.
-11 Vissing-Jørgensen, A. (2023), , ECB Forum on  Balance Sheet Policy Above the ELB    
+11 Vissing-Jørgensen, A. (2023), ,ECB Forum on  Balance Sheet Policy Above the ELB   
 Central Banking, Sintra.

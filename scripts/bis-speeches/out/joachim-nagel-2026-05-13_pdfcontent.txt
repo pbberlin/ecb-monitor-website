@@ -23,7 +23,7 @@ We are experiencing a world of change: rivalries are growing, the geopolitical c
 harsher, the situation is constantly changing abruptly. In the current decade alone, we 
 have already faced four major upheavals: the pandemic, with its consequences for 
 global supply chains; Russia's war of aggression against Ukraine with the subsequent 
-energy crisis in Europe; the volatile US trade policy with its tariff twists and turns; and    
+energy crisis in Europe; the volatileUS trade policy with its tariff twists and turns; and    
 now the conflict in the Middle East, which is pushing up oil and gas prices once again.
 All these upheavals have left their mark: old certainties have given way to new realities. 
 This applies first and foremost to our security, but also to our trade partnerships and our 
@@ -87,7 +87,7 @@ war against Ukraine began, inflation was already high and the deposit rate was
 negative. When the war in Iran began, inflation stood at around 2%, and key interest 
 rates were broadly neutral. The starting position is therefore different today than it was 
 then.
-It is against this backdrop that the ECB Governing Council met last week. We    
+It is against this backdrop that theECB Governing Council met last week. We    
 concluded that it is currently worth waiting to gain a clearer view of developments. We 
 therefore held key interest rates steady. One should not confuse the Governing 
 Council's vigilant, wait-and-see approach with hesitancy. We are aware of the risks to 
@@ -128,24 +128,24 @@ regulations in the European Union in order to make the European economy more
 competitive.3
 The problem here is not so much the existence of rules and regulations as their high 
 degree of complexity and rigidity. In practice, a medium-sized company wishing to 
-operate in the EU is often faced not with a single market, but rather a patchwork of    
+operate in theEU is often faced not with a single market, but rather a patchwork of    
 different national rules, reporting requirements and procedures.
 The European Commission has already taken initiatives to simplify regulation in the 
-European Union and to reduce administrative costs. In March, the European 4 
-Commission presented a legislative proposal for the introduction of a new 28th wide  EU-
-regime in corporate law. This is primarily intended to make it easier for young and 5 
-innovative enterprises to operate in the EU single market and to improve opportunities    
+European Union and to reduce administrative costs.In March, the European 4 
+Commission presented a legislative proposal for the introduction of a new 28thwide  EU-
+regime in corporate law.This is primarily intended to make it easier for young and 5 
+innovative enterprises to operate in theEU single market and to improve opportunities    
 for growth. This proposal now needs to be negotiated in Europe. In my view, it offers 
 great potential to facilitate the founding and scaling of enterprises in the European 
 single market.
 In the area of financial market regulation, too, there is scope for simplification – without 
-jeopardising financial stability in the process. The ECB Governing Council has launched    
+jeopardising financial stability in the process. TheECB Governing Council has launched    
 a high-level working group to specifically address the issue of how to make prudential 
 requirements in the euro area more efficient and less complex. I am a member of this 
 group.
 However, we need to do more than just simplify regulation and reduce bureaucracy in 
 order to give the European economy more momentum. The repercussions of the war in 
-the Middle East have shown us how urgent it is to gradually decrease the EU's  
+the Middle East have shown us how urgent it is to gradually decrease theEU's  
 dependence on imported energy. Here, it is key for us in Europe to undertake more joint 
 work to expand the supply of renewable energy and better link European energy 
 networks.
@@ -179,12 +179,12 @@ Union recently gave the green light for greater harmonisation of the rules for i
 proceedings in the Additional steps towards removing barriers to cross-border  EU.6 
 securities trading, the use of new technologies such as distributed ledgers in the 
 financial sector, as well as greater convergence and centralisation of the supervision of 
-financial market infrastructures are currently being discussed at the EU level.    7
+financial market infrastructures are currently being discussed at theEU level.    7
 In my view, it is crucial for Europe to make further progress on the savings and 
 investments union within the foreseeable future. The work on this project should be 
 accelerated. Against this background, I welcome the recent joint commitment by the 
 European Council, the European Parliament, and the European Commission to adopt 
-key elements for the EU single market by the end of 2027 at the latest. Many important    
+key elements for theEU single market by the end of 2027 at the latest. Many important    
 projects – especially in the area of the savings and investments union – are even 
 planned to be adopted by the end of this year.8
 4 The digital euro: a key project for sovereign European payments
@@ -197,8 +197,8 @@ systems play any noteworthy role at all. Germany, with its girocard system, is o
 them.9
 The trend towards digital payments continues to strengthen non-European market 
 leaders such as Mastercard, Visa, and PayPal. This creates a dependence that can be 
-as risky as those in the areas of defence or This has already been felt by judges at  AI. 
-the International Criminal Court in The Hague: following US sanctions, banks and    
+as risky as those in the areas of defence orThis has already been felt by judges at  AI. 
+the International Criminal Court in The Hague: followingUS sanctions, banks and    
 payment service providers blocked their accounts and cards.
 All of this underlines the need to take action: Europe cannot just sit in the passenger 
 seat when it comes to payments. Europe must be at the wheel.
@@ -243,9 +243,9 @@ is about freedom of choice, privacy, and access to public money – including 
 digital environment. And it is about strengthening efficiency, resilience, and strategic 
 autonomy in European payments. 
 In order for the digital euro to become a reality, we must create a binding legal 
-framework. This is where EU legislators come in. I am confident that, with regard to the    
+framework. This is whereEU legislators come in. I am confident that, with regard to the    
 legal side, everything will be signed and sealed by the end of the year. Once the legal 
-basis has been established, the ECB Governing Council will make a definitive decision    
+basis has been established, theECB Governing Council will make a definitive decision    
 on whether the digital euro will actually be introduced. Everything could then be ready 
 for a possible first issue in 2029.
 5 Conclusion
@@ -263,8 +263,8 @@ working to ensure stable money, supporting the savings and investments union, an
 pushing ahead with the digital euro.
 I am now eager to hear how you see the current situation. I look forward to our 
 discussion.
-1 See ECB (2026), , Chart 10.     Inflation perceptions and expectations
-2 Aiyar, S. et al. (2003), , Geoeconomic Fragmentation and the Future of Multilateralism  
+1 SeeECB (2026), , Chart 10.     Inflation perceptions and expectations
+2 Aiyar, S. et al. (2003), , Geoeconomic Fragmentation and the Future of Multilateralism 
 IMF Staff Discussion Notes 2003/001. 
 3 Draghi, M. (2024), ; Letta, E. (2024), The future of European competitiveness  Much 
 .more than a market

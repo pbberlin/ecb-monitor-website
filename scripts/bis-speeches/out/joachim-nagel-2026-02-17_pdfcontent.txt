@@ -24,7 +24,7 @@ thanks to its offline functionality, resilient even in times of crisis. This is 
 digital future of money.
 Since we have been able to address that question so quickly, I would now like to focus 
 the main part of my speech on a different issue for the future–the value of money–and 
-on what the ECB Governing Council is doing to safeguard price stability. To this end, I 
+on what the ECB  Governing Council is doing to safeguard price stability. To this end, I 
 would first like to take you through a brief thought experiment.
 Imagine that you have invited your friends over for dinner. After going out shopping, you 
 come back home to your flat. You notice that it's a bit too chilly. Your first instinct is to 
@@ -57,10 +57,10 @@ enshrined in the European Treaties, is to maintain price stability.1 In additio
 Eurosystem supports general economic policy in the European Union–provided that this 
 does not prejudice its objective of price stability. 
 However, what the Treaties do not stipulate is a precise definition of "price stability" 
-itself. It is the ECB Governing Council's job to set out this objective in concrete terms. It 
+itself. It is the ECB  Governing Council's job to set out this objective in concrete terms. It 
 did so most recently in 2025, thereby confirming the view that it has held since 2021:2
-ECB price stability can be best maintained when the   Governing Council aims for 2% 
-ECBinflation over the medium term. The   Governing Council's target is symmetric. 
+ECB price stability can be best maintained when the  Governing Council aims for 2% 
+ECBinflation over the medium term. The  Governing Council's target is symmetric. 
 Symmetry, in this context, means that negative deviations of inflation from the target are 
 equally as undesirable as positive deviations.3
 2.2 The medium term
@@ -103,7 +103,7 @@ contrast, if there is a risk of inflation expectations becoming unanchored from 
 stability target, then the medium term is considered to be shorter. 
 So that about covers our price stability objective and how it is operationalised.
 2.3 Interest rates as the most important instrument of monetary policy
-How exactly is the ECB Governing Council trying to achieve its price stability objective? 
+How exactly is the ECB  Governing Council trying to achieve its price stability objective? 
 The key interest rates are the Eurosystem's most important monetary policy instrument. 
 At present, the deposit facility rate is the main rate for steering the monetary policy 
 stance.
@@ -112,7 +112,7 @@ rate rule.6 The interest rate rule specifies whether and how the monetary polic
 rate should be adjusted depending on inflation and economic activity. These kinds of 
 simple rules are academically legitimate simplifications of reality. 
 In practice, however, the reaction function of a central bank is much more complex. 
-Since its meeting of 16 March 2023, the ECB Governing Council has explicitly referred 
+Since its meeting of 16 March 2023, the ECB  Governing Council has explicitly referred 
 to three factors when making its interest rate decisions. First, its assessment of the 
 inflation outlook in light of the incoming economic and financial data. Second, the 
 dynamics of underlying inflation. And third, the strength of monetary policy transmission.
@@ -140,7 +140,7 @@ always look at deviations within a wider context, taking a variety of factors in
 Now I would like to move from theory to practice. In recent years, the inflation rate in the 
 euro area has gone up and down. In the run-up to the coronavirus pandemic, the 
 inflation rate was below 2% for a number of years, considerably so in some cases. So it 
-was cool inside the house. During this time, the ECB Governing Council turned the 
+was cool inside the house. During this time, the ECB  Governing Council turned the 
 heating up to the maximum and did many other things to raise the temperature. 
 In 2021, we saw the start of an abrupt surge in inflation, which reached its peak in 2022. 
 The inflation rate climbed from 0.3% in December 2020 to 10.6% in October 2022. 
@@ -150,9 +150,9 @@ rates ten times between July 2022 and September 2023. The deposit facility rat
 increased from 
 0.5% to a peak of 4%. We thus turned the heating down substantially.
 Thanks, in part, to our decisive monetary policy response, the inflation rate has now 
-returned to close to our target. This is why the ECB Governing Council was able to 
+returned to close to our target. This is why the ECB  Governing Council was able to 
 lower its key interest rates again between June 2024 and June 2025. Since then, the 
-ECBdeposit facility rate has stood at 2%. Last week, too, the   Governing Council left the 
+ECBdeposit facility rate has stood at 2%. Last week, too, the  Governing Council left the 
 key interest rates unchanged. In January 2026, euro area inflation was 1.7%.
 3.1 Inflation outlook
 How could inflation develop from here? In their December 2025 projections, the 
@@ -165,7 +165,7 @@ however, the forecasts suggest that inflation will be right on target.
 At our most recent meeting last Thursday, we did not have any new official projections. 
 However, if we extrapolate the December 2025 projections using technical assumptions 
 on oil prices, exchange rates and market rates, the inflation outlook is largely confirmed. 
-The recent appreciation of the euro against the US dollar is also unlikely to have a 
+The recent appreciation of the euro against the US  dollar is also unlikely to have a 
 significant impact on this assessment.
 Furthermore, the risks to inflation are more or less balanced at present. In addition, long-
 term inflation expectations remain firmly anchored at our inflation target of 2%. This 
@@ -226,14 +226,14 @@ data closely. And we stand ready to adjust our monetary policy stance in both di
 as soon as this becomes necessary.
 Thank you very much for your attention.
 1 See Article 127 of the Treaty on the Functioning of the European Union.
-2 See European Central Bank (2025), The ECB's monetary policy strategy statement  
+2 See European Central Bank (2025), TheECB's monetary policy strategy statement  
 (2025) and Deutsche Bundesbank (2025), Key results of the 2024/2025 monetary 
 policy strategy review, Monthly Report, July 2025.
 3 Until 2021, the inflation target was asymmetric: price stability was defined as an 
-increase in the Harmonised Index of Consumer Prices for the euro area of less  (HICP) 
-than 2% compared with the previous year. In 2003, the ECB Governing Council clarified    
+increase in the Harmonised Index of Consumer Pricesfor the euro area of less  (HICP) 
+than 2% compared with the previous year. In 2003, theECB Governing Council clarified    
 that the inflation rate should be under, but close to, 2% over the medium term. Against 
-the backdrop of the low rates of inflation from the mid-2010s onwards, the ECB   
+the backdrop of the low rates of inflation from the mid-2010s onwards, theECB   
 Governing Council changed its price stability objective to a symmetric inflation target of 
 2% over the medium term in 2021. See European Central Bank (1999), The stability-
 oriented monetary policy strategy of the Eurosystem, Monthly Bulletin, January 1999, 
@@ -243,7 +243,7 @@ Monthly Report, September 2021.
 7/7 BIS - Central bankers' speeches
 4 See Ramey, V. (2016), Macroeconomic Shocks and Their Propagation, Handbook of 
 Macroeconomics, Vol. 2, pp. 71-162 and Bobasu, A. et al. (2025), Monetary policy 
-transmission: a reference guide through ESCB models and empirical benchmarks,    
+transmission: a reference guide throughESCB models and empirical benchmarks,    
 Occasional Paper Series 377, European Central Bank.
 5 See Deutsche Bundesbank (2025), op. cit.
 6 A well-known example is the Taylor rule. See Taylor, J. B. (1993), Discretion versus 

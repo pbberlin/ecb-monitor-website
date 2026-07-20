@@ -35,8 +35,8 @@ economies –but for the global economy as well. Combined, the European Union a
 the United States account for 30% of global trade and 44% of global GDP.
 Moreover, the mutual stock of direct investment between the European Union and the 
 United States amounted to 5.4 trillion euro in 2023.EU foreign direct investment in the    
-United States is more than five times the size of EU investment in China and India put    
-together. Total US investment in the European Union is even ten times higher than its    
+United States is more than five times the size ofEU investment in China and India put    
+together. TotalUS investment in the European Union is even ten times higher than its    
 
 2/4 BIS - Central bankers' speeches
 investment in those two countries.These investments reflect not only the opportunities 
@@ -72,13 +72,13 @@ First, rules, regulations and bureaucratic costs hamper growth and investment in
 Europe. With rules and regulations in mind, it is, of course, not their mere existence that 
 causes problems. It is their extraordinary complexity and rigidity. The reports by Enrico 
 Letta and Mario Draghi call for a simplification of regulations in the European Union to 
-enhance the competitiveness of the European economy. Simple, digital solutions that 2 
+enhance the competitiveness of the European economy.Simple, digital solutions that 2 
 work identically throughout the euro area, that is what businesses and citizens long for 
 as well. 
 So, we have to simplify the rules. Or at least, Member States need to do their share by 
 implementing these rules as they are instead of gold-plating them. Meanwhile, the 
 European Commission has taken the initiative to streamline regulations and lighten the 
-administrative load. Similarly, financial regulation can be simplified, while maintaining 3 
+administrative load.Similarly, financial regulation can be simplified, while maintaining 3 
 stability. In line with the initiative of the Commission, the Governing Council of the 
 
 3/4 BIS - Central bankers' speeches
@@ -104,10 +104,10 @@ legislative process.
 Third, we should channel efforts into supporting the international role of the euro. This 
 includes making Europe more independent in terms of payment systems and solutions.4
  Currently, the Eurosystem is working hard on the introduction of the digital euro –a 
-retail central bank digital currency, or This will be the first pan-European retail  CBDC. 
+retail central bank digital currency, orThis will be the first pan-European retail  CBDC.  
 digital payment solution, based solely on European infrastructures.
 Furthermore, we have already accomplished important exploratory work on the possible 
-introduction of a wholesale Notably, a wholesale CBDC would allow financial  CBDC.     
+introduction of a wholesale Notably, a wholesaleCBDC would allow financial  CBDC.      
 institutions to make programmable payments in central bank money. I also see merit in 
 euro-denominated stablecoins, as they can be used for cross-border payments by 
 individuals and firms at low cost.

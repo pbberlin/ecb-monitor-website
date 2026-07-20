@@ -31,7 +31,7 @@ Common European instruments can be part of the solution and help catalyse privat
 investment, in line with the Savings and Investments Union. This combination is 
 particularly important as many EU Member States are highly indebted, with little fiscal 
 space.
-Second, a European safe asset would reinforce the international role of the euro. One 
+Second , a European safe asset would reinforce the international role of the euro. One 
 key requirement for a truly global currency is that financial markets should be deep and 
 liquid with a reliable benchmark asset. The United States benefits from the large scale 
 and high liquidity of its Treasury market and the global role of the dollar. This is the well-
@@ -54,7 +54,7 @@ to this enhanced facility has been promising.
 And this brings me to my point, the 'market plumbing', which matters most in  third 
 stress conditions. To borrow a line from Sir Alex Ferguson: "Attack wins you games, 
 ."defence wins you titles
-In financial markets, ' ' means a resilient infrastructure that preserves stability defence
+In financial markets, '' means a resilient infrastructure that preserves stability defence
 when shocks hit – a safe asset is expected to remain liquid when other assets turn 
 volatile. It can serve as a pricing benchmark and the backbone of collateral in repo and 
 derivatives markets. Thus, a reliable and liquid benchmark can support financial stability 

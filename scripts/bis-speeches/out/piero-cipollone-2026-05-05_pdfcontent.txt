@@ -87,7 +87,7 @@ Tokenised central bank money is necessary for the market to expand and reach a
 tipping point – that is, the critical mass where it becomes rational for all the 
 complementary components to adopt the new technology, thereby creating a new 
 sustainable tokenised finance ecosystem.
-This rationale and the lessons learned from the exploratory work conducted in 2024  4
+This rationale and the lessons learned from the exploratory work conducted in 2024 4
 have shaped the Eurosystem's strategy. From September, we will offer tokenised 
 central bank money settlement for DLT-based transactions as part of our Pontes 
 project. This will provide a safe asset and a trusted common anchor that tokenised 
@@ -103,7 +103,7 @@ We need a vision for an integrated and competitive tokenised ecosystem and furth
 investigation into what it requires in terms of architecture and standards. Otherwise, the 
 tokenised market risks becoming a landscape of non-interoperable networks and 
 standards that fragment liquidity, limit competition and stifle innovation.
-This is precisely why we have developed the Appia roadmap , which we published in 6
+This is precisely why we have developed the Appia roadmap, which we published in 6
 March.
 Implication for monetary policy, financial stability and monetary 
 sovereignty

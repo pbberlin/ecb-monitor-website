@@ -1,0 +1,282 @@
+SPEECH
+Published: 17 June 2026
+
+
+Good afternoon everyone,
+Thank you for inviting me. It is an honour to be here, at this distinguished research institute.
+I'm an economist. Probably like many of you here.
+As economists, we are trained to take complex situations and break them down into their
+different components.
+We separate economic forces into distinct channels. We distinguish between what is
+temporary and what Is persistent. And we try to understand how these elements interact.
+It is, in many ways, a habit we apply quite broadly.
+One could imagine an economist confronted with a monster... and instinctively trying to
+decompose it into its parts.
+A monster like... the Chimera.
+The economic environment today has Chimera-like characteristics
+meer 2
+umn Monnet india
+The Chimera is a mythological creature that is part lion, part goat, and part serpent. It
+combines the most dangerous traits of each.
+And that makes it difficult to confront.
+You do not know where the threat will come from.
+It is dificult to read, and therefore difficult to respond to.
+In the myth, the hero Bellerophon eventually defeats the Chimera.
+
+
+But not by confronting it head-on. He first sets out to understand how it works—how it
+breathes fire, and then uses that understanding to turn its own force against it.
+| think Bellerophon would have made a good economist.
+Or maybe economists are kind of like mythological Greek heroes. I'll leave that in the middle.
+Anyway, that crucial distinction, between reacting to what we see, and understanding what
+is driving it, is also central to monetary policy today.
+In many ways, the economic environment we face today has chimera-like characteristics.
+We are not dealing with a single shock, but with a combination of forces: geopolitics, trade
+developments, and energy prices.
+Those forces interact in complex ways and are not always easy to disentangle.
+The key question for monetary policy is therefore similar to confronting the Chimera: how
+much of what we see reflects a persistent inflationary force, and how much may ultimately
+prove to be something more temporary?
+Let me begin with the outlook.
+The ECB projections published last week reflect our current benchmark. But, much like the
+Situation | just described, the current outlook is not driven by a single identifiable force.
+Instead, it reflects a combination of developments across energy markets, global trade, and
+geopolitics. Developments that interact in ways that are not always straightforward to
+disentangle.
+That is, among others, what makes the current environment unusually uncertain.
+In the baseline scenario, growth has been revised down in the near term, but remains
+relatively resilient. Higher energy prices, increased uncertainty, and weaker real incomes are
+weighing on consumption and investment. This is consistent with recent survey indicators,
+which point to subdued economic activity.
+Further ahead, a gradual recovery is expected as these headwinds ease.
+Turning to inflation, the headline path masks important differences across components.
+Energy prices play a key role in the near term, pushing inflation higher. At the same time,
+base effects and the downward slope of futures curves suggest that energy inflation will
+decline further out in the projection horizon.
+Core inflation has also been revised up somewhat. This reflects continued strength in
+services inflation, as well as the gradual pass-through of earlier cost pressures.
+Given the high level of uncertainty, the baseline is complemented by alternative scenarios.
+
+
+Revisions in the outlook for growth and inflation
+Real GDP growth HICP inflation
+(q-0-q growth rate) (y-o-y growth rate)
+-0,6 0.4 ; : :
+20 26 2? 28 25 26 2? 28
+Milder Adverse — Severe —— Milder ——— Adverse Severe
+———- June baseline 9 ==<<=March baseline «* 1 estimate June baseline ==== March baseline
+© DNB ee] Netes: Eurosystem staff macroeconomic projechons for the euro area, June 2026 ct
+eal
+These scenarios illustrate that, under less favourable developments — particularly with
+regard to energy prices and second-round effects —inflation could remain above the baseline
+for longer. We have also included a milder scenario, in which the conflict in the Middle East
+abates soon and oil prices come down quicker than in the baseline.
+Taken together, these projections suggest that risks to inflation remain upward. But the
+persistence of the shocks we face, especially regarding energy prices, and therefore the
+appropriate policy response, remain uncertain. A key element of the monetary policy
+decision the ECB took last week is that optimal monetary policy simulations show that even
+in the milder scenario a rate hike is warranted.
+This uncertainty is amplified by the volatility of other drivers of the outlook, such as trade
+developments and the broader geopolitical environment.
+Ultimately, how these shocks feed through to inflation depends on how expectations evolve.
+Temporary price movements need not translate into persistent inflation if expectations
+remain well anchored.
+But if expectations adjust, or become more dispersed, shocks may propagate more broadly
+through wages and prices.
+Let me now turn to these drivers in more detail, starting with tariffs and trade uncertainty.
+Tariffs create both upward and downward pressures on inflation in the euro area, making
+their net effect inherently uncertain.
+The imposition of tariffs throughout 2025 has affected the euro area through multiple
+channels. Some of these channels push inflation up, others push it down. This makes the
+
+
+overall impact difficult to assess, especially in a context of elevated trade policy uncertainty.
+Indeed, following the escalation of tariff measures, indicators of trade policy uncertainty rose
+to unprecedented levels, well beyond those observed during earlier episodes.
+Trade policy uncertainty surged last year; still elevated
+2500
+2000
+1500
+1000
+500
+0
+2018 #019 #020 2021 2022 2023 2024 #025 #026
+Motes: Daily TRU index from Caldara et al. (2020).
+oon aa 4
+Although effective tariffs ultimately proved lower than initially announced, the surge in
+uncertainty triggered a reconfiguration of global trade and value chains.
+Trade and production flows were not disrupted entirely, but were instead rerouted. This
+avoided a sharp collapse in global trade, but it still had important consequences for the euro
+area economy.
+Let me highlight two broad sets of channels.
+First, the direct effects.
+Weaker external demand, combined with an appreciation of the euro, has weighed on
+industrial production and export performance. This is reflected in subdued manufacturing
+indicators and has exerted downward pressure on inflation.
+Uncertainty itself also plays an important role. Frequent announcements, reversals, and
+policy shifts have weakened both consumer and business confidence.
+Consumer confidence declined markedly following tariff announcements, while business
+confidence — particularly in services — also deteriorated. Persistent uncertainty tends to
+dampen both consumption and investment, reinforcing disinflationary forces.
+Second, there are more gradual and complex second-round effects.
+
+
+Evidence suggests that the pass-through of tariffs to final consumer prices is incomplete
+and takes time. Firms often absorb part of the increase in costs, and stockpiling ahead of
+tariff implementation can delay the transmission through supply chains.
+In the euro area, the picture is particularly nuanced.
+On the one hand, global trade reshuffling has led Europe to absorb part of the goods
+Originally destined for other regions. This increase in imports, together with a stronger euro,
+has weighed on competitiveness and contribute to downward pressure on inflation.
+On the other hand, tariffs can also increase input costs through disruptions in supply chains.
+If these costs are gradually passed on to consumers, they may generate upward pressure on
+inflation — especially over the medium term.
+We are therefore facing opposing forces. Which one of these will dominate remains
+uncertain.
+For policymakers, this creates a clear challenge.
+First-round effects can be misleading, as they largely reflect relative price changes rather
+than sustained inflationary pressures. What ultimately matters is whether these shocks feed
+into price-setting behaviour, wage formation, and expectations.
+This calls for a cautious approach. Monetary policy should not react mechanically to initial
+price movements. Instead, it should focus on identifying signs of persistence, while
+remaining ready to act if second-round effects materialise.
+In other words, we must distinguish between genuine inflationary pressures and what may
+ultimately prove to be a temporary chimera — a multi-faceted fiction.
+Energy prices are another key source of uncertainty for the inflation outlook.
+Geopolitical tensions — particularly in the Middle East — have led to an increase in oil prices.
+As in earlier episodes, this represents a supply-side shock, but it also has distinctive features.
+
+
+energy prices and strong demand pushed up inflatio
+Historical shock decomposition of annualized headline inflation
+(in deviation fram steady state)
+i
+P |
+oll Anyi
+if Ng a a
+2008
+- fF SF SF SF SBS OS OS
+20
+20
+20
+20
+QO
+0
+0
+0
+0
+Oo
+2019
+2020
+2021
+2022
+2023
+BAgg demand S Domestic monetary policy
+@ Price and wage markups oe Productivity
+@ Energy price BS Exchange rate and external developments
+C
+© DNB Notes: ONE calculations based on own dynamic stochastic general! equiliirium model for the euro area. 5ONE working paper farthooming
+The experience of 2022, following Russia's invasion of Ukraine, illustrates how quickly energy
+price increases can feed through to inflation and contribute to a sharp rise in headline
+inflation.
+At that time, the euro area economy was still recovering from the pandemic, with strong
+pent-up demand. Fiscal support measures were in place, and inflation was already above
+target.
+Today, the situation is different in several important respects.
+Inflation was broadly at target before the recent increase in energy prices. Demand
+conditions are more subdued, and fiscal expansion is more limited.
+Moreover, oil prices have not reached the levels initially feared. Increased global supply has
+helped contain upward pressure.
+Another key difference concerns the nature of the energy shock. Compared with 2022, the
+spillover from oil to gas and electricity prices has been more limited.
+Looking ahead, market expectations point to a declining path for oil prices over the medium
+term.
+Nevertheless, uncertainty remains elevated.
+Energy affects the entire economy.
+For monetary policy, the key issue is again the risk of second-round effects.
+A repeat of 2022 appears less likely, but it cannot be excluded.
+
+
+This brings me to inflation expectations.
+Expectations play a central role in determining whether temporary shocks become
+persistent inflation.
+Inflation expectations remain broadly anchored
+Long-term inflation expectations
+(percentages)
+12
+10 as
+oN
+a \
+\\
+° a : Af 7
+1
+: ~~ \
+f Lo Ws _ a
+3 ri — ———
+0 ‘ wT
+-2
+2020 2021 2022 2023 2024 2025 2026
+—— Markets (5y5y) — Households (DNB, 10-year)
+— Experts (SPF, 5 year ahead) — EA HICP inflation
+© DNB we Source: Bloomberg, SPF, ONB calculations. Notes: Expert expectabons from the BCBS SPF, household expectations fromthe DHS and LISS surveys. Sample period fram December 2019 until April 2026 for household expectabons, until 11 May 6ae
+2026 for market expectations and unt! April 2026 for HICP. ECE SPF is quarterty from 202001 -2026Q2
+A recent DNB analysis shows that expectations remain broadly anchored around our
+inflation target, but following the 2022 experience dispersion has increased, and sensitivity
+to shocks has risen.
+The way expectations evolve differs across groups, and those differences matter for how
+inflation dynamics unfold.
+Across different groups, the picture is mixed.
+In financial markets, long-term expectations remain stable and close to 2%, indicating
+confidence in ECB credibility, even as short-term expectations respond to news such as
+energy prices.
+Professional forecasters show a similar pattern: well-anchored long-term expectations, but
+more responsive short-term forecasts and increased uncertainty.
+For firms, evidence is limited, but indicators point to rising short-term price expectations
+following recent shocks.
+Households’ expectations appear less firmly anchored to the ECB’s target. Survey evidence
+for the Netherlands points to elevated long-term inflation expectations following the recent
+inflation surge, which have remained somewhat above target even as inflation declined. At
+the same time, expectations are more dispersed and skewed towards higher inflation.
+
+
+Short-term expectations tend to react strongly to visible price changes, especially for energy
+and food, and attention to inflation has increased.
+This matters, because expectations influence wage formation and price-setting behaviour,
+and therefore the broader inflation process.
+Anchored expectations give us room to look through temporary shocks.
+But increased dispersion raises the risk that shocks may propagate more widely.
+This requires close and continuous monitoring.
+Let me conclude.
+Monetary policy faces a demanding task: to distinguish between inflation that will persist
+and shocks that will pass.
+We are confronted with a combination of different, albeit related forces: tariffs, energy,
+geopolitics. And they are interacting in complex and sometimes opposing ways.
+So, the decisive question is not only how large these shocks are, but whether they become
+persistent.
+Two conclusions follow.
+First, we must look beyond immediate effects. What matters is not the initial price change,
+but whether it feeds into broader dynamics.
+Second, expectations remain central. They are still broadly anchored, but vigilance is
+essential.
+Our latest baseline projection still points to inflation returning to target. But the path
+towards 2% is long, predicated on a market path that contains some tightening, and
+surrounded by upside risks.
+Last week's decision reflects the logic | tried to lay out in this speech: acting where there is a
+risk of persistence, and on an assessment that a rate hike is warranted across a range of
+scenarios—from milder to more adverse outcomes.
+In an environment like this, steadiness matters as much as resolve.
+There is no room for complacency.
+But nor is there any need to respond to every fluctuation.
+As in the Bellerophon and Chimera myth, the challenge is not to react to every movement,
+but to understand the forces at work. And act accordingly.
+
+
+Our task is clear: to ensure that temporary shocks do not become lasting inflation, to keep
+expectations anchored, and to make sure that inflation stabilises at our medium term target.
+Thank you.
+Discover related articles
+Share: in X _. f
+K
+o
+DeNederlandscheBank
+EUROSYSTEEM

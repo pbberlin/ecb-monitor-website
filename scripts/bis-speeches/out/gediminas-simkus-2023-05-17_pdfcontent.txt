@@ -48,8 +48,8 @@ criminal money to enter the financial systems of advanced economies, including t
 Now that we have discussed risks, let us focus on goals and ambitions. 
 Here, I would like to outline key elements. 
 First, over the last few years, Lithuania has become – forgive my immodesty – a 
-FinTech star. But the mission has been accomplished yet – leadership comes with  not 
-responsibility. For the star to its brightness, AML excellence must come to its  sustain 
+FinTech star. But the mission hasbeen accomplished yet – leadership comes with  not 
+responsibility. For the star toits brightness, AML excellence must come to its  sustain 
 company. The straight way to success – and this is my second point – is maintaining 
 and growing a resilient institutional setup based on cooperation. Third, AML risk 
 We have to improve the management is about risk management, not de-risking. 
@@ -66,9 +66,9 @@ To enhance the latter, we at the Bank of Lithuania have strengthened the structu
 supervision and established a dedicated anti-money laundering unit. Last year, 
 amendments were made to the Law on the Prevention of Money Laundering and 
 Terrorist Financing, ringfencing the crypto sector. 
-Going forward, our financial sector development agenda prioritises over  quality 
+Going forward, our financial sector development agenda prioritisesover  quality 
 quantity and puts even more emphasis on the prevention of money laundering. While 
-maintaining a friendly environment for FinTech companies, we and are not   will not be 
+maintaining a friendly environment for FinTech companies, weand are not   will not be 
 hesitant to act decisively in case a financial institution is not serious enough about the 
 AML topic. We are a and therefore supervisor.  loving   strict 
 Distinguished guests,
@@ -102,7 +102,7 @@ Excellence in AML also means that we need to maintain the balance. The preventio
 money laundering risks shouldn't lead to de-risking and financial exclusion. 
 Keeping the balance requires us to solve the problem which involves the asymmetry of 
 information. To achieve this, we had extensive discussions with financial service 
-providers on the matter. One of the main messages is that financial institutions to  need 
+providers on the matter. One of the main messages is that financial institutionsto  need 
 strengthen communication with their clients. 
 The number of false positives could be reduced if legal requirements for payment 
 services users are explained in plain Lithuanian rather than legal jargon. Requirements 

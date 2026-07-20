@@ -392,7 +392,7 @@ background report, July 2020 . – (3) H. Attia, M. Glowka, A. Illes and T. Lamm
 developments: a regional analysis of AMF member countries’ , CPMI Brief, 2, 2024 . – (4) E. Fitzgerald, A. Illes and  
 T. Lammer, ‘Steady as we go: results of the 2023 CPMI cross-border payments monitoring survey’, CPMI Brief, 5, 2024. –  
 (5) E. Fitzgerald, A. Illes, T. Lammer, F . Leppanen and F . Semorile, ‘Moving on up: results of the 2024 cross-border 
-payments monitoring survey’, CPMI Brief, 10, 2025. – (6) T. Lammer, F . Leppanen and F . Semorile, ‘Enhancing cross-
+payments monitoring survey’ , CPMI Brief, 10, 2025. – (6) T. Lammer, F . Leppanen and F . Semorile, ‘Enhancing cross-
 border payments step by step: insights from the 2025 monitoring survey’, CPMI Brief, forthcoming. – (7) CPMI, Harmonised 
 ISO 20022 data requirements for enhancing cross-border payments. Report to the G20 , October 2023. – (8) CPMI, 
 Harmonised ISO 20022 data requirements for enhancing cross-border payments. Updated report , February 2026. – 
@@ -401,7 +401,7 @@ report, January 2025. – (10) Cross-border payments interoperability and extens
 harmonisation. Follow-up report, February 2026. – (11) CPMI, Promoting the harmonisation of application programming 
 interfaces to enhance cross-border payments: recommendations and toolkit. Report to the G20 , October 2024. –  
 (12) D. Chamberlain, A. Ismail, M. Kroon, T. Lammer and P . Makgetsi, ‘Safety and efficiency through payment  
-pre-validation: spotting issues before money moves’, CPMI Brief, 9, 2025. – (13) CPMI, Improving access to payment 
+pre-validation: spotting issues before money moves’ , CPMI Brief, 9, 2025. – (13) CPMI, Improving access to payment 
 systems for cross-border payments: best practices for self-assessments , May 2022. – (14) CPMI, BIS Innovation Hub, 
 IMF and World Bank, Options for access to and interoperability of CBDCs for cross-border payments. Report to the 
 G20, July 2022. – (15) CPMI, Extending and aligning payment system operating hours for cross-border payments. 

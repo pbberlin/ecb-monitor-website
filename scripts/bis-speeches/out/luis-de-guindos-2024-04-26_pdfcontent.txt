@@ -64,7 +64,7 @@ stance by adjusting the deposit facility rate (DFR) and short-term interest rate
 expected to evolve in the vicinity of the DFR with tolerance for some volatility. Liquidity 
 will be provided through a broad mix of instruments, including existing regular 
 refinancing operations as well as – at a later stage – new structural longer-term credit 
-operations and a structural portfolio of securities. Our existing regular refinancing  
+operations and a structural portfolio of securities. Our existing regularrefinancing  
 operations will continue to be conducted through fixed-rate tender procedures with full 
 allotment against broad collateral, and the interest rate on the main refinancing 
 operations will be adjusted later in the year to 15 basis points above the deposit facility 

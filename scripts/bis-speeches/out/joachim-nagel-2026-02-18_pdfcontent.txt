@@ -9,7 +9,7 @@ Check against delivery 
 Ladies and gentlemen,
 Some years ago, Dario Caldara and Matteo Iacoviello, economists at the Federal 
 Reserve, proposed a news-based measure of adverse geopolitical events and risks –a 
-metric that they dubbed the geopolitical risk index. Technically, the index is based on 1 
+metric that they dubbed the geopolitical risk index.Technically, the index is based on 1 
 the share of articles mentioning adverse geopolitical events in leading newspapers in 
 the United States, the United Kingdom and Canada. According to this index –and 
 unsurprisingly –we are currently living in a period of high geopolitical risk. For example, 
@@ -17,10 +17,10 @@ last year, the index recorded an average level of 145, which is only slightly lo
 the reading of 158 we saw in 2022 –the year when Russia launched its full-scale 
 invasion of Ukraine. For comparison, back in the pandemic year 2020, the average 
 level was 78. And in the first month of this year, the index hit 164 already. This is almost 
-as high as the average for 2001. In recent decades, the index reached its peak in 2 
+as high as the average for 2001.In recent decades, the index reached its peak in 2 
 2001, driven by the 9/11 terrorist attacks. 
 We all know that geopolitical events and risks affect the economic activities of 
-households and enterprises, particularly investment. However, in my speech, I would 3 
+households and enterprises, particularly investment.However, in my speech, I would 3 
 like to touch on the potential challenges that the new geopolitical reality poses for 
 European monetary policy. In doing so, I will discuss three points: inflation volatility, 
 central bank independence and the rise of stablecoins.
@@ -54,7 +54,7 @@ uncertainty in a more comprehensive and systematic way.
 Let me move to the next item on my agenda: central bank independence. As we all 
 know, central bank independence is crucial for price stability. The theoretical basis for 
 this claim can be traced back to the seminal work of Kydland and Prescott, published 
-almost fifty years ago. Empirical studies reveal a negative relationship between the 4 
+almost fifty years ago.Empirical studies reveal a negative relationship between the 4 
 degree of central bank independence and inflation levels as well: the more independent 
 a central bank is, the lower inflation will be –all other things being equal.5
 However, increasing geopolitical competition between countries may increase the 
@@ -71,8 +71,8 @@ the European Union. However, we must not become overly self-confident. We will
 always remain vigilant with regard to our own independence.
 4 The rise of stablecoins
 The last issue I would like to touch on concerns the rise of stablecoins. You have surely 
-heard that the US administration is officially promoting the market for crypto-assets,    
-specifically the market for stablecoins, denominated in US dollars. Stablecoins are    
+heard that theUS administration is officially promoting the market for crypto-assets,    
+specifically the market for stablecoins, denominated inUS dollars. Stablecoins are    
 crypto-assets designed to maintain a stable value relative to a specified asset, which is 
 typically a national currency, a commodity or a financial asset. While stablecoins make 
 up only a small share of the market compared with other "money-like" assets such as 
@@ -99,10 +99,10 @@ how to leverage new technological opportunities to best effect.
 First, in my view, this involves introducing a wholesale central bank digital 
 currency –CBDC. This would allow institutional actors on financial markets to execute 
 programmable transactions in central bank money. Moreover, the introduction of a 
-European wholesale CBDC would make our financial system more efficient and    
+European wholesaleCBDC would make our financial system more efficient and    
 resilient. The Eurosystem has already done the necessary exploratory work in this field 
 and is pushing ahead with two projects. The aim of one of these projects is to introduce 
-a wholesale CBDC interoperability solution in the current year. Second, the Eurosystem    
+a wholesaleCBDC interoperability solution in the current year. Second, the Eurosystem    
 could support based payment instruments not directly related to central bank  DLT-
 money, in particular, tokenised deposits and euro-denominated stablecoins. 
 These measures will allow us to utilise cutting-edge digital technologies to maintain our 

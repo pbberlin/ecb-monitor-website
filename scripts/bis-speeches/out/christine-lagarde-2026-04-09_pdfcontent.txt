@@ -54,7 +54,7 @@ Firms are more likely to be able to raise prices when demand is stronger, worker
 more likely to be able to bargain for higher wages when labour markets are tighter, and 
 both are more likely when inflation is already high.
 ECB research confirms that pass-through is measurably stronger when capacity 
-utilisation is high and unemployment is low – and that wages feed into prices more 3 
+utilisation is high and unemployment is low– and that wages feed into prices more 3 
 forcefully when inflation is already elevated.4
 How people have experienced inflation in the recent past also matters. Research shows 
 that lived experiences of inflation can have lasting effects on how people form 
@@ -79,7 +79,7 @@ pent-up demand after the post-pandemic reopening. Supply chains were still disru
 after the pandemic. There were significant labour shortages. Headline inflation at the 
 onset of the shock stood at more than 5%.
 ECB analysis confirms that this combination of factors exacerbated the inflationary 
-effects. In particular, in the absence of demand pressures, the impact of supply-side 6 
+effects.In particular, in the absence of demand pressures, the impact of supply-side 6 
 shocks on inflation would have been considerably lower.
 Today, the euro area economy is in a moderate recovery, without the pronounced 
 demand-supply imbalances that characterised 2022. Headline inflation has been close 
@@ -93,7 +93,7 @@ Interest rates today are broadly at their neutral level and the fiscal stance is
 with an aggregate fiscal deficit of around 3%.
 At the same time, there are reasons for vigilance.
 The International Energy Agency has described this as the largest supply disruption in 
-the history of the global oil market , and with the attacks on energy infrastructure – 7
+the history of the global oil market, and with the attacks on energy infrastructure – 7
 especially the Ras Laffan facility in Qatar last week – the likelihood of a quick 
 normalisation is diminishing.
 A further cliff edge is also approaching: global oil reserves are being drawn down, and 
@@ -172,7 +172,7 @@ importer, a spike in energy prices creates a terms-of-trade tax for the euro are
 must be absorbed by some combination of workers, firms and governments.
 If firms increase their selling prices disproportionately – as we saw in 2022 – it could 
 trigger an equivalent response from workers, what I have called in the past tit-for-tat 
-inflation. We will therefore watch carefully firms' selling price expectations and micro 10 
+inflation.We will therefore watch carefully firms' selling price expectations and micro 10 
 evidence on price changes, as well as paying close attention to wage trackers.
 We will also monitor the demand side, as the risks to growth are on the downside. A 
 negative supply shock weighs on demand, which can reduce the ability of firms to pass 
@@ -236,42 +236,42 @@ We will not act before we have sufficient information on the size and persistenc
 shock and its propagation. But we will not be paralysed by hesitation: our commitment 
 to delivering 2% inflation over the medium term is unconditional.
 1 Corsello, F. and Tagliabracci, A. (2023), "Assessing the pass-through of energy prices 
-", , No 745, Banca d'Italia.to inflation in the euro area  Occasional Paper Series
+", , No 745, Banca d'Italia.to inflation in the euro area Occasional Paper Series
 2 Bobeica, E., Holton, S., Huber, F. and Martínez Hernández, C. (2025), "Beware of 
-", , No large shocks! A non-parametric structural inflation model  Working Paper Series
+", , No large shocks! A non-parametric structural inflation model Working Paper Series
 3052, ECB; Burriel Llombart, P., Odendahl. F. and Párraga Rodríguez, S. (2024), "
 Asymmetries in the transmission of energy price increases and decreases to underlying 
-," , Banco de España, Issue 2024inflation in the euro area and Spain  Economic Bulletin
+," , Banco de España, Issue 2024inflation in the euro area and Spain Economic Bulletin
 /Q1.
-3 Adolfsen, J. F. et al. (2024), " ",Gas price shocks and euro area inflation Journal of  
+3 Adolfsen, J. F. et al. (2024), " ",Gas price shocks and euro area inflationJournal of  
 , Vol. 149, November.International Money and Finance
 4 Ampudia, M. et al. (2024), "The wage-price pass-through across sectors: evidence 
-", , No 1192, BIS; Bobeica, E., Ciccarelli, M. from the euro area  Working Paper Series
+", , No 1192, BIS; Bobeica, E., Ciccarelli, M. from the euro area Working Paper Series
 and Vansteenkiste, I. (2019), "The link between labor cost and price inflation in the euro 
 ,"   No 2235, ECB, updated estimates confirming increased area Working Paper Series,
 pass-through in the post-pandemic period.
-5 Malmendier, U. and Nagel, S. (2016), " ",Learning from Inflation Experiences  Quarterly 
+5 Malmendier, U. and Nagel, S. (2016), " ",Learning from Inflation Experiences Quarterly 
 131(1), pp. 53-87; Salle, I., Gorodnichenko, Y. and Coibion, O. Journal of Economics, 
-(2023), " ",Lifetime Memories of Inflation: Evidence from Surveys and the Lab  Working 
+(2023), " ",Lifetime Memories of Inflation: Evidence from Surveys and the Lab Working 
 , No 31996, NBER.Paper
 6 Nickel, C., Kilponen, J. and Moral-Benito, E. (2025), "A strategic view on the 
-", , No economic and inflation environment in the euro area  Occasional Paper Series
+", , No economic and inflation environment in the euro area Occasional Paper Series
 371, ECB; Barauskait Griškeviien, K., Brand, C. and Nguyen, A. D. M. (2025), "
 Pandemic-era inflation dynamics in the euro area: the role of policy and non-policy 
-", , No 3201, demand and energy and non-energy supply factors  Working Paper Series
+", , No 3201, demand and energy and non-energy supply factors Working Paper Series
 ECB.
 7 IEA (2026), , March. Oil Market Report
 
 8/8 BIS - Central bankers' speeches
 8 Gautier, E., Conflitti, C., Enderle, D., Fadejeva, L., Grimaud, A., Gutiérrez, E., 
 Jouvanceau, V., Menz, J.-O., Paulus, A., Petroulas, P., Roldan-Blanco, P. and Wieland, 
-E. (2025), " ",Consumer price stickiness in the euro area during an inflation surge  
+E. (2025), " ",Consumer price stickiness in the euro area during an inflation surge 
 , No 3181, ECB.Working Paper Series
 9 Weber, M. et al. (2025), "Tell Me Something I Don't Already Know: Learning in Low- 
-", , Volume 93, Issue 1, January.and High-Inflation Settings  Econometrica
+", , Volume 93, Issue 1, January.and High-Inflation Settings Econometrica
 10 Lagarde, C. (2023), " ", speech at "The ECB and Its Watchers XXIII" The path ahead
 conference, Frankfurt am Main, 22 March. See also Arce, O, Hahn, E. and Koester, G. 
-(2023), "How tit-for-tat inflation can make everyone poorer", , 30 March. The ECB Blog
+(2023), "How tit-for-tat inflation can make everyone poorer",, 30 March. The ECB Blog
 11 Kamps, C., Bussière, M., Niessner, B., Tristani, O., Christoffel, K., Kapadia, S., 
 Ferrero, G., Gilbert, N., Vlassopoulos, T., Motto, R., Gerke, R. and Barrau, G. N. et al. 
 (2025), "Report on monetary policy tools, strategy and communication", Occasional 

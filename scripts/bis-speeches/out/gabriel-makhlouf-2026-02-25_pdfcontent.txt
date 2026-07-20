@@ -4,7 +4,7 @@ priorities for the year ahead
 Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, to Heads of 
 EU Missions, Dublin, 10 February 2026.
 * * *
-I would like to welcome you all to the Central Bank of Ireland today . We are delighted 1
+I would like to welcome you all to the Central Bank of Ireland today. We are delighted 1
 to host this gathering of EU Heads of Missions, representatives of our friends and 
 partners from across the EU.
 A little over a year ago I had the pleasure to meet with you all.
@@ -92,7 +92,7 @@ sera la somme des solutions apportées à ces crises."4
 There has been a lot of talk too about how Europe needs to change and, undoubtedly 
 with the world changing fundamentally around us, it is clear we cannot stand still.
 But as Victor Hugo wrote, "changez d'avis, maintenez vos principes; changez vos 
-feuilles, gardez intactes vos racines"   To paraphrase: change your opinions, but stick .5
+feuilles, gardez intactes vos racines"  To paraphrase: change your opinions, but stick .5
 to your principles.
 These are wise words which should frame how we choose to respond, protecting the 
 Union's roots and identity, while adapting with the times.
@@ -121,7 +121,7 @@ harnessing the combination of its internal market alongside its international op
 outlook and leadership.6
 In doing this it has sought through single rule-books, level playing fields, a belief in both 
 the centre and the periphery as well as the equal interest of states big and small, to 
-engender the "seek[ing] of advantage in the common advantage" of strength in our 7
+engender the "seek[ing] of advantage in the common advantage"of strength in our 7
 diversity.
 These are the very roots we must keep intact as we seek to preserve and forge our 
 place in a potentially very different world.
@@ -146,7 +146,7 @@ For this reason, I think we really need to focus and to slay the sacred cows tha
 the most meat.
 For what it's worth I will touch on three areas which I suggest deserve the greatest 
 attention, while recognising that not everyone will agree with me.
-The first, perhaps the easiest, is  both internal and external, and in both goods  trade,
+The first, perhaps the easiest, is both internal and external, and in both goods  trade,
 and services.
 Internal of course means completing the single market, our greatest asset.
 In a world where we are advocating against tariffs and trade barriers, we are, 
@@ -157,7 +157,7 @@ has estimated internal barriers within the Single Market are equivalent to a 45
 1.  
 2.  
 3.  
-tariff on goods and a 110 per cent tariff on services. ECB analysis suggests further 8 
+tariff on goods and a 110 per cent tariff on services.ECB analysis suggests further 8 
 deepening of integration could unlock significant economic potential, with estimated 
 welfare gains of up to 1.3 per cent for convergence in the goods sector and up to 1.8 
 per cent in the service sector.9
@@ -208,7 +208,7 @@ market integration and indeed consolidation, which includes both our capital
 markets as well as our banking sector.
 This last point leads me to the third area I believe we need to prioritise, namely 
 productivity, which, as Paul Krugman told us over thirty years ago, "isn't everything, but, 
-in the long run, it is almost everything". Likewise, here, I think we need to focus on 10
+in the long run, it is almost everything".Likewise, here, I think we need to focus on 10
 what matters.
 Mario Draghi set out a number of areas to address with a clear need for more risk 
 taking, more innovation and more strategic support for our economy. For me it boils 
@@ -217,7 +217,7 @@ much greater development and adoption of technology, as well as continuing to fo
 on the transition to a net zero world and the future economic model that implies as Nick 
 Stern set out in his recent book.11
 In that context, while I welcome the focus on regulatory simplification, we should not 
-pretend that reducing rules will achieve the productivity gains we need if we are  alone 
+pretend that reducing ruleswill achieve the productivity gains we need if we are  alone 
 to become more competitive and, indeed, raise our living standards. While improving 
 the effectiveness and efficiency of regulation across the European Union would be a 
 positive initiative, we need to focus on more fundamental issues, such as closing our 
@@ -249,7 +249,7 @@ We will continue to focus on regulating and supervising well, which includes our
 integrated supervisory approach, and delivering on our Roadmap to enhance the 
 effectiveness and efficiency of our supervision and domestic regulatory framework, 
 improving gatekeeping processes, and delivering a more integrated and less 
-burdensome reporting and data framework. We will also consult on a new Regulatory 12 
+burdensome reporting and data framework.We will also consult on a new Regulatory 12 
 Impact Assessment Framework, which will further embed evidence-based policymaking 
 into our processes and support us to ensure the orderly and proper functioning of 
 financial markets. And of course, we are looking forward to supporting the Government 
@@ -304,5 +304,5 @@ and Religion
 9 See ECB Economic Bulletin, Issue 8/2025 What is the untapped potential of the EU 
 Single Market?Opens in new window
 10 Paul Krugman, , MIT Press (1994) The Age of Diminished Expectations
-11 Nicholas Stern, , LSE Press (2025) The Growth Story of the 21 Centuryst 
+11 Nicholas Stern, , LSE Press (2025) The Growth Story of the 21Centuryst 
 12 Regulating & Supervising Well – A More Effective and Efficient Framework

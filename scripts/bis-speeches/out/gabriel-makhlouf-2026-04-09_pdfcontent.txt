@@ -41,7 +41,7 @@ There is wide uncertainty about the conflict's duration, which significantly aff
 shock's scale and persistence.
 Initially, futures pricing suggested a short, sharp shock, with energy prices reverting to 
 pre-war levels through late 2026 and 2027, closer to the baseline scenario in the ECB 
-staff March projections (cutoff: 11 March).  However, as the conflict persists without 1
+staff March projections (cutoff: 11 March). However, as the conflict persists without 1
 clear resolution, a more prolonged period of higher prices becomes likely. This 
 approaches the adverse scenario in the staff projections. The projections also include a 
 severe scenario with bigger, more prolonged energy price increases.
@@ -76,7 +76,7 @@ you all know, a meeting-by-meeting approach.
 Monetary policy and supply shocks
 Let's turn to the monetary policy response.
 The analysis of the 2021-23 inflation episode, carried out as part of the 2025 strategy 
-assessment, contains important lessons. The initial supply shock – pandemic-era 2 
+assessment, contains important lessons.The initial supply shock – pandemic-era 2 
 
 3/6 BIS - Central bankers' speeches
 bottlenecks, energy prices – led to more persistent inflation through indirect effects 
@@ -178,7 +178,7 @@ conflict started (Chart 7).
 I already mentioned the cost of transporting oil as a direct effect I'm monitoring. But 
 increases in fuel and transportation costs contribute to higher marginal costs for goods 
 and services, another source of indirect price pressures. ECB research suggests supply 
-shocks hit goods prices faster but are more persistent for services prices. Diesel and 7 
+shocks hit goods prices faster but are more persistent for services prices.Diesel and 7 
 jet fuel prices have risen sharply since the war in Iran started. In both cases, the current 
 spike is not far off previous highs seen at the start of Russia's invasion (Chart 8).
 Second-round effects

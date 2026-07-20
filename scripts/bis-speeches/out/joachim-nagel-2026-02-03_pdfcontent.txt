@@ -34,7 +34,7 @@ When using the extended scope for borrowing for defence and infrastructure, fisc
 policy should make sure that this borrowing actually does lead to additional investment. 
 And it must also make sure that public finances remain sound in the future. The 
 Bundesbank has made proposals with a view to both these things.2
-We anticipate that fiscal policy will not be the only contributor to GDP growth in    
+We anticipate that fiscal policy will not be the only contributor toGDP growth in    
 Germany. A revival in household demand will also play an important role over the entire 
 
 2/5 BIS - Central bankers' speeches
@@ -42,10 +42,10 @@ forecast horizon. By contrast, we expect business investment to remain dampened 
 difficult investment environment owing to cyclical and structural headwinds. It will return 
 to an expansionary path only slowly and later in 2026.
 German exports are likely to slowly return to an expansion path over the course of 2026 
-and contribute to GDP growth. However, they are still suffering from higher tariffs and    
+and contribute toGDP growth. However, they are still suffering from higher tariffs and    
 will gain momentum only moderately–and that is without even factoring in the spectre of 
 a further tariff escalation. 
-There are also structural obstacles weighing on competitiveness. At the same time, 3 
+There are also structural obstacles weighing on competitiveness.At the same time, 3 
 German imports will rise considerably. Thus, the German current account surplus–as a 
 share of nominal GDP–will decrease over the forecast horizon, from an expected 4.7% 
 in 2025 to no more than 3.2% in 2028. Compared with past decades, these figures are 
@@ -62,7 +62,7 @@ International trade disputes and geopolitical conflicts shaped developments last
 They played a big part in pushing up uncertainty. It had an impact on cross-border trade 
 relations and exchange rate developments, amongst other things. And unfortunately, as 
 things stand, caution requires us to assume that both geopolitical conflicts and trade 
-disputes are here to stay. Regardless of whether the demands of one NATO member    
+disputes are here to stay. Regardless of whether the demands of oneNATO member    
 on an ally's territory are withdrawn or not.
 And there are other challenges, too. We are all witnessing the continued rapid rise of 
 artificial intelligence as it becomes more and more important. The new technology 
@@ -94,22 +94,22 @@ Let us remember the financial crisis that started in 2007 in the United States. 
 border joint work at the international and the European level has since done a lot to 
 make the financial system more resilient. In response to the global financial crisis, the 
 G20 created the Financial Stability Board (FSB), which is based at the Bank for  
-International Settlements The G20 mandated the FSB to deliver the reform  (BIS).         
+International Settlements The G20 mandated theFSB to deliver the reform  (BIS).         
 agenda and it translates political commitments into international standards. Today it 
 plays a vital role in safeguarding global financial stability by strengthening the resilience 
 of the global financial system.
 The Bank for International Settlements itself was founded in 1930. That makes it the 
 world's oldest international financial organisation. It plays a key role in the cooperation 
 of central banks and other financial institutions.
-Another important example: the International Monetary Fund It promotes global  (IMF). 
+Another important example: the International Monetary FundIt promotes global  (IMF). 
 financial stability and monetary cooperation among the countries in the international 
 monetary system. During the global financial crisis and the subsequent sovereign debt 
-crisis, the IMF proved its role as a stabilising anchor by providing financial support,    
+crisis, theIMF proved its role as a stabilising anchor by providing financial support,    
 policy guidance and credibility, when it was most needed. And, as a more recent 
 example, the Fund again stepped up its engagement during the coronavirus pandemic 
 and the subsequent energy and inflation shocks. It swiftly provided policy advice and 
 extensive financial assistance to many of its members with a view to restoring stability. 
-Alongside these institutions, the G7 and the G20 have served as essential informal        
+Alongside these institutions, theG7 and theG20 have served as essential informal        
 forums for dialogue and coordination for many years. 
 I describe these experiences of international cooperation because they are examples of 
 how to deal best with cross-border challenges. Disruptions in the financial system can 
@@ -125,7 +125,7 @@ artificial intelligence. To illustrate what cooperation on new technologies can 
 let me draw your attention to the Innovation Hub operated by the Bank for International 
 Settlements. The Hub has innovation centres in various locations worldwide. One such 
 innovation centre for all Eurosystem central banks is jointly located at the Bundesbank 
-in Frankfurt am Main and the Banque de France in Paris. The aim of the BIS Innovation    
+in Frankfurt am Main and the Banque de France in Paris. The aim of theBIS Innovation    
 Hub is to improve the functioning of the global financial system. To this end, key 
 innovations in the financial sector are identified, analysed and also developed for 
 central banks. In addition, the Innovation Hub coordinates a global network of central 
@@ -135,7 +135,7 @@ Finally, I would like to mention the Network for Greening the Financial System 
 The global network of more than 140 central banks and supervisory authorities is 
 committed to a more sustainable financial system. Its aim is to analyse the impact of 
 climate change and nature loss and to strengthen the role of the financial system in 
-financing the transition to a sustainable economy. The NGFS was established in    
+financing the transition to a sustainable economy. TheNGFS was established in    
 December 2017; the Bundesbank has been serving as chair since 2024.
 Now you might ask, but what do you do if "might is right" seems to be the order of the 
 day? If there is no willingness to cooperate? My answer: we must face up to the facts. 
@@ -145,16 +145,16 @@ simply abandon international cooperation. 
 For those of us who still believe in a rules-based world, one truth stays the same as 
 ever: together we are stronger. We should seek common solutions where this is 
 possible, with whom this is possible. That is the recommendation my former colleague 
-Mark Carney gave in a brilliant speech in Davos five days ago. And I agree with him.4 
+Mark Carney gave in a brilliant speech in Davos five days ago.And I agree with him.4 
 3 Conclusion
 Ladies and gentlemen, let me close with a brief summary. As you will no doubt have 
 noticed, I am proud to be part of a community of central banks that is tackling major 
 challenges together. Experience has shown that this can be very helpful. 
 For the German economy, we at the Bundesbank see sizeable challenges. Germany's 
-recession in 2023 and 2024 is indicator enough. Last year, GDP grew only slightly. And    
+recession in 2023 and 2024 is indicator enough. Last year,GDP grew only slightly. And    
 the Bundesbank expects Germany to embark on a slow return to recovery this year. 
 Last March, I outlined economic policies which could help Germany to cope with its 
-challenges. Since then, we have seen first steps in the right direction, but there is still 5 
+challenges.Since then, we have seen first steps in the right direction, but there is still 5 
 a lot to be done.
 Speaking in Davos last week, Chancellor Friedrich Merz vividly explained that progress 
 has to be made in four areas simultaneously, and I quote: We must continue supporting 

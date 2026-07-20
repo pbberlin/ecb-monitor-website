@@ -7,14 +7,14 @@ am Main, 30 April 2026.
 * * *
 Good afternoon, the Vice-President and I welcome you to our press conference.
 The Governing Council today decided to keep the three key ECB interest rates 
-unchanged. While the incoming information has been broadly consistent with our  
+unchanged. While the incoming information has been broadly consistent withour  
 previous assessment of the inflation outlook, the upside risks to inflation and the 
-downside risks to growth have intensified. We are committed to setting monetary policy  
+downside risks to growth have intensified.We are committed to setting monetary policy  
 to ensure that inflation stabilises at our two per cent target in the medium term.
 The war in the Middle East has led to a sharp increase in energy prices, pushing up 
 inflation and weighing on economic sentiment. The implications of the war for medium-
 term inflation and economic activity will depend on the intensity and duration of the 
-energy price shock and the scale of its indirect and second-round effects. The longer  
+energy price shock and the scale of its indirect and second-round effects.The longer  
 the war continues and the longer energy prices remain high, the stronger is the likely 
 impact on broader inflation and the economy.
 We remain well positioned to navigate the current uncertainty. The euro area entered 
@@ -57,7 +57,7 @@ while maintaining sound public finances. Fiscal responses to the energy price sh
 should be temporary, targeted and tailored. Reforms to enhance the euro area's growth 
 potential and accelerate the energy transition to reduce reliance on fossil fuels are more 
 vital than ever. Completing the savings and investments union is key to funding 
-innovation, supporting the green and digital transitions and improving productivity. The  
+innovation, supporting the green and digital transitions and improving productivity.The  
 digital euro and tokenised wholesale central bank money will enhance Europe's 
 strategic autonomy, competitiveness and financial integration, and will boost innovation 
 in payments. It is thus essential to swiftly adopt the Regulation on the establishment of 

@@ -65,7 +65,7 @@ this was driven more by weaker Chinese demand than by diverted trade flows.
 The exchange rate has also not behaved as expected.
 Rather than depreciating, the euro has appreciated substantially. Since the start of this 
 year, it has risen by 13% against the US dollar, while the nominal effective exchange 
-rate has increased by 6.5% and the real effective exchange rate by 5%.4 
+rate has increased by 6.5% and the real effective exchange rateby 5%.4 
 This reflects the fact that the imposition of US tariffs coincided with a broader re-
 evaluation of the country's position in the global financial system.
 Investors began to question whether the US dollar would continue to warrant its status 
@@ -89,7 +89,7 @@ deal with the United States was concluded. It is also because the euro area has 
 internal measures to boost growth that have helped counter external weakness.
 In particular, governments in Europe have committed to the largest increase in 
 rearmament in decades, with some reversing years of underinvestment. Government 
-investment is now expected to add 0.25 percentage points to growth between 2025 5 
+investment is now expected to add 0.25 percentage points to growthbetween 2025 5 
 and 2027, offsetting around one-third of the trade shock.6
 The EU has also pushed ahead with new trade agreements, which will support growth. 
 The Mercosur and Mexico deals now being adopted cover more than 3% of extra-euro 
@@ -119,7 +119,7 @@ Overall, these scenarios have consistently shown that the most salient risks –
 that could push growth furthest from its current path – lie on the downside rather than 
 the upside.
 For example, ECB staff find that severe escalation in trade tensions could lower growth 
-cumulatively by about 1 percentage point over the projection horizon. The potential 8 
+cumulatively by about 1 percentage point over the projection horizon.The potential 8 
 boost from higher defence spending would not be sufficient to offset this, even if all 
 countries were to deliver fully on their NATO commitments.
 This tilt in the risk balance remains in place today. But at our last meeting, we judged 
@@ -167,7 +167,7 @@ geopolitical shocks will remain a constant feature of our environment.
 How these forces play out will have unavoidable effects on monetary policy – not only 
 through their impact on growth, but also on potential growth.
 If firms interpret the new environment as a lasting confidence shock, we could see 
-investment shift out of the euro area.  Preliminary staff analysis suggests that, all else 11
+investment shift out of the euro area. Preliminary staff analysis suggests that, all else 11
 being equal, tariffs are likely to weigh negatively on potential growth.
 Lower potential growth would, in turn, put downward pressure on real rates and reduce 
 the policy space available.
@@ -183,7 +183,7 @@ completing the Single Market and building a genuine European capital market.
 
 6/7 BIS - Central bankers' speeches
 The same reforms would also help European companies adopt artificial intelligence 
-more rapidly. This would result in a positive shock for potential growth, helping to 13 
+more rapidly.This would result in a positive shock for potential growth, helping to 13 
 balance the negative forces coming from abroad.
 In short, nothing about our future is fate – and there is no room for complacency by any 
 party.
@@ -196,7 +196,7 @@ We can take comfort in having overcome a large inflation shock after the pandemi
 in how the economy has coped so far with an upheaval in trade relations.
 And yet, we must remain alert to the possibility that not all the consequences are visible 
 today – and that new shocks may still lie ahead.
-As we look to the future, we do so mindful of Finland's long tradition of – courage  sisu 
+As we look to the future, we do so mindful of Finland's long tradition of– courage  sisu 
 and inner strength in the face of uncertainty.
 Sisu is not a show of fleeting bravery, but rather a fierce determination and 
 perseverance to continue fighting even when times get tough.
@@ -204,12 +204,12 @@ We are in a good place today, but that place is not fixed. Our task is to sustai
 agility, humility and a firm grounding in the data.
 1 Analysis finds that the trade shock alone can explain between 4.7 and 5.9 percentage 
 points of the loss in GDP. See Gulan, A. (2021), "Can large trade shocks cause crises? 
-", , Bank The case of the Finnish-Soviet trade collapse  Blogs – Bank of Finland Bulletin
+", , Bank The case of the Finnish-Soviet trade collapse Blogs – Bank of Finland Bulletin
 of Finland, 5 May.
-2 Gnocato, N. et al (2025), " ", , CEPR, 30 Tariffs across the supply chain  VoxEU Column
+2 Gnocato, N. et al (2025), " ", , CEPR, 30 Tariffs across the supply chain VoxEU Column
 May.
 3 Jouvanceau, V., Darracq Pariès, M., Dieppe, A. and Kockerols, T. (2025), "Trade 
-",wars and global spillovers. A quantitative assessment with ECB-global  Working Paper 
+",wars and global spillovers. A quantitative assessment with ECB-global Working Paper 
 , No 3117, ECB, Frankfurt am Main, September.Series
 4 Deflated by consumer price inflation.
 5 This estimate also includes wages, government consumption and transfers.
@@ -227,7 +227,7 @@ December last year.
 , Outlook Interim Report September 2025: Finding the Right Balance in Uncertain Times
 OECD Publishing, Paris, September.
 11 European Central Bank (2025), "The outlook for euro area business investment – 
-", , Issue 4.findings from an ECB survey of large firms  Economic Bulletin
+", , Issue 4.findings from an ECB survey of large firms Economic Bulletin
 12 The United States accounts for 10% of total euro area exports, and the new tariffs 
 are expected to reduce euro area exports to the United States by approximately 9%, 
 translating to a 0.9% decline in overall euro area exports – roughly €66 billion. Making 

@@ -32,7 +32,7 @@ our responsibility to protect financial stability. As a result, relevant Europea
 effectively accelerated their efforts to reduce their not adequately covered or managed 
 exposures towards Russia.
 Moreover, banks remained resilient and continued to support the real economy despite 
-the biggest rise in inflation since the 1970s. As monetary policy tightened rapidly, banks  
+the biggest rise in inflationsince the 1970s. As monetary policy tightened rapidly, banks  
 faced heightened interest rate, market and liquidity risks – pressures that culminated in 
 the banking turmoil of March 2023. Thanks to the forward-looking risk assessments that 
 had recently been introduced, these vulnerabilities were already being addressed. As a 
@@ -128,4 +128,4 @@ continue to listen to the views of this Parliament as we work together to safegu
 Europe's financial stability.
 1 ECB (2025), , 18 November; Donnery, S. and  Supervisory priorities 2026-28
 Quagliariello, M. (2026), "Supervisory priorities 2026-28: charting a course through 
-", , ECB, 22 January.turbulent waters  The Supervision Blog
+", , ECB, 22 January.turbulent waters The Supervision Blog

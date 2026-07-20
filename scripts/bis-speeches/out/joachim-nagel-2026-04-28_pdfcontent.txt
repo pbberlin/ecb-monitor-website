@@ -3,17 +3,17 @@ Press[/en/press]
 Speeches[/en/press/speeches]
 
 
-23.04.2026| Frankfurt/M ain | Joachim Nagel
+23.04.2026| Frankfurt/Main | Joachim Nagel
 Check against delivery.
 1 Introduction
-Ladies and gentlemen, W elcome to this colloquium in honour of O tmar Issing’s 90
+Ladies and gentlemen, Welcome to this colloquium in honour of Otmar Issing’s 90
 birthday! 
-Dear O tmar Issing, congratulationson this remarkable milestone. Today is a beauti‐
-ful day to celebrate your birthday here in Frankfurt. W e are delighted to welcome
+Dear Otmar Issing, congratulationson this remarkable milestone. Today is a beauti‐
+ful day to celebrate your birthday here in Frankfurt. We are delighted to welcome
 you back to the Bundesbank, the place where your journey as a central banker
-began. Even though we are not exactly in W ilhelm-Epstein-Strasse right now.
+began. Even though we are not exactly in Wilhelm-Epstein-Strasse right now.
 Central bank independence – why it matters
-Speech honouring Otm ar Issing on his 90th birthday
+Speech honouring Otmar Issing on his 90th birthday
 th
 1 Introduction
 2 Central bank independence and inﬂation: theoretical underpinnings
@@ -24,7 +24,7 @@ th
 4 Recent threats to central bank independence
 5 Conclusions
 
-W hen you joined the Bundesbank in 1990, you came with a sharp mind and a ﬁrm
+When you joined the Bundesbank in 1990, you came with a sharp mind and a ﬁrm
 belief: central banks should be independent. Not only did you advocate for this
 principle. You embedded it in the DNA of the Eurosystem. 
 As the ECB’s ﬁrst Chief Economist, you played a key role in designing a framework
@@ -34,15 +34,15 @@ But your legacy goes beyond policy. After your career as an active central banke
 you continued to shape international discussions – through your writing, your
 teaching, and your leadership at the Center for Financial Studies. You never shied
 away from the hard questions – and you always demanded rigorous answers. 
-O ver the last decade, you warned repeatedly against overburdening central banks
+Over the last decade, you warned repeatedly against overburdening central banks
 with too many tasks and obligations. You saw the risk that this might ultimately
 erode their independence and weaken their ability to deliver on their mandate of
 price stability.
 Today, we are seeing attacks on central bank independence around the world –
- from Jakarta to Istanbul, from Caracas to W ashington. So, the topic of this col‐
+ from Jakarta to Istanbul, from Caracas to Washington. So, the topic of this col‐
 loquium in your honour could not be more ﬁtting: Achieving and maintaining
 central bank independence – why it matters.
-To ground our discussion, my speech will focus on a fundamental question: W hat
+To ground our discussion, my speech will focus on a fundamental question: What
 evidence do we have that independence delivers on its promise to keep inﬂation
 low and stable? I will proceed in three steps:
 First, I will brieﬂy recall the theoretical rationale for central bank independence. 
@@ -50,8 +50,8 @@ Second, I will discuss the early and more recent empirical literature on the rel
 ship between central bank independence and inﬂation. 
 Third, I will present new Bundesbank research that analyses the impact of the
 recent attacks on the independence of the Federal Reserve.
-2 Central b ank independence and inﬂation: theoretical underpinnings
-Let me start with the theoretical rationale for central bank independence. W hy did
+2 Central bank independence and inﬂation: theoretical underpinnings
+Let me start with the theoretical rationale for central bank independence. Why did
 many central banks fail so spectacularly to control inﬂation during the energy crisis
 of the 1970s?
 [1]
@@ -67,7 +67,7 @@ independence could help lower inﬂation were actually written without this spec
 idea in mind.
 An important contribution that underpins the idea that central bank independence
 could help control inﬂation came in 1977. Kydland and Prescott identiﬁed a funda‐
-mental ﬂaw in discretionary policy: time inconsistency. Their insight was simple
+mental ﬂaw in discretionary policy: time inconsistency.  Their insight was simple
 but profound. 
 Policymakers often face a dilemma: a plan that seems optimal today may no longer
 be optimal tomorrow. The reason for this is that once private actors have adjusted
@@ -81,7 +81,7 @@ The result: policymakers end up with a worse outcome than if they had been able
 to commit in advance to their plan and stick to it. That is the logic of time inconsist‐
 ency in a nutshell. 
 In 1983, Barro and Gordon applied this insight to monetary policy – and identiﬁed
-the classic inﬂation bias. In their model, the policymaker wants to push output
+the classic inﬂation bias.  In their model, the policymaker wants to push output
 above its natural rate by generating surprise inﬂation. 
 [2]
 [3]
@@ -94,20 +94,20 @@ discretion through rules or reputation.
 A ﬁrst concrete institutional proposal to address this challenge came from Rogoﬀ in
 1985. He suggested delegating monetary policy to an inﬂation-averse, “conservat‐
 ive” central banker.
-M ore generally, the solution to the inﬂation bias was to insulate monetary policy
+More generally, the solution to the inﬂation bias was to insulate monetary policy
 from short-term political pressure. The institutional ﬁx: an independent central
 bank focused on delivering low and stable inﬂation.
 These contributions on time inconsistency and delegation were largely abstract and
 not focused on the Bundesbank. However, the Bundesbank quickly became a
 central empirical and policy reference point in the debate. It was widely portrayed
 as a successful example of an independent central bank delivering low inﬂation.
-3 Central b ank independence and inﬂation: em pirics
+3 Central bank independence and inﬂation: empirics
 3.1 Early contributions
 At the start of the 1990s, economists tested the hypothesis that central bank inde‐
 pendence lowers inﬂation empirically.
-Alesina and Summers examined sixteen O ECD countries and found that higher
+Alesina and Summers examined sixteen OECD countries and found that higher
 central bank independence is indeed associated with lower average inﬂation and
-less inﬂation variability. M oreover, lower and more stable inﬂation did not come
+less inﬂation variability.  Moreover, lower and more stable inﬂation did not come
 at the cost of weaker or more volatile economic growth.
 They measured central bank independence with an index that combines political
 and economic dimensions. Political independence means the central bank can fulﬁl
@@ -121,14 +121,14 @@ independence.
 [7]
 [8]
 
-Cukierman, W ebb, and Neyapti included emerging and developing economies in
-their analysis, using a reﬁned measure of legal independence. They also found
+Cukierman, Webb, and Neyapti included emerging and developing economies in
+their analysis, using a reﬁned measure of legal independence.  They also found
 empirical evidence that in advanced economies higher independence goes hand in
 hand with lower and more stable inﬂation. However, they could not ﬁnd this rela‐
 tionship for emerging and developing countries.
 How is that? The authors argue that legal independence and actual independence
 are two diﬀerent things. And both are needed for central banking to be eﬀective.
-W hen Cukierman and co-authors used a proxy for actual independence – the
+When Cukierman and co-authors used a proxy for actual independence – the
 turnover rate of central bank governors – the negative relationship reappeared.
 This is one early key lesson and will guide my remarks going forward: legal inde‐
 pendence reduces and stabilises inﬂation only when backed by actual
@@ -155,11 +155,11 @@ stability.
 [10]
 [11]
 
-M ore generally, his point is that a central bank with a mandate for price stability
+More generally, his point is that a central bank with a mandate for price stability
 needs broad societal support – from politicians, ﬁnancial markets, and the public.
 Central bank independence is thus one ingredient for low and stable inﬂation, but
 not the only one.
-O r, as O tmar Issing framed it in 1993: central bank independence is a
+Or, as Otmar Issing framed it in 1993: central bank independence is a
 necessarycondition for price stability, but by no means suﬃcient.
 Subsequent work reﬁned and extended this idea, emphasising how political institu‐
 tions and constraints shape the eﬀect of independence on inﬂation.  Taken
@@ -168,7 +168,7 @@ bank independent and low and stable inﬂation will follow” is incomplete.
 Yet they do not overturn the core ﬁnding: central bank independence contributes
 to lower inﬂation.  This holds even in most studies that rigorously address endo‐
 geneity.  The eﬀect is often smaller once this potential bias is accounted for,
-though it remains statistically and economically signiﬁcant. M oreover, the eﬀect
+though it remains statistically and economically signiﬁcant. Moreover, the eﬀect
 varies across countries – reﬂecting diﬀerences in institutions, politics, and eco‐
 nomic structures.
 A good example that illustrates that heterogeneity is at play is a recent study by
@@ -177,12 +177,12 @@ strengthened in many countries since 1980, the appointment of central bank gov�
 ernors has become more politicised. These politically motivated appointments
 reduce actual independence. And this weakens the relationship between legal inde‐
 pendence and inﬂation, resulting in worse inﬂation outcomes.
-3.3 Conclusions from  the literature
-So, overall, what does the literature ultimately teach us? M y takeaway is clear:
+3.3 Conclusions from the literature
+So, overall, what does the literature ultimately teach us? My takeaway is clear:
 central bank independence remains crucial for price stability.
 The theoretical case for central bank independence still holds. Furthermore, recent
 empirical work conﬁrms that greater independence is linked to lower inﬂation –
- though the eﬀect is nuanced. M ore speciﬁcally, I think the literature identiﬁes
+ though the eﬀect is nuanced. More speciﬁcally, I think the literature identiﬁes
 three conditions for central bank independence to provide price stability:
 First, legal independence: The central bank needs legal protections that shield it
 from political interference. 
@@ -207,9 +207,9 @@ Already twenty years ago, a visionary central banker – then a remarkably you
 framework for the central bank based on independence and a clear focus on price
 stability […]. It must however also be recognised that the “stability” culture of
 society also matters”.
-This quote is, of course, yours, O tmar. It captures a truth that remains as relevant
+This quote is, of course, yours, Otmar. It captures a truth that remains as relevant
 today as it was then.
-4 Recent threats to central b ank independence
+4 Recent threats to central bank independence
 Because today we see what happens when that stability culture weakens – and
 when political leaders turn against central bank independence. 
 A striking example are the attacks on the Federal Reserve since early 2025. As the
@@ -219,7 +219,7 @@ Have these attacks achieved their intended goal? And what do they mean for the
 Fed’s independence? New research by two Bundesbank economists – Ivan
 Frankovic and Sören Karau – can shed light on these questions.
 Their study examines how President Trump’s political pressure on the Fed aﬀects
-ﬁnancial markets. M ore speciﬁcally, they identify “Fed pressure shocks” based on
+ﬁnancial markets. More speciﬁcally, they identify “Fed pressure shocks” based on
 President Trump’s social media posts and selected press reports since his return to
 oﬃce in 2025.
 [20]
@@ -230,7 +230,7 @@ and the US dollar-euro exchange rate around those posts to construct measures of
 “Fed pressure”. These measures then feed into their statistical model, allowing the
 authors to estimate how markets respond to these shocks over time.
 So, what do they ﬁnd? The results are striking.
-W hen pressure rises, Treasury yields fall, suggesting markets expect looser monet‐
+When pressure rises, Treasury yields fall, suggesting markets expect looser monet‐
 ary policy. Yet equity prices do not increase as one would expect. Instead, they fall
 and volatility increases. Furthermore, gold prices surge, and the US dollar weakens
 particularly strongly.
@@ -242,7 +242,7 @@ Importantly, the paper ﬁnds no evidence that inﬂation expectations rise. In 
 market-based measures decline slightly, if anything. 
 This suggests that investors are not simply expecting easier monetary policy – they
 are worried about the integrity of US institutions and the far-reaching
-consequences that a loss of integrity would entail. O r, put diﬀerently, concerns
+consequences that a loss of integrity would entail. Or, put diﬀerently, concerns
 about weaker US growth or higher uncertainty seem to outweigh fears of inﬂation.
 The main takeaway is clear: when markets believe political pressure is undermining
 the Fed’s independence, this triggers a ﬂight from US assets and the dollar. This
@@ -254,7 +254,7 @@ Taken together, recent events and the cited literature remind us of a hard truth
 Central bank independence is not self-sustaining. It requires people willing to ﬁght
 for it.
 5 Conclusions
-Ladies and gentlemen, O tmar Issing is one of these people. 
+Ladies and gentlemen, Otmar Issing is one of these people. 
 [22]
 
 He has been a watchful observer of the central banking world for more than
@@ -265,53 +265,53 @@ policy in the European Economic Community. For 16 years, he played a major role
 in shaping monetary policy in Germany and the euro area. He has received so
 many prestigious awards over the years that to list them all here would really put
 the audience‘s patience to the test. 
-O tmar Issing is cosmopolitan and well-read – which will come as no surprise for
-most people in this room. W hat some of you may not know is that he studied clas‐
+Otmar Issing is cosmopolitan and well-read – which will come as no surprise for
+most people in this room. What some of you may not know is that he studied clas‐
 sical philology some 72 years ago.
-As Goethe says in “Hermann and Dorothea” – a quintessential work of W eimar
+As Goethe says in “Hermann and Dorothea” – a quintessential work of Weimar
 Classicism: “Die rüstige Jugend verspricht ein glückliches Alter” or, translated into
 English: “A vigorous youth promises a happy old age.”
-O n that note, O tmar, I wish you many more happy years to come: ad multos annos!
+On that note, Otmar, I wish you many more happy years to come: ad multos annos!
 Footnotes:
-See Issing, O . (2017), Central banks – are their reputations and independence
+See Issing, O. (2017), Central banks – are their reputations and independence
 under threat from overburdening?, International Finance, Vol. 20(1), pp. 92–99;
-Issing, O . (2021), Central Banks – independent or almighty?, SAFE Policy Letter
-No 92 as well as Issing, O . (2025), How Central Banks Jeopardized Their
+Issing, O. (2021), Central Banks – independent or almighty?, SAFE Policy Letter
+No 92 as well as Issing, O. (2025), How Central Banks Jeopardized Their
 Independence, Project Syndicate.
 1.
 See Kydland, F and E. Prescott (1977), Rules rather than discretion: The incon‐
 sistency of optimal plans, Journal of Political Economy, Vol. 85(3), 473–492.
 2.
 See Barro, R. and D. Gordon (1983), Rules, discretion and reputation in a model
-of monetary policy, Journal of M onetary Economics, Vol. 12(1), pp. 101–121.
+of monetary policy, Journal of Monetary Economics, Vol. 12(1), pp. 101–121.
 3.
-See Rogoﬀ, K. (1985), The O ptimal Degree of Commitment to an Intermediate
-M onetary Target, Quarterly Journal of Economics, Vol. 100(4), pp. 1169–1189.
+See Rogoﬀ, K. (1985), The Optimal Degree of Commitment to an Intermediate
+Monetary Target, Quarterly Journal of Economics, Vol. 100(4), pp. 1169–1189.
 4.
 See Cukierman, A. (1992), Central Bank Strategy, Credibility, and Independence:
-Theory and Evidence, M IT Press.
+Theory and Evidence, MIT Press.
 5.
 See Debelle, G. and S. Fischer (1994), How independent should a central bank
-be?, W orking Papers in Applied Economic Theory Vol. 05, Federal Reserve Bank
+be?, Working Papers in Applied Economic Theory Vol. 05, Federal Reserve Bank
 of San Francisco.
 6.
 
-An even earlier contribution is Bade, R. and M . Parkin (1988), Central Bank Laws
-and M onetary Policy, unpublished manuscript.
+An even earlier contribution is Bade, R. and M. Parkin (1988), Central Bank Laws
+and Monetary Policy, unpublished manuscript.
 7.
 See Alesina, A. and L. Summers (1993), Central Bank Independence and
-M acroeconomic Performance: Some Comparative Evidence, Journal of M oney,
+Macroeconomic Performance: Some Comparative Evidence, Journal of Money,
 Credit and Banking, 1993, Vol. 25(2), pp. 151–62. This paper builds on a seminal
 contribution on the relationship between institutions and policymaking by Grilli,
-V., D. M asciandaro, G. Tabellini, E. M alinvaud and M . Pagano (1991), Political and
-M onetary Institutions and Public Financial Policies in the Industrial Countries,
+V., D. Masciandaro, G. Tabellini, E. Malinvaud and M. Pagano (1991), Political and
+Monetary Institutions and Public Financial Policies in the Industrial Countries,
 Economic Policy, Vol. 6(13), pp. 341–392.
 8.
-See Cukierman, A., S. W ebb and B. Neyapti (1992), M easuring the Independence
-of Central Banks and Its Eﬀect on Policy O utcomes, The W orld Bank Economic
-Review, W orld Bank, Vol. 6(3), pp. 353–398.
+See Cukierman, A., S. Webb and B. Neyapti (1992), Measuring the Independence
+of Central Banks and Its Eﬀect on Policy Outcomes, The World Bank Economic
+Review, World Bank, Vol. 6(3), pp. 353–398.
 9.
-M easuring actual independence by the turnover ratio is not without critiques,
+Measuring actual independence by the turnover ratio is not without critiques,
 as causality is diﬃcult to evaluate: Is inﬂation high because of political interfer‐
 ence or are central bank governors removed from oﬃce because inﬂation is too
 high? See, for example, Dreher, A., J. Sturm and J. de Haan (2008), Does high
@@ -319,26 +319,26 @@ inﬂation cause central bankers to lose their job? Evidence based on a new data
 set, European Journal of Political Economy, Vol. 24(4), pp. 778–787.
 10.
 See Posen, A. (1995), Declarations Are Not Enough: Financial Sector Sources of
-Central Bank Independence, NBER M acroeconomics Annual, Vol. 10, pp. 253–
+Central Bank Independence, NBER Macroeconomics Annual, Vol. 10, pp. 253–
 274. For a critical account of his argument, see de Haan, J. and G. van 'T Hag
 (1995), Variation in Central Bank Independence across Countries: Some
 Provisional Empirical Evidence, Public Choice, Vol. 85(3/4), pp. 335–351.
 11.
 For an early empirical assessment that directly tests the relative contribution of
 central bank independence and other determinants on inﬂation performance,
-see Campillo A. and J. M iron, W hy Does Inﬂation Diﬀer across Countries?, NBER
-Chapters, in: Reducing Inﬂation: M otivation and Strategy, pp. 335–362.
+see Campillo A. and J. Miron, Why Does Inﬂation Diﬀer across Countries?, NBER
+Chapters, in: Reducing Inﬂation: Motivation and Strategy, pp. 335–362.
 12.
-See Issing, O . (1993), Central Bank Independence and M onetary Stability,
-Institute of Economic Aﬀairs, O ccasional Paper 89.
+See Issing, O. (1993), Central Bank Independence and Monetary Stability,
+Institute of Economic Aﬀairs, Occasional Paper 89.
 13.
 See, for example, Keefer, P. and D. Stasavage (2003), Checks and Balances,
-Private Information, and the Credibility of M onetary Commitments,
-International O rganization, Vol. 56(4), pp. 751–774; Acemoglu, D., S. Johnson, P.
-Querubin and J. Robinson (2008), W hen Does Policy Reform W ork? The Case of
+Private Information, and the Credibility of Monetary Commitments,
+International Organization, Vol. 56(4), pp. 751–774; Acemoglu, D., S. Johnson, P.
+Querubin and J. Robinson (2008), When Does Policy Reform Work? The Case of
 Central Bank Independence, Brookings Papers on Economic Activity, Vol. 39(1),
 pp. 351–429 as well as Daunfeldt, S. and X. de Luna (2008), Central Bank
-Independence and Price Stability: Evidence from O ECD-Countries, O xford
+Independence and Price Stability: Evidence from OECD-Countries, Oxford
 Economic Papers, Vol. 60(3), pp. 410–422.
 14.
 
@@ -348,20 +348,20 @@ in International Economics 19.
 15.
 See, for example, Berger, H., J. De Haan and S. Eijﬃnger (2001), Central bank
 independence: an update of theory and evidence, Journal of Economic Surveys,
-Vol. 15(1), pp. 3–40; Crowe, C. and E. M eade (2007), The Evolution of Central
-Bank Governance around the W orld, Journal of Economic Perspectives, Vol.
+Vol. 15(1), pp. 3–40; Crowe, C. and E. Meade (2007), The Evolution of Central
+Bank Governance around the World, Journal of Economic Perspectives, Vol.
 21(4), pp. 69–90 as well as Klomp, J. and J. de Haan (2010), Inﬂation And Central
-Bank Independence: A M eta‐Regression Analysis, Journal of Economic Surveys,
+Bank Independence: A Meta‐Regression Analysis, Journal of Economic Surveys,
 Vol. 24(4), pp. 593–621. For a more critical account of the literature, see Hayo, B.
 and C. Hefeker (2002), Reconsidering central bank independence, European
 Journal of Political Economy, Vol. 18(4), pp. 653–674.
 16.
-See, for example, Crowe, C. and E. M eade (2008), Central bank independence
+See, for example, Crowe, C. and E. Meade (2008), Central bank independence
 and transparency: Evolution and eﬀectiveness, European Journal of Political
 Economy, Vol. 24, pp. 763–777; Brumm (2011), Inﬂation and central bank inde‐
 pendence: Two-way causality?, Economics Letters, Vol. 111, pp. 220–222 as well
 as Agur, I. (2021), Central bank independence and low inﬂation: who leads the
-dance?, Applied Economics Letters, Vol. 28(6), pp. 477–481. Crowe and M eade
+dance?, Applied Economics Letters, Vol. 28(6), pp. 477–481. Crowe and Meade
 (2008) use instrumental variable estimations and ﬁnd robust evidence that
 greater central bank independence is associated with lower inﬂation. Brumm
 (2011) shows that inﬂation and central bank independence are endogenously
@@ -375,23 +375,23 @@ see Klomp, J. and J. de Haan (2010), Central bank independence and inﬂation
 revisited, Public Choice, Vol.144, pp. 445–457. They ﬁnd that central bank inde‐
 pendence has a signiﬁcant eﬀect only in a minority of the more than 100 coun‐
 tries in their sample. Papers that split their samples between advanced and
-developing economies include Kokoszczyński, R. and J. M ackiewicz-Łyziak
-(2019), Central bank independence and inﬂation – O ld story told anew,
+developing economies include Kokoszczyński, R. and J. Mackiewicz-Łyziak
+(2019), Central bank independence and inﬂation – Old story told anew,
 International Journal of Finance and Economics, Vol. 25(1), pp. 72–79 and Lim
 (2021), The limits of central bank independence for inﬂation performance,
-Public Choice, Vol. 186, pp. 309–335. W hereas Kokoszczyński and M ackiewicz-
+Public Choice, Vol. 186, pp. 309–335. Whereas Kokoszczyński and Mackiewicz-
 Łyziak (2019) only ﬁnd a signiﬁcant relationship between central bank inde‐
 pendence and inﬂation for developing economies, Lim (2021) comes to the
 opposite result, and only ﬁnds it for advanced economies.
 18.
 
-See Ioannidou, V., S. Kokas, T. Lambert, and A. M ichaelides (2025),
+See Ioannidou, V., S. Kokas, T. Lambert, and A. Michaelides (2025),
 (In)dependent central banks, Available at SSRN: Ioannidou, Vasso and Kokas,
-Sotirios and Lambert, Thomas and M ichaelides, Alexander, (In)dependent
-Central Banks (O ctober 31, 2022). Available at SSRN:
+Sotirios and Lambert, Thomas and Michaelides, Alexander, (In)dependent
+Central Banks (October 31, 2022). Available at SSRN:
 https://ssrn.com/abstract=4262695.7
 19.
-Issing, O . (2006), Central Bank Independence – Economic and Political
+Issing, O. (2006), Central Bank Independence – Economic and Political
 Dimensions, National Institute Economic Review, Vol. 196, pp. 73–74.
 20.
 See Frankovic, I and S. Karau (2026), Political Pressure on the Fed – Is This Time
@@ -399,7 +399,7 @@ Diﬀerent?, mimeo.
 21.
 For evidence on Trump’s ﬁrst term, see Bianchi, F., R. Gómez-Cram, T. Kind and
 H. Kung (2023), Threats to central bank independence: High-frequency identiﬁc‐
-ation with twitter, Journal of M onetary Economics, Vol. 135(C), pp. 37–54. For a
+ation with twitter, Journal of Monetary Economics, Vol. 135(C), pp. 37–54. For a
 more general account of the impact of political pressure on the Federal Reserve,
 see Drechsel, T. (2025), Political Pressure on the Fed, accepted for publication at
 the Review of Economic Studies.

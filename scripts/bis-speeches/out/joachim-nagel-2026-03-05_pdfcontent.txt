@@ -52,7 +52,7 @@ as a policy-driven reversal of integration that is often guided by strategic con
 1
 It generally makes no sense to forego the advantages of an international division of 
 labour. Such policies reduce global prosperity.
-However, the COVID-19 pandemic, a stronger political influence on the Chinese 
+However, the COVID- 19 pandemic, a stronger political influence on the Chinese 
 economy and Russia's war in Ukraine have shown that it is important to reduce 
 economic dependencies.
 The old axiom still holds: Don't put all your eggs in one basket. Diversification reduces 
@@ -61,14 +61,14 @@ therefore appear useful when realigning supply chains.2
 Ladies and gentlemen,
 You are probably familiar with such considerations in your business: How can robust 
 supply chains be designed without sacrificing too many efficiency gains?
-Since the new US administration took over, the global environment has again changed 
+Since the new US  administration took over, the global environment has again changed 
 massively. Geoeconomic considerations as well as protectionist measures are playing 
 an increasingly important role. The global trade order has been shaken by the tectonic 
-USshift in   trade policy. 
+USshift in  trade policy. 
 International cooperation is suffering. In connection with this, geoeconomic risks as well 
 as uncertainty are very high.3
 Given the difficult circumstances around the globe, let me turn to how the Bundesbank 
-sees the economic situation in Germany. 
+sees the economicsituation in Germany. 
 3 Economy, inflation and financial stability
 
 3/7 BIS - Central bankers' speeches
@@ -76,7 +76,7 @@ We forecast that the German economy will grow by about 0.6% this year and by an
 even stronger 1.3% next year (on a calendar-adjusted basis). Unadjusted growth rates 
 will be somewhat higher at 0.9% for 2026 and 1.4% for 2027 due to more working days.
 This is good news, even though such growth rates are a far cry from rates observed a 
-decade ago: in 2016 and 2017, GDP grew at 2.2% and 2.7%, respectively.
+decade ago: in 2016 and 2017, GDP  grew at 2.2% and 2.7%, respectively.
 The recovery is being driven largely by additional government spending on defence and 
 infrastructure. These are estimated to contribute 1.3 percentage points to economic 
 growth by 2028. 
@@ -91,8 +91,8 @@ target of 2%. According to the December projections for the euro area, there wil
 temporary slight undershooting of the 2% mark this year and next.
 For 2028, the Eurosystem staff expects a point landing at 2%. This outlook is, of 
 course, also highly uncertain.
-As if this trite saying needed confirmation, ten days ago the US Supreme Court struck 
-USdown most of the tariffs imposed by the   President. In addition, trade policy conflicts 
+As if this trite saying needed confirmation, ten days ago the US  Supreme Court struck 
+USdown most of the tariffs imposed by the  President. In addition, trade policy conflicts 
 and persistent geopolitical tensions have increased the risks to financial stability.
 In Germany, structural challenges are weighing on the economy, too, and could impair 
 financial stability. Risks from German banks' lending business are on the rise. Although 
@@ -104,9 +104,9 @@ international financial markets particularly vulnerable to setbacks. Increasing
 geopolitical tensions and fiscal vulnerabilities in some countries could abruptly erode 
 market participants' confidence.
 Concerning exchange rate developments, doubts regarding the safe-haven status of 
-the US dollar have risen. For the time being, the dollar weakness is set to remain, as 
+the US  dollar have risen. For the time being, the dollar weakness is set to remain, as 
 international investors' loss in confidence could well persist.
-The appreciation of the euro against the US dollar (and other currencies) since March 
+The appreciation of the euro against the US  dollar (and other currencies) since March 
 of last year matters for both growth and inflation developments in the euro area. This, in 
 turn, is relevant for our monetary policy – the next point in my speech.
 4 Implications for monetary policy
@@ -143,9 +143,9 @@ service that matches the scale and performance of Starlink. 
 The EU IRIS2's project   (Infrastructure for Resilience, Interconnectivity and Security by 
 Satellite) is scheduled to be operational by 2030.
 Regarding navigation, Europe has its own global navigation satellite system, Galileo. It 
-is an equivalent or even better alternative to GPS (Global Positioning System), which is 
-US GPS NATOowned by the   government. Nevertheless,   remains dominant in   defence, 
-EUalthough the   is in the process of increasingly integrating Galileo.
+is an equivalent or even better alternative to GPS  (Global Positioning System), which is 
+US GPS NATOowned by the   government. Nevertheless,  remains dominant in   defence, 
+EUalthough the  is in the process of increasingly integrating Galileo.
 With the Copernicus component of the European Union's space programme, we 
 already have strong Earth observation capabilities. We have thus made notable 
 
@@ -154,9 +154,9 @@ improvements, but further progress is still urgently needed to reduce European
 dependencies in satellite technology.
 In pursuit of economic strength and sovereignty, Europe needs to move closer together.
 There are still considerable obstacles in our internal market. According to ECB
-EU estimates, the frictions to intra-  trade may amount to a tariff equivalent of up to 67% 
+EU estimates, the frictions to intra- trade may amount to a tariff equivalent of up to 67% 
 for goods and 95% for services.4
-Tariff equivalent means the higher costs of trading with other EU countries compared 
+Tariff equivalent means the higher costs of trading with other EU  countries compared 
 with trading domestically. The authors interpret these percentages as upper bounds for 
 the trade frictions that can be reduced through policy action.
 This is one of several studies which show crystal-clearly that enhanced integration of 
@@ -170,11 +170,11 @@ supply of capital for companies. Especially young, innovative, small and growing
 would thus gain better access to venture capital, equity and market-based debt.
 Consequently, the Savings and Investment Union would strengthen productivity, growth 
 and Europe's autonomy in terms of financing sources.
-6 The need for European CBDC 
+6 The need for EuropeanCBDC 
 Ladies and gentlemen,
 My last point relates to payments.
 Here, too, Europe should become more independent.
-Issuing a central bank digital currency (CBDC) could move financial integration forward. 
+Issuing a central bank digital currency (CBDC)  could move financial integration forward. 
 As things currently stand, cash is the only true European means of payment that is 
 accessible and accepted across the entire currency area.
 Non-European providers are at the heart of our digital payment systems. Large US
@@ -204,16 +204,16 @@ critical payments between financial institutions in central bank money based on 
 technologies.
 Financial market participants are very interested in this. In response, the Eurosystem 
 has announced that it will provide a pilot solution by the end of 2026.5 This will enable 
-DLT TARGET platforms to be connected to our   Services.
+DLT TARGET platforms to be connected to our  Services.
 The digital euro and the wholesale variant of central bank digital currency are important 
 elements for a resilient and sovereign European payment landscape.
 As an aside, a very topical issue in this context is stablecoins.6
 These are crypto-assets designed to maintain a stable value relative to currencies such 
-as the US dollar or the euro and are backed by assets such as government bonds for 
-USthis purpose. At present, 99% of the stablecoin market is pegged to the   dollar.
+as the US  dollar or the euro and are backed by assets such as government bonds for 
+USthis purpose. At present, 99% of the stablecoin market is pegged to the  dollar.
 Stablecoins have so far played a limited role, but their volume is growing – not least 
-because regulation in the USA US aims to strengthen the dominance of the   dollar and 
-US USdemand for   government bonds through stablecoins. Widespread use of   dollar-
+because regulation in the USA US aims to strengthen the dominance of the  dollar and 
+US USdemand for   government bonds through stablecoins. Widespread use of  dollar-
 denominated stablecoins in Europe could jeopardise our sovereignty in payments and 
 financial stability.
 7 Conclusion
@@ -225,22 +225,22 @@ commercially.7
 7/7 BIS - Central bankers' speeches
 250 years later, we are seeing not just a backlash against the international division of 
 labour and the benefits of international trade. 
-We are also witnessing the AI revolution, which might become as influential as the    
+We are also witnessing theAIrevolution, which might become as influential as the    
 steam engine was in its time.
 Let us take the wisdom of the past and the technological opportunities of the present to 
 do what is in our hands for thriving societies in a strong Europe that continues to uphold 
 international cooperation, but is ready to stand on its own two feet.
 Thank you for your attention.
-1 Aiyar, S. et al. (2003),  ,Geoeconomic Fragmentation and the Future of Multilateralism  
+1 Aiyar, S. et al. (2003),  ,Geoeconomic Fragmentation and the Future of Multilateralism 
 IMF Staff Discussion Notes 2003/001. 
 2 Deutsche Bundesbank, Economic developments in emerging market economies: old 
 , Monthly Report, July 2023, p. 62.problems and new challenges
 3 ECB and   , Joint    ESRB, Financial stability risks from geoeconomic fragmentation
 Report, January 2026, p. 25: "Indicators of global uncertainty, especially those 
-capturing trade uncertainty, have spiked, driven by the significant shifts in US foreign    
+capturing trade uncertainty, have spiked, driven by the significant shifts inUS foreign    
 and domestic policies and their potential implications for the international economic and 
 financial system. [-] Most of these indicators were at or near multi-decade highs."
-4 Bernasconi, R. et al.,  , ECBWhat is the untapped potential of the EU Single Market?    
+4 Bernasconi, R. et al.,  ,ECBWhat is the untapped potential of the EU Single Market?   
 Economic Bulletin Issue 8, 2025.
 5 ECB (2025),   ECB commits to distributed ledger technology settlement plans with dual-
 , Deutsche Bundesbank, track strategy Digital money: options for large-value payments 

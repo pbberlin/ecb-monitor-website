@@ -1,0 +1,204 @@
+1/6 BIS - Central bankers' speeches
+Joachim Nagel: New forms of money and the transmission of 
+monetary policy
+Welcome remarks by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the 
+International Conference on Payments and Securities Settlement, hosted by the 
+Deutsche Bundesbank and the Bank of Canada, Eltville am Rhein, 18 June 2026.
+* * *
+Check against delivery 
+1 Introduction
+Ladies and gentlemen, a warm welcome to this year's International Conference on 
+Payments and Securities Settlement. It is a great pleasure to be here with you 
+today – in person.
+I am delighted that the Bundesbank is again hosting this conference together with the 
+Bank of Canada. Many thanks to the organisers for putting together such an excellent 
+event. We can look forward to two days of exciting and thought-provoking presentations.
+Tonight, we are inviting you to dinner at  –  Monastery. The  Kloster EberbachEberbach 
+film buffs among you may know that the monastery served as one of the filming 
+locations for , based on Umberto Eco's novel and starring Sean  The Name of the Rose
+Connery.
+The conference venue here in Eltville can certainly hold its own as well. If you look out 
+of the window, you will see the beautiful River Rhine – a place that has long captured 
+the imagination of German thinkers and poets.
+Heinrich Heine once wrote in his poem "The Loreley":   – Und ruhig fließt der RheinAnd 
+. Part of the river's beauty lies in its calm, smooth flow.calmly flows the Rhine
+The same is true for flows in our payment and settlement systems. They work best 
+when they are barely noticeable – while enabling goods and services to flow through 
+the economy.
+Payment and settlement systems are not only operational infrastructure. They are also 
+an integral part of the monetary system. Our current monetary system relies on the 
+interplay between central bank money and private money. Many payments are made 
+via bank deposits. Banks, in turn, use central bank money for final settlement.
+In recent years, payments have seen a great deal of innovation. New forms of money 
+emerged or are being developed – most notably central bank digital currencies 
+stablecoins and tokenised deposits.(CBDCs), 
+
+2/6 BIS - Central bankers' speeches
+If these new forms of money change how liquidity flows through banks and markets, 
+they may also change how monetary policy affects inflation. To set the stage for this 
+year's conference, I would like to share some thoughts on what these new types of 
+money could mean for the transmission of monetary policy in the euro area.
+2 Implications for monetary policy transmission
+Let me begin by defining the instruments I will focus on. 
+A retailCBDC is a digital form of central bank money designed for everyday    
+transactions. In the euro area, the digital euro would be issued by the Eurosystem as a 
+digital form of central bank money.It is intended to complement cash, not to replace it. 1 
+The digital euro would be usable for transactions in all everyday payment situations, 
+also offline. And it is designed with monetary policy considerations in mind. 
+By the way, a wholesaleCBDC is primarily intended for the settlement of interbank    
+transactions. Since wholesaleCBDC has a less direct impact on spending decisions    
+and inflation, I will focus here on retail CBDC.
+Stablecoins are privately issued digital tokens that aim to maintain a stable value 
+against a reference asset. This reference asset is usually a fiat currency – and 
+currently, that means almost exclusively theUS dollar. A stablecoin's value depends on    
+several factors: the issuer's reserve assets, its redemption promise, its legal structure 
+and market confidence.
+Tokenised deposits are commercial bank deposits represented on a programmable or 
+tokenised ledger. They remain liabilities of the issuing commercial banks and should be 
+redeemable or transferable at par with ordinary bank deposits.
+How widely are these new forms of money already used? 
+For now, they remain more a prospect than a reality in everyday payments. Work on the 
+digital euro is still ongoing, but the project is already at an advanced stage. Under the 
+current timeline, issuance is planned in 2029.
+US dollar-denominated stablecoins have become significant in global crypto markets.  2 
+However, their use as a means of payment in the euro area is very limited, and the 
+amount of euro-denominated stablecoins outstanding remains small. Banks are 
+exploring tokenised deposits, mainly in wholesale settings.But tokenised deposits are 3 
+not yet used in everyday monetary transactions. 
+This means that, at present, these instruments have only a limited impact on monetary 
+policy transmission, as their footprint is still modest. But their potential impact could 
+grow if they become more widely used. That is why we need to analyse them now.
+Before I turn to my analysis, let me briefly recall how monetary policy transmission 
+works. The transmission process describes how changes in central banks' policy 
+instruments affect macroeconomic variables, such as inflation and output growth. 
+
+3/6 BIS - Central bankers' speeches
+Central bank actions are usually changes in monetary policy rates but can also include 
+changes in liquidity conditions and asset purchases. Monetary policy transmission 
+works through various channels and intermediate variables. The first step in many 
+transmission channels is the effect of monetary policy on financial variables.Think of  4 
+money market rates, deposit rates, lending rates and the supply of credit. These 
+changes then influence aggregate demand and, ultimately, inflation.
+The new forms of money are most likely to affect monetary policy transmission 
+channels that work through the banking sector – and in particular, through the bank 
+lending channel. The bank lending channel describes how monetary policy affects the 
+economy through banks' capacity and willingness to lend.5
+It rests on two main premises: 
+First, banks cannot easily replace stable and low-cost deposit funding with other 
+funding sources. If banks lose deposit funding, this can affect their capacity and 
+willingness to grant loans. And if deposits become more mobile, banks may face higher 
+or more volatile funding costs.
+Second, some borrowers cannot easily substitute bank loans with other forms of 
+finance. As a result, changes in banks' balance sheets and funding costs can affect the 
+supply and cost of loans, and ultimately aggregate demand and inflation.
+The key question is therefore: Do the new forms of money change the role of deposits 
+in bank funding, the composition of the depositor base, or both? The exact answer is 
+likely to differ across the forms of money and depend on their respective design. 
+Let's start with the least complicated case: tokenised deposits. Their implications on the 
+monetary transmission mechanism should be limited, as they do not substantially 
+change the characteristics of banks' deposit liabilities.
+The potential impact of a central bank digital currency is much more far-reaching in 
+principle. In practice, however, it depends on the specific design. The conversion of 
+bank deposits into central bank digital currency could lead to a disintermediation of the 
+banking sector.
+To prevent large-scale substitution of bank deposits, the digital euro will include a 
+holding limit. This will cap the amount of digital euro individuals can hold. Furthermore, 
+the digital euro will be designed as a payment instrument, and in particular, will be non-
+interest-bearing. This will reduce the attractiveness of holding the digital euro instead of 
+deposits as a store of value. Both the holding limit and the zero interest would limit the 
+long-run effect on bank balance sheets.
+The effect of stablecoins is harder to pin down. In general, a large-scale substitution of 
+domestic currency with stablecoins denominated in a foreign currency could weaken 
+monetary sovereignty and reduce the overall effectiveness of monetary policy. 
+However, this risk appears very limited for the euro area, given the euro's stability, 
+credibility and broad use.
+
+4/6 BIS - Central bankers' speeches
+For stablecoins pegged to the domestic currency, the impact depends mainly on two 
+factors: how the issuer manages the reserve assets and where the funds used to buy 
+the stablecoins come from.6
+In Europe, the issuance of stablecoins is regulated by the Markets in Crypto-Assets 
+Regulation, orMiCAR for short. Amongst other things,MiCAR requires European        
+stablecoin issuers to hold a significant share of their reserve assets as deposits with 
+credit institutions.7
+If these reserve assets are held as bank deposits, the banking system would not 
+necessarily lose deposits overall. However, the composition of deposits would change. 
+Deposits would shift from many relatively stable private holders to fewer, and potentially 
+more mobile, institutional holders. These wholesale deposits would have to be 
+remunerated at rates close to market interest rates. They would also likely become 
+more concentrated in larger banks.
+If reserve assets are instead invested in other assets – for example government 
+bonds – the balance-sheet implications depend on who sells the assets. If the 
+stablecoin issuer buys them from non-banks, the deposits would again be mainly 
+redistributed within the banking system. But if the issuer buys them from banks, banks' 
+balance sheets would shrink.
+The picture becomes even more complex if stablecoins are used as a substitute for 
+cash. In that case, they could lengthen banks' balance sheets. This would happen if 
+customers first deposited cash at a bank in order to buy stablecoins. The bank would 
+credit them with a deposit and, in turn, would redeem the cash at the central bank for 
+central bank reserves. So, depending on their design and reserve management, 
+stablecoins could redistribute deposits within the banking system, reduce bank balance 
+sheets, or, in some cases, even expand them. 
+What can we take away from this?
+First, the main effects on the transmission of monetary policy are likely to run through 
+the banking sector. New forms of money may affect the size and composition of bank 
+deposits, and therefore banks' funding costs and their capacity to grant loans.
+Second, the effects differ significantly across instruments. Tokenised deposits do not 
+substantially change the characteristics of bank deposits and should therefore have a 
+limited impact. A retailCBDC could have larger effects, but design choices such as    
+holding limits will contain them. Stablecoins are the most complex case, because their 
+impact depends on reserve management, regulation and adoption.
+Third, these changes may alter the strength of monetary policy transmission. In most 
+scenarios I have discussed, the transmission of monetary policy through the banking 
+sector could become stronger. If deposits become more mobile and banks' balance 
+sheets shrink, banks may compete more actively for funding and adjust lending more 
+strongly in response to changes in policy rates. The main exception would be a case in 
+which stablecoins substitute for cash.
+
+5/6 BIS - Central bankers' speeches
+Furthermore, beyond the effects on bank balance sheets discussed before, the new 
+forms of money could also weaken monetary policy transmission in the long run. If they 
+were to lead to a contraction in bank balance sheets and a reduction in their loan 
+supply, credit provision could shift away from banks and towards other forms of 
+financing. In that case, changes in banks' funding conditions would affect a smaller 
+share of overall credit provision, reducing the force of the traditional bank lending 
+channel. 
+At the same time, monetary policy transmission through other channels – for example, 
+the asset price channel – could be strengthened. Taken together, the overall effect is 
+undetermined.
+Be this as it may, even if the new forms of money affect the strength of monetary policy 
+transmission, they do not take away our ability to deliver price stability. They simply 
+mean that we need to factor their potential impact into our monetary policy decisions.
+3 Concluding remarks
+Ladies and gentlemen, In Heinrich Heine's poem, the boatman came to grief because 
+he was distracted by the song of the Loreley. 
+That is not the lesson we should draw from the emergence of new forms of money. 
+Instead, we should keep our eyes open, understand the currents and steer with care.
+New forms of money may affect bank funding, deposit competition and the pass-
+through of policy rates. They may therefore change the strength of the transmission of 
+monetary policy.
+However, they do not take away our ability to deliver price stability. They simply require 
+us to calibrate our monetary policy instruments accordingly. 
+Ladies and gentlemen, let me once again welcome all of you to this conference. You 
+are here to deepen our shared understanding of these currents. In that spirit, I wish you 
+inspiring and insightful discussions.
+Many thanks for your attention.
+1 See Deutsche Bundesbank (2026), The digital euro: key elements and outlook, 
+Monthly Report, March 2026.
+2 See Deutsche Bundesbank (2025), Financial Stability Review 2025.
+3 See European Banking Authority (2024), Report on Tokenised Deposits, December, 
+as well as Bank for International Settlements (2026), Project Agorá – A shared 
+programmable platform for wholesale cross-border payments.
+4 Inflation expectations are one important non-financial monetary policy transmission 
+channel.
+
+6/6 BIS - Central bankers' speeches
+5 The original formulation of the bank lending channel is found in Bernanke, B. and A. 
+Blinder (1988), Credit, Money, and Aggregate Demand, American Economic Review, 
+Vol. 78(2), pp. 435-439. A modern reformulation is found in Drechsler, I., A. Savov and 
+P. Schnabl (2017), The Deposits Channel of Monetary Policy, The Quarterly Journal of 
+Economics, Vol. 132(4), pp. 1819-1876.
+6 If stablecoins were to become interest-bearing, this could also influence their impact 
+on monetary policy transmission.
+7 The share of deposits must exceed 30 % for all stablecoins and 60 % for significant 
+stablecoins. See L_2023150EN.01004001.xml
