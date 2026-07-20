@@ -164,7 +164,7 @@ trlsRaw = [
     {
         "ecb_quarterly_report_headline":    {
             "de": "EZB Monitor - Quartalsbericht",
-            "en": "ECB-Monitor - Quarterly report",
+            "en": "ECB-Monitor Quarterly Report – most recent issue",
         },
     },
     {
@@ -176,8 +176,8 @@ trlsRaw = [
 
     {
         "ecb_quarterly_report_archive_headline":    {
-            "de": "...frühere Ausgaben",
-            "en": "...past issues",
+            "de": "EZB Monitor - Quartalsbericht - frühere Ausgaben",
+            "en": "ECB-Monitor Quarterly Report – past issues",
         },
     },
     {
@@ -891,7 +891,7 @@ trlsRaw = [
     },
     {
         "council_by_6weeks_section_subtitle": {
-            "de": "(Reden letzte 6 Wochen)",
+            "de": "(Reden je 6 Wochen)",
             # "en": "(speeches last six weeks)",
             "en": "(speeches per six weeks)",
         },
