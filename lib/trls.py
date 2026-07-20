@@ -195,7 +195,7 @@ trlsRaw = [
     {
         "blog_special_analyses_headline":    {
             "de": "EZB Monitor - Spezialanalysen",
-            "en": "ECB-Monitor - Special analyses",
+            "en": "ECB-Monitor - special analyses",
         },
     },
     {
