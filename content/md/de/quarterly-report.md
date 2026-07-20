@@ -7,7 +7,8 @@
 
 ---
 
-<br>
+
+### Aktuelle Daten als CSV Download
 
 
 * <a id="linkDownload"      href="/static/dl/council-by-6weeks.csv"      title="European CSV, semikolon delimited,  decimal separator: comma, UTF-8"   download="" >EZB-Rat Position Timeline pro 6 Wochen  &nbsp; (CSV)</a>
