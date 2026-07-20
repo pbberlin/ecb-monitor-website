@@ -30,7 +30,9 @@ playwright install
 chmod +x /var/www/ecb-app/.venv/lib/python3.11/site-packages/playwright/driver/node
 chmod +x /var/www/ecb-app/.venv/lib/python3.11/site-packages/playwright/driver/*
 
-# first crawl
-python ./scripts/bis-speeches/crawl-01.py --input "./ecb-members-input.csv" --output "./ecb-members-urls.csv"  --headless true
+python ./scripts/bis-speeches/crawl-01.py --input "./ecb-members-input.csv" --output "./ecb-members-urls.csv"   --headless true
+python ./scripts/bis-speeches/crawl-02.py --input "./ecb-members-urls.csv"  --output "./ecb-members-links.csv"  --headless true  
+# takes 20 min
+python ./scripts/bis-speeches/crawl-03.py --input "./ecb-members-links.csv"
 
 ```
