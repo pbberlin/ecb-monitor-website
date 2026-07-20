@@ -34,5 +34,10 @@ python ./scripts/bis-speeches/crawl-01.py --input "./ecb-members-input.csv" --ou
 python ./scripts/bis-speeches/crawl-02.py --input "./ecb-members-urls.csv"  --output "./ecb-members-links.csv"  --headless true  
 # takes 20 min
 python ./scripts/bis-speeches/crawl-03.py --input "./ecb-members-links.csv"
+python ./scripts/bis-speeches/crawl-04.py
+
+# sudo apt install tesseract-ocr
+python ./scripts/bis-speeches/crawl-05-ocr.py
+
 
 ```
