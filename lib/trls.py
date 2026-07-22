@@ -826,6 +826,7 @@ trlsRaw = [
             "de": "(alle Reden)",
             "en": "(full history of speeches)",
         },
+
     },
     {
         "ecb_council_desc":    {
@@ -885,15 +886,14 @@ trlsRaw = [
 
     {
         "council_by_6weeks_section": {
-            "de": "Timeline",
+            "de": "Timeline EZB-ZEW-Momentum Indikator",
             "en": "Timeline ECB-ZEW-Momentum Indicator",
         },
     },
     {
         "council_by_6weeks_section_subtitle": {
-            "de": "(Reden je 6 Wochen)",
-            # "en": "(speeches last six weeks)",
-            "en": "(speeches per six weeks)",
+            "de": "(6 Wochen Perioden der Reeden)",
+            "en": "(six-weeks window of speeches)",
         },
     },
     {
@@ -907,13 +907,13 @@ trlsRaw = [
         "council_by_6weeks_desc":    {
             "de": "Leitzins Entscheidungen folgen der Dovish-Hawkish Einschätzung der vorangegangenen Kommunikation. Plausibel. Kausalbeziehung nicht beweisbar.",
             # "en": "Rate settings follows Dovish-Hawkish score. Plausible, but causal relation cannot be proved.",
-            "en": "ECB-ZEW Momentum Indicator and ECB deposit rate over time",
+            "en": "ECB-ZEW-Momentum Indicator and ECB deposit rate over time",
         },
     },
     {
         "council_by_6weeks_chart_series":    {
-            "de": "ECB-ZEW Momentum Indikator",
-            "en": "ECB-ZEW Momentum Indicator",
+            "de": "EZB-ZEW Momentum Indikator",
+            "en": "ECB-ZEW-Momentum Indicator",
         },
     },
     {
@@ -929,7 +929,7 @@ trlsRaw = [
             """,
             "en": """
                 <p>
-                    The graph shows the ECB-ZEW Momentum Indicator alongside the ECB deposit rate.
+                    The graph shows the ECB-ZEW-Momentum Indicator alongside the ECB deposit rate.
                 </p>
 
                 <p>
@@ -937,7 +937,7 @@ trlsRaw = [
                 </p>
 
                 <p>
-                    The ECB-ZEW Momentum Indicator provides an average hawkishness score based on speeches given by all ECB Council members over the last six weeks.
+                    The ECB-ZEW-Momentum Indicator provides an average hawkishness score based on speeches given by all ECB Council members over the last six weeks.
                 </p>
 
                 <p>
@@ -963,7 +963,7 @@ trlsRaw = [
         "barometer_section_subtitle": {
             "de": "(Reden über ein Jahr)",
             # "en": "(speeches over one year)",
-            "en": "(speeches per year)",
+            "en": "(full-year window of speeches)",
         },
     },
 

@@ -100,12 +100,12 @@ a:hover {
 }
 a:hover,
 a:focus,
-input[type=range],
+input[type=range]:focus,
 dummy {
-    outline:            2px dotted var(--color-font);
+    outline:            0.25px dashed var(--color-font);
     border-radius:      2px;
 
-    outline-offset:     3px;                   /* distance element ...  rectangle  */
+    outline-offset:     4px;                   /* distance element ...  rectangle  */
 }
 
 /*
