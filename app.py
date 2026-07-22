@@ -504,8 +504,6 @@ def quarterlyReportsPast():
     pdfFiles = []
     try:
         for idx1, pth in enumerate(dirPth.glob("*.pdf")):
-            if idx1 % 100 == 0:
-                print(f"\t{idx1:3} of {pth.name} of {dirPth}")
             pdfFiles.append(pth)
     except Exception as exc:
         from lib.util import stackTrace
@@ -519,6 +517,7 @@ def quarterlyReportsPast():
     for idx1, pth in enumerate(pdfFiles):
         # replacing hyphens with spaces for cleaner display name
         displayName = pth.stem.replace("-", " ")
+        displayName = pth.stem
         itemHtml = f"""
             <li style='margin-bottom: 0.5ch;'>
                 <a href="/static/pdf/quarterly-reports/{pth.name}">{displayName}</a>
