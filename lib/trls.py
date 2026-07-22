@@ -111,7 +111,7 @@ trlsRaw = [
 
                 <ul>
                     <li>
-                        The quarterly ECB-ZEW-Momentum Indicator; this indicator presents a text-analytical score of the ECB Council's current monetary policy orientation, based on the most recent speeches by Council members
+                        The quarterly ECB-ZEW Momentum Indicator; this indicator presents a text-analytical score of the ECB Council's current monetary policy orientation, based on the most recent speeches by Council members
                     </li>
 
                     <li>
@@ -195,7 +195,7 @@ trlsRaw = [
     {
         "blog_special_analyses_headline":    {
             "de": "EZB Monitor - Spezialanalysen",
-            "en": "ECB-Monitor - special analyses",
+            "en": "ECB-Monitor – special analyses",
         },
     },
     {
@@ -886,8 +886,8 @@ trlsRaw = [
 
     {
         "council_by_6weeks_section": {
-            "de": "Timeline EZB-ZEW-Momentum Indikator",
-            "en": "Timeline ECB-ZEW-Momentum Indicator",
+            "de": "Timeline EZB-ZEW Momentum Indikator",
+            "en": "Timeline ECB-ZEW Momentum Indicator",
         },
     },
     {
@@ -899,21 +899,21 @@ trlsRaw = [
     {
         "headline_council_by_6weeks": {
             "de": "EZB-Rat insgesamt - Taube-Falke Position über die Zeit ",
-            # "en": "Timeline ECB-ZEW-Momentum Indicator (speeches last six weeks)",
-            "en": "ECB-ZEW-Momentum Indicator and ECB deposit rate over time",
+            # "en": "Timeline ECB-ZEW Momentum Indicator (speeches last six weeks)",
+            "en": "ECB-ZEW Momentum Indicator and ECB deposit rate over time",
         },
     },
     {
         "council_by_6weeks_desc":    {
             "de": "Leitzins Entscheidungen folgen der Dovish-Hawkish Einschätzung der vorangegangenen Kommunikation. Plausibel. Kausalbeziehung nicht beweisbar.",
             # "en": "Rate settings follows Dovish-Hawkish score. Plausible, but causal relation cannot be proved.",
-            "en": "ECB-ZEW-Momentum Indicator and ECB deposit rate over time",
+            "en": "ECB-ZEW Momentum Indicator and ECB deposit rate over time",
         },
     },
     {
         "council_by_6weeks_chart_series":    {
             "de": "EZB-ZEW Momentum Indikator",
-            "en": "ECB-ZEW-Momentum Indicator",
+            "en": "ECB-ZEW Momentum Indicator",
         },
     },
     {
@@ -929,7 +929,7 @@ trlsRaw = [
             """,
             "en": """
                 <p>
-                    The graph shows the ECB-ZEW-Momentum Indicator alongside the ECB deposit rate.
+                    The graph shows the ECB-ZEW Momentum Indicator alongside the ECB deposit rate.
                 </p>
 
                 <p>
@@ -937,7 +937,7 @@ trlsRaw = [
                 </p>
 
                 <p>
-                    The ECB-ZEW-Momentum Indicator provides an average hawkishness score based on speeches given by all ECB Council members over the last six weeks.
+                    The ECB-ZEW Momentum Indicator provides an average hawkishness score based on speeches given by all ECB Council members over the last six weeks.
                 </p>
 
                 <p>
@@ -945,7 +945,7 @@ trlsRaw = [
                 </p>
 
                 <p>
-                    For more information on the methodology behind the ECB-ZEW-Momentum Indicator, please refer to the Method Paper.
+                    For more information on the methodology behind the ECB-ZEW Momentum Indicator, please refer to the Method Paper.
                 </p>
 
             """,
