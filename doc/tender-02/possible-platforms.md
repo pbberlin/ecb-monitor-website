@@ -69,3 +69,15 @@ Candidate Requirements:
         * "Can you deliver final source files in SVG format or an SVGator project file?"
  
  * Bid Type: Allow Standard Bidding. Do not use "Estimated hours." Encourage bidders to bid exactly the $110 Stage 1 price.
+
+
+
+ ## upwork.com
+
+ https://www.upwork.com/jobs/~022079952922580254140
+
+ peter.buchmann@zew.de
+ Funkelnd
+
+
+https://www.upwork.com/jobs/~022079952922580254140
