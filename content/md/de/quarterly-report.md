@@ -5,7 +5,7 @@
 
 
 
-* <a  style="font-size:85%" href="/static/pdf/methodology-zew-ecb-monitor-v3.pdf"         >{{i18n.headline_method_paper}}</a>
+* <a  style="font-size:85%" href="/static/pdf/methodology-zew-ecb-monitor-v3.pdf"  target="_method"          >{{i18n.headline_method_paper}}</a>
 
 <br>
 
