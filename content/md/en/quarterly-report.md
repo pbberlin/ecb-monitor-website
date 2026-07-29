@@ -5,6 +5,10 @@
 * <a href="/static/pdf/ZEW-ECB-Monitor-Quarterly-Report-2026-Q3.pdf">ECB-Monitor Quarterly Report 2026 Q3</a><br>
 
 
+* <a  style="font-size:85%" href="/static/pdf/methodology-zew-ecb-monitor-v3.pdf"         >{{i18n.headline_method_paper}}</a>
+
+
+
 <br>
 
 ---

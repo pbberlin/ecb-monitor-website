@@ -80,4 +80,21 @@ Candidate Requirements:
  Funkelnd
 
 
-https://www.upwork.com/jobs/~022079952922580254140
+https://www.upwork.com/jobs/~022081460193669509707
+
+## Ben
+
+Good evening Ben,
+
+"clean recognizable vector illustrations" - that's right.
+
+"turning ... macroeconomic ideas into visuals" - yes - the linked examples from the magazine "the economist" give you some guidance.  
+
+It's mostly about imagination. The execution should not be too hard for you.
+
+We need you to put one or two elements of the economics issue into an illustration - pleasant to look at - not fancy - just a little creative spark.
+
+Please allow a few days. 
+
+Regards
+  Peter

@@ -1067,6 +1067,12 @@ trlsRaw = [
             "en": "Image licence",
         },
     },
+    {
+        "headline_method_paper": {
+            "de": "Methodik",
+            "en": "Details on methods",
+        },
+    },
 
 
 ]

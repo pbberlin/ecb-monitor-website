@@ -120,7 +120,7 @@
     div.service-links {
         display: grid;
 
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 1rem;
 
         justify-items: center;
@@ -447,7 +447,10 @@
 
 
 
-    <div class="box2 service-links full-width" style="margin-top: 0.6ch; padding-bottom: 1ch;">
+    <div class="box2 service-links full-width" 
+            style="margin-top: 0.6ch; padding-bottom: 1ch;" 
+    >
+        <a href="/static/pdf/methodology-zew-ecb-monitor-v3.pdf"  target="_method"          >{{i18n.headline_method_paper}}</a>
         <a href="/md/team.md"             >{{i18n.headline_imprint}}</a>
         <a href="/md/data-protection.md"  >{{i18n.headline_data_protection}}</a>
         <a href="/image-licences"         >{{i18n.headline_image_licenses}}</a>

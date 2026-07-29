@@ -258,8 +258,9 @@
 
   #council_right {
     min-height: 60%;
-    min-height: 57%;
     /* keep at 60%  or switch container to vertical-align: top */
+    min-height: 57%;
+    min-height: 50%;   /* vertical space for links "methodology" and "download" below */
   }
 
 
@@ -430,6 +431,21 @@
       ></div>
 
 
+      <div class="slider-group play-and-download" >
+        <a href="/static/pdf/methodology-zew-ecb-monitor-v3.pdf"  target="_method"          >{{i18n.headline_method_paper}}</a>
+      </div>
+
+
+      <div class="slider-group play-and-download" >
+        <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
+        >{{i18n.download_data}}</a>
+      </div>
+      <script>
+            const linkDownload   = document.getElementById("linkDownload")
+            linkDownload.setAttribute("href", `/static/dl/council-by-geography.csv`)
+      </script>
+
+
       <div class="slider-group"
           style="
           margin-top: 0.5rem; margin-bottom: 0;
@@ -470,14 +486,6 @@
       </div>
 
 
-      <div class="slider-group play-and-download play-and-download-last" >
-        <a id="linkDownload" href="#" title="{{i18n.download_data_help}}" download
-        >{{i18n.download_data}}</a>
-      </div>
-      <script>
-            const linkDownload   = document.getElementById("linkDownload")
-            linkDownload.setAttribute("href", `/static/dl/council-by-geography.csv`)
-      </script>
 
 
 

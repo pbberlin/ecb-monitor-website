@@ -22,7 +22,7 @@ You will work with [Peter Buchmann](https://www.zew.de/en/team/pbu) and [Jan Kem
 
 ## Application and Payment
 
-To apply, please submit your portfolio. We will select the contractor based on the quality and relevance of past work, specifically looking for vector proficiency and the ability to translate economic concepts into clear visuals.
+To apply, please submit your portfolio. We will select the contractor based on the quality and relevance of past work, specifically looking for the ability to translate economic concepts into clear visuals.
 
 The selected candidate will be awarded a fixed-price contract of $500.
 

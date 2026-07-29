@@ -3,7 +3,12 @@
 * <a href="/static/pdf/ZEW-ECB-Monitor-Quarterly-Report-2026-Q3.pdf">ZEW EZB Monitor Quartalsbericht 2026 Q3 &nbsp; (PDF)</a>
 
 
+
+
+* <a  style="font-size:85%" href="/static/pdf/methodology-zew-ecb-monitor-v3.pdf"         >{{i18n.headline_method_paper}}</a>
+
 <br>
+
 
 ---
 
