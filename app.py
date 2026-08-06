@@ -160,6 +160,7 @@ allowedIps = [
     "193.196.11.0/24",    # ZEW internal network (covers 193.196.11.1–193.196.11.255)
     "78.94.80.126",       # zew guest
     "34.254.109.160",     # securityheaders.com
+    "100.64.0.0/10",      # tailgate
 ]
 
 allowedNetworks = []
