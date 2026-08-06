@@ -363,3 +363,60 @@ sudo a2enmod cache_disk
 sudo systemctl restart apache2
 
 ```
+
+
+## Tailscale
+
+```bash
+curl -fsSL https://tailscale.com/install.sh | sh
+
+sudo tailscale up
+
+# verify
+
+tailscale status
+
+tailscale ip
+tailscale ip -4 
+#     100.103.228.112
+#     fd7a:115c:a1e0::3e38:e471
+
+
+# windows
+https://tailscale.com/download/windows
+https://console.tailscale.com/admin/machines
+
+
+
+
+```
+
+
+Instructions to access the server via Tailscale:
+
+1. Download and install Tailscale:
+   https://tailscale.com/download
+
+2. Open Tailscale, create a free account and log in.
+
+3. Accept the server sharing invitation by opening this link in your web browser:
+   https://login.tailscale.com/admin/invite/9NYVG9DqJtEcbyBHNRTH11
+   (Make sure the Tailscale app shows status: Connected)
+
+4. One more configuration step on your computer
+
+   - On Windows:
+     1. Search for "Notepad" in the Start Menu.
+     2. Right-click Notepad and select "Run as administrator".
+     3. Open file: C:\Windows\System32\drivers\etc\hosts
+
+   - On Mac:
+     Open Terminal and run:
+     sudo nano /etc/hosts
+
+   Add this at the end - and save:
+   100.103.228.112 ecb-monitor.zew.de
+
+5. Open your browser and go to:
+   https://ecb-monitor.zew.de
+
