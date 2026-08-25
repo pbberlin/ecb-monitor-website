@@ -1,0 +1,625 @@
+Italian Banking Association 
+Annual Meeting
+The economic and financial system 
+amidst uncertainty and innovation
+Speech by the Governor of Banca d’Italia 
+Fabio Panetta
+Rome, 15 July 2026
+
+3
+
+1. The international economy 
+The global economy is in a period of transition, shaped by two opposing 
+forces. The first is the shock triggered by the conflict in the Middle East, which 
+has led to higher energy prices, heightened uncertainty and renewed concerns 
+about supply chain bottlenecks. The second is the spread of artificial intelligence, 
+which is bolstering investment, trade in high-tech goods and services, equity 
+market valuations and, through the latter, household wealth and consumption.
+These two forces are playing out differently across the world. The United 
+States benefits from its lower exposure to energy shocks and from its strong 
+capacity to develop and deploy new technologies. In China, growth is supported 
+by manufacturing and technology exports but remains constrained by the 
+country’s reliance on imported energy. 
+In the euro area, higher energy costs have compounded a situation already 
+marked by low growth. Diversification of energy sources and suppliers has made 
+the euro area less vulnerable than in the past, but sudden increases in gas and 
+oil prices continue to weigh on economies that still depend on imports of fossil 
+fuels. The contribution of artificial intelligence to investment is more limited 
+than elsewhere.
+In the months following the outbreak of the conflict, household confidence 
+deteriorated and the outlook for service firms weakened. Inflation is currently 
+hovering around 3 per cent and is expected to remain above that level until early 
+2027.
+Following the easing of tensions in recent weeks, the resumption of hostilities 
+in the past few days has been accompanied by further increases in oil and gas 
+prices, confirming the fragility of the macroeconomic outlook.
+Monetary policy must once again strike a delicate balance, as economic 
+activity slows and inflation remains above the 2 per cent target. The  
+25-basis-point increase in interest rates decided by the ECB Governing Council 
+at its June meeting was an initial and measured response to the predominance of 
+upside risks to inflation. 
+When considering future decisions, the ECB Governing Council will 
+carefully assess conditions in energy markets, and the evolution of the economic 
+situation, of wages and of prices for goods and services. The objective is to keep 
+inflation expectations firmly anchored, limiting the indirect and second-round 
+effects of shocks.
+3
+
+4
+2. International financial markets 
+The start of the conflict between the United States and Iran at the end of last 
+February triggered widespread tensions on the international financial markets. 
+There was an increase in volatility and in investors’ risk aversion; equity prices 
+fell, risk premiums rose and there were capital outflows from emerging markets. 
+Higher energy prices fuelled inflation expectations and led to a revision of 
+monetary policy expectations, contributing to the marked rise in interest rates at 
+various maturities. 
+Tensions then abated as the prospect of a ceasefire emerged. Equity markets 
+began to rise as early as April, reaching new peaks in some sectors. Risk premiums on 
+shares and spreads on high-yield corporate bonds decreased again (Figure 1). 
+Government bond yields also went down, though they remain above pre-conflict levels, 
+especially in countries with weaker public finances. 
+The speed of the recovery in the markets requires a cautious interpretation. It 
+may indicate confidence in the capacity of the global economy to absorb tensions, 
+but it may also point to an underestimation of risks. 
+This second reading is confirmed by several indicators. The rise in equity prices 
+has been accompanied by an increase in interest rates, a combination that reflects 
+Figure 1
+Equity risk premiums and corporate bond yield spreads
+(a) Equity risk premium for the US market
+(percentage points)
+(b) High-yield corporate bond spreads (2)
+(basis points)
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+'22 2023 2024 2025 '26
+200
+300
+400
+500
+600
+700
+'22 2023 2024 2025 '26
+Risk premium (1)
+2000-26 average
+Europe
+United States
+Emerging economies
+Sources: Based on Bloomberg and London Stock Exchange Group (LSEG) data.
+(1) The premium is calculated using the ratio of the 10-year moving average of the earnings of the companies listed in the 
+S&P 500 to the value of the index. From the resulting ratio, which is an estimate of the expected real return on equity, we 
+subtract the real interest rate, i.e. the difference between the 10-year overnight indexed swap (OIS) rate and the inflation 
+swap rate. − (2) Option-adjusted spreads on high-yield corporate bonds.
+
+4 5
+both very favourable expectations for future earnings growth (Figure 2), and the 
+compression of risk premiums, to twenty-year lows. The recent experience of some 
+speculative assets, such as crypto-assets, also reminds us how underestimating risks 
+can support prices for a long time, before making way for broad corrections.1 
+Overall, the risks linked to higher energy prices, tighter financial conditions 
+and persistent geopolitical uncertainty appear to be only partially incorporated into 
+market evaluations. 
+In the foreign exchange market, the US dollar has resumed its safe-haven 
+function. This marks a reversal from the spring of last year, when the announcement 
+of the new tariffs had raised concerns, mainly over the outlook for the US economy, 
+thus cooling the demand for dollar-denominated assets. This time, the use of the 
+US dollar for oil trade invoicing2 and the position of the United States as a net oil 
+exporter have instead fostered the appreciation of the dollar.
+The recovery in equity prices has been driven by optimism over the prospects 
+opened up by artificial intelligence. Demand for AI-related services has continued 
+to expand rapidly, prompting big tech companies to accelerate investment in IT 
+infrastructures. This has caused bottlenecks in the advanced semiconductors sector, 
+1 The price of gold has also varied considerably, reflecting the increase in real interest rates and the 
+sales carried out by some emerging countries to support their respective currencies in a period of 
+turbulence.
+2 As the oil trade is largely invoiced in US dollars, an increase in the price of crude oil, with trade 
+volumes being equal, increases the value of transactions in US dollars and thus the demand for US 
+currency to settle them.
+Figure 2
+Expected earnings growth for the US equity market
+(percentage points)
+0
+10
+20
+30
+40
+0
+10
+20
+30
+40
+Jan. Feb. Mar. Apr. May June
+Expected earnings growth:
+Over the next 12 months
+Over the next 24 months
+Source: LSEG I/B/E/S.
+
+6
+which are essential for running data centres: prices have gone up, producers’ 
+margins have reached exceptional levels and their stock prices have risen 
+considerably (Figure 3.a).
+The boost that this sector has given to the stock market indices has been 
+stronger in the United States and, above all, in some Asian economies, where the 
+semiconductor sector is more heavily represented in the overall stock index. In Europe, 
+where it makes up a smaller share, the performance of the markets has been less bright  
+(Figure 3.b), and has mainly reflected the increases in the financial and energy sectors. 
+Artificial intelligence is bound to have considerable effects on productivity 
+and growth. However, the benefits are still uncertain in terms of timeframes and 
+distribution. 
+The equity prices of some semiconductor firms seem to reflect the assumption 
+that the current exceptional margins will last for a long time, but an increase in 
+supply due to production capacity, the entry of new competitors or alternative 
+technological solutions could lead to a downward revision of profitability 
+expectations.3
+3 If new competitors succeeded in expanding their product supply rapidly, including through solutions 
+capable of overcoming the current bottlenecks, profitability expectations could be sharply revised 
+downwards. This kind of pressure could come from China, where public and private efforts have 
+been stepped up in recent years to rapidly develop the semiconductor industry.
+Figure 3
+Equity markets
+(a) US stock market sectors
+(indices: 1 January 2020=100)
+(b) Equity market performance (2)
+(indices: 1 January 2025=100)
+100
+200
+300
+400
+500
+  100
+  300
+  500
+  700
+  900
+'20 '21 '22 '23 '24 '25 '26
+S&P 500
+Hardware
+Semiconductors (1)
+100
+140
+180
+220
+ 100
+ 200
+ 300
+ 400
+Jan. '25 July '25 Jan. '26 July '26
+United States
+Europe
+Japan
+Emerging economies
+South Korea (1)
+Source: Bloomberg.
+(1) Right-hand scale. – (2) Indices: S&P 500 for the United States, STOXX Europe 600 for Europe, Topix for Japan, MSCI 
+Emerging Markets for the emerging markets and KOSPI for South Korea.
+
+6 7
+The risks of greater competition also relate to US firms that provide AI 
+services: the market entry of new operators and the spread of less costly models 
+could dampen earnings expectations. At the same time, massive investment in IT 
+infrastructure and computing capacity is increasing the financing needs of these 
+firms. Many have upped their recourse to the bond market, while others have raised 
+funds through capital increases or stock market public listings. For the former, 
+greater indebtedness increases vulnerability to tighter financial conditions and 
+potential downward revisions of expected earnings. 
+Market resilience is a positive signal, but it is not to be confused with an absence 
+of risks. High valuations, increases concentrated in a few segments and persistent 
+geopolitical uncertainty all expose markets to corrections that can also be sudden. The 
+volatility of Nasdaq – in which technology companies account for a large share – 
+remains high, although that of the broader market indices has stayed low (Figure 4).4
+For investors, prudent management of exposures is necessary, especially in 
+sectors where optimism is more intense and prices incorporate particularly high 
+earnings expectations.
+3. Banks 
+The banking system continues to play a central role in financing the Italian 
+economy. The importance of bank lending has decreased over time, but it remains 
+4 The Korean stock market, which is particularly exposed to firms that produce data centre components, 
+has recorded a correction of 25 per cent in the last few weeks.
+Figure 4
+Implied volatility of equity indices (1)
+(annualized percentages)
+15
+20
+25
+30
+15
+20
+25
+30
+Jan. Feb. Mar. Apr. May June July
+S&P 500 Nasdaq 100
+Source: Bloomberg. 
+(1) The dashed lines show the historical averages over the 2001-26 period.
+
+8
+greater than in the other major European countries, especially for firms. In Italy, 
+firms’ bank debts account for 14 per cent of the sum of financial debt and equity, 
+and 46 per cent of financial debt alone.
+Such centrality comes with great responsibility. In a world of heightened 
+uncertainty and recurrent geopolitical shocks, where instability can swiftly pass 
+through to capital markets and the real economy, banks are called upon to strike a 
+delicate yet essential balance between meeting the financing needs of households 
+and firms with adequate credit ratings and preserving their asset quality and 
+soundness. 
+The surge in energy prices has increased the liquidity needs of firms, in many 
+cases resulting in higher demand for loans, especially short-term ones. So far, banks 
+have met this demand. In May, the growth in lending to firms accelerated to 6.2 per 
+cent on an annualized quarterly basis, from 2.3 per cent in February (Figure 5). 
+In the coming months, credit dynamics will be shaped by the trajectory of the 
+conflict in the Middle East, financial market conditions and banks’ risk perception. 
+A prolonged period of hostilities, coupled with renewed pressures on energy 
+markets, could lead banks to be more cautious and to tighten their credit standards.
+The indicators for the first quarter confirm that the Italian banking system 
+is robust: profitability remains high, capitalization is more than adequate and 
+asset quality is very good. This assessment is shared by market participants and 
+Figure 5
+Loans to non-financial corporations in Italy (1)
+(annualized 3-month percentage changes)
+−10
+−5
+0
+5
+−10
+−5
+0
+5
+2021 2022 2023 2024 2025 '26
+Source: Based on Banca d’Italia data.
+(1) Includes bad debts, repos and loans not reported in banks’ balance sheets because they have been securitized. The 
+percentage changes are net of reclassifications, exchange rate variations, value adjustments, and other variations not due to 
+transactions. Data are seasonally adjusted following a methodology compliant with the guidelines of the European Statistical 
+System.
+
+8 9
+international institutions. In its recently concluded Financial Sector Assessment 
+Program, the IMF gave a positive evaluation of Italy’s financial system, also 
+acknowledging the contribution of effective supervision.5
+The most noticeable improvement has been in terms of credit quality.  
+Ten years ago, non-performing loans exceeded 8 per cent of total loans, one of  
+the highest shares in the euro area. Today they account for 1 per cent.6 
+The balance sheet valuations of these loans remain prudent. This is partly due 
+to EU rules requiring full provisioning for non-performing exposures originated 
+since 2019 within specified timeframes under a calendar-based approach.  
+For Italian banks, this system is burdensome, given the lengthy duration of civil 
+court proceedings.7
+Some differences remain with regard to non-performing loans granted by 
+smaller banks before 2019, which are not subject to the more stringent criteria 
+applied by the ECB to larger banks. In recent months, Banca d’Italia has started 
+to collect updated data and announced its intention to extend the EU’s approach 
+to the rest of the Italian banking system, proceeding gradually and taking into 
+account the specificities of individual institutions.8 The gap with larger banks has 
+nonetheless already narrowed significantly. 
+The overall picture is sound, though there have been crisis episodes – albeit 
+limited – involving small banks. Not all business ventures will prove successful in 
+a market economy. Banca d’Italia works to prevent crises wherever possible and, 
+when they do occur, to manage them so as to protect bank customers and financial 
+stability.
+5 IMF, Italy, Staff Concluding Statement of the 2026 Article IV Mission, 27 May 2026. The statement 
+anticipates the main findings of the Financial Sector Assessment Program, which will be published 
+in the coming days.
+6 This figure refers to loans net of loan loss provisions. Gross of provisions, the ratio of non-performing 
+loans to total loans was 15.2 per cent in 2016 and 2.4 per cent at the end of last year.
+7 The calendar-based approach and its impact on the stock of non-performing loans on banks’ balance 
+sheets is described in P. Angelini, ‘La nuova regolamentazione sugli NPLs e il nuovo Codice delle 
+crisi d’impresa’ (The new rules on NPLs and the new business crisis code; only in Italian), speaking 
+notes for the conference on the options available to borrowers in distress, Mantua, 12 October 2019, 
+and for the workshop on ‘Non-performing bank loans. The task of the legislator for a timely recovery’ 
+held by Arel, Rome, 21 October 2019. In recent years, the timeframe for civil court proceedings has 
+shortened, though still not enough to bridge the gap with the other advanced economies. For further 
+details, see Chapter 11 of the Annual Report for 2025, 2026 (only in Italian).
+8 Banca d’Italia’s announcement follows the launch of a public consultation on the ECB’s draft 
+guidelines issued to the national competent authorities, which introduce a calendar-based approach 
+to non-performing exposures held by less significant banks and relating to loans originated before 26 
+April 2019. These guidelines provide for a gradual phase-in, with full implementation by the end of 
+2028. They also provide some leeway to take into account banks’ specificities, including exempting 
+certain institutions from their scope.
+
+10
+Some of these episodes were associated with unlawful conduct, confirming 
+the importance of robust corporate governance and strong business ethics. 
+This recommendation is far from abstract: it is a matter of integrity in 
+corporate decision-making, transparency in customer relationships, awareness 
+of the risks undertaken, and full accountability of corporate bodies and functions 
+and of shareholders. Supervision can reduce risks, but it cannot replace corporate 
+bodies; nor does it have – and rightly so – the powers entrusted to the judicial 
+authorities, with which it works closely. The first line of defence remains the 
+financial intermediaries themselves. Even more than supervisory action, it is 
+their integrity that underpins the trust upon which banking ultimately rests.
+Another development that is bound to affect the financial system is the 
+ongoing process of consolidation. The mergers that have been recently launched 
+or announced involve banks, insurers and asset managers, in a market in which 
+the lines between the various sectors of finance are becoming less clear and 
+competition is centred around the ability to offer bundled products. 
+This process can strengthen individual institutions and the system as a 
+whole, encouraging investment in technology and cybersecurity, and improving 
+the efficiency and quality of services for households and firms.
+However, these results should not be taken for granted. They will depend on 
+the capital strength of the newly merged banks, the sustainability of their business 
+plans and business models, and their ability to create genuine synergies and to 
+integrate different business structures, processes and cultures. Consolidation 
+should be judged by its ability to achieve these goals, all the while preserving 
+competition, pluralism and banks’ responsiveness to the needs of the real 
+economy.
+Banca d’Italia performs its tasks – in cooperation with the ECB, IVASS, 
+CONSOB and the other national and international authorities – by assessing 
+each transaction based on these criteria and verifying its compliance with Italian 
+and EU regulations. Provided that these conditions are met, the outcome of 
+M&A transactions is ultimately determined by the market and by shareholder 
+decisions.
+4. Financing innovation 
+Following the global financial crisis, firms in the advanced economies have 
+significantly reduced their reliance on debt, and especially on bank lending. At the same 
+time, the share of equity has increased (Figure 6).
+Figure 6
+Capitalization of non-financial corporations
+(per cent)
+(a) As a ratio of liabilities plus equity (b) As a share of GDP
+0.0
+0.2
+0.4
+0.6
+Germany
+Italy
+France
+Euro area
+United
+Kingdom
+United
+States
+  0
+100
+200
+300
+400
+Germany
+Italy
+France
+Euro area
+United
+Kingdom
+United
+States
+2012 2025
+Sources: National financial accounts, ECB, Bank of England and the Financial Accounts of the United States.
+
+10 11
+Some of these episodes were associated with unlawful conduct, confirming 
+the importance of robust corporate governance and strong business ethics. 
+This recommendation is far from abstract: it is a matter of integrity in 
+corporate decision-making, transparency in customer relationships, awareness 
+of the risks undertaken, and full accountability of corporate bodies and functions 
+and of shareholders. Supervision can reduce risks, but it cannot replace corporate 
+bodies; nor does it have – and rightly so – the powers entrusted to the judicial 
+authorities, with which it works closely. The first line of defence remains the 
+financial intermediaries themselves. Even more than supervisory action, it is 
+their integrity that underpins the trust upon which banking ultimately rests.
+Another development that is bound to affect the financial system is the 
+ongoing process of consolidation. The mergers that have been recently launched 
+or announced involve banks, insurers and asset managers, in a market in which 
+the lines between the various sectors of finance are becoming less clear and 
+competition is centred around the ability to offer bundled products. 
+This process can strengthen individual institutions and the system as a 
+whole, encouraging investment in technology and cybersecurity, and improving 
+the efficiency and quality of services for households and firms.
+However, these results should not be taken for granted. They will depend on 
+the capital strength of the newly merged banks, the sustainability of their business 
+plans and business models, and their ability to create genuine synergies and to 
+integrate different business structures, processes and cultures. Consolidation 
+should be judged by its ability to achieve these goals, all the while preserving 
+competition, pluralism and banks’ responsiveness to the needs of the real 
+economy.
+Banca d’Italia performs its tasks – in cooperation with the ECB, IVASS, 
+CONSOB and the other national and international authorities – by assessing 
+each transaction based on these criteria and verifying its compliance with Italian 
+and EU regulations. Provided that these conditions are met, the outcome of 
+M&A transactions is ultimately determined by the market and by shareholder 
+decisions.
+4. Financing innovation 
+Following the global financial crisis, firms in the advanced economies have 
+significantly reduced their reliance on debt, and especially on bank lending. At the same 
+time, the share of equity has increased (Figure 6).
+Figure 6
+Capitalization of non-financial corporations
+(per cent)
+(a) As a ratio of liabilities plus equity (b) As a share of GDP
+0.0
+0.2
+0.4
+0.6
+Germany
+Italy
+France
+Euro area
+United
+Kingdom
+United
+States
+  0
+100
+200
+300
+400
+Germany
+Italy
+France
+Euro area
+United
+Kingdom
+United
+States
+2012 2025
+Sources: National financial accounts, ECB, Bank of England and the Financial Accounts of the United States.
+This change reflects profound transformations in production and finance. 
+Regulatory reforms aimed at strengthening banks’ soundness have made credit 
+supply policies more selective and favoured firms’ deleveraging. At the same time, 
+economic activity has progressively shifted towards the service sector, which tends 
+to rely less on credit compared with the manufacturing sector.
+Digitalization has further accelerated this process, changing the nature of firms’ 
+productive capital and, with it, their financing needs. Credit is less suited to financing 
+high-risk innovative projects: creditors bear the uncertainty that comes with them, 
+but only benefit to a limited extent from their potential success. For these initiatives, 
+risk capital is therefore the most appropriate instrument. These dynamics are 
+compounded by the increase in investment in intangible assets – patents, software, 
+licences – whose value is difficult to estimate9 and to use as collateral for loans.10
+9 The uncertainty about the value of intangible assets reflects the riskiness of the innovative projects 
+with which they are associated, the presence of information asymmetries between the entrepreneur 
+and the lender, and the absence of secondary markets for assets whose usefulness is often closely 
+linked to their use within the firm; see L. Demmou and G. Franco, ‘Mind the financing gap: enhancing 
+the contribution of intangible assets to productivity’, OECD Economics Department Working 
+Papers, 1681, 2021; J. Haskel and S. Westlake, ‘Capitalism without capital: the rise of the intangible 
+economy’, Princeton, Princeton University Press, 2018; C. Corrado, J. Haskel, C. Jona-Lasinio and 
+M. Iommi, ‘Intangible capital and modern economies’, Journal of Economic Perspectives , 36, 3, 
+2022; N. Crouzet, J.C. Eberly, A.L. Eisfeldt and D. Papanikolaou, ‘The economics of intangible 
+capital’, Journal of Economic Perspectives, 36, 3, 2022, pp. 29-52.
+10 G. Dell’Ariccia, D. Kadyrzhanova, C. Minoiu and L. Ratnovski (‘Bank lending in the knowledge 
+economy’, The Review of Financial Studies, 34, 10, pp. 5036-5076) show that, in the United States, 
+almost half of the decline in the share of business lending in banks’ balance sheets is attributable to 
+the rise in the share of intangible investment. 
+
+12
+This development has fostered the growth of intermediaries specialized in the 
+financing of innovation, such as private equity and venture capital funds. Between 
+2014 and 2025, the assets managed by these intermediaries tripled globally, reaching 
+$10 trillion, with stronger growth in countries where investment in intangibles accounts 
+for a higher share of GDP.11 
+The importance of these funds derives not only from the financial resources 
+they make available over medium- and long-term horizons, but is also based on 
+the managerial and technical skills they provide, as well as on their access to wider 
+business and financial networks. These funds make an essential contribution: 
+innovating means not only adopting new technologies, but rethinking products, 
+processes and organization. It is the combination of capital and skills that determines 
+the success of an innovative project.
+The Italian market 
+In Italy, funds specializing in the provision of risk capital are much less 
+developed than in the other major countries. A significant share of the transactions 
+involves operations aimed at corporate reorganization, often with low innovative 
+content, and early-stage investment in start-ups, while the resources devoted to 
+supporting firms’ expansion and competitive capacity remain limited.12 
+This can result in a bottleneck at the most delicate stage of the innovation 
+process, i.e. the one where a promising idea has to be transformed into a firm that 
+is able to operate on an industrial scale. It is at this stage that many Italian business 
+initiatives end up looking abroad for capital, skills, and production and funding 
+opportunities. 
+In recent years, public sector intervention has made a significant contribution 
+to strengthening private equity and venture capital by mobilizing private sector 
+resources through funds of funds and co-investment vehicles.13 To achieve lasting 
+development in the industry, however, what is needed is a broad and stable base 
+of private investors. 
+11 For further details, see G. Gobbi, ‘La finanza nell’economia della conoscenza’, Bancaria, 11, 2024, 
+pp. 58-65.
+12 Private equity investments are concentrated in traditional transactions, where investors typically 
+obtain a controlling stake and embark on a restructuring of business activities (buyouts), while 
+investments aimed at supporting the firm’s expansion are less developed. In venture capital, the 
+late-stage segment, which relates to the financing phases of start-ups following their initial launch, 
+remains weak. These phases are crucial for enabling the most promising firms to grow and compete 
+internationally.
+13 Cassa Depositi e Prestiti has played a key role in this respect.
+
+12 13
+Insurance companies and pension funds, whose liabilities are typically 
+medium- and long-term, are among the best-suited intermediaries to invest in 
+uncertain projects with long maturities and to benefit from expected earnings 
+over long-term horizons. Yet their contribution remains limited: private equity 
+accounts for just 0.5 and 0.7 per cent, respectively, of insurance companies’ and 
+pension funds’ total investments, and the weight of each sector in venture capital 
+is negligible. 
+The main constraints on development are not of a regulatory nature. The 
+legislation already makes a significant increase of investment possible, also thanks 
+to recent changes. 14 Rather, the obstacles are largely typical of a market that is 
+still undersized. Investing in private equity and venture capital requires specialist 
+knowledge, the expertise to select fund managers and a long time horizon, which 
+are difficult conditions for small operators to meet. At the same time, larger 
+investors, who are properly equipped for the task, struggle to find a supply on the 
+domestic market that is sufficiently broad, diversified and steady. 
+This leads to an underdevelopment equilibrium. The shortage of stable 
+financiers hampers the growth of private equity and venture capital funds,  
+small-sized funds are limited in their ability to help firms scale up, and the tendency 
+by the most promising business ventures to seek foreign markets further reduces 
+opportunities for domestic operators. 
+Such an equilibrium is not self-correcting: the longer it persists, the more it 
+anchors investors’ expectations and pushes the best firms towards other markets. 
+Moving beyond this equilibrium requires a concerted effort across the entire 
+ecosystem, involving fund managers, institutional investors, public sector entities 
+and firms. The market needs to grow in scale and improve its capacity to select 
+projects, support their expansion and mobilize capital throughout the innovation 
+cycle, from start-up formation to industrial scale-up.
+With these aims in mind, funds of funds – also thanks to the catalyst role of 
+the public sector – are instruments that can help bridge the size gap in the market 
+by pooling resources, increasing diversification, mitigating the constraints on less 
+structured investors and supporting the development of specialized managers. 
+14 The amended European Solvency II Directive, which will be fully implemented by 30 January 2027, 
+can facilitate investment in private equity and venture capital by insurance companies, reducing 
+capital absorption for long-term equity investments and relaxing the constraints on the granting 
+of public guarantees to meet prudential requirements. As regards pension funds and professional 
+pension institutions, Budget Law 199/2025 favours the growth of assets under management and the 
+allocation of funds to equity instruments, especially for new members; furthermore, Law 193/2024, 
+as amended by Law 118/2025, encourages investments in venture capital funds, making the tax 
+benefits that apply to qualifying investments subject to a minimum allocation to these funds.
+
+14
+Developing this instrument, based on selective and strict criteria and a clear 
+market-based approach, would help to achieve a broader and more stable domestic 
+supply of risk capital.
+Household saving can also contribute to the growth of risk capital. Mobilizing a 
+larger share of household resources requires simple, transparent and affordable tools, 
+together with more robust financial literacy which is necessary for households to make 
+informed choices. Italy already has tax incentives for investments in risk capital;15 
+streamlining them and making them simpler and more flexible would increase their 
+effectiveness. This is also the aim of the European Commission’s recommendation 
+on savings and investment accounts.16 
+Only acting at the domestic level, however, is not enough. Without a truly 
+integrated European capital market, the ability to mobilize resources, diversify 
+risks and support the growth of innovative firms will remain limited. Overcoming 
+fragmentation is therefore an essential condition for strengthening Europe’s ability 
+to be competitive at a time in which technological innovation is playing out on a 
+global scale.
+Conclusions
+Geopolitical instability and rapid technological progress will continue 
+to affect the outlook for households, firms and financial intermediaries. 
+We cannot eliminate risks, nor can we foresee every future development.  
+We can, however, strengthen the capacity of our economy to absorb shocks and to 
+turn the opportunities offered by innovation into growth.
+At this juncture, preserving monetary and financial stability is essential:  
+it is the prerequisite for continuing to invest, even in times of heightened tension. 
+Yet the stability we are called upon to safeguard is not the stillness of an inert 
+economy: it is the balance of an economy in motion.
+15 These include tax exemptions for investment income from participating in venture capital funds, tax 
+credits for investments in innovative start-ups, the standard and alternative individual savings plans 
+(Piani individuali di risparmio, PIR), and the exemption for returns on qualifying investments made 
+by pension funds and occupational pension funds. 
+16 The recommendation defines savings and investment accounts (SIAs) as accounts regulated by 
+individual Member States to facilitate household participation in capital markets. The European 
+Commission suggests designing SIAs as simple instruments, offered by a number of financial 
+intermediaries, without minimum or maximum thresholds for investment or strict holding constraints 
+for accessing tax benefits, where envisaged. SIAs should enable investment in a wide range of 
+financial instruments, with no specific constraints on the tax residence of issuers; see the European 
+Commission’s website, ‘Savings and Investment Accounts’.
+
+14 15
+The translation of stability into growth requires a financial system capable 
+of supporting the ongoing transformations. Banks will continue to play a central 
+role, especially in a country such as Italy, where credit remains the main source of 
+financing for firms. However, in an economy in which innovation and intangible 
+investment are becoming increasingly important, we also need more highly 
+developed capital markets and an adequate availability of risk capital. The aim is 
+not to replace bank credit, but to complement it with instruments that can meet the 
+different needs of the economy.
+This is a commitment that involves the entire financial sector: banks, insurance 
+companies, pension funds and asset managers, each playing its part. Public action 
+can have an important role in fostering the coordination needed to channel private 
+resources towards high-potential projects and firms.
+Italy has solid foundations: a strengthened banking system, households with a 
+high capacity to save, and firms that have demonstrated their ability to adapt even 
+in the most difficult circumstances. The challenge is to transform these strengths 
+into investment, innovation and sustained growth.
+
+Printed on EU-Ecolabel certified paper 
+(registration number FI/011/001)
+The life-cycle environmental footprint of the paper used  
+was offset by purchasing carbon credits and planting trees in Italy.
+Designed and printed by the Printing and Publishing Division of Banca d’Italia

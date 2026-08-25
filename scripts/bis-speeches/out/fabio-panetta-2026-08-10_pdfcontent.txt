@@ -1,0 +1,481 @@
+TM
+Playing the long game:  
+how should monetary policy adapt to the Great Reconfiguration?
+Speech by Fabio Panetta 
+Governor of Banca d’Italia
+Closing Conference of the ESCB Research Network on Challenges for Monetary 
+Policy Transmission in a Changing World (ChaMP)
+Rome, 7 July 2026
+1. Introduction 
+When we launched this research network in 2024, I described the previous four years as 
+exceptional: a period marked by ‘a combination of shocks and structural changes with few 
+historical precedents’.1 Looking back, that assessment seems almost cautious.
+What first appeared as a sequence of extraordinary events has become a defining feature of 
+the global economy. Geopolitical tensions, trade fragmentation and technological disruption 
+are no longer merely temporary disturbances. They are forces that continuously reshape the 
+environment in which households, firms and policymakers operate. They generate uncertainty 
+that is not only high, but persistent. 
+For central banks, these forces pose a common challenge. They are difficult to classify as 
+sources of pure supply or demand shocks. They affect the supply side through energy prices, 
+production costs, trade flows and critical inputs. But they also influence demand through 
+income, confidence, consumption and investment. 
+More importantly, they can alter structural relations in the economy, including the transmission 
+of monetary policy itself. 
+This environment requires more than a recalibration of the policy stance. It calls for a periodic 
+review of how we examine the inflation outlook, assess the stance and adjust the reaction 
+function.
+1 F. Panetta, ‘Monetary policy in a shifting landscape’, inaugural Conference of the Research Network on 
+‘Challenges for Monetary Policy Transmission in a Changing World’, Frankfurt, 25 April 2024.
+
+2 3
+The ECB’s 2025 strategy review was an important step in this direction as it addressed many 
+of the issues we confront today. We must continue to refine our analytical framework while 
+preserving the clarity of our mandate: price stability.
+Today I will focus on three themes. How should monetary policy respond to large energy 
+shocks that simultaneously trigger inflationary and recessionary forces? How do structural 
+transformations affect the outlook and the transmission of monetary policy? And what do 
+they imply for the way central banks take decisions under uncertainty?
+I will provide a few reflections, trusting that the research community will continue to address 
+these questions in the future. 
+2. The economic outlook in the euro area
+In 2025, the euro area faced higher US tariffs, stronger competition from China and a sharp 
+rise in uncertainty.2 The economy proved more resilient than expected. Real GDP grew by 1.4 
+per cent.3 Domestic demand more than offset the decline in net exports. High employment 
+supported consumption, while defence spending and investment in the digital and green 
+transitions sustained capital formation. A less restrictive monetary stance supported both 
+households and firms.
+Inflation completed its return to target amid lower demand and cost pressures, rising tariffs 
+and the disinflationary impulse coming from China. 
+This was a positive outcome. But it should be interpreted with caution.
+First, European households continued to save more than before the pandemic. This suggests 
+that uncertainty remains a significant drag on activity: households consume less because 
+they are bracing for a more uncertain future.
+Second, industrial production stagnated in the second half of the year. Competition from 
+China, increasingly visible in high-technology sectors, weighed heavily on manufacturing 
+economies such as Germany and Italy.4 If this weakness discourages investment, it may affect 
+not only current activity, but also the euro area’s longer-term growth potential.
+The outlook deteriorated significantly with the outbreak of the war in the Persian Gulf. Input 
+costs and selling prices increased (Figure 1.a); short-term inflation expectations moved up 
+(Figure 1.b). At the same time, consumer confidence fell sharply (Figure 2.a) and expected 
+2 Not quite an ‘everything everywhere all at once’ situation, but almost (F. Panetta, ‘Everything everywhere 
+all at once: responding to multiple global shocks’, speech at a panel on ‘Global shocks, policy spillovers 
+and geo-strategic risks: how to coordinate policies’ at The ECB and its Watchers XXIII Conference, 
+Frankfurt, 22 March 2023).
+3 Excluding Ireland’s contribution – which is influenced by the statistical treatment of multinationals’ 
+operations – growth remained around 1.0 per cent.
+4 V. Aprigliano et al., ‘China Shock 2.0: structural drivers and implications for the euro area’, Banca d’Italia, 
+Questioni di Economia e Finanza (Occasional Papers), 1025, 2026.
+
+2 3
+activity in services declined (Figure 2.b).5 Financial conditions also tightened: banks reported 
+more restrictive lending standards,6 while bond yields and sovereign spreads rose.
+5 Historical regularities show that energy shocks trigger a rapid adjustment in discretionary spending, 
+mostly related to recreational services, reflecting their immediate effects on consumer prices and 
+households’ overall purchasing power; see Corsello, A. Foschi, M. Fruzzetti and M. Riggi, ‘Household 
+consumption in Italy: basket composition and responsiveness to macroeconomic shocks’, Banca d’Italia, 
+Questioni di Economia e Finanza (Occasional Papers), forthcoming. The resilience of the manufacturing 
+sector is largely due to frontloading, as the war could lead to new supply bottlenecks.
+6 The tightening was driven by higher risk perception and lower risk tolerance. Among the main countries, 
+banks in Spain, France and Germany reported tighter credit standards, whereas banks in Italy indicated 
+no changes. In Q2 2026 banks anticipate a marked tightening, which, if realized, would match the change 
+in credit standards observed in Q2 2022. Descriptive evidence suggests that the credit supply tightening 
+was primarily associated with banks more exposed to sectors highly affected by higher energy costs.
+Figure 1
+Input costs, selling price intentions and inflation expectations in the euro area
+(a) Prices – PMI indices (1)
+(diffusion indices)
+(b) Price expectations of consumers and firms (2)
+(balance of opinions)
+40
+50
+60
+70
+80
+90
+2021 2022 2023 2024 2025 '26
+Manufacturing:        Services:
+Input prices
+Output prices
+Input prices
+Prices charged
+ 0
+20
+40
+60
+2021 2022 2023 2024 2025 '26
+Consumers
+Industry
+Retail trade
+Services
+Sources: Standard & Poor’s Global Ratings and European Commission’s Business and Consumers Surveys.
+(1) Diffusion indices for input and output prices in the manufacturing and service sectors. Each index is obtained by adding half of the percentage of 
+responses of ‘stable’ to the percentage of responses of ‘increasing’ . Latest observation: June 2026. – (2) Businesses selling price expectations over the 
+next 3 months and consumers price expectations over the next 12 months; balance between the replies indicating ‘an increase’ and those indicating ‘a 
+decrease’ . Positive values indicate that respondents expecting price increases outnumber those expecting price decreases. Latest observation: June 2026.
+Figure 2
+Consumer confidence and economic activity in the euro area
+(a) Consumer confidence (1)
+(balance of opinions, mean-centred)
+(b) Economic activity – PMI indices (2)
+(diffusion indices)
+−15
+−10
+ −5
+  0
+  5
+2021 2022 2023 2024 2025 '26
+45
+50
+55
+60
+2021 2022 2023 2024 2025 '26
+Confidence Exp. own fin. situat.
+Exp. macro situat.
+Exp. major purch.
+Past own fin. situat.
+Manufacturing Services
+Sources: Standard & Poor’s Global Ratings and European Commission’s Consumer Confidence Indicator. 
+(1) Consumer confidence is centred on the 2000–19 average. Latest observation: June 2026. − (2) Diffusion indices for input and output prices in the 
+manufacturing and service sectors. Each index is obtained by adding half of the percentage of responses of ‘stable’ to the percentage of responses of 
+‘increasing’ . Latest observation: June 2026.
+
+4 5
+The euro area faced a difficult combination: renewed inflationary pressures from commodity 
+prices and supply chains, together with weaker confidence and demand prospects. This is 
+precisely the environment in which monetary policy becomes more complex.
+3. Dealing with the energy shock
+How should the ECB deal with the energy crisis and its aftermath? Two simple answers lie 
+at the extremes of the debate. Both are misleading. 
+The first is that central banks should simply ‘look through’ temporary supply shocks. This 
+view underestimates the scale and possible persistence of the current shock. The hit to 
+global energy supply has been large. Damage to production and transport infrastructure 
+could affect prices even if the conflict subsides. The governance of the Strait of Hormuz 
+– a critical chokepoint not only for oil and gas, but also for fertilizers, aluminium, and 
+other industrial inputs – remains uncertain. This is reflected in incipient strains on supply 
+chains (Figure 3).
+Monetary policy cannot prevent higher energy prices from spreading through the 
+economy. But it must prevent this process from becoming embedded in the expectations 
+and decisions of firms and workers. Once a shock turns into a broader inflationary spiral, 
+the cost of restoring price stability becomes materially higher.
+The second misleading answer is that the current episode is a replay of the dramatic 
+spike in energy prices of 2022, and that the ECB should therefore react forcefully, as it did 
+then, to prevent inflation from becoming entrenched. 
+Figure 3
+Euro area Supply Chain Pressure Index (1)
+(index and contributions)
+-2.5
+ 0.0
+ 2.5
+ 5.0
+-2.5
+0.0
+2.5
+5.0
+2021 2022 2023 2024 2025 '26
+€SCPI Baltic Dry index
+PMI: delivery times
+PMI: backlogs
+PMI: stocks
+Sources: Based on S&P Global PMI and LSEG data. 
+(1) The euro area Supply Chain Pressure Index (€SCPI) is based on the methodology of the Federal Reserve Bank of New Y ork’s Global Supply 
+Chain Pressure Index, adapted to the euro area. The index combines four indicators: the Baltic Dry Index (BDI), capturing shipping and transportation 
+conditions, and three PMI-based measures reflecting suppliers’ delivery times, work backlogs, and inventories of production inputs. The BDI is 
+detrended using annual growth rates. Because these indicators may respond to both supply and demand shocks, demand-driven movements are 
+removed by regressing each series on contemporaneous and lagged values of PMI new orders, used as a proxy for demand conditions. The €SCPI 
+is then constructed as the first principal component of the filtered series. The contribution of each component is computed using the corresponding 
+loadings from the first eigenvector of the covariance matrix. For the sake of interpretation, the €SCPI and its components are reported as 3-month 
+moving averages. Latest observation: June 2026.
+
+4 5
+But this is not a replay of 2022. Demand is weaker. Real interest rates are higher 
+(Figure 4). The shock has affected oil prices more than gas prices; this matters because 
+oil prices tend to generate weaker and less persistent inflationary effects than gas 
+prices. 7 The euro area economy has also changed: its capacity to import liquefied 
+natural gas has increased, allowing for greater diversification of suppliers; the share 
+of renewables in electricity generation has risen. These developments have reduced 
+– though not eliminated – the euro area’s vulnerability to energy shocks.
+The ECB must navigate between these two extremes. It must neither dismiss the shock as 
+temporary nor respond as if the economy were in the same position as four years ago.
+3.1. Large shocks ‘travel fast’, but they also squeeze spending …
+Faced with large cost shocks, firms tend to raise selling prices more quickly in order to 
+protect margins, especially when their competitors are affected by the same shock.8 The 
+frictions that make inflation sluggish in normal times may become less relevant after a 
+large increase in costs.
+7 This reflects the key role of gas and electricity across economic sectors; see F. Corsello and A. Foschi, 
+‘The different effects of oil and gas supply shocks on euro-area inflation’, Banca d’Italia, Questioni di 
+Economia e Finanza (Occasional Papers),1024, 2026, and S. Neri ‘Energy prices, inflation, and the ECB’s 
+monetary policy during the 2021-22 energy crisis’, European Economic Review, forthcoming.
+8 A. Cavallo, F. Lippi and K. Miyahara, ‘Large Shocks Travel Fast’, American Economic Review, 6, 4, 2024, 
+pp. 558-574.
+Figure 4
+Short-term real interest rate in the euro area (1)
+(per cent)
+Invasion of
+Ukraine
+Persian Gulf
+conflict
+−6
+−4
+−2
+ 0
+ 2
+−6
+−4
+−2
+0
+2
+2021 2022 2023 2024 2025 2026  '27
+1-year real rate 1-year real rate (projection) r-star
+Sources: Based on ECB, Bloomberg and LSEG data. 
+(1) The figure shows the 1-year real interest rate (solid red line), together with its market-implied expected path (dashed red line), computed using the 
+methodology described in M. Bernardini, L. D’ Arrigo, A. Lin and A. Tiseno, ‘Real interest rates and the ECB’s monetary policy stance’ , Banca d’Italia, 
+Questioni di Economia e Finanza (Occasional Papers), 857 , 2024. The grey line and bands show, respectively, the median and the 25 th-75th and  
+10th-90th percentile ranges across a set of quarterly estimates of the equilibrium real interest rate (r-star). The estimates are available until 2025Q4 and 
+are held constant thereafter for visual reference. The vertical black dotted lines mark the days before the outbreak of the two conflicts (respectively,  
+23 February 2022 and 27 February 2026). Latest observation: 2 July 2026.
+
+6 7
+This mechanism may have strengthened in recent years. After the inflation surge of  
+2021-22, firms have paid closer attention to their pricing strategies; furthermore, digital 
+tools allow prices to be adjusted with far greater speed than in the past.9
+Households may also update their inflation expectations more rapidly when they have 
+recently experienced high inflation.10 
+These forces suggest that the first-round effects of a large energy shock can pass through 
+to prices relatively quickly. 
+But this is only half of the story. 
+Large energy shocks also depress demand. They reduce households’ purchasing power, 
+compress firms’ margins, worsen income prospects and increase uncertainty. Consumers 
+may cut discretionary spending; firms may postpone investment. The result is a downward 
+shift in aggregate demand, which has a negative effect on inflation.
+3.2. …  with complex implications for monetary policy 
+This dual nature makes these shocks especially difficult for monetary policy. They raise 
+inflation through costs and lower it through demand. Their net effects depend on the 
+relative strength and persistence of these channels.
+This is why central banks must look beyond the immediate price increases. They must 
+assess whether the shock is likely to trigger second-round effects, whether expectations 
+remain anchored, and to what extent weaker demand will contain inflationary pressures 
+over the medium term.
+How has this approach been applied in practice? In June, the ECB Governing Council raised 
+the deposit facility rate by 25 basis points. The decision reflected three considerations.
+First, the Eurosystem staff projections pointed to a deterioration in the inflation outlook. 
+Inflation was projected to rise to 3.0 per cent in 2026 and to return to target in the 
+second half of 2027. Second, inflation risks were tilted to the upside, partly owing to 
+the continued closure of the Strait of Hormuz. Third, the recalibration was aimed at 
+preserving the anchoring of medium-term inflation expectations, a crucial condition for 
+containing indirect and second-round effects.
+9 Z.Y. Brown and A. MacKay, ‘Competition in Pricing Algorithms’, American Economic Journal: Microeconomics, 
+2023. This view is consistent with the assessment made by the firms that took part in the symposium of the 
+National Association for Business Economics hosted by the Bank of Italy in Rome in April 2026.
+10 Research shows that those households that experienced high inflation adapt their expectations very 
+quickly when a new shock occurs. See U.M. Malmendier and S. Nagel, ‘Seemingly Anchored Inflation 
+Expectations’, CEPR Discussion Paper Series, 21632, 2026.
+
+6 7
+Importantly, the decision to raise rates was judged to be robust across a range  
+of scenarios. This reflects a key principle of policy making under uncertainty.11
+The ongoing negotiations between the United States and Iran may lead to lower energy 
+prices than assumed in the June baseline projections. But the outlook remains fragile. Upside 
+risks to inflation continue to coexist with downside risks to growth. This requires constant 
+monitoring of geopolitical developments, energy markets, supply chains, wages and inflation 
+expectations. It also requires that monetary policy avoid committing to a predetermined path.
+4. The Great Reconfiguration: challenges for monetary policy
+So far, I have focused on the energy shock and its implications for monetary policy.  
+But this shock is not an isolated event. 
+Geopolitical fragmentation, artificial intelligence and digital finance, population ageing 
+and climate change are reshaping the environment in which households, firms and 
+policymakers operate (Figure 5). After the Great Moderation, the world has entered what 
+we may call a ‘Great Reconfiguration’.
+Structural change is not new. What is distinctive today is the simultaneous occurrence of 
+several major transitions. Historical comparisons should be used with caution – especially 
+by non-historians – but one parallel may provide useful insights: the period at the turn 
+of the twentieth century that was to be known in Europe as the Belle Époque. It was a 
+period of remarkable technological innovation, economic progress, trade expansion and 
+financial integration. But it was also marked by large inequalities, geopolitical rivalries 
+11 F. Panetta, ‘Normalising monetary policy in non-normal times’, speech delivered at a policy lecture 
+hosted by the SAFE Policy Center at Goethe University and the Centre for Economic Policy Research 
+(CEPR), Frankfurt, 25 May 2022.
+Figure 5
+The Great Reconfiguration (1)
+(indices: 2012=1)
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+−8
+1
+10
+19
+28
+37
+1985 1995 2005 2015 2025
+Renewable electricity generation
+Old−age dependency (2)
+Trade policy uncertainty (3)
+Tech Capex (4)
+Sources: Based on data from LSEG, Our World in Data, PolicyUncertainty.com, and the UN.
+(1) All series refer to the world unless otherwise specified. – (2) Number of people aged 65 or over per 100 people aged between 15 and 64; 2024-25 
+values are based on projections. – (3) Annual average of a newspaper-based index; right-hand scale. – (4) Combined capital expenditure of Alphabet, 
+Amazon, Meta, Microsoft and Oracle; right-hand scale.
+
+8
+and an arms race – as well as being the apex of European imperialism.12 Beneath a surface 
+of prosperity, tensions were building.
+I do not want to push the parallel too far. It merely serves to illustrate that structural change 
+does not necessarily unfold smoothly. Technological progress does not automatically 
+produce stability. Economic integration does not by itself prevent fragmentation. And 
+unresolved tensions can eventually lead to severe disruption.
+Central banks are not the main actors in addressing these tensions. But they must 
+understand how structural forces affect the economy and the transmission of monetary 
+policy. The channels through which technology, demographics, climate change and 
+geopolitics may impact growth and inflation are reasonably well understood. 13 But the 
+scale and timing of these effects are not. 
+In this context, the Great Reconfiguration raises three specific questions for monetary 
+policy. How does the interaction of these structural forces affect the way we assess the 
+macroeconomic outlook? How will monetary policy transmission change? How should 
+the reaction function adapt? Let me consider each question in turn.
+4.1. What happens when the trends collide?
+Structural trends do not operate in isolation. Their effects may reinforce or offset each 
+other.14
+Consider AI. Some forces may amplify its macroeconomic impact. AI requires large 
+amounts of energy and water. Therefore, it has important complementarities with the 
+green transition. Expanding the supply of clean and affordable energy, and improving 
+the management of natural resources, would support the development of more powerful 
+AI systems. In turn, AI can improve energy efficiency, optimize water use and accelerate 
+innovation in clean technologies.
+Other forces may hold it back. Geopolitical fragmentation could restrict access to critical 
+inputs, data and digital infrastructure. Ageing could reduce the supply of skills needed to 
+adopt and use new technologies effectively.
+12 The Belle Époque (1871-1914) was a period characterized by increasing industrialization, rapid 
+economic growth, expanding international trade – also fuelled by declining transport costs – 
+and an unprecedented degree of financial integration under the Gold Standard. Transformative 
+innovations ‒ including electricity, the telephone, modern steel production, advances in chemistry 
+and pharmaceuticals, and the automobile ‒ progressively reshaped production, communication, and 
+everyday life. Yet beneath this climate of prosperity and optimism, geopolitical rivalries continued to 
+build. In the words of Eric Hobsbawm, ‘It was an era of unparalleled peace in the western world, which 
+engendered an era of equally unparalleled world wars’ (E.J. Hobsbawm, The Age of Empire, 1875-1914, 
+Vintage Books Ed., 1989, p. 9).
+13 See, for example, ECB, ‘A strategic view on the economic and inflation environment in the euro area’, 
+Occasional Paper Series, 371, 2025.
+14 For an initial approach to this complex issue, see L. Rachel, ‘What Next for r*? A Capital Market 
+Equilibrium Perspective on the Natural Rate of Interest’, Brookings Papers on Economic Activity , Fall, 
+2025, pp. 131-187. The paper develops a framework to quantify the effects of structural forces on r-star 
+accounting for their interactions.
+
+8 9
+These interactions create additional uncertainty around the ultimate impact of AI on 
+productivity, inflation and growth. 
+They also complicate one of the most important tasks of macroeconomic analysis: 
+distinguishing structural change from cyclical fluctuations. Identifying a single structural 
+shift in real time is difficult. Identifying several shifts at once, while they interact with one 
+another, is even harder.15 
+The Great Reconfiguration requires first and foremost intellectual humility in interpreting 
+real-time data.
+4.2. How will the transmission mechanism evolve?
+The second question concerns the transmission of monetary policy. Structural changes 
+are likely to alter some of the channels through which monetary policy affects the 
+economy.16 But the direction of these effects is not obvious.
+Some forces may strengthen the transmission. AI can help firms process information 
+on costs and demand more rapidly, allowing them to adjust prices more frequently. 
+Inflation may therefore react more quickly and sharply to changes in financing 
+conditions. 17
+Digital banking might work in a similar direction. Digital tools make it easier for depositors 
+to compare rates and move their funds across banks. If this intensifies the competition 
+for deposits, the pass-through from policy rates to deposit rates should become faster 
+and stronger.18
+Other forces may weaken the transmission. Ageing is one example. In societies where 
+pensioners account for a large share of the population, household spending may depend 
+15 For monetary policy, this distinction is essential. Mistaking a structural shift for a temporary fluctuation 
+‒ or the reverse ‒ is a well-known recipe for policy errors. If productivity growth is underestimated,  
+a sustainable expansion may be mistaken for excess demand, leading monetary policy to become too 
+restrictive. Conversely, if a temporary boom is mistaken for a permanent increase in potential output, 
+inflationary pressures may be underestimated, and monetary policy may become too loose. See, for 
+instance, A. Orphanides, ‘Monetary Policy Rules Based on Real-Time Data’, American Economic Review, 
+91, 4, 2001, pp. 964-985.
+16 G. Ascari et al., ‘Monetary policy transmission and structural changes’, European Central Bank, 
+Occasional Paper Series, 393, 2026.
+17 G. Avaradi, Z. Liu and S. Zhao, ‘AI-Powered Algorithmic Pricing and Monetary Policy’, Federal Reserve 
+Bank of San Francisco Economic Letter, 12, 2026.
+18 See, for example,  F. Ciocchetta, R. Gallo, S. Magri and M. Molinari, ‘Friends or foes? Banks’ deposits 
+and digitalization during monetary tightening ’, Banca d’Italia, Temi di Discussione (Working Papers), 
+1490, 2025; I. Erel, J. Liebersohn, C. Yannelis and S. Earnest, ‘Monetary Policy Transmission Through 
+Online Banks’, NBER Working Paper Series, 31380, 2025; K. Budnik, ‘Digital banking and the evolving 
+monetary policy transmission ’, European Central Bank, Working Paper Series, 3206, 2026; M. Brei,  
+G. Cornelli, L. Gambacorta and B. Hofmann, ‘The digitalisation of banking and social media: implications 
+for deposit pricing’, BIS Working Papers, 1357, 2026.
+
+10
+less on interest-sensitive decisions, such as buying homes or durable goods. 19 Ageing 
+may also interact with digitalization: digital tools reduce search and switching costs, but 
+their impact may be smaller if older households are less inclined to use them.
+Geopolitical fragmentation may also weaken the link between investment and interest 
+rates. Firms and governments may invest more in resilience: diversifying suppliers, 
+strengthening cyber security or holding larger inventories. When these decisions are 
+driven by long-term strategic considerations, they may be less responsive to financing 
+costs.
+These examples point to a broader conclusion: structural change can make monetary 
+policy transmission less predictable. The same change in policy rates may have different 
+effects depending on the structure of the financial system, the age profile of the 
+population, the degree of digitalization and the geopolitical environment.
+This means that the transmission mechanism must be continuously reassessed.
+4.3. Does monetary policy need a new playbook? 
+The third question concerns the reaction function.20
+Structural change complicates the assessment of the monetary policy stance. This 
+assessment typically relies on estimates of the equilibrium interest rate, or r-star. But the 
+forces at play today push r-star in different directions. Demographics tend to reduce it, 
+while artificial intelligence and fragmentation may operate through opposing channels. 
+The net effect is uncertain.21 
+The difficulties do not end there. 
+If structural change alters the transmission mechanism, it becomes harder to calibrate 
+the appropriate response to shocks. A policy adjustment that would have had predictable 
+effects in the past may now operate differently.
+Structural change could also modify the nature and the distribution of the financial 
+stability risks confronted by monetary authorities.
+19 J.V. Leahy and A. Thapar, ‘Age Structure and the Impact of Monetary Policy’, American Economic 
+Journal: Macroeconomics, 14, 4, 2022, pp. 136-173; J. Kopecky and G. Mangiante, ‘Monetary Policy Goes 
+Boomer: The Effect of Population Age Structure on Policy Transmission’, Trinity Economic Paper, 1725, 
+2025.
+20 ECB, Report on monetary policy tools, strategy and communication, Occasional Paper Series, 372, 2025.
+21 The issue is more complex than this summary suggests. AI may boost productivity and investment, 
+raising r-star; but it may also increase markups or inequality, lowering it. Geopolitical fragmentation may 
+reduce efficiency and potential growth, lowering r-star; but it may also partly reverse the global savings 
+glut, raising it. For a discussion of these issues see, for instance, L. Rachel, 2025, op. cit., and L. Esposito, 
+E. Guglielminetti, E. Moracci, A. Papetti and M. Pisani, ‘The implications of AI for monetary policy: a first 
+assessment’, Banca d’Italia, Questioni di Economia e Finanza (Occasional Papers), forthcoming. See 
+also F. Panetta, ‘The ECB must stay pragmatic in setting rates. R-star debate becomes less useful as 
+monetary policy approaches neutral level’, Financial Times, 26 March 2025.
+
+10 11
+In this environment, robustness becomes even more important.
+Central banks should continue to use central projections, but they may have to rely more 
+systematically on alternative scenarios and sensitivity analysis. They should test policy 
+choices against different assumptions about energy prices, supply chains, productivity, 
+financial conditions and expectations. 
+5. Conclusions
+Let me conclude.
+Supply shocks are an old challenge for monetary policy. Today, however, they are 
+becoming more frequent, more persistent and more closely intertwined with the structural 
+transformations of the global economy.
+In this fluid environment, central banks must keep improving the way they interpret 
+shocks, assess transmission and take decisions under uncertainty. Monetary policy must 
+adapt to a changing economy. 
+This requires investing in new forms of knowledge. During the pandemic, epidemiology 
+became part of the policy conversation. Today, computer science, political science, climate 
+science and energy economics are increasingly part of the toolkit of central banks. 
+This applies even more to research. The ChaMP network took this challenge seriously from 
+the start. It was established to study the ‘challenges for monetary policy transmission in 
+a changing world’. That world is changing faster than expected. 
+I am sure the network has laid the foundations for partnerships that will continue to bear 
+fruit in the years ahead. Many of these partnerships will be interdisciplinary. Economists 
+and non-economists will need to work together to understand a future that remains 
+uncertain, but is rapidly approaching. 
+As central bankers, playing the long game means keeping our mandate firmly in sight 
+while adapting our analysis to the world in which that mandate must be delivered.
+Thank you very much and enjoy the rest of the conference.
+
+Printed on EU-Ecolabel certified paper 
+(registration number FI/011/001)
+The life-cycle environmental footprint of the paper used  
+was offset by purchasing carbon credits and planting trees in Italy.
+Designed and printed by the Printing and Publishing Division of Banca d’Italia

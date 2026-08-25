@@ -1,0 +1,79 @@
+1/2 BIS - Central bankers' speeches
+Gabriel Makhlouf: Understanding your lane, managing turning points
+Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at "Les 
+Rencontres Économiques d'Aix-en-Provence 2026 "Navigating a world of uncertainty", 
+Aix-en-Provence, 3 July 2026.
+* * *
+In the summer of 2012, with bond markets pricing in a chance of a euro breakup, Mario 
+Draghi pledged to do "whatever it takes" to preserve the currency union. It worked: 
+spreads fell, though the programme behind the pledge, Outright Monetary Transactions 
+(OMT), was never used. Despite having no formal relationship with national fiscal 
+authorities, the central bank stepped in because markets had doubts about some 
+governments' solvency, and this threatened the monetary union's existence.
+We are familiar with "unpleasant monetarist arithmetic," and Sargent and Wallace's   
+  "active/passive" monetary/fiscal, where fiscal authorities prioritise debt Leeper's
+sustainability and monetary authorities price stability. However, the original theory did 
+not anticipate the euro area: one monetary policy with twenty-one fiscal policies. The 
+missing piece is not so much coordination, as it is clear mandates, communicated 
+well.   Price stability is not negotiable, but it requires credible fiscal commitment to debt 
+stabilisation.
+"Whatever it takes" showed what happens when that fiscal commitment looks fragile. 
+Barred by treaty, the ECB was never going to fund a deficit directly. Instead OMT was 
+designed to make it irrational for markets to bet on a eurozone government losing 
+access to funding. We saw fragmentation risk twice more, during the pandemic – 
+leading to the pandemic emergency purchase programme (PEPP) – and when rates 
+rose rapidly during 2022 – leading to the Transmission Protection Instrument (TPI). 
+None of these instruments finance a deficit in the sense of Sargent and Wallace. They 
+are a softer version of the problem: sovereign market disruptions reshape what the 
+central bank must do to keep monetary policy working across the monetary union.
+The EU has tackled the problem through a rules-based approach. The 2024 reform of 
+the Stability and Growth Pact aimed to achieve credible national fiscal commitments. 
+With Excessive Deficit Procedures in place for several Member States, the litmus test 
+will be whether country-specific consolidation paths can be achieved.
+Inevitably, the opposite version of this problem gets less attention, because it looks like 
+good news rather than a crisis. When a Member State is running a surplus – which may 
+or may not be built on solid foundations – it may feel relatively unconstrained in its 
+spending plans.  Such a scenario has obvious implications for price stability, particularly 
+if the economy has little slack.
+I say all of this as someone who has sat on both sides of this relationship: from 2011 to 
+2019 I ran the New Zealand Treasury and I now sit on the ECB's Governing Council. 
+What looks like a coordination problem from the outside looks quite different from within 
+each institution. New Zealand operated "consensus assignment," where monetary 
+policy took the primary stabilisation role and fiscal policy focused on sustainability and 
+building buffers. This was not formally coordinated. Each institution was clear about its 
+
+2/2 BIS - Central bankers' speeches
+own role,  avoided working at cross-purposes, and was independent enough not to be 
+called upon to do the other's job. It was held together by clarity of mandate and 
+institutional memory of what happens when that clarity breaks down.
+In a , reflecting on lessons from the Global Financial Crisis,  speech just over 8 years ago
+I wondered whether "better coordination of fiscal, monetary and financial stability policy 
+[would] help lift the economy's performance over the cycle as well as help lift the 
+economy's sustainable growth rate".  Eight years on, a clear answer is that coordination 
+is not always bad. For large shocks, some alignment of fiscal and monetary policy is 
+appropriate. I saw this from the fiscal side when the Christchurch earthquake struck in 
+February 2011, which was followed by a large fiscal mobilisation with comparatively 
+little monetary policy response. During the pandemic, I watched the same dynamic from 
+the other side of the table, as both fiscal and monetary policy moved in the same 
+direction. So, crisis-alignment can be the right call, depending on circumstances. But 
+the lesson is that this type of coordination must not become a standing expectation of 
+fiscal support, thereby undermining central bank credibility and its ability to meet its 
+price stability mandate.
+Credibility must be actively maintained. I am not just talking about achieving the 
+mandate, but also clearly communicating your actions and the reasons for them. 
+Central banks have spent three decades building public understanding of why price 
+stability matters, through transparent frameworks, plain language, and consistent 
+accountability. Fiscal authorities need the same discipline. The challenge is that the 
+costs of undisciplined public finances are diffuse and delayed, while the benefits of 
+spending are immediate and visible. Making the case for fiscal rules to the citizens who 
+determine whether governments hold to them is itself part of what credibility means. 
+Commitment that lacks public legitimacy will not long survive contact with a political 
+cycle, however firmly it is written into law.
+To conclude, coordination in the sense of a standing, negotiated division of roles is not 
+credible in the euro area. For large shocks, some alignment is desirable, but grounded 
+in each institution's mandate, not according to some moveable boundary agreed in 
+advance. The rest of the time, the euro needs twenty-one fiscal authorities that can 
+stick to credible commitments through good times and bad. In this way, the ECB will 
+never have to choose between its mandate and other goals.  Of course, a centralised 
+fiscal capacity – underpinned by a single safe asset – would help but that's another 
+topic altogether.
