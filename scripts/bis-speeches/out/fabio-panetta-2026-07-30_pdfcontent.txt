@@ -1,0 +1,76 @@
+1/2 BIS - Central bankers' speeches
+Fabio Panetta: Finance for innovation and artificial intelligence as 
+drivers of development
+Opening remarks by Mr Fabio Panetta, Governor of the Bank of Italy, at a conference 
+organised by the Bank of Italy and the European Investment Bank, Rome, 2 July 2026.
+* * *
+Ladies and Gentlemen,
+It is a pleasure to open this conference, jointly organized by Banca d'Italia and the 
+European Investment Bank. I would like to thank the colleagues who have promoted 
+this discussion on innovation, artificial intelligence and finance - three essential levers 
+for growth in Italy and in Europe.
+Artificial intelligence (AI) is no longer a distant prospect. It has already entered 
+production processes, services, research and everyday life, and it is advancing at a 
+pace that requires firms, institutions and the financial system to act with equal speed.
+Consider two recent developments: the spread of new models designed for 'AI agents', 1
+capable of performing complex tasks with a high degree of autonomy, including by 
+interacting with one another and with humans, and the launch of portable devices 
+equipped with computing power that just a few years ago would have required 
+specialized infrastructure.2
+These advances can significantly expand the scope for the use of AI by firms, lowering 
+costs, removing barriers and speeding up its adoption.
+In my latest Concluding Remarks, I noted that the broad and timely diffusion of AI can 
+make a significant contribution to reviving productivity in Italy. This is an important 
+opportunity, especially for an economy such as ours, with deep industrial capabilities, 
+highly specialized production systems and vast amounts of data generated every day 
+by firms.
+The benefits could be particularly significant in manufacturing. Artificial intelligence can 
+help prevent equipment failures, reduce waste, optimize the use of energy and 
+materials, accelerate design processes and improve product quality. It can also 
+transform the data accumulated in production into knowledge, innovation and efficiency.
+However, its impact will be much broader in scope. In medicine, for example, AI can 
+enable faster and more accurate diagnoses, improve care pathways and accelerate the 
+development of new drugs and treatments. In this field, technological progress can 
+directly translate into people's well-being.
+More broadly, it will reshape the organization of work, education and training, as well as 
+the way decisions are taken.
+As with every major technological transformation, some activities will change 
+profoundly, while new ones will emerge. What is different today is the speed of change. 
+
+2/2 BIS - Central bankers' speeches
+This is why the transition must be prepared and managed: we need to invest in skills, 
+support the workers most exposed to these changes, and ensure that the benefits are 
+not concentrated in a limited number of firms, sectors or regions.
+We must act decisively to ensure that technological progress translates into human 
+progress. This is the spirit of the appeals made by Pope Leo XIV and President 3
+Mattarella artificial intelligence must remain at the service of people, of the dignity of 4
+work, of responsibility and of freedom. Only under these conditions will change be seen 
+as an opportunity, rather than as a threat from which to shield ourselves.
+This transformation will require large investments by firms, different in nature from 
+traditional ones. Many will be intangible: research, software, data, skills and 
+organization. These investments are difficult to assess from the outside, often risky, and 
+have uncertain returns that may only materialize over time.
+This is where the financial system comes in. Without adequate finance, innovation 
+remains just an idea. With patient finance, risk capital and deeper markets, it can 
+translate into growth, employment and competitiveness.
+Italy and Europe are not starting from scratch. They have savings, research capacity, 
+firms and skills. Yet too often these resources do not come together on the scale 
+required to support the most ambitious projects. We must strengthen our ability to 
+mobilize capital towards firms that innovate, grow and transform research into practical 
+applications.
+These are the challenges we will discuss today: how to ensure that artificial intelligence 
+does not remain confined to the technological frontier, but becomes a broad-based 
+driver of development; and how to build the financial conditions needed for this 
+transformation to take place in Italy and in Europe.
+I wish you an open and constructive discussion, and I thank you for your participation 
+today.
+1 Anthropic, Introducing Claude Opus 4.8, 2026. For an overview of the main features 
+of agentic AI, see B. Stackpole, Agentic AI, explained, MIT Sloan School of 
+Management, 18 February 2026.
+ NVIDIA, 'NVIDIA and Microsoft Reinvent Windows PCs for the Age of Personal AI', 2
+press release, 31 May 2026.
+ Leo XIV, 'Magnifica Humanitas. On safeguarding the human person in the time of 3
+artificial intelligence', Encyclical Letter, 15 May 2026.
+ Speech by the President of the Republic Sergio Mattarella at the XIX Summit Cotec 4
+Europa on 'Rethinking work in the age of artificial intelligence: transformation, 
+opportunities and governance', Venice, 17 June 2026.
