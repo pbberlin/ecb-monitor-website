@@ -1,0 +1,240 @@
+MurBANQUE DE FRANCE
+A\3EUROSYSTEME
+Speech
+Innovation
+From innovation to monetary
+sovereignty: striking the right note
+Published on 19th of June 2026
+VivaTech - 19 June 2026
+Speech by Emmanuel Moulin, Governor of the Banque de France
+Ladies and Gentlemen,
+
+
+It is a great pleasure to speak before you today. Let me warmly thank
+Maurice Levy for his invitation. For a — relatively new — central banker,
+VivaTech perfectly embodies the dialogue we need between innovators
+and trusted public institutions, to reconcile innovation with stability, and
+strengthen European sovereignty. The euro has been a major
+achievement in this respect and is currently supported by 82% of
+European citizens.' As technology is now reshaping money itself, our
+task is to extend the euro into the digital world. In an ecosystem made
+up of digital payments, tokenised assets and stablecoins, central bank
+money must remain the anchor of trust. This means that central banks
+cannot remain on the sidelines: they must help shape monetary
+innovation, alongside market players. This is a revolution full of promise,
+but it also raises new challenges for stability, trust and sovereignty.
+The message | wish to convey today is simple yet ambitious: innovation
+is already reshaping the monetary landscape (1), and Europe's strategic
+response designed to anchor innovation in sovereignty is already
+underway (2).
+1) Innovation is reshaping the
+monetary landscape
+1.1) An evolving payments landscape bringing
+new opportunities
+The payments ecosystem is undergoing two major, simultaneous shifts
+affecting both retail payments and wholesale settlement.
+First, the use of cash is gradually declining, while digital payments
+continue to expand — driven mainly by card and mobile payments in
+France, and by the growth of e-commerce.
+
+
+CARDS ARE AT THE HEART OF FRANCE’S DIGITAL PAYMENT SHIFT
+Breakdown of the main cashless means of payment in France
+(% of total number of transactions)
+WB Cheques i Cord poyments Cord withdrowols
+BH Direct debits Credit tronsfers BH Other
+2014 Hay 45
+Oo 20 40 60 80 100
+Source: Banque de France, Breakdown of non-cash payment
+instruments (2024 data).
+Scope: Payments by individuals and corporate and institutional
+customers, excluding financial and monetary institutions.
+VIVATECH + 19 JUNE 2026 BA REFRANCE
+EUROSYSTEME
+Cards are at the heart of France’s digital payment shift
+France ranks first in Europe for cashless payment transaction volumes,
+with close to 33 billion transactions in 2024, up 5.2% in one year." Cards
+remain the dominant cashless payment instrument: in 2024, they
+accounted for 62% of non-cash payments, up from 45% in 2014.
+Second, digitalisation is now expanding into financial assets through
+tokenisation: the process of representing financial assets or deposits in
+the form of tokens to be recorded on a distributed ledger technology
+(DLT). Tokenisation is the next logical step in the evolution of the
+monetary and financial system, as it can integrate messaging,
+reconciliation and asset transfer into a single, seamless operation." It
+paves the way for new arrangements in cross-border payments,
+securities markets and beyond. Tokenisation can bring significant
+efficiency gains, by reducing settlement times and transaction costs,
+and by enabling mechanisms such as smart contracts and delivery-
+versus-payment.
+1.2) New risks to monetary sovereignty and
+financial stability
+Yet this digitalisation also poses new risks for monetary sovereignty and
+financial stability.
+
+
+These changes are not taking place in a strategic vacuum: in a more
+fragmented geopolitical environment, payment infrastructures
+increasingly raise sovereignty issues, as they carry strategic value, data
+and standards. Europe already heavily depends on non-European actors
+in retail payments, notably through card schemes and digital wallets.
+International card schemes account for close to two-thirds of card
+payments in the euro area, with several countries relying entirely on
+them.'”
+With stablecoins, the risk could extend further: Europe could become
+dependent both on non-European infrastructures and on non-euro
+settlement assets. Stablecoins’ combined market capitalisation has
+grown from less than USD 5 billion in 2019 to USD 300 billion in 2026.”
+STABLECOIN MARKET CAPITALISATION IS GROWING QUICKLY,
+DOMINATED BY USD-BACKED STABLECOINS
+Market capitalisation and relative share of stablecoins within the
+crypto-asset ecosystem
+350
+2022 2023 2024 2025 2026
+Sources: Datastream, rwa.xyz
+LHS : stablecoin market capitalization in bn $
+RHS : share of stablecoins in total crypto market cap in %
+Note: last point in June 2026. 2 VIVATECH + 19 JUNE 2026 BANQUEUERRANCE
+EUROSYSTEME
+Stablecoin market capitalisation is growing quickly, dominated by USD-backed
+stablecoins
+Overwhelmingly dollar-backedTM! and strongly promoted by the US
+administration, stablecoins generate a serious risk of digital dollarisation
+and privatisation of money. While heightening financial stability risks —
+especially if they become more interconnected with the traditional
+financial system — as well as raising AML concerns, their growing use
+could also weaken monetary policy transmission. This is why Europe
+must shape innovation rather than merely absorb it.
+
+
+2) Europe’s strategic response is
+already underway: anchoring
+Innovation in sovereignty
+We must transpose the strengths of our monetary system from the
+analog to the digital world.
+PILLARS TO ANCHOR INNOVATION IN SOVEREIGNTY
+Analog world Digital world
+Cash and central bank money Digital euro and wholesale CBDC
+Bank deposits Tokenised deposits
+Money market funds Stablecoins ?
+Well-tailored regulatory framework
+BANQUE DE FRANCE3 VIVATECH + 19 JUNE 2026 rr
+Pillars to anchor innovation in sovereignty
+Europe's response is already taking shape: by adapting central bank
+money to the digital age, fostering regulated private money in euro, and
+strengthening our regulatory framework.
+2.1) Central bank money in the digital age:
+digital euro and wholesale CBDC
+Firstly, we need central bank money in the digital world: a digital euro for
+the general public, and wholesale CBDC for the interbank market. At this
+Stage, the question is no longer whether we should move forward, but
+how to do so in the most effective way. Success will require close
+cooperation with all stakeholders.
+
+
+For European citizens, the Eurosystem aims to issue a “digital banknote”
+designed to transpose the features of cash to the digital world, while
+preserving the anchoring role of central bank money. In December 2025,
+the Council of the EU unanimously supported the project and agreed on
+a digital euro, covering both online and offline use cases, accepted
+universally in the euro area, offering a high degree of privacy, and
+delivered at the lowest possible cost. The digital euro will be
+complementary to cash, which will remain widely available and accepted.
+After the vote expected in the European Parliament in July, we intend to
+run a pilot as early as 2027 and to potentially launch the digital euro in
+2029.
+For the interbank market, the Eurosystem is developing a strategy built
+around two complementary projects.
+e Pontes addresses immediate market needs. By the third quarter of
+2026, it will deliver the first version of wholesale CBDC enabling
+financial intermediaries to settle DLT-based transactions in central
+bank money on a Eurosystem-operated DLT platform. It will be
+progressively enhanced, with settlement finality on DLT and
+extended operating hours. A first concrete use case is expected by
+year-end with project Pythagore,“"" aimed at tokenising the NEU CP
+market — the EU’s largest short-term debt market in euros.
+e The second project, Appia, looks further ahead. It will explore, in
+close cooperation with market participants, the future architecture of
+an integrated DLT-based financial ecosystem anchored in central
+bank money. This work should deliver a blueprint for tokenised
+financial markets in Europe by 2028 and feed into Pontes over time.
+Together, Pontes and Appia form a coherent strategy: meeting today’s
+needs while building tomorrow’s infrastructures.
+2.2) Ensuring a supply of regulated
+commercial bank money in the tokenised
+economy
+
+
+Secondly, bank deposits must also enter the digital world, through
+tokenised deposits and regulated forms of commercial bank money in
+euro. While the provision of a CBDC is essential, it is not intended to
+cover all uses in the tokenised ecosystem. It is also necessary to have a
+strong and efficient tokenised commercial bank money offer so that the
+European two-tier monetary system can evolve, while fully preserving
+monetary sovereignty.
+This offer should include tokenised bank deposits, EUR-backed
+stablecoins issued by banks, and the payment infrastructures to enable
+multilateral clearing of these commercial bank money tokens, naturally
+articulated with CBDC. This is precisely where the Banque de France and
+the Eurosystem intend to act as catalysts: not to substitute for financial
+institutions, but to support the European financial system in developing
+this offering swiftly and in a coordinated manner.
+2.3) A well-tailored regulatory framework
+Lastly, all these innovations must be supported by a well-tailored
+regulatory framework. This is particularly true for stablecoins, which
+combine a promise of liquidity with potential run risks, much like money
+market funds in the analog world. Innovation can only be sustainable if it
+supports financial stability, monetary sovereignty and consumer
+protection.
+Europe is not starting from scratch on regulation: with PSD2 already in
+place, and PSD3 to follow, we have built an advanced framework for
+payments. Europe was also the first major jurisdiction to regulate crypto-
+assets through MiCA. But this framework must now be strengthened.
+MiCA only partially addresses the risks linked to a rapid adoption of
+stablecoins issued by non-bank and non-European actors. We should
+better regulate the use of non-euro stablecoins for everyday payments,
+and multi-issuer models, including when the same stablecoin is issued
+both within and outside the EU.
+Finally, rules must be applied consistently across Europe. Regulation
+cannot be effective if firms can choose the most lenient jurisdiction and
+then operate across the Single Market. This is why strong European
+supervision is needed, to ensure a level playing field.
+2K K
+
+
+Allow me to conclude with a few words from Jean Monnet: “Sovereignty
+withers when it is frozen in the forms of the past.’* To preserve what the
+euro has achieved, we must allow it to evolve. The future of money will
+be written in code, but it must still be backed by trust. The task of the
+Eurosystem — and of the Banque de France in particular — is to modernise
+central bank money for the digital age and ensure that the euro remains
+a cornerstone of trust and a driver of European sovereignty.
+i See Standard Eurobarometer 104 - Autumn 2025
+ii Banque de France, (2026). /n 2024, French citizens continued to adopt
+innovative payment methods. Banque de France Bulletin, No. 261/5,
+February.
+iii Bank for International Settlements, (2025). Annual Economic Report
+2025, Chapter Ill, “The next-generation monetary and financial system”,
+June.
+iv ECB, (2025). Report on card schemes and processors, February. Based
+on 2022 data, the report finds that international card schemes
+accounted for approximately 61% of euro area card payments, while 13
+euro area countries relied entirely on them. These market shares have
+remained relatively stable over recent years.
+v International Monetary Fund, (2026). Stablecoin Shocks. IMF Working
+Paper, No. 26/44, March.
+vi Stablecoins backed by the US dollar account for 99% of market
+capitalisation. Source: Banque de France (2025), Financial Stability
+Report. June
+vii See ECB website on Pontes.
+viii Banque de France (2026). Pythagore project, NEU CP-NEU MTN market
+modernization | Banque de France
+ix See ECB website “Appia — paving the way for a future-ready, integrated
+financial ecosystem leveraging tokenisation and DLT”.
+x Monnet (J.) (1976), Mémoires.
+Download the publication
+
+
+From innovation to monetary sovereignty: striking the e
+right note... (PDF - 483.37 KB)
+Updated on the 19th of June 2026
