@@ -281,7 +281,7 @@ def main():
                 url  = ""
 
                 name = (row.get("name") or "").strip()
-                url  = (row.get("url") or "").strip()
+                url  = (row.get("url")  or "").strip()
 
                 if len(url) < 8:
                     print(f"\t  {idx:4}  skip (no url)  {name}")
