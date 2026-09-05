@@ -13,4 +13,4 @@
 
 [To source](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html)
 
-*Last updated: 2026-09-04 02:10:00*
+*Last updated: 2026-09-05 02:10:00*
