@@ -14,7 +14,7 @@
     `scripts\council\ecb-council-data.pkl`
 
 * Process the changes
-    `python .\scripts\prepare-council-data.py`
+    `python .\scripts\prepare-council-by-geography.py`
 
 
 * last line should be  ` output-3 [number over 100] rows`
