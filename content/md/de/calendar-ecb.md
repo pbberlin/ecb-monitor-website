@@ -13,4 +13,4 @@
 
 [To source](https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html)
 
-*Last updated: 2026-09-06 02:10:00*
+*Last updated: 2026-09-07 02:10:00*
