@@ -167,7 +167,7 @@ def main() -> None:
         runGitCommitPush()
     else:
         print("ameco pipeline failed    - rolling back static/dl via git checkout")
-        # runGitRollback()
+        runGitRollback()
 
 
 if __name__ == "__main__":

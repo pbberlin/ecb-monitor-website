@@ -51,12 +51,15 @@ def debugPrintNestedDict(myDict, maxLevel=3, maxItemsPerLevel=3, indentLevel=1):
                 indentLevel=indentLevel + 2
             )
         else:
-            try:
-                formattedValue = f"{float(value1):8.4f}"
-            except Exception as exc:
-                stackTrace(exc)
-                print(f"{indentText}\t\tException while formatting value")
-                formattedValue = str(value1)
+            if value1 is None:
+                formattedValue = "None"
+            else:
+                try:
+                    formattedValue = f"{float(value1):8.4f}"
+                except Exception as exc:
+                    stackTrace(exc)
+                    print(f"{indentText}\t\tException while formatting value in debugPrintNestedDict")
+                    formattedValue = str(value1)
 
             print(f"{indentText}\t\t{formattedValue}")
 
@@ -347,6 +350,9 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
         return
     elif jsFilePath.name == "council_barometer.js":
         writeCsvForCouncilBarometer(jsFilePath, dataParsed)
+        return
+    elif jsFilePath.name == "eu-and-euro-countries.js":
+        print(f"\tskipping {jsFilePath.name} as it is not a time series")
         return
 
     dataDict = dataParsed
