@@ -1,3 +1,18 @@
+# Pickl files and Python scripts
+
+pickl input files:
+    .\scripts\council\barometer.pkl
+    .\scripts\council\council-by-6weeks.pkl
+    .\scripts\council\ecb-council-data.pkl
+
+
+Each pickl file has a script, creating data for the website 
+    .\scripts\prepare-council-barometer.py
+    .\scripts\prepare-council-by-6weeks.py
+    .\scripts\prepare-council-by-geography.py
+
+
+
 # Adding new council members
 
 * (assuming one-time setup of Python and modules + git clone of repo)
