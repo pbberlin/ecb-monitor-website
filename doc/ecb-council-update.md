@@ -1,3 +1,9 @@
+# Changes in EU or Euro membership
+
+In this rare case, edit and execute
+
+    .scripts\eu-and-euro-countries.py
+
 # Pickl files and Python scripts
 
 pickl input files:
