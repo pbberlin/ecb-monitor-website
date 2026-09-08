@@ -21,7 +21,7 @@ import csv
 
 from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 # importing from ../../lib/trls.py
 parentDir = Path(__file__).resolve().parent.parent.parent
@@ -31,7 +31,7 @@ from util import stackTrace
 
 
 
-urlMain = "https://www.bis.org/cbspeeches/index.htm"
+urlMain = "https://www.bis.org/speeches/central-bank"
 
 
 def inputCsv(pthInp: Path):
@@ -129,117 +129,108 @@ def previousCsv(pthPrev: Path):
 def getResultUrlForAuthor(page, nm: str) -> str:
 
     try:
-        # navigate fresh for each author to clear prior filters
-        print(f"loading {urlMain}", end="... ")
-        # page.goto( url, wait_until="networkidle", timeout=20*1000)
-        # page.goto( url, wait_until="load", timeout=20*1000)
-        page.goto( urlMain, wait_until="domcontentloaded", timeout=20*1000)
-        print("done")
+        page.goto(urlMain, wait_until="domcontentloaded", timeout=15000)
+    except PlaywrightTimeoutError:
+        print(f"\t      Timeout: failed to load urlMain {urlMain}")
+        return None
     except Exception as exc:
         stackTrace(exc)
-        print(f"failed to load urlMain {urlMain}")
+        print(f"\t      Error: failed to load urlMain {urlMain}")
         return None
 
-
-    """
-        Try to open the "Author" (or "Autor") select widget.
-        The BIS site uses a select-pure widget. We make several attempts to locate and interact with it.
-        Strategy:
-        1) Click the Author dropdown by class ".select-pure__select".
-        2) Type the full name into "input.select-pure__autocomplete".
-        3) Click the first visible option to select it.
-        4) Wait for the page to update its URL (navigation with query parameters) and then read page.url.
-    """
-
-
+    # Step 1: click the drop down symbol
     try:
-
         selectTrigger = page.locator(".select-pure__select").first
-        selectTrigger.click(timeout=10000)
-        print(f"\t  clicked select-pure trigger for {nm}")
-        page.wait_for_timeout(500)
-
-        searchInput = page.locator("input.select-pure__autocomplete").first
-        print(f"\t  found search input for {nm}")
-
-        searchInput.fill(nm, timeout=10000)
-        print(f"\t  filled        {printExotic(nm)}")
-
-
-        page.wait_for_timeout(1500)
-        print(f"\t  populated     {printExotic(nm)}")
-
-        # explicitly clicking the first visible option since custom select-pure might not bind the Enter key
-        # using a shorter timeout here because if the author is missing, it will timeout
-        firstOption = page.locator(".select-pure__option:visible").first
-        firstOption.click(timeout=3000)
-        print(f"\t  clicked option {printExotic(nm)}")
-
-
+        selectTrigger.click(timeout=5000, force=True)
+    except PlaywrightTimeoutError:
+        print(f"\t      Timeout: Step 1 - clicking dropdown trigger")
+        return None
     except Exception as exc:
-        # gracefully handling the case where the author is not found in the dropdown
-        if "Timeout" in str(exc) and "Locator.click" in str(exc):
-            print(f"\t  author not found in dropdown (timeout): {nm}")
-        else:
-            stackTrace(exc)
-            print(f"failed to interact with select-pure for {nm}")
+        stackTrace(exc)
+        print(f"\t      Error: Step 1 - clicking dropdown trigger")
         return None
 
-    # Wait for the URL to reflect the selection (authors=<id> present)
-    # Sometimes the site updates content via pushState; we poll page.url.
+    # HERE 16 Seconds timeout is CRITICAL
+    # Step 2: wait for opened state
+    try:
+        page.wait_for_selector(".select-pure__select--opened", state="attached", timeout=16000)
+    except PlaywrightTimeoutError:
+        print(f"\t      Timeout: Step 2 - waiting for dropdown to open")
+        return None
+    except Exception as exc:
+        stackTrace(exc)
+        print(f"\t      Error: Step 2 - waiting for dropdown to open")
+        return None
+
+    # Step 3: input characters
+    try:
+        searchInput = page.locator("input.select-pure__autocomplete").first
+        searchInput.fill(nm, timeout=5000)
+        page.wait_for_timeout(1000)
+    except PlaywrightTimeoutError:
+        print(f"\t      Timeout: Step 3 - filling search input")
+        return None
+    except Exception as exc:
+        stackTrace(exc)
+        print(f"\t      Error: Step 3 - filling search input")
+        return None
+
+    # Step 4: wait for and click on the filtered option
+    try:
+        firstOption = page.locator(".select-pure__option:visible").first
+        # if this times out, the author is likely not in the list
+        firstOption.wait_for(state="visible", timeout=4000)
+        firstOption.click(timeout=5000, force=True)
+    except PlaywrightTimeoutError:
+        print(f"\t      author not found in dropdown (or timeout filtering): {nm}")
+        return None
+    except Exception as exc:
+        stackTrace(exc)
+        print(f"\t      Error: Step 4 - clicking filtered option")
+        return None
+
+    # Step 5: wait for URL change via auto-submit
     targetUrl = None
     try:
-        for idx1, i in enumerate(range(5)):
-            print(f"\t  waiting for forward/reload {i:2}")
-            page.wait_for_timeout(1250)
-
+        for idx1, i in enumerate(range(8)):
+            page.wait_for_timeout(1000)
             current = page.url
-            if "authors=" in current:
+            if "person%5B%5D=" in current or "person[]=" in current:
                 targetUrl = current
                 break
-
-        if targetUrl is None:
-            # As a fallback, look for a "Go" or "Apply" filter button and click it
-            try:
-                applyButton = page.get_by_role("button", name="Apply")
-                if applyButton.is_visible():
-                    applyButton.click()
-                    page.wait_for_load_state("networkidle", timeout=20000)
-                    if "authors=" in page.url:
-                        targetUrl = page.url
-            except Exception as exc:
-                stackTrace(exc)
-                print("Apply button not found/usable")
-
     except Exception as exc:
         stackTrace(exc)
-        print("exception in apply button pressing")
+        print(f"\t      exception while waiting for URL change")
         return None
 
+    # Step 6: fallback to Apply button if auto-submit did not trigger navigation
+    if targetUrl is None:
+        try:
+            applyButton = page.locator('input[value="Apply"]').first
+            if applyButton.is_visible(timeout=2000):
+                applyButton.click(timeout=5000)
+                for idx1, i in enumerate(range(5)):
+                    page.wait_for_timeout(1000)
+                    current = page.url
+                    if "person%5B%5D=" in current or "person[]=" in current:
+                        targetUrl = current
+                        break
+            else:
+                print(f"\t      Apply button not found and auto-submit failed")
+                return None
+        except PlaywrightTimeoutError:
+            print(f"\t      Timeout: Step 6 - clicking Apply button")
+            return None
+        except Exception as exc:
+            stackTrace(exc)
+            print(f"\t      Error: Step 6 - clicking Apply button")
+            return None
 
     if targetUrl is None:
-        print(f"\t  target url is None")
+        print(f"\t      target url did not change to expected format")
         return None
 
-
-    parsed = urlparse(targetUrl)
-    queryPairs = dict(parse_qsl(parsed.query, keep_blank_values=True))
-
-    if "m" not in queryPairs:
-        queryPairs["m"] = "256"
-    if "cbspeeches_page_length" not in queryPairs:
-        queryPairs["cbspeeches_page_length"] = "25"
-
-    normalized = urlunparse((
-        parsed.scheme,
-        parsed.netloc,
-        parsed.path,
-        parsed.params,
-        urlencode(queryPairs, doseq=True),
-        parsed.fragment
-    ))
-
-    return normalized
+    return targetUrl
 
 
 def spaceVariants(nm: str):
@@ -316,6 +307,8 @@ def main():
                     print(f"row {row}")
                     sys.exit(-1)
                 
+                print(f"\t{idx1:3} processing {nameNrm}")
+                
                 existingRow = prevs.get(nameNrm, {})
                 url = existingRow.get("url", "").strip()
 
@@ -324,7 +317,7 @@ def main():
                     searchName = nameBis
 
                 if len(url) > 30:
-                    print(f"\t  {idx1:2}  skipping existing url  {nameNrm} \n\t      {url}")
+                    print(f"\t      skipping existing url \n\t      {url}")
                     newRow = row.copy()
                     newRow["url"] = url
                     newRow["status"] = existingRow.get("status", "ok")
@@ -334,18 +327,10 @@ def main():
 
                 url = getResultUrlForAuthor(page, searchName)
 
-                # exotic spaces were *not* the reason - but page was not ready 
-
-                # if url is None:
-                #     for idx2, nm in enumerate(spaceVariants(searchName)):
-                #         url = getResultUrlForAuthor(page, nm)
-                #         if url is not None:
-                #             break
-
                 if url:
-                    print(f"\t  {idx1:2}  success for  {nameNrm} - {url}")
+                    print(f"\t      success -> {url}")
                 else:
-                    print(f"\t  {idx1:2}  failed for   {nameNrm}")
+                    print(f"\t      failed")
 
                 newRow = row.copy()
                 newRow["url"] = url if url else ""
@@ -355,7 +340,7 @@ def main():
 
             except Exception as exc:
                 stackTrace(exc)
-                print("main loop error")
+                print(f"\t      main loop error for {nameNrm}")
                 newRow = row.copy()
                 newRow["url"] = ""
                 newRow["status"] = "error"

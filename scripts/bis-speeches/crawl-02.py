@@ -33,6 +33,7 @@ from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
+from lib.util import stackTrace
 
 
 def readInputCsv(inputPath: Path):
@@ -40,15 +41,17 @@ def readInputCsv(inputPath: Path):
     lastError = None
     rows = []
 
-    for enc in ["utf-8-sig"]:
+    for idx1, enc in enumerate(["utf-8-sig"]):
         try:
             with inputPath.open("r", encoding=enc, newline="") as csvfile:
                 reader = csv.DictReader(csvfile, delimiter=";")
-                for row in reader:
+                for idx2, row in enumerate(reader):
                     rows.append(row)
             break
-        except Exception as e:
-            lastError = e
+        except Exception as exc:
+            stackTrace(exc)
+            print("exc-readInputCsv")
+            lastError = exc
 
     if not rows:
         print("Failed to read CSV. Last error: {}".format(lastError))
@@ -56,9 +59,9 @@ def readInputCsv(inputPath: Path):
 
 
     print(f"found {len(rows)} rows")
-    for idx, row in enumerate(rows):
+    for idx1, row in enumerate(rows):
         print(f"\t",end="")
-        for key in row:
+        for idx2, key in enumerate(row):
             if row[key] is None:
                 continue
             if row[key].strip() == "":
@@ -67,7 +70,7 @@ def readInputCsv(inputPath: Path):
                 continue
             print(f"{key}: {row[key]}", end=", ")
         print("")
-        if idx>3:
+        if idx1>3:
             break
 
     return rows
@@ -89,7 +92,8 @@ def gotoAndWaitForContent(page, url: str):
                 locator.first.wait_for(timeout=5*1000)
                 found = True
         except Exception as exc:
-            print(f"\nexc-wait-sortby  {exc}")
+            stackTrace(exc)
+            print("\nexc-wait-sortby")
 
         if not found:
             try:
@@ -98,26 +102,30 @@ def gotoAndWaitForContent(page, url: str):
                     locator2.first.wait_for(timeout=5*1000)
                     found = True
             except Exception as exc:
-                print(f"\nexc-wait-items   {exc}")
+                stackTrace(exc)
+                print("\nexc-wait-items")
 
-        # Explicitly wait for the table that actually holds the links
+        # Explicitly wait for the card wrapper that actually holds the links in the redesigned layout
         try:
-            page.locator("table.documentList").first.wait_for(timeout=8*1000)
+            page.locator(".card-wrapper").first.wait_for(timeout=8*1000)
             found = True
         except Exception as exc:
-            print(f"\nexc-wait-table   {exc}")
+            stackTrace(exc)
+            print("\nexc-wait-card-wrapper")
 
         if not found:
             try:
                 page.locator("main, #content, div.content").first.wait_for(timeout=5*1000)
                 found = True
             except Exception as exc:
-                print(f"\nexc-wait-generic {exc}")
+                stackTrace(exc)
+                print("\nexc-wait-generic")
 
         print("done")
         return True
     except Exception as exc:
-        print(f"exc-goto  {exc}")
+        stackTrace(exc)
+        print("exc-goto")
         return False
 
 
@@ -158,7 +166,8 @@ def isLikelyListLink(href: str, text: str) -> bool:
 
         return False
     except Exception as exc:
-        print(f"exc-isLikelyListLink  {exc}")
+        stackTrace(exc)
+        print("exc-isLikelyListLink")
         return False
 
 
@@ -170,16 +179,18 @@ def extractListUrlsFromRenderedHtml(html: str, baseUrl: str) -> list:
     try:
         soup = BeautifulSoup(html, "html.parser")
     except Exception as exc:
-        print(f"exc-BeautifulSoup  {exc}")
+        stackTrace(exc)
+        print("exc-BeautifulSoup")
         return urls
 
     root = None
 
-    # Prefer the explicit table with class documentList
+    # Prefer the explicit container holding the cards in the new layout
     try:
-        root = soup.select_one("table.documentList")
+        root = soup.select_one("div.container-fluid")
     except Exception as exc:
-        print(f"exc-select-table  {exc}")
+        stackTrace(exc)
+        print("exc-select-container")
         root = None
 
     if root is None:
@@ -192,40 +203,44 @@ def extractListUrlsFromRenderedHtml(html: str, baseUrl: str) -> list:
                 if parent is not None:
                     root = parent
         except Exception as exc:
-            print(f"exc-find-sortby  {exc}")
+            stackTrace(exc)
+            print("exc-find-sortby")
 
     if root is None:
         try:
-            for sel in ["main", "#content", "div.content", "div.container", "div#page-content", "div#main", "body"]:
+            for idx1, sel in enumerate(["main", "#content", "div.content", "div.container", "div#page-content", "div#main", "body"]):
                 hit = soup.select_one(sel)
                 if hit is not None:
                     root = hit
                     break
         except Exception as exc:
-            print(f"exc-select-root  {exc}")
+            stackTrace(exc)
+            print("exc-select-root")
             root = soup
 
     anchors = []
 
-    # Strict: only anchors inside the title cells of the list table
+    # Strict: only anchors with class card-link inside the new grid layout
     try:
-        titleLinks = root.select("tr.item td div.title a[href]")
-        for a in titleLinks:
+        titleLinks = root.select("div.card-wrapper a.card-link[href]")
+        for idx1, a in enumerate(titleLinks):
             anchors.append(a)
     except Exception as exc:
-        print(f"exc-select-titlelinks  {exc}")
+        stackTrace(exc)
+        print("exc-select-titlelinks")
 
-    # Fallback: any anchor inside the table (still filtered by isLikelyListLink)
+    # Fallback: any anchor inside the root (still filtered by isLikelyListLink)
     if len(anchors) == 0:
         try:
-            for a in root.find_all("a"):
+            for idx1, a in enumerate(root.find_all("a")):
                 anchors.append(a)
         except Exception as exc:
-            print(f"exc-find_all-a  {exc}")
+            stackTrace(exc)
+            print("exc-find_all-a")
             return urls
 
     rawUrls = []
-    for a in anchors:
+    for idx1, a in enumerate(anchors):
         try:
             href = a.get("href", "")
             txt  = a.get_text(strip=True)
@@ -233,11 +248,12 @@ def extractListUrlsFromRenderedHtml(html: str, baseUrl: str) -> list:
                 absUrl = urljoin(baseUrl, href)
                 rawUrls.append(absUrl)
         except Exception as exc:
-            print(f"exc-collect-a  {exc}")
+            stackTrace(exc)
+            print("exc-collect-a")
 
     seen = set()
     deduped = []
-    for u in rawUrls:
+    for idx1, u in enumerate(rawUrls):
         if u not in seen:
             deduped.append(u)
             seen.add(u)
@@ -253,10 +269,11 @@ def writeOutputCsv(outputPath: Path, rowsOut: list):
             fieldnames = ["name", "link_number", "url"]
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=";")
             writer.writeheader()
-            for row in rowsOut:
+            for idx1, row in enumerate(rowsOut):
                 writer.writerow(row)
     except Exception as exc:
-        print(f"exc-writeOutputCsv  {exc}")
+        stackTrace(exc)
+        print("exc-writeOutputCsv")
 
 
 
@@ -284,47 +301,50 @@ def main():
         try:
             browser = pw.chromium.launch(headless=headless)
         except Exception as exc:
-            print(f"exc-launch  {exc}")
+            stackTrace(exc)
+            print("exc-launch")
             sys.exit(1)
 
         try:
             context = browser.new_context()
             page    = context.new_page()
         except Exception as exc:
-            print(f"exc-context  {exc}")
+            stackTrace(exc)
+            print("exc-context")
             browser.close()
             sys.exit(1)
 
-        for idx, row in enumerate(rows):
+        for idx1, row in enumerate(rows):
 
             try:
                 name = row.get("name", "").strip()
                 url  = row.get("url",  "").strip()
 
                 if len(url) < 10:
-                    print(f"\t    {idx:2}  skipping - no url for  {name}")
+                    print(f"\t    {idx1:2}  skipping - no url for  {name}")
                     continue
 
                 ok = gotoAndWaitForContent(page, url)
                 if not ok:
-                    print(f"\t    {idx:2}  failed to load content  {name}")
+                    print(f"\t    {idx1:2}  failed to load content  {name}")
                     continue
 
                 try:
                     html = page.content()
                 except Exception as exc:
-                    print(f"\t    {idx:2}  exc-page.content  {exc}")
+                    stackTrace(exc)
+                    print(f"\t    {idx1:2}  exc-page.content")
                     continue
 
                 linkUrls = extractListUrlsFromRenderedHtml(html, url)
 
                 if len(linkUrls) == 0:
-                    print(f"\t    {idx:2}  no list links found    {name}")
+                    print(f"\t    {idx1:2}  no list links found    {name}")
                 else:
-                    print(f"\t    {idx:2}  found {len(linkUrls):3} links  {name}")
+                    print(f"\t    {idx1:2}  found {len(linkUrls):3} links  {name}")
 
                 ln = 0
-                for u in linkUrls:
+                for idx2, u in enumerate(linkUrls):
                     ln = ln + 1
                     results.append({
                         "name":         name,
@@ -333,13 +353,15 @@ def main():
                     })
 
             except Exception as exc:
-                print(f"exc-main-loop  {exc}")
+                stackTrace(exc)
+                print("exc-main-loop")
 
         try:
             context.close()
             browser.close()
         except Exception as exc:
-            print(f"exc-close  {exc}")
+            stackTrace(exc)
+            print("exc-close")
 
     writeOutputCsv(outPth, results)
 
