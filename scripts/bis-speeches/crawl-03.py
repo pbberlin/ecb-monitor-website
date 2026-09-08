@@ -6,7 +6,7 @@ Extract specified elements using BeautifulSoup.
 Write one JSON per input row to the "out" directory using tlsl(name).json as filename.
 
 Usage:
-cls &&    python ./scripts/bis-speeches/crawl-03.py --input ./ecb-members-links.csv
+cls &&    python ./scripts/bis-speeches/crawl-03.py --input ./ecb-members-links.csv [--download-all]
 """
 
 import argparse
@@ -16,6 +16,7 @@ import os
 import sys
 import time
 import random
+import re
 from   pathlib import Path
 from   typing  import Dict, Any, Optional
 from   datetime import datetime
@@ -93,6 +94,19 @@ def fetchUrl(client: httpx.Client, url: str, maxRetries: int = 3, backoffSeconds
         try:
             attempt = attempt + 1
             resp = client.get(url, timeout=30.0, follow_redirects=True)
+            
+            htmlLower = resp.text.lower()
+            isCf = False
+            
+            for idx1, marker in enumerate(["just a moment...", "attention required!", "cf-challenge-running", "cf-please-wait"]):
+                if marker in htmlLower:
+                    isCf = True
+                    break
+            
+            if isCf:
+                print(f"\t      FATAL: Cloudflare challenge detected for {url} (HTTP {resp.status_code}). IP blocked.")
+                sys.exit(-1)
+
             if resp.status_code >= 200 and resp.status_code < 300:
                 return resp.text
             else:
@@ -112,6 +126,19 @@ def fetchUrl(client: httpx.Client, url: str, maxRetries: int = 3, backoffSeconds
 
 
 # --- Extraction helpers ---------------------------------------------------------
+
+def extractDateFromUrl(url: str) -> Optional[str]:
+    # BIS URLs typically contain the date in YYYYMMDD format right after /speeches/
+    # e.g., https://www.bis.org/speeches/20260630-united-diversity...
+    try:
+        match = re.search(r"/(\d{4})(\d{2})(\d{2})-", url)
+        if match:
+            return f"{match.group(1)}-{match.group(2)}-{match.group(3)}"
+    except Exception as exc:
+        stackTrace(exc)
+        print("exc-extractDateFromUrl")
+    return None
+
 
 def getText(node) -> Optional[str]:
     try:
@@ -164,13 +191,15 @@ def extractFields(html: str, url: str) -> Dict[str, Any]:
         print("exc-bs4-parse")
         return result
 
-    # headline: h1.hero-publication__heading
-    # The new layout uses a specific hero heading class for the speech title
+    # headline
     headlineNode = None
     try:
-        for idx1, node in enumerate(soup.select("h1.hero-publication__heading, h1")):
-            headlineNode = node
-            break
+        for idx1, sel in enumerate(["h1.hero-publication__heading", "h1.hero__heading", "h1"]):
+            for idx2, node in enumerate(soup.select(sel)):
+                headlineNode = node
+                break
+            if headlineNode:
+                break
     except Exception as exc:
         stackTrace(exc)
         print("exc-headline")
@@ -178,64 +207,64 @@ def extractFields(html: str, url: str) -> Dict[str, Any]:
     headlineText = getText(headlineNode)
     result["headline"] = headlineText
 
-    # description: article .fs-4 or meta description
-    # The new layout places the speech description in a span with class fs-4 inside the article
+    # description
     descriptionNode = None
+    descriptionHtml = None
+    descriptionText = None
     try:
-        for idx1, node in enumerate(soup.select("article .fs-4")):
-            descriptionNode = node
-            break
+        for idx1, sel in enumerate(["article .fs-4", ".fs-4", ".publication-body .fs-4"]):
+            for idx2, node in enumerate(soup.select(sel)):
+                descriptionNode = node
+                break
+            if descriptionNode:
+                break
+        
+        descriptionHtml = getInnerHtml(descriptionNode)
+        descriptionText = getText(descriptionNode)
+        
+        if not descriptionText:
+            for idx1, sel in enumerate(["meta[name='description']", "meta[property='og:description']"]):
+                for idx2, node in enumerate(soup.select(sel)):
+                    descriptionText = node.get("content")
+                    break
+                if descriptionText:
+                    break
     except Exception as exc:
         stackTrace(exc)
         print("exc-desc-node")
 
-    descriptionHtml = getInnerHtml(descriptionNode)
-    descriptionText = getText(descriptionNode)
-    
-    if not descriptionText:
-        try:
-            for idx1, node in enumerate(soup.select("meta[name='description']")):
-                descriptionText = node.get("content")
-                break
-        except Exception as exc:
-            stackTrace(exc)
-            print("exc-desc-meta")
-
     result["description_html"] = descriptionHtml
     result["description_text"] = descriptionText
 
-    # date: meta[name="citation_publication_date"] or sidebar
-    # The meta tag provides a clean YYYY-MM-DD format directly
+    # date
     dateText = None
     try:
-        for idx1, node in enumerate(soup.select("meta[name='citation_publication_date']")):
-            dateText = node.get("content")
-            break
-    except Exception as exc:
-        stackTrace(exc)
-        print("exc-date-meta")
+        for idx1, sel in enumerate(["meta[name='citation_publication_date']", "meta[property='article:published_time']"]):
+            for idx2, node in enumerate(soup.select(sel)):
+                dateText = node.get("content")
+                break
+            if dateText:
+                break
 
-    if not dateText:
-        try:
-            # Fallback to sidebar if meta tag is missing
+        if not dateText:
             for idx1, node in enumerate(soup.select(".publication-sidebar__heading")):
                 if "Date" in (node.get_text() or ""):
                     sibling = node.find_next_sibling("div", class_="publication-sidebar__tags")
                     if sibling:
                         dateText = getText(sibling)
                     break
-        except Exception as exc:
-            stackTrace(exc)
-            print("exc-date-sidebar")
+    except Exception as exc:
+        stackTrace(exc)
+        print("exc-date-meta")
 
     result["date"] = dateText
 
     # Parse date to YYYY-MM-DD
     try:
         if dateText:
-            # If it's already YYYY-MM-DD from meta tag
-            if len(dateText) == 10 and dateText[4] == "-" and dateText[7] == "-":
-                result["date_parsed"] = dateText
+            dateText = dateText.strip()
+            if len(dateText) >= 10 and dateText[4] == "-" and dateText[7] == "-":
+                result["date_parsed"] = dateText[:10]
             else:
                 parsedDate = datetime.strptime(dateText, "%d %B %Y")
                 result["date_parsed"] = parsedDate.strftime("%Y-%m-%d")
@@ -247,8 +276,7 @@ def extractFields(html: str, url: str) -> Dict[str, Any]:
         result["date_parsed"] = ""
 
 
-    # pdf_url: a[href$=".pdf"]
-    # The PDF link is now a standard anchor pointing to a .pdf file
+    # pdf_url
     pdfAnchor = None
     try:
         for idx1, node in enumerate(soup.select("a[href$='.pdf']")):
@@ -266,7 +294,6 @@ def extractFields(html: str, url: str) -> Dict[str, Any]:
                 if href.startswith("http://") or href.startswith("https://"):
                     pdfUrl = href
                 else:
-                    # resolve relative link
                     try:
                         from urllib.parse import urljoin
                         pdfUrl = urljoin(url, href)
@@ -280,13 +307,15 @@ def extractFields(html: str, url: str) -> Dict[str, Any]:
 
     result["pdf_url"] = pdfUrl
 
-    # content: article div.text__component
-    # The actual speech text is now housed in a div with class text__component inside the main article tag
+    # content
     contentNode = None
     try:
-        for idx1, node in enumerate(soup.select("article div.text__component")):
-            contentNode = node
-            break
+        for idx1, sel in enumerate(["article div.text__component", "div.text__component", "article"]):
+            for idx2, node in enumerate(soup.select(sel)):
+                contentNode = node
+                break
+            if contentNode:
+                break
     except Exception as exc:
         stackTrace(exc)
         print("exc-content-node")
@@ -305,10 +334,12 @@ def extractFields(html: str, url: str) -> Dict[str, Any]:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--input",  required=True, help="Path to CSV with at least: name,url")
+    parser.add_argument("--download-all", action="store_true", help="Override skip if file exists")
     args = parser.parse_args()
 
     inpPth = Path(args.input).expanduser().resolve()
     outDir = Path("./out")
+    dlAll  = args.download_all
 
     ensureOutDir(outDir)
 
@@ -317,16 +348,15 @@ def main():
         print("No rows in input.")
         sys.exit(-1)
 
-
     headers = {
-        "User-Agent": "Mozilla/5.0 (compatible; ContentExtractor/1.0; +https://example.invalid)",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
     }
 
     with httpx.Client(http2=True, headers=headers) as client:
 
         for idx1, row in enumerate(rows):
-
 
             try:
                 name = ""
@@ -339,13 +369,25 @@ def main():
                     print(f"\t  {idx1:4}  skip (no url)  {name}")
                     continue
 
+                slug = tlsl(name)
+                urlDate = extractDateFromUrl(url)
+                expectedFilename = None
+                outPth = None
+
+                # If we can derive the date from the URL, check if file exists before fetching
+                if urlDate:
+                    expectedFilename = f"{slug}-{urlDate}.json"
+                    outPth = outDir / expectedFilename
+                    if outPth.exists() and not dlAll:
+                        print(f"\t  {idx1:4}  skip (exists)  {expectedFilename}")
+                        continue
+
                 print(f"\t  {idx1:4}  fetching  {url}")
 
                 html = fetchUrl(client, url)
                 if html is None:
                     print(f"{idx1:4}  failed to fetch  {url}")
                     continue
-
                 
                 data = extractFields(html, url)
 
@@ -357,11 +399,25 @@ def main():
                 # link number is changes for repeated fetches
                 data.pop("link_number", None)
 
+                contentDate = data.get("date_parsed", "")
 
-                slug = tlsl(name)
-                dte  = (data.get("date_parsed") or data.get("date") or row.get("link_number") or "").strip()
-                filename = f"{slug}-{dte}.json"
-                outPth   = outDir / filename
+                # Reconcile URL date and content date
+                if urlDate:
+                    data["date_parsed"] = urlDate
+                    if contentDate and contentDate != urlDate:
+                        data["date_parsed_content"] = contentDate
+                else:
+                    data["date_parsed"] = contentDate
+
+                # If URL didn't have a date, we determine filename now
+                if not expectedFilename:
+                    dte = (data.get("date_parsed") or data.get("date") or row.get("link_number") or "").strip()
+                    expectedFilename = f"{slug}-{dte}.json"
+                    outPth = outDir / expectedFilename
+                    
+                    if outPth.exists() and not dlAll:
+                        print(f"\t  {idx1:4}  skip (exists after fetch)  {expectedFilename}")
+                        continue
 
                 try:
                     with outPth.open("w", encoding="utf-8") as f:
@@ -370,7 +426,6 @@ def main():
                 except Exception as exc:
                     stackTrace(exc)
                     print("exc-json-dump")
-
 
                 delay = random.uniform(0.3, 1.2)
                 time.sleep(delay)
