@@ -34,7 +34,6 @@ from urllib.parse import urljoin, urlparse
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
-
 # importing from ../../lib/trls.py
 parentDir = Path(__file__).resolve().parent.parent.parent
 libPath = parentDir / "lib"
@@ -166,8 +165,11 @@ def isLikelyListLink(href: str, text: str) -> bool:
 
         hl = h.lower()
 
-        # For cbspeeches (BIS), detail pages often live under /review/ or /cbspeeches/
+        # For cbspeeches (BIS), detail pages often live under /review/ or /cbspeeches/ or /speeches/
         if ("cbspeeches" in hl) or ("/review/" in hl) or ("/speeches/" in hl):
+            # excluding generic navigation links that might slip through
+            if hl.endswith("/speeches/central-bank") or hl.endswith("/download"):
+                return False
             return True
 
         return False
@@ -189,61 +191,17 @@ def extractListUrlsFromRenderedHtml(html: str, baseUrl: str) -> list:
         print("exc-BeautifulSoup")
         return urls
 
-    root = None
-
-    # Prefer the explicit container holding the cards in the new layout
-    try:
-        root = soup.select_one("div.container-fluid")
-    except Exception as exc:
-        stackTrace(exc)
-        print("exc-select-container")
-        root = None
-
-    if root is None:
-        try:
-            sortByNode = soup.find(string=re.compile(r"\bSort\s*by\b", flags=re.I))
-            if sortByNode is not None:
-                node = sortByNode.parent
-                root  = node
-                parent = node.parent
-                if parent is not None:
-                    root = parent
-        except Exception as exc:
-            stackTrace(exc)
-            print("exc-find-sortby")
-
-    if root is None:
-        try:
-            for idx1, sel in enumerate(["main", "#content", "div.content", "div.container", "div#page-content", "div#main", "body"]):
-                hit = soup.select_one(sel)
-                if hit is not None:
-                    root = hit
-                    break
-        except Exception as exc:
-            stackTrace(exc)
-            print("exc-select-root")
-            root = soup
-
     anchors = []
 
     # Strict: only anchors with class card-link inside the new grid layout
+    # extracting specific speech cards
     try:
-        titleLinks = root.select("div.card-wrapper a.card-link[href]")
+        titleLinks = soup.select("div.card-wrapper a.card-link[href]")
         for idx1, a in enumerate(titleLinks):
             anchors.append(a)
     except Exception as exc:
         stackTrace(exc)
         print("exc-select-titlelinks")
-
-    # Fallback: any anchor inside the root (still filtered by isLikelyListLink)
-    if len(anchors) == 0:
-        try:
-            for idx1, a in enumerate(root.find_all("a")):
-                anchors.append(a)
-        except Exception as exc:
-            stackTrace(exc)
-            print("exc-find_all-a")
-            return urls
 
     rawUrls = []
     for idx1, a in enumerate(anchors):
