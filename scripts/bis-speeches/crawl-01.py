@@ -170,14 +170,19 @@ def getResultUrlForAuthor(page, nm: str) -> str:
         print(f"\t  populated     {printExotic(nm)}")
 
         # explicitly clicking the first visible option since custom select-pure might not bind the Enter key
+        # using a shorter timeout here because if the author is missing, it will timeout
         firstOption = page.locator(".select-pure__option:visible").first
-        firstOption.click(timeout=5000)
+        firstOption.click(timeout=3000)
         print(f"\t  clicked option {printExotic(nm)}")
 
 
     except Exception as exc:
-        stackTrace(exc)
-        print(f"failed to interact with select-pure for {nm}")
+        # gracefully handling the case where the author is not found in the dropdown
+        if "Timeout" in str(exc) and "Locator.click" in str(exc):
+            print(f"\t  author not found in dropdown (timeout): {nm}")
+        else:
+            stackTrace(exc)
+            print(f"failed to interact with select-pure for {nm}")
         return None
 
     # Wait for the URL to reflect the selection (authors=<id> present)
@@ -337,7 +342,10 @@ def main():
                 #         if url is not None:
                 #             break
 
-                print(f"\t  {idx1:2}  success for  {nameNrm} - {url}")
+                if url:
+                    print(f"\t  {idx1:2}  success for  {nameNrm} - {url}")
+                else:
+                    print(f"\t  {idx1:2}  failed for   {nameNrm}")
 
                 newRow = row.copy()
                 newRow["url"] = url if url else ""
