@@ -6,7 +6,7 @@ jobs:
 
   - id: "amecoJobDebug"
     cron: "15 2 * * *"
-    # briefly change to 
+    # briefly change to
     # cron: "* * * * *"
     # and
     # sudo systemctl restart app-scheduler
@@ -30,9 +30,9 @@ jobs:
     script: "../send_report.py"
 
 
-  # 4:15am - Tuesday and Thursday - 
+  # 4:15am - Tuesday and Thursday -
   - id: "crawlBisSpeeches"
-    cron: "15 4 * * 2,4"
+    cron: "15 4 * * tue,thu"
     script: "../crawl-bis-speeches.py"
 
 
