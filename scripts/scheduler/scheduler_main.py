@@ -21,12 +21,15 @@ def loadJobConfig(configPath: Path) -> list:
     jobs = configData.get("jobs", [])
     return jobs
 
-
-def runScript(scriptPath: Path) -> None:
+def runScript(scriptPath: Path, env_vars: dict = None) -> None:
     try:
+        env = os.environ.copy()
+        if env_vars:
+            env.update(env_vars)
         subprocess.run(
             [sys.executable, str(scriptPath)],
-            check=True
+            check=True,
+            env=env
         )
     except Exception as exc:
         print(f"Error while running script {scriptPath}: {exc}")
@@ -47,14 +50,14 @@ def main() -> None:
         jobId = jobConfig.get("id", f"job_{idx1}")
 
         scriptPath = baseDir / scriptRelPath
-
+        envVars    = jobConfig.get("env", None)
         trigger = CronTrigger.from_crontab(cronExpr)
 
         scheduler.add_job(
             runScript,
             trigger=trigger,
             id=jobId,
-            args=[scriptPath]
+            args=[scriptPath, envVars]
         )
 
         print(f"Registered job {jobId} for script {scriptPath} with cron '{cronExpr}'")
