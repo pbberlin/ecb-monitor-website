@@ -33,7 +33,13 @@ from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
-from lib.util import stackTrace
+
+
+# importing from ../../lib/trls.py
+parentDir = Path(__file__).resolve().parent.parent.parent
+libPath = parentDir / "lib"
+sys.path.insert(0, str(libPath))
+from util import stackTrace
 
 
 def readInputCsv(inputPath: Path):
