@@ -30,9 +30,15 @@ playwright install
 chmod +x /var/www/ecb-app/.venv/lib/python3.11/site-packages/playwright/driver/node
 chmod +x /var/www/ecb-app/.venv/lib/python3.11/site-packages/playwright/driver/*
 
+
+# umbrella script
+python ./scripts/crawl-bis-speeches.py
+
+
+# single steps
 python ./scripts/bis-speeches/crawl-01.py --input "./ecb-members-input.csv" --output "./ecb-members-urls.csv"   --headless true
 python ./scripts/bis-speeches/crawl-02.py --input "./ecb-members-urls.csv"  --output "./ecb-members-links.csv"  --headless true  
-# takes 20 min
+#  takes 20 min with option --download-all
 python ./scripts/bis-speeches/crawl-03.py --input "./ecb-members-links.csv"
 python ./scripts/bis-speeches/crawl-04.py
 
