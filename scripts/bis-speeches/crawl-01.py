@@ -143,24 +143,23 @@ def getResultUrlForAuthor(page, nm: str) -> str:
 
     """
         Try to open the "Author" (or "Autor") select widget.
-        The BIS site uses a Select2 widget. We make several attempts to locate and interact with it.
+        The BIS site uses a select-pure widget. We make several attempts to locate and interact with it.
         Strategy:
-        1) Click the Author dropdown by label text "Author" or "Autor".
-        2) Type the full name and press Enter to select the first match.
-        3) Wait for the page to update its URL (navigation with query parameters) and then read page.url.
-
-    <input class="select2-search__field" type="search"
+        1) Click the Author dropdown by class ".select-pure__select".
+        2) Type the full name into "input.select-pure__autocomplete".
+        3) Click the first visible option to select it.
+        4) Wait for the page to update its URL (navigation with query parameters) and then read page.url.
     """
 
 
     try:
 
-        selectTrigger = page.locator(".select2-selection").first
+        selectTrigger = page.locator(".select-pure__select").first
         selectTrigger.click(timeout=10000)
-        print(f"\t  clicked select2 trigger for {nm}")
+        print(f"\t  clicked select-pure trigger for {nm}")
         page.wait_for_timeout(500)
 
-        searchInput = page.locator("css=input.select2-search__field").first
+        searchInput = page.locator("input.select-pure__autocomplete").first
         print(f"\t  found search input for {nm}")
 
         searchInput.fill(nm, timeout=10000)
@@ -170,14 +169,15 @@ def getResultUrlForAuthor(page, nm: str) -> str:
         page.wait_for_timeout(1500)
         print(f"\t  populated     {printExotic(nm)}")
 
-        # Press Enter to choose the first match
-        searchInput.press("Enter")
-        print(f"\t  enter pressed {printExotic(nm)}")
+        # explicitly clicking the first visible option since custom select-pure might not bind the Enter key
+        firstOption = page.locator(".select-pure__option:visible").first
+        firstOption.click(timeout=5000)
+        print(f"\t  clicked option {printExotic(nm)}")
 
 
     except Exception as exc:
         stackTrace(exc)
-        print(f"failed to interact with select2 for {nm}")
+        print(f"failed to interact with select-pure for {nm}")
         return None
 
     # Wait for the URL to reflect the selection (authors=<id> present)
@@ -297,7 +297,8 @@ def main():
         timeOut2 = 10*1000
         print(f"waiting for selector... {timeOut2/1000}s ", end="\n", flush=True)
 
-        page.wait_for_selector("input.select2-search__field", timeout= timeOut2)
+        # waiting for the new select-pure component to be attached to the DOM
+        page.wait_for_selector(".select-pure__select", state="attached", timeout= timeOut2)
         print("\tok", flush=True)
 
         for idx1, row in enumerate(rows):
