@@ -26,6 +26,7 @@ from   bs4     import BeautifulSoup
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 from lib.slugify_wrapper import tlsl
+from lib.util import stackTrace
 
 
 # --- CSV I/O --------------------------------------------------------------------
@@ -35,7 +36,7 @@ def readInputCsv(inputPath: Path) -> list[dict]:
     lastError: Optional[Exception] = None
 
     # try to sniff delimiter
-    for enc in ["utf-8", "utf-8-sig"]:
+    for idx1, enc in enumerate(["utf-8", "utf-8-sig"]):
         try:
             with inputPath.open("r", encoding=enc, newline="") as f:
                 sample = f.read(4096)
@@ -44,27 +45,30 @@ def readInputCsv(inputPath: Path) -> list[dict]:
                     sniffer = csv.Sniffer()
                     dialect = sniffer.sniff(sample, delimiters=";,")
                 except Exception as exc:
-                    print(exc)
+                    stackTrace(exc)
+                    print("exc-csv-sniff")
                     dialect = csv.excel
                     dialect.delimiter = ";"
 
                 reader = csv.DictReader(f, dialect=dialect)
-                for row in reader:
+                for idx2, row in enumerate(reader):
                     rows.append(row)
             break
         except Exception as exc:
+            stackTrace(exc)
+            print("exc-csv-read")
             lastError = exc
 
     if len(rows) == 0:
         print(f"Failed to read CSV. Last error: {lastError}")
-        sys.exit(1)
+        sys.exit(-1)
     else: 
         print(f"{len(rows)} rows in csv {inputPath} loaded")
 
 
-    for idx, row in enumerate(rows):
+    for idx1, row in enumerate(rows):
         print( f"\t  {row['name']} - {row['url']}")
-        if idx > 3:
+        if idx1 > 3:
             break
 
 
@@ -75,8 +79,9 @@ def ensureOutDir(outDir: Path) -> None:
     try:
         outDir.mkdir(parents=True, exist_ok=True)
     except Exception as exc:
-        print(exc)
-        sys.exit(1)
+        stackTrace(exc)
+        print("exc-mkdir")
+        sys.exit(-1)
 
 
 
@@ -93,7 +98,8 @@ def fetchUrl(client: httpx.Client, url: str, maxRetries: int = 3, backoffSeconds
             else:
                 print(f"HTTP {resp.status_code} for {url}")
         except Exception as exc:
-            print(exc)
+            stackTrace(exc)
+            print("exc-httpx-get")
 
         if attempt >= maxRetries:
             return None
@@ -101,7 +107,8 @@ def fetchUrl(client: httpx.Client, url: str, maxRetries: int = 3, backoffSeconds
         try:
             time.sleep(backoffSeconds * attempt)
         except Exception as exc:
-            print(exc)
+            stackTrace(exc)
+            print("exc-sleep")
 
 
 # --- Extraction helpers ---------------------------------------------------------
@@ -117,7 +124,8 @@ def getText(node) -> Optional[str]:
             return text
         return None
     except Exception as exc:
-        print(exc)
+        stackTrace(exc)
+        print("exc-getText")
         return None
 
 
@@ -132,7 +140,8 @@ def getInnerHtml(node) -> Optional[str]:
             return html
         return None
     except Exception as exc:
-        print(exc)
+        stackTrace(exc)
+        print("exc-getInnerHtml")
         return None
 
 
@@ -151,64 +160,103 @@ def extractFields(html: str, url: str) -> Dict[str, Any]:
     try:
         soup = BeautifulSoup(html, "html.parser")
     except Exception as exc:
-        print(exc)
+        stackTrace(exc)
+        print("exc-bs4-parse")
         return result
 
-    # headline: //*[@id="center"]/h1
+    # headline: h1.hero-publication__heading
+    # The new layout uses a specific hero heading class for the speech title
     headlineNode = None
     try:
-        for node in soup.select("#center > h1"):
+        for idx1, node in enumerate(soup.select("h1.hero-publication__heading, h1")):
             headlineNode = node
             break
     except Exception as exc:
-        print(exc)
+        stackTrace(exc)
+        print("exc-headline")
 
     headlineText = getText(headlineNode)
     result["headline"] = headlineText
 
-    # description: <div id="extratitle-div">...</div>
+    # description: article .fs-4 or meta description
+    # The new layout places the speech description in a span with class fs-4 inside the article
     descriptionNode = None
     try:
-        for node in soup.select("#extratitle-div"):
+        for idx1, node in enumerate(soup.select("article .fs-4")):
             descriptionNode = node
             break
     except Exception as exc:
-        print(exc)
+        stackTrace(exc)
+        print("exc-desc-node")
 
     descriptionHtml = getInnerHtml(descriptionNode)
     descriptionText = getText(descriptionNode)
+    
+    if not descriptionText:
+        try:
+            for idx1, node in enumerate(soup.select("meta[name='description']")):
+                descriptionText = node.get("content")
+                break
+        except Exception as exc:
+            stackTrace(exc)
+            print("exc-desc-meta")
+
     result["description_html"] = descriptionHtml
     result["description_text"] = descriptionText
 
-    # date: //*[@id="center"]/div[2]/div[2]/div[1]/div  class="date"
-    dateNode = None
+    # date: meta[name="citation_publication_date"] or sidebar
+    # The meta tag provides a clean YYYY-MM-DD format directly
+    dateText = None
     try:
-        for node in soup.select("#center .date"):
-            dateNode = node
+        for idx1, node in enumerate(soup.select("meta[name='citation_publication_date']")):
+            dateText = node.get("content")
             break
     except Exception as exc:
-        print(exc)
+        stackTrace(exc)
+        print("exc-date-meta")
 
-    dateText = getText(dateNode)
+    if not dateText:
+        try:
+            # Fallback to sidebar if meta tag is missing
+            for idx1, node in enumerate(soup.select(".publication-sidebar__heading")):
+                if "Date" in (node.get_text() or ""):
+                    sibling = node.find_next_sibling("div", class_="publication-sidebar__tags")
+                    if sibling:
+                        dateText = getText(sibling)
+                    break
+        except Exception as exc:
+            stackTrace(exc)
+            print("exc-date-sidebar")
+
     result["date"] = dateText
 
-    # 05 June 2025  - give me some standard formatted parsed date to result["date_parsed"] with yyyy-mm-dd
+    # Parse date to YYYY-MM-DD
     try:
-        parsedDate = datetime.strptime(dateText, "%d %B %Y")
-        result["date_parsed"] = parsedDate.strftime("%Y-%m-%d")
+        if dateText:
+            # If it's already YYYY-MM-DD from meta tag
+            if len(dateText) == 10 and dateText[4] == "-" and dateText[7] == "-":
+                result["date_parsed"] = dateText
+            else:
+                parsedDate = datetime.strptime(dateText, "%d %B %Y")
+                result["date_parsed"] = parsedDate.strftime("%Y-%m-%d")
+        else:
+            result["date_parsed"] = ""
     except Exception as exc:
-        print(f"Date parse error: {exc}")
+        stackTrace(exc)
+        print("exc-date-parse")
         result["date_parsed"] = ""
 
 
-    # pdf_url: //*[@id="center"]/div[2]/div[2]/div[3]/a  class="pdftitle_link"
+    # pdf_url: a[href$=".pdf"]
+    # The PDF link is now a standard anchor pointing to a .pdf file
     pdfAnchor = None
     try:
-        for node in soup.select("#center a.pdftitle_link[href]"):
+        for idx1, node in enumerate(soup.select("a[href$='.pdf']")):
             pdfAnchor = node
             break
     except Exception as exc:
-        print(exc)
+        stackTrace(exc)
+        print("exc-pdf-node")
 
     pdfUrl = None
     try:
@@ -223,21 +271,25 @@ def extractFields(html: str, url: str) -> Dict[str, Any]:
                         from urllib.parse import urljoin
                         pdfUrl = urljoin(url, href)
                     except Exception as exc:
-                        print(exc)
+                        stackTrace(exc)
+                        print("exc-pdf-urljoin")
                         pdfUrl = href
     except Exception as exc:
-        print(exc)
+        stackTrace(exc)
+        print("exc-pdf-href")
 
     result["pdf_url"] = pdfUrl
 
-    # content: //*[@id="cmsContent"]
+    # content: article div.text__component
+    # The actual speech text is now housed in a div with class text__component inside the main article tag
     contentNode = None
     try:
-        for node in soup.select("#cmsContent"):
+        for idx1, node in enumerate(soup.select("article div.text__component")):
             contentNode = node
             break
     except Exception as exc:
-        print(exc)
+        stackTrace(exc)
+        print("exc-content-node")
 
     contentHtml = getInnerHtml(contentNode)
     contentText = getText(contentNode)
@@ -263,7 +315,7 @@ def main():
     rows = readInputCsv(inpPth)
     if len(rows) == 0:
         print("No rows in input.")
-        sys.exit(1)
+        sys.exit(-1)
 
 
     headers = {
@@ -273,7 +325,7 @@ def main():
 
     with httpx.Client(http2=True, headers=headers) as client:
 
-        for idx, row in enumerate(rows):
+        for idx1, row in enumerate(rows):
 
 
             try:
@@ -284,14 +336,14 @@ def main():
                 url  = (row.get("url")  or "").strip()
 
                 if len(url) < 8:
-                    print(f"\t  {idx:4}  skip (no url)  {name}")
+                    print(f"\t  {idx1:4}  skip (no url)  {name}")
                     continue
 
-                print(f"\t  {idx:4}  fetching  {url}")
+                print(f"\t  {idx1:4}  fetching  {url}")
 
                 html = fetchUrl(client, url)
                 if html is None:
-                    print(f"{idx:4}  failed to fetch  {url}")
+                    print(f"{idx1:4}  failed to fetch  {url}")
                     continue
 
                 
@@ -299,31 +351,33 @@ def main():
 
                 # original row for traceability
                 data["name"] = name
-                data["name_orig"]   = row["name"]
-                data["url_orig"]    = row["url"]
+                data["name_orig"]   = row.get("name")
+                data["url_orig"]    = row.get("url")
                 
                 # link number is changes for repeated fetches
                 data.pop("link_number", None)
 
 
                 slug = tlsl(name)
-                dte  = (data["date_parsed"] or data["date"] or row["link_number"] or "").strip()
+                dte  = (data.get("date_parsed") or data.get("date") or row.get("link_number") or "").strip()
                 filename = f"{slug}-{dte}.json"
                 outPth   = outDir / filename
 
                 try:
                     with outPth.open("w", encoding="utf-8") as f:
                         json.dump(data, f, ensure_ascii=False, indent=2)
-                        print(f"\t  {idx:4}  wrote     {outPth}")
+                        print(f"\t  {idx1:4}  wrote     {outPth}")
                 except Exception as exc:
-                    print(exc)
+                    stackTrace(exc)
+                    print("exc-json-dump")
 
 
                 delay = random.uniform(0.3, 1.2)
                 time.sleep(delay)
 
             except Exception as exc:
-                print(exc)
+                stackTrace(exc)
+                print("exc-main-loop")
 
 
 if __name__ == "__main__":
