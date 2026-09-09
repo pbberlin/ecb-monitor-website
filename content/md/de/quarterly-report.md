@@ -1,14 +1,12 @@
 ## EZB Monitor - Quartalsbericht
-
-* <a href="/static/pdf/ZEW-ECB-Monitor-Quarterly-Report-2026-Q3.pdf">ZEW EZB Monitor Quartalsbericht 2026 Q3 &nbsp; (PDF)</a>
-
+### Neueste Ausgabe
 
 
+* <a href="/static/pdf/quarterly-reports/ZEW-ECB-Monitor-Quarterly-Report-2026-Q3.pdf">EZB Monitor Quartalsbericht 2026 Q3 &nbsp; (PDF)</a><br>
 
 * <a  style="font-size:85%" href="/static/pdf/methodology-zew-ecb-monitor-v3.pdf"  target="_method"          >{{i18n.headline_method_paper}}</a>
 
 <br>
-
 
 ---
 
