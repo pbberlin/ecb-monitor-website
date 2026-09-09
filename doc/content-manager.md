@@ -6,23 +6,47 @@
 
 * Install [VS Code](https://code.visualstudio.com/download)
 
-## Structure of the blog content
+## Editorial content
 
-* Blog articles are written as single files in  
-    `content/blog/policy/de/`     
-    `content/blog/policy/en/`
-    or
-    `content/blog/science/de/`     
-    `content/blog/science/en/`
+* Articles in section 'News'
+
+    * PDF files for quartely reports belong to 
+        `static/pdf/quarterly-reports`
+
+    * For page https://ecb-monitor.zew.de/md/quarterly-report.md  
+      change Year and Quarter in   
+        `content/md/en/quarterly-report.md`     
+        `content/md/de/quarterly-report.md`     
+
+    * https://ecb-monitor.zew.de/quarterly-reports-past   
+        is generated automatically
 
 
-* Files are named `[year-month-day].md`
+    * https://ecb-monitor.zew.de/md/special-analyses.md
+      change content in 
+        `content/md/en/special-analyses.md`     
+        `content/md/de/special-analyses.md`     
 
-* Files are Written in [Markdown format](https://en.wikipedia.org/wiki/Markdown#Examples)
 
-* For editing use [VS Code](https://code.visualstudio.com/download)
+    ( 'News' _was_  a list of blog articles, taken from
+        `content/blog/policy/de/`     
+        `content/blog/policy/en/`
+    )
 
-* Create English and German versions in ...`/en` and in `/de`
+* Section 'Science' blog - https://ecb-monitor.zew.de/blog/science 
+
+    * Blog articles are written as single files in  
+        `content/blog/science/en/`
+        `content/blog/science/de/`     
+
+    * Files are named `[year-month-day].md`
+
+    * Files are Written in [Markdown format](https://en.wikipedia.org/wiki/Markdown#Examples)
+
+    * For editing use [VS Code](https://code.visualstudio.com/download)
+
+    * Create English and German versions in ...`/en` and in `/de`
+
 
 ## Run the Website on your notebook, to check results
 
@@ -33,6 +57,7 @@
 
 * Right-click on folder icon - and choose `Open in Terminal`
 
+
 ### In the `black` terminal window
 
 * Be sure, that the `prompt` line ends with ...`ecb-monitor>`
@@ -41,6 +66,7 @@
     * Usually resonse is `Already up to date.`
 
 * Keep the black window open
+
 
 
 ### Switch to Windows Explorer again
