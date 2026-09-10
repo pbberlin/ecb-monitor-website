@@ -68,11 +68,12 @@
     </div>
     <div class="team-member">
         <div class="member-info">
-            <a href="https://www.zew.de/{{curLg|safe}}/team/cmb">Carlo Birkholz </a>  <br> 
-            Wissenschaftler  
+            <a href="https://karimlahlou.myportfolio.com/" target="_karim" > 
+                Karim Lahlou </a> <br> 
+                Freelance Senior Art Director, Morocco
         </div>
         <div class="member-photo">
-            <img src="/static/img/md/cmb.jpg">
+            <img src="/static/img/md/karim-lahlou.jpg">
         </div>
     </div>
     <div class="team-member">
