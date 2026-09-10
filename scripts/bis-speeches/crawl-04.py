@@ -53,6 +53,11 @@ def main():
             continue
 
         pdfUrl = jsonData["pdf_url"]
+
+        if pdfUrl is None:
+            print(f"\t  [{idx1:4}] skipping empty PDF Url ")
+            continue
+
         baseName = jsonPath.stem
         localPdfPath = dlDir / f"{baseName}.pdf"
 
