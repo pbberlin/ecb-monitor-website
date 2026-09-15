@@ -4,6 +4,13 @@ In this rare case, edit and execute
 
     .scripts\eu-and-euro-countries.py
 
+# Input file for crawler
+
+./scripts/bis-speeches/ecb-members-input.csv
+
+in UTF8 encoding
+
+
 # Pickl files and Python scripts
 
 pickl input files:
