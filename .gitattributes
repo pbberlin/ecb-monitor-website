@@ -1,0 +1,4 @@
+# Using git core functionality to prune a very specific part of the git repo contents from being considered a change
+#   Requires setting up filter with the local git config:
+# git config filter.ignoreTimestamp.clean "sed '/^\*Last updated:/d'"
+content/md/*/*.md filter=ignoreTimestamp
