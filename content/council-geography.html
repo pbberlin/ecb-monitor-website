@@ -1423,10 +1423,20 @@
     myChart.on('mouseout', resetMemberInfo);
 
 
+    function updateIllustrationOpacity() {
+      const imgs = document.querySelectorAll('.gradient-illustation');
+      const newOpa = parseFloat(elOpa.value) + 0.173;
+      for (let idx1 = 0; idx1 < imgs.length; idx1++) {
+        imgs[idx1].style.opacity = newOpa.toString();
+      }
+    }
+
+
     // init-2
     const initFunc = () => {
       createGradientLegend( "gradient1", selectedDataMeta["main"]);
       populateLeftPanel(rspGeo.yr)
+      updateIllustrationOpacity();
 
       myChart.setOption(optionsInit);
       // arrowRedraw();
@@ -1483,6 +1493,7 @@
       localStorage.setItem("initOpacity", evt.target.value.toString());
       console.log(`selected opacity ${evt.target.value}`);
 
+      updateIllustrationOpacity();
       createGradientLegend( "gradient1", selectedDataMeta["main"]);
 
       sliderEl.dispatchEvent(

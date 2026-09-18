@@ -955,6 +955,13 @@
     }
 
 
+    function updateIllustrationOpacity() {
+      const imgs = document.querySelectorAll('.gradient-illustation');
+      const newOpa = parseFloat(elOpa.value) + 0.173;
+      for (let idx1 = 0; idx1 < imgs.length; idx1++) {
+        imgs[idx1].style.opacity = newOpa.toString();
+      }
+    }
 
 
     // init-2
@@ -966,6 +973,7 @@
       // linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
       linkDownload.setAttribute("href", `/static/dl/council-by-6weeks.csv`)
       updateDesc();
+      updateIllustrationOpacity();
 
       myChart.setOption(optionsInit);
       arrowRedraw();
@@ -1028,6 +1036,7 @@
 
         if (evt.target.name === "color_opacity") {
           localStorage.setItem("initOpacity", evt.target.value.toString());
+          updateIllustrationOpacity();
         } else {
           selectedVar  = evt.target.value;
         }
@@ -1052,15 +1061,13 @@
             {
               type: 'image',
               style: {
-                // height:  180,
-                // opacity: initOpacity + 0.4,
-                opacity: elOpa.value + 0.4,
+                opacity: parseFloat(elOpa.value) + 0.4,
               }
             },
           ],
         };
 
-        manyCountriesShowStats(res.yr),
+        manyCountriesShowStats(res.yr);
         optUpdate.series = [
           series1,
           series2,
@@ -1084,8 +1091,6 @@
 
       });
     }
-
-
 
     window.addEventListener('resize', function() {
         myChart.resize();
