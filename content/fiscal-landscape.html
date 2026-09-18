@@ -569,8 +569,8 @@
       "ameco_debt_to_gdp": {
         "selected_data" : debtPercentToGDP,
         "abs": {
-          "formatter": (vl) => Math.round(vl).toString() + ' %',
-          "formatter_legend": (vl) => vl + ' %',
+          "formatter": (vl) => Math.round(vl).toString() + '%',
+          "formatter_legend": (vl) => vl + '%',
           "color_ranges": [        0  ,       60  ,       70  ,       100  ,      120  ,      200 , ],
           "colors":       [ "#00B000" , "#00B000" , "#508000" ,  "#B05000" , "#F00000" , "#F00000", ],
           "threshold_values": [ 60 ],
@@ -580,8 +580,8 @@
           "colors":       [ "#E0EA8C" , "#C2D300" , "#E6CE00" , "#F09A1A" , "#DD5A22" , "#BC2318",  ],
         },
         "rel": {
-          "formatter": (vl) => (vl > 0 ? '+' : '') + Math.round(vl).toString() + ' pp',
-          "formatter_legend": (vl) => (vl > 0 ? '+' : '') + vl + ' pp',
+          "formatter": (vl) => (vl > 0 ? '+' : '') + Math.round(vl).toString() + '\u00A0pp',
+          "formatter_legend": (vl) => (vl > 0 ? '+' : '') + vl + '\u00A0pp',
           "color_ranges": [-40, 0, 40],
           "colors":       ["#00A000", "#80A000", "#FF0000"],
 
@@ -594,8 +594,8 @@
       "ameco_net_lending": {
         "selected_data" : netLendingPercentToGDP,
         "abs": {
-          "formatter": (vl) => Number(vl).toFixed(1) + ' %',
-          "formatter_legend": (vl) => vl + ' %',
+          "formatter": (vl) => Number(vl).toFixed(1) + '%',
+          "formatter_legend": (vl) => vl + '%',
           "color_ranges": [      -6  ,       -4  ,       -3  ,        -2  ,        0  ,        2 , ],
           "colors":       ["#F00000" , "#B00000" , "#805000" ,  "#508000" , "#00B000" , "#00F000", ],
           "threshold_values": [ -3 ],
@@ -606,8 +606,8 @@
 
         },
         "rel": {
-          "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
-          "formatter_legend": (vl) => (vl > 0 ? '+' : '') + vl + ' pp',
+          "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + '\u00A0pp',
+          "formatter_legend": (vl) => (vl > 0 ? '+' : '') + vl + '\u00A0pp',
           "color_ranges":  [-4, 0, 4],
           "colors":        ["#FF0000", "#80A000", "#00A000"],
 
@@ -619,8 +619,8 @@
       "ameco_total_expenditure": {
         "selected_data" : totalExpenditure,
         "abs": {
-          "formatter": (vl) => Math.round(vl).toString() + ' %',
-          "formatter_legend": (vl) => vl + ' %',
+          "formatter": (vl) => Math.round(vl).toString() + '%',
+          "formatter_legend": (vl) => vl + '%',
           "color_ranges":  [ 20,  40, 55, 60 ],
           "colors":        ["#00A000", "#80A000", "#FF0000", "#FF0000"],
 
@@ -629,8 +629,8 @@
 
         },
         "rel": {
-          "formatter": (vl) => (vl > 0 ? '+' : '') + Math.round(vl).toString() + ' pp',
-          "formatter_legend": (vl) => (vl > 0 ? '+' : '') + vl + ' pp',
+          "formatter": (vl) => (vl > 0 ? '+' : '') + Math.round(vl).toString() + '\u00A0pp',
+          "formatter_legend": (vl) => (vl > 0 ? '+' : '') + vl + '\u00A0pp',
           "color_ranges":  [-10, 0, 10],
           "colors":        ["#00A000", "#80A000", "#FF0000"],
 
@@ -643,8 +643,8 @@
       "ameco_interest_expenditure": {
         "selected_data" : interestExpenditure,
         "abs": {
-          "formatter": (vl) => Number(vl).toFixed(1) + ' %',
-          "formatter_legend": (vl) => vl + ' %',
+          "formatter": (vl) => Number(vl).toFixed(1) + '%',
+          "formatter_legend": (vl) => vl + '%',
           "color_ranges": [ 1, 2.5, 6, ],
           "colors":        ["#00A000", "#80A000", "#FF0000"],
 
@@ -653,8 +653,8 @@
 
         },
         "rel": {
-          "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
-          "formatter_legend": (vl) => (vl > 0 ? '+' : '') + vl + ' pp',
+          "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + '\u00A0pp',
+          "formatter_legend": (vl) => (vl > 0 ? '+' : '') + vl + '\u00A0pp',
           "color_ranges": [-2, 0, 2],
           "colors":       ["#00A000", "#80A000", "#FF0000"],
 
@@ -666,8 +666,8 @@
       "eurostat_yields_10y": {
         "selected_data" : yieldsTenYears,
         "abs": {
-          "formatter": (vl) => Number(vl).toFixed(2) + ' %',
-          "formatter_legend": (vl) => vl + ' %',
+          "formatter": (vl) => Number(vl).toFixed(2) + '%',
+          "formatter_legend": (vl) => vl + '%',
           "color_ranges": [ 1,  2.5, 5, ],
           "colors":        ["#00A000", "#80A000", "#FF0000"],
 
@@ -676,8 +676,8 @@
 
         },
         "rel": {
-          "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(2) + ' pp',
-          "formatter_legend": (vl) => (vl > 0 ? '+' : '') + vl + ' pp',
+          "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(2) + '\u00A0pp',
+          "formatter_legend": (vl) => (vl > 0 ? '+' : '') + vl + '\u00A0pp',
           "color_ranges": [-2, 0, 2],
           "colors":       ["#00A000", "#80A000", "#FF0000"],
 

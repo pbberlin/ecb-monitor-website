@@ -152,6 +152,16 @@ function buildTicks(config, elParent, color_ranges, minValue, maxValue, fullRang
             tickValuesSet.add(curVal);
         }
 
+    } else if (fullRange <= 25) {
+        // step by 5
+        const sttEven = Math.ceil( minValue / 5) * 5;
+        const endEven = Math.floor(maxValue / 5) * 5;
+
+        for (let curVal = sttEven; curVal <= endEven; curVal += 5) {
+            // console.log(` tick-range-25 at ${curVal}`)
+            tickValuesSet.add(curVal);
+        }
+
     } else if (fullRange <= 90) {
         // every even number
         const sttEven = Math.ceil( minValue / 20) * 20;
