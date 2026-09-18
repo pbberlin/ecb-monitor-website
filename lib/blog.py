@@ -133,6 +133,9 @@ def imageLicenses():
   imgs = [
       # "symbols/imag0021_backspace.jpg",
 
+      "dovish-hawkish/2026-09/dove.svg",
+      "dovish-hawkish/2026-09/hawk.svg",
+
       "homepage/01-news.svg",
       "homepage/02-ecb-council.svg",
       "homepage/03-fiscal.svg",
