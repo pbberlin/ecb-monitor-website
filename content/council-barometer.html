@@ -635,6 +635,9 @@
 function drawArcsAndTicks(svg, centerX, centerY, radius, ring, config) {
       const radiusArc  = radius + ring;
 
+      // opacity based on slider value plus requested offset
+      const arcOpacity = parseFloat(elOpa.value) + 0.269;
+
       const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
       svg.appendChild(defs);
 
@@ -696,6 +699,7 @@ function drawArcsAndTicks(svg, centerX, centerY, radius, ring, config) {
           );
           path.setAttribute("fill", `url(#${gradId})`);
           path.setAttribute("stroke", "none");
+          path.setAttribute("opacity", arcOpacity.toString());
           svg.appendChild(path);
       }
 
@@ -752,6 +756,7 @@ function drawArcsAndTicks(svg, centerX, centerY, radius, ring, config) {
           );
           path.setAttribute("fill", `url(#${gradId})`);
           path.setAttribute("stroke", "none");
+          path.setAttribute("opacity", arcOpacity.toString());
           svg.appendChild(path);
       }
 
@@ -1258,7 +1263,6 @@ function drawArcsAndTicks(svg, centerX, centerY, radius, ring, config) {
       sliderConfig();
       linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
       updateDesc();
-
       updateIllustrationOpacity();
 
       drawBarometer()
