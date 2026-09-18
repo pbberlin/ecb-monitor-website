@@ -523,11 +523,20 @@
           "colors":       ["#F00000", "#B00000", "#805000", "#508000", "#00F000", ],
           "threshold_values": [ 1 ],
           "threshold_labels": [ "{{i18n.threshold_potential_growth}}" ],
+
+          "color_ranges": [     -2.0  ,     -0.5  ,      0.5  ,      2.0  ,      3.0  ,     4.0 ,  ],
+          "colors":       [ "#BC2318" , "#DD5A22" , "#F09A1A" , "#E6CE00" , "#C2D300" , "#E0EA8C",  ],
+
+
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
           "color_ranges": [-3, 0, 3],
           "colors":       ["#FF0000", "#80A000", "#00A000"],
+
+          "color_ranges": [       -3  ,       -2  ,       -1  ,        1  ,        2  ,        3 ,  ],
+          "colors":       [ "#BC2318" , "#DD5A22" , "#F09A1A" , "#E6CE00" , "#C2D300" , "#E0EA8C",  ],
+
         }
       },
       "ameco_output_gap": {
@@ -536,11 +545,20 @@
           "formatter": (vl) => Number(vl).toFixed(1) + ' %',
           "color_ranges":  [      -4 ,        0 ,        4 , ],
           "colors":        ["#F00000", "#80A000", "#00B000", ],
+
+          "color_ranges": [       -4  ,     -2.5  ,     -1.0  ,      1.0  ,      2.5  ,      4.0 ,  ],
+          "colors":       ["#BC2318" , "#DD5A22" , "#F09A1A" , "#E6CE00" , "#C2D300" , "#E0EA8C",  ],
+
+
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
           "color_ranges":  [      -3 ,        0 ,        3 , ],
           "colors":        ["#F00000", "#80A000", "#00B000", ],
+
+          "color_ranges": [       -3  ,       -2  ,       -1  ,        1  ,        2  ,        3 ,  ],
+          "colors":       [ "#BC2318" , "#DD5A22" , "#F09A1A" , "#E6CE00" , "#C2D300" , "#E0EA8C",  ],
+
         }
       },
       // monthly
@@ -552,11 +570,19 @@
           "colors":       ["#00F000" , "#00B000" , "#508000" ,  "#805000" ,  "#B00000" , "#F00000" ,],
           "threshold_values": [ 2 ],
           "threshold_labels": [ "ECB Target" ],
+
+          "color_ranges": [        1  ,      1.8  ,      2.2  ,      2.6  ,        3  ,        5 ,  ],
+          "colors":       [ "#E0EA8C" , "#C2D300" , "#E6CE00" , "#F09A1A" , "#DD5A22" , "#BC2318",  ],
+
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
           "color_ranges": [-2, 0, 2],
-          "colors":       ["#00A000", "#80A000", "#FF0000"]
+          "colors":       ["#00A000", "#80A000", "#FF0000"],
+
+          "color_ranges": [     -2.0  ,    -1.25  ,     -0.5  ,      0.5  ,     1.25  ,      2.0 ,  ],
+          "colors":       [ "#E0EA8C" , "#C2D300" , "#E6CE00" , "#F09A1A" , "#DD5A22" , "#BC2318",  ],
+
         }
       }
     };

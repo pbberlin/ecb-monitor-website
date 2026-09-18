@@ -570,30 +570,46 @@
         "selected_data" : debtPercentToGDP,
         "abs": {
           "formatter": (vl) => Math.round(vl).toString() + ' %',
-          "color_ranges": [       0  ,       60  ,       70  ,       100  ,       120  ,      200  ,],
-          "colors":       ["#00B000" , "#00B000" , "#508000" ,  "#B05000" ,  "#F00000" , "#F00000" ,],
+          "color_ranges": [        0  ,       60  ,       70  ,       100  ,      120  ,      200 , ],
+          "colors":       [ "#00B000" , "#00B000" , "#508000" ,  "#B05000" , "#F00000" , "#F00000", ],
           "threshold_values": [ 60 ],
           "threshold_labels": [ "Maastricht 60%" ],
+
+          "color_ranges": [       0  ,       60  ,       80  ,       110  ,       140  ,     200 ,  ],
+          "colors":       [ "#E0EA8C" , "#C2D300" , "#E6CE00" , "#F09A1A" , "#DD5A22" , "#BC2318",  ],
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Math.round(vl).toString() + ' pp',
           "color_ranges": [-40, 0, 40],
           "colors":       ["#00A000", "#80A000", "#FF0000"],
+
+          "color_ranges": [      -40  ,      -25  ,      -10  ,       10  ,       25  ,       40 ,  ],
+          "colors":       [ "#E0EA8C" , "#C2D300" , "#E6CE00" , "#F09A1A" , "#DD5A22" , "#BC2318",  ],
+
+
         }
       },
       "ameco_net_lending": {
         "selected_data" : netLendingPercentToGDP,
         "abs": {
           "formatter": (vl) => Number(vl).toFixed(1) + ' %',
-          "color_ranges": [      -6  ,       -4  ,       -3  ,       -2  ,          0  ,        2  ,],
-          "colors":       ["#F00000" , "#B00000" , "#805000" ,  "#508000" ,  "#00B000" , "#00F000" ,],
+          "color_ranges": [      -6  ,       -4  ,       -3  ,        -2  ,        0  ,        2 , ],
+          "colors":       ["#F00000" , "#B00000" , "#805000" ,  "#508000" , "#00B000" , "#00F000", ],
           "threshold_values": [ -3 ],
           "threshold_labels": [ "Maastricht -3%" ],
+
+          "color_ranges": [       -6  ,       -4  ,       -3  ,       -2  ,        0  ,        2,   ],
+          "colors":       [ "#BC2318" , "#DD5A22" , "#F09A1A" , "#E6CE00" , "#C2D300" , "#E0EA8C",  ],
+
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
           "color_ranges":  [-4, 0, 4],
-          "colors":        ["#FF0000", "#80A000", "#00A000"]
+          "colors":        ["#FF0000", "#80A000", "#00A000"],
+
+          "color_ranges": [     -4.0  ,     -2.5  ,     -1.0  ,      1.0  ,      2.5  ,      4.0 ,  ],
+          "colors":       [ "#BC2318" , "#DD5A22" , "#F09A1A" , "#E6CE00" , "#C2D300" , "#E0EA8C",  ],
+
         }
       },
       "ameco_total_expenditure": {
@@ -601,12 +617,21 @@
         "abs": {
           "formatter": (vl) => Math.round(vl).toString() + ' %',
           "color_ranges":  [ 20,  40, 55, 60 ],
-          "colors":        ["#00A000", "#80A000", "#FF0000", "#FF0000"]
+          "colors":        ["#00A000", "#80A000", "#FF0000", "#FF0000"],
+
+          "color_ranges": [      20  ,       40  ,       50  ,       55  ,       60  ,        80 ,  ],
+          "colors":       [ "#E0EA8C" , "#C2D300" , "#E6CE00" , "#F09A1A" , "#DD5A22" , "#BC2318",  ],
+
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Math.round(vl).toString() + ' pp',
           "color_ranges":  [-10, 0, 10],
-          "colors":        ["#00A000", "#80A000", "#FF0000"]
+          "colors":        ["#00A000", "#80A000", "#FF0000"],
+
+          "color_ranges": [      -10  ,       -6  ,       -2  ,        2  ,        6  ,       10 ,  ],
+          "colors":       [ "#E0EA8C" , "#C2D300" , "#E6CE00" , "#F09A1A" , "#DD5A22" , "#BC2318",  ],
+
+
         }
       },
       "ameco_interest_expenditure": {
@@ -614,12 +639,20 @@
         "abs": {
           "formatter": (vl) => Number(vl).toFixed(1) + ' %',
           "color_ranges": [ 1, 2.5, 6, ],
-          "colors":        ["#00A000", "#80A000", "#FF0000"]
+          "colors":        ["#00A000", "#80A000", "#FF0000"],
+
+          "color_ranges": [         1 ,     1.75  ,      2.5  ,      3.75 ,        5  ,        6 ,  ],
+          "colors":       [ "#E0EA8C" , "#C2D300" , "#E6CE00" , "#F09A1A" , "#DD5A22" , "#BC2318",  ],
+
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(1) + ' pp',
           "color_ranges": [-2, 0, 2],
-          "colors":       ["#00A000", "#80A000", "#FF0000"]
+          "colors":       ["#00A000", "#80A000", "#FF0000"],
+
+          "color_ranges": [     -2.0  ,    -1.25  ,     -0.5  ,      0.5  ,     1.25  ,      2.0 ,  ],
+          "colors":       [ "#E0EA8C" , "#C2D300" , "#E6CE00" , "#F09A1A" , "#DD5A22" , "#BC2318",  ],
+
         }
       },
       "eurostat_yields_10y": {
@@ -627,12 +660,20 @@
         "abs": {
           "formatter": (vl) => Number(vl).toFixed(2) + ' %',
           "color_ranges": [ 1,  2.5, 5, ],
-          "colors":        ["#00A000", "#80A000", "#FF0000"]
+          "colors":        ["#00A000", "#80A000", "#FF0000"],
+
+          "color_ranges": [        1  ,     2.00  ,      3.0  ,     3.66  ,     4.33  ,        5 ,  ],
+          "colors":       [ "#E0EA8C" , "#C2D300" , "#E6CE00" , "#F09A1A" , "#DD5A22" , "#BC2318",  ],
+
         },
         "rel": {
           "formatter": (vl) => (vl > 0 ? '+' : '') + Number(vl).toFixed(2) + ' pp',
           "color_ranges": [-2, 0, 2],
-          "colors":       ["#00A000", "#80A000", "#FF0000"]
+          "colors":       ["#00A000", "#80A000", "#FF0000"],
+
+          "color_ranges": [     -2.0  ,    -1.25  ,     -0.5  ,      0.5  ,     1.25  ,      2.0 ,  ],
+          "colors":       [ "#E0EA8C" , "#C2D300" , "#E6CE00" , "#F09A1A" , "#DD5A22" , "#BC2318",  ],
+
         }
       }
     };
