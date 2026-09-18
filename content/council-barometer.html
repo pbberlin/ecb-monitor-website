@@ -1240,6 +1240,13 @@ function drawArcsAndTicks(svg, centerX, centerY, radius, ring, config) {
       });
     }
 
+    function updateIllustrationOpacity() {
+      const imgs = document.querySelectorAll('.gradient-illustation');
+      const newOpa = parseFloat(elOpa.value) + 0.173;
+      for (let idx1 = 0; idx1 < imgs.length; idx1++) {
+        imgs[idx1].style.opacity = newOpa.toString();
+      }
+    }
 
 
 
@@ -1251,6 +1258,8 @@ function drawArcsAndTicks(svg, centerX, centerY, radius, ring, config) {
       sliderConfig();
       linkDownload.setAttribute("href", `/static/dl/${selectedVar}.csv`)
       updateDesc();
+
+      updateIllustrationOpacity();
 
       drawBarometer()
 
@@ -1278,6 +1287,7 @@ function drawArcsAndTicks(svg, centerX, centerY, radius, ring, config) {
 
         if (evt.target.name === "color_opacity") {
           localStorage.setItem("initOpacity", evt.target.value.toString());
+          updateIllustrationOpacity();
         } else {
           selectedVar  = evt.target.value;
         }
