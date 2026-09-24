@@ -1,0 +1,161 @@
+Eurofi – 18 September 2026
+Speech by Emmanuel Moulin, Governor of the Banque de France
+Ladies and Gentlemen,
+Speech
+Published on 18th of September 2026
+Financial markets
+The Importance of Being Earnest:
+Building a Simpler and More
+Competitive European Banking
+Market
+
+It is a great pleasure to speak before you today in Dublin. Let me warmly
+thank Didier Cahen and David Wright for their invitation. New geopolitical
+realities, technological change and the need to finance strategic
+priorities are reshaping the environment in which European banks
+operate. Fortunately, 15 years of regulatory reforms have placed the
+European banking sector in a position of strength. EU banks are resilient,
+well-capitalised and liquid, with CET1 ratios and liquidity buffers at
+historically high levels. 
+Source: EBA risk Dashboard Note: last point in Q1 2026
+Financial stability remains the foundation upon which competitiveness
+can be built. Yet the EU has consistently lost ground: for instance, third-
+country groups now provide 60% of corporate and investment banking
+services to European clients. This shows that strong fundamentals alone
+will not suffice to meet Europe’s strategic priorities: financing the climate
+transition, digitalisation and defence, and strengthening its economic
+and financial sovereignty in a fragmented world.
+To complete the Banking Union and enable Europe to meet these
+challenges, I will focus on three priorities: first, overcoming the
+fragmentation that hinders the emergence of truly European banking
+groups; second, simplifying the prudential framework while preserving
+resilience and a global level playing field; and third, adapting our
+framework to the financing needs of the European economy.
+
+I) Overcoming European
+fragmentation
+Let me start with a simple observation: Europe has a Single Market, but it
+does not yet have a truly single banking market.
+This matters because competitiveness increasingly requires scale.
+European banks must be able to reach the critical mass needed to
+invest, innovate and digitalise efficiently. They should be able to deploy
+capital, liquidity and expertise seamlessly across the Union, supporting
+households and businesses wherever opportunities arise. Yet integration
+remains incomplete. Cross-border lending accounts for less than 15% of
+total euro area lending, and cross-border banking consolidation remains
+rare. Many banking groups continue to function as networks of national
+entities rather than as genuinely European firms.
+While the causes are diverse, the prudential framework is part of the
+equation. Our Banking Union has delivered resilience, but it has yet to
+deliver full integration. Despite the undeniable successes of the Single
+Supervision Mechanism (SSM) and Single Resolution Mechanism (SRM),
+European banking groups are still too often required to manage capital
+and liquidity along national lines. Furthermore, layers of EU-specific and
+siloed requirements continue to constrain integration and weaken
+Europe's competitiveness potential.
+The solution is straightforward: we need to better recognise the
+consolidated management of capital and liquidity within cross-border
+banking groups. The time has come to deliver on cross-border capital
+and liquidity waivers. Host countries' concerns can be addressed
+through appropriate safeguards, notably by ensuring effective support
+from parent companies to subsidiaries in times of stress. And while
+further progress on deposit guarantee arrangements would be desirable,
+it should not be a prerequisite for taking the next steps towards banking
+integration.
+But removing fragmentation is only part of the answer. We must also
+ensure that our prudential framework supports competitiveness through
+greater simplicity, without compromising resilience. 
+
+II) Delivering on simplification and
+ensuring a global level playing field
+Speaking in Dublin, it may be appropriate to recall Oscar Wilde's
+observation that “the truth is rarely pure and never simple.”  Prudential
+regulation, however, should strive to prove him wrong: it should be pure
+in its objectives, simple in its execution, and robust in its outcomes.
+Before exploring possible avenues for simplification, let me highlight
+three guiding principles. First, simplification is not deregulation. Recent
+episodes of banking turmoil have confirmed that Europe was right to
+deliver Basel III. Moreover, Europe has been among the jurisdictions most
+committed to its timely and consistent implementation. 
+ 
+Source: BIS RCAP dashboard
+Second, simplification must remain risk-based. Proportionality is needed,
+yet simpler should never mean weaker. Third, greater simplicity should
+not harm consistency. The strength of the Banking Union will always rely
+on its single supervisor, its single resolution framework and its single
+rulebook.
+i
+
+The Commission's competitiveness report points in the right direction. It
+calls for a more holistic assessment of capital requirements, moving
+away from siloed frameworks and towards a more coherent view of the
+prudential framework. Simplifying the capital stack is equally important.
+Successive layers of requirements have made the EU framework the
+most complex in the world. We should focus less on the accumulation of
+constraints and more on the coherence of the overall framework. 
+Source: EBA report on simplifying the stacking orders of the EU prudential and resolution
+Framework (2026)
+This calls for a better alignment of MREL and TLAC requirements, a
+streamlining of Pillar 2 by removing overlaps with Pillar 1, and a review of
+EU-specific layers and parallel constraints. It is high time to reconsider
+the usefulness of maintaining in the EU framework the specific Systemic
+Risk Buffer (SyRB) and the additional Pillar 2 requirements on top of the
+leverage ratio; we could also restrict the MDA trigger to the solvency
+stack only.
+
+Finally, competitiveness requires a global level playing field. Europe
+needs a diversity of banking business models, combining strong retail-
+oriented institutions with banks able to compete globally in capital
+markets and corporate and investment banking activities. Both are
+essential to the success of the Savings and Investments Union, which
+requires not only the mobilisation of savings but also the capacity to
+finance large-scale investment across Europe. The Commission
+therefore took the right decision by neutralizing the capital impact of the
+fundamental review of the trading book (FRTB) for 2027-30, thereby
+preserving a level playing field with other major jurisdictions. We should
+now use this time to identify a durable solution that preserves both
+financial stability and international competitiveness beyond 2030.
+III) Building on past successes to
+support Europe’s financing needs 
+The third priority is to build on our own successes: 15 years of
+supervisory reforms, including the Targeted Review of Internal Models by
+the SSM and the IRB repair by the EBA. These have considerably
+strengthened the reliability of banks' risk assessment frameworks. This
+progress should now be reflected in the way we calibrate prudential
+requirements. In particular, the output floor deserves to be reviewed
+where it has become partly redundant. The objective is not to weaken
+prudential safeguards, but to ensure that capital is mobilised as
+efficiently as possible in support of Europe's investment needs. The
+prudential case for making the preferential treatment of residential real
+estate exposures permanent is strong, given their historically low risk
+profile and the strong prudential safeguards already embedded in the
+framework. We should also consider whether a preferential treatment
+could be extended to certain unrated corporates.
+More generally, prudential rules should not unnecessarily constrain
+financing activities that are strategically important for the European
+economy. Trade finance and specialised lending play a critical role in
+supporting industrial investment, exports and supply chains. Here again,
+reducing instances of EU-specific gold-plating would help preserve key
+financing channels.
+
+Finally, developing deeper and more diversified sources of market-based
+finance remains essential to the success of the Savings and Investments
+Union. In this regard, the ongoing review of the securitisation framework
+and the new treatment of equity exposures in legislative programs offer
+important opportunities to unlock additional financing capacity for the
+European economy.
+***
+Allow me to conclude with one final observation. Fifteen years ago, our
+priority was resilience. Today, our challenge is to turn resilience into
+competitiveness, and competitiveness into financial sovereignty. A more
+integrated banking market, a simpler prudential framework and a
+financing ecosystem better aligned with Europe's needs would help
+achieve all three. In a fragmented world, Europe can no longer afford a
+fragmented banking ecosystem.
+ 
+Wilde, (O). The Importance of Being Earnest. 1895.
+Download the publication
+Updated on the 18th of September 2026
+i 
+The Importance of Being Earnest: Building a Simpler and
+More Competiti... (PDF - 329.8 KB)
