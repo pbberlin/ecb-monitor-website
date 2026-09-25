@@ -109,6 +109,25 @@ sudo a2enmod http2
 ```
 
 
+## Apache re-enable IP address
+
+sudo tail -f /var/log/apache2/access.log
+
+```bash
+# apache2.conf defines log formats, i.e "combined" or "minimal"
+sudo vim /etc/apache2/apache2.conf
+
+
+# vhost config selects "combined" or "minimal"
+sudo vim /etc/apache2/sites-available/ecb-le-ssl.conf
+
+
+# sudo grep -Rn "/var/www/ecb-watch" /etc/apache2/
+
+sudo apache2ctl configtest
+sudo systemctl  reload apache2
+```
+
 ## Rights
 
 * We need user `pbu` and `var-www`
@@ -419,4 +438,7 @@ Instructions to access the server via Tailscale:
 
 5. Open your browser and go to:
    https://ecb-monitor.zew.de
+
+
+
 
