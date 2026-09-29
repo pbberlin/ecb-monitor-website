@@ -1,0 +1,295 @@
+TM
+The challenge of innovation
+Address by Fabio Panetta  
+Governor of Banca d’Italia 
+10th Annual Research Conference of the National Bank of Ukraine  
+and the Narodowy Bank Polski  
+Central Banks Response to Future Challenges: Resilience, Credibility, and Innovation
+Kyiv, 21 September 2026
+Introduction
+Many thanks to Governor Andriy Pyshnyy and the conference organizers for their kind 
+invitation. 
+Let me first express my deep solidarity with the Ukrainian people. For more than a decade, 
+and especially since the full-scale invasion of 2022, Ukraine has defended its freedom 
+and sovereignty with extraordinary courage and resilience. In doing so, Ukrainians have 
+defended values that lie at the heart of the European project: democracy, freedom and 
+the rule of law.
+The theme of this conference – Central Banks Response to Future Challenges: Resilience, 
+Credibility, and Innovation – could hardly be more timely.
+Credibility is an essential asset of every central bank, but how it is built and preserved 
+depends on the nature of the challenges we face. At times, credibility requires institutions 
+to stand firm: to safeguard their independence, defend their policy framework and 
+preserve their capacity to act under pressure. At other times, it requires them to adapt: to 
+rethink their tools, acquire new skills and respond to structural changes in the economy 
+and the financial sector. 
+Today, central banks are being tested on both fronts. Geopolitical fragmentation, wars and 
+the weaponization of economic and financial dependencies are making the environment 
+in which we operate more volatile and uncertain. The experience of the National Bank of 
+Ukraine (NBU) shows what institutional resilience means, even under the most extreme 
+circumstances. 
+Technological change poses a different challenge. Digitalization and artificial intelligence 
+(AI) are transforming the economy, financial markets and payment systems. Here, 
+
+2
+preserving credibility will increasingly depend on our ability to understand innovation 
+and adapt to it. 
+I will start briefly with geopolitical tensions and resilience, a subject on which the NBU 
+has far more to teach than to learn. I will then turn to the second challenge, technological 
+innovation, which I would like to explore in greater detail.
+1. The hryvnia at thirty
+Let me start with something concrete: the hryvnia. Ukraine’s currency turns 30 this year. 
+When it was introduced, in 1996, it marked the end of a period of post-Soviet monetary 
+instability.1 Since then, it has accompanied Ukraine through three decades of profound 
+economic and financial shocks and, for more than four years now, through the immense 
+strain of a full-scale war. 
+The history of the hryvnia is inseparable from that of the institutions which have stood behind 
+it. Each shock has tested the NBU: its independence, its policy framework and, ultimately, its 
+credibility. A decisive turning point came after the crisis of 2014-15, when the hryvnia lost 
+more than half of its value and the banking system underwent extensive restructuring. The 
+NBU responded by strengthening its institutional framework, introducing inflation targeting 
+and greater exchange rate flexibility, and adopting risk-based banking supervision. 
+Those reforms demonstrated their value when Russia launched its full-scale invasion in 
+February 2022. Faced with exceptionally severe conditions, the NBU was nonetheless able 
+to preserve monetary and financial stability, adapting its instruments to the demands of 
+wartime. Inflation rose above 26 per cent in 2022. The policy rate was raised sharply, to 
+25 per cent. Although monetary transmission was impaired by the war, the monetary 
+restriction – together with other measures – helped to contain pressures on the exchange 
+rate and, over time, to bring inflation down. Meanwhile, the banking system continued to 
+function and the institutional framework remained intact.2
+These efforts have continued during the war. In February 2026, the IMF approved a 
+new four-year Extended Fund Facility, explicitly recognizing the authorities’ success 
+in maintaining macroeconomic and financial stability under exceptionally difficult 
+conditions.3 
+1 The hryvnia entered into circulation on 2 September 1996 by Presidential Decree 762/96, replacing the 
+karbovanets at a rate of 100,000:1.
+2 IMF, ‘Ukraine: 2023 Article IV Consultation’, IMF Country Reports, 23/299, 2023.
+3 IMF, ‘IMF Executive Board Approves US$8.1 Billion under an Extended Fund Facility (EFF) Arrangement 
+for Ukraine’, press release, 26 February 2026. IMF Managing Director Kristalina Georgieva stated 
+that the Ukrainian authorities had ‘maintained macroeconomic and financial stability’  despite the 
+prolonged war. Total disbursements under the 2023 EFF reached $10.6 billion across eight completed 
+reviews.
+
+2 3
+At the same time, regulatory alignment with the European Union has continued to 
+advance. 4
+Ukraine’s experience provides valuable lessons for central banks. Credibility is not earned 
+when a crisis strikes. It is built up over time through sound institutions, disciplined 
+policymaking and a willingness to undertake difficult reforms. It is then put to the test 
+when circumstances become extreme.
+2. Central banking in the age of AI
+Let me now turn to technological change, which tests a different aspect of credibility:  
+the capacity to adapt.
+Generative AI is spreading at exceptional speed. Its adoption has outpaced that of 
+personal computers and the internet at comparable stages, while consumer applications 
+have reached mass use within a very short period of time. 5 This rapid diffusion builds 
+on the digital transformation of recent decades. Digitalization has provided the data on 
+which AI models are trained and the digital infrastructure that allows them to operate 
+at scale.
+The consequences extend far beyond technology itself. AI is set to transform productivity 
+and growth, change labour markets and firms, and redefine financial markets and 
+payment systems. 
+Central banks cannot remain on the sidelines. Our economic models, supervisory tools 
+and payment infrastructures were primarily designed for a different technological 
+environment. We need to understand the changes under way, disentangle structural 
+shifts from temporary effects, and adapt our instruments accordingly.
+This is increasingly part of what central bank credibility requires. Credibility no longer 
+depends solely on delivering price stability and safeguarding independence. It also 
+depends on our capacity to understand profound changes in the economy and to 
+respond to them without losing sight of our mandate. Our ability to adapt is therefore 
+becoming increasingly important for retaining public trust.
+4 The level of Ukrainian banks’ regulatory equivalence with EU standards increased from 50 per cent 
+in 2022 to 78 per cent in 2025; see S. Nikolaychuk, ‘Integrating Ukraine’s Financial Sector into the 
+European Framework in Wartime: Challenges and Strategic Gains’, keynote speech at the dinner of the 
+AFME (Association for Financial Markets in Europe) European Financial Integration Conference 2026, 
+Frankfurt am Main, 19 May 2026. The target is full equivalence by the end of 2027; see Cabinet of 
+Ministers of Ukraine, Resolution 438, National Programme for the Alignment of Ukrainian Legislation 
+with EU Law, 2026. For the official opening of the fundamentals cluster see the relevant European 
+Council announcement.
+5 See Figure 4 in F. Panetta, ‘The Governor’s Concluding Remarks for 2025’, Banca d’Italia, Rome, 29 
+May 2026. Generative AI reached 50 per cent household adoption in the United States in around three 
+years – faster than the internet (over ten years) and mobile phones (around seven years).
+
+4
+3. AI and monetary policy
+The first area in which this challenge becomes visible is monetary policy. Here, AI matters 
+in two ways. 
+First, it can improve the tools we use to understand the economy. AI can help us 
+extract information from large and unstructured datasets, identify patterns that 
+conventional methods may miss, and thereby improve forecasting. Second, and more 
+fundamentally, AI is changing the economy itself. It will affect both demand and 
+supply, and it will do so over very different time horizons. 
+Understanding its implications for growth and inflation is therefore far from 
+straightforward.
+In the short term, AI-related investment is already providing a powerful boost to 
+demand, especially in economies at the technological frontier. It is also generating 
+strong demand for computing capacity, energy, specialized labour and other scarce 
+inputs. Until supply catches up, these pressures may push up relative prices and 
+inflation.
+Over the longer term, the dominant effect is likely to come through productivity. 
+The scale of the gains remains highly uncertain, but their potential is considerable. 
+For Italy, research by Banca d’Italia suggests that widespread AI adoption could raise 
+labour productivity growth by more than 1 percentage point per year. 6 
+What would this imply? Higher productivity is, in principle, a favorable supply shock: 
+it expands the economy’s productive capacity and, other things being equal, supports 
+stronger growth and lower inflation. 
+But that is where the simple part of the story ends. The timing, magnitude and 
+transmission of these effects are highly uncertain. Moreover, a positive supply shock 
+does not operate in isolation: it affects incomes, investment, wealth and expectations, 
+and therefore also aggregate demand.
+This raises two important questions for monetary policy. How strongly will AI affect 
+aggregate demand? And will its diffusion widen economic divergences across the 
+major economies?
+3.1 Will AI boost aggregate demand? 
+As for aggregate demand, the starting point is simple: large supply shocks are bound 
+to spill over to demand. By impacting incomes, wealth and expectations, they also 
+6 F. Panetta, ‘The Governor’s Concluding Remarks for 2025’, Rome, 29 May 2026. See also A. Bertolotti, 
+A. Linarello and P. Zoi, ‘Shock propagation and economic policies in the Italian production network’, 
+Banca d’Italia, Questioni di Economia e Finanza (Occasional Papers), 1020, 2026.
+
+4 5
+affect consumption and investment. 7 AI will be no exception. The key question is 
+whether these effects will reinforce or offset the disinflationary impact of higher 
+productivity.
+Much will depend on what happens in the labour market and, in particular, on how 
+the gains from AI are shared.
+The use of AI can follow two distinct paths. 8 One is automation: machines replace 
+tasks previously performed by workers, reducing labour demand and shifting income 
+towards capital. The other is the creation of new tasks, through which AI complements 
+human capabilities, increases the demand for skills and allows workers to share more 
+fully in productivity gains.
+These two paths could have very different macroeconomic consequences. If AI 
+mainly creates new tasks and increases expected labour income, households may 
+feel wealthier and more confident about the future. Consumption could strengthen, 
+adding to the investment boom already under way. In that case, demand could rise 
+before the full productivity benefits of AI materialize, and inflationary pressures could 
+persist for longer.
+If, instead, automation dominates, greater uncertainty about jobs and wages could 
+induce households to save more and consume less. Weaker consumption could then 
+offset part of the investment boom, causing the disinflationary effects of AI to emerge 
+sooner.
+The reality will probably lie somewhere between these two extremes. And the effects 
+are likely to be uneven across workers, firms and sectors. Some workers will be better 
+placed than others to benefit from the way AI complements their skills. 9 Larger firms 
+may be able to adopt the technology more quickly and effectively than smaller ones, 
+potentially reinforcing market concentration. 10
+For monetary policy, the implication is clear: estimating the productivity effects of 
+AI will not be enough. We will also need to understand who benefits from those 
+gains, because their distribution will help shape aggregate demand and, ultimately, 
+inflation.
+7 F. Panetta, ‘Playing the long game: how should monetary policy adapt to the Great Reconfiguration?’, 
+speech at the closing conference of the ESCB Research Network on Challenges for Monetary Policy 
+Transmission in a Changing World (ChaMP), Rome, 7 July 2026.
+8 D. Acemoglu, D. Autor and S. Johnson, ‘Building Pro-Worker Artificial Intelligence’, NBER Working 
+Paper, 34854, 2026.
+9 As of now, the evidence suggests that high-skill, high-wage workers might be more exposed to AI, 
+but also better equipped to exploit complementarities and use the technology to increase their own 
+productivity; see E. Rockall, M.M. Tavares and C. Pizzinelli, ‘AI Adoption and Inequality’, IMF Working 
+Paper, WP/25/68, 2025.
+10 T. Babina, A. Fedyk, A. He and J. Hodson, ‘Artificial intelligence, firm growth, and product innovation’, 
+Journal of Financial Economics, 151, 2024.
+
+6
+3.2 Will AI widen economic gaps across countries?
+The second question is whether AI will widen economic gaps across countries. 
+AI development is already having markedly different effects across economies. In 
+the United States, which is at the forefront of the technological race, AI-related 
+investment has become an important engine of growth, contributing to a widening 
+of the trade deficit 11 and attracting substantial foreign capital into equity markets. 12 
+Europe, which lags behind in AI development, has so far experienced these effects on 
+a much smaller scale. 
+Looking ahead, however, adoption will be key to unlocking the full potential of AI. 
+Here, the picture is more fluid and more uncertain.
+The United States appears to be moving faster than Europe, 13 but the gap is not set in 
+stone. Even if Europe does not become a leading developer of AI, it has the potential 
+to adopt and exploit these technologies as rapidly as other advanced economies. 
+Differences in adoption rates could therefore become highly consequential for 
+growth. Estimates by Banca d’Italia staff suggest that countries which integrate AI 
+more rapidly could secure a lasting productivity advantage, expand their shares of 
+global markets and attract more investment and capital. Others would risk seeing 
+their relative competitiveness decline. 
+Differences in productivity and demand would also affect trade flows, capital flows 
+and relative prices. Exchange rates would be part of this adjustment process and 
+could become more volatile during the transition. The direction of exchange rate 
+movements, however, is uncertain: depending on the effects on domestic demand 
+and external balances, currencies could either appreciate or depreciate. 14 For Europe, 
+these external adjustments could be particularly important given its deep integration 
+into global trade and capital markets. AI could therefore affect monetary policy not 
+only through productivity and labour markets, but also through terms of trade and 
+exchange rates.
+11 L. Carpinelli, F. Natoli and M. Taboga, ‘Artificial intelligence and the US economy: an accounting 
+perspective on investment and production’, Banca d’Italia, Questioni di Economia e Finanza (Occasional 
+Papers), 1006, 2026; G. Fiori, C. Lipa and E. Nuenninghoff, ‘Technology Shocks, the AI Boom, and the 
+U.S. Current Account’, FEDS Notes, 14 July 2026.
+12 According to US Treasury TIC data, net foreign purchases of US equities totalled $742 billion in 2025, 
+and more than $260 billion flowed into US equity markets in the first five months of 2026.
+13 See, for example, A. Bick, A. Blandin, D. Deming, N. Fuchs-Schündeln and J. Jessen, ‘Mind the Gap:  
+AI Adoption in Europe and the US’, CEPR Discussion Paper, 21337, 2026.
+14 N. Gornemann, P.A. Guerrón Quintana and F. Saffie, ‘Real Exchange Rates and Endogenous Productivity’, 
+American Economic Journal: Macroeconomics, 17, 4, 2025, pp. 204-261.
+
+6 7
+3.3 What does this mean for monetary policy?
+Taken together, these effects make it unusually difficult to assess how AI will affect output 
+and inflation over the medium term.
+The same uncertainty applies to the natural rate of interest, an important benchmark for 
+monetary policy. Faster productivity growth would tend to raise r-star, but other effects 
+could pull in the opposite direction: greater inequality, higher precautionary saving or 
+a larger share of income accruing to capital could all push it lower. 15 The overall effect 
+is therefore uncertain – and likely to evolve over time as AI spreads throughout the 
+economy.
+The transition may be far from smooth. Current asset prices reflect optimistic expectations 
+about the future profitability of AI. These valuations help technology firms raise capital 
+and sustain further investment, but they also leave markets vulnerable to sharp corrections 
+when expectations are not met, as recent volatility in technology stocks has illustrated.16 
+All of this argues for caution in drawing firm conclusions about the appropriate monetary 
+policy stance. Central banks should remain pragmatic and data driven. In an environment 
+of rapid structural change, where unobservable variables are particularly difficult to 
+estimate, actual developments in demand, economic activity and inflation should carry 
+greater weight in guiding monetary policy than estimates of the neutral rate.17
+As the AI revolution unfolds, central banks will need to continually refine their analysis 
+of the economy, their models and the information on which they rely. Our investment in 
+knowledge, skills and analytical capacity must keep pace with the transformation taking 
+place outside our institutions.
+4. Beyond monetary policy
+So far, I have focused on monetary policy, but the implications of AI and digitalization 
+extend well beyond it, to financial supervision, financial stability and payment systems.
+In banking, for example, AI can improve credit assessment, fraud detection and risk 
+management,18 but it can also create new vulnerabilities. If many banks rely on similar 
+15 P. Hartmann and V. Maver, ‘Implications of Artificial Intelligence for Monetary Policy: A First Conceptual 
+Assessment’, SUERF Policy Brief, 1080, 2025; and L. Esposito, E. Guglielminetti, E. Moracci, A. Papetti 
+and M. Pisani, ‘The implications of AI for monetary policy: a first assessment’, Banca d’Italia, Questioni 
+di Economia e Finanza (Occasional Papers), 1051, 2026.
+16 R.J. Caballero, ‘Speculative Growth and the AI ‘Bubble’’, NBER Working Paper, 34722, 2026, adapting 
+R.J. Caballero, E. Farhi and M.L. Hammour, ‘Speculative Growth: Hints from the U.S. Economy’, American 
+Economic Review, 96, 4, 2006, pp. 1159-1192; M. Taboga, ‘ The Reaction of Financial Markets to the 
+Releases of DeepSeek R1 and Kimi K3: A Critical Analysis’,  Banca d’Italia, Questioni di Economia e 
+Finanza (Occasional Papers), forthcoming.
+17 F. Panetta, ‘The ECB must stay pragmatic in setting rates’, Financial Times, 26 March 2025.
+18 L. Gambacorta, F. Sabatini and S. Schiaffi, ‘Artificial intelligence and relationship lending’, Banca d’Italia, 
+Temi di Discussione (Working Papers), 1476, 2025. 
+
+models or on a small number of technology providers, errors or disruptions may propagate 
+rapidly across the financial system. Supervisors will need stronger technical expertise and 
+a deeper understanding of models, data and technological interdependencies. 
+Digitalization is also transforming payments. New providers and faster payment services 
+can increase competition and efficiency, but they can also make the payments ecosystem 
+more complex and fragmented, creating new operational, legal and cyber risks.
+The challenge for central banks is to ensure that innovation does not weaken the foundations 
+of monetary and financial stability. In the field of payments, this means adapting the existing 
+two-tier monetary system – with central bank money as the anchor and private money and 
+payment services as the operating layer – rather than abandoning it. 
+Conclusion
+In conclusion, geopolitical fragmentation and technological change pose very different 
+challenges for central banks, but they raise the same fundamental question: how do we 
+maintain credibility when the environment around us is changing profoundly?
+The experience of the National Bank of Ukraine confirms that credibility is built over 
+time and tested under pressure. Technological change poses a different kind of test: it 
+requires central banks to adapt their analytical frameworks, skills and instruments as the 
+economy and the financial system evolve.
+Adaptation, however, does not mean abandoning our foundations. Price stability, financial 
+stability and trust in money remain our anchors. Depending on the circumstances, 
+credibility may require central banks to stand firm or to adapt. Their task is to understand 
+how the world around them is changing, respond within their mandate and preserve the 
+public trust on which money ultimately rests.   
+Thank you for your attention.
+Designed by the Printing and Publishing Division of Banca d’Italia.
