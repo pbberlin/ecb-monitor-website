@@ -1,4 +1,4 @@
-date;opinion_score;n_speeches;leitzins
+Date;ZEW-ECB Momentum Indicator;Number of speeches;Policy rate (Main refinancing operations)
 2019-01-06 00:00:00;-0,6;1;0,0
 2019-02-17 00:00:00;-0,11;27;0,0
 2019-03-31 00:00:00;-0,51;21;0,0

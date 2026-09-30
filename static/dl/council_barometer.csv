@@ -1,4 +1,4 @@
-Year;name_excel;mean_score;row_count;country;country_code;role;median_score_year
+Year;Name;Mean ZEW-ECB Momentum Indicator (annual);Number of speeches (annual);Country;Country code;Role;Median ZEW-ECB Momentum Indicator (annual)
 1997;Antonio Fazio;0,9;2;Italy;IT;Governor;0,76
 1997;Jean-Claude Trichet;0,8;1;France;FR;Governor;0,76
 1997;Maurice O’Connell;0,8;1;Ireland;IE;Governor;0,76

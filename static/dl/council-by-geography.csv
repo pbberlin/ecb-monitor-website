@@ -1,4 +1,4 @@
-name;country;role_euro;organisation_euro;birth_year;gender;field_of_study;starting_date;termination_date;incumbent;count_speeches;hawkish_score;year_start;year_stop;from_to;role_euro__from_to;born_raised;education;career
+Name;Country;Role;Institution;Year of birth;Gender;Field of study;Start of term;End of term;Currently in office;Number of speeches;Mean ZEW-ECB Momentum Indicator;Start year;End year;Term (years);Role and term;Year and country of birth;Education;Career
 Mario Draghi;Italy;president;ecb;1947;male;Economics;2011-11-01 00:00:00;2019-10-31 00:00:00;False;253;-0,63;2011;2019;2011 - 2019;president,  2011 - 2019 ;*1947, Italy;education: Economics;experience: Professor, Bank
 Willem F Duisenberg;Netherlands;president;ecb;1935;male;Economics;1997-07-01 00:00:00;2003-10-31 00:00:00;False;130;0,39;1997;2003;1997 - 2003;president,  1997 - 2003 ;*1935, Netherlands;education: Economics;experience: Politics
 Christine Lagarde;France;president;ecb;1956;femlae;Law;2019-11-01 00:00:00;0;True;145;0,16;2019;0;since 2019  ;president,  since 2019   ;*1956, France;education: Law;experience: IMF, Politics
