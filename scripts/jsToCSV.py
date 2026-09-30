@@ -266,7 +266,39 @@ def writeCsvForCouncilList(pth, dataList):
     try:
         with csvFilePath.open("w", encoding="utf-8", newline="") as csvFile:
             csvWriter = csv.writer(csvFile, delimiter=";")
-            csvWriter.writerow(headerKeys)
+            # renaming columns for the council-by-6weeks and council-by-geography downloads only - json keys stay unchanged for the charts
+            renameColsByFile = {
+                "council-by-6weeks.js": {
+                    "date":          "Date",
+                    "opinion_score": "ZEW-ECB Momentum Indicator",
+                    "n_speeches":    "Number of speeches",
+                    "leitzins":      "Policy rate (Main refinancing operations)",
+                },
+                "council-by-geography.js": {
+                    "name":               "Name",
+                    "country":            "Country",
+                    "role_euro":          "Role",
+                    "organisation_euro":  "Institution",
+                    "birth_year":         "Year of birth",
+                    "gender":             "Gender",
+                    "field_of_study":     "Field of study",
+                    "starting_date":      "Start of term",
+                    "termination_date":   "End of term",
+                    "incumbent":          "Currently in office",
+                    "count_speeches":     "Number of speeches",
+                    "hawkish_score":      "Mean ZEW-ECB Momentum Indicator",
+                    "year_start":         "Start year",
+                    "year_stop":          "End year",
+                    "from_to":            "Term (years)",
+                    "role_euro__from_to": "Role and term",
+                    "born_raised":        "Year and country of birth",
+                    "education":          "Education",
+                    "career":             "Career",
+                },
+            }
+            renameCols = renameColsByFile.get(pth.name, {})
+            header_updated = [renameCols.get(key, key) for key in headerKeys]
+            csvWriter.writerow(header_updated)
 
             for idx1, rowDict in enumerate(dataList):
                 row = []
@@ -300,7 +332,20 @@ def writeCsvForCouncilBarometer(pth, dataDict):
     try:
         with csvFilePath.open("w", encoding="utf-8", newline="") as csvFile:
             csvWriter = csv.writer(csvFile, delimiter=";")
-            csvWriter.writerow(headerKeys)
+            # renaming columns for the council_barometer download only - json keys stay unchanged for the chart
+            header_updated = headerKeys
+            renameCols = {
+                "Year":              "Year",
+                "name_excel":        "Name",
+                "mean_score":        "Mean ZEW-ECB Momentum Indicator (annual)",
+                "row_count":         "Number of speeches (annual)",
+                "country":           "Country",
+                "country_code":      "Country code",
+                "role":              "Role",
+                "median_score_year": "Median ZEW-ECB Momentum Indicator (annual)",
+            }
+            header_updated = [renameCols.get(key, key) for key in headerKeys]
+            csvWriter.writerow(header_updated)
 
             for idx1, yearKey in enumerate(dataDict):
                 yearList = dataDict[yearKey]
