@@ -1,0 +1,574 @@
+ 
+SUERF Policy Brief, No 1080 1 
+SUERF Policy Brief 
+No 1080, January 2025  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Philipp Hartmann ∣ European Central Bank 
+Vida Maver ∣ European Central Bank and European University Institute 
+ 
+ 
+Keywords: artificial intelligence, monetary policy, central banks, innovation, inflation, productivity 
+ 
+JEL codes: E52, E30, J21, J24, D31, O33, O40 
+ 
+ 
+Abstract 
+New technologies using various forms of artificial intelligence (AI) have developed significantly in the last few years. 
+While also central banks have started to embrace AI, the literature has barely started to assess its implications for 
+monetary policy. In this Brief we offer a first conceptual discussion about how the spreading of AI in the economy may 
+affect this central bank core policy. We distinguish indirect effects on the stance of monetary policy through changes 
+in macroeconomic conditions from direct effects on monetary policy transmission. While the multiplicity of factors is 
+complex and makes overall predictions hard, the analytical capacity of central banks should equip them well with 
+overcoming any monetary policy challenges associated with the “AI revolution”. 
+ 
+ 
+ 
+Acknowledgements and d isclaimer: This Brief is a further developed version of the first authors’ introductory remarks at the ChaMP 
+Network and Banco de Espan a conference on “The impact of artificial intelligence on the macroeconomy and monetary policy” in Madrid 
+on 24 October 2024. It also takes up some of the messages emerging from the conference. Co mments by Galo Nun o and Jaime Martinez 
+(both Banco de Espan a), In aki Aldasoro (Bank for International Settlements), Andrea Gazzani (Banca d’Italia), Giovanni dell’Ariccia 
+(International Monetary Fund), Ulrich Bindseil, Luca Dedola, Max Freier, Luc Laeven, Ana Lamo, Paloma Lopez-Garcia, Wolfgang Modery, 
+Myriam Moufakkir, Jirka Slacalek and Oreste Tristani (all ECB) are gratefully acknowledged. Any views expressed are only the ones of the 
+authors and should not be regarded as views of the European Central Bank or the Eurosystem. 
+Implications of Artificial Intelligence for Monetary 
+Policy – A First Conceptual Assessment 
+ 
+ 
+ 
+
+Implications of Artificial Intelligence for Monetary Policy – A First Conceptual Assessment 
+ 
+SUERF Policy Brief, No 1080 2 
+It is difficult to miss the “hype” around artificial intelligence (AI) that is flourishing around the globe at least since the 
+public release of ChatGPT towards the end of 2022. One illustration of this “AI revolution” is the amount of private 
+investment in the technology. Figure 1 shows a significant growth trend in four major countries or economic areas. It 
+also suggests that the United States was first in enhancing AI investment, followed by China. Next, the US remains the 
+most active constituency in the field, whereas the European Union (EU) and the United Kingdom (UK) seem to have 
+caught up with China for the latest available data. In 2023, the US particularly invested in generative AI (not shown in 
+Figure 1), which reached more than a third of total private investment in AI.1  But also the adoption of AI-based tools 
+is very fast compared to previous innovations.2 
+ 
+Figure 1. Private AI investment in major constituencies 
+ 
+ 
+ 
+ 
+ 
+ 
+Moreover, in 2024 the Nobel Prizes in physics and chemistry were partly awarded for groundbreaking AI research, 
+including advances in machine learning with artificial neural networks and protein structure prediction. Daron 
+Acemoglu is one of the early authors studying the implications of AI for the macroeconomy and his book with Simon 
+Johnson “Power and Progress – Our 1000-year Struggle over Technology and Prosperity” reviews who benefits from 
+such innovations and how their benefits can be spread widely. 
+ 
+The above numbers and scientific developments seem enough of a motivation for central banks to seriously consider 
+which new AI techniques they may want to use and how they will be affected otherwise. Monetary policy is at the core 
+of this Brief. The next s ection briefly discusses the impact on central banks in general and distinguishes two broad 
+ways in which the conduct of their monetary policies may be affected – direct and indirect ways. Following this 
+distinction, the second section addresses how AI may affect the macroeconomy in general and thereby the monetary 
+policy stance indirectly. The third section then tackles the direct effects of AI on the transmission of monetary policy 
+through the economy. The last section contains some concluding remarks. 
+ 
+ 
+ 
+1 Generative AI refers to algorithmic models that use neural networks and “learn” to generate statistically probable outputs when fed with 
+big data and prompted by a user. 
+2 See Graph 1 in Chapter III of the 2024 Annual Economic Report of the Bank for International Settlements (BIS 2024), 25 June 2024. 
+Notes: Total investment is measured as gross fixed capital formation. 
+Sources: Left panel reproduced from Figure 4.3.10 in Chapter IV of the 2024 Artificial Intelligence Index of the 
+Stanford Institute for Human -Centered Artificial Intelligence, Artificial Intelligence Index Report . Right panel 
+calculated by the authors using OECD data for total investment. 
+ 
+
+Implications of Artificial Intelligence for Monetary Policy – A First Conceptual Assessment 
+ 
+SUERF Policy Brief, No 1080 3 
+General impact of AI on central banks and two ways in which monetary policy may 
+be affected 
+Already before all type of miraculous stories about generative AI and how it would take over many human tasks hit the 
+media, we in the ECB became convinced that recent technological advances in computing power, big data, deep 
+learning, generative AI etc. would herald a new era of digitalisation and automation, deeply affecting and changing not 
+only the European and other economies – and society at large, of course – but also how we as central banks conduct 
+our business.3 
+ 
+There are three ways in which this new era of digitalisation will affect central banks. First, internal business processes 
+will change, with some tasks of human beings being fulfilled by “intelligent” computer programmes and our work force 
+adapting accordingly. For example, our employees need to be able to operate those programmes. Second, new 
+methodologies from complex systems research, neural networks and large language models will enrich the analytical 
+tools and models that we use in our economic and financial analyses and forecasts that support the fulfilment of our 
+main tasks and functions. Third, as said before, it is widely expected that important aspects of the economy, including 
+financial systems, will change, with potential implications for the con duct of the policies assigned to us. 4 This could 
+affect all our tasks and functions, be they in the area of monetary policy, banking supervision and financial stability or 
+payment and settlement infrastructures.5 
+ 
+In this Brief we would like to make an early conceptual contribution to how central banks should prepare in the area 
+of monetary policy as central banks’ core function, considering macroeconomic developments relevant for it. We feel 
+that business processes and analytical methodologies are already the subject of many other discussions and trainings. 
+Moreover, banking supervisors have moved already earlier in the area of their competence.6  Payments and settlements 
+constitute a special field that has always been very much driven by technology. From a public sector angle, AI use cases 
+in this area could relate to the detection of fraud and money laundering.7 
+ 
+So, let us try to give some structure to how we can think about the monetary policy effects of AI. One can distinguish 
+direct from indirect effects. The direct ones concern changes to the transmission of monetary policy, i.e. how policy 
+rate or balance-sheet changes for monetary policy purposes transmit through the financial system and the wider 
+economy to inflation, growth, employment etc. The indirect ones concern relevant effects of AI on the functioning of 
+the macroeconomy. Changes in macroeconomic cond itions may suggest a different monetary policy stance than 
+without the changes induced by the new technology. Even though direct and indirect effects on monetary policy do not 
+have to be unrelated we find the distinction useful for structuring the discussion. 
+ 
+ 
+Potential indirect effects of AI through the macroeconomy 
+Regarding indirect effects on monetary policy, a first key issue is the extent to which AI increases productivity. There 
+seems to be broad agreement that the introduction of AI -technologies will lead to positive productivity gains, but 
+estimates of the size of these gains differ enormously. As the overview of studies in Figure 2 shows, predicted growth 
+rates range from rather modest numbers to quite large ones. In addition, there is a debate about how quickly positive 
+productivity growth can materialise, with some arguing that it will take quite some time. 
+ 
+3 The ECB’s Chief Services Office, Myriam Moufakkir, for example, explained early applications of AI in our institution (Moufak kir, M. 
+(2023), Careful embrace: AI and the ECB, ECB Blog, 28 September). 
+4 The keynote speech by Piero Cipollone (2024), Artificial intelligence: a central bank’s view , delivered at the National Conference of 
+Statistics, Rome, 4 July, broadly covers the three areas together. 
+5 See also BIS (2024), op.cit. For a review of the literature on the expected impact of AI, with particular attention to its im plications for 
+central banking, see also Freier, M. et al. (forthcoming), The transformative impact of AI for the public and private economy. 
+6 See e.g. the ECB Supervision Innovation Conferences 2023 and 2024, the 2024 Central Banking Digital Innovation Award or the reflections 
+by the Governor of the Bank of Spain (Escriva . J.L. (2024), ¿Que puede hacer el Banco de Espan a para apoyar los retos de la revolucio n 
+tecnolo gica que afrontamos?, speech at the XV. Encuentro Financiero Expansio n KPMG, Madrid, 7 October. For a discussion of financial 
+stability implications of artificial intelligence, see Leitner, G., J. Singh, A. van der Kraaij and B. Zsa mboki (2024), The rise of artificial 
+intelligence: benefits and risks for financial stability, special feature in the ECB Financial Stability Review, May. 
+7 See also BIS (2024), op.cit., p. 99. 
+
+Implications of Artificial Intelligence for Monetary Policy – A First Conceptual Assessment 
+ 
+SUERF Policy Brief, No 1080 4 
+Figure 2. Predicted AI-induced growth in annual labour productivity over the next decade 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Standard theories suggest that higher productivity growth is associated with a higher natural rate of interest.8 In other 
+words, monetary policy rates consistent with price stability would have to be higher with AI-induced productivity 
+growth than without it. This effect could be counteracted, if the “AI revolution” induced increased inequality. 9 If the 
+ 
+8 For example, Woodford, M., and C.E. Walsh (2005), Interest and prices: foundations of a theory of monetary policy , Macroeconomic 
+Dynamics, Vol. 9, Issue 3, pp. 462-468, argue that higher productivity growth raises the marginal product of capital, thereby increasing the 
+natural rate. Similarly, Galí , J. (2015), Monetary Policy, Inflation, and the Business Cycle: An Introduction to the New Keynesian Framework 
+and its Applications, Princeton University Press, highlights that an acceleration in productivity growth leads to a higher lo ng-run 
+equilibrium real interest rate in New Keynesian models. There is also empirical evidence supporting this relationship, such as Del Negro, 
+M., M.P. Giannoni, and F. Schorfheide (2015), Inflation in the great recession and new Keynesian models , American Economic Journal: 
+Macroeconomics, Vol. 7, Issue 1, pp. 168 -196. However, inconsistent with theory, Borio, C.E.V., P. Disyatat, M. Juselius, and P. 
+Rungcharoenkitkul (2022), Why so low for so long? A long-term view of real interest rates, International Journal of Central Banking, Vol. 
+18, Issue 3, pp. 47 -87, using long historical data from 19 countries, do not find systematic correlations between standard explanatory 
+variables and long-term real interest rates, including for productivity and inequality. Depending on the sub-period and variable considered, 
+the empirical relationship has sometimes the sign predicted by standard theories, sometimes the opposite sign or is sometimes statistically 
+insignificant. 
+9 Cipollone (2024), op.cit. 
+Notes: The lower and upper bounds of the estimates are represented by striped areas when the source provides a 
+range of estimates. 
+Sources: Reproduced from Figure A.10 of Filippucci, F., P. Gal, and M. Schief (2024), Miracle or myth? Assessing the 
+macroeconomic productivity gains from Artificial Intelligence, OECD Artificial Intelligence Papers, No 29, November. 
+The numbers represented by the different columns come from the following studies: Acemoglu (2024), op.cit.; Aghion, 
+P., and S. Bunel (2024), AI and growth: where do we stand? , unpublished; Baily, M., E. Brynjolfsson, and A. Korinek 
+(2023), Machines of mind: the case for an AI-powered productivity boom, Brookings Institution; Bergeaud, A. (2024), 
+The past, present, and future of European productivity, paper presented at the ECB Forum on Central Banking, Sintra, 
+1-3 July; Cazzaniga, M., C. Pizzinelli, E. Rockall, and M.M. Tavares (2024), Exposure to artificial intelligence and 
+occupational mobility, unpublished, International Monetary Fund, for IMF (2024); French Artificial Intelligence 
+Commission (2024), IA: Notre ambition pour la France, Technical Report, March; Hatzius, J., J. Briggs, D. Kodnani, and 
+G. Pierdomenico (2023), The potentially large effects of artificial intelligence on economic growth , Goldman Sachs 
+Economics Research, No 1, March, for Goldman Sachs (2023); McKinsey Report (2023), The economic potential of 
+generative AI, June. 
+
+Implications of Artificial Intelligence for Monetary Policy – A First Conceptual Assessment 
+ 
+SUERF Policy Brief, No 1080 5 
+new technology displaces existing jobs faster than it creates new ones or reinforces a “digital divide”,10  then income 
+and wealth inequality could rise,11 which in turn would put downward pressure on the natural rate.12 
+ 
+A second key issue is whether AI has similar or different effects on aggregate supply and demand and what this implies 
+for inflation. In what concerns supply, the larger the productivity gains from AI the more the production potential of 
+the economy should expand. 13 Moreover, in times of low unemployment and aging like the present ones labour 
+shortages could soften, if the increased automation would replace more workers than creating new jobs, thereby 
+reducing production constraints or labour costs for firms. 14 The enhanced threat of automation could reduce the 
+bargaining power of workers and unions and therefore labour costs also more generally.15 Still on the supply side, the 
+net effect on energy costs will depend on whether the electricity intensity of AI tools would be stronger than better 
+grid management and more efficient energy consumption. 16 Whether all this would be disinflationary (potentially 
+suggesting looser monetary policy17) or not will depend on what happens to aggregate demand. 
+ 
+In order to generate these productivity gains, aggregate investment would have to increase, indeed. At the present 
+juncture, however, AI investment seems to constitute only a tiny part of total investment – even in the US, the most 
+prolific AI investor (1.2 percent in 2023, as suggested by the right panel of Figure 118). This could rationalise the view 
+by some observers that the impact of AI on the overall economy is still relatively limited. 
+ 
+Consumption constitutes the larger part of aggregate demand and is more complex to assess. 19 The impact of AI on 
+labour markets will be critical, i.e. whether ultimately labour demand and wages rise.20  Broadly, increased productivity 
+should induce upward pressure on wages. At the same time, the lid that the threat of robot adoption could put on wages 
+ 
+10 See e.g., Cazzaniga, M. et al. (2024), Gen-AI: artificial intelligence and the future of work, IMF Staff Discussion Notes, No 2024/001. The 
+authors emphasise that while college-educated individuals are more exposed to AI, they also tend to benefit the most from it. In contrast, 
+older workers may face greater challenges in adapting to the new technology. 
+11 Several studies explore the impact of AI on wealth and income inequality. Gazzani, A., and F. Natoli (2024), The macroeconomic effects 
+of AI-based innovation, paper presented at the Banco de Espan a/ChaMP Research Network conference on “The impact of artificial 
+intelligence on the macroeconomy and monetary policy”, Madrid, 24 October, argue that more intensive use of AI technology in innovation 
+leads to increased inequality, boosting the wealth and labour income shares of the top 10 percent while reducing those of the bottom 50-
+25 percent. Bonfiglioli, A., R. Crino , G. Gancia, and I. Papadakis (2023), Artificial intelligence and jobs: evidence from US commuting zones, 
+CEPR Discussion Paper, No 18495, October, analyse US data and find that AI adoption has negative employment effects, particul arly for 
+low-skill and production workers. At the same time, individuals at the top of the wage distribution and employed in STEM  occupations 
+(science, technology, engineering or mathematics) benefit from it, so that inequality rises across workers. Similarly, Acemoglu, D. (2024), 
+The simple macroeconomics of AI, NBER Working Paper Series, No w32487, April, highlights that achieving more favourable outcomes for 
+wages and inequality depends on the creation of new tasks, especially for low -paid workers. In contrast, Webb (2020), The impact of 
+artificial intelligence on the labor market, mimeo., Stanford University, January, argues that AI, unlike previous software and robots, will 
+primarily affect high-skill occupations and estimates that it could help reduce wage inequality. 
+12 Mian, A.R., L. Straub, and A. Sufi (2021), What explains the decline in r*? Rising income inequality versus democratic shifts , Becker 
+Friedman Institute for Economics Working Paper, No 104, September, argue that rising income inequality has been a significant factor in 
+the decline of the natural rate of interest, as higher -income households save more, increasing the supply of lo anable funds. A similar 
+argument is used in Rannenberg, A. (2023), The rise in inequality, the decline in the natural interest rate, and the increase in household 
+debt, International Journal of Central Banking, Vol. 19, Issue 2, pp. 1-93. 
+13 Filippucci, F., P. Gal, C. Jona-Lasinio, A. Leandro, and G. Nicoletti (2024), The impact of artificial intelligence on productivity, distribution 
+and growth: key mechanisms, initial evidence, and policy challenges, OECD Artificial Intelligence Papers, No 15, June, explore AI’s potential 
+as a general-purpose technology, emphasising its significant impact on productivity and economic growth. In addition, Gazzani and Natoli 
+(2024), op.cit., find that an increase in AI  intensity results in a delayed rise in industrial production and a slight reduction in consumer 
+prices, consistent with the effects of a positive supply shock (see Figure 3 in this Brief). 
+14 See e.g. Cipollone (2024), op.cit. 
+15 Basso, H.S., and O. Rachedi (2024), Robot adoption and inflation dynamics, paper presented at the Banco de Espan a/ChaMP Research 
+Network conference on “The impact of artificial intelligence on the macroeconomy and monetary policy”, Madrid, 24 October. 
+16 Ammanath, B. (2024), How to manage AI’s energy demand – today, tomorrow and in the future, World Economic Forum, 25 April, reports 
+that the computational power required to sustain AI’s rapid growth is doubling approximately every 100 days. 
+17 For a state-of-the-art discussion about how monetary policy should deal with supply shocks, in particular when to “look through” them 
+and when not, see Bandera, N., L. Barnes, M. Chavaz, S. Tenreyro and L. von dem Berge (2023), Monetary policy in the face of supply shocks: 
+the role of inflation expectations, paper presented at the ECB Forum on Central Banking, Sintra, 27 June. 
+18 According to the BIS (2024), op.cit., p. 111, worldwide AI investments surpassed 150 billion US dollars in 2023. This is larg er than the 
+96 billion US dollars reported in our source (Artificial Intelligence Index Report (2024), op.cit., Figure 4.3.2, p. 243). But the difference is 
+not large enough to change the conclusion that AI investments represent only a small fraction of total investment. 
+19 For a more extensive discussion of the effects of AI on demand through investment, consumption, and wages, see BIS (2024), op.cit., pp. 
+111-113. 
+20 For a theoretical analysis on how output and wages behave under different scenarios for AI technological progress, see e.g. Korinek, A., 
+and D. Suh (2024), Scenarios for the transition to AGI, NBER Working Paper Series, No w32255, March. 
+
+Implications of Artificial Intelligence for Monetary Policy – A First Conceptual Assessment 
+ 
+SUERF Policy Brief, No 1080 6 
+through the reduced bargaining power of a share of the  work force, could also limit wage-driven consumption.21  In 
+what concerns total employment, again the question arises as to whether the creation of new tasks and occupations 
+exceeds the destruction of existing ones and how the balance of the two evolves over time. 22  Previous research 
+suggests that significant productivity advances and innovations have generally not reduced aggregate employment in 
+history, but have instead kept it relatively stable or even led to modest increases.23  The balance of these three forces – 
+wages, job creation and job destruction (across different sectors and occupations) – can be expected to determine the 
+strength and time profile of the response in aggregate consumption. 
+ 
+Figure 3 provides a research example that can shed some light on these issues with recent empirical evidence.24 It first 
+illustrates how AI innovation can act as a technology shock with expansionary effects on the real economy (e.g., 
+industrial production in the upper middle panel) and small reductionary or no effects on the aggregate price level 
+(upper right-hand panel). As the lower right panels suggest, between 1980 and 2019 an increase in AI patents intensity 
+increased aggregate employment in the US and raised wages, as reflected in aggregate hourly earnings. In other words, 
+AI-driven technological advancements induced more demand for new workers in some sectors or occupations than it 
+induced layoffs in other sectors or occupations, in line with the historical experience with innovation and productivity. 
+This highlights also the necessity of employing general equilibrium approaches and multi-sector frameworks to fully 
+capture AI's macroeconomic implications. 
+ 
+ 
+21 Basso and Rachedi (2024), op.cit., use a New Keynesian model with search frictions and automation to suggest that automation reduces 
+workers’ bargaining power, weakening the sensitivity of wages to unemployment. Consistent with Albanesi et al. (2023), op. cit., weaker 
+union bargaining power results in productivity gains being less likely to translate into higher wages. 
+22 In his blog “Silicon Continent” about innovation, technology and policy, Garicano, L. (2024), How to think about the economic impact of 
+AI, discusses whether AI will replace high- or low-skilled workers depending on the task content of different occupations. He suggests that 
+when AI is non-autonomous, then all workers benefit from it. When it is autonomous, then wages should be expected to drop for workers 
+whose skills are close to the AI’s capability, creating winners and losers. In both cases, however, he thinks that total labour income should 
+increase. Acemoglu (2024), op.cit., argues that while AI-driven productivity gains are unlikely to result in significant wage increases, they 
+are also unlikely to cause major declines, as AI-exposed tasks are more evenly distributed across demographic groups compared to earlier 
+waves of auto mation. On the other hand, Korinek, A., and J. E. Stiglitz (2018), Artificial intelligence and its implications for income 
+distribution and unemployment, The Economics of Artificial Intelligence: An Agenda, University of Chicago Press, pp. 349 -390, discuss 
+how AI could disrupt labour markets in the short and medium term, replacing human labour, and affecting workers across variou s 
+professions and skill le vels. Additionally, results from the paper by Auer, R., D. Kopfer, and J. Sveda (2024), The rise of generative AI: 
+modelling exposure, substitution, and inequality effects on the US labour market , presented at the Banco de Espan a/ChaMP Research 
+Network conference on “The impact of artificial intelligence on the macroeconomy and monetary policy”, Madrid, 24 October, argue that 
+low-wage occupations face a more immediate risk of being replaced by AI, whereas high-wage occupations remain safer for longer, as their 
+core skills are harder to automate. 
+23 Already more than a decade ago, Acemoglu, D., and D. Autor (2011), Skills, tasks and technologies: implications for employmen t and 
+earnings, in Ashenfelter, O., and D. Card (eds.), Handbook of Labor Economics, Vol. 4, pp. 1043-1171, highlighted that canonical models fail 
+to fully explain key labour market trends over the previous three decades: wage declines for low -skill workers, job polarisation, and the 
+impact of technology on employment. Acemoglu, D., and P. Restrepo (2018), The race between man and machine: implications of 
+technology for growth, factor shares, and employment, American Economic Review, Vol. 108, Issue 6, pp. 1488-1542, develop a framework 
+to explore how automation, robotics, and AI could replace human labour and why this might or might not lead to lower employme nt or 
+stagnant wages. They argue that while automation replaces tasks previously performed by workers, technologies that complement labour 
+by creating new tasks where workers have a comparative advantage in more complex roles, can stabilise employment and the labour share 
+in the long run. Empirically, Autor, D., and A. Salomons (2018), Is automation labor-displacing? Productivity growth, employment, and the 
+labor share, Brookings Papers on Economic Activity, Spring, pp. 1-87, building on their earlier work presented at the 2017 ECB Forum on 
+Central Banking in Sintra, use industry-level data from 18 OECD countries to examine the impact of automation – measured with total 
+factor productivity growth or instrumented with robot adoption. On aggregate, they find modest positive effects on employment  but a 
+displacing effect on the labour share. In other words, automation generates net employment gains while reallocating value added away  
+from labour towards other production factors. Using data from the pre-COVID pandemic period, Albanesi, S., A. Dias da Silva, J.F. Jimeno, 
+A. Lamo and A. Wabitsch (2023), New technologies and jobs in Europe , ECB Working Paper, No 2831, presented at the Banco de 
+Espan a/ChaMP Research Network conference on “The impact of artificial intelligence on the macroeconomy and monetary policy”, Madrid, 
+24 October, confirm these findings for Europe. Their results indicate positive aggregate employment effects associated with general -
+purpose technology innovations, such as AI. 
+24 See Gazzani and Natoli (2024), op.cit. 
+
+Implications of Artificial Intelligence for Monetary Policy – A First Conceptual Assessment 
+ 
+SUERF Policy Brief, No 1080 7 
+Figure 3. Impulse responses of selected variables to an AI technology shock in the United States 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+But note that the macroeconomic effects estimated for the US during these 20 years appear moderate and take time to 
+materialise. For example, a one percentage point increase in the share of AI patents in total patents is associated with 
+a 2 percent peak increase in industrial production, an 0.8 percent peak increase in employment and a 0.3 percent peak 
+increase in hourly earnings. Moreover, the peaks are only reached after more than 3 years. This would again be 
+consistent with the view that the macroeconomic implications of AI are still building up. 
+ 
+Contrast this with some research with a structural multi -sector model conducted at the Bank for International 
+Settlements, which suggests some inflationary effects of (AI -induced) productivity shocks – notably after a longer 
+period of time (say beyond five years).25  One source of the strong demand responsible for inflationary forces is that in 
+order to benefit from the higher productivity firms in that model need to build a much larger capital stock, which 
+induces a lot of investment. Second, the strength of consump tion growth in the model depends, inter alia, on 
+households’ expectations about the benefits that they can reap from AI. If they anticipated the benefits only partially, 
+the lesser consumption growth could mean that disinflationary forces dominate in the short term (in line with Figure 
+3). If they anticipated a lot of the benefits, this would bring stronger consumption forward in time, potentially inducing 
+some inflation already in the short term (or prevent a temporary disinflationary period).  
+ 
+Finally, skill mismatches and their persistence will have a reductionary or delaying effect on both aggregate supply and 
+aggregate demand. But, all in all, more research is needed about how an “AI revolution” would affect aggregate demand, 
+supply and therefore inflation. This should include whether generative AI could act differently from previous waves of 
+automation in terms of aggregate employment effects. 
+ 
+ 
+ 
+25 See BIS (2024), op.cit., Graph 9, and Figure 6 of Aldasoro, I., S. Doerr, L. Gambacorta, and D. Rees (2024), The impact of artificial 
+intelligence on output and inflation , BIS Working Papers, No 1179, April, presented at the Banco de Espan a/ChaMP Research Network 
+conference on “The impact of artificial intelligence on the macroeconomy and monetary policy”, Madrid, 24 October. 
+Notes: The impulse responses are derived from a local projections estimation approach. They illustrate how 
+selected variables evolve over time in reaction to a one standard deviation increase in the AI intensity index (the 
+0.12 b.p. initial jump in the upper left -hand panel), based on monthly data from 1980 to 2019. This index is 
+constructed by Gazzani and Natoli (2024), op.cit., using a granular patent -level database from the U.S. Patent and 
+Trademark Office. The AI content of patents reflects innovations that either advance AI technologies themselves or 
+apply AI to other technological developments firms seek to patent. The value 0.12 corresponds to a 50 b.p. increase 
+in the share of AI patents in all patents. “1y Rate” refers to 1 -year Treasury yields, while “PCE” denotes Personal 
+Consumption Expenditures. b.p. denotes basis points and p.p. percentage points.  
+Source: Reproduced from Figure 2 of Gazzani and Natoli (2024), op.cit. 
+
+Implications of Artificial Intelligence for Monetary Policy – A First Conceptual Assessment 
+ 
+SUERF Policy Brief, No 1080 8 
+Potential direct effects of AI on monetary policy transmission 
+The literature about direct effects of AI on monetary policy seems to be even less developed than the one on indirect 
+effects. Let us nevertheless reflect about a few channels through which AI and related automation tendencies could 
+induce changes to monetary transmission. 
+ 
+Perhaps one of the most obvious candidates is the formation of prices. Companies that are more digitalised and use 
+algorithmic pricing methods may adjust their prices more often in response to shocks than other companies. 26 And 
+through competition this may affect also less digitalised companies and make their prices more flexible and uniform 
+across different locations of customers.27  Higher price flexibility would induce – everything else equal – a steepening 
+of the Phillips curve and should accelerate and strengthen monetary policy transmission to inflation.  
+ 
+At the same time, companies operating through the internet can also use machine learning techniques for 
+differentiating prices across customers, depending on their online search behaviour and purchase history.28  Moreover, 
+this raises the issue of market power and whether the algorithms of different companies would compete or learn to 
+collude, all the more as concentration tendencies for online  platforms seem to be strong. 29 Such discriminatory 
+tendencies could make the link between monetary policy and the prices that customers see less direct. 
+ 
+While it seems likely that the complex labour reallocations induced by AI-driven technological change and the related 
+distributional effects change also monetary transmission through the labour market, it seems hard to derive general 
+predictions at present. While households with lower incomes and less wealth will have a higher marginal propensity 
+to consume and less access to credit and therefore respond more to monetary policy, the reaction of aggregate 
+consumption to monetary policy shocks will depend on the precise nature of the distributional effects induced by AI. 
+For example, if an increase in these poorer households dominates, then monetary transmission to consumption would 
+strengthen. But if the distributional effects would make the income growth of richer and more skilled households 
+dominate – who already constitute a larger share in total consumption and tend to be little responsive to interest rate 
+changes –, then monetary transmission could weaken.  
+ 
+Second, if the threat of AI-led robot adoption reduces the bargaining power of workers, then the Phillips curve should 
+flatten – as wages become less responsive to unemployment changes – and therefore the impact of monetary policy on 
+inflation soften.30 Third, AI may further stimulate the so-called gig economy, as it is at the basis of the platforms that 
+allocate tasks to the gig workers. One issue is whether the higher income volatility of gig workers will also lead to a 
+more volatile consumption response to monetary policy impulses. Another issue is whether further growth of the gig 
+economy would weaken the impact of monetary policy on employment and wages, as gig work is task-based and shocks 
+could lead to less hiring and firing of full-time positions and less reactive wages. 
+ 
+Another part of the monetary policy transmission chain that could be particularly affected is through the financial 
+sector. First, the bank lending channel (and the interest rate channel) could accelerate and strengthen to the extent 
+that banks’ investment in AI-related technology makes their internal processes for responding to shocks faster and 
+ 
+26 Algorithms enable firms to respond to demand and supply shocks in practically real -time. For a discussion on the growing use of AI -
+based methods in pricing decisions, see Aparicio, D., D. Eckles, and M. Kumar (2023), Algorithmic pricing and consumer sensitivity to price 
+variability, IESE Business School Working Paper No 4435831, May, and Aparicio, D., and K. Misra (2023), Artificial intelligence and pricing, 
+Artificial Intelligence in Marketing, pp. 103-124, March. 
+27 Cavallo, A. (2018), More Amazon effects: online competition and pricing behaviours, NBER Working Paper Series, No w25138, October, 
+finds that for online competition and U.S. locations over the past decade. 
+28 For an analysis of how price -comparison websites influence consumer prices, refer to Rigbi, O. (2017), The effects of mandatory 
+disclosure of supermarket prices, CEPR Discussion Paper, No 12381, October, and Strasser, G., E. Wieland, P. Macias, A. Blazejowska, K. 
+Szafranek, D. Wittekopf, J. Franke, L. Henkel, and C. Osbat (2023), E-commerce and price setting: evidence from Europe, ECB Occasional 
+Paper, No 320. 
+29 For further insights into the behaviour of algorithms powered by artificial intelligence  see Calvano, E., G. Calzolari, V. Denicolo, and S. 
+Pastorello (2020), Artificial intelligence, algorithmic pricing, and collusion, American Economic Review, Vol. 110, Issue 10, pp. 3267-3297. 
+30 See Basso and Rachedi (2024), op.cit., who use data from US metropolitan areas and find that automation reduces the sensitivity o f 
+inflation to unemployment. 
+
+Implications of Artificial Intelligence for Monetary Policy – A First Conceptual Assessment 
+ 
+SUERF Policy Brief, No 1080 9 
+more efficient, improves their ability to assess the riskiness of borrowers and enhances their internet presence and 
+operations.31  Related increases of leverage by firms and households could contribute to this as well. 
+ 
+Second, there could also be an asymmetric effect through the reduction of the relevance of the bank capital channel of 
+monetary policy. Both the lower lending growth of less well capitalised banks in a monetary loosening and the greater 
+cutting of credit o f less well capitalised banks in a monetary tightening would be softened. In this sense, the 
+acceleration and strengthening of monetary transmission through financial intermediaries could be weaker for 
+tightening phases.  
+ 
+Third, the “AI revolution” could also give another boost to bank disintermediation, including through FinTech firms.32  
+To the extent that a greater share of monetary policy shocks is transmitted through tech -prone non-banks or even 
+BigTech firms entering credit markets, interest rate pass -through and lending could accelerate and strengthen 
+further.33  For example, if the most dynamic non-bank intermediary type – investment funds – would gain a further 
+edge from AI and continued to have a longer portfolio duration than banks’ loan portfolios, (non -conventional) 
+monetary policy measures (such as Quantitative Easing) that operate through longer rather than short rates can be 
+expected to have stronger transmission effects than without the further growth of investment funds.34 
+ 
+ 
+Concluding remarks 
+One thing is clear. We are very far from robots taking over the conduct of monetary policy from central bank decision-
+making bodies, even though the literature on monetary policy rules and the sometimes mind -blowing progress with 
+generative AI could lead one to imagine this. 
+ 
+It is still early days for assessing the macroeconomic and monetary policy implications of AI. The technology is still 
+developing and so is its adoption in the economy. In fact, AI seems to constitute only a small share of total investment 
+at present. Moreover, the literature on macroeconomic implications of AI and related “intelligent” automation has 
+started relatively recently. Arguably, it really took off only shortly before the COVID pandemic and references to 
+monetary policy are still quite limited. So, we need to stay humble and acknowledge that uncertainties remain high. 
+This is why this Brief takes a conceptual perspective in making the daring step to monetary policy. Hence, the effects 
+discussed should not be interpreted as predictions. 
+ 
+Having said all that, there seems to be agreement that the spreading of AI would lead over time to productivity gains. 
+But there is a risk that sector and labour reallocations could induce greater inequality, which would – in turn – reduce 
+upward pressure from productivity on the natural rate of interest. Both effects would influence the adequate level of 
+monetary policy rates for achieving price stability. Moreover, supply -side implications point to cost advantages for 
+ 
+31 Hasan, I., X. Li and T. Takalo (2024), Technological innovation and the bank lending channel of monetary policy transmission, mimeo., 
+Halle Institute for Economic Research, December, find for Chinese data that lending -related technological innovation of banks amplifies 
+the bank lending channel of monetary policy. In their theoretical model, these innovations reduce monitoring c osts and relax earnings-
+based borrowing constraints. Empirically, the results seem to be driven by machine learning and big-data technology innovation. Leitner 
+et al. (2024), op.cit. , reason that while AI can enhance banks' operational efficiency it also introduces challenges, such as data quality 
+issues, biases in training models, data privacy concerns, and performance unpredictability. Moreover, although AI may strengt hen risk 
+management and customer engagement, it could simultaneously heighten operational risks, third-party dependencies, and the potential 
+for discriminatory practices if not carefully monitored. 
+32 Boot, A., P. Hoffmann, L. Laeven, and L. Ratnovski (2021), Fintech: what’s old, what’s new?, Journal of Financial Stability, Vol. 53, Issue 
+100836. 
+33 For example, Huang, Y., X. Li, H. Qiu, D. Su, C. Yu (2024), BigTech credit, small business, and monetary policy transmission:  theory and 
+evidence, mimeo., China Institute for Economic Research, argue with Chinese data that following a monetary easing BigT ech lenders 
+establish more new lending relationships than traditional banks. But for lending amounts the difference is not statistically significant. 
+They explain these effects with information advantages of BigTech companies relative to banks, notably when dealing with small firms. 
+34 Holm-Hadulla, F., F. Mazelis, and S. Rast (2023), Bank and non-bank balance sheet responses to monetary policy shocks , Economics 
+Letters, Vol. 222, Issue 110918, find that the balance sheets of euro area investment funds – the fastest growing non-bank intermediary 
+type – respond much faster and in a more persistent way to long-rate shocks (such as induced by Quantitative Easing) than bank balance 
+sheets (on which the effects are short-lived). This can be explained with the longer maturity in their asset portfolios compared to banks’ 
+loan books. Short-rate shocks (such as induced by conventional monetary policy) lead to a significant balance sheet response of both banks 
+and investment funds, with a slightly swifter and more persistent reaction of banks. 
+
+Implications of Artificial Intelligence for Monetary Policy – A First Conceptual Assessment 
+ 
+SUERF Policy Brief, No 1080 10 
+firms. But such disinflationary factors may be offset over time through aggregate demand. First, aggregate investment 
+should increase. Whether also aggregate consumption increases will depend on whether the historical regularity that 
+innovation and productivity growth tend not to reduce aggregate employment still holds and whether productivity 
+driven wage growth is stronger than the reduced bargaining power of workers threatened by automation. In terms of 
+indirect monetary policy implications, it is concept ually not clear whether significant inflationary or disinflationary 
+tendencies may emerge if a true “AI revolution” happens. One scenario would be that different effects offset each other, 
+so that inflation does not respond much. Another could be that – ceteris paribus – inflation initially does not change 
+much – or even goes down – and after a longer period of time some inflation materialises. 
+ 
+In terms of direct AI effects on the transmission of monetary policy, several arguments suggest an increase in firms’ 
+price flexibility pointing to an acceleration and strengthening of transmission to inflation. Related arguments – 
+including through potential further growth of tech-prone non-bank intermediaries – point also to an acceleration and 
+strengthening of monetary transmission to interest rates, lending and other forms of financing. But there are also 
+potential contrarian factors, such as an expansion of the gig economy, reduced wage bargaining power of workers or a 
+weaker bank capital channel during monetary tightening episodes. 
+ 
+One lesson from the incipient research in the field is that a proper assessment requires general equilibrium thinking 
+and multi-sector frameworks, so that the aggregate implications of very different effects in different parts of the 
+economy can be deduced. At the same time, not all of the potential direct and indirect effects on monetary policy are 
+entirely new. Some of them and the way in which they are captured in economic concepts and models could be 
+qualitatively similar to the effects found in research on previous waves of innovation or automation. In addition, by 
+identifying such effects we cannot claim that they will become necessarily large and impactful on monetary policy. The 
+balance of the initial evidence that we could consider in this Brief would suggest that the very fast AI innovation has 
+not penetrated the macroeconomy too much yet, even in leading countries. This is in line with the view of some 
+observers that it could take quite some time until material macroeconomic effects become visible. Their relevance can 
+also differ across constituencies, for example as some countries invest much more in AI than others. 
+ 
+In any case, given the historical experience with and the literature on previous innovations as well as central banks’ 
+analytical capacity, we should be well -equipped to handle any monetary policy challenges emerging from AI. Our 
+cutting-edge in-house research will help bridging any knowledge gaps. 
+ 
+Finally, in this Brief we did not discuss benefits and risks of AI as such. There are also measurable risks associated with 
+the “AI revolution”, beyond potential adverse distributional effects mentioned before. They range from geopolitical 
+ones to financia l stability risks and to privacy considerations. Their materialisation could also interfere with 
+macroeconomic developments and monetary transmission. While they do not feature here, these risks exist and need 
+to be managed carefully. Other policies than monetary policy will usually be the first line of defence for them. 
+ 
+About the author(s) 
+Dr. Philipp Hartmann is Deputy Director General of the research department at the European Central Bank, which he 
+helped building up from its beginning. He is also a Fellow of the Centre for Economic Policy Research. Previously, he 
+held positions at the London School of Economics, the European Monetary Institute as well as Erasmus University 
+Rotterdam, as chaired part-time professor, and acted as Vice-President of SUERF – the European Money and Finance 
+Forum. Mr Hartmann published research on financial, monetary and international issues in numerous journal articles 
+and several books. His policy work has been published in many official reports and discussed in fora including the 
+ECOFIN Council, the ECB Governing Council, the Basel Committee on Banking Supervision and the United Nations 
+Economic Commission for Europe. 
+ 
+Vida Maver is a PhD candidate in Economics at the European University Institute. She holds a BA in Financial 
+Mathematics, and an MSc in Economics with Distinction from the University of Ljubljana. Currently, she is working as 
+a PhD Intern as part of the Challenges for Monetary Policy Transmission (ChaMP) Research Network in the Directorate 
+General Research at the European Central Bank. Her fields of interest include monetary policy and macroeconometrics. 
+Website: https://sites.google.com/view/vidamaver/about 
+
+Implications of Artificial Intelligence for Monetary Policy – A First Conceptual Assessment 
+ 
+SUERF Policy Brief, No 1080 11 
+ 
+SUERF Policy Notes and Briefs disseminate SUERF Members‘ economic research, policy -oriented analyses, and views. They analyze 
+relevant developments, address challenges and propose solutions to current monetary, financial and macroeconomic themes. The style is 
+analytical yet non -technical, facilitating interaction and the exchange of ideas between researchers, policy makers and financial 
+practitioners. 
+SUERF Policy Notes and Briefs are accessible to the public free of charge at https://www.suerf.org/publications/suerf-policy-notes-and-briefs/. 
+The views expressed are those of the authors and not necessarily those of the institutions the authors are affiliated with. 
+© SUERF – The European Money and Finance Forum. Reproduction or translation for educational and non -commercial purposes is 
+permitted provided that the source is acknowledged. 
+Editorial Board: Ernest Gnan, David T. Llewellyn, Donato Masciandaro, Natacha Valla 
+Designed by the Information Management and Services Division of the Oesterreichische Nationalbank (OeNB) 
+SUERF Secretariat 
+c/o OeNB, Otto-Wagner-Platz 3A-1090 Vienna, Austria  
+Phone: +43 1 40 420 7206 
+E-Mail:  suerf@oenb.at 
+Website: https://www.suerf.org/ 
+ 
