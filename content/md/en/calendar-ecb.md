@@ -1,6 +1,5 @@
 | Date | Meeting Title |
 |:---:|---|
-| 30.09.2026 | Governing Council of the ECB: non-monetary policy meeting (in Frankfurt) |
 | 28.10.2026 | Governing Council of the ECB: monetary policy meeting in Frankfurt (Day 1) |
 | 29.10.2026 | Governing Council of the ECB: monetary policy meeting in Frankfurt (Day 2), followed by press conference |
 | 25.11.2026 | Governing Council of the ECB: non-monetary policy meeting (in Frankfurt) |
@@ -10,6 +9,7 @@
 | 03.02.2027 | Governing Council of the ECB: monetary policy meeting in Frankfurt (Day 1) |
 | 04.02.2027 | Governing Council of the ECB: monetary policy meeting in Frankfurt (Day 2), followed by press conference |
 | 24.02.2027 | Governing Council of the ECB: non-monetary policy meeting (virtual) |
+| 17.03.2027 | Governing Council of the ECB: monetary policy meeting in Frankfurt (Day 1) |
 
 [To source](https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html)
 
