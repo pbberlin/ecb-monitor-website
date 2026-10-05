@@ -4704,138 +4704,165 @@ const councilBarometer = {
     "2026": [
         {
             "name_excel": "Christine Lagarde",
-            "mean_score": "",
-            "row_count": "0",
+            "mean_score": 0.68,
+            "row_count": "6",
             "country": "France",
             "country_code": "FR",
             "role": "President",
-            "median_score_year": 0.35
+            "median_score_year": 0.5
         },
         {
             "name_excel": "Christodoulos Patsalides",
-            "mean_score": 0.35,
-            "row_count": "2",
+            "mean_score": 0.4,
+            "row_count": "3",
             "country": "Cyprus",
             "country_code": "CY",
             "role": "Governor",
-            "median_score_year": 0.35
+            "median_score_year": 0.5
         },
         {
             "name_excel": "Dimitar Radev",
-            "mean_score": -0.15,
-            "row_count": "2",
+            "mean_score": 0.22,
+            "row_count": "4",
             "country": "Bulgaria",
             "country_code": "BG",
             "role": "Governor",
-            "median_score_year": 0.35
+            "median_score_year": 0.5
+        },
+        {
+            "name_excel": "Emmanuel Moulin",
+            "mean_score": 0.6,
+            "row_count": "1",
+            "country": "France",
+            "country_code": "FR",
+            "role": "Governor",
+            "median_score_year": 0.5
         },
         {
             "name_excel": "Fabio Panetta",
-            "mean_score": 0.15,
-            "row_count": "2",
+            "mean_score": 0.48,
+            "row_count": "6",
             "country": "Italy",
             "country_code": "IT",
             "role": "Governor",
-            "median_score_year": 0.35
+            "median_score_year": 0.5
         },
         {
             "name_excel": "Frank Elderson",
+            "mean_score": 0.53,
+            "row_count": "4",
+            "country": "Netherlands",
+            "country_code": "NL",
+            "role": "Executive Board",
+            "median_score_year": 0.5
+        },
+        {
+            "name_excel": "Fran\u00e7ois Villeroy de Galhau",
+            "mean_score": 0.47,
+            "row_count": "3",
+            "country": "France",
+            "country_code": "FR",
+            "role": "Governor",
+            "median_score_year": 0.5
+        },
+        {
+            "name_excel": "Gabriel Makhlouf",
+            "mean_score": 0.54,
+            "row_count": "5",
+            "country": "Ireland",
+            "country_code": "IE",
+            "role": "Governor",
+            "median_score_year": 0.5
+        },
+        {
+            "name_excel": "Isabel Schnabel",
+            "mean_score": 0.73,
+            "row_count": "3",
+            "country": "Germany",
+            "country_code": "DE",
+            "role": "Executive Board",
+            "median_score_year": 0.5
+        },
+        {
+            "name_excel": "Joachim Nagel",
+            "mean_score": 0.38,
+            "row_count": "13",
+            "country": "Germany",
+            "country_code": "DE",
+            "role": "Governor",
+            "median_score_year": 0.5
+        },
+        {
+            "name_excel": "Jos\u00e9 Luis Escriv\u00e1",
+            "mean_score": 0.5,
+            "row_count": "1",
+            "country": "Spain",
+            "country_code": "ES",
+            "role": "Governor",
+            "median_score_year": 0.5
+        },
+        {
+            "name_excel": "Luis de Guindos",
+            "mean_score": 0.1,
+            "row_count": "2",
+            "country": "Spain",
+            "country_code": "ES",
+            "role": "Vice-President",
+            "median_score_year": 0.5
+        },
+        {
+            "name_excel": "Martin Kocher",
+            "mean_score": 0.5,
+            "row_count": "1",
+            "country": "Austria",
+            "country_code": "AT",
+            "role": "Governor",
+            "median_score_year": 0.5
+        },
+        {
+            "name_excel": "Olaf Sleijpen",
             "mean_score": 0.65,
             "row_count": "2",
             "country": "Netherlands",
             "country_code": "NL",
-            "role": "Executive Board",
-            "median_score_year": 0.35
-        },
-        {
-            "name_excel": "Fran\u00e7ois Villeroy de Galhau",
-            "mean_score": 0.0,
-            "row_count": "1",
-            "country": "France",
-            "country_code": "FR",
             "role": "Governor",
-            "median_score_year": 0.35
-        },
-        {
-            "name_excel": "Gabriel Makhlouf",
-            "mean_score": 0.4,
-            "row_count": "2",
-            "country": "Ireland",
-            "country_code": "IE",
-            "role": "Governor",
-            "median_score_year": 0.35
-        },
-        {
-            "name_excel": "Isabel Schnabel",
-            "mean_score": 0.7,
-            "row_count": "1",
-            "country": "Germany",
-            "country_code": "DE",
-            "role": "Executive Board",
-            "median_score_year": 0.35
-        },
-        {
-            "name_excel": "Joachim Nagel",
-            "mean_score": 0.24,
-            "row_count": "5",
-            "country": "Germany",
-            "country_code": "DE",
-            "role": "Governor",
-            "median_score_year": 0.35
-        },
-        {
-            "name_excel": "Jos\u00e9 Luis Escriv\u00e1",
-            "mean_score": "",
-            "row_count": "0",
-            "country": "Spain",
-            "country_code": "ES",
-            "role": "Governor",
-            "median_score_year": 0.35
-        },
-        {
-            "name_excel": "Luis de Guindos",
-            "mean_score": 0.0,
-            "row_count": "1",
-            "country": "Spain",
-            "country_code": "ES",
-            "role": "Vice-President",
-            "median_score_year": 0.35
-        },
-        {
-            "name_excel": "Olaf Sleijpen",
-            "mean_score": 0.6,
-            "row_count": "1",
-            "country": "Netherlands",
-            "country_code": "NL",
-            "role": "Governor",
-            "median_score_year": 0.35
+            "median_score_year": 0.5
         },
         {
             "name_excel": "Olli Rehn",
-            "mean_score": 0.4,
-            "row_count": "1",
+            "mean_score": 0.6,
+            "row_count": "3",
             "country": "Finland",
             "country_code": "FI",
             "role": "Governor",
-            "median_score_year": 0.35
+            "median_score_year": 0.5
+        },
+        {
+            "name_excel": "Peter Ka\u017eim\u00edr",
+            "mean_score": 1.0,
+            "row_count": "1",
+            "country": "Slovakia",
+            "country_code": "SK",
+            "role": "Governor",
+            "median_score_year": 0.5
         },
         {
             "name_excel": "Philip R. Lane",
-            "mean_score": 0.35,
-            "row_count": "2",
+            "mean_score": 0.47,
+            "row_count": "6",
             "country": "Ireland",
             "country_code": "IE",
             "role": "Chief Economist",
-            "median_score_year": 0.35
+            "median_score_year": 0.5
         },
         {
             "name_excel": "Piero Cipollone",
-            "mean_score": 0.2,
-            "row_count": "2",
+            "mean_score": 0.38,
+            "row_count": "6",
             "country": "Italy",
             "country_code": "IT",
             "role": "Executive Board",
-            "median_score_year": 0.35
+            "median_score_year": 0.5
         },
         {
             "name_excel": "Primo\u017e Dolenc",
@@ -4844,16 +4871,16 @@ const councilBarometer = {
             "country": "Slovenia",
             "country_code": "SI",
             "role": "Governor",
-            "median_score_year": 0.35
+            "median_score_year": 0.5
         },
         {
             "name_excel": "Yannis Stournaras",
-            "mean_score": 0.5,
-            "row_count": "2",
+            "mean_score": 0.4,
+            "row_count": "5",
             "country": "Greece",
             "country_code": "EL",
             "role": "Governor",
-            "median_score_year": 0.35
+            "median_score_year": 0.5
         }
     ]
 }; 
