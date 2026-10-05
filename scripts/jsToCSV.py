@@ -272,7 +272,7 @@ def writeCsvForCouncilList(pth, dataList):
                     "date":          "Date",
                     "opinion_score": "ZEW-ECB Momentum Indicator",
                     "n_speeches":    "Number of speeches",
-                    "leitzins":      "Policy rate (Main refinancing operations)",
+                    "leitzins":      "Policy rate (Deposit facility)",
                 },
                 "council-by-geography.js": {
                     "name":               "Name",
