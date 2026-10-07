@@ -10,3 +10,6 @@ scripts/council/*.html
 
 # server side tool
 static/goaccess.html
+
+# windows terminal starter
+wtx.bat
