@@ -1,0 +1,896 @@
+Simplification of the 
+European prudential 
+regulatory, supervisory 
+and reporting framework 
+December 2025 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Contents 
+ 
+1 
+Contents 
+Introduction 2 
+1 Proposals to simplify the regulatory framework 4 
+2 Proposals to simplify the supervisory framework 13 
+3 Proposals to simplify the reporting framework 16 
+ 
+ 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Introduction 
+ 
+2 
+Introduction 
+In March 2025 the ECB’s Governing Council created the High-Level Task Force 
+on Simplification (HLTF) to develop recommendations for simplifying the 
+European prudential regulatory, supervisory and reporting framework for 
+banks. The HLTF’s objective has been to identify undue complexities within the 
+European regulatory, supervisory and reporting framework which may unnecessarily 
+hamper the competitiveness of euro area banks and could place an excessive 
+burden on them, potentially impeding their ability to provide services to the real 
+economy. To address these complexities and the undue resulting burden on banks, 
+the HLTF has formulated high-level policy recommendations, which are outlined in 
+this report. The numbering of the recommendations does not indicate any specific 
+order of priority.  
+The ECB’s Governing Council endorsed the HLTF recommendations in 
+December 2025.  
+Provided that the recommendations find support, operationalisation, impact 
+analyses and effective implementation should take place in close cooperation 
+with the relevant authorities in the European Union (EU), while also duly 
+considering the impact this may have on Member States not participating in 
+the Single Supervisory Mechanism. Under the steer of the European Commission, 
+recommendations to simplify the regulatory and supervisory framework could be 
+further developed by the European System of Central Banks, the Single Resolution 
+Board (SRB), the European Systemic Risk Board (ESRB) and the European Banking 
+Authority (EBA), with the ECB providing continued support. The operationalisation of 
+recommendations to simplify the reporting framework that affect the European 
+supervisory authorities (ESAs), the SRB, national competent authorities (NCAs), 
+national central banks (NCBs) and the ECB should be developed in close 
+cooperation with these authorities, also leveraging on the relevant initiatives and 
+projects ongoing at the EBA, the ECB and the Joint Bank Reporting Committee 
+(JBRC).  
+The high-level policy recommendations for simplification were formulated 
+based on the following principles: 
+• Resilience should be maintained – any proposal to change the EU prudential 
+framework should sustain current levels of resilience. 
+• Effectiveness in meeting prudential objectives needs to be maintained – 
+microprudential, macroprudential and resolution authorities should be able to 
+meet their respective objectives in an effective manner and capture all relevant 
+dimensions of risk. 
+• European harmonisation and financial integration should be fostered – 
+proposals shall take a European perspective and aim to foster more 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Introduction 
+ 
+3 
+harmonisation across Member States in areas where a lack of harmonisation is 
+a source of complexity or inconsistency.  
+• International cooperation should be upheld – international standards and 
+multilateral cooperation are crucial, and all jurisdictions should ensure full, 
+timely and faithful implementation of Basel III.  
+In parallel with this report, the Governing Council welcomes the Supervisory 
+Board’s four-pronged reform agenda to further increase the efficiency, 
+effectiveness and risk-based focus of prudential supervision. First, a reform of 
+the Supervisory Review and Evaluation Process (SREP) is well advanced. Second, 
+the objectives of the SREP reform are now being extended via the “Next-level 
+supervision” project to areas such as decision making, internal models, capital 
+related decisions, stress testing, reporting and on-site inspections. Third, a dedicated 
+initiative is under way to further promote a unified supervisory culture within the SSM 
+in line with the objectives of the supervisory reforms. Lastly, the ECB is improving its 
+analytical tools to better assess the impact and effectiveness of its supervision. 
+These reforms are intended to facilitate more in-depth scrutiny of the most material 
+risks, while also allowing supervisors to take on new tasks and address emerging 
+risks. The Governing Council welcomes the ECB Banking Supervision report entitled 
+“Streamlining supervision, safeguarding resilience”, which outlines its initiatives to 
+increase the efficiency, effectiveness and risk focus of supervision, as well as the 
+ESRB’s publication on the simplification of its tasks through legislative amendments. 
+The Governing Council strongly encourages the completion of banking union and the 
+savings and investment union to reduce national fragmentation and allow for more 
+efficient capital markets. 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the regulatory framework 
+ 
+4 
+1 Proposals to simplify the regulatory 
+framework 
+This section describes complexities in the existing regulatory framework and 
+provides high-level recommendations to address them.  
+Reduce the number of elements in the risk-weighted and 
+leverage ratio framework 
+The number of elements in the EU’s risk-weighted (RW) and leverage ratio (LR) 
+capital stack exceeds those foreseen by the Basel standards, potentially 
+causing overlaps and inconsistencies. EU-specific elements are the Pillar 2 
+Requirements (P2R) and Pillar 2 Guidance (P2G) – which implement the Basel 
+standard on supervisory review process1 – the systemic risk buffer, macroprudential 
+risk weight measures and the Pillar 2 leverage ratio add-ons (P2R-LR and P2G-LR). 
+The variety of capital elements in place in the EU may decrease transparency and 
+increase uncertainty as market participants face more challenges in assessing the 
+capital framework, the overall level of requirements and the available capital 
+headroom. Other jurisdictions such as the United Kingdom and the United States 
+have fewer elements compared with the EU. Uncertainty and a lack of transparency 
+also arise from differences in the way the tools are applied across countries. 
+Recommendation #1 proposes reducing the number of capital stack elements 
+in the prudential framework. This could be achieved by merging the different 
+capital buffers into two: a non-releasable buffer (merging the capital conservation 
+buffer and the higher of the other systemically important institutions (O-SII) and 
+global systemically important institutions (G-SII) buffers) and a releasable buffer 
+(merging the countercyclical capital buffer and the systemic risk buffer). P2G would 
+be kept separate, on top of the releasable buffer. Any reduction in the number of 
+buffers must maintain the current allocation of macroprudential and microprudential 
+powers and preserve the competencies of national and supranational authorities 
+within the banking union. The calibration of all elements through clear common 
+principles and methodologies, including a single exercise, would serve to avoid 
+unwarranted overlaps or inconsistencies. This single exercise could be based among 
+others on a modified EU-level stress test, reflecting European and national financial 
+cycles and risks, as a starting point for the releasable buffer and the P2G. It should 
+also avoid creating undue additional expectations.  
+In a similar vein, the leverage ratio framework in the EU consists of four 
+elements, while the Basel III framework only has two. Merging or adjusting the 
+EU-specific elements (P2G and P2R LR add-ons) would be one way to simplify 
+this while maintaining Basel compliance. An option could be to have two 
+ 
+1  See Basel Committee on Banking Supervision – Supervisory review process. 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the regulatory framework 
+ 
+5 
+elements: one LR minimum requirement and one LR buffer. For G-SIIs, the LR buffer 
+would be floored at the Basel G-SIB LR buffer rate, while for other banks the LR 
+buffer could in principle be set to zero. Mechanically linking the leverage ratio 
+framework with the risk-based buffer framework could also be explored further; 
+however, this would pose challenges in terms of capital neutrality and overall 
+calibration.  
+This recommendation aims to reduce the complexity of the capital stacks, in 
+particular the RW and LR stacks, which exceeds the complexity foreseen by the 
+Basel framework. It would increase transparency and facilitate capital planning for 
+banks and investors, particularly for banks operating across multiple jurisdictions. 
+Minimum requirements composed of the highest possible 
+quality of capital, ensuring sufficient loss-absorbing 
+capacity 
+The value added by including Additional Tier 1 (AT1) (and Tier 2) instruments 
+in the going-concern capital stack has been questioned. The degree of going-
+concern loss-absorbing capacity2 of AT1 instruments is unclear.  
+Recommendation #2 suggests that the going-concern loss-absorbing capacity 
+of the capital stack could be improved by adjusting the design or the role of 
+AT1 (and Tier 2) instruments. Two alternatives can be considered. First, the 
+features of AT1 instruments could be enhanced to further ensure their loss-
+absorption capacity in going concern and provide additional clarity to banks and 
+investors on the going-concern loss-absorption properties of AT1 instruments. This 
+option would be Basel-compliant. It would not modify the role of AT1 (and Tier 2) 
+instruments, and would therefore not reduce the overlap with gone-concern 
+requirements. Alternatively, non-CET1 instruments could be completely removed 
+from the going-concern capital stack. This could be achieved either by fully or 
+partially replacing them with CET1 instruments or by eliminating them without any 
+replacement in the going-concern framework. This alternative would (i) decrease the 
+complexity in the going-concern framework, as only one type of instrument would 
+have to be considered in going concern; and (ii) reduce the interplay between the 
+different requirements. However, unless non-CET1 instruments were fully replaced 
+with CET1 (implying a tightening of CET1 requirements), this alternative would raise 
+difficult questions with regard to maintaining resilience and Basel compliance, 
+potentially conflicting with the principles guiding the formulation of the high-level 
+recommendations. In addition, irrespective of the calibration, it would lead to 
+changes in the regulatory CET1 demand, raising questions of capital neutrality. 
+This recommendation aims to strengthen the quality of capital required under the EU 
+regulatory framework, align the functioning of the going-concern capital stack with its 
+intended purpose and thereby increase transparency for banks’ creditors. 
+ 
+2  The capacity to absorb losses before a bank is failing or likely to fail. 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the regulatory framework 
+ 
+6 
+A dedicated, prudent and materially simpler prudential 
+regime for smaller banks, building on the existing EU 
+regime and introducing significantly more proportionality 
+The Basel standards are designed for internationally active banks; the EU 
+decided to apply them to all banks in an effort to achieve a unified regulatory 
+framework. While the EU regime includes various ad hoc proportionality provisions, 
+including for small and non-complex institutions (SNCIs)3, the application of Basel 
+standards to all banks might have given rise to undue complexity. Applicable rules 
+for smaller banks may benefit from an approach which strikes a better balance 
+between complexity and regulatory burden. In the EU, the package of revised rules 
+on capital requirements for banks (the Capital Requirements Regulation II and the 
+Capital Requirements Directive V) introduced the concept of SNCIs for institutions 
+with less than €5 billion in total assets. Compared with other key jurisdictions (such 
+as the United States, the United Kingdom and Switzerland), the level of 
+proportionality provided to SNCIs is relatively limited. It focuses on reporting and 
+does not disapply Basel risk-based capital requirements or triggers for distribution 
+restrictions (maximum distributable amount (MDA)) in favour of simpler metrics. This 
+may result in a mismatch between systemic relevance and regulatory costs in the 
+EU.  
+Recommendation #3 proposes expanding the degree of proportionality in the 
+EU under the existing SNCI regime in a prudent manner. This could be done, 
+inter alia, by increasing the scope of eligible small banks through an increase of the 
+€5 billion threshold of the SNCI regime, as well as extending the scope of the 
+simplified rules. Institutions that would qualify as SNCIs, but that are deemed by the 
+relevant competent authorities (CAs) inappropriate to be considered thus, owing for 
+example to their systemic relevance in a particular Member State or their risk profile, 
+should continue to fall under the current regime. In addition, institutions should have 
+the possibility to “opt out” of the SNCI regime if they prefer to be covered by the 
+regular regime. The recommendation does not propose a tailored regime for mid-
+sized banks. Inspiration may be taken from the Small and Domestic Deposit Takers 
+regime in the United Kingdom, the Swiss small banks regime and the Community 
+Bank Leverage Ratio regime in the United States, whereby only one prudential 
+capital stack (LR or RW) is applied, Basel MDA triggers are not applicable and risk 
+modules are simplified or removed. The new simpler regime would be harmonised 
+and calibrated in a more conservative manner, to maintain resilience and ensure 
+sufficient risk coverage, minimise potential contagion and avoid competitive 
+distortions and potential regulatory arbitrage by banks.  
+In addition, recommendation #3 proposes regulatory changes to facilitate and 
+further increase consistency in the application of the proportionality principle 
+in supervision. Supervisory requirements for smaller institutions that currently apply 
+differently across Member States could be harmonised. For instance, in the area of 
+governance, harmonised, simpler requirements could be established in areas such 
+ 
+3  SNCIs are credit institutions that meet the criteria laid down in Article 4(1)(145) of the Capital 
+Requirements Regulation. 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the regulatory framework 
+ 
+7 
+as internal reporting, remuneration, outsourcing, risk committees, internal stress 
+testing, recovery plans, management bodies and risk functions. Harmonising EU 
+legislation to allow for lower frequencies and lower granularity for the SREP (and 
+commensurately for banks’ internal capital and liquidity adequacy assessment 
+processes) for SNCIs and less significant institutions
+4, while continuing to allow the 
+diversity of those institutions to be duly considered, would also contribute to the 
+consistent application of proportionality by NCAs. The supervisory processes for 
+determining which banks qualify as SNCIs, in view of the given regulatory criteria as 
+recommended above, should also be harmonised. Any potential changes to support 
+further proportionality in supervision should not be to the detriment of the key 
+supervisory goals of ensuring the resilience and stability of individual institutions, nor 
+of the financial system. 
+Complementing these changes, any simpler regime for smaller banks needs to 
+be accompanied by a credible, flexible and efficient crisis management 
+framework for these institutions. The political agreement reached at EU level on 
+the Crisis Management and Deposit Insurance framework is a valuable step forward 
+in this respect. 
+This recommendation aims to reduce the regulatory burden and compliance costs 
+faced by smaller institutions. 
+Reciprocate macroprudential measures automatically, up 
+to a threshold 
+The process of reciprocation of macroprudential measures by macroprudential 
+authorities across different Member States is seen as complex by both 
+authorities and banks.5 Authorities find the procedures for voluntary reciprocity 
+lengthy and the recognition of heterogeneous measures by Member States complex. 
+Banks struggle to assess which measures to apply to their capital requirements, as 
+reciprocated measures are often communicated through different outlets. 
+Reciprocated measures can come as a surprise to banks, adding to the perception 
+that they are piling up in a piecemeal manner.  
+Recommendation #4 proposes reciprocating measures automatically up to a 
+certain threshold, combined with, and conditional on, a more standardised 
+application of macroprudential tools. It should also be ensured that bank 
+exposures subject to the measures are identified based on harmonised common 
+reporting templates (COREP and FINREP), so that both banks and reciprocating 
+macroprudential authorities can easily access and apply them. Without prejudice to 
+the spirit of this recommendation, its implementation should not result in an undue 
+burden on banks when a reciprocated macroprudential measure would only apply to 
+very small exposures. In addition, it is proposed that the ESRB communicate semi-
+annually about the existing and new reciprocated measures that banks need to apply 
+ 
+4  “Less significant institutions” are credit institutions of Member States participating in the SSM that meet 
+the criteria laid down in Article 6(4) of the SSM Regulation. 
+5  See the Reciprocation of measures section of the ESRB’s website for further information. 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the regulatory framework 
+ 
+8 
+to their capital requirements. Importantly, the proposal hinges on a more consistent 
+and harmonised application of prudential tools within the EU. Otherwise, automatic 
+reciprocity of heterogeneously applied tools may lead to inconsistency and double 
+counting of risks. 
+This recommendation would alleviate the burden on banks, as communication on 
+reciprocation would be clearer. For authorities, this would result in simplification, as 
+lengthy reciprocation processes would be removed. 
+Align the MREL and TLAC frameworks more closely – 
+without reducing gone-concern resources – and review 
+their interactions with the going-concern framework 
+The gone-concern framework defines a wide variety of parallel requirements 
+that also interact with the going-concern framework. In particular, G-SIBs face 
+several resolution requirements, as they comply with total loss-absorbing capacity 
+(TLAC) requirements, minimum requirements for own funds and eligible liabilities 
+(MREL) and subordinated MREL, which are simultaneously expressed in risk-
+weighted and unweighted terms. In addition, as CET1, AT1 and Tier 2 capital can be 
+used in parallel in the going and gone-concern stack, the frameworks interact. This 
+leads to complex issues resulting in constrained buffer usability, which can also arise 
+owing to interactions between the risk-weighted and leverage ratio prudential 
+requirements independently of MREL/TLAC. It can also lead to difficulties in 
+assessing the interrelations between the different MDA triggers and minimum 
+requirements. 
+Recommendation #5 proposes aligning the MREL and TLAC frameworks more 
+closely – without reducing gone-concern resources – while reviewing their 
+interactions with the going-concern framework. An option for aligning the MREL 
+and TLAC frameworks would be to reduce the number of elements and stacks in the 
+MREL framework, while remaining compliant with the international standards set by 
+the Basel Committee on Banking Supervision and the Financial Stability Board, 
+maintaining the current level of gone-concern resources. Access to additional funds 
+also needs to be ensured. MREL could consist of a uniform floor – calibrated at the 
+level of the TLAC requirement – and a bank-specific component determined by the 
+resolution authority on top. A lower number of stacks would reduce the complexity 
+related to the multiple distribution restrictions in the MREL framework. It would also 
+limit undue interactions between the going and gone-concern frameworks.  
+The recommendations aim to increase the transparency and predictability of the 
+requirements, reducing monitoring costs for banks and investors and mitigating 
+unwarranted interactions. 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the regulatory framework 
+ 
+9 
+Refocus from directives to regulations and review the 
+number of level 2 and 3 mandates 
+Continued reliance on directives creates heterogeneity in the applicable law 
+and disparities in how institutions are supervised across the EU. Alongside 
+regulations, the Single Rulebook for banking also relies on directives, such as the 
+Capital Requirements Directive and the Bank Recovery and Resolution Directive. In 
+contrast to regulations, directives need to be transposed into national law, which can 
+lead to significant heterogeneity in the applicable law and can thereby also 
+complicate cross-border banking. In addition, the Single Rulebook also consists of 
+numerous level 2 (delegated and implementing) and level 3 (soft law) acts which 
+further detail the requirements set in level 1 texts (directives and regulations). 
+Although these level 2 and 3 acts fulfil an important role in terms of harmonising 
+supervisory practices across the EU, they also add complexity and have grown in 
+number and level of detail.
+6  
+Recommendation #6 proposes refocusing EU prudential law from directives to 
+regulations, increasing harmonisation and regulatory transparency, and 
+streamlining level 2 and 3 acts. More use of regulations would prevent a 
+heterogenous transposition into national law. It would facilitate uniform supervision 
+and cross-border banking, benefiting in particular banks that operate across various 
+jurisdictions and their investors. Applying regulations would also help harmonise the 
+legal basis for using supervisory guidance and expectations within the EU. A 
+thorough review of level 2 and 3 acts and their implementation would reduce the 
+level of prescriptiveness of some acts; this may thus increase the level of 
+supervisory discretion.  
+This recommendation would make the legal framework more comprehensible, 
+lowering barriers to entry as well as reducing the regulatory burden on banks. On the 
+other hand, transitioning from directives to regulations would limit national discretion 
+and flexibility. The recommendation suggests moving in this direction, while being 
+conscious of the trade-offs involved.  
+Simplify the EU-wide stress test methodology and 
+increase the usefulness of results, from both a system-
+wide and bank-specific perspective 
+In the EU, the EBA-led bank solvency stress test has become a complex and 
+resource-intense exercise. The EU-wide stress test is a constrained two-yearly 
+bottom-up stress test. It is backed by (i) a complex and binding methodology 
+updated under the aegis of the EBA and (ii) an adverse scenario designed by the 
+ESRB. The exercise relies on granular data collections, with banks submitting two 
+profit and loss projections which are quality assured by ECB and NCA staff. The 
+ 
+6  For example, with the last banking package the EBA is expected to deliver around 140 mandates 
+covering a broad range of technical areas. See EBA (2023), “The EBA publishes roadmap on the 
+implementation of the EU Banking Package”, Press Release, 14 December. 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the regulatory framework 
+ 
+10 
+resource footprint for the exercise has grown over time both for authorities and 
+banks. 
+Recommendation #7 calls for the simplification of the EU-wide stress test, 
+streamlining the methodology and increasing the usefulness of results from 
+both a system-wide and bank-specific perspective. A simplification of the stress 
+test should result in a more efficient process for both banks and authorities. The 
+adequacy of the EU-wide stress test should be reassessed against 
+recommendations #1 and #8, which call for common tools informing micro- and 
+macroprudential requirements. Any reform should be based on a clear and agreed 
+direction of travel, for instance in terms of goals, overall approach (in particular 
+bottom-up versus top-down) and use of results. Changes would need to consider 
+various issues: (i) the risks captured by the stress test, (ii) the scenario, (iii) the 
+methodology, including for example how to develop an increasingly top-down 
+approach, (iv) the granularity of the data and their alignment with existing reporting, 
+(v) the frequency of the exercise, (vi) simplifications in the quality assurance process, 
+and (vii) the role of banks, including the required degree of transparency.  
+The recommendation aims to reduce the compliance costs of the current EU-wide 
+stress test for both banks and authorities, while increasing the usefulness of the 
+results from both a system-wide and bank-specific perspective.  
+A European governance mechanism whereby the 
+Governing Council of the ECB takes a holistic view on the 
+overall level of capital demand within and across banking 
+union 
+The EU has a complex governance structure for banks, with no authority 
+mandated to provide a holistic assessment of overall capital requirements. 
+Within the SSM, the ECB supervises significant institutions, while national 
+supervisory authorities execute supervisory decisions and supervise less significant 
+institutions. Macroprudential supervision is a shared responsibility between national 
+authorities and the ECB, with the ECB being able to “top up” any macroprudential 
+measures applied by the national authorities. Authorities apply different approaches 
+and calibration methods when setting requirements and buffers. As prudential policy 
+mandates for banks are spread across numerous authorities in the EU, a holistic 
+assessment of micro- and macroprudential requirements, with a view to identifying 
+unwarranted overlaps and/or unaddressed risks, is lacking. Moreover, if the number 
+of buffers is reduced as proposed under recommendation #1, clear common 
+principles and criteria for setting different buffers would be essential to avoid 
+fragmentation.  
+Recommendation #8 proposes making the ECB Governing Council 
+responsible for taking a holistic view of the overall level of capital demand 
+within and across the banking union, while fully adhering to the principle of 
+separation. While macroprudential policy decisions should remain at national level, 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the regulatory framework 
+ 
+11 
+with possible top-up measures by the ECB, and the ECB’s supervisory powers 
+should remain unchanged, there is a need for increased coordination and a process 
+whereby the overall level of capital demand and cross-country heterogeneities can 
+be discussed from a qualitative angle. This could be done by augmenting the role of 
+the Macroprudential Forum, which already brings together the Governing Council 
+and the Supervisory Board to discuss matters of joint relevance. Leveraging on the 
+Macroprudential Forum would also avoid the multiplication of bureaucratic layers, 
+while keeping the separation principle intact. After hearing the views of the SRB and 
+the ESRB, the Macroprudential Forum would perform a qualitative assessment of the 
+adequacy and appropriateness of the overall level of capital requirements and 
+buffers imposed on the SSM banking sector, abstracting from individual bank-level 
+decisions. The assessment should rely on common methodologies and guidelines, 
+including stress testing, to assess the level of heterogeneity in capital decisions and 
+to foster greater coordination and consistency in setting micro- and macroprudential 
+instruments across jurisdictions. Better coordination and more consistency would 
+themselves constitute a considerable simplification. 
+In a similar vein to recommendation #1, this recommendation would increase 
+transparency and facilitate capital planning for banks and investors, although it would 
+also increase the number of interactions across authorities. Open issues regarding 
+this recommendation include whether – and how – to address interactions with 
+countries that do not participate in the SSM, as well as what mechanism the 
+Governing Council’s findings would be implemented through. 
+Finalise the savings and investment union – including 
+completion of the banking union – to foster cross-border 
+integration and allow for more efficient capital markets 
+Relative to other large markets, EU banks face a competitive disadvantage 
+owing to the lack of scale that results from an incomplete Single Market. 
+Banking union has not been finalised, as a European deposit insurance scheme 
+(EDIS) is lacking, and insolvency law is fragmented, which complicates cross-border 
+banking. As the European single market for banks has not been finalised, banks face 
+obstacles with regard to market integration and cross-border consolidation, and the 
+share of European banks that are active on a European scale remains low. In 
+particular, the incomplete single market for banks hampers EU competitiveness in a 
+digitalised world, as it results in unexploited potential in terms of economies of scale 
+and cross-border business. Furthermore, the EU lacks deep capital markets, 
+hindering the ability of EU companies to finance innovation. 
+Recommendation #9 encourages the finalisation of the savings and 
+investment union, including completion of banking union, to reduce national 
+fragmentation and allow for more efficient capital markets. This includes taking 
+concrete steps towards the finalisation of EDIS, with a clear timetable for 
+implementation, and fostering deeper capital markets by progressing on the savings 
+and investment union. To lay the foundations for increasing cross-border banking, 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the regulatory framework 
+ 
+12 
+the completion of banking union should facilitate other measures that support 
+integrated and efficient risk management at consolidated level. This will enable 
+capital and liquidity to flow within banking groups in the banking union. 
+This recommendation aims at breaking down national fragmentation by progressing 
+on these EU priorities with a view to making conducting business within the EU 
+simpler. This would allow firms to concentrate on welfare-improving business and 
+ensure more efficiency, benefiting banks, investors and the European economy.  
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the supervisory framework 
+ 
+13 
+2 Proposals to simplify the supervisory 
+framework 
+This section makes recommendations for legislative changes that would further 
+increase the efficiency, effectiveness and risk-based focus of European supervision.  
+Strengthen and complete the EU Single Rulebook to 
+simplify supervision and help deepen the internal market 
+in banking 
+Divergent national laws, regulations and administrative codes add to the 
+complexity of European supervisory processes. When carrying out its tasks and 
+exercising its powers, the ECB applies relevant Union law, which consists of directly 
+applicable regulations, for example the Capital Requirements Regulation (CRR), but 
+also national laws that transpose directives, for example, national law provisions 
+transposing the Capital Requirements Directive (CRD). This includes the exercise of 
+specific supervisory powers, granted under national law to national competent and 
+designated authorities, which fall within the scope of the ECB’s tasks and underpin a 
+supervisory function under Union law.7 
+Despite some progress, national powers are not yet fully harmonised at 
+European level. In addition, European prudential legislation contains certain options 
+and discretions that permit Member States to apply diverging national prudential 
+requirements, including for those institutions directly supervised by the ECB. In some 
+cases, these options and discretions may not be warranted or may have undesirable 
+consequences (for example, impeding integrated risk management at a consolidated 
+level in the EU). More generally, disparate national standards not only add to the 
+complexity of supervision but also raise costs for banks operating on a cross-border 
+basis. They can also impede integrated risk management at a consolidated 
+European level. 
+Recommendation #10 proposes strengthening and completing the Single 
+Rulebook to simplify and harmonise supervisory practices and help deepen 
+the internal market in banking.
+8 This should involve reducing the complexity 
+arising from diverging national powers, taking into account the recommendations 
+made by the International Monetary Fund (IMF) in the recent euro area Financial 
+Sector Assessment Program review. In particular, implementing the IMF’s 
+recommendations to further harmonise rules concerning licensing, qualifying 
+ 
+7  See the section of the ECB’s banking supervision website on national powers exercised by the ECB. 
+The ECB exercises certain supervisory powers under national law, even if not explicitly mentioned in 
+EU law, provided that they (i) fall within the scope of the ECB’s tasks under Articles 4 and 5 of the SSM 
+Regulation and (ii) underpin a supervisory function under Union law. 
+8  This recommendation is consistent with the recommendations contained in the reports by Enrico Letta 
+and Mario Draghi on strengthening the competitiveness of the EU economy. 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the supervisory framework 
+ 
+14 
+holdings, governance, fit and proper assessments of bank managers and 
+transactions with related parties could alleviate some of the complexity of the 
+applicable law for supervising euro area banks.9 It should also involve a structured 
+review of options and discretions assigned to Member States in the CRR, CRD, 
+BRRD and associated level 2 or 3 legislation, with a view to enabling further 
+legislative harmonisation while also respecting the need to cater for national 
+specificities. In addition, the review could also consider whether certain provisions 
+currently set in directives, such as those pertaining to the provision of financial 
+services by third-country providers or related to qualified holding procedures, could 
+be established in directly applicable regulation. Strengthening and completing the 
+Single Rulebook should be achieved at all levels, including level 2 and 3 legislation. 
+Building on recommendation #9, which calls for the completion of banking union and 
+significant progress on the savings and investment union, further regulatory steps 
+towards harmonisation would significantly simplify the supervisory framework and 
+support effective risk management of cross-border groups. 
+Increase the risk focus of supervision by changing the 
+level of prescriptiveness of regulation governing 
+supervisory processes 
+While the current regulatory framework in the EU provides a sound basis for 
+prudential supervision, in some instances regulation is very prescriptive 
+regarding supervisory processes and the frequencies with which certain 
+activities must be performed. While this approach provides a high level of legal 
+certainty for all stakeholders, fixed frequencies and prescriptive requirements can 
+result in supervisory processes not always being well aligned with underlying risks. 
+Recommendation #11 proposes reconsidering the level of prescriptiveness of 
+legislation governing supervisory processes to identify areas where more risk-
+based approaches can be implemented. Such reconsideration should not create 
+gaps in terms of risk management and coverage, nor reduce the resilience of 
+individual banks or the banking system. Examples include reviewing mandatory 
+activities and frequencies related to internal models, including the compulsory review 
+of internal models every three years pursuant to Article 101(1) of the CRD. Similar 
+provisions can be found in the relation to the supervision of market risk (Article 325c 
+of the CRR). Greater flexibility to determine minimum frequencies for stress testing, 
+in line with banks’ risk profiles or other relevant considerations, could also support a 
+more efficient allocation of bank (and supervisory) resources. The obligation to 
+undergo binding supervisory approval processes in specific areas could also be 
+reviewed. This could include removing requirements for banks to obtain certain prior 
+ 
+9  See IMF (2025), Euro Area: Detailed Assessment of Observance-Basel Core Principles for Effective 
+Banking Supervision, June. See in particular p. 76 for recommendations on licensing, p. 83 for 
+recommendations on qualified holding procedures, p.162 for recommendations in the area of 
+governance and p.212 for transactions with related parties.  
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the supervisory framework 
+ 
+15 
+supervisory permission for changes to their own funds.10 Furthermore, the 
+requirement established under Article 11 of the European Market Infrastructure 
+Regulation for CAs to provide entity-specific approval for the use of industry-wide 
+initial margin models for over-the-counter derivatives transactions, after these 
+models have already been validated by the EBA, could be replaced by a simpler 
+non-objection requirement.
+11 Regardless of any changes affecting the frequency of 
+supervisory processes or requirements for supervisory approval, the ECB reiterates 
+that banks will remain responsible and accountable for ensuring their own resilience 
+and effective governance and risk management. 
+The work of the EBA in reviewing existing and upcoming level 2 and 3 
+instruments is closely related to this recommendation and is fully endorsed. 
+More specifically, this includes reviewing the Regulatory Technical Standard on 
+Assessment Methodology to allow CAs more flexibility in selecting appropriate 
+methods when reviewing internal models. In addition, the review of the Regulatory 
+Technical Standard on model changes, which governs what material changes 
+require prior permission from CAs, could also allow for more risk-based supervision 
+of internal models. 
+This recommendation aims to increase the risk-focus of supervision, thereby 
+reducing administrative costs for banks on lower-risk issues. 
+ 
+10  For example, the requirements for prior permission for inclusion of interim profits in CET1 and the 
+replacement of capital instruments with capital of equivalent or better quality, which have net zero or 
+positive impact on the capital position, could be reviewed subject to maintaining compliance with Basel 
+standards.  
+11  Further areas for potential review include requirements for mandatory notifications to the ESAs and 
+requirements for CAs to evaluate the equivalence of third-country requirements in certain areas (where 
+centralised determination by the Commission could be more straightforward).  
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the reporting framework 
+ 
+16 
+3 Proposals to simplify the reporting 
+framework 
+This section describes complexities in the existing reporting framework and provides 
+high-level recommendations to address them.  
+Request once: step up coordination and data sharing 
+among key stakeholders to avoid redundancy in data 
+requests  
+Effective coordination among key stakeholders, including the ESAs, SRB, 
+NCAs, NCBs and the ECB (both in its supervisory and central banking 
+function) is key to streamlining data requests and reducing reporting costs for 
+financial institutions. Improved data sharing between authorities could help 
+minimise overlapping data requests, addressing a long-standing concern raised by 
+the banking industry – one that the ECB and the EBA have addressed by 
+establishing the Joint Bank Reporting Committee (JBRC). The ECB has also 
+implemented the “horizontal reporting requests process” to ensure that data 
+collection requests are necessary, proportionate and well drafted. This process 
+minimises reporting costs for banks while making sure data quality remains high. 
+Moving forward, the ECB will strengthen internal coordination and collaboration with 
+NCAs. Additionally, the ECB will improve its change management process, with a 
+particular focus on early planning and consultation with other authorities and the 
+industry through the JBRC. These efforts will avoid duplication, ensure effective 
+coordination and create a more efficient and harmonised reporting framework.  
+Recommendation #12 proposes encouraging European authorities to foster 
+mutual data sharing, for example by operationalising the Better Data Sharing 
+Regulation. Additionally, it advocates promoting, through an EBA-led change 
+management process, a regular coordination of EU-level data 
+collections12 (including, as appropriate, via the JBRC under common rules of 
+procedure). The recommendation suggests that the European Commission propose 
+targeted level 1 amendments13 fostering the sharing of supervisory data among 
+CAs, leading to a reduction in the need to make overlapping data requests to the 
+financial industry, including the banking sector. The overarching coordination 
+mechanism for data collection across the ECB, ESAs, SRB, NCAs and NCBs should 
+promote early-stage alignment and harmonised data definitions (including, where 
+appropriate, via the JBRC) while also strengthening the mechanisms for sharing data 
+among authorities, including the ESRB.  
+ 
+12  Including SSM-level data collections. 
+13  Such as Regulations (EU) No 1092/2010, (EU) No 1093/2010, (EU) No 1094/2010, (EU) No 1095/2010 
+and (EU) 2021/523 as regards certain reporting requirements in the fields of financial services and 
+investment support. 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the reporting framework 
+ 
+17 
+National data collections affecting LSIs would remain under the national remit and be 
+managed by NCAs. These collections would follow a sound local process, 
+implemented in accordance with harmonised high‑level principles, in line with those 
+applied by ECB Banking Supervision. 
+The objective would be to ensure that data collections are of material value for the 
+supervisory mandate and are based on a need-to-have (rather than a nice-to-have) 
+principle. They should be proportionate for banks, avoiding excessive burden and 
+undue compliance costs, and should be designed with a long-term, transparent 
+strategy to minimise frequent adjustments and implementation costs. The relevance 
+of ad hoc requests should also be assessed based on the same principles. These 
+efforts are essential to avoiding redundancy, increasing efficiency and ensuring the 
+consistent use of reported information, all without compromising the flexibility needed 
+to address urgent, crisis-driven data needs or specific data needs that may arise for 
+CAs at a European and national level where data are not available within the 
+harmonised reporting framework.  
+Report once: establish an integrated reporting system 
+applicable across domains to eliminate redundancy and 
+facilitate the multi-purpose use of data 
+The initiatives recently launched in the bank reporting domain constitute a 
+paradigm shift in the way quantitative data will be collected from financial 
+agents.
+14 An integrated reporting system, whereby the same single dataset is 
+utilised for both statistical and prudential purposes, could be considered a first use 
+case at European level. 
+Recommendation #13 proposes formulating a long-term vision within the 
+JBRC, which would include monitoring the progress of initiatives to establish 
+a fully integrated reporting system at European level for statistical, prudential 
+and resolution purposes. This recommendation suggests that the European 
+Commission support the JBRC in its role as facilitator of the integration process by 
+making sufficient resources available. The JBRC should help develop a consensual 
+way forward to a fully integrated reporting system, leveraging on ongoing 
+initiatives15. It should also be tasked with monitoring the progress accomplished.  
+This recommendation would effectively increase standardisation in bank reporting 
+and guarantee a redundancy-free collection of data from the onset. Given its greater 
+similarities with banks’ internal information systems, such a granular reporting 
+ 
+14  See the ECB's website for an overview of the tasks conferred on the Joint Bank Reporting Committee 
+(JBRC), which include pursuing semantic integration across domains and developing integrated 
+reporting requirements. 
+15  A future integrated European reporting framework would be based on a different legal basis for the 
+prudential and resolution domain on the one hand, and the statistical domain on the other. Both would 
+be anchored in the Treaty on European Union. Integrated reporting would then be legislated by the 
+authorities in their area of responsibility, referring to a common data model and dictionary that could be 
+managed by the JBRC. 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the reporting framework 
+ 
+18 
+framework could contain compliance costs and bolster acceptance among reporting 
+agents.  
+Resubmit less: reduce the number of data resubmissions 
+required from banks to lower their administrative costs  
+Resubmissions represent a significant challenge for banks today, particularly 
+the requirement to resubmit reports for even minor amounts. Current legal 
+frameworks lack clear provisions for immaterial deviations or acceptable tolerances, 
+leading to an unnecessary administrative burden. Introducing exemptions for 
+immaterial revisions is key to reducing reporting costs and allowing banks to direct 
+their resources more effectively towards core reporting tasks. This would increase 
+operational efficiency and provide greater flexibility in how banks fulfil their reporting 
+obligations. In parallel, the ECB has long considered risk data aggregation and 
+reporting to be a supervisory priority, focusing on improving banks’ ability to 
+effectively manage and report their risks and on remediating shortcomings in their 
+internal information. 
+In collaboration with the EBA and NCAs, the ECB is developing a proposal to 
+introduce materiality thresholds for supervisory reporting. Under this 
+recommendation, banks will not be required to resubmit reports when the difference 
+between the initially reported data and the revised values fall below predefined 
+materiality thresholds. These thresholds are expected to increase reporting efficiency 
+for banks, avoid unnecessary monitoring costs – especially for smaller institutions – 
+and maintain the expected data quality standards. In addition, the increased 
+coverage and use of the voluntary Banking Integrated Reporting Dictionary (BIRD) 
+has the potential to improve the quality of the data reported, thereby reducing errors 
+and, consequently, resubmissions. 
+Recommendation #14 proposes defining a supervisory tolerance margin for 
+minor errors to be disregarded. This recommendation suggests that, through level 
+1 regulation, the European Commission and the legislators give the EBA the 
+mandate to define materiality thresholds or supervisory tolerance margins for minor 
+reporting errors, taking into account the industry’s experience. This would exempt 
+immaterial corrections from resubmission requirements, allowing financial institutions 
+to allocate their resources more effectively to core reporting tasks. This definition and 
+its implementation could leverage on existing initiatives, such as the materiality 
+framework for supervisory data currently being discussed at the ECB, and should be 
+developed by both the ECB and the EBA. The process should adhere to the 
+principles of relevance, simplicity and proportionality. In addition, the effort required 
+to determine whether the thresholds have been met should not outweigh the benefit 
+they are intended to deliver.  
+This recommendation is intended to support the development of a more efficient and 
+proportionate reporting system by reducing compliance costs and contributing to a 
+more effective allocation of supervisory resources, ultimately strengthening efficiency 
+in the European banking sector.  
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the reporting framework 
+ 
+19 
+More transparency: regular and structured publication of 
+reporting initiatives to increase transparency and reduce 
+redundant data requests  
+Publishing a list of data collections would provide full transparency on 
+existing reporting requirements to all stakeholders, including the banking 
+industry. Transparency is key in reducing overall administrative costs and 
+enhancing operational efficiency. It fosters closer cooperation among authorities – 
+such as the ECB, ESAs, SRB, NCAs and NCBs – as stipulated in the Better Data 
+Sharing Regulation. It also strengthens accountability and discipline among data 
+collection requesters by introducing stronger governance and the potential for public 
+scrutiny. 
+In cooperation with the NCAs, the ECB has developed an SSM repository of 
+data collections (referred to as the “SSM-wide data collection database”). This 
+database is currently mainly focused on supervisory data requested from significant 
+institutions. It facilitates the monitoring of data collections by (i) avoiding duplicative 
+reporting and (ii) supporting work to integrate reporting frameworks. In the future, in 
+alignment with the Better Data Sharing Regulation, the repository can be extended to 
+include countries outside European banking supervision, additional (non-banking) 
+data collections and other authorities. The publication of any list of data collections 
+would require the development of definitions and principles that are fully harmonised 
+and consistent across Member States. 
+Recommendation #15 proposes publishing an inventory of non-market 
+sensitive reporting requirements imposed on banks. Without introducing 
+additional complexity to data collection processes themselves, the European 
+Commission should, either directly or by mandating the relevant authorities through 
+level 1 regulation, ensure the publication of an inventory of all reporting requirements 
+imposed on banks, including ad hoc requests outside of the established reporting 
+frameworks. Such an inventory should only include data collections which are not 
+market sensitive. The ECB’s publication of the SSM-wide data collection database 
+can be considered as one additional step towards the establishment of the 
+Integrated Reporting System (a “single contact point” for entities to indicate 
+instances of duplicative, redundant or obsolete reporting or disclosure requirements) 
+as stipulated in the Better Data Sharing Regulation. European authorities could 
+leverage on existing tools, such as the ECB’s SSM-wide database, as a first step 
+towards a more integrated solution. This solution could be expanded to include (i) 
+countries not participating in the SSM and (ii) resolution data collections and 
+authorities (such as the SRB) and non-banking supervisory data collections and 
+authorities (such as the European Insurance and Occupational Pensions Authority, 
+the European Securities and Markets Authority and the Authority for Anti-Money 
+Laundering and Countering the Financing of Terrorism). 
+By avoiding duplicative reporting and supporting work on integrated reporting 
+frameworks, this recommendation aims to reduce the reporting burden on banks.  
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the reporting framework 
+ 
+20 
+Review regularly: a coordinated, periodic review of 
+reporting requirements to ensure they remain relevant 
+and adequate  
+The continuous increase in reporting requirements is partly driven by the fact 
+that existing data collections at both national and European level are rarely 
+terminated. While authorities often have arrangements in place that clarify the 
+process for initiating data requests (see also recommendation #12), obligations and 
+procedures to periodically and independently validate the necessity of existing 
+reporting requirements are often underdeveloped or missing from the change 
+management process. Furthermore, existing frameworks lack the objective criteria 
+necessary to support such “need to keep” assessments. Over time, the accumulation 
+of requirements not only increases institutions’ compliance costs but also creates a 
+perception of reluctance on the part of the authorities to streamline or retire irrelevant 
+or outdated data collections, potentially leading to reputational risks for the issuing 
+authorities. 
+Recommendation #16 proposes establishing explicit obligations to conduct 
+periodic assessments to validate the relevance and up-to-dateness of 
+reporting requirements, based on objective criteria. Through amendments to 
+existing legal acts, the European Commission and co-legislators should require 
+supervisory authorities issuing permanent reporting requirements to adapt their 
+existing processes to include regular “need to keep” reviews. For example, the 
+Implementing Technical Standard on supervisory reporting, which is amended 
+following a predefined release calendar, could incorporate such periodic reviews. To 
+maintain the necessary level of stability in reporting requirements, such assessments 
+could be conducted every three to five years. A coordinated approach towards the 
+decommissioning of outdated requirements could be achieved via the JBRC, 
+ensuring broad representation and alignment among the European authorities 
+responsible for issuing reporting requirements.  
+The aim of this recommendation is to reduce the reporting burden on banks by 
+terminating redundant or no longer relevant reporting requirements. 
+Reform public disclosure: increase consistency between 
+European reporting and disclosure requirements and 
+extend the Pillar 3 Data Hub to bring bank disclosure into 
+the digital age  
+The content of data reported to the authorities and disclosed to the public is 
+often identical. However, the current EU prudential reporting and disclosure 
+frameworks co-exist in isolation in terms of data transmission processes. Currently, 
+in addition to transmitting supervisory reporting data, each bank is required to 
+publish its own Pillar 3 disclosure report. Supervisory authorities then reconcile these 
+reports with the supervisory reporting data, a process that also requires manual data 
+
+ 
+Simplification of the European prudential regulatory, supervisory and reporting framework – 
+Proposals to simplify the reporting framework 
+ 
+21 
+handling. This parallel transmission system results in double reporting, thereby 
+violating the “report once” principle. The forthcoming Pillar 3 Data Hub (P3DH) will 
+simplify such transmission mechanisms by centrally storing and disseminating 
+banks’ Pillar 3 data. For SNCIs, the EBA will directly derive disclosure data from 
+banks’ supervisory reporting submissions. However, for non-SNCIs, the parallel 
+transmission process for supervisory and disclosure data will remain in place, 
+retaining the risk of inconsistencies and falling short of harnessing the full potential 
+offered by digitalisation. 
+Recommendation #17 proposes fundamentally reforming the EU public 
+disclosure process by terminating the parallel transmission of supervisory and 
+disclosure data. Through amendments to existing level 1 regulation, the European 
+Commission and co-legislators can bring forward the legislative proposal provided 
+for by Article 434c of CRR3 by extending the EBA’s mandate to derive P3 data from 
+supervisory reporting for all banks and increase the coherence of supervisory 
+reporting and disclosure frameworks more broadly. The principle that public 
+disclosure data should strictly form a subset of supervisory reporting data should be 
+enshrined in level 1 regulation. In the same vein, the usefulness of certain very 
+detailed level 1 disclosure (and thus reporting) requirements (for example, in the 
+area of internal model credit risk exposures) for smaller banks should be revaluated 
+and eventually cut, while retaining compliance with the Basel principles (see also 
+recommendation #5). This recommendation is in line with international best 
+practices, such as the United States’ entity-level regulatory disclosure framework. 
+This recommendation aims at lowering the reporting burden on banks by reducing 
+double reporting. 
+ 
+
+ 
+ 
+ 
+© European Central Bank, 2025 
+Postal address 60640 Frankfurt am Main, Germany 
+Telephone +49 69 1344 0 
+Website www.ecb.europa.eu 
+All rights reserved. Reproduction for educational and non-commercial purposes is permitted provided that the source is acknowledged. 
+For specific terminology please refer to the ECB glossary (available in English only). 
+PDF ISBN 978-92-899-7545-2, doi:10.2866/9820056, QB-01-25-288-EN-N 
+HTML ISBN 978-92-899-7544-5, doi:10.2866/6955049, QB-01-25-288-EN-Q 
