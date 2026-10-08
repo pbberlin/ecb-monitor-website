@@ -1,0 +1,3075 @@
+ 
+Occasional Paper Series 
+A new database for financial crises in 
+European countries 
+ECB/ESRB EU crises database 
+Developed by FSC MPAG and ESRB AWG 
+Updated December 2021 
+ 
+Marco Lo Duca, Anne Koban, Marisa Basten,  
+Elias Bengtsson, Benjamin Klaus,  
+Piotr Kusmierczyk, Jan Hannes Lang,  
+Carsten Detken (editor),  
+Tuomas Peltonen (editor) 
+Disclaimer: This paper should not be reported as representing the views of the European Central Bank 
+(ECB). The views expressed are those of the authors and do not necessarily reflect those of the ECB. 
+No 194 / July 2017 
+
+
+Occasional Paper Series No 194 / July 2017 1 
+Contents 
+Abstract 2 
+Executive Summary 3 
+1 Introduction 5 
+2 Key choices in the construction of the dataset 8 
+2.1 Two-step approach for identifying crises 8 
+2.2 Additional information provided in the crises dataset 11 
+3 Stylised facts about the dataset 15 
+3.1 Number of events and type of risk that materialised 15 
+3.2 Comparison with the other datasets in the literature 17 
+3.3 Detailed features of systemic crises: evolution over time, length, 
+origin, output losses and fiscal costs 20 
+3.4 Crisis management policies 28 
+Box 1 The global financial crisis and the sovereign and banking crises 
+in Europe 30 
+4 Assessing the properties of standard early warning indicators 
+based on the new crisis dataset 33
+ 
+Box 2 A primer on evaluation criteria for early warning models for 
+systemic financial crises 34 
+5 Conclusions 43 
+References 44 
+Annex A Fields of the crises database 47 
+Annex B Comparison of loss distribution and computational details 50 
+Annex C Overview crises database and comparison with Laeven and 
+Valencia (2008 and 2013) per country 53 
+Abbreviations 58 
+Acknowledgements 59 
+ 
+
+Occasional Paper Series No 194 / July 2017 2 
+Abstract 
+This paper presents a new database for financial crises in European countries, which 
+serves as an important step towards establishing a common ground for 
+macroprudential oversight and policymaking in the EU. The database focuses on 
+providing precise chronological definitions of crisis periods to support the calibration 
+of models in macroprudential analysis. An important contribution of this work is the 
+identification of financial crises by combining a quantitative approach based on a 
+financial stress index with expert judgement from national and European authorities. 
+Key innovations of this database are (i) the inclusion of qualitative information about 
+events and policy responses, (ii) the introduction of a broad set of non-exclusive 
+categories to classify events, and (iii) a distinction between event and post-event 
+adjustment periods. The paper explains the two-step approach for identifying crises 
+and other key choices in the construction of the dataset. Moreover, stylised facts 
+about the systemic crises in the dataset are presented together with estimations of 
+output losses and fiscal costs associated with these crises. A preliminary 
+assessment of the performance of standard early warning indicators based on the 
+new crises dataset confirms findings in the literature that multivariate models can 
+improve compared to univariate signalling models. 
+Keywords: financial crises, macroprudential, crises database, early warning models, 
+central bank statistics. 
+JEL codes: G01, E44, E58, E60, H12. 
+
+Occasional Paper Series No 194 / July 2017 3 
+Executive Summary 
+This occasional paper presents a new financial crises database1 for European 
+countries. The database focuses on providing precise chronological definitions of 
+crisis events to support the calibration of models in macroprudential analysis and 
+policy. The dataset will be an important tool for the ECB, the ESRB, and national 
+authorities (NAs) and will inform financial stability analyses and discussions in policy 
+committees. Its creation presents an important step towards establishing a common 
+ground for macroprudential oversight and policymaking in the EU. 
+The database was developed under the umbrella of the Financial Stability 
+Committee (FSC) of the Eurosystem and of the Advisory Technical Committee (ATC) 
+of the European Systemic Risk Board (ESRB), which will be the main users of the 
+dataset.
+2 The dataset was created following common principles and rules. A key 
+strength of the new crises database is that it benefited from the financial stability 
+expertise of the national and European authorities represented in the 
+aforementioned committees. 
+This dataset brings a number of innovations and amendments relative to the existing 
+crises datasets in a number of ways. First, this dataset provides a unique and 
+detailed overview of crises episodes specific to European countries, which are 
+validated by financial stability experts from a wide range of policy institutions. 
+Second, from a technical point of view, it identifies crises by combining a quantitative 
+approach based on a financial stress index with expert judgement from national and 
+European authorities. This approach ensures a more precise definition of crisis 
+periods and also enables the separation between crisis and post-crisis adjustment 
+periods, which facilitates the estimation and calibration of models. Third, the 
+database also introduces a broad set of non-exclusive categories to classify events 
+on the basis of the risks that materialised and the underlying causes of events (e.g. 
+external vs domestic imbalances). This information is key in selecting the relevant 
+set of events for the calibration or estimation of models designed to study specific 
+aspects of crises. Finally, the dataset also provides qualitative information about the 
+events and policy responses, which allows users of the dataset to better understand 
+the nature of the events in the database. 
+The crises dataset covers all EU Member States and Norway for the period 1970-
+2016 and consists of a core set of 50 systemic crises, which fulfil a number of 
+conditions including (i) the financial system acting as a shock originator or amplifier 
+and/or (ii) systemic financial intermediaries experiencing distress or going bankrupt 
+and/or (iii) substantial crisis management policy interventions. 
+The dataset covers crises from 1970 until 2016, and offers a relatively rich set of 
+information with a particular focus on the delimitation of events and event 
+ 
+1  See the database. 
+2  The central bank of Norway also contributed to the project.  
+
+Occasional Paper Series No 194 / July 2017 4 
+descriptions, compared to existing crises datasets, e.g. Detken et al. (2014), 
+Babecký et al. (2012) and Laeven and Valencia (2013). 
+The majority of the identified systemic crises are complex events which entail the 
+materialisation of different risks. These include instability in the banking sector, 
+sudden adjustments of external positions (i.e. currency or balance of payment 
+adjustments), sovereign risk and significant asset price corrections (including in real 
+estate markets). The majority of the identified systemic crises are related to 
+combinations of pre-existing domestic and external imbalances, while a smaller 
+number of crises are of a purely domestic nature. The analysis of costs of the 
+identified systemic crises shows high output losses regardless of the type of risks 
+that materialised. 
+A preliminary assessment of the performance of standard early warning indicators 
+based on the new crises dataset confirms the finding in the early warning model 
+literature that multivariate models can improve compared to univariate signalling 
+models. Interestingly, gap variables (e.g. credit gaps) are found to have slightly less 
+information content for signalling systemic events than more simple transformations 
+such as changes in ratios relative to GDP or growth rates. 
+For transparency purposes, the dataset also reports, separately, a set of 43 residual 
+episodes of financial (market) stress, which were examined but not included in the 
+final set of systemic crises. 
+Going forward, the dataset will allow researchers to analyse crises along several 
+dimensions and draw relevant implications for macroprudential analysis and policy. 
+The crises database will be updated on a regular basis. 
+
+Occasional Paper Series No 194 / July 2017 5 
+1 Introduction 
+This occasional paper presents a new financial crises database for European 
+countries. It is an important step towards establishing common ground for 
+macroprudential oversight and policymaking in the EU. The database focuses on the 
+delimitation of crisis events to support the calibration of models in macroprudential 
+analysis and policy. In delimiting crisis events, a quantitative crises identification 
+approach has been cross-checked with expert judgement from national and 
+European authorities, which is an innovative contribution to the literature on crises 
+identification. In addition to this, the key innovations are (i) a distinction between 
+event and post- event adjustment periods (ii) the introduction of a broad set of non-
+exclusive categories to classify events, and (iii) the inclusion of qualitative 
+information about events and policy responses. Moreover, a regular review process 
+will ensure that this dataset is updated on a regular basis. 
+The database was created under the umbrella of the Financial Stability Committee 
+(FSC) of the Eurosystem and of the Advisory Technical Committee (ATC) of the 
+European Systemic Risk Board (ESRB). The dataset covers all EU countries plus 
+Norway and was created following common principles and rules, benefiting from the 
+financial stability expertise of the national authorities (NAs) represented in the 
+committees and working groups. In particular, two technical committees, the 
+Macroprudential Analysis Group (MPAG) of the Eurosystem and the Analysis 
+Working Group (AWG) of the ESRB, created the dataset, ensuring quality and 
+consistency, and will update the crises database regularly. The database supports 
+these groups in fulfilling their mandates in several areas. 
+First, the dataset is a key instrument for the identification of leading crisis indicators, 
+the estimation of early warning models and related signalling thresholds (Alessi and 
+Detken, 2011; Berg and Pattillo, 2000; Berg et al. 2004; Bussière and Fratzscher, 
+2006 and 2008; Detken et al., 2014; Edison, 2003; Frankel and Rose, 1996; 
+Kaminsky and Reinhart, 1999; Lo Duca and Peltonen, 2013). The credibility of 
+analytical approaches to predict crises strongly relies on the ex-ante identification 
+and definition of past crises events. A precise event chronology leads to more 
+accurate analysis and better models that support decision-making.
+3 Conversely, an 
+imprecise classification of past events can result in model misspecifications that 
+could contribute to suboptimal policy decisions. 
+Second, in view of the dialogue among the institutions with macroprudential 
+responsibilities in Europe, including NAs, the ECB and the ESRB, it is important to 
+establish joint analytical frameworks and common databases. A common and agreed 
+crisis chronology naturally complements the efforts by the ECB to establish a 
+macroprudential database
+4 of indicators for identifying and assessing risks, 
+ 
+3  Tölö et al. (forthcoming) show that the early warning properties of models and indicators are sensitive 
+to the crisis definition periods. 
+4  The Macroprudential Database (MPDB) is available in the ECB Statistical Data Warehouse. 
+
+Occasional Paper Series No 194 / July 2017 6 
+predicting crises and evaluating policies. The common crises database, together with 
+the common macroprudential database, will allow researchers and policymakers 
+across the European Union to work on a common framework of reference when 
+identifying best crisis predictors and early warning thresholds. The existence of an 
+agreed and credible crises chronology will enhance the credibility and transparency 
+of the analytical work that relies on it, facilitating the dialogue between policymakers. 
+Finally, this dataset brings a number of innovation and amendments relative to the 
+existing crises datasets. First, the new dataset focuses on the delimitation of events, 
+including identifying start and end dates for events. The proposed approach for 
+identifying crises bridges the gap between “qualitative” (Laeven and Valencia, 2008 
+and 2013; Babecký et al., 2012; Reinhart and Rogoff, 2008 and 2009; Detken et al., 
+2014) and “quantitative” (Frankel and Rose, 1996; Lo Duca and Peltonen, 2013) 
+methods to delimit crises. It does so by combining a mechanic approach to 
+identifying relevant events with qualitative information provided by NAs on the basis 
+of common definitions and criteria to decide on whether the events detected can be 
+considered as systemic crises. As part of this process, additional information on 
+events, including details about crisis policies, was collected from NAs. This makes 
+this dataset more complete than the databases by Detken et al. (2014) and Babecký 
+et al. (2012) in terms of the richness of the qualitative information on the events. 
+Second, the dataset presents a distinction between crisis and post-crisis adjustment 
+periods. Specifically, this crises database separates the acute phase of the event, 
+between the starting date and the date when the last crisis management policy was 
+adopted, and the post-crisis adjustment period (Bussière and Fratzscher, 2008), 
+between the end of crisis management and the moment when the system is 
+considered to be back to a “normal mode”. This separation improves the analysis of 
+crises and facilitates the estimation of early warning models by addressing the “post 
+crisis bias”. Third, in constructing this crisis dataset, events identified by Laeven and 
+Valencia (2013) and Babecký et al. (2012) were also critically reviewed. In particular, 
+events that were not identified by the approach adopted in this exercise, but were 
+included in Laeven and Valencia (2013) and Babecký et al. (2012), were also 
+submitted to NAs for revision in order to assess whether they should be included in 
+the ECB/ESRB EU crises dataset. 
+The overall consistency of the dataset was checked along several dimensions. First, 
+the authors and the editors ensured that the information provided was in line with the 
+agreed common guidelines, including definitions and criteria. Second, the editorial 
+team checked that the overall picture provided by the dataset was consistent across 
+countries and over time. 
+The crises dataset covers all EU Member States and Norway for the period 1970-
+2016 and consists of the following. 
+1. A core set of 50 systemic crises. The list of systemic crises (the core part of 
+the dataset) contains (i) systemic crises which were identified by a financial 
+stress index and afterwards reviewed by NAs and (ii) other crises episodes 
+flagged by NAs and/or in the related literature. A crisis is considered systemic 
+when it satisfies a number of the criteria described in detail in the next section. 
+In particular, a systemic crisis entails (i) the financial system acting as a shock 
+
+Occasional Paper Series No 194 / July 2017 7 
+originator or amplifier and/or (ii) systemic financial intermediaries experiencing 
+distress or going bankrupt and/or (iii) substantial crisis management policy 
+interventions. 
+2. A set of 43 residual episodes of financial (market) stress,5 which were, 
+however, not associated with a systemic crisis. These episodes, which are 
+reported for transparency purposes, were either flagged by NAs or identified by 
+the financial stress index approach, but do not fulfil the criteria for a systemic 
+crisis. Some of these episodes were included in other crises datasets (Laeven 
+and Valencia, 2008 and 2013; Reinhart and Rogoff, 2008 and 2009; Babecký, 
+2012). The episodes of financial stress are kept in a separate file in the dataset 
+as they could still be useful for studying the resilience of the financial sector 
+under stress. Given the very diverse nature of these episodes of financial 
+stress, NAs have provided information on whether or not they consider 
+individual episodes relevant for macroprudential analysis. 
+For all the above episodes, the database contains information on starting and ending 
+dates, on crisis management and resolution policies, and other qualitative and 
+quantitative information in order to enable its users to better understand underlying 
+choices and to enhance transparency in the construction of event chronologies. For 
+each event, the dataset reports the type of risk that materialised (currency/balance of 
+payment capital flows, sovereign risk, bank risk, significant repricing in asset 
+markets). 
+Section 2 of this paper explains key choices in the construction of the dataset, 
+Section 3 provides stylised facts about the systemic crises in the dataset and Section 
+4 discusses the performance of standard signalling indicators and early warning 
+models when estimated using the new dataset. Finally, Section 5 concludes and 
+Annex A reports definitions of the fields in the crises dataset. 
+ 
+5  The systemic crises and the residual events are reported in separate spreadsheets of the excel file 
+containing the crisis dataset. 
+
+Occasional Paper Series No 194 / July 2017 8 
+2 Key choices in the construction of the 
+dataset 
+This section gives an overview of how the crises database was constructed and 
+explains the overall approach for identifying crises, as well as additional information 
+which was collected for the creation of the dataset. 
+2.1 Two-step approach for identifying crises 
+There is a two-step approach for identifying crises: the first step consists of a 
+quantitative analysis to identify historical episodes of elevated financial stress which 
+were also associated with economic slowdowns (for details about the financial stress 
+index, see Section 2.1.1). This step generates a preliminary list of potential events 
+for consideration.
+6 Episodes detected by Laeven and Valencia (2013) and Babecký 
+et al. (2012) are added to this list if they were not detected by the financial stress 
+index In the second step, National Authorities review the potential list of events in 
+order to identify potential type I errors, and add events, which were not detected by 
+the quantitative approach.
+7 On the basis of the common criteria and expert 
+judgement available in the respective institutions, the National Authorities introduce 
+the distinction between systemic crises and residual episodes of financial stress and 
+also specify for each residual episode, whether it is considered to be relevant from a 
+macroprudential perspective. 
+This approach bridges the gap between qualitative and quantitative methods for 
+crisis identification proposed by practitioners and academics. In the quantitative 
+approach crises are identified by mechanic rules based on financial stress indexes. 
+This approach, which was initially used to identify currency crises with an exchange 
+rate pressure index (Frankel and Rose, 1996), is based on the idea that extreme 
+financial stress can be observed when market participants’ expectations start 
+incorporating the future negative economic and financial outcomes of a crisis (Lo 
+Duca and Peltonen, 2013). The qualitative method instead relies on the qualitative 
+assessment of a number of indicators to detect financial crises. For example, in 
+Laeven and Valencia (2008), a crisis occurs when defaults are widespread, non-
+ 
+6  For Estonia, the calculation of the financial stress index was not possible due to the limited availability 
+of data. Estonian authorities were therefore asked to identify potential epi sodes of financial stress with 
+real economic consequences using expert judgement and available indicators. A number of other 
+countries also flagged other episodes of financial stress that were not identified by the financial stress 
+index, probably due to thin markets in the earlier part of the sample. 
+7  These type II errors mainly occurred in Eastern European countries prior to the fall of the Iron curtain, 
+as data availability and reliability significantly affected the robustness of the results of the quantitative 
+approach. In the case of one country (Estonia), severe data gaps made the identification of events via 
+the quantitative approach impossible. 
+
+Occasional Paper Series No 194 / July 2017 9 
+performing loans increase and the capital of the banking system is exhausted.8 By 
+combining the qualitative and quantitative methods, the new crises dataset 
+presented in this paper aims to exploit the complementarities between the two 
+approaches: the quantitative part of the approach provides a list of potential events 
+and a more objective criterion for identifying the start of an event. The qualitative part 
+of the approach helps to separate systemic crises and potential “noise” or less 
+relevant episodes. In addition, it helps to delimit the length of the crisis and the 
+subsequent adjustment phase. Our approach is similar to Babecký et al. (2012) who 
+validate a list of potential crisis events with a survey among country experts. In the 
+new crisis dataset, however, potential crisis events are detected using a different 
+method, which considers the real costs of crises. In addition, information on the 
+events, including on crisis policies, was collected from NAs. This makes this dataset 
+more complete than those produced by Babecký et al. (2012) and Detken et al. 
+(2014) in terms of the richness of the qualitative information on the events. 
+The overall consistency of the final product was checked on several levels. First, the 
+editorial team ensured that the information provided was in line with the agreed 
+common guidelines, including the definitions and criteria. Second, the editorial team 
+checked that the overall picture provided by the dataset was consistent across 
+countries and over time. 
+2.1.1 Step 1: idenfication of a set of candidate crisis events with the 
+financial stress index 
+In the first step, which is based on the paper by Duprey et al. (2015), systemic 
+financial stress events are defined as periods in which extreme financial market 
+stress is also associated with negative real economic outcomes. For this purpose, a 
+country-specific financial stress index is constructed which captures co-movements 
+in key financial market segments. A Markov switching model is applied to 
+endogenously determine low and high financial stress events. Financial stress 
+events that were associated with negative real economic outcomes are afterwards 
+detected using a simple algorithm.
+9 In particular, the events identified in this first step 
+are characterised by six consecutive months of real economic slowdown occurring 
+within one year of financial market stress. The events that were detected by Laeven 
+and Valencia (2013) and Babecký et al. (2012) are added to this list if they are not 
+detected by the financial stress index approach.
+10 This step provides a preliminary 
+list of potential events for consideration. 
+ 
+8  A working definition of crisis events similar to that of Laeven and Valencia (2008) is adopted in several 
+other studies, including Kaminsky and Reinhart (1999), Demirgüç -Kunt and Detragiache (2000), Berg 
+and Pattillo (2000), Borio and Lowe (2002, 2004), Edison (2003), Berg et al. (2004), Bussière and 
+Fratzscher (2006), Reinhart and Rogoff (2008, 2009), Schularick and Taylor (2011) and Jordá et al. 
+(2011). 
+9  Industrial production growth is used as measure of real economic activity.  
+10  This ensures that no event is overlooked. This is especially the case for events that took place in 
+periods or countries where the data coverage is limited and, therefore, the financial stress index is less 
+representative. This could be the case for earlier periods of the sample or for transition economies.  
+
+Occasional Paper Series No 194 / July 2017 10 
+2.1.2 Step 2: separation between systemic crises and other residual 
+episodes of elevated financial stress 
+In the second step, systemic crises are identified in the initial list of events of 
+financial stress. 
+Systemic crises 
+NAs identify systemic crises by following a qualitative approach and common 
+guidelines. In particular, events of financial stress are classified as systemic crises if 
+they fulfil one or more of the following three criteria. 
+• The financial system played a role in originating or amplifying shocks, thereby 
+contributing substantially to negative economic outcomes. A contraction in the 
+supply of financial intermediation or funding to the economy took place during 
+the financial stress event. These criteria are for example fulfilled when, despite 
+remaining solvent, banks significantly contract the supply of credit to the real 
+economy due to market distress and funding difficulties. Another situation 
+fulfilling the criteria is a currency or balance of payment crisis in which foreign 
+capital is withdrawn and the supply of credit to the domestic economy shrinks. 
+• The financial system was distressed: market infrastructures were dysfunctional 
+and/or there were bankruptcies among large/significant financial institutions. 
+• Policies were adopted to preserve financial stability (or bank stability). These 
+policies include: different forms of external support (e.g. IMF interventions), 
+extraordinary provision of central bank liquidity; direct interventions of the state 
+in support of the banking system (liability guarantees, recapitalisation or 
+nationalisation of banks, assisted/forced mergers among institutions; and 
+creation of bad banks and/or asset management companies). Consideration is 
+also given to monetary policy actions when they directly or indirectly incorporate 
+a financial stability angle.
+11 
+In addition to financial stress events that fulfil the criteria above, the list of systemic 
+crises also includes other crisis events flagged by NAs and/or by the related 
+literature which were not detected by the financial stress index but fulfil the above 
+criteria. In the case of Estonia, for example, where limited data availability did not 
+allow for the calculation of the financial stress index, the systemic crises included in 
+the dataset were provided by the NAs. 
+ 
+11  While financial stability is not the direct objective of monetary policy in almost all jurisdictions, financial 
+stability is a factor influencing monetary policy. This is because it has implications for the transmission 
+mechanism of monetary policy and because it might have implications for price stability.  
+
+Occasional Paper Series No 194 / July 2017 11 
+Residual events of elevated financial stress 
+In a separate sheet, the dataset also reports residual “episodes of elevated financial 
+(market) stress”. These events, which are reported for transparency purposes, were 
+either flagged by NAs or identified using the financial stress index approach, but do 
+not fulfil the criteria for systemic crises.12 Some of these episodes were however 
+included in earlier crises datasets (Reinhart and Rogoff, 2008 and 2009; Babecký et 
+al., 2012; Laeven and Valencia, 2013). The residual episodes are reported in the 
+dataset as they could be useful for studying the resilience of the financial sector 
+under stress. 
+Macroprudential relevance 
+For the subset of residual episodes of elevated financial stress, an additional dummy 
+variable was introduced to allow NAs to indicate whether or not the identified residual 
+episode is considered to be relevant for macroprudential analysis and policy.13 
+Episodes were classified as relevant for macroprudential analysis in cases where (i) 
+the financial turmoil persisted for at least some months and/or (ii) the financial turmoil 
+was perceived to have caused or amplified some negative macroeconomic 
+outcomes and/or (iii) some non-systemic financial intermediaries experienced 
+distress and/or (iv) according to NAs, macroprudential policy tools could have been 
+used for attenuating the impact of the event. This is when the episode was 
+associated with vulnerabilities that could have been addressed by macroprudential 
+policy instruments, if available. 
+The approach was chosen to strike a balance between full transparency of all events 
+with elevated financial stress and usability of the dataset for macroprudential 
+analysis and policy purposes. In particular, some episodes which were triggered by 
+political development or other factors strictly outside the financial system might be 
+less relevant for the identification of leading indicators for systemic risks. Therefore, 
+the dummy variable (and an accompanying explanation where the event is 
+considered not to be relevant for macroprudential analysis) can help users of the 
+dataset to identify the most suitable sample for their analysis. 
+2.2 Additional information provided in the crises dataset 
+For each event, the dataset provides a rich set of information, including relevant 
+dates and other features of the event. For ease of reference, in Annex A of this 
+ 
+12  In the construction of the crisis dataset, showing all the identified financial stress episodes (beyond 
+systemic crises) and indicating whether NAs consider them useful for macroprudential analysis was 
+preferred to dropping some events and keeping other ones. This approach makes the construction of 
+the dataset more transparent for the user. 
+13  While for residual episodes a critical assessment of the relevance for macroprudential policy is carried 
+out, it is normally assumed that all systemic crises are relevant for mac roprudential policy analysis. The 
+only exceptions are some crisis episodes related to the transition to market economy in some central 
+and eastern European countries. 
+
+Occasional Paper Series No 194 / July 2017 12 
+occasional paper, the fields of the dataset are reported with an explanation. For 
+systemic crises an attempt was made to fill all relevant fields of the dataset. For 
+residual episodes, which are of secondary importance in this exercise, information 
+was filled in on a best-effort basis. 
+Each event is classified in one or more of the following non-mutually exclusive 
+categories: currency/balance of payment/capital flow, sovereign, banking, significant 
+asset price correction, transition.14 Categories are simplifications which provide 
+general indications of the type of risks that materialised during the event (and also in 
+different phases of an event as it evolved). 
+Moreover, for each event, a distinction is made as to whether the episode originated 
+in the domestic economy or was imported from abroad as a result of cross-border 
+contagion (field “domestic vs imported”). This is important in order to study events 
+from different angles, including the importance of domestic imbalances in causing 
+distress episodes, the role of spillovers and the interaction between domestic 
+imbalances and external shocks. 
+One of the innovations of the dataset is that it presents a distinction between 
+different phases in the materialisation of crisis events. Specifically, it separates the 
+acute phase of the event, which occurs between the starting date and the date when 
+the last crisis management policy was adopted, and the post crisis adjustment 
+period, which occurs between the end of crisis management and the moment when 
+the system is considered to be back to a “normal mode”. This could be of particular 
+relevance for estimating early warning models and for modelling the transition 
+between crisis phases. The approach facilitates addressing the “post-crisis bias” 
+(Bussière and Fratzscher, 2008), which arises when crisis/post-crisis periods (i.e. the 
+period when economic and financial variables go through an adjustment process 
+before returning to a more sustainable level or growth path) are not accounted for in 
+modelling choices. To distinguish between the acute and the post-crisis phases, strict 
+criteria for the identification of key dates were followed in the construction of the 
+dataset. These criteria are explained in the next subsections. 
+2.2.1 Starting date of the events 
+The “start date” field marks the start of the event. The start date relates to either (i) 
+the emergence of systemic financial stress in asset markets, (ii) the first policy 
+response in relation to the crisis or (iii) the first failure of a major market player, 
+depending on which date is earlier and/or considered appropriate by NAs. This 
+choice reflects the fact that the start date of the event normally coincides with the 
+emergence of systemic financial stress in asset markets. This is normally the 
+moment when economic agents start incorporating the expectations of future bad 
+economic outcomes in relation to the occurrence of a crisis. Systemic financial stress 
+ 
+14  The dataset contains a number of episodes that are marked as “transition” events. This  concerns a 
+number of episodes in central and eastern European countries in the 1990s. Transition events relate to 
+the transformation from “centrally-planned economies” to markedbased economies which also involved 
+complex privatisation processes. 
+
+Occasional Paper Series No 194 / July 2017 13 
+is often triggered by bank distress and bank failures. Alternatively, systemic financial 
+stress can co-occur with early policy interventions aimed at preventing or containing 
+the outbreak of a crisis. In some cases, however, for various reasons, financial 
+market stress might materialise only after the first bank bankruptcies or after policy 
+interventions. This can occur, for example, when markets are not sufficiently 
+developed or liquid. For these reasons, NAs were asked to critically review the initial 
+starting date of the materialisation of systemic financial stress provided by the 
+financial stress index and to indicate whether alternative event starting dates, which 
+are linked to financial sector bankruptcies and policy interventions, would be more 
+appropriate. Alternative starting dates were accepted when sufficient reasoning was 
+provided. If different from the emergence of financial stress, the reasoning behind 
+the starting date is reported in the field “brief description of the identified event”. 
+2.2.2 End of crisis management date 
+The end of the crisis management and resolution phase is marked by the last of the 
+policy interventions aimed at containing the crisis. This can be considered as the end 
+of the acute phase of the crisis and the start of the period of post-crisis adjustment 
+(Bussière and Fratzscher, 2008). Reviewed policy interventions include: the adoption 
+of liquidity support to banks, the introduction of guarantees for bank liabilities, the 
+recapitalisation of banks or forced/assisted mergers, the creation of bad banks or 
+asset management companies, the resolution of banks, general debt relief and the 
+adoption of emergency fiscal packages and/or unconventional monetary policy 
+measures that address market disturbances in connection with the materialisation of 
+different types of risk (e.g. ECB Security Markets Programme (SMP) and Outright 
+Monetary Transactions (OMT)). The end of the crisis management and resolution 
+phase should anticipate or coincide with the date when the system is considered 
+“back to normal”, see Subsection 2.2.3). Taking the example of the European 
+sovereign and banking crises, for countries that participated in the EU/IMF economic 
+adjustment programmes, the end of crisis management coincides with the exit from 
+the adjustment programme, unless NAs suggest a valid alternative date (e.g. sale to 
+private investors of a good bank resulting from the resolution of an earlier entity). 
+Some of the reasons behind the choice for the end of crisis management date can 
+be found in the fields “brief description of the identified event” and “crisis 
+management policies”. 
+2.2.3 System "back to normal" date15 
+The system is considered to be back to a normal mode when the recovery is on a 
+firm path and the fiscal and monetary policy become broadly neutral. This is when 
+the overall policy mix in one country is no longer driven by factors related to the crisis 
+and its manifestation, including legacy issues.
+16 The return to “normal” does not 
+ 
+15  The definition of the "back to normal" date was revised in December 2021.  
+16  For some crises, the post-crisis adjustment phase might be long; for example, in cases where a debt 
+overhang needs to be resolved. 
+
+Occasional Paper Series No 194 / July 2017 14 
+normally occur before the end of the crisis management phase (see 
+Subsection 2.2.2). The “back to normal” date essentially marks the end of the period 
+of post-crisis adjustment (Bussière and Fratzscher, 2008). For the systemic crises 
+which occurred after 2007 and notably European sovereign and banking crises in 
+euro area countries, the “back to normal” date has been defined differently because 
+monetary policy continues to be accommodative, while the recovery has been 
+uneven across countries. In this case, the “back to normal” date does not exclude 
+further post-crisis adjustment and is defined using one of the two following criteria: 
+when 20% of the NPL-ratio increase following the start of the crisis has been 
+reabsorbed or, alternatively, when the output gap has been closed
+17 (some country 
+exceptions are possible and are explained in the database18). 
+ 
+17  The NPL ratio considered is the ratio of non-performing loans to total gross loans taken from the 
+International Monetary Fund’s Financial Soundness Indicators database; and the output gap (AMECO 
+database) is considered closed when it has been strictly positive for two consecutive quarters, applying 
+a rounding to the nearest hundredth.  
+18  BE, DE, LU and SI chose ”back to normal dates” which differ from the date suggested by the 
+methodology (NPL or output gap). For BE, the “back-to-normal” date was set at the “end of crisis 
+management” date instead of the dates suggested by the NPL or output gap criterion, as the latter are 
+not particularly relevant in the case of BE. As NPL levels in BE are low and their increase following the 
+crisis has been relatively limited, the date suggested by the NPL criterion is considered too late, 
+whereas the date suggested by the output gap criterion falls before the “end of crisis management” 
+date and is considered too early. For DE, the “back to normal” date was chosen to correspond with the 
+end of crisis management measures, as the output gap would have indicated a return to normal while 
+crisis measures were still ongoing. The NPL criterion was not applied owing to limited data availability. 
+For LU, neither the NPL nor the output gap criterion proposed as one-size-fits-all criteria for the "back 
+to normal" date are reliable indicators. In LU NPL levels are historically low, and the output gap results 
+in a “back to normal” date that is considered too late. Based on internal analyses and the absence of a 
+material impact of the sovereign debt crisis on LU, a “back to normal” date of June 2011 was mutually 
+agreed on by the national authorities, the ECB and the ES RB. And for SI, using the NPL criterion for 
+the "back to normal" date gives December 2013, which is only one month after SI banks reached their 
+NPE peak in November 2013. In December 2013 a large portion of NPE s was transferred to a bad 
+bank. This date is also a full year before the “end of crisis management” date, which implies that the 
+latter is more appropriate. 
+
+Occasional Paper Series No 194 / July 2017 15 
+3 Stylised facts about the dataset 
+The following section presents an overview of all events in the dataset and stylised 
+facts about the systemic crises in the dataset. It shows how the number of ongoing 
+systemic crises has changed over time, how the dataset differs in comparison with 
+other crises datasets in the literature, and it how certain features of the crises, such 
+as length, origin, and cost, have evolved over time and in relation to the crisis type. 
+Moreover, it illustrates how different types of risks materialised sequentially in the 
+context of the global financial crises. Finally, a broad overview of policy measures is 
+also provided. 
+3.1 Number of events and type of risk that materialised 
+The dataset includes 50 systemic crises and 43 residual events of elevated financial 
+stress that have occurred in EU countries and Norway since 1970. Table 1 gives an 
+overview of the frequency of systemic crises and residual events in the dataset and 
+shows the break down in terms of classifications of risk materialisation. In this 
+context, it is important to keep in mind that classifications are non-exclusive, 
+meaning a crisis can be given more than one risk materialisation classification. 
+
+Occasional Paper Series No 194 / July 2017 16 
+Table 1 
+Overview of the identified events and type of risks 
+Frequency and subcategories of identified events  
+(absolute frequency; percentages) 
+ 
+Systemic Crises Residual Events 
+Relevant for 
+macroprudential 
+analysis 
+Non-relevant for 
+macroprudential 
+analysis 
+Relevant for 
+macroprudential 
+analysis 
+Non-relevant for 
+macroprudential 
+analysis 
+Complex crisis: multiple risks 33 
+(66%) 
+- 6 
+(14%) 
+6 
+(14%) 
+including materialisation of banking risk 31 - 4 1 
+including materialisation of significant asset 
+prices correction 
+30 - 5 4 
+including materialisation of currency risk 20 - 3 5 
+including materialisation of sovereign debt risk 10 - - 2 
+Banking crisis (materialisation of banking risk) 2 
+(4%) 
+- 2 
+(5%) 
+1 
+(2%) 
+Currency crisis / BoP / capital flow 
+(materialisation of currency risk) 
+- - 2 
+(5%) 
+5 
+(12%) 
+Sovereign crisis (materialisation of sovereign 
+risk) 
+1 
+(2%) 
+- - - 
+Significant asset price correction 1 
+(2%) 
+- 7 
+(16%) 
+10 
+(23%) 
+Transition 9 
+(18%) 
+4 
+(8%) 
+- 4 
+(9%) 
+Total 50 43 
+Notes: The dataset distinguishes between a core set of systemic crises and an additional set of residual events, further divided into 
+(non-) relevant for the purpose of macroprudential analysis and policy. Complex events are defined as the simultaneous 
+materialisation of multiple risks. With respect to complex events, this table reports the total frequency of all subcategories, which 
+should not be interpreted as a sum. The materialisation of one type of risk does not exclude the materialisation of others. The share of 
+each crisis type is indicated in brackets, e.g. 66% of the 50 identified systemic crises are complex events and relevant for 
+macroprudential analysis. The totals refer to the major categories in bold, and disregard the subcategories for complex events. 
+The majority of the systemic crises, 33 events, are complex events which reflect the 
+materialisation of a combination of several different risks, for example problems in 
+the banking sector, sudden adjustments of external positions (i.e. currency or 
+balance of payment adjustments), the materialisation of sovereign risk or significant 
+asset price corrections (including in real estate markets). Generally, the most 
+frequent type of risk across events is banking risk, which materialised 31 times in 
+complex events and twice in isolation (see Table 1). The second most frequent type 
+of risk is significant asset price corrections, including real estate downturns (30 
+occurrences in complex crises and one in isolation). The materialisation of sovereign 
+risk and currency risk is less frequent (ten and 20 crises respectively in complex 
+crises and one materialisation of sovereign risk in isolation). Finally, 13 of the 
+identified systemic crises relate to the transition to a market economy in central and 
+eastern European countries and four of these crises were associated with 
+vulnerabilities that are not considered as pertaining to the sphere of macroprudential 
+analysis. Therefore, the events were not deemed relevant for this exercise. 
+The dataset includes 43 residual episodes of financial stress, 17 of which are, 
+however, flagged as potentially relevant for macroprudential policy analysis. Among 
+residual events, asset price corrections, which are not related to any other 
+materialisation of risk, play a particularly large role (see Table 1). 
+
+Occasional Paper Series No 194 / July 2017 17 
+Chart 1 
+Type of risks that materialised during “complex” crises 
+Overlapping of risk categories for systemic crises in a Venn diagram  
+(absolute frequency) 
+ 
+Note: This chart only illustrates systemic crises which are deemed relevant for macroprudential analysis and not related to the 
+transition of the economy. 
+A Venn diagram (Chart 1) illustrates more precisely how the crisis classification 
+categories coincide and overlap for systemic crises. In seven of the 50 crises, all of 
+the risk categories materialised and in nine crises all risks except sovereign risk 
+materialised. The most common combination of risks is the occurrence of banking 
+risk and significant asset price corrections (12 crises). 
+3.2 Comparison with the other datasets in the literature 
+In order to provide a broad idea of the coverage of this dataset in relation to other 
+known datasets, a comparative assessment of the systemic crises included in this 
+database and in the Laeven and Valencia (LV) database is provided below in 
+Table 2. 
+
+
+Occasional Paper Series No 194 / July 2017 18 
+Table 2 
+Comparison with the Laeven & Valencia (2008 and 2013) datasets 
+Frequency and subcategories of identified events  
+(absolute frequency; percentages) 
+ 
+Systemic Crises 
+Relevant for 
+macroprudential analysis LV 
+Banking crisis (materialisation of banking risk) 33 
+(94%) 
+29 
+Currency crisis / BoP / capital flow (materialisation of currency risk) 20 
+(100%) 
+11 
+Sovereign crisis (materialisation of sovereign risk) 11 
+(91%) 
+3 
+Significant asset price correction 31 
+(97%) 
+- 
+Transition 9 
+(33%) 
+- 
+Total 46 
+(78%) 
+43 
+Note: The share of complex events within a given subcategory is indicated in brackets, i.e. 94% of the 33 identified banking crises are 
+complex events. 
+The new crises dataset includes 46 systemic events which are relevant from a 
+macroprudential perspective while the LV crises database covers 43 events for the 
+same set of European countries over the same period (see Table 2). Some of the 
+events included in the new crises dataset cover one or more events included in the 
+LV crises dataset.
+19 As a result, there are a total of 30 event overlaps between the 
+two datasets (see Table 3a). 
+Table 2 also reports the type of crisis (banking, sovereign, currency) according to the 
+new dataset presented here and to the LV crises database. However, it should be 
+noted that a direct comparison of the frequency of different types of events between 
+the two dataset is not possible due to the use of a different approach to event 
+classification. As described in the previous section, a more flexible approach was 
+chosen for the construction of this dataset to enable events to be classified 
+according to all risk types that materialised. As a consequence, many of the events 
+that are in this dataset are complex events entailing the materialisation of different 
+types of risks. This reflects the idea that it is unlikely that different types of risks occur 
+in isolation and that it is difficult to identify the primary driver of events. In the LV 
+database, a more stringent classification was used, focusing on the most significant 
+risk. 
+There are 16 systemic crises in the new crises database which are not covered by 
+the LV crises database, while only one crisis is included in the LV crises database 
+and not reported in the new dataset. The latter is identified by Laeven and Valencia 
+(2008), and describes a systemic sovereign debt crises in the early 1990s (please 
+ 
+19  The Swedish authorities, for example, report a complex crisis from January 1991 until June 1997, while 
+Laeven and Valencia find a banking crisis from 1991 to 1995 and a currency crisis only in 1993. The 
+Romanian authorities report a severe and long sovereign debt crisis from November 1981 until 
+December 1989, whilst Laeven and Valencia identify a sovereign debt crisis starting in 1982 (no 
+indication of end date) and a banking crisis from 1990 to 1992.  
+
+Occasional Paper Series No 194 / July 2017 19 
+refer to Annex C for an illustration). Neither the financial stress index nor the 
+Bulgarian Central Bank could confirm this finding. Therefore, it does not fulfil the 
+criteria to be included in the dataset (Table 3a). 
+Table 3a 
+Overlapping and non-overlapping events in this dataset and the Laeven and 
+Valencia (2008 and 2013) datasets 
+Comparison with Laeven and Valencia 
+(absolute frequency) 
+ In LV Not in LV 
+In ECB/ESRB database 30 16 
+Not in ECB/ESRB EU database 1 - 
+Notes: This table refers to systemic crises which are deemed relevant for macroprudential analysis. The comparison is based on the 
+set of banking crises included in Laeven and Valencia (2013) and currency and debt crises included in Laeven and Valencia (2008). As 
+described in the previous section, the construction of the new dataset offers, on the one hand, a more precise definition of crises 
+periods and, on the other hand, a more flexible way of classifying crises according to the type of risks that materialised. For example, 
+Laeven and Valencia frequently find several distinct crises episodes where the new database reports one long event (please refer to 
+Annex C for an illustration). Consequently, the totals of this table are not equal to the reported frequencies in Table 1. The single event 
+not covered by the new dataset relates to a crisis in Bulgaria in 1990, which Laeven and Valencia identify. This event has not been 
+identified by neither the ECB / ESRB nor by the Bulgarian Central Bank. 
+Table 3b 
+Features of the additional events in this dataset 
+Breakdown of additional events in this dataset which are not  covered by Laeven and Valencia 
+(absolute frequency; percentages) 
+ 
+Systemic Crises 
+Relevant for 
+macroprudential analysis 
+Complex crisis: multiple risks 13 (81%) 
+including materialisation of banking risk 11 
+including materialisation of significant asset prices correction 10 
+including materialisation of currency risk 9 
+including materialisation of sovereign debt risk 3 
+Banking crisis (materialisation of banking risk) 2 (13%) 
+Currency crisis / BoP / capital flow (materialisation of currency risk) - 
+Sovereign crisis (materialisation of sovereign risk) - 
+Significant asset price correction 1 (6%) 
+Transition - 
+Total 16 
+Notes: This table refers to systemic crises which are deemed relevant for macroprudential analysis. As described in the previous 
+section, the construction of the dataset offers, on the one hand, a more precise definition of crises periods, and on the other hand, a 
+more flexible way of classifying crises according to the type of risks that materialised. For example, Laeven and Valencia frequently 
+find several distinct crises episodes where the new database reports one long event (please refer to Annex C for an illustration). 
+Annex C contains a detailed overview of individual events by country and allows for 
+a country- specific comparison of dates and types of risk that materialised according 
+to the new dataset and the Laeven and Valencia dataset. 
+In addition, the new database was compared with the crisis database presented in 
+Detken et al. (2014), based on previous work by Babecký et al. (2012). Also in this 
+case, the comparison confirms that a high percentage of the historically recognised 
+events are covered in the dataset. The new ECB/ESRB EU crises database contains 
+
+Occasional Paper Series No 194 / July 2017 20 
+3120 out of 33 events included in Detken et al. A more in-depth comparison with 
+respect to event categorisation is not feasible as the Detken et al. (2014) dataset 
+does not provide such a breakdown. 
+3.3 Detailed features of systemic crises: evolution over time, 
+length, origin, output losses and fiscal costs 
+This subsection provides a detailed description of the features of the systemic crises 
+included in the dataset. 
+Evolution of crises over time 
+Chart 2a and 2b illustrate the evolution of systemic crises over time distinguishing 
+between different risk categories (Chart 2a) and between different phases of the 
+crises (Chart 2b).
+21 Two major waves of systemic crises can be identified in the 
+charts 2a and 2b. While a number of crises occurred in the 1980s, the two big waves 
+of crises occurred in the 1990s and from 2007 onwards. The first big wave of crises 
+in the 1990s reflects the ERM crisis, the transition in central and eastern Europe and 
+the transmission of global tensions to European countries in relation to crises in 
+emerging markets, including the Russian crisis in 1998. The second big wave, with 
+an even larger number of crises, reflects the transmission of the US subprime crisis 
+and the materialisation of bank and sovereign risk in several European countries. 
+Chart 2a also shows certain changes regarding the frequency of the different risk 
+types which materialised. Currency and transitional crises played a larger role in 
+Europe in the 1980s and 1990s, while asset price corrections and sovereign crises 
+have tended to play a more prominent role in Europe after 2006. 
+Notably, the post-crisis adjustment phase (light blue areas in Chart 2b) appears to be 
+longer for the recent set of crises than for crises in the 1980s and in the 1990s. Box 
+1 in Subsection 3.4 provides a more detailed review of the most recent wave of 
+crises which started in 2007. 
+ 
+20  Out of 31 overlapping events, 30 crises are considered systemic and one residual, according to the 
+ECB/ESRB EU database classification.  
+21  The acute phase of the crisis is between the “start dat e” and the “end of crisis management date”. The 
+post-crisis adjustment period is between the “end of crisis management date” and the “system back to 
+normal date” (see Section 2). 
+
+Occasional Paper Series No 194 / July 2017 21 
+Chart 2a 
+Frequency of crises and type of materialised risk 
+Number of systemic crises over ti me by type of materialised risk  
+(y-axis: absolute frequency) 
+ 
+Notes: This chart refers to systemic crises which are deemed relevant for macroprudential analysis. 
+Chart 2b 
+Frequency of crises, acute phases and recovery periods 
+Number of systemic crises over time  
+(y-axis: absolute frequency) 
+ 
+Note: This chart refers to systemic crises which are deemed relevant for macroprudential analysis. 
+Length of systemic crises 
+Chart 3 offers more insight into the lengths associated with the systemic crises 
+identified. It reports the average and median lengths of systemic crises. 
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+1973 1976 1979 1982 1985 1988 1991 1994 1997 2000 2003 2006 2009 2012 2015
+sovereign
+banking
+currency
+asset price correction
+transition
+number of systemic crises
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+1973 1976 1979 1982 1985 1988 1991 1994 1997 2000 2003 2006 2009 2012 2015
+number of countries in acute phase of systemic crisis
+number of countries in phase of recovery
+
+Occasional Paper Series No 194 / July 2017 22 
+Chart 3 
+Length of crisis phases by type of crisis22 
+Breakdown of length of systemic crises by classification of materialised risk and origin  
+(x-axis: average (red/green) and median (blue/yellow) length in months) 
+ 
+Notes: This chart refers to systemic crises which are deemed relevant for macroprudential analysis. Complex events are not separated 
+from single events in this chart, e.g. the average is calculated over all events where the currency dummy is activated, including those 
+where another risk materialises for the same event. This results in double counting with respect to complex events. It is further 
+important to note that the classification of crisis types and the origin are not mutually exclusive, i.e. the distinctions between crisis 
+types and origins should be interpreted as complements. The length of an acute crisis phase is calculated by taking the time between 
+the start of the crisis and the end of crisis management. The length of the recovery period is defined as being from the end of crisis 
+management policies until the system is “back to normal”(please refer to Section 4 for definitions). 
+The differences between average and median lengths mostly stem from a few 
+particularly long events. The dataset shows that international crises, i.e. those which 
+are driven by both domestic and external factors, seem to be the most persistent. 
+However, a major influence on the type of risk which materialised cannot be found.23 
+Sovereign and banking crises, as well as significant asset price correction, do not 
+seem to differ in their length; only currency crises seem to be shorter on average. 
+This is not necessarily closely linked to the type of risk which materialised, but could 
+be explained by the period when most currency crises occurred. During the 1990s, 
+many countries suffered from tensions in the ERM, which were able to be relatively 
+quickly addressed by FX regime changes. 
+On average domestic crises do not last as long as crises stemming from 
+international factors. This finding is potentially partially driven by the recent financial 
+crisis, but might also shed light on spillover and contagion effects which often amplify 
+domestic misalignments. 
+ 
+22  The fact that both the mean and median of the “all systemic crisis” category are lower than for most of 
+the crisis-specific categories, can be explained by two factors. The first is the impact of transition crises, 
+with a relatively lower mean and median, which affect the aggregated result. The second stems from 
+the chosen approach of double counting events, as each crisis -specific category includes a subset of 
+long and complex events that increase the category’s average and median crisis lengths. At the same 
+time, the statistics calculated over the entire sample include al l shorter single/double-category events 
+which decrease the outcome. 
+23  Analysing the impact of different combinations of materialised risks on the length of crises could be 
+considered for potential follow-up work. 
+0 12 24 36 48 60 72 84 96
+both
+external
+domestic
+transition
+significant asset price correction (excl transition)
+banking (excl transition)
+sovereign (excl transition)
+currency / BoP / capital flow (excl transition)
+all systemic and macroprudential relevant events
+median length of crisis
+median length of management phase
+average length of crisis
+average length of management phase
+
+Occasional Paper Series No 194 / July 2017 23 
+Origination of systemic crises 
+As shown in Table 4, the majority of systemic crises in the dataset are associated 
+with developments inside and outside the country (19 crises). For another eight 
+cases, the NAs describe the crisis as imported. Table 4 also reports a breakdown by 
+type of materialised risk. However, since complex crises prevail in the dataset, 
+further analysis is needed before conclusions can be drawn about the interaction of 
+risk type and origination. 
+Table 4 
+Frequency of crisis by origin of shocks/imbalances24 
+Frequency of domestically versus externally driven events  
+(absolute frequency; percentages) 
+ domestic both external 
+Complex crisis: multiple risks 6 
+(13%) 
+19 
+(41%) 
+8 
+(17%) 
+including materialisation of banking risk 6 18 7 
+including materialisation of significant asset prices correction 5 19 6 
+including materialisation of currency risk 4 12 4 
+including materialisation of sovereign debt risk - 8 2 
+Banking crisis (materialisation of banking risk) 1 
+(2%) 
+1 
+(2%) 
+- 
+Currency crisis / BoP / capital flow (materialisation of currency risk) - - - 
+Sovereign crisis (materialisation of sovereign risk) - 1 
+(2%) 
+- 
+Significant asset price correction 1 
+(2%) 
+- - 
+Transition 2 
+(4%) 
+2 
+(4%) 
+5 
+(11%) 
+Total 10 23 13 
+Notes: This table refers to systemic crises which are deemed relevant for macroprudential analysis. It is further important to note that 
+complex events are defined as the simultaneous materialisation of multiple risks. The table therefore also reports the total frequency of 
+all subcategories, which should not be interpreted as a sum. The activation of this dummy does not exclude the activation of other 
+categories. The reader should also be aware of the fact that the three classifications of origin are mutually exclusive, i.e. a complex 
+event can only be purely domestic, purely external or both, external and domestic, but not a combination of these. 
+Chart 4 illustrates that purely domestic events were relatively more common among 
+western European countries during the 1990s, while internationally or externally 
+driven crises occurred more recently and were also common in eastern European 
+countries following the fall of the Soviet Union. These figures can be interpreted as a 
+result of increased globalisation and interconnectedness of financial markets and the 
+banking sector. 
+ 
+24  In a small number of cases sovereign tensions materialised in one country in isolation from “visible” 
+domestic imbalances (two episodes). These are complex episodes involving the materialisation of 
+several types of risks. One of them was related to the ERM crisis, another episode was  driven mainly 
+by external trade imbalances, high foreign interest rates and high government deficits.  
+
+Occasional Paper Series No 194 / July 2017 24 
+Chart 4 
+Frequency of crises over time by origin of shocks/imbalances 
+Origination of systemic crises over time  
+(y-axis: absolute frequency) 
+ 
+Notes: This chart refers to systemic crises which are deemed relevant for macroprudential analysis. It is further important to note that 
+the classifications of origin are mutually exclusive, i.e. an event cannot appear in more than one of the panels. 
+0
+2
+4
+6
+8
+10
+12
+14
+1973 1976 1979 1982 1985 1988 1991 1994 1997 2000 2003 2006 2009 2012 2015
+acute crises
+recovery phase
+a) Domestic
+0
+2
+4
+6
+8
+10
+12
+14
+1973 1976 1979 1982 1985 1988 1991 1994 1997 2000 2003 2006 2009 2012 2015
+b) External
+0
+2
+4
+6
+8
+10
+12
+14
+16
+1973 1976 1979 1982 1985 1988 1991 1994 1997 2000 2003 2006 2009 2012 2015
+c) Both
+
+Occasional Paper Series No 194 / July 2017 25 
+Output losses and fiscal costs 
+Table 5 reports different proxies to estimate the cost of systemic crises in the 
+dataset. The second column of Table 5 reports output losses as a percentage of 
+GDP,25 which, following an approach related to the one used by Laeven and Valencia 
+(2013), are calculated based on a comparison of cumulative costs in terms of GDP 
+relative to the historical trend.26 The third column of the table shows increases in 
+government debt-to-GDP ratios during the acute phase of the crises, which can be 
+considered as a very rough proxy for the fiscal costs of a crisis. A detailed description 
+of the underlying computational methods and choices is reported in Annex B.27 
+Table 5 
+Costs of systemic crises 
+Output losses and increase in government debt -to-GDP ratio 
+(output loss: calculation time horizon: start of crisis to end of acute phase; unit: percentage of GDP . Increase in debt-to GDP ratio: time 
+horizon: one year before start of crisis to end of acute phase; unit: percentage points.) 
+Crisis type 
+Output loss as percentage of GDP Increase in debt-to-GDP ratio 
+Mean Median Skewness Mean Median Skewness 
+Total 8% 6% 1.07 0.21 0.16 1.15 
+Currency 9% 7% 0.96 0.25 0.18 0.77 
+Sovereign 12% 12% 0.5 0.39 0.46 0.05 
+Banking 9% 7% 1.02 0.22 0.17 1.08 
+Asset price 
+correction 
+9% 7% 0.93 0.24 0.17 1.01 
+External 
+origination 
+6% 5% 0.76 0.09 0.11 -0.74 
+Domestic and 
+external 
+origination 
+11% 10% 0.58 0.30 0.27 0.78 
+Source: ECB ESRB calculations. 
+Notes: This table refers only to systemic complex crises which are deemed relevant for macroprudential analysis. Non-complex events 
+are explicitly excluded, as there are too few observations in the dataset. Debt-to-GDP ratio refers to the general government 
+consolidated gross debt as a percentage of GDP . For detailed explanation of the computational methods see Annex B. 
+In addition to the average, Table 5 also reports median and distribution skewness 
+and provides a breakdown of different risk categories. As a general observation, the 
+means tend to be significantly higher than the medians for nearly all of the 
+breakdowns presented. This comparison highlights that average results are strongly 
+affected by exceptionally costly events. 
+Comparing the level of government debt-to-GDP ratio one year before the start of 
+the crisis with the level at the end of the acute phase, a substantial increase can be 
+ 
+25  One important caveat is that this analysis does not consider the fact that, as a consequence of 
+interventions in the banking sector, governments acquire assets (e.g. stakes in banks) and are exposed 
+to contingent liabilities (e.g. in the form of guarantees).  
+26  Trends are computed based on an event’s preceding ten years [T -11; T-1], with T being the year in 
+which the crises started. 
+27  Possible caveats in the analysis are likely to stem from assumptions made for computational purposes. 
+These might not necessarily yield the efficient potential output, and it cannot be excluded that events 
+other than the identified crises impact the observed losses. High vari ance in the series also implies that 
+the results need to be interpreted with caution. However, the use of multiple computational methods  
+serves as a robustness check. For a detailed description of the computational methods and a 
+comparison with the approach used in Laeven & Valencia 2013, see Annex B. 
+
+Occasional Paper Series No 194 / July 2017 26 
+observed for almost all crises, with an average increase of 21 percentage points. 
+While the mean for complex crises involving banking, asset price correction and 
+currency stay relatively close to the total mean for complex crises; crises which 
+involve sovereign risk are associated with an increase in the debt-to-GDP ratio of 
+approximately 39 percentage points. 
+The average output loss equals approximately 8.5%, independent of the selection 
+of the cut-off date for the loss calculation (end of acute vs. recovery phase), and the 
+median output loss amounts to 6% to 7% across all methods. This comparison 
+highlights that average results are strongly affected by exceptionally costly events. 
+Looking at the breakdown by type of risk, sovereign risk stands out. The median 
+output losses of complex crises which include the materialisation of sovereign debt 
+risks are almost two times higher than for all other complex events. This finding is 
+linked with the observation of the extraordinarily high impact of sovereign risk on the 
+government debt-to-GPD ratio described above, as a drop in GDP ceteris paribus 
+leads to an increase in the debt-to-GPD ratio even without an increase in debt. 
+Median and mean output losses across all other categories, on the other hand, seem 
+relatively similar. A breakdown by origin of the crises indicates that crises which are 
+connected to both external and domestic factors also tend to be associated with 
+higher output losses. 
+The hypotheses above are tested with a mean difference test, with the results 
+reported in Table 6. The analysis shows that the materialisation of sovereign debt 
+risks is correlated with a statistically significant increase in average output losses 
+across the complex events, while the test does not suggest any significant difference 
+in terms of output losses for any other risk category. 
+However, crises driven by both domestic and international factors also coincide with 
+higher output losses. Average output losses associated with purely domestic crises 
+amount approximately to a range between 4% and 5% and are substantially lower 
+compared with crises where external factors play an important role (approximately 
+11%, independent of the calculation approach). The mean difference between 
+domestic and both domestic and external events is statistically significant on 95% 
+confidence level. 
+
+Occasional Paper Series No 194 / July 2017 27 
+Table 6 
+Testing the significance of differences in output losses across types of events 
+Test for mean difference 
+(difference in percentages) 
+ 
+Test: mean loss for selected crisis type against 
+mean loss of remaining complex events 
+Test: mean loss for selected crisis 
+origination against mean loss of complex 
+events with domestic origination source 
+Risk materialisation / 
+crisis category / 
+origination Currency Sovereign Banking 
+Asset price 
+correction External Both 
+Mean difference 2% 5% 5% 4% 2% 8% 
+P-value 0.339 0.032 0.263 0.355 0.198 0.012 
+Source: ECB ESRB calculations. 
+Notes: This table refers to systemic complex crises which are deemed relevant for macroprudential analysis. Non-complex events are 
+explicitly excluded, as there are too few observations in the dataset. Transition events are also excluded due to limited comparability. 
+For the sake of completeness, it should be noted that the mean and median output losses for transition episodes range from 4% to 5% 
+(depending on the calculation approach). 
+The discovered relations between the costs and different types of financial crises 
+differ to some extent from the findings in Laeven and Valencia’s dataset (2013). 
+Laeven and Valencia find that output losses stemming from banking or sovereign 
+crises are significantly higher than those related to currency crises. These 
+differences are likely related to the different sample size and composition28, 
+especially given the global scope of the Laeven and Valencia dataset compared to 
+EU-restricted ECB/ESRB database. In addition, the structure of the two datasets is 
+conceptually different. This is due to a different approach regarding the classification 
+of materialised risks. Moreover, it must be kept in mind that, for the analysis 
+presented in Table 6, only complex crises are considered against the backdrop of the 
+limited set of events when only one type of risk materialised. 
+Finally, Chart 5 presents losses and fiscal costs associated with distinct cohorts of 
+crises over time, using a grouping of crises in three different phases as derived from 
+Chart 2a and 2b. The three different periods which were used for the grouping of 
+crises are: 1970-80s; 1990s until early 2000s, including the ERM crisis, emerging 
+market crises and collapse of the high-tech bubble; and the recent financial crisis 
+starting in 2007. It can be seen that the highest output losses and the highest 
+increases in government debt-to-GDP ratio are associated with the recent financial 
+crises. 
+ 
+28  The methodological approach, although relatively similar, differs to certain extent relative to Laeven and 
+Valencia 2013. For details, please see Annex B. 
+
+Occasional Paper Series No 194 / July 2017 28 
+Chart 5 
+Costs of systemic crises over different time periods29 
+Average loss and increase in government debt -to-GDP ratio by period 
+(y-axis, output loss (as a percentage of GDP) and relative increase in debt-to-GDP ratio, percentages)  
+ 
+Sources: AMECO, World Bank and ECB ESRB calculations. 
+Note: The charts present loss distribution in three selected time intervals for all systemic events. 
+3.4 Crisis management policies 
+The database also includes qualitative information about crisis policy measures. 
+Together with the brief crisis description, this information can provide researchers 
+with important background information to better understand the nature and evolution 
+of the crisis. Given the qualitative nature of this information, it has to be kept in mind 
+that any comparison across countries can only be done with caution, as the level of 
+detail and the exact wording for the description of measures can differ between 
+countries. Moreover, it is likely that information for more recent crises is more 
+complete in the dataset compared with crises in the 1970s and 1980s, for which 
+information from archives often had to be retrieved. 
+ 
+29  Crises with theoretical output gains: BG 1996, C Y 2000 and DE 2001. 
+
+
+Occasional Paper Series No 194 / July 2017 29 
+Table 7 
+Overview of crisis policies as reported in the database 
+Breakdown of crisis management policies by crisis type – a semantic analysis  
+(absolute frequency; percentages) 
+ 
+New banking 
+regulation and 
+strengthening 
+of FSA 
+Monetary policy 
+measures, 
+including 
+introduction of new 
+currency and 
+lowering minimum 
+reserve 
+requirements 
+SPV/bad 
+banks/AMC 
+Capital or 
+liquidity support 
+and/or 
+funding/deposit 
+guarantee 
+scheme 
+Restructuring 
+of banks, 
+M&As, 
+liquidations 
+Complex crisis: multiple risks 8 
+(24%) 
+16 
+(48%) 
+7 
+(21%) 
+27 
+(82%) 
+6 
+(18%) 
+including materialisation of 
+banking risk 
+8 14 7 27 6 
+including materialisation of 
+significant asset prices 
+correction 
+8 15 7 25 5 
+including materialisation of 
+currency risk 
+5 10 5 14 4 
+including materialisation of 
+sovereign debt risk 
+5 6 4 7 2 
+Banking crisis (materialisation 
+of banking risk) 
+1 
+(50%) 
+- - 2 
+(100%) 
+1 
+(50%) 
+Currency crisis / BoP / capital 
+flow (materialisation of currency 
+risk) 
+- - - - - 
+Sovereign crisis (materialisation 
+of sovereign risk) 
+- - - 1 
+(100%) 
+- 
+Significant asset price 
+correction 
+- - - - - 
+Transition 2 
+(22%) 
+3 
+(33%) 
+2 
+(22%) 
+6 
+(67%) 
+2 
+(22%) 
+Total 11 19 9 36 9 
+Source: ECB ESRB calculations. 
+Notes: With respect to complex crises, this table reports the total frequency of policies across all subcategories, which should not be 
+interpreted as a sum, since crises are usually addressed by a variety of measures. This table reports the most frequently named 
+policies. The values denote the percentage shares of systemic crises within the respective subcategory in which the policy was 
+applied, e.g. 24% of complex crises are associated with new banking regulation and the strengthening of the financial supervisory 
+authorities (FSA). 
+Table 7 presents the results of a semantic analysis about the frequency of five 
+categories of policy actions, which were identified in the dataset. Government 
+responses to crises were mostly tailored to the banking sector, i.e. introduction of 
+new regulation, strengthening the powers of financial supervisory authorities (FSA), 
+the creation of so-called bad banks or special purpose vehicles (SPV) as well as 
+restructuring, mergers and liquidations. In particular related to the ERM crises in the 
+1990s, NAs describe monetary policy measures, such as a change in interest rates 
+and minimum reserve requirements and/or the introduction of a new currency in the 
+course of the transition period in central and eastern Europe. In addition, quantitative 
+monetary easing is commonly reported as measure against the recent crisis. 
+Measures are relatively equally distributed across multiple crises types. Capital or 
+liquidity support is the most commonly used crises management tool. Moreover, 
+during the global financial crisis, many governments were forced to bail out banks or 
+to provide support in form of capital or liquidity. 
+
+Occasional Paper Series No 194 / July 2017 30 
+Box 1  
+The global financial crisis and the sovereign and banking crises in Europe 
+The evolution of the global financial crisis and of the sovereign and banking crises across European 
+countries has been widely discussed in policy fora and in the academic literature.30 After the 
+subprime crisis erupted in the US between mid-2007 and 2008, 21 European countries experienced 
+systemic crises, which started at different points in time between 2007 and 2011. The remaining 
+seven European countries experienced episodes of elevated financial stress characterised by 
+significant asset price corrections. 
+The chart (see next page) illustrates that, in most cases, sovereign risk materialised only 
+subsequently, after the materialisation of banking crises, and that most residual events of elevated 
+financial stress were concentrated in the first part of the global financial crises. 
+Among the 21 systemic episodes that were identified between 2007 and 2011, all of them were 
+associated with the materialisation of risks in the banking system and significant asset price 
+corrections (including real estate prices in most of the cases). Ten of these episodes also entailed 
+significant adjustments of external positions and eight of them entailed the materialisation of 
+sovereign risk. 
+Systemic crises initially materialised between 2007 and 2008, in the countries where banking 
+systems were more vulnerable to external shocks due to prevailing business models and/or 
+exposures to US housing markets via structured finance products. Notably, the United Kingdom and 
+Germany are among the first European countries where a systemic crisis materialised. In the UK, 
+the start of the crisis is in August 2007, right before the “run” on the mortgage lender Northern Rock. 
+In Germany, in August 2007, KFW Bank had taken over the distressed IKB Deutsche Industriebank, 
+which had provided outsized liquidity lines to special purpose vehicles. 
+From the policy point of view, the first wave of systemic crises in Europe largely coincides with the 
+implementation of the European Economic Recovery Plan
+31, an EU-wide fiscal stimulus coordinated 
+by the European Commission. By the end of 2010, measures including an increase in public 
+investment and tax rebates for households and employers were fully phased in, such that many 
+countries entered the subsequent recovery period. 
+ 
+30  The debate in the literature covered the crisis from different angles, including the impact of monetary 
+policy on the financial markets and the macroeconomy (e.g. Fratzscher, Lo Duca and Straub, 2015; 
+Altavilla, Giannone and Lenza, 2016; Altavilla, Carboni and Motto, 2015), the pricing of bond yields and 
+sovereign risk (e.g. Beirne and Fratzscher, 2013; De Santis, 2012; De Grauwe and Ji, 2013), fiscal 
+aspects of the crisis (e.g. Van Riet, 2010) and institutional aspects, including the architecture of the 
+euro area (e.g. the so called “Five Presidents’ Report”). 
+31  See European Commission (2009a) for a description of the European Econom ic Recovery Plan and 
+European Commission (2009b) for an overview of recovery measures by Member States.  
+
+Occasional Paper Series No 194 / July 2017 31 
+Chart 
+Materialisation of different types of risks over time since 2006 
+Breakdown of financial crises 
+(y-axis: absolute frequency) 
+Notes: The dataset distinguishes between a core set of systemic crises and an additional set of residual episodes (please refer to Sections 4.2.1 and 4.2.2. for 
+definitions) which the paper further divides into (non-) relevant for the purpose of macroprudential analysis. This chart refers to both systemic and residual 
+episodes which are deemed relevant for macroprudential analysis. This chart does not separate complex from single events, e.g. an event where both 
+dummies for sovereign and banking risks are activated is displayed twice in the orange/grey shaded area in the first panel. 
+ 
+0
+5
+10
+15
+20
+25
+30
+2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016
+b) Systemic crises
+acute crises (total)
+recovery (total)
+0
+5
+10
+15
+20
+25
+30
+2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016
+acute crises (total)
+recovery (total)
+c) Residual episodes
+0
+5
+10
+15
+20
+25
+30
+2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016
+acute sovereign risk materialisation
+recovery following materialisation of sovereign risk
+acute banking risk materialisation
+recovery following materialisation of banking risk
+acute crises (total)
+recovery (total)
+a) Systemic crises
+
+Occasional Paper Series No 194 / July 2017 32 
+Regarding the group of countries that experienced severe distress in connection to the European 
+banking and sovereign crisis, Ireland, Spain and Portugal reported bank failures or substantial 
+interventions to preserve financial stability already in 2008 and early 2009. Therefore, the starting 
+date for systemic crises in these three countries occurs earlier than for Greece, Italy, Cyprus and 
+Slovenia. This latter group of countries experienced systemic crises starting between late 2009 and 
+2011 as a result of the deterioration of the macroeconomic environment, the materialisation of credit 
+risk, the deterioration of public finances and the emergence of sovereign risk, which ultimately 
+affected the stability of the financial system. 
+Looking at the recovery phases of the latest crises episodes, it can be seen that the crises are 
+particularly persistent. 
+ 
+
+Occasional Paper Series No 194 / July 2017 33 
+4 Assessing the properties of standard 
+early warning indicators based on the 
+new crisis dataset 
+The existing literature has found that various credit and asset price transformations 
+have the best early warning properties for financial crises. In an early contribution to 
+this literature, Borio and Lowe (2002) showed that sustained rapid credit growth 
+combined with large increases in asset prices appears to increase the probability of 
+an episode of financial instability. In particular, they proposed that credit and asset 
+price gaps, calculated as the deviation from a one-sided HP-filtered trend with a 
+large smoothing parameter, have good signalling properties. This insight has been 
+confirmed and refined in various subsequent contributions to the literature.32 In a 
+study focusing on EU countries, Detken et al. (2014) confirm that various credit-to-
+GDP gaps are among the best univariate signalling indicators for systemic banking 
+crises. Moreover, the residential property price- to-income ratio, residential and 
+commercial property price gaps, the debt service-to-income ratio for households, real 
+bank and household credit growth and the deviation of the (deflated) broad monetary 
+aggregate M3 from its trend were found to be good univariate signalling indicators. 
+Multivariate models that combine the credit-to-GDP gap with other variables were 
+found to further improve the signalling power (Lo Duca and Peltonen, 2013). 
+This section provides first preliminary evidence of the signalling performance of 
+various standard early warning indicators and models by using the systemic crises 
+events included in the new crisis dataset. The goal of the analysis is to provide a 
+sense of whether earlier findings of the literature on the performance of indicators 
+and models appear to be validated using the new crisis dataset. A more refined 
+analysis, based on robust criteria for model evaluation to support policy analysis, is 
+left for future research. 
+Both a univariate signalling and a multivariate logit analysis are performed for 
+Denmark, Sweden, the United Kingdom and all euro area countries for the period 
+1970 Q1 to 2016 Q4. The remaining EU countries are not included in the analysis, 
+due to data limitations for most of the early warning indicators that are considered. 
+The evaluation of the performance of standard early warning indicators and models 
+for other EU countries in the new dataset is left for future research. 
+For the baseline results, all systemic crises according to the new dataset described 
+in Section 3 are taken as the relevant set of events. In total, there are 35 systemic 
+crises events since 1970 for the set of countries that are part of the early warning 
+evaluation exercise. A prediction horizon of 12 to 5 quarters before systemic crises is 
+ 
+32  See, for example, Borio and Drehmann (2009), Drehmann et al. (2011), Drehmann and Juselius (2014)  
+and Detken et al. (2014). 
+
+Occasional Paper Series No 194 / July 2017 34 
+used to define the vulnerability periods for the early warning exercise.33 The set of 
+relevant early warning indicators that is considered consists of various 
+transformations 34 of bank credit, total credit to the non-financial private sector 
+(NFPS), total credit to households (HHs), total credit to non-financial corporations 
+(NFCs), residential real estate (RRE) prices, RRE price-to-income and price-to-rent 
+ratios, equity prices, M335, debt-service ratios (DSR), real GDP growth, consumer 
+price inflation, real effective exchange rate (REER), and real short- term and long-
+term interest rates. Only indicators that have at least 1,500 country-quarter 
+observations are considered as relevant for the early warning evaluation, which 
+leads to a set of 436 different indicators.36 In addition, all indicators, except the ones 
+related to interest rates, exchange rates and equity prices are lagged by one quarter 
+to account for publication lags. 
+Box 2  
+A primer on evaluation criteria for early warning models for systemic financial crises 
+This box provides an overview of the common evaluation criteria for early warning models.37 Every 
+early warning indicator can be transformed into a discrete crisis warning signal by applying a certain 
+threshold to it, where values above the threshold are classified as signals for vulnerable states and 
+values below the threshold are classified as tranquil periods. These signals can then be compared 
+to the true states of the world and classified into one of four possible outcomes: 1) true positives 
+(signal and true state are vulnerable); 2) false negative (signal is tranquil and true state is 
+vulnerable); 3) true negative (signal and true state are tranquil); 4) false positive (signal is 
+vulnerable, but state is tranquil). 
+Based on these four possible outcomes, Type I error rates (missed vulnerable states) can be 
+defined as false negatives divided by all vulnerable states, while Type II error rates (false alarms) 
+can be defined as false positives divided by all tranquil states. The true positive rate is defined as 
+1 – the Type I error rate. Based on this classification system various evaluation criteria can be 
+computed. 
+In order to decide which threshold should be used to produce vulnerability signals for a given 
+indicator, a loss function approach can be taken (see, for example, Alessi and Detken, 2011), where 
+the optimal signalling threshold minimises a weighted average between Type I (T1) and Type II (T2) 
+errors: 𝐿𝐿(𝜃𝜃) =  𝜃𝜃∙𝑇𝑇1 + (1 −𝜃𝜃) ∙𝑇𝑇2. The policy preference parameter (𝜃𝜃) reflects the relative 
+concern assigned to missing crises (T1) versus issuing false crisis alarms (T2). 
+ 
+33  As frequently seen in literature, the vulnerability indicator (i.e. the dependent variable) is set to 1 for the 
+12 to 5 quarters before a systemic crisis, to missing for the 4 to 1 quarters before a systemic crisis and 
+for the crisis period itself (between start date and end of crisis management date, i.e. for the acute 
+phase of the crisis), and to 0 otherwise. See Box 2.  
+34  The following transformations were used for these variables: one -quarter, one-year, two-year and 
+three-year growth rates, one-quarter, one-year, two-year and three-year changes in ratios to GDP (for 
+stock variables), one-sided HP-filtered gaps with a smoothing parameter of 400,000 and 26,000, and 
+the levels of the variables if deemed relevant (e.g. for REER or real interest rates). This is in line with 
+transformations used in the early warning literature (e.g. Detken et al. 2014).  
+35  For euro area countries M3 is measured as the national contribution to euro area M3, while for non-
+euro area countries M3 refers to the domestic M3 concept.  
+36  For the early warning exercise, the effective sample can be smaller than 1,500 as immediate pre -crisis 
+and actual crisis quarters are excluded from the evaluation sample.  
+37  Parts of this box are based on the findings in Detken et al. (2014).  
+
+Occasional Paper Series No 194 / July 2017 35 
+One of the advantages of the loss function approach for deriving the optimal signalling threshold is 
+that it makes it possible to evaluate the early warning model in terms of the relative usefulness of 
+the model for the policymaker. The relative usefulness measure represents the difference in the loss 
+that the policymaker would get by using the model compared with ignoring the model, which is 
+expressed as a share of the maximum achievable difference. The measure therefore gives an idea 
+of how close the early warning model is to a perfect model of crisis prediction for a policymaker with 
+preferences represented by (𝜃𝜃). However, relative usefulness depends on the preferences of the 
+policymaker and it is therefore desirable to look at global measures of signalling performance in 
+addition to relative usefulness. 
+The area under the receiver operating characteristics curve (AUROC) is a global measure of the 
+signalling performance of an early warning indicator independent of the policy preference 
+parameter. It is computed as the area under the receiver operating characteristics (ROC) curve, 
+which plots the noise ratio (false positive rate) on the x-axis against the signal ratio (true positive 
+rate) on the y-axis for every possible threshold value that can be applied to an early warning 
+indicator. For a given noise ratio, a higher signal ratio implies that an early warning indicator is 
+better able to differentiate between vulnerable and tranquil states of the world. Usually, there is a 
+trade-off between the noise and the signal ratio, so higher signal ratios are associated with higher 
+noise ratios. The ROC curve is therefore upward sloping. A perfect indicator would imply a noise 
+ratio of 0 and a signal ratio of 1 for the optimal signalling threshold. For other signalling thresholds, 
+the signal ratio would stay at 1, but the noise ratio would start to increase until it also reaches 1. 
+The ROC curve for such a perfect early warning indicator would look like an upside down L and the 
+area under this curve would be equal to 1. Hence, an AUROC value of 1 indicates a perfect early 
+warning indicator, while an AUROC value of 0.5 indicates an uninformative indicator. 
+ 
+The best univariate early warning models are selected based on a combination of 
+their in-sample and out-of-sample signalling performance.38 First, a univariate in-
+sample signalling exercise is performed for the entire set of relevant early warning 
+indicators. The in-sample early warning properties are evaluated based on the 
+AUROC, the relative usefulness, and the Type I and Type II errors associated with 
+the optimal signalling threshold for balanced preferences (see Box 2 for details on 
+these measures). In the second step, only models that have an AUROC of at least 
+0.65, a relative usefulness of 0.25 and Type I and Type II errors below 0.5 and 0.6 
+respectively are considered relevant for the out-of-sample evaluation.39 In total 55 
+univariate signalling indicators are selected for a recursive quasi real-time out-of-
+sample evaluation, which is performed as follows: starting in 2000 Q1, a univariate 
+ 
+38  This is one possible approach to identify best -performing indicators and models. It should be noted, 
+however, that a good in-sample signalling performance of an indicator/model does not imply a good 
+out-of-sample signalling performance of the same indicator. From a macroprudential policy perspective, 
+it can be argued that the out-of-sample signalling performance of the indicator should receive more 
+weight on balance. Finding an optimal selection strategy for early warning models and indicators is 
+beyond the scope of this paper and is left for future research. 
+39  The cut-off values for the in-sample performance measures are chosen to significantly narrow down the 
+set of relevant early warning indicators for the out -of-sample evaluation, given that the recursive out -
+of-sample evaluation procedure is computationally much more demanding. Standard early warning 
+indicators that have been found useful in past studies, such as the total or bank credit -to-GDP gaps, 
+were included in the out-of-sample evaluation regardless of their in -sample performance. 
+
+Occasional Paper Series No 194 / July 2017 36 
+signalling model is estimated with data up to 1997 Q140, and the resulting optimal in-
+sample signalling threshold is applied to data from 2000 Q1 to generate a signal. 
+Once the signal is recorded, the same procedure is performed for the next quarter, 
+i.e. 2000 Q2, where the relevant estimation sample for the univariate signalling 
+model now includes one additional quarter of data, i.e. data up to 1997 Q2. This 
+procedure is performed recursively until 2016 Q4. All univariate indicators that have 
+an out-of-sample relative usefulness of at least 0.25 and out-of-sample Type I and 
+Type II errors of no more than 0.5 and 0.6  for balanced preferences are considered 
+for multivariate models.41 
+The best univariate signalling indicators are used to generate a large set of 
+multivariate logit early warning models that are evaluated in-sample and out-
+of-sample. For this purpose the best univariate signalling indicators are grouped into 
+four categories and combined into all possible bivariate, trivariate and quadvariate 
+logit models: (i) household credit variables (8), (ii) other credit variables (17), 
+(iii) RRE price variables (6), and (iv) equity price growth and the DSR (2).
+42 For all of 
+the resulting possible logit model combinations, an in-sample early warning exercise 
+is performed along the same lines as for the univariate signalling exercise. All of the 
+logit models with an AUROC of at least 0.80, a relative usefulness of at least 0.49, 
+and Type I and Type II errors below or equal to 0.2 and 0.36 respectively are 
+selected as the relevant set of multivariate models.43 In addition, all models are 
+excluded where at least one of the estimated coefficient signs is not in accordance 
+with economic reasoning. For this set of multivariate models, the same out-of-sample 
+evaluation as for the univariate signalling models is carried out. 
+ 
+40  A 3-year data lag is used for the estimation sample to mimic real -time information availability: given that 
+the relevant vulnerability period is defined as 12 to 5 quarters before systemic crises, the true 
+vulnerability periods cannot be known for the last 12 quarters of the sample period, unless a systemic 
+crisis materialised during the last 12 quarters. For example, in the second quarter of 2017 it is only 
+possible to define vulnerability periods up to the second quarter of 2014 if no systemic crisis happened 
+in the last three years. 
+41  The cut-off values for the out-of-sample performance measures are chosen to significantly narrow 
+down the set of relevant early warning indicators that are used in multivariate early warning mod els, in 
+order to keep the total number of possible multivariate logit model combinations in a range that is 
+computationally not too costly. 
+42  The set of variables is as follows: real HH credit (one -year growth), real HH credit (two-year growth), 
+real HH credit (three-year growth), HH credit-to-GDP (one-quarter change), HH credit-to-GDP (one-
+year change), HH credit-to-GDP (two-year change), HH credit-to-GDP (three-year change), HH 
+credit-to-GDP (gap 400,000), bank credit-to-GDP (one-quarter change), bank credit-to-GDP (one-year 
+change), bank credit-to-GDP (two-year change), real bank credit (one-year growth), real bank credit 
+(two-year growth), bank credit-to-GDP (gap 400,000), NFC credit-to-GDP (one-year change), total 
+credit-to-GDP (one-year change), total credit-to-GDP (gap 400,000), real total credit (one-year growth), 
+real NFC credit (one-year growth), real M3 (one-year growth), real M3 (two-year growth), real M3 
+(three-year growth), M3-to-GDP (three-year change), real M3 (relative gap 400,000), real M3 (relative 
+gap 26,000), RRE price-to-income (one-year change), RRE price-to-income (two-year change), real 
+RRE prices (two-year growth), real RRE prices (three -year growth), RRE price-to-income (gap 
+400,000), RRE price-to-rent (gap 400,000), real equity prices (three-year growth), debt service ratio. 
+43  The cut-off values for the in-sample performance measures are chosen to significantly narrow down the 
+set of relevant logit early warning models for the out-of-sample evaluation, given that the recursive 
+out-of-sample evaluation procedure is computationall y much more demanding. 
+
+Occasional Paper Series No 194 / July 2017 37 
+Table 8 
+Overview of univariate signalling results 
+ In-sample Out-of-sample 
+ AUROC 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+-2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+ -2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+Bank credit-to-GDP (one-year 
+change) 
+0.76 0.41 0.31 0.28 0.41 0.24 1,978 0.22 0.21 0.57 0.72 0.28 660 
+RRE price-to-income (two-year 
+change) 
+0.74 0.39 0.31 0.30 0.43 0.27 1,494 0.25 0.29 0.46 0.65 0.28 715 
+Bank credit-to-GDP (two-year 
+change) 
+0.74 0.39 0.41 0.19 0.33 0.28 1,894 0.16 0.28 0.56 0.78 0.27 628 
+RRE price-to-income (three-year 
+change) 
+0.74 0.36 0.29 0.35 0.49 0.24 1,406 0.17 0.26 0.58 0.78 0.24 686 
+Bank credit-to-GDP (one-quarter 
+change) 
+0.73 0.36 0.32 0.32 0.47 0.21 2,041 0.22 0.30 0.48 0.69 0.28 684 
+HH credit-to-GDP (three-year 
+change) 
+0.72 0.38 0.29 0.34 0.47 0.27 1,261 0.23 0.24 0.53 0.70 0.28 604 
+HH credit-to-GDP (two-year 
+change) 
+0.72 0.38 0.26 0.36 0.49 0.26 1,334 0.23 0.20 0.57 0.71 0.29 640 
+RRE price-to-rent (two-year 
+change) 
+0.72 0.36 0.40 0.25 0.41 0.26 1,709 0.09 0.33 0.58 0.87 0.22 715 
+RRE price-to-rent (three-year 
+change) 
+0.72 0.39 0.43 0.18 0.32 0.30 1,623 0.12 0.30 0.58 0.83 0.23 686 
+Real bank credit (one-year 
+growth) 
+0.71 0.33 0.19 0.48 0.59 0.18 2,041 0.24 0.29 0.47 0.67 0.30 660 
+M3-to-GDP (two-year change) 0.71 0.32 0.30 0.38 0.54 0.18 1,718 0.28 0.06 0.66 0.70 0.29 590 
+Real M3 (two-year growth) 0.71 0.31 0.36 0.33 0.52 0.19 1,751 0.37 0.13 0.51 0.58 0.33 590 
+Real bank credit (two-year 
+growth) 
+0.70 0.33 0.26 0.41 0.55 0.19 1,985 0.15 0.40 0.45 0.74 0.28 628 
+Total credit-to-GDP (one-year 
+growth) 
+0.70 0.34 0.22 0.44 0.57 0.18 2,036 0.11 0.20 0.68 0.86 0.24 689 
+Bank credit-to-GDP (three-year 
+change) 
+0.70 0.33 0.32 0.35 0.52 0.20 1,813 0.08 0.25 0.66 0.89 0.23 596 
+RRE price-to-income (one-year 
+change) 
+0.70 0.34 0.52 0.14 0.30 0.34 1,582 0.26 0.49 0.25 0.48 0.33 743 
+RRE price-to-income (gap 
+400,000) 
+0.70 0.31 0.40 0.29 0.48 0.23 1,670 0.29 0.28 0.43 0.60 0.28 771 
+HH credit-to-GDP (one-year 
+change) 
+0.70 0.33 0.28 0.40 0.55 0.24 1,414 0.20 0.18 0.62 0.75 0.27 676 
+Real M3 (one-year growth) 0.70 0.29 0.46 0.24 0.45 0.21 1,839 0.31 0.30 0.39 0.56 0.33 630 
+Real M3 (three-year growth) 0.70 0.32 0.26 0.42 0.57 0.17 1,663 0.31 0.19 0.51 0.63 0.32 550 
+Real M3 (relative gap 26,000) 0.70 0.35 0.38 0.27 0.43 0.20 1,927 0.33 0.45 0.22 0.40 0.39 667 
+Real RRE prices (three-year 
+growth) 
+0.69 0.36 0.38 0.27 0.43 0.24 1,618 0.23 0.38 0.40 0.64 0.27 617 
+RRE price-to-rent (gap 400,000) 0.69 0.26 0.66 0.08 0.24 0.36 1,885 0.09 0.57 0.34 0.79 0.23 771 
+Bank credit-to-GDP (gap 
+400,000) 
+0.69 0.31 0.50 0.19 0.38 0.25 2,062 0.07 0.53 0.40 0.85 0.24 692 
+M3-to-GDP (one-year change) 0.69 0.29 0.47 0.25 0.46 0.20 1,806 0.29 0.05 0.66 0.69 0.28 630 
+M3-to-GDP (three-year change) 0.69 0.33 0.43 0.24 0.43 0.22 1,633 0.29 0.29 0.42 0.60 0.33 550 
+HH credit-to-GDP (gap 400,000) 0.68 0.30 0.19 0.52 0.64 0.21 1,493 0.14 0.46 0.40 0.74 0.26 712 
+Total credit-to-GDP (gap 
+400,000) 
+0.68 0.28 0.39 0.33 0.55 0.18 2,120 0.03 0.49 0.49 0.95 0.21 721 
+Real M3 (relative gap 400,000) 0.67 0.26 0.43 0.31 0.54 0.17 1,927 0.20 0.39 0.41 0.68 0.28 667 
+Real RRE prices (gap 400,000) 0.66 0.27 0.61 0.12 0.30 0.30 1,852 0.15 0.22 0.63 0.81 0.22 698 
+
+Occasional Paper Series No 194 / July 2017 38 
+ In-sample Out-of-sample 
+ AUROC 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+-2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+ -2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+Real equity prices (three-year 
+growth) 
+0.64 0.30 0.33 0.37 0.55 0.18 2,038 0.25 0.18 0.57 0.70 0.25 781 
+Notes: All systemic crises according to the new dataset described in Section 3 are taken as the relevant set of events. Moreover, a prediction horizon of 12 to 5 quarters before 
+systemic crises is used to define the vulnerability periods for the early warning exercise. For definitions of the performance measures, see Box 2. All performance measures, except 
+for the AUROC, are computed for balanced preferences between Type I and Type II errors, i.e. for a policy preference parameter of 𝜃𝜃 = 0.5. The conditional probability is defined as 
+the share of true signals of a coming crisis whenever the model issues a warning signal. 
+Various medium-term transformations of bank credit, household credit, RRE prices, 
+M3, and equity prices emerge as the best univariate early warning indicators for 
+systemic crises in the new database. The set of indicators with the best in-sample 
+signalling properties differs to some extent from the set of indicators that have the 
+best out-of-sample signalling properties (see Table 8). For example, the highest in-
+sample AUROCs for the systemic crises of the new dataset of more than 0.71 are 
+achieved by the one-quarter, one-year, and two-year changes in the bank credit-to-
+GDP ratio, the two-year and three-year changes in the RRE price-to-income and 
+price-to-rent ratios, the two-year and three-year changes in the HH credit-to-GDP 
+ratio, the two-year change in the M3-to-GDP ratio, the two-year growth rate of real 
+M3 and the one-year growth rate of real bank credit (see Table 8). Many of these 
+variables also have a good out-of-sample relative usefulness of more than 0.20 for 
+balanced preferences. Interestingly, one-year, two-year and three-year growth rates 
+of real M3 and the real M3 gap with a smoothing parameter of 26,000 have the best 
+out-of-sample relative usefulness with values above 0.30. The three-year growth 
+rates of real RRE and equity prices also have good out-of-sample signalling 
+properties, although they are not among the top 15 indicators based on the in-
+sample AUROC. 
+Gap measures for different credit and RRE price measures also have good in-
+sample signalling properties, but the out-of-sample properties are often much 
+weaker. The total credit-to-GDP gap, bank credit-to-GDP gap, HH credit-to-GDP gap, 
+real RRE price gap, and RRE price-to-income and price-to-rent gap all have fairly 
+high in-sample AUROCs of between 0.66 and 0.70 (see Table 8). Moreover, their in-
+sample usefulness for balanced preferences is between 0.27 and 0.31. However, 
+none of the gap measures is among the ten best univariate models according to 
+either the AUROC or the relative usefulness. Simpler transformations such as one-
+year, two-year or three-year changes of these underlying variables have similar or 
+even better in-sample signalling properties than gap transformations. In addition, the 
+out-of-sample relative usefulness for these gap measures is often quite low and 
+under 0.1, except for the HH-credit-to-GDP gap (0.14), the real RRE price gap (0.15) 
+and the RRE price-to-income gap (0.29). 
+Multivariate logit models that combine transformations of credit and asset price 
+indicators can improve the early warning properties for systemic crises in the new 
+database. The in-sample AUROC improves from 0.76 for the best univariate 
+signalling model to 0.83 for the best quadvariate logit early warning model that 
+includes the HH credit-to-GDP gap, the three-year change in the M3-to-GDP ratio, 
+the three-year real RRE price growth rate and the three-year real equity price growth 
+
+Occasional Paper Series No 194 / July 2017 39 
+rate (see Table 9). The best out-of-sample usefulness 0.41 is attained by a trivariate 
+model that combines the three-year change in the M3-to-GDP ratio, the two-year real 
+RRE price growth rate and the three-year real equity price growth rate. In general, 
+various combinations of gaps, medium-term changes and growth rates of HH credit, 
+M3, bank credit, RRE prices, equity prices or debt-service ratios have good in-
+sample and out-of-sample signalling properties (see Table 9). 
+The results confirm the existing findings in the early warning literature that 
+multivariate models can improve upon univariate signalling models (for example Lo 
+Duca and Peltonen, 2013), although gap variables are found to have slightly less 
+information content for signalling systemic events than more simple transformations, 
+such as changes in ratios relative to GDP or growth rates. 
+Table 9 
+Overview of the performance of multivariate logit models 
+ In-sample Out-of-sample 
+ AUROC 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+ -2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+ -2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+HH credit-to-GDP, M3-to-GDP (3-
+year change), real RRE prices 
+(3-year growth), real equity 
+prices (3-year growth) 
+0.83 0.53 0.12 0.35 0.40 0.29 1005 0.40 0.08 0.52 0.57 0.34 490 
+HH credit-to-GDP (3-year 
+change), M3-to-GDP (3-year 
+change), real RRE prices (two-
+year growth), real equity prices 
+(3-year growth) 
+0.82 0.54 0.20 0.27 0.33 0.34 966 0.35 0.14 0.52 0.60 0.33 483 
+HH credit-to-GDP (two-year 
+change), M3-to-GDP (3-year 
+change), real RRE prices (3-year 
+growth), real equity prices (3-
+year growth) 
+0.83 0.54 0.15 0.32 0.37 0.32 973 0.33 0.16 0.51 0.61 0.33 482 
+HH credit-to-GDP (3-year 
+change), M3-to-GDP (3-year 
+change), real RRE prices (3-year 
+growth), real equity prices (3-
+year growth) 
+0.83 0.53 0.18 0.30 0.36 0.33 957 0.31 0.16 0.54 0.64 0.32 478 
+HH credit-to-GDP (3-year 
+change), real M3 (relative gap 
+26,000), real RRE prices (3-year 
+growth), real equity prices (3-
+year growth) 
+0.81 0.49 0.18 0.34 0.41 0.29 1027 0.31 0.30 0.39 0.56 0.32 545 
+HH credit-to-GDP (two-year 
+change), M3-to-GDP (3-year 
+change), real RRE prices (two-
+year growth), real equity prices 
+(3-year growth) 
+0.82 0.53 0.14 0.33 0.38 0.31 982 0.29 0.20 0.51 0.63 0.32 487 
+real HH credit (3-year growth), 
+M3-to-GDP (3-year change), real 
+RRE prices (two-year growth), 
+real equity prices (3-year 
+growth) 
+0.81 0.51 0.18 0.31 0.38 0.31 966 0.29 0.23 0.49 0.63 0.32 483 
+HH credit-to-GDP, real M3 (rel 
+gap 26,000), RRE price-to-
+income (two-year change), Debt-
+service ratio 
+0.81 0.50 0.18 0.33 0.40 0.31 1081 0.27 0.26 0.46 0.63 0.30 628 
+Bank credit-to-GDP (one-year 
+change), RRE price-to-income 
+gap, Debt-service ratio 
+0.82 0.49 0.18 0.33 0.41 0.29 1400 0.27 0.20 0.53 0.67 0.30 658 
+Bank credit-to-GDP (one-year 
+change), RRE price-to-income 
+(gap 400,000), real equity prices 
+0.82 0.56 0.13 0.31 0.36 0.31 1453 0.26 0.19 0.54 0.67 0.30 654 
+
+Occasional Paper Series No 194 / July 2017 40 
+ In-sample Out-of-sample 
+ AUROC 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+ -2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+ -2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+(3-year growth) 
+HH credit-to-GDP (3-year 
+change), real M3 (relative gap 
+26,000), RRE price-to-income 
+gap, real equity prices (3-year 
+growth) 
+0.81 0.53 0.15 0.33 0.38 0.33 1032 0.25 0.29 0.46 0.64 0.31 580 
+Bank credit-to-GDP (one-year 
+change), real RRE prices (3-year 
+growth), real equity prices (3-
+year growth) 
+0.80 0.50 0.18 0.32 0.39 0.26 1528 0.25 0.24 0.51 0.67 0.28 588 
+HH credit-to-GDP gap, real bank 
+credit (one-year growth), RRE 
+price-to-income gap, Debt-
+service ratio 
+0.81 0.50 0.16 0.35 0.41 0.31 1207 0.25 0.24 0.52 0.67 0.30 649 
+Bank credit-to-GDP (two-year 
+change), RRE price-to-income 
+gap, real equity prices (3-year 
+growth) 
+0.82 0.53 0.16 0.31 0.37 0.30 1410 0.25 0.25 0.51 0.68 0.30 623 
+HH credit-to-GDP gap, Bank 
+credit-to-GDP (two-year 
+change), RRE price-to-income 
+(two-year change), real equity 
+prices (3-year growth) 
+0.83 0.53 0.15 0.32 0.37 0.34 1144 0.24 0.22 0.55 0.70 0.30 614 
+HH credit-to-GDP (3-year 
+change), real M3 (3-year 
+growth), RRE price-to-income 
+gap, real equity prices (3-year 
+growth) 
+0.80 0.51 0.15 0.34 0.40 0.33 954 0.24 0.30 0.46 0.66 0.33 505 
+Bank credit-to-GDP (gap 
+400,000), RRE price-to-income 
+(two-year change), Debt-service 
+ratio 
+0.80 0.51 0.19 0.31 0.37 0.31 1342 0.24 0.23 0.53 0.69 0.28 668 
+HH credit-to-GDP (3-year 
+change), real M3 (relative gap 
+26,000), RRE price-to-income 
+(two-year change), Debt-service 
+ratio 
+0.81 0.50 0.19 0.31 0.38 0.33 1006 0.24 0.27 0.49 0.68 0.29 586 
+HH credit-to-GDP (3-year 
+change), Bank credit-to-GDP 
+(one-year change), RRE price-
+to-income gap, real equity 
+prices (3-year growth) 
+0.81 0.51 0.16 0.33 0.39 0.33 1115 0.23 0.28 0.49 0.68 0.29 597 
+HH credit-to-GDP gap, real M3 
+(two-year growth), RRE price-to-
+income (two-year change), Debt-
+service ratio 
+0.81 0.49 0.20 0.31 0.38 0.34 1022 0.23 0.30 0.47 0.67 0.31 572 
+HH credit-to-GDP (3-year 
+change), real M3 (two-year 
+growth), RRE price-to-income 
+(gap), real equity prices (3-year 
+growth) 
+0.81 0.51 0.13 0.36 0.42 0.32 986 0.23 0.25 0.52 0.69 0.31 537 
+HH credit-to-GDP (gap), Bank 
+credit-to-GDP (two-year 
+change), RRE price-to-income 
+(one-year change), real equity 
+prices (3-year growth) 
+0.82 0.52 0.17 0.31 0.37 0.34 1172 0.22 0.22 0.56 0.71 0.29 614 
+Bank credit-to-GDP (two-year 
+change), RRE price-to-income 
+(one-year change), real equity 
+prices (3-year growth) 
+0.82 0.51 0.17 0.32 0.39 0.30 1374 0.22 0.22 0.56 0.72 0.29 623 
+HH credit-to-GDP (3-year 
+change), real M3 (relative gap 
+26,000), RRE price-to-income 
+(one-year change), Debt-service 
+ratio 
+0.81 0.49 0.19 0.32 0.40 0.32 1018 0.21 0.28 0.51 0.71 0.28 586 
+
+Occasional Paper Series No 194 / July 2017 41 
+ In-sample Out-of-sample 
+ AUROC 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+ -2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+ -2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+HH credit-to-GDP (3-year 
+change), real M3 (rel gap 
+26,000), RRE price-to-income 
+(two-year change), real equity 
+prices (3-year growth) 
+0.81 0.49 0.16 0.35 0.42 0.31 1003 0.20 0.35 0.45 0.69 0.29 580 
+HH credit-to-GDP (two-year 
+change), real M3 (rel gap 
+26,000), RRE price-to-income 
+(two-year change), Debt-service 
+ratio 
+0.81 0.49 0.16 0.35 0.42 0.31 1045 0.20 0.33 0.47 0.71 0.28 608 
+HH credit-to-GDP (gap), real M3 
+(3-year growth), RRE price-to-
+income (two-year change), Debt-
+service ratio 
+0.80 0.51 0.17 0.32 0.39 0.33 982 0.19 0.35 0.47 0.72 0.30 532 
+HH credit-to-GDP (gap), Bank 
+credit-to-GDP (one-year 
+change), RRE price-to-income 
+(one-year change), real equity 
+prices (3-year growth) 
+0.82 0.50 0.16 0.34 0.41 0.32 1207 0.17 0.25 0.58 0.77 0.27 645 
+HH credit-to-GDP (3-year 
+change), real M3 (one-year 
+growth), RRE price-to-income 
+(gap 400,000), Debt-service ratio 
+0.80 0.49 0.17 0.34 0.41 0.32 1007 0.17 0.27 0.57 0.77 0.27 569 
+HH credit-to-GDP (gap), Bank 
+credit-to-GDP (two-year 
+change), RRE price-to-income 
+(gap), Debt-service ratio 
+0.82 0.50 0.18 0.32 0.39 0.33 1173 0.10 0.32 0.59 0.86 0.25 619 
+HH credit-to-GDP (3-year 
+change), Bank credit-to-GDP 
+(two-year change), RRE price-to-
+income (gap), real equity prices 
+(3-year growth) 
+0.81 0.50 0.20 0.30 0.38 0.34 1098 0.09 0.47 0.44 0.84 0.25 588 
+M3-to-GDP (3-year change), real 
+RRE prices (two-year growth), 
+real equity prices (3-year 
+growth) 
+0.81 0.53 0.19 0.28 0.35 0.27 1231 0.41 0.19 0.40 0.49 0.36 504 
+HH credit-to-GDP (gap), M3-to-
+GDP (3-year change), real RRE 
+prices (3-year growth), real 
+equity prices (3-year growth) 
+0.83 0.53 0.12 0.35 0.40 0.29 1005 0.40 0.08 0.52 0.57 0.34 490 
+HH credit-to-GDP (two-year 
+change), M3-to-GDP (3-year 
+change), real RRE prices (two-
+year growth), real equity prices 
+(3-year growth) 
+0.82 0.54 0.20 0.27 0.33 0.34 966 0.35 0.14 0.52 0.60 0.33 483 
+HH credit-to-GDP (two-year 
+change), M3-to-GDP (3-year 
+change), real RRE prices (3-year 
+growth), real equity prices (3-
+year growth) 
+0.83 0.54 0.15 0.32 0.37 0.32 973 0.33 0.16 0.51 0.61 0.33 482 
+HH credit-to-GDP (3-year 
+change), M3-to-GDP (3-year 
+change), real RRE prices (3-year 
+growth), real equity prices (3-
+year growth) 
+0.83 0.53 0.18 0.30 0.36 0.33 957 0.31 0.16 0.54 0.64 0.32 478 
+HH credit-to-GDP (3-year 
+change), real M3 (rel gap 
+26,000), real RRE prices (3-year 
+growth), real equity prices (3-
+year growth) 
+0.81 0.49 0.18 0.34 0.41 0.29 1027 0.31 0.30 0.39 0.56 0.32 545 
+HH credit-to-GDP (two-year 
+change), M3-to-GDP (3-year 
+change), real RRE prices (two-
+year growth), real equity prices 
+(3-year growth) 
+0.82 0.53 0.14 0.33 0.38 0.31 982 0.29 0.20 0.51 0.63 0.32 487 
+Real HH credit (3-year growth), 0.81 0.51 0.18 0.31 0.38 0.31 966 0.29 0.23 0.49 0.63 0.32 483 
+
+Occasional Paper Series No 194 / July 2017 42 
+ In-sample Out-of-sample 
+ AUROC 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+ -2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+Relative 
+usefulness 
+Type 
+I 
+error 
+rate 
+Type 
+II 
+error 
+rate 
+Noise  
+ -2-
+signal 
+ratio 
+Conditional 
+probability Obs 
+M3-to-GDP (3-year change), real 
+RRE prices (two-year growth), 
+real equity prices (3-year 
+growth) 
+HH credit-to-GDP (gap), real M3 
+(rel gap 26,000), RRE price-to-
+income (two-year change), Debt-
+service ratio 
+0.81 0.50 0.18 0.33 0.40 0.31 1081 0.27 0.26 0.46 0.63 0.30 628 
+Bank credit-to-GDP (one-year 
+change), RRE price-to-income 
+(gap), Debt-service ratio 
+0.82 0.49 0.18 0.33 0.41 0.29 1400 0.27 0.20 0.53 0.67 0.30 658 
+Bank credit-to-GDP (one-year 
+change), RRE price-to-income 
+(gap), real equity prices (3-year 
+growth) 
+0.82 0.56 0.13 0.31 0.36 0.31 1453 0.26 0.19 0.54 0.67 0.30 654 
+HH credit-to-GDP (3-year 
+change), real M3 (rel gap 
+26,000), RRE price-to-income 
+(gap), real equity prices (3-year 
+growth) 
+0.81 0.53 0.15 0.33 0.38 0.33 1032 0.25 0.29 0.46 0.64 0.31 580 
+Notes: All systemic crises according to the new dataset described in Section 3 are taken as the relevant set of events. Moreover, a prediction horizon of 12 to 5 quarters before 
+systemic crises is used to define the vulnerability periods for the early warning exercise. For definitions of the performance measures see Box 2. All performance measures, except 
+for the AUROC, are computed for balanced preferences between Type I and Type II errors, i.e. for a policy preference parameter of θ=0.5. The conditional probability is defined as 
+the share of true signals of a coming crisis, whenever the model issues a warning signal. 
+
+Occasional Paper Series No 194 / July 2017 43 
+5 Conclusions 
+This occasional paper has presented a new crises database for European countries. 
+It represents an important step towards establishing a common ground for 
+macroprudential oversight and policymaking in the European Union. The database 
+focuses on the delimitation of crisis periods to support the calibration of models in 
+macroprudential analysis. An important contribution of this work is that crises are 
+identified by combining a quantitative approach based on a financial stress index 
+with expert judgement from national and European authorities. In addition, key 
+innovations of the dataset are: (i) a distinction between crisis and post crisis 
+adjustment periods, (ii) the introduction of a broad set of non-exclusive categories to 
+classify events, and (iii) the inclusion of qualitative information about crises periods 
+and policy responses. The overall consistency of the dataset was checked on 
+several levels. First, the editing team ensured that the provided information was in 
+line with the agreed common guidelines, including definitions and criteria. Second, 
+the editing team checked that the overall picture provided by the dataset was 
+consistent across countries and over time. The dataset covers crises from 1970 until 
+2016, and offers a relatively rich set of information with a particular focus on the 
+delimitation of events and event descriptions, compared to existing crises datasets, 
+e.g. Detken et al. (2014), Babecký et al. (2012) and Laeven and Valencia (2013). 
+A preliminary assessment of the performance of standard early warning indicators in 
+the new crisis dataset confirms the finding in the early warning literature that 
+multivariate models can improve upon univariate signalling models. However, gap 
+variables are found to have slightly less information content for signalling systemic 
+events than more simple transformations, such as changes in ratios relative to GDP 
+or growth rates. 
+The dataset will allow researchers to analyse crises along several dimensions. 
+Potential questions for future research relate to the identification of early warning 
+indicators for the materialisation of different type of risks or in the presence of 
+different types of domestic and international imbalances; the determinants of 
+vulnerabilities to external shocks; an assessment of the impact of the post-crisis bias 
+by explicitly modelling the identified recovery periods after the end of the acute 
+phase of the crisis; the estimation of more complex models which describe the 
+transition across different cyclical phases; and an analysis of the determinants of the 
+length and intensity of crisis phases, differentiating between the acute phase of the 
+crisis and the recovery period. 
+
+Occasional Paper Series No 194 / July 2017 44 
+References 
+Alessi, L. and Detken, C. (2011), “Quasi real time early warning indicators for costly 
+asset price boom/bust cycles: A role for global liquidity”, European Journal of Political 
+Economy, Vol. 27, No 3, pp. 520-533. 
+Altavilla, C., Giannone, D. and Lenza, M. (2016), “The financial and macroeconomic 
+effects of the OMT announcements”, International Journal of Central Banking, Vol. 
+12, No 3, pp. 29-57. 
+Atlavilla, C., Carboni, G. and Motto, R. (2015), “Asset purchase programmes and 
+financial markets: Lessons from the euro area”, Working Paper Series, No 1864, 
+ECB, Frankfurt am Main, November. 
+Babecký, J., Havránek, T., Matějů, J., Rusnák, M., Šmídková, K. and Vašíček, B. 
+(2012), “Banking, debt and currency crises: Early warning indicators for developed 
+countries”, Working Paper Series, No 1485, ECB, Frankfurt am Main, October. 
+Backus, D. K. and Kehoe, P. J. (1992), “International evidence on the historical 
+properties of business cycles”, The American Economic Review, Vol. 82, No 4, pp. 
+864-888. 
+Beirne, J. and Fratzscher, M. (2013), “The pricing of sovereign risk and contagion 
+during the European sovereign debt crisis”, Journal of International Money and 
+Finance, Vol. 34, pp. 60-82. 
+Berg, A. and Pattillo, C. (2000), “Predicting currency crises: The indicators approach 
+and an alternative”. Journal of International Money and Finance, Vol. 18, No 4, pp. 
+561-586. 
+Berg, A., Borensztein, E. and Pattillo, C. (2004), “Assessing early warning systems: 
+How have they worked in practice?”, IMF Working Paper, No 04/52, Washington DC, 
+March. 
+Borio, C. and Lowe, P. (2002), “Asset prices, financial and monetary stability: 
+Exploring the nexus”, BIS Working Papers, No 114, Basel, July. 
+Borio, C. and Lowe, P. (2004), “Securing sustainable price stability: should credit 
+come back from the wilderness?”, BIS Working Papers, No 157, Basel, July. 
+Borio, C. and Drehmann, M. (2009), “Assessing the risk of banking crises – 
+revisited”, BIS Quarterly Review, pp. 29-46, March. 
+Bussière, M. and Fratzscher, M. (2006), “Towards a new early warning system of 
+financial crises”, Journal of International Money and Finance, Vol. 25, No 6, pp. 953-
+973. 
+Bussière, M. and Fratzscher, M. (2008), “Low probability, high impact: Policy making 
+and extreme events”, Journal of Policy Modeling, Vol. 30, No 1, pp. 111-121. 
+
+Occasional Paper Series No 194 / July 2017 45 
+De Grauwe, P. and Ji, Y. (2013), “Self-fulfilling crises in the eurozone: An empirical 
+test”, Journal of International Money and Finance, Vol. 34, pp. 15-36. 
+De Santis, R. A. (2012), “The euro area sovereign debt crisis: Safe haven, credit 
+rating agencies and the spread of the fever from Greece, Ireland and Portugal”, 
+Working Paper Series, No 1419, ECB, Frankfurt am Main, February. 
+Demirgüc-Kunt, A. and Detragiache, E. (2000), “Monitoring banking sector fragility: A 
+multivariate logit approach”, The World Bank Economic Review, Vol. 14, No 2, pp. 
+287-307, May. 
+Detken, C., Weeken, O., Alessi, L., Bonfim, D., Bouchina, M., Castro, C., Frontczak, 
+S., Giordana, G., Giese, J., Jahn, N., Kakes, J., Klaus, B., Lang, J.H., Puzanova, N. 
+and Welz, P. (2014), “Operationalising the countercyclical capital buffer: Indicator 
+selection, threshold identification and calibration options”, Occasional Paper Series, 
+No 5, ESRB, Frankfurt am Main, June. 
+Drehmann, M., Borio, C. and Tsatsaronis, K. (2011), “Anchoring countercyclical 
+capital buffers: The role of credit aggregates”, BIS Working Papers, No 355, Basel, 
+November. 
+Drehmann, M. and Juselius, M. (2014), “Evaluating early warning indicators of 
+banking crises: Satisfying policy requirements”, BIS Working Papers, No 421, Basel, 
+August. 
+Duprey, T., Klaus, B. and Peltonen, T. (2015), “Dating systemic financial stress 
+episodes in the EU countries”, Working Paper Series, No 1873, ECB, Frankfurt am 
+Main, December. 
+Edison, H.J. (2003), “Do indicators of financial crises work? An evaluation of an early 
+warning system”, International Journal of Finance and Economics, Vol. 8, No 1, pp. 
+11-53. 
+European Commission (2009a), “Economic crisis in Europe: Causes, consequences 
+and responses”, European Economy, No 7, Directorate-General for Economic and 
+Financial Affairs, Luxembourg, September. 
+European Commission (2009b), “The EU’s response to support the real economy 
+during the economic crisis: An overview of Member States’ recovery measures”, 
+European Economy Occasional Papers, No 51, Directorate-General for Economic 
+and Financial Affairs, Brussels, July. 
+Frankel, J. and Rose, A. (1996), “Currency crashes in emerging markets: An 
+empirical treatment”, Journal of International Economics, Vol. 41, No 3-4, pp. 351-
+366. 
+Fratzscher, M., Lo Duca, M. and Straub, R. (2016), “ECB unconventional monetary 
+policy: Market impact and international spillovers”, IMF Economic Review, Vol. 64, 
+No 1, May. 
+
+Occasional Paper Series No 194 / July 2017 46 
+Holló, D., Kremer, M. and Lo Duca, M. (2012), “CISS – A composite indicator of 
+systemic stress in the financial system”, Working Paper Series, No 1426, ECB, 
+Frankfurt am Main, March. 
+Jordà, O., Schularick, M. and Taylor, A.M. (2011), “Financial crises, credit booms, 
+and external imbalances: 140 years of lessons”, IMF Economic Review, Vol. 59, No 
+2, pp. 340-378. 
+Kaminsky, G. L. and Reinhart, C.M. (1999), “The twin crises: The causes of banking 
+and balance of payments problems”, The American Economic Review, Vol. 89, No 3, 
+pp. 473-500. 
+Laeven, L. and Valencia, F. (2008), “Systemic banking crises: A new database”, IMF 
+Working Paper, No 08/224, Washington DC, November. 
+Laeven, L. and Valencia, F. (2013), “Systemic banking crises database: An update”, 
+IMF Economic Review, Vol. 61, No 2, pp. 225-270. 
+Lo Duca, M. and Peltonen, T. (2013), “Assessing systemic risk and predicting 
+systemic events”, Journal of Banking and Finance, Vol. 37, No 7, pp. 2183-2195. 
+Reinhart, C.M. and Rogoff, K.S. (2008), “Is the 2007 US sub-prime financial crisis so 
+different? An international historical comparison”, The American Economic Review, 
+Vol. 98, No 2, pp. 339-344. 
+Reinhart, C.M. and Rogoff, K.S. (2009), “The aftermath of financial crises”, The 
+American Economic Review, Vol. 99, No 2, pp. 466-472. 
+Schularick, M. and Taylor, A.M. (2011), “Credit booms gone bust: Monetary policy, 
+leverage cycles and financial crises, 1870-2008”, The American Economic Review, 
+Vol.102, No 2, pp. 1029-1061. 
+Tölö, E., Laakkonen, H. and Kalatie, S. (forthcoming), “Evaluating indicators for use 
+in setting the countercyclical capital buffer”, International Journal of Central Banking. 
+Van Riet, A. (2014), “Euro area fiscal policies and the crisis”, Occasional Paper 
+Series, No 109, ECB, Frankfurt am Main, April. 
+
+Occasional Paper Series No 194 / July 2017 47 
+Annex A 
+Fields of the crises database 
+The crisis dataset is enclosed in an excel file with the fields listed below. The 
+systemic crises and the residual events are reported in separate spreadsheets of the 
+excel file containing the crisis dataset. The fields in the spreadsheets are the same. 
+Country 
+The country where the event took place. Format: two-letter ISO country code (for 
+example Germany is DE). 
+Event 
+Event number for each event in one country (starting from 1, first event in time). 
+Events marked with L&V are imported from Laeven and Valencia (2008 and 2013). 
+Format: text/number. 
+Start date 
+Date when the event started. Please refer to the description in Section 2. Format: 
+date (YYYY-MM). 
+End of crisis management date 
+Date when the acute phase of the event ended. Please refer to the description in 
+Section 2. Format: date (YYYY-MM). 
+System “back to normal” date 
+Date when the macro-financial environment had recovered from the event. Please 
+refer to the description in Section 2. Format: date (YYYY-MM). 
+Systemic crisis 
+Indication as to whether the event is systemic according to the guidelines provided 
+(see the main text for details). A crisis is considered systemic when it fulfils the 
+criteria listed in Section 2. Format: number, 0 (not systemic) or 1 (systemic). 
+Accelerator and motivation 
+Indicator of one or more of the five ESRB intermediate macroprudential objectives 
+(excessive credit growth and leverage, mismatches and market illiquidity, exposure 
+concentration, misaligned incentives, infrastructure resilience) – see the 
+Recommendation of the ESRB of 4 April 2013 on intermediate objectives and 
+instruments of macroprudential policy (ESRB/2013/1) (OJ 2013/C 170/01). Format: 
+text. 
+Brief description of the identified event 
+Brief description of the event. For systemic crises it also includes (i) information on 
+the choice of the starting date of the event (when the latter differs from the date 
+identified with the financial stress index) and (ii) information on the choice of the end 
+date of the event (if not evident from the “Crisis management policies” field). Format: 
+text. 
+
+Occasional Paper Series No 194 / July 2017 48 
+Crisis management policies 
+Description of crisis management policies. For systemic crises it may include 
+information on the choice of the end date of the event. Format: text. 
+External support 
+Indication as to whether crisis management was externally supported by parties from 
+outside of the domestic economy (for example, the IMF). Format: number: 0 (no 
+external support) or 1 (external support). 
+Domestic vs imported 
+Indication as to whether the event originated in the domestic economy or abroad. 
+Format: number 0 (domestic), 1 (abroad) or 2 (both). 
+Date of the first default 
+Date when the first of from the following occurred: default, debt restructuring, 
+recapitalisation, partial nationalisation, merger or acquisition of a systemic player in 
+financial distress. Systemic player in financial distress can be considered one of 
+following types: bank, other financial corporation, non-financial corporation, 
+sovereign, other systematically important institution. 
+Format: date (YYYY-MM)/ text. 
+Currency / BoP / capital flow 
+When the dummy “currency / BoP / capital flow” is equal to 1, it indicates that the 
+adjustment of the external position of one country was one of the symptoms of the 
+event (at least during part of the crisis). The “activation” of this dummy does not 
+exclude the “activation” of other categories. Format: number, 0 (no) or 1 (yes). 
+Sovereign 
+When the dummy “Sovereign” is equal to 1, it indicates that the emergence of 
+sovereign risk was one of the symptoms of the event (at least during part of the 
+crisis). The “activation” of this dummy does not exclude the “activation” of other 
+categories. Format: number, 0 (no) or 1 (yes). 
+Banking 
+When the dummy “Banking” is equal to 1, it indicates that the emergence of credit or 
+liquidity risk in the banking sector was one of the symptoms of the event (at least 
+during part of the crisis). The “activation” of this dummy does not exclude the 
+“activation” of other categories. Format: number, 0 (no) or 1 (yes). 
+Significant asset price correction 
+The dummy is set to 1 when during the event under review a significant asset price 
+correction took place in equity, bond, currency or real estate markets, according to 
+the view of NAs. To ensure cross-consistency, this dummy is normally set to 1 for all 
+events that are linked to the recent financial crises. The “activation” of this dummy 
+does not exclude the “activation” of other categories. Format: number, 0 (no) or 1 
+(yes). 
+Transition 
+The dataset contains a number of events that are marked as “transition” events. This 
+
+Occasional Paper Series No 194 / July 2017 49 
+concerns a number of events in central and eastern European countries in the 
+1990s. Transition events relate to the transformation from centrally-planned 
+economies to market-based economies which also involved complex privatisation 
+processes. The transformation often resulted in profound economic changes as 
+entire economic sectors proved unprofitable, changes in institutions, changes in 
+broad terms and changes in the functioning and governance of the financial system. 
+This often caused the recognition of bank losses, closure of non-viable institutions, 
+assisted mergers, bankruptcies and crisis management interventions. The 
+“activation” of this dummy does not exclude the “activation” of other event 
+categories. Format: number, 0 (no) or 1 (yes). 
+Macropru relevant 
+This field is relevant only for residual episodes of financial stress. Macroprudential 
+relevance indicates whether the NAs believe that the identified residual event was 
+severe enough for consideration in the dataset, although the event does not fulfil the 
+specified criteria for systemic crises. This could be the case when (i) financial turmoil 
+persisted for at least some months, (ii) financial turmoil is perceived to have caused 
+or amplified some negative macroeconomic outcomes, (iii) some non-systemic 
+financial intermediaries experienced distress, and/or (iv) according to the NA’s 
+macroprudential policy, tools could have been used for attenuating the impact of the 
+event. This is when the event was associated with vulnerabilities that could have 
+been addressed by macroprudential policy instruments, if available. By default, this 
+variable is set to 1 to for systemic crises.
+ 44 Format: 0 (no) or 1 (yes). 
+Macropru relevance explanation 
+Explanation of the choice for the dummy “Macropru relevant” when it is set to 0 (i.e. 
+not relevant). Format: text. 
+ 
+44  It is assumed that systemic crises are, by definition, relevant for macroprudential policy analysis. The 
+only exceptions are some crises episodes related to the transition to market -based economies in some 
+central and eastern European countries. 
+
+Occasional Paper Series No 194 / July 2017 50 
+Annex B 
+Comparison of loss distribution and 
+computational details 
+Annex B provides more detail on the underlying computational methods and 
+presents choices for the comparison of output losses and increases in government 
+debt as presented in Section 5.3. 
+Chart B1 
+Comparison of loss distribution across systemic crises for the three selected 
+approaches towards end-date selection 
+Loss distribution by chosen approach  
+(x-axis, output loss estimate, percentages; y-axis, kernel density estimate) 
+ 
+Sources: World Bank and ECB ESRB calculations. 
+0 2 4 6 8 10density
+-10% 10% 20% 30%
+output loss (%)
+approach 1: end of acute phase
+approach 2: end of recovery phase
+approach 3: end of three years after crisis start (as in Laeven & Valencia)
+
+Occasional Paper Series No 194 / July 2017 51 
+Table B1 
+Three methods deliver relatively close estimates of output losses  
+Output loss for three selected approaches towards selection of crisis end -date, loss 
+distribution by chosen approach  
+Crisis type 
+Output loss as % of GDP, end of 
+acute phase 
+Output loss as % of GDP, end of 
+recovery phase 
+Output loss as % of GDP, crisis 
+end three years after crisis start 
+(as in Laeven and Valencia, 2013) 
+Mean Median Skewness Mean Median Skewness Mean Median Skewness 
+Total 8% 6% 1.07 9% 7% 1.13 8% 7% 1.35 
+Currency 9% 7% 0.96 9% 7% 1.06 9% 7% 1.20 
+Sovereign 12% 12% 0.50 11% 12% 0.62 11% 11% 0.91 
+Banking 9% 7% 1.02 9% 8% 1.10 9% 7% 1.27 
+Asset price 
+correction 9% 7% 0.93 9% 8% 0.99 9% 7% 1.22 
+External 
+origination 6% 5% 0.76 6% 5% 0.61 8% 7% 0.56 
+Domestic 
+and external 
+origination 11% 10% 0.58 11% 9% 0.66 11% 8% 0.89 
+Source: ECB ESRB calculations. 
+The general approach for calculating output loss follows the method applied in 
+Laeven and Valencia (2013), and is based on computing the cumulative difference 
+between trend and observed GDP over the crisis period. In order to test the 
+robustness of the calculated results, the computation includes, on one hand, three 
+different approaches for selecting the end-date for the time window over which the 
+loss is calculated, and, on the other hand, two different approaches for selecting the 
+formula used for calculation. This yields a total of six sets of results. 
+The time window for computing the potential output loss can be determined by each 
+of the following dates, the first of which represents the baseline scenario presented 
+in the main analysis in Section 3: 
+• end of acute crisis phase, i.e. the end of crisis management policies (please 
+refer to Section 2.3.2) 
+• end of recovery period, i.e. the date by which the system is back to normal 
+(please refer to Section 2.3.3) 
+• a general time window of three years following the start of a crisis which is in 
+line with the approach chosen by Laeven and Valencia (2013). 
+Furthermore, the absolute output losses are put in relation to both the trend GDP 
+and the observed GDP: 
+𝐺𝐺𝐺𝐺𝐺𝐺_𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡−𝐺𝐺𝐺𝐺𝐺𝐺_𝑜𝑜𝑜𝑜𝑜𝑜𝑡𝑡𝑡𝑡𝑜𝑜𝑡𝑡𝑡𝑡
+𝐺𝐺𝐺𝐺𝐺𝐺_𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡
+ × 100 (1) 
+ 
+𝐺𝐺𝐺𝐺𝐺𝐺_𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡𝑡−𝐺𝐺𝐺𝐺𝐺𝐺_𝑜𝑜𝑜𝑜𝑜𝑜𝑡𝑡𝑡𝑡𝑜𝑜𝑡𝑡𝑡𝑡
+𝐺𝐺𝐺𝐺𝐺𝐺_𝑜𝑜𝑜𝑜𝑜𝑜𝑡𝑡𝑡𝑡𝑜𝑜𝑡𝑡𝑡𝑡  × 100 (2) 
+
+Occasional Paper Series No 194 / July 2017 52 
+With regard to the estimation of the GDP trend, this paper uses a Hodrick-Prescott 
+filter with a smoothing parameter (λ) of 100, an approach widely used in the 
+literature45 for annual data and also applied in Laeven and Valencia (2013). The time 
+window is set to ten years, due to limited data availability. For three crisis events in 
+central and eastern European countries (BG 1996, CZ 1997, RO 1996), the starting 
+year of the trend estimation window was fixed at 1992, due to unique nature of GDP 
+developments related to the economic transition process in the early 1990s. 
+GDP data is gathered from the World Bank using its World Development Indices. 
+The data is provided at market prices in constant 2010 US dollars. The following 
+events are not covered by this source: EE 1992, EE 1994, HU 1991, LT 1995, LV 
+1995, PL 1981, RO 1981, SI 1991. 
+The debt-to-GDP data refers to the general government consolidated gross debt as 
+a share of GDP. Data from European Commission’s AMECO is mainly used for this 
+series except for Croatia and Norway, for which the IMF’s World Economic Outlook 
+was used. 
+ 
+45  For example, see Backus and Kehoe (1992).  
+
+Occasional Paper Series No 194 / July 2017 53 
+Annex C 
+Overview crises database and 
+comparison with Laeven and Valencia 
+(2008 and 2013) per country 
+Annex C provides an overview of all the identified systemic crises and residual 
+events in Tables C.1 and C.2. It follows an illustration in Table C.3 of this dataset 
+compared with the one by Laeven and Valencia (2008 and 2013). 
+Table C1 
+Overview of systemic crises in the database 
+(crises risk materialisation dummy abbreviations: C = currency/BoP/capital flow; S = sovereign; B = banking; AP = significant asset 
+price correction; T = transition; MP = macroprudential relevance) 
+Country Event 
+Start 
+date 
+End of crisis 
+management date 
+System “back 
+normal” date 
+Systemic 
+crises 
+Domestic vs 
+imported C S B AP T MP 
+AT 1 2007-12 2016-04 ongoing 1 2 0 0 1 1 0 1 
+BE 1 2007-11 2012-12 ongoing 1 1 0 0 1 1 0 1 
+BG 1 1996-05 1997-07 1997-07 1 0 1 1 1 0 1 0 
+CY 1 2000-01 2001-03 2001-03 1 0 0 0 0 1 0 1 
+CY 2 2011-06 2016-03 ongoing 1 2 1 1 1 1 0 1 
+CZ 1 1997-05 2000-06 1999-01 1 1 1 0 1 0 1 1 
+DE 1 1974-06 1974-11 1975-08 1 0 0 0 1 0 0 1 
+DE 2 2001-01 2003-11 2004-12 1 0 0 0 1 1 0 1 
+DE 3 2007-08 2013-06 ongoing 1 1 0 0 1 1 0 1 
+DK 1 1987-03 1995-01 1995-01 1 2 1 0 1 1 0 1 
+DK 2 2008-01 2013-12 2013-12 1 2 0 0 1 1 0 1 
+EE 1 1992-11 1993-03 1994-01 1 1 0 0 1 0 1 1 
+EE 2 1994-08 1994-09 1995-03 1 1 0 0 1 0 1 1 
+EE 3 1998-06 1998-10 1999-04 1 2 0 0 1 0 0 1 
+ES 1 1978-01 1985-09 1985-09 1 2 0 0 1 1 0 1 
+ES 2 2009-03 2013-12 ongoing 1 2 1 1 1 1 0 1 
+FI 1 1991-09 1996-12 1998-12 1 2 1 0 1 1 0 1 
+FR 1 1991-06 1995-03 1999-06 1 0 1 0 1 1 0 1 
+FR 2 2008-04 2009-11 ongoing 1 0 0 0 1 1 0 1 
+GR 1 2010-05 ongoing ongoing 1 2 1 1 1 1 0 1 
+HR 1 1998-04 2000-01 2001-07 1 0 0 0 1 0 1 1 
+HR 2 2007-09 2012-06 ongoing 1 2 1 1 1 1 0 1 
+HU 1 1991-01 1995-12 1996-12 1 0 1 0 1 0 1 0 
+HU 2 2008-09 2010-08 2010-08 1 1 1 0 1 1 0 1 
+IE 1 2008-09 2013-12 ongoing 1 2 1 1 1 1 0 1 
+IT 1 1991-09 1997-12 1997-12 1 1 1 1 1 0 0 1 
+IT 2 2011-08 2013-12 ongoing 1 2 1 1 1 1 0 1 
+LT 1 1995-01 1996-12 1996-12 1 1 0 0 1 0 1 0 
+
+Occasional Paper Series No 194 / July 2017 54 
+Country Event 
+Start 
+date 
+End of crisis 
+management date 
+System “back 
+normal” date 
+Systemic 
+crises 
+Domestic vs 
+imported C S B AP T MP 
+LT 2 2008-12 2009-11 ongoing 1 2 0 0 1 1 0 1 
+LU 1 2008-01 2010-10 ongoing 1 1 0 0 1 1 0 1 
+LV 1 1995-05 1996-06 1996-06 1 0 0 0 1 0 1 0 
+LV 2 2008-11 2010-08 ongoing 1 2 1 0 1 1 0 1 
+NL 1 2008-01 2013-02 ongoing 1 2 0 0 1 1 0 1 
+NO 1 1988-09 1993-11 1994-05 1 0 1 0 1 1 0 1 
+NO 2 2008-09 2009-10 2009-10 1 1 1 0 1 1 0 1 
+PL 1 1981-03 1994-10 1994-10 1 2 1 1 0 0 1 1 
+PL 2 1992-01 1994-12 1996-12 1 0 0 0 1 0 1 1 
+PT 1 1983-02 1985-03 1985-03 1 1 1 1 0 0 0 1 
+PT 2 2008-10 2015-12 ongoing 1 2 1 1 1 1 0 1 
+RO 1 1981-11 1989-12 1989-12 1 2 0 1 0 0 0 1 
+RO 2 1996-01 2000-12 2000-12 1 0 1 1 1 0 1 1 
+RO 3 2007-11 2010-08 2010-08 1 2 1 0 0 1 0 1 
+SE 1 1991-01 1997-06 1997-06 1 2 1 0 1 1 0 1 
+SE 2 2008-09 2010-10 ongoing 1 1 0 0 1 1 0 1 
+SI 1 1991-06 1994-07 1994-02 1 2 0 0 1 0 1 1 
+SI 2 2009-12 2014-12 ongoing 1 2 0 1 1 1 0 1 
+SK 1 1997-12 2002-04 2002-04 1 1 0 0 1 0 1 1 
+UK 1 1973-11 1975-12 1977-08 1 0 1 0 1 0 0 1 
+UK 2 1991-07 1994-04 1994-04 1 0 1 0 1 1 0 1 
+UK 3 2007-08 2010-01 ongoing 1 2 0 0 1 1 0 1 
+Note: Section 2 and Annex A provide detailed field explanations. 
+Table C2 
+Overview of residual events (episodes of elevated financial stress) in the database 
+(crises risk materialisation dummy abbreviations: C = currency/BoP/capital flow; S = sovereign; B = banking; AP = significant asset 
+price correction; T = transition; MP = macroprudential relevance) 
+Country Event 
+Start 
+date 
+End of crisis 
+management date 
+System “back 
+normal” date 
+Systemic 
+crisis 
+Domestic 
+vs imported C S B AP T MP 
+AT 1 1973-09 1975-09 NA 0 1 0 0 0 1 0 0 
+AT 2 1981-02 1983-05 NA 0 1 0 0 0 1 0 0 
+AT 3 1991-03 1993-09 NA 0 1 1 0 0 0 0 0 
+BE 1 1990-08 1993-11 1993-11 0 NA 1 0 0 1 0 1 
+BG 1 2007-12 2011-02 NA 0 1 0 0 0 1 0 0 
+CZ 1 2007-08 2010-08 NA 0 1 0 0 0 1 0 1 
+DE 1 1980-03 1982-03 NA 0 NA 0 0 0 1 0 0 
+DE 2 1992-07 1994-10 NA 0 NA 0 0 0 0 1 0 
+DK 1 1974-06 1975-01 1975-01 0 0 0 0 0 1 0 0 
+DK 2 1978-07 1981-03 1981-03 0 0 0 0 0 1 0 0 
+EE 1 2009-01 2010-04 2010-04 0 2 0 0 1 1 0 1 
+ES 1 1993-09 1994-09 1994-09 0 1 1 0 1 0 0 1 
+FI 1 1975-01 1979-02 1979-02 0 0 1 0 0 1 0 0 
+FI 2 2001-03 2001-11 2001-11 0 0 0 0 0 1 0 0 
+FI 3 2008-12 2010-09 ongoing 0 NA 0 0 0 1 0 1 
+FR 1 1973-12 1978-07 NA 0 NA 0 0 0 1 0 0 
+
+Occasional Paper Series No 194 / July 2017 55 
+FR 2 1981-01 1983-04 1983-04 0 1 1 0 0 0 0 0 
+FR 3 2002-07 2003-08 2003-08 0 0 0 0 0 1 0 0 
+FR 4 2011-03 2013-10 ongoing 0 0 0 0 1 1 0 0 
+GR 1 1983-01 NA NA 0 NA 1 0 0 0 0 0 
+GR 2 1993-01 1994-03 NA 0 NA 1 0 0 0 0 0 
+IT 1 1973-07 1979-01 NA 0 NA 1 0 0 1 0 0 
+IT 2 1981-07 1983-06 NA 0 NA 1 0 0 1 0 0 
+IT 3 2008-01 2011-08 ongoing 0 NA 0 0 0 1 0 1 
+LT 1 1992-01 1993-06 NA 0 NA 1 0 0 0 1 0 
+LT 2 1999-01 1999-12 1999-12 0 0 0 0 1 0 0 1 
+LV 1 1992-01 1993-03 NA 0 NA 0 0 0 0 1 0 
+LV 2 1998-08 1999-03 1999-03 0 2 0 0 1 0 0 1 
+MT 1 2009-08 2012-11 2012-11 0 NA 0 0 0 1 0 1 
+NL 1 1973-09 1975-12 NA 0 2 0 0 0 1 0 0 
+NL 2 1980-03 1983-09 1985-01 0 2 0 0 1 1 0 1 
+NL 3 2002-06 2004-08 NA 0 NA 0 0 0 1 0 1 
+NO 1 2002-10 2003-10 2003-10 0 0 0 0 1 0 0 0 
+PL 1 2007-08 2009-11 NA 0 NA 0 0 0 1 0 1 
+PT 1 1977-06 1978-12 1979-07 0 0 1 1 0 0 0 0 
+PT 2 1992-04 1995-03 1995-03 0 0 1 0 0 0 0 0 
+RO 1 1990-01 1992-12 NA 0 0 0 0 1 0 1 0 
+SE 1 1974-09 1975-11 NA 0 1 1 0 0 0 0 1 
+SE 2 1976-10 1976-10 1979-03 0 1 1 0 0 1 0 1 
+SE 3 1980-01 1983-08 NA 0 1 1 0 0 0 0 1 
+SE 4 2000-10 2001-10 2001-10 0 2 0 0 0 1 0 1 
+SK 1 2009-01 2010-09 2010-09 0 2 0 0 1 1 0 1 
+UK 1 1979-03 1981-12 1981-12 0 0 1 1 0 0 0 0 
+Note: Section 2 and Annex A provide detailed field explanations. 
+Table C3 
+Comparison with Laeven and Valencia (2008 and 2013) per country 
+Frequency and subcategories of identified events  
+ 
+Note: The colours illustrate the types of risk which materialise during an episode of financial stress, but do not provide any time-
+relevant information. 
+ 
+systemic residual
+Complex crisis: multiple crises types
+Banking crisis
+Currency crisis / BoP / capital flow
+Sovereign debt crisis
+Significant asset price correction
+Transition
+For crisis events of Laeven and Valencia that were described as ongoing in 2013 (latest update)
+pattern pattern
+Not relevant for macroprudential analysis
+
+Occasional Paper Series No 194 / July 2017 56 
+ 
+LV LV LV LV LV LV LV LV LV LV LV
+1970
+1971
+1972
+1973 1973-09 1973-12
+1974 1974-06 1974-06
+1975 1975-09
+08 1975-01 1975-01
+1976
+1977 1977
+1978 1978-07 1978-01 1978-07
+1979 1979-02
+1980 1980-03
+1981 1981-02 1981-03 1981 1981-01
+1982 1982-03
+1983 1983-05 1983 1983-04 1983-01 1983
+1984
+1985 1985-09
+1986
+1987 1987-03
+1988
+1989
+1990 1990-08 1990
+1991 1991-03 1991-09 1991 1991-06 1991-01 1991
+1992 1992-07 1992-11 1992
+1993 1993-09 1993-11 1993-03 1993-09 1993 1993-01
+1994 1994-10
+  
+1994-08 / 1994 1994-04 1994-03
+1995 1995-01 1995-03 1995 1995-03 1995-12 1995
+1996 1996-05 1996 1996 1996-12 1996-12
+1997 1997-07 1997 1997-05
+1998 1998-06 - 1998-10 1998-12 1998-04 1998
+1999 2000-06 1999-04 1999-06 1999
+2000 2000-01 2000 2000-01
+2001 2001-03 2001-01 2001-03 - 2001-11 2001-07
+2002 2002-07
+2003 2003-11 2003-08
+2004 2004-12
+2005
+2006
+2007 2007-12 2007-11 2007-12 2007-08 2007-08 2007-09
+2008 2008 2008 2008 2008-01 2008 2008 2008-12 2008-04 2008 2008 2008-09 2008
+2009 2009-01 2009-03 2009-11
+2010 2010-08 2010-04 2010-09 2010-05 2010-08
+2011 2011-02 2011-06 2011-03
+2012 2012-12 2012-06
+2013 2013-06 2013-12 2013-12 2013-12
+2014
+2015
+2016 2016-04 2016-03
+2017 ongoing ongoing ongoing ongoing ongoing ongoing ongoing ongoing ongoing
+Year
+Austria Belgium Bulgaria Cyprus
+ECB ESRB ECB ESRB ECB ESRB LV ECB ESRB
+Greece Croatia HungaryFranceCzech Republic Germany Denmark Estonia Spain Finland
+ECB ESRB ECB ESRB ECB ESRB ECB ESRB LV ECB ESRB ECB ESRB LV ECB ESRB ECB ESRB ECB ESRB ECB ESRB
+
+Occasional Paper Series No 194 / July 2017 57 
+ 
+ 
+LV LV LV LV LV ECB ESRB LV LV LV LV LV LV LV LV LV LV
+1970
+1971
+1972
+1973 1973-07 1973-09 1973-11
+1974 1974-09
+1975 1975-12 1975-11 1975-12
+1976 1976-10
+1977 1977-06
+1978 1978
+1979 1979-01 1979 1979-03 1979-03
+1980 1980-03 1980-01 1981-12
+1981 1981-07 1981 1981-03 1981
+1982 1982-01 1982
+1983 1983-06 1983-09 1983-02 1983 1983-08
+1984
+1985 1985-01 1985-03
+1986
+1987
+1988 1988-09
+1989 1989-12
+1990 1990-12 1990
+1991 1991-09 1991 1991-01 1991 1991-06 1991-07
+1992 1992-01 1992 1992-01 1992 1992-01 1992 1992-04 1992 1992
+1993 1993-06 1993-03 1993-11 1993 1993
+1994 1994-05
+1994-10 | 1994-121994 1994-02 1994-04
+1995 1995-01 1995 1995-05 1995 1995-03 1995
+1996 1996-12 1996 1996-06 1996 1996-01 1996-01 1996
+1997 1997-12 1997-06 1997-12
+1998 1998-08 1998
+1999 1999-
+  
+1999-03
+2000 2000-12 2000-10
+2001 2001-10
+2002 2002-06 2002-10 2002-04 2002
+2003 2003-10
+2004 2004-06
+2005
+2006
+2007 2007-08 2007-11 2007-08 2007
+2008 2008-09 2008 2008-01 2008 2008-12 2008-01 2008 2008-11 2008 2008-01 2008 2008-09 2008-10 2008 2008-09 2008 2008
+2009 2009-11 2009-08 2009-10 2009-11 2009-12 2009-01
+2010 2010-10 2010-08 2010-10 2010-09 2010-01
+2011 2011-08 | 2011-08 2010-08
+2012 2012-11
+2013 2013-12 2013-12 2013-02
+2014 2014-12
+2015
+2016
+2017 ongoing ongoing ongoing ongoing ongoing ongoing ongoing ongoing ongoing ongoing
+Year
+Sweden Slovenia Slovakia United KingdomLuxembourg Latvia Malta Netherlands Poland PortugalIreland RomaniaItaly Lithuania Norway
+ECB ESRB ECB ESRB ECB ESRB ECB ESRB ECB ESRB ECB ESRB ECB ESRB ECB ESRB ECB ESRBECB ESRB ECB ESRB ECB ESRB ECB ESRB ECB ESRB
+
+Occasional Paper Series No 194 / July 2017 58 
+Abbreviations 
+Countries 
+BE Belgium 
+BG Bulgaria 
+CZ  Czech Republic  
+DK  Denmark  
+DE  Germany  
+EE  Estonia  
+IE  Ireland  
+GR  Greece  
+ES  Spain 
+FR  France 
+HR Croatia  
+IT  Italy 
+CY  Cyprus 
+LV  Latvia 
+LT  Lithuania 
+LU  Luxembourg 
+HU  Hungary 
+MT  Malta 
+NL  Netherlands 
+AT Austria  
+PL  Poland 
+PT  Portugal 
+RO  Romania 
+SI  Slovenia 
+SK  Slovakia 
+FI  Finland  
+SE  Sweden 
+UK  United Kingdom 
+US  United States 
+ 
+In accordance with EU practice, the EU Member States are listed in this report using the alphabetical order of the country na mes in the 
+national languages. 
+ 
+Others 
+BIS  Bank for International Settlements 
+ECB  European Central Bank 
+ERM  exchange rate mechanism 
+ESCB  European System of Central Banks  
+ESRB  European Systemic Risk Board 
+EU  European Union 
+EUR  euro 
+GDP  gross domestic product 
+IMF  International Monetary Fund 
+NA National Authority 
+NCA National Competent Authority  
+NCB  National Central Bank 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+Conventions used in the tables  
+“-” data do not exist/data are not applicable  
+“.” data are not yet available 
+ 
+ 
+
+ 
+Acknowledgements 
+ 
+Marco Lo Duca 
+European Central Bank, Frankfurt am Main, Germany; email: marco.lo_duca@ecb.europa.eu  
+ 
+Anne Koban 
+European Central Bank, Frankfurt am Main, Germany; email: anne.koban@ecb.europa.eu  
+ 
+Marisa Basten 
+ESRB Secretariat; email: marisa.basten@ecb.europa.eu 
+ 
+Elias Bengtsson 
+ESRB Secretariat; email: elias.bengtsson@ecb.europa.eu  
+ 
+Benjamin Klaus 
+European Central Bank, Frankfurt am Main, Germany; email: benjamin.klaus@ecb.europa.eu  
+ 
+Piotr Kusmierczyk 
+ESRB Secretariat; email: piotr_kornel.kusmerczyk@ecb.europa.eu  
+ 
+Jan Hannes Lang 
+European Central Bank, Frankfurt am Main, Germany; email:  jan-hannes.lang@ecb.europa.eu  
+ 
+Carsten Detken 
+European Central Bank, Frankfurt am Main, Germany; email: carsten.detken@ecb.europa.eu  
+ 
+Tuomas Peltonen 
+ESRB Secretariat; email: tuomas.peltonen@ecb.europa.eu  
+ 
+The 2021 update of the financial crises database and the revision of the “back to normal” date definition have been conducted by: 
+ 
+Ludivine Berret 
+ESRB Secretariat, email: ludivine.berret@ecb.europa.eu  
+ 
+Frederik Ledoux 
+ESRB Secretariat, email: frits.ledoux@ecb.europa.eu  
+  
+
+ 
+This paper and the crises database have benefited from contributions from MPAG and AWG me mbers and further contributors.  
+ 
+Sampo Tapio Alhonsuo 
+ESRB Secretariat 
+Ayman el-Dahrawy 
+ESRB Secretariat 
+Peter Sarlin 
+European Central Bank, Frankfurt am Main, Germany  
+Alexandre Francart 
+Nationale Bank van België/Banque Nationale de Belgique 
+Mara Pirovano 
+Nationale Bank van België/Banque Nationale de Belgique 
+Thomas Schepens 
+Nationale Bank van België/Banque Nationale de Belgique 
+Mihail Mihaylov 
+Българска народна банка (Bulgarian National Bank) 
+Silvia Prokopieva 
+Българска народна банка (Bulgarian National Bank) 
+Kalina Hadjinedelcheva 
+Bulgarian Financial Supervision Commission  
+Hana Hejlová 
+Česká národní banka 
+Miroslav Plašil 
+Česká národní banka 
+Theis Jørgensen 
+Danmarks Nationalbank 
+Ianna Georgieva Yordanova 
+Danmarks Nationalbank 
+Frank Heid 
+Deutsche Bundesbank 
+Sebastian Wider 
+Deutsche Bundesbank 
+Peer Osthoff 
+Bundesanstalt für Finanzdienstleistungsaufsicht (German Federal 
+Financial Supervisory Authority) 
+Taavi Raudsaar 
+Eesti Pank 
+Mari Tamm 
+Eesti Pank 
+Siim Rahu 
+Finantsinspektsioon (Estonian Financial  Supervisory Authority) 
+Martin O’Brien 
+Central Bank of Ireland 
+Maria Woods 
+Central Bank of Ireland 
+Vicky Nidrioti 
+Bank of Greece 
+Javier Mencia 
+Banco de España 
+Julien Idier 
+Banque de France 
+Stéphanie Tristram 
+Banque de France 
+Emmanuel Point 
+Banque de France Autorité de contrôle prudentiel et de resolution 
+(French Prudential Supervision and Resolution Authority)  
+Véronique Janod 
+Autorité des marchés financiers (AMF)  
+Ivana Herceg 
+Hrvatska narodna banka 
+Alessio De Vincenzo 
+Banca d’Italia 
+Stefano Neri 
+Banca d’Italia 
+Constantinos Trikoupis 
+Central Bank of Cyprus 
+Anna Kasjanova 
+Latvijas Banka 
+Olga Lielkalne 
+Latvijas Banka 
+Irina Ivanova 
+Finanšu un kapitāla tirgus komisija  (Latvian Financial and Capital 
+Market Commission) 
+Andrius Škarnulis 
+Lietuvos Bankas 
+John Theal  
+Banque centrale du Luxembourg  
+Jean-Francois Carpantier 
+Commission de Surveillance du Secteur Financier 
+(Luxembourgish Financial Sector Supervisory Commission ) 
+Louay Kheder  
+Commission de Surveillance du Secteur Financier 
+(Luxembourgish Financial Sector Supervisory Commission)  
+Istvan Papp 
+Magyar Nemzeti Bank 
+Wendy Zammit 
+Central Bank of Malta 
+Ian Buttigieg 
+Malta Financial Service Authority 
+Shahin Kamalodin 
+De Nederlandsche Bank 
+Remco Van der Molen 
+De Nederlandsche Bank 
+Gernot Ebner 
+Oesterreichische Nationalbank  
+Eleonora Endlich 
+Oesterreichische Nationalbank  
+Timo Broszeit 
+Finanzmarktaufsicht (Austrian Financial Market Authority)  
+Alice Mladenka 
+Finanzmarktaufsicht (Austrian Financial Market Auth ority) 
+Adam Głogowski 
+Narodowy Bank Polski 
+
+ 
+João Oliveira 
+Banco de Portugal 
+Ana Pereira  
+Banco de Portugal 
+Ana Ramos Estrela 
+Banco de Portugal 
+César Henriques 
+Autoridade de Supervisão de Seguros e Fundos de Pensões 
+(Portuguese Insurance and Pension Funds Supervisory Authority)  
+Irina Mihai 
+Banca Naţională a României 
+Marius-Cristian Acatrinei 
+Autoritatea de Supraveghere Financiară (Romanian Financial 
+Supervisory Authority) 
+Eveline Turturescu  
+Autoritatea de Supraveghere Financiară (Romanian Financial 
+Supervisory Authority) 
+Meta Ahtik 
+Banka Slovenije 
+Vidosava Bukatarević 
+Banka Slovenije 
+Ján Klacso   
+Národná banka Slovenska 
+Paavo Miettinen 
+Suomen Pankki – Finlands Bank 
+Mervi Toivanen 
+Finanssivalvonta (Finnish Financial Supervisory Authority)  
+David Farelius 
+Sveriges Riksbank 
+Roland Nilsson 
+Finansinspektionen (Swedish Financial Supervisory Authority) 
+Heleen Hofmans 
+Bank of England 
+Katrine Godding Boye 
+Norges Bank 
+Bent Vale 
+Norges Bank 
+ 
+ 
+© European Central Bank, 2017 
+Postal address 60640 Frankfurt am Main, Germany  
+Telephone +49 69 1344 0 
+Website www.ecb.europa.eu 
+All rights reserved. Any reproduction, publication and reprint in the form of a different publication, whether printed or produced 
+electronically, in whole or in part, is permitted only with the expl icit written authorisation of the ECB or the authors.  
+This paper can be downloaded without charge from www.ecb.europa.eu, from the Social Science Research Network electronic library  or 
+from RePEc: Research Papers in Economics . Information on all of the papers published in the ECB Occasional Paper Series can be 
+found on the ECB’s website 
+ISSN  1725-6534 (pdf) DOI 10.2866/902385 (pdf) 
+ISBN  978-92-899-2856-4 (pdf) EU catalogue No QB-AQ-17-014-EN-N (pdf) 
