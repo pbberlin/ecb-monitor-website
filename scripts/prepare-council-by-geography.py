@@ -58,6 +58,25 @@ def formatValue(key, vl):
             if type(vl) is str:
                 return vl
             return int(math.trunc(vl))
+        if key == "overall_count_in_office":
+            if isinstance(vl, float) and math.isnan(vl):
+                return ""
+            if type(vl) is str:
+                return vl
+            # numpy.int64 has no __trunc__, so math.trunc() fails; int() truncates too
+            return int(vl)
+        if key == "overall_score_in_office":
+            if isinstance(vl, float) and math.isnan(vl):
+                return ""
+            if type(vl) is str:
+                return vl
+            return round(float(vl), 2)
+        if key == "hawkish_deviation":
+            if isinstance(vl, float) and math.isnan(vl):
+                return ""
+            if type(vl) is str:
+                return vl
+            return round(float(vl), 2)
         if key == "euro_accession_year":
             if isinstance(vl, float) and math.isnan(vl):
                 return ""
