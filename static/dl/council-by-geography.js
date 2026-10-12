@@ -1,6 +1,7 @@
 councilGeography=[
     {
         "name": "Mario Draghi",
+        "name_bis": "",
         "country": "Italy",
         "role_euro": "president",
         "organisation_euro": "ecb",
@@ -22,6 +23,7 @@ councilGeography=[
     },
     {
         "name": "Willem F Duisenberg",
+        "name_bis": "",
         "country": "Netherlands",
         "role_euro": "president",
         "organisation_euro": "ecb",
@@ -43,6 +45,7 @@ councilGeography=[
     },
     {
         "name": "Christine Lagarde",
+        "name_bis": "",
         "country": "France",
         "role_euro": "president",
         "organisation_euro": "ecb",
@@ -52,8 +55,8 @@ councilGeography=[
         "starting_date": "2019-11-01 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 145,
-        "hawkish_score": 0.16,
+        "count_speeches": 151,
+        "hawkish_score": 0.18,
         "year_start": 2019,
         "year_stop": 0,
         "from_to": "since 2019  ",
@@ -64,6 +67,7 @@ councilGeography=[
     },
     {
         "name": "Jean-Claude Trichet",
+        "name_bis": "",
         "country": "France",
         "role_euro": "president",
         "organisation_euro": "ecb",
@@ -85,6 +89,7 @@ councilGeography=[
     },
     {
         "name": "V\u00edtor Const\u00e2ncio",
+        "name_bis": "",
         "country": "Portugal",
         "role_euro": "vice-president",
         "organisation_euro": "ecb",
@@ -106,27 +111,29 @@ councilGeography=[
     },
     {
         "name": "Luis de Guindos",
+        "name_bis": "",
         "country": "Spain",
         "role_euro": "vice-president",
         "organisation_euro": "ecb",
         "birth_year": 1960,
         "gender": "male",
         "field_of_study": "Economics, Business",
-        "starting_date": "2018-06-01 00:00:00",
-        "termination_date": "0",
-        "incumbent": true,
-        "count_speeches": 78,
-        "hawkish_score": -0.04,
-        "year_start": 2018,
-        "year_stop": 0,
-        "from_to": "since 2018  ",
-        "role_euro__from_to": "vice-president,  since 2018   ",
+        "starting_date": "2026-06-01 00:00:00",
+        "termination_date": "2026-05-31 00:00:00",
+        "incumbent": false,
+        "count_speeches": 79,
+        "hawkish_score": -0.03,
+        "year_start": 2026,
+        "year_stop": 2026,
+        "from_to": "2026 - 2026",
+        "role_euro__from_to": "vice-president,  2026 - 2026 ",
         "born_raised": "*1960, Spain",
         "education": "education: Economics, Business",
         "career": "experience: Credit, Politics"
     },
     {
         "name": "Christian Noyer",
+        "name_bis": "",
         "country": "France",
         "role_euro": "vice-president",
         "organisation_euro": "ecb",
@@ -148,6 +155,7 @@ councilGeography=[
     },
     {
         "name": "Lucas Papademos",
+        "name_bis": "",
         "country": "Greece",
         "role_euro": "vice-president",
         "organisation_euro": "ecb",
@@ -168,7 +176,30 @@ councilGeography=[
         "career": "experience: CentralBank"
     },
     {
+        "name": "Boris Vuj\u010di\u0107",
+        "name_bis": "",
+        "country": "Croatia",
+        "role_euro": "vice-president",
+        "organisation_euro": "ecb",
+        "birth_year": 1964,
+        "gender": "male",
+        "field_of_study": "Economics",
+        "starting_date": "2026-06-01 00:00:00",
+        "termination_date": "0",
+        "incumbent": true,
+        "count_speeches": "",
+        "hawkish_score": "",
+        "year_start": 2026,
+        "year_stop": 0,
+        "from_to": "since 2026  ",
+        "role_euro__from_to": "vice-president,  since 2026   ",
+        "born_raised": "*1964, Croatia",
+        "education": "education: Economics",
+        "career": "experience: EZB (external advisor in the Monetary Matters Department)"
+    },
+    {
         "name": "Otmar Issing",
+        "name_bis": "",
         "country": "Germany",
         "role_euro": "chief economist",
         "organisation_euro": "ecb",
@@ -190,6 +221,7 @@ councilGeography=[
     },
     {
         "name": "Philip R. Lane",
+        "name_bis": "philip r lane",
         "country": "Ireland",
         "role_euro": "chief economist",
         "organisation_euro": "ecb",
@@ -199,8 +231,8 @@ councilGeography=[
         "starting_date": "2019-06-01 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 64,
-        "hawkish_score": -0.07,
+        "count_speeches": 68,
+        "hawkish_score": -0.04,
         "year_start": 2019,
         "year_stop": 0,
         "from_to": "since 2019  ",
@@ -211,6 +243,7 @@ councilGeography=[
     },
     {
         "name": "Peter Praet",
+        "name_bis": "",
         "country": "Belgium",
         "role_euro": "chief economist",
         "organisation_euro": "ecb",
@@ -232,6 +265,7 @@ councilGeography=[
     },
     {
         "name": "J\u00fcrgen Stark",
+        "name_bis": "",
         "country": "Germany",
         "role_euro": "chief economist",
         "organisation_euro": "ecb",
@@ -253,6 +287,7 @@ councilGeography=[
     },
     {
         "name": "J\u00f6rg Asmussen",
+        "name_bis": "",
         "country": "Germany",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -274,6 +309,7 @@ councilGeography=[
     },
     {
         "name": "Piero Cipollone",
+        "name_bis": "",
         "country": "Italy",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -283,8 +319,8 @@ councilGeography=[
         "starting_date": "2023-11-01 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 10,
-        "hawkish_score": 0.32,
+        "count_speeches": 14,
+        "hawkish_score": 0.36,
         "year_start": 2023,
         "year_stop": 0,
         "from_to": "since 2023  ",
@@ -295,6 +331,7 @@ councilGeography=[
     },
     {
         "name": "Beno\u00eet C\u0153ur\u00e9",
+        "name_bis": "",
         "country": "France",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -316,6 +353,7 @@ councilGeography=[
     },
     {
         "name": "Frank Elderson",
+        "name_bis": "",
         "country": "Netherlands",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -325,7 +363,7 @@ councilGeography=[
         "starting_date": "2020-12-15 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 19,
+        "count_speeches": 21,
         "hawkish_score": 0.42,
         "year_start": 2020,
         "year_stop": 0,
@@ -337,6 +375,7 @@ councilGeography=[
     },
     {
         "name": "Jose M. Gonzalez-Paramo",
+        "name_bis": "",
         "country": "Spain",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -358,6 +397,7 @@ councilGeography=[
     },
     {
         "name": "Sirkka H\u00e4m\u00e4l\u00e4inen",
+        "name_bis": "",
         "country": "Finland",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -379,6 +419,7 @@ councilGeography=[
     },
     {
         "name": "Sabine Lautenschl\u00e4ger",
+        "name_bis": "",
         "country": "Germany",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -400,6 +441,7 @@ councilGeography=[
     },
     {
         "name": "Yves Mersch",
+        "name_bis": "",
         "country": "Luxembourg",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -421,6 +463,7 @@ councilGeography=[
     },
     {
         "name": "Tommaso Padoa-Schioppa",
+        "name_bis": "",
         "country": "Italy",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -442,6 +485,7 @@ councilGeography=[
     },
     {
         "name": "Fabio Panetta",
+        "name_bis": "",
         "country": "Italy",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -463,6 +507,7 @@ councilGeography=[
     },
     {
         "name": "Isabel Schnabel",
+        "name_bis": "",
         "country": "Germany",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -472,8 +517,8 @@ councilGeography=[
         "starting_date": "2020-01-01 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 53,
-        "hawkish_score": 0.12,
+        "count_speeches": 55,
+        "hawkish_score": 0.14,
         "year_start": 2020,
         "year_stop": 0,
         "from_to": "since 2020  ",
@@ -484,6 +529,7 @@ councilGeography=[
     },
     {
         "name": "Lorenzo Bini Smaghi",
+        "name_bis": "",
         "country": "Italy",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -505,6 +551,7 @@ councilGeography=[
     },
     {
         "name": "Eugenio Domingo Solans",
+        "name_bis": "",
         "country": "Spain",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -526,6 +573,7 @@ councilGeography=[
     },
     {
         "name": "Gertrude Tumpel-Gugerell",
+        "name_bis": "",
         "country": "Austria",
         "role_euro": "executive board",
         "organisation_euro": "ecb",
@@ -547,6 +595,7 @@ councilGeography=[
     },
     {
         "name": "France Arhar",
+        "name_bis": "",
         "country": "Slovenia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -568,6 +617,7 @@ councilGeography=[
     },
     {
         "name": "Michael Bonello",
+        "name_bis": "",
         "country": "Malta",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -589,6 +639,7 @@ councilGeography=[
     },
     {
         "name": "Josef Bonnici",
+        "name_bis": "",
         "country": "Malta",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -610,6 +661,7 @@ councilGeography=[
     },
     {
         "name": "Jaime Caruana\u00a0",
+        "name_bis": "",
         "country": "Spain",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -631,6 +683,7 @@ councilGeography=[
     },
     {
         "name": "M\u00e1rio Centeno",
+        "name_bis": "",
         "country": "Portugal",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -652,6 +705,7 @@ councilGeography=[
     },
     {
         "name": "Christodoulos Christodoulou",
+        "name_bis": "",
         "country": "Cyprus",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -673,11 +727,12 @@ councilGeography=[
     },
     {
         "name": "Luc Coene",
+        "name_bis": "",
         "country": "Belgium",
         "role_euro": "governor",
         "organisation_euro": "national governors",
         "birth_year": 1945,
-        "gender": "male",
+        "gender": "male ",
         "field_of_study": "Economics",
         "starting_date": "2011-04-01 00:00:00",
         "termination_date": "2015-03-10 00:00:00",
@@ -690,10 +745,11 @@ councilGeography=[
         "role_euro__from_to": "governor,  2011 - 2015 ",
         "born_raised": "*1945, Belgium",
         "education": "education: Economics",
-        "career": "experience: National Bank, Poltics"
+        "career": "experience: National Bank , Poltics"
     },
     {
         "name": "V\u00edtor Const\u00e2ncio",
+        "name_bis": "",
         "country": "Portugal",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -715,6 +771,7 @@ councilGeography=[
     },
     {
         "name": "Pablo Hern\u00e1ndez de Cos",
+        "name_bis": "",
         "country": "Spain",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -736,6 +793,7 @@ councilGeography=[
     },
     {
         "name": "Carlos da Silva Costa",
+        "name_bis": "",
         "country": "Portugal",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -756,7 +814,30 @@ councilGeography=[
         "career": "experience: Resaerch"
     },
     {
+        "name": "Alexander Demarco",
+        "name_bis": "",
+        "country": "Malta",
+        "role_euro": "governor",
+        "organisation_euro": "national governors",
+        "birth_year": 1961,
+        "gender": "male",
+        "field_of_study": "Economics",
+        "starting_date": "2026-01-01 00:00:00",
+        "termination_date": "0",
+        "incumbent": true,
+        "count_speeches": "",
+        "hawkish_score": "",
+        "year_start": 2026,
+        "year_stop": 0,
+        "from_to": "since 2026  ",
+        "role_euro__from_to": "governor,  since 2026   ",
+        "born_raised": "*1961, Malta",
+        "education": "education: Economics",
+        "career": "experience: National Bank"
+    },
+    {
         "name": "Panicos Demetriades",
+        "name_bis": "",
         "country": "Cyprus",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -778,6 +859,7 @@ councilGeography=[
     },
     {
         "name": "Primo\u017e Dolenc",
+        "name_bis": "",
         "country": "Slovenia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -799,6 +881,7 @@ councilGeography=[
     },
     {
         "name": "Mario Draghi",
+        "name_bis": "",
         "country": "Italy",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -820,6 +903,7 @@ councilGeography=[
     },
     {
         "name": "Willem F Duisenberg",
+        "name_bis": "",
         "country": "Netherlands",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -841,6 +925,7 @@ councilGeography=[
     },
     {
         "name": "Jos\u00e9 Luis Escriv\u00e1",
+        "name_bis": "jose luis escriv\u00e1",
         "country": "Spain",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -850,18 +935,19 @@ councilGeography=[
         "starting_date": "2024-09-06 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 2,
-        "hawkish_score": 0.4,
+        "count_speeches": 3,
+        "hawkish_score": 0.43,
         "year_start": 2024,
         "year_stop": 0,
         "from_to": "since 2024  ",
         "role_euro__from_to": "governor,  since 2024   ",
         "born_raised": "*1960, Spain",
         "education": "education: Economics",
-        "career": "experience: National Bank, Politics"
+        "career": "experience: National Bank , Politics"
     },
     {
         "name": "Antonio Fazio",
+        "name_bis": "",
         "country": "Italy",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -883,6 +969,7 @@ councilGeography=[
     },
     {
         "name": "Fran\u00e7ois Villeroy de Galhau",
+        "name_bis": "",
         "country": "France",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -890,20 +977,21 @@ councilGeography=[
         "gender": "male",
         "field_of_study": "Economics",
         "starting_date": "2015-11-01 00:00:00",
-        "termination_date": "0",
-        "incumbent": true,
-        "count_speeches": 154,
-        "hawkish_score": -0.01,
+        "termination_date": "2026-06-01 00:00:00",
+        "incumbent": false,
+        "count_speeches": 156,
+        "hawkish_score": -0.0,
         "year_start": 2015,
-        "year_stop": 0,
-        "from_to": "since 2015  ",
-        "role_euro__from_to": "governor,  since 2015   ",
+        "year_stop": 2026,
+        "from_to": "2015 - 2026",
+        "role_euro__from_to": "governor,  2015 - 2026 ",
         "born_raised": "*1959, France",
         "education": "education: Economics",
         "career": "experience: Bank, Politics"
     },
     {
         "name": "Nicholas C Garganas",
+        "name_bis": "",
         "country": "Greece",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -925,7 +1013,8 @@ councilGeography=[
     },
     {
         "name": "Mitja Gaspari",
-        "country": "Slovenia",
+        "name_bis": "",
+        "country": "Slovenia ",
         "role_euro": "governor",
         "organisation_euro": "national governors",
         "birth_year": 1951,
@@ -940,12 +1029,13 @@ councilGeography=[
         "year_stop": 2007,
         "from_to": "2001 - 2007",
         "role_euro__from_to": "governor,  2001 - 2007 ",
-        "born_raised": "*1951, Slovenia",
+        "born_raised": "*1951, Slovenia ",
         "education": "education: Economics",
         "career": "experience: CentralBank"
     },
     {
         "name": "Chrystalla Georghadji",
+        "name_bis": "",
         "country": "Cyprus",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -967,6 +1057,7 @@ councilGeography=[
     },
     {
         "name": "Ardo Hansson",
+        "name_bis": "",
         "country": "Estonia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -988,6 +1079,7 @@ councilGeography=[
     },
     {
         "name": "Constantinos Herodotou",
+        "name_bis": "",
         "country": "Cyprus",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1005,10 +1097,11 @@ councilGeography=[
         "role_euro__from_to": "governor,  2019 - 2025 ",
         "born_raised": "*1970, Cyprus",
         "education": "education: Economics",
-        "career": "experience: Investestmen Banker"
+        "career": "experience: Investestment Banking"
     },
     {
         "name": "Robert Holzmann",
+        "name_bis": "",
         "country": "Austria",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1030,6 +1123,7 @@ councilGeography=[
     },
     {
         "name": "Patrick Honohan",
+        "name_bis": "",
         "country": "Ireland",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1051,6 +1145,7 @@ councilGeography=[
     },
     {
         "name": "John Hurley",
+        "name_bis": "",
         "country": "Ireland",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1072,6 +1167,7 @@ councilGeography=[
     },
     {
         "name": "Sirkka H\u00e4m\u00e4l\u00e4inen",
+        "name_bis": "",
         "country": "Finland",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1093,6 +1189,7 @@ councilGeography=[
     },
     {
         "name": "Bo\u0161tjan Jazbec",
+        "name_bis": "",
         "country": "Slovenia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1114,6 +1211,7 @@ councilGeography=[
     },
     {
         "name": "Mari\u00e1n Jusko",
+        "name_bis": "",
         "country": "Slovakia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1134,7 +1232,30 @@ councilGeography=[
         "career": "experience: "
     },
     {
+        "name": "\u00dclo Kaasik",
+        "name_bis": "",
+        "country": "Estonia",
+        "role_euro": "governor",
+        "organisation_euro": "national governors",
+        "birth_year": 1975,
+        "gender": "male",
+        "field_of_study": "Economics",
+        "starting_date": "2026-06-01 00:00:00",
+        "termination_date": "0",
+        "incumbent": true,
+        "count_speeches": "",
+        "hawkish_score": "",
+        "year_start": 2026,
+        "year_stop": 0,
+        "from_to": "since 2026  ",
+        "role_euro__from_to": "governor,  since 2026   ",
+        "born_raised": "*1975, Estonia",
+        "education": "education: Economics",
+        "career": "experience: National Bank "
+    },
+    {
         "name": "M\u0101rti\u0146\u0161 Kaz\u0101ks",
+        "name_bis": "",
         "country": "Latvia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1156,6 +1277,7 @@ councilGeography=[
     },
     {
         "name": "Peter Ka\u017eim\u00edr",
+        "name_bis": "",
         "country": "Slovakia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1165,8 +1287,8 @@ councilGeography=[
         "starting_date": "2019-06-01 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": "",
-        "hawkish_score": "",
+        "count_speeches": 1,
+        "hawkish_score": 1.0,
         "year_start": 2019,
         "year_stop": 0,
         "from_to": "since 2019  ",
@@ -1177,6 +1299,7 @@ councilGeography=[
     },
     {
         "name": "Klaas Knot",
+        "name_bis": "",
         "country": "Netherlands",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1198,6 +1321,7 @@ councilGeography=[
     },
     {
         "name": "Martin Kocher",
+        "name_bis": "",
         "country": "Austria",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1207,8 +1331,8 @@ councilGeography=[
         "starting_date": "2025-09-01 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 1,
-        "hawkish_score": 0.0,
+        "count_speeches": 2,
+        "hawkish_score": 0.25,
         "year_start": 2025,
         "year_stop": 0,
         "from_to": "since 2025  ",
@@ -1219,6 +1343,7 @@ councilGeography=[
     },
     {
         "name": "Marko Kranjec",
+        "name_bis": "",
         "country": "Slovenia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1240,6 +1365,7 @@ councilGeography=[
     },
     {
         "name": "Philip R. Lane",
+        "name_bis": "philip r lane",
         "country": "Ireland",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1257,10 +1383,11 @@ councilGeography=[
         "role_euro__from_to": "governor,  2015 - 2019 ",
         "born_raised": "*1969, Ireland",
         "education": "education: Economics",
-        "career": "experience: Research"
+        "career": "experience: Research "
     },
     {
         "name": "Klaus Liebscher",
+        "name_bis": "",
         "country": "Austria",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1282,6 +1409,7 @@ councilGeography=[
     },
     {
         "name": "Erkki Liikanen",
+        "name_bis": "",
         "country": "Finland",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1303,6 +1431,7 @@ councilGeography=[
     },
     {
         "name": "Luis Mar\u00eda Linde",
+        "name_bis": "",
         "country": "Spain",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1324,6 +1453,7 @@ councilGeography=[
     },
     {
         "name": "Andres Lipstok",
+        "name_bis": "",
         "country": "Estonia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1345,6 +1475,7 @@ councilGeography=[
     },
     {
         "name": "Gabriel Makhlouf",
+        "name_bis": "",
         "country": "Ireland",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1354,8 +1485,8 @@ councilGeography=[
         "starting_date": "2019-09-01 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 54,
-        "hawkish_score": 0.31,
+        "count_speeches": 57,
+        "hawkish_score": 0.32,
         "year_start": 2019,
         "year_stop": 0,
         "from_to": "since 2019  ",
@@ -1366,6 +1497,7 @@ councilGeography=[
     },
     {
         "name": "Jozef Mak\u00fach",
+        "name_bis": "",
         "country": "Slovakia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1387,6 +1519,7 @@ councilGeography=[
     },
     {
         "name": "Yves Mersch",
+        "name_bis": "",
         "country": "Luxembourg",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1407,7 +1540,30 @@ councilGeography=[
         "career": "experience: AdminFinance"
     },
     {
+        "name": "Emmanuel Moulin",
+        "name_bis": "",
+        "country": "France",
+        "role_euro": "governor",
+        "organisation_euro": "national governors",
+        "birth_year": 1968,
+        "gender": "male",
+        "field_of_study": "Public administration",
+        "starting_date": "2026-06-02 00:00:00",
+        "termination_date": "0",
+        "incumbent": true,
+        "count_speeches": 1,
+        "hawkish_score": 0.6,
+        "year_start": 2026,
+        "year_stop": 0,
+        "from_to": "since 2026  ",
+        "role_euro__from_to": "governor,  since 2026   ",
+        "born_raised": "*1968, France",
+        "education": "education: Public administration",
+        "career": "experience: National Bank, Bank"
+    },
+    {
         "name": "Madis M\u00fcller",
+        "name_bis": "",
         "country": "Estonia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1415,20 +1571,21 @@ councilGeography=[
         "gender": "male",
         "field_of_study": "Finance",
         "starting_date": "2019-06-07 00:00:00",
-        "termination_date": "0",
-        "incumbent": true,
+        "termination_date": "2026-05-31 00:00:00",
+        "incumbent": false,
         "count_speeches": 2,
         "hawkish_score": 0.5,
         "year_start": 2019,
-        "year_stop": 0,
-        "from_to": "since 2019  ",
-        "role_euro__from_to": "governor,  since 2019   ",
+        "year_stop": 2026,
+        "from_to": "2019 - 2026",
+        "role_euro__from_to": "governor,  2019 - 2026 ",
         "born_raised": "*1977, Estonia",
         "education": "education: Finance",
         "career": "experience: Bank"
     },
     {
         "name": "Joachim Nagel",
+        "name_bis": "",
         "country": "Germany",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1438,8 +1595,8 @@ councilGeography=[
         "starting_date": "2022-01-01 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 74,
-        "hawkish_score": 0.69,
+        "count_speeches": 82,
+        "hawkish_score": 0.67,
         "year_start": 2022,
         "year_stop": 0,
         "from_to": "since 2022  ",
@@ -1450,6 +1607,7 @@ councilGeography=[
     },
     {
         "name": "Ewald Nowotny",
+        "name_bis": "",
         "country": "Austria",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1471,6 +1629,7 @@ councilGeography=[
     },
     {
         "name": "Christian Noyer",
+        "name_bis": "",
         "country": "France",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1492,6 +1651,7 @@ councilGeography=[
     },
     {
         "name": "Miguel Fernandez Ordonez",
+        "name_bis": "",
         "country": "Spain",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1513,6 +1673,7 @@ councilGeography=[
     },
     {
         "name": "Athanasios Orphanides",
+        "name_bis": "",
         "country": "Cyprus",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1534,6 +1695,7 @@ councilGeography=[
     },
     {
         "name": "Maurice O\u2019Connell",
+        "name_bis": "",
         "country": "Ireland",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1555,6 +1717,7 @@ councilGeography=[
     },
     {
         "name": "Fabio Panetta",
+        "name_bis": "",
         "country": "Italy",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1564,8 +1727,8 @@ councilGeography=[
         "starting_date": "2023-11-01 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 27,
-        "hawkish_score": -0.04,
+        "count_speeches": 31,
+        "hawkish_score": 0.05,
         "year_start": 2023,
         "year_stop": 0,
         "from_to": "since 2023  ",
@@ -1576,6 +1739,7 @@ councilGeography=[
     },
     {
         "name": "Lucas Papademos",
+        "name_bis": "",
         "country": "Greece",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1597,6 +1761,7 @@ councilGeography=[
     },
     {
         "name": "Christodoulos Patsalides",
+        "name_bis": "",
         "country": "Cyprus",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1606,18 +1771,19 @@ councilGeography=[
         "starting_date": "2025-04-11 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 2,
-        "hawkish_score": 0.35,
+        "count_speeches": 3,
+        "hawkish_score": 0.4,
         "year_start": 2025,
         "year_stop": 0,
         "from_to": "since 2025  ",
         "role_euro__from_to": "governor,  since 2025   ",
         "born_raised": "*, Cyprus",
         "education": "education: Economics",
-        "career": "experience: National Bank"
+        "career": "experience: National Bank "
     },
     {
         "name": "\u00c1lvaro Santos Pereira",
+        "name_bis": "",
         "country": "Portugal",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1639,6 +1805,7 @@ councilGeography=[
     },
     {
         "name": "George A Provopoulos",
+        "name_bis": "",
         "country": "Greece",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1660,6 +1827,7 @@ councilGeography=[
     },
     {
         "name": "Guy Quaden",
+        "name_bis": "",
         "country": "Belgium",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1681,6 +1849,7 @@ councilGeography=[
     },
     {
         "name": "Dimitar Radev",
+        "name_bis": "",
         "country": "Bulgaria",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1690,8 +1859,8 @@ councilGeography=[
         "starting_date": "2015-07-15 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 4,
-        "hawkish_score": -0.02,
+        "count_speeches": 6,
+        "hawkish_score": 0.18,
         "year_start": 2015,
         "year_stop": 0,
         "from_to": "since 2015  ",
@@ -1702,6 +1871,7 @@ councilGeography=[
     },
     {
         "name": "Olli Rehn",
+        "name_bis": "",
         "country": "Finland",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1711,8 +1881,8 @@ councilGeography=[
         "starting_date": "2018-07-12 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 65,
-        "hawkish_score": -0.15,
+        "count_speeches": 67,
+        "hawkish_score": -0.12,
         "year_start": 2018,
         "year_stop": 0,
         "from_to": "since 2018  ",
@@ -1723,6 +1893,7 @@ councilGeography=[
     },
     {
         "name": "Gaston Reinesch",
+        "name_bis": "",
         "country": "Luxembourg",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1744,6 +1915,7 @@ councilGeography=[
     },
     {
         "name": "Einars Rep\u0161e",
+        "name_bis": "",
         "country": "Latvia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1765,6 +1937,7 @@ councilGeography=[
     },
     {
         "name": "Ilm\u0101rs Rim\u0161\u0113vi\u010ds",
+        "name_bis": "",
         "country": "Latvia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1786,6 +1959,7 @@ councilGeography=[
     },
     {
         "name": "\u017deljko Rohatinski",
+        "name_bis": "",
         "country": "Croatia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1807,6 +1981,7 @@ councilGeography=[
     },
     {
         "name": "Luis \u00c1ngel Rojo",
+        "name_bis": "",
         "country": "Spain",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1828,6 +2003,7 @@ councilGeography=[
     },
     {
         "name": "Edward Scicluna",
+        "name_bis": "",
         "country": "Malta",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1835,20 +2011,21 @@ councilGeography=[
         "gender": "male",
         "field_of_study": "Economics",
         "starting_date": "2021-01-01 00:00:00",
-        "termination_date": "0",
-        "incumbent": true,
+        "termination_date": "2025-12-31 00:00:00",
+        "incumbent": false,
         "count_speeches": 6,
         "hawkish_score": 0.45,
         "year_start": 2021,
-        "year_stop": 0,
-        "from_to": "since 2021  ",
-        "role_euro__from_to": "governor,  since 2021   ",
+        "year_stop": 2025,
+        "from_to": "2021 - 2025",
+        "role_euro__from_to": "governor,  2021 - 2025 ",
         "born_raised": "*1946, Malta",
         "education": "education: Economics",
         "career": "experience: Teacher, Audit"
     },
     {
         "name": "Olaf Sleijpen",
+        "name_bis": "",
         "country": "Netherlands",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1858,18 +2035,19 @@ councilGeography=[
         "starting_date": "2025-07-01 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 4,
-        "hawkish_score": 0.45,
+        "count_speeches": 5,
+        "hawkish_score": 0.5,
         "year_start": 2025,
         "year_stop": 0,
         "from_to": "since 2025  ",
         "role_euro__from_to": "governor,  since 2025   ",
         "born_raised": "*1970, Netherlands",
         "education": "education: Economics",
-        "career": "experience: National Bank"
+        "career": "experience: National Bank "
     },
     {
         "name": "Jan Smets",
+        "name_bis": "",
         "country": "Belgium",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1887,10 +2065,11 @@ councilGeography=[
         "role_euro__from_to": "governor,  2015 - 2019 ",
         "born_raised": "*1951, Belgium",
         "education": "education: Economics",
-        "career": "experience: National Bank, Board of Director"
+        "career": "experience: National Bank , Board of Director"
     },
     {
         "name": "Ant\u00f3nio Jos\u00e9 Fernandes de Sousa",
+        "name_bis": "",
         "country": "Portugal",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1912,6 +2091,7 @@ councilGeography=[
     },
     {
         "name": "Yannis Stournaras",
+        "name_bis": "",
         "country": "Greece",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1921,8 +2101,8 @@ councilGeography=[
         "starting_date": "2014-06-10 00:00:00",
         "termination_date": "0",
         "incumbent": true,
-        "count_speeches": 66,
-        "hawkish_score": -0.17,
+        "count_speeches": 69,
+        "hawkish_score": -0.15,
         "year_start": 2014,
         "year_stop": 0,
         "from_to": "since 2014  ",
@@ -1933,6 +2113,7 @@ councilGeography=[
     },
     {
         "name": "Jean-Claude Trichet",
+        "name_bis": "",
         "country": "France",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1954,6 +2135,7 @@ councilGeography=[
     },
     {
         "name": "Matti Vanhala",
+        "name_bis": "",
         "country": "Finland",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1975,6 +2157,7 @@ councilGeography=[
     },
     {
         "name": "Vitas Vasiliauskas\u00a0",
+        "name_bis": "",
         "country": "Lithuania",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -1996,6 +2179,7 @@ councilGeography=[
     },
     {
         "name": "Bo\u0161tjan Vasle",
+        "name_bis": "",
         "country": "Slovenia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -2017,10 +2201,11 @@ councilGeography=[
     },
     {
         "name": "Mario Vella",
+        "name_bis": "",
         "country": "Malta",
         "role_euro": "governor",
         "organisation_euro": "national governors",
-        "birth_year": 1905,
+        "birth_year": 1970,
         "gender": "male",
         "field_of_study": "Phylosphy, Economics",
         "starting_date": "2016-07-01 00:00:00",
@@ -2032,12 +2217,13 @@ councilGeography=[
         "year_stop": 2020,
         "from_to": "2016 - 2020",
         "role_euro__from_to": "governor,  2016 - 2020 ",
-        "born_raised": "*1905, Malta",
+        "born_raised": "*1970, Malta",
         "education": "education: Phylosphy, Economics",
         "career": "experience: Politics, Professor"
     },
     {
         "name": "Ignazio Visco",
+        "name_bis": "",
         "country": "Italy",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -2059,6 +2245,7 @@ councilGeography=[
     },
     {
         "name": "Boris Vuj\u010di\u0107",
+        "name_bis": "",
         "country": "Croatia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -2066,20 +2253,21 @@ councilGeography=[
         "gender": "male",
         "field_of_study": "Economics",
         "starting_date": "2012-07-08 00:00:00",
-        "termination_date": "0",
-        "incumbent": true,
+        "termination_date": "2026-05-31 00:00:00",
+        "incumbent": false,
         "count_speeches": 7,
         "hawkish_score": 0.34,
         "year_start": 2012,
-        "year_stop": 0,
-        "from_to": "since 2012  ",
-        "role_euro__from_to": "governor,  since 2012   ",
+        "year_stop": 2026,
+        "from_to": "2012 - 2026",
+        "role_euro__from_to": "governor,  2012 - 2026 ",
         "born_raised": "*1964, Croatia",
         "education": "education: Economics",
         "career": "experience: EZB (external advisor in the Monetary Matters Department)"
     },
     {
         "name": "Axel Weber",
+        "name_bis": "",
         "country": "Germany",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -2101,6 +2289,7 @@ councilGeography=[
     },
     {
         "name": "Jens Weidmann",
+        "name_bis": "",
         "country": "Germany",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -2118,10 +2307,11 @@ councilGeography=[
         "role_euro__from_to": "governor,  2011 - 2021 ",
         "born_raised": "*1968, Germany",
         "education": "education: Economics",
-        "career": "experience: Politics, Sachverst\u00e4ndigen Rates"
+        "career": "experience: Politics, Sachverst\u00e4ndigen Rat"
     },
     {
         "name": "Nout Wellink",
+        "name_bis": "",
         "country": "Netherlands",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -2143,6 +2333,7 @@ councilGeography=[
     },
     {
         "name": "Ernst Welteke",
+        "name_bis": "",
         "country": "Germany",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -2164,6 +2355,7 @@ councilGeography=[
     },
     {
         "name": "Pierre Wunsch",
+        "name_bis": "",
         "country": "Belgium",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -2185,6 +2377,7 @@ councilGeography=[
     },
     {
         "name": "Reinoldijus \u0160arkinas",
+        "name_bis": "",
         "country": "Lithuania",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -2206,11 +2399,12 @@ councilGeography=[
     },
     {
         "name": "Gediminas \u0160imkus",
+        "name_bis": "",
         "country": "Lithuania",
         "role_euro": "governor",
         "organisation_euro": "national governors",
         "birth_year": 1977,
-        "gender": "male",
+        "gender": "male ",
         "field_of_study": "Economics",
         "starting_date": "2021-04-08 00:00:00",
         "termination_date": "0",
@@ -2227,6 +2421,7 @@ councilGeography=[
     },
     {
         "name": "Ivan \u0160ramko",
+        "name_bis": "",
         "country": "Slovakia",
         "role_euro": "governor",
         "organisation_euro": "national governors",
@@ -2245,6 +2440,28 @@ councilGeography=[
         "born_raised": "*1957, Slovakia",
         "education": "education: Management Sciences",
         "career": "experience: Bank"
+    },
+    {
+        "name": "Ante \u017digman",
+        "name_bis": "",
+        "country": "Croatia",
+        "role_euro": "governor",
+        "organisation_euro": "national governors",
+        "birth_year": 1972,
+        "gender": "male",
+        "field_of_study": "Economics",
+        "starting_date": "2026-06-19 00:00:00",
+        "termination_date": "0",
+        "incumbent": true,
+        "count_speeches": "",
+        "hawkish_score": "",
+        "year_start": 2026,
+        "year_stop": 0,
+        "from_to": "since 2026  ",
+        "role_euro__from_to": "governor,  since 2026   ",
+        "born_raised": "*1972, Croatia",
+        "education": "education: Economics",
+        "career": "experience: National Bank , Bank"
     }
 ]; 
 
