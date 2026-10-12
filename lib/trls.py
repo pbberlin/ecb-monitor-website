@@ -811,7 +811,7 @@ trlsRaw = [
     },
     {
         "ecb_council_label": {
-            "de": "EZB-Rat - Geographie",
+            "de": "EZB-Rat Tauben-Falken Position - Gesamtüberblick seit Ernennung",
             "en": "ECB Council dove-hawk positions – individuals' total history since appointment",
         },
     },
@@ -837,24 +837,26 @@ trlsRaw = [
     {
         "ecb_council_infobox":    {
             "de": """
-                <ul>
-                    <li>Taube-Falke KI Score
-                        <ul>
-                            <li>Sammlung aller offiziellen Äußerungen des Ratsmitglieds</li>
-                            <li>Evaluation mittels LLM hinsichtlich expansiver oder restriktiver Fiskalpolitik</li>
-                            <li>Abbildung auf Zahlenbereich -1 (dovish) ... +1 (hawkish)</li>
-                            <li>Siehe <a href=#>Wissenschaftliche Veröffentlichung</a>  </li>
-                        </ul>
-                    </li>
-                    <li>Links: Sechs <i>überregionale</i> EZB-Mitglieder in Frankfurt</li>
-                    <li>Landkarte: 20 nationale Zentralbankpräsidenten
-                        <ul>
-                            <li>Maus übers Land ziehen für Details</li>
-                        </ul>
-                    </li>
-                    <li>Malta und Zypern sind annähernd vollwertige Ratsmitglieder</li>
+                <p>
+                    Die Karte zeigt den Hawkishness-Score jedes Mitglieds des EZB-Rats.
+                </p>
 
-                </ul>
+                <p>
+                    Außerdem enthält sie biografische Informationen zu jedem Mitglied.
+                </p>
+
+                <p>
+                    Die Hawkishness-Scores auf der Karte werden anhand aller Reden berechnet, die die jeweiligen Personen seit ihrer Ernennung in den EZB-Rat gehalten haben. Der Hawkishness-Score einer Person ist der Durchschnitt der Hawkishness-Scores aller Reden, die sie als Mitglied des EZB-Rats gehalten hat.
+                </p>
+
+                <p>
+                    Aufgrund dieser Berechnungsweise hängen Unterschiede zwischen den Scores auch vom geldpolitischen Umfeld während der Amtszeit der jeweiligen Person im EZB-Rat ab.
+                </p>
+
+                <p>
+                    Fahren Sie mit der Maus über die Karte, um die Namen und biografischen Informationen der einzelnen Mitglieder des EZB-Rats anzuzeigen.
+                </p>
+
             """,
             "en": """
                 <p>
