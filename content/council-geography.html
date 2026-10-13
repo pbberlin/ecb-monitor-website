@@ -407,6 +407,12 @@
       <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
     </div>
 
+    <div class="slider-group" style="margin-top: 0.2rem; margin-bottom: 1.5rem;">
+      <label title="{{i18n.hawkish_deviation_help}}" style="cursor: pointer;">
+        <input type="checkbox" id="cbHawkishDeviation" name="cbHawkishDeviation"> {{i18n.hawkish_deviation_label}}
+      </label>
+    </div>
+
 
     <div id="council_list" ></div>
 
@@ -599,6 +605,11 @@
     }
     root.style.setProperty("--initOpacity", initOpacity.toString());
     elOpa.value = initOpacity;
+
+
+    const cbDev          = document.getElementById("cbHawkishDeviation");
+    let isDeviation      = localStorage.getItem("isHawkishDeviation") === "true";
+    cbDev.checked        = isDeviation;
 
 
     let selectedDataMeta = {
@@ -800,7 +811,11 @@
         let yStop = rec["year_stop"] === 0 ? 9999 : rec["year_stop"];
         if (yStart <= yr && yStop >= yr) {
           if (!(c in activeScores)) {
-            activeScores[c] = rec["hawkish_score"];
+            if (isDeviation) {
+              activeScores[c] = rec["hawkish_deviation"];
+            } else {
+              activeScores[c] = rec["hawkish_score"];
+            }
           }
         }
       }
@@ -953,7 +968,11 @@
         let yStop = rec["year_stop"] === 0 ? 9999 : rec["year_stop"];
         if (yStart <= yr && yStop >= yr) {
           if (!(c in activeScores)) {
-            activeScores[c] = rec["hawkish_score"];
+            if (isDeviation) {
+              activeScores[c] = rec["hawkish_deviation"];
+            } else {
+              activeScores[c] = rec["hawkish_score"];
+            }
           }
         }
       }
@@ -1495,6 +1514,21 @@
 
       updateIllustrationOpacity();
       createGradientLegend( "gradient1", selectedDataMeta["main"]);
+
+      sliderEl.dispatchEvent(
+        new InputEvent('change', {
+          bubbles:    true,
+          cancelable: true,
+        })
+      );
+
+    });
+
+
+    cbDev.addEventListener('change', function (evt) {
+      isDeviation = evt.target.checked;
+      localStorage.setItem("isHawkishDeviation", evt.target.checked ? "true" : "false");
+      console.log(`selected hawkish deviation ${evt.target.checked}`);
 
       sliderEl.dispatchEvent(
         new InputEvent('change', {
