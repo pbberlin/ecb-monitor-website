@@ -584,6 +584,18 @@ trlsRaw = [
         },
     },
     {
+        "hawkish_deviation_label":    {
+            "de": "Abweichung vom Durchschnitt",
+            "en": "Deviation from average",
+        },
+    },
+    {
+        "hawkish_deviation_help":    {
+            "de": "Hawkish Score - oder Abweichung vom Durchschnitt",
+            "en": "Hawkish score - or deviation from average",
+        },
+    },
+    {
         "threshold_potential_growth":    {
             "de": "durchschn. Potenzialwachstum 1%",
             "en": "avg. growth potential of 1%",
