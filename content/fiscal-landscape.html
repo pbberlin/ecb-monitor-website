@@ -899,7 +899,7 @@
         let item = {
           name: country,
           tooltip: {
-            show: true,
+            show: !(isRel && country === "Euro area (27 countries)"),
             formatter: props.tooltipText,
           },
           itemStyle: {
@@ -1061,7 +1061,7 @@
           animationDuration: 0,
           label: {
             show: props.showLabel, // dynamically hide/show instead of omitting the series
-            formatter: props.labelText || '',
+            formatter: (isRel && country === "Euro area (27 countries)") ? '' : (props.labelText || ''),
             fontSize: fontSizeByDisplay,
             fontWeight: 300,
             color: '#000',
