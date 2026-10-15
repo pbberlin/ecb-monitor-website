@@ -17,9 +17,12 @@ from datetime import datetime
 currentYear = datetime.now().year
 
 euCodesToNames = {
-    "EU27_2020": "European Union (27 countries)",
-    # "EA20": "Euro area (20 countries)",
-    # "EU": "European Union (changing composition)",
+    #  `EU27_2020` represents a fixed aggregate of the 27 current member states (post-Brexit), 
+    #   back-calculated historically as if this exact group always formed the union.
+    #     `EU` represents the changing composition of the European Union over time 
+    #       (e.g., 15 countries in 1999, 25 in 2004, 28 in 2013).
+    "EU27_2020": "Euro area (20 countries)",
+    # "EU": "European Union (changing composition)", 
     "AT": "Austria",
     "BE": "Belgium",
     "BG": "Bulgaria",
