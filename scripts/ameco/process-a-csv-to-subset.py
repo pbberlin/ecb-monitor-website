@@ -2,41 +2,45 @@ from pathlib import Path
 import csv
 from datetime import datetime
 
+parentDir = Path(__file__).resolve().parent.parent.parent
+libPath = parentDir / "lib"
+sys.path.insert(0, str(libPath))
+from util import stackTrace
+
 
 
 currentYear = datetime.now().year
 
-euCountries = [
-    # "Euro area (1-9 countries)",
-    "Euro area (20 countries)",
-    "Austria",
-    "Belgium",
-    "Bulgaria",
-    "Croatia",
-    "Cyprus",
-    "Czech Republic",
-    "Denmark",
-    "Estonia",
-    "Finland",
-    "France",
-    "Germany",
-    "Greece",
-    "Hungary",
-    "Ireland",
-    "Italy",
-    "Latvia",
-    "Lithuania",
-    "Luxembourg",
-    "Malta",
-    "Netherlands",
-    "Poland",
-    "Portugal",
-    "Romania",
-    "Slovakia",
-    "Slovenia",
-    "Spain",
-    "Sweden"
-]
+euCodesToNames = {
+    "EU27": "Euro area (27 countries)",
+    "AUT": "Austria",
+    "BEL": "Belgium",
+    "BGR": "Bulgaria",
+    "HRV": "Croatia",
+    "CYP": "Cyprus",
+    "CZE": "Czech Republic",
+    "DNK": "Denmark",
+    "EST": "Estonia",
+    "FIN": "Finland",
+    "FRA": "France",
+    "DEU": "Germany",
+    "GRC": "Greece",
+    "HUN": "Hungary",
+    "IRL": "Ireland",
+    "ITA": "Italy",
+    "LVA": "Latvia",
+    "LTU": "Lithuania",
+    "LUX": "Luxembourg",
+    "MLT": "Malta",
+    "NLD": "Netherlands",
+    "POL": "Poland",
+    "PRT": "Portugal",
+    "ROM": "Romania",
+    "SVK": "Slovakia",
+    "SVN": "Slovenia",
+    "ESP": "Spain",
+    "SWE": "Sweden"
+}
 
 
 
@@ -68,13 +72,14 @@ def main(inputFile, targetFilename, targetCode, targetUnit, targetUnitNot="impos
                     codeRaw   = row.get("CODE", "")
                     codeRaw   = codeRaw.strip()
 
-                    #  new since 2025-11 - code is now
-                    #           ROM.1.0.99.327.UDGGLR
+                    # extracting country code and indicator code
                     if "." in codeRaw:
                         parts = codeRaw.split(".")
-                        codeVal = parts[-1]
+                        countryCode = parts[0]
+                        codeVal     = parts[-1]
                     else:
-                        codeVal = codeRaw
+                        countryCode = ""
+                        codeVal     = codeRaw
 
                     unitVal   = row.get("UNIT", "")
                     unitVal   = unitVal.strip()
@@ -93,25 +98,25 @@ def main(inputFile, targetFilename, targetCode, targetUnit, targetUnitNot="impos
                         dbgCountry = country.split(" ")[0]
                         unitValDbg = unitVal[0:36]
                         if hitCounter < 11 and ("Euro" not in country):
-                            print(f"\t  row{idx1:04} {dbgCountry:12} code {codeVal:8}  unit {unitValDbg}    {row['2024']:8} {row['2025']:8} ")
+                            print(f"\t  row{idx1:04} {dbgCountry:12} code {codeVal:8}  unit {unitValDbg}    {row.get('2024', ''):8} {row.get('2025', ''):8} ")
 
-                        # normalize irregular country name
-                        if country == "Czechia":
-                            row["COUNTRY"] = "Czech Republic"
-                            country        = "Czech Republic"
-
-                        if country in euCountries:
+                        # filtering by country code and overriding country name
+                        if countryCode in euCodesToNames:
+                            row["COUNTRY"] = euCodesToNames[countryCode]
                             filteredRow = {k: row[k] for k in keepFields if k in row}
                             filteredRows.append(filteredRow)
 
 
                 except Exception as rowExc:
-                    print(f"error processing row index {idx1}: {rowExc}")
+                    stackTrace(rowExc)
+                    print(f"error processing row index {idx1}")
 
     except FileNotFoundError as fnfExc:
-        print(f"input file not found: {fnfExc}")
+        stackTrace(fnfExc)
+        print("input file not found")
     except Exception as readExc:
-        print(f"error reading input file: {readExc}")
+        stackTrace(readExc)
+        print("error reading input file")
 
 
 
@@ -127,11 +132,13 @@ def main(inputFile, targetFilename, targetCode, targetUnit, targetUnitNot="impos
                     try:
                         csvWriter.writerow(row)
                     except Exception as writeRowExc:
-                        print(f"error writing row index {idx1}: {writeRowExc}")
+                        stackTrace(writeRowExc)
+                        print(f"error writing row index {idx1}")
 
             print(f"\twrote {len(filteredRows)} rows to {outputPath}")
         except Exception as writeExc:
-            print(f"error writing output file: {writeExc}")
+            stackTrace(writeExc)
+            print("error writing output file")
 
 
 
@@ -144,7 +151,6 @@ jobDirAmeco     = Path.cwd() / "scripts" / "ameco"
 if True:
     inpFile        = jobDirAmeco / "AMECO18.CSV"
     outFileSuffix  = "debt_to_gdp"
-    code     = "UDGGL"
     code     = "UDGG"
     unit     = "(Percentage of GDP at current prices (excessive deficit procedure))"
     main(inpFile, outFileSuffix, code, unit)
@@ -211,7 +217,8 @@ try:
     with inputPath.open("r", newline="", encoding="utf-8") as infile:
         reader = list(csv.reader(infile,delimiter=";"))
 except Exception as exc:
-    print(exc)
+    stackTrace(exc)
+    print("error reading ameco_gdp_real.csv")
     raise
 
 print(f"\tconverting GDP to growth, computing" )
@@ -260,7 +267,8 @@ for idx1, row in enumerate(reader):
                     if idx2 == 5:
                         print("")
             except Exception as exc:
-                print(exc)
+                stackTrace(exc)
+                print(f"error calculating growth for row {idx1} col {idx2}")
 
     outRows.append(out)
 
@@ -270,5 +278,6 @@ try:
         writer.writerow(outHeader)
         writer.writerows(outRows)
 except Exception as exc:
-    print(exc)
+    stackTrace(exc)
+    print("error writing ameco_gdp_growth.csv")
     raise

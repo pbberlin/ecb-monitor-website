@@ -6,7 +6,6 @@ import sys
 from collections import defaultdict
 
 
-# importing from ../../lib/trls.py
 parentDir = Path(__file__).resolve().parent.parent.parent
 libPath = parentDir / "lib"
 sys.path.insert(0, str(libPath))
