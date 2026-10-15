@@ -140,6 +140,7 @@ def sendStatusToZabbix(statusValue):
 
     # constructing api endpoint url based on provided zabbix server
     apiUrl = f"https://{ZABBIX_SERVER}/zabbix/api_jsonrpc.php"
+    apiUrl = f"http://{ZABBIX_SERVER}/zabbix/api_jsonrpc.php"
 
     # building json-rpc payload for history.push method
     # requiring zabbix 6.4+ and allowed ip in trapper item
