@@ -136,13 +136,13 @@ def findJsFiles(dataDirPath):
 
 def sendStatusToZabbix(statusValue):
     """
-    pushing 0/1 into zabbix via https json-rpc api (history.push).
+    pushing 0/1 into zabbix via http json-rpc api (history.push).
     statusValue: 1 = OK, 0 = failure
     """
 
     # constructing api endpoint url based on provided zabbix server
-    apiUrl = f"https://{ZABBIX_SERVER}/zabbix/api_jsonrpc.php"
-    # apiUrl = f"http://{ZABBIX_SERVER}/zabbix/api_jsonrpc.php"
+    # using http instead of https because port 443 is refusing connections
+    apiUrl = f"http://{ZABBIX_SERVER}/zabbix/api_jsonrpc.php"
 
     # building json-rpc payload for history.push method
     # requiring zabbix 6.4+ and allowed ip in trapper item
@@ -184,7 +184,7 @@ def sendStatusToZabbix(statusValue):
 
     except Exception as exc:
         stackTrace(exc)
-        print(f"[ERROR] failed pushing status to zabbix via https", file=sys.stderr)
+        print(f"[ERROR] failed pushing status to zabbix via http", file=sys.stderr)
         return False
 
     return True
