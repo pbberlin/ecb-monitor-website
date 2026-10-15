@@ -51,7 +51,7 @@ def runPythonScript(scriptPath: Path, cwdPath: Path | None = None) -> int:
         return 1
 
 
-def runAmecoPipeline() -> bool:
+def runAmecoEurostatPipeline() -> bool:
 
     # ameco
 
@@ -172,7 +172,7 @@ def runGitCommitPush() -> None:
     print("\tgit push end")
 
 def main() -> None:
-    isSuccess = runAmecoPipeline()
+    isSuccess = runAmecoEurostatPipeline()
 
     if isSuccess:
         print("ameco pipeline succeeded - committing and pushing new static/dl")
