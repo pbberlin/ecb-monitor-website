@@ -4,13 +4,16 @@ import json
 import sys
 
 from collections import defaultdict
+from lib.util import stackTrace
 
 
 from datetime import datetime
 currentYear = datetime.now().year
 
 euCodesToNames = {
-    "EU27_2020": "Euro area (20 countries)",
+    "EU27_2020": "European Union (27 countries)",
+    # "EA20": "Euro area (20 countries)",
+    # "EU": "European Union (changing composition)",
     "AT": "Austria",
     "BE": "Belgium",
     "BG": "Bulgaria",
@@ -38,6 +41,15 @@ euCodesToNames = {
     "SE": "Sweden",
     "SI": "Slovenia",
     "SK": "Slovakia",
+    "AL": "Albania",
+    "CH": "Switzerland",
+    "IS": "Iceland",
+    "ME": "Montenegro",
+    "MK": "North Macedonia",
+    "NO": "Norway",
+    "RS": "Serbia",
+    "TR": "Turkey",
+    "XK": "Kosovo",
     # "UK": "United Kingdom",
 }
 
@@ -83,19 +95,23 @@ def makeJsFromTsv(
                         yearMonths.append(stripped)
                         yearMonthIndices.append(idx1)
                 except Exception as headerExc:
-                    print(f"Error processing header index {idx1}: {headerExc}")
+                    stackTrace(headerExc)
+                    print(f"Error processing header index {idx1}")
 
             # keep chronological order (works for zero-padded YYYY and YYYY-MM)
             # also keep indices aligned with the same sort
             try:
                 zipped = list(zip(yearMonths, yearMonthIndices))
-                for idx1, pair in enumerate(zipped):
-                    pass
                 zipped.sort(key=lambda p: p[0])
-                yearMonths = [p[0] for p in zipped]
-                yearMonthIndices = [p[1] for p in zipped]
+                
+                yearMonths = []
+                yearMonthIndices = []
+                for idx1, pair in enumerate(zipped):
+                    yearMonths.append(pair[0])
+                    yearMonthIndices.append(pair[1])
             except Exception as sortExc:
-                print(f"Error sorting header year-months: {sortExc}")
+                stackTrace(sortExc)
+                print("Error sorting header year-months")
 
             print(f"\tsearching for year-months")
             print(f"\t{yearMonths} ")
@@ -128,6 +144,7 @@ def makeJsFromTsv(
                     # first col format  
                     #           'M,MCBY,AT'          -> geo is the 3rd element
                     #           'M,RCH_A,CP09321,UK' -> geo is the 4th element
+                    #           'M,RCH_A,TOTAL,AT'   -> geo is the 4th element
                     countryCode = ""
                     parts = compositeKey.split(",")
                     numParts = len(parts)
@@ -135,6 +152,7 @@ def makeJsFromTsv(
                         print(f"\t row{idx1:05}  skipping too short composite key {compositeKey}")
                         continue
 
+                    # extracting data key dynamically based on parts length
                     dataKeyLooped = ",".join(parts[:-1]) 
                     if dataKey != dataKeyLooped:
                         unwantedKeysCounter[dataKeyLooped] += 1
@@ -190,17 +208,21 @@ def makeJsFromTsv(
 
 
                         except Exception as castExc:
-                            print(f"\t     Row {idx1} col {yMStr}: cannot parse '{yMRaw}': {castExc}")
+                            stackTrace(castExc)
+                            print(f"\t     Row {idx1} col {yMStr}: cannot parse '{yMRaw}'")
                             continue
 
                 except Exception as rowExc:
-                    print(f"Error processing row index {idx1}: {rowExc}")
+                    stackTrace(rowExc)
+                    print(f"Error processing row index {idx1}")
 
     except FileNotFoundError as fnfExc:
-        print(f"Input file not found: {fnfExc}")
+        stackTrace(fnfExc)
+        print("Input file not found")
         return
     except Exception as readExc:
-        print(f"Error reading input file: {readExc}")
+        stackTrace(readExc)
+        print("Error reading input file")
         return
 
     try:
@@ -255,7 +277,8 @@ def makeJsFromTsv(
         with outputJsPath.open(mode="w", encoding="utf-8", newline="") as outJs:
             outJs.write(jsText)
     except Exception as writeExc:
-        print(f"Error writing JS file: {writeExc}")
+        stackTrace(writeExc)
+        print("Error writing JS file")
 
 
 if __name__ == "__main__":
@@ -272,7 +295,8 @@ if __name__ == "__main__":
 
     # if False:
     if True:
-        inputPath  = Path.cwd() / jobDirEurostat / "estat_prc_hicp_manr.tsv"
+        # updating input path and data key for new minr dataset
+        inputPath  = Path.cwd() / jobDirEurostat / "estat_prc_hicp_minr.tsv"
         outputPath = Path.cwd() / "static"  / "dl" /  "eurostat_hicp.js"
-        makeJsFromTsv(inputPath, outputPath, "M,RCH_A,CP00", "hicp")
+        makeJsFromTsv(inputPath, outputPath, "M,RCH_A,TOTAL", "hicp")
         print(f"  eurostat wrote: {outputPath}")
