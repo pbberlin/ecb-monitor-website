@@ -472,7 +472,8 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
                     else:
                         formattedValue = formatValueForCsv(value)
                         if not isEuro and formattedValue != "":
-                            formattedValue += " (no €)"
+                            pass
+                            # formattedValue += " (no €)"
                         row.append(formattedValue)
 
                 if isFirstRow:
