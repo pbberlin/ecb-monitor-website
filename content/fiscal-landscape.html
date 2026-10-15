@@ -917,7 +917,7 @@
 
 
     function extraRectangle(country, offsetX, offsetY){
-      // the rectangles around 'Euro area (20 countries)', Cyprus and Malta, not Luxembourg,
+      // the rectangles around 'Euro area (27 countries)', Cyprus and Malta, not Luxembourg,
       // differing only in offset
 
       let fontSizeByDisplay = 11;
@@ -1209,7 +1209,7 @@
           ...regionsColoring(),
           extraRectangle('Cyprus', -14,-37),
           extraRectangle('Malta' ,  -6,-26),
-          extraRectangle('Euro area (20 countries)', -45,-51),
+          extraRectangle('Euro area (27 countries)', -45,-51),
           // rectangles('Luxembourg' ,  0,0),
         ],
 
@@ -1357,7 +1357,7 @@
           ...regionsColoring(res.yr),
           extraRectangle('Cyprus', -14,-37),
           extraRectangle('Malta' ,  -6,-26),
-          extraRectangle('Euro area (20 countries)', -45,-51),
+          extraRectangle('Euro area (27 countries)', -45,-51),
       ];
 
 
@@ -1416,7 +1416,7 @@
             ...regionsColoring(res.yr),
             extraRectangle('Cyprus', -14,-37),
             extraRectangle('Malta' ,  -6,-26),
-            extraRectangle('Euro area (20 countries)', -45,-51),
+            extraRectangle('Euro area (27 countries)', -45,-51),
         ];
 
         myChart.setOption(
