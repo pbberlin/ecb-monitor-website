@@ -110,6 +110,7 @@ def runAmecoPipeline() -> bool:
     downloadUrl = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/3.0/data/dataflow/ESTAT/prc_hicp_minr/1.0/*.*.*.*?c[freq]=M&c[unit]=RCH_A&c[coicop18]=TOTAL&compress=false&format=tsv"
     curlCmd = [
         "curl",
+        "-g",  # disabling url globbing to prevent curl from parsing square brackets as ranges
         downloadUrl,
         "-o",
         str(eurostatTsv),

@@ -4,7 +4,13 @@ import json
 import sys
 
 from collections import defaultdict
-from lib.util import stackTrace
+
+
+# importing from ../../lib/trls.py
+parentDir = Path(__file__).resolve().parent.parent.parent
+libPath = parentDir / "lib"
+sys.path.insert(0, str(libPath))
+from util import stackTrace
 
 
 from datetime import datetime
