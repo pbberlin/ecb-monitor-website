@@ -4,6 +4,11 @@ import sys
 import zipfile  # default module
 from datetime import datetime
 
+# resolving parent directory to import lib.util
+parentDir = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(parentDir))
+from lib.util import stackTrace
+
 
 # compute paths only once
 scriptDir = Path(__file__).resolve().parent
@@ -25,7 +30,8 @@ def runShellCommand(commandList, cwdPath: Path | None = None) -> int:
         )
         return result.returncode
     except Exception as exc:
-        print(f"Exception while running command {commandList}: {exc}")
+        stackTrace(exc)
+        print(f"Exception while running command {commandList}")
         return 1
 
 
@@ -40,7 +46,8 @@ def runPythonScript(scriptPath: Path, cwdPath: Path | None = None) -> int:
         )
         return result.returncode
     except Exception as exc:
-        print(f"Exception while running python script {scriptPath}: {exc}")
+        stackTrace(exc)
+        print(f"Exception while running python script {scriptPath}")
         return 1
 
 
@@ -67,10 +74,12 @@ def runAmecoPipeline() -> bool:
                 try:
                     myZip.extract(myFile, path=jobDirAmeco)
                 except Exception as exFile:
-                    print(exFile)
+                    stackTrace(exFile)
+                    print(f"Exception extracting file {myFile}")
                     return False
     except Exception as exZip:
-        print(exZip)
+        stackTrace(exZip)
+        print("Exception opening zip file")
         return False
 
 
@@ -84,7 +93,7 @@ def runAmecoPipeline() -> bool:
 
     # eurostat
 
-    eurostatTsv    = jobDirEurostat / "estat_teimf050.tsv"
+    eurostatTsv = jobDirEurostat / "estat_teimf050.tsv"
     downloadUrl = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/teimf050/?format=TSV&compressed=false"
     curlCmd = [
         "curl",
@@ -96,8 +105,9 @@ def runAmecoPipeline() -> bool:
         return False
 
 
-    eurostatTsv    = jobDirEurostat / "estat_prc_hicp_manr.tsv"
-    downloadUrl = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/prc_hicp_manr/?format=TSV&compressed=false"
+    # 2026-10: new minr dataset
+    eurostatTsv = jobDirEurostat / "estat_prc_hicp_minr.tsv"
+    downloadUrl = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/3.0/data/dataflow/ESTAT/prc_hicp_minr/1.0/*.*.*.*?c[freq]=M&c[unit]=RCH_A&c[coicop18]=TOTAL&compress=false&format=tsv"
     curlCmd = [
         "curl",
         downloadUrl,
@@ -139,7 +149,8 @@ def runGitRollback() -> None:
     try:
         runShellCommand(["git", "checkout", str(dlDir)], cwdPath=appDir)
     except Exception as exc:
-        print(f"Exception while running git rollback: {exc}")
+        stackTrace(exc)
+        print("Exception while running git rollback")
 
 
 def runGitCommitPush() -> None:
