@@ -861,12 +861,12 @@
       let baseline = null;
       if (isRel) {
           try {
-              baseline = selectedDataMeta[selectedVar]["selected_data"][yr]["Euro area (20 countries)"];
+              baseline = selectedDataMeta[selectedVar]["selected_data"][yr]["Euro area (27 countries)"];
           } catch(e) {  console.err(e) }
       }
 
       for (let country of Object.keys(countryDates)) {
-        // if (country === "Euro area (20 countries)") continue;
+        // if (country === "Euro area (27 countries)") continue;
 
         let statsValue = null;
         try {
@@ -876,7 +876,7 @@
         let currentModeConfig = selectedDataMeta[selectedVar]["abs"];
 
         // calculating relative difference if mode is active and country is not the baseline
-        if (isRel && country !== "Euro area (20 countries)") {
+        if (isRel && country !== "Euro area (27 countries)") {
             currentModeConfig = selectedDataMeta[selectedVar]["rel"];
             if (statsValue !== null && baseline !== null && statsValue !== undefined && baseline !== undefined) {
                 statsValue = statsValue - baseline;
@@ -932,7 +932,7 @@
 
       let areaCol = 'rgba(217,233,236,0.15)';
       let label   = country;
-      if (country === "Euro area (20 countries)"){
+      if (country === "Euro area (27 countries)"){
         areaCol = 'rgba(217,233,236,1.00)';
         areaCol = 'rgba(244,244,244,1.00)';
         label   = country + "\n + Bulgaria";
@@ -1010,12 +1010,12 @@
       let baseline = null;
       if (isRel) {
           try {
-              baseline = selectedDataMeta[selectedVar]["selected_data"][yr]["Euro area (20 countries)"];
+              baseline = selectedDataMeta[selectedVar]["selected_data"][yr]["Euro area (27 countries)"];
           } catch(e) {  console.err(e) }
       }
 
       for (let country of Object.keys(countryDates)) {
-        // if (country === "Euro area (20 countries)") continue;
+        // if (country === "Euro area (27 countries)") continue;
 
         if (!centroids[country]) continue;
 
@@ -1027,7 +1027,7 @@
         let currentModeConfig = selectedDataMeta[selectedVar]["abs"];
 
         // calculating relative difference if mode is active and country is not the baseline
-        if (isRel && country !== "Euro area (20 countries)") {
+        if (isRel && country !== "Euro area (27 countries)") {
             currentModeConfig = selectedDataMeta[selectedVar]["rel"];
             if (statsValue !== null && baseline !== null && statsValue !== undefined && baseline !== undefined) {
                 statsValue = statsValue - baseline;
