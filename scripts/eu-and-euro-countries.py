@@ -11,7 +11,7 @@ from lib.util import stackTrace
 # mapping of EU and Euro member states to their accession and leave dates
 # serving as single source of truth for frontend and CSV generation
 countryDates = {
-    "Euro area (20 countries)":
+    "Euro area (27 countries)":
                       {"euJoin": "1999-01-01", "euLeave": None, "euroJoin": "1999-01-01", "euroLeave": None},
     "Austria":        {"euJoin": "1995-01-01", "euLeave": None, "euroJoin": "1999-01-01", "euroLeave": None},
     "Belgium":        {"euJoin": "1958-01-01", "euLeave": None, "euroJoin": "1999-01-01", "euroLeave": None},

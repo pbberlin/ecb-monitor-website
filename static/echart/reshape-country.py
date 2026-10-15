@@ -59,7 +59,7 @@ forMergeOnly_EuroCountries = [
 #     insetFeature = {
 #         "type": "Feature",
 #         "properties": {
-#             "name": "Euro area (20 countries)",
+#             "name": "Euro area (27 countries)",
 #             "role": "inset_box",
 #             "LON": centroidLon,
 #             "LAT": centroidLat,
@@ -578,7 +578,7 @@ def dropClosePoints(features,
                 "Sweden",
                 "Finland",
                 "United Kingdom",
-                "Euro area (20 countries)",
+                "Euro area (27 countries)",
             ]:
                 return True
         except Exception as ex:
@@ -685,7 +685,7 @@ def main():
 
 
     try:
-        nm = "Euro area (20 countries)"
+        nm = "Euro area (27 countries)"
         euroCountriesMergedShape(
             features, 
             nm,  

@@ -25,7 +25,7 @@ from lib.util import stackTrace
 
 
 nameToEuCode = {
-    "EU27_2020": "Euro area (20 countries)",
+    "EU27_2020":       "Euro area (27 countries)",
     "Austria":         "AT",
     "Belgium":         "BE",
     "Bulgaria":        "BG",
