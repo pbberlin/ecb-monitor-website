@@ -17,3 +17,14 @@ ECB: Harmonised long-term interest rates for convergence assessment purposes
 teimf050
 
 Eurostat: Long term government bond yields
+
+
+## prc_hicp_minr
+
+since 2026-01
+
+https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr/default/table?lang=en
+
+
+downloadUrl = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/prc_hicp_manr/?format=TSV&compressed=false"
+
