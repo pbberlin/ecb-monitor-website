@@ -303,10 +303,18 @@ def writeCsvForCouncilList(pth, dataList):
             header_updated = [renameCols.get(key, key) for key in headerKeys]
             csvWriter.writerow(header_updated)
 
+            # removing time component from council-by-6weeks.csv
+            #    2019-01-06 00:00:00;-0,6;1;-0,4
+            #           becomes
+            #    2019-01-06;-0,6;1;-0,4
+
             for idx1, rowDict in enumerate(dataList):
                 row = []
                 for idx2, key in enumerate(headerKeys):
                     val = rowDict.get(key, "")
+                    if key == "date" and isinstance(val, str) and val.endswith(" 00:00:00"):
+                        val = val.replace(" 00:00:00", "")
+
                     row.append(formatValueForCsv(val))
                 csvWriter.writerow(row)
         print(f"\tWrote CSV: {csvFilePath}")
@@ -441,11 +449,11 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
 
             for idx1, countryName in enumerate(sortedCountriesList):
                 dates = countryDates.get(countryName)
-                
+
                 # non EU countries - should not appear in the CSV
                 if not dates or not dates.get("euJoin"):
                     continue
-                    
+
                 row = []
                 row.append(countryName)
 
@@ -454,19 +462,19 @@ def writeCsvForJsFile(jsFilePath, dbg=False):
                 for idx2, yearKey in enumerate(sortedYearKeysList):
                     value = yearToValueDict.get(yearKey)
                     currentYear = int(yearKey[:4])
-                    
+
                     isEu = False
                     if dates["euJoin"] and currentYear >= int(dates["euJoin"][:4]):
                         isEu = True
                     if dates["euLeave"] and currentYear >= int(dates["euLeave"][:4]):
                         isEu = False
-                        
+
                     isEuro = False
                     if dates["euroJoin"] and currentYear >= int(dates["euroJoin"][:4]):
                         isEuro = True
                     if dates["euroLeave"] and currentYear >= int(dates["euroLeave"][:4]):
                         isEuro = False
-                    
+
                     if not isEu:
                         row.append("")
                     else:
