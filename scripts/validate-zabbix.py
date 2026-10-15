@@ -19,11 +19,13 @@ MIN_NESTED_KEYS    = 10
 
 
 # zabbix api endpoint for https push
-ZABBIX_SERVER = "monitor2.zew.de"
-ZABBIX_HOST   = "ecb-monitor.zew.de"             # must match host in Zabbix
+ZABBIX_SERVER    = "monitor2.zew.de"
+ZABBIX_HOST      = "ecb-monitor.zew.de"             # must match host in Zabbix
 # for history.push - we need to create a zabbix trapper item
 # http://monitor2.zew.de/zabbix/zabbix.php?action=item.list&filter_set=1&filter_hostids%5B%5D=10672&context=host
-ZABBIX_KEY    = "crawling.status"                # create an item with this key (trapper)
+ZABBIX_KEY       = "crawling.status"                # create an item with this key (trapper)
+# generating api token in zabbix ui (users -> api tokens) to authorize history.push
+ZABBIX_API_TOKEN = "ed7de1b8ff79efddfac725aeee04ffbf2562ee471694b0eba567279096620db7"
 
 
 def extractJsonFromJs(jsText):
@@ -140,7 +142,7 @@ def sendStatusToZabbix(statusValue):
 
     # constructing api endpoint url based on provided zabbix server
     apiUrl = f"https://{ZABBIX_SERVER}/zabbix/api_jsonrpc.php"
-    apiUrl = f"http://{ZABBIX_SERVER}/zabbix/api_jsonrpc.php"
+    # apiUrl = f"http://{ZABBIX_SERVER}/zabbix/api_jsonrpc.php"
 
     # building json-rpc payload for history.push method
     # requiring zabbix 6.4+ and allowed ip in trapper item
@@ -161,10 +163,14 @@ def sendStatusToZabbix(statusValue):
         payloadBytes = json.dumps(payloadDict).encode("utf-8")
 
         # preparing http request with correct content type for json-rpc
+        # passing bearer token in authorization header to authenticate api call
         req = urllib.request.Request(
             apiUrl,
             data=payloadBytes,
-            headers={"Content-Type": "application/json-rpc"}
+            headers={
+                "Content-Type": "application/json-rpc",
+                "Authorization": f"Bearer {ZABBIX_API_TOKEN}"
+            }
         )
 
         with urllib.request.urlopen(req, timeout=10) as response:
