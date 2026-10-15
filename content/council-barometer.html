@@ -217,13 +217,19 @@
 
       text-align: center;
       min-width:  8rem;
-      width:      min-content;
       width:      max-content;
       padding:    0.2ch 2ch;
       margin:     0 auto;
       margin-top: 1ch;
 
   }
+
+  .lowerDesc {
+      margin-top: 2ch;
+      font-size: 90%;
+      background-color: transparent !important;
+  }
+
 
 
 @media (max-width: 900px) {
@@ -318,7 +324,6 @@
         width:      auto;
         margin-top:    0.5ch;
         margin-bottom: 2.5ch;
-
       }
 
 
@@ -385,6 +390,14 @@
     <div   class="medianBgColorDYN" >
         {{i18n.council_barometer_chart_label|safe}}
     </div>
+    <div   class="medianBgColorDYN lowerDesc" >
+        {{i18n.council_barometer_lower_description|safe}}
+    </div>
+    <div   class="medianBgColorDYN lowerDesc" >
+        More Info <a href="#" id="btnDlgIco2" tabindex="-1" title="{{i18n.infobox_header}}" >i</a>
+    </div>
+
+
 
   </div>
 
@@ -1380,4 +1393,13 @@ function drawArcsAndTicks(svg, centerX, centerY, radius, ring, config) {
             }, 1400);
         }, 600);
     });
+
+
+
+    const btnDlgIco2     = document.getElementById("btnDlgIco2");
+    btnDlgIco2.addEventListener("click", () => {
+        dlg.showModal();
+    });
+
+
 </script>
