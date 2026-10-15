@@ -18,7 +18,7 @@ cls && python app.py
 
 ## No Admin
 
-* If you dont have admin right
+* If you dont have admin rights
 
 * pip install <contents of requirements.txt>
 
@@ -96,3 +96,11 @@ The html javascript gets three lists/dicts
     * non EU   countries - background dark grey       and no   stats number  - on mouse over "[Country] non EU"
     * non Euro countries - background light blue      and with stats number  - on mouse over "[Country] (no €)"
     * in  Euro countries - background dynamic stats   and with stats number  - on mouse over "[Country]"
+
+
+## push github
+
+```bash
+# occasionally - to get security notifications
+git push upstream2 main
+```
