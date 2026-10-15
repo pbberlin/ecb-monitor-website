@@ -106,6 +106,7 @@ code {
   }
 
   #btnDlgIco,
+  #btnDlgIco2,
   .box1 a#btnDlgIco,     /*  homepage - extra specifity */
   dummy {
       width:         1.2rem;

@@ -998,21 +998,24 @@ trlsRaw = [
         "council_barometer_chart_label": {
         "de": """
                 Zeiger:  Median-Position des Gremiums:  &nbsp; <span id="medianVal" ></span>         <br>
+                Kreise zeigen die Position des Ratsmitglieds
+            """,
+        "en": """
+                Needle shows the median score in the Council:  &nbsp;  <span id="medianVal" ></span> <br>
+                Circles show the stance of each ECB Council member.<br>
+            """,
+        },
+    },
+    {
+        # attention: must contain html span element - being updated via JavaScript
+        "council_barometer_lower_description": {
+        "de": """
                 Die Kreise zeigen die Position der Länder.              <br>
                 Maus-Over, um den Vertreter des Landes zu sehen
             """,
         "en": """
-                Needle shows the median score in the Council:  &nbsp;  <span id="medianVal" ></span> <br>
-
-
-                The circles show the scores of the individual members of the ECB Council. <br>
-                "B" means board member.   <br>
-                Hover over circles to see the individual representative of the country.   <br>
-                For the current year, scores are calculated based on speeches given over the last 12 months. <br>
-                For previous years, they are based on speeches given in the respective calendar year.   <br>
-                Values are missing for individuals for whom no speeches exist.   <br>
-
-
+                "B" means board member  &nbsp; <img style="position: relative; top: 4px; height: 20px;"  src="/static/img/symbols/board-member.png" alt="board member">. <br>
+                Hover over circles for details.   <br>
             """,
         },
     },
@@ -1041,12 +1044,23 @@ trlsRaw = [
                     Thus, the graph conveys an impression of both the majority position and the variance of views in the ECB Council for each year.
                 </p>
 
-                <ul>
+                <p>
+                    For the current year, scores are calculated based on speeches given over the last 12 months. 
+                </p>
+
+                <p>
+                    For previous years, they are based on speeches given in the respective calendar year.   
+                </p>
+
+                <p>
+                    Values are missing for individuals for whom no speeches exist.   
+                </p>
+
+
                     <!--
                         ● ➡ ↪
                     -->
 
-                </ul>
 
             """,
         },
