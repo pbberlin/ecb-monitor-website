@@ -461,6 +461,7 @@ function getCountryDisplayProps(
     // euro
     let lblText = vl !== null && vl !== undefined && vl !== "" ? config.formatter(vl) : "N/A";
     let color   = vl !== null && vl !== undefined && vl !== "" ? valToPctToColor(vl, initOpacity, elOpa, config) : '#ccc';
+    // console.log(` lblText ${lblText} from vl ${vl} ${country} `)
     return {
         status: "euro",
         areaColor: color,
