@@ -78,7 +78,7 @@ sudo -u www-data test -x /var/www/ecb-app/scripts && echo "execute ok" || echo "
 
 ```
 
-## Send results to zabbix
+## Sending results to zabbix - old
 
 ```bash
 
@@ -92,10 +92,22 @@ Test-NetConnection -ComputerName monitor2.zew.de -Port 10050
 sudo apt install zabbix-sender
 # or sudo apt install zabbix-agent
 
+```
 
-# for data sent with zabbix_sender
-#   =>  we need to create an item of type "zabbix trapper"
-http://monitor2.zew.de/zabbix/zabbix.php?action=item.list&filter_set=1&filter_hostids%5B%5D=10672&context=host
+## Sending results to zabbix - 2026-10
+
+* Sending crawling status via http jsonrpc to zabbix monitoring
+
+* Creating an item of type "zabbix trapper"  
+    http://monitor2.zew.de/zabbix/zabbix.php?action=item.list&filter_set=1&filter_hostids%5B%5D=10672&context=host
+
+
+* Inspect the data
+  * Monitoring   in the main left-hand menu.
+  * Latest data
+  * Hosts        -  enter `ecb-monitor.zew.de`   (Filter block at the top)
+  * Name         -  enter `crawling.status`      optional
+
 
 
 ```
