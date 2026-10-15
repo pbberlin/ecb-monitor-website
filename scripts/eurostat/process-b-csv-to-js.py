@@ -234,6 +234,15 @@ def makeJsFromTsv(
         print("Error reading input file")
         return
 
+    # removing empty year-months to prevent validation errors
+    keysToRemove = []
+    for idx1, yM in enumerate(dataByYearMonth.keys()):
+        if len(dataByYearMonth[yM]) == 0:
+            keysToRemove.append(yM)
+            
+    for idx1, yM in enumerate(keysToRemove):
+        del dataByYearMonth[yM]
+
     try:
 
         # build mapping of year-month keys (sorted descending alphabetically)
