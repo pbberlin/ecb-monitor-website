@@ -394,7 +394,7 @@ function getCountryDisplayProps(
         };
     }
 
-    if ( country === "Euro area (20 countries)") {
+    if ( country === "Euro area (27 countries)") {
         // console.log(` did find Euro area`)
     }
 
@@ -431,7 +431,7 @@ function getCountryDisplayProps(
 
     // appending context to tooltip if relative mode is active and country is not the baseline
     let tooltipSuffix = "";
-    if (isRelative && isEuro  && country !== "Euro area (20 countries)") {
+    if (isRelative && isEuro  && country !== "Euro area (27 countries)") {
         tooltipSuffix = "\n(Difference from Eurozone)";
     }
 
