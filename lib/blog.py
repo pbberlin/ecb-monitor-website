@@ -131,8 +131,6 @@ def licenceString(fnParam):
 def imageLicenses():
 
   imgs = [
-      # "symbols/imag0021_backspace.jpg",
-
       "dovish-hawkish/2026-09/dove.svg",
       "dovish-hawkish/2026-09/hawk.svg",
 
@@ -143,14 +141,10 @@ def imageLicenses():
       "homepage/05-calendar.svg",
       "homepage/06-science.svg",
   
-      # "blog/electronica-biftu-cash-register--iceblue-yell.png",
       "blog/European_Central_Bank_Headquarters_(model_01)-sm-fg2.png",
       "blog/fhe--grey.jpg",
       "blog/fhe--iceblue.jpg",
 
-      # "blog/adobe-political-economy.jpg",
-      # "blog/adobe-stock-1878624005-sm.gif",
-      # "blog/adobe-stock-529399345-ecb.jpg",
     ]
 
 

@@ -85,7 +85,7 @@
     * Second line is the subtitle - appears only in list view
     * Third line is an optional vignette.
         * Available vignettes here `/templates/blog`
-        * For instance `fhe-grey` 
+        * For instance `fhe-jkp` 
 
 * Links and content images
     * Write hyperlinks like this:  [link title](https://example.com)
