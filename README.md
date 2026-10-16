@@ -85,18 +85,22 @@ choco install ghostscript
     * base data in `scripts/eu-and-euro-countries.py`
     * exported to JS file `static/dl/eu-and-euro-countries.js`
 
-Containing time based data for 
-    EU   accession   by year
-    Euro accession   by year
-    EU   leave       by year
-    Euro leave       by year
+
+* Containing time based data for 
+    * EU   accession   by year
+    * Euro accession   by year
+    * EU   leave       by year
+    * Euro leave       by year
 
 
-The html javascript gets three lists/dicts
+* The html javascript gets three lists/dicts
     * non EU   countries - background dark grey       and no   stats number  - on mouse over "[Country] non EU"
     * non Euro countries - background light blue      and with stats number  - on mouse over "[Country] (no €)"
     * in  Euro countries - background dynamic stats   and with stats number  - on mouse over "[Country]"
 
+
+More in [data update](doc/ecb-council-update.md)
+More in [blog update](doc/content-manager.md)
 
 ## push github
 
