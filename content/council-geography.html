@@ -1262,6 +1262,13 @@
         let   vl = member[ky];
 
         if(ky === "hawkish_score"){
+          // switching data series based on deviation flag
+          if (isDeviation) {
+            vl = member["hawkish_deviation"];
+          } else {
+            vl = member["hawkish_score"];
+          }
+
           if (Number.isFinite(vl)) {
             vl = vl.toFixed(2)
           } else {
@@ -1285,6 +1292,12 @@
 
         if(ky === "hawkish_score"){
           let vl2 = member[ky];
+          // switching data series for background color calculation
+          if (isDeviation) {
+            vl2 = member["hawkish_deviation"];
+          } else {
+            vl2 = member["hawkish_score"];
+          }
           const bgCol = valToPctToColor(vl2, initOpacity, elOpa, selectedDataMeta["main"]  );
           rowDiv.style.backgroundColor = bgCol;
         }
@@ -1292,7 +1305,6 @@
 
         outerDiv.appendChild(rowDiv);
       }
-
 
       let titleMouseOver = ""
       for (let idx1 = 0; idx1 < popupKeys.length; idx1 += 1) {
