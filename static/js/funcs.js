@@ -5,6 +5,10 @@
 */
 
 
+const offsetLongi  = 17.4;   // was 9.2  =>  zooming out => viewport gets too small
+const offsetLatit  = 11.6;
+
+
 // color funcs start
 function valToPctToColor(vl, initOpacity, elOpa, config, opaBuff=0) {
 
