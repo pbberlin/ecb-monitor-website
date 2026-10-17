@@ -1,77 +1,5 @@
+<!-- council-geography.html -->
 <style>
-
-  :root{
-    --display-type:   desktop;               /* used in javascript, no quotation marks */
-
-    --grad-height:   1.2rem;
-    --w01:           clamp(14rem, 20vw, 26.25rem) ; /* scaling columns up to 2100px threshold */
-    --w01-min:       calc( var(--w01) - 0.8rem )  ; /* accounting for 2 * 0.4rem control-pad margin */
-    --wCenter:       calc( var(--w01) * 2.15 )    ; /* locking 2.15:1 center-to-side ratio */
-    --echartHeight:   75vh;              /* not 75% -  fails */
-    --echartHeight:   min(75vh, calc(var(--wCenter) * 0.90)); /* locking map aspect ratio on zoom-out */
-    --marginHeight:  calc( var(--echartHeight) - 1rem);
-    --initOpacity:   0.6;               /* minimize flickering */
-
-  }
-
-
-  /* radio buttons 20% larger */
-  input[type="radio"] {
-    transform:         scale(1.34);
-    -webkit-transform: scale(1.34);    /* Safari / older WebKit */
-    -ms-transform:     scale(1.34);    /* old IE/Edge */
-    transform-origin:  center;
-    vertical-align:    middle;
-
-    position: relative;
-    top: -0.12rem;
-
-  }
-
-
-  input[type="radio"] {
-    margin-left:  0.4rem;
-  }
-
-  html,
-  body,
-  dummy {
-    height: 100%;
-  }
-
-
-  .layout h3 {
-      font-size: 140%;
-      line-height: 1.35;
-      text-align: left;
-      text-align: center;
-  }
-
-
-  /* Ensure grid items can shrink if needed */
-  .col {
-    min-width: 0;
-    padding:   0;
-    margin:    0;
-    /* margin: 2px; */
-    /* border: 1px solid red; */
-  }
-
-
-  /* col1 - at least 20rem - 20% of screen width - */
-  .col--left   {
-    height:    var(--marginHeight);
-    min-width: var(--w01-min);
-
-    /* flex -  vertical centering */
-    display:         flex;
-    flex-direction:  column;
-    align-content:   end;
-
-    justify-content: flex-start;     /* top nav to top */
-
-    text-align: right;
-  }
 
   /* overriding ecb-mon.css */
   /*   since vertical space is scarce */
@@ -86,175 +14,8 @@
     margin-bottom: 0.6rem;   /* reduced from global css*/
   }
 
-
-  .col--center {
-    width:         var(--wCenter);
-    justify-self: center;
-    align-self:    start;
-  }
-
-  /* col3 - takes the residual space, content left */
-  .col--right  {
-    height:    var(--marginHeight);
-    min-width: var(--w01-min);
-    /* width: max-content; */
-
-    justify-self: start;
-    align-self:   start;
-    text-align:   left;
-
-    align-content:   end;
-
-
-  }
-
-
-  #echart_container {
-
-    /* not 100% -  fails */
-    width:  var(--wCenter);
-    height: var(--echartHeight);
-
-    /* margin:  0 auto; */
-    padding: 0;
-    border-bottom: 1px solid lightgray;
-    /* border-right:  1px solid lightgray; */
-    /* border: 1px solid lightgray; */
-    box-sizing: border-box;
-  }
-
-
-
-
-  /* content styles, why was the z-index needed?  */
   .control-pad {
-    position: relative;   /*  z-index  */
-    z-index:  10;
-
-    margin:  0.4rem;
-    padding: 0.5rem 1.1rem;
     padding-left: 0.5rem;
-
-    border-radius: 0.2rem;
-    background-color: rgba(217,233,236,0.25);
-  }
-
-  .slider-group {
-    display:        flex;
-    flex-direction: column;
-    gap:           0.01rem;
-    align-items:   center;   /* contents centered horizontally */
-    height:        auto;
-    width:         max-content;    /* shrink container to content so it can sit right */
-    width:         100%;
-
-    margin-top:    1.1rem;
-    margin-bottom: 1.1rem;
-    margin-left:   auto;
-    margin-right:  auto;
-  }
-
-  #yearSlider {
-    width: 90%;
-    align-self: end;
-  }
-
-
-
-
-@media (max-width: 900px) {
-      /* smartphone */
-
-      :root {
-        /* also zooms the echart */
-        --echartHeight:   34vh;
-        --display-type:   mobile;               /* used in javascript, no quotation marks */
-      }
-
-
-      /* allow cols to shrink nicely */
-      .col {
-        min-width: 0;
-        padding:   0;
-        margin:    0;
-      }
-
-      /* stacked: top, middle, bottom
-        (HTML order already is: left -> center -> right) */
-      .col--left,
-      .col--center,
-      .col--right {
-        width:     100%;
-        min-width:    0;
-        height:    auto;
-
-        justify-self: stretch;
-        align-self:     start;
-        text-align:    center;
-      }
-
-      .col--right {
-        /* height: 20rem;  */
-        height: auto;
-        padding: 1rem 2rem;
-        text-align: left;
-      }
-
-      /* center column: echart takes full width on phone */
-      #echart_container {
-        width:             100%;
-        max-width:         100%;
-        height:      var(--echartHeight);
-        box-sizing: border-box;
-
-        /* border-top: 2px solid red; */
-      }
-
-      .slider-group {
-        align-self:   center;
-        justify-self: center;
-      }
-
-      #yearSlider {
-        width: 90%;
-        align-self: center;
-      }
-
-      #council_list {
-        align-self: flex-end;
-        margin-right: 5.2ch;
-      }
-
-      .layout h3 {
-        /* .layout to increase specifitiy */
-        text-align: center;
-        width:      90%;
-        margin: 1rem auto ;
-        margin-bottom: 0;
-      }
-
-
-
-}
-
-
-</style>
-
-<style>
-
-  .col--left   {
-    background-image: url("/static/img/ecb/ecb-transparent-30pct.png");
-    background-repeat: no-repeat;
-
-    background-size:      100%;
-    background-position-y:  4.8rem;
-    background-position-x: -4.5rem;
-
-    background-size:      70%;
-    background-position-y:  5.8rem;
-    background-position-x:  1.3rem;
-
-    /* background-blend-mode: lighten; */
   }
 
 
@@ -384,6 +145,17 @@
     padding-right: 0;
 
   }
+
+
+@media (max-width: 900px) {
+      /* smartphone */
+      #council_list {
+        align-self: flex-end;
+        margin-right: 5.2ch;
+      }
+}
+
+
 
 </style>
 
