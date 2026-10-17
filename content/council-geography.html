@@ -4,9 +4,11 @@
     --display-type:   desktop;               /* used in javascript, no quotation marks */
 
     --grad-height:   1.2rem;
-    --w01:           max(20rem, 20vw);  /* width left and right column  */
-    --w01-min:       calc( var(--w01) - 0.5rem )  ;
+    --w01:           clamp(14rem, 20vw, 26.25rem) ; /* scaling columns up to 2100px threshold */
+    --w01-min:       calc( var(--w01) - 0.8rem )  ; /* accounting for 2 * 0.4rem control-pad margin */
+    --wCenter:       calc( var(--w01) * 2.15 )    ; /* locking 2.15:1 center-to-side ratio */
     --echartHeight:   75vh;              /* not 75% -  fails */
+    --echartHeight:   min(75vh, calc(var(--wCenter) * 0.90)); /* locking map aspect ratio on zoom-out */
     --marginHeight:  calc( var(--echartHeight) - 1rem);
     --initOpacity:   0.6;               /* minimize flickering */
 
@@ -85,8 +87,8 @@
   }
 
 
-  /* col2 -  fixed 820px, content centered */
   .col--center {
+    width:         var(--wCenter);
     justify-self: center;
     align-self:    start;
   }
@@ -110,7 +112,7 @@
   #echart_container {
 
     /* not 100% -  fails */
-    width: 820px;
+    width:  var(--wCenter);
     height: var(--echartHeight);
 
     /* margin:  0 auto; */
@@ -120,7 +122,6 @@
     /* border: 1px solid lightgray; */
     box-sizing: border-box;
   }
-
 
 
 
@@ -1133,7 +1134,7 @@
                 //  north of finland -  west of ireland
                 [16 - offsetLongi        , 48.5 - offsetLatit],
                 // [maxLon, maxLat],
-                //  west of ireland -   east of cyprus -  820px width
+                //  south of cyprus -   east of cyprus
                 [16 + offsetLongi - 0.2  , 48.5 + offsetLatit],
         ],
 
