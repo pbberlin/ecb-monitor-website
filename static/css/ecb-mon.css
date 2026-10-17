@@ -402,17 +402,18 @@ dummy {
 container: left-to-right flow, top-aligned
 3 columns
 - col 1: 20% - at least 20vm
-- col 2: exactly 820px
+- col 2: 2.15 * col 1 (820px at 1900px viewport)
 - col 3: 1fr - takes remaining width
 -           or right margin max(20rem, 20vw)
 */
 .layout {
-    width:  calc( 820px + 2* var(--w01));
+    --wCenter: calc( var(--w01) * 2.15 );
+    width:  calc( var(--wCenter) + 2* var(--w01));
     margin: 0 auto;
     margin-bottom: 6ch;
 
     display: grid;
-    grid-template-columns:  var(--w01) 820px  var(--w01);
+    grid-template-columns:  var(--w01) var(--wCenter)  var(--w01);
     column-gap: 0;
 
     align-items: stretch;         /* stretch to full height so children can center */
