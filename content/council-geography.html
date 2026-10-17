@@ -72,9 +72,16 @@
   }
 
   /* overriding ecb-mon.css */
+  /*   since vertical space is scarce */
   .col--left h3 {
-      margin-top:    0.5ch;
-      margin-bottom: 0.1ch;
+      margin-top:    0.1ch;
+      margin-bottom: 1.1ch;
+      line-height:   1.25;
+      font-size:     122%;
+  }
+
+  .sec-navi-mini {
+    margin-bottom: 0.6rem;   /* reduced from global css*/
   }
 
 
@@ -125,6 +132,7 @@
 
     margin:  0.4rem;
     padding: 0.5rem 1.1rem;
+    padding-left: 0.5rem;
 
     border-radius: 0.2rem;
     background-color: rgba(217,233,236,0.25);
@@ -273,6 +281,7 @@
 
     margin:  0;
     margin-bottom:      1.05rem;
+    margin-bottom:      0.65rem;
     padding: 0;
     border-radius: 0.6rem;
     /* border: 1px solid green; */
@@ -388,8 +397,12 @@
         <span>{{i18n.section_home}}</span>
       </a>
       <hr class="sidebar-divider">
-      <a href="/pg/council-barometer.html"      >{{i18n.barometer_section}}           <span  class="subtitle"> {{i18n.barometer_section_subtitle}}         </span class="subtitle"> </a>
+      <!-- 
+      <a href="/pg/council-barometer.html"       >{{i18n.barometer_section}}          <span  class="subtitle"> {{i18n.barometer_section_subtitle}}         </span class="subtitle"> </a>
       <a href="/pg/council-by-6weeks.html"       >{{i18n.council_by_6weeks_section}}  <span  class="subtitle"> {{i18n.council_by_6weeks_section_subtitle}} </span class="subtitle"> </a>
+      -->
+      <a href="/pg/council-barometer.html"   title="{{i18n.barometer_section_subtitle}}"           >{{i18n.barometer_section}}          </a>
+      <a href="/pg/council-by-6weeks.html"   title="{{i18n.council_by_6weeks_section_subtitle}}"   >{{i18n.council_by_6weeks_section}}  </a>
 
 
 
@@ -406,7 +419,7 @@
       <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
     </div>
 
-    <div class="slider-group" style="margin-top: 0.2rem; margin-bottom: 1.5rem;">
+    <div class="slider-group" style="margin-top: 0.02rem; margin-bottom: 1.1rem;">
       <label title="{{i18n.hawkish_deviation_help}}" style="cursor: pointer;">
         <input type="checkbox" id="cbHawkishDeviation" name="cbHawkishDeviation"> {{i18n.hawkish_deviation_label}}
       </label>
@@ -1115,13 +1128,13 @@
         // layoutSize:    '250%',
 
 
-
         boundingCoords: [
-            // [minLon, minLat],
-            //  north of finland -  west of ireland
-                [16 - 9.2         , 48.5 - 11.6],
-            // [maxLon, maxLat],
-                [16 + 9.2 - 0.2   , 48.5 + 11.6],
+                // [minLon, minLat],
+                //  north of finland -  west of ireland
+                [16 - offsetLongi        , 48.5 - offsetLatit],
+                // [maxLon, maxLat],
+                //  west of ireland -   east of cyprus -  820px width
+                [16 + offsetLongi - 0.2  , 48.5 + offsetLatit],
         ],
 
         // universalTransition: true,

@@ -1070,11 +1070,12 @@
 
 
         boundingCoords: [
-            // [minLon, minLat],
-            //  north of finland -  west of ireland
-                [16 - 9.2         , 48.5 - 11.6],
-            // [maxLon, maxLat],
-                [16 + 9.2 - 0.2   , 48.5 + 11.6],
+                // [minLon, minLat],
+                //  north of finland -  west of ireland
+                [16 - offsetLongi        , 48.5 - offsetLatit],
+                // [maxLon, maxLat],
+                //  west of ireland -   east of cyprus -  820px width
+                [16 + offsetLongi - 0.2  , 48.5 + offsetLatit],
         ],
 
         // universalTransition: true,

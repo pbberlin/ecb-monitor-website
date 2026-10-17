@@ -125,7 +125,7 @@ input[type="checkbox"] {
     top:  0.22ch;
 
     /* Default is usually around 13px */
-    width:  16px;  
+    width:  16px;
     height: 16px;
 }
 
@@ -466,7 +466,7 @@ dummy  {
     /* keep the shadow close */
 
     text-decoration:       underline;
-    text-underline-offset:     3px;  
+    text-underline-offset:     3px;
     text-decoration-thickness: 0.8px;
 
 }
@@ -563,19 +563,25 @@ span.subtitle {
 .gradient-illustation {
     width: 17%;
     width: 15%;
+
+    max-width:  2.6rem;   /* preventing oversized scaling */
+    max-height: 2.2rem;   /* constraining dove height to match hawk */
+
+    height:     auto;
+    object-fit: contain;
 }
 
 .gradient-illustation-img1 {
     /* align-self:   start; */
     /* justify-self: start; */
-    translate:  -40%  +60%;
+    translate:  -29%  +60%;
     opacity:     0.7;
     position:    relative ;
     left:        1.2ch ;
 }
 .gradient-illustation-img2 {
     margin-left: auto;
-    translate: +40%   +60%;
+    translate: +29%   +60%;
     opacity:    0.7;
     position:   relative ;
     left:      -1.4ch ;   /* hawk a little more */
@@ -583,9 +589,8 @@ span.subtitle {
 
 
 
-
 @media (max-width: 900px) {
-      
+
     .gradientWrapper {
         margin-top:    0.1rem;
         margin-bottom: 0.1rem;
