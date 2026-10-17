@@ -1,5 +1,12 @@
-<!-- council-geography.html -->
+<!-- council-geography.html --><!-- council-geography.html -->
 <style>
+
+  .col--left {
+      background-image:    url('/static/img/ecb/ecb-transparent-30pct.png');
+      background-repeat:   no-repeat;
+      background-position: left 1.8rem top 7.5rem;
+      background-size:     65% auto;
+  }
 
   /* overriding ecb-mon.css */
   /*   since vertical space is scarce */
@@ -16,6 +23,12 @@
 
   .control-pad {
     padding-left: 0.5rem;
+  }
+
+  /* keeping stacked links centered inside right column */
+  .play-and-download {
+    margin-left:  auto;
+    margin-right: auto;
   }
 
 
@@ -149,14 +162,41 @@
 
 @media (max-width: 900px) {
       /* smartphone */
+      .col--left {
+        /* background-position: left 1.5rem bottom 0.5rem; */
+        /* background-size:     28% auto; */
+        margin-bottom: 0.8ch;
+      }
+
       #council_list {
         align-self: flex-end;
         margin-right: 5.2ch;
       }
+
+      /* restoring symmetric padding on mobile so gradient is centered */
+      .col--right.control-pad {
+        padding: 1rem 2rem;
+      }
+
+      /* stacking methodology and download links vertically on mobile */
+      .play-and-download {
+        display:       flex;
+        width:         100%;
+        margin-top:    0.4rem;
+        margin-bottom: 0.4rem;
+        margin-left:   auto;
+        margin-right:  auto;
+      }
+
+      /* keeping dove and hawk aligned with gradient bar on mobile */
+      .gradient-illustation {
+        top: 0;
+      }
+
+      .gradientWrapper {
+        margin-top: 1.8rem;
+      }
 }
-
-
-
 </style>
 
 <div class="layout">
