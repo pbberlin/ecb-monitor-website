@@ -110,10 +110,3 @@ git push upstream2 main
 ```
 
 
-## mobile
-
-https://ecb-monitor.zew.de/pg/council-geography.html
-
-background-image of left column is lost
-
-col-right in mobile is not centered

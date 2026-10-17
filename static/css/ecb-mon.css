@@ -48,6 +48,20 @@
     --color-grey-lt:      rgb(135, 135, 134);
     --color-grey-lt-2:    rgb(157, 157, 156);
 
+    --display-type:   desktop;               /* used in javascript, no quotation marks */
+
+    --grad-height:   1.2rem;
+    --w01:           clamp(14rem, 20vw, 26.25rem) ; /* scaling columns up to 2100px threshold */
+    --w01-min:       calc( var(--w01) - 0.8rem )  ; /* accounting for 2 * 0.4rem control-pad margin */
+
+    /*  major switch to change the echart  */
+    --wCenter:       calc( var(--w01) * 2.55 )    ; /* center-to-side ratio */
+
+    --echartHeight:   75vh;              /* not 75% -  fails */
+    --echartHeight:   min(75vh, calc(var(--w01) * 2.15 * 0.90)); /* keeping height independent of wCenter */
+    --marginHeight:  calc( var(--echartHeight) - 1rem);
+    --initOpacity:   0.6;               /* minimize flickering */
+
 }
 
 
@@ -76,8 +90,10 @@ h3, p, li {
 
 
 html,
-body{
+body,
+dummy {
     margin: 0;
+    height: 100%;
 }
 
 
@@ -127,6 +143,21 @@ input[type="checkbox"] {
     /* Default is usually around 13px */
     width:  16px;
     height: 16px;
+}
+
+
+/* radio buttons 20% larger */
+input[type="radio"] {
+    transform:         scale(1.34);
+    -webkit-transform: scale(1.34);    /* Safari / older WebKit */
+    -ms-transform:     scale(1.34);    /* old IE/Edge */
+    transform-origin:  center;
+    vertical-align:    middle;
+
+    position: relative;
+    top: -0.12rem;
+
+    margin-left:  0.4rem;
 }
 
 
@@ -402,92 +433,6 @@ dummy  {
 }
 
 
-
-
-/* content stuff start */
-
-  :root{
-    --display-type:   desktop;               /* used in javascript, no quotation marks */
-
-    --grad-height:   1.2rem;
-    --w01:           clamp(14rem, 20vw, 26.25rem) ; /* scaling columns up to 2100px threshold */
-    --w01-min:       calc( var(--w01) - 0.8rem )  ; /* accounting for 2 * 0.4rem control-pad margin */
-
-    
-    --wCenter:       calc( var(--w01) * 2.45 * 1.40 )    ; /* center-to-side ratio */
-
-
-    --echartHeight:   75vh;              /* not 75% -  fails */
-    --echartHeight:   min(75vh, calc(var(--wCenter) * 0.90)); /* locking map aspect ratio on zoom-out */
-    --marginHeight:  calc( var(--echartHeight) - 1rem);
-    --initOpacity:   0.6;               /* minimize flickering */
-
-  }
-
-
-  /* radio buttons 20% larger */
-  input[type="radio"] {
-    transform:         scale(1.34);
-    -webkit-transform: scale(1.34);    /* Safari / older WebKit */
-    -ms-transform:     scale(1.34);    /* old IE/Edge */
-    transform-origin:  center;
-    vertical-align:    middle;
-
-    position: relative;
-    top: -0.12rem;
-
-  }
-
-
-  input[type="radio"] {
-    margin-left:  0.4rem;
-  }
-
-  html,
-  body,
-  dummy {
-    height: 100%;
-  }
-
-
-/*
-container: left-to-right flow, top-aligned
-3 columns
-- col 1: 20% - at least 20vm
-- col 2: 2.15 * col 1 (820px at 1900px viewport)
-- col 3: 1fr - takes remaining width
--           or right margin max(20rem, 20vw)
-*/
-.layout {
-    width:  calc( var(--wCenter) + 2* var(--w01));
-    margin: 0 auto;
-    margin-bottom: 6ch;
-
-    display: grid;
-    grid-template-columns:  var(--w01) var(--wCenter)  var(--w01);
-    column-gap: 0;
-
-    align-items: stretch;         /* stretch to full height so children can center */
-    align-items: start;
-
-    /* border: 1px solid red; */
-}
-
-
-@media (max-width: 900px) {
-      /* single column stack */
-      .layout {
-        width:     100%;
-        max-width: 100%;
-        margin-bottom: 0;
-
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;  /* col--left, col--center, col--right */
-      }
-}
-
-
 body     main#main a,
 body div.blog-body a,
 dummy  {
@@ -635,27 +580,6 @@ span.subtitle {
 
 
 
-@media (max-width: 900px) {
-
-    .gradientWrapper {
-        margin-top:    0.1rem;
-        margin-bottom: 0.1rem;
-    }
-
-
-    .gradient-illustation {
-        position: relative;;
-        top: -3ch;
-        /* transform: scale(0.8); */
-        width: 12%;
-
-    }
-
-
-}
-
-
-
 
 footer {
     display:        grid;
@@ -795,48 +719,6 @@ footer .c-heading {
 
 /* content stuff start */
 
-  :root{
-    --display-type:   desktop;               /* used in javascript, no quotation marks */
-
-    --grad-height:   1.2rem;
-    --w01:           clamp(14rem, 20vw, 26.25rem) ; /* scaling columns up to 2100px threshold */
-    --w01-min:       calc( var(--w01) - 0.8rem )  ; /* accounting for 2 * 0.4rem control-pad margin */
-
-    --wCenter:       calc( var(--w01) * 2.45 * 1.40 )    ; /* center-to-side ratio */
-
-    --echartHeight:   75vh;              /* not 75% -  fails */
-    --echartHeight:   min(75vh, calc(var(--w01) * 2.15 * 0.90)); /* keeping height independent of wCenter */
-    --marginHeight:  calc( var(--echartHeight) - 1rem);
-    --initOpacity:   0.6;               /* minimize flickering */
-
-  }
-
-
-  /* radio buttons 20% larger */
-  input[type="radio"] {
-    transform:         scale(1.34);
-    -webkit-transform: scale(1.34);    /* Safari / older WebKit */
-    -ms-transform:     scale(1.34);    /* old IE/Edge */
-    transform-origin:  center;
-    vertical-align:    middle;
-
-    position: relative;
-    top: -0.12rem;
-
-  }
-
-
-  input[type="radio"] {
-    margin-left:  0.4rem;
-  }
-
-  html,
-  body,
-  dummy {
-    height: 100%;
-  }
-
-
 /*
 container: left-to-right flow, top-aligned
 3 columns
@@ -858,20 +740,6 @@ container: left-to-right flow, top-aligned
     align-items: start;
 
     /* border: 1px solid red; */
-}
-
-
-@media (max-width: 900px) {
-      /* single column stack */
-      .layout {
-        width:     100%;
-        max-width: 100%;
-        margin-bottom: 0;
-
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;  /* col--left, col--center, col--right */
-      }
 }
 
 
@@ -1024,6 +892,29 @@ container: left-to-right flow, top-aligned
         --display-type:   mobile;               /* used in javascript, no quotation marks */
       }
 
+      /* single column stack */
+      .layout {
+        width:     100%;
+        max-width: 100%;
+        margin-bottom: 0;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;  /* col--left, col--center, col--right */
+      }
+
+      .gradientWrapper {
+        margin-top:    0.1rem;
+        margin-bottom: 0.1rem;
+      }
+
+      .gradient-illustation {
+        position: relative;;
+        top: -3ch;
+        /* transform: scale(0.8); */
+        width: 12%;
+      }
+
       /* allow cols to shrink nicely */
       .col {
         min-width: 0;
@@ -1098,6 +989,10 @@ container: left-to-right flow, top-aligned
         width:      90%;
         margin: 1rem auto ;
         margin-bottom: 0;
+      }
+
+      .bullet-container  {
+        margin-bottom: 4.2ch;
       }
 
 }
