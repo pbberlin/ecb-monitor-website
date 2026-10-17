@@ -54,13 +54,13 @@
     --w01:           clamp(14rem, 20vw, 26.25rem) ; /* scaling columns up to 2100px threshold */
     --w01-min:       calc( var(--w01) - 0.8rem )  ; /* accounting for 2 * 0.4rem control-pad margin */
 
-    /*  major switch to change the echart  */
+    /*  major switch to change the echart width */
     --wCenter:       calc( var(--w01) * 2.55 )    ; /* center-to-side ratio */
 
-    --echartHeight:   75vh;              /* not 75% -  fails */
-    --echartHeight:   min(75vh, calc(var(--w01) * 2.15 * 0.90)); /* keeping height independent of wCenter */
-    --marginHeight:  calc( var(--echartHeight) - 1rem);
-    --initOpacity:   0.6;               /* minimize flickering */
+    /* major switch to change height of content columns  */
+    --echartHeight:   min(76vh, calc(var(--w01) * 2.55 * 0.90)); /* keeping height independent of wCenter */
+    --marginHeight:   calc( var(--echartHeight) + 0.01rem);
+    --initOpacity:    0.6;               /* minimize flickering */
 
 }
 
@@ -493,6 +493,7 @@ span.subtitle {
     width:        100%;
     margin:       2rem 0;
 
+    margin-top:               4.6ch  ;
     margin-left:              1.2ch  ;
     margin-right:             1.2ch  ;
     width:        calc(100% - 2.4ch) ;
@@ -730,7 +731,7 @@ container: left-to-right flow, top-aligned
 .layout {
     width:  calc( var(--wCenter) + 2* var(--w01));
     margin: 0 auto;
-    margin-bottom: 6ch;
+    margin-bottom: 2.7rem;
 
     display: grid;
     grid-template-columns:  var(--w01) var(--wCenter)  var(--w01);
@@ -772,6 +773,11 @@ container: left-to-right flow, top-aligned
 
     justify-content: flex-start;     /* top nav to top */
 
+    /* asymmetric */
+    margin-right:  0.57rem;
+    padding-left:  0;
+    padding-right: 1.48rem;
+
     text-align: right;
   }
 
@@ -793,6 +799,11 @@ container: left-to-right flow, top-aligned
     text-align:   left;
 
     align-content:   end;
+
+    /* symmetric */
+    margin-left:   0.57rem;
+    padding-left:  0.78rem;
+    padding-right: 0.78rem;
 
 
   }
@@ -818,8 +829,8 @@ container: left-to-right flow, top-aligned
     position: relative;   /*  z-index  */
     z-index:  10;
 
-    margin:  0.4rem;
-    padding: 0.5rem 1.1rem;
+    /* don set margin   */
+    /* don set padding  */
 
     border-radius: 0.2rem;
     background-color: rgba(217,233,236,0.25);
@@ -838,6 +849,11 @@ container: left-to-right flow, top-aligned
     margin-bottom: 1.1rem;
     margin-left:   auto;
     margin-right:  auto;
+  }
+
+  .saturation-control-box {
+    margin-top:    3.8rem;
+    margin-bottom: 0.8rem;
   }
 
   #yearSlider {
