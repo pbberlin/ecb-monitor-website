@@ -1,7 +1,10 @@
-# use 
+
+```bash
 pip install pipreqs
-# use 
-pipreqs . --force
+pip install pipreqs -U
+
+pipreqs . --force --encoding=utf-8
+
 
 flask
 pandas
@@ -9,4 +12,8 @@ matplotlib
 
 # not possible under windows
 wsgiref
+```
+
+
+
 
