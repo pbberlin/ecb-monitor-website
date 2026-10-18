@@ -13,3 +13,6 @@ static/goaccess.html
 
 # windows terminal starter
 wtx.bat
+
+# requirements intermediary file
+requirements.in
