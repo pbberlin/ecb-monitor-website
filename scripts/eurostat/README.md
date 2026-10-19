@@ -30,6 +30,7 @@ downloadUrl = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/prc
 
 since 2026-01
 
+
 configure download via https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_minr__custom_23226070/default/table
 
 
@@ -51,3 +52,5 @@ https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_minr__custom_23226070/de
 
 
 https://ec.europa.eu/eurostat/api/dissemination/sdmx/3.0/data/dataflow/ESTAT/prc_hicp_minr/1.0/*.*.*.*?c[freq]=M&c[unit]=RCH_A&c[coicop18]=TOTAL&compress=false&format=tsv
+
+https://doi.org/10.2908/hicp
