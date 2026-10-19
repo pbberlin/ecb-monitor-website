@@ -110,3 +110,31 @@ git push upstream2 main
 ```
 
 
+## CodeQL
+
+Install extension in VS Code
+CLI is now in
+%USERPROFILE%\AppData\Roaming\Code\User\globalStorage\github.vscode-codeql\distribution1\codeql
+put it into PATH
+
+
+```bash
+# required
+winget install Python.Launcher
+
+C:\Users\pbu>py -0
+ -V:3.13 *        Python 3.13 (64-bit)
+
+
+codeql pack download codeql/python-queries
+
+
+cd C:\users\pbu\Documents\zew_work\git\python\ecb-monitor
+set LGTM_INDEX_IMPORT_DEPTH=2
+# rmdir /s /q codeql-db
+codeql database create   ./codeql-db --language=python --threads=0 --overwrite -v
+# codeql database finalize ./codeql-db
+
+codeql database analyze  ./codeql-db  codeql/python-queries --format=sarif-latest --output=codeql-results.sarif
+
+```
