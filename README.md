@@ -136,5 +136,7 @@ codeql database create   ./codeql-db --language=python --threads=0 --overwrite -
 # codeql database finalize ./codeql-db
 
 codeql database analyze  ./codeql-db  codeql/python-queries --format=sarif-latest --output=codeql-results.sarif
-
 ```
+
+* VS Code extension SARIF Viewer by Microsoft
+* Double-click results.sarif in VS Code file explorer

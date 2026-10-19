@@ -18,7 +18,7 @@ from   pathlib    import Path
 import pandas as pd
 import matplotlib
 from   ipaddress import ip_address, ip_network
-
+from   markupsafe import escape
 
 from   flask import Flask, request, Response, abort, current_app
 from   flask import render_template, render_template_string, make_response,  send_from_directory
@@ -276,21 +276,26 @@ def page(htmlFile):
     """ generic page  """
 
     if "/" in htmlFile or "\\" in htmlFile:
-        # prevent requests like /pg/../password 
+        # prevent /pg/../password
         abort(404)
 
-    pth = Path("./content") / htmlFile
+    baseDir = Path("./content").resolve() # normalize, resolve symlinks
+    pth = baseDir / htmlFile
     if pth.suffix == "":
         pth = pth.with_suffix(".html")
-    if not pth.exists():
-        return f"Page '{htmlFile}' not found.", 404
+
+    # block symlink or drive-letter traversal
+    pth = pth.resolve()
+
+    # contained in base directory
+    if not pth.is_relative_to(baseDir) or not pth.is_file():
+        return f"Page '{escape(htmlFile)}' not found.", 404
+
 
     cnt = pth.read_text(encoding="utf-8")
-
     renderedCnt = render_template_string(
         cnt,
     )
-
     return render_template(
         "index.html",
         content=renderedCnt,
@@ -398,7 +403,7 @@ def handlerBlog(blogType=None, lg=None, md=None):
             except Exception as exc:
                 return f"error processing {pth}: {exc}"
         innerCnt =  f"""<ul>
-                             {''.join(listItems)} 
+                             {''.join(listItems)}
                         </ul>"""
 
     else:
@@ -409,7 +414,7 @@ def handlerBlog(blogType=None, lg=None, md=None):
         if md == "newest":
             blogDir = Path("content/blog")  / blogType / lg
             mds = list(blogDir.glob("*.md"))
-            mds.sort(reverse=True)    
+            mds.sort(reverse=True)
             pth = mds[0]
 
         else:
@@ -458,7 +463,7 @@ def handlerBlog(blogType=None, lg=None, md=None):
     )
 
     return Response(
-        html, 
+        html,
         content_type="text/html; charset=utf-8",
     )
 
