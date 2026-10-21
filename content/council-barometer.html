@@ -1,23 +1,14 @@
 <!-- council-barometer.html -->
 <style>
 
-  /* overriding ecb-mon.css */
-  .col--left h3 {
-      margin-top:    1.1ch;
-      margin-bottom: 0.1ch;
-  }
-
-  /* overriding ecb-mon.css */
-  .play-and-download-first {
-    margin-top:    auto;
-    margin-bottom: 0.2rem ;
-  }
+  
 
   #barometer {
-    width:  var(--wCenter);
+    width:   var(--wCenter);
     display: block;
     margin:  0;
     padding: 0;
+    border-bottom: 0.5px solid grey;
   }
 
 
@@ -25,9 +16,6 @@
       /* value for background-color computed below by javascript */
       color: black;
       border-radius: 0.3rem;
-
-
-
       text-align: center;
       min-width:  8rem;
       width:      max-content;
@@ -48,8 +36,26 @@
 @media (max-width: 900px) {
 
       #barometer {
-        width: 100vw;
+        width:            100%;
+        transform:        scale(1.12);
+        transform-origin: center;
+        border-bottom:    none;
       }
+
+      /* inside svg - hawk to the left  */
+      #barometer image[href*="hawk.svg"] {
+        transform-box: fill-box;
+        transform-origin: center;
+        scale:        80%;
+        translate: -16px 0;
+      }
+      #barometer image[href*="dove.svg"] {
+        transform-box: fill-box;
+        transform-origin: center;
+        scale:        80%;
+        translate: 34px 0;
+      }
+
 
       .medianBgColorDYN {
         border-radius: 0;
@@ -87,6 +93,10 @@
       <input id="yearSlider" type="range" min="2000" step="1"  autofocus  />
       <span  id="yearLabel"  style="display: inline-block; position: relative;; left: 0.9rem;"></span>
     </div>
+    <div class="slider-group slider-group-checkbox" >
+      <!-- empty -->
+    </div>
+
 
 
     <div class="slider-group  play-and-download play-and-download-first" >
@@ -114,8 +124,6 @@
     <svg id="barometer"
       viewBox="0 0 800 410"
       preserveAspectRatio="xMidYMid meet"
-
-      style="border-bottom: 0.5px solid grey;"
     ></svg>
 
     <div   class="medianBgColorDYN" >
