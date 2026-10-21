@@ -492,7 +492,7 @@ trlsRaw = [
     {
         "ameco_interest_expenditure_label":    {
             "de": "Zinszahlungen in % Staatsausgaben",
-            "en": "Interest payments in % government expenditure",
+            "en": """<span style="font-size:95%">Interest payments - % government expenditure</span>""",
         },
     },
     {
