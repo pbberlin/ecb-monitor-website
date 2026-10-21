@@ -856,7 +856,7 @@ container: left-to-right flow, top-aligned
 }
 .slider-group-checkbox {
     position: relative;
-    top: -1.2ch;
+    top: -1.4ch;
     /* margin-top: -0.8ch; */
 }
 
