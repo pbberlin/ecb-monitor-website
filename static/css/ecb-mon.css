@@ -1039,6 +1039,7 @@ container: left-to-right flow, top-aligned
         /* align-items:    center;     */
         margin:         0.93rem 0;
         margin-right: max(1.8rem, 14%) ;
+        margin-right: max(1.2rem, 10%) ;
 
         margin-top:    1.5ch;
         margin-bottom: 1.5ch;
@@ -1062,6 +1063,10 @@ container: left-to-right flow, top-aligned
 
       .bullet-container  {
         margin-bottom: 4.2ch;
+      }
+
+      .long-label-smaller-mobile {
+        font-size: 94%;
       }
 
 }
