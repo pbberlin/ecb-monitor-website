@@ -1,0 +1,229 @@
+TM
+Don’t Stop Thinking About Tomorrow:  
+Building Resilience to Climate Shocks Today1
+Opening address by Fabio Panetta 
+Governor of Banca d’Italia
+Green Swan Conference 2026 
+Manila, 19 October 2026
+Introduction
+Ladies and Gentlemen,
+It is a pleasure and an honour to open the Green Swan Conference 2026, jointly organized 
+by the Bank for International Settlements (BIS), Bangko Sentral ng Pilipinas, Banca d’Italia, 
+and the Network for Greening the Financial System (NGFS). 
+I would like to thank Governor Remolona and the Bangko Sentral ng Pilipinas for their 
+generous hospitality. 
+This year’s conference focuses on navigating climate risks amid uncertainty, and the topic 
+could hardly be timelier. 
+When the first Green Swan Conference was held in 2021, climate change was already 
+recognized as a major long-term risk. Since then, the evidence has become more 
+compelling. What was once regarded mainly as a threat to future generations is already 
+affecting economic and financial conditions.
+Mitigation remains indispensable, but it cannot eliminate physical climate risk, and 
+some climate-related damage is already unavoidable. This makes resilience increasingly 
+important.
+In a world of greater climate uncertainty, we need to understand risks better, share and 
+absorb them more effectively, and invest more decisively in reducing exposure and 
+vulnerability. These are the three issues I will focus on today.
+1 The title refers to the song ‘Don’t Stop’, written by Christine McVie and performed by Fleetwood Mac. 
+I wish to thank Enrico Bernardini, Alberto Felettigh, Fabrizio Ferriani and Luciano Lavecchia for their 
+comments and contributions.
+
+2 3
+The economic case for strengthening resilience is clear. Climate change is reducing 
+productivity, destroying physical capital and placing pressure on public finances. Extreme 
+weather events caused more than USD 200 billion in direct damages in 2025, more than 
+double the level recorded in the early 2000s.2 Climate-related shocks can also affect inflation. 
+Their effects can be particularly severe in emerging market and developing economies, 
+where exposure is often greater and the capacity to absorb shocks is more limited. 
+Responsibility for climate policy rests first and foremost with governments. They have the 
+democratic legitimacy and the instruments needed to guide the green transition, support 
+adaptation and protect the most vulnerable. Climate policies must be economically 
+viable, socially sustainable and institutionally credible. Overly rigid or frequently reversed 
+policies can undermine public support and deter private investment.3
+Central banks and supervisory authorities have a different but clearly defined responsibility. 
+We need to understand how climate-related risks affect inflation, economic activity and 
+financial stability, so that monetary policy, financial supervision and risk assessment 
+remain effective.4 The challenge is not to expand our mandates. It is to fulfil our existing 
+mandates in a changing environment.
+1. Understanding climate risk
+The first pillar of resilience is a better understanding of physical climate risk. Despite 
+considerable progress, significant gaps remain in the availability, quality and comparability 
+of climate-related data. Physical risks are highly localized and their impacts are often 
+concentrated in specific periods, when extreme events trigger abrupt and disruptive 
+damage. They also interact with economic and financial conditions in complex ways, 
+while historical observations may become a less reliable guide as extreme events change 
+in frequency and severity.
+These features make climate risks difficult to identify, measure and price. Better information 
+is therefore essential not only for assessing vulnerabilities, but also for directing capital 
+and public resources towards the areas where adaptation is most needed.
+Central banks and statistical authorities can contribute to this effort. The Irving Fisher 
+Committee has long been working on climate-related data needs,5 and Banca d’Italia has 
+been analysing data and methodologies to assess climate-related and environmental risks.6
+2 NGFS, ‘NGFS Note on the economic and financial impacts of extreme weather events’, May 2026.
+3 F. Panetta, ‘The heat is on: challenges and opportunities of the energy transition’, opening remarks to 
+G7-IEA conference on ‘Ensuring an orderly energy transition’, Rome, 16 September 2024.
+4 E. Bernardini, I. Faiella, L. Lavecchia, A. Mistretta and F. Natoli, ‘Banche centrali, rischi climatici e finanza 
+sostenibile’, Banca d’Italia, Questioni di Economia e Finanza (Occasional Papers), 608, 2021.
+5 Irving Fisher Committee on Central Bank Statistics, ‘Addressing climate change data needs: the central 
+banks’ contribution’, BIS, IFC Bulletin, 63, March 2025; Irving Fisher Committee on Central Bank Statistics, 
+‘Addressing climate change data needs: the central banks’ contribution’, BIS, IFC Bulletin, 63, March 2025.
+6 L. Lavecchia et al. , ‘Data and methods to assess climate-related and environmental risks in Italy’, Banca 
+d’Italia, Questioni di Economia e Finanza (Occasional Papers), 732, 2022.
+
+2 3
+Measurement is only the first step. Climate risks must also be integrated into financial 
+institutions’ governance, internal controls and risk management. Many institutions have 
+made progress, including in Italy7 and the euro area,8 but implementation remains uneven. 
+Climate risk should not be treated as a separate compliance exercise. It should be 
+integrated into the assessment of credit, market, operational and insurance risks.
+Technology can strengthen this process. Artificial intelligence can improve climate 
+modelling, weather forecasting, early warning systems and the assessment of extreme 
+event risks.9 These tools cannot replace reliable data, sound models or human judgement. 
+However, if used carefully, they can improve our ability to anticipate shocks and identify 
+vulnerabilities before risks materialize.
+We cannot eliminate climate uncertainty, but we can improve our capacity to understand 
+it and prepare for its effects.
+2. Sharing and absorbing climate risk
+Understanding risk is essential, but risks that cannot be prevented must also be shared 
+and absorbed effectively.
+A large part of the losses caused by natural catastrophes remains uninsured. This 
+protection gap leaves households and firms exposed to severe financial distress and 
+often forces governments to intervene after disasters, at considerable fiscal cost.
+The consequences can spread well beyond those directly affected. Households may 
+be unable to rebuild; firms may interrupt production or default; public finances may 
+deteriorate precisely when resources are most urgently needed. The shock can then 
+propagate to banks and the wider economy.10
+Insurance is therefore a central component of climate resilience. Its role goes beyond 
+compensating losses. When risks are properly assessed and priced, insurance can also 
+encourage prevention by providing financial incentives to reduce exposure to natural hazards. 
+Expanding coverage is difficult. Households and firms may underestimate climate risks 
+or consider insurance too expensive, and insurance markets remain underdeveloped in 
+7 Banca d’Italia, Action plans for the integration of climate-related and environmental risks into LSI 
+business processes: main findings and good practices, 2025.
+8 ECB, Observations from the ECB’s five year climate and nature risk programme (2020-25), May 2026.
+9 C. Scotti, ‘Digital and green: twice the transformation, twice the win?’, closing remarks at the 
+Conference on ‘The macroeconomic and financial dimensions of the green transition’, European 
+University Institute, Fiesole, 28 June 2024; P.R. Lane, ‘AI and the euro area economy’, keynote speech 
+at the ECB-SAFE-RCEA International Conference on the Climate-Macro-Finance Interface, Frankfurt, 
+23 March 2026; R. Ayadi, Y. Forouheshfar and O. Moghadas, ‘Enhancing system resilience to climate 
+change through artificial intelligence: a systematic literature review’, Frontiers in Climate, 2025.
+10 S. Ge, S. Johnson and N. Tzur-Ilan, ‘Climate Risk, Insurance Premiums, and the Effects on Mortgage and 
+Credit Outcomes’, Federal Reserve Bank of Dallas, Working Paper, 2025.
+
+4 5
+some countries. At the same time, rising expected losses, insufficient data and modelling 
+uncertainty can make some risks increasingly difficult to insure. Higher premiums may 
+protect insurers’ soundness, but can also place coverage beyond the reach of those who 
+need it most.
+Reducing the protection gap therefore requires a layered framework that combines 
+private insurance, reinsurance, public backstops and capital-market instruments. Risks 
+should be allocated to those best placed to bear them. 
+Private insurers can cover smaller and more frequent losses. Reinsurers can absorb larger 
+and more diversified exposures. Public authorities can provide backstops for extreme 
+events that exceed private market capacity, while preserving incentives for prevention.
+This approach was developed during Italy’s G7 Presidency in 2024 through the High-
+Level Framework for Public-Private Insurance Programmes against Natural Hazards, and 
+was reaffirmed under this year’s French G7 Presidency.11
+Capital markets can further broaden risk sharing. Insurance-linked securities, including 
+catastrophe and disaster relief bonds, can transfer risks beyond the traditional insurance 
+sector, attract additional capital and diversify exposures.
+To reduce reliance on ex-post government assistance, Italy has recently introduced 
+compulsory insurance against floods, earthquakes and landslides for firms outside the 
+agricultural sector, supported by a public backstop.12
+The design of these arrangements is crucial. Coverage must remain affordable, premia 
+should reflect risk and public intervention must preserve incentives for risk mitigation. 
+The objective is to prevent losses from falling entirely on those least able to bear them or 
+from threatening the wider financial system.
+3. Reducing climate risk
+Better measurement and more effective risk-sharing can limit the consequences of 
+climate shocks, but resilience ultimately requires reducing exposure and vulnerability 
+before disasters occur.
+This means investing in adaptation.
+The need is particularly urgent in countries that combine high exposure to physical risks 
+with limited fiscal space. These conditions can create a dangerous feedback loop: higher 
+11 G7 Finance Ministers and Central Bank Governors’ Meeting, ‘High-Level Framework for Public-Private 
+Insurance Programmes against Natural Hazards’, G7 Finance Track, Stresa, 23-25 May 2024.
+12 Banca d’Italia, Annual Report , 2026; P. Angelini, ‘Relazione sull’attività svolta dall’Istituto nell’anno 
+2025. Considerazioni del Presidente’, Rome, 18 June 2026.
+
+4 5
+debt reduces the capacity to invest in resilient infrastructure and adaptation, 13 while 
+insufficient investment leaves economies more exposed to future shocks, which then 
+place further pressure on public finances.14
+Breaking this vicious circle between climate and debt requires earlier and more effective 
+action. Adaptation is generally less costly than repeated reconstruction, and should be 
+seen as an investment that reduces future economic losses and fiscal pressures.
+Yet adaptation remains severely underfunded, especially in emerging market and 
+developing economies.15 There is growing recognition of the need to scale up adaptation 
+finance, but translating international commitments into concrete projects and financial 
+flows remains difficult. 16 A shortage of well-designed and investable projects, together 
+with uncertain regulatory frameworks and weak institutional capacity can all deter private 
+investment.
+Mobilizing private capital therefore requires credible policies, clear incentives and an 
+appropriate allocation of risks and returns between public and private actors.
+Governments have a central role. They can invest in resilient infrastructure, improve 
+planning and building standards, provide information on climate hazards and use public 
+resources to attract private investment.
+Multilateral development banks can support these efforts. Through guarantees, blended 
+finance and other risk mitigation instruments, they can make adaptation projects more 
+attractive to private investors and mobilize more capital than public financing alone.17 
+Adaptation is shifting too slowly from reactive disaster response to proactive risk 
+management. Progress remains uneven, while the frequency and severity of extreme 
+events continue to increase.18 
+13 Climate adaptation is the process of adjustment to actual or expected climate change and its effects, 
+in order to moderate damage or exploit beneficial opportunities. Examples include building flood 
+defences, developing drought-resistant crops, and improving irrigation efficiency and water storage 
+capacity. 
+14 A. Dryden and U. Volz, ‘Breaking the Debt-Climate Trap in Asia and the Pacific’, in ‘Asia Pathways. The 
+blog of the Asian Development Bank Institute’, 18 June 2026.
+15 OECD, Climate Finance Provided and Mobilised by Developed Countries in 2013-2024. Climate Finance 
+and the USD 100 Billion Goal, 2026; United Nations Environment Programme, Adaptation Gap Report 
+2025. Running on empty. The world is gearing up for climate resilience – without the money to get there, 
+2025.
+16 J. Gabbatiss and M. Lempriere, ‘Bonn climate talks: Key outcomes from the June 2026 UN climate 
+conference’, in ‘Carbon Brief ‘, 19 June 2026.
+17 NGFS, ‘Scaling Up Blended Finance for Climate Mitigation and Adaptation in Emerging Market and 
+Developing Economies (EMDEs)’, December 2023.
+18 United Nations Office for Disaster Risk Reduction, Global Assessment Report on Disaster Risk Reduction 
+2025: Resilience Pays: Financing and Investing for our Future , Chapter 6 ‘Investing in resilience for 
+economic stability’, pp. 158-195.
+
+6
+Technology can strengthen adaptation through advanced forecasting, early warning 
+systems, remote sensing and data-driven infrastructure management. Yet technological 
+progress is not without costs: the expansion of data centres is increasing the demand for 
+energy, water and critical raw materials.19 These pressures must be managed so that digital 
+innovation strengthens resilience without creating economic and social vulnerabilities.
+Adaptation cannot prevent every disaster, but it can determine whether climate shocks 
+remain manageable or not, and whether public resources are used to prevent losses or 
+become repeatedly absorbed by reconstruction.
+Conclusions
+Ladies and Gentlemen,
+Climate change is creating profound uncertainty, which makes preparedness increasingly 
+important.
+Resilience depends on our ability to understand risks, share them more effectively and 
+reduce exposure before shocks occur. These elements reinforce one another: better 
+information improves the pricing and allocation of risk, better risk-sharing strengthens 
+the capacity to recover from adverse events, and adaptation reduces the losses that 
+ultimately need to be absorbed.
+No single institution can achieve these objectives alone. Governments, financial 
+intermediaries, insurers, businesses, multilateral development banks and central banks 
+have distinct but complementary responsibilities. 
+International cooperation is equally essential. Climate shocks cross borders through 
+trade, financial markets and supply chains, while the knowledge and solutions needed to 
+strengthen resilience are often shared across countries.
+The Green Swan Conference was created to foster this exchange among policymakers, 
+academics and market participants. Today’s discussions can help us improve our 
+understanding of climate risks, share effective solutions and accelerate investment in 
+resilience.
+Our economies and financial systems need to be able to absorb climate shocks without 
+allowing them to develop into broader economic and financial crises. 
+As the title of this address suggests, thinking about tomorrow means strengthening 
+resilience today.
+Thank you for your attention, and I wish you a productive and successful conference. 
+19 IEA, Energy and AI , 2025; F. Ferriani and A. Gazzani, ‘Powering the digital economy: the global 
+expansion of data centres and its energy implications’, Banca d’Italia, Questioni di Economia e Finanza 
+(Occasional Papers), 1014, 2026.
+
+6
+Designed by the Printing and Publishing Division of Banca d’Italia

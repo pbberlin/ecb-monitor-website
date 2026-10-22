@@ -1,0 +1,98 @@
+The international role of the euro, June 2021  50 
+Box 6 
+The effectiveness of ECB currency liquidity lines 
+Prepared by Roland Beck, Massimo Ferrari and Stephanie Titzck 
+Liquidity arrangements among central banks are well-established instruments in central banks’ 
+toolkits. They enable a central bank to receive currency issued by another central bank against 
+collateral. They can be implemented through two basic types of operation: currency swaps and 
+repurchase agreements (repos).73 The need to activate these facilities emerges during episodes of 
+global financial market stress, such as the global financial crisis or the recent pandemic shock, when 
+global liquidity dries up, in particular in the main international reserve currencies. Against this 
+backdrop, this box reviews preliminary findings on the effectiveness of the Eurosystem’s swap and 
+repo line facilities. 
+Supporting the smooth transmission of monetary policy, the provision of euro liquidity to central banks 
+outside the euro area formed part of the ECB’s response to the coronavirus (COVID-19) pandemic in 
+2020. The ECB has concluded swap and repo agreements with several European central banks for 
+the provision of euro to complement: (1) the existing network of standing, reciprocal swap line 
+facilities with the Federal Reserve System, Bank of Canada, Bank of England, Bank of Japan and the 
+Swiss National Bank; (2) the bilateral, reciprocal swap line with the People’s Bank of China; and (3) 
+the standing swap lines with Danmarks National Bank and Sveriges Riksbank, which the ECB has 
+had in place for several years. In 2020 swap lines were concluded with the Bulgarian National Bank 
+73  A currency swap between two c entral banks is a contractual agreement in which the borrowing central 
+bank obtains foreign currency against its own currency, with the promise to reverse the transaction at a 
+pre-specified date, adding the agreed interest cost to the borrowed currency. Repo lines are 
+arrangements in which the lending central bank provides access to its currency to another central bank 
+and accepts assets denominated in that same currency as collateral from the borrowing central bank. 
+
+The international role of the euro, June 2021  51 
+and the Central Bank of Croatia, and repo arrangements with the National Bank of Romania, the 
+Central Bank of Hungary, the Bank of Albania, the National Banks of Serbia and North Macedonia 
+and the Central Bank of the Republic of San Marino. Moreover, the Eurosystem repo facility for 
+central banks (EUREP) was established in June 2020 as a precautionary backstop facility to address 
+the pandemic-related euro liquidity needs of a broader set of countries outside the euro area than 
+those that qualify for a bilateral swap or repo line. Overall, the ECB provides euro liquidity in particular 
+to countries that are strongly oriented towards the euro, whereas swap lines by the Federal Reserve 
+tend to be extended towards US dollar-oriented countries (left panel of Chart A).74 Recent research 
+has found that access to the liquidity arrangements of the Federal Reserve during the pandemic were 
+driven by the close trade ties of the recipient economies with the United States.75 
+Although the use of euro liquidity lines has been limited in terms of the amounts drawn and the 
+number of non-euro area central banks counterparts drawing on the lines, there is tentative evidence 
+which suggests that the announcement of ECB’s liquidity lines has been effective in mitigating stress 
+in local euro funding markets. A simple event study suggests that the announcement of a liquidity 
+arrangement during the pandemic reduces the cost of euro funding in foreign exchange markets in 
+countries with which a liquidity line was agreed (right panel of Chart A).76 The announcement of a 
+liquidity line was followed by an estimated decline in absolute terms in the currency basis of these 
+countries of up to 20 basis points in the following two weeks.77 While this methodology does not 
+compare the effect of liquidity lines to those on a control group, other studies, including Albrizio et al. 
+(2021), use alternative methodologies, such as difference-in-differences estimation techniques, and 
+also find that liquidity line announcements led to a decline in funding costs.78 
+74  The swap lines with G-10 countries and the People’s Bank of China are excluded from this analysis 
+because they serve a different purpose, namely to address global foreign currency funding shortages, in 
+particular in US dollars, among G10 members and to provide a backstop liquidity facility to address a 
+potential shortage of renminbi for euro area banks in the case of the People’s Bank of China. 
+75  See Aizenman,J. Ito, H. and Pasricha G. “Central bank swap arrangements in the COVID-19 crisis”, 
+NBER Working Paper, No 28585, March 2021. 
+76  The sample for the event study comprises Bulgaria, Croatia, Denmark, Hungary and Romania. Data on 
+the currency basis was not readily available for Albania, North Macedonia, the Republic of Serbia and 
+San Marino. The estimates control for fixed effects, month effects and global financial stress as 
+measured by the VIX index. The estimates are obtained on daily data over the period 2010-2020. 
+77  This is an economically meaningful magnitude insofar as the median basis for the countries concerned 
+was about 60 basis points in March 2020. 
+78  Albrizio, S., Kataryniuk, I. and Molina, L., “ECB liquidity lines”, Working Paper, Banco de España 
+forthcoming. 
+
+The international role of the euro, June 2021  52 
+Chart A 
+Geographical distribution of euro and US dollar liquidity lines and impact of ECB liquidity lines 
+Average share of euro and US dollar-denominated issuance in international bond issuance in countries which 
+received swap or repo lines in euro or US dollars (left panel) and event-study estimates of the change in the 
+currency basis after ECB liquidity line announcements on selected economies (right panel) 
+(left panel: percentages; right panel: basis points) 
+Sources: Dealogic and ECB calculations using data from Albrizio, S., Kataryniuk, I. and Molina, L., “ECB liquidity lines”, Working Paper, Banco de España 
+forthcoming. 
+Notes: The chart in the left panel shows the euro (blue bars) and US dollar (yellow bars) share in total foreign currency-denominated bond issuance of countries, 
+which have received a euro (left-hand column excluding China) or US dollar (right-hand column) liquidity line, excluding recipient G10 countries (i.e. Canada, the 
+euro area, Japan, Sweden, Switzerland, the United Kingdom and the United States) since 1999. Euro liquidity recipients include Albania, Bulgaria, Croatia, 
+China, Denmark, Hungary, Latvia, North Macedonia, Poland, Romania and Serbia. Latvia and San Marino are excluded owing to data limitations. US dollar 
+liquidity recipients include Australia, Brazil, Denmark, Korea, Mexico, New Zealand, Norway and Singapore. The reference period is the fourth quarter of 2020. 
+The chart in the right panel shows estimates from an event study of the effect of the liquidity lines obtained in 2020 by Bulgaria, Croatia, Denmark, Hungary and 
+Romania on their corresponding currency basis, controlling for fixed effects, month effects and the VIX index. The estimates are obtained on daily data over the 
+period 2010-2020. 
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+Euro liquidity recipients US dollar liquidity recipients
+Euro share
+US dollar share
+-25
+-20
+-15
+-10
+-5
+0
+Announcement day 1 week after 2 weeks after
