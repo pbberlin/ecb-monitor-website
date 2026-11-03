@@ -1,0 +1,912 @@
+ 
+  
+Eurosystem report on the public consultation on the Appia Roadmap  1 
+ 
+ 
+Eurosystem report on the public 
+consultation on the Appia Roadmap 
+Executive summary 
+The public consultation on the Appia Roadmap, conducted between 11 March 
+and 22 April 2026, confirms broad market support for the development of an 
+integrated, innovative and resilient European tokenised finance ecosystem 
+anchored in central bank money. The consultation sought to gather feedback from 
+a diverse range of private and public stakeholders, to ensure that the strategic 
+direction aligns with both market demand and public policy objectives and to identify 
+opportunities for public-private collaboration. This report summarises the key findings 
+from the market feedback, which will form the basis for strong and continuous 
+engagement in the years to come. It does not reflect any Eurosystem preference on 
+the design or architecture options for Appia, which remain open and will be assessed 
+as part of the work leading to the Appia blueprint in 2028. The Eurosystem will in the 
+meantime communicate on the progress made in Appia. 
+The consultation received 127 responses from a diverse group of European 
+and international stakeholders. The respondents included financial institutions, 
+market infrastructures, technology providers, industry associations, public 
+authorities, academics, advisers and individual experts. The feedback was largely 
+supportive of the Roadmap, with many respondents making proposals for additional 
+practical work or contributions. 
+There was broad support for the high-level principles set out in the Appia 
+Roadmap, both those relating to market functioning and those of a more 
+technical and operational nature. Specifically, the role of central bank money as 
+an anchor for the tokenised ecosystem was widely endorsed, including its role in 
+connecting and ensuring convertibility between the different private settlement 
+assets that play a complementary role. Respondents also recognised the importance 
+of central bank involvement in collateral management and liquidity routing. Most 
+respondents supported a public-private collaboration model, acknowledging a 
+significant role for the Eurosystem 0F
+1 while also leaving room for private sector 
+development and innovation. Safeguards were proposed to limit market power 
+concentration and prevent vendor lock-in. Respondents also emphasised the 
+challenges of the transition towards tokenised finance, stressing that any 
+expectations placed on new infrastructure providers should be aligned with those 
+placed on existing market infrastructures. 
+Most respondents supported the strategic autonomy objectives set out in the 
+Appia Roadmap and called for harmonised legal and regulatory frameworks 
+across the European Union. Respondents stressed that autonomy must also be 
+ 
+1  Appia is an initiative of the Eurosystem, comprising the European Central Bank and the national central 
+banks of the euro area, together with Danmarks Nationalbank. For ease of reading, the term 
+"Eurosystem" is used throughout this report to refer collectively to these institutions, including 
+Danmarks Nationalbank. 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 2 
+ 
+ 
+achieved at an operational level, and that dependencies should be assessed not 
+only from a geographical perspective; dependencies on specific service providers 
+must also be avoided. At the same time, respondents cautioned that European 
+autonomy should not lead to isolation: global interoperability and cross-border 
+connectivity remain essential to Europe’s competitiveness and the international role 
+of the euro. 
+The development of the network layer as a shared utility layer was viewed 
+positively by most respondents, albeit with diverse views on what the layer 
+should cover. Most respondents considered that ledger management, transaction 
+settlement, identity and access management and security should be included within 
+this layer as basic infrastructure features. In keeping with the approach set out in the 
+Appia roadmap, aspects related to commercial activities – e.g. client-facing services, 
+risk transformation, business model or value-added services – were viewed as better 
+managed outside of the network layer. Specific views notwithstanding, it was 
+emphasised that the network layer should not necessarily be limited to a single layer 
+of infrastructure, but rather could comprise a network of layers operated across a set 
+of actors. A strong governance model based on clear and objective criteria would be 
+needed to ensure neutrality.  
+In terms of architecture, rather than converging on a single preferred model, 
+respondents identified a trade-off. Enabling central bank money settlement on one 
+network was seen by many respondents as the most effective way to reduce 
+fragmentation, concentrate liquidity, simplify governance and standardise processes, 
+albeit at the risk of increasing concentration and technology lock-in risks and 
+weakening incentives to innovate. Conversely, a multi-network ecosystem – which 
+many other respondents considered the more likely market outcome, and the one 
+best able to preserve central bank money's role as the settlement anchor across 
+emerging networks – was seen as more resilient and more accommodating of 
+diverse business models, albeit at the cost of greater interoperability requirements 
+and a higher risk of fragmenting liquidity, collateral and compliance. Many 
+respondents also proposed an alternative approach: enabling central bank money 
+settlement on a limited number of eligible networks, subject to transparent eligibility 
+criteria and common standards. This was described as a realistic medium-term 
+configuration by several respondents and as a credible long-term target by others. 
+The feasibility of central bank money settlement on more than one network, in 
+particular the Eurosystem's ability to retain control over central bank money, is still to 
+be assessed as part of Appia. 
+Standardisation as a means of supporting the development of a tokenised 
+finance ecosystem was a key topic for the majority of respondents. It was 
+argued that development should start with the foundational layers, before gradually 
+building up to more complex domains. Where possible, the Eurosystem should focus 
+on codifying existing practices within the sector. In other areas, experimentation and 
+research should be promoted to develop new standards. Delays in developing 
+standards could have a significant impact, some respondents suggested, as the 
+sector could evolve into a fragmented landscape. Many respondents also stressed 
+that standards should explicitly address interoperability between DLT-based and 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 3 
+ 
+ 
+existing legacy infrastructures, so that tokenised and traditional systems can operate 
+in parallel over a lengthy transition period. 
+There was a high degree of willingness among respondents to contribute 
+actively to Appia. Suggestions included contributions to analytical work, as well as 
+practical work focused on implementation and testing of designs. The central banks 
+working on Appia welcomed this robust engagement. The feedback and proposals 
+for contribution will be used to involve the market in the upcoming design and the 
+planning of the Appia practical work and experimentation. This will take the form of a 
+public-private sector partnership and will evolve over the course of the project.  
+The consultation provides a strong basis on which to progress Appia as a 
+public-private partnership. As an initial step, market participants will be 
+encouraged to continue developing and testing tokenised assets and services 
+through more complex, cross-cutting public-private experiments. The 
+Eurosystem is advancing foundational work on tokenised central bank money, on-
+chain collateral mobilisation, DLT network governance and the implications of 
+tokenisation for central banking. Since 21 September 2026 the Eurosystem has been 
+providing tokenised central bank money through Pontes, and it has accepted 
+tokenised securities as collateral in its credit operations since March 2026.1F
+2 
+Market engagement will be strengthened through the Appia Contact Group, 
+which started its work in September 2026, alongside a dedicated group on 
+European standards, complemented where appropriate by specialised 
+workstreams, workshops and practical experimentation. The findings of these 
+groups will be published on the ECB website, together with regular updates on the 
+progress of Appia. The strong response to the consultation – in particular on asset 
+interoperability and standards – confirms both a clear market demand for Appia and 
+a substantial pool of expertise to help shape it. The next stage will translate this 
+support into concrete design choices and, in 2027, more complex, cross-cutting 
+testing, leading to the delivery by 2028 of the Appia blueprint for a future European 
+tokenised ecosystem that combines public trust with private innovation.  
+  
+ 
+2  ECB (2026), “ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral”, 
+press release, 27 January. 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 4 
+ 
+ 
+1 Introduction 
+The ECB published the Appia Roadmap 2F
+3 on 11 March 2026, setting out the 
+Eurosystem’s approach to Appia, its strategic initiative to shape a European 
+tokenised finance ecosystem to foster integration, innovation and growth. The 
+Roadmap describes the objectives of the initiative, the principles that guide it and the 
+building blocks through which it will be delivered. 
+A first step towards creating this ecosystem has already been taken with the 
+launch of Pontes, which enables the safe settlement of DLT-based wholesale 
+transactions in central bank money. The broader promise of DLT and tokenised 
+finance extends to potentially redesigning the entire transaction lifecycle, enhancing 
+efficiency and innovation, well beyond settlement. To this end, the Eurosystem will 
+deliver a blueprint for a future European tokenised ecosystem by 2028, covering the 
+entire value chain and a wider range of use cases beyond settlement. 
+The success of such a transformative initiative depends on collaboration 
+between the public and private sectors. The Eurosystem appreciates the efforts 
+required for such a large-scale transformation and places great value on an open 
+dialogue with the market.  
+The Appia Roadmap was therefore open for public consultation between 11 
+March and 22 April 2026. The consultation consisted of 18 open-ended questions 
+organised into two sections: (1) feedback on the Appia Roadmap; and (2) proposals 
+for contributions to Appia. 
+Part 1 addressed the following topics: 
+• high-level principles; 
+• network layer and tokenised market infrastructures as a neutral shared utility; 
+• strategic autonomy; 
+• common standards, rules and practices; 
+• central bank money settlement on a single or multiple networks; 
+• core service provision by the Eurosystem on a directly owned network, or 
+shared governance;  
+• market and public sector engagement. 
+The full responses to Part 1 are published on the ECB website.  
+Part 2 covered possible contributions towards Appia Building Blocks (ABBs) 1-6: 
+• ABB 1 – Asset interoperability and standards; 
+ 
+3  ECB (2026), Appia – paving the way for a future-ready, integrated financial ecosystem leveraging tokenisation and DLT, 11 March.. 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 5 
+ 
+ 
+• ABB 2 – Monetary policy implementation and collateral management on DLT; 
+• ABB 3 – European tokenised central bank money infrastructure(s); 
+• ABB 4 – The international dimension and cross-border links; 
+• ABB 5 – An innovative, safe and resilient ecosystem;  
+• ABB 6 – Implementation strategy and impact on existing infrastructures. 
+As announced in the public consultation, the responses to Part 2 are confidential and 
+are not therefore published.  
+This report focuses on the lessons drawn from Part 1 of the consultation and 
+incorporates feedback from 127 respondents from across the financial sector, 
+covering all or part of the questions posed. Respondents included credit 
+institutions, investment firms, investors and buy-side firms, issuers of financial 
+assets, trading platforms, post-trade infrastructures, private settlement asset and 
+payment infrastructure providers, technical and data providers, professional 
+associations and standards initiatives, public authorities, academics, specialised 
+consultants and experts replying in a personal capacity.  
+This report reflects market feedback only. It does not reflect the Eurosystem's 
+views, nor does it express any preference on the design and architecture 
+options for Appia, which remain open. The feedback will serve as an input into 
+the Appia blueprint to be delivered by 2028, without prejudging its outcome. The 
+Eurosystem will in the meantime communicate on the progress made in Appia. 
+The remainder of the report is structured as follows. Section 2 provides 
+descriptive statistics on the results of the consultation. Section 3 sets out the 
+feedback on the high-level principles and desired policy outcomes. Section 4 turns to 
+architecture options and designs. Section 5 presents the feedback on common 
+standards, rules and practices. Section 6 looks at the way forward, including how the 
+feedback will be incorporated into the design of Appia, market interest in contributing 
+to the Appia Building Blocks and the next steps for engaging with the market. 
+Sections 3, 4 and 5 each open with a recap of the relevant key points of the Appia 
+Roadmap before summarising the views expressed by respondents. 
+2 Descriptive statistics on the results of the consultation  
+Respondents represented the full breadth of the tokenised finance value chain, 
+as well as public authorities, academia and individual experts. Chart 1 shows 
+the distribution of respondents by sector, classified on a best-efforts basis. 
+  
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 6 
+ 
+ 
+Chart 1 
+Share of respondents by sector 
+ 
+Source: ECB.  
+Note: Respondents classified on a best-efforts basis. 
+Diversity among respondents was not limited to sectoral representation, but 
+also extended to geographical distribution. As shown in Chart 2, most 
+respondents were from the European Union, with the largest share of replies coming 
+from Germany, Spain, France, Italy and the Netherlands. Non-EU European 
+respondents also contributed, in particular from Switzerland and the United Kingdom, 
+while comments from outside Europe mainly came from the United States. 
+Chart 2 
+Share of respondents by geography 
+ 
+Source: ECB. 
+30
+27
+13
+11
+8
+7
+7
+6
+6
+5
+3
+3
+1
+0 10 20 30 40
+Technical & data providers
+Banks & dealers
+Associations & standards initiatives
+Private settlement assets & payment infrastructures
+Trading platforms
+Academia
+Other
+Consulting
+Personal capacity
+Post-trade infrastructures & intermediaries
+Investors & buy-side
+Issuers
+Public authorities Total: 127
+85
+67%
+14
+11%
+21
+17%
+7
+5%
+EU
+Non-EU Europe
+United States
+Rest of the world
+Total: 127
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 7 
+ 
+ 
+The overall depth of responses was substantial, with a large number of replies 
+covering the full breadth of the consultation. This also holds true for the second 
+(optional) part of the consultation, where respondents were invited to share, on a 
+confidential basis, proposals to contribute to specific building blocks. As shown in 
+Chart 3, 90% of respondents included one or, in most cases, multiple proposals. 
+Chart 3 
+Number of respondents submitting proposals to contribute 
+  
+Source: ECB. 
+3 Feedback on high-level principles and desired policy outcomes 
+Respondents were first asked for feedback on the proposed high-level principles 
+guiding future development, on the potential of the network layer as a common 
+shared utility and on their views on European strategic autonomy and how Appia can 
+further this goal.   
+3.1 Recapping the key points from the Roadmap 
+The Appia Roadmap first sets out four objectives: 
+• ensuring the effectiveness of monetary policy and financial stability and the 
+smooth functioning of payment systems by maintaining central bank money as 
+the anchor of a two-tier monetary system; 
+• fostering a more integrated, competitive and innovative payments and securities 
+ecosystem through efficient infrastructures for financial markets; 
+• supporting strategic autonomy and increased resilience;  
+• ensuring the relevance of the euro as an international currency. 
+103
+81%
+11
+9%
+13
+10%
+Submitted multiple proposals
+Submitted one proposal
+Did not submit a proposal
+Total: 127
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 8 
+ 
+ 
+The Roadmap then sets out a series of high-level principles to guide progress 
+towards a future-ready solution. It also provides a conceptual basis for Appia, 
+distinguishing between a network layer (the basic infrastructure) and an assets and 
+services layer, each of which has its own governance arrangements (e.g. who 
+operates the layer, who can access it and who can see the data). The network layer 
+would: 
+• function as a shared utility, providing all participants with equal and non-
+discriminatory access, thereby enabling innovation and competition at the 
+assets and services layer; 
+• support strategic autonomy by relying primarily on utilities that are located, 
+operated and governed in Europe and are subject to European legal and 
+regulatory frameworks.  
+3.2 Broad support for Appia’s high-level principles 
+Respondents placed the greatest emphasis on the role of central bank money 
+as the monetary anchor of the system. This emphasis was expressed at two 
+levels: as a policy objective – central bank money should remain the ultimate 
+settlement asset underpinning the tokenised ecosystem – and as a design 
+requirement – the architecture of Appia should be built so that central bank money 
+settlement is available to participants by default, rather than as an add-on.  
+Respondents also saw a key role for the central bank in several functions 
+beyond settlement. The Eurosystem will further develop these in light of the 
+results of Appia, building on Pontes. In collateral management, respondents 
+pointed to the central bank's role in accepting and mobilising tokenised collateral for 
+credit operations. On liquidity, they highlighted the need to ensure that central bank 
+money balances can move efficiently between DLT platforms and existing TARGET 
+Services, to mitigate the risk of liquidity becoming fragmented across venues.  
+The anchor role of central bank money was valued because it strengthens 
+monetary sovereignty, ensures settlement finality, provides legal certainty and 
+improves systemic resilience. Respondents also highlighted the way the central 
+bank provides its services under a public mandate, in a market-neutral fashion, 
+ensuring connectivity of market stakeholders across the wholesale ecosystem, 
+through harmonised access to central bank money as the ultimate safe settlement 
+asset. 
+A two-tier system combining tokenised central bank money with private 
+settlement assets was viewed favourably by many respondents, as a design 
+considered both more feasible and more conducive to innovation. In reference 
+to tokenised deposits and (euro-denominated) stablecoins as complementary assets, 
+respondents noted that these tokenised assets could further support the 
+development of additional or more advanced use cases. In any event, the singleness 
+of money should be ensured and the hierarchy of assets should remain clear. 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 9 
+ 
+ 
+Respondents expressed strong support for the principles of market access 
+and integration and competition and contestability, but stressed that these can 
+only be achieved if barriers to entry are actively addressed. Competition 
+concerns rivalry among existing providers, while contestability refers to the ability of 
+new providers to enter the market and challenge incumbents on equal terms. 
+Several respondents noted that low interoperability between networks, the absence 
+of common industry standards and the emergence of walled gardens would, in 
+practice, entrench incumbents and lock participants into single platforms. A number 
+of respondents therefore asked that contestability be treated as a concrete design 
+requirement rather than a general aspiration. This feedback confirms Appia’s focus 
+on the implications of DLT adoption for market functioning, economic efficiency and 
+governance as equally important to its technical considerations. 
+Robustness, legal certainty, innovation and governance and control were also 
+seen as key principles, which many respondents argued should be 
+functionally equivalent to those that apply to existing financial market 
+infrastructures. Respondents identified several areas that require specific treatment 
+given the nature of DLT, such as the legal finality of on-chain settlement, the 
+treatment of smart contract execution and the allocation of liability where such 
+execution fails, key management and custody of cryptographic credentials and the 
+governance of protocol upgrades and forks. Some respondents stressed that the 
+interaction with existing financial market infrastructures should also be taken into 
+consideration, as the transition towards tokenised finance is expected to happen 
+gradually, and that the implementation of Appia should therefore ensure a degree of 
+backward compatibility and pragmatism with regard to TARGET Services, central 
+securities depositories and other existing financial market infrastructures.  
+A limited number of additional principles were proposed, with interoperability 
+the most frequently cited by far. Several respondents nevertheless considered 
+that interoperability was already covered by the existing principles.  
+The other most frequently proposed additions concerned privacy and 
+confidentiality, on the one hand, and transparency, compliance and 
+auditability, on the other – two sets of requirements that pull in opposite 
+directions. To ensure the privacy and confidentiality of positions, counterparties and 
+transaction terms, data must be shielded from other participants on a shared ledger. 
+Meanwhile, supervisory reporting, auditability and AML/CFT compliance mean that 
+transactions must be verifiable by third parties. While this tension is not specific to 
+DLT, respondents noted that it becomes more acute when records are validated and 
+replicated across multiple participants, rather than held by a single trusted operator. 
+Several respondents therefore suggested that Appia should not choose between the 
+two, but rather should set out explicitly how they are to be reconciled – e.g. through 
+selective disclosure, permissioned data visibility or privacy-enhancing technologies 
+such as zero-knowledge proofs – and that the allocation of visibility rights should be 
+treated as a matter of governance, not simply a technical issue.  
+Several respondents also suggested adding cross-border connectivity and 
+proportionality of participation requirements, i.e. ensuring that market participants of 
+different sizes and with different scopes of activity are able to participate. 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 10 
+ 
+ 
+Many respondents translated these principles into concrete requirements for the 
+architecture of the ecosystem. These are presented together with the architecture 
+feedback in Section 4. 
+3.3 The network layer as a shared utility 
+There was overall support for the concept of the network layer as a shared 
+utility, although views differed on its nature. While many respondents supported 
+the idea of a neutral, shared layer, they considered that the precise elements to be 
+included need further elaboration. Most respondents favoured a (limited) 
+coordination layer allowing users to connect to various services, rather than a 
+monolithic ledger or vertically integrated platform. In their view, the network layer 
+does not necessarily imply a single layer or infrastructure, but could instead consist 
+of a landscape of multiple connected networks or layers established under a 
+common framework.  
+Within the network layer, respondents identified a number of elements that 
+could realistically function as a shared utility: 
+• the basic infrastructure providing core functions, such as ledger integrity, 
+consensus and validation; 
+• functions relating to transaction settlement, in particular but not only in central 
+bank money, and including multi-leg transactions, such as delivery-versus-
+payment and payment-versus payment; 
+• functions relating to identity and access management; 
+• functions relating to regulatory requirements and compliance, such as reporting, 
+attestations and auditability; 
+• standards, including for tokens, smart contracts and messaging; 
+• interoperability services, frameworks, interfaces and gateways;  
+• functions relating to (cyber-)security and resilience. 
+To ensure neutrality, a number of respondents pointed out the need for 
+operational criteria as well as enforcement. Open and non-discriminatory access 
+based on objective criteria would be required, alongside a technology-agnostic 
+solution for the broadest possible participation across the market. 
+Governance would be another core element, ensuring in particular that the 
+operator or governing body of this layer does not compete commercially with 
+other entities. Some respondents mentioned a cooperative model, whereby 
+participants using the network would hold governance rights, as a way of delivering 
+accountability and neutrality. Irrespective of the model chosen, respondents called 
+for a clear delineation between the network layer and the competitive services 
+offered within the ecosystem. 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 11 
+ 
+ 
+In line with the concept set out in the Appia Roadmap, respondents generally 
+considered commercially driven functions unsuitable for operation as a shared 
+utility. These include value-added services; commercial and product decisions such 
+as pricing and product design; balance-sheet intermediation and risk transformation; 
+and client-facing services such as issuance, trading, custody, asset servicing, 
+corporate actions, the provision of wallets and client onboarding. These are areas in 
+which providers should be able to differentiate themselves and compete. Placing 
+them in a shared utility would put the utility in competition with its own users, 
+undermining the neutrality that justifies its existence in the first place. 
+There was therefore broad consensus that the assets and services layer 
+should be contestable, with competition focused on the quality and pricing of 
+services, as also stated in the Appia Roadmap. Views differed as to the extent to 
+which the network layer should be contestable, and as to how far a common base 
+infrastructure is needed in order to share key functions in an integrated ecosystem. 
+3.4 Strategic autonomy in theory and in practice 
+Respondents supported the objective of strategic autonomy overall, but held 
+different views on how best to achieve it. A major theme among the responses 
+was resilience, meaning the ability to continue providing services irrespective of 
+failures or other barriers resulting from actors outside the EU.  
+A clear baseline emerged with regard to the legal dimension: core 
+infrastructures and critical functions should operate under harmonised EU 
+legal and regulatory frameworks and should, where relevant, be subject to EU 
+supervision or oversight. Respondents considered that the interaction between 
+Appia and existing regulations (e.g. the Markets in Crypto-Assets Regulation,3F
+4 the 
+Central Securities Depository Regulation 4F
+5 and the Settlement Finality Directive 5F6) 
+should be clarified. In some areas, further legislative acts would be required to 
+ensure full harmonisation or cover specific gaps resulting from tokenisation. For 
+example, respondents suggested that proof of compliance should be embedded in 
+the tokenised assets themselves, rather than relying on self-certification. 
+European governance of core infrastructures and critical functions – or at 
+least majority European shareholding and majority European representation in 
+decision-making bodies – was also seen as a key element of strategic 
+autonomy. Several respondents considered this essential to the ability to set 
+European rules on access and operations and to ensure that resilience requirements 
+are met. Some respondents also argued that critical infrastructures and/or their 
+operators should be located in Europe. In the same vein, they pointed to 
+ 
+4  Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023 on markets 
+in crypto-assets, and amending Regulations (EU) No 1093/2010 and (EU) No 1095/2010 and 
+Directives 2013/36/EU and (EU) 2019/1937 (OJ L 150, p. 40). 
+5  Regulation (EU) No 909/2014 of the European Parliament and of the Council of 23 July 2014 on 
+improving securities settlement in the European Union and on central securities depositories and 
+amending Directives 98/26/EC and 2014/65/EU and Regulation (EU) No 236/2012 (OJ L 257, p. 1). 
+6  Directive 98/26/EC of the European Parliament and of the Council of 19 May 1998 on settlement finality 
+in payment and securities settlement systems (OJ L 166, p. 45). 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 12 
+ 
+ 
+dependencies on open-source components whose maintainers, sponsoring 
+foundations or upgrade governance lie outside European jurisdiction, and suggested 
+that these should be mitigated – e.g. by securing European participation in the 
+governance and maintenance of the relevant projects, by hosting European code 
+repositories or forks or, where feasible, by substituting European-maintained 
+alternatives. Others believed that building on top of global networks could also be 
+sufficient to safeguard strategic autonomy, as long as lock-in effects are reduced and 
+open standards, portable data and data formats and clear exit strategies are all in 
+place. Functions specifically identified as requiring the involvement of European 
+entities included consensus and validation, data (with reference to data sovereignty 
+and data storage in Europe) and identity.  
+Central bank money settlement came in for particular attention, both as an 
+important element of strategic autonomy in itself and because respondents 
+considered that effective control over the issuance, holding and transfer of 
+tokenised central bank money must remain with the Eurosystem. This must be 
+secured by design, through legal, contractual, technical and operational means. 
+Different ways of ensuring this control were put forward, which depend on 
+architecture choices, as explained in Section 4. Some respondents added that, 
+alongside tokenised central bank money, euro-denominated private settlement 
+assets such as stablecoins and tokenised deposits should also be supported, so that 
+a broad range of euro-based settlement options is available. 
+One key theme in the replies was the need to avoid dependence – not only on 
+non-European providers, but more generally on any single provider for critical 
+functions, or on a concentration of control among very few entities. Open 
+standards and open-source protocols, as well as portability and interoperability 
+between providers, were put forward as means of preventing such dependencies. 
+Respondents noted in particular that open-source code reduces vendor dependency 
+precisely because it is auditable, portable and can be forked, but that its contribution 
+to strategic autonomy can only be fully realised if European stakeholders are also 
+present in the governance and maintenance of the relevant projects. Another 
+prevalent theme was the importance of ensuring that the relevant technological 
+capabilities are available in Europe, e.g. through R&D funding and skills 
+development. 
+Finally, many respondents stressed that the pursuit of European sovereignty 
+should not lead to isolation. Interoperability with the rest of the world was seen as 
+essential, including for the attractiveness of the European market and the euro. 
+Respondents warned that the efficiency of monetary policy transmission could be 
+affected if the market came to rely on foreign-denominated currencies or liquidity 
+pools. 
+4 Feedback on architecture options and designs 
+Across the responses, there was clear common ground that central bank money 
+should serve as the settlement anchor for the tokenised ecosystem. However, 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 13 
+ 
+ 
+respondents underlined key trade-offs in translating this anchor role into a concrete 
+architecture for Appia, given the fundamental uncertainties over technological and 
+market developments. 
+4.1 Recapping the key points from the Roadmap 
+The Appia Roadmap deliberately keeps architecture open, presenting it as a 
+set of options to be assessed holistically against Appia’s objectives. 
+One of the roadmap's foundational objectives is to maintain central bank 
+money as the anchor of the system, thereby safeguarding the effectiveness of 
+monetary policy, financial stability and the smooth functioning of payment 
+systems. A key question expressly left open is whether the requirement for central 
+bank control over central bank money can be met under different infrastructure 
+configurations and, if so, how. 
+Three key interrelated areas bear directly on architecture: 
+• Interoperability and standards (ABB 1). Whether assets can be transferred 
+across market DLT platforms, requiring both suitable interoperability and asset 
+transfer mechanisms and compatible standards and data formats across 
+platforms. 
+• Network configuration (ABB 2). The assessment of network configuration 
+variants for monetary policy implementation and collateral management, 
+including whether – and how – to control mobilised assets on DLT not fully 
+operated by the Eurosystem, and whether a single platform for collateral 
+mobilisation is required. 
+• Infrastructure type, number and scope (ABB 3). The type(s), number and 
+scope of infrastructures on which tokenised central bank money is provided – 
+covering as a minimum the euro and other TARGET currencies – including 
+whether they should host central bank money only or also investment assets 
+such as securities and/or regulated private settlement assets. Governance, the 
+role of the Eurosystem and the impact on existing TARGET Services and their 
+development relative to market players are additional core considerations. 
+The Roadmap also emphasises the international dimension and cross-border 
+links (ABB 4) and the need for a safe and resilient ecosystem (ABB 5), 
+including the risks that fragmentation and divergence in technological and 
+operational standards could pose to financial stability. All of this must be taken 
+into account when designing the architecture of the Appia ecosystem. 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 14 
+ 
+ 
+4.2 The number of networks on which tokenised central money is 
+made available 
+Enabling central bank money settlement on a single network was widely 
+recognised by respondents as a powerful way to reduce fragmentation, fully 
+leverage the benefits of a common ledger for different assets and services, 
+simplify governance, concentrate liquidity and standardise processes. 
+Respondents noted that this could have a positive impact on efficiency, reduce 
+duplicated investment and lower coordination costs. Several respondents outlined 
+the robust governance, resilience, access and security frameworks required to make 
+a single network viable in the medium and long term. 
+At the same time, respondents highlighted the drawbacks of a common ledger: 
+greater concentration of activity, the systemic importance that such a network 
+would inevitably acquire, the risk of long-term lock-in into a specific 
+technology or vendor and potentially weaker incentives to innovate. 
+Respondents pointed out that such a design could discourage market 
+experimentation. Many respondents nevertheless took a positive view of a single 
+network. In particular, it was seen as the best way to achieve some of the objectives 
+in the Appia Roadmap: mainly, reducing market and liquidity fragmentation and 
+maintaining neutrality. 
+Several respondents noted that the ecosystem is currently developing on 
+multiple networks and warned against limiting the usability of central bank 
+money to a single or narrow set of networks that cannot fully meet market 
+needs. In their view, this would create a risk that other settlement assets not 
+anchored on central bank money would service those needs on other networks, 
+thereby weakening the role of central bank money as the settlement anchor and 
+increasing fragmentation across settlement assets. 
+Many respondents therefore described enabling central bank money 
+settlement on a limited number of selected networks as a realistic medium-
+term configuration and, for several, a credible long-term target. This would 
+reflect today’s multi-network reality, foster competition and innovation and reduce 
+single-point concentration risk, while still allowing the Eurosystem to set clear and 
+transparent eligibility requirements and promote common standards and oversight 
+expectations across the eligible networks. It would require strict, transparent 
+eligibility criteria, contestability and interoperability and standardisation across all 
+these networks. Such an approach would balance the resilience and adaptability of 
+distinct networks operating in parallel with the need to ensure interoperability and the 
+mobility of assets and liquidity across networks. Respondents identified 
+fragmentation as the main challenge of this approach. In their assessment, without 
+robust and enforceable interoperability standards and common semantics, a multi-
+network design risks becoming a set of silos that fragment liquidity, collateral, identity 
+and compliance. 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 15 
+ 
+ 
+4.3 The choice between a proprietary or a shared network  
+Respondents did not converge on a single preference between a network 
+operated by the Eurosystem itself and the provision of Eurosystem services 
+on networks operated by the market. They saw merit in both approaches, 
+provided the Eurosystem retains full control over central bank money. 
+Respondents acknowledged the value of the Eurosystem providing its own network 
+from where it operates its core services, as this could provide legal certainty, 
+settlement finality and a neutral basis for connectivity to the wider ecosystem and 
+existing infrastructures. They also underlined that the benefits of such a network 
+would be greater if it were designed as an interoperable foundation for the wider 
+ecosystem, enabling market stakeholders to develop value-added services and, 
+where appropriate, programmable functionalities. 
+Equally, respondents stressed the benefits of the Eurosystem providing its 
+services on multiple eligible networks to best meet market needs, while 
+acknowledging that the central bank would need to specify governance requirements 
+to retain control over central bank money and fulfil its mandate. The bottom line 
+drawn by respondents is that network ownership is less decisive than the ability to 
+guarantee central bank control, neutrality and open access. Such conditions were 
+considered achievable, albeit with different trade-offs, under both options. 
+4.4 Shared governance 
+Shared governance between public and private stakeholders was seen by 
+many respondents as important for unlocking the full potential of tokenisation 
+in terms of market efficiency and competition. Respondents underlined the 
+benefits of multiple assets, services and providers operating on common trusted 
+networks that are neutral and rely on common interoperability mechanisms and open 
+standards to foster competition and market efficiency in the tokenised ecosystem. 
+Governance arrangements that balance the needs of public and private 
+stakeholders, while maintaining legal certainty and regulatory compliance and 
+ensuring clear responsibilities and separation of roles, were seen as an important 
+enabler of these benefits. 
+4.5 A matter of choice(s) 
+Many respondents set out the pros and cons of different approaches without 
+expressing a firm preference, instead emphasising the need for Appia to 
+identify the preferred approach following deliberation and experimentation 
+with the market. 
+Irrespective of the network architecture chosen, respondents consistently translated 
+the high-level principles detailed in Section 3 into a set of design requirements for 
+the provision of tokenised central bank money: 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 16 
+ 
+ 
+• Neutrality and separation of roles: strict governance separation between 
+network operations and the governance of central bank money, other assets 
+and services. 
+• Openness: open technological implementation of tokenised central bank 
+money, based on open standards to ensure seamlessly interoperability with 
+other networks and existing infrastructures. 
+• Resilience: 24/7/365 availability, clear service level agreements, deterministic 
+finality, strong observability and a credible cyber and quantum-resilience 
+roadmap aligned with relevant EU operational resilience requirements. 
+• Programmability: support for conditional settlement, atomic DvP and PvP, 
+netting of flows and lifecycle controls, without over-extending into application-
+layer services. 
+• Privacy and sovereignty by design: strong identity and privacy features, read-
+only regulatory access separated from operations and a European-controlled 
+technology stack with governance that preserves European sovereignty. 
+• Competitiveness: competition preserved where the market wants it. Many 
+respondents that favour a multi-network model want competition at both the 
+infrastructure and service layers. A single network model would confine 
+competition to the service layer, which some respondents viewed as a 
+drawback rather than a design goal. 
+5 Common standards, rules and practices 
+The use of common standards, rules and practices was considered one of the main 
+drivers of widespread adoption and interoperability. Respondents shared their views 
+on the importance of these topics, as well as on the Eurosystem’s specific role in 
+their development. 
+5.1 Recapping the key points from the Roadmap 
+The Appia Roadmap identified the establishment of common standards, rules 
+and practices as essential for creating a competitive and integrated 
+ecosystem. It envisions the network layer functioning as a shared utility, while 
+compatibility across providers at the assets and services layer is necessary to foster 
+competition and innovation. Common standards are designed to ensure this 
+compatibility. 
+ABB 1 – asset interoperability and standards – reflects this approach. The 
+Eurosystem will call for interoperability between market DLT platforms and 
+collaborate with stakeholders to develop compatible standards and data formats for 
+tokenised assets and smart contracts, with the aim of enabling smooth asset 
+transfers across platforms. 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 17 
+ 
+ 
+The Appia Roadmap also emphasises the role of market participants and 
+standards bodies in contributing to the standards, rules and practices required 
+for an integrated ecosystem. Appia therefore builds on existing standardisation 
+work rather than seeking to replace it. 
+In the public consultation, feedback was requested on the best ways to establish 
+common standards, rules and practices when shaping the tokenised financial 
+ecosystem, the domains in which standardisation should be prioritised and the role 
+public institutions should play in this regard. 
+5.2 Building European standards 
+The importance of common standards was acknowledged by most 
+respondents across market segments as a means of preventing platform 
+fragmentation and ensuring interoperability between DLT and existing market 
+infrastructures. Associations and standards initiatives highlighted that a lack of 
+common standards would weaken network effects and delay adoption. 
+Respondents identified key domains for standardisation: 
+• asset representation on DLT; 
+• communication between systems and networks; 
+• identification, authentication and authorisation of participants;  
+• alignment of governance, compliance, access and operational rules across 
+infrastructures. 
+Many respondents viewed standard-setting as a multi-stakeholder process in 
+which the Eurosystem’s role should vary according to the maturity of the 
+market.  Where market practices have already largely started to converge, 
+respondents considered that the resulting standards should be enshrined in the 
+Appia rulebook. Otherwise, experimentation and research should be encouraged 
+until a market standard has emerged, which can then be formally adopted within the 
+Appia ecosystem. Respondents considered this approach preferable to prescriptive 
+action by public authorities. In their view, public institutions should set the strategic 
+direction and guardrails while leaving technical design to the market. 
+Respondents expressed a preference for a staged approach, starting with the 
+foundational layers that require the least effort. These would be tested through 
+practical implementation, with the application of standards gradually extended to 
+more complex domains as volumes and experience increase. This sequencing was 
+considered optimal for balancing speed and resilience while avoiding the premature 
+lock-in of immature designs. Many respondents also emphasised that emerging 
+standards should support compatibility between DLT-based and existing 
+infrastructures. 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 18 
+ 
+ 
+Identity, access and compliance were key topics due to existing issues with 
+conflicting or incomplete frameworks. The issues raised concern the identification 
+of both individuals and enterprises in the context of KYC/AML, sanctions screening 
+and national requirements. Respondents considered that interoperable identifiers 
+would strengthen interoperability between platforms or across borders, with some 
+respondents arguing that this should be included in cryptographically certified or 
+machine-readable format. Several respondents saw the certification of tokenised 
+assets at the network level, rather than through self-certification, as a potentially 
+major benefit of Appia.  
+Respondents stressed that clarity of governance is as critical as technical 
+design. Transparent participation criteria in standard-setting, clearly defined roles 
+and responsibilities and predictable decision-making processes were seen as vital to 
+maintaining trust in the standard-setting process.  
+Irrespective of the specific choices made, some respondents invited the 
+Eurosystem to take the role of global financial markets into account, so that 
+European standards remain relevant in an international setting. In their view, 
+European standards should be developed with a view to convergence, or at least 
+compatibility, with emerging international practice. 
+6 The way forward 
+The public consultation also invited respondents to share their views on future 
+collaboration and on how the Eurosystem should engage with a diverse pool of 
+stakeholders. 
+6.1 Incorporating market feedback into the Appia design 
+The feedback received will feed into the further development of the Appia 
+principles, the policy work and the architecture design. This report reflects the 
+views of respondents and does not constitute a decision or preference of the 
+Eurosystem on the design and architecture options for Appia, which remain open. 
+The responses will be analysed in greater depth and will inform the analytical and 
+practical work under the ABBs, leading to the Appia blueprint to be delivered by 
+2028. Engagement with the market will continue in the context of the ABBs, as well 
+as through Pontes onboarding and development. 
+6.2 High market interest in contributing 
+Responses show a high degree of willingness across the full range of 
+stakeholders to contribute further to the design of Appia, including through 
+specialised contributions to specific building blocks. The contributions proposed 
+by the broad range of respondents were highly diverse, ranging from analytical 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 19 
+ 
+ 
+design and reviews to active participation in prototype development and pilot 
+projects, legal and regulatory feedback and governance design.  
+Respondents’ proposals were flexible and tailored to their specific activity and 
+expertise, highlighting their role in the value chain and how (global) 
+interoperability could be ensured across interconnected platforms spanning 
+both traditional and tokenised finance. While some respondents focused more on 
+design-based contributions, others offered substantial participation in implementation 
+work. In particular, several respondents stressed that engagement should not be 
+limited to conceptual work, but should also include real-world implementation. By 
+way of example, several respondents proposed a dedicated collaborative sandbox in 
+which solutions could be tested on a more hands-on basis. 
+A number of stakeholders offered to work directly with the Eurosystem as part 
+of an ongoing collaboration on specialised topics with leading experts. 
+However, several respondents cautioned that over-reliance on individual contributors 
+could distort the process. Given that stakeholders have diverse and at times 
+divergent interests, diversity and representativeness were considered important as a 
+safeguard against vested interests.  
+ABB 1, covering asset interoperability and standards, attracted the highest 
+degree of interest, with more than 70% of respondents submitting ideas for 
+collaboration. The other five ABBs garnered comparatively similar levels of interest, 
+with around half of the respondents expressing an interest in contributing to each 
+one. 
+Areas of particular focus included: 
+• tokenised securities 
+• tokenised private settlement assets  
+• sophisticated lifecycle management of tokenised assets; 
+• interoperability and transferability across networks; 
+• clearing, netting and on-chain liquidity management;  
+• collateral management; 
+• identity, credentials and business data management; 
+• governance and operation of shared networks; 
+• cross-border use cases; 
+• programmable compliance and sanctions screening; 
+• privacy and cryptographic techniques;  
+• resilience and stress testing. 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 20 
+ 
+ 
+These areas differ in nature, and the format for collaboration will therefore be 
+adapted accordingly. Topics that are closely tied to specific products or services, 
+such as the tokenisation of particular financial instruments, are best advanced by the 
+actors directly concerned, with the Eurosystem drawing on the results of their efforts. 
+Topics that shape the ecosystem as a whole – notably, governance arrangements, 
+common standards and the shared utilities underpinning Appia – require joint work 
+across stakeholder groups, since no single actor can address them alone. This 
+distinction will guide how the Appia work is organised, and which stakeholders are 
+involved in each workstream.  
+The ECB, together with several national central banks, has begun work on the 
+core central banking foundations – in particular, tokenised central bank money 
+and on-chain central bank collateral mobilisation – laying the groundwork for future 
+experimentation with the market. In parallel, market stakeholders are invited to 
+continue developing and experimenting with their key DLT-based services and 
+products, in particular for aspects where tokenised securities and tokenised private 
+settlement assets still require further investigation. Sharing the lessons learned from 
+these activities could support the Eurosystem in its design work. Once the individual 
+components and design elements have reached sufficient maturity, more complex, 
+cross-cutting testing will follow, combining and connecting the different elements as 
+part of the public-private partnership envisaged under Appia and building on the 
+progress achieved during this foundational phase. 
+6.3 Engaging the market 
+The Eurosystem intends to strengthen its engagement with the market, 
+including via the new Appia Contact Group as a forum for regular dialogue 
+with market participants. This group (whose members were announced on the 
+ECB website in August 2026) began its work in September 2026. The aim of this 
+group is to provide the Eurosystem with informed feedback and to act as a sounding 
+board on aspects linked to the Eurosystem’s initiatives on tokenisation, namely 
+Pontes and Appia. Meeting documentation of the Appia Contact Group is made 
+publicly available on the ECB website. 
+In parallel, a stakeholder group supporting the creation of European market-
+wide standards is being set up. A call for nomination is expected to be launched in 
+due course, with further details to be communicated. 
+The Eurosystem also intends to involve market participants in analytical and 
+practical work, starting before the end of 2026, with a view to informing the 
+Appia blueprint. Based on the feedback and proposals received in the public 
+consultation, the Eurosystem has identified several areas of interest for such work. 
+As a next step, the Eurosystem will launch a call for stakeholders to work on three 
+priority topics: tokenised deposits and payments, tokenised securities and shared 
+network governance. The aim is to progress the design of these topics jointly, 
+building on ongoing market developments, including through joint experiments where 
+
+ 
+Eurosystem report on the public consultation on the Appia Roadmap 21 
+ 
+ 
+applicable. The modalities of this work, including its scope and the selection of 
+participants, will be communicated in due course. 
+Engagement will extend beyond the Appia Contact Group and the 
+standardisation group. Other engagement formats, such as deep dives, workshops 
+and hands-on experimentation, may also be used. Stakeholders are encouraged to 
+keep the ECB and their national central bank informed of their progress, so that they 
+can be involved in the relevant fora. Regular public communication on the progress 
+of the Appia initiative, such as Focus Sessions, will be provided via the ECB website. 
+. 
+© European Central Bank, 2026 
+Postal address 60640 Frankfurt am Main, Germany 
+Telephone +49 69 1344 0 
+Website www.ecb.europa.eu 
+All rights reserved. Reproduction for educational and non-commercial purposes is permitted provided that the source is acknowledged. 
+For specific terminology please refer to the ECB glossary (available in English only). 
+ 

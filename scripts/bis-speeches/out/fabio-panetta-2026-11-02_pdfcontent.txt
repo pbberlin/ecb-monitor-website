@@ -1,0 +1,654 @@
+ACRI
+Italian Association of Banking Foundations and Savings Banks
+2026 World Savings Day
+Savings in a changing society
+Address by the Governor of Banca d’Italia 
+Fabio Panetta
+Rome, 30 October 2026
+
+Printed on EU-Ecolabel certified paper
+(registration number FR/011/001) 
+The life-cycle environmental footprint of the paper used 
+was offset by purchasing carbon credits and planting trees in Italy
+Designed and printed by the Printing and Publishing Division of Banca d’Italia
+
+Saving means making a pact with the future: consuming less today to build 
+prosperity for tomorrow. This pact only holds if savings can be channelled into 
+investments that generate growth and if their value is preserved. Geopolitical 
+tensions, the energy shock and the spread of artificial intelligence (AI) are putting 
+both conditions to the test. Inflation is eroding the value of accumulated wealth, 
+higher interest rates are changing its remuneration, and innovation is reshaping the 
+opportunities and risks associated with its investment. 
+1. The global economic outlook
+The conflict in the Persian Gulf and its impact on the energy markets are 
+affecting the global economy. The closure of the Strait of Hormuz has driven fuel 
+and gas prices to historically high levels, weighing on household budgets and 
+driving up costs for businesses. Inflation has picked up again. The energy shock is 
+now the main risk to the global economy.
+Yet production has proved more resilient than expected, largely thanks to the 
+boost that AI has provided to international trade, investment and equity prices. 
+It is a revolution that is set to transform our economies and societies, and at the 
+same time it is a competitive arena in which major powers vie for control of 
+semiconductors and rare earths, and for access to energy.
+However, this engine of growth is also a significant source of risk. Recent 
+corrections in the equity prices of tech companies show just how rapidly 
+expectations about the profitability of investment in AI can change.1 Scaling them 
+back could have ripple effects across the global economy through trade, household 
+wealth and investment.
+Another risk to growth and financial markets is the pronounced increase in 
+long-term government bond yields across the main economies (Figure 1). This 
+reflects expectations of persistently high inflation and of tighter monetary 
+conditions; delays in the necessary fiscal adjustment in several countries; and the 
+1 The profitability of companies operating in the AI sector could be squeezed by the growing 
+competition from open weight models, which can be used free of charge or at low cost, or by weaker 
+demand brought about by higher usage costs. In recent weeks, credit default swap premiums on some 
+technology companies have risen significantly. 
+
+4 5
+large-scale issuance of long-term securities by big tech companies, which intensifies 
+competition for funding.2
+Pressures could also come from Japan: the sharp increase in yields on  
+yen-denominated securities and the potential appreciation of the exchange rate 
+could encourage Japanese investors to repatriate capital, reducing demand for 
+foreign securities and pushing global rates further upwards.
+Higher interest rates weigh most heavily on countries with high public debt, 
+leaving less room for fiscal policy manoeuvre precisely when spending needs are 
+increasing.
+In Italy, prudent fiscal management in recent years has mitigated the 
+effects of global rate hikes. The budget deficit has fallen from 9 per cent of 
+GDP in 2020 to around 3 per cent. Several rating agencies have upgraded 
+Italy’s sovereign credit rating, helping to limit the widening of the spread over 
+2 For further details, see the box ‘The recent rise in long-term government bond yields’, Banca d’Italia, 
+Economic Bulletin, 4, 2026. 
+Figure 1
+Long-term government bond yields (1)
+(per cent)
+0
+2
+4
+6
+0
+2
+4
+6
+2020 2021 2022 2023 2024 2025 2026
+France
+Germany
+Japan
+Italy
+United Kingdom
+United States
+Source: Bloomberg.
+(1) 10-year government bonds.
+
+4 5
+German government bonds; there is room for further upgrades. 3 We must stay 
+the course, especially in such an uncertain international environment.
+2. Monetary policy in the euro area
+For central banks, these developments complicate the pursuit of price stability.
+In the euro area, consumer price inflation has doubled since February, to 3.8 
+per cent, almost entirely owing to the energy component. The pass-through of 
+the shock to other goods and services has been limited so far: higher electricity 
+production from renewable sources 4 has cushioned the impact of gas price hikes 
+on firms’ costs. Core inflation barely exceeds pre-conflict values and the effects on 
+expectations are limited to short horizons; wage growth has remained moderate.
+Economic activity continues to expand. According to the European Central 
+Bank’s (ECB) projections, GDP growth will be around 1.2 per cent this year and the 
+next,5 while unemployment will fall to historical lows. The spread of AI is benefiting 
+Europe too: in the first half of the year, the service sectors most closely linked to 
+digitalization accounted for about one third of value-added growth in both the euro 
+area and Italy; investment in intellectual property also increased in both areas.
+The outlook for prices is worsening: overall inflation is expected to remain 
+above 2 per cent for several quarters, while the increase in core inflation could 
+become more pronounced early next year. 
+The protraction of the crisis in the Middle East and pressures on the natural 
+gas market, partly due to the need to rebuild European inventories, are driving risks 
+to inflation upwards and risks to growth downwards. Against this background, the 
+ECB Governing Council raised its key interest rates by 50 basis points between 
+June and September, leaving them unchanged at yesterday’s meeting. 
+3 Banca d’Italia’s analyses, based on the methodologies used by the rating agencies, indicate that the 
+state of the Italian economy and public finances could justify higher ratings than those currently 
+assigned; see also O. Blanchard, D. Leigh and P. Mishra, ‘Ratings, debt, and deficits: an exploration’, 
+IMF Working Papers, 195, 2026.
+4 In 2025, the share of renewable sources in electricity production reached 50 per cent in the European 
+Union and 43 per cent in Italy (12 and 8 percentage points higher, respectively, than in 2021).
+5 Estimates adjusted for the volatility of Irish data; ECB, ‘ECB staff macroeconomic projections for 
+the euro area’, September 2026.
+
+6
+Monetary policy cannot prevent price increases caused directly by the energy 
+shock. But it can and should prevent them from becoming entrenched in the expectations 
+and behaviour of households and firms, triggering a wage-price spiral that would be 
+costly to stop. Preserving price stability means safeguarding the real value of savings 
+and protecting less well-off households, which are more exposed to persistent inflation.
+With inflation set to remain above target for an extended period and risks skewed 
+to the upside, further increases in the policy rates could prove necessary. The rise in  
+long-term yields, mainly due to global factors, is making financial conditions tighter; 
+this must also be considered when gradually calibrating monetary policy.
+The Governing Council will continue to make decisions based on a  
+data-dependent and meeting-by-meeting approach. This will make it possible to 
+assess the transmission of the energy shock to core inflation, but also to adjust 
+the stance promptly if the international situation were to improve or if financial 
+tensions were to act as a brake on the economy and, thereby, on inflation. Such 
+flexibility requires clear communication: explaining each decision transparently 
+is essential to preserve trust in the ECB’s commitment to maintain price stability.
+3. The European paradox: large savings and the technological gap
+The European economy is currently squeezed between competition from 
+China, now reaching into innovative sectors, and the lag vis-à-vis the United 
+States in the AI supply chain.
+The gap with the US economy has widened. Between 2019 and 2025, US value 
+added grew at twice the pace recorded in Europe. As hours worked followed a similar 
+trajectory, the difference can be explained by productivity (Figure 2), to which 
+information and communication technologies (ICT) contributed significantly.6
+6 The contribution of productivity in the United States was three times that of the euro area; the ICT 
+sector accounts for about one fourth of the gap; see L. Carpinelli, R. Greco, S. Romano, L. Rossi and 
+E. Viviano, ‘The Great Divide: productivity dynamics in the United States and the euro area after the 
+pandemic’, Banca d’Italia, Questioni di Economia e Finanza (Occasional Papers), 924, 2025.
+Figure 2
+Composition of growth in value added between 2019 and 2025 (1)
+(per cent)
+0
+5
+10
+15
+0
+5
+10
+15
+European Union United States
+Value added Hours worked Hourly labour productivity
+Sources: Based on European Commission data, Annual Macro-Economic Database (AMECO), Spring 2026 
+Economic Forecast.
+(1) The blue and red areas indicate the contributions of the individual components to growth, expressed in 
+percentage points; the black dot represents the overall growth rate, as a percentage.
+
+6 7
+Europe’s lag reflects lower investment in innovation. In the software sector, for 
+example, over the past decade, the research and development expenditure of the most 
+innovative US firms has gone from 8 to 17 times that of their European counterparts.7
+Unless this trend is reversed, the gap could widen further. Such an outcome, 
+however, is not inevitable. 
+Europe continues to excel in the digital domain: while its lag in high-quality 
+publications is smaller, it is more pronounced in patent production (Figure 3). The 
+challenge is to harness these skills to develop high-tech goods and services and to 
+nurture firms that can compete on the global stage. This requires greater public and 
+private investment in the development and adoption of new technologies, as well as 
+capital to finance innovative firms as they grow.
+And yet, there is no shortage of resources. This is the European paradox: an 
+economy that saves a great deal but struggles to channel those savings towards the 
+innovation it needs.
+7 E. Nindl et al., The 2025 EU Industrial R&D Investment Scoreboard, European Commission, 2025.
+Monetary policy cannot prevent price increases caused directly by the energy 
+shock. But it can and should prevent them from becoming entrenched in the expectations 
+and behaviour of households and firms, triggering a wage-price spiral that would be 
+costly to stop. Preserving price stability means safeguarding the real value of savings 
+and protecting less well-off households, which are more exposed to persistent inflation.
+With inflation set to remain above target for an extended period and risks skewed 
+to the upside, further increases in the policy rates could prove necessary. The rise in  
+long-term yields, mainly due to global factors, is making financial conditions tighter; 
+this must also be considered when gradually calibrating monetary policy.
+The Governing Council will continue to make decisions based on a  
+data-dependent and meeting-by-meeting approach. This will make it possible to 
+assess the transmission of the energy shock to core inflation, but also to adjust 
+the stance promptly if the international situation were to improve or if financial 
+tensions were to act as a brake on the economy and, thereby, on inflation. Such 
+flexibility requires clear communication: explaining each decision transparently 
+is essential to preserve trust in the ECB’s commitment to maintain price stability.
+3. The European paradox: large savings and the technological gap
+The European economy is currently squeezed between competition from 
+China, now reaching into innovative sectors, and the lag vis-à-vis the United 
+States in the AI supply chain.
+The gap with the US economy has widened. Between 2019 and 2025, US value 
+added grew at twice the pace recorded in Europe. As hours worked followed a similar 
+trajectory, the difference can be explained by productivity (Figure 2), to which 
+information and communication technologies (ICT) contributed significantly.6
+6 The contribution of productivity in the United States was three times that of the euro area; the ICT 
+sector accounts for about one fourth of the gap; see L. Carpinelli, R. Greco, S. Romano, L. Rossi and 
+E. Viviano, ‘The Great Divide: productivity dynamics in the United States and the euro area after the 
+pandemic’, Banca d’Italia, Questioni di Economia e Finanza (Occasional Papers), 924, 2025.
+Figure 2
+Composition of growth in value added between 2019 and 2025 (1)
+(per cent)
+0
+5
+10
+15
+0
+5
+10
+15
+European Union United States
+Value added Hours worked Hourly labour productivity
+Sources: Based on European Commission data, Annual Macro-Economic Database (AMECO), Spring 2026 
+Economic Forecast.
+(1) The blue and red areas indicate the contributions of the individual components to growth, expressed in 
+percentage points; the black dot represents the overall growth rate, as a percentage.
+
+8
+Each year, the euro area saves one quarter of its gross national income, but 
+a significant portion of these resources are invested abroad. Over the last decade, 
+savings have exceeded domestic investment by an average of around €300 billion 
+per year, equal to 15 per cent of productive investment.8 In the two years 2024-25, 
+gross capital flows from the euro area to the United States averaged €785 billion 
+annually, attracted in large part by the big tech firms.9
+The problem, therefore, is not a shortage of savings, but the difficulty 
+of deploying them profitably within Europe: what is lacking are specialized 
+intermediaries, developed capital markets and adequate investment opportunities.
+European households are less inclined to take risks than US households, but 
+the gap is narrower than it appears looking at stock markets alone. In Europe, 
+shares held through investment funds and listed shares held directly account for 5 
+per cent of gross wealth, compared with 25 per cent in the United States. When 
+8 Productive investment is defined as gross fixed investment net of residential construction.
+9 This includes ‘Other investment’, which comprises deposits, loans and trade credit.
+Figure 3
+Scientific research and patents in ICT technologies
+(thousands, year 2021)
+0
+2
+4
+6
+8
+0
+2
+4
+6
+8
+High-quality publications (1) Patents
+United States European Union
+Sources: OECD, OECD Bibliometric indicators: Selected highlights, May 2026; Triadic Patents, WIPO technology domains, 
+April 2026.
+(1) High-quality scientific publications are defined as those in the first decile of the distribution by number of citations 
+according to data from Scopus Custom Data and Scimago Journal Rankings.
+
+8 9
+total stakes in unlisted companies are also taken into account,10 the share of equity 
+capital rises to 20 per cent in the euro area and to 35 per cent in the United States 
+(Figure 4).
+Much of the gap reflects the greater prevalence of unlisted family-owned 
+firms in Europe. Investments in these firms, which are illiquid and concentrated, 
+constrain portfolio diversification and reduce the scope for financing a broader 
+range of innovative projects.
+This is why, especially in the early stages of innovation, specialized 
+intermediaries capable of pooling savings and diversifying risks – such as private 
+equity and venture capital funds – are essential. Their development, which in the 
+United States goes hand in hand with innovation, is being held back in Europe by 
+a fragmented capital market. 
+The time has come to deliver on the long-standing European commitment to 
+building a truly integrated capital market. 
+10 This includes direct holdings of unlisted shares, participating interests in partnerships and sole 
+proprietorships.
+Figure 4
+Share of equity capital in gross household wealth
+(per cent)
+0
+10
+20
+30
+40
+0
+10
+20
+30
+40
+Italy Euro area United States
+Indirectly held shares
+Unlisted shares and corporate wealth
+Listed shares
+Sources: Estimates based on data from the Financial Accounts of the United States and the Survey of 
+Consumer Finances (Federal Reserve Board) for the United States and from the Financial Accounts and 
+Distributional Wealth Accounts (European Central Bank) for the euro area.
+
+10
+The Savings and Investment Union Strategy goes in the right direction.   
+It expands the role of institutional investors, facilitates their cross-border 
+activities and strengthens market supervision at European level. 11 On this 
+last aspect, the recent Ecofin agreement strikes a balance between greater 
+integration and the role of national authorities. 12 When implementing it, it will 
+be useful to model it on the Single Supervisory Mechanism, which combines 
+strong European leadership with the expertise of national authorities: their 
+knowledge of markets and intermediaries, on-the-ground experience and 
+proximity to savers. 
+Market integration also requires the completion of the banking union, 
+including a common deposit insurance scheme that protects all depositors while 
+taking into account the specific features of small banks. 13 Finally, it will also 
+be necessary to create a safe and liquid European asset, not as a step towards 
+fiscal union, but as a benchmark for investors that can attract foreign capital and 
+strengthen the international role of the euro.
+Concrete action can be taken at national level as well. The permanent 
+forum recently announced by the Italian Ministry of Economy and Finance 
+– which will bring together institutional investors, market participants and 
+competent authorities to support the financing of innovation – is a step in 
+this direction.
+However, finance alone is not enough. For savings to be invested in 
+Europe, there must be projects capable of generating adequate returns and 
+11 The competent European authority is the European Securities and Markets Authority (ESMA);  
+in Italy, the competent authorities are CONSOB and Banca d’Italia. 
+12 On 9 October 2026, the Ecofin Council agreed a general approach on the Market Integration 
+Package (proposed Regulations COM(2025) 941 and COM(2025) 943 and proposed Directive 
+COM(2025) 942); see also the Report by Banca d’Italia prepared for the Chamber of Deputies, 
+15th Committee on the Policies of the European Union, ‘Proposed Regulations COM(2025) 943 
+final and COM(2025) 941 final and proposed Directive COM(2025) 942 final on the integration 
+of financial markets (Market Integration Package)’, Rome, 27 February 2026 (only in Italian).
+13 One of the proposals being discussed is the introduction of a ‘dual’ scheme, in which large 
+banks would join a European deposit guarantee fund, while small banks would rely solely on 
+national funds. Without proper safeguards, this scheme would fragment the European deposit 
+guarantee scheme and weaken Europe’s capacity to respond effectively to crises affecting 
+small banks.
+
+10 11
+the conditions needed to bring them to fruition: a fully integrated Single Market for 
+goods and services; simple, harmonized rules; competitively priced energy; and 
+joint investment in research and infrastructure. 
+Finance and the real economy reinforce one another. More developed 
+capital markets make it possible to fund projects that currently struggle to attract 
+funding; profitable projects, in turn, attract savings.
+4. Savings, labour and pensions in Italy
+Financial wealth needs to be put to better use in Italy too. Alongside this is 
+another issue: household saving has declined over time, and those who need to 
+save most, i.e. young people, have less chance of doing so. This is a key issue for 
+the future well-being of an ageing society, in which supplementary pensions will 
+increasingly have to augment public pensions.
+The decline in savings recorded since 2000 is due to stagnating income and a 
+lower propensity to set money aside (Figure 5). 
+Real disposable income per capita fell slightly in Italy between 2000 and 
+2025, while it rose by more than one quarter in France and Germany. Real hourly 
+Figure 5
+Income, savings and propensity to save
+(thousands of euros at 2020 prices and per cent)
+Italy France Germany
+2000
+2005
+2010
+2015
+2020
+2025
+2000
+2005
+2010
+2015
+2020
+2025
+2000
+2005
+2010
+2015
+2020
+2025
+0
+10
+20
+30
+0
+5
+10
+15
+Real gross disposable income per capita (thousands of euros at 2020 prices)
+Propensity to save (per cent)
+Real savings per capita (thousands of euros at 2020 prices. Right-hand scale)
+Source: Eurostat.
+
+12
+wages remained broadly stable in Italy, reflecting productivity growth that was 
+well below the European average.
+The lower propensity to save is financially and demographically motivated. 
+The decline in real interest rates following the launch of the euro has lowered the 
+incentive to save; easier access to credit has also reduced the need to set aside 
+financial resources before major outlays, such as house purchase. The share of 
+elderly households, which tend to save less, has increased;14 the size of households 
+has shrunk, lessening some of the reasons for saving linked to raising children.15
+For those who are of working age today, however, greater life expectancy is 
+another reason to put money aside: their savings need to finance longer periods of 
+time and cover expenses that are hard to predict, especially for long-term care and 
+welfare. The pension reforms of the last 30 years have also increased the role of 
+private savings in supplementing income after retirement.
+The decline in the propensity to save has come to a halt over the last 
+decade, also because many households have begun to address these needs. 
+Members of supplementary pension schemes have risen to over 10 million, 
+equal to 40 per cent of the labour force; the financial resources accumulated 
+account for over 11.5 per cent of GDP (Figure 6). 16
+Young people, who really need them the most, make less use of 
+supplementary pensions 17 and struggle to make regular payments. The 
+main reason for this lies in working and income conditions. While the 
+share of employees aged up to 34 with temporary, involuntary part-time or  
+non-standard forms of employment has fallen sharply in recent years, it is still 
+high (Figure 7); more than one in ten of these workers earn a low income. 18 
+14 Between 2000 and 2022, the share of households with a primary wage earner aged at least 65 rose 
+from 29 to 37 per cent; there is a tendency to save less after retirement and, in part, to use accumulated 
+savings. 
+15 In smaller households, some unavoidable expenditure has more of an effect on income, thereby 
+lowering the capacity to save.
+16 Supplementary pension funds comprise pre-existing pension funds, closed-end funds, open-end 
+pension funds and individual pension plans. Professional bodies are excluded, since compulsory 
+contributions make them comparable to the first pillar of the pension system.
+17 The participation rate of young people in supplementary pension schemes is almost 10 percentage 
+points lower than that of those over the age of 55.
+18 Calculated based on INPS data for young people aged up to 34 in 2023; gross monthly full-time 
+equivalent earnings. Low income is defined as being less than 60 per cent of the median in an age group.
+Figure 6
+Assets under management and members by type of pension fund in Italy
+(a) Number of members
+(millions)
+(b) Assets under management
+(billions of euros and percentage of GDP)
+ 0
+ 3
+ 6
+ 9
+12
+'19 '20 '21 '22 '23 '24 '25   0
+ 50
+100
+150
+200
+250
+300
+ 9.0
+ 9.5
+10.0
+10.5
+11.0
+11.5
+12.0
+'19 '20 '21 '22 '23 '24 '25
+Closed-end funds Open-end funds Pre-existing funds (1) New PIPs
+Old PIPs (2) Total members (3) Total assets as a share of GDP (4)
+Source: COVIP . 
+(1) Funds reserved to firms’ employees, in existence prior to the 1992 reform and primarily for people working 
+in the banking and insurance sectors; these funds complied with the 2005 reform and are potentially open to 
+new entrants. – (2) Old individual pension plans are gradually being phased out as they no longer accept new 
+members; this is the result of their non-compliance with the reform set out in Article 23(3) of Legislative Decree 
+252/2005. – (3) Members of several funds are only counted once. – (4) Right-hand scale.
+
+12 13
+wages remained broadly stable in Italy, reflecting productivity growth that was 
+well below the European average.
+The lower propensity to save is financially and demographically motivated. 
+The decline in real interest rates following the launch of the euro has lowered the 
+incentive to save; easier access to credit has also reduced the need to set aside 
+financial resources before major outlays, such as house purchase. The share of 
+elderly households, which tend to save less, has increased;14 the size of households 
+has shrunk, lessening some of the reasons for saving linked to raising children.15
+For those who are of working age today, however, greater life expectancy is 
+another reason to put money aside: their savings need to finance longer periods of 
+time and cover expenses that are hard to predict, especially for long-term care and 
+welfare. The pension reforms of the last 30 years have also increased the role of 
+private savings in supplementing income after retirement.
+The decline in the propensity to save has come to a halt over the last 
+decade, also because many households have begun to address these needs. 
+Members of supplementary pension schemes have risen to over 10 million, 
+equal to 40 per cent of the labour force; the financial resources accumulated 
+account for over 11.5 per cent of GDP (Figure 6). 16
+Young people, who really need them the most, make less use of 
+supplementary pensions 17 and struggle to make regular payments. The 
+main reason for this lies in working and income conditions. While the 
+share of employees aged up to 34 with temporary, involuntary part-time or  
+non-standard forms of employment has fallen sharply in recent years, it is still 
+high (Figure 7); more than one in ten of these workers earn a low income. 18 
+14 Between 2000 and 2022, the share of households with a primary wage earner aged at least 65 rose 
+from 29 to 37 per cent; there is a tendency to save less after retirement and, in part, to use accumulated 
+savings. 
+15 In smaller households, some unavoidable expenditure has more of an effect on income, thereby 
+lowering the capacity to save.
+16 Supplementary pension funds comprise pre-existing pension funds, closed-end funds, open-end 
+pension funds and individual pension plans. Professional bodies are excluded, since compulsory 
+contributions make them comparable to the first pillar of the pension system.
+17 The participation rate of young people in supplementary pension schemes is almost 10 percentage 
+points lower than that of those over the age of 55.
+18 Calculated based on INPS data for young people aged up to 34 in 2023; gross monthly full-time 
+equivalent earnings. Low income is defined as being less than 60 per cent of the median in an age group.
+Figure 6
+Assets under management and members by type of pension fund in Italy
+(a) Number of members
+(millions)
+(b) Assets under management
+(billions of euros and percentage of GDP)
+ 0
+ 3
+ 6
+ 9
+12
+'19 '20 '21 '22 '23 '24 '25   0
+ 50
+100
+150
+200
+250
+300
+ 9.0
+ 9.5
+10.0
+10.5
+11.0
+11.5
+12.0
+'19 '20 '21 '22 '23 '24 '25
+Closed-end funds Open-end funds Pre-existing funds (1) New PIPs
+Old PIPs (2) Total members (3) Total assets as a share of GDP (4)
+Source: COVIP . 
+(1) Funds reserved to firms’ employees, in existence prior to the 1992 reform and primarily for people working 
+in the banking and insurance sectors; these funds complied with the 2005 reform and are potentially open to 
+new entrants. – (2) Old individual pension plans are gradually being phased out as they no longer accept new 
+members; this is the result of their non-compliance with the reform set out in Article 23(3) of Legislative Decree 
+252/2005. – (3) Members of several funds are only counted once. – (4) Right-hand scale.
+Figure 7
+Unemployment rate and share of young workers  
+without full-time or permanent contracts
+(per cent)
+(a) Unemployment rate:  
+total and young people
+(b) Y oung people with involuntary fixed-term 
+contracts, involuntary part-time contracts  
+or non-standard forms of employment (1)
+10
+15
+20
+25
+2005 2010 2015 2020 2025
+Y oung people (aged 15-34)
+Total (aged 15-74)
+20
+30
+40
+50
+2005 2010 2015 2020 2025
+Women
+Men
+Total
+Source: Based on Istat data. 
+(1) Includes workers aged up to 34 with temporary employment who instead wish to work all year round; 
+involuntary part-time workers; workers with non-standard forms of employment. The time series have not 
+been fully comparable since 2021 .
+
+14
+The difficulties are greater for young women, whose participation in the labour 
+market is also hampered by the burden of family responsibilities.19
+For the new generations, the fundamental answer is growth that can stabilize 
+work paths and increase incomes: without continuity of contributions, no social 
+security system can be fully effective.
+Despite having made progress in recent years, supplementary pensions could 
+also do more for young people. First of all, the number of members needs to be 
+increased: automatic enrolment was reinforced by the latest budget law and is a 
+step in the right direction.
+In addition, participation in financial markets must be encouraged, adopting 
+a long-term perspective. The recent proposals for saving tools that are accessible 
+from birth are also noteworthy:20 starting to save early in life allows people to benefit 
+for longer from the capitalization of yields and to adopt strategies in line with an 
+extended horizon. The initiatives currently under discussion as part of the Budget 
+Law appear to be consistent with this approach.21 To be successful, these tools should 
+be simple and cheap, such as the savings and investment accounts (SIAs) proposed 
+by the European Commission.
+Financial education plays an essential role. Pension choices, such as how 
+much to pay into a fund, what fund to join and how to get the final payout, 
+19 Among women aged up to 34, the labour market participation rate is 43 per cent, 12 percentage 
+points lower than for their male peers and 24 points lower than the general average. Young women 
+who are not in employment, education or training account for 19 per cent of the total, compared with 
+12 per cent for young men.
+20 M. Pepe, Annual Report for the year 2025 , President’s remarks , COVIP, Rome, 10 June 2026; 
+see also E. Marro’s interview with G. Fava, President of INPS, ‘Per le pensioni dei giovani serve 
+un terzo pilastro. Il vero problema è il lavoro’, Corriere della Sera, 20 August 2026; and G. Stazi, 
+opening speech at the meeting on ‘Corporate Governance in Italia. Flessibilità e proporzionalità delle 
+regole: evoluzione dei mercati e qualità della governance’, jointly organized by CONSOB, the Italian 
+Corporate Governance Committee and Assonime, Rome, 16 September 2026. 
+21 The press release of the Italian Council of Ministers of 28 October announced the establishment of 
+a baby bonus fund that ‘assigns an individual savings pot to newborns in 2027 into which an annual 
+state contribution of €100 will be paid until they reach adulthood and into which households can also 
+make payments via a specific tax deduction’.
+
+14 15
+are decades-long commitments about which people need to be fully informed. 
+Banca d’Italia has been engaged in this field for years.22 
+Financial education, including pension planning, has recently been 
+included in the civic education programme that begins in primary school; 
+the content is decided by the Ministry of Education and Merit in agreement 
+with Banca d’Italia and other authorities. 23 Making this reform operational 
+will require appropriate teacher training; Banca d’Italia cooperates with the 
+Ministry on this front too.
+Finally, net yields on savings need to be improved over long horizons, which 
+are crucial for those starting their working life. Many supplementary pension 
+funds are still small and for some the costs for members remain high: 24 further 
+consolidation is desirable, following on from that of the last decade. Larger funds 
+can access the skills needed to assess more complex investments. 
+Life-cycle investment plans 25 and a share of assets, albeit a limited one, in 
+diversified portfolios with higher risks and returns 26 could offer better results 
+to younger investors; they would also help to steer savings towards productive 
+investments, in Italy and in Europe, and to solve the European paradox. 
+The interests of members must in any case remain the guiding principle for 
+investment choices.
+22 Banca d’Italia runs financial education activities for teachers, students and adults, and also participates 
+in the Committee for Planning and Coordinating Financial Education Activities (Edufin Committee), 
+founded in 2017 to implement the relevant national strategy; see the ‘Economics for all’ website.
+23 Article 25 of Law 21/2024. This law provides for the development of financial literacy from primary 
+to secondary school. In January 2026, Banca d’Italia and the Ministry renewed their memorandum of 
+understanding for the training of teachers, teaching materials and student initiatives.
+24 There were 273 supplementary pension schemes at the end of 2025, of which 33 were closed-end 
+funds. According to COVIP, over a 35-year horizon, the synthetic cost indicator averages 0.4 per 
+cent per year for closed-end funds, 1.2 per cent for open-end funds and 1.8 per cent for individual 
+pension plans. The lower cost of closed-end funds also reflects the economies of scale. Costs for 
+open-end funds and individual pension plans are affected by the remuneration of sales networks, 
+along with information barriers and competition levels.
+25 For life-cycle investment paths, exposure to equity markets declines with age. Workers can benefit 
+from the higher expected returns on equity, thereby limiting the risk of market fluctuations when they 
+are close to retirement.
+26 The share of venture capital investments is practically nil in the portfolios of Italian pension funds; it 
+fluctuates between 1 and 3 per cent in the United States. 
+
+16
+Conclusions
+The European economy is showing more resilience than expected, as is the 
+Italian economy. However, the outlook is clouded by the energy shock, as well as 
+by geopolitical risks and financial tensions; the effects of inflation and of higher 
+financing costs could escalate in the coming months.
+Against this backdrop, the task of economic policy becomes more complex. 
+Two basic needs remain unchanged: preserving price stability and maintaining a 
+prudent fiscal policy, which are essential for protecting savings.
+Yet they are not enough. Protecting savings requires an economy that can 
+grow and generate income. This is the thread that links the issues discussed today: 
+Europe and Italy have considerable wealth, but they are not able to fully exploit it 
+to fund innovation and increase productivity. Without growth, it becomes difficult 
+to support welfare, healthcare and social assistance in ageing societies; without 
+growth, young people’s chances of finding suitable work, becoming independent 
+and starting a family are limited.
+The future of young people and the security of the elderly rest on the same 
+ability to create well-being. It is up to all of us in our various roles to ensure that 
+today’s savings support tomorrow’s growth and that young people, through work, 
+can build themselves a future.
