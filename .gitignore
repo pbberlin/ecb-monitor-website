@@ -17,6 +17,9 @@ wtx.bat
 # requirements intermediary file
 requirements.in
 
+.python-version
+.vscode/**
+
 codeql*
 codeql-db/**
 py.cmd

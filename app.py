@@ -156,8 +156,9 @@ dirDl = Path(".") / "scripts" / "council"
 allowedIps = [
     "127.0.0.1",          # localhost
     "192.168.1.0/24",     # local network
-    "193.196.11.188",     # ZEW internal
     "193.196.11.0/24",    # ZEW internal network (covers 193.196.11.1–193.196.11.255)
+    "193.196.11.188",     # ZEW internal
+    "193.196.11.205",     # zew VPN 2026-11
     "78.94.80.126",       # zew guest
     "34.254.109.160",     # securityheaders.com
     # "100.64.0.0/10",      # tailgate
@@ -185,11 +186,11 @@ def limitRemoteAddr():
 
         if not isAllowed:
             print(f"Denied access for IP: {clientIp}")
-            abort(403, description="Access denied")
+            abort(403, description=f"Access denied to {clientIp}")
 
     except Exception as exc:
         print(f"Error checking IP {clientIp}: {exc}")
-        abort(403, description="Invalid IP address")
+        abort(403, description=f"Invalid IP address {clientIp}")
 
 
 
