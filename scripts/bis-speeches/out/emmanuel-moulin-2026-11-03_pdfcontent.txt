@@ -1,0 +1,236 @@
+ 
+ 
+ 
+ACPR-AMF Fintech Forum – Paris, 2 October 2026 
+“Marking our tenth anniversary: 
+One conviction, two principles and three challenges” 
+ 
+ 
+ 
+Speech by Emmanuel Moulin 
+Governor of the Banque de France, Chairman of the ACPR 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 1 sur 7 
+ 
+Madam Chair, dear Marie-Anne, Ladies and Gentlemen, 
+I am delighted to welcome you to the Banque de France for this new edition of 
+the ACPR-AMF Fintech Forum, my first as Governor. Ten years after its creation, 
+this Forum remains as relevant as ever: it serves as a space for dialogue 
+between supervisors and players in the field of financial innovation. It has a two-
+fold ambition: to help us understand one another better and to jointly identify the 
+conditions necessary for innovation to flourish. I will structure my remarks in 
+three parts: first, one conviction regarding the role of fintechs in the European 
+financial sector; second, two principles to guide the actions of supervisors; and 
+finally, three challenges that I believe will be decisive for the coming decade. 
+1. One conviction: a vital ecosystem for France and Europe 
+Let me begin  with a conviction. Fintechs, which today account for more than 
+1,200 companies and close to 55,000 jobs i in France, are a key driver of our 
+financial sector’s dynamism. In just a few years, they have demonstrated their 
+ability to transform technological advances into innovative financial services and 
+efficiency gains for the entire industry. Their contributions are numerous: peer -
+to-peer payments, integrated e -invoicing and business accounting solutions, 
+new lending methods and even new ways of distributing insurance. 
+Over the past ten years, the fintech ecosystem has also reached a certain level 
+of maturity, evolving from a landscape consisting mainly of start-ups into a more 
+diverse sector in which several players have grown to a significant size. This is 
+particularly true of the 15 French fintech unicorns.ii The objective is therefore no 
+longer simply to facilitate fintechs’ entry into the market, but also to support their 
+scaling up. This brings me to the issue of funding. Fundraising rose sharply in 
+the first half of 2026, with a 51% year-on-year increase,iii underpinned by a few 
+major deals. This encouraging trend remains fragile, however, and the 
+ecosystem needs more equity capital, particularly from European investors. This 
+is the very purpose of the Savings and Investment Union, which aims to better 
+reallocate European savings to support innovative investment and, ultimately, 
+
+
+Page 2 sur 7 
+ 
+growth in Europe. In this context, three priorities seem to me to be particularly 
+advisable:  
+(i) The strengthening of equity financing, which entails the gradual 
+development of European retirement savings and pension funds, the 
+promotion of ambitious public-private partnerships for venture capital, 
+the development of savings products accessible to hou seholds to 
+encourage a more diversified asset allocation, and an increased focus 
+on financial education 
+(ii) The creation of a “28th regime”, proposed by the European 
+Commission in March 2026 and currently under legislative review 
+(iii) The establishment of a genuine European framework for  market 
+infrastructures and post-trade players. 
+2. Two principles must guide the actions of supervisors 
+While the fintech ecosystem has evolved considerably over the past ten years, 
+the guiding principles behind the actions of supervisors remain largely 
+unchanged. I will highlight two of them. 
+The first principle is to reconcile innovation and trust. The right balance needs 
+to be struck between openness to innovation and risk management, by applying 
+the principle of proportionality – which is widely recognised in regulation – and 
+by harnessing all possible synergies with existing supervisory processes . It is 
+also essential to ensure a level playing field by adopting a technology -neutral 
+approach. 
+The second principle is a corollary of the first: to maintain a regular and 
+demanding dialogue with the entire ecosystem. I do not consider fintechs and 
+established players to be in opposition. Whether they are competing or, as is 
+often the case, cooperating, together they contribute to strengthening the 
+competitiveness of the European financial sector in the face of big tech s.iv In a 
+context of considerable uncertainty, fintechs therefore warrant the same 
+openness, dialogue and attention from us as established players. This is the 
+very purpose of the commitments made under our Fintech Charter and their 
+
+
+Page 3 sur 7 
+ 
+regular monitoring. It is also the ambition of the ACPR’s Fintech Innovation unit 
+and the raison d’être  of the Fintech Forum. I am also delighted that in 2026, 
+following a few less dynamic years, the number of project leaders who have 
+contacted the ACPR has considerably increased, reflecting not only the vitality 
+of the ecosystem but also the importance it attaches to dialogue with the 
+supervisor. 
+3. Three challenges for the coming decade 
+The two principles I have just outlined must continue to guide us as we face the 
+major transformations that are already reshaping the financial sector. I will 
+highlight three that I believe will be particularly decisive in the coming decade. 
+3.1. The tokenisation of finance 
+The first transformation is the tokenisation v of finance. This will generate 
+significant efficiency gains by reducing settlement times and transaction costs. 
+However, it also raises issues of financial stability and sovereignty. In particular, 
+Europe could become dependent on non-European infrastructure and non-euro-
+denominated settlement assets.vi 
+The European response rests on three complementary pillars. The first is to 
+provide a central bank currency suited to the digital age. For the general public, 
+this takes the form of the digital euro project, while for the interbank market, the 
+Eurosystem is developing two initiatives : first,  Pontes, launched on 
+21 September,vii is a wholesale CBDC that enables financial intermediaries to 
+settle transactions in central bank money via a DLT platformviii operated by the 
+Eurosystem; and second, in the longer term, Appia aims to define the contours 
+of an integrated European ecosystem for tokenised finance, in close cooperation 
+with market participants. 
+The second pillar aims to promote the emergence of a European offering of 
+tokenised commercial bank money. This should include tokenised bank 
+deposits, euro-backed stablecoins,ix and payment infrastructures for the 
+multilateral clearing of these commercial bank money tokens. The Banque de 
+France and the ACPR intend to act as catalysts to support the European 
+
+
+Page 4 sur 7 
+ 
+financial sector in the coordinated development of this offering. This is precisely 
+purpose of the GSIT, the Groupe stratégique sur l’innovation  et la tokenisation 
+(Strategic Group on Innovation and Tokenisation), launched in March 2026 
+together with the AMF, the French Treasury and private-sector players in the 
+Paris financial centre. The Pythagore project, spearheaded by the Banque de 
+France and Euroclear France, is a concrete example of this joint work: central 
+bank tokens provided via Pontes will, by the end of 2026, enable the settlement 
+of tokenised NEU CP. 
+The third pillar is regulatory. With the MiCA x and “Pilot regime”xi regulations, 
+Europe already has a framework that is conducive to the emergence of new 
+players and blockchain-based activities. However, this framework needs to be 
+adapted to keep pace with developments in tokenised finance. A targeted 
+revision of the MiCA Regulation could clarify the legal treatment of tokenised 
+deposits and the regime applicable to stablecoins, whil e providing a clearer 
+framework for the use of non-euro stablecoins in everyday payments and multi-
+issuer models. The Pilot regime, for its part, could be made permanent as part 
+of the MISP xii package in order to provide greater certainty for market 
+participants. To make it more attractive while remaining proportionate to the 
+financial stability challenges, it would be advisable to raise the activity ceilings 
+to around EUR 300 billion. 
+3.2. Artificial intelligence 
+The second transformation is that of artificial intelligence (AI). It has become one 
+of the main drivers of innovation for fintechs: close to 80% of them now use it in 
+their operations.xiii However, like any major technological breakthrough, AI also 
+raises new risks that could affect access to credit or insurance, or make it more 
+difficult for customer s to understand a decision that concerns  them. There is 
+also an increased cyber threat, in a context where AI systems themselves can 
+become either vectors or targets of attack. The incident involving Hugging 
+Facexiv provided a particularly striking illustration of this risk during the summer. 
+ 
+
+
+Page 5 sur 7 
+ 
+Faced with these risks, we are fortunately able to rely on existing foundations. 
+The DORA xv regulation provides a robust framework for IT risk management. 
+The AI Actxvi complements this framework with specific requirements for “high-
+risk” AI systems. In the financial sector, this category includes systems used for 
+granting credit, assessing risk and pricing insurance. The ACPR will be 
+responsible for supervising these systems from December 2027. We are 
+actively preparing for this new mission, notably by carrying out methodological 
+work in cooperation with market players. However, our regulatory framework is 
+probably insufficient to address the risks posed by the most advanced AI 
+models. We will therefore need to strengthen it to better manage the risks 
+associated with frontier AI.xvii 
+3.3. Geopolitical fragmentation 
+The final challenge is closely linked to the two technological transformations: it 
+is that of geopolitical fragmentation. In an increasingly uncertain environment, 
+Europe must strengthen its capacity to make choices and exercise control over 
+digital technologies. This issue of sovereignty is of particular relevance to the 
+fintech ecosystem, which is at the forefront of innovation.  Through C loud 
+services, AI models, infrastructure and computing capacity, many of the building 
+blocks essential to the development of innovative financial services currently 
+rely on players who are largely non -European. At a time when these 
+dependencies could become vulnerabilities, we must support the emergence of 
+competitive European players and infrastructure capable of strengthening our 
+autonomy. In this regard, I welcome the Tech Sovereignty Packagexviii presented 
+by the European Commission in June. More than ever, innovation, 
+competitiveness and European sovereignty are inextricably linked. 
+* 
+The past ten years have demonstrated fintechs’ ability to bring about far -
+reaching change in financial services; and I am convinced that they will play an 
+equally decisive role over the next ten years. Faced with the challenges of 
+tokenisation, artificial intelligence and geopolitical fragmentation, ou r collective 
+
+
+Page 6 sur 7 
+ 
+responsibility is clear: we need to foster innovation while maintaining confidence 
+in our financial system. Europe can no longer be content merely to importxix new 
+technologies; it must be capable of funding and developing them  itself. It is in 
+this spirit that the Banque de France and the ACPR intend to pursue its efforts, 
+working alongside you. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+i France FinTech (2026), Panorama des fintech françaises, September. 
+ii France FinTech (2026), Panorama des fintech françaises, September. 
+iii Observatoire de la Fintech (2026), Le Semestre de la Fintech 2026. 
+iv A term used to describe the large companies that dominate the global digital market. 
+v The process of issuing and registering a financial or non -financial asset in the form of a digital token using 
+distributed ledger technologies such as blockchain. 
+vi Moulin (E.) (2026), “From innovation to monetary sovereignty: striking the right note”, speech, 19 June. 
+vii European Central Bank (2026), Eurosystem brings central bank money to tokenised finance , press release, 21 
+September. 
+viii Distributed Ledger Technology. 
+ix A type of crypto-asset designed to maintain a stable value against one or more assets, such as an official currency 
+or a basket of currencies. 
+x Regulation EU 2023/1114 on markets in crypto-assets. 
+xi Regulation EU 2022/858 on a pilot regime for market infrastructures based on distributed ledger technology. 
+xii Market Integration and Supervision Package, launched by the European Commission in December 2025. 
+xiii France FinTech (2025), « Le déploiement des technologies dans les fintech françaises », July. 
+xiv The Hugging Face platform was attacked by OpenAI’s AI agents in July 2026. 
+xv Regulation EU 2022/2554 on digital operational resilience for the financial sector. 
+xvi Regulation EU 2024/1689 laying down harmonised rules on artificial intelligence. 
+xvii Beau (D.) (2026), “Artificial intelligence: the new frontiers of risk”, speech, 9 September. 
+xviii European Commission (2026), Strengthening Europe’s Tech Sovereignty | Shaping Europe’s digital future , 3 
+June. 
+xix Lagarde (C.) (2026), “A new age of capital: growth, sovereignty and AI”, speech, Vienna, 14 September. 
