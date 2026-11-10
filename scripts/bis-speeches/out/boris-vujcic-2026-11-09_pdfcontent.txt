@@ -1,0 +1,2094 @@
+Working Paper Series 
+Geopolitical risk, bank lending and 
+real effects on firms: evidence from 
+the Russian invasion of Ukraine 
+Pauline Avril, Peter McQuade, 
+Cosimo Pancaro, Alessio Reghezza 
+Disclaimer: This paper should not be reported as representing the views of the European Central Bank 
+(ECB). The views expressed are those of the authors and do not necessarily reflect those of the ECB.  
+No 3143 
+
+Abstract
+This paper investigates whether geopolitical risk causes a reduction in bank lend-
+ing. In particular, it focuses on how the increase in geopolitical risk stemming from
+the Russian invasion of Ukraine affected euro area bank credit supply. Match-
+ing granular supervisory and credit register data and using a panel difference-in-
+difference approach, the results show that banks with larger exposure to the increase
+in geopolitical risk cut lending significantly more than those with smaller exposure.
+Banks with greater exposure raised impairments despite exhibiting similar levels of
+credit distress to their peers, suggesting that the fall in lending was driven by un-
+certainty. Moreover, firms that were heavily reliant on banks with high exposure to
+geopolitical risk were unable to fully substitute this shortfall in credit by borrowing
+more from less affected banks, which significantly constrained firm investment and
+employment.
+Keywords: Banks, financial markets, uncertainty
+JEL Codes: G1, G21; E22
+ECB Working Paper Series No 3143
+1
+
+Non-technical summary
+Geopolitical events — such as wars or rising tensions between countries — can signif-
+icantly affect economic and financial systems. These events increase uncertainty and
+change how risks are perceived, which can lead banks to reduce lending. This paper
+studies whether the surge in geopolitical risk caused by the Russian invasion of Ukraine
+in early 2022 led to a contraction in bank lending in the euro area and, in turn, affected
+firm-level economic outcomes such as investment and employment.
+The euro area provides a particularly relevant case study because of its geographical
+and economic proximity to the conflict, making the shock highly salient for its finan-
+cial institutions. To understand these dynamics, the analysis uses highly detailed and
+confidential data from AnaCredit, the euro area credit register that collects loan-level
+information from euro area banks. These data are matched with detailed bank financial
+statements and firm-level information on employment and investment.
+The empirical strategy compares how banks with greater exposure to geopolitical
+risk — measured using a bank-level index based on bank exposures and country-level
+geopolitical risk indicators — adjusted their lending compared to less exposed banks
+after the onset of the Russian invasion of Ukraine. By using data on firms with multi-
+ple banking relationships and applying a difference-in-differences, the analysis isolates
+changes in credit supply from changes in demand.
+The results show that banks more exposed to the geopolitical risk shock significantly
+reduced their lending to firms in the quarters following the invasion more than their
+peers. This drop in lending occurred both in existing relationships (intensive margin)
+and in the formation of new bank-firm relationships (extensive margin). The effect
+persisted for about three quarters before gradually fading.
+One reason for this contraction appears to be an increase in risk aversion: more
+exposed banks reported larger increases in loan impairments after the invasion, despite
+similar actual levels of borrower distress. This mechanism explains the tendency of these
+ECB Working Paper Series No 3143
+2
+
+banks to pull back from lending during uncertain times. Importantly, banks with larger
+capital buffers were less likely to reduce lending, suggesting that better-capitalized banks
+are more resilient to uncertainty and can continue supporting firms during geopolitical
+risk shocks.
+The study also finds that lending cuts were not uniform across sectors. Firms oper-
+ating in industries that relied more heavily on inputs from countries closely aligned with
+Russia experienced a larger credit contraction. This indicates that banks were wary of
+lending to sectors vulnerable to supply chain disruptions tied to the conflict.
+At the firm level, firms that were highly dependent on banks more affected by geopo-
+litical risk were not able to fully replace lost credit by borrowing from other, less exposed
+banks. As a result, these firms experienced declines in both investment and employment,
+showing that geopolitical risk can have real, measurable effects on business operations
+and economic activity.
+To ensure these findings are robust, the study conducts several additional tests.
+These include using matching techniques that account for differences between treated
+and untreated banks, controlling for other possible influences such as the energy price
+shock linked to the war, and testing for trends before and after the invasion. The results
+consistently support the main conclusion: the surge in geopolitical risk affected bank
+behaviour, and through the banking channel, impacted firms’ real decisions.
+ECB Working Paper Series No 3143
+3
+
+1 Introduction
+Adverse geopolitical events can trigger rapid shifts in risk sentiment and sharp increases
+in uncertainty, exposing existing vulnerabilities in banks that may cause them to curtail
+lending supply. Moreover, they can dent the investment and employment plans of firms,
+with knock-on effects for economic growth (Caldara and Iacoviello, 2022).
+This paper investigates whether the significant increase in geopolitical risk associ-
+ated with the Russian invasion of Ukraine affected euro area bank credit supply and
+consequently had significant effects on non-financial firms. This is an ideal laboratory
+to explore the effect of geopolitical risk because of the geographical proximity of the
+euro area to the event, which was the most severe geopolitical shock to hit Europe in
+decades. Using a continuous panel difference-in-difference approach at bank-firm level,
+the analysis assesses how banks that were more exposed to the increase in geopoliti-
+cal risk stemming from this event adjusted their lending behaviour. Moreover, relying
+on firm-level regressions, it examines whether firms reliant on banks with higher expo-
+sure to geopolitical risk recorded a contraction in bank borrowing and if they reduced
+investment and employment.
+The analysis uses on AnaCredit, the confidential pan-euro area credit registry data
+collected by the European System of Central Banks. In the baseline analysis, these loan-
+level data are aggregated to the bank-firm level, which makes it possible to disentangle
+credit supply from credit demand. Specifically, this analysis exploits data for firms with
+multiple bank relationships to control for firm credit demand by including firm ×time
+fixed effects, following the approach introduced by Khwaja and Mian (2008). AnaCredit
+data are matched with bank-level balance sheet and profit and loss information from
+ECB supervisory statistics. Our final matched sample consists of a panel dataset at the
+bank-firm level, covering 363 banks and over half a million firms at quarterly frequency
+from 2021Q1 to 2023Q1, i.e. from one year before to one year after the start of the
+Russian invasion of Ukraine. In this context, to evaluate the exposure of individual
+ECB Working Paper Series No 3143
+4
+
+banks to the increase in geopolitical risk stemming from the invasion, a variation of
+the bank-level geopolitical risk index first introduced by Dieckelmann et al. (2025) is
+used. This index is built by combining country level geopolitical risk indices provided by
+Caldara and Iacoviello (2022) with ECB supervisory data on bank asset exposures across
+countries. Finally, to investigate the real effects on firms of an increase in geopolitical
+risk, we also exploit data on firm characteristics, such as investment and numbers of
+employees, sourced from Orbis Europe.
+The analysis yields a number of important insights. First, banks with higher ex-
+posure to geopolitical risk reduced their lending supply to non-financial corporations
+significantly more than those with lower exposure in the immediate aftermath of the
+Russian invasion of Ukraine. This pattern holds for both the intensive margin (lending
+adjustments in existing bank-firm relationships) and extensive margin (creation of new
+bank-firm relationships). Second, when examining how these effects evolve over time,
+we find that this impact lasts for three quarters. Third, we show that banks with higher
+exposure to geopolitical risk increased their loan impairments after the invasion more
+than their less exposed peers, despite exhibiting similar levels of credit distress. We
+claim, consistent with the argument put forward by Correa et al. (2023), that this find-
+ing reflects an increase in risk aversion on the part of more exposed banks, which faced
+with greater uncertainty, chose to contract lending. We also find that, ceteris paribus,
+the increase in geopolitical risk had a less material effect on the lending supply of banks
+with larger capital buffers pointing to a capital constraint channel. Banks with lower
+capital buffers have a greater incentive to safeguard capital by constraining lending more.
+Fourth, the findings indicate that lending contracted to a larger extent to borrowers in
+sectors that were more reliant on inputs imported from countries geopolitically aligned
+with Russia. This suggests that banks constrained lending to sectors reliant on more
+vulnerable supply chains. Fifth, aggregating data at firm level, we find that firms heavily
+reliant on banks with high exposure to geopolitical risk were unable to fully substitute
+ECB Working Paper Series No 3143
+5
+
+this reduction in credit supply by borrowing more from less affected banks, leading to
+real economic effects in the form of reduced investment and employment.
+Results from a battery of robustness tests and alternative specifications further sup-
+port the baseline findings. The results are robust to employing a generalised propensity
+score weighting, allaying concerns that the treatment and control groups might have
+different underlying characteristics that drive the difference in their lending behaviour
+after the invasion. Similarly, results of placebo tests indicate that the baseline results
+were not driven by pre-existing nor post-existing trends rather than geopolitical events.
+Furthermore, we also control for banks’ exposures to highly energy-intensive sectors or
+firms prior to the onset of the the Russian invasion of Ukraine to ensure that the results
+of the analysis are not driven by the simultaneous energy price shock, which was also
+led by the war. The results corroborate our baseline findings, showing that the energy
+price shock was not a driver of our results.
+1.1 Related Literature
+This paper contributes to a number of strands of the literature.
+First, it builds on the seminal work by Caldara and Iacoviello (2022) who intro-
+duced a novel geopolitical risk index, which provides a measure of adverse geopolitical
+events and associated risks based on a tally of newspaper articles covering geopoliti-
+cal tensions. 1 In this context, geopolitical risk is defined as the threat or realisation
+of adverse events associated with wars, terrorism and tensions between states. More
+specifically, the geopolitical risk metric used in this analysis, similarly to the approach
+used by Dieckelmann et al. (2025), captures the actual exposures of banks to geopolitical
+risk. Although related, it is important to mention that the concept of geopolitical risk
+is distinct from that of geopolitical fragmentation, as captured by Fern´ andez-Villaverde
+1Many recent papers (Arslanalp et al., 2023; Georgiadis et al., 2024; Hu et al., 2023) studying
+the macroeconomic and financial effects of geopolitical risk rely on this novel index introduced
+by Caldara and Iacoviello (2022)
+ECB Working Paper Series No 3143
+6
+
+et al. (2024), which has also been shown to have an effect on financial variables and
+investment (Aiyar et al., 2023; Baba et al., 2023).
+This work can also be seen as contributing to the literature on uncertainty and
+bank lending. In a similar vein to our findings for geopolitical risk, a number of papers
+(Barraza and Civelli, 2020; Bordo et al., 2016; Buch et al., 2015; Correa et al., 2023)
+have shown that increases in uncertainty, especially if related to economic policy, have
+a negative effect on bank credit extension. This paper contributes to this literature
+by focussing specifically on the effects of geopolitical risk on bank lending supply. A
+number of papers show the effect of such risk on financial market indicators (Campos
+et al., 2023; Catal´ an and Tsuruga,2023; D’Orazio et al., 2024; Federle et al., 2024a;
+Feng et al., 2023; Salisu et al., 2023). However, to date, there are only a few papers
+that examine the effect of geopolitical risk on banks (Behn et al., 2025; Demir and
+Danisman, 2021; Dieckelmann et al., 2025; Nguyen and Thuy, 2023; Pham et al., 2021;
+Phan et al., 2022), and these works mostly use bank-level data. Instead this paper,
+similar to both Niepmann and Shen (2025) and De Haas et al. (2025), takes advantage
+of more granular data. Niepmann and Shen (2025) analyse loan-level data to examine
+the effect of geopolitical risk with a particular focus on cross-border bank lending. They
+show that globally active US banks tend to continue to lend through foreign affiliates,
+even as they reduce cross-border lending to markets experiencing elevated geopolitical
+risk, and argue that this asymmetry is due to differential expropriation risk. Consistent
+with our results, they also find that global banks reduce lending to domestic firms in
+response to rising geopolitical risk. Similarly, De Haas et al. (2025) use loan-level data
+on a global sample of syndicated loans and find that, while overall cross-border lending
+to areas affected by violent conflict decreases, lending to firms in military or dual-use
+industries increases. In this context, it is key to mention that the use, in our work,
+of loan-level data for euro area banks, combined with a well established difference-in-
+difference estimation method (Acharya et al., 2022; Giannetti et al., 2023), means that
+ECB Working Paper Series No 3143
+7
+
+we can identify and estimate the causal effect of an increase in geopolitical risk on bank
+lending supply.
+Moreover, the analysis in this paper follows the chain of transmission of geopolitical
+risk through bank lending to firm behaviour contributing in this way also to the literature
+which shows that geopolitical risk can have an effect on real macroeconomic variables
+(Federle et al., 2024b; Matteo Iacoviello and Conlisk, 2024; Pinchetti, 2024). Our paper,
+exploiting micro data, provides evidence that a geopolitical risk shock can affect firms
+via a contraction in bank lending. In doing so, the analysis in this work complements
+other papers that carefully and systematically follow the transmission of the effects
+of international shocks to bank lending (Correa et al., 2023; di Giovanni et al., 2022;
+Federico et al., 2025; Kalemli- ¨Ozcan et al., 2013).
+The rest of the paper proceeds as follows: Section 2 describes the data and Section
+3 explains the estimation method. Sections 4 and 5 present the main results and the
+results from a series of robustness tests, while Section 6 concludes.
+2 Data
+2.1 Bank-firm, bank-level and firm level data
+The analysis relies on data from a combination of confidential data sources available at
+the ECB. First, the analysis uses the loan level data in the AnaCredit credit register
+compiled by the European System of Central Banks. These data contain information on
+all individual bank loans extended in the euro area to non-financial corporations with a
+value exceeding EUR 25,000. Around 25 million individual loans are reported monthly,
+granted by around 7000 individual credit institutions to approximately 5 million of in-
+dividual debtors. Anacredit includes only loans where the debtors are non-financial
+corporations and the creditors are banks. We exclude from the sample loans where
+more than one creditor is reported, i.e. syndicated loans. In the baseline analysis, the
+ECB Working Paper Series No 3143
+8
+
+loan-level data are aggregated to the bank-firm level, and aggregated across different
+credit instrument types and maturities. 2,3 AnaCredit contains information on multiple
+loan characteristics such as outstanding loan volume, interest rate (type), maturity, im-
+pairment amounts, and probability of default. For the majority of instrument types,
+we capture credit supply by looking at outstanding loan amounts. However, as credit
+supply through credit lines is determined by the commitment amount at initiation of the
+contract, we use the commitment amount rather than the outstanding amounts for credit
+lines. The analysis also takes advantage of information in AnaCredit on borrowing firms
+(size, location, industry) and lending banks (location). The data include information
+assigning firms to industrial sectors according to the Statistical Classification of Eco-
+nomic Activities in the European Community (NACE Rev.2). The AnaCredit data do
+not require the reporting of lending by bank subsidiaries located outside the euro area. 4
+Information on direct cross-border lending from euro area resident banks is available but
+accounts only for about 1.5% of the value of outstanding loan amounts reported in the
+data. Therefore, the vast majority of the loans recorded in the data relate to domestic
+euro area lending.
+We complement the bank-firm level data with bank-level balance sheet and profit
+and loss data from the ECB supervisory statistics.
+Furthermore, the analysis of the real effects at the firm level relies on data on firm
+characteristics sourced from Orbis Europe, including information relating to investment
+and numbers of employees. Specifically, we match data on firms available in Orbis
+2In AnaCredit, credit instruments are categorised into revolving credit other than overdrafts
+and credit card debt, credit lines other than revolving credit, term loans, overdrafts, credit card
+debt, trade receivables, and finance leases.
+3Prior to aggregation all loan-level and bank-level variables are winsorised at the 1% level
+to remove outliers and anomalies. For items such as loan maturity and interest rate (type), the
+aggregation from loan-level to bank-firm level is done using a weighted average principle.
+4While the AnaCredit Regulation does not mandate the reporting of data on foreign entities
+outside the euro area, it does not prohibit it either. Therefore, if a credit institution wishes to
+report data on its foreign branches or subsidiaries, it may do so, provided that the relevant NCB
+has established procedures to accept such data. See AnaCredit Manual Part I.
+ECB Working Paper Series No 3143
+9
+
+with loan-level data of euro area banks reported in AnaCredit, following papers such as
+Altavilla et al. (2024, 2022), yielding a sample of well over half a million observations.
+The data in the analysis are at a quarterly frequency to align with the reporting
+frequency of the bank-level control variables. The matched sample for the main analysis
+includes 363 institutions across 20 euro area countries (Figure 1) for the period from
+2021Q1 to 2023Q1 (i.e. one year before and one year after the start of the Russian
+invasion of Ukraine).5
+Table 1 shows the descriptive statistics for the variables used in the baseline regres-
+sions. The summary statistics for the bank-specific variables are in line with previous
+work using euro area credit registry data (Coulier et al., 2024; Dautovi´ c et al.,2023).
+2.2 Measuring banks’ exposure to geopolitical risk
+The exposure of euro area banks to geopolitical risk is heterogeneous. To evaluate
+banks’ actual exposures to this risk, we rely on a variation of the bank-level indicator
+of geopolitical risk first introduced by Dieckelmann et al. (2025). More specifically, this
+indicator is built by weighting the change in the standardised country-level geopolitical
+risk (CGPR) indices of Caldara and Iacoviello (2022) with bank-level asset-side expo-
+sures to the different countries where banks operate, sourced from the ECB Supervisory
+statistics:
+BGPRb =
+nX
+c=1
+
+∆CGPRc × Expb,cTotalExpb
+
+(1)
+where ∆CGPRc is the change in the standarised country-level geopolitical risk index
+between 2021Q4 and 2022Q1 for country c, i.e., the increase in geopolitical risk resulting
+from the Russian invasion of Ukraine, and
+Expb,c
+Total Expb is the average, over the period
+5Note that we use entity-level data as this is the level at which most lending decisions are
+made. Individual banks or subsidiaries are typically responsible for assessing credit risk and ap-
+proving loans, making entity-level data more relevant than data at group-level for understanding
+lending practices in this context.
+ECB Working Paper Series No 3143
+10
+
+2021Q1-2021Q4, of the share of bank b exposures to country c over its total exposures.
+Caldara and Iacoviello (2022) calculate the country-specific indices of geopolitical
+risk by counting the monthly share of all newspaper articles that are both: (1) on the
+subject of geopolitical events and (2) mention the name of the country or its major cities.
+The resulting indices capture the perceived risks posed by, or involving, the country in
+question. These indices are available at the country level for 44 countries (including 8
+euro area countries). To make the analysis more comprehensive, the same methodology
+is applied to a corpus of newspaper articles sourced from the Factiva news monitoring
+platform to extend the coverage of the index to all missing euro area and EU countries
+following Dieckelmann et al. (2025). This expands the number of countries that can
+be included in the analysis to 62, which allows us to cover at least 85% of the total
+exposures of each bank in the sample.
+The country-level geopolitical risk indices are then standarised by transforming them
+into z-scores to better allow comparisons across countries (Dieckelmann et al., 2025).6
+Figure 2 illustrates that the increase in the standardised country level GPR indices after
+the Russian invasion of Ukraine was generally higher in countries geographically closer
+to Ukraine. Similarly, when these changes are weighted by the asset exposure of the
+euro area banks as shown in Figure 3, the BGPR is also generally stronger in banks
+located in euro area countries in Central and Eastern Europe that were closer to the
+invasion, consistent with Federle et al. (2024b). This high degree of variation in the
+cross-country and cross-bank exposure (see Figure 4) to the geopolitical shock arising
+from the Russian invasion of Ukraine makes this an ideal laboratory in which to explore
+the effects of geopolitical risk on bank lending behaviour.
+6The country-level geopolitical risk indexes are standardized by transforming them into z-
+scores based on their historical time series extending back as far as 1985 (where available). As
+a result, the standardized country-level GPR index values represent the number of standard
+deviations above or below the (country-specific) long-run average of geopolitical risk.
+ECB Working Paper Series No 3143
+11
+
+3 Estimation strategy
+3.1 Empirical framework for the baseline bank-firm level analysis
+The key objective of the empirical analysis carried out in this study is to investigate
+whether banks that had a greater exposure to the geopolitical risk stemming from the
+Russian invasion of Ukraine changed their lending supply in response to it more than
+their peers. To test this hypothesis a continuous difference-in-difference setting is em-
+ployed, using the following panel fixed effect model:
+yb,i,t = β1BGP Rb + β2P ostt + β3(BGP Rb × P ostt) + β4Xb,t−1 + β5(Xb,t−1 × P ostt)
++ δi,t + µb,i + γc,t + εb,i,t
+(2)
+where the dependent variable yb,i,t is the logarithm of the outstanding amount of
+loans from bank b to firm i at time t as in Federico et al. (2025). The variable of interest
+is the interaction between the BGP Rb, the exogenous bank-level geopolitical risk index,
+and P ostt, a dummy variable that takes a value of one between 2022Q1 and 2022Q4,
+i.e. from the onset of the Russian invasion of Ukraine to the end of the sample period,
+and zero for the preceding quarters. 7 β3, our coefficient of interest, captures whether
+the exposure to geopolitical risk affected bank lending supply since the onset of the
+Russian invasion of Ukraine. Xb,t−1 is a vector of lagged bank-level characteristics, which
+may also affect bank-firm lending, included in previous studies such as, for example, in
+Altavilla et al. (2022), Couaillier et al. (2025), Coulier et al. (2024) and Correa et al.
+(2023). More specifically, the variables included at the bank level are the log of total
+assets to control for bank size, the TIER 1 capital ratio to control for bank solvency,
+the deposit-to-liability ratio to capture the extent of bank reliance on deposit funding,
+the provisions-to-loans ratio to capture the asset quality of bank loan portfolios, the
+7The post-invasion period is considered to start in 2022Q1. Although the invasion began
+in February 2022, AnaCredit data are reported at the end of each quarter. As such, using
+2022Q1 as the starting point appropriately captures the initial effects without introducing timing
+inconsistencies.
+ECB Working Paper Series No 3143
+12
+
+return on assets (ROA) to control for bank profitability, and the ratio of cash (including
+cash held at central banks) to total assets to capture bank liquidity. Importantly, we
+also allow these control variables to have heterogeneous effects on lending following the
+onset of the Russian invasion of Ukraine by interacting them with the post dummy
+(Xb,t−1×P ostt) as in Correa et al. (2023). This ensures that our coefficient of interest is
+not driven by the heterogeneous impact on lending of other time-varying bank-specific
+characteristics.
+Equation 2 is saturated with a granular set of fixed effects to account for both
+observed and unobserved heterogeneity across banks and firms. The vector δi,t denotes
+firm×quarter fixed effects. This is crucial for the identification strategy, as it allows us to
+disentangle credit demand from credit supply. Specifically, it controls for the demand for
+credit from firms that have lending relationships with multiple banks (Khwaja and Mian,
+2008). The high dimensional fixed effects included in our set-up also ensure that our
+results are not driven by time-invariant bank-firm relationship effects, which are captured
+by bank×firm fixed effects (µ b,i), while country specific factors are absorbed by a vector
+of country×quarter fixed effects (γ c,t), where the country refers to the nationality of the
+lending bank. Country×quarter fixed effects control for time-varying country-specific
+effects such as the business and monetary policy cycles that could be correlated with
+geopolitical risk, potentially affecting bank lending. Standard errors are clustered at the
+bank-level. Borrower×quarter fixed effects are included in all our model specifications. 8
+These fixed-effects completely subsume the dummy variable P ostt which, therefore, does
+not appear separately in the analyses. Similarly, the inclusion of either bank fixed effects
+or bank×firm fixed effects implies that, in some specifications, the bank-level geopolitical
+risk indicator BGP Rb is subsumed.
+8Borrower×bank and country×quarter fixed effects are instead only included in some speci-
+fications.
+ECB Working Paper Series No 3143
+13
+
+4 Results
+4.1 Bank-firm level analysis
+4.1.1 Intensive margin
+Table 2 reports the regression results of equation 2. The regression in Column (1) in-
+cludes only borrower×quarter fixed effects in addition to the variable of interest. Bank
+fixed effects are added in Column (2) to account for time-invariant bank-specific unob-
+served characteristics, while Column (3) also adds time-varying bank controls and their
+interactions with the P ostvariable. In addition to the aforementioned bank controls,
+column (4) includes borrower×quarter and borrower ×bank fixed effects. Our preferred
+specification is the heavily saturated specification reported in Column (5), which si-
+multaneously includes bank controls as well as borrower ×quarter, borrower×bank and
+country×quarter fixed effects.
+The regression results in Table 2 show that, on average, heightened geopolitical risk
+following the Russian invasion of Ukraine exerted a significant impact on the supply
+of bank lending to euro area non-financial corporations. The estimated coefficient of
+BGP Rb × P ostt in Column (5) is negative, statistically significant at the 1% level
+and economically sizeable: a 1 standard deviation increase in the BGP Rresulted in
+an approximately 9.2% reduction in corporate lending at the bank-firm level following
+the event. It is worth noting that the coefficients hold-up well in all specifications,
+corroborating the robustness of the finding. They are also somewhat larger in size in
+Column (5), highlighting the importance of accounting for observable and unobservable
+bank- and country-specific characteristics that potentially affect bank lending behaviour
+ECB Working Paper Series No 3143
+14
+
+in addition to geopolitical risk. 9
+4.1.2 Parallel trends
+Figure 5 displays the dynamics of the estimated effect on lending over different time
+horizons, taking 2021 Q4 as the reference period. Importantly, prior to the invasion,
+there were no significant differences in lending behaviour between banks with different
+levels of geopolitical risk exposure. This finding also validates our identifying assumption
+that banks’ lending behaviour was not affected by their exposure to geopolitical risk
+before the onset of the Russian invasion of Ukraine. However, the situation changed
+afterwards. The reduction in lending volumes became statistically significant after the
+onset of the invasion and the effect persisted for three quarters, until the uncertainty
+concerning the potential effects of the conflict eased. This temporary but significant
+contraction underscores the sensitivity of lending supply to geopolitical risk.
+4.1.3 Impact on bank impairment volumes
+By increasing uncertainty, greater exposure to geopolitical risk could reduce the per-
+ception of banks of the creditworthiness of their borrowers. Correa et al. (2023) study
+the effects of an increase in trade policy uncertainty on bank lending. They find that,
+following this type of shock, banks increase impairments and contract lending, consis-
+tent with a wait and see strategy. This occurs even though bank do not experience any
+observable deterioration in asset quality, as would be expected to occur after a balance
+9The estimated magnitude of the coefficient is comparable to other papers examining the
+response of bank lending to geopolitical risk and other sources of uncertainty. For instance,
+Niepmann and Shen (2025) find that a one standard deviation increase in geopolitical risk reduces
+U.S. banks’ loan origination to U.S. firms by around 20 percent on average. Regarding trade
+uncertainty, Correa et al. (2023) find that a one standard deviation increase in bank exposure
+to trade uncertainty is associated with a 5.0 percentage point decline in bank-firm loan growth.
+Relatedly, Federico et al. (2025) find that a one standard deviation increase in bank exposure to
+China’s entry into the WTO implies 7.4 percent lower credit supply. Our findings are contrary
+to those of Demir and Danisman (2021), who use bank level data and find that, in contrast to
+economic policy uncertainty, geopolitical risk is not significantly associated with a decline in the
+growth of bank credit to non-financial corporations.
+ECB Working Paper Series No 3143
+15
+
+sheet shock.
+To test whether a similar pattern is observed in the event of a geopolitical shock, we
+first estimate a set of regressions similar to Equation2, using the logarithm of the volume
+of impairments as the dependent variable, while also controlling for the logarithm of the
+total outstanding amount of loans. 10 Loans are assessed by banks as being impaired
+if the expected recoverable value falls below its book value. Table 4 shows the effect
+of geopolitical risk arising from the Russian invasion of Ukraine on banks’ impairment
+volumes. The results show that banks that experienced a one standard deviation increase
+in their exposure to geopolitical risk significantly increased the volume of impairments,
+by around 24% after the start of the invasion, compared to their peers. This suggests
+that banks that faced greater uncertainty due to heightened geopolitical risk proactively
+chose to increase their impairments compared to other banks.
+In a second step, we assess whether an increase in a bank’s exposure to geopolitical
+risk leads to a materialisation of credit risk. To investigate this question, we use a regres-
+sion framework where the number of days past due is the dependent variable (computed
+as a weighted average for each bank–firm pair). In this analysis, we relax the fixed-effects
+specification, as variation in past due days is meaningful only for a subset of firms - those
+with debt repayment issues. 11 Table 5 shows that the interaction term BGP Rb × P ostt
+is not statistically significant in any of the econometric specifications, indicating that,
+following the onset of the invasion, there was no significant difference in the number of
+days past due across banks with varying exposure to geopolitical risk. Taken together,
+10This control is important as the volume of impairments is correlated with the size of the
+lending.
+11Moreover, including borrower × quarter fixed effects would not be appropriate in this setting,
+since it is not clear why the same firms should accumulate more past due loans with a bank with
+higher geopolitical risk exposure relative to another bank with lower exposure. We therefore
+adopt a specification with bank and time fixed effects, which allows us to test whether, on
+average, banks more exposed to geopolitical risk experience a greater deterioration in credit
+quality following the conflict, thus justifying a credit contraction. Recognising that bank and
+time fixed effects may still be too coarse - given that more exposed banks might lend more to
+firms operating in more affected industries, locations, or size segments - we further refine the
+specification by introducing industry × location × size fixed effects.
+ECB Working Paper Series No 3143
+16
+
+these results show that the decline in bank lending supply that we observe was not due
+to a deterioration in bank balance sheets but rather to a precautionary contraction in
+lending driven by heightened geopolitical uncertainty.
+4.1.4 Extensive margin
+The effects described above not only affect bank lending supply at the intensive margin,
+but also the probability that banks engage in new lending relationships, that is, the
+extensive margin of bank lending supply.
+Table 3 reports the results of regressions where the dependent variable is the probabil-
+ity of a bank establishing a new lending relationship with a non-financial corporation. 12
+This dependent variable is defined as a dummy equal to 1 if: a) at time t a new firm
+which did not have a relationship in the previous quarter enters the AnaCredit registry,
+or b) a firm that was in the sample in t − 1 borrows from a different bank than in the
+past. In this setting, we do not control for borrower × quarter fixed effects because we
+want to capture the formation of new bank-firm relationships in general, rather than
+focus only on firms that already had banking relationships. To allow for the inclusion
+of new firms that did not have a bank relationship in the previous quarter, these regres-
+sions use industry × location × size (ILS)×time fixed effects instead. 13 A one standard
+deviation increase in bank-level geopolitical risk significantly reduced the likelihood of a
+bank establishing a new lending relationship by 6.1 percentage points. 14
+12In the Appendix, we also report the results of regressions using the probability of a bank
+extending a new loan as the dependent variable, as an alternative measure of the extensive
+margin. The results of this extension are qualitatively similar.
+13Industry is based on NACE 4 revision 2 statistical classification codes, location is based on
+NUTS 3 classification of regions, and size groups are defined in accordance with the Annex to
+Commission Recommendation 2003/361/EC (micro, small, medium, and large firms).
+14That banks respond to increased geopolitical risk by restricting lending at both the extensive
+and intensive margin is similar to the findings for trade uncertainty reported by (Correa et al.,
+2023) and in response to trade shocks reported by (Federico et al., 2025).
+ECB Working Paper Series No 3143
+17
+
+4.1.5 Amplifiers and mitigators: Liquidity constraints, capital headroom,
+deposit funding structure and size
+Certain bank characteristics could amplify or dampen the effect of geopolitical risk on
+bank lending supply. To investigate this hypothesis, we focus on four bank level variables,
+the cash-to-assets ratio, distance to maximum distributable amount (MDA), the loga-
+rithm of total assets, and the uninsured deposit ratio. 15 These variables are indicators
+of bank liquidity, capital, size and funding structure, respectively.
+Having access to abundant liquid assets and ample capital buffers above the MDA
+can help banks to withstand geopolitical risk shocks. These shocks can increase market
+volatility, affecting the value of assets held by banks. They can lead to losses or require
+banks to hold more capital against these assets, potentially reducing their available
+liquidity and thus limiting their lending capacity. In addition, fair value losses on their
+assets are reflected in the calculation of high-quality liquid assets used as collateral,
+thereby restricting the ability of banks to obtain secured funding (e.g., from the ECB
+or via repurchase agreement operations) that could be employed for credit provision
+(Berger and Bouwman, 2009; Holmstrom and Tirole, 1997; Ivashina and Scharfstein,
+2010).
+Geopolitical risk shocks can also elevate credit risk, affecting the ability of borrow-
+ers to repay loans. This can lead to higher loan loss provisions and impact a bank’s
+solvency and therefore prompt banks, especially those with lower capital buffers, to re-
+duce lending. As breaching regulatory capital requirements triggers closer supervisory
+scrutiny and leads to constraints on dividend distributions, bonuses, and coupon pay-
+ments (Couaillier et al., 2025), less capitalised banks may pre-emptively reduce their
+risk-weighted assets (i.e., the denominator of the capital ratio) to preserve their capital
+15Distance to MDA is defined as the core equity tier 1 (CET 1) capital ratio minus the overall
+capital requirement (OCR) ratio and is expressed in percentage.
+ECB Working Paper Series No 3143
+18
+
+buffers.16
+It is not clear ex-ante whether larger banks might be expected to be more resilient
+in the face of geopolitical shocks than smaller banks. On the one hand, they may
+have a more diversified portfolio of assets, better access to capital, and be subject to
+greater supervisory oversight and larger capital requirements. On the other hand, theory
+predicts that smaller banks may have a comparative advantage in producing the soft
+information necessary to lend to smaller privately held firms (Berger et al., 2005; Biswas
+et al., 2017; Stein, 2002). However, these advantages are likely to be less relevant for
+lending to larger firms, and larger firms are more likely to export goods internationally
+(Amiti and Weinstein, 2011; Melitz, 2003). Thus, larger banks may have more exposures
+to the geopolitical event, including through domestic lending to companies that trade in
+the countries directly affected. 17
+Finally, a higher uninsured deposit ratio could make banks’ funding more sensitive
+to shocks by increasing the likelihood of sudden withdrawals raising funding costs and
+creating liquidity strains for banks and thus curtailing their lending.
+To explore the potential effects on credit supply stemming from the interaction of
+the aforementioned characteristics with banks’ exposure to geopolitical risk, we expand
+upon the specification described in equation (5) by including a triple interaction between
+BGP R×P ostand each of the four bank-specific variables one at a time.
+yb,i,t = β1BGP Rb + β2P ostt + β3M itigatorb + β4(BGP Rb × P ostt) + β5(BGP Rb
+× M itigatorb) + β6(M itigatorb × P ostt) + β7(BGP Rb × P ostt × M itigatorb)
++ β8Xb,t−1 + β9(Xb,t−1 × P ostt) + δi,t + µb,i + γc,t + εb,i,t
+(3)
+The dependent variable, yb,i,t, is the logarithm of the outstanding amount of loans
+16Indeed such behaviour may be prudent. Using a historical dataset, Behn et al. (2025) find
+that heightened geopolitical risk has been associated with lower bank capitalisation over the past
+century, albeit less so in instances of geographically localised events.
+17Recall that any tendency for larger banks to have larger exposures through foreign lending
+should already be captured through the inclusion of the BGPR×Post interaction.
+ECB Working Paper Series No 3143
+19
+
+from bank b to firm i at time t. The variable of interest is the triple interaction term
+BGP Rb × P ostt × M itigatorb, where M itigatorb denotes the pre-invasion average of
+bank-specific characteristics — namely, the cash-to-assets ratio, distance to MDA, the
+logarithm of total assets, or the uninsured deposit ratio. Our coefficient of interest, β7,
+captures how the effect of geopolitical risk exposure after the invasion ( BGP Rb × P ostt)
+varies depending on the value of the mitigator variables. The vector Xb,t−1 includes
+the same set of lagged bank-level control variables as in Equation 2. As in previous
+regressions, we include firm×quarter fixed effects (δ i,t), bank×firm fixed effects ( µb,i)
+and country×quarter fixed effects (γ c,t).
+The results in Table6 show that the coefficient on the triple interactionBGP R×P ost×
+M itigatoris only statistically significant in the case of the distance to MDA and bank
+size. A larger distance to MDA mitigated the reduction in lending supply after the
+Russian invasion of Ukraine, pointing to a capital constraints channel (Correa et al.,
+2023; Holmstrom and Tirole, 1997), while the estimated effects are statistically signif-
+icantly larger for bigger banks. The absence of significance on the cash-to-assets and
+uninsured deposit ratio coefficients suggests that liquidity and funding concerns were
+not key factors constraining bank lending supply after the onset of the invasion.
+4.1.6 Sectoral lending
+Some non-financial corporate sectors may have been more affected by the Russian in-
+vasion of Ukraine than others for a number of reasons. In particular, firms in sectors
+that are more reliant on inputs from outside the EU generally, especially from countries
+geopolitically aligned with Russia, could be more exposed to supply chain disruptions
+and could face greater credit constraints if banks seek to minimise their exposure to
+geopolitical risk. The next set of regressions tests this hypothesis.
+The list of Russia-aligned countries is determined using the ideal point distance (IPD)
+based on UN voting patterns from Bailey et al. (2017). Countries in the low quartile of
+ECB Working Paper Series No 3143
+20
+
+IPD with Russia are categorised as aligned (see Table 7). Then, the following measure
+of sectoral input dependencies to Russian-aligned countries for each sector j in each
+country c is computed using data sourced from Eurostat Figaro Input-Output tables,
+following Arjona et al. (2023):
+Input dependencies j,c = Russia-aligned inputsj,cTotal inputsj,c (4)
+We focus on 19 industries, using data for 2021, prior to the start of the invasion.18 In
+this analysis, we compute the measure specifically for industries within euro area coun-
+tries. The regression analysis focuses on domestic lending and intra-euro area lending,
+which together represent the majority of the dataset. As previously noted, cross-border
+lending accounts for only 1.5% of total lending volumes and thus constitutes a minor
+share. Figure 6 shows the average of Input dependencies j,c across euro area countries.
+On average, the most vulnerable sectors appear to be Manufacturing, Electricity, Trans-
+portation, and Mining.
+This measure is used to construct a dummy variable, V ulnerableSector, which
+takes a value of 1 if the sector of the debtor falls within the top 25th (or 50th)
+percentile of the most dependent sectors in its country. This dummy is included in
+the baseline specification as an additional variable and as part of a triple interaction
+BGP R×P ost×V ulnerableSector. The latter is the main variable of interest in the
+below regression:
+18The input-output table includes 21 industries but sector T (Activities of households as em-
+ployers) and sector U (Activities of extraterritorial organisations and bodies) are excluded as they
+are not relevant for this analysis, which focusses on bank lending to non-financial corporations.
+ECB Working Paper Series No 3143
+21
+
+yb,i,t = β1BGP Rb + β2P ostt + β3V ulnerableSectori + β4(BGP Rb × P ostt) + β5(BGP Rb
+× V ulnerableSectori) + β6(V ulnerableSectori × P ostt) + β7(BGP Rb × P ostt
+× V ulnerableSectori) + β8Xb,t−1 + β9(Xb,t−1 × P ostt) + δi,t + µb,i + γc,t + εb,i,t
+(5)
+The dependent variable, yb,i,t, is the logarithm of the outstanding amount of loans
+from bank b to firm i at time t. The coefficient of interest on the triple interaction, β7,
+captures the differential effect for firms in vulnerable sectors in the post-period. The
+vector Xb,t−1 includes the same set of lagged bank-level control variables as specified in
+Equation 2. As before, we include firm × quarter fixed effects ( δi,t), bank × firm fixed
+effects (µb,i), and country × quarter fixed effects ( γc,t).
+The results presented in Table 8 suggest that more geopolitically exposed banks
+curtailed lending to sectors dependent on inputs from Russia-aligned countries (both for
+domestic and euro area lending) 2% - 3% more than to other sectors. 19
+4.2 Firm-level analysis
+In the bank-firm level analysis above, we showed that a higher exposure to geopolit-
+ical risk leads to a larger contraction in lending supply to non-financial corporations.
+However, such a reduction in bank lending may not have any aggregate effect on firm
+outcomes if firms can replace the contraction in credit from banks with a higher exposure
+to geopolitical risk by borrowing more from banks with a lower exposure. In practice,
+however, the ability of firms to find alternative sources of bank lending could be impaired
+as heightened geopolitical risk could potentially entail lower economic growth and a gen-
+eral deterioration of banks’ asset quality. Therefore, banks with a lower exposure may
+be less willing to pick up the slack. To investigate this empirical question, the following
+19This result differs somewhat to the findings of Federico et al. (2025) which show that banks
+did not differentiate between more and less exposed sectors when they curtail lending in response
+to trade shocks.
+ECB Working Paper Series No 3143
+22
+
+firm-level regression specification was estimated using on AnaCredit data:
+yi,t = β1Exposed f irmi + β2P ostt + β3(Exposed f irmi × P ostt) + β4Xi,t−1+
+β5(Xi,t−1 × P ostt) + ηILS,i,t + δi + εi,t
+(6)
+where yi,t is the logarithm of the total outstanding borrowing amount of firm
+i in quarter t. The key variable of interest in this first additional specification is
+Exposed f irmi × P ostt, i.e., the interaction between the “exposed” group and the post
+dummy variables. Firms were classified as “exposed” if, prior to the conflict (i.e., in
+Q4 2021), at least 50% of their loans were sourced from banks within the top 25th
+percentile of geopolitical risk exposure. Xi,t−1 represents the same set of lagged bank
+controls included in equation (2), but weighted by the share of total firm borrowing from
+each bank, to obtain a time-varying weighted average of bank characteristics for each
+firm. We also interact the control variables with the post dummy (X i,t−1 ∗ P ostt). To
+control for potential heterogeneity in credit demand across firms, industry × location
+× size (η ILS ) × quarter fixed effects are included in equation 6.20 In addition, some
+specifications also include firm fixed effects to absorb all unobservable time-invariant
+characteristics across firms ( δi). Standard errors are clustered at firm level.
+The results, reported in Table 9, suggest that firms reliant on banks with higher
+exposure to geopolitical risk exhibited a 1.5% reduction in borrowing in relative terms.
+The fact that this coefficient is smaller than the coefficient on BGP R×P ostin the
+baseline results suggests that, on average, firms managed to access some credit from
+alternative sources at different banks. However the coefficient is negative and statistically
+significant. This indicates that such firms faced difficulties substituting loans from these
+lenders with borrowing from less exposed banks during stressed times, resulting in an
+20Since the data are collapsed at the firm-level, firm × time fixed effects cannot be included in
+equation 6.
+ECB Working Paper Series No 3143
+23
+
+reduction in firm’s overall borrowing. 21
+Next, the following set of cross-sectional firm-level regressions were run to examine
+whether firms reliant on banks with high exposure to geopolitical risk exhibited reduced
+investment and employment:
+∆yi = β1Exposed f irmi + β2Xi,2021 + β3Xb,2021 + ηILS,i + εi (7)
+where ∆yi is the firm-specific change between 2021 and 2022 of two variables, which
+are specified as follows: 1) investment which is the change in the ratio of fixed assets to
+total assets; and 2) number of employees which is the growth in the number of employees.
+Exposed f irmi is the key variable of interest. As above, firms were classified as “exposed”
+if, prior to the conflict (i.e., in Q4 2021), at least 50% of their loans were sourced from
+banks within the top 25th percentile of geopolitical risk exposure. Xi,2021 is a vector
+of firm control variables (log total assets, cash to assets, leverage, EBITDA, ratio of
+tangible assets) with values taken in 2021, before the start of the invasion. Xb,2021 is
+the same vector of weighted bank controls at a firm level as used in equation (5), while
+ηILS,i are again industry-location-size fixed effects. These firm-level variables are taken
+from Orbis and merged with our sample of borrowers. Basic descriptive statistics can
+be found in the Appendix.
+The results reported in Table 10 suggest that geopolitical events can lead to quanti-
+tively important effects on firm investment and employment. Firms that were reliant on
+banks with higher exposure to geopolitical risk exhibited a 8% reduction in investment
+and a 0.6% reduction in their number of employees, compared to average firms. This
+implies that the constraints on bank lending arising from geopolitical events can have
+material economic consequences for firms and their employees. 22
+21In their analysis of the effects of trade uncertainty on bank lending, Correa et al. (2023)
+also find that firms in borrowing relationships with more exposed banks faced difficulties gaining
+access to substitute sources of credit.
+22These results are consistent with the findings of Correa et al. (2023); Federico et al. (2025) in
+their analyses of the response of bank lending to trade policy uncertainty and trade liberalization.
+ECB Working Paper Series No 3143
+24
+
+5 Robustness checks
+5.1 Generalised propensity score weighting and placebos tests
+Concerns may arise that there could be imbalances in treatment intensity and a selection
+bias linked to covariates that make the treatment not random. The first two robustness
+tests aim to rule out the possibility that banks that experienced a larger increase in
+BGP Rmight have other differences in their underlying characteristics that explain the
+observed difference in their lending behaviour in the post-invasion period.
+By implementing a Generalised Propensity Score Weighting, we balance pre-
+treatment covariates (using the mean of the covariates during the pre-period), to ensure
+that observed differences in outcomes are not due to pre-existing differences, but rather
+to the treatment itself. To do so, we use the covariate-balancing generalised propen-
+sity score weighting of Fong et al. (2018), whereby observations are re-weighted based
+on their probability of receiving a certain treatment intensity. This approach constructs
+weights that minimise the correlation between the treatment intensity and pre-treatment
+bank-level control variables, ensuring a more balanced comparison across different levels
+of treatment.
+When the baseline specification is re-estimated using reweighted observations, the
+magnitude, size and significance of the coefficients on the key variable of interest remains
+broadly unchanged (see Table 11).
+If the BGPR variable captures the effects of other unobservable bank characteris-
+tics, then banks with different levels of BGPR might exhibit systematically different
+behaviour. As such, the regression could potentially deliver results similar to the base-
+line estimates even in periods that were relatively unaffected by geopolitical events. In
+addition, research has shown that difference-in-difference estimates can overstate the
+statistical significance of results and fail placebo tests in some circumstances (Bertrand
+et al., 2004). To address these concerns, we therefore run a placebo test, redefining the
+ECB Working Paper Series No 3143
+25
+
+event period to a time when geopolitical shocks were more limited. Specifically, we set
+the P reperiod from Q4 2019 to Q4 2020 and the P ostperiod as starting in Q1 2021.
+This allows us to assess whether the observed effects of exposure to the Russian invasion
+of Ukraine are driven by pre-existing trends rather than the actual event.
+The results in Table 12 show no significant impact of higher exposure when applying
+this placebo framework, reinforcing the validity of our baseline findings. 23
+5.2 Controlling for bank exposures to energy intensive sectors or firms
+The Russian invasion of Ukraine resulted in a large increase in European energy prices
+as supplies of oil and gas to Europe were severely disrupted (Adolfsen et al., 2022;
+Gazzani et al., 2024). To ensure that our results are not driven by this energy shock,
+an extension of the baseline regression was run including a variable to control for the
+exposure of banks to highly energy-intensive sectors or firms prior to the war.
+To do so, data from AnaCredit were merged with firm-level emissions data from Ur-
+gentem, which provide a measure of carbon intensity. 24 The exposure indicator weights
+the emissions of each firm by its share in the total loans granted by the bank. Emissions
+data are missing for some firms, and the resultant indicator is available for approximately
+33% of the [total number of] loans in our initial sample.
+To assess whether this information affects the key variable of interest, we include an
+additional interaction term between banks’ exposure to emission-intensive firms and the
+Post dummy. Table 14 shows that banks’ exposure to emission-intensive firms did not
+significantly influence the impact of the geopolitical risk shock, as the magnitude of the
+main coefficient remains comparable to the baseline. Furthermore, the interaction term
+is not statistically significant, suggesting that exposure to high-emitting firms did not
+23In addition, we also redefine the event period to occur later in time. Specifically, we set the
+Post period from Q4 2021 to Q4 2023 and define the Post period as starting in Q1 2022 (see
+Table 13).
+24Specifically, Scope 1, Scope 2, and Scope 3 emissions tons of CO2 equivalent (tCO2e) divided
+by revenue.
+ECB Working Paper Series No 3143
+26
+
+materially affect lending behaviour after the start of the invasion.
+As a robustness test, an alternative sector-level indicator was computed to increase
+coverage. To do so, Eurostat data on emissions and energy use were normalised by
+sectoral gross value added (GV A). These sectoral intensity measures were then merged
+with information on the sectoral exposure of banks using loan portfolio data on the
+country and sector of the borrower. Finally, to construct a bank-level indicator, the
+sectoral energy of each borrower was weighted by its share in the total loans granted
+by the bank. The resultant variable was then interacted with the P ostinvasion dummy
+variable.
+The results displayed in Table 15 suggest that adding the additional interaction
+variable of P ostand the energy exposure of banks does not change the key findings
+with regard to geopolitical risk shock. The positive coefficient suggests that banks with
+higher exposure to energy-intensive firms or industries actually exhibited slightly higher
+lending than other banks, after controlling for their geopolitical exposure. At the same
+time, the coefficient on the key variable of interest, BGP R×P ost, remains similar to the
+baseline.
+5.3 Potential sample selection bias due to including only firms with
+multiple bank relationships
+As explained previously, in most of the above regression specifications, we control for
+heterogeneity in credit demand across firms by focusing on firms with multiple bank
+relationships, following the approach of Khwaja and Mian (2008). However, a limitation
+of this method is that it excludes single-bank relationships, as these are absorbed by
+the inclusion of borrower-time fixed effects. To test the robustness of our results, we
+replace the borrower-time fixed effects with ILS-time fixed effects, which allows us to
+include borrowers with single-bank relationships while still controlling for certain demand
+characteristics (Coulier et al., 2024; Degryse et al., 2019). The results, reported in Table
+ECB Working Paper Series No 3143
+27
+
+16, show that our findings are robust to the inclusion of single-bank relationship firms:
+the interaction term BGP R× P ostremains negative and statistically significant. In
+addition, if we restrict the sample to firms borrowing from a single bank only (Table
+17), the coefficient on the interaction of interest remains negative and significant even
+in the restricted sample.
+5.4 Concerns about the potential confounding effect of the monetary
+policy tightening
+The Russian invasion of Ukraine occurred in the first quarter of 2022, just before the start
+of the ECB monetary policy tightening cycle in mid-2022 (Burlon et al.,2025).This could
+raise concerns that the credit supply effects estimated in the regressions are the result of
+the heterogeneous effects on banks caused by the monetary policy tightening rather than
+geopolitical factors. However, a number of the features of the baseline specification, and
+the evolution of the estimated results over time, serve to allay these concerns. First, the
+baseline specification includes country-time fixed effects which should absorb country
+(euro area) invariant factors such as monetary policy. Also it is not clear why the effect
+of monetary policy should have an outsized effect on those banks with higher geopolitical
+risk exposure, as captured by the BGP Rindex. Second, the timing of the first ECB
+interest rate hike occurred in July 2022, 5 months after the Russian invasion of Ukraine.
+However, to more accuratly address this concern, an alternative specification is run at
+monthly frequency (see Table 18). The monthly analysis runs using data for the period
+between 2021 M9 and 2022 M6. From this it is clear that there was already sizeable
+and statistically significant effects prior to the onset of ECB monetary policy tighten-
+ing. Moreover, the baseline specification suggests that the estimated geopolitical effects
+did not persist throughout the monetary policy tightening cycle - the magnitude of the
+coefficients already appears to fade in Q4 2022 even if ECB rate increases continued
+until September 2023. Even without considering the potential lags at which monetary
+ECB Working Paper Series No 3143
+28
+
+policy tightening may affect bank lending, this pattern seems inconsistent with the hy-
+pothesis that the estimates are capturing the effect of monetary policy rather than the
+geopoliticalrisk shock.
+5.5 Concerns about the consistency of standard errors
+The baseline specification utilises standard errors clustered at the bank-level to account
+for serial correlation within each bank. As a robustness test we also double-cluster at
+the time and bank level (see Table 19). In addition, following Bertrand et al. (2004),
+we also collapse the time series information into a single ”pre”- and ”post”-period (i.e.
+the mean of the 5 months before and the mean of the 5 months after the invasion)
+to address concerns that the standard errors could be inconsistent and overstate the
+statistical significance of the estimates, as well as avoiding potential serial correlation.
+In this specification, the dependent variable is the change in the outstanding volumes of
+loans before and after the invasion. The values for the control variables are their mean
+value in the 5 months prior to the invasion.
+The results in Table 20 are robust to both the alternative clustering, and the col-
+lapsed ”pre”- and ”post”-period specification, delivering coefficients with a similar sign,
+significance and magnitude to the baseline in practically all specifications.
+5.6 Differences in loan types, maturity and other characteristics
+In the baseline specification, the total outstanding borrowing amount includes both
+fixed rate and floating rate loans. However, it might be anticipated that geopolitical
+shocks would only affect floating rate loans, the rates on which can be more readily
+adjusted. To address this concern, an alternative specification was implement including
+borrower ×time×interest rate type. The results in Table 21 are robust to the inclusion
+of these alternative fixed effects.
+Relatedly, one might expect the effect of the geopolitical shock to vary depending on
+ECB Working Paper Series No 3143
+29
+
+the maturity of loans. Faced with heightened uncertainty, banks may seek to shorten the
+maturity of their loans and become reluctant to lend for longer periods. To investigate
+this hypothesis, loans are allocated to buckets based on the quartile of the maturity.
+Using this information, a specification was run that included borrower ×time×maturity
+fixed effects. Once again, the key results are robust to this alternative specification (see
+Table 22).
+5.7 Firm-bank level controls for loan characteristics
+The response of bank lending supply to geopolitical shocks could vary depending on
+the features and characteristics of the loans from banks to individual firms. To ensure
+that this is not driving the key results, an alternative specification was implemented
+including three variables to control for loan characteristics at the bank-firm level. First,
+a variable capturing the weighted average residual maturity of a firm’s loans from a given
+bank is included. Firms that have loans with a longer maturity may be perceived as
+being more risky and therefore more sensitive to heightened geopolitical risk. Second, a
+dummy variable is included, that takes a value of 1 if any of a firm’s loans are in default.
+Firms that have loans in default may be perceived as more risky. Third, a variable that
+captures the sum of the protection value of a firm’s loans was included. Intuitively, for
+a given loan size, the larger the insured value of firms’ loans, the less risky they are.
+The regression also includes interactions of these three variables with the P ostdummy
+variable.
+The results in Table 23 show that including these additional control variables does
+not notably alter the size, sign or significance of the coefficients on the key variable of
+interest, BGP R×P ost. The coefficient on the default status ×BGP R×P ostinteraction
+term is statistically significant and negative, while that on the insurance protection
+value×BGP R×P ostof a firm’s loans is positive. These results are both consistent with
+the hypothesis that banks became more sensitive to the risk characteristics of firms’
+ECB Working Paper Series No 3143
+30
+
+loans after the invasion.
+6 Conclusions
+Geopolitical tensions typically lead to heightened uncertainty, which can negatively affect
+future growth prospects and financial stability. As a result, they are a key concern for
+policymakers, financial institutions, and banks.
+This paper shows that geopolitical risk can have a significant impact on the supply of
+bank lending, with pronounced knock-on effects on businesses. The Russian invasion of
+Ukraine provided a stark illustration of how adverse geopolitical events can rapidly shift
+risk perceptions and increase uncertainty, leading banks to curtail lending. The euro
+area was particularly vulnerable due to its geographical proximity to the event making
+it an ideal laboratory to study these effects.
+The paper provides several insights that are crucial to understand the channels and
+mechanisms through which geopolitical risk can affect banks and the firms reliant on
+them. Granular loan level data, combined with a well specified difference-in-difference
+estimation approach, allow our analysis to make causal inferences about the effects
+of geopolitical risk on bank lending. Banks with higher exposure to the increase in
+geopolitical risk stemming from the Russian invasion of Ukraine cut lending supply to
+non-financial corporations more than their peers both at the intensive and extensive
+margins, as these banks were also less likely to establish new lending relationships. The
+results suggest that the behaviour of the banks was driven by increased risk aversion
+in the face of increased uncertainty, as banks with higher exposure to geopolitical risk
+increased their loan impairments but did not record a deterioration of their asset quality.
+The effects on the supply of bank lending was mitigated in the case of banks with larger
+capital buffers, suggesting that robust capitalisation can mitigate the adverse effects
+of geopolitical events. Banks constrained lending supply more to sectors reliant on
+inputs from countries aligned with Russia, suggesting that banks were concerned by
+ECB Working Paper Series No 3143
+31
+
+firms’ supply chain vulnerabilities. Relatedly, larger banks, which typically have greater
+exposure to larger export oriented firms, cut lending more than smaller banks, which
+tend to serve smaller domestically oriented companies.
+The effects on bank lending behaviour had real economic consequences. Firms reliant
+on banks with higher exposure to geopolitical risk were unable to substitute loans, as
+they could not compensate for the reduction in lending through other sources of bank
+financing. This led to real economic effects, as the contraction in the credit supply of
+banks with higher exposure had tangible consequences for euro area firms. Indeed, firms
+that were more exposed to these institutions reduced both investment and employment.
+These findings have important implications for policy. We show that these risks com-
+pelled banks to adjust their lending practices, tightening credit conditions. Analysing
+these reactions provides valuable insights for policymakers to coordinate responses, such
+as targeted macroprudential measures or lending support programs, to mitigate the
+broader economic impact of geopolitical crises. Understanding these dynamics is crucial
+for assessing systemic risks and enhancing the resilience of the euro area banking sector.
+ECB Working Paper Series No 3143
+32
+
+References
+Acharya, V. V., Bergant, K., Crosignani, M., Eisert, T., and McCann, F. (2022).
+The anatomy of the transmission of macroprudential policies. Journal of Finance,
+77(5):2533–2575.
+Adolfsen, J. F., Kuik, F., Lis, E. M., and Schuler, T. (2022). The impact of the war in
+Ukraine on euro area energy markets. Economic Bulletin 4/2022, European Central
+Bank.
+Aiyar, S., Chen, J., Ebeke, C. H., Garcia-Saltos, R., Gudmundsson, T., Ilyina, A.,
+Kangur, A., Kunaratskul, T., Rodriguez, S. L., and Mi (2023). Geo-economic frag-
+mentation and the future of multilateralism. IMF Staff Discussion Notes 2023/001,
+International Monetary Fund.
+Altavilla, C., Begenau, J., Burlon, L., and Maruhn, F. (2024). Determinants of bank per-
+formance: evidence from replicating portfolios. Working Paper Series 2937, European
+Central Bank.
+Altavilla, C., Burlon, L., Giannetti, M., and Holton, S. (2022). Is there a zero lower
+bound? The effects of negative policy rates on banks and firms. Journal of Financial
+Economics, 144(3):885–907.
+Amiti, M. and Weinstein, D. E. (2011). Exports and financial shocks. The Quarterly
+Journal of Economics , 126(4):1841–1877.
+Arjona, R., Connell, W., and Herghelegiu, C. (2023). An enhanced methodology to
+monitor the EU’s strategic dependencies and vulnerabilities. Single Market Economics
+Papers WP2023/14, European Commission.
+Arslanalp, S., Eichengreen, B., and Simpson-Bell, C. (2023). Gold as international
+reserves: A barbarous relic no more? Journal of International Economics, 145(C).
+ECB Working Paper Series No 3143
+33
+
+Baba, C., Lan, T., Mineshima, A., Misch, F., Pinat, M., Shahmoradi, A., Yao, J., and
+Elkan, R. v. (2023). Geoeconomic fragmentation: What’s at stake for the EU. IMF
+Working Paper 23/245, IMF.
+Bailey, M. A., Strezhnev, A., and Voeten, E. (2017). Estimating dynamic state prefer-
+ences from united nations voting data. Journal of Conflict Resolution , 61(2):430–456.
+Barraza, S. and Civelli, A. (2020). Economic policy uncertainty and the supply of
+business loans. Journal of Banking & Finance, 121(C).
+Behn, M., Lang, J. H., and Reghezza, A. (2025). 120 years of insight: Geopolitical risk
+and bank solvency. Economics Letters, 247:112–168.
+Berger, A. N. and Bouwman, C. H. S. (2009). Bank liquidity creation. The Review of
+Financial Studies, 22(9):3779–3837.
+Berger, A. N., Miller, N. H., Petersen, M. A., Rajan, R. G., and Stein, J. C. (2005). Does
+function follow organizational form? Evidence from the lending practices of large and
+small banks. Journal of Financial Economics , 76(2):237–269.
+Bertrand, M., Duflo, E., and Mullainathan, S. (2004). How much should we trust
+differences-in-differences estimates? The Quarterly Journal of Economics, 119(1):249–
+275.
+Biswas, S. S., G´ omez, F., and Zhai, W. (2017). Who needs big banks? The real ef-
+fects of bank size on outcomes of large US borrowers. Journal of Corporate Finance ,
+46(C):170–185.
+Bordo, M. D., Duca, J. V., and Koch, C. (2016). Economic policy uncertainty and the
+credit channel: Aggregate and bank level U.S. evidence over several decades. Journal
+of Financial Stability , 26(C):90–106.
+ECB Working Paper Series No 3143
+34
+
+Buch, C. M., Buchholz, M., and Tonzer, L. (2015). Uncertainty, bank lending, and
+bank-level heterogeneity. IMF Economic Review , 63(4):919–954.
+Burlon, L., Ferrari, A., Kho, S., and Tushteva, N. (2025). Why gradual and predictable?
+Bank lending during the sharpest quantitative tightening ever. Working Paper Series
+3010, European Central Bank.
+Caldara, D. and Iacoviello, M. (2022). Measuring geopolitical risk. American Economic
+Review, 112(4):1194–1225.
+Campos, R. G., Estefan ´ ıa-Flores, J., Furceri, D., and Timini, J. (2023). Geopolitical
+fragmentation and trade. Journal of Comparative Economics, 51(4):1289–1315.
+Catal´ an, M. and Tsuruga, T. (2023). Geopolitics and financial fragmentation: Impli-
+cations for macro-financial stability. In Aiyar, S., Presbitero, A., and Ruta, M., edi-
+tors, Geoeconomic fragmentation: The economic risks from a fractured world economy,
+chapter 10, pages 91–102. CEPR Press.
+Correa, R., Di Giovanni, J., Goldberg, L. S., and Minoiu, C. (2023). Trade uncertainty
+and US bank lending. Staff Reports 1076, Federal Reserve Bank of New York.
+Couaillier, C., Duca, M. L., Reghezza, A., and D’Acri, C. R. (2025). Caution: Do not
+cross! Distance to regulatory capital buffers and corporate lending in a downturn.
+Journal of Money, Credit and Banking , 57(4):833–862.
+Coulier, L., Pancaro, C., and Reghezza, A. (2024). Are low interest rates firing back?
+Interest rate risk in the banking book and bank lending in a rising interest rate envi-
+ronment. Working Paper Series 2950, European Central Bank.
+Dautovi´ c, E., Gambacorta, L., and Reghezza, A. (2023). Supervisory policy stimulus:
+evidence from the euro area dividend recommendation. Working Paper Series 2796,
+European Central Bank.
+ECB Working Paper Series No 3143
+35
+
+De Haas, R., Mamonov, M., Popov, A., and Shala, I. (2025). Violent conflict and
+cross-border lending. Discussion Paper Series DP19743, Centre for Economic Policy
+Research.
+Degryse, H., De Jonghe, O., Jakovljevi´ c, S., Mulier, K., and Schepens, G. (2019). Iden-
+tifying credit supply shocks with bank-firm data: Methods and applications. Journal
+of Financial Intermediation, 40:100813.
+Demir, E. and Danisman, G. O. (2021). The impact of economic uncertainty and geopo-
+litical risks on bank credit. The North American Journal of Economics and Finance ,
+57:101444.
+di Giovanni, J., Kalemli- ¨Ozcan, S., Ulu, M. F., and Baskaya, Y. S. (2022). International
+spillovers and local credit cycles. The Review of Economic Studies, 89(2):733–773.
+Dieckelmann, D., Larkou, C., McQuade, P., Pancaro, C., and R¨ oßler, D. (2025). Geopo-
+litical risk and euro area bank CDS spreads and stock prices: Evidence from a new
+index. Economics Letters, 254.
+D’Orazio, A., Ferriani, F., and Gazzani, A. (2024). Geoeconomic fragmentation and
+firms’ financial performance. Bank of Italy Occasional Paper 844, Bank of Italy.
+Federico, S., Hassan, F., and Rappoport, V. (2025). Trade shocks and credit reallocation.
+American Economic Review, 115(4):1142–1169.
+Federle, J., Meier, A., M¨ uller, G., and Sehn, V. (2024a). Proximity to war: The stock
+market response to the Russian invasion of Ukraine. Journal of of Money, Credit and
+Banking.
+Federle, J., Meier, A., M¨ uller, G. J., Mutschler, W., and Schularick, M. (2024b). The
+price of war. Kiel Working Papers 2262, Kiel Institute for the World Economy (IfW
+Kiel).
+ECB Working Paper Series No 3143
+36
+
+Feng, C., Han, L., Vigne, S., and Xu, Y. (2023). Geopolitical risk and the dynamics of
+international capital flows. Journal of International Financial Markets, Institutions
+and Money, 82:101693.
+Fern´ andez-Villaverde, J., Mineyama, T., and Song, D. (2024). Are we fragmented yet?
+measuring geopolitical fragmentation and its causal effects. NBER Working Papers
+32638, National Bureau of Economic Research, Inc.
+Fong, C., Hazlett, C., and Imai, K. (2018). Covariate balancing propensity score for
+a continuous treatment: Application to the efficacy of political advertisements. The
+Annals of Applied Statistics, 12(1):156–177.
+Gazzani, A., Venditti, F., and Veronese, G. (2024). Oil price shocks in real time. Journal
+of Monetary Economics, 144(C).
+Georgiadis, G., M¨ uller, G. J., and Schumann, B. (2024). Global risk and the dollar.
+Journal of Monetary Economics, 144(C).
+Giannetti, M., Jasova, M., Loumioti, M., and Mendicino, C. (2023). “Glossy green”
+banks: the disconnect between environmental disclosures and lending activities. Work-
+ing Paper Series 2882, European Central Bank.
+Holmstrom, B. and Tirole, J. (1997). Financial intermediation, loanable funds, and the
+real sector. The Quarterly Journal of Economics, 112(3):663–691.
+Hu, Y., Xue, C., and Zhou, X. (2023). Risk without strike: Nuclear crisis and corporate
+investment. European Economic Review, 159(C).
+Ivashina, V. and Scharfstein, D. (2010). Bank lending during the financial crisis of 2008.
+Journal of Financial Economics , 97(3):319–338.
+Kalemli- ¨Ozcan, S., Papaioannou, E., and Perri, F. (2013). Global banks and crisis
+transmission. Journal of International Economics, 89(2):495–510.
+ECB Working Paper Series No 3143
+37
+
+Khwaja, A. I. and Mian, A. (2008). Tracing the impact of bank liquidity shocks: Evidence
+from an emerging market. American Economic Review, 98(4):1413–1442.
+Matteo Iacoviello, Dario Caldara, M. P. and Conlisk, S. (2024). Do geopolitical risks
+raise or lower inflation. Availabe at SSRN, Social Sciences Research Network.
+Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate
+industry productivity. Econometrica, 71(6):1695–1725.
+Nguyen, T. C. and Thuy, T. H. (2023). Geopolitical risk and the cost of bank loans.
+Finance Research Letters, 54:103812.
+Niepmann, F. and Shen, L. (2025). Geopolitical risk and global banking. Available at
+SSRN, Social Sciences Research Network.
+Pham, T., Talavera, O., and Tsapin, A. (2021). Shock contagion, asset quality and
+lending behaviour: The case of war in eastern ukraine. Kyklos, 74(2):243–269.
+Phan, D. H. B., Tran, V. T., and Iyke, B. N. (2022). Geopolitical risk and bank stability.
+Finance Research Letters, 46:102453.
+Pinchetti, M. (2024). Geopolitical risk and inflation: The role of energy markets. Dis-
+cussion Papers 2431, Centre for Macroeconomics (CFM).
+Salisu, A. A., Omoke, P. C., and Sikiru, A. A. (2023). Geopolitical risk and global
+financial cycle: Some forecasting experiments. Journal of Forecasting, 42(1):3–16.
+Stein, J. C. (2002). Information production and capital allocation: Decentralized versus
+hierarchical firms. Journal of Finance, 57(5):1891–1921.
+ECB Working Paper Series No 3143
+38
+
+Tables and Figures
+Figure 1: Distribution of observations by country in the dataset
+125,639
+393,040
+16,122
+373,983
+10,770
+2,465,505
+328,419
+1,676,021
+61,014
+180
+55,315
+2,099,431
+6,890 51,950 4,866 4,407 22,064
+372,897
+22,478 1,015
+0
+500,000
+1,000,000
+1,500,000
+2,000,000
+2,500,000
+Number of observations
+AT BE CY DE EE ES FI FR GR HR IE IT LT LU LV MT NL PT SI SK
+Note: This figure represents the coverage per country of the number of
+observations after the merge of AnaCredit with supervisory bank-level
+data.
+1.6
+4.9
+0.2
+4.6
+0.1
+30.5
+4.1
+20.7
+0.8 0.0 0.7
+25.9
+0.1 0.6 0.1 0.1 0.3
+4.6
+0.3 0.0
+0
+10
+20
+30
+% of observation
+AT BE CY DE EE ES FI FR GR HR IE IT LT LU LV MT NL PT SI SK
+Note: This figure represents the the percentage of observations by
+country after the merge of AnaCredit with supervisory bank-level data.
+ECB Working Paper Series No 3143
+39
+
+Table 1: Descriptive Statistics
+N Mean Std.dev.
+p25 p50 p75
+Dependent
+variables
+Outstanding amount (euros) 7 240 328 868582.36 2157559 56201.29 165057.62 533159.00
+Log outstanding amount 7 240 328 12.07 1.90 10.94 12.01 13.19
+New loan (dummy) 7 240 328 0.05 0.22 0.00 0.00 0.00
+New relationship (dummy) 19 197 283 0.17 0.37 0.00 0.00 0.00
+Impairment amount (euros) 6 121 938 38633.60 3879747 89.00 477.00 2972.00
+Log impairment amount 6 121 938 12.07 1.90 10.94 12.01 13.19
+Days past due 7 228 011 32.47 202.67 0.00 0.00 0.00
+Interest variable
+BGPR 7 240 328 3.24 0.90 2.20 3.51 3.80
+Control variables - bank level
+Log total assets 7 240 328 5.41 1.62 4.37 5.55 6.74
+Capital tier 1 ratio (%) 7 240 328 16.34 3.98 14.22 15.43 17.32
+Deposit to liability ratio (%) 7 240 328 84.00 11.15 78.42 86.18 93.27
+Return on asset 7 240 328 0.55 0.55 0.28 0.47 0.68
+Cash to asset ratio (%) 7 240 328 14.69 5.63 11.61 14.63 17.66
+Provision over loans 7 240 328 0.08 0.41 0.00 0.04 0.11
+Distance to MDA (%) 7 204 803 2.43 5.13 0.00 0.85 2.85
+Uninsured deposit ratio (%) 4 298 408 65.08 11.72 55.88 65.51 73.24
+Emission intensive exposure 7 231 488 -0.08 0.30 -0.13 -0.05 0.08
+Energy intensive exposure 7 240 328 -0.08 0.30 -0.13 -0.05 0.08
+Control variables - loan level
+Log of weighted residual maturity 6 392 450 6.56 1.70 6.17 7.02 7.48
+Default status 7 240 328 0.03 0.16 0.00 0.00 0.00
+Log protection value 5 742 011 11.22 3.89 10.86 12.10 13.27
+Firm variables
+Input dependencies (sectoral) 6 228 086 0.48 0.65 0.13 0.18 0.73
+Exposed firm 14 921 687 0.12 0.32 0.00 0.00 0.00
+Investment (change 2021-2022) 670 598 0.05 1.73 -0.03 -0.00 0.03
+Log number of employees (change 2021-2022) 486 405 0.04 0.35 0.00 0.00 0.13
+Log total assets (2021) 670 598 13.74 1.61 12.62 13.58 14.67
+Cash to assets (2021) 670 598 0.17 0.22 0.03 0.10 0.25
+Leverage 670 598 0.21 0.51 0.01 0.14 0.31
+EBITDA 670 598 0.10 1.69 0.03 0.08 0.16
+Ratio of tangible assets 670 598 0.30 0.30 0.05 0.20 0.48
+Note: Descriptive
+statistics cover the period from 2021Q1 to 2023Q1, unless otherwise specified
+ECB Working Paper Series No 3143
+40
+
+Figure 2: V ariation of the country level GPR z-scores around the invasion
+(4.46,7.45]
+(2.06,4.46]
+(1.00,2.06]
+[-0.34,1.00]
+No data
+Note: The figure displays the variation of the country-level GPR z-scores between 2021 Q4 and 2022
+Q1. Darker colours indicate a higher variation.
+Figure 3: Average Bank-level GeoPolitical Risk (BGPR) index by euro area
+country
+(4.415,6.41]
+(3.63,4.415]
+(2.255,3.63]
+[.66,2.255]
+No data
+Note: The figure displays country-level aggregates, calculated as weighted averages of the BGPR of
+individual banks headquartered in each country included in our sample. The weights are based on each
+bank’s share of total assets within its respective country. Darker colours indicate a higher exposure to
+geopolitical risk.
+ECB Working Paper Series No 3143
+41
+
+Figure 4: Distribution of Bank-level GeoPolitical Risk (BGPR) index across
+the 363 banks in the sample
+0
+.2
+.4
+.6
+Density
+0 2 4 6 8
+Exogenous Bank-level GPR Z-score
+Distribution
+ECB Working Paper Series No 3143
+42
+
+Table 2: Effects on the intensive margin
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4) (5)
+BGPRb 0.022
+(0.163)
+BGPRb × Postt -0.066*** -0.078***
+-0.071*** -0.083*** -0.092***
+(0.023) (0.020) (0.015) (0.019) (0.019)
+L.size (log)b,t 0.149*** 0.131** 0.132**
+(0.048) (0.053) (0.053)
+L.size (log)b,t × Postt -0.002 0.011* 0.012*
+(0.006) (0.006) (0.006)
+L.capital tier1 ratio b,t 0.006** 0.004 0.005*
+(0.003) (0.003) (0.003)
+L.capital tier1 ratio b,t × Postt -0.001 -0.000 -0.001
+(0.001) (0.001) (0.001)
+L.deposit-to-liability ratiob,t 0.003 0.004 0.004
+(0.003) (0.003) (0.003)
+L.deposit-to-liability ratiob,t × Postt -0.000 0.002** 0.002***
+(0.001) (0.001) (0.001)
+L.ROAb,t -0.026*** -0.022*** -0.023***
+(0.005) (0.008) (0.008)
+L.ROAb,t × Postt 0.018** 0.016 0.016
+(0.008) (0.013) (0.013)
+L.cash-to-asset ratiob,t -0.000 -0.001 -0.001
+(0.001) (0.001) (0.001)
+L.cash-to-asset ratiob,t × Postt -0.000 -0.001 -0.001
+(0.001) (0.001) (0.001)
+L.provisions-to-loans ratiob,t 0.171 -0.359 -0.409
+(1.163) (1.375) (1.354)
+L.provisions-to-loans ratiob,t × Postt 0.388 1.245 1.404
+(1.440) (1.682) (1.647)
+Borrower × Time
+FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 7,240,328 7,240,327 6,559,556 6,437,583 6,437,583
+R² 0.666 0.692 0.704 0.956 0.956
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at bank-
+level. Standard errors are reported in parentheses.
+ECB Working Paper Series No 3143
+43
+
+Figure 5: Estimated dynamic impact of an increase in BGPR on the
+intensive margin
+-.1
+0
+.1
+.2
+2021 q1 2022 q2 2021 q3 2021 q4 2022 q1 2022 q2 2022 q3 2022 q4
+Note: The chart presents the estimated response of bank-firm loan amounts to a one-standard-deviation
+increase in bank-level geopolitical risk index following the Russian invasion of Ukraine at different time
+horizons with 2021 Q4 as reference period. The estimated model include borrower ×time,
+borrower×bank and country×time fixed effects. Confidence intervals are set at the 99% level
+ECB Working Paper Series No 3143
+44
+
+Table 3: Effects on the probability of extending a new relationship
+Dependent
+variable: new relationship
+(1) (2) (3) (4)
+BGPRb -0.040***
+(0.014)
+BGPRb × Postt -0.039* -0.038*
+-0.056** -0.061**
+(0.023) (0.021) (0.025) (0.026)
+Bank controls/in
+teractions ✓ ✓ ✓ ✓
+ILS × Time FE ✓ ✓ ✓ ✓
+Bank FE ✓ ✓ ✓
+Country × Time FE ✓
+N 19 197 283 19 197 282 17 997 224 17 997 224
+R² 0.171 0.208 0.217 0.217
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at
+bank-level. Standard errors are reported in parentheses.
+Table 4: Effects
+on impairment volumes
+Dependent
+variable: log(impairments)
+(1) (2) (3)
+(4) (5)
+BGPRb -0.204
+(0.171)
+BGPRb × Postb 0.230** 0.263**
+0.247*** 0.227** 0.241**
+(0.108) (0.109) (0.089) (0.092) (0.098)
+Bank controls/in
+teractions ✓ ✓ ✓
+Borrower × Time FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 6,121,938 6,121,936 5,618,863 5,510,484 5,510,484
+R² 0.794 0.821 0.824 0.944 0.944
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at
+bank-level. Standard errors are reported in parentheses.
+ECB Working Paper Series No 3143
+45
+
+Table 5: Effects on the number of days past due
+Dependent
+variable: Days past due
+(1) (2) (3) (4)
+BGPRb × Postb 1.082 -0.299
+0.539 -0.343
+(2.132) (2.445) (1.028) (1.294)
+Outstanding amount (log) -2.442*** -2.991*** -1.015 -1.437*
+(0.887) (0.966) (0.690) (0.786)
+Bank contr
+ols/interactions ✓ ✓
+Bank FE ✓ ✓ ✓ ✓
+Time FE ✓ ✓ ✓ ✓
+ILS FE ✓ ✓
+N 7,232,992 6,806,623 6,773,935 6,369,152
+R² 0.013 0.015 0.283 0.287
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at
+bank-level. Standard errors are reported in parentheses.
+Table 6: Amplifiers
+and mitigators : effects of bank characteristics
+Dependent
+variable: log(loan amount)
+Cash to assets
+Distance to MDA Size Uninsured deposit ratio
+continuous continuous continuous continuous
+BGPRb × Postt -0.093*** -0.100***
+0.000 -0.122
+(0.017) (0.020) (0.025) (0.097)
+BGPRb × Postt 0.001 0.003* -0.018*** 0.000
+× Moderatorf (0.105) (0.001) (0.006) (0.002)
+Bank contr
+ols/interactions ✓ ✓ ✓ ✓
+Double interaction included ✓ ✓ ✓ ✓
+Borrower × Time FE ✓ ✓ ✓ ✓
+Borrower × Bank FE ✓ ✓ ✓ ✓
+Country × Time FE ✓ ✓ ✓ ✓
+N 7 212 500 7 162 947 7 212 500 6 699 981
+R² 0.952 0.942 0.952 0.948
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at
+bank-level. Standard errors are reported in parentheses.
+ECB Working Paper Series No 3143
+46
+
+Table 7: List of Russia-Aligned Countries Based on UN V oting Patterns
+Country name
+Cambo
+dia Senegal Antigua and
+Barbuda
+Zimbabw
+e Guinea Chad
+South Africa Saint Lucia Azerbaijan
+Mali Grenada Rwanda
+Afghanistan Vietnam Morocco
+Kazakhstan Comoros Yemen
+Ghana Pakistan Lesotho
+Angola Benin Namibia
+Madagascar Bhutan Tajikistan
+Kyrgyzstan Gambia Mozambique
+Russia
+Figure 6: Average of sectoral ratio of inputs dependencies to Russia-aligned
+countries across euro area countries
+0
+.5
+1
+1.5
+2
+2.5
+Russia-aligned inputs dependencies
+A - Agriculture
+B - Mining
+C - Manufacturing
+D - Electricity
+E - Water supplyF - Construction
+G - Wholesale and retail trade
+H - Transportation
+I - Accomodation and food serv.
+J - Information and communication
+K - Financial act.L - Real estate
+M - Professional and scientific act.N - Administrative and support act.
+O - Public admin. and defence
+P - Education
+Q - Human health
+R - Arts and recreation
+S - Other services
+Note: The figure displays the country-level average of the measure of Russia-aligned input
+dependencies. The green dotted line represents the 75th percentile, and the red dotted line represents
+the 50th percentile.
+ECB Working Paper Series No 3143
+47
+
+Table 8: Effects of being in a vulnerable sector
+Dependent
+variable: log(loan amount)
+Domestic Euro-area
+Top 25th
+Top 50th Top 25th
+Top 50th
+BGPRb × Postt -0.084*** -
+0.073*** -0.086*** -0.
+074***
+(0.017) (0.014) (0.017) (0.014)
+BGPRb × Postt -0.027*** -
+0.032** -0.034*** -0.
+035**
+× Vulnerable sectorc,f (0.009) (0.015) (0.009) (0.015)
+Bank contr
+ols/interactions ✓ ✓ ✓ ✓
+Double in
+teraction included ✓ ✓ ✓ ✓
+Borrow
+er × Time FE ✓ ✓ ✓ ✓
+Borrow
+er × Bank FE ✓ ✓ ✓ ✓
+Country × Time
+FE ✓ ✓ ✓ ✓
+N 6 228
+086 6 228 086 6 360 359
+6 360 359
+R² 0.955 0.955 0.955 0.955
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are
+clustered at bank-level. Standard errors are reported in parentheses.
+Table 9: Substitution
+effect at firm level
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+Exposed firmj × P
+ostt -0.022*** -0.015*** -0.015***
+(0.008) (0.005) (0.005)
+ILS × Time FE ✓ ✓ ✓
+W
+eighted controls ✓ ✓
+Weighted controls×post ✓
+Firm FE ✓ ✓ ✓
+N 2,116,256 1,699,591 1,699,591
+r2 0.973 0.978 0.978
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are
+clustered at the largest lender level are reported in parentheses.
+ECB Working Paper Series No 3143
+48
+
+Table 10: Firm real effects
+Investment Log(number of employees)
+Exposed firm j -0.083∗∗ -0.086∗∗ -0.006∗∗∗ -0.006∗∗
+(0.040) (0.042) (0.002) (0.002)
+Size (log)i,2021 -0.030∗∗ -0.030∗∗ 0.005∗∗∗ 0.006∗∗∗
+(0.013) (0.013) (0.001) (0.001)
+Cash-to-assetsi,2021 -0.129∗∗∗ -0.129∗∗∗ -0.000 -0.001
+(0.025) (0.025) (0.006) (0.006)
+Debt-to-assetsi,2021 0.061 0.061 0.025∗∗∗ 0.026∗∗∗
+(0.058) (0.058) (0.008) (0.008)
+EBITDAi,2021 -0.037 -0.037 -0.022∗∗ -0.022∗∗∗
+(0.029) (0.029) (0.004) (0.004)
+Tangible asset ratioi,2021 -0.048 -0.049 0.169∗∗∗ 0.169∗∗∗
+(0.064) (0.064) (0.017) (0.017)
+Bank controls ✓ ✓
+ILS FE ✓ ✓ ✓ ✓
+N 458,433 458,433 366,421 366,421
+r2 0.094 0.094 0.172 0.173
+Significance levels are: * p ¡ 0.10 ; ** p ¡ 0.05 ; *** p ¡ 0.01.
+ECB Working Paper Series No 3143
+49
+
+Table 11: Covariate-rebalancing with generalised propensity score weighting
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4) (5)
+BGPRb 0.075
+(0.161)
+BGPRb × Postt -0.082*** -0.088***
+-0.078*** -0.095*** -0.102***
+(0.024) (0.021) (0.015) (0.018) (0.018)
+L.size (log)b,t 0.142*** 0.157*** 0.159***
+(0.042) (0.050) (0.050)
+L.size (log)b,t × Postt 0.000 0.014* 0.016**
+(0.007) (0.007) (0.008)
+L.capital tier1 ratio b,t 0.007** 0.006** 0.007**
+(0.003) (0.003) (0.003)
+L.capital tier1 ratio b,t × Postt -0.001 -0.000 -0.001
+(0.001) (0.001) (0.001)
+L.deposit-to-liability ratiob,t 0.004 0.005 0.005
+(0.003) (0.003) (0.003)
+L.deposit-to-liability ratiob,t × Postt 0.000 0.002** 0.002***
+(0.001) (0.001) (0.001)
+L.ROAb,t -0.028*** -0.025*** -0.025***
+(0.005) (0.007) (0.007)
+L.ROAb,t × Postt 0.018** 0.015 0.016
+(0.008) (0.012) (0.012)
+L.cash-to-asset ratiob,t 0.000 -0.000 -0.000
+(0.001) (0.001) (0.001)
+L.cash-to-asset ratiob,t × Postt -0.000 -0.001 -0.001
+(0.001) (0.001) (0.001)
+L.provisions-to-loans ratiob,t 0.011 0.007 0.006
+(0.018) (0.021) (0.020)
+L.provisions-to-loans ratiob,t × Postt -0.002 0.005 0.007
+(0.020) (0.023) (0.023)
+Borrower × Time
+FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 7,240,328 7,240,327 6,559,556 6,437,583 6,437,583
+R² 0.666 0.692 0.704 0.956 0.956
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at
+bank-level. Standard errors are reported in parentheses.
+ECB Working Paper Series No 3143
+50
+
+Table 12: Placebo test - one year before
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4) (5)
+BGPRb 0.041
+(0.179)
+BGPRb × Postt -0.019 -0.011
+-0.003 -0.011 -0.010
+(0.024) (0.021) (0.017) (0.017) (0.018)
+Bank controls/in
+teractions ✓ ✓ ✓
+Borrower × Time FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 6 517 419 6 517 419 5 802 371 5 695 628 5 695 628
+R² 0.662 0.688 0.702 0.948 0.948
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at
+bank-level. Standard errors are reported in parentheses.
+Table 13: Placeb
+o test - one year after
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4) (5)
+BGPRb -0.044
+(0.150)
+BGPRb × Postt 0.021 0.015
+0.012 0.006 0.006
+(0.031) (0.027) (0.020) (0.019) (0.022)
+Bank controls/in
+teractions ✓ ✓ ✓
+Borrower × Time FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 4 628 689 4 628 686 4 213 622 4 085 941 4 085 941
+R2² 0.670 0.696 0.708 0.966 0.966
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at
+bank-level. Standard errors are reported in parentheses.
+ECB Working Paper Series No 3143
+51
+
+Table 14: Control for exposure to emission intensive firms
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4) (5)
+BGPRb 0.024
+(0.165)
+BGPRb × Postb -0.067*** -
+0.078*** -0.070*** -0.083*** -0.093***
+(0.022) (0.021) (0.015) (0.019) (0.020)
+Firm emission intensive Exposure b 0.038
+(0.191)
+Firm emission intensive Exposure b 0.011 -0.013 -0.010 -0.001 -0.005
+× Postt (0.029) (0.025) (0.020) (0.023) (0.024)
+Bank control
+s/interactions ✓ ✓ ✓
+Borrower × Time FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N N 7 231 488 7 231 488 6 551 984 6 437 360 6 437 360
+R² 0.666 0.692 0.704 0.956 0.956
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at bank-
+level. Standard errors are reported in parentheses.
+Table 15: Con
+trol for exposure to energy intensive sectors
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4) (5)
+BGPRb 0.022
+(0.164)
+BGPRb × Postb -0.070*** -0.079***
+-0.071*** -0.085*** -0.093***
+(0.021) (0.020) (0.014) (0.018) (0.019)
+Energy intensive exposure b 0.015
+(0.098)
+Energy intensive exposure b × Postt 0.040** 0.024* 0.017* 0.027*** 0.022**
+(0.017) (0.013) (0.009) (0.009) (0.010)
+Bank control
+s/interactions ✓ ✓ ✓
+Borrower × Time FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 7 231 606 7 231 605 6 552 043 6 437 420 6 437 420
+R² 0.666 0.692 0.704 0.956 0.956
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at bank-
+level. Standard errors are reported in parentheses.
+ECB Working Paper Series No 3143
+52
+
+Table 16: Effects on lending when including firms with single bank
+relationships
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4)
+BGPRb 0.009
+(0.110)
+BGPRb × Postt -0.056*** -0.062***
+-0.053*** -0.058***
+(0.015) (0.015) (0.011) (0.012)
+Banks controls/in
+teractions ✓ ✓
+ILS × Time FE ✓ ✓ ✓ ✓
+Bank FE ✓ ✓ ✓
+Country × Time FE ✓
+N 19 197 283 19 197 282 17 997 224 17 997 224
+R² 0.359 0.387 0.397 0.397
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are
+clustered at bank-level. Standard errors are reported in parentheses.
+Table 17: Effects
+on lending with only firms with single bank relationships
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4)
+BGPRb 0.027
+(0.142)
+BGPRb × Postt -0.059*** -0.072***
+-0.064*** -0.078***
+(0.022) (0.020) (0.014) (0.012)
+Banks controls/in
+teractions ✓ ✓
+ILS × Time FE ✓ ✓ ✓ ✓
+Bank FE ✓ ✓ ✓
+Country × Time FE ✓
+N 6,780,644 6,780,643 6,150,914 6,038,573
+R² 0.436 0.468 0.485 0.488
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are
+clustered at bank-level. Standard errors are reported in parentheses.
+ECB Working Paper Series No 3143
+53
+
+Table 18: Monthly estimation, 2021 M9 - 2022 M6
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4) (5)
+BGPRb 0.010
+(0.157)
+BGPRb × Postt -0.043*** -
+0.049*** -0.054*** -0.047*** -0.053***
+(0.013) (0.012) (0.012) (0.009) (0.009)
+Bank controls ✓
+✓ ✓ ✓ ✓
+Borrower × Time FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 9 054 058 9 054 056 9 038 401 8 969 985 8 969 985
+Number banks 356 355 352 351 351
+R² 0.667 0.695 0.694 0.962 0.962
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at
+bank-level. Standard errors are reported in parentheses.
+Table 19: Clustering
+standard errors at bank and time level
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4) (5)
+BGPRb 0.022
+(0.082)
+BGPRb × Postt -0.066 -0.078***
+-0.071*** -0.083*** -0.092***
+(0.111) (0.015) (0.015) (0.016) (0.018)
+Banks controls/in
+teractions ✓ ✓ ✓ ✓
+Borrower × Time FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 7,240,328 7,240,327 6,559,556 6,437,583 6,437,583
+R² 0.666 0.692 0.704 0.956 0.956
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at
+bank- and time-level. Standard errors are reported in parentheses.
+ECB Working Paper Series No 3143
+54
+
+Table 20: Collapse methodology on monthly data
+Dependent
+variable: ∆log (loanamount)
+(1) (2)
+BGPRb -0.047*** -0.046***
+(0.002) (0.002)
+L.size (log) 0.009***
+(0.001)
+L.capital
+tier1 ratio 0.001***
+(0.000)
+L.deposit-to-liability ratio 0.001***
+(0.000)
+L.ROA -0.003
+(0.002)
+L.cash-to-asset ratio -0.001***
+(0.000)
+L.provisions-to-loans ratio 0.919***
+(0.302)
+Firm FE ✓ ✓
+N 3 361
+490 3 332 557
+R2 0.001 0.002
+Significance lev
+els are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard
+errors are reported in parentheses.
+ECB Working Paper Series No 3143
+55
+
+Table 21: Including interest rate fixed effects
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4) (5)
+BGPRb 0.152*
+(0.083)
+BGPRb × Postt -0.046*** -0.055***
+-0.046*** -0.063*** -0.070***
+(0.014) (0.015) (0.010) (0.014) (0.014)
+Banks controls/in
+teractions ✓ ✓ ✓ ✓
+Borrower × Time × Interest rate type FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 3,498,923 3,498,922 3,191,792 3,032,110 3,032,110
+R² 0.777 0.788 0.796 0.978 0.978
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at bank- and time-level.
+Standard errors are reported in parentheses.
+Table 22: Including
+maturity rate fixed effects
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4) (5)
+BGPRb 0.142**
+(0.071)
+BGPRb × Postt -0.067*** -0.068***
+-0.059*** -0.059*** -0.066***
+(0.017) (0.016) (0.011) (0.016) (0.017)
+Banks control
+s/interactions ✓ ✓ ✓ ✓
+Borrower × Time × Maturity FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 2,995,651 2,995,647 2,775,294 2,644,314 2,644,314
+R² 0.810 0.824 0.828 0.985 0.985
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are
+clustered at bank- and time-level. Standard errors are reported in parentheses.
+ECB Working Paper Series No 3143
+56
+
+Table 23: Adding loan level controls
+Dependent
+variable: log(loan amount)
+(1) (2) (3)
+(4) (5)
+BGPRb 0.163*
+(0.093)
+BGPRb × Postt -0.064*** -0.052***
+-0.042*** -0.060*** -0.063***
+(0.018) (0.017) (0.012) (0.014) (0.014)
+Weighted residual maturity (log)b,i,t 0.230*** 0.206*** 0.203*** 0.088*** 0.088***
+(0.021) (0.013) (0.013) (0.009) (0.009)
+Weighted residual maturity (log)b,i,t 0.006 -0.003 -0.005 0.008 0.008
+× Postt (0.010) (0.006) (0.006) (0.006) (0.006)
+Default statusb,i,t -0.024 0.021 0.020 0.025*** 0.025***
+(0.059) (0.040) (0.039) (0.009) (0.009)
+Default statusb,i,t -0.067 -0.033 -0.035 -0.036*** -0.036***
+× Postt (0.068) (0.056) (0.054) (0.011) (0.011)
+Protection value (log)b,i,t 0.075*** 0.103*** 0.101*** 0.074*** 0.074***
+(0.023) (0.025) (0.025) (0.024) (0.023)
+Protection value (log)b,i,t 0.004 0.004 0.006** 0.005*** 0.005***
+× Postt (0.003) (0.003) (0.003) (0.001) (0.001)
+Banks contr
+ols/interactions ✓ ✓ ✓ ✓
+Borrower × Time × Maturity FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 4,539,022 4,539,019 4,250,512 4,174,609 4,174,609
+R² 0.802 0.829 0.831 0.981 0.981
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are
+clustered at bank- and time-level. Standard errors are reported in parentheses.
+ECB Working Paper Series No 3143
+57
+
+Appendix
+Variables definitions
+Table A1: Definitions of variables and their sources
+[htbp] Variable Lab
+el Definition Source
+Dependent variables:
+Loan
+amount log(loan amount) Logarithm of the outstanding amount of loans from
+bank b to firm i
+AnaCredit
+New relationship Dummy variable equal to 1 if: a) at time t a new
+firm that did not have a relationship in the previous
+quarter enters the AnaCredit registry, and b) a firm
+that was in the sample in t − 1 acquires a loan from
+a new bank. It equals 0 otherwise.
+AnaCredit
+New loan Dummy variable equal to 1 when the outstanding
+credit volume in lending relationships increases be-
+tween t − 1 and t, and equal to 0 otherwise
+AnaCredit
+Impairment volumes log(impairments) Sum of loss allowances held against a loan at the
+bank-firm level on the reporting date, based on ex-
+pected credit losses under international or national
+accounting standards
+AnaCredit
+Days past due days past due The average number of days past due at bank-firm
+level, average at bank-firm level weighted by the size
+of each loan. Past due being considered when the
+payment of interest and/or principal is not made on
+time.
+AnaCredit
+Interest variable:
+Bank-lev
+el Geopolitical Risk BGPR Indicator built by weighting the change in the stan-
+dardised country-level geopolitical risk (CGPR) in-
+dices between 2021Q4 and 2022Q1 with bank-level
+average asset-side exposures to the different coun-
+tries (average on 2021Q1-2021Q4)
+Caldara and Iacoviello
+(2022); Dieckelmann et al.
+(2025) and ECB Supervisory
+statistics
+Control variables
+- bank level:
+Size size(log) Logarithm of bank total assets ECB Supervisory statistics
+ECB Working Paper Series No 3143
+58
+
+Capitalisation capital tier1
+ratio The Tier 1 Capital Ratio is the ratio of a bank’s core
+equity capital (Tier 1 capital) to its risk-weighted
+assets, in percent.
+ECB Supervisory statistics
+distance to MDA The CET1 ratio in excess of the maximum dis-
+tributable amount, in percent.
+ECB Supervisory statistics
+Funding structure deposit-to-liability ratio Share of total liabilities funded by customer deposits,
+expressed, in percent.
+ECB Supervisory statistics
+Profitability ROA The ratio of net income to total assets ECB Supervisory statistics
+Liquidity uninsured deposit ratio Share of a bank’s total deposits that are not covered
+by a deposit insurance scheme, in percent
+ECB Supervisory statistics
+Asset quality provisions-to-loans ratio Total loan loss provisions divided by the total out-
+standing loan amount.
+ECB Supervisory statistics
+Emission intensive exposure emission intensive expo-
+sure
+Emission intensity of each borrower was weighted by
+its share in the total loans granted by the bank, the
+measure is standardized.
+Urgentem, ECB Supervisory
+statistics and AnaCredit
+Energy intensive exposure energy intensive exposure Sectoral energy of each borrower weighted by its
+share in the total loans granted by the bank, the
+measure is standardised.
+Eurostat, ECB Supervisory
+statistics and AnaCredit
+Control variables
+- loan level:
+Maturity weighted residual matu-
+rity (log)
+The logarithm of the residual maturity at bank-firm
+level, average at bank-firm level weighted by the size
+of each loan
+AnaCredit
+Default status default status Dummy variable that takes a value of 1 if any of a
+firm’s loans with the bank are in default
+AnaCredit
+Protection value protection value (log) The logarithm of the sum residual maturity at bank-
+firm level
+AnaCredit
+ECB Working Paper Series No 3143
+59
+
+Firm variables:
+Input dep
+endencies input dependencies Computed at country sector (Nace Rev.2) level, cor-
+respond to the share of Russian-aligned inputs over
+total inputs
+Figaro - Eurostat
+Exposed firm exposed firm Dummy taking the value of 1 if least 75% of the firm’s
+loans were sourced from banks within the top 25th
+percentile of geopolitical risk exposure
+AnaCredit, ECB Supervisory
+statistics
+Investment investment Change between 2021 and 2022 in the ratio of fixed
+assets to total assets
+Orbis
+Number of employees nb. of employees Change between 2021 and 2022 in the logarithm of
+number of employees
+Orbis
+Size size(log) Logarithm of bank total assets Orbis
+Liquidity cash-to-assets The ratio of cash including to total assets Orbis
+Leverage debt-to-assets The ratio of debt over total assets Orbis
+Profitability EBITDA Ratio of Earnings before interest, taxes, deprecia-
+tion, and amortization over total assets
+Orbis
+Tangible assets tangible asset ratio The ratio of of tangible assets over total assets Orbis
+ECB Working Paper Series No 3143
+60
+
+Probability of extending a new loan
+As an alternative to the extensive margin, Table A2 reports the results of regressions
+similar to the baseline, but now with the probability of a bank extending a new loan
+as the dependent variable. The results indicate that a one standard deviation increase
+in BGPR significantly reduces the probability of extending a new loan in an existing
+lending relationship by 1.2 percentage points.
+Table A2: Effects on the probability of issuing a new loan
+Dependent
+variable: new loan
+(1) (2) (3)
+(4) (5)
+BGPRb -0.012
+(0.007)
+BGPRb × Postt -0.011*** -0.012***
+-0.012*** -0.011*** -0.012***
+(0.004) (0.004) (0.004) (0.004) (0.004)
+Bank controls/in
+teractions ✓ ✓ ✓ ✓ ✓
+Borrower × Time FE ✓ ✓ ✓ ✓ ✓
+Bank FE ✓ ✓
+Borrower × Bank FE ✓ ✓
+Country × Time FE ✓
+N 7 240 328 7 240 327 6 559 556 6 437 583 6 437 583
+R² 0.462 0.471 0.475 0.675 0.675
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are clustered at
+bank-level. T-statistics are reported in parenthesis.
+ECB Working Paper Series No 3143
+61
+
+Bank-level analysis over longer period 2015q1 to 2024q3
+To test whether our findings hold more broadly, we also investigate the relationship
+between geopolitical risk and bank lending at a bank level (rather than at the bank-
+firm level) over a longer period of time, i.e., between 2015Q1 and 2024Q3. Rather than
+focusing specifically on the Russian invasion of Ukraine, this analysis employs a panel
+setting with bank controls and different sets of fixed effects, using the following regression
+specification:
+yb,t = β1BGP Rb,t−1 + β2Xb,t−1 + µb + δt + γc,t + εb,t (8)
+where the dependent variable yb,t is the logarithm of the total outstanding amount
+of lending to non-financial corporates. The key variable of interest is BGP Rb,t−1 which
+is the lagged time-varying BGPR. Unlike the baseline specification, which focuses on the
+variation in the GPR between the quarters immediately before and after the invasion,
+the key variable of interest here is BGP Rb,t−1 which is the level of the BGPR for bank
+b at each point in time t − 1 over the entire sample period. 25
+Xb,t−1 is the same set of lagged bank controls used in the baseline specification. This
+alternative specification also includes a number of fixed effects, specifically, µb controls
+for time-invariant bank fixed effects, δt denotes a vector of time fixed effects, while γc,t
+controls for country×time effects.
+The results indicate that a one standard deviation rise in the BGPR (i.e. 1.18) is
+associated on average with a decline of 7.67% in the banks’ loan amount to NFCs. Thus,
+these results are consistent with those of the baseline regression, albeit, in this setting
+we cannot determine if this relationship is causal.
+25This analysis uses the bank-level geopolitical risk index as introduced by (Dieckelmann et al.,
+2025).
+ECB Working Paper Series No 3143
+62
+
+Table A3: Bank level - loans non-financial corporations
+Dependent
+variable: log(loans to NFCs)
+(1) (2) (3)
+(4)
+L.BGPRb,t -0.011 -0.076* -0.062*
+-0.062**
+(0.014) (0.043) (0.036) (0.031)
+L.size (log)b,t 0.989*** 0.989***
+(0.174) (0.076)
+L.capital tier1 ratio b,t -0.001 -0.001***
+(0.001) (0.000)
+L.deposit-to-liability ratiob,t 0.009 0.009***
+(0.007) (0.003)
+L.ROAb,t 0.018 0.018*
+(0.017) (0.010)
+L.cash-to-asset ratiob,t -0.009*** -0.009***
+(0.003) (0.002)
+L.provisions-to-loans ratiob,t -0.396 -0.396
+(0.388) (0.356)
+Bank FE ✓ ✓
+✓ ✓
+Time FE ✓ ✓ ✓ ✓
+Country × Time FE ✓ ✓ ✓
+Double cluster standard errors ✓
+N 11,939 11,934 11,406 11,406
+R² 0.943 0.948 0.955 0.955
+Significance levels
+are: * p < 0.10 ; ** p < 0.05 ; *** p < 0.01. Standard errors are
+clustered at bank-level (except column (4) double clustered bank-time). T-statistics
+are reported in parenthesis.
+ECB Working Paper Series No 3143
+63
+
+Acknowledgements 
+The authors are thankful for the helpful comments and discussions provided by Ricardo Correa, Jesús Fernández-Villaverde, Philip 
+Lane, Massimo Ferrari-Minesso, Georgios Georgiadis, Maciej Grodzicki, Sebastian Horn, Ethan Ilzetzki, Helinä Laakkonen (discussant), 
+Simona Manu, Arnaud Mehl, conference and seminar participants at the European Central Bank, at Ghent University, at the University 
+of Padua and at the Eighth Annual Workshop of the Analysis Working Group of the ESRB and the Macroprudential Analysis Group of 
+the ECB. All errors are ours. The findings, views and interpretations expressed herein are those of the authors and should not be 
+attributed to the Eurosystem, the European Central Bank, its Executive Board, or its management. The dataset used in this paper 
+contains confidential statistical information. Its use for the purpose of the analysis described in the text has been approved by the 
+relevant ECB decision making bodies. All the necessary measures have been taken during the preparation of the analysis to ensure the 
+physical and logical protection of the information. 
+ 
+Pauline Avril 
+European Central Bank, Frankfurt am Main, Germany; email: pauline_lucile.avril@ecb.europa.eu 
+ 
+Peter McQuade 
+European Central Bank, Frankfurt am Main, Germany; email: peter.mcquade@ecb.europa.eu 
+ 
+Cosimo Pancaro 
+European Central Bank, Frankfurt am Main, Germany; email: cosimo.pancaro@ecb.europa.eu 
+ 
+Alessio Reghezza 
+European Central Bank, Frankfurt am Main, Germany; email: alessio.reghezza@ecb.europa.eu 
+© European Central Bank, 2025 
+Postal address 60640 Frankfurt am Main, Germany 
+Telephone +49 69 1344 0 
+Website www.ecb.europa.eu 
+All rights reserved. Any reproduction, publication and reprint in the form of a different publication, whether printed or produced 
+electronically, in whole or in part, is permitted only with the explicit written authorisation of the ECB or the authors.  
+This paper can be downloaded without charge from www.ecb.europa.eu, from the Social Science Research Network electronic library or 
+from RePEc: Research Papers in Economics. Information on all of the papers published in the ECB Working Paper Series can be found 
+on the ECB’s website. 
+PDF ISBN 978-92-899-7494-3 ISSN 1725-2806 doi: 10.2866/2690723 QB-01-25-243-EN-N 
