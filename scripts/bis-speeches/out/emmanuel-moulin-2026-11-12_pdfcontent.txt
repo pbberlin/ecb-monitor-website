@@ -1,0 +1,294 @@
+ACPR conference – Paris, 5 November 2026 
+Speech by Emmanuel Moulin, governor of the Banque de France,
+Chairman of the ACPR
+Interview
+Published on 5th of November 2026
+Governor + 2 Banque de France Secteur financier
+Competitiveness and resilience in
+the financial sector: oxymoron or
+complementarity?
+
+Ladies and gentlemen, 
+I am delighted to welcome you to this new edition of the ACPR
+Conference. The theme of this gathering, “Competitiveness and
+resilience in the financial sector: oxymoron or complementarity?”, is
+particularly timely in today’s global economic and financial environment,
+marked by uncertainty and profound geopolitical, technological and
+climate-related shifts. However, I would like to look beyond the apparent
+contradiction and show that resilience and competitiveness are in fact
+mutually reinforcing objectives. I will begin by outlining the challenges
+posed by today’s macroeconomic environment (1), before explaining how
+the European financial sector’s resilience rests on three requirements (2),
+and then sharing three convictions on how to strengthen its
+competitiveness and resilience in the years ahead (3). 
+1. The macroeconomic context represents a new test 
+The current macroeconomic context represents a new test for the
+European financial sector. Since the summer, sovereign bond yields have
+risen in all advanced economies, driven by a combination of factors: the
+ongoing conflict in the Middle East and its impact on inflation,
+expectations of central bank rate increases and a sharp rise in corporate
+bond issuance. In France, this upward pressure on yields has been
+amplified by the uncertainty surrounding the budget. Higher sovereign
+yields are increasing the cost of servicing public debt and raising
+concerns about the trajectory of public finances. But we can act. It is
+essential that we adopt a budget before the end of the year that brings
+the government deficit down to below the threshold of 5% of GDP. This
+is not just a matter for government financing: if interest rates continue to
+rise, borrowing will become more expensive for both households and
+businesses, which will in turn weigh on the financing of the economy and
+on growth. 
+Fortunately, banks and insurers are well-equipped to cope with this new
+environment. They have proved their resilience in recent years by
+weathering some exceptional shocks: the Covid-19 pandemic, the rapid
+rise in interest rates that began in 2022, and the banking sector
+turbulence of 2023. Today, they continue to fully play their role as a
+shock-absorber, supporting the financing of the real economy. This
+resilience is reflected in the continued flow of credit to the economy,
+strong life insurance inflows and robust profitability.
+i 
+
+Source : ACPR
+Source : ACPR
+2. The current resilience stems from a triple requirement 
+The remarkable resilience of the banking and insurance sectors reflects
+years of effort guided by three key requirements.
+
+ACPR
+The first requirement is strong rules. The international standards
+adopted after the Great Financial Crisis of 2008 were implemented
+faithfully and consistently across the European Union (EU). As a result,
+European banks are well-positioned to navigate the current environment,
+with historically high levels of capital – the average CET1 ratio of France’s
+six largest banking groups stands at 15.6% – and of liquidity. Insurers are
+also in a sound position, with an SCR  ratio of 250%, higher than in
+previous years.
+ii
+
+Source : ACPR
+
+The second requirement, which is inseparable from the first, is proactive
+supervision. Over the past 12 years, the Banking Union has
+demonstrated the value of single European supervision and resolution.
+One of its key achievements has been to improve the reliability of banks’
+internal models, notably through TRIM  and the EBA’s  IRB Repair
+programme. The sharp rise in interest rates in 2022 has also led to
+significant improvements in banks’ management of interest rate risk.
+Similar conclusions can be drawn for the insurance sector, after a
+decade of implementing Solvency II.  This harmonised framework,
+supported by close cooperation between national authorities and
+EIOPA,  has strengthened the sector’s resilience by fostering a forward-
+looking and economically grounded assessment of the risks actually
+borne by insurers. The third requirement for financial institutions is the
+adaptation of their business models to changing circumstances and to
+long-term challenges. Today’s resilience stems from the prudence with
+which banks and insurers navigated the ultra-low interest rate
+environment of the mid-2010s and early 2020s. Circumstances evolve,
+but the same clear-sighted prudence and collective discipline must
+continue to prevail. 
+The first challenge is, of course, technological. Banks and insurers are
+constantly adapting their business models to technological change. They
+must continue to innovate, drawing on the dynamism of the fintech
+ecosystem and making full use of advances in artificial intelligence (AI).
+AI offers promising use cases, be this in customer relations, with agentic
+payments,  in internal process automation or in the fight against money
+laundering. 
+The second major challenge is climate change. The wildfires of last
+summer were a stark reminder of the reality of physical risks.  They
+demonstrated insurers’ ability to mobilise rapidly in support of
+policyholders. But beyond this immediate response, the growing cost
+and frequency of climate-related disasters underscore the scale of the
+structural sustainability challenges we face. The ACPR will be attentive
+to the insurance sector’s ability to provide a coordinated response,
+combining stronger prevention efforts in the short term and adaptation
+by policyholders and local authorities over the longer term. This effort is
+essential to maintain effective insurance coverage over time.
+The third challenge is that of European financial sovereignty. This implies
+building a genuine Savings and Investments Union (SIU), in which banks
+and insurers are essential players. Although bank lending remains the
+predominant source of financing in Europe, we can still improve our
+iii iv
+v
+vi
+vii
+viii
+ix
+x
+
+competitiveness in investment banking. Of the ten banks that generate
+the majority of investment banking fees, only three are covered by the
+Single Supervisory Mechanism (SSM). Together, they accounted for just
+27% of fees in the first nine months of 2026, compared with 60% for US
+banks.
+Sources : Banque de France, BCE, OCDE, US Fed
+
+We must also increase our equity financing  to better channel European
+savings towards innovative investment. The Solvency II review
+contributes to this by freeing up capital for strategic investments and
+easing prudential requirements for insurers’ long-term equity holdings.
+Innovations linked to tokenisation can also play an important role. The
+Pythagore project led by the Banque de France and Euroclear France
+provides a clear illustration of this potential. By the end of 2026, central
+bank money tokens will make it possible to settle tokenised NEU CPs,
+paving the way for more efficient and more integrated European financial
+markets. 
+This triple requirement, comprising solid rules, proactive supervision and
+the adaptation of business models, has enabled us to build a resilient
+European financial system. In an environment marked by geopolitical,
+climate-related and technological shifts, this resilience is also a source of
+competitiveness. Far from being at odds, resilience and competitiveness
+are in fact mutually reinforcing. It is precisely because it is resilient that
+our financial system can innovate, finance the economy and strengthen
+Europe’s strategic autonomy. This observation leads me to the three
+convictions that I would like to share about the future of Europe’s
+financial sector.
+ACPR
+3. A triple conviction for the future of the European financial sector 
+xi
+
+The first conviction is that we must preserve trust, which is the bedrock
+of both European innovation and sovereignty. Clear, predictable and
+proportionate regulation is one of the foundations of that trust. It
+supports innovation while safeguarding financial stability. The EU has
+demonstrated this by adopting pioneering frameworks such as the MiCA
+regulation for crypto-assets and the DORA regulation on digital
+operational resilience. 
+Central banks also have a decisive role to play in supporting and guiding
+the transformation of the financial sector. This is the purpose of the work
+undertaken by the Eurosystem on central bank digital currency (CBDC),
+both in its retail and wholesale versions, as well as the revisions made to
+the monetary policy operational framework. As part of these changes,
+since March 2026, the Eurosystem has accepted certain DLT-based
+marketable securities as eligible collateral for monetary policy
+operations. 
+But trust cannot be built by public authorities alone. It also depends on
+the ability of financial sector participants to develop sovereign European
+solutions, to limit our reliance on non-European critical service providers.
+This can be illustrated by recent private-sector initiatives in the payment
+solutions market. I welcome in particular the tie-up between EPI  and
+the EuroPA consortium, which marks an important step towards a more
+integrated and sovereign European payments ecosystem. 
+The second conviction is that we must continue simplifying the
+European regulatory framework, which has become overly complex,
+but without conflating simplification with deregulation.
+As I noted earlier, the EU was right to implement international standards.
+It must continue to be an ambitious and demanding jurisdiction, as
+illustrated by its implementation of the Basel III framework. Simplification
+should not mean weakening the framework; it should make it clearer and
+more consistent.
+xii
+xiii
+xiv
+
+Source: Banque des règlements internationaux
+
+A number of simplification measures have already been implemented,
+notably in supervision. Through its Next Level Supervision initiative,
+ the SSM has increased efficiency, improved risk targeting thanks to
+digitalisation, standardised and accelerated processes, and begun
+rationalising the ECB’s external guidances. 
+I also welcome the overall direction and proposals set out in the
+European Commission’s July 2026 report on banking competitiveness.
+The report notably recommends clarifying capital requirements (capital
+stack) and removing certain EU-specific overlaps and gold-plating
+measures where they are not justified by the underlying risks. We should
+be pleased that it explores options to durably mitigate the impact of the
+Basel output floor for low-risk activities such as residential real estate,
+and proposes adjusting the treatment of certain competitive activities
+that are important for financing the European economy – such as
+specialised lending. In insurance, the review of the Solvency II directive,
+which will enter into force in early 2027, has strengthened the existing
+proportionality framework by adapting certain regulatory requirements to
+the size and risk profile of institutions. 
+My third conviction is that the resilience and competitiveness of Europe’s
+banking sector must be shored up by completing Europe’s financial
+integration. Europe has a single market, but it does not yet have a truly
+single banking market. Cross-border activities remain limited: direct
+intra-euro area cross-border lending accounted for less than 15% of euro
+area bank lending to non-banks in 2024.   At the same time, cross-
+border mergers have been relatively rare in recent years, with M&A
+activity remaining largely domestic. Yet the size of European banks limits
+their ability to invest massively in new technologies. Such investments
+involve high fixed costs, which are easier for large institutions to absorb.
+We must therefore remove the political and regulatory obstacles that
+hinder the creation of cross-border European champions. Despite the
+undeniable success of the SSM and the Single Resolution Mechanism
+(SRM), European banking groups are still too often required to manage
+their capital and liquidity according to national criteria. We should
+therefore do more to encourage the consolidated management of equity
+and liquidity within cross-border banking groups. The time has come to
+introduce cross-border capital and liquidity waivers, without making
+them conditional on finalising the European Deposit Insurance Scheme
+(EDIS). 
+** 
+xv
+xvi
+xvii
+
+The current environment is putting the French and European economies
+to the test. But our financial sector is entering this period in a position of
+strength. The strong rules introduced since the Great Financial Crisis,
+proactive supervision and the adaptation of business models have
+enabled us to build a resilient banking and insurance sector. This
+resilience must continue to support our competitiveness, our ability to
+innovate and our sovereignty. This is why we must maintain a clear
+course: preserving trust, simplifying without deregulating and completing
+European financial integration. Only by meeting these three conditions
+can banks and insurers fully finance the real economy, support the
+transformations underway and strengthen Europe’s strategic autonomy.
+ 
+
+Moulin (E.) (2026), “Il est très important pour rassurer les marchés et les
+Français d’avoir un budget d’ici la fin de l’année”, France Inter, 7 October
+Insurers’ solvency ratio, as defined in the Solvency II directive, which is
+calculated as the ratio between their eligible capital and their solvency
+capital requirement.
+Targeted Review of Internal Models.
+European Banking Authority
+Directive 2009/138/EC on the taking-up and pursuit of the business of
+insurance and reinsurance (Solvency II).
+European Insurance and Occupational Pensions Authority.
+Moulin (E.) (2026), “Marking our tenth anniversary: One conviction, two
+principles and three challenges”, speech, Forum Fintech ACPR-AMF, 2
+October.
+A payment carried out by an AI agent on behalf of a user.
+Risks resulting from damages directly caused by meteorological or
+climatic phenomena.
+ACPR (2026), “Incendies de l’été 2026 : l’ACPR suit attentivement la
+gestion des risques par les organismes d’assurance”, press release, 14
+September.
+Moulin (E.) (2026), “Renforcer la souveraineté européenne : de
+l’intégration à l’attractivité”, speech, 19 June.
+Distributed ledger technology.
+European Payments Initiative.
+Moulin (E.) (2026), “The importance of being earnest: Building a simpler
+and more competitive European banking market”, speech, Eurofi Dublin, 18
+September.
+ECB (2025), Streamlining supervision, safeguarding resilience, report,
+December.
+European Commission (2026), Communication on banking
+competitiveness, 17 July.
+Lenoci (F.), Molitor (P.) (2024), “Intra-euro area cross-border bank
+lending: a boost to banking market integration?”, ECB report on Financial
+Integration and Structure in the Euro Area, June.
+Download the full publication
+i
+ii
+iii
+iv
+v
+vi
+vii
+viii
+ix
+x
+xi
+xii
+xiii
+xiv
+xv
+xvi
+xvii
+
+Updated on the 5th of November 2026
+Competitiveness and resilience in the financial sector:
+oxymoron or co... (PDF - 387 KB)
