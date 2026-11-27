@@ -553,6 +553,13 @@
     // from the shape to the description text at the  right marginal column
     function arrowRedraw( startCoord=[8.6889, 50.1095] ) {
 
+      // no arrow on mobile viewports
+      const curDisplay = getComputedStyle(root).getPropertyValue('--display-type').trim();
+      if (curDisplay !== "desktop") {
+        return;
+      }
+
+
       const posStart = myChart.convertToPixel({ geoIndex: 0 }, startCoord);
       const maxX = myChart.getWidth();
 

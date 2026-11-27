@@ -6,6 +6,24 @@ import traceback
 from   pathlib      import Path
 
 
+def resolveSafePath(rootDir: str, untrustedPath: str) -> str:
+    realRoot = os.path.realpath(rootDir)
+    # strip leading slashes so os.path.join doesn't discard rootDir
+    cleanRelPath = untrustedPath.lstrip("/\\")
+    fullPath = os.path.realpath(os.path.join(realRoot, cleanRelPath))
+    if not fullPath.startswith(realRoot + os.sep):
+        raise PermissionError(f"Path traversal or symlink escape blocked: {untrustedPath}")
+
+    return fullPath
+
+
+def openInRoot(rootDir: str, untrustedPath: str, mode: str = "r", **kwargs):
+    safePath = resolveSafePath(rootDir, untrustedPath)
+    return open(safePath, mode, **kwargs)
+
+
+
+
 def truncateUtf8(text, limit=128):
     if not isinstance(text, str):
         return text

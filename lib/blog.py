@@ -3,6 +3,7 @@ import locale
 import markdown
 from   pathlib    import Path
 from   flask import g, render_template_string
+import lib.util as util
 
 
 
@@ -56,9 +57,10 @@ def mdParts(blogType: str, lg: str, fn: str , paramAutofocus=False):
     for list view
   """
 
-  pth         = Path("content/blog") / blogType / lg / fn
+  relPth      = Path(blogType) / lg / fn
 
-  with open(pth, "r", encoding="utf-8") as f:
+  # opening markdown inside blog root
+  with util.openInRoot("content/blog", str(relPth), "r", encoding="utf-8") as f:
 
     # first line as head line - link-text
     h1 = f.readline().strip()
@@ -81,7 +83,7 @@ def mdParts(blogType: str, lg: str, fn: str , paramAutofocus=False):
         # autofoc = "autofocus"
         autofoc = ""
 
-    dateLine = dateFormat(pth.stem, lg)
+    dateLine = dateFormat(relPth.stem, lg)
 
     listEntry  = ""
     listEntry += " <li>"

@@ -4,7 +4,7 @@
 
 ```sh
 # at least python 3.11.2
-pip install -r requirements.txt
+uv pip install --system  -r requirements.txt
 
 set FLASK_DEBUG=1
 

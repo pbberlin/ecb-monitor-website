@@ -9,13 +9,10 @@ if currentVersion < requiredVersion:
 
 
 import os
-import json
-import random
 import time
 from   pathlib    import Path
 
 
-import pandas as pd
 import matplotlib
 from   ipaddress import ip_address, ip_network
 from   markupsafe import escape
@@ -23,6 +20,9 @@ from   markupsafe import escape
 from   flask import Flask, request, Response, abort, current_app
 from   flask import render_template, render_template_string, make_response,  send_from_directory
 from   flask import g
+import lib.util as util
+from   lib.util import stackTrace
+
 app  = Flask(__name__)
 # Flask automatically sets this when FLASK_ENV=development
 # or when you run app.run(debug=True)
@@ -280,20 +280,19 @@ def page(htmlFile):
         # prevent /pg/../password
         abort(404)
 
-    baseDir = Path("./content").resolve() # normalize, resolve symlinks
-    pth = baseDir / htmlFile
-    if pth.suffix == "":
-        pth = pth.with_suffix(".html")
+    relPth = Path(htmlFile)
+    if relPth.suffix == "":
+        relPth = relPth.with_suffix(".html")
 
-    # block symlink or drive-letter traversal
-    pth = pth.resolve()
-
-    # contained in base directory
-    if not pth.is_relative_to(baseDir) or not pth.is_file():
+    try:
+        # opening file inside content root
+        with util.openInRoot("./content", str(relPth), "r", encoding="utf-8") as fh:
+            cnt = fh.read()
+    except Exception as exc:
+        stackTrace(exc)
+        print("[page - opening html file]")
         return f"Page '{escape(htmlFile)}' not found.", 404
 
-
-    cnt = pth.read_text(encoding="utf-8")
     renderedCnt = render_template_string(
         cnt,
     )
@@ -352,9 +351,17 @@ def handlerImageLicencse():
 
 @app.route('/md/<md>')
 def markdownAny(lg=None, md=None):
-    pth = Path("content/md") / g.currentLanguage / md
-    # print(f"   pth {pth}")
-    innerCnt = pth.read_text(encoding="utf-8")
+    # keeping currentLanguage in untrusted path because localhost accepts query param
+    relPth = Path(g.currentLanguage) / md
+    # print(f"   pth {relPth}")
+    try:
+        with util.openInRoot("content/md", str(relPth), "r", encoding="utf-8") as fh:
+            innerCnt = fh.read()
+    except Exception as exc:
+        stackTrace(exc)
+        print("[markdownAny - opening markdown file]")
+        abort(404)
+
     rendered = renderMarkdown(innerCnt)
     outerCnt = render_template(
         "markdown-body.html",
@@ -390,7 +397,15 @@ def handlerBlog(blogType=None, lg=None, md=None):
     if md is None:
 
         showBreadCrumb = False
-        blogDir   = Path("content/blog") / blogType / lg
+        try:
+            # resolving directory inside blog root for globbing
+            safeDir = util.resolveSafePath("content/blog", str(Path(blogType) / lg))
+            blogDir = Path(safeDir)
+        except Exception as exc:
+            stackTrace(exc)
+            print("[handlerBlog - resolving blog list dir]")
+            abort(404)
+
         mds = list(blogDir.glob("*.md"))  # markdown files
         mds.sort(reverse=True)
 
@@ -402,6 +417,8 @@ def handlerBlog(blogType=None, lg=None, md=None):
                 _, _, _, _, _, outerCnt = mdParts(blogType, lg, Path(pth).name)
                 listItems.append(outerCnt)
             except Exception as exc:
+                stackTrace(exc)
+                print(f"[handlerBlog - processing {pth}]")
                 return f"error processing {pth}: {exc}"
         innerCnt =  f"""<ul>
                              {''.join(listItems)}
@@ -413,19 +430,39 @@ def handlerBlog(blogType=None, lg=None, md=None):
 
         # newest => find most recent blog
         if md == "newest":
-            blogDir = Path("content/blog")  / blogType / lg
+            try:
+                safeDir = util.resolveSafePath("content/blog", str(Path(blogType) / lg))
+                blogDir = Path(safeDir)
+            except Exception as exc:
+                stackTrace(exc)
+                print("[handlerBlog - resolving newest blog dir]")
+                abort(404)
+
             mds = list(blogDir.glob("*.md"))
+            if not mds:
+                abort(404)
             mds.sort(reverse=True)
             pth = mds[0]
 
         else:
-            pth = Path("content/blog") / lg / md
+            try:
+                safePth = util.resolveSafePath("content/blog", str(Path(blogType) / lg / md))
+                pth = Path(safePth)
+            except Exception as exc:
+                stackTrace(exc)
+                print("[handlerBlog - resolving blog entry]")
+                abort(404)
 
 
         print(f"   blog path  {pth}")
 
 
-        h1, h2, designTpl, restOfFile, da, outerCnt = mdParts(blogType, lg, Path(pth).name)
+        try:
+            h1, h2, designTpl, restOfFile, da, outerCnt = mdParts(blogType, lg, Path(pth).name)
+        except Exception as exc:
+            stackTrace(exc)
+            print("[handlerBlog - reading blog entry]")
+            abort(404)
 
         innerCnt = renderMarkdown(restOfFile)
 
@@ -483,7 +520,6 @@ def quarterlyReportsLatest():
                 print(f"\t{idx1:3} of {pth.name} of {dirPth}")
             pdfFiles.append(pth)
     except Exception as exc:
-        from lib.util import stackTrace
         stackTrace(exc)
         print("[quarterlyReportsLatest - reading pdf directory]")
         abort(500)
@@ -513,7 +549,6 @@ def quarterlyReportsPast():
         for idx1, pth in enumerate(dirPth.glob("*.pdf")):
             pdfFiles.append(pth)
     except Exception as exc:
-        from lib.util import stackTrace
         stackTrace(exc)
         print("[quarterlyReportsPast - reading pdf directory]")
         abort(500)
